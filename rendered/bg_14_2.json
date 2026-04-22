@@ -287,7 +287,8 @@
         "shankara_14.2",
         "anandgiri_14.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita reads 'sadharma' as absolute non-difference (abheda), not as sharing attributes."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -305,7 +306,8 @@
         "madhva_14.2",
         "jayatirtha_14.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita explicitly rejects Advaita's reading of 'sadharma' as identity; liberation is proximity and service, not merger."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -321,7 +323,8 @@
       "witness_passages": [
         "sridhara_14.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara synthesizes jnana-sadhana with devotional fruit (mad-rupatvam), avoiding the sharp Advaita/Dvaita binary."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -329,6 +332,15 @@
       "witness_passages": [
         "madhusudan_14.2"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana alone specifies 'na ca liyante' (not dissolved), closing both the birth-loop and the dissolution-loop, and anchors non-difference in Krsna personally rather than in abstract Brahman."
+    },
+    "visistadvaita": {
+      "divergence_note": "Ramanuja reads 'sadharma' as samya (equality/parity), preserving the jiva's distinct reality within the Lord's body.",
+      "score": 0.5
+    },
+    "suddhadvata": {
+      "divergence_note": "Shuddhadvaita reads liberation as permanent proximity (samipya) rather than dissolution or equality of nature.",
       "score": 0.5
     }
   },
@@ -493,5 +505,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "What is the relationship between 'knowledge as means' (jnana-sadhanam) and 'attaining the Lord's nature' (sadharmatam) — is the knowledge a cause, a condition, or an identity-statement?",
+    "The verse promises immunity both at creation (sarge) and at dissolution (pralaye) — what kind of existence persists through both cosmic poles, and whose account of that existence is most coherent?",
+    "Six schools read 'sadharma' differently (identity, samya, participation, proximity, form-attainment, non-difference) — what is the minimal Sanskrit semantic range of 'sadharmya' that permits all six readings?",
+    "If the liberated do not arise even when Brahma and Hiranyagarbha arise, does this imply a mode of existence outside the creation-dissolution cycle altogether, or a transformed participation in it?",
+    "Madhusudana adds 'na ca liyante' (not dissolved) as a third immunity beyond the verse's two — is this an interpolation, an inference, or a reading licensed by the text's logic?",
+    "Sridhara ends with 'punar na avartante' (they do not return again) — how does BG 14.2's liberation-promise connect to the no-return promise of BG 8.16 (abrahma-bhuvanat lokah)?",
+    "The Madhva commentary is absent for this verse — what does the textual silence itself reveal about how Dvaita sources handle verses whose plain sense most challenges the eternally-distinct-jiva doctrine?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you feel threatened by an upcoming life-change — a new role, a move, a loss — ask: am I the awareness in which this change appears, or am I the change itself? Practice watching the arising without being the one who arises. The verse's immunity at 'sarga' (creation of new circumstances) is available now, not only at cosmic dissolution.",
+    "visistadvaita": "In your work, practice dedicating each project as kainkarya (service) to a larger purpose you did not create. When a team reorganization or a market shift threatens your position, notice that you do not have to be 'the one who gets born into each new structure' — rest in the larger form that holds the structure. This is the practical meaning of 'na srjji-karmatam bhajante.'",
+    "dvaita": "When you catch yourself trying to merge with a role, relationship, or institution — 'I am this company,' 'I am this family' — recognize that your distinct self is a feature, not a flaw. Madhva's liberated jiva is not absorbed but remains itself in Hari's presence. Practice staying yourself even in intimacy: this is 'sadharma' as participation, not erasure.",
+    "suddhadvata": "At the end of a difficult day, instead of seeking escape (pralaya from stress), seek proximity to what you love most — a practice, a person, a quality of attention. Vallabha's 'nityam samipe tisthanti' (they remain always near) is a daily posture: liberation is not elsewhere, it is staying close. Choose to be near the source rather than running from the cycle.",
+    "bhakti": "When a crisis comes and you feel you might not survive it intact, recall that the knowledge Sridhara points to is not information but a practiced understanding that you are not the one who goes through dissolution. 'Pralaye duhkhani na anubhavanti' — at your personal pralaya (burnout, grief, failure), the one who has practiced this does not experience it as suffering in the same way. The practice is: stay with the teaching until it is lived, not merely known.",
+    "advaita-bhakti": "Madhusudana's synthesis suggests that the deepest immunity — 'na ca liyante,' not even dissolved — comes when jnana and bhakti are both operating. In daily life: when you face something that feels like it will annihilate you, bring both clarity (you are awareness) and love (this is Krsna's world) simultaneously. Neither detachment alone nor devotion alone gives the full immunity the verse promises — both together close the loop."
   }
 }
