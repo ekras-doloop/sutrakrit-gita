@@ -309,7 +309,8 @@
         "shankara_1.6",
         "anandgiri_1.6"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Only school where the silence is itself the doctrinal statement."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -318,7 +319,8 @@
         "ramanuja_1.6",
         "vedantadeshika_1.6"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja uniquely foregrounds Duryodhana's inner collapse as the dark mirror of Arjuna's later collapse — both are jīvas overwhelmed by māyā, but only one will receive grace."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -326,7 +328,8 @@
       "witness_passages": [
         "vallabha_1.6"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Unique emphasis: the warriors' quality as mahā-rathas is itself a form of Kṛṣṇa's prasāda manifesting in the world, not merely human valor."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -334,7 +337,8 @@
       "witness_passages": [
         "sridhara_1.6"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Only school offering a technical military typology (mahāratha / atiratha / ardharatha) as the primary exegetical move — the verse is read as a force-assessment document, not a theological one."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -342,6 +346,11 @@
       "witness_passages": [
         "madhusudan_1.6"
       ],
+      "score": 0.5,
+      "divergence_note": "Uniquely reads the enumeration as Duryodhana's internal rhetorical escalation — each name added is a step deeper into his own viṣāda (despondency), making this the psychological fulcrum of the chapter's opening movement."
+    },
+    "dvaita": {
+      "divergence_note": "Only school insisting each named warrior occupies a fixed eternal rank in a strict hierarchy of souls — the list is implicitly a spiritual census, not merely a military one.",
       "score": 0.5
     }
   },
@@ -524,5 +533,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "Why does Duryodhana personally enumerate the enemy's strength to Droṇa rather than ask his general to assess it — what does this self-reporting reveal about the relationship between knowledge, anxiety, and authority?",
+    "Śrīdhara and Madhusūdana both supply the smṛti definition of mahāratha — is this a technical classification or a psychological weapon Duryodhana uses against himself?",
+    "The verse names Abhimanyu (Saubhadra) as a mahā-ratha alongside veterans like Yudhāmanyu — what is the significance of a young warrior's inclusion in this specific catalogue?",
+    "Rāmānuja and Vallabha both see Duryodhana's viṣāda here as a dark prefiguration of Arjuna's viṣāda later — in what ways is recognition of one's opponents' strength a spiritual moment, not merely a military one?",
+    "Śaṅkara's silence on all of Chapter 1 raises a question: when a philosophical tradition deems entire swathes of scripture beneath the threshold of commentary, what is gained and what is lost in that interpretive economy?",
+    "The Draupadīyas — five sons born of one mother to five fathers — are classified here as mahā-rathas before they have spoken a word in the text; what does it mean for one's identity and destiny to be established by catalogue rather than by action?",
+    "All six schools agree the warriors are genuinely powerful — but they disagree sharply on what that power is for (military balance, Bhagavān's providential arrangement, Hari's taratamya ordering, Kṛṣṇa's līlā, precise force-accounting, rhetorical self-torment); which framework changes how you understand your own strengths and the strengths of those who oppose you?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "application": "When you inventory the obstacles before a difficult task — listing the people, circumstances, and forces arrayed against you — notice whether that inventory is feeding clear-eyed preparation or is feeding the sense of a substantial self imperiled by a substantial world. Śaṅkara's silence here is a practice: some catalogues of difficulty are beneath the threshold where the question 'who is counting?' becomes more urgent than the count itself. Before your next strategic assessment, pause and ask whether the assessor needs examining more than the assessment.",
+      "school_anchor": "Advaita inference from Śaṅkara's deliberate silence on Chapter 1 as pre-philosophical scaffolding"
+    },
+    "viśiṣṭādvaita": {
+      "application": "Rāmānuja's reading suggests that the people who seem most formidably arrayed against your projects may be instruments in a larger providential design — not obstacles to be overcome but occasions for recognizing your own insufficiency and turning toward the bhakta (devoted) orientation. In a professional or personal conflict, try identifying one strength of the opposing side that exceeds anything in your camp, and ask what relationship to the whole that imbalance is calling you into rather than what counter-maneuver it demands.",
+      "school_anchor": "Rāmānuja's reading of Duryodhana's viṣāda as the first movement of a soul recognizing force larger than itself"
+    },
+    "dvaita": {
+      "application": "Madhva's taratamya (hierarchical ordering) principle applied practically: in any team or community, genuinely distinct people have genuinely distinct capacities and roles — the mistake is treating everyone as interchangeable (advaitic flattening) or as extensions of yourself (māyāvāda). When building something difficult, explicitly catalogue the distinct capacities of each person involved, resist the impulse to rank them by a single metric, and act from the recognition that each is irreplaceably themselves in service of something larger than any of them.",
+      "school_anchor": "Dvaita taratamya principle inferred from Madhva's hermeneutic, bhāṣya absent from payload"
+    },
+    "śuddhādvaita": {
+      "application": "Vallabha's insight: the strengths you encounter in others — the colleague whose talent makes yours look small, the competitor whose product is genuinely better — are forms of Kṛṣṇa's prasāda (grace) flowing through them, not threats to your standing. Duryodhana's grief comes from experiencing this grace as hostile. The practice is to receive a superior's excellence as prasāda: something given, not something taken. Try, once today, to compliment a competitor's genuine strength without the hidden agenda of deflating your own envy.",
+      "school_anchor": "Vallabha's Puṣṭi-mārga reading of all excellent capacity as Kṛṣṇa's prasāda manifest in bhaktas"
+    },
+    "bhakti": {
+      "application": "Śrīdhara's technical move — defining mahāratha precisely before applying it — is a practice of honest calibration. Before claiming someone is 'excellent' or 'a real threat' or 'a natural leader,' ask: by what standard? What is the actual criterion (śastra-śāstra-pravīṇa — proficient in both weapon-practice and weapon-theory)? Most anxiety about other people's competence dissolves or sharpens usefully when you apply a specific, sourced definition rather than a vague superlative. The next time you are intimidated by someone's reputation, write down exactly what they can do that you cannot.",
+      "school_anchor": "Śrīdhara's philological discipline: supplying smṛti-based definitions of mahāratha, atiratha, and ardharatha before applying the terms"
+    },
+    "advaita-bhakti": {
+      "application": "Madhusūdana's reading: Duryodhana's enumeration is a self-made spiral — each additional great warrior he names deepens his own viṣāda (despondency). This is a recognizable cognitive pattern: the more carefully you enumerate reasons for fear, the more real the fear becomes. The practice is not to suppress the enumeration but to notice when the list has shifted from intelligence-gathering to self-torment. At the moment you realize you are adding names to the catalogue to feel worse, not better, that is the moment to stop counting and ask what action is actually available to you now.",
+      "school_anchor": "Madhusūdana's reading of sarva eva mahā-rathāḥ as rhetorically climactic self-escalation producing Duryodhana's viṣāda"
+    }
   }
 }
