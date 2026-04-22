@@ -273,7 +273,8 @@
         "shankara_7.7",
         "anandgiri_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara's sūtra-analogy is cloth-on-warp, not merely bead-on-thread; identity of kāraṇa and kārya is non-dual, not merely hierarchical."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -282,7 +283,8 @@
         "ramanuja_7.7",
         "vedantadeshika_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja's śarīra-ātman relation preserves real plurality: world and God genuinely differ as body and soul, unlike Śaṅkara's non-dual identity."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -291,7 +293,8 @@
         "madhva_7.7",
         "jayatirtha_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's bhāṣya on 7.7 is minimal (one sentence); the full Dvaita position is inferred from this and his broader taratamya (hierarchy-of-being) doctrine. Absence of extended commentary here is itself noted."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -299,7 +302,8 @@
       "witness_passages": [
         "vallabha_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Against Śaṅkara, Vallabha insists the world is real as Kṛṣṇa's own form; māhātmya-knowledge (not negation of the world) is the gateway to puṣṭi-bhakti."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -307,7 +311,8 @@
       "witness_passages": [
         "sridhara_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara deliberately glosses the verse lightly ('the example is clear'), letting devotional resonance carry the weight rather than extensive philosophical analysis — a contrast with both Śaṅkara and Madhusūdana."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -315,7 +320,8 @@
       "witness_passages": [
         "madhusudan_7.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana uniquely distinguishes what the bead-thread image proves (mere threading) from what it does not prove (causality), and supplies the gold-ornament analogy as the complete image — a refinement absent in Śaṅkara and Śrīdhara."
     }
   },
   "prosodic_information": {
@@ -445,5 +451,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If nothing exists higher than Kṛṣṇa and the world is strung on Him as beads on a thread, does the thread perish when the beads break — i.e., does the destruction of the world threaten the reality of Brahman at all?",
+    "Śaṅkara reads 'prōtam' as non-dual identity (cloth in warp); Rāmānuja reads it as śarīra-ātman (body-soul) relation; Vallabha reads it as real manifestation of Kṛṣṇa's own svarūpa — do all three positions actually contradict each other, or do they disagree only about which level of reality is primary?",
+    "Madhusūdana notes the thread-bead image covers only grathitatva (being-threaded), not kāraṇatva (causality) — what does it mean to be ontologically dependent without being causally derived?",
+    "The verse addresses Dhanañjaya (Arjuna) by his victory-epithet at the moment of cosmological disclosure. Why does Kṛṣṇa invoke the warrior's name here, and what does that framing say about who is fit to receive this teaching?",
+    "If all this is strung in Kṛṣṇa — acit and cit alike, per Rāmānuja — what becomes of the Madhva principle of taratamya (graded difference)? Can genuine hierarchy survive within a single thread?",
+    "Madhva's bhāṣya on 7.7 is a single sentence. Is brevity itself a doctrinal statement — asserting that supremacy needs no elaboration — or is it a textual gap requiring supplementation from his other works?",
+    "The sūtra-maṇi image appears in the Muṇḍaka and Bṛhadāraṇyaka Upaniṣads. By choosing this image, is Kṛṣṇa positioning the Gītā as śruti-equivalent, or is He citing an established śruti metaphor to authorize His own claim?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "When confronted with multiplicity — conflicting obligations, competing identities, fractured attention — the practitioner recalls that each thread of concern is already woven into a single ground (adhiṣṭhāna). Rather than resolving conflicts by choosing one strand over another, the practice is to locate the warp: 'What is the consciousness in which all these arise?' This is not passivity but the recognition that no competing object has independent kāraṇatva; each claim on attention borrows reality from the same source."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "Every person, creature, and inert object encountered today is a śarīra (body) of Bhagavān; none is spiritually inert. The practical consequence: service offered to any being — a colleague, a stranger, a failing student — is offered to the ātman within that body, which is Nārāyaṇa. Kainkarya (loving service) is not confined to the temple; the thread runs through the office, the kitchen, the road."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "The Dvaita practitioner acts from explicit acknowledgment of finitude: 'I am a bead, not the thread; my capacities, my decisions, my virtues are all derived.' This is not self-deprecation but precision — it removes the error of self-sufficiency. Practical discipline: before any significant decision, pause to mark the dependence ('this is Hari's arrangement, not my achievement'), which dissolves the root of ahaṃkāra (ego-attribution) without dissolving the bead's real, distinct existence."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "Vallabha's reading that the world is Kṛṣṇa's real svarūpa (not illusion) transforms aesthetic experience into sādhana (practice): the beauty of a rāga heard at dawn, a child's laughter, the texture of good work done — these are not distractions from Kṛṣṇa but disclosures of Him. Puṣṭi-mārga practitioners cultivate this recognition as the primary form of worship: receiving the world as prasāda (gracious gift), not as obstacle."
+    },
+    "bhakti": {
+      "school": "Bhakti-philological — Śrīdhara",
+      "application": "Śrīdhara's emphasis on sṛṣṭi-saṃhāra-sthiti (creation, dissolution, sustenance) as unified in one cause suggests a practical orientation toward impermanence: beginnings and endings are not opposed events but the same hand moving. When a project ends, a relationship changes, a phase of life closes — the practitioner recognizes this as the one Lord's hand in both the threading and the unthreading. Śrīdhara's 'dṛṣṭāntaḥ spaṣṭaḥ' (the example is clear) counsels against over-intellectualizing: rest in the image itself."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-bhakti — Madhusūdana",
+      "application": "Madhusūdana's two-level reading (paramārtha and vyavahāra coexisting) maps onto a practice of holding both scales simultaneously: act in the world with full competence and care (vyavahāra — the beads are real, the thread is real, the stringing matters), while the deeper register holds lightly ('none of this is ultimately other than the ground'). The synthesis prevents both quietist withdrawal (collapsing to paramārtha alone) and anxious grasping (collapsing to vyavahāra alone). Each action is done with full presence and released without residue."
+    }
   }
 }

@@ -310,7 +310,8 @@
         "shankara_7.5",
         "anandgiri_7.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita reads jiva-bhuta not as permanently distinct but as Brahman appearing as ksatrajna under the superimposition of avidya; jiva is not a second real beside Isvara."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -328,7 +329,8 @@
         "madhva_7.5",
         "jayatirtha_7.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva uniquely identifies para-prakrti with Sri (Laksmi), not merely with the jiva-class — a reading no other school holds. Jivas are a third, distinct ontological category."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -344,7 +346,8 @@
       "witness_passages": [
         "sridhara_7.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's reading is philologically clean and devotionally moderate; it does not identify para-prakrti with Sri (contra Madhva) nor dissolve the jiva into Brahman (contra Sankara)."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -352,6 +355,15 @@
       "witness_passages": [
         "madhusudan_7.5"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudan holds the advaita line (jiva is ultimately Brahman, difference is mithya) but quotes bhakti-canonical sruti (Chandogya) and frames Krsna's inner presence devotionally — the synthesis is the signature."
+    },
+    "visistadvaita": {
+      "divergence_note": "Visistadvaita emphatically marks jiva as cetana (sentient) and constitutively distinct from acatana prakrti — not a transient appearance of Brahman, but a permanent, dependent mode.",
+      "score": 0.5
+    },
+    "suddhadvita": {
+      "divergence_note": "Suddhadvita uniquely argues the jiva's separateness is not fallen but willed by Krsna's own bliss-nature; the differentiation is an act of His ananda, not a defect or illusion.",
       "score": 0.5
     }
   },
@@ -697,5 +709,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If jiva is itself Bhagavan's para-prakrti, what is the doctrinal status of the jiva's suffering — is it real, willed, or an appearance?",
+    "Sankara reads para-prakrti as ultimately non-different from Brahman; Madhva reads it as Sri. What is at stake in that divergence for the ontology of liberation (moksa)?",
+    "All schools agree the jagat is 'held' (dharyate) by jiva-rupa prakrti — but held how? As inner controller (antaryamin), as karma-executor, or as cosmic body?",
+    "Vallabha insists jiva-tvam is not produced by avidya but by Krsna's iccha-sakti. Does this make liberation a return to Krsna's will or an escape from it?",
+    "The verse calls Arjuna maha-baho (mighty-armed) at precisely the moment it reveals the jiva as cosmic bearer — what rhetorical work does this epithet do here?",
+    "Is para-prakrti above or below Krsna himself? The verse says 'me param' (My higher) — which raises the question of whether prakrti, even the higher, is subordinate to the purusa who declares it.",
+    "If the jiva sustains the world through karma (Sridhara: svakarmadvara), does this make karma cosmically constitutive rather than merely individually binding?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you feel the weight of responsibility — 'I am holding this family, this project together' — notice: the ksatrajna (the witnessing awareness in you) is the holding power, not the ego-structure. The inert parts (body, habit, role) are apara; the conscious presence is para. Inquire into which one is actually acting.",
+    "visistadvaita": "Your cetana (conscious self) is not just located in you — it participates in upholding the world as Bhagavan's sarira (body). Treat every conscious being you encounter as a fellow bhoktr (experiencer) who belongs to the Lord; the service you render them is kainkarya (devotional service) to Narayana directly.",
+    "dvaita": "You are permanently, irreducibly you — not a wave that will merge back into the ocean. Your dependence on Hari is total, but your distinctness is never erased. In practice: resist any teaching that tells you 'you will become God'; instead, deepen your surrender knowing you will serve Hari as yourself, forever.",
+    "suddhadvita": "Your sense of being a separate self is not a mistake to be corrected but Krsna's own joyful differentiation — He wanted more centers of ananda (bliss). When confusion or suffering arises, it is His vyamohika-maya temporarily narrowing your access to that ananda. The remedy is not effort but grace (pusta): open yourself to His prasada rather than striving to dissolve the self.",
+    "bhakti": "The jiva sustains the world through sva-karma (its own action) — meaning your daily work is literally dharyate-jagat (world-sustaining) when done as a conscious being aligned with its nature. The devotional implication: do not diminish your agency as trivial. Offer that action — which is cosmically load-bearing — back to Bhagavan.",
+    "advaita-bhakti": "Hold both truths in tension simultaneously: you are ultimately nothing other than pure consciousness (Brahman), and you are also the one through whom Krsna enters and names the world (nama-rupe vyakaravanimi). The practice is not to resolve the tension but to live in it — acting fully in the world as Krsna's presence, while remaining inwardly unbound."
   }
 }
