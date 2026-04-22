@@ -93,3 +93,16 @@ This is the difference between a confirmation-bias-shaped diagnostic and a discr
 5. **Quote for the paper §1 abstract:** *"The cooking-test diagnostic correctly downgrades engineered-monosemous text (ISO 8601, substrate-fit 5–6/10) while upgrading institutionally-coupled bounded-polysemy text (Bhagavad-Gītā, halakhic responsa, common-law jurisprudence, critical-edition philology, all at 9–10/10), across 15 domains tested by two independent engines, with the rank ordering recoverable across both."*
 
 6. **The over-discovery insight reshapes what Sūtrakṛt's substrate is FOR.** It's not just for textual traditions everyone agrees are polysemic. It's for any artifact where interpretive disagreement is institutionally load-bearing — including standards documents and regulatory text that look monosemous on their surface. This expands the addressable domain dramatically.
+
+
+---
+
+## ⚠ Note on terminology — TWO distinct negative controls in this project
+
+This ISO 8601 control is one of two negative-control claims in the Sūtrakṛt program. They validate different things:
+
+1. **ISO 8601 (this file, Apr 22)** negative-controls *the cooking-test diagnostic*. Engineered-monosemous text correctly scored at the bottom of the eval set. Validates that the framework discriminates rather than over-fits.
+
+2. **Tilak Gītā-Rahasya (memory: , Apr 20)** negative-controls *substrate-internal-fit calibration*. Category-3 author-mode-collapse reading correctly scored LOWER than classical bhāṣyas (38.4% R@4 vs 71.5–71.6% for Ramsukhdas/Śaṅkara). Validates that the substrate is faithful to source-polysemy density, not just lifting all readings uniformly.
+
+Do not conflate. Different claims, different evidence.
