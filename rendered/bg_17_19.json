@@ -265,7 +265,8 @@
         "shankara_17.19",
         "anandgiri_17.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara is economical: the verse is a preparation for the dana-trividhyam section; he does not elaborate a theology of self, but focuses on the epistemological defect (aviveka)."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -283,7 +284,8 @@
         "madhva_17.19",
         "jayatirtha_17.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "FLAG: No Madhva bhashya available for this verse. Rendering is school-inferential only."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -299,7 +301,8 @@
       "witness_passages": [
         "sridhara_17.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's abhichara-rupa lens is unique in the panel: it connects tamasic tapas to the tradition of ritual cursing and black-rite, absent from Shankara's purely epistemological or Ramanuja's capacity-assessment frames."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -307,6 +310,15 @@
       "witness_passages": [
         "madhusudan_17.19"
       ],
+      "score": 0.5,
+      "divergence_note": "Unique to Madhusudana: the deha-indriya-sanghata specification (Advaita precision) combined with shishtaih as the epistemic anchor (community-of-the-wise as validity criterion) — a synthesis neither Shankara nor Sridhara alone achieves."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Unique to Ramanuja: the phrase shakty-adikam aparikshya — failure to assess one's own capacity — grounds the defect in a practical, relational ethic absent from Shankara's purely epistemological account.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "FLAG: No Vallabha bhashya available for this verse. Rendering is school-inferential only.",
       "score": 0.5
     }
   },
@@ -348,5 +360,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "What distinguishes tapas that happens to be painful from tapas that is defined by the intent to cause pain — and does intention alone determine the guna, or does the absence of viveka make it tamasic regardless of intent?",
+    "Ramanuja inserts 'shakty-adikam aparikshya' (without examining one's capacity) — does this imply that the same act of self-mortification could be sattvic in one person and tamasic in another, depending on self-knowledge?",
+    "Sridhara names the other-directed form as abhichara-rupa (resembling malefic rite) — when does competitive or adversarial austerity (e.g., ascetics who fast to compel a rival) cross into this category?",
+    "If tamasic tapas is rooted in mudha-graha (foolish obstinacy), what is the corrective — is it more knowledge (Shankara's viveka), more devotion (Ramanuja's Bhagavat-orientation), or a different relationship to the will altogether?",
+    "Madhusudana locates the pida in the deha-indriya-sanghata, not the atman — does this mean self-mortification is always a category error from the Advaita perspective, merely disciplining what is not oneself?",
+    "The verse pairs self-harm and other-harm as co-equal expressions of tamasic tapas — what does this pairing reveal about the underlying structure of tamas: is it essentially self-contracted (turned inward and outward by the same impulse)?",
+    "All three available bhashyas use the term duragraha (bad grip, wrong fixity) — what tradition of the term duragraha are they drawing on, and how does it differ from the sattvic sankalpa (resolve) praised in the previous verse?"
+  ],
+  "everyday_applications": {
+    "advaita": "Before any regimen of self-discipline — fasting, silence, vigorous practice — ask: 'Is this accompanied by viveka (discriminative clarity) or by aviveka-nishchaya (a conclusion reached without discrimination)?' Tamasic tapas often disguises itself as intensity. The test: can I articulate clearly what this practice is purifying in me, and why? If the honest answer is 'I am just pushing harder,' Shankara's flag applies.",
+    "vishishtadvaita": "When undertaking any demanding practice, Ramanuja's shakty-adikam aparikshya principle asks: have I honestly assessed my own capacity, health, and readiness? Overcommitting in a way that injures body or relationships — even from devotional motivation — is still mudha-graha. Calibrated, sustainable practice aligned with one's actual capacity is Bhagavat-seva; heroic self-destruction is not.",
+    "dvaita": "In Dvaita terms, ask whether any intense austerity you are contemplating is oriented toward Hari-priti (pleasing Vishnu) or toward demonstrating your own will-power. Tamasic tapas is self-willed; it reports to the self's own narrative of virtue. The corrective is to hand the practice back to Vishnu as dependent worship — which means the practice must actually serve his purposes, not your performance of them.",
+    "shuddhadvaita": "Pushti-marga inverts the logic of self-coercion: the question is not 'how much can I endure?' but 'am I open to Krishna's grace?' Any practice that closes the practitioner to grace — that substitutes striving for receptivity — has turned tamasic regardless of its outer form. In daily life: notice when 'discipline' becomes rigidity or when 'commitment' becomes a wall against relationship and spontaneity.",
+    "bhakti": "Sridhara's abhichara-rupa category has a modern analog: any practice, competitive fast, or public austerity whose hidden purpose is to damage another's standing, force another's compliance, or win a social contest. This includes guilt-tripping through self-deprivation ('see how much I suffer because of you'). The bhakti test: does this practice increase openness to Bhagavan and warmth toward others, or does it feed grievance?",
+    "advaita-bhakti": "Madhusudana's deha-indriya-sanghata specification offers a practical diagnostic: if a discipline is being done to or through the body-sense complex without any element of witness-awareness, it is likely disciplining the not-self while calling it self-discipline. The shishtaih criterion adds a community check — seek out practitioners the shishta tradition recognizes as realized, and let their testimony calibrate whether your practice is moving toward light or deeper fixation."
   }
 }

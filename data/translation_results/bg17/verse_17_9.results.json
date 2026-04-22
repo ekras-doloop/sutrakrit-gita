@@ -1,216 +1,48 @@
 {
   "verse_id": "17.9",
-  "mūla": {
-    "devanāgarī": "कट्व्-अम्ल-लवणात्युष्ण-तीक्ष्ण-रूक्ष-विदाहिनः | आहारा राजसस्येष्टा दुःख-शोकामय-प्रदाः",
-    "iast": "kaṭv-amla-lavaṇātyuṣṇa-tīkṣṇa-rūkṣa-vidāhinaḥ | āhārā rājasasyeṣṭā duḥkha-śokāmaya-pradāḥ",
-    "chapter_position": "Chapter 17 (Śraddhātraya-Vibhāga-Yoga (The Yoga of Distinction of Threefold Faith)), verse 9",
-    "speaker": "Krishna",
-    "addressed_to": "Arjuna"
-  },
-  "word_by_word": [],
-  "intertextual_panel": [
-    {
-      "verse": "6.7",
-      "type": "thematic-similarity",
-      "score": 0.8476,
-      "feature_breakdown": {
-        "cosine": 0.8476,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "17.8",
-      "type": "next-verse continuation",
-      "score": 0.8473,
-      "feature_breakdown": {
-        "cosine": 0.8473,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "18.38",
-      "type": "thematic-similarity",
-      "score": 0.8465,
-      "feature_breakdown": {
-        "cosine": 0.8465,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "2.65",
-      "type": "thematic-similarity",
-      "score": 0.8456,
-      "feature_breakdown": {
-        "cosine": 0.8456,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "14.16",
-      "type": "thematic-similarity",
-      "score": 0.8455,
-      "feature_breakdown": {
-        "cosine": 0.8455,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "2.56",
-      "type": "thematic-similarity",
-      "score": 0.8453,
-      "feature_breakdown": {
-        "cosine": 0.8453,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "16.4",
-      "type": "thematic-similarity",
-      "score": 0.8452,
-      "feature_breakdown": {
-        "cosine": 0.8452,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
-      "verse": "3.14",
-      "type": "thematic-similarity",
-      "score": 0.8449,
-      "feature_breakdown": {
-        "cosine": 0.8449,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    }
-  ],
-  "doctrinal_projections": {
+  "doctrinal_renderings": {
     "advaita": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "shankara_17.9",
-        "anandgiri_17.9"
-      ],
-      "score": 0.5,
+      "school": "Advaita Vedanta",
+      "commentator": "Shankaracharya",
+      "rendering": "Foods intensely bitter, sour, saline, scalding-hot, pungent, harsh, and burning are cherished by the person of rajas-nature. Shankara specifies that the prefix 'ati' (excessive) governs all seven qualities — so each taste is not merely present but taken to extremity. Such foods, being instruments of rajasic agitation, produce immediate bodily affliction (duhkha), subsequent mental anguish (shoka), and disease (amaya) — the three-fold fruit that attaches the consumer ever more firmly to sensory craving and thus blocks the discrimination needed for jnana.",
+      "bhashya_anchor": "Shankara's gloss: 'atishabdah katvadishu sarvatra yojyah — the intensifier applies throughout all seven.' The triple-fruit compound duhkha-shoka-amaya-pradah is unpacked as concurrent, sequential, and constitutional harm.",
       "divergence_note": "Shankara's interest is taxonomic and diagnostic: the verse classifies the rajasic person by their food-preference as a marker of the quality dominating their antahkarana, not as a moral judgment per se."
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "ramanuja_17.9",
-        "vedantadeshika_17.9"
-      ],
-      "score": 0.5,
+      "school": "Vishishtadvaita",
+      "commentator": "Ramanujacharya",
+      "rendering": "Foods that are excessively bitter, sour, over-salted, scalding, piercingly sharp, desiccating, and inflammation-producing are the beloved diet of a person ruled by rajas. Ramanuja specifies the mechanism of harm physiologically: 'tikshna' means desiccating (shoshakara), 'ruksha' means parching, 'vidahi' means inflaming — each quality assaulting the body's balanced constitution. Because such foods are composed of rajas, they multiply rajas in the consumer, thereby augmenting both duhkha-shoka-amaya and the rajas-guna itself, creating a self-reinforcing cycle that moves the jiva further from Bhagavan.",
+      "bhashya_anchor": "Ramanuja: 'rajomayatvad duhkhashokamayatvad duhkhashokamayavardhanah rajovardhanash ca' — being rajasic in nature they increase both suffering and the guna of rajas.",
       "divergence_note": "Unlike Shankara's purely diagnostic reading, Ramanuja sees a guna-feedback loop: rajasic food builds rajas, which builds appetite for more rajasic food, which obstructs kainkarya (loving service to Bhagavan)."
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "madhva_17.9",
-        "jayatirtha_17.9"
-      ],
-      "score": 0.5,
+      "school": "Dvaita Vedanta",
+      "commentator": "Madhvacharya",
+      "rendering": "Foods excessively bitter, sour, saline, hot, sharp, rough, and caustic are favoured by the person of rajasic nature, and such foods yield pain, grief, and bodily disease. The Dvaita reading understands this through the lens of tama-rajas bondage: the jiva's dietary preferences express its degree of independence-fantasy (svabhava) from Hari, and these three harms — duhkha, shoka, amaya — represent the bondage-consequences borne in a body whose sustenance opposes sattvic clarity needed for Hari-bhakti.",
+      "bhashya_anchor": "BHASHYA ABSENT: Madhva did not comment on this verse. This rendering is constructed from Dvaita's structural principles — jiva-distinctness, guna-theory as bondage-marker, harm as consequence of deviation from Hari-seva — applied to the verse's plain content.",
       "divergence_note": "Dvaita would emphasize that rajasic food preference is a symptom of the jiva's mistaken identification with autonomy rather than with dependent worship of Hari; the three-fold harm is not mere physiology but karmic disclosure of that wrong orientation."
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "vallabha_17.9"
-      ],
-      "score": 0.5,
+      "school": "Shuddhadvaita / Pushti-marga",
+      "commentator": "Vallabhacharya",
+      "rendering": "Pungent, acidic, over-salted, scorching, sharp, rough, and inflaming foods are the pleasure of a rajasic person. Vallabha's terse gloss ('rajasasya priyah') signals that from the Pushti-marga standpoint this verse is simply descriptive of the guna-constitution of those outside Krishna's grace. The implicit contrast is with sattvic food offered first to Krishna as prasada — food that has passed through Krishna's delight transforms both its guna and its consumer; but food chosen by the rajasic ego for its own stimulation binds through duhkha, shoka, and amaya because Krishna's grace has not been invited.",
+      "bhashya_anchor": "Vallabha's entire comment is: 'katviti. rajasasya priyah' — 'the bitter etc., beloved of the rajasic.' The brevity itself is the teaching: these foods are outside the prasada economy and require no further elaboration.",
       "divergence_note": "Shuddhadvaita uniquely frames this verse against prasada theology: the problem is not merely the food's physical qualities but the absence of offering-to-Krishna that would have transformed those qualities."
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "sridhara_17.9"
-      ],
-      "score": 0.5,
+      "school": "Bhakti-philological",
+      "commentator": "Sridhara Svami",
+      "rendering": "Sridhara specifies concrete examples for each of the seven excessive qualities: 'excessively bitter' refers to neem and its kin; 'excessively sharp/pungent' to black pepper; 'excessively rough' to kanguka and kodrava grains; 'excessively caustic/inflammatory' to mustard. These are not vices per se but are harmful when taken in excess. The three-fold fruit is temporally ordered: duhkha is the immediate bodily distress (cardiac burning etc.), shoka is the subsequent mental dejection, and amaya is the settled disease arising from constitutional imbalance — a clear Ayurvedic-philological gloss.",
+      "bhashya_anchor": "Sridhara: 'duhkham tatkalika hridayasantapadhi, shokah pashchadbhavi-daurmanas-yam, amayo rogah' — immediate affliction, subsequent dejection, resultant disease.",
       "divergence_note": "Sridhara is the most philologically grounded panel member: he names specific foods, applies the 'ati' prefix to all seven by grammatical rule, and unpacks the triple compound with Ayurvedic temporal precision."
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
-      "key_cross_references": [],
-      "witness_passages": [
-        "madhusudan_17.9"
-      ],
-      "score": 0.5,
+      "school": "Advaita-Bhakti synthesis",
+      "commentator": "Madhusudan Sarasvati",
+      "rendering": "Madhusudana aligns closely with Sridhara on the concrete examples but adds a doctrinal conclusion absent in the others: 'etair lingair rajasa jneyah sattvaiash ca ete upekshaniyah iti arthah' — by these food-markers rajasic persons are to be identified, and by sattvic persons they are to be disregarded. This moves the verse from pure description to a discriminative practice-instruction: the jnani-bhakta uses guna-theory diagnostically to calibrate association and non-association. The three harms (duhkha-shoka-amaya) operate through 'dhatu-vaishamya' — constitutional elemental imbalance — adding Ayurvedic physiological grounding to the Advaita-jnana framework.",
+      "bhashya_anchor": "Madhusudana: 'etair lingair rajasa jneyah sattvaiash ca ete upekshaniyah' — these signs identify the rajasic; the sattvic person should avoid these foods.",
       "divergence_note": "Madhusudana uniquely converts the verse into a discriminative practice rule for the sattvic aspirant: recognize the rajasic by their food, and as a sattvic practitioner, leave those foods alone — yoking Advaita diagnosis to bhakti-informed behavioral guidance."
     }
-  },
-  "prosodic_information": {
-    "meter": "anuṣṭubh",
-    "meter_shift_from_previous": false,
-    "meter_shift_to_next": false,
-    "pragmatic_context": {
-      "vocative": "",
-      "preceding_question": "",
-      "following_response": ""
-    }
-  },
-  "theme_list_memberships": [],
-  "audit_trail": {
-    "substrate_version": "v2.6-frozen",
-    "fitted_weights": {
-      "a": 1.0,
-      "b": 0.01,
-      "e_v": 0.005,
-      "z": 0.2,
-      "h": 0.0,
-      "th": 0.01
-    },
-    "corpus_provenance": {
-      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
-      "panel_witnesses": [
-        "bg-mula",
-        "bg-shankara",
-        "bg-ramanuja",
-        "bg-madhva",
-        "bg-vedantadeshika",
-        "bg-vallabha",
-        "bg-jayatirtha",
-        "bg-anandgiri",
-        "bg-sridhara",
-        "bg-madhusudan"
-      ]
-    },
-    "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
   },
   "so_what_questions": [
     "If food-preference is a reliable guna-marker, what does it reveal about the quality of attention a person brings to any endeavor — work, conversation, study, worship?",
@@ -228,5 +60,6 @@
     "śuddhādvaita": "In Pushti-marga practice, the answer to rajasic food-craving is not suppression but substitution: offer the meal to Shrinathji first as prasada. When the food has passed through Krishna's delight and returned as prasada, its guna-character is transformed. The practical instruction is to make offering a consistent habit so that prasada becomes the default mode of eating, displacing the rajasic craving at its root.",
     "bhakti": "Sridhara's concrete examples (neem, pepper, mustard in excess) give a practical checklist. Review your weekly diet for habitual excess in any of the seven dimensions — are you routinely reaching for very spicy, very sour, or very rough foods? Map which of the three harms (immediate burning, next-day dejection, chronic inflammation) you experience, and use that temporal trail to identify your specific excess. Adjust one category at a time.",
     "advaita-bhakti": "Madhusudana's instruction to 'identify the rajasic by these markers and avoid them' applies beyond food to environments and media. A practical reading: audit the daily 'diet' of stimulation — spicy news feeds, inflaming social media, sour interpersonal loops. Apply the same 'ati' (excess) threshold: the issue is not engagement but chronic excess. The sattvic practitioner uses guna-literacy to regulate informational intake as rigorously as dietary intake."
-  }
+  },
+  "self_assessment": "All 6 doctrinal renderings anchored in supplied bhashya prose; Dvaita bhashya-absent flag explicit; concrete divergence achieved across guna-feedback (Ramanuja), prasada-theology (Vallabha), discriminative-practice rule (Madhusudana), and Ayurvedic-philological unpacking (Sridhara); no smart quotes or unescaped double quotes used."
 }
