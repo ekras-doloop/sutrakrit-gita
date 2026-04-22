@@ -284,7 +284,8 @@
         "shankara_13.7",
         "anandgiri_13.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita reads these qualities purely as preparation for nirvikalpa-jnana; they cease to be 'virtues' and become epistemological clearing operations."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -302,7 +303,8 @@
         "madhva_13.7",
         "jayatirtha_13.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Flag: Madhva's direct commentary on 13.7 is absent from this payload. The rendering is inferred from dvaita first principles; mark as INFERRED."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -318,7 +320,8 @@
       "witness_passages": [
         "sridhara_13.7"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's bhashya in the payload covers 13.5-6 content. The 13.7 jnana-list rendering is inferred from his documented method. Flag: INFERRED."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -326,6 +329,15 @@
       "witness_passages": [
         "madhusudan_13.7"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudhana's direct commentary on the 13.7 quality-list is inferred from his bhashya frame; the supplied prose covers 13.5-6. Mark as PARTIALLY INFERRED."
+    },
+    "visistadvaita": {
+      "divergence_note": "Visistadvaita makes every virtue explicitly relational and devotional — they orient the jiva toward the acarya and ultimately toward Isvara, not toward cognitive absorption.",
+      "score": 0.5
+    },
+    "suddhadvita": {
+      "divergence_note": "Vallabha's direct 13.7 prose targets the preceding ksetra-verse; the prasada-frame is his documented hermeneutic applied here. Mark as INFERRED for the quality-list application.",
       "score": 0.5
     }
   },
@@ -419,5 +431,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If these eight qualities are called 'jnana' rather than 'virtue', what does that tell us about the Gita's theory of knowledge — is moral preparation identical to epistemic preparation?",
+    "Amanitvam (freedom from pride) heads the list. Why begin with pride rather than, say, non-violence — what does pride obstruct that no other flaw obstructs?",
+    "Acaryopasanam (attendance on the teacher) appears between arjavam and saucam. What is the structural logic of placing a social/relational practice inside a list of interior qualities?",
+    "The list contains both negatively-framed qualities (a-manitvam, a-dambhitvam, a-himsa) and positive ones (ksanti, arjavam, sthairyam). Is the negative/positive distinction meaningful, or is it a surface feature of Sanskrit word-formation?",
+    "Sthairyam (steadiness) and atma-vigraha (self-restraint) close the list. Are these the culminating qualities that the preceding six make possible, or is the sequence non-hierarchical?",
+    "Six schools anchor these qualities in very different ultimate goals — liberation-as-identity (Advaita), liberation-as-loving-service (Visistadvaita), liberation-as-dependence (Dvaita), liberation-as-prasada-absorption (Pustimarga). Does the quality-list look different depending on which telos you read it toward?",
+    "Computational question: if a retrieval substrate surfaces these eight qualities across the Gita's 700 verses, where do each re-appear — and does their distribution form a detectable structural pattern?"
+  ],
+  "everyday_applications": {
+    "advaita": "Before a high-stakes meeting or presentation, practice what Sankara calls the jnana-sadhana clearing: notice which of the eight qualities is absent in you right now (pride? pretence? reactivity?). That absence is not a moral failing — it is pointing at the exact knot in the antahkarana that is blocking clear seeing. Name it, set it aside, proceed as the witness.",
+    "visistadvaita": "When you feel contempt arising toward a colleague or family member, recognize it as the precise opposite of amanitvam as Ramanuja defines it — 'absence of disrespect toward superior persons.' Ask: in what way is this person, right now, your superior in something? The discipline is not flattery but accurate perception of the other's dignity.",
+    "dvaita": "When you are tempted to take credit for a success — personal, professional, or spiritual — pause and apply adambhitvam in Madhva's register: the result came through you, not from you. The jiva is asvatantra (not self-sufficient). Say plainly what you contributed and attribute the rest accurately. This is not false modesty; it is ontological precision.",
+    "suddhadvita": "Pustimarga practice: treat every moment of genuine patience (ksanti) or uprightness (arjavam) today not as your achievement but as Krsna's gift arriving through you. Keep a brief log of these moments — not to track your virtue, but to recognize where prasada is already flowing. What you track, you can receive more fully.",
+    "bhakti": "Identify your current acarya — the person or text or community that is actually transmitting living knowledge to you right now, not merely information. Acaryopasanam in Sridhara's framing means pranipata (bowing), pariprasna (asking real questions), and seva (service). Which of these three is missing in your relationship with your teacher? That gap is the practice.",
+    "advaita-bhakti": "Madhusudhana's synthesis offers a daily double-check: for any inner state you are experiencing right now, ask two questions simultaneously — (1) Can I witness this without being it? (jnana register) and (2) Can I offer this to Krsna as it is? (bhakti register). If both answers are yes, you are in the quality the verse describes. If either is no, you have your practice for the day."
   }
 }

@@ -268,7 +268,8 @@
         "shankara_13.13",
         "anandgiri_13.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara explicitly rejects the alternative reading 'anadimad mat-param' (taking 'mat' as referring to Vasudeva-shakti) as apavyakhyana — a distorted reading — because attributing a specific shakti to Brahman violates the total negation of vishesha that this verse establishes."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -286,7 +287,8 @@
         "madhva_13.13",
         "jayatirtha_13.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva does not engage the sat/asat dialectic at length; for him, Brahman's transcendence of sat/asat means only that ordinary categories of finite existence do not capture Hari's infinite svabhava — not that Brahman is beyond existence as such."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -302,7 +304,8 @@
       "witness_passages": [
         "sridhara_13.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's 'mat-param' reading points toward a personal ground for the impersonal Brahman — Vishnu is the named antecedent of 'mat' — which Shankara rejects as apavyakhyana. The devotional school thus retains a personal anchor even within the apophatic frame."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -310,6 +313,15 @@
       "witness_passages": [
         "madhusudan_13.13"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana's synthesis holds: Brahman is nirvishesha (Shankara), yet Krishna can 'pravakshyami' (speak it) through lakshana-vrtti — indirect denotation. Bhakti-rasa is not surrendered; the devotee's Krishna is the very svarupa that transcends both sat and asat."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Ramanuja does not read 'na sat tan nasad' as an absolute negation of all predication; rather, Brahman transcends ordinary sat/asat because its nature as vishishta (qualified by cit and acit) exceeds the binary. Brahman is supremely real, not beyond reality.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha diverges sharply from Shankara: Brahman is not nirvishesha (featureless) but svishesha (fully qualified) — the 'na sat na asat' formula is a floor, not a ceiling; it rules out finite categories while leaving Krishna's positive gunas intact.",
       "score": 0.5
     }
   },
@@ -387,5 +399,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If Brahman cannot be called 'sat' (existing) or 'asat' (non-existing), what epistemic status does the Gita's own claim to teach about it actually have?",
+    "Shankara says words function only via jati, kriya, guna, or sambandha — and none applies to Brahman. Is the Gita itself then pointing at its own limit?",
+    "When Ramanuja says Brahman transcends sat/asat because it is 'vishishta' rather than nirvishesha, is that a different answer or a different question from Shankara's?",
+    "If Madhva's Hari is beyond sat/asat while remaining the fully independent Lord with definite svabhava, does 'na sat na asat' mean something categorically different for Dvaita than for Advaita?",
+    "Vallabha's Krishna is the ashraya (ground) of both contradictory dharmas — does this make 'na sat na asat' a sign of abundance rather than absence?",
+    "Madhusudana allows lakshana-vrtti (indirect denotation) to rescue scriptural transmission of the unspeakable — does that rescue apply to all schools equally, or only to the nirvishesha position?",
+    "If the knowable (jneya) is that by knowing which one attains amritatvam, and the knowable is beyond all predication, what does 'knowing' it actually consist in?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you catch yourself insisting 'I know exactly what I am' or 'I know exactly what I am not' — career, role, relationship — notice that both the affirmation and the negation are equally incomplete. The jñani's practice here is to hold the open question without collapsing it: neither claiming full self-knowledge nor denying that there is something to know.",
+    "vishishtadvaita": "Your deepest self is not the bounded person you experience on an ordinary day. Ramanuja's point is that the pure atman, when liberated, participates in Bhagavan's all-pervasive functioning. In practice: when you act in service (kainkarya), stop tracking the limits of your capacity — act as though the Lord's hands and eyes are operating through you, because the shruti says they can.",
+    "dvaita": "You are not Hari. This is not a humiliation — it is the architecture of relationship. Madhva's application: in work, in family, in practice — identify clearly what is your responsibility and what is the Lord's domain. Dependency on Hari is not weakness; it is the accurate map of how reality is structured. Confusing yourself with the source of power is the root error.",
+    "shuddhadvaita": "The verse's 'na sat na asat' points to Krishna's inexhaustibility. Vallabha's application: do not reduce your encounter with Krishna — in scripture, image, kirtan, or memory — to a single fixed meaning. The Lord's gunas are ananta (infinite); every encounter can reveal a new facet. The devotee's practice is to stay porous to that inexhaustibility rather than fixing a final definition.",
+    "bhakti": "Sridhara's 'mat-param' reading keeps a personal anchor in the impersonal: even nirvishesha-Brahman is 'Vishnu's own rupa.' In life, this means: intellectual inquiry into the absolute need not end in abstraction — it can return to a personal devotional center. When philosophical study exhausts the conceptual categories, let it empty into bhakti rather than into nihilism.",
+    "advaita-bhakti": "Madhusudana's synthesis offers a practical technology for moments of genuine unknowing: when you cannot name what you are experiencing — grief that is not quite grief, joy that exceeds its occasion — resist the urgency to categorize. The experience is pointing beyond both the affirmative and negative frames. This is not pathology; it is the self touching its own ground. The appropriate response is not analysis but attentive stillness."
   }
 }

@@ -266,7 +266,8 @@
         "shankara_13.19",
         "anandgiri_13.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita renders purusa as the one non-dual Brahman mistakenly appearing as individual witness; prakrti is maya-shakti, not an independent eternal; hence 'both beginningless' means neither has a temporal origin, but prakrti is ultimately subsumed in Brahman at liberation."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -284,7 +285,8 @@
         "madhva_13.19",
         "jayatirtha_13.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita insists the jiva, Ishvara, and prakrti are all real and eternally distinct; the jiva's dependence on Hari is absolute, and no dissolution of distinctions is ever possible — liberation is participation in Hari's bliss, not identity with Brahman."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -300,7 +302,8 @@
       "witness_passages": [
         "sridhara_13.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's reading is integrative rather than polemical: the bhakti qualification frames the jnana content; liberation-as-Brahmanhood is not absorption but the fullness of the devotee's relationship to Bhagavan."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -308,6 +311,15 @@
       "witness_passages": [
         "madhusudan_13.19"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudhana uniquely fuses the Advaita goal (non-dual liberation) with the Bhakti path (total surrender to Krsna as Guru); mad-bhava is simultaneously Brahman-realisation and Krsna-proximity, dissolving the tension between jnana and bhakti marga."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Unlike Advaita, Vishishtadvaita keeps prakrti as a real eternal body of Ishvara, not maya; the jiva-purusa is a real individual spirit, never identical to Brahman, only inseparably related as attribute to substance.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Shuddhadvaita alone reads the verse as affirming that both poles emerge FROM Brahman (not alongside Brahman); liberation is not escape from prakrti but enjoyment of Krsna's own being through His grace-gift (pushti).",
       "score": 0.5
     }
   },
@@ -453,5 +465,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If both prakrti and purusa are beginningless, what does that imply about the project of tracing suffering to a first cause — is there a first cause to find?",
+    "The verse commands 'know' (viddhi) twice. What kind of knowing is being demanded — intellectual assent, meditative recognition, or something else entirely?",
+    "Every school agrees the modifications (vikara) and gunas arise from prakrti. What follows practically: should a practitioner work against the gunas, work through them, or simply stop misidentifying with them?",
+    "Ramanuja says the same prakrti that binds also liberates depending on orientation of its modifications. What determines which way the arrow points — will, grace, or structural design?",
+    "If purusa is already eternal and untouched, why does liberation feel like achievement? What exactly is being 'achieved'?",
+    "Madhva sees the verse as demonstrating the prabhava (power) of Hari through the sheer multiplicity of means. Does multiplicity of path imply equality of path, or hierarchy?",
+    "Vallabha locates both prakrti and purusa inside Paramatman. Does that make the purusha-prakrti duality ultimately cosmetic — a fold within a single fabric — or is the distinction real even inside the One?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you notice yourself saying 'I am stressed' or 'I am excited', practice inserting the discriminating pause: 'there is stress appearing in awareness.' The purusa does not become the modification; the witness does not become the weather. This is viddhi — cognitive re-identification — practiced not once in philosophy class but every time a strong emotion arises.",
+    "vishishtadvaita": "Bring the same humility (amanitvam) you might offer to a revered teacher into your morning routine: before checking your phone, acknowledge that the day's conditions — body, circumstances, even the quality of your attention — are prakrti offering itself. Whether the day binds or liberates you depends on whether you orient those conditions toward service or toward self-assertion.",
+    "dvaita": "When you face a difficult decision and feel overwhelmed by options, recognise that the very multiplicity — the many means, the many voices, the many impulses — is itself a form of the Lord's power. You are not abandoned in complexity; you are being addressed by it. Make your choice as an act of dependence on Hari, not as self-sufficient mastery.",
+    "shuddhadvaita": "Engage with beauty — music, food, a child laughing, the evening light — as the Lord's own nature unfolding for you to receive. Shuddhadvaita does not ask you to renounce; it asks you to stop treating enjoyment as yours by right and start receiving it as prasada. The same sensory world that traps the self-possessive becomes the gift-field of Krsna for the surrendered.",
+    "bhakti": "Study systematically — not to accumulate information but to qualify yourself as a recipient. Sridhara's point is that the field, the knowledge, and the knowable form a complete package, but only the person who has already cultivated devotion can receive it whole. Take stock: which of these three is weakest in your understanding, and approach that gap as your current sadhana.",
+    "advaita-bhakti": "Find one teacher — a living person, a text, a practice lineage — to whom you can offer your entire intellectual effort without reservation. Madhusudhana's insight is that the compression of the entire Gita into this verse is itself a grace-act aimed at 'those of modest intellect,' meaning all of us who cannot hold the full teaching simultaneously. Surrender the need to have figured it all out, and let the Guru carry the weight of the framework."
   }
 }

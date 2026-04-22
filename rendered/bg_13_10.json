@@ -251,7 +251,8 @@
         "shankara_13.10",
         "anandgiri_13.10"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita alone frames bhakti here instrumentally — it is jnana because it purifies for jnana, not an end in itself."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -269,7 +270,8 @@
         "madhva_13.10",
         "jayatirtha_13.10"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva alone insists on the ontological falsity of abhishvanga; Advaita and Vishishtadvaita frame it as psychological obstruction, not metaphysical error about the jiva's independence."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -285,7 +287,8 @@
       "witness_passages": [
         "sridhara_13.10"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Unlike the Advaita reading, Sridhara does not privilege jnana over bhakti; unlike Ramanuja, he does not frame sarvesvara as the theological center. His voice is synoptic and pedagogical."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -293,6 +296,15 @@
       "witness_passages": [
         "madhusudan_13.10"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudan alone makes the logical structure of the two attachments fully explicit as differing degrees of self-other identification, bridging Shankara's precision with the devotional warmth absent in strict Advaita."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Unlike Advaita, Ramanuja does not subordinate bhakti to jnana; here bhakti is the knowledge itself, and the jiva remains permanently distinct from yet within Ishvara.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha's gloss is the shortest in the panel and the most radically reorienting: 'other world' (amutra) rather than 'this world' objects, making the renunciation eschatological not merely domestic.",
       "score": 0.5
     }
   },
@@ -371,5 +383,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "When I feel that another person's pain is literally my own pain, is that empathy or is it the abhishvanga (excessive identification) that this verse asks me to notice and loosen?",
+    "The verse pairs vivikta-desha-sevitva (resort to solitary places) with arati in jana-samsadi (disaffection for crowds) — is solitude a cause of non-attachment or its consequence, and does it matter which direction the arrow points?",
+    "All six schools agree that equanimity (samacittatva) is desirable, yet they disagree sharply on why: is the verse teaching psychology, metaphysics, or devotional practice — and does that disagreement change what the instruction means for daily life?",
+    "The verse is embedded in the kshetra-kshetrajna discourse (BG 13): how does relinquishing abhishvanga toward family members relate to recognizing that all bodies, including those of one's children, are the field (kshetra) and not the self?",
+    "Vallabha reads asakti as detachment from the enjoyments of the other world (amutra), not this one — does that reframe the verse from domestic non-attachment to a more radical eschatological stance, and which reading is more honest to the Sanskrit?",
+    "If bhakti toward Krishna is itself listed as a component of jnana here, what does the verse imply about traditions that sharply separate the path of devotion from the path of knowledge?",
+    "The verse mentions both solitary dwelling and undeviating devotion in the same breath — is the rishis' practice of aranya (forest retreat) a structural requirement for the kind of bhakti described, or merely one cultural form it has taken?"
+  ],
+  "everyday_applications": {
+    "advaita": "When a parent finds themselves unable to sleep because an adult child is anxious, the practice is not to suppress care but to observe the moment when 'my child is suffering' becomes 'I am suffering' — that crossing is abhishvanga. The Advaita instruction is to witness that identification without endorsing it, repeatedly, until the mind stops mistaking another's kshetra for its own.",
+    "vishishtadvaita": "In a team or household, Ramanuja's instruction is to offer each action as kainkarya (service) to the Lord who dwells in every member — this does not reduce care but removes the anxious possessiveness that makes relationships a source of bondage. When you act from 'I serve Bhagavan through you' rather than 'you are mine,' arati toward unhealthy crowds arises naturally because the Lord is present in solitude with equal fullness.",
+    "dvaita": "Madhva's point about sneha maturing into abhishvanga has a direct application in professional life: the fondness that begins as collegial warmth can ripen into an identification where another colleague's failure feels like one's own failure and their success as one's own glory. Noticing this transition — from appropriate care to identity-fusion — is the Dvaita practice, because Hari alone is the being on whom such total dependence is ontologically warranted.",
+    "shuddhadvaita": "Vallabha's reading suggests that the real test of spiritual progress is not whether you have renounced worldly pleasure but whether heavenly rewards and posthumous reputation have also lost their grip. When the devotee no longer rehearses what posterity will say or what merit will accumulate, the jana-samsad — the court of opinion, online or social — ceases to pull. This is asakti as Pushti-marga understands it: not achieved by willpower but tasted as freedom when Krishna's rasa has been genuinely received.",
+    "bhakti": "Sridhara's tripartite scheme gives a practical diagnostic: first check whether you are attached (priti toward the object), then whether you have crossed into identification (adhyasa — superimposing your self onto the other), then whether you have reached equanimity in arrivals and departures. In a marriage, the first is love, the second is codependency, the third is the quality the verse names as jnana. The work is to distinguish the three honestly rather than labeling all three as either 'love' or 'detachment.'",
+    "advaita-bhakti": "Madhusudan's distinction between 'this is mine' and 'I am this' maps precisely onto the difference between healthy investment in an outcome and the anxiety that makes failure feel like annihilation of self. In any creative or professional work: attachment to the project (mamedam) can be loosened by offering it; identification with the project's reception (aham evaayam) is the deeper bind that requires samacittatva as a daily practice — celebrating neither the good review nor despairing at the bad one, not as performance of equanimity but as genuine recognition that the work and the self were never identical."
   }
 }
