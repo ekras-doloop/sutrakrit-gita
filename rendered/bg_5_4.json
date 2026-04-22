@@ -1,0 +1,254 @@
+{
+  "verse_id": "5.4",
+  "mūla": {
+    "devanāgarī": "सांख्य-योगौ पृथग् बालाः प्रवदन्ति न पण्डिताः | एकम् अप्य् आस्थितः सम्यग् उभयोर् विन्दते फलम्",
+    "iast": "sāṃkhya-yogau pṛthag bālāḥ pravadanti na paṇḍitāḥ | ekam apy āsthitaḥ samyag ubhayor vindate phalam",
+    "chapter_position": "Chapter 5 (Karma-Sannyāsa-Yoga (The Yoga of Renunciation)), verse 4",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [],
+  "intertextual_panel": [
+    {
+      "verse": "5.5",
+      "type": "thematic-similarity",
+      "score": 0.8611,
+      "feature_breakdown": {
+        "cosine": 0.8418,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0467,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "5.2",
+      "type": "thematic-similarity",
+      "score": 0.8592,
+      "feature_breakdown": {
+        "cosine": 0.8292,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "18.12",
+      "type": "thematic-similarity",
+      "score": 0.8448,
+      "feature_breakdown": {
+        "cosine": 0.8348,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "13.24",
+      "type": "thematic-similarity",
+      "score": 0.844,
+      "feature_breakdown": {
+        "cosine": 0.8247,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0467,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "14.23",
+      "type": "thematic-similarity",
+      "score": 0.8403,
+      "feature_breakdown": {
+        "cosine": 0.8403,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "18.7",
+      "type": "thematic-similarity",
+      "score": 0.8398,
+      "feature_breakdown": {
+        "cosine": 0.8298,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "6.1",
+      "type": "thematic-similarity",
+      "score": 0.8383,
+      "feature_breakdown": {
+        "cosine": 0.8283,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "2.51",
+      "type": "thematic-similarity",
+      "score": 0.8382,
+      "feature_breakdown": {
+        "cosine": 0.8382,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_5.4",
+        "anandgiri_5.4"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_5.4",
+        "vedantadeshika_5.4"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_5.4",
+        "jayatirtha_5.4"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_5.4"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_5.4"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_5.4"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "कर्मसंन्यास",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.2"
+      ]
+    },
+    {
+      "list": "संन्यास",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.6",
+        "6.1",
+        "6.2",
+        "6.4",
+        "9.28",
+        "18.1",
+        "18.2",
+        "18.7",
+        "18.12",
+        "18.49"
+      ]
+    },
+    {
+      "list": "सांख्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.39",
+        "3.3",
+        "5.5",
+        "13.24"
+      ]
+    },
+    {
+      "list": "सांख्य-योग",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.2"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

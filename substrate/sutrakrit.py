@@ -382,6 +382,37 @@ class Substrate:
         self._load_lists_graph()
         return self._verse_to_lists.get(verse_id, set())  # type: ignore[union-attr]
 
+    def lists_containing_lemma(
+        self, lemma_devanagari: str, verse_id: str
+    ) -> list[str]:
+        """Return the theme-lists associated with a verse whose phrase-key
+        contains the lemma. Used for per-lemma theme-list membership in
+        the per-verse object's word_by_word.theme_lists field.
+        """
+        self._load_lists_graph()
+        verse_lists = self._verse_to_lists.get(verse_id, set())  # type: ignore[union-attr]
+        if not verse_lists or not lemma_devanagari:
+            return []
+        return [
+            lst for lst in sorted(verse_lists) if lemma_devanagari in lst
+        ]
+
+    def other_verses_in_list(self, list_key: str, exclude_verse: str = "") -> list[str]:
+        """Return the verses participating in a given theme-list,
+        optionally excluding the queried verse itself.
+        """
+        self._load_lists_graph()
+        graph_data = json.loads(LISTS_GRAPH_PATH.read_text())
+        graph = graph_data.get("lists_graph", graph_data)
+        lst = graph.get(list_key)
+        if not lst:
+            return []
+        return [
+            n["verse"]
+            for n in lst.get("nodes", [])
+            if n.get("verse") and n["verse"] != exclude_verse
+        ]
+
     def score_query(
         self,
         source_verse: str,

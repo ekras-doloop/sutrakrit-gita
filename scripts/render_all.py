@@ -152,7 +152,14 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
                     if _devanagari_surface_for_lemma(tok["surface_form"])
                     else []
                 ),
-                "theme_lists": [],
+                "theme_lists": (
+                    sub.lists_containing_lemma(
+                        _devanagari_surface_for_lemma(tok["surface_form"]),
+                        verse_id,
+                    )
+                    if _devanagari_surface_for_lemma(tok["surface_form"])
+                    else []
+                ),
             }
             for tok in tokens
             if tok["lemma"]
@@ -178,7 +185,11 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
             },
         },
         "theme_list_memberships": [
-            {"list": tl, "role": "supporting", "other_verses_in_list": []}
+            {
+                "list": tl,
+                "role": "supporting",
+                "other_verses_in_list": sub.other_verses_in_list(tl, exclude_verse=verse_id),
+            }
             for tl in sorted(theme_lists)
         ],
         "audit_trail": {

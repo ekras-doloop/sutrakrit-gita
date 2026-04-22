@@ -1,0 +1,804 @@
+{
+  "verse_id": "2.21",
+  "mūla": {
+    "devanāgarī": "वेदाविनाशिनं नित्यं य एनम् अजम् अव्ययम् | कथं स पुरुषः पार्थ कं घातयति हन्ति कम्",
+    "iast": "vedāvināśinaṃ nityaṃ ya enam ajam avyayam | kathaṃ sa puruṣaḥ pārtha kaṃ ghātayati hanti kam",
+    "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 21",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "vedās",
+      "lemma": "vid",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vināśinam",
+      "lemma": "vinaś",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्त्यभावविकाररहितं नित्यं विपरिणामरहितं यो वेद इति संबन्धः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "इत्यादिकं तु तद्धेतुरित्यभिप्रायेणाह एवमिति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "nityam",
+      "lemma": "nitya",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अमुक्तिप्रसङ्गान्न चानित्यमपि निरुपादानं भावकार्यस्योपादाननियमान्न चानात्मा तदुपादानमात्मनि तत्प्रतिभानान्न चात्मैव तदु",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "एनम् आत्मानं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ye",
+      "lemma": "yā",
+      "grammar": "locative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "वंप्रकारविज्ञानवतः अविदुषः यथा अनुष्ठेयं भवति न तु तथा न जायते इत्याद्यात्मस्वरूपविध्यर्थज्ञानोत्तरकालभावि किञ्चिदनुष्ठे",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "णाह एवमिति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "वंभावं करोतीत्यर्थः",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "न कं घातयति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न गुणापचयेन वा विनाशदर्शनात्तदुभयरहितस्य न विनाशः संभवतीत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "विनाशिनम् अन्त्यभावविकाररहितं नित्यं विपरिणामरहितं यो वेद इति संबन्धः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विनाशित्वेन अजत्वेन व्ययानर्हत्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तो य एवं वेद स कथं घातयति हन्ति वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तएव हन्तृत्वाभावोऽपि पूर्वोक्तः प्रसिद्ध इत्याह वेदेति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "व्ययं न विद्यते व्ययोऽवयवापचयो गुणापचयो वा यस्य तमव्ययम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "अव्यय",
+        "अव्ययम्"
+      ]
+    },
+    {
+      "surface_form": "īn",
+      "lemma": "i",
+      "grammar": "accusative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "am",
+      "lemma": "a",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ajam",
+      "lemma": "aj",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "avyayam",
+      "lemma": "vye",
+      "grammar": "1st person singular imperfect active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपक्षयरहितं कथं केन प्रकारेण सः विद्वान् पुरुषः अधिकृतः हन्ति हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "अव्ययम्"
+      ]
+    },
+    {
+      "surface_form": "katham",
+      "lemma": "katham",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sa",
+      "lemma": "sa",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ंबन्धः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "पुरुषो देवमनुष्यतिर्यक्स्थावरशरीरावस्थितेषु आत्मसु कम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कथं घातयति हन्ति वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "िद्ध इत्याह वेदेति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ंहरति न विनष्टुं शीलं यस्य तमविनाशिनमन्त्यविकाररहितम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "puruṣas",
+      "lemma": "puruṣa",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pārtha",
+      "lemma": "pārtha",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ः। तस्मात् गीताशास्त्रे आत्मज्ञानवतः संन्यासे एव अधिकारः न कर्मणि इति तत्र तत्र उपरिष्टात् आत्मज्ञानप्रकरणे दर्शयिष्यामः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "पार्थ"
+      ]
+    },
+    {
+      "surface_form": "kam",
+      "lemma": "kam",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि आत्मानं कथं घातयति कं वा कथं हन्ति कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः। एतान् आत्मनो घातयामि हन्मि इति अनुश",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तत्र हेतुः। अजमव्ययं जन्मविनाशशून्यं जायमानस्य विनश्यतश्च सर्वव्यापकत्वसत्यत्वयोरयोगात्। एवं सर्वविक्रियाशून्यं प्रकृत",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ghātayati",
+      "lemma": "ghāti",
+      "grammar": "locative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कं वा कथं हन्ति कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "हन्ति वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। न कंचिदपि कथंचिदपीत्यर्थः। अनेन मय्यपि प्रयोजकत्वाद्दोषदृष्टिं मा कार्षीरित्युक्तं भवति।",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। कथं घातयति। कमपि न घातयति कथमपि न घातयतीत्यर्थः। नहि सर्वविकारशून्यस्याकर्तुर्हननक्रियायां कर्तृत्वं संभवति। तथाच श्रु",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "hanti",
+      "lemma": "han",
+      "grammar": "3rd person singular present indicative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कथं वा हन्ति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न हन्यते इति प्रतिज्ञाय न हन्यत इत्युपपादितं इदानीं न हन्तीत्युपपादयन्नुपसंहरति न विनष्टुं शीलं यस्य तमविनाशिनमन्त्यविक",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kam",
+      "lemma": "kam",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि आत्मानं कथं घातयति कं वा कथं हन्ति कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः। एतान् आत्मनो घातयामि हन्मि इति अनुश",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तत्र हेतुः। अजमव्ययं जन्मविनाशशून्यं जायमानस्य विनश्यतश्च सर्वव्यापकत्वसत्यत्वयोरयोगात्। एवं सर्वविक्रियाशून्यं प्रकृत",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "8.22",
+      "type": "thematic-similarity",
+      "score": 0.9009,
+      "feature_breakdown": {
+        "cosine": 0.8409,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.4852,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "9.13",
+      "type": "thematic-similarity",
+      "score": 0.8936,
+      "feature_breakdown": {
+        "cosine": 0.8336,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.3776,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "2.42",
+      "type": "thematic-similarity",
+      "score": 0.892,
+      "feature_breakdown": {
+        "cosine": 0.832,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.4616,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "8.10",
+      "type": "thematic-similarity",
+      "score": 0.8885,
+      "feature_breakdown": {
+        "cosine": 0.8285,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.4241,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "8.14",
+      "type": "thematic-similarity",
+      "score": 0.8869,
+      "feature_breakdown": {
+        "cosine": 0.8369,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.0753,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "11.18",
+      "type": "thematic-similarity",
+      "score": 0.886,
+      "feature_breakdown": {
+        "cosine": 0.826,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.2346,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "10.24",
+      "type": "thematic-similarity",
+      "score": 0.8815,
+      "feature_breakdown": {
+        "cosine": 0.8115,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.6815,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "9.22",
+      "type": "thematic-similarity",
+      "score": 0.88,
+      "feature_breakdown": {
+        "cosine": 0.83,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.9059,
+        "stem_prefix": 4.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_2.21",
+        "anandgiri_2.21"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_2.21",
+        "vedantadeshika_2.21"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_2.21",
+        "jayatirtha_2.21"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_2.21"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_2.21"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_2.21"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": true,
+    "meter_shift_to_next": true,
+    "pragmatic_context": {
+      "vocative": "Pārtha",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "अव्यय",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.17",
+        "4.1",
+        "4.6",
+        "4.13",
+        "7.13",
+        "7.25",
+        "9.2",
+        "9.13",
+        "9.18",
+        "11.2",
+        "11.4",
+        "11.18",
+        "13.31",
+        "14.5",
+        "15.1",
+        "15.5",
+        "15.17"
+      ]
+    },
+    {
+      "list": "अव्ययम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "4.1",
+        "4.2",
+        "4.13",
+        "4.14",
+        "7.13",
+        "7.25",
+        "9.2",
+        "9.13",
+        "9.18",
+        "11.4",
+        "12.3",
+        "12.4",
+        "14.5",
+        "15.1"
+      ]
+    },
+    {
+      "list": "नित्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.12",
+        "2.14",
+        "2.18",
+        "2.20",
+        "2.24",
+        "2.26",
+        "2.30",
+        "2.45",
+        "3.15",
+        "3.31",
+        "3.39",
+        "4.8",
+        "4.20",
+        "5.3",
+        "7.17",
+        "8.14",
+        "9.6",
+        "9.14",
+        "9.22",
+        "9.33",
+        "10.9",
+        "11.52",
+        "12.2",
+        "13.9",
+        "13.11",
+        "15.5",
+        "18.52"
+      ]
+    },
+    {
+      "list": "पार्थ",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.25",
+        "1.26",
+        "1.28",
+        "1.29",
+        "1.30",
+        "2.3",
+        "2.32",
+        "2.39",
+        "2.42",
+        "2.55",
+        "2.72",
+        "3.16",
+        "3.22",
+        "3.23",
+        "4.11",
+        "4.33",
+        "6.40",
+        "7.1",
+        "7.10",
+        "8.8",
+        "8.14",
+        "8.19",
+        "8.22",
+        "8.27",
+        "9.13",
+        "9.32",
+        "10.11",
+        "10.24",
+        "11.5",
+        "11.9",
+        "12.7",
+        "16.4",
+        "16.5",
+        "16.6",
+        "17.26",
+        "17.28",
+        "18.6",
+        "18.30",
+        "18.31",
+        "18.32",
+        "18.33",
+        "18.34",
+        "18.35",
+        "18.72",
+        "18.74",
+        "18.78"
+      ]
+    },
+    {
+      "list": "पुरुष",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.15",
+        "2.16",
+        "2.60",
+        "7.11",
+        "8.1",
+        "8.4",
+        "8.8",
+        "8.10",
+        "8.22",
+        "9.3",
+        "10.12",
+        "10.15",
+        "11.3",
+        "11.18",
+        "11.38",
+        "13.19",
+        "13.20",
+        "13.21",
+        "13.22",
+        "13.23",
+        "15.4",
+        "15.16",
+        "15.17",
+        "15.18",
+        "15.19",
+        "17.3",
+        "18.4"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

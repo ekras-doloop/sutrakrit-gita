@@ -1,0 +1,667 @@
+{
+  "verse_id": "6.46",
+  "mūla": {
+    "devanāgarī": "तपस्विभ्यो ऽधिको योगी ज्ञानिभ्यो ऽपि मतो ऽधिकः | कर्मिभ्यश् चाधिको योगी तस्माद् योगी भवार्जुन",
+    "iast": "tapasvibhyo 'dhiko yogī jñānibhyo 'pi mato 'dhikaḥ | karmibhyaś cādhiko yogī tasmād yogī bhavārjuna",
+    "chapter_position": "Chapter 6 (Dhyāna-Yoga (The Yoga of Meditation)), verse 46",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "tapasvibhyas",
+      "lemma": "tapasvin",
+      "grammar": "dative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "adhikas",
+      "lemma": "adhika",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yogī",
+      "lemma": "yogin",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानिभ्योऽपि ज्ञानमत्र शास्त्रार्थपाण्डित्यम् तद्वद्भ्योऽपि मतः ज्ञातः अधिकः श्रेष्ठः इति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्माद् योगी भव अर्जुन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तस्माद्धतोरर्जुन त्वं योगी भव मनोरोधयोगवान्भव",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठोऽभिमतः तस्मात्त्वं योगी भव",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्तूयतेऽर्जुनं प्रति श्रद्धातिशयोत्पादनपूर्वकं योगं विधातुं तपस्विभ्यः कृच्छ्रचान्द्रायणादितपःपरायणेभ्योऽप्यधिक उत्कृष्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñānibhyas",
+      "lemma": "jñānin",
+      "grammar": "dative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "api",
+      "lemma": "api",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "matas",
+      "lemma": "man",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "adhikas",
+      "lemma": "adhika",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karmibhyas",
+      "lemma": "karmin",
+      "grammar": "dative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "पर्यायत्वात्कथं",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "यः यः च केवलैः अश्वमेधादिभिः कर्मभिः तेभ्यः सर्वेभ्यः अधिकपुरुषार्थसाधनत्वात् योगस्य तपस्विभ्यः ज्ञानिभ्यः कर्मिभ्यश्च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "्छ्रादिचारिभ्यः",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "केवलकर्मकारिभ्यश्चाधिको योगी तस्माद्धतोरर्जुन त्वं योगी भव मनोरोधयोगवान्भव",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "्छृचान्द्रायणादितपोनिष्ठेभ्योऽपि ज्ञानिभ्यः शास्त्रज्ञानवद्भ्योऽपि कर्मिभ्य इष्टापूर्तादिकर्मकारिभ्योऽपि योगी श्रेष्ठोऽभ",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "्छ्रचान्द्रायणादितपःपरायणेभ्योऽप्यधिक उत्कृष्टो योगी तत्त्वज्ञानोत्पत्त्यनन्तरं मनोनाशवासनाक्षयकारीविद्यया तदारोहन्ति यत",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "adhikas",
+      "lemma": "adhika",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yogī",
+      "lemma": "yogin",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानिभ्योऽपि ज्ञानमत्र शास्त्रार्थपाण्डित्यम् तद्वद्भ्योऽपि मतः ज्ञातः अधिकः श्रेष्ठः इति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्माद् योगी भव अर्जुन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तस्माद्धतोरर्जुन त्वं योगी भव मनोरोधयोगवान्भव",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठोऽभिमतः तस्मात्त्वं योगी भव",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्तूयतेऽर्जुनं प्रति श्रद्धातिशयोत्पादनपूर्वकं योगं विधातुं तपस्विभ्यः कृच्छ्रचान्द्रायणादितपःपरायणेभ्योऽप्यधिक उत्कृष्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tasmāt",
+      "lemma": "tasmāt",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "योगी भव अर्जुन",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तपस्विभ्य इति कायक्लेशतपस्विभ्यः साङ्ख्यज्ञानिभ्यश्च केवलकर्मकारिभ्यश्चाधिको योगी तस्माद्धतोरर्जुन त्वं योगी भव मनोरोधय",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तपस्विभ्य इति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yogī",
+      "lemma": "yogin",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानिभ्योऽपि ज्ञानमत्र शास्त्रार्थपाण्डित्यम् तद्वद्भ्योऽपि मतः ज्ञातः अधिकः श्रेष्ठः इति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्माद् योगी भव अर्जुन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तस्माद्धतोरर्जुन त्वं योगी भव मनोरोधयोगवान्भव",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठोऽभिमतः तस्मात्त्वं योगी भव",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्तूयतेऽर्जुनं प्रति श्रद्धातिशयोत्पादनपूर्वकं योगं विधातुं तपस्विभ्यः कृच्छ्रचान्द्रायणादितपःपरायणेभ्योऽप्यधिक उत्कृष्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhava",
+      "lemma": "bhū",
+      "grammar": "2nd person singular imperative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अर्जुन",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अर्जुन",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ाद्योगज्ञानाधिक्यस्य पृथगुक्तत्वादिति भावः",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मनोरोधयोगवान्भव",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "साधनपरिपाकात्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "arjuna",
+      "lemma": "arjuna",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "।तद् एवं परविद्याङ्गभूतं प्रजापतिवाक्योदितं प्रत्यगात्मदर्शनम् उक्तम्। अथ परविद्यां प्रस्तौति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ेति शुद्धेति संबोधनार्थः",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "8.27",
+      "type": "thematic-similarity",
+      "score": 0.9104,
+      "feature_breakdown": {
+        "cosine": 0.8604,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 12.4408,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "4.42",
+      "type": "thematic-similarity",
+      "score": 0.8979,
+      "feature_breakdown": {
+        "cosine": 0.8479,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.1869,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "3.1",
+      "type": "thematic-similarity",
+      "score": 0.8958,
+      "feature_breakdown": {
+        "cosine": 0.8458,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 6.8713,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "13.2",
+      "type": "thematic-similarity",
+      "score": 0.8897,
+      "feature_breakdown": {
+        "cosine": 0.8397,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 4.8885,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "7.16",
+      "type": "thematic-similarity",
+      "score": 0.8878,
+      "feature_breakdown": {
+        "cosine": 0.8378,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 4.6784,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "7.18",
+      "type": "thematic-similarity",
+      "score": 0.887,
+      "feature_breakdown": {
+        "cosine": 0.847,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 2.1929,
+        "stem_prefix": 2.0
+      }
+    },
+    {
+      "verse": "18.70",
+      "type": "thematic-similarity",
+      "score": 0.8859,
+      "feature_breakdown": {
+        "cosine": 0.8359,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 3.2661,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "4.37",
+      "type": "thematic-similarity",
+      "score": 0.8853,
+      "feature_breakdown": {
+        "cosine": 0.8453,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 3.6052,
+        "stem_prefix": 3.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_6.46",
+        "anandgiri_6.46"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_6.46",
+        "vedantadeshika_6.46"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_6.46",
+        "jayatirtha_6.46"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_6.46"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_6.46"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_6.46"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "ज्ञान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.26",
+        "3.32",
+        "3.33",
+        "3.39",
+        "3.40",
+        "3.41",
+        "4.6",
+        "4.10",
+        "4.19",
+        "4.21",
+        "4.23",
+        "4.27",
+        "4.28",
+        "4.33",
+        "4.34",
+        "4.36",
+        "4.37",
+        "4.38",
+        "4.39",
+        "4.41",
+        "4.42",
+        "5.15",
+        "5.16",
+        "5.17",
+        "6.8",
+        "7.2",
+        "7.6",
+        "7.15",
+        "7.16",
+        "7.17",
+        "7.18",
+        "7.19",
+        "7.20",
+        "9.1",
+        "9.12",
+        "9.15",
+        "9.24",
+        "10.4",
+        "10.5",
+        "10.11",
+        "10.25",
+        "10.38",
+        "12.12",
+        "12.13",
+        "12.14",
+        "13.2",
+        "13.11",
+        "13.17",
+        "13.18",
+        "13.35",
+        "14.1",
+        "14.2",
+        "14.6",
+        "14.8",
+        "14.9",
+        "14.11",
+        "14.16",
+        "14.17",
+        "15.10",
+        "15.15",
+        "16.1",
+        "16.4",
+        "16.15",
+        "18.18",
+        "18.19",
+        "18.20",
+        "18.21",
+        "18.42",
+        "18.50",
+        "18.63",
+        "18.70",
+        "18.72"
+      ]
+    },
+    {
+      "list": "ज्ञानी",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "7.16",
+        "7.17",
+        "7.18"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "verse_id": "11.53",
+  "mūla": {
+    "devanāgarī": "नाहं वेदैर् न तपसा न दानेन न चेज्यया | शक्य एवं-विधो द्रष्टुं दृष्टवान् असि मां यथा",
+    "iast": "nāhaṃ vedair na tapasā na dānena na cejyayā | śakya evaṃ-vidho draṣṭuṃ dṛṣṭavān asi māṃ yathā",
+    "chapter_position": "Chapter 11 (Viśvarūpa-Darśana-Yoga (The Yoga of the Vision of the Universal Form)), verse 53",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [],
+  "intertextual_panel": [
+    {
+      "verse": "11.8",
+      "type": "thematic-similarity",
+      "score": 0.8491,
+      "feature_breakdown": {
+        "cosine": 0.8491,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "11.48",
+      "type": "thematic-similarity",
+      "score": 0.8475,
+      "feature_breakdown": {
+        "cosine": 0.8475,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "4.35",
+      "type": "thematic-similarity",
+      "score": 0.8346,
+      "feature_breakdown": {
+        "cosine": 0.8346,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "7.15",
+      "type": "thematic-similarity",
+      "score": 0.833,
+      "feature_breakdown": {
+        "cosine": 0.833,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "14.22",
+      "type": "thematic-similarity",
+      "score": 0.8328,
+      "feature_breakdown": {
+        "cosine": 0.8328,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "9.5",
+      "type": "thematic-similarity",
+      "score": 0.8323,
+      "feature_breakdown": {
+        "cosine": 0.8323,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "15.6",
+      "type": "thematic-similarity",
+      "score": 0.8317,
+      "feature_breakdown": {
+        "cosine": 0.8317,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "7.25",
+      "type": "thematic-similarity",
+      "score": 0.8309,
+      "feature_breakdown": {
+        "cosine": 0.8309,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_11.53",
+        "anandgiri_11.53"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_11.53",
+        "vedantadeshika_11.53"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_11.53",
+        "jayatirtha_11.53"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_11.53"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_11.53"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_11.53"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

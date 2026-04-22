@@ -1,0 +1,1290 @@
+{
+  "verse_id": "3.3",
+  "mūla": {
+    "devanāgarī": "श्री-भगवान् उवाच लोके ऽस्मिन् द्विविधा निष्ठा पुरा प्रोक्ता मयानघ | ज्ञान-योगेन सांख्यानां कर्म-योगेन योगिनाम्",
+    "iast": "śrī-bhagavān uvāca loke 'smin dvividhā niṣṭhā purā proktā mayānagha | jñāna-yogena sāṃkhyānāṃ karma-yogena yoginām",
+    "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 3",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "śrī",
+      "lemma": "śri",
+      "grammar": "locative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "भगवानुवाच पुरा उक्तं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "भगवानुवाच लोकेऽस्मिन्निति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भगवानुवाच लोकेऽस्मिन्निति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "भगवानुवाच अस्मिन्नधिकारित्वाभिमते लोके शुद्धाशुद्धान्तःकरणभेदेन द्विविधे जने द्विविधा द्विप्रकारा निष्ठा स्थितिर्ज्ञानपर",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhagavān",
+      "lemma": "bhagavat",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "कल्पितः स्यात्",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "भगवान्"
+      ]
+    },
+    {
+      "surface_form": "uvāca",
+      "lemma": "vac",
+      "grammar": "3rd person singular perfect active verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "loke",
+      "lemma": "lok",
+      "grammar": "1st person singular present indicative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अस्मिन् शास्त्रार्थानुष्ठानाधिकृतानां त्रैवर्णिकानां द्विविधा द्विप्रकारा निष्ठा स्थितिः अनुष्ठेयतात्पर्यं पुरा पूर्वं",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विचित्राधिकारिसंपूर्णे द्विविधा निष्ठा ज्ञानकर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ऽस्मिन्निति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ऽस्मिन्निति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शुद्धाशुद्धान्तःकरणभेदेन द्विविधे जने द्विविधा द्विप्रकारा निष्ठा स्थितिर्ज्ञानपरता कर्मपरता",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "as",
+      "lemma": "a",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मिन् शास्त्रार्थानुष्ठानाधिकृतानां त्रैवर्णिकानां द्विविधा द्विप्रकारा निष्ठा स्थितिः अनुष्ठेयतात्पर्यं पुरा पूर्वं सर्ग",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मिन् लोके विचित्राधिकारिसंपूर्णे द्विविधा निष्ठा ज्ञानकर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "त्वेवं श्लोकार्थः तथाप्याधिकारिकत्वादित्यादिकं अत्र न श्रूयत इत्यतोऽध्याहृत्याह त्वं त्वि ति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मिन् लोके द्विविधा निष्ठा मया पुरा प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिका",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मिन् शुद्धाशुद्धान्तःकरणतया द्विविधे लोकेऽधिकारिजाने द्वे विधे प्रकारौ यस्याः सा द्विविधा निष्ठा मोक्षपरता पुरा पूर्वोध्",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मिन्नधिकारित्वाभिमते लोके शुद्धाशुद्धान्तःकरणभेदेन द्विविधे जने द्विविधा द्विप्रकारा निष्ठा स्थितिर्ज्ञानपरता कर्मपरता च",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "min",
+      "lemma": "mind",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "शास्त्रार्थानुष्ठानाधिकृतानां त्रैवर्णिकानां द्विविधा द्विप्रकारा निष्ठा स्थितिः अनुष्ठेयतात्पर्यं पुरा पूर्वं सर्गादौ",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "लोके विचित्राधिकारिसंपूर्णे द्विविधा निष्ठा ज्ञानकर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स तथोक्तः",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "निति। पूर्वोक्तं त्वया सम्यक् नावधृतं यतः अस्मिन् लोके द्विविधा निष्ठा मया पुरा प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगे",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "निति। अयमर्थः। यदि मया परस्परनिरपेक्षं मोक्षासाधनत्वेन कर्मज्ञानयोगरुपं निष्ठाद्वयमुक्तं स्यात्तर्हि द्वयोर्मध्ये यद्भद्",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नधिकारित्वाभिमते लोके शुद्धाशुद्धान्तःकरणभेदेन द्विविधे जने द्विविधा द्विप्रकारा निष्ठा स्थितिर्ज्ञानपरता कर्मपरता",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dvividhā",
+      "lemma": "dvividhā",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "द्विप्रकारा निष्ठा स्थितिः अनुष्ठेयतात्पर्यं पुरा पूर्वं सर्गादौ प्रजाः सृष्ट्वा तासाम् अभ्युदयनिःश्रेयसप्राप्तिसाधनं व",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निष्ठा ज्ञानकर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "अपि जनाः सन्ति गृहस्थादिकर्मत्यागेन ज्ञाननिष्ठाः सनकादिवत् तत्स्था एव ज्ञाननिष्ठाश्च जनकादिवत् मद्धर्मस्था एवेत्यर्थः।",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "निष्ठा मया पुरा प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधक",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "निष्ठा मोक्षपरता पुरा पूर्वोध्याये मया सर्वज्ञेन प्रोक्ता स्पष्टमेवोक्ता",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "द्विप्रकारा निष्ठा स्थितिर्ज्ञानपरता कर्मपरता",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "niṣṭhā",
+      "lemma": "niṣṭhā",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थितिः अनुष्ठेयतात्पर्यं पुरा पूर्वं सर्गादौ प्रजाः सृष्ट्वा तासाम् अभ्युदयनिःश्रेयसप्राप्तिसाधनं वेदार्थसंप्रदायमाविष",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ज्ञानकर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ः सनकादिवत् तत्स्था",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मया पुरा प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगे",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "द्वयमुक्तं स्यात्तर्हि द्वयोर्मध्ये यद्भद्रं तदेकं वदेति त्वदीयप्रश्नः संगच्छेत न तु मया तथोक्तं किंतु द्वाभ्यामेकैव ब्र",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "द्वयप्रतिपादकं तेन वाक्येन त्वं मे मम मन्दबुद्धेर्वाक्यतात्पर्यापरिज्ञानाद्बुद्धिमन्तःकरणं मोहयसीव भ्रान्त्या योजयसीव",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "निष्ठा"
+      ]
+    },
+    {
+      "surface_form": "purā",
+      "lemma": "purā",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूर्वं सर्गादौ प्रजाः सृष्ट्वा तासाम् अभ्युदयनिःश्रेयसप्राप्तिसाधनं वेदार्थसंप्रदायमाविष्कुर्वता प्रोक्ता मया सर्वज्ञेन",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उक्तं",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पूर्वोध्याये मया सर्वज्ञेन प्रोक्ता स्पष्टमेवोक्ता",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पूर्वाध्याये मया तवात्यन्तहितकारिणा प्रोक्ता प्रकर्षेण स्पष्टत्वलक्षणेनोक्ता",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "proktā",
+      "lemma": "pravac",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मया सर्वज्ञेन ईश्वरेण",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति निर्देशात्काक्वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स्पष्टमेवोक्ता",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रकर्षेण स्पष्टत्वलक्षणेनोक्ता",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mayā",
+      "lemma": "mā",
+      "grammar": "instrumental singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वज्ञेन ईश्वरेण",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "उक्ता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पुरा प्रोक्ता ये तु साङ्ख्यास्तेषां ज्ञानयोगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "परस्परनिरपेक्षं मोक्षासाधनत्वेन कर्मज्ञानयोगरुपं निष्ठाद्वयमुक्तं स्यात्तर्हि द्वयोर्मध्ये यद्भद्रं तदेकं वदेति त्वदीयप",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चानुष्ठितेन ज्ञानेन कर्मणा वैकेन श्रेयो मोक्षमहमाप्नुयां प्राप्तुं योग्यः स्याम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anagha",
+      "lemma": "anagha",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपाप। तत्र का सा द्विविधा निष्ठा इत्याह तत्र ज्ञानयोगेन ज्ञानमेव योगः तेन सांख्यानाम् अत्मानात्मविषयविवेकविज्ञानवतां ब्",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "शब्देनाप्येतदेवाभिप्रेतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "अपापेति संबोधयन्नुपदेशयोग्यतामर्जुनस्य सूचयति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñāna",
+      "lemma": "jñā",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "योगेन ज्ञानमेव योगः तेन सांख्यानाम् अत्मानात्मविषयविवेकविज्ञानवतां ब्रह्मचर्याश्रमादेव कृतसंन्यासानां वेदान्तविज्ञानसुनि",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "कर्मविषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "निष्ठाः सनकादिवत् तत्स्था",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "योगेन सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "योगरुपं निष्ठाद्वयमुक्तं स्यात्तर्हि द्वयोर्मध्ये यद्भद्रं तदेकं वदेति त्वदीयप्रश्नः संगच्छेत न तु मया तथोक्तं किंतु द्व",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कर्मनिष्ठाद्वयप्रतिपादकं तेन वाक्येन त्वं मे मम मन्दबुद्धेर्वाक्यतात्पर्यापरिज्ञानाद्बुद्धिमन्तःकरणं मोहयसीव भ्रान्त्या",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "ज्ञान",
+        "ज्ञान-योग",
+        "ज्ञानयोग"
+      ]
+    },
+    {
+      "surface_form": "yogena",
+      "lemma": "yuj",
+      "grammar": "instrumental singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानमेव योगः तेन सांख्यानाम् अत्मानात्मविषयविवेकविज्ञानवतां ब्रह्मचर्याश्रमादेव कृतसंन्यासानां वेदान्तविज्ञानसुनिश्चित",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्थितिः उक्ता योगिनां तु कर्मयोगेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति चेत् अनधिकारिणामेव",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ध्यानादिना निष्ठा ब्रह्मपरतोक्तातानि सर्वाणि संयम्य युक्त आसीत मत्परः इत्यादिना",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ज्ञानमेव युज्यते ब्रह्मणानेनेति व्युत्पत्त्या योगस्तेन निष्ठोक्तातानि सर्वाणि संयम्य युक्त आसीत मत्परः इत्यादिना",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sām",
+      "lemma": "sā",
+      "grammar": "accusative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अभ्युदयनिःश्रेयसप्राप्तिसाधनं वेदार्थसंप्रदायमाविष्कुर्वता प्रोक्ता मया सर्वज्ञेन ईश्वरेण",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "भोक्तारं यज्ञतपसाम्"
+      ]
+    },
+    {
+      "surface_form": "khyānām",
+      "lemma": "khyā",
+      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अत्मानात्मविषयविवेकविज्ञानवतां ब्रह्मचर्याश्रमादेव कृतसंन्यासानां वेदान्तविज्ञानसुनिश्चितार्थानां परमहंसपरिव्राजकानां ब",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव ज्ञानयोगेन स्थितिः उक्ता योगिनां तु कर्मयोगेन।संख्या बुद्धिः तद्युक्ताः सांख्याः आत्मैकविषयया बुद्ध्या युक्ताः सांख्",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "योगेन कर्मैव योगः कर्मयोगः तेन कर्मयोगेन योगिनां कर्मिणां निष्ठा प्रोक्ता इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विषया यथाधिकारम् असंकीर्णा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ण्यधिकृत इति तत्र नियोक्ष्यामीत्याशयवान्भगवानाह लोक इति",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "योगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ज्ञानयोगरुपं निष्ठाद्वयमुक्तं स्यात्तर्हि द्वयोर्मध्ये यद्भद्रं तदेकं वदेति त्वदीयप्रश्नः संगच्छेत न तु मया तथोक्तं किंत",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निष्ठाद्वयप्रतिपादकं तेन वाक्येन त्वं मे मम मन्दबुद्धेर्वाक्यतात्पर्यापरिज्ञानाद्बुद्धिमन्तःकरणं मोहयसीव भ्रान्त्या योजय",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "कर्मयोग",
+        "ब्रह्मण्याधाय कर्माणि",
+        "मयि सर्वाणि कर्माणि संन्यस्य"
+      ]
+    },
+    {
+      "surface_form": "yogena",
+      "lemma": "yuj",
+      "grammar": "instrumental singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानमेव योगः तेन सांख्यानाम् अत्मानात्मविषयविवेकविज्ञानवतां ब्रह्मचर्याश्रमादेव कृतसंन्यासानां वेदान्तविज्ञानसुनिश्चित",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्थितिः उक्ता योगिनां तु कर्मयोगेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति चेत् अनधिकारिणामेव",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "सर्वत्यागरूपा स्थितिरुक्ता ये चोक्तयोगाधिकारिणस्तेषामुक्तविधकर्मयोगेनेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ध्यानादिना निष्ठा ब्रह्मपरतोक्तातानि सर्वाणि संयम्य युक्त आसीत मत्परः इत्यादिना",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ज्ञानमेव युज्यते ब्रह्मणानेनेति व्युत्पत्त्या योगस्तेन निष्ठोक्तातानि सर्वाणि संयम्य युक्त आसीत मत्परः इत्यादिना",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yoginām",
+      "lemma": "yuj",
+      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "4.1",
+      "type": "thematic-similarity",
+      "score": 0.9589,
+      "feature_breakdown": {
+        "cosine": 0.8569,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.1102,
+        "lemma_overlap": 17.7191,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "2.11",
+      "type": "thematic-similarity",
+      "score": 0.9389,
+      "feature_breakdown": {
+        "cosine": 0.8569,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.1102,
+        "lemma_overlap": 11.9303,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "2.39",
+      "type": "thematic-similarity",
+      "score": 0.9279,
+      "feature_breakdown": {
+        "cosine": 0.8479,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.7408,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "13.24",
+      "type": "thematic-similarity",
+      "score": 0.9265,
+      "feature_breakdown": {
+        "cosine": 0.8565,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 14.7765,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "16.6",
+      "type": "thematic-similarity",
+      "score": 0.9188,
+      "feature_breakdown": {
+        "cosine": 0.8488,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 13.5869,
+        "stem_prefix": 7.0
+      }
+    },
+    {
+      "verse": "15.1",
+      "type": "thematic-similarity",
+      "score": 0.9188,
+      "feature_breakdown": {
+        "cosine": 0.8467,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.1102,
+        "lemma_overlap": 11.1552,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "4.33",
+      "type": "thematic-similarity",
+      "score": 0.9169,
+      "feature_breakdown": {
+        "cosine": 0.8669,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.3942,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "4.41",
+      "type": "thematic-similarity",
+      "score": 0.9149,
+      "feature_breakdown": {
+        "cosine": 0.8649,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.1318,
+        "stem_prefix": 4.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_3.3",
+        "anandgiri_3.3"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_3.3",
+        "vedantadeshika_3.3"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_3.3",
+        "jayatirtha_3.3"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_3.3"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_3.3"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_3.3"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "कर्मयोग",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.53",
+        "3.18",
+        "3.28",
+        "4.1",
+        "4.12",
+        "4.24",
+        "5.2",
+        "5.3",
+        "5.5",
+        "6.5",
+        "12.11"
+      ]
+    },
+    {
+      "list": "जानना",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "4.18",
+        "7.12"
+      ]
+    },
+    {
+      "list": "ज्ञान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.1",
+        "3.2",
+        "3.26",
+        "3.32",
+        "3.33",
+        "3.39",
+        "3.40",
+        "3.41",
+        "4.6",
+        "4.10",
+        "4.19",
+        "4.21",
+        "4.23",
+        "4.27",
+        "4.28",
+        "4.33",
+        "4.34",
+        "4.36",
+        "4.37",
+        "4.38",
+        "4.39",
+        "4.41",
+        "4.42",
+        "5.15",
+        "5.16",
+        "5.17",
+        "6.8",
+        "6.46",
+        "7.2",
+        "7.6",
+        "7.15",
+        "7.16",
+        "7.17",
+        "7.18",
+        "7.19",
+        "7.20",
+        "9.1",
+        "9.12",
+        "9.15",
+        "9.24",
+        "10.4",
+        "10.5",
+        "10.11",
+        "10.25",
+        "10.38",
+        "12.12",
+        "12.13",
+        "12.14",
+        "13.2",
+        "13.11",
+        "13.17",
+        "13.18",
+        "13.35",
+        "14.1",
+        "14.2",
+        "14.6",
+        "14.8",
+        "14.9",
+        "14.11",
+        "14.16",
+        "14.17",
+        "15.10",
+        "15.15",
+        "16.1",
+        "16.4",
+        "16.15",
+        "18.18",
+        "18.19",
+        "18.20",
+        "18.21",
+        "18.42",
+        "18.50",
+        "18.63",
+        "18.70",
+        "18.72"
+      ]
+    },
+    {
+      "list": "ज्ञान-योग",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.5",
+        "16.1"
+      ]
+    },
+    {
+      "list": "ज्ञानयोग",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.53",
+        "3.28",
+        "6.5",
+        "7.2"
+      ]
+    },
+    {
+      "list": "निष्ठा",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "5.17",
+        "17.1",
+        "18.50"
+      ]
+    },
+    {
+      "list": "पुरुषोत्तम",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "8.1",
+        "10.15",
+        "11.3",
+        "15.18",
+        "15.19"
+      ]
+    },
+    {
+      "list": "बुद्धि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.19",
+        "2.39",
+        "2.41",
+        "2.44",
+        "2.49",
+        "2.50",
+        "2.51",
+        "2.52",
+        "2.53",
+        "2.63",
+        "2.65",
+        "2.66",
+        "3.1",
+        "3.2",
+        "3.26",
+        "3.40",
+        "3.42",
+        "4.18",
+        "5.17",
+        "5.20",
+        "5.28",
+        "6.9",
+        "6.21",
+        "6.43",
+        "7.4",
+        "7.5",
+        "7.10",
+        "8.7",
+        "10.4",
+        "10.10",
+        "12.8",
+        "12.14",
+        "13.5",
+        "15.20",
+        "18.16",
+        "18.17",
+        "18.30",
+        "18.31",
+        "18.32",
+        "18.37",
+        "18.49",
+        "18.57"
+      ]
+    },
+    {
+      "list": "बुद्धियोग",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.2",
+        "18.57"
+      ]
+    },
+    {
+      "list": "ब्रह्मण्याधाय कर्माणि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.10"
+      ]
+    },
+    {
+      "list": "भगवान्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.11",
+        "2.19",
+        "3.32",
+        "4.1",
+        "5.10",
+        "12.8",
+        "15.1"
+      ]
+    },
+    {
+      "list": "भोक्तारं यज्ञतपसाम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.29"
+      ]
+    },
+    {
+      "list": "मयि सर्वाणि कर्माणि संन्यस्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.30"
+      ]
+    },
+    {
+      "list": "मानना",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "7.12"
+      ]
+    },
+    {
+      "list": "मैं हूँ",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.13",
+        "4.3",
+        "4.38",
+        "6.25"
+      ]
+    },
+    {
+      "list": "सांख्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.39",
+        "5.4",
+        "5.5",
+        "13.24"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

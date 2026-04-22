@@ -1,0 +1,648 @@
+{
+  "verse_id": "2.18",
+  "mūla": {
+    "devanāgarī": "अन्तवन्त इमे देहा नित्यस्योक्ताः शरीरिणः | अनाशिनो ऽप्रमेयस्य तस्माद् युध्यस्व भारत",
+    "iast": "antavanta ime dehā nityasyoktāḥ śarīriṇaḥ | anāśino 'prameyasya tasmād yudhyasva bhārata",
+    "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 18",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "antavantas",
+      "lemma": "antavat",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "im",
+      "lemma": "i",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "e",
+      "lemma": "a",
+      "grammar": "locative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "व हि असौ शोकमोहप्रतिबद्धः तूष्णीमास्ते",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तद्यो वेत्ति तं प्राहुः क्षेत्रज्ञ इति तद्विदः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "वं देहानित्यत्वं सिद्धान्तिनोऽपि सिद्धं कृत्वा तर्हि प्रतिबिम्बस्यात्मन उपाधेर्देहस्य नाशान्नाशोऽस्तु दर्पणनाशान्मुखप्रत",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "व अनाशिनो विनाशरहितस्याप्रमेयस्यापरिच्छिन्नस्यात्मन इमे सुखदुःखादिधर्मका देहा उक्तास्तत्त्वदर्शिभिः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "व शरीरिण आध्यासिकसंबन्धेन शरीरवत एकस्य आत्मनः स्वप्रकाशस्फुरणरूपस्य संबन्धिनः दृश्यत्वेन भोग्यत्वेन चोक्ताः श्रुतिभिर्ब्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dehā",
+      "lemma": "dih",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ः स्वप्नमायादेहादिवच्च अन्तवन्तः नित्यस्य शरीरिणः शरीरवतः अनाशिनः अप्रमेयस्य आत्मनः अन्तवन्त इति उक्ताः विवेकिभिरित्यर्थ",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अन्तवन्तः विनाशस्वभावाः उपचयात्माका हि घटादयः अन्वन्तो दृष्टाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "नामन्तवत्त्वं प्रागुक्तं किमथमुच्यत इत्यत आह भव त्विति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "नित्यस्य शरीरिणोऽस्यान्तवन्तः अनित्याः कृतेऽप्यकृते शोकेऽस्थिरा उक्ताः",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "उक्तास्तत्त्वदर्शिभिः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ः उपचितापचितरूपत्वाच्छरीराणि",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "nityasya",
+      "lemma": "nitya",
+      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "शरीरिणः शरीरवतः अनाशिनः अप्रमेयस्य आत्मनः अन्तवन्त इति उक्ताः विवेकिभिरित्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "शरीरिणः कर्मफलभोगार्थतया भूतसंघातरूपा देहाःपुण्यः पुण्येन (बृ0 उ 0 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "शरीरिण इति",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "शरीरिणोऽस्यान्तवन्तः अनित्याः कृतेऽप्यकृते शोकेऽस्थिरा उक्ताः",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सर्वदैकरुपस्य शरीरिणः शरीरवतः अतएव अनाशिनो विनाशरहितस्याप्रमेयस्यापरिच्छिन्नस्यात्मन इमे सुखदुःखादिधर्मका देहा उक्तास्त",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "uktās",
+      "lemma": "vac",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वदर्शिभिः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śarīriṇas",
+      "lemma": "śarīrin",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anāśinas",
+      "lemma": "anāśin",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aprameyasya",
+      "lemma": "aprameya",
+      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मनः अन्तवन्त इति उक्ताः विवेकिभिरित्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ेत्येतदसम्भवि विशेषणम्",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "ेति।एकधैवानुद्रष्टव्यमेतदप्रमयं ध्रुवम्। अप्रमयमप्रमेयम्।न तत्र सूर्यो भाति न चन्द्रतारकं नेमा विद्युतो भान्ति कुतोऽयमग्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tasmāt",
+      "lemma": "tasmāt",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "युध्यस्व युद्धात् उपरमं मा कार्षीः इत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सिद्धमष्टावपि",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तन्नाशशङ्क्या स्वधर्मे युद्धे प्राक्प्रवृत्तस्य तव तस्मादुपरतिर्न युक्तेति युद्धाभ्यनुज्ञया भगवानाह तस्माद्युध्यस्व भारत",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yudhyasva",
+      "lemma": "yudh",
+      "grammar": "2nd person singular imperative passive verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "युद्धात् उपरमं मा कार्षीः इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "भारत 2",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। स्वधर्मे मा त्याक्षीरित्यर्थः।",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "भारतेति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "युध्यस्व"
+      ]
+    },
+    {
+      "surface_form": "bhās",
+      "lemma": "bhū",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "यापेक्षा किंतु कल्पिताज्ञानतत्कार्यनिवृत्त्यर्थं कल्पितवृत्तिविशेषापेक्षा",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rata",
+      "lemma": "ram",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "्यक्षादिप्रमाणैः अपरिच्छेद्यस्येत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "िज्ञांशस्योपपादकतयोत्तरश्लोकमवतारयति देहानामिति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "िबिम्बनाशवदात्मनाश इत्यत आह नित्यस्य शरीरिण इति",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "िष्ठा इति दर्शितम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "2.30",
+      "type": "thematic-similarity",
+      "score": 0.9145,
+      "feature_breakdown": {
+        "cosine": 0.8445,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 16.5362,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "2.10",
+      "type": "thematic-similarity",
+      "score": 0.9103,
+      "feature_breakdown": {
+        "cosine": 0.8503,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.2172,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "4.42",
+      "type": "thematic-similarity",
+      "score": 0.8901,
+      "feature_breakdown": {
+        "cosine": 0.8401,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.3432,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "1.24",
+      "type": "thematic-similarity",
+      "score": 0.8852,
+      "feature_breakdown": {
+        "cosine": 0.8352,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.2172,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "16.3",
+      "type": "thematic-similarity",
+      "score": 0.8849,
+      "feature_breakdown": {
+        "cosine": 0.8349,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.2172,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "13.34",
+      "type": "thematic-similarity",
+      "score": 0.8817,
+      "feature_breakdown": {
+        "cosine": 0.8317,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.2172,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "15.20",
+      "type": "thematic-similarity",
+      "score": 0.8753,
+      "feature_breakdown": {
+        "cosine": 0.8253,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.2172,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "16.8",
+      "type": "thematic-similarity",
+      "score": 0.8706,
+      "feature_breakdown": {
+        "cosine": 0.8206,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 4.3774,
+        "stem_prefix": 5.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_2.18",
+        "anandgiri_2.18"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_2.18",
+        "vedantadeshika_2.18"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_2.18",
+        "jayatirtha_2.18"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_2.18"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_2.18"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_2.18"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": true,
+    "pragmatic_context": {
+      "vocative": "Bhārata",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "अप्रमेय",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "11.17",
+        "11.42"
+      ]
+    },
+    {
+      "list": "अहंता",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "4.23",
+        "7.4",
+        "7.5",
+        "7.13",
+        "12.3"
+      ]
+    },
+    {
+      "list": "नित्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.12",
+        "2.14",
+        "2.20",
+        "2.21",
+        "2.24",
+        "2.26",
+        "2.30",
+        "2.45",
+        "3.15",
+        "3.31",
+        "3.39",
+        "4.8",
+        "4.20",
+        "5.3",
+        "7.17",
+        "8.14",
+        "9.6",
+        "9.14",
+        "9.22",
+        "9.33",
+        "10.9",
+        "11.52",
+        "12.2",
+        "13.9",
+        "13.11",
+        "15.5",
+        "18.52"
+      ]
+    },
+    {
+      "list": "युध्यस्व",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.30",
+        "11.34"
+      ]
+    },
+    {
+      "list": "सर्वगतः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.24"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

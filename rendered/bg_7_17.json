@@ -1,0 +1,961 @@
+{
+  "verse_id": "7.17",
+  "mūla": {
+    "devanāgarī": "तेषां ज्ञानी नित्य-युक्त एक-भक्तिर् विशिष्यते | प्रियो हि ज्ञानिनो ऽत्यर्थम् अहं स च मम प्रियः",
+    "iast": "teṣāṃ jñānī nitya-yukta eka-bhaktir viśiṣyate | priyo hi jñānino 'tyartham ahaṃ sa ca mama priyaḥ",
+    "chapter_position": "Chapter 7 (Jñāna-Vijñāna-Yoga (The Yoga of Knowledge and Realization)), verse 17",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "teṣām",
+      "lemma": "tad",
+      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñānī",
+      "lemma": "jñā",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्ववित् तत्त्ववित्त्वात् नित्ययुक्तः भवति एकभक्तिश्च अन्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधि",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विशिष्यते कुतः नित्ययुक्त एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठो मत इत्याह तेषां ज्ञानीति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठ इत्याह तेषामिति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तत्त्वज्ञानवान्निवृत्तसर्वकामो विशिष्यते सर्वतोऽतिरिच्यते",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "ज्ञानी"
+      ]
+    },
+    {
+      "surface_form": "nitya",
+      "lemma": "nitya",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "युक्तः भवति एकभक्तिश्च अन्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "युक्त एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ं योग उक्तलक्षणस्तद्वान् नित्ययुक्तः",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "युक्तः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "युक्तो भगवति प्रत्यगभिन्ने सदा समाहितचेता विक्षेपकाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "नित्य"
+      ]
+    },
+    {
+      "surface_form": "yukta",
+      "lemma": "yuj",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ः भवति एकभक्तिश्च अन्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ः। तादृशश्च मदीयमहिमज्ञानवान् तथा मय्येव पुरुषोत्तमे परमात्मनि विभावेकस्मिन् एका निरपेक्षा भक्तिर्यस्य। इतरेषां तु स्वाभ",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ः। सदा मन्निष्ठः एकस्मिन्मय्येव भक्तिर्यस्य सः। ज्ञानिनो देहाद्यभिमानाभावेन चित्तविक्षेपाभावान्नित्ययुक्तत्वमेकान्तभक्ति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ो भगवति प्रत्यगभिन्ने सदा समाहितचेता विक्षेपकाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "युक्त"
+      ]
+    },
+    {
+      "surface_form": "ek",
+      "lemma": "ej",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "न्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तः स एव विशिष्यते। किं च प्रियो हि ज्ञानिनोऽत्यर्थम् अहम् अत्र अत्यर्थशब्दो अभिधेयवचनः ज्ञानिनः अहं यथा प्रियः तथा मया स",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्य इत्यध्याहार्यम्",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "हं ज्ञानिनोऽत्यर्थं प्रियः प्रेमविषयः स",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तएव हि तस्याहमत्यन्तं प्रियः स",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तएवैकभक्तिरेकस्मिन्भगवत्येव भक्तिरनुरक्तिर्यस्य स तथा तस्यानुरक्तिविषयान्तराभावात्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhaktis",
+      "lemma": "bhañj",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viśiṣyate",
+      "lemma": "viśiṣ",
+      "grammar": "3rd person singular present indicative passive verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कुतः नित्ययुक्त एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सर्वतोऽतिरिच्यते",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "priyas",
+      "lemma": "prī",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तथाऽयमेक",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "hi",
+      "lemma": "hi",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "यस्मात् अहम् आत्मा ज्ञानिनः अतः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "मदेकप्राप्यस्य मया योगो नित्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "र्न सिद्ध्यतीति चेत् न आगमसिद्धत्वाच्चेत्याह तच्चे ति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मज्ञानवान् तथा मय्येव पुरुषोत्तमे परमात्मनि विभावेकस्मिन् एका निरपेक्षा भक्तिर्यस्य",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तस्याहमत्यन्तं प्रियः स",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तचेता विक्षेपकाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñāninas",
+      "lemma": "jñānin",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "atyartham",
+      "lemma": "atyartha",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aham",
+      "lemma": "aha",
+      "grammar": "nominative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मा ज्ञानिनः अतः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अत्र अत्यर्थशब्दो अभिधेयवचनः ज्ञानिनः अहं यथा प्रियः तथा मया सर्वज्ञेन सर्वशक्तिना",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sa",
+      "lemma": "sa",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "्य हि मदेकप्राप्यस्य मया योगो नित्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "्मिन्नेव भक्तिरित्येकभक्तिः",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "्तद्वान् नित्ययुक्तः",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "दा मन्निष्ठः एकस्मिन्मय्येव भक्तिर्यस्य सः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ुकृतित्वे नियतेऽपि सुकृताधिक्येन निष्कामतया प्रेमाधिक्यात् चतुर्विधानां तेषां मध्ये ज्ञानीतत्त्वज्ञानवान्निवृत्तसर्वकामो",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तुर्णां मध्ये ज्ञानी तत्त्ववित् तत्त्ववित्त्वात् नित्ययुक्तः भवति एकभक्तिश्च अन्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः व",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "। तस्य हि मदेकप्राप्यस्य मया योगो नित्यः। इतरयोस्तु यावत्स्वाभिलषितप्राप्ति मया योगः। तथा ज्ञानिनो मयि एकस्मिन् एव भक्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "्चोक्तं गारुडे मय्येव भक्तिर्नान्यत्र एकभक्तिः स उच्यते इति",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मदीयमहिमज्ञानवान् तथा मय्येव पुरुषोत्तमे परमात्मनि विभावेकस्मिन् एका निरपेक्षा भक्तिर्यस्य",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ित्तविक्षेपाभावान्नित्ययुक्तत्वमेकान्तभक्तित्वं",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तुर्विधानामपि सुकृतित्वे नियतेऽपि सुकृताधिक्येन निष्कामतया प्रेमाधिक्यात् चतुर्विधानां तेषां मध्ये ज्ञानीतत्त्वज्ञानवान्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mama",
+      "lemma": "mā",
+      "grammar": "2nd person plural perfect active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "वासुदेवस्य आत्मैवेति मम अत्यर्थं प्रियः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रियः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ज्ञानी श्रेष्ठो मत इत्याह तेषां ज्ञानीति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तस्मादेतैर्नित्ययुक्तत्वादिभिश्चतुर्भिर्हेतुभिः स उत्तम इत्यर्थः।",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परमेश्ववरस्य प्रियः",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "priyas",
+      "lemma": "prī",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तथाऽयमेक",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "8.14",
+      "type": "thematic-similarity",
+      "score": 0.9362,
+      "feature_breakdown": {
+        "cosine": 0.8562,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.5601,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "10.10",
+      "type": "thematic-similarity",
+      "score": 0.9345,
+      "feature_breakdown": {
+        "cosine": 0.8754,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0457,
+        "lemma_overlap": 8.8417,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "7.18",
+      "type": "thematic-similarity",
+      "score": 0.9342,
+      "feature_breakdown": {
+        "cosine": 0.8442,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.1538,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "9.22",
+      "type": "thematic-similarity",
+      "score": 0.933,
+      "feature_breakdown": {
+        "cosine": 0.8439,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0457,
+        "lemma_overlap": 11.5601,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "18.55",
+      "type": "thematic-similarity",
+      "score": 0.923,
+      "feature_breakdown": {
+        "cosine": 0.853,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.2115,
+        "stem_prefix": 7.0
+      }
+    },
+    {
+      "verse": "7.30",
+      "type": "thematic-similarity",
+      "score": 0.9223,
+      "feature_breakdown": {
+        "cosine": 0.8523,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 6.7222,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "9.14",
+      "type": "thematic-similarity",
+      "score": 0.9169,
+      "feature_breakdown": {
+        "cosine": 0.8469,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.8462,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "7.22",
+      "type": "thematic-similarity",
+      "score": 0.9159,
+      "feature_breakdown": {
+        "cosine": 0.8359,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.8126,
+        "stem_prefix": 7.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_7.17",
+        "anandgiri_7.17"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_7.17",
+        "vedantadeshika_7.17"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_7.17",
+        "jayatirtha_7.17"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_7.17"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_7.17"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_7.17"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": true,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "ज्ञान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.26",
+        "3.32",
+        "3.33",
+        "3.39",
+        "3.40",
+        "3.41",
+        "4.6",
+        "4.10",
+        "4.19",
+        "4.21",
+        "4.23",
+        "4.27",
+        "4.28",
+        "4.33",
+        "4.34",
+        "4.36",
+        "4.37",
+        "4.38",
+        "4.39",
+        "4.41",
+        "4.42",
+        "5.15",
+        "5.16",
+        "5.17",
+        "6.8",
+        "6.46",
+        "7.2",
+        "7.6",
+        "7.15",
+        "7.16",
+        "7.18",
+        "7.19",
+        "7.20",
+        "9.1",
+        "9.12",
+        "9.15",
+        "9.24",
+        "10.4",
+        "10.5",
+        "10.11",
+        "10.25",
+        "10.38",
+        "12.12",
+        "12.13",
+        "12.14",
+        "13.2",
+        "13.11",
+        "13.17",
+        "13.18",
+        "13.35",
+        "14.1",
+        "14.2",
+        "14.6",
+        "14.8",
+        "14.9",
+        "14.11",
+        "14.16",
+        "14.17",
+        "15.10",
+        "15.15",
+        "16.1",
+        "16.4",
+        "16.15",
+        "18.18",
+        "18.19",
+        "18.20",
+        "18.21",
+        "18.42",
+        "18.50",
+        "18.63",
+        "18.70",
+        "18.72"
+      ]
+    },
+    {
+      "list": "ज्ञानी",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "6.46",
+        "7.16",
+        "7.18"
+      ]
+    },
+    {
+      "list": "नित्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.12",
+        "2.14",
+        "2.18",
+        "2.20",
+        "2.21",
+        "2.24",
+        "2.26",
+        "2.30",
+        "2.45",
+        "3.15",
+        "3.31",
+        "3.39",
+        "4.8",
+        "4.20",
+        "5.3",
+        "8.14",
+        "9.6",
+        "9.14",
+        "9.22",
+        "9.33",
+        "10.9",
+        "11.52",
+        "12.2",
+        "13.9",
+        "13.11",
+        "15.5",
+        "18.52"
+      ]
+    },
+    {
+      "list": "भक्ति",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "4.6",
+        "9.26",
+        "12.17",
+        "12.19",
+        "13.10",
+        "14.26",
+        "18.54",
+        "18.68"
+      ]
+    },
+    {
+      "list": "युक्त",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.14",
+        "2.28",
+        "2.39",
+        "2.50",
+        "2.51",
+        "2.61",
+        "2.64",
+        "2.66",
+        "3.26",
+        "3.36",
+        "4.18",
+        "5.6",
+        "5.7",
+        "5.8",
+        "5.12",
+        "5.21",
+        "5.23",
+        "5.26",
+        "6.8",
+        "6.14",
+        "6.17",
+        "6.18",
+        "6.29",
+        "6.47",
+        "7.18",
+        "7.22",
+        "7.30",
+        "8.8",
+        "8.10",
+        "8.14",
+        "8.27",
+        "9.14",
+        "9.22",
+        "9.28",
+        "9.34",
+        "10.10",
+        "12.1",
+        "12.2",
+        "15.14",
+        "17.5",
+        "17.17",
+        "18.28",
+        "18.51"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

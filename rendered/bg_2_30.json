@@ -1,0 +1,728 @@
+{
+  "verse_id": "2.30",
+  "mūla": {
+    "devanāgarī": "देही नित्यम् अवध्यो ऽयं देहे सर्वस्य भारत | तस्मात् सर्वाणि भूतानि न त्वं शोचितुम् अर्हसि",
+    "iast": "dehī nityam avadhyo 'yaṃ dehe sarvasya bhārata | tasmāt sarvāṇi bhūtāni na tvaṃ śocitum arhasi",
+    "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 30",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "dehī",
+      "lemma": "dih",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "शरीरी नित्यं सर्वदा सर्वावस्थासु अवध्यः निरवयवत्वान्नित्यत्वाच्च तत्र अवध्योऽयं देहे शरीरे सर्वस्य सर्वगतत्वात्स्थावराद",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नित्यम् अवध्य इति मन्तव्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "आत्मा जीवो नित्यमवध्यः सर्वस्यानेकविधस्य देहे तस्मात् सर्वाणि भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "लिङ्गदेहोपाधिरात्मा वध्यो न भवतीति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "nityam",
+      "lemma": "nitya",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अवध्य इति मन्तव्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "नित्यम्"
+      ]
+    },
+    {
+      "surface_form": "avadhyas",
+      "lemma": "avadhā",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ayam",
+      "lemma": "i",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dehe",
+      "lemma": "dah",
+      "grammar": "3rd person singular perfect passive verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "शरीरे सर्वस्य सर्वगतत्वात्स्थावरादिषु स्थितोऽपि सर्वस्य प्राणिजातस्य देहे वध्यमानेऽपि अयं देही न वध्यः यस्मात् तस्मात्",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वध्यमाने",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तस्मात् सर्वाणि भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "वध्यमानेऽप्ययं देही लिङ्गदेहोपाधिरात्मा वध्यो न भवतीति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarvasya",
+      "lemma": "sarva",
+      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वगतत्वात्स्थावरादिषु स्थितोऽपि सर्वस्य प्राणिजातस्य देहे वध्यमानेऽपि अयं देही न वध्यः यस्मात् तस्मात् भीष्मादीनि सर्",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "देवादिदेहिनो देहे वध्यमाने",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ानेकविधस्य देहे तस्मात् सर्वाणि भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्राणिजातस्य देहे वध्यमानेऽप्ययं देही लिङ्गदेहोपाधिरात्मा वध्यो न भवतीति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "सर्वस्य"
+      ]
+    },
+    {
+      "surface_form": "bhās",
+      "lemma": "bhū",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rata",
+      "lemma": "ram",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "म्यात्मकम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ि देहीति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ि सर्वस्य प्राणिजातस्य देहे वध्यमानेऽप्ययं देही लिङ्गदेहोपाधिरात्मा वध्यो न भवतीति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tasmāt",
+      "lemma": "tasmāt",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "भीष्मादीनि सर्वाणि भूतानि उद्दिश्य न त्वं शोचितुमर्हसि",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वाणि देवादिस्थावरान्तानि भूतानि विषमाकाराणि",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सर्वाणि भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सर्वाणि भूतानि स्थूलानि सूक्ष्माणि",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "तस्मात्"
+      ]
+    },
+    {
+      "surface_form": "sarvāṇi",
+      "lemma": "sarv",
+      "grammar": "nominative plural neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतानि उद्दिश्य न त्वं शोचितुमर्हसि",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देवादिस्थावरान्तानि भूतानि विषमाकाराणि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भूतानि स्थूलानि सूक्ष्माणि",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "सर्वाणि भूतानि"
+      ]
+    },
+    {
+      "surface_form": "bhūtāni",
+      "lemma": "bhū",
+      "grammar": "nominative plural neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "उद्दिश्य न त्वं शोचितुमर्हसि",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विषमाकाराणि",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स्थूलानि सूक्ष्माणि",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "सर्वाणि भूतानि"
+      ]
+    },
+    {
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ित्यं सर्वदा सर्वावस्थासु अवध्यः निरवयवत्वान्नित्यत्वाच्च तत्र अवध्योऽयं देहे शरीरे सर्वस्य सर्वगतत्वात्स्थावरादिषु स्थि",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ो देहे वध्यमाने",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ित्यमवध्यः सर्वस्यानेकविधस्य देहे तस्मात् सर्वाणि भूतानि न शोचितुमर्हसि",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "्नशोच्यत्वमुपसंहरति देहीति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ीं सर्वप्राणिसाधारणभ्रमनिवृत्तिसाधनमुक्तमुपसंहरति सर्वस्य प्राणिजातस्य देहे वध्यमानेऽप्ययं देही लिङ्गदेहोपाधिरात्मा वध्य",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "नित्य",
+        "नित्यम्",
+        "विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति",
+        "सर्वाणि भूतानि"
+      ]
+    },
+    {
+      "surface_form": "tvam",
+      "lemma": "tva",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "2।11 इत्यादिनान त्वं शोचितुमर्हसि function playAudio(){ if(document.getElementById('slkaudio') != null) document.getEle",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śocitum",
+      "lemma": "śuc",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अर्हसि न केवलं भीष्मादीन् प्रति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "arhasi",
+      "lemma": "arh",
+      "grammar": "2nd person singular present indicative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "न केवलं भीष्मादीन् प्रति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "2.18",
+      "type": "thematic-similarity",
+      "score": 0.9276,
+      "feature_breakdown": {
+        "cosine": 0.8576,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 16.5362,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "2.26",
+      "type": "thematic-similarity",
+      "score": 0.9058,
+      "feature_breakdown": {
+        "cosine": 0.8358,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 16.7063,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "4.42",
+      "type": "thematic-similarity",
+      "score": 0.9048,
+      "feature_breakdown": {
+        "cosine": 0.8448,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.9761,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "14.8",
+      "type": "thematic-similarity",
+      "score": 0.902,
+      "feature_breakdown": {
+        "cosine": 0.852,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.8296,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "2.12",
+      "type": "thematic-similarity",
+      "score": 0.9002,
+      "feature_breakdown": {
+        "cosine": 0.8302,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 14.7528,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "8.27",
+      "type": "thematic-similarity",
+      "score": 0.8893,
+      "feature_breakdown": {
+        "cosine": 0.8293,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.4298,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "8.20",
+      "type": "thematic-similarity",
+      "score": 0.8884,
+      "feature_breakdown": {
+        "cosine": 0.8384,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.4298,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "3.15",
+      "type": "thematic-similarity",
+      "score": 0.888,
+      "feature_breakdown": {
+        "cosine": 0.838,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.8136,
+        "stem_prefix": 3.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_2.30",
+        "anandgiri_2.30"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_2.30",
+        "vedantadeshika_2.30"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_2.30",
+        "jayatirtha_2.30"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_2.30"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_2.30"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_2.30"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": true,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "Bhārata",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "तस्मात्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.68",
+        "3.15",
+        "3.19",
+        "3.41",
+        "4.15",
+        "4.42",
+        "8.7",
+        "8.20",
+        "8.27",
+        "11.33",
+        "11.44"
+      ]
+    },
+    {
+      "list": "नित्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "2.12",
+        "2.14",
+        "2.18",
+        "2.20",
+        "2.21",
+        "2.24",
+        "2.26",
+        "2.45",
+        "3.15",
+        "3.31",
+        "3.39",
+        "4.8",
+        "4.20",
+        "5.3",
+        "7.17",
+        "8.14",
+        "9.6",
+        "9.14",
+        "9.22",
+        "9.33",
+        "10.9",
+        "11.52",
+        "12.2",
+        "13.9",
+        "13.11",
+        "15.5",
+        "18.52"
+      ]
+    },
+    {
+      "list": "नित्यम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.31",
+        "9.33"
+      ]
+    },
+    {
+      "list": "विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.17"
+      ]
+    },
+    {
+      "list": "सर्वस्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.40",
+        "5.15",
+        "7.25",
+        "8.9",
+        "10.8",
+        "13.17",
+        "15.15",
+        "17.3",
+        "17.7"
+      ]
+    },
+    {
+      "list": "सर्वाणि भूतानि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.6",
+        "15.16"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

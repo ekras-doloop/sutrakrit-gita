@@ -228,7 +228,11 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     # --- theme_list_memberships section -------------------------------
     theme_lists = sub.theme_lists_for(verse_id)
     theme_list_memberships = [
-        {"list": tl, "role": "supporting", "other_verses_in_list": []}
+        {
+            "list": tl,
+            "role": "supporting",
+            "other_verses_in_list": sub.other_verses_in_list(tl, exclude_verse=verse_id),
+        }
         for tl in sorted(theme_lists)
     ]
 
@@ -245,13 +249,16 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
         # Convert surface form back to Devanāgarī for commentary search
         dev_surface = _devanagari_surface_for_lemma(tok["surface_form"])
         senses = extract_panel_senses(dev_surface, commentary_lookups) if dev_surface else []
+        # Per-lemma theme-list membership: which of this verse's
+        # theme-lists have a key-phrase that contains this lemma?
+        per_lemma_lists = sub.lists_containing_lemma(dev_surface, verse_id) if dev_surface else []
         word_by_word.append(
             {
                 "surface_form": tok["surface_form"],
                 "lemma": tok["lemma"],
                 "grammar": tok["grammar"],
                 "senses_attested_in_panel": senses,
-                "theme_lists": [],
+                "theme_lists": per_lemma_lists,
             }
         )
 

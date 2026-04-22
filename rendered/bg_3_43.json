@@ -1,0 +1,675 @@
+{
+  "verse_id": "3.43",
+  "mūla": {
+    "devanāgarī": "एवं बुद्धेः परं बुद्ध्वा संस्तभ्यात्मानम् आत्मना | जहि शत्रुं महाबाहो काम-रूपं दुरासदम्",
+    "iast": "evaṃ buddheḥ paraṃ buddhvā saṃstabhyātmānam ātmanā | jahi śatruṃ mahābāho kāma-rūpaṃ durāsadam",
+    "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 43",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "evam",
+      "lemma": "eva",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhes",
+      "lemma": "budh",
+      "grammar": "ablative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "param",
+      "lemma": "pṝ",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मानं बुद्ध्वा ज्ञात्वा संस्तभ्य सम्यक् स्तम्भनं कृत्वा आत्मानं स्वेनैव आत्मना संस्कृतेन मनसा सम्यक् समाधायेत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhvā",
+      "lemma": "budh",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञात्वा संस्तभ्य सम्यक् स्तम्भनं कृत्वा आत्मानं स्वेनैव आत्मना संस्कृतेन मनसा सम्यक् समाधायेत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यादिक्रियाद्वयस्य कर्मद्वयं",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "आत्मना योगशुद्धेनात्मानं मनः बुद्धेः परं आत्मानं पुरुषं बुद्ध्वेति केचित्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "आत्मना एवंभूतनिश्चयात्मिकया बुद्ध्यात्मानं मनः संस्तभ्य निश्चलं कृत्वा कामरूपं शत्रुं जहि मारय",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "साक्षात्कृत्य संस्तभ्य स्थिरीकृत्यात्मानं मनः आत्मना एतादृशनिश्चयात्मिकया बुद्ध्या जहि मारय शत्रुं सर्वपुरुषार्थशातनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṃstabhyāt",
+      "lemma": "saṃstambh",
+      "grammar": "3rd person singular benedictive active verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mānam",
+      "lemma": "mā",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āt",
+      "lemma": "a",
+      "grammar": "ablative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मानं बुद्ध्वा ज्ञात्वा संस्तभ्य सम्यक् स्तम्भनं कृत्वा आत्मानं स्वेनैव आत्मना संस्कृतेन मनसा सम्यक् समाधायेत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मानं मनः आत्मना बुद्ध्या कर्मयोगे अवस्थाप्य एनं कामरूपं दुरासदं शत्रुं जहि नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मना योगशुद्धेनात्मानं मनः बुद्धेः परं आत्मानं पुरुषं बुद्ध्वेति केचित्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मा तु निर्विकारस्तत्साक्षीत्येवं बुद्धेः परमात्मानं बुद्ध्वा आत्मना एवंभूतनिश्चयात्मिकया बुद्ध्यात्मानं मनः संस्तभ्य निश",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मना एतादृशनिश्चयात्मिकया बुद्ध्या जहि मारय शत्रुं सर्वपुरुषार्थशातनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "manā",
+      "lemma": "man",
+      "grammar": "nominative singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "संस्कृतेन मनसा सम्यक् समाधायेत्यर्थः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "बुद्ध्या कर्मयोगे अवस्थाप्य एनं कामरूपं दुरासदं शत्रुं जहि नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योगशुद्धेनात्मानं मनः बुद्धेः परं आत्मानं पुरुषं बुद्ध्वेति केचित्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "एवंभूतनिश्चयात्मिकया बुद्ध्यात्मानं मनः संस्तभ्य निश्चलं कृत्वा कामरूपं शत्रुं जहि मारय",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "एतादृशनिश्चयात्मिकया बुद्ध्या जहि मारय शत्रुं सर्वपुरुषार्थशातनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jahi",
+      "lemma": "han",
+      "grammar": "2nd person singular imperative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "एनं शत्रुं",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मारय। दुरासदं दुःखेनासादनीयम्। दुर्विज्ञेयगतिमित्यर्थः।",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मारय शत्रुं सर्वपुरुषार्थशातनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śat",
+      "lemma": "śad",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "रुं हे महाबाहो कामरूपं दुरासदं दुःखेन आसदः आसादनं प्राप्तिः यस्य तं दुरासदं दुर्विज्ञेयानेकविशेषमिति।।इति श्रीमत्परमहंसप",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "रुं जहि नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "रुं नाशय",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "रुं जहि मारय",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "रुं सर्वपुरुषार्थशातनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rum",
+      "lemma": "ru",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mahābāho",
+      "lemma": "mahābāhu",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "कामरूपं दुरासदं दुःखेन आसदः आसादनं प्राप्तिः यस्य तं दुरासदं दुर्विज्ञेयानेकविशेषमिति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कामरूपशत्रुं नाशय",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "महाबाहोर्हि शत्रुमारणं सुकरमिति योग्यं संबोधनम्",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "महाबाहो"
+      ]
+    },
+    {
+      "surface_form": "kāma",
+      "lemma": "kāma",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "रूपं दुरासदं दुःखेन आसदः आसादनं प्राप्तिः यस्य तं दुरासदं दुर्विज्ञेयानेकविशेषमिति",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ं ज्ञानविरोधिनं वैरिणं बु द्ध्वा आत्मानं मनः आत्मना बुद्ध्या कर्मयोगे अवस्थाप्य एनं कामरूपं दुरासदं शत्रुं जहि नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "रूपशत्रुं नाशय",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ादिविक्रियाः आत्मा तु निर्विकारस्तत्साक्षीत्येवं बुद्धेः परमात्मानं बुद्ध्वा आत्मना एवंभूतनिश्चयात्मिकया बुद्ध्यात्मानं",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "रूपं तृष्णारूपं दुरासदं दुःखेनासादनीयं दुर्विज्ञेयानेकविशेषमिति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rū",
+      "lemma": "ru",
+      "grammar": "nominative dual masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "पं दुरासदं दुःखेन आसदः आसादनं प्राप्तिः यस्य तं दुरासदं दुर्विज्ञेयानेकविशेषमिति",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "पं दुरासदं शत्रुं जहि नाशय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पशत्रुं नाशय",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पं शत्रुं जहि मारय",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पं तृष्णारूपं दुरासदं दुःखेनासादनीयं दुर्विज्ञेयानेकविशेषमिति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "upam",
+      "lemma": "vap",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dus",
+      "lemma": "dus",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āsadam",
+      "lemma": "āsad",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "6.6",
+      "type": "thematic-similarity",
+      "score": 0.922,
+      "feature_breakdown": {
+        "cosine": 0.862,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 13.4072,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "6.36",
+      "type": "thematic-similarity",
+      "score": 0.8904,
+      "feature_breakdown": {
+        "cosine": 0.8504,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.0018,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "6.5",
+      "type": "thematic-similarity",
+      "score": 0.8901,
+      "feature_breakdown": {
+        "cosine": 0.8501,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 5.6832,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "6.20",
+      "type": "thematic-similarity",
+      "score": 0.8895,
+      "feature_breakdown": {
+        "cosine": 0.8495,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 5.6832,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "7.4",
+      "type": "thematic-similarity",
+      "score": 0.8894,
+      "feature_breakdown": {
+        "cosine": 0.8394,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.6076,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "3.42",
+      "type": "thematic-similarity",
+      "score": 0.8883,
+      "feature_breakdown": {
+        "cosine": 0.8483,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.0409,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "2.55",
+      "type": "thematic-similarity",
+      "score": 0.8868,
+      "feature_breakdown": {
+        "cosine": 0.8468,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.6099,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "3.40",
+      "type": "thematic-similarity",
+      "score": 0.8855,
+      "feature_breakdown": {
+        "cosine": 0.8255,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 13.3916,
+        "stem_prefix": 6.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_3.43",
+        "anandgiri_3.43"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_3.43",
+        "vedantadeshika_3.43"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_3.43",
+        "jayatirtha_3.43"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_3.43"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_3.43"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_3.43"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "Mahābāho",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "इन्द्रियेभ्यः परं मनः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.42"
+      ]
+    },
+    {
+      "list": "महाबाहो",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.26",
+        "2.68",
+        "3.28",
+        "5.3",
+        "5.6",
+        "6.35",
+        "6.38",
+        "7.4",
+        "7.5",
+        "18.1",
+        "18.13"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

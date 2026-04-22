@@ -1,0 +1,835 @@
+{
+  "verse_id": "4.33",
+  "mūla": {
+    "devanāgarī": "श्रेयान् द्रव्य-मयाद् यज्ञाज् ज्ञान-यज्ञः परन्तप | सर्वं कर्माखिलं पार्थ ज्ञाने परिसमाप्यते",
+    "iast": "śreyān dravya-mayād yajñāj jñāna-yajñaḥ parantapa | sarvaṃ karmākhilaṃ pārtha jñāne parisamāpyate",
+    "chapter_position": "Chapter 4 (Jñāna-Karma-Sannyāsa-Yoga (The Yoga of Renunciation of Action in Knowledge)), verse 33",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "śreyān",
+      "lemma": "śri",
+      "grammar": "accusative plural masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "द्रव्यमयात् द्रव्यसाधनसाध्यात् यज्ञात् ज्ञानयज्ञः",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। सर्वस्य कर्मणः तदितरस्य च अखिलस्य उपादेयस्य ज्ञाने परिसमाप्तेः।तद् एवं सर्वैः साधनैः प्राप्यभूतं ज्ञानं कर्मान्तर्गतत्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रशस्यतरः साक्षान्मोक्षफलत्वात् द्रव्यमयात्तदुपलक्षिताज्ज्ञानशून्यात्सर्वस्मादपि यज्ञात्संसारफलाज्ज्ञानयज्ञ एकएव",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dravya",
+      "lemma": "dravya",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मयात् द्रव्यसाधनसाध्यात् यज्ञात् ज्ञानयज्ञः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "मयाद् अंशाद् ज्ञानमयः अंशः श्रेयान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मयादनात्मव्यापारजन्याद्दैवादियज्ञाज्ज्ञानयज्ञः श्रेयान्श्रेष्ठः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मयात्तदुपलक्षिताज्ज्ञानशून्यात्सर्वस्मादपि यज्ञात्संसारफलाज्ज्ञानयज्ञ एकएव",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "द्रव्य"
+      ]
+    },
+    {
+      "surface_form": "mayā",
+      "lemma": "mā",
+      "grammar": "instrumental singular feminine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "त् द्रव्यसाधनसाध्यात् यज्ञात् ज्ञानयज्ञः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "द् अंशाद् ज्ञानमयः अंशः श्रेयान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "दनात्मव्यापारजन्याद्दैवादियज्ञाज्ज्ञानयज्ञः श्रेयान्श्रेष्ठः",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "त्तदुपलक्षिताज्ज्ञानशून्यात्सर्वस्मादपि यज्ञात्संसारफलाज्ज्ञानयज्ञ एकएव",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āt",
+      "lemma": "a",
+      "grammar": "ablative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मज्ञानेनैव सर्वं साक्षात्क्रियतेस्वाध्यायज्ञानयज्ञाश्च 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yajñāt",
+      "lemma": "yaj",
+      "grammar": "ablative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानयज्ञः",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ज्ञानयज्ञः श्रेयानिति निर्दिष्टे सत्यात्मसाक्षात्कारान्तरङ्गज्ञानयोगप्राधान्यं ग्रहीतुमुचितम्सर्वं कर्माखिलं पार्थ ज्ञा",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "संसारफलाज्ज्ञानयज्ञ एकएव",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñāna",
+      "lemma": "jñā",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "यज्ञः हे परंतप। द्रव्यमयो हि यज्ञः फलस्यारम्भकः ज्ञानयज्ञः न फलारम्भकः अतः श्रेयान् प्रशस्यतरः। कथम् यतः सर्वं कर्म समस्",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "मयः अंशः श्रेयान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "फलमेवेत्यर्थः",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "यज्ञस्य श्रेष्ठतामाह श्रेयानिति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यज्ञस्तु श्रेष्ठ इत्याह श्रेयानिति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "योः साम्यप्राप्तावाह श्रेयान्प्रशस्यतरः साक्षान्मोक्षफलत्वात् द्रव्यमयात्तदुपलक्षिताज्ज्ञानशून्यात्सर्वस्मादपि यज्ञात्सं",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "ज्ञान"
+      ]
+    },
+    {
+      "surface_form": "yajñas",
+      "lemma": "yaj",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "य द्रव्ययज्ञात्प्रशस्यतरत्वे",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "य श्रेष्ठतामाह श्रेयानिति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तु श्रेष्ठ इत्याह श्रेयानिति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "parantapa",
+      "lemma": "paraṃtapa",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कस्मादेवं यस्मात् सर्वं कर्म इष्टिपशुसोमचयनरूपं श्रौतमखिलं निरवशेषं स्मार्तमुपासनादिरूपं च यत्कर्मं तत् ज्ञाने ब्रह्मा",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarvam",
+      "lemma": "sarva",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": [
+        "सर्वम्"
+      ]
+    },
+    {
+      "surface_form": "pārtha",
+      "lemma": "pārtha",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञाने मोक्षसाधने सर्वतःसंप्लुतोदकस्थानीये परिसमाप्यते अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ज्ञाने परिसमाप्यते इत्यनेन कर्मफलस्य सर्वस्य ज्ञानेऽन्तर्भावश्च प्रतीयतेअपि चेदसि सर्वेभ्यः पापेभ्यः पापकृत्तमः 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "पार्थ"
+      ]
+    },
+    {
+      "surface_form": "jñāne",
+      "lemma": "jñā",
+      "grammar": "locative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "मोक्षसाधने सर्वतःसंप्लुतोदकस्थानीये परिसमाप्यते अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं तदभिसमे",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "परिसमाप्तेः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परिसमाप्यते इत्यस्य ज्ञाने जाते न कर्म कार्यमित्यन्यथाप्रतीतिनिवारणाय तात्पर्यमाह ज्ञाने ति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "परिसमाप्यते",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मात्मैक्यसाक्षात्कारे समाप्यते प्रतिबन्धक्षयद्वारेण पर्यवस्यति",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "parisamāpyate",
+      "lemma": "parisamāp",
+      "grammar": "3rd person singular present indicative passive verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं तदभिसमेति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यनेन कर्मफलस्य सर्वस्य ज्ञानेऽन्तर्भावश्च प्रतीयतेअपि चेदसि सर्वेभ्यः पापेभ्यः पापकृत्तमः 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इत्यस्य ज्ञाने जाते न कर्म कार्यमित्यन्यथाप्रतीतिनिवारणाय तात्पर्यमाह ज्ञाने ति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "अन्तर्भवति सर्वं तदभिसमेति",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। अन्तर्भवतीत्यर्थः।सर्वं तदभिसमेति यत्किंचित्प्रजाः साधु कुर्वन्ति इति श्रुतेः।",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "7.10",
+      "type": "thematic-similarity",
+      "score": 0.9355,
+      "feature_breakdown": {
+        "cosine": 0.8755,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.5092,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "4.28",
+      "type": "thematic-similarity",
+      "score": 0.924,
+      "feature_breakdown": {
+        "cosine": 0.864,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.4756,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "18.72",
+      "type": "thematic-similarity",
+      "score": 0.9093,
+      "feature_breakdown": {
+        "cosine": 0.8493,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 5.9068,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "3.3",
+      "type": "thematic-similarity",
+      "score": 0.9082,
+      "feature_breakdown": {
+        "cosine": 0.8582,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.3942,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "9.15",
+      "type": "thematic-similarity",
+      "score": 0.907,
+      "feature_breakdown": {
+        "cosine": 0.867,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 6.0658,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "14.11",
+      "type": "thematic-similarity",
+      "score": 0.9069,
+      "feature_breakdown": {
+        "cosine": 0.8669,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 5.0485,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "7.19",
+      "type": "thematic-similarity",
+      "score": 0.9067,
+      "feature_breakdown": {
+        "cosine": 0.8567,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 3.2496,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "4.23",
+      "type": "thematic-similarity",
+      "score": 0.9065,
+      "feature_breakdown": {
+        "cosine": 0.8665,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 5.6191,
+        "stem_prefix": 3.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_4.33",
+        "anandgiri_4.33"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_4.33",
+        "vedantadeshika_4.33"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_4.33",
+        "jayatirtha_4.33"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_4.33"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_4.33"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_4.33"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "Pārtha (also: Paranṭapa)",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "ज्ञान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.26",
+        "3.32",
+        "3.33",
+        "3.39",
+        "3.40",
+        "3.41",
+        "4.6",
+        "4.10",
+        "4.19",
+        "4.21",
+        "4.23",
+        "4.27",
+        "4.28",
+        "4.34",
+        "4.36",
+        "4.37",
+        "4.38",
+        "4.39",
+        "4.41",
+        "4.42",
+        "5.15",
+        "5.16",
+        "5.17",
+        "6.8",
+        "6.46",
+        "7.2",
+        "7.6",
+        "7.15",
+        "7.16",
+        "7.17",
+        "7.18",
+        "7.19",
+        "7.20",
+        "9.1",
+        "9.12",
+        "9.15",
+        "9.24",
+        "10.4",
+        "10.5",
+        "10.11",
+        "10.25",
+        "10.38",
+        "12.12",
+        "12.13",
+        "12.14",
+        "13.2",
+        "13.11",
+        "13.17",
+        "13.18",
+        "13.35",
+        "14.1",
+        "14.2",
+        "14.6",
+        "14.8",
+        "14.9",
+        "14.11",
+        "14.16",
+        "14.17",
+        "15.10",
+        "15.15",
+        "16.1",
+        "16.4",
+        "16.15",
+        "18.18",
+        "18.19",
+        "18.20",
+        "18.21",
+        "18.42",
+        "18.50",
+        "18.63",
+        "18.70",
+        "18.72"
+      ]
+    },
+    {
+      "list": "द्रव्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "4.28"
+      ]
+    },
+    {
+      "list": "पार्थ",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.25",
+        "1.26",
+        "1.28",
+        "1.29",
+        "1.30",
+        "2.3",
+        "2.21",
+        "2.32",
+        "2.39",
+        "2.42",
+        "2.55",
+        "2.72",
+        "3.16",
+        "3.22",
+        "3.23",
+        "4.11",
+        "6.40",
+        "7.1",
+        "7.10",
+        "8.8",
+        "8.14",
+        "8.19",
+        "8.22",
+        "8.27",
+        "9.13",
+        "9.32",
+        "10.11",
+        "10.24",
+        "11.5",
+        "11.9",
+        "12.7",
+        "16.4",
+        "16.5",
+        "16.6",
+        "17.26",
+        "17.28",
+        "18.6",
+        "18.30",
+        "18.31",
+        "18.32",
+        "18.33",
+        "18.34",
+        "18.35",
+        "18.72",
+        "18.74",
+        "18.78"
+      ]
+    },
+    {
+      "list": "यज्ञः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.14",
+        "8.2",
+        "9.16",
+        "16.1"
+      ]
+    },
+    {
+      "list": "विवेक",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "4.36"
+      ]
+    },
+    {
+      "list": "वैराग्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "6.35",
+        "6.36",
+        "13.8",
+        "18.52"
+      ]
+    },
+    {
+      "list": "श्रद्धा",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "3.31",
+        "4.39",
+        "6.47",
+        "7.21",
+        "17.2",
+        "17.3",
+        "17.13",
+        "18.71"
+      ]
+    },
+    {
+      "list": "श्रवण",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.52"
+      ]
+    },
+    {
+      "list": "सर्वम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.17",
+        "7.7",
+        "7.13",
+        "7.19",
+        "8.22",
+        "8.28",
+        "10.8",
+        "10.14",
+        "13.13"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

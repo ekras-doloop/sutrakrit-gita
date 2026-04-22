@@ -1,0 +1,442 @@
+{
+  "verse_id": "9.17",
+  "mūla": {
+    "devanāgarī": "पिताहम् अस्य जगतो माता धाता पितामहः | वेद्यं पवित्रम् ॐकार ऋक् साम यजुर् एव च",
+    "iast": "pitāham asya jagato mātā dhātā pitāmahaḥ | vedyaṃ pavitram oṃkāra ṛk sāma yajur eva ca",
+    "chapter_position": "Chapter 9 (Rāja-Vidyā-Rāja-Guhya-Yoga (The Yoga of Royal Knowledge and Royal Mystery)), verse 17",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [],
+  "intertextual_panel": [
+    {
+      "verse": "9.16",
+      "type": "thematic-similarity",
+      "score": 1.0579,
+      "feature_breakdown": {
+        "cosine": 0.8279,
+        "theme_graph": 23.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "9.18",
+      "type": "thematic-similarity",
+      "score": 1.0168,
+      "feature_breakdown": {
+        "cosine": 0.8268,
+        "theme_graph": 19.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "1.12",
+      "type": "thematic-similarity",
+      "score": 0.8583,
+      "feature_breakdown": {
+        "cosine": 0.8383,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "7.6",
+      "type": "thematic-similarity",
+      "score": 0.8546,
+      "feature_breakdown": {
+        "cosine": 0.8246,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "7.10",
+      "type": "thematic-similarity",
+      "score": 0.8531,
+      "feature_breakdown": {
+        "cosine": 0.8431,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "9.25",
+      "type": "thematic-similarity",
+      "score": 0.8518,
+      "feature_breakdown": {
+        "cosine": 0.8518,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "11.39",
+      "type": "thematic-similarity",
+      "score": 0.8494,
+      "feature_breakdown": {
+        "cosine": 0.8394,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    },
+    {
+      "verse": "1.34",
+      "type": "thematic-similarity",
+      "score": 0.8466,
+      "feature_breakdown": {
+        "cosine": 0.8366,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 0.0,
+        "stem_prefix": 0.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_9.17",
+        "anandgiri_9.17"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_9.17",
+        "vedantadeshika_9.17"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_9.17",
+        "jayatirtha_9.17"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_9.17"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_9.17"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_9.17"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "other",
+    "meter_shift_from_previous": true,
+    "meter_shift_to_next": true,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "अव्यय बीज",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "7.10",
+        "9.16",
+        "9.18",
+        "10.39"
+      ]
+    },
+    {
+      "list": "अहं कृत्स्नस्य जगतः प्रभवः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "7.6",
+        "9.16"
+      ]
+    },
+    {
+      "list": "अहं क्रतुरहं यज्ञः स्वधाहमहमौषधम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "क्रतु",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16"
+      ]
+    },
+    {
+      "list": "गतिर्भर्ता प्रभुः साक्षी निवासः शरणं सुहृत्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "निधान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18",
+        "11.18",
+        "11.38"
+      ]
+    },
+    {
+      "list": "निवास",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18",
+        "11.25",
+        "11.37",
+        "11.45"
+      ]
+    },
+    {
+      "list": "पितामह",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.12",
+        "1.26",
+        "1.34",
+        "9.16",
+        "9.18",
+        "11.39"
+      ]
+    },
+    {
+      "list": "पितामहः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.12"
+      ]
+    },
+    {
+      "list": "पिताहमस्य जगतो माता धाता पितामहः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "प्रभव",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "6.24",
+        "7.6",
+        "8.18",
+        "8.19",
+        "9.16",
+        "9.18",
+        "10.2",
+        "10.8",
+        "13.16",
+        "16.9",
+        "18.41"
+      ]
+    },
+    {
+      "list": "प्रभवः प्रलयः स्थानं निधानं बीजमव्ययम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "प्रभु",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "5.14",
+        "9.16",
+        "9.18",
+        "9.24",
+        "11.4"
+      ]
+    },
+    {
+      "list": "प्रलय",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "7.6",
+        "8.18",
+        "9.16",
+        "9.18",
+        "14.2",
+        "14.14",
+        "14.15",
+        "16.11"
+      ]
+    },
+    {
+      "list": "ब्रह्मणोऽप्यादिकर्त्रे",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "भर्ता",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18",
+        "13.22"
+      ]
+    },
+    {
+      "list": "मन्त्रोऽहमहमेवाज्यमहमग्निरहं हुतम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18",
+        "18.5"
+      ]
+    },
+    {
+      "list": "यह सब भगवान् कैसे हो सकते हैं",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16"
+      ]
+    },
+    {
+      "list": "वेद्य",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "11.38",
+        "15.15"
+      ]
+    },
+    {
+      "list": "वेद्यं पवित्रमोंकार ऋक्साम यजुरेव च",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "साक्षी",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "सुहृद्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "6.9",
+        "9.16",
+        "9.18"
+      ]
+    },
+    {
+      "list": "स्थान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "5.5",
+        "8.22",
+        "8.28",
+        "9.4",
+        "9.5",
+        "9.6",
+        "9.16",
+        "9.18",
+        "11.36",
+        "15.7",
+        "18.62"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}

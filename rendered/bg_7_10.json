@@ -1,0 +1,847 @@
+{
+  "verse_id": "7.10",
+  "mūla": {
+    "devanāgarī": "बीजं मां सर्व-भूतानां विद्धि पार्थ सनातनम् | बुद्धिर् बुद्धिमताम् अस्मि तेजस् तेजस्विनाम् अहम्",
+    "iast": "bījaṃ māṃ sarva-bhūtānāṃ viddhi pārtha sanātanam | buddhir buddhimatām asmi tejas tejasvinām aham",
+    "chapter_position": "Chapter 7 (Jñāna-Vijñāna-Yoga (The Yoga of Knowledge and Realization)), verse 10",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "bījam",
+      "lemma": "bīja",
+      "grammar": "nominative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mām",
+      "lemma": "mā",
+      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarva",
+      "lemma": "sarva",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतानां",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "े विलक्षणा भावा मत्त",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "धर्मेषु विशेषेणापि कारणम्",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "भूतानां जीवानां सनातनं यद्बीजं कारणभूतं चैतन्यं तन्मां विद्धि सम्मिश्ररूपमेकं निरूपितम्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ेषां चराचराणां भूतानां बीजं सजातीयकार्योत्पादनसामर्थ्यं सनातनं नित्यमुत्तरोत्तरसर्वकार्येष्वनुस्यूतं तदेव बीजं मद्विभूति",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ाणि भूतानि स्वस्वबीजेषु प्रोतानि नतु त्वयीति चेन्नेत्याह",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhūtānām",
+      "lemma": "bhū",
+      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viddhi",
+      "lemma": "vid",
+      "grammar": "2nd person singular imperative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वभूतानां",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सम्मिश्ररूपमेकं निरूपितम्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नतु प्रतिव्यक्ति विनश्यत्",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नतु मद्भिन्नं",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "विद्धि"
+      ]
+    },
+    {
+      "surface_form": "pārtha",
+      "lemma": "pārtha",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "सनातनं चिरन्तनम्",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अतो युक्तमेकस्मिन्नेव मयि सर्वबीजे प्रोतत्वं सर्वेषामित्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "पार्थ"
+      ]
+    },
+    {
+      "surface_form": "sanātanam",
+      "lemma": "sanātana",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhis",
+      "lemma": "budh",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्वतां या बुद्धिस्तद्भूते मयि सर्वे बुद्धिमन्तः प्रोता भवन्तीत्याह कि़ञ्चेति",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तत्त्वातत्त्वविवेकसामर्थ्यं तादृशबुद्धिमतामहमस्मि",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhim",
+      "lemma": "budh",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "at",
+      "lemma": "ad",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "र प्रमाणमाह उक्तं वे ति",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ām",
+      "lemma": "ā",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "asmi",
+      "lemma": "as",
+      "grammar": "1st person singular present indicative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "तेजः प्रागल्भ्यं तद्वतां तेजस्विनाम् अहम्",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "अस्मि"
+      ]
+    },
+    {
+      "surface_form": "tā",
+      "lemma": "tan",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "नां हे पार्थ सनातनं चिरन्तनम्। किञ्च बुद्धिः विवेकशक्तिः अन्तःकरणस्य बुद्धिमतां विवेकशक्तिमताम् अस्मि तेजः प्रागल्भ्यं त",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "मच्छरीरतया मयि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कल्पेरसादीनां रसादित्वे स्वभावत्वे तथैव च",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "नां जीवानां सनातनं यद्बीजं कारणभूतं चैतन्यं तन्मां विद्धि सम्मिश्ररूपमेकं निरूपितम्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नां बीजं सजातीयकार्योत्पादनसामर्थ्यं सनातनं नित्यमुत्तरोत्तरसर्वकार्येष्वनुस्यूतं तदेव बीजं मद्विभूतिं विद्धि नतु प्रतिव",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नि स्वस्वबीजेषु प्रोतानि नतु त्वयीति चेन्नेत्याह",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "अहं बीजप्रदः पिता"
+      ]
+    },
+    {
+      "surface_form": "ijas",
+      "lemma": "yaj",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tā",
+      "lemma": "tan",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "नां हे पार्थ सनातनं चिरन्तनम्। किञ्च बुद्धिः विवेकशक्तिः अन्तःकरणस्य बुद्धिमतां विवेकशक्तिमताम् अस्मि तेजः प्रागल्भ्यं त",
+          "school": "advaita",
+          "weight": 0.5,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "मच्छरीरतया मयि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कल्पेरसादीनां रसादित्वे स्वभावत्वे तथैव च",
+          "school": "dvaita",
+          "weight": 0.5,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "नां जीवानां सनातनं यद्बीजं कारणभूतं चैतन्यं तन्मां विद्धि सम्मिश्ररूपमेकं निरूपितम्",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नां बीजं सजातीयकार्योत्पादनसामर्थ्यं सनातनं नित्यमुत्तरोत्तरसर्वकार्येष्वनुस्यूतं तदेव बीजं मद्विभूतिं विद्धि नतु प्रतिव",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नि स्वस्वबीजेषु प्रोतानि नतु त्वयीति चेन्नेत्याह",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "अहं बीजप्रदः पिता"
+      ]
+    },
+    {
+      "surface_form": "ijas",
+      "lemma": "yaj",
+      "grammar": "nominative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vinā",
+      "lemma": "vi",
+      "grammar": "instrumental singular masculine noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "म् अहम्",
+          "school": "advaita",
+          "weight": 1.0,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यत्स्यान्मया भूतं चराचरम् इति च।धर्माविरुद्धःकामरागबिवर्जितम्इत्याद्युपासनार्थम्। उक्तं च गीताकल्पेधर्मारुविद्धकामेऽसाव",
+          "school": "dvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "ं च तेषां मध्ये तेजोऽस्मि अहमात्मकमित्यर्थः।",
+          "school": "śuddhādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ं तेजः प्रागल्भ्यमहम्",
+          "school": "bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ं तथाविधप्रागल्भ्ययुक्तानां",
+          "school": "advaita-bhakti",
+          "weight": 1.0,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
+      "theme_lists": [
+        "तेजस्तेजस्विनामहम्"
+      ]
+    },
+    {
+      "surface_form": "am",
+      "lemma": "a",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aham",
+      "lemma": "aha",
+      "grammar": "nominative singular neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव अवस्थितः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 1.0,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "10.39",
+      "type": "thematic-similarity",
+      "score": 0.9408,
+      "feature_breakdown": {
+        "cosine": 0.8608,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 17.6841,
+        "stem_prefix": 7.0
+      }
+    },
+    {
+      "verse": "10.36",
+      "type": "thematic-similarity",
+      "score": 0.9373,
+      "feature_breakdown": {
+        "cosine": 0.8573,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 13.9609,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "4.33",
+      "type": "thematic-similarity",
+      "score": 0.9336,
+      "feature_breakdown": {
+        "cosine": 0.8736,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.5092,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "9.7",
+      "type": "thematic-similarity",
+      "score": 0.9294,
+      "feature_breakdown": {
+        "cosine": 0.8594,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.6097,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "10.24",
+      "type": "thematic-similarity",
+      "score": 0.9289,
+      "feature_breakdown": {
+        "cosine": 0.8389,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 11.0615,
+        "stem_prefix": 6.0
+      }
+    },
+    {
+      "verse": "15.12",
+      "type": "thematic-similarity",
+      "score": 0.9241,
+      "feature_breakdown": {
+        "cosine": 0.8441,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 13.0893,
+        "stem_prefix": 7.0
+      }
+    },
+    {
+      "verse": "5.29",
+      "type": "thematic-similarity",
+      "score": 0.9223,
+      "feature_breakdown": {
+        "cosine": 0.8723,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.7243,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "10.20",
+      "type": "thematic-similarity",
+      "score": 0.916,
+      "feature_breakdown": {
+        "cosine": 0.856,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.8927,
+        "stem_prefix": 5.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_7.10",
+        "anandgiri_7.10"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_7.10",
+        "vedantadeshika_7.10"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_7.10",
+        "jayatirtha_7.10"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_7.10"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_7.10"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_7.10"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": true,
+    "meter_shift_to_next": false,
+    "pragmatic_context": {
+      "vocative": "Pārtha",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "अव्यय बीज",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.16",
+        "9.17",
+        "9.18",
+        "10.39"
+      ]
+    },
+    {
+      "list": "अस्मि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.22",
+        "10.21",
+        "10.22",
+        "10.24",
+        "10.28",
+        "10.31",
+        "10.36",
+        "10.38",
+        "10.41",
+        "11.51",
+        "16.15"
+      ]
+    },
+    {
+      "list": "अहं बीजप्रदः पिता",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.7"
+      ]
+    },
+    {
+      "list": "तेजस्तेजस्विनामहम्",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "10.36"
+      ]
+    },
+    {
+      "list": "पार्थ",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.25",
+        "1.26",
+        "1.28",
+        "1.29",
+        "1.30",
+        "2.3",
+        "2.21",
+        "2.32",
+        "2.39",
+        "2.42",
+        "2.55",
+        "2.72",
+        "3.16",
+        "3.22",
+        "3.23",
+        "4.11",
+        "4.33",
+        "6.40",
+        "7.1",
+        "8.8",
+        "8.14",
+        "8.19",
+        "8.22",
+        "8.27",
+        "9.13",
+        "9.32",
+        "10.11",
+        "10.24",
+        "11.5",
+        "11.9",
+        "12.7",
+        "16.4",
+        "16.5",
+        "16.6",
+        "17.26",
+        "17.28",
+        "18.6",
+        "18.30",
+        "18.31",
+        "18.32",
+        "18.33",
+        "18.34",
+        "18.35",
+        "18.72",
+        "18.74",
+        "18.78"
+      ]
+    },
+    {
+      "list": "बहु स्यां प्रजायेय",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "9.4",
+        "9.5",
+        "9.7",
+        "9.8",
+        "9.24"
+      ]
+    },
+    {
+      "list": "बुद्धि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.19",
+        "2.39",
+        "2.41",
+        "2.44",
+        "2.49",
+        "2.50",
+        "2.51",
+        "2.52",
+        "2.53",
+        "2.63",
+        "2.65",
+        "2.66",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.26",
+        "3.40",
+        "3.42",
+        "4.18",
+        "5.17",
+        "5.20",
+        "5.28",
+        "6.9",
+        "6.21",
+        "6.43",
+        "7.4",
+        "7.5",
+        "8.7",
+        "10.4",
+        "10.10",
+        "12.8",
+        "12.14",
+        "13.5",
+        "15.20",
+        "18.16",
+        "18.17",
+        "18.30",
+        "18.31",
+        "18.32",
+        "18.37",
+        "18.49",
+        "18.57"
+      ]
+    },
+    {
+      "list": "विद्धि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.17",
+        "3.15",
+        "3.32",
+        "4.13",
+        "4.14",
+        "4.32",
+        "4.34",
+        "6.2",
+        "7.5",
+        "7.12",
+        "10.24",
+        "10.27",
+        "10.41",
+        "13.2",
+        "13.19",
+        "13.26",
+        "14.7",
+        "14.8",
+        "15.12",
+        "17.12",
+        "18.20",
+        "18.21"
+      ]
+    },
+    {
+      "list": "शिष्यते शेषसंज्ञः",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "10.20"
+      ]
+    },
+    {
+      "list": "सनातन",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.40",
+        "2.20",
+        "2.24",
+        "4.31",
+        "8.20",
+        "11.18",
+        "15.7"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B"
+  }
+}
