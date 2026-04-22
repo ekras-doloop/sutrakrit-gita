@@ -28,13 +28,15 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
+from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
+from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
 
-# Re-import the renderer's helpers so we don't duplicate the per-verse
-# assembly logic. We instantiate the Substrate once and pass it in.
 from scripts.render_verse import (  # noqa: E402
     CHAPTER_NAMES,
     DIALOGUE_MAP,
     SCHOOLS,
+    _to_iast,
+    _adjacent_verse_id,
 )
 
 
@@ -99,26 +101,46 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
             }
 
     theme_lists = sub.theme_lists_for(verse_id)
-    lemmas = sub._lemmatize(devanagari)  # noqa: SLF001
+    tokens = sub.tokenize_with_grammar(devanagari)
+
+    # Prosody
+    meter, _ = detect_meter(devanagari)
+    prev_id = _adjacent_verse_id(verse_id, -1)
+    next_id = _adjacent_verse_id(verse_id, +1)
+    prev_text = sub.get_verse(prev_id) if prev_id else ""
+    next_text = sub.get_verse(next_id) if next_id else ""
+    prev_meter = detect_meter(prev_text)[0] if prev_text else meter
+    next_meter = detect_meter(next_text)[0] if next_text else meter
+
+    # Vocative
+    vocs = detect_vocatives(devanagari, speaker)
+    primary_voc = primary_vocative(vocs)
+    if primary_voc and len(vocs) > 1:
+        vocative_str = f"{primary_voc} (also: {', '.join(vocs[1:])})"
+    elif primary_voc:
+        vocative_str = primary_voc
+    else:
+        vocative_str = ""
 
     return {
         "verse_id": verse_id,
         "mūla": {
             "devanāgarī": devanagari,
-            "iast": "(transliteration forthcoming)",
+            "iast": _to_iast(devanagari),
             "chapter_position": f"Chapter {chapter} ({chapter_name}), verse {verse_num}",
             "speaker": speaker,
             "addressed_to": addressed,
         },
         "word_by_word": [
             {
-                "surface_form": "(forthcoming)",
-                "lemma": l,
-                "grammar": "(forthcoming)",
+                "surface_form": tok["surface_form"],
+                "lemma": tok["lemma"],
+                "grammar": tok["grammar"],
                 "senses_attested_in_panel": [],
                 "theme_lists": [],
             }
-            for l in sorted(lemmas)
+            for tok in tokens
+            if tok["lemma"]
         ],
         "intertextual_panel": [
             {
@@ -131,11 +153,11 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
         ],
         "doctrinal_projections": doctrinal_projections,
         "prosodic_information": {
-            "meter": "anuṣṭubh",
-            "meter_shift_from_previous": False,
-            "meter_shift_to_next": False,
+            "meter": meter,
+            "meter_shift_from_previous": detect_meter_shift(prev_meter, meter) if prev_text else False,
+            "meter_shift_to_next": detect_meter_shift(meter, next_meter) if next_text else False,
             "pragmatic_context": {
-                "vocative": "(forthcoming)",
+                "vocative": vocative_str,
                 "preceding_question": "",
                 "following_response": "",
             },

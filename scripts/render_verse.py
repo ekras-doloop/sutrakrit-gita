@@ -32,6 +32,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
+from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
 from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
 
 DIALOGUE_MAP = {
@@ -187,12 +188,21 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     prev_meter = detect_meter(prev_text)[0] if prev_text else meter
     next_meter = detect_meter(next_text)[0] if next_text else meter
 
+    vocatives_detected = detect_vocatives(devanagari, speaker)
+    primary_voc = primary_vocative(vocatives_detected)
+    if primary_voc and len(vocatives_detected) > 1:
+        vocative_str = f"{primary_voc} (also: {', '.join(vocatives_detected[1:])})"
+    elif primary_voc:
+        vocative_str = primary_voc
+    else:
+        vocative_str = ""
+
     prosodic_information = {
         "meter": meter,
         "meter_shift_from_previous": detect_meter_shift(prev_meter, meter) if prev_text else False,
         "meter_shift_to_next": detect_meter_shift(meter, next_meter) if next_text else False,
         "pragmatic_context": {
-            "vocative": "(vocative detection forthcoming)",
+            "vocative": vocative_str,
             "preceding_question": "",
             "following_response": "",
         },
@@ -206,16 +216,17 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     ]
 
     # --- word_by_word section ----------------------------------------
-    lemmas = sub._lemmatize(devanagari)  # noqa: SLF001
+    tokens = sub.tokenize_with_grammar(devanagari)
     word_by_word = [
         {
-            "surface_form": "(forthcoming)",
-            "lemma": lemma,
-            "grammar": "(forthcoming via vidyut.prakriya)",
-            "senses_attested_in_panel": [],
+            "surface_form": tok["surface_form"],
+            "lemma": tok["lemma"],
+            "grammar": tok["grammar"],
+            "senses_attested_in_panel": [],  # next-pass: extract from panel
             "theme_lists": [],
         }
-        for lemma in sorted(lemmas)
+        for tok in tokens
+        if tok["lemma"]  # skip unparsed punctuation tokens
     ]
 
     # --- audit_trail section ------------------------------------------

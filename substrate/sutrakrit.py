@@ -60,6 +60,100 @@ def _normalize(s: str) -> str:
     return re.sub(r"\s+", " ", s).strip()
 
 
+def _slp_to_iast(text: str) -> str:
+    """Convert SLP1-romanized Sanskrit to IAST."""
+    try:
+        from vidyut.lipi import Scheme, transliterate
+
+        return transliterate(text, Scheme.Slp1, Scheme.Iast)
+    except Exception:
+        return text
+
+
+def _extract_field(text: str, prefix: str) -> str:
+    """Extract a field's value from a vidyut PadaEntry repr string."""
+    idx = text.find(prefix)
+    if idx < 0:
+        return ""
+    after = text[idx + len(prefix):]
+    # Field value typically ends at a comma, paren, or close-bracket
+    for end_idx, ch in enumerate(after):
+        if ch in (",", ")", "]", " "):
+            return after[:end_idx]
+    return after.strip()
+
+
+_PURUSHA_MAP = {
+    "Purusha.Prathama": "3rd person",
+    "Purusha.Madhyama": "2nd person",
+    "Purusha.Uttama": "1st person",
+}
+_VACANA_MAP = {
+    "Vacana.Eka": "singular",
+    "Vacana.Dvi": "dual",
+    "Vacana.Bahu": "plural",
+}
+_LAKARA_MAP = {
+    "Lakara.Lat": "present indicative",
+    "Lakara.Lit": "perfect",
+    "Lakara.Lut": "periphrastic future",
+    "Lakara.Lrt": "simple future",
+    "Lakara.Lot": "imperative",
+    "Lakara.Lan": "imperfect",
+    "Lakara.VidhiLin": "optative",
+    "Lakara.AshirLin": "benedictive",
+    "Lakara.Lun": "aorist",
+    "Lakara.Lrn": "conditional",
+}
+_PRAYOGA_MAP = {
+    "Prayoga.Kartari": "active",
+    "Prayoga.Karmani": "passive",
+    "Prayoga.Bhave": "impersonal",
+}
+_LINGA_MAP = {
+    "Linga.Pum": "masculine",
+    "Linga.Stri": "feminine",
+    "Linga.Napumsaka": "neuter",
+}
+_VIBHAKTI_MAP = {
+    "Vibhakti.Prathama": "nominative",
+    "Vibhakti.Dvitiya": "accusative",
+    "Vibhakti.Tritiya": "instrumental",
+    "Vibhakti.Trtiya": "instrumental",  # vidyut spells without i
+    "Vibhakti.Caturthi": "dative",
+    "Vibhakti.Panchami": "ablative",
+    "Vibhakti.Pancami": "ablative",
+    "Vibhakti.Shashthi": "genitive",
+    "Vibhakti.Sashthi": "genitive",
+    "Vibhakti.Saptami": "locative",
+    "Vibhakti.Sambodhana": "vocative",
+}
+
+
+def _humanize_purusha(v: str) -> str:
+    return _PURUSHA_MAP.get(v, v)
+
+
+def _humanize_vacana(v: str) -> str:
+    return _VACANA_MAP.get(v, v)
+
+
+def _humanize_lakara(v: str) -> str:
+    return _LAKARA_MAP.get(v, v)
+
+
+def _humanize_prayoga(v: str) -> str:
+    return _PRAYOGA_MAP.get(v, v)
+
+
+def _humanize_linga(v: str) -> str:
+    return _LINGA_MAP.get(v, v)
+
+
+def _humanize_vibhakti(v: str) -> str:
+    return _VIBHAKTI_MAP.get(v, v)
+
+
 def _substring_score(query: str, candidate: str) -> float:
     q = _normalize(query)
     if not q or not candidate:
@@ -158,6 +252,95 @@ class Substrate:
             lemmas = set()
         self._lemma_cache[text] = lemmas
         return lemmas
+
+    def tokenize_with_grammar(self, devanagari_text: str) -> list[dict]:
+        """Tokenize a verse and return full grammatical info per token.
+
+        Returns a list of dicts:
+            [{
+              "surface_form": "<surface form in IAST>",
+              "lemma": "<lemma in IAST>",
+              "grammar": "<human-readable grammatical analysis>",
+              "raw_info": "<vidyut PadaEntry repr for audit>",
+            }, ...]
+
+        Uses vidyut-cheda to lemmatize and extract per-token grammatical
+        metadata (verb tense/person/number, noun case/gender/number, etc.).
+        """
+        try:
+            from vidyut.lipi import Scheme, transliterate
+        except Exception:
+            return []
+
+        slp = re.sub(
+            r"[\|\.\,\;\:\?]",
+            " ",
+            transliterate(devanagari_text, Scheme.Devanagari, Scheme.Slp1),
+        ).strip()
+        if not slp:
+            return []
+
+        try:
+            tokens = self._get_chedaka().run(slp)
+        except Exception:
+            return []
+
+        out = []
+        for tok in tokens:
+            grammar = self._format_grammar(tok)
+            out.append(
+                {
+                    "surface_form": _slp_to_iast(tok.text),
+                    "lemma": _slp_to_iast(tok.lemma) if tok.lemma else "",
+                    "grammar": grammar,
+                    "raw_info": str(tok.data) if hasattr(tok, "data") else "",
+                }
+            )
+        return out
+
+    @staticmethod
+    def _format_grammar(token) -> str:
+        """Produce a human-readable grammar string from a vidyut Token's PadaEntry."""
+        try:
+            data = token.data
+            data_str = str(data)
+            # PadaEntry types: Tinanta (verb), Subanta (noun), Avyaya (indeclinable)
+            if "Tinanta" in data_str:
+                # Extract lakara, purusha, vacana from the repr
+                lakara = _extract_field(data_str, "lakara=")
+                purusha = _extract_field(data_str, "purusha=")
+                vacana = _extract_field(data_str, "vacana=")
+                prayoga = _extract_field(data_str, "prayoga=")
+                parts = []
+                if purusha:
+                    parts.append(_humanize_purusha(purusha))
+                if vacana:
+                    parts.append(_humanize_vacana(vacana))
+                if lakara:
+                    parts.append(_humanize_lakara(lakara))
+                if prayoga:
+                    parts.append(_humanize_prayoga(prayoga))
+                parts.append("verb")
+                return " ".join(parts)
+            elif "Subanta" in data_str:
+                linga = _extract_field(data_str, "linga=")
+                vibhakti = _extract_field(data_str, "vibhakti=")
+                vacana = _extract_field(data_str, "vacana=")
+                parts = []
+                if vibhakti:
+                    parts.append(_humanize_vibhakti(vibhakti))
+                if vacana:
+                    parts.append(_humanize_vacana(vacana))
+                if linga:
+                    parts.append(_humanize_linga(linga))
+                parts.append("noun")
+                return " ".join(parts)
+            elif "Avyaya" in data_str:
+                return "indeclinable"
+            else:
+                return "(unparsed)"
+        except Exception:
+            return "(unparsed)"
 
     def _stem_prefix(self, lemma: str, n: int = 3) -> str:
         if not lemma:
