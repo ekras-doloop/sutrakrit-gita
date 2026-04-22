@@ -9,159 +9,101 @@
   },
   "word_by_word": [
     {
-      "surface_form": "gandhas",
+      "surface_form": "gandhaḥ",
       "lemma": "gandha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthivyām",
       "lemma": "pṛthivī",
-      "grammar": "locative singular feminine noun",
+      "grammar": "locative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tā",
-      "lemma": "tan",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ijas",
-      "lemma": "yaj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tejaḥ",
+      "lemma": "tejas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vibhāvasau",
       "lemma": "vibhāvasu",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अग्नौ। तथा जीवनं सर्वभूतेषु येन जीवन्ति सर्वाणि भूतानि तत् जीवनम्। तपश्च अस्मि तपस्विषु तस्मिन् तपसि मयि तपस्विनः प्रोत",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। स्पष्टमेव। सर्वभूतेषु जीवनं प्राणनं तपः कायशोधनम्।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jīvanam",
-      "lemma": "jīv",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jīvana",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūteṣu",
-      "lemma": "bhū",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देवमनुष्यादिरूपेणावस्थितेषु जन्तुषु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "lemma": "bhūta",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tapasviṣu",
       "lemma": "tapasvin",
-      "grammar": "locative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तस्मिन् तपसि मयि तपस्विनः प्रोताः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "वानप्रस्थादिषु द्वन्द्वसहनरूपं तपोऽस्मि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "नित्यं तपोयुक्तेषु वानप्रस्थादिषु",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "locative masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -373,7 +315,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Krsna is the pure fragrance in earth and not the corrupted smell, what does this imply about whether sensory beauty is spiritually reliable or spiritually suspect?",

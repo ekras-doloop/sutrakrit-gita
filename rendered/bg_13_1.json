@@ -7,7 +7,113 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "idam",
+      "lemma": "idam",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śarīram",
+      "lemma": "śarīra",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kaunteya",
+      "lemma": "kaunteya",
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kṣetram",
+      "lemma": "kṣetra",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iti",
+      "lemma": "iti",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "abhidhīyate",
+      "lemma": "abhidhā",
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "etat",
+      "lemma": "etad",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vetti",
+      "lemma": "vid",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tam",
+      "lemma": "tad",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prāhuḥ",
+      "lemma": "prāh",
+      "grammar": "past indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kṣetrajñaḥ",
+      "lemma": "kṣetrajña",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iti",
+      "lemma": "iti",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tad",
+      "lemma": "tad",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vidaḥ",
+      "lemma": "vid",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "13.26",
@@ -271,7 +377,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the body is merely a 'field' — an object known — then who or what is the 'I' that says 'my body hurts' or 'I am tired'? What changes in your daily experience when you sit with that question?",

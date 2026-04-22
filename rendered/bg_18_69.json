@@ -11,142 +11,112 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मनुष्य"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manuṣi",
-      "lemma": "manus",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "manuṣyeṣu",
+      "lemma": "manuṣya",
+      "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "eṣu",
-      "lemma": "a",
-      "grammar": "locative plural masculine noun",
+      "surface_form": "kaścid",
+      "lemma": "kaścit",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "priyakṛt",
-      "lemma": "priyakṛt",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "me",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tamas",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "priya",
+      "lemma": "priya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kṛttamaḥ",
+      "lemma": "kṛttama",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhavitā",
       "lemma": "bhū",
-      "grammar": "3rd person singular periphrastic future active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भविष्यत्यपि काले तस्मात् द्वितीयः अन्यः प्रियतरः प्रियकृत्तरः भुवि लोकेऽस्मिन् न भविता",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? अयोग्यानां प्रथमम् उपादानं योग्यानाम् अकथनाद्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "भविष्यति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "भविष्यति? ममापि तस्मादन्यः प्रियतरः प्रीत्यतिशयविषयः कश्चिदप्यासीन्नाधुना",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "future indicative peri 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मनुष्य"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "anyaḥ",
+      "lemma": "anya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "priyataras",
+      "surface_form": "priyataraḥ",
       "lemma": "priyatara",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhuvi",
+      "lemma": "bhū",
+      "grammar": "locative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -379,7 +349,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What does it mean that Krishna rates transmission of His teaching above all other acts — including heroism in battle — as the measure of being beloved?",

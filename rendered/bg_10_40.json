@@ -11,100 +11,98 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनन्त"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "antas",
-      "lemma": "anti",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "antaḥ",
+      "lemma": "anta",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asti",
       "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mama",
-      "lemma": "mā",
-      "grammar": "2nd person plural perfect active verb",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "divyānām",
       "lemma": "divya",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vibhūtīnām",
-      "lemma": "vibhū",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "vibhūti",
+      "grammar": "genitive feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parantapa",
       "lemma": "paraṃtapa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eṣa",
-      "lemma": "eṣ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "etad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "uddeśatas",
-      "lemma": "uddeśatas",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "uddeśataḥ",
+      "lemma": "uddeśa",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "proktas",
+      "surface_form": "proktaḥ",
       "lemma": "pravac",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vibhūtes",
-      "lemma": "vibhū",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "vibhūteḥ",
+      "lemma": "vibhūti",
+      "grammar": "genitive feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vistaras",
-      "lemma": "vistṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vistaraḥ",
+      "lemma": "vistara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mayā",
-      "lemma": "mā",
-      "grammar": "instrumental singular feminine noun",
+      "lemma": "mad",
+      "grammar": "instrumental singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -353,7 +351,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If even a comprehensive catalogue of Kṛṣṇa's vibhūtis is only a fragment (uddeśataḥ), what epistemic posture should the student bring to any systematic theology or philosophical system that claims completeness?",

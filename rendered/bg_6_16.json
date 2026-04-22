@@ -9,146 +9,142 @@
   },
   "word_by_word": [
     {
-      "surface_form": "nāt",
+      "surface_form": "na",
       "lemma": "na",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aśnatas",
-      "lemma": "aś",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "atyaśnataḥ",
+      "lemma": "atyaś",
+      "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yogas",
-      "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yogaḥ",
+      "lemma": "yoga",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asti",
       "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "स्वप्न"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ekāntam",
       "lemma": "ekāntam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "an",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aśnatas",
+      "surface_form": "aśnataḥ",
       "lemma": "aś",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nas",
-      "lemma": "na",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "naḥ",
+      "lemma": "mad",
+      "grammar": "genitive plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "atisvapna",
-      "lemma": "atisvapna",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ati",
+      "lemma": "ati",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "svapna",
+      "lemma": "svapna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śīlasya",
       "lemma": "śīla",
-      "grammar": "Vibhakti.Sasthi singular neuter noun",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jāgratas",
+      "surface_form": "jāgrataḥ",
       "lemma": "jāgṛ",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "स्वप्न"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ārjuna",
-      "lemma": "ārjuna",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "arjuna",
+      "lemma": "arjuna",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -365,7 +361,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If yoga requires ātma-saṃmita (body-commensurate) intake, does the verse implicitly validate individualized dietary norms — and how do the schools resolve the tension between prescriptive rules and individual physiology?",

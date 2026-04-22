@@ -11,121 +11,100 @@
     {
       "surface_form": "adhibhūtam",
       "lemma": "adhibhūta",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kṣaras",
-      "lemma": "kṣar",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kṣaraḥ",
+      "lemma": "kṣara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhāvas",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bhāvaḥ",
+      "lemma": "bhāva",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सदसच्चाहम्"
-      ]
-    },
-    {
-      "surface_form": "adhidaivatam",
-      "lemma": "adhidaivata",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "adhiyajñas",
+      "surface_form": "adhidaivatam",
+      "lemma": "adhidaivata",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "adhiyajñaḥ",
       "lemma": "adhiyajña",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "atra",
       "lemma": "atra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dehe",
-      "lemma": "dah",
-      "grammar": "3rd person singular perfect passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यो यज्ञः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इत्यनेन विवक्षितमिति दर्शयति -- अत्रेन्द्रादाविति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "lemma": "deha",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "deha",
-      "lemma": "dih",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "deha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhṛtām",
-      "lemma": "bhṛ",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "bhṛt",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vara",
-      "lemma": "vṛ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "vara",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -454,7 +433,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the perishable adhibhūta includes everything born — including one's own sense-organs — what does that imply about building an identity around physical prowess, wealth, or social standing?",

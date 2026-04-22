@@ -9,136 +9,109 @@
   },
   "word_by_word": [
     {
-      "surface_form": "tribhis",
+      "surface_form": "tribhiḥ",
       "lemma": "tri",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "guṇa",
       "lemma": "guṇa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mayā",
-      "lemma": "mā",
-      "grammar": "instrumental singular feminine noun",
+      "surface_form": "mayaiḥ",
+      "lemma": "maya",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ais",
-      "lemma": "a",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "bhāvaiḥ",
+      "lemma": "bhāva",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhāvais",
-      "lemma": "bhū",
-      "grammar": "instrumental plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ebhis",
-      "lemma": "e",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "ebhiḥ",
+      "lemma": "idam",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvam",
       "lemma": "sarva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इदं प्राणिजातं जगत् मोहितम् अविवेकितामापादितं सत् न अभिजानाति माम् एभ्यः यथोक्तेभ्यः गुणेभ्यः परं व्यतिरिक्तं विलक्षणं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वम्"
-      ]
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jagat",
-      "lemma": "jagat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "jagant",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ūhitam",
-      "lemma": "ūh",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "mohitam",
+      "lemma": "mohay",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhijānāti",
       "lemma": "abhijñā",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ebhyas",
-      "lemma": "a",
-      "grammar": "dative plural masculine noun",
+      "surface_form": "ebhyaḥ",
+      "lemma": "idam",
+      "grammar": "ablative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "param",
-      "lemma": "pṝ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "para",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyayam",
-      "lemma": "vye",
-      "grammar": "1st person singular imperfect active verb",
+      "lemma": "avyaya",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्ययम्"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -426,7 +399,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the gunas are Kṛṣṇa's own māyā, why does He describe them as causing non-recognition of Himself — is delusion something the Lord actively maintains or merely permits?",

@@ -10,127 +10,93 @@
   "word_by_word": [
     {
       "surface_form": "icchā",
-      "lemma": "iṣ",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "द्वेषः सुखं दुःखम् इति क्षेत्रकार्याणि क्षेत्रविकाराः उच्यन्ते यद्यपि इच्छाद्वेषसुखदुःखानि आत्मधर्मभूतानि? तथापि आत्मनः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "icchā",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dveṣas",
-      "lemma": "dviṣ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dveṣaḥ",
+      "lemma": "dveṣa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukham",
-      "lemma": "sukham",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "sukha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "duḥkham",
+      "lemma": "duḥkha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kham",
-      "lemma": "khan",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "saṃghātaḥ",
+      "lemma": "saṃghāta",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃghātas",
-      "lemma": "saṃhan",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "cetanā",
+      "lemma": "cetanā",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetanās",
-      "lemma": "cit",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dhṛtis",
-      "lemma": "dhṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dhṛtiḥ",
+      "lemma": "dhṛti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etat",
       "lemma": "etad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣetram",
       "lemma": "kṣetra",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "samāsena",
-      "lemma": "samas",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संक्षेपेण सविकारं सकार्यम् उदाहृतम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "samāsena",
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
       "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vikāram",
-      "lemma": "vikṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "vikāra",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "udāhṛtam",
       "lemma": "udāhṛ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "।अथ क्षेत्रकार्येषु आत्मज्ञानसाधनतया उपादेया गुणाः प्रोच्यन्ते --",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "nominative neuter singular participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -394,7 +360,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If icchā (desire) and dveṣa (aversion) are listed as kṣetra-modifications rather than ātman-properties, what does it mean that I experience them as 'mine'?",

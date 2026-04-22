@@ -7,7 +7,120 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "puruṣaḥ",
+      "lemma": "puruṣa",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prakṛti",
+      "lemma": "prakṛti",
+      "grammar": "compound feminine (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sthaḥ",
+      "lemma": "stha",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "hi",
+      "lemma": "hi",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhuṅkte",
+      "lemma": "bhuj",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prakṛti",
+      "lemma": "prakṛti",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jān",
+      "lemma": "ja",
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "guṇān",
+      "lemma": "guṇa",
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kāraṇam",
+      "lemma": "kāraṇa",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "guṇa",
+      "lemma": "guṇa",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṅgaḥ",
+      "lemma": "saṅga",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "asya",
+      "lemma": "idam",
+      "grammar": "genitive masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sat",
+      "lemma": "as",
+      "grammar": "compound present participle (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "asat",
+      "lemma": "asat",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yoni",
+      "lemma": "yoni",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "janmasu",
+      "lemma": "janman",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "13.20",
@@ -287,7 +400,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the gunas arise from prakrti and not from the self, who or what is actually responsible when I act out of greed or fear — and does that change how I assign blame?",

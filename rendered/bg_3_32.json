@@ -10,154 +10,106 @@
   "word_by_word": [
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etat",
       "lemma": "etad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "abhi",
-      "lemma": "abhi",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "abhyasūyantaḥ",
+      "lemma": "abhyasūy",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asūyanta",
-      "lemma": "sū",
-      "grammar": "3rd person plural imperfect passive verb",
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "anutiṣṭhanti",
+      "lemma": "anuṣṭhā",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "matam",
-      "lemma": "man",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "mata",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñāna",
-      "lemma": "jñā",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान"
-      ]
-    },
-    {
-      "surface_form": "vim",
-      "lemma": "vi",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ūḍhān",
-      "lemma": "vah",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "vimūḍhān",
+      "lemma": "vimuh",
+      "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tān",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viddhi",
       "lemma": "vid",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जानीहि नष्टान् नाशं गतान् अचेतसः अविवेकिनः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। चेतःकार्यं हि वस्तुयाथात्म्यनिश्चयः तदभावाद् अचेतसः विपरीतज्ञानाः सर्वत्र विमूढाश्च।एवं प्रकृतिसंसर्गिणः तद्गुणोद्रेकक",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "नष्टान् विद्धि",
-        "विद्धि"
-      ]
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "naṣṭān",
       "lemma": "naś",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नाशं गतान् अचेतसः अविवेकिनः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अचेतसो विद्धि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "नष्टान् विद्धि"
-      ]
+      "grammar": "accusative masculine plural participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "acetasas",
+      "surface_form": "acetasaḥ",
       "lemma": "acetas",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -526,7 +478,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What distinguishes legitimate intellectual doubt about a teaching from the abhyasūyā (malicious fault-finding) the verse condemns — and how does a practitioner honestly locate themselves on that spectrum?",

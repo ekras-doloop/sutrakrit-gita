@@ -10,128 +10,79 @@
   "word_by_word": [
     {
       "surface_form": "asaṃśayam",
-      "lemma": "asaṃśaya",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "asaṃśayam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mahābāho",
-      "lemma": "mahābāhu",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। किंतु अभ्यासेन तु अभ्यासो नाम चित्तभूमौ कस्यांचित् समानप्रत्ययावृत्तिः चित्तस्य। वैराग्येण वैराग्यं नाम दृष्टादृष्टेष्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "महान्तौ साक्षान्महादेवेनापि सह कृतप्रहरणौ बाहू यस्येति निरतिशयमुत्कर्षं सूचयति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "महाबाहो"
-      ]
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bāho",
+      "lemma": "bāhu",
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "manaḥ",
+      "lemma": "manas",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "durṇigraham",
+      "lemma": "durṇigraha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "calam",
       "lemma": "cala",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhyāsena",
-      "lemma": "abhyas",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तु अभ्यासो नाम चित्तभूमौ कस्यांचित् समानप्रत्ययावृत्तिः चित्तस्य",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "लयप्रतिबन्धाद्वैराग्येण",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "lemma": "abhyāsa",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कौन्तेय"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gṛhyate",
       "lemma": "grah",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विक्षेपरूपः प्रचारः चित्तस्य",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "निगृह्यते",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "निगृह्यते सर्ववृत्तिशून्यं क्रियते तन्मन इत्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -444,7 +395,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If abhyāsa requires repetition and vairāgya requires dispassion, which comes first — must one reduce desire before practice becomes effective, or does practice itself generate dispassion?",

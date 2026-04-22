@@ -11,349 +11,105 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कश्चन"
-      ]
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ite",
-      "lemma": "iti",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "ete",
+      "lemma": "etad",
+      "grammar": "accusative feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sṛtī",
-      "lemma": "sṛ",
-      "grammar": "nominative dual neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मार्गौ पार्थ जानन् संसाराय एका अन्या मोक्षाय इति योगी न मुह्यति कश्चन कश्चिदपि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इति श्लोकेन यद्यपि मार्गचिन्तनमप्युपासनवत्परमपुरुषप्रीत्यर्थमेव तथापि मार्गज्ञानं हि गन्तुरव्याकुलगमनार्थमिति लोके सिद्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "सोपाये ज्ञात्वाऽनुष्ठाय न मुह्यति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "मार्गौ",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "मार्गौ",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "sṛti",
+      "grammar": "accusative feminine dual noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जानन् संसाराय एका अन्या मोक्षाय इति योगी न मुह्यति कश्चन कश्चिदपि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इति मार्गज्ञानमात्रेण मोहाभावोऽभिधीयत इति प्रतीतिनिरासार्थमाह -- एते इति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "मोक्षसंसारप्रापकौ जानन्कश्चिदपि योगी न मुह्यति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "जानन् क्रममोक्षायैका पुनः संसारायापरेति निश्चिन्वन् योगी ध्याननिष्ठो न मुह्यति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "jānan",
       "lemma": "jñā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संसाराय एका अन्या मोक्षाय इति योगी न मुह्यति कश्चन कश्चिदपि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "योगी प्रयाणकाले कश्चन न मुह्यति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "क्रममोक्षायैका पुनः संसारायापरेति निश्चिन्वन् योगी ध्याननिष्ठो न मुह्यति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "nominative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogī",
       "lemma": "yogin",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न मुह्यति कश्चन कश्चिदपि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "प्रयाणकाले कश्चन न मुह्यति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कश्चन न मुह्यति तस्मात्किंबहुना त्वं सर्वेषु कालेषु योगी भव न प्राणप्रयाणकाल",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "न मुह्यति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ध्याननिष्ठो न मुह्यति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "muhyati",
       "lemma": "muh",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कश्चन कश्चिदपि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "अपि तु स्वेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। तच्चाह स्कान्दे -- सृती ज्ञात्वा च सोपाये अनुष्ठाय च साधनम्। न कश्चिन्मोहमाप्नोति न चान्या तत्र वै गतिः इति।",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "तस्मात्किंबहुना त्वं सर्वेषु कालेषु योगी भव न प्राणप्रयाणकाल",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। सुखबुद्ध्या स्वर्गादिफलं न कामयते किंतु परमेश्वरनिष्ठ एव भवतीत्यर्थः। स्पष्टमन्यत्।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। केवलं कर्म धूमादिमार्गप्रापकं कर्तव्यत्वेन न प्रत्येति कश्चन कश्चिदपि। तस्माद्योगस्यापुनरावृत्तिफलत्वात्सर्वेषु कालेषु",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kaścana",
+      "lemma": "kaścana",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तस्मात्"
-      ]
-    },
-    {
-      "surface_form": "sarveṣu",
-      "lemma": "sarva",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कालेषु योगयुक्तः समाहितो भव अर्जुन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कालेषु योगी भव न प्राणप्रयाणकाल",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वेषु कालेषु"
-      ]
-    },
-    {
-      "surface_form": "kāleṣu",
-      "lemma": "kal",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "योगयुक्तः समाहितो भव अर्जुन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "योगी भव न प्राणप्रयाणकाल",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "योगयुक्तः समाहितचित्तो भवापुनरावृत्तये",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वेषु कालेषु"
-      ]
-    },
-    {
-      "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yuktas",
+      "surface_form": "sarveṣu",
+      "lemma": "sarva",
+      "grammar": "locative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kāleṣu",
+      "lemma": "kāla",
+      "grammar": "locative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yoga",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yuktaḥ",
       "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhava",
       "lemma": "bhū",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "arjuna",
       "lemma": "arjuna",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -724,7 +480,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If path-knowledge alone dissolves delusion, what distinguishes intellectual knowledge of the arcirādi-mārga from the embodied orientation that actually steers the departing self — and does the distinction matter equally across all six schools?",

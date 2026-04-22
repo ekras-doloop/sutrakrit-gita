@@ -11,149 +11,98 @@
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "om",
+      "lemma": "oṃ",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "um",
-      "lemma": "u",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "itī",
+      "surface_form": "iti",
       "lemma": "iti",
-      "grammar": "nominative dual feminine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "udāhṛtya",
       "lemma": "udāhṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उच्चार्य यज्ञदानतपःक्रियाः यज्ञादिस्वरूपाः क्रियाः प्रवर्तन्ते विधानोक्ताः शास्त्रचोदिताः सततं सर्वदा ब्रह्मवादिनां ब्र",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सततं सर्वदा प्रवर्तन्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yajña",
-      "lemma": "yaj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yajña",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dāna",
-      "lemma": "dā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "dāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kriyās",
-      "lemma": "kṛ",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "kriyāḥ",
+      "lemma": "kriyā",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pravartante",
       "lemma": "pravṛt",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विधानोक्ताः शास्त्रचोदिताः सततं सर्वदा ब्रह्मवादिनां ब्रह्मवदनशीलानाम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। वेदाः चओम् इति उदाहृत्य आरभ्यन्ते।एवं वेदानां वैदिकानां च यज्ञादीनां कर्मणाम् इति शब्दान्वयो वर्णितः। ओम् इतिशब्दान्वि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्रकृष्टतया वैगुण्यराहित्येन वर्तन्ते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "vidhāna",
-      "lemma": "vidhā",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "uktās",
+      "surface_form": "vidhāna",
+      "lemma": "vidhāna",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "uktāḥ",
       "lemma": "vac",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "satatam",
-      "lemma": "satata",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "satatam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "vādinām",
-      "lemma": "vad",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "vādin",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -429,7 +378,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Om precedes every Vedic act to make it non-defective, what happens to acts done without such an invocation — are they null, merely lesser, or actively harmful?",

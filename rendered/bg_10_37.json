@@ -11,117 +11,84 @@
     {
       "surface_form": "vṛṣṇīnām",
       "lemma": "vṛṣṇi",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vāsudevas",
+      "surface_form": "vāsudevaḥ",
       "lemma": "vāsudeva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇḍavānām",
       "lemma": "pāṇḍava",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhanam",
-      "lemma": "dhana",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "jayas",
-      "lemma": "ji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dhanaṃjayaḥ",
+      "lemma": "dhanaṃjaya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "munīnām",
       "lemma": "muni",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vyāsas",
+      "surface_form": "vyāsaḥ",
       "lemma": "vyāsa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kavīnām",
       "lemma": "kavi",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uśanā",
       "lemma": "uśanas",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कविः अस्मि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "शुक्रः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "कविरिति ख्यातः शुक्रोऽहम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kavis",
+      "surface_form": "kaviḥ",
       "lemma": "kavi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -360,7 +327,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa list himself alongside a human student (Arjuna) as a vibhūti — does this collapse the teacher-student distinction or deepen it?",

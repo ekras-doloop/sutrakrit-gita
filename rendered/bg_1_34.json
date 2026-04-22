@@ -9,128 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "ācāryās",
-      "lemma": "ācar",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "ācāryāḥ",
+      "lemma": "ācārya",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pitaras",
+      "surface_form": "pitaraḥ",
       "lemma": "pitṛ",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "putrās",
+      "surface_form": "putrāḥ",
       "lemma": "putra",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्य",
-        "आचार्याः",
-        "आचार्याः पितरः৷৷ किं नु महीकृते",
-        "है और सुखभोगकी इच्छाका नाम"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "pitāmahās",
+      "surface_form": "pitāmahāḥ",
       "lemma": "pitāmaha",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mātulās",
+      "surface_form": "mātulāḥ",
       "lemma": "mātula",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śvaśurās",
+      "surface_form": "śvaśurāḥ",
       "lemma": "śvaśura",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pā",
-      "lemma": "pā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "pautrāḥ",
+      "lemma": "pautra",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "otrā",
-      "lemma": "u",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "śyālāḥ",
+      "lemma": "śyāla",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "śi",
-      "lemma": "śī",
-      "grammar": "vocative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ālās",
-      "lemma": "āli",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सम्बन्धिनः"
-      ]
-    },
-    {
-      "surface_form": "bandhinas",
-      "lemma": "bandh",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "saṃbandhinaḥ",
+      "lemma": "sambandhin",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -468,7 +433,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Arjuna catalogues ācāryāḥ (teachers) first, before even pitaraḥ (fathers) — what does it mean that the guru-bond is named before blood-bond in his hierarchy of grief, and does that ordering survive into the commentators?",

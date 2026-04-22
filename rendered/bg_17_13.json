@@ -10,87 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "vidhi",
-      "lemma": "vidhā",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "vidhi",
+      "grammar": "compound masculine (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hīnam",
       "lemma": "hā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asṛṣṭa",
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sṛṣṭa",
       "lemma": "sṛj",
-      "grammar": "3rd person singular aorist active verb",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "annam",
       "lemma": "anna",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mantra",
       "lemma": "mantra",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hīnam",
       "lemma": "hā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "akṣiṇam",
-      "lemma": "akṣi",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "adakṣiṇam",
+      "lemma": "adakṣiṇa",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śraddhā",
       "lemma": "śraddhā",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "श्रद्धा"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "virahitam",
-      "lemma": "virah",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "virahita",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yajñam",
-      "lemma": "yaj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "yajña",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tāmasam",
       "lemma": "tāmasa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "paricakṣate",
+      "lemma": "paricakṣ",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -330,7 +335,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If shraddha (faith, reverential intent) is the final disqualifier listed, does the verse imply that sincere intent can partially redeem procedural defects — or is each defect independently sufficient to render the rite tamasic?",

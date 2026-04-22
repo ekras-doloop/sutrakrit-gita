@@ -9,249 +9,109 @@
   },
   "word_by_word": [
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनुस्मर"
-      ]
-    },
-    {
-      "surface_form": "um",
-      "lemma": "u",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "om",
+      "lemma": "oṃ",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "itī",
+      "surface_form": "iti",
       "lemma": "iti",
-      "grammar": "nominative dual feminine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ekākṣaram",
       "lemma": "ekākṣara",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्रह्मणः अभिधानभूतम् ओंकारं व्याहरन् उच्चारयन् तदर्थभूतं माम् ईश्वरम् अनुस्मरन् अनुचिन्तयन्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मद्वाचकं व्याहरन् वाच्यं माम् अनुस्मरन् आत्मनः प्राणं मूर्ध्न्याधाय देहं त्यजन्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन्",
-        "ब्रह्म"
-      ]
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "vyāharat",
+      "surface_form": "vyāharan",
       "lemma": "vyāhṛ",
-      "grammar": "3rd person singular imperfect active verb",
+      "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "anusmaran",
+      "lemma": "anusmṛ",
+      "grammar": "nominative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prayāti",
       "lemma": "prayā",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "म्रियते सः त्यजन् परित्यजन् देहं शरीरम् -- त्यजन् देहम् इति प्रयाणविशेषणार्थम् देहत्यागेन प्रयाणम् आत्मनः न स्वरूपनाशेन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "स याति परमां गतिं प्रकृतिवियुक्तं मत्समानाकारम् अपुनरावृत्तिम् आत्मानं प्राप्नोति इत्यर्थःयः स सर्वेषु भूतेषु नश्यत्सु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "स याति देवयानमार्गेण ब्रह्मलोकं गत्वा तद्भोगान्ते परमां प्रकृष्टां गतिं मद्रूपाम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यः प्रयाति त्यजन्देहं स याति परमां गतिम्"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "tyajan",
       "lemma": "tyaj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "परित्यजन् देहं शरीरम् -- त्यजन् देहम् इति प्रयाणविशेषणार्थम् देहत्यागेन प्रयाणम् आत्मनः न स्वरूपनाशेनेत्यर्थः -- सः एवं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यः प्रयाति स याति परमां गतिं प्रकृतिवियुक्तं मत्समानाकारम् अपुनरावृत्तिम् आत्मानं प्राप्नोति इत्यर्थःयः स सर्वेषु भूतेष",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "यः प्रयाति स याति देवयानमार्गेण ब्रह्मलोकं गत्वा तद्भोगान्ते परमां प्रकृष्टां गतिं मद्रूपाम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यः प्रयाति त्यजन्देहं स याति परमां गतिम्"
-      ]
+      "grammar": "nominative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "deham",
-      "lemma": "dih",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "deha",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनुस्मर",
-        "आस्थितो योगधारणाम्",
-        "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन्",
-        "यः प्रयाति त्यजन्देहं स याति परमां गतिम्",
-        "सर्वद्वाराणि संयम्य"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "yāti",
-      "lemma": "yat",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "गच्छति परमां प्रकृष्टां गतिम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "परमां गतिं प्रकृतिवियुक्तं मत्समानाकारम् अपुनरावृत्तिम् आत्मानं प्राप्नोति इत्यर्थःयः स सर्वेषु भूतेषु नश्यत्सु न विनश्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "अर्चिरादिमार्गेण स परमां श्रेष्ठां मद्गतिं याति प्राप्नोति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "देवयानमार्गेण ब्रह्मलोकं गत्वा तद्भोगान्ते परमां प्रकृष्टां गतिं मद्रूपाम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यः प्रयाति त्यजन्देहं स याति परमां गतिम्"
-      ]
+      "lemma": "yā",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "paramām",
       "lemma": "parama",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gatim",
-      "lemma": "gam",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "।।किञ्च --,",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। (गीता 8।2021) इति अनन्तरम् एव वक्ष्यते। एवम् ऐश्वर्यार्थिनः कैवल्यार्थिनश्च स्वप्राप्यानुगुणः भगवदुपासनप्रकार उक्तः। अ",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यः प्रयाति त्यजन्देहं स याति परमां गतिम्"
-      ]
+      "lemma": "gati",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -565,7 +425,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Does the verse require a fully trained yogin or is the death-time utterance of Oṃ accessible to an ordinary devotee who has practiced sporadically — and what happens if the utterance is mechanical rather than attended by genuine recollection (anusmṛti)?",

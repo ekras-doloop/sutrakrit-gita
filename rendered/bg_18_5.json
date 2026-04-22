@@ -9,121 +9,116 @@
   },
   "word_by_word": [
     {
+      "surface_form": "yajña",
+      "lemma": "yajña",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dāna",
+      "lemma": "dāna",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tyājyam",
       "lemma": "tyaj",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāryam",
       "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एव कुतः यज्ञदानतपःप्रभृतीनि वर्णाश्रमसम्बन्धीनि कर्माणि मनीषिणां मननशीलानां पावनानि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "nominative neuter singular gdv noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yajñas",
-      "lemma": "yaj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yajñaḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dānam",
-      "lemma": "dā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "dāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्"
-      ]
-    },
-    {
-      "surface_form": "eva",
-      "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pā",
-      "lemma": "pā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "eva",
+      "lemma": "eva",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "avanāni",
-      "lemma": "u",
-      "grammar": "nominative plural neuter noun",
+      "surface_form": "pāvanāni",
+      "lemma": "pāvana",
+      "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "manīṣiṇām",
       "lemma": "manīṣin",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति समभिव्याहारसिद्धमुपकारप्रकारं व्यनक्ति -- मुमुक्षूणामित्यादिना",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यज्ञो दानं तपश्चैव पावनानि मनीषिणाम्"
-      ]
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -357,7 +352,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If renunciation of action is elsewhere praised, why does Krsna carve out yajna, dana, and tapas as non-renounceable — what distinguishes these three from other karma?",

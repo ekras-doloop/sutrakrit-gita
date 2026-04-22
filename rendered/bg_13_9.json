@@ -9,141 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "asaktiḥ",
+      "lemma": "asakti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aktis",
-      "lemma": "aj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "abhiṣu",
-      "lemma": "abhi",
-      "grammar": "locative plural neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aṅgas",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "anabhiṣvaṅgaḥ",
+      "lemma": "anabhiṣvaṅga",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "putra",
       "lemma": "putra",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dā",
-      "lemma": "dā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ara",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "dāra",
+      "lemma": "dāra",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gṛha",
-      "lemma": "grah",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "gṛha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ādiṣu",
-      "lemma": "ādā",
-      "grammar": "locative plural masculine noun",
+      "lemma": "ādi",
+      "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nityam",
-      "lemma": "nitya",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "nityam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "चित्त"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "sama",
-      "lemma": "sam",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "sama",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cit",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "चित्त"
-      ]
-    },
-    {
-      "surface_form": "tat",
-      "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "citta",
+      "lemma": "citta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vam",
-      "lemma": "av",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "tvam",
+      "lemma": "tva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "त्वम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "iṣṭa",
-      "lemma": "yaj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "iṣ",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aniṣṭa",
       "lemma": "aniṣṭa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "upapattiṣu",
-      "lemma": "upapad",
-      "grammar": "locative plural masculine noun",
+      "lemma": "upapatti",
+      "grammar": "locative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -426,7 +385,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Sankara distinguishes asakti (vairagya toward sensory objects) from anabhisvanga (deeper enmeshment with family and home) — what is the difference between detachment from a thing and detachment from a relationship with a thing?",

@@ -10,135 +10,85 @@
   "word_by_word": [
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vaiśvānaras",
+      "surface_form": "vaiśvānaraḥ",
       "lemma": "vaiśvānara",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtvā",
       "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "-- अयमग्निर्वैश्वानरो योऽयमन्तः पुरुषे येनेदमन्नं पच्यते (बृ0 उ 0 5",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "सर्वेषां प्राणिनां देहम् आश्रितः तैः भुक्तं खाद्यचोष्यलेह्यपेयात्मकं चतुर्विधम् अन्नं प्राणापान वृत्तिभेद समायुक्तः पचा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्राणिनां देहस्यान्तः प्रविश्य प्राणापानाभ्यां तदुद्दीपकाभ्यां सहितः प्राणिभिर्भुक्तं भक्ष्यं भोज्यं लेह्यं चोष्यं चेति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prāṇinām",
       "lemma": "prāṇin",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "deham",
-      "lemma": "dih",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आश्रितः प्रविष्टः प्राणापानसमायुक्तः प्राणापानाभ्यां समायुक्तः संयुक्तः पचामि पक्तिं करोमि अन्नम् अशनं चतुर्विधं चतुष्प",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आश्रितः तैः भुक्तं खाद्यचोष्यलेह्यपेयात्मकं चतुर्विधम् अन्नं प्राणापान वृत्तिभेद समायुक्तः पचामि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "deha",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āśritas",
+      "surface_form": "āśritaḥ",
       "lemma": "āśri",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "prāṇ",
-      "lemma": "prāṇ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "prāṇa",
+      "lemma": "prāṇa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āpāna",
-      "lemma": "āp",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "apāna",
+      "lemma": "apāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sama",
-      "lemma": "sam",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ayuktas",
-      "lemma": "ayukta",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "samāyuktaḥ",
+      "lemma": "samāyuj",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pacāmi",
       "lemma": "pac",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "annam",
       "lemma": "anna",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vidham",
-      "lemma": "vidhā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "caturvidham",
+      "lemma": "caturvidha",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -437,7 +387,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the Lord is the fire that digests food, who bears karmic responsibility for what is eaten — the jiva, the food, or the fire itself?",

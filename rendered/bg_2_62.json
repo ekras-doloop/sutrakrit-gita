@@ -9,171 +9,86 @@
   },
   "word_by_word": [
     {
-      "surface_form": "dhyās",
+      "surface_form": "dhyāyataḥ",
       "lemma": "dhyā",
-      "grammar": "nominative plural feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "yatas",
-      "lemma": "yat",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viṣayān",
       "lemma": "viṣaya",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शब्दादीन् विषयविशेषान् आलोचयतः पुंसः पुरुषस्य सङ्गः आसक्तिः प्रीतिः तेषु विषयेषु उपजायते उत्पद्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "पुंसः पुनरपि सङ्गः अतिप्रवृद्धो जायते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते"
-      ]
-    },
-    {
-      "surface_form": "puṃsas",
-      "lemma": "puṃs",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṅgas",
-      "lemma": "sañj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "puṃsaḥ",
+      "lemma": "puṃs",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṅgaḥ",
+      "lemma": "saṅga",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "teṣu",
       "lemma": "tad",
-      "grammar": "locative plural neuter noun",
+      "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "upajāyate",
       "lemma": "upajan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṅgāt",
-      "lemma": "sañj",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रीतेः संजायते समुत्पद्यते कामः तृष्णा",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संजायते कामः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सङ्गात्संजायते कामः"
-      ]
+      "lemma": "saṅga",
+      "grammar": "ablative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "saṃjāyate",
       "lemma": "saṃjan",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समुत्पद्यते कामः तृष्णा",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कामः। कामो नाम सङ्गस्य विपाकदशा। पुरुषो यां दशाम् आपन्नो विषयान् अभुक्त्वा स्थातुं न शक्नोति स कामः। कामात् क्रोधः अभिज",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सङ्गात्संजायते कामः"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "kāmas",
+      "surface_form": "kāmaḥ",
       "lemma": "kāma",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāmāt",
       "lemma": "kāma",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कुतश्चित् प्रतिहतात् क्रोधः अभिजायते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "क्रोधः अभिजायते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "कामात्क्रोधोऽभिजायते"
-      ]
+      "grammar": "ablative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "krodhas",
+      "surface_form": "krodhaḥ",
       "lemma": "krodha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhijāyate",
       "lemma": "abhijan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -455,7 +370,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "The verse locates the root pathology in dhyāna (mental dwelling) rather than in physical contact — does this mean sense-restraint without mind-restraint is structurally incomplete, and what specific practice would address the mind's replay loop rather than merely the body's proximity to objects?",

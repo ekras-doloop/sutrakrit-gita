@@ -11,135 +11,98 @@
     {
       "surface_form": "nihatya",
       "lemma": "nihan",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "dhārtarāṣṭrān",
+      "lemma": "dhārtarāṣṭra",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "artar",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aṣṭṛ",
-      "lemma": "aś",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ān",
-      "lemma": "a",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nas",
-      "lemma": "na",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "naḥ",
+      "lemma": "mad",
+      "grammar": "genitive plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kā",
-      "lemma": "kāvi",
-      "grammar": "vocative singular neuter noun",
+      "lemma": "ka",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "prītis",
-      "lemma": "prī",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "prītiḥ",
+      "lemma": "prīti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "syāt",
       "lemma": "as",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "janārdana",
       "lemma": "janārdana",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "जनार्दन"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "pāpam",
       "lemma": "pāpa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āśrayet",
       "lemma": "āśri",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "mān",
-      "lemma": "mā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "asmān",
+      "lemma": "mad",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hatvā",
       "lemma": "han",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etān",
       "lemma": "etad",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ātatāyinas",
+      "surface_form": "ātatāyinaḥ",
       "lemma": "ātatāyin",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -365,7 +328,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When a rule (e.g., 'you may kill an aggressor') explicitly permits an action, what makes Arjuna — and Śrīdhara after him — invoke a higher śāstra to override it? What is the structure of that override?",

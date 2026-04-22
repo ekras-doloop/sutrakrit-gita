@@ -9,132 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "tat",
-      "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "rā",
-      "lemma": "ṛ",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "tatra",
+      "lemma": "tatra",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "apaśyat",
-      "lemma": "dṛś",
-      "grammar": "3rd person singular imperfect active verb",
+      "lemma": "paś",
+      "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sthitān",
       "lemma": "sthā",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पार्थः 126 इत्यारभ्यएवमुक्त्वाऽर्जुनः 1",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "accusative masculine plural participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pārthas",
+      "surface_form": "pārthaḥ",
       "lemma": "pārtha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pitṝn",
       "lemma": "pitṛ",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "atha",
       "lemma": "atha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pitāmahān",
       "lemma": "pitāmaha",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ācāryān",
-      "lemma": "ācar",
-      "grammar": "accusative plural masculine noun",
+      "lemma": "ācārya",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mātulān",
       "lemma": "mātula",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhrātṝn",
       "lemma": "bhrātṛ",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "putrān",
       "lemma": "putra",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pā",
-      "lemma": "pā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पार्थ"
-      ]
-    },
-    {
-      "surface_form": "otṛ",
-      "lemma": "u",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ān",
-      "lemma": "a",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "pautrān",
+      "lemma": "pautra",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sakhīn",
       "lemma": "sakhi",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -411,7 +379,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Arjuna see (apaśyat) rather than merely look — and what does the difference between passive noticing and active seeing tell us about the moment grief becomes a philosophical crisis?",

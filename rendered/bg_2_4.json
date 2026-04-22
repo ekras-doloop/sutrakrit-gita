@@ -11,147 +11,91 @@
     {
       "surface_form": "katham",
       "lemma": "katham",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhīṣmam",
       "lemma": "bhīṣma",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃkhye",
-      "lemma": "saṃkhyā",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रणे हे मधुसूदन इषुभिर्यत्र वाचापि योत्स्यामीति वक्तुमनुचितं तत्र कथं बाणैर्योत्स्ये इति भावः। सायकैस्तौ कथं प्रतियोत्स्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "रणे इषुभिः सायकैः प्रतियोत्स्यामि प्रहरिष्यामि कथम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "saṃkhya",
+      "grammar": "locative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "droṇam",
       "lemma": "droṇa",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhusūdana",
       "lemma": "madhusūdana",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इषुभिर्यत्र वाचापि योत्स्यामीति वक्तुमनुचितं तत्र कथं बाणैर्योत्स्ये इति भावः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "मधुसूदन"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "iṣubhis",
+      "surface_form": "iṣubhiḥ",
       "lemma": "iṣu",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pratiya",
-      "lemma": "pratiyā",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "pratiyotsyāmi",
+      "lemma": "pratiyudh",
+      "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ut",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "pūjā",
+      "lemma": "pūjā",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "syām",
-      "lemma": "as",
-      "grammar": "1st person singular optative active verb",
+      "surface_form": "arhau",
+      "lemma": "arha",
+      "grammar": "accusative masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "pūjārhau",
-      "lemma": "pūjārha",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aris",
+      "surface_form": "ari",
       "lemma": "ari",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ut",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ana",
-      "lemma": "an",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "sūdana",
+      "lemma": "sūdana",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -375,7 +319,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the people I'd have to hurt most to 'win' are the very ones who made me who I am — teachers, mentors, family — does that make the goal wrong, or just painful?",

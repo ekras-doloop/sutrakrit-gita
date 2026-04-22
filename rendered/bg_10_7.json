@@ -11,238 +11,105 @@
     {
       "surface_form": "etām",
       "lemma": "etad",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vibhūtim",
-      "lemma": "vibhū",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "vibhūti",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogam",
-      "lemma": "yuj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mama",
-      "lemma": "mā",
-      "grammar": "2nd person plural perfect active verb",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vetti",
       "lemma": "vid",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तत्त्वतः तत्त्वेन यथावदित्येतत्? सः अविकम्पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तत्त्वतः स भक्तिरूपेण योगेन युज्यते",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "सोऽविकम्पेन निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तत्त्वतः यथावत्सोऽविकम्पेनाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यो वेत्ति तत्त्वतः"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "tat",
+      "surface_form": "tattvataḥ",
+      "lemma": "tattva",
+      "grammar": "ablative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saḥ",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यो वेत्ति तत्त्वतः"
-      ]
-    },
-    {
-      "surface_form": "tu",
-      "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "avikam",
-      "lemma": "avika",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "pena",
-      "lemma": "pā",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "avikampena",
+      "lemma": "avikampa",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogena",
-      "lemma": "yuj",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "युज्यते",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "सम्यग्दर्शनेन युक्तो भवति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "yoga",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yujyate",
       "lemma": "yuj",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संबध्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। नात्र संशयः प्रतिबन्धः कश्चित्।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मानसा जाताः"
-      ]
-    },
-    {
-      "surface_form": "atra",
-      "lemma": "atra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃśayas",
-      "lemma": "saṃśī",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "atra",
+      "lemma": "atra",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṃśayaḥ",
+      "lemma": "saṃśaya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -499,7 +366,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the difference between knowing about the Lord's powers intellectually and knowing them tattvatah — and why does only the latter produce avikampa-yoga?",

@@ -11,144 +11,91 @@
     {
       "surface_form": "praśānta",
       "lemma": "praśam",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "प्रशान्त"
-      ]
-    },
-    {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "manasam",
+      "lemma": "manas",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "enam",
+      "lemma": "enad",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yoginam",
       "lemma": "yogin",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukham",
-      "lemma": "sukham",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उत्तमं निरतिशयम् उपैति उपगच्छति शान्तरजसं प्रक्षीणमोहादिक्लेशरजसमित्यर्थः ब्रह्मभूतं जीवन्मुक्तम् ब्रह्मैव सर्वम् इत्ये",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "उपैति हि इति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "sukha",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uttamam",
       "lemma": "uttama",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "उत्तमम्"
-      ]
-    },
-    {
-      "surface_form": "upā",
-      "lemma": "vap",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "eti",
-      "lemma": "i",
-      "grammar": "3rd person singular present indicative active verb",
+      "surface_form": "upaiti",
+      "lemma": "upe",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śānta",
       "lemma": "śam",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "प्रशान्त"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "rajasam",
-      "lemma": "rajasa",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "rajas",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhūtam",
       "lemma": "bhū",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "akalmaṣam",
       "lemma": "akalmaṣa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -443,7 +390,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If supreme happiness (sukham uttamam) 'arrives' rather than being achieved — what does this imply about the relationship between effort and grace in spiritual practice? Does the verse resolve that tension or deepen it?",

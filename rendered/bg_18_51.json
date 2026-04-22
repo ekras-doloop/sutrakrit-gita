@@ -7,7 +7,120 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "bud",
+      "lemma": "bud",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "hdhyā",
+      "lemma": "hdhī",
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viśuddhayā",
+      "lemma": "viśudh",
+      "grammar": "instrumental feminine singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yuktaḥ",
+      "lemma": "yuj",
+      "grammar": "nominative masculine singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dhṛtya",
+      "lemma": "dhṛ",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātmānam",
+      "lemma": "ātman",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "niyamya",
+      "lemma": "niyam",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śabda",
+      "lemma": "śabda",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ādīn",
+      "lemma": "ādi",
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viṣayān",
+      "lemma": "viṣaya",
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tyaktvā",
+      "lemma": "tyaj",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rāga",
+      "lemma": "rāga",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dveṣau",
+      "lemma": "dveṣa",
+      "grammar": "accusative masculine dual noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vyudasya",
+      "lemma": "vyudas",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "2.64",
@@ -303,7 +416,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the relationship between purified buddhi and the withdrawal from raga-dvesa — does the buddhi-purification cause the withdrawal, or does the withdrawal make buddhi-purification possible, and does the answer differ across schools?",

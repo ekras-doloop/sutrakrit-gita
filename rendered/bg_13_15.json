@@ -11,130 +11,126 @@
     {
       "surface_form": "bahis",
       "lemma": "bahis",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "antar",
       "lemma": "antar",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtānām",
-      "lemma": "bhū",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "bhūta",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "acaram",
-      "lemma": "car",
-      "grammar": "1st person singular imperfect active verb",
+      "lemma": "acara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "caram",
-      "lemma": "car",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "cara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sūkṣmatvāt",
-      "lemma": "sūkṣmatva",
-      "grammar": "ablative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तद् अविज्ञेयम्? एवं सर्वशक्तियुक्तं सर्वज्ञं तद् आत्मतत्त्वम् अस्मिन् क्षेत्रे वर्तमानम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "surface_form": "sūkṣma",
+      "lemma": "sūkṣma",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tvāt",
+      "lemma": "tva",
+      "grammar": "ablative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avijñeyam",
       "lemma": "avijñeya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dūra",
       "lemma": "dūra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "stham",
       "lemma": "stha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "antike",
       "lemma": "antika",
-      "grammar": "locative singular neuter noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -362,7 +358,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the knowable (jneya) underlies all sense-experience yet possesses no instruments, what does it mean to 'see' or 'hear' anything — who is the actual perceiver in a moment of cognition?",

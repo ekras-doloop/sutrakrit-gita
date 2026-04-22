@@ -9,302 +9,149 @@
   },
   "word_by_word": [
     {
-      "surface_form": "samas",
-      "lemma": "sam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "samaḥ",
+      "lemma": "sama",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना",
-        "समोऽहं सर्वभूतेषु",
-        "सुहृदं सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhūteṣu",
-      "lemma": "bhū",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समाश्रयणीयत्वेन समः अहम् अयं जात्याकारस्वभावज्ञानादिभिः निकृष्ट इति समाश्रयणे न मे द्वेष्यः अस्ति उद्वेजनीयतया न त्याज्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। अतो मे मम प्रियश्च द्वेष्यश्च नास्त्येव। एवंसत्यपि ये मां भजन्ति ते भक्ता मयि वर्तन्ते। अहमपि तेष्वनुग्राहकतया वर्ते।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "समोऽहं सर्वभूतेषु"
-      ]
+      "lemma": "bhūta",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना",
-        "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-        "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-        "सुहृदं सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मैं भगवान्का हूँ और भगवान् मेरे हैं"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "dveṣyas",
+      "surface_form": "dveṣyaḥ",
       "lemma": "dviṣ",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asti",
       "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना",
-        "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-        "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-        "सुहृदं सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "priyas",
-      "lemma": "prī",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "priyaḥ",
+      "lemma": "priya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhajanti",
       "lemma": "bhaj",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तु माम् ईश्वरं भक्त्या मयि ते -- स्वभावत एव? न मम रागनिमित्तम् मयि वर्तन्ते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "इत्यनयोः पौनरुक्त्यपरिहारायान्वयमाहअत्यर्थेति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ते तु मयि मदाधाराः? अहं चापि तेषु तदाधारोऽस्मि? इदं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ते भक्ता मयि वर्तन्ते",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तु ये तु भजन्ति सेवन्ते मां सर्वकर्मसमर्पणरूपया भक्त्या",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhaktyā",
-      "lemma": "bhañj",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मयि ते -- स्वभावत एव? न मम रागनिमित्तम् मयि वर्तन्ते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "भजन्ति इत्यनयोः पौनरुक्त्यपरिहारायान्वयमाहअत्यर्थेति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ये भजन्ति ते तु मयि मदाधाराः? अहं चापि तेषु तदाधारोऽस्मि? इदं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। अभक्तापेक्षया भक्तानां विशेषद्योतनार्थस्तुशब्दः। कोऽसौ मयि ते ये मदर्पितैर्निष्कामैः कर्मभिः शोधितान्तःकरणास्ते निरस्त",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "भक्त्या"
-      ]
+      "lemma": "bhakti",
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mayi",
-      "lemma": "mevi",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "locative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-        "समोऽहं सर्वभूतेषु"
-      ]
-    },
-    {
-      "surface_form": "teṣu",
       "lemma": "tad",
-      "grammar": "locative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "च अपि अहं स्वभावत एव वर्ते? न इतरेषु। न एतावता तेषु द्वेषो मम्।।श्रृणु मद्भक्तेर्माहात्म्यम् --,",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "मदुत्कृष्टेषु इव वर्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "चाप्यहमिति? मम ते वशाः तेषामहं वश इति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "तदाधारोऽस्मि? इदं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "समोऽहं सर्वभूतेषु"
-      ]
-    },
-    {
-      "surface_form": "ca",
-      "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āpi",
-      "lemma": "āp",
-      "grammar": "3rd person singular aorist passive verb",
+      "surface_form": "teṣu",
+      "lemma": "tad",
+      "grammar": "locative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "api",
+      "lemma": "api",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -602,7 +449,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the Lord is genuinely sama (equal) toward all beings, what exactly does bhakti (devotion) add — does it change the Lord or change the worshipper?",

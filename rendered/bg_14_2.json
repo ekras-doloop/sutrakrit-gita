@@ -11,164 +11,98 @@
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उपाश्रित्य मम साधर्म्यम् आगताः मत्साम्यं प्राप्ताः? सर्गे",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
-    },
-    {
-      "surface_form": "up",
-      "lemma": "vap",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āśritya",
-      "lemma": "āśri",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "upāśritya",
+      "lemma": "upāśri",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mama",
-      "lemma": "mā",
-      "grammar": "2nd person plural perfect active verb",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "sādharmyam",
+      "lemma": "sādharmya",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "adharmyam",
-      "lemma": "adharmya",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āgatās",
+      "surface_form": "āgatāḥ",
       "lemma": "āgam",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarge",
-      "lemma": "sṛj",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अपि न उपजायन्ते न सृजिकर्मतां भजन्ते? प्रलये न व्यथन्ति च? न",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "sarga",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "na",
+      "surface_form": "nā",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान",
-        "ज्ञानम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "upajāyante",
       "lemma": "upajan",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pralaye",
       "lemma": "pralaya",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्रह्मणोऽपि विनाशकाले न व्यथन्ति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "न व्यथन्ति च? न",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "च न व्यथन्ति किन्तु नित्यं समीपे तिष्ठन्तीत्यर्थः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ब्रह्मणोऽपि विनाशकाले न व्यथन्ति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान",
-        "ज्ञानम्"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vyathanti",
+      "lemma": "vyath",
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -512,7 +446,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the relationship between 'knowledge as means' (jnana-sadhanam) and 'attaining the Lord's nature' (sadharmatam) — is the knowledge a cause, a condition, or an identity-statement?",

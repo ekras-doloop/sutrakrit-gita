@@ -7,7 +7,127 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "athā",
+      "lemma": "atha",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "etat",
+      "lemma": "etad",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "api",
+      "lemma": "api",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aśaktaḥ",
+      "lemma": "aśakta",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "asi",
+      "lemma": "as",
+      "grammar": "present indicative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kartum",
+      "lemma": "kṛ",
+      "grammar": "infinitive",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mad",
+      "lemma": "mad",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yogam",
+      "lemma": "yoga",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āśritaḥ",
+      "lemma": "āśri",
+      "grammar": "nominative masculine singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarva",
+      "lemma": "sarva",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "phala",
+      "lemma": "phala",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tyāgam",
+      "lemma": "tyāga",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tatas",
+      "lemma": "tatas",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kuru",
+      "lemma": "kṛ",
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yata",
+      "lemma": "yam",
+      "grammar": "compound participle (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātmavān",
+      "lemma": "ātmavat",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "18.2",
@@ -353,7 +473,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "The verse presents a descending ladder of practice — what does it reveal about how Krishna thinks about human capacity and the ethics of meeting people where they are rather than where they should be?",

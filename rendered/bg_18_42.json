@@ -9,112 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "śamas",
-      "lemma": "śam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "śamaḥ",
+      "lemma": "śama",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "damas",
-      "lemma": "dam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "damaḥ",
+      "lemma": "dama",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śa",
-      "lemma": "śa",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "śaucam",
+      "lemma": "śauca",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "kṣāntiḥ",
+      "lemma": "kṣānti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ucam",
-      "lemma": "vac",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ārjavam",
+      "lemma": "ārjava",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "eva",
+      "lemma": "eva",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। आस्तिक्यं वैदिकार्थस्य कृत्स्नस्य सत्यतानिश्चयः प्रकृष्टः? केनापि हेतुना चालयितुमशक्य इत्यर्थः।भगवान् पुरुषोत्तमो वासु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "brahmakarma",
-      "lemma": "brahmakarman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्राह्मणजातेः कर्म स्वभावजम् --",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ब्राह्मणजातेः कर्म",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "su",
-      "lemma": "su",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "abhau",
-      "lemma": "abhi",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "vijñānam",
+      "lemma": "vijñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajam",
-      "lemma": "aj",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "āstikyam",
+      "lemma": "āstikya",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "brahma",
+      "lemma": "brahman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "svabhāva",
+      "lemma": "svabhāva",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jam",
+      "lemma": "ja",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -480,7 +475,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Ramanuja reverse shama and dama compared to every other commentator — and what does that reversal reveal about his understanding of where spiritual work begins?",

@@ -11,106 +11,84 @@
     {
       "surface_form": "āvṛtam",
       "lemma": "āvṛ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एतेन कामकारेण विषयव्यामोहजननेन नित्यवैरिणा आवृतं दुष्पूरेण पूर्त्यनर्हविषयेण अनलेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
+      "lemma": "jñāna",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "etena",
       "lemma": "etad",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ज्ञानं ज्ञानिनः नित्यवैरिणा ज्ञानी हि जानाति अनेन अहमनर्थे प्रयुक्तः इति पूर्वमेव",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कामकारेण विषयव्यामोहजननेन नित्यवैरिणा आवृतं दुष्पूरेण पूर्त्यनर्हविषयेण अनलेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "instrumental neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jñāninas",
+      "surface_form": "jñāninaḥ",
       "lemma": "jñānin",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nitya",
       "lemma": "nitya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "नित्य"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "vairiṇā",
       "lemma": "vairin",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "काम अछत सुख सपनेहुँ नाहीं",
-        "कामना"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "rūpeṇa",
-      "lemma": "rūpi",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "rūpa",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कौन्तेय"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "duṣpūreṇa",
+      "lemma": "duṣpūra",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "analena",
+      "lemma": "anala",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -539,7 +517,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If kāma is the perpetual enemy only of the jñānin (Śaṅkara), does the fool suffer less — or merely suffer without understanding? What does that imply for moral education?",

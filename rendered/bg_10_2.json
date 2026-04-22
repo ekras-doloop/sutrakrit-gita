@@ -11,98 +11,119 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vidus",
+      "surface_form": "viduḥ",
       "lemma": "vid",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "suragaṇās",
-      "lemma": "suragaṇa",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "sura",
+      "lemma": "sura",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "gaṇāḥ",
+      "lemma": "gaṇa",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prabhavam",
-      "lemma": "prabhū",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "prabhava",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "maharṣayas",
-      "lemma": "maharṣi",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ṛṣayaḥ",
+      "lemma": "ṛṣi",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ādis",
-      "lemma": "ādā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ādiḥ",
+      "lemma": "ādi",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "devānām",
       "lemma": "deva",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "maharṣīṇām",
-      "lemma": "maharṣi",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ṛṣīṇām",
+      "lemma": "ṛṣi",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvaśas",
       "lemma": "sarvaśas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -340,7 +361,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If even Indra and Bhṛgu — beings of vastly greater knowledge than ordinary humans — cannot know Bhagavān's prabhava, what epistemological stance does a human practitioner realistically take toward divine knowledge?",

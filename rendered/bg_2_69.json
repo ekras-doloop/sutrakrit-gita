@@ -10,407 +10,99 @@
   "word_by_word": [
     {
       "surface_form": "yā",
-      "lemma": "yā",
-      "grammar": "vocative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तस्यां जागर्ति संयमी",
-        "यस्यां जाग्रति भूतानि",
-        "या निशा सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "niśā",
       "lemma": "niśā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रात्रिः सर्वपदार्थानामविवेककरी तमःस्वभावत्वात् सर्वभूतानां सर्वेषां भूतानाम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "निशा इव अप्रकाशिका",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "परमेश्वरस्वरूपलक्षणा",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "निशेव निशा आत्मनिष्ठा आत्माज्ञानध्वान्तावृतमतीनां तस्यां दर्शनादिव्यवहाराभावात् तस्यामात्मनिष्ठायां संयमी निगृहीतेन्द्र",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तां प्रत्यप्रकाशरूपत्वात्तस्यां ब्रह्मविद्यालक्षणायां सर्वभूतनिशायां जागर्ति अज्ञाननिद्रायाः प्रबुद्धः सन्सावधानो वर्तत",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "या निशा सर्वभूतानाम्",
-        "सा निशा पश्यतो मुनेः"
-      ]
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "या निशा सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhūtānām",
-      "lemma": "bhū",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "bhūta",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भूतानाम्",
-        "या निशा सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "tasya",
+      "surface_form": "tasyām",
       "lemma": "tad",
-      "grammar": "Vibhakti.Sasthi singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आत्मज्ञस्य सर्वकर्मसंन्यासे",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "गमनादिप्रवृत्तिः इत्यत आह मत्तादिव दिति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "न वस्तुदर्शनं विपरीतदर्शनस्य वस्त्वदर्शनजन्यत्वात् यस्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "तस्यां जागर्ति संयमी"
-      ]
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "locative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jāgarti",
       "lemma": "jāgṛ",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संयमी संयमवान् जितेन्द्रियो योगीत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आत्मानम् अवलोकयन् आस्ते इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "सम्यगापरोक्ष्येण पश्यति परमात्मानमित्यर्थः",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "। यस्यां च शब्दादिविषयिण्याम्। एवं विलक्षणलक्षणो मुनिर्दर्शितः।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "प्रबुध्यते यस्यां तु विषयबुद्ध्या भूतानि जाग्रति प्रबुद्ध्यन्ते सा आत्मतत्त्वं पश्यतो मुनेर्निशा",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "अज्ञाननिद्रायाः प्रबुद्धः सन्सावधानो वर्तते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "तस्यां जागर्ति संयमी"
-      ]
-    },
-    {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yamī",
-      "lemma": "yam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saṃyamī",
+      "lemma": "saṃyamin",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तस्यां जागर्ति संयमी"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "yasya",
+      "surface_form": "yasyām",
       "lemma": "yad",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पुनः निशेव अविद्यामात्रमिदं सर्वं भेदजातम् इति ज्ञानं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "विपरीतदर्शनं",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यस्यां जाग्रति भूतानि"
-      ]
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "locative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jāgrati",
       "lemma": "jāgṛ",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति उच्यन्ते यस्यां निशायां प्रसुप्ता इव स्वप्नदृशः सा निशा अविद्यारूपत्वात् परमार्थतत्त्वं पश्यतो मुनेः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "प्रबुद्धानि भवन्ति सा शब्दादिविषया बुद्धिः आत्मानं पश्यतो मुनेः निशा इव अप्रकाशिका भवति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तस्यां निशायामिव सुप्तः प्रायो न जानाति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "प्रबुद्ध्यन्ते सा आत्मतत्त्वं पश्यतो मुनेर्निशा",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "स्वप्नवद्व्यवहरन्ति सा निशा न प्रकाशत आत्मतत्त्वं पश्यतोऽपरोक्षतया मुनेः स्थितप्रज्ञस्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यस्यां जाग्रति भूतानि"
-      ]
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
-      "lemma": "bhū",
-      "grammar": "nominative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जाग्रति इति उच्यन्ते यस्यां निशायां प्रसुप्ता इव स्वप्नदृशः सा निशा अविद्यारूपत्वात् परमार्थतत्त्वं पश्यतो मुनेः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "जाग्रति प्रबुद्धानि भवन्ति सा शब्दादिविषया बुद्धिः आत्मानं पश्यतो मुनेः निशा इव अप्रकाशिका भवति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "जाग्रति तस्यां निशायामिव सुप्तः प्रायो न जानाति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "जाग्रति प्रबुद्ध्यन्ते सा आत्मतत्त्वं पश्यतो मुनेर्निशा",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "जाग्रति स्वप्नवद्व्यवहरन्ति सा निशा न प्रकाशत आत्मतत्त्वं पश्यतोऽपरोक्षतया मुनेः स्थितप्रज्ञस्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यस्यां जाग्रति भूतानि"
-      ]
+      "lemma": "bhūta",
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "sās",
-      "lemma": "sa",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "sā",
+      "lemma": "tad",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "niśā",
       "lemma": "niśā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रात्रिः सर्वपदार्थानामविवेककरी तमःस्वभावत्वात् सर्वभूतानां सर्वेषां भूतानाम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "निशा इव अप्रकाशिका",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "परमेश्वरस्वरूपलक्षणा",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "निशेव निशा आत्मनिष्ठा आत्माज्ञानध्वान्तावृतमतीनां तस्यां दर्शनादिव्यवहाराभावात् तस्यामात्मनिष्ठायां संयमी निगृहीतेन्द्र",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तां प्रत्यप्रकाशरूपत्वात्तस्यां ब्रह्मविद्यालक्षणायां सर्वभूतनिशायां जागर्ति अज्ञाननिद्रायाः प्रबुद्धः सन्सावधानो वर्तत",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "या निशा सर्वभूतानाम्",
-        "सा निशा पश्यतो मुनेः"
-      ]
-    },
-    {
-      "surface_form": "paśyatas",
-      "lemma": "dṛś",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "munes",
+      "surface_form": "paśyataḥ",
+      "lemma": "dṛś",
+      "grammar": "genitive masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "muneḥ",
       "lemma": "muni",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -656,7 +348,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the saṃyamī is awake in what others call night, what does that imply about using social consensus — 'everyone agrees this is real' — as a reliable guide to truth?",

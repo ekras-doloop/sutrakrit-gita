@@ -9,347 +9,144 @@
   },
   "word_by_word": [
     {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṛṣṭa",
-      "lemma": "ṛṣ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "adṛṣṭa",
+      "lemma": "adṛṣṭa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pūrvam",
-      "lemma": "pūrva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "pūrvam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hṛṣitas",
+      "surface_form": "hṛṣitaḥ",
       "lemma": "hṛṣ",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dṛṣṭvā",
       "lemma": "dṛś",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हृषितः अस्मि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "हृषितः अस्मि प्रीतः अस्मि? भयेन प्रव्यथितं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "? पूर्वं दृष्टः पश्चाल्लोकान् ग्रसमानं ज्ञात्वा मनो मे प्रव्यथितं यतः? अतस्तदेव चतुर्भुजं वा दृष्टपूर्वं रूपं मे प्रदर्श",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "हृषितो हृष्टोऽस्मि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "हृषितो हृष्टोऽस्मि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-        "दृष्ट्वा"
-      ]
-    },
-    {
-      "surface_form": "bhayena",
-      "lemma": "bhaya",
-      "grammar": "instrumental singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "च प्रव्यथितं मनः मे",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "प्रव्यथितं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "च मे मनः प्रव्यथितं प्रचलितं",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "च प्रव्यथितं व्याकुलीकृतं मनो मे",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-        "भयेन च प्रव्यथितं मनो मे"
-      ]
-    },
-    {
-      "surface_form": "ca",
-      "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-        "भयेन च प्रव्यथितं मनो मे"
-      ]
-    },
-    {
-      "surface_form": "pravyathitam",
-      "lemma": "pravyathita",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bhayena",
+      "lemma": "bhaya",
+      "grammar": "instrumental neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pravyathitam",
+      "lemma": "pravyathay",
+      "grammar": "nominative neuter singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "manaḥ",
+      "lemma": "manas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-        "भयेन च प्रव्यथितं मनो मे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "dative singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-        "भयेन च प्रव्यथितं मनो मे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "darśaya",
-      "lemma": "darśi",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हे देव रूपं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। प्रसीद देवेश जगन्निवास मयि प्रसादं कुरु देवानां ब्रह्मादीनाम् अपि ईश निखिलजगदाश्रयभूत।",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। हे देवेश? हे जगन्निवास? प्रसन्नो भव।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। हे देव हे देवेश? हे जगन्निवास? प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "darśay",
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "deva",
       "lemma": "deva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "देवरूपम्",
-        "देवेश",
-        "प्रसीद देवेश जगन्निवास"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "rū",
-      "lemma": "ru",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "देवरूपम्"
-      ]
-    },
-    {
-      "surface_form": "upam",
-      "lemma": "vap",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "rūpam",
+      "lemma": "rūpa",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prasīda",
       "lemma": "prasad",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देवेश? जगन्निवास जगतो निवासो जगन्निवासः?",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "देवेश जगन्निवास मयि प्रसादं कुरु देवानां ब्रह्मादीनाम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्राग्रूपदर्शनरूपं प्रसादं मे कुरु",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "प्रसीद देवेश जगन्निवास"
-      ]
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "deveśa",
       "lemma": "deveśa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? जगन्निवास जगतो निवासो जगन्निवासः?",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "जगन्निवास मयि प्रसादं कुरु देवानां ब्रह्मादीनाम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "? हे जगन्निवास? प्रसन्नो भव।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "? हे जगन्निवास? प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "देवेश",
-        "प्रसीद देवेश जगन्निवास"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jagat",
+      "lemma": "jagant",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "nivāsa",
-      "lemma": "nivas",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "nivāsa",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "निवास",
-        "प्रसीद देवेश जगन्निवास"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -633,7 +430,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When we encounter something simultaneously thrilling and terrifying — a true magnitude-event — do we stay with the double affect or collapse it prematurely into one by explaining the fear away?",

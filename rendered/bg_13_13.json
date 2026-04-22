@@ -11,147 +11,100 @@
     {
       "surface_form": "sarvatas",
       "lemma": "sarvatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇi",
-      "lemma": "paṇāyi",
-      "grammar": "locative singular masculine noun",
+      "lemma": "pāṇi",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pādam",
-      "lemma": "pad",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "pāda",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvatas",
       "lemma": "sarvatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "akṣi",
       "lemma": "akṣi",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śis",
-      "lemma": "śās",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "o",
-      "lemma": "u",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "śiraḥ",
+      "lemma": "śiras",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mukham",
       "lemma": "mukha",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvatas",
       "lemma": "sarvatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śrutimat",
       "lemma": "śrutimat",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "loke",
-      "lemma": "lok",
-      "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सर्वम् आवृत्य तिष्ठति इति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "loka",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvam",
       "lemma": "sarva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आवृत्य तिष्ठति इति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वम्"
-      ]
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "āvṛtya",
       "lemma": "āvṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तिष्ठति इति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tiṣṭhati",
       "lemma": "sthā",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। लोके यद् वस्तुजातं तत् सर्वं व्याप्य तिष्ठति परिशुद्धस्वरूपं देशादिपरिच्छेदरहिततया सर्वगतम् इत्यर्थः।।",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "तिष्ठति"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -412,7 +365,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Brahman cannot be called 'sat' (existing) or 'asat' (non-existing), what epistemic status does the Gita's own claim to teach about it actually have?",

@@ -10,162 +10,94 @@
   "word_by_word": [
     {
       "surface_form": "kutas",
-      "lemma": "ku",
-      "grammar": "nominative plural masculine noun",
+      "lemma": "kutas",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tvā",
-      "lemma": "tva",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति त्वाम्",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "त्वां सर्वक्षत्रियप्रवरं कुतो",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "tvad",
+      "grammar": "accusative singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kaśmalam",
       "lemma": "kaśmala",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कश्मलम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "viṣam",
-      "lemma": "viṣ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "e",
-      "lemma": "a",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "viṣame",
+      "lemma": "viṣama",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "samupasthitam",
       "lemma": "samupasthā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "समुपस्थितम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "ana",
+      "surface_form": "an",
       "lemma": "an",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनार्यजुष्टम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ārya",
       "lemma": "ārya",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "juṣṭam",
       "lemma": "juṣ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनार्यजुष्टम्"
-      ]
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अस्वर्ग्यम्"
-      ]
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "argyam",
-      "lemma": "arj",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "asvargyam",
+      "lemma": "asvargya",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ak",
-      "lemma": "aj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īrti",
-      "lemma": "īr",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "akīrti",
+      "lemma": "akīrti",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karam",
-      "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "kara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अकीर्तिकरम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "arjuna",
       "lemma": "arjuna",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शुद्धस्वरूप कुत इदं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अर्जुन"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -427,7 +359,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "I'm a founder mid-crisis — my co-founder just quit, funding is uncertain, the team is watching me. I feel frozen. Is there a difference between legitimate grief and the kind of collapse this verse is diagnosing?",

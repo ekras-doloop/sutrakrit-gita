@@ -9,176 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sarva",
+      "lemma": "sarva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rū",
-      "lemma": "ru",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "abhūteṣu",
-      "lemma": "abhūta",
-      "grammar": "locative plural neuter noun",
+      "surface_form": "bhūteṣu",
+      "lemma": "bhūta",
+      "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yena",
-      "lemma": "yā",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "yad",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ekam",
+      "lemma": "eka",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhāvam",
-      "lemma": "bhū",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अविभक्तं प्रतिदेहं विभक्तेषु देहभेदेषु न विभक्तं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "lemma": "bhāva",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyayam",
-      "lemma": "vye",
-      "grammar": "1st person singular imperfect active verb",
+      "lemma": "avyaya",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "īkṣate",
       "lemma": "īkṣ",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avibhaktam",
       "lemma": "avibhakta",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vibhakteṣu",
       "lemma": "vibhaj",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देहभेदेषु न विभक्तं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सर्वेषु भूतेषु कर्माधिकारिषु येन ज्ञानेन एकाकारम् आत्माख्यं भावं तत्र",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "परस्परं व्यावृत्तेषु अविभक्तमनुस्यूतं एकमव्ययं निर्विकारं भावं परमात्मतत्त्वं येन ज्ञानेनेक्षते आलोचयति तज्ज्ञानं सात्त",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "परस्परव्यावृत्तेषु नानारसेष्वव्ययमुत्पत्तिविनाशादिसर्वविक्रियाशून्यमदृश्यमविभक्तमव्यावृत्तं सर्वत्रानुस्यूतमधिष्ठानतया",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "locative neuter plural participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viddhi",
       "lemma": "vid",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति।।यानि द्वैतदर्शनानि तानि असम्यग्भूतानि राजसानि तामसानि च इति न साक्षात् संसारोच्छित्तये भवन्ति --,",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। अतएवोक्तं श्रीमद्भागवते -- [6।16।9]एष,नित्योऽव्ययः सूक्ष्म एष सर्वाश्रयः स्वदृक् इति। अत्र सर्वाश्रय एक एवात्माऽणुर्जी",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। द्वैतदर्शनं तु राजसं तामसं च संसारकारणं न सात्त्विकमित्यभिप्रायः।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "विद्धि"
-      ]
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "sāttvikam",
       "lemma": "sāttvika",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -535,7 +452,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When you look at a colleague, a stranger, or an adversary, what exactly do you see — their role and differentiating qualities, or the one imperishable ground underneath? What would change in how you act if you genuinely saw the latter?",

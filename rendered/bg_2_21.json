@@ -9,221 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "vedās",
+      "surface_form": "veda",
       "lemma": "vid",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vināśinam",
-      "lemma": "vinaś",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "avināśinam",
+      "lemma": "avināśin",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nityam",
       "lemma": "nitya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्यय",
-        "अव्ययम्"
-      ]
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "enam",
+      "lemma": "enad",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ajam",
-      "lemma": "aj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "aja",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyayam",
-      "lemma": "vye",
-      "grammar": "1st person singular imperfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अपक्षयरहितं कथं केन प्रकारेण सः विद्वान् पुरुषः अधिकृतः हन्ति हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अव्ययम्"
-      ]
+      "lemma": "avyaya",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "katham",
       "lemma": "katham",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पार्थ"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "kam",
-      "lemma": "kam",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ghātayati",
-      "lemma": "ghāti",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हन्तारं प्रयोजयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कं वा कथं हन्ति कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "हन्ति वा अविनाशिनं नैमित्तिकविनाशरहितम्",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "। न कंचिदपि कथंचिदपीत्यर्थः। अनेन मय्यपि प्रयोजकत्वाद्दोषदृष्टिं मा कार्षीरित्युक्तं भवति।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। कथं घातयति। कमपि न घातयति कथमपि न घातयतीत्यर्थः। नहि सर्वविकारशून्यस्याकर्तुर्हननक्रियायां कर्तृत्वं संभवति। तथाच श्रु",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "ghātay",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hanti",
       "lemma": "han",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "वा अविनाशिनं नैमित्तिकविनाशरहितम्",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "कथं वा हन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "न हन्यते इति प्रतिज्ञाय न हन्यत इत्युपपादितं इदानीं न हन्तीत्युपपादयन्नुपसंहरति न विनष्टुं शीलं यस्य तमविनाशिनमन्त्यविक",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kam",
-      "lemma": "kam",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -600,7 +486,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Śaṅkara's ākṣepa reading of 'katham' — treating the rhetorical question as an absolute negation rather than a sincere inquiry — determines his entire conclusion that the jñānin must renounce all karma: does the grammar of the mūla actually require this reading, or is Śaṅkara importing a doctrinal conclusion into the syntax?",

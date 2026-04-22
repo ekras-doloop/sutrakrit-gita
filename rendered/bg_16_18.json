@@ -9,130 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kāram",
-      "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ahaṃkāram",
+      "lemma": "ahaṃkāra",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "balam",
-      "lemma": "bal",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bala",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "darpam",
       "lemma": "darpa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāmam",
       "lemma": "kāma",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "krodham",
       "lemma": "krodha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃśritās",
+      "surface_form": "saṃśritāḥ",
       "lemma": "saṃśri",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ma",
-      "lemma": "ma",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ātma",
+      "lemma": "ātman",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "para",
-      "lemma": "pṝ",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "para",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "deheṣu",
-      "lemma": "dih",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रेमास्पदेषु तत्तद्बुद्धिकर्मसाक्षितया सन्तमतिप्रेमास्पदमपि दुर्दैवपरिपाकात्प्रद्विषन्तः ईश्वरस्य मम शासनं श्रुतिस्मृत",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "prat",
-      "lemma": "prath",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "deha",
+      "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "viṣan",
-      "lemma": "viṣañj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "pradviṣantaḥ",
+      "lemma": "pradviṣ",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tā",
-      "lemma": "tan",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "abhyasūyakāḥ",
+      "lemma": "abhyasūyaka",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -378,7 +341,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the verse list ahankara first, before kama and krodha — what does this sequencing reveal about how delusion is structured?",

@@ -9,176 +9,86 @@
   },
   "word_by_word": [
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "aneka",
+      "lemma": "aneka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "citta",
-      "lemma": "cit",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "citta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "चित्त"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "vibhrāntā",
+      "surface_form": "vibhrāntāḥ",
       "lemma": "vibhram",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "moha",
-      "lemma": "muh",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "moha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jā",
-      "lemma": "ji",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "jāla",
+      "lemma": "jāla",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āla",
-      "lemma": "āli",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "samāvṛtāḥ",
+      "lemma": "samāvṛ",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "samāvṛtās",
-      "lemma": "samāvṛt",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "prasaktās",
+      "surface_form": "prasaktāḥ",
       "lemma": "prasañj",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhogeṣu",
-      "lemma": "bhuj",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तत्प्रयुक्तेषूपभोगेष्विति यावत्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        }
-      ],
+      "lemma": "bhoga",
+      "grammar": "locative masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "patanti",
       "lemma": "pat",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नरके अशुचौ वैतरण्यादौ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "नरके वैतरण्यादौ अशुचौ विण्मूत्रश्लेष्मादिपूर्णे",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "narake",
       "lemma": "naraka",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अशुचौ वैतरण्यादौ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "पतन्ति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "पतन्ति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "पतन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "वैतरण्यादौ अशुचौ विण्मूत्रश्लेष्मादिपूर्णे",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aśucau",
       "lemma": "aśuci",
-      "grammar": "locative singular masculine noun",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -417,7 +327,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the difference between having many interests and being 'many-minded' (aneka-citta) in the verse's sense — where does productive complexity become scattered delusion?",

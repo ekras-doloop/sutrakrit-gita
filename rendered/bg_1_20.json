@@ -11,145 +11,84 @@
     {
       "surface_form": "atha",
       "lemma": "atha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vyavasthitān",
       "lemma": "vyavasthā",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इत्यादेःकुरून् 1",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "इत्यारभ्यभीष्मद्रोणप्रमुखतः 125 इत्यन्तम्",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "accusative masculine plural participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dṛṣṭvā",
       "lemma": "dṛś",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "दृष्ट्वा"
-      ]
-    },
-    {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "artar",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "dhārtarāṣṭrān",
+      "lemma": "dhārtarāṣṭra",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "kapi",
+      "lemma": "kapi",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aṣṭṛ",
-      "lemma": "aś",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ān",
-      "lemma": "a",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kap",
-      "lemma": "kab",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dhvajas",
+      "surface_form": "dhvajaḥ",
       "lemma": "dhvaja",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pravṛtte",
       "lemma": "pravṛt",
-      "grammar": "locative singular masculine noun",
+      "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śastra",
       "lemma": "śastra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "saṃpāte",
+      "lemma": "sampāta",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pāte",
-      "lemma": "pā",
-      "grammar": "dative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dhanus",
+      "surface_form": "dhanuḥ",
       "lemma": "dhanus",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "udyamya",
       "lemma": "udyam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pāṇḍavas",
+      "surface_form": "pāṇḍavaḥ",
       "lemma": "pāṇḍava",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -399,7 +338,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Madhusūdana says Bhagavān executes the bhakta's command — but does Arjuna know he is commanding the Lord, or does he merely think he is speaking to his charioteer? What does that ambiguity reveal about the structure of bhakti?",

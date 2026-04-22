@@ -11,135 +11,98 @@
     {
       "surface_form": "rudrāṇām",
       "lemma": "rudra",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śam",
-      "lemma": "śam",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "karas",
-      "lemma": "kṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "śaṃkaraḥ",
+      "lemma": "śaṃkara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vitteśas",
+      "surface_form": "vitteśaḥ",
       "lemma": "vitteśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yakṣa",
       "lemma": "yakṣa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rakṣasām",
       "lemma": "rakṣas",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vas",
-      "lemma": "av",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "vasūnām",
+      "lemma": "vasu",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ūnām",
-      "lemma": "u",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "pāvakas",
+      "surface_form": "pāvakaḥ",
       "lemma": "pāvaka",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īr",
-      "lemma": "īr",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "us",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "meruḥ",
+      "lemma": "meru",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śikhariṇām",
       "lemma": "śikharin",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इत्यत्र शिखरिशब्दः पर्वतविशेषोपलक्षकः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -367,7 +330,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa choose Śaṅkara — the very deity most often contrasted with Viṣṇu — as his Rudra-vibhūti, and what does this tell us about the theology of divine supremacy in the Gītā?",

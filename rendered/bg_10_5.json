@@ -7,7 +7,113 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "ahiṃsā",
+      "lemma": "ahiṃsā",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sama",
+      "lemma": "sama",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tā",
+      "lemma": "tā",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tuṣṭiḥ",
+      "lemma": "tuṣṭi",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dānam",
+      "lemma": "dāna",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yaśaḥ",
+      "lemma": "yaśas",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ayaśaḥ",
+      "lemma": "ayaśas",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhavanti",
+      "lemma": "bhū",
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhāvāḥ",
+      "lemma": "bhāva",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhūtānām",
+      "lemma": "bhūta",
+      "grammar": "genitive neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mattaḥ",
+      "lemma": "mad",
+      "grammar": "ablative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "eva",
+      "lemma": "eva",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pṛthak",
+      "lemma": "pṛthak",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vidhāḥ",
+      "lemma": "vidha",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "10.4",
@@ -480,7 +586,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If virtues such as ahiṃsā and tapas arise from Kṛṣṇa — not from personal effort alone — what does that imply about the pride a practitioner takes in their ethical achievements? Does the verse undercut moral self-congratulation, and if so, how?",

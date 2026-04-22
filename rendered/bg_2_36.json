@@ -9,138 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "avāci",
-      "lemma": "vac",
-      "grammar": "3rd person singular aorist passive verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "avācya",
+      "lemma": "avācya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vādān",
-      "lemma": "vad",
-      "grammar": "accusative plural masculine noun",
+      "lemma": "vāda",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bahu",
+      "surface_form": "bahūn",
       "lemma": "bahu",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ūn",
-      "lemma": "u",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vadiṣyanti",
       "lemma": "vad",
-      "grammar": "3rd person plural simple future active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तव अहिताः शत्रवः निन्दन्तः कुत्सयन्तः तव त्वदीयं सामर्थ्यं निवातकवचादियुद्धनिमित्तम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तव शत्रवो धार्तराष्ट्राः ततः अधिकतरं दुःखं किं तव एवंविधावाच्यश्रवणात् मरणम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tavās",
-      "lemma": "tu",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "hitās",
-      "lemma": "hi",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nindantas",
-      "lemma": "nind",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tava",
-      "lemma": "tu",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tvad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sām",
-      "lemma": "sā",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "ahitāḥ",
+      "lemma": "ahita",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "arthyam",
-      "lemma": "arthya",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "nindantaḥ",
+      "lemma": "nind",
+      "grammar": "nominative masculine plural present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tava",
+      "lemma": "tvad",
+      "grammar": "genitive singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sāmarthyam",
+      "lemma": "sāmarthya",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tatas",
       "lemma": "tatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "duḥkhataram",
       "lemma": "duḥkhatara",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nu",
       "lemma": "nu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kim",
-      "lemma": "kim",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -353,7 +315,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the verse's logic is that infamy is the worst of all pains, does Kṛṣṇa's argument here depend on Arjuna still being bound by lokamaryādā (social honor) — and if so, does the entire appeal become inapplicable once Arjuna transcends that attachment?",

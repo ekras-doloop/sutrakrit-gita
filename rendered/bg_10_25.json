@@ -9,120 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "maharṣīṇām",
-      "lemma": "maharṣi",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhṛgus",
+      "surface_form": "ṛṣīṇām",
+      "lemma": "ṛṣi",
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhṛguḥ",
       "lemma": "bhṛgu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "girām",
       "lemma": "gir",
-      "grammar": "Vibhakti.Sasthi plural feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति न शब्दमात्रं विवक्षितम् समुद्रघोषादिषु तत्प्रयोगाभावात्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "genitive feminine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ekam",
+      "lemma": "eka",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "akṣaram",
-      "lemma": "kṣar",
-      "grammar": "1st person singular imperfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ओंकारः अस्मि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अक्षरम्"
-      ]
+      "lemma": "akṣara",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yajñānām",
-      "lemma": "yaj",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "yajña",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "japa",
-      "lemma": "jap",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "japa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yajñas",
-      "lemma": "yaj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yajñaḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sthāvarāṇām",
       "lemma": "sthāvara",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "himālayas",
+      "surface_form": "himālayaḥ",
       "lemma": "himālaya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -450,7 +430,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa name japa-yajña as the supreme sacrifice — what is it about silent repetition that ranks above the great śrauta rites requiring fire, priest, and soma?",

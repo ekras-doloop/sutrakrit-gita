@@ -7,7 +7,92 @@
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
-  "word_by_word": [],
+  "word_by_word": [
+    {
+      "surface_form": "etad",
+      "lemma": "etad",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yonīni",
+      "lemma": "yoni",
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhūtāni",
+      "lemma": "bhūta",
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarvāṇi",
+      "lemma": "sarva",
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iti",
+      "lemma": "iti",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "upadhāraya",
+      "lemma": "upadhāray",
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aham",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kṛtsnasya",
+      "lemma": "kṛtsna",
+      "grammar": "genitive neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jagataḥ",
+      "lemma": "jagant",
+      "grammar": "genitive neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prabhavaḥ",
+      "lemma": "prabhava",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pralayaḥ",
+      "lemma": "pralaya",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tathā",
+      "lemma": "tathā",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    }
+  ],
   "intertextual_panel": [
     {
       "verse": "9.18",
@@ -374,7 +459,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If both the material world and the conscious self originate from the same Kṛṣṇa, what remains of the usual opposition between 'inner life' and 'outer world' — and what does that do to how we locate the sacred?",

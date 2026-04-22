@@ -10,66 +10,113 @@
   "word_by_word": [
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "agre",
       "lemma": "agra",
-      "grammar": "locative singular neuter noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viṣam",
-      "lemma": "viṣ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इव दुःखम् इव भवति? परिणामे अमृतोपमं परिणामे विपाके अभ्यासबलेन विविक्तात्मस्वरूपाविर्भावे अमृतोपमं भवति?",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "viṣa",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iva",
       "lemma": "iva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pariṇāme",
+      "lemma": "pariṇāma",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "amṛta",
+      "lemma": "amṛta",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "upamam",
+      "lemma": "upama",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukham",
-      "lemma": "sukham",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "sukha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sāttvikam",
       "lemma": "sāttvika",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "proktam",
+      "lemma": "pravac",
+      "grammar": "nominative neuter singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātma",
+      "lemma": "ātman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhi",
+      "lemma": "buddhi",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prasāda",
+      "lemma": "prasāda",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jam",
+      "lemma": "ja",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -361,7 +408,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the text use poison and nectar as its poles rather than, say, difficulty and ease — what does that choice of image say about the nature of the transformation at stake?",

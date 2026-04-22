@@ -9,144 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "acchedi",
-      "lemma": "chid",
-      "grammar": "3rd person singular aorist passive verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "acchedyaḥ",
+      "lemma": "acchedya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "adāhi",
-      "lemma": "dah",
-      "grammar": "3rd person singular aorist passive verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "adāhyaḥ",
+      "lemma": "adāhya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "akledi",
-      "lemma": "klid",
-      "grammar": "3rd person singular aorist passive verb",
+      "surface_form": "akledyaḥ",
+      "lemma": "akledya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aśoṣi",
-      "lemma": "śuṣ",
-      "grammar": "3rd person singular aorist passive verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "aśoṣyaḥ",
+      "lemma": "aśoṣya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nityas",
+      "surface_form": "nityaḥ",
       "lemma": "nitya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वगतः"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "gatas",
+      "surface_form": "gataḥ",
       "lemma": "gam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sthā",
-      "lemma": "sthā",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "sthāṇuḥ",
+      "lemma": "sthāṇu",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aṇus",
-      "lemma": "aṇu",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "acalas",
-      "lemma": "cal",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "acalaḥ",
+      "lemma": "acala",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sanātanas",
+      "surface_form": "sanātanaḥ",
       "lemma": "sanātana",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -447,7 +410,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Śaṅkara says Kṛṣṇa repeats these verses because ātman-knowledge is duḥ-bodha (hard to grasp) for the saṃsārin. What is it about the conditioned mind — trained on objects that arise, change, and perish — that makes the concept of something truly nityaḥ (eternal) so resistant to understanding, even after repeated hearing?",

@@ -11,151 +11,91 @@
     {
       "surface_form": "bhīṣma",
       "lemma": "bhīṣma",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "droṇa",
       "lemma": "droṇa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "pramukhatas",
       "lemma": "pramukhatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarveṣām",
       "lemma": "sarva",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्"
-      ]
-    },
-    {
-      "surface_form": "mahi",
-      "lemma": "mahi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īkṣitām",
-      "lemma": "īkṣ",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "mahīkṣitām",
+      "lemma": "mahīkṣit",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uvāca",
       "lemma": "vac",
-      "grammar": "3rd person singular perfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संजय उवाच स",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "past indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इत्यस्य तात्पर्यमाह ईदृशीति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "एतान्कुरून्पश्येत्युवाच",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "पृथायाः स्त्रीस्वभावेन शोकमोहग्रस्ततया तत्संबन्धिनस्तवापि तद्वत्ता समुपस्थितेति सूचयन् हृषीकेशत्वमात्मनो दर्शयति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "paśya",
-      "lemma": "dṛś",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "paś",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कुरुन् पश्य",
-        "पश्यैतान् धार्तराष्ट्रान् समानिति"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "etān",
       "lemma": "etad",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "samavet",
-      "lemma": "saṃvid",
-      "grammar": "3rd person singular imperfect active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ān",
-      "lemma": "a",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "samavetān",
+      "lemma": "samave",
+      "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kurūn",
       "lemma": "kuru",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -573,7 +513,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa comply with Arjuna's request immediately and exactly — and what does instantaneous obedience from the Lord tell us about the theology of service across these six schools?",

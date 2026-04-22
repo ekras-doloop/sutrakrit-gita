@@ -11,139 +11,112 @@
     {
       "surface_form": "yeṣām",
       "lemma": "yad",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anta",
-      "lemma": "anti",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "anta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gatam",
       "lemma": "gam",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāpam",
       "lemma": "pāpa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "janānām",
       "lemma": "jana",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puṇya",
       "lemma": "puṇya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmaṇām",
       "lemma": "karman",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dvandva",
       "lemma": "dvaṃdva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "moha",
-      "lemma": "muh",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "moha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nirmuktā",
+      "surface_form": "nirmuktāḥ",
       "lemma": "nirmuc",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhajante",
       "lemma": "bhaj",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मां परमात्मानं दृढव्रताः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "।तत्र तेषां त्रयाणां भगवन्तं भजमानानां ज्ञातव्यविशेषान् उपादेयांश्च प्रस्तौति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "। मां भजन्तो दृश्यन्त इत्यर्थः।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "मामित्युक्तम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dṛḍha",
       "lemma": "dṛḍha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vratāḥ",
+      "lemma": "vrata",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -387,7 +360,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If meritorious action across many births is the precondition for freedom from dvandva-moha, what does this say about the role of incremental virtue — does it accumulate like capital, or does some threshold-crossing moment exhaust the obstruction?",

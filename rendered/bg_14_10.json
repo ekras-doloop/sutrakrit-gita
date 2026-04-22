@@ -9,151 +9,114 @@
   },
   "word_by_word": [
     {
-      "surface_form": "rajas",
+      "surface_form": "rajaḥ",
       "lemma": "rajas",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tamas",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "tamaḥ",
+      "lemma": "tamas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhibhūya",
       "lemma": "abhibhū",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhavati",
       "lemma": "bhū",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उद्भवति वर्धते यदा? तदा लब्धात्मकं सत्त्वं स्वकार्यं ज्ञानसुखादि आरभते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "bhās",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rata",
-      "lemma": "ram",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "bhārata",
+      "lemma": "bhārata",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rajas",
+      "surface_form": "rajaḥ",
       "lemma": "rajas",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tamas",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "tamaḥ",
+      "lemma": "tamas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tamas",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "tamaḥ",
+      "lemma": "tamas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "rajas",
+      "surface_form": "rajaḥ",
       "lemma": "rajas",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -372,7 +335,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If every guṇa-state I find myself in — clarity, agitation, or dullness — is the result of prior karma and food rather than present will, what agency do I actually have in managing my own mental states?",

@@ -10,141 +10,106 @@
   "word_by_word": [
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "agre",
       "lemma": "agra",
-      "grammar": "locative singular neuter noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anubandhe",
       "lemma": "anubandha",
-      "grammar": "locative singular masculine noun",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukham",
-      "lemma": "sukham",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "sukha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mohanam",
-      "lemma": "muh",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "mohana",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "ātmanaḥ",
+      "lemma": "ātman",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nidra",
+      "surface_form": "nidrā",
       "lemma": "nidrā",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "निद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्"
-      ]
-    },
-    {
-      "surface_form": "ālas",
-      "lemma": "āli",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ālasya",
+      "lemma": "ālasya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "apramāda",
-      "lemma": "apramāda",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "pramāda",
+      "lemma": "pramāda",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uttham",
-      "lemma": "utthā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "uttha",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "निद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tāmasam",
       "lemma": "tāmasa",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उदाहृतम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "उदाहृतम् अतो मुमुक्षुणा रजस्तमसी अभिभूय सत्त्वम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "udāhṛtam",
       "lemma": "udāhṛ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -371,7 +336,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "The verse says tamasic pleasure deludes 'both at the outset and in its aftermath' — what does it mean that the delusion is present even before enjoyment ends, not only in the hangover?",

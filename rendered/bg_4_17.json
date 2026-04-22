@@ -9,125 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "karmaṇas",
+      "surface_form": "karmaṇaḥ",
       "lemma": "karman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "boddhavyam",
       "lemma": "budh",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "boddhavyam",
       "lemma": "budh",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अकर्मणि च कर्म यः",
-        "समः सिद्धावसिद्धौ च"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "vikarmaṇas",
+      "surface_form": "vikarmaṇaḥ",
       "lemma": "vikarman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "akarmaṇas",
+      "surface_form": "akarmaṇaḥ",
       "lemma": "akarman",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अकर्मणि च कर्म यः",
-        "समः सिद्धावसिद्धौ च"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "boddhavyam",
       "lemma": "budh",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gahanā",
       "lemma": "gahana",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विषमा दुर्ज्ञेया कर्मणः इति उपलक्षणार्थं कर्मादीनाम् कर्माकर्मविकर्मणां गतिः याथात्म्यं तत्त्वम् इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "दुर्विज्ञाना मुमुक्षोः कर्मणो गतिः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "दुर्ज्ञाना",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "karmaṇas",
-      "lemma": "karman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gatis",
-      "lemma": "gam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "karmaṇaḥ",
+      "lemma": "karman",
+      "grammar": "genitive neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "gatiḥ",
+      "lemma": "gati",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -413,7 +381,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If even sanctioned (vihita) action has a tattva that exceeds common understanding, what assumption about 'doing the right thing' does this verse directly destabilize?",

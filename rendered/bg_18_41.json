@@ -9,124 +9,80 @@
   },
   "word_by_word": [
     {
+      "surface_form": "brāhmaṇa",
+      "lemma": "brāhmaṇa",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kṣatriya",
+      "lemma": "kṣatriya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viśām",
+      "lemma": "viś",
+      "grammar": "genitive feminine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
       "surface_form": "śūdrāṇām",
       "lemma": "śūdra",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parantapa",
       "lemma": "paraṃtapa",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पुरा तथा प्रविभक्तानि कर्माणि",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "शत्रुतापन? तेषां चतुर्णामपि वर्णानां कर्माणि प्रकर्षेण विभक्तानीतरेतरविभागेन व्यवस्थितानि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmāṇi",
       "lemma": "karman",
-      "grammar": "vocative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रविभक्तानि इतरेतरविभागेन व्यवस्थापितानि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "शास्त्रैः प्रतिपादितानि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्रविभक्तानि प्रकर्षेण विभागतो विहितानि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "प्रकर्षेण विभक्तानीतरेतरविभागेन व्यवस्थितानि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "कर्माणि"
-      ]
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "pravibhaktāni",
-      "lemma": "pravibhakta",
-      "grammar": "vocative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इतरेतरविभागेन व्यवस्थापितानि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्माणि शास्त्रैः प्रतिपादितानि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कर्माणि",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "प्रकर्षेण विभागतो विहितानि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "lemma": "pravibhaj",
+      "grammar": "nominative neuter plural participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "svabhāva",
+      "lemma": "svabhāva",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prabhavaiḥ",
+      "lemma": "prabhava",
+      "grammar": "instrumental masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "guṇaiḥ",
+      "lemma": "guṇa",
+      "grammar": "instrumental masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -380,7 +336,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If svabhava is formed by purvajanma-samskaras, is it possible to change one's varna-duty mid-life through deliberate cultivation of a different guna-balance, or does this verse foreclose such reorientation?",

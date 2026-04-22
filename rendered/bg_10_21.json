@@ -9,156 +9,86 @@
   },
   "word_by_word": [
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ityānām",
-      "lemma": "i",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "ādityānām",
+      "lemma": "āditya",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "viṣṇus",
+      "surface_form": "viṣṇuḥ",
       "lemma": "viṣṇu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jyotiṣām",
       "lemma": "jyotis",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ravis",
+      "surface_form": "raviḥ",
       "lemma": "ravi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aṃśumān",
-      "lemma": "aṃśumat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रश्मिमान्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "रविः आदित्यगणः सः अहम्? मरुताम् उत्कृष्टो मरीचिः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "lemma": "aṃśumant",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "marīcis",
+      "surface_form": "marīciḥ",
       "lemma": "marīci",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "marutām",
       "lemma": "marut",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उत्कृष्टो मरीचिः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। नक्षत्राणाम् अहं शशी चन्द्रमाः।।",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? नक्षत्राणाम् अहं शशी",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अस्मि"
-      ]
+      "grammar": "present indicative 1st person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "nakṣatrāṇām",
       "lemma": "nakṣatra",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अहं शशी चन्द्रमाः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अहं शशी",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "genitive neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śaśī",
-      "lemma": "śaś",
-      "grammar": "nominative dual neuter noun",
+      "lemma": "śaśin",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -401,7 +331,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa list himself as Viṣṇu — one of twelve Ādityas — rather than as the sun itself, which is more universally prominent?",

@@ -11,149 +11,92 @@
     {
       "surface_form": "traiguṇya",
       "lemma": "traiguṇya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "viṣayās",
+      "surface_form": "viṣayāḥ",
       "lemma": "viṣaya",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vedā",
-      "lemma": "vid",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। यत एवं कामात्मनां त्रैगुण्याधिकारिणां त्रैगुण्यफलविषया वेदास्त्रिकाण्डविषया अपि अतस्त्वं वेदादिमूलानिस्त्रिगुणतत्त",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "surface_form": "vedāḥ",
+      "lemma": "veda",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nistraiguṇyas",
+      "surface_form": "nistraiguṇyaḥ",
       "lemma": "nistraiguṇya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhava",
       "lemma": "bhū",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "arjuna",
       "lemma": "arjuna",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nirdvandvas",
+      "surface_form": "nirdvandvaḥ",
       "lemma": "nirdvaṃdva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nitya",
       "lemma": "nitya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "नित्य"
-      ]
-    },
-    {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tva",
-      "lemma": "tva",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "sattva",
+      "lemma": "sattva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sthas",
-      "lemma": "as",
-      "grammar": "2nd person dual present indicative active verb",
+      "surface_form": "sthaḥ",
+      "lemma": "stha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nis",
-      "lemma": "ni",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "niryoga",
+      "lemma": "niryoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kṣā",
-      "lemma": "kṣā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "imas",
-      "lemma": "i",
-      "grammar": "1st person plural present indicative active verb",
+      "surface_form": "kṣemaḥ",
+      "lemma": "kṣema",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ātmavān",
       "lemma": "ātmavat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अप्रमत्तश्च भव",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "भव आत्मस्वरूपान्वेषणपरो भव",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "आत्मा परमात्मा ध्येयत्वेन योगक्षेमादिनिर्वाहकत्वेन",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -414,7 +357,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the Vedas were composed specifically for guṇa-bound minds, does following Vedic ritual faithfully entrench one in traiguṇya rather than dissolving it — and how do the schools answer that charge differently?",

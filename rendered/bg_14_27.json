@@ -9,149 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "brahmaṇas",
+      "surface_form": "brahmaṇaḥ",
       "lemma": "brahman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pratiṣṭhās",
+      "surface_form": "pratiṣṭhā",
       "lemma": "pratiṣṭhā",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ham",
-      "lemma": "ha",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "aham",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "amṛtasya",
       "lemma": "amṛta",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": ",अविनाशिनः अव्ययस्य अविकारिणः शाश्वतस्य",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अव्ययस्य",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "मोक्षस्य ब्रह्मानन्दस्याव्ययस्य",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "विनाशरहितस्य अव्ययस्य विपरिणामरहितस्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āvi",
-      "lemma": "u",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayasya",
-      "lemma": "i",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "surface_form": "avyayasya",
+      "lemma": "avyaya",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śa",
-      "lemma": "śa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "शाश्वत"
-      ]
-    },
-    {
-      "surface_form": "aśvat",
-      "lemma": "śvi",
-      "grammar": "3rd person singular aorist active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "asya",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "surface_form": "śāśvatasya",
+      "lemma": "śāśvata",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "dharmasya",
+      "lemma": "dharma",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "sukhasya",
+      "lemma": "sukha",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asya",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "surface_form": "aikāntikasya",
+      "lemma": "aikāntika",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -427,7 +371,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the verse places Krsna as the foundation of Brahman rather than the other way round, what does this do to the standard Vedantic hierarchy where Brahman is the ultimate? Is this a category-error, a devotional hyperbole, or a genuine ontological claim?",

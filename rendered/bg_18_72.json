@@ -11,152 +11,93 @@
     {
       "surface_form": "kaccit",
       "lemma": "kaccit",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etat",
       "lemma": "etad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śrutam",
       "lemma": "śru",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? त्वया एकाग्रेण चेतसा चित्तेन किं वा अप्रमादतः कच्चित् अज्ञानसंमोहः अज्ञाननिमित्तः संमोहः अविविक्तभावः अविवेकः स्वाभावि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "त्वया अवहितेन चेतसा कच्चित् श्रुतम् तव अज्ञानसंमोहः कच्चित् प्रनष्टः येन अज्ञानेन मूढो न योत्स्यामि? इति उक्तवान्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "? त्वया किं श्रुतमर्थतोऽवधारितं कच्चित्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "tvayā",
-      "lemma": "tva",
-      "grammar": "instrumental singular feminine noun",
+      "lemma": "tvad",
+      "grammar": "instrumental singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ekāgreṇa",
       "lemma": "ekāgra",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ā",
-      "lemma": "ā",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "cetasā",
+      "lemma": "cetas",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kaccit",
       "lemma": "kaccit",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajñās",
-      "lemma": "jñā",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "ajñāna",
+      "lemma": "ajñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nas",
-      "lemma": "na",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sammohaḥ",
+      "lemma": "sammoha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "mohas",
-      "lemma": "muh",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "pranaṣṭas",
+      "surface_form": "pranaṣṭaḥ",
       "lemma": "praṇaś",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "tvad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dhanañjaya",
       "lemma": "dhanaṃjaya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? यदि स्यात्पुनरुपदेशं करिष्यामीत्यभिप्रायः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "धनञ्जय"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -513,7 +454,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the difference between hearing a teaching and truly receiving it — and how does one know which has occurred?",

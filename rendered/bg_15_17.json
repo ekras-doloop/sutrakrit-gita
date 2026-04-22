@@ -9,141 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "uttamas",
+      "surface_form": "uttamaḥ",
       "lemma": "uttama",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अन्यः"
-      ]
-    },
-    {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "anyaḥ",
+      "lemma": "anya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "paramāt",
-      "lemma": "parama",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "paramātmā",
+      "lemma": "paramātman",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "itī",
+      "surface_form": "iti",
       "lemma": "iti",
-      "grammar": "nominative dual feminine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "udāhṛtas",
+      "surface_form": "udāhṛtaḥ",
       "lemma": "udāhṛ",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "loka",
-      "lemma": "lok",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "loka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "trayam",
       "lemma": "traya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āviśya",
       "lemma": "āviś",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रविश्य बिभर्ति स्वरूपसद्भावमात्रेण बिभर्ति धारयति अव्ययः न अस्य व्ययः विद्यते इति अव्ययः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "बिभर्ति लोक्यत इति लोकः तत्त्रयं लोकत्रयम् अचेतनं तत्संसृष्टः चेतनो मुक्तः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "स्वकीयया मायाशक्त्याऽधिष्ठाय बिभर्ति सत्तास्फूर्तिप्रदानेन धारयति पोषयति च",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bibharti",
       "lemma": "bhṛ",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avyayas",
-      "lemma": "vye",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "avyayaḥ",
+      "lemma": "avyaya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īśvaras",
+      "surface_form": "īśvaraḥ",
       "lemma": "īśvara",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -427,7 +386,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Purusottama is atyanata-vilaksana from both ksara and aksara, what does it mean in practice to 'relate' to him — can a finite being actually have a relationship with what is categorically beyond both bound and free?",

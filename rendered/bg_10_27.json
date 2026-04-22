@@ -11,142 +11,84 @@
     {
       "surface_form": "uccaiḥśravasam",
       "lemma": "uccaiḥśravas",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अश्वानां उच्चैःश्रवाः नाम अश्वराजः तं मां विद्धि विजानीहि अमृतोद्भवम् अमृतनिमित्तमथनोद्भवम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aśvānām",
       "lemma": "aśva",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viddhi",
       "lemma": "vid",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विजानीहि अमृतोद्भवम् अमृतनिमित्तमथनोद्भवम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। गजेन्द्राणां सर्वेषां मध्येः अमृतमथनोद्भवम् ऐरावतं मां विद्धि।अमृतोद्भवम् इति ऐरावतस्य अपि विशेषणम्। नराणां मध्ये राजा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। अमृतोद्भवमित्येतदैरावतेऽपि संबध्यते। नराधिपं राजानं मां विद्धि।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। ऐरावतं गजममृतमथनोद्भवं गजेन्द्राणां मध्ये मां विद्धि। नराणां च मध्ये नराधिपं राजानं मां विद्धीत्यनुषज्यते।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "विद्धि"
-      ]
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "amṛta",
       "lemma": "amṛta",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "udbhavam",
-      "lemma": "udbhū",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "udbhava",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "airāvatam",
       "lemma": "airāvata",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gajendrāṇām",
-      "lemma": "gajendra",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "gaja",
+      "lemma": "gaja",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nar",
-      "lemma": "nṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "indrāṇām",
+      "lemma": "indra",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṇa",
-      "lemma": "ṇa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "narāṇām",
+      "lemma": "nara",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "narādhipam",
       "lemma": "narādhipa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -389,7 +331,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the Gītā list kings, horses, and elephants rather than purely spiritual beings as vibhūtis — what does the inclusion of royal-political categories reveal about the text's theory of sovereignty?",

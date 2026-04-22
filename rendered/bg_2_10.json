@@ -10,147 +10,85 @@
   "word_by_word": [
     {
       "surface_form": "tam",
-      "lemma": "tay",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uvāca",
       "lemma": "vac",
-      "grammar": "3rd person singular perfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एवं अस्थाने समुपस्थितस्नेहकारुण्याभ्याम् अप्रकृतिं गतं क्षत्रियाणां युद्धं परमं धर्मम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "past indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hṛṣīkeśas",
+      "surface_form": "hṛṣīkeśaḥ",
       "lemma": "hṛṣīkeśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "prahas",
-      "lemma": "prahā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "prahasan",
+      "lemma": "prahas",
+      "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iva",
       "lemma": "iva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhās",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bhārata",
+      "lemma": "bhārata",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rata",
-      "lemma": "ram",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "senayoḥ",
+      "lemma": "senā",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यथेच्छसि तथा कुरु"
-      ]
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ayos",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ubhayos",
-      "lemma": "ubh",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
+      "surface_form": "ubhayoḥ",
+      "lemma": "ubhaya",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhye",
       "lemma": "madhya",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अकस्मात् निरुद्योगं पार्थम् आलोक्य परमपुरुषः प्रहसन् इव इदम् उवाच",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "viṣi",
-      "lemma": "viṣ",
-      "grammar": "locative singular masculine noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "it",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "antam",
-      "lemma": "anti",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "viṣīdantam",
+      "lemma": "viṣad",
+      "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vacas",
-      "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vacaḥ",
+      "lemma": "vacas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -418,7 +356,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the text specify that Kṛṣṇa smiled 'as if' (prahasan iva) rather than simply 'smiled' — what is the literary and philosophical load carried by the particle iva here, and how does each school resolve it differently?",

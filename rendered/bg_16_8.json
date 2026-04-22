@@ -9,139 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "asati",
-      "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "asatyam",
+      "lemma": "asatya",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "apratiṣṭham",
       "lemma": "apratiṣṭha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jagat",
-      "lemma": "jagat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "jagant",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āhus",
-      "lemma": "brū",
-      "grammar": "3rd person plural present indicative active verb",
+      "surface_form": "āhuḥ",
+      "lemma": "ah",
+      "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anīśvaram",
       "lemma": "anīśvara",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न च धर्माधर्मसव्यपेक्षकः अस्य शासिता ईश्वरः विद्यते इति अतः अनीश्वरं जगत् आहुः। किं च? अपरस्परसंभूतं कामप्रयुक्तयोः स्त",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aparas",
-      "lemma": "apara",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "para",
-      "lemma": "pṝ",
-      "grammar": "2nd person singular imperative active verb",
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "paraspara",
+      "lemma": "paraspara",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃbhūtam",
-      "lemma": "samas",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "sambhū",
+      "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kim",
-      "lemma": "kim",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anyat",
       "lemma": "anya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "योषित्पुरुषयोः परस्परसम्बन्धेन जातम् इदं मनुष्यपश्वादिकम् उपलभ्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ha",
-      "lemma": "ha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ait",
-      "lemma": "i",
-      "grammar": "3rd person singular imperfect active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "uk",
-      "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "haitukam",
+      "lemma": "haituka",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -364,7 +318,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the demoniac view reduces all causation to kama (desire), what is left of the concept of personal responsibility — and how does each school's metaphysics ground accountability differently?",

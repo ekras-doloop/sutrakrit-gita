@@ -9,147 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "pra",
-      "lemma": "pra",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "apya",
-      "lemma": "apya",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "prāpya",
+      "lemma": "prāp",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puṇya",
       "lemma": "puṇya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtām",
-      "lemma": "kṛ",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "kṛt",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "loka",
-      "lemma": "lok",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ān",
-      "lemma": "a",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "lokān",
+      "lemma": "loka",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uṣitvā",
       "lemma": "vas",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "वासमनुभूय शाश्वतीः नित्याः समाः संवत्सरान् तद्भोगक्षये शुचीनां यथोक्तकारिणां श्रीमतां विभूतिमतां गेहे गृहे योगभ्रष्टः अ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तस्मिन् भोगे वितृष्णः शुचीनां श्रीमतां योगोप क्रमयोग्यानां कुले योगोपक्रमे भ्रष्टो योगमाहात्म्याद् जायते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "śa",
-      "lemma": "śa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "शाश्वत"
-      ]
-    },
-    {
-      "surface_form": "aśvat",
-      "lemma": "śvi",
-      "grammar": "3rd person singular aorist active verb",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īr",
-      "lemma": "īr",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "śāśvatīḥ",
+      "lemma": "śāśvata",
+      "grammar": "accusative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "samās",
-      "lemma": "sam",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "samāḥ",
+      "lemma": "samā",
+      "grammar": "accusative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śucīnām",
       "lemma": "śuci",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śrīmatām",
       "lemma": "śrīmat",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gā",
-      "lemma": "gā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īhe",
-      "lemma": "īh",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "gehe",
+      "lemma": "geha",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhraṣṭas",
+      "surface_form": "bhraṣṭaḥ",
       "lemma": "bhraṃś",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhijāyate",
       "lemma": "abhijan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -379,7 +325,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If even a yogi who abandons practice mid-path earns heavenly residence and a noble rebirth, does this undercut urgency — why not simply start well and coast?",

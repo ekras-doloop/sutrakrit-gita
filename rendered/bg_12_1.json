@@ -10,151 +10,113 @@
   "word_by_word": [
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "satata",
       "lemma": "satata",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yuktā",
+      "surface_form": "yuktāḥ",
       "lemma": "yuj",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "योगिनोऽर्पितात्मानो वा भक्ता ये त्वां पुरुषोत्तमं सौम्यरूपं भक्तानुग्रहविग्रहं सर्वविभूतिमूलं निरवधिकातिशयसौन्दर्यसौशील",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "nominative masculine plural participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhaktās",
-      "lemma": "bhaj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "bhaktāḥ",
+      "lemma": "bhakta",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tvām",
-      "lemma": "tva",
-      "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "त्वाम्"
-      ]
-    },
-    {
-      "surface_form": "pari",
-      "lemma": "pari",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "tvad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "upā",
-      "lemma": "vap",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "asate",
-      "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "surface_form": "paryupāsate",
+      "lemma": "paryupās",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "akṣaram",
-      "lemma": "kṣar",
-      "grammar": "1st person singular imperfect active verb",
+      "lemma": "akṣara",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अक्षरम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "avyaktam",
       "lemma": "avyakta",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्यक्तम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "teṣām",
       "lemma": "tad",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तेषाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ke",
-      "lemma": "kāvi",
-      "grammar": "locative singular neuter noun",
+      "lemma": "ka",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vittam",
-      "lemma": "vid",
-      "grammar": "2nd person dual imperative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "vittamāḥ",
+      "lemma": "vittama",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -512,7 +474,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When we feel pulled between worshipping a personal, beloved form and dissolving into formless awareness — are these genuinely different paths, or different entry gates to the same destination?",

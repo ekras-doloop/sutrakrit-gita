@@ -10,243 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvasya",
       "lemma": "sarva",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जगतः प्रभवः उत्पत्तिः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "विचित्रचिदचित्प्रपञ्चस्य प्रभवः उत्पत्तिकारणम् सर्वं मत्त",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्रभव इत्यादि",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "जगतः प्रभवो भृग्वादिरूपविभूतिद्वारेणोत्पत्तिहेतुः",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "जगतः प्रभव उत्पत्तिकारणमुपादानां निमित्तं च",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वस्य"
-      ]
-    },
-    {
-      "surface_form": "prabhavas",
-      "lemma": "prabhū",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mattas",
+      "surface_form": "prabhavaḥ",
+      "lemma": "prabhava",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mattaḥ",
       "lemma": "mad",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvam",
       "lemma": "sarva",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "pravartate",
       "lemma": "pravṛt",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। इति एवं मत्वा भजन्ते सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्वित",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इति इदं मम स्वाभाविकं निरङ्कुशैश्वर्यं सौशील्यसौन्दर्यवात्सल्यादिकल्याणगुणगणयोगं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "भवति। मयैवान्तर्यामिणा सर्वज्ञेन सर्वशक्तिना प्रेर्यमाणं स्वस्वमर्यादामनतिक्रम्य सर्वं जगत्प्रवर्तते चेष्टत इति वा। इत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "matvā",
       "lemma": "man",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भजन्ते सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्विताः संयुक्ताः इत",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "बुधाः ज्ञानिनो भावसमन्विताः मां सर्वकल्याणगुणान्वितं भजन्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "बुधा विवेकेनावगततत्त्वाभावेन परमार्थतत्त्वग्रहणरूपेण प्रेम्णा समन्विताः सन्तो मां भजन्ते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "मत्वा"
-      ]
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "bhajante",
       "lemma": "bhaj",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्विताः संयुक्ताः इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। भावो मनोवृत्तिविशेषः? मयि स्पृहयालवो मां भजन्त इत्यर्थः।कथम् --",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "सेवामार्गप्रकारेण सेवन्ते? न पूजाडम्बरेणेति? सेवायां स्थितिस्तेषामुक्तासेवायां वा कथायां वा इति भक्तिवर्द्धिन्यां कथाया",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "budhā",
-      "lemma": "budh",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विवेकिनो भावसमन्विताः प्रीतियुक्ता मां भजन्ते",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "विवेकेनावगततत्त्वाभावेन परमार्थतत्त्वग्रहणरूपेण प्रेम्णा समन्विताः सन्तो मां भजन्ते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "बुधाः"
-      ]
+      "surface_form": "budhāḥ",
+      "lemma": "budha",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "bhāva",
-      "lemma": "bhū",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "bhāva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "anvitās",
-      "lemma": "anvi",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "samanvitāḥ",
+      "lemma": "samanvita",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -534,7 +383,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Kṛṣṇa is the prabhava (source) of all, does that make individual effort (puruṣārtha) illusory, or does it reframe effort as participation in the source's own activity?",

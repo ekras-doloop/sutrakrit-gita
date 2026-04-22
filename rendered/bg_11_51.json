@@ -11,151 +11,98 @@
     {
       "surface_form": "dṛṣṭvā",
       "lemma": "dṛś",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mānuṣam",
       "lemma": "mānuṣa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rū",
-      "lemma": "ru",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "upam",
-      "lemma": "vap",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "rūpam",
+      "lemma": "rūpa",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tava",
-      "lemma": "tu",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tvad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saumyam",
       "lemma": "saumya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "janārdana",
       "lemma": "janārdana",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? इदानीम्? अधुना अस्मि संवृत्तः संजातः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "जनार्दन"
-      ]
-    },
-    {
-      "surface_form": "it",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āni",
-      "lemma": "an",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "im",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "idānīm",
+      "lemma": "idānīm",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संवृत्तः संजातः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? प्रकृतिं गतः च",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अस्मि"
-      ]
+      "grammar": "present indicative 1st person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "saṃvṛttas",
+      "surface_form": "saṃvṛttaḥ",
       "lemma": "saṃvṛt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
       "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अस्मि"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "cetās",
-      "lemma": "cit",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "cetāḥ",
+      "lemma": "cetas",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prakṛtim",
-      "lemma": "prakṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "prakṛti",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gatas",
+      "surface_form": "gataḥ",
       "lemma": "gam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -427,7 +374,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the viśvarūpa was the 'truer' form of the Divine, why does restoration of the ordinary human form count as spiritual recovery rather than spiritual loss?",

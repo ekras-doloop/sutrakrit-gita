@@ -10,143 +10,93 @@
   "word_by_word": [
     {
       "surface_form": "abhyāsa",
-      "lemma": "abhyas",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "-- इत्यादिश्लोकत्रयार्थमाहतत्रेति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "एव योगोऽभ्यासयोगः",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अभ्यास"
-      ]
+      "lemma": "abhyāsa",
+      "grammar": "compound masculine (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "समत्वं योग उच्यते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "yuktena",
       "lemma": "yuj",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "instrumental neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "cetasā",
+      "lemma": "cetas",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nāni",
+      "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative plural neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "anya",
+      "lemma": "anya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अभ्यास"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "gāminā",
-      "lemma": "gam",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "gāmin",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paramam",
       "lemma": "parama",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puruṣam",
       "lemma": "puruṣa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "divyam",
       "lemma": "divya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yāti",
-      "lemma": "yat",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "गच्छति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आदिभरतमृगत्वप्राप्तिवत् ऐश्वर्यविशिष्टतया मत्समानाकारो भवति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तमेव विशिनष्टि --,कविमिति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "गच्छति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "yā",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pārtha",
+      "lemma": "pārtha",
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anucintayan",
+      "lemma": "anucintay",
+      "grammar": "nominative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -534,7 +484,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the destination depends on the final moment of consciousness at death (as BG 8.6 insists), what happens to years of practice when a deathbed distraction arises — is the entire sādhana negated, or is habit structurally protective?",

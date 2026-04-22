@@ -9,143 +9,93 @@
   },
   "word_by_word": [
     {
-      "surface_form": "ṛṣibhis",
+      "surface_form": "ṛṣibhiḥ",
       "lemma": "ṛṣi",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bahudhā",
       "lemma": "bahudhā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "बहुप्रकारं गीतम् अहं त्वं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gītam",
       "lemma": "gā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "chandobhis",
+      "surface_form": "chandobhiḥ",
       "lemma": "chandas",
-      "grammar": "instrumental plural neuter noun",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vividhais",
+      "surface_form": "vividhaiḥ",
       "lemma": "vividha",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthak",
       "lemma": "pṛthak",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भूप व्यवस्थितः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
-    },
-    {
-      "surface_form": "sūt",
-      "lemma": "sūd",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ra",
-      "lemma": "ra",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "sūtra",
+      "lemma": "sūtra",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "padais",
-      "lemma": "pad",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "padaiḥ",
+      "lemma": "pada",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hetumadbhis",
+      "surface_form": "hetumadbhiḥ",
       "lemma": "hetumat",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "in",
-      "lemma": "indh",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "is",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "citais",
-      "lemma": "cit",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "viniścitaiḥ",
+      "lemma": "viniści",
+      "grammar": "instrumental neuter plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -405,7 +355,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Krishna invoke the seers, Vedic meters, and Brahma-sutras all at once — what does the layered appeal to authority accomplish here that a single citation would not?",

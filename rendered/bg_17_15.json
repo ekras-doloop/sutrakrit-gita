@@ -9,152 +9,115 @@
   },
   "word_by_word": [
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "udvega",
-      "lemma": "udvega",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "anudvega",
+      "lemma": "anudvega",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karam",
-      "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "kara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vākyam",
-      "lemma": "vac",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "vākya",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sati",
-      "lemma": "sat",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "satyam",
+      "lemma": "satya",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "priya",
-      "lemma": "prī",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "priya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hitam",
-      "lemma": "hi",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "hita",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "svādhi",
-      "lemma": "svādhī",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "svādhyāya",
+      "lemma": "svādhyāya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āyābhyas",
-      "lemma": "i",
-      "grammar": "dative plural feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "anam",
-      "lemma": "an",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "abhyasanam",
+      "lemma": "abhyasana",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vā",
-      "lemma": "vā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aṅ",
-      "lemma": "añc",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vāc",
+      "lemma": "vāc",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mayam",
-      "lemma": "may",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "maya",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapa",
-      "lemma": "tap",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। एवकारः प्राक् विशेषणसमुच्चयावधारणे व्याख्यातः।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -366,7 +329,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Shankara requires all four marks simultaneously — what does it reveal about your habitual speech that you most often satisfy only two or three of them?",

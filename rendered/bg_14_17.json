@@ -9,144 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "sattvā",
-      "lemma": "sad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "sattvāt",
+      "lemma": "sattva",
+      "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃjāyate",
       "lemma": "saṃjan",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समुत्पद्यते ज्ञानम्? रजसो लोभ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। अतः सात्त्विकस्य कर्मणः प्रकाशबहुलं सुखं फलं भवति। रजसो लोभो जायते। तस्य च दुःखहेतुत्वात्? तत्पूर्वकस्य कर्मणो दुःखं फ",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? रजसो लोभ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
-    },
-    {
-      "surface_form": "rajasas",
-      "lemma": "rajas",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "lobha",
-      "lemma": "lubh",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "jñānam",
+      "lemma": "jñāna",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "rajasaḥ",
+      "lemma": "rajas",
+      "grammar": "ablative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "lobhaḥ",
+      "lemma": "lobha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pramāda",
-      "lemma": "pramad",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "pramāda",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mohau",
-      "lemma": "muh",
-      "grammar": "nominative dual masculine noun",
+      "lemma": "moha",
+      "grammar": "nominative masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tamasas",
-      "lemma": "tamasa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "tamasaḥ",
+      "lemma": "tamas",
+      "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhavatas",
+      "surface_form": "bhavataḥ",
       "lemma": "bhū",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "present indicative 3rd person dual verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajñās",
-      "lemma": "jñā",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "ajñānam",
+      "lemma": "ajñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
-    },
-    {
-      "surface_form": "nam",
-      "lemma": "na",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -467,7 +423,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If sattva is the guna that produces jnana, what does it mean for a practitioner to 'cultivate sattva' in daily life — is it a matter of food, association, attention, or something more fundamental?",

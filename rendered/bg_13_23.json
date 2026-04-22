@@ -9,149 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vetti",
       "lemma": "vid",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यथावद् विवेकेन जानाति स सर्वथा देवमनुष्यादिदेहेषु अतिमात्रक्लिष्टप्रकारेण वर्तमानः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "पुरुषं इत्यत्र पुरुषशब्दं व्याख्यातुमुपोद्धातमाह -- पुरुष इति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "प्रकृतिं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puruṣam",
       "lemma": "puruṣa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prakṛtim",
-      "lemma": "prakṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "prakṛti",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guṇais",
+      "surface_form": "guṇaiḥ",
       "lemma": "guṇa",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saha",
       "lemma": "saha",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvathā",
       "lemma": "sarvathā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देवमनुष्यादिदेहेषु अतिमात्रक्लिष्टप्रकारेण वर्तमानः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "नाभिजायते न गुणप्रवाहसंसारं भजते किन्तु मुच्यत इत्यर्थः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vartamānas",
+      "surface_form": "vartamānaḥ",
       "lemma": "vṛt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūyas",
       "lemma": "bhūyas",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhijāyate",
       "lemma": "abhijan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -428,7 +386,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the purusha is upadrastr (proximate witness) and not a remote abstraction, what does it mean that the same awareness which 'watches' your pain is not itself in pain — and can you locate that watching right now?",

@@ -9,114 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "saṃkaras",
-      "lemma": "saṃskṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saṃkaraḥ",
+      "lemma": "saṃkara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "narakāya",
       "lemma": "naraka",
-      "grammar": "dative singular masculine noun",
+      "grammar": "dative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ghnānām",
-      "lemma": "han",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "ghna",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kulasya",
       "lemma": "kula",
-      "grammar": "Vibhakti.Sasthi singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "patanti",
       "lemma": "pat",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pitaras",
+      "surface_form": "pitaraḥ",
       "lemma": "pitṛ",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eṣām",
-      "lemma": "eṣ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "lupta",
       "lemma": "lup",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "piṇḍa",
-      "lemma": "piṇḍ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "piṇḍa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "udak",
-      "lemma": "udañc",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "udaka",
+      "lemma": "udaka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kriyās",
-      "lemma": "kṛ",
-      "grammar": "2nd person singular benedictive active verb",
+      "surface_form": "kriyāḥ",
+      "lemma": "kriyā",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -335,7 +328,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Arjuna fears that piṇḍa-udaka-kriyā lapsing will cause pitṛs to fall — does this imply the dead are ontologically dependent on the living, and what does each school say about the nature of that dependency?",

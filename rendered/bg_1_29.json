@@ -11,110 +11,91 @@
     {
       "surface_form": "sīdanti",
       "lemma": "sad",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "1।28 इत्यादेःमनः 1।30 इत्यन्तस्यार्थः अतिमात्रेत्यादिना संगृहीतः। सखीन् वयस्यान्। सुहृदः वयोविशेषानपेक्षया हितैषिणः।सेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "इत्युपक्रम्यभ्रमतीव",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mama",
-      "lemma": "mā",
-      "grammar": "2nd person plural perfect active verb",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "gātrāṇi",
       "lemma": "gātra",
-      "grammar": "vocative plural neuter noun",
+      "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "mukham",
       "lemma": "mukha",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pariśuṣyati",
+      "lemma": "pariśuṣ",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vepathuḥ",
+      "lemma": "vepathu",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "śarīre",
       "lemma": "śarīra",
-      "grammar": "locative singular neuter noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "शरीरे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "romaharṣas",
+      "surface_form": "romaharṣaḥ",
       "lemma": "romaharṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "jāyate",
       "lemma": "jan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -509,7 +490,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the body's collapse (trembling, burning, falling bow) is the first honest signal in the Gītā, what does that say about the relationship between physiological truth and spiritual readiness?",

@@ -10,150 +10,120 @@
   "word_by_word": [
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vibhūtimat",
       "lemma": "vibhūtimat",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विभूतियुक्तं सत्त्वं वस्तु श्रीमत् ऊर्जितमेव वा श्रीर्लक्ष्मीः तया सहितम् उत्साहोपेतं वा? तत्तदेव अवगच्छ त्वं जानीहि मम",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śrīmat",
       "lemma": "śrīmat",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ūs",
-      "lemma": "av",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "jitam",
-      "lemma": "ji",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ūrjitam",
+      "lemma": "ūrjay",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vā",
       "lemma": "vā",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avagaccha",
       "lemma": "avagam",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "tvad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mama",
-      "lemma": "mā",
-      "grammar": "2nd person plural perfect active verb",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tā",
-      "lemma": "tan",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ijas",
-      "lemma": "yaj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tejaḥ",
+      "lemma": "tejas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aṃśa",
       "lemma": "aṃśa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃbhavam",
-      "lemma": "samas",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "sambhava",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -428,7 +398,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If every exceptional being or object is only an aṃśa (fraction) of the Lord's tejas, what happens to the ego of a gifted person who identifies that gift as entirely their own — and what changes when they recognise the source?",

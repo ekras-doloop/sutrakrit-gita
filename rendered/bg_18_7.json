@@ -11,113 +11,77 @@
     {
       "surface_form": "niyatasya",
       "lemma": "niyam",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तु नित्यस्य संन्यासः परित्यागः कर्मणः न उपपद्यते? अज्ञस्य पावनत्वस्य इष्टत्वात्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "नित्यनैमित्तिकस्य महायज्ञादेः कर्मणः संन्यासः त्यागो न उपपद्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तु नित्यस्य पुनः कर्मणः संन्यासस्त्यागो नोपपद्यते? सत्त्वशुद्धिद्वारा मोक्षहेतुत्वात्",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "त्विति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "genitive masculine singular participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃnyāsas",
-      "lemma": "saṃnyas",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saṃnyāsaḥ",
+      "lemma": "saṃnyāsa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "karmaṇas",
+      "surface_form": "karmaṇaḥ",
       "lemma": "karman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "संन्यास",
-        "संन्यासः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "upapadyate",
       "lemma": "upapad",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "moha",
-      "lemma": "muh",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "mohāt",
+      "lemma": "moha",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āttasya",
-      "lemma": "ādā",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "surface_form": "tasya",
+      "lemma": "tad",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "parityāgas",
+      "surface_form": "parityāgaḥ",
       "lemma": "parityāga",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tāmasas",
+      "surface_form": "tāmasaḥ",
       "lemma": "tāmasa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "parikīrtitas",
-      "lemma": "parikīrtita",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "parikīrtitaḥ",
+      "lemma": "parikīrtay",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -378,7 +342,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What distinguishes an 'obligatory' duty from one I have merely habituated myself to — and how do I tell which category my current responsibilities fall into?",

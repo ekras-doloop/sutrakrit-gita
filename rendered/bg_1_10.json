@@ -9,114 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "apari",
-      "lemma": "aparī",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āptam",
-      "lemma": "āp",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "paryāptam",
+      "lemma": "paryāp",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "mākam",
-      "lemma": "mā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "asmākam",
+      "lemma": "mad",
+      "grammar": "genitive plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "balam",
-      "lemma": "bal",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bala",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhīṣma",
       "lemma": "bhīṣma",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhirakṣitam",
       "lemma": "abhirakṣ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pari",
-      "lemma": "pari",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āptam",
-      "lemma": "āp",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "paryāptam",
+      "lemma": "paryāp",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eteṣām",
       "lemma": "etad",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "balam",
-      "lemma": "bal",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bala",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhīmā",
-      "lemma": "bhīmā",
-      "grammar": "nominative singular feminine noun",
+      "surface_form": "bhīma",
+      "lemma": "bhīma",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhirakṣitam",
       "lemma": "abhirakṣ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -323,7 +309,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Duryodhana perceives his own general Bhīṣma as a source of strategic weakness precisely because Bhīṣma's loyalties are divided — what does this tell us about the relationship between wholeness of commitment and effective action, and where in our own lives do we appoint 'Bhīṣmas' to guard what matters most?",

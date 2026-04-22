@@ -10,172 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "rājan",
-      "lemma": "rāj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "धृतराष्ट्र? संस्मृत्य संस्मृत्य प्रतिक्षणं संवादम् इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृ",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इत्यादिना श्लोकद्वयेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "राजन्"
-      ]
-    },
-    {
-      "surface_form": "saṃsmṛtya",
-      "lemma": "saṃsmṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संस्मृत्य प्रतिक्षणं संवादम् इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृष्यामि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संस्मृत्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "rājan",
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃsmṛtya",
       "lemma": "saṃsmṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संस्मृत्य प्रतिक्षणं संवादम् इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृष्यामि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संस्मृत्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṃsmṛtya",
+      "lemma": "saṃsmṛ",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃvādam",
       "lemma": "saṃvāda",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृष्यामि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "im",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "imam",
+      "lemma": "idam",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "adbhutam",
+      "lemma": "adbhuta",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhut",
-      "lemma": "budh",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "keśava",
+      "lemma": "keśava",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "arjunayoḥ",
+      "lemma": "arjuna",
+      "grammar": "genitive masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puṇyam",
       "lemma": "puṇya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hṛṣyāmi",
       "lemma": "hṛṣ",
-      "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "च मुहुर्मुहुः प्रतिक्षणम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "रोमाञ्चितो भवामि हर्षं प्राप्नोमीति वा",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "च हर्षं प्राप्नोमि च",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 1st person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "muhur",
+      "lemma": "muhur",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "muhur",
+      "lemma": "muhur",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -398,7 +318,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the text close not with Arjuna's liberation but with Sanjaya's joy — what does it mean that a witness, not a participant, carries the final emotional register of the Gita?",

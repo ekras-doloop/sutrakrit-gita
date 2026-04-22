@@ -11,127 +11,112 @@
     {
       "surface_form": "gāṇḍīvam",
       "lemma": "gāṇḍīva",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sraṃsate",
       "lemma": "sraṃs",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "has",
-      "lemma": "ha",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "hastāt",
+      "lemma": "hasta",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tāt",
-      "lemma": "tāt",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tvak",
+      "surface_form": "tvac",
       "lemma": "tvac",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "paridahyate",
+      "lemma": "paridah",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "दृष्ट्वा तु पाण्डवानीकम्",
-        "दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
-        "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः",
-        "व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्",
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः",
-        "स्वजनम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "śaknomi",
       "lemma": "śak",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avasthātum",
       "lemma": "avasthā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhramati",
       "lemma": "bhram",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iva",
       "lemma": "iva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "manaḥ",
+      "lemma": "manas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -510,7 +495,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When the body speaks first — hands trembling, skin burning — and the mind rationalises afterward, which should you trust as the truer signal of what is happening inside you?",

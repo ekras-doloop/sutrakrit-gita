@@ -10,233 +10,94 @@
   "word_by_word": [
     {
       "surface_form": "buddhi",
-      "lemma": "budh",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "buddhi",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "बुद्धि",
-        "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "yuktas",
+      "surface_form": "yuktaḥ",
       "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jahāti",
       "lemma": "hā",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īha",
-      "lemma": "īh",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "iha",
+      "lemma": "iha",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ubhe",
       "lemma": "ubh",
-      "grammar": "locative singular masculine noun",
+      "grammar": "accusative neuter dual noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "sukṛta",
       "lemma": "sukṛta",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "duṣkṛte",
       "lemma": "duṣkṛta",
-      "grammar": "locative singular neuter noun",
+      "grammar": "accusative neuter dual noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogāya",
-      "lemma": "yuj",
-      "grammar": "dative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युज्यस्व घटस्व",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "युज्यस्व",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        }
-      ],
+      "lemma": "yoga",
+      "grammar": "dative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yujyasva",
       "lemma": "yuj",
-      "grammar": "2nd person singular imperative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "घटस्व। योगो हि कर्मसु कौशलम् स्वधर्माख्येषु कर्मसु वर्तमानस्य या सिद्ध्यसिद्ध्योः समत्वबुद्धिः ईश्वरार्पितचेतस्तया तत्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। योगः कर्मसु कौशलं कर्मसु क्रियमाणेषु अयं बुद्धियोगः कौशलम् अतिसामर्थ्यम् अतिसामर्थ्यसाध्यः इत्यर्थः।",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। ज्ञानोपायाय। तद्धि कर्मकौशलम्।",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "घटस्व। यतः कर्मसु यत्कौशलं बन्धकानामपि तेषामीश्वराराधनेन मोक्षपरत्वसंपादनचातुर्यं स एव योगः। function playAudio(){ if(d",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "घटस्य उद्युक्तो भव",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present imperative pass 2nd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yogas",
-      "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yogaḥ",
+      "lemma": "yoga",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmasu",
       "lemma": "karman",
-      "grammar": "locative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कौशलम् स्वधर्माख्येषु कर्मसु वर्तमानस्य या सिद्ध्यसिद्ध्योः समत्वबुद्धिः ईश्वरार्पितचेतस्तया",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "कौशलं कर्मसु क्रियमाणेषु अयं बुद्धियोगः कौशलम् अतिसामर्थ्यम् अतिसामर्थ्यसाध्यः इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कौशलं निर्बन्धनतावृत्तिसाधनमिति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "यत्कौशलं बन्धकानामपि तेषामीश्वराराधनेन मोक्षपरत्वसंपादनचातुर्यं स",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "बुद्धियुक्तः समत्वबुद्ध्या युक्तो जहाति परित्यजति उभे सुकृतदुष्कृते पुण्यपापे सत्त्वशुद्धिज्ञानप्राप्तिद्वारेण",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "योगः कर्मसु कौशलम्"
-      ]
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "kauśalam",
       "lemma": "kauśala",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्वधर्माख्येषु कर्मसु वर्तमानस्य या सिद्ध्यसिद्ध्योः समत्वबुद्धिः ईश्वरार्पितचेतस्तया",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अतिसामर्थ्यम् अतिसामर्थ्यसाध्यः इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "इति पुनर्व्याख्यायते इत्यतः स्तुतिरियं योगस्य क्रियत इति भावेनाह तद्धी ति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "योगः कर्मसु कौशलम्"
-      ]
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -558,7 +419,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If kauśalam (skill) means samatva-buddhi (equanimity-intelligence) rather than technique, what distinguishes a skilled teacher from one who merely knows the subject — and can that distinction be observed from the outside?",

@@ -10,173 +10,93 @@
   "word_by_word": [
     {
       "surface_form": "rāga",
-      "lemma": "rāj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "rāga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "dveṣa",
-      "lemma": "dviṣ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "dveṣa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः",
-        "द्वेष"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "viyuktais",
+      "surface_form": "viyuktaiḥ",
       "lemma": "viyuj",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental neuter plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viṣayān",
       "lemma": "viṣaya",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अवर्जनीयान् चरन् उपलभमानः आत्मवश्यैः आत्मनः वश्यानि वशीभूतानि इन्द्रियाणि तैः आत्मवश्यैः विधेयात्मा इच्छातः विधेयः आत्म",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "चरन् विषयान् तिरस्कृत्य वर्तमानो विधेयात्मा विधेयमनाः प्रसादम् अधिगच्छति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "विषयान् चरन्"
-      ]
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "indriyais",
+      "surface_form": "indriyaiḥ",
       "lemma": "indriya",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "caran",
       "lemma": "car",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "विषयान् चरन्"
-      ]
-    },
-    {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मवश्यैः",
-        "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः"
-      ]
-    },
-    {
-      "surface_form": "ma",
-      "lemma": "ma",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मवश्यैः",
-        "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः",
-        "पाँचवें अध्यायके तीसरे श्लोकमें भगवान्ने कहा है कि",
-        "प्रसादमधिगच्छति",
-        "विधेयात्मा"
-      ]
-    },
-    {
-      "surface_form": "vaśyais",
-      "lemma": "vaśya",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vidheyāt",
-      "lemma": "vidhā",
-      "grammar": "3rd person singular benedictive active verb",
+      "surface_form": "ātma",
+      "lemma": "ātman",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "विधेयात्मा"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "vaśyaiḥ",
+      "lemma": "vaśya",
+      "grammar": "instrumental neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "विधेयात्मा"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vidheya",
+      "lemma": "vidhā",
+      "grammar": "compound gdv (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātmā",
+      "lemma": "ātman",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "prasādam",
-      "lemma": "prasad",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अधिगच्छति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अधिगच्छति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "prasāda",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "adhigacchati",
       "lemma": "adhigam",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। प्रसादः प्रसन्नता स्वास्थ्यम्।। प्रसादे सति किं स्यात् इत्युच्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। निर्मलान्तःकरणो भवति इत्यर्थः।",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -532,7 +452,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What exactly is the causal structure here — does absence of rāga-dveṣa produce prasāda, or does surrender to the Self produce both the freed indriya and the prasāda simultaneously?",

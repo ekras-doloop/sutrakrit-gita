@@ -11,133 +11,91 @@
     {
       "surface_form": "yadi",
       "lemma": "yadi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aprati",
-      "lemma": "aprati",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īkāram",
-      "lemma": "īkāra",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "apratīkāram",
+      "lemma": "apratīkāra",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aśastram",
       "lemma": "aśastra",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śastra",
       "lemma": "śastra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "pāṇayaḥ",
+      "lemma": "pāṇi",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "artar",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "dhārtarāṣṭrāḥ",
+      "lemma": "dhārtarāṣṭra",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "raṇe",
+      "lemma": "raṇa",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aṣṭrā",
-      "lemma": "aś",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "raṇa",
-      "lemma": "raṇ",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ī",
-      "lemma": "i",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "hanyus",
+      "surface_form": "hanyuḥ",
       "lemma": "han",
-      "grammar": "3rd person plural optative active verb",
+      "grammar": "present optative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tan",
-      "lemma": "tan",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "tat",
+      "lemma": "tad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kṣā",
-      "lemma": "kṣā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "im",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ataram",
-      "lemma": "tṝ",
-      "grammar": "1st person singular imperfect active verb",
+      "surface_form": "kṣemataram",
+      "lemma": "kṣematara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhavet",
       "lemma": "bhū",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -370,7 +328,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When we declare that being harmed without retaliation is 'better for us' (kṣemataram), are we expressing genuine non-violence, theological confusion, or emotional collapse — and how do we tell the difference from inside the experience?",

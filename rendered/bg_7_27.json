@@ -10,227 +10,85 @@
   "word_by_word": [
     {
       "surface_form": "icchā",
-      "lemma": "iṣ",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "icchā",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dveṣa",
-      "lemma": "dviṣ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "dveṣa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "द्वेष"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "samutthena",
-      "lemma": "samutthā",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शीतोष्णादिद्वन्द्वाख्येन मोहेन सर्वभूतानि सर्गे जन्मकाल",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "samuttha",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dvandva",
       "lemma": "dvaṃdva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "निर्द्वन्द्वः",
-        "निर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "mohena",
-      "lemma": "muh",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सर्वभूतानि सर्गे जन्मकाल",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "हेतुना सर्वभूतानि क्षरपदवाच्यानि संसृतानि सर्गे",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "अहं सुखी अहं दुःखीत्यादिविपर्ययेण सर्वाण्यपि भूतानि संमोहं विवेकायोग्यत्वं सर्गे स्थूलदेहोत्पत्तौ सत्यां यान्ति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "bhās",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "moha",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rata",
-      "lemma": "ram",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "bhārata",
+      "lemma": "bhārata",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
-      "lemma": "bhū",
-      "grammar": "nominative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संमोहं विवेकायोग्यत्वं सर्गे स्थूलदेहोत्पत्तौ सत्यां यान्ति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bhūta",
+      "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "moham",
-      "lemma": "muh",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "saṃmoham",
+      "lemma": "sammoha",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarge",
-      "lemma": "sṛj",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जन्मनि उत्पत्तिकाले इत्येतत् यान्ति गच्छन्ति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "जन्मकाल",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "सर्गकाले आरभ्यैव शरीरे हि सतीच्छादयः",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "एव सम्मोहं जन्ममरणपर्यावर्त्ते कारणभूतं भगवत्स्वरूपाज्ञानभयं प्राप्नुवन्ति गुणप्रवाहमध्ये पतिता भवन्तीत्यर्थः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स्थूलदेहोत्पत्तौ सत्यां तदनुकूल इच्छा तत्प्रतिकूले",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "स्थूलदेहोत्पत्तौ सत्यां यान्ति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्गे यान्ति"
-      ]
+      "lemma": "sarga",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yānti",
       "lemma": "yā",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "गच्छन्ति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। एतद् उक्तं भवति गुणमयेषु सुखदुःखादिद्वन्द्वेषु पूर्वपूर्वजन्मनि यद्विषयौ इच्छाद्वेषौ रागद्वैषौ अभ्यस्तौ तद्वासनया पुनर",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। हे भारत हे परंतपेति संबोधनद्वस्य कुलमहिम्ना स्वरूपशक्त्या च त्वां द्वन्द्वमोहाख्यः शत्रुर्नाभिभवितुमलमिति भावः। नहीच्छ",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्गे यान्ति"
-      ]
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "parantapa",
       "lemma": "paraṃtapa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -479,7 +337,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If saṃmoha is installed at the moment of birth itself — not built up gradually — does any effort made within ordinary waking consciousness ever truly reach the root, or does it only rearrange the furniture of delusion?",

@@ -10,113 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "kāmyānām",
-      "lemma": "kāmyā",
-      "grammar": "Vibhakti.Sasthi plural feminine noun",
+      "lemma": "kāmya",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmaṇām",
       "lemma": "karman",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nyāsam",
-      "lemma": "nyas",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "nyāsa",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃnyāsam",
-      "lemma": "saṃnyas",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "saṃnyāsa",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kavayā",
-      "lemma": "ku",
-      "grammar": "instrumental singular feminine noun",
+      "surface_form": "kavayaḥ",
+      "lemma": "kavi",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "vidus",
+      "surface_form": "viduḥ",
       "lemma": "vid",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sarva",
+      "lemma": "sarva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rū",
-      "lemma": "ru",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aka",
-      "lemma": "aka",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aphalat",
-      "lemma": "phal",
-      "grammar": "3rd person singular imperfect active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "yāgam",
-      "lemma": "yaj",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "prāhus",
-      "lemma": "prabrū",
-      "grammar": "3rd person plural present indicative active verb",
+      "surface_form": "phala",
+      "lemma": "phala",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tyāgam",
-      "lemma": "tyaj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "tyāga",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vicakṣaṇās",
-      "lemma": "vicakṣ",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "prāhuḥ",
+      "lemma": "prāh",
+      "grammar": "past indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tyāgam",
+      "lemma": "tyāga",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vicakṣaṇāḥ",
+      "lemma": "vicakṣaṇa",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -398,7 +377,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the Gita need two words — sannyasa and tyaga — if both point to relinquishment? What is the cost of collapsing them into one?",

@@ -11,127 +11,91 @@
     {
       "surface_form": "śraddhayā",
       "lemma": "śraddhā",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आस्तिक्यबुद्ध्या परया प्रकृष्टया तप्तम् अनुष्ठितं तपः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यत् त्रिविधं तपः कायवाङ्मनोभिः तप्तं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "फलाकाङ्क्षाशून्यैर्युक्तैरेकाग्रचित्तैर्नरैस्तप्तं तत्सात्त्विकं कथयन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parayā",
-      "lemma": "parā",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रकृष्टया तप्तम् अनुष्ठितं तपः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "श्रद्धया",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्रकृष्टया अप्रामाण्यशङ्काकलङ्कशून्यया फलाभिसन्धिशून्यैर्युक्तै समाहितैः सिद्ध्यसिद्ध्योर्निर्विकारैर्नरैरधिकारिभिस्तप्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "para",
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "taptam",
       "lemma": "tap",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "trividham",
       "lemma": "trividha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nar",
-      "lemma": "nṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "naraiḥ",
+      "lemma": "nara",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ais",
+      "surface_form": "a",
       "lemma": "a",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aphalākāṅkṣibhis",
-      "lemma": "aphalākāṅkṣin",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "phala",
+      "lemma": "phala",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yuktais",
+      "surface_form": "ākāṅkṣibhiḥ",
+      "lemma": "ākāṅkṣin",
+      "grammar": "instrumental masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yuktaiḥ",
       "lemma": "yuj",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sāttvikam",
       "lemma": "sāttvika",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "paricakṣate",
+      "lemma": "paricakṣ",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -421,7 +385,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If shraddha (faith) must be 'supreme' for tapas to be sattvika, what contaminates ordinary faith — doubt about scripture, doubt about the method, or desire for the fruit?",

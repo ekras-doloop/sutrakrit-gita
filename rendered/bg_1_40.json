@@ -11,119 +11,91 @@
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣaye",
-      "lemma": "kṣi",
-      "grammar": "locative singular masculine noun",
+      "lemma": "kṣaya",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "praṇaśyanti",
       "lemma": "praṇaś",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "dharmāḥ",
+      "lemma": "dharma",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sanātanās",
+      "surface_form": "sanātanāḥ",
       "lemma": "sanātana",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "e",
-      "lemma": "a",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "dharme",
+      "lemma": "dharma",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "naṣṭe",
-      "lemma": "nakṣ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "naś",
+      "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kulam",
       "lemma": "kula",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtsnam",
       "lemma": "kṛtsna",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "adharmas",
+      "surface_form": "adharmaḥ",
       "lemma": "adharma",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhibhavati",
       "lemma": "abhibhū",
-      "grammar": "locative singular masculine noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uta",
-      "lemma": "u",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "uta",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -339,7 +311,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Arjuna's sociological analysis of kula-kṣaya is empirically correct, at what point does accurate observation become moha — and how do we distinguish the two in our own grief?",

@@ -9,236 +9,108 @@
   },
   "word_by_word": [
     {
-      "surface_form": "paras",
-      "lemma": "paras",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "paraḥ",
+      "lemma": "para",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
-      "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तस्मात्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhāvas",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bhāvaḥ",
+      "lemma": "bhāva",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "anyaḥ",
+      "lemma": "anya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "avyaktas",
+      "surface_form": "avyaktaḥ",
       "lemma": "avyakta",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyaktāt",
       "lemma": "avyakta",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sanātanas",
+      "surface_form": "sanātanaḥ",
       "lemma": "sanātana",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तस्मात्",
-        "सनातन",
-        "सनातनः",
-        "सर्वे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "sarveṣu",
       "lemma": "sarva",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भूतेषु ब्रह्मादिषु नश्यत्सु न विनश्यति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "वियदादिषु भूतेषु सकारणेषु सकार्येषु विनश्यत्सु तत्र तत्र स्थितो",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "नश्यत्सु न नश्यति अनुच्छित्तिधर्मत्वात्",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "कार्यकारणलक्षणेषु भूतेषु नश्यत्स्वपि न विनश्यति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "कार्येषु सद्रूपेणानुगतः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūteṣu",
-      "lemma": "bhū",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्रह्मादिषु नश्यत्सु न विनश्यति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सकारणेषु सकार्येषु विनश्यत्सु तत्र तत्र स्थितो",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "नश्यत्स्वपि न विनश्यति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "नश्यत्स्वपि न विनश्यति उत्पद्यमानेष्वपि नोत्पद्यत इत्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "bhūta",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "naśyatsu",
       "lemma": "naś",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न विनश्यति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "न नश्यति अनुच्छित्तिधर्मत्वात्",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "locative neuter plural present participle verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्यक्तादीनि भूतानि",
-        "सनातन",
-        "सनातनः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "vinaśyati",
       "lemma": "vinaś",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स तु विनाशहेत्वभावान्न,विन(नं)ष्टुमर्हतीत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "उत्पद्यमानेष्वपि नोत्पद्यत इत्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -525,7 +397,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If there is an imperishable bhava that survives even cosmic dissolution, what is the practitioner's relationship to it — witness, participant, identity, or devotee — and does the answer change across schools?",

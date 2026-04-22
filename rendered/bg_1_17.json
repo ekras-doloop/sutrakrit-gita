@@ -9,100 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "kāśyas",
-      "lemma": "kāśi",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kāśyaḥ",
+      "lemma": "kāśya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "parameṣu",
+      "surface_form": "parama",
       "lemma": "parama",
-      "grammar": "locative plural neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āsas",
-      "lemma": "as",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "iṣvāsaḥ",
+      "lemma": "iṣvāsa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śikhaṇḍī",
       "lemma": "śikhaṇḍin",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mahā",
-      "lemma": "mah",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhṛṣṭadyumnas",
+      "surface_form": "rathaḥ",
+      "lemma": "ratha",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dhṛṣṭadyumnaḥ",
       "lemma": "dhṛṣṭadyumna",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vis",
-      "lemma": "vi",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āṭas",
-      "lemma": "aṭ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "virāṭaḥ",
+      "lemma": "virāṭa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sātyakis",
+      "surface_form": "sātyakiḥ",
       "lemma": "sātyaki",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "aparājitas",
+      "surface_form": "aparājitaḥ",
       "lemma": "aparājita",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -311,7 +311,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the Gītā spend an entire verse cataloguing warriors who never speak and play no further narrative role — what work do these names do that could not be done by 'and others'?",

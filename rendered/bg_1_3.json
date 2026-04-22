@@ -10,130 +10,94 @@
   "word_by_word": [
     {
       "surface_form": "paśya",
-      "lemma": "dṛś",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। द्रुपदपुत्रेण धृष्टद्युम्नेन व्यूढां व्यूहरचनया अधिष्ठिताम्।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "lemma": "paś",
+      "grammar": "present imperative 2nd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etām",
       "lemma": "etad",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇḍu",
       "lemma": "pāṇḍu",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "putrāṇām",
       "lemma": "putra",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ācārya",
-      "lemma": "ācar",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पाण्डवानां विततां चमूं सेनां पश्य",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "आचार्य"
-      ]
+      "lemma": "ācārya",
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mahatīm",
-      "lemma": "mahatī",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "mahat",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "camūm",
       "lemma": "camū",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vyūḍhām",
-      "lemma": "vivah",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "vyūh",
+      "grammar": "accusative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "drupada",
       "lemma": "drupada",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "putreṇa",
       "lemma": "putra",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tava",
-      "lemma": "tu",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tvad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śiṣyeṇa",
       "lemma": "śiṣya",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhīm",
-      "lemma": "dhī",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "dhīmatā",
+      "lemma": "dhīmat",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
-    },
-    {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ā",
-      "lemma": "ā",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्य"
-      ]
     }
   ],
   "intertextual_panel": [
@@ -351,7 +315,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Duryodhana opens with 'paśya' (behold) — is genuine seeing possible when the one commanding it is driven by fear and political calculation, or does motivated perception always distort what it surveys?",

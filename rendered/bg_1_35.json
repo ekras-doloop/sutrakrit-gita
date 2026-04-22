@@ -11,156 +11,107 @@
     {
       "surface_form": "etān",
       "lemma": "etad",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्याः पितरः৷৷ किं नु महीकृते",
-        "मधुसूदन",
-        "मधूसूदन",
-        "सम्बन्धिनः",
-        "है और सुखभोगकी इच्छाका नाम"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "hantum",
       "lemma": "han",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "icchāmi",
       "lemma": "iṣ",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ghnatas",
+      "surface_form": "ghnataḥ",
       "lemma": "han",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhusūdana",
       "lemma": "madhusūdana",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "मधुसूदन"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "trā",
-      "lemma": "trai",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पुत्राः",
-        "पौत्राः"
-      ]
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "trailokya",
+      "lemma": "trailokya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
-    },
-    {
-      "surface_form": "ilā",
-      "lemma": "ilā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "uk",
-      "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ya",
-      "lemma": "yad",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्याः",
-        "आचार्याः पितरः৷৷ किं नु महीकृते",
-        "श्यालाः"
-      ]
     },
     {
       "surface_form": "rājyasya",
-      "lemma": "rāj",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "lemma": "rājya",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hetos",
+      "surface_form": "hetoḥ",
       "lemma": "hetu",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kim",
-      "lemma": "kim",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nu",
       "lemma": "nu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्याः पितरः৷৷ किं नु महीकृते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "mahī",
-      "lemma": "mah",
-      "grammar": "nominative dual neuter noun",
+      "lemma": "mahī",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्याः पितरः৷৷ किं नु महीकृते"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "kṛte",
-      "lemma": "kṛ",
-      "grammar": "dative singular masculine noun",
+      "lemma": "kṛte",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आचार्याः पितरः৷৷ किं नु महीकृते"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -477,7 +428,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Arjuna says the renunciation holds 'even for trailokya-rājya' — is this moral clarity or is it still a form of attachment, the ego protecting what it loves by dressing refusal as virtue?",

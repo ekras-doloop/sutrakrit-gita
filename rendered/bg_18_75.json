@@ -9,30 +9,93 @@
   },
   "word_by_word": [
     {
+      "surface_form": "vyāsa",
+      "lemma": "vyāsa",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prasādāt",
+      "lemma": "prasāda",
+      "grammar": "ablative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "śrutavān",
+      "lemma": "śru",
+      "grammar": "nominative masculine singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "etat",
+      "lemma": "etad",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "guhyam",
+      "lemma": "guhya",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aham",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
       "surface_form": "param",
-      "lemma": "pṝ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "para",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogam",
-      "lemma": "yuj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "su",
-      "lemma": "su",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yogeśvarāt",
+      "lemma": "yogeśvara",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "kṛṣṇāt",
+      "lemma": "kṛṣṇa",
+      "grammar": "ablative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sākṣāt",
+      "lemma": "sākṣāt",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kathayataḥ",
+      "lemma": "kathay",
+      "grammar": "ablative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "svayam",
+      "lemma": "svayam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -292,7 +355,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What makes a transmission 'direct' (sakshad) in a tradition that also honors paramparya (lineage)? When does lineage transmit, and when does it dilute?",

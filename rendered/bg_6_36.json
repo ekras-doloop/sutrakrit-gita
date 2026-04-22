@@ -9,137 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "asam",
-      "lemma": "as",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "asaṃyata",
+      "lemma": "asaṃyata",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yatāt",
-      "lemma": "yat",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "ātmanā",
+      "lemma": "ātman",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manā",
-      "lemma": "man",
-      "grammar": "nominative singular feminine noun",
+      "surface_form": "yogaḥ",
+      "lemma": "yoga",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yogas",
-      "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "duṣprāpaḥ",
+      "lemma": "duṣprāpa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "duṣprāp",
-      "lemma": "duṣpraāp",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "eti",
-      "lemma": "i",
-      "grammar": "3rd person singular present indicative active verb",
+      "surface_form": "iti",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "matis",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "matiḥ",
+      "lemma": "mati",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vaśyāt",
+      "surface_form": "vaśya",
       "lemma": "vaśya",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manā",
-      "lemma": "man",
-      "grammar": "nominative singular feminine noun",
+      "surface_form": "ātmanā",
+      "lemma": "ātman",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yatatā",
+      "lemma": "yat",
+      "grammar": "instrumental masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "atata",
-      "lemma": "tan",
-      "grammar": "3rd person singular aorist active verb",
+      "surface_form": "śakyaḥ",
+      "lemma": "śakya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अभ्यास"
-      ]
-    },
-    {
-      "surface_form": "śakyas",
-      "lemma": "śak",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "avāptum",
+      "lemma": "avāp",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ava",
-      "lemma": "u",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āptum",
-      "lemma": "āp",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "up",
-      "lemma": "vap",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āyatas",
-      "lemma": "āyam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "upāyataḥ",
+      "lemma": "upāya",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -376,7 +339,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If abhyāsa (practice) and vairāgya (dispassion) are the two instruments named across multiple bhāṣyas, what is their precise sequence — must one cultivate vairāgya before abhyāsa, or do they develop concurrently, and does the answer vary by school?",

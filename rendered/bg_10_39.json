@@ -10,224 +10,127 @@
   "word_by_word": [
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पुरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "āpi",
-      "lemma": "āp",
-      "grammar": "3rd person singular aorist passive verb",
+      "surface_form": "api",
+      "lemma": "api",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtānām",
-      "lemma": "bhū",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "bhūta",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bījam",
       "lemma": "bīja",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "arjuna",
       "lemma": "arjuna",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। प्रकरणोपसंहारार्थं विभूतिसंक्षेपमाह -- न तत् अस्ति भूतं चराचरं चरम् अचरं वा? मया विना यत् स्यात् भवेत्। मया अपकृष्टं प",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? मया विना",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अर्जुन"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अर्जुन"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asti",
       "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भूतं चराचरं चरम् अचरं वा? मया विना",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अहमात्मा गुडाकेश सर्वभूताशायस्थितः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vinā",
-      "lemma": "vi",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यत् स्यात् भवेत्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यत् स्यात् न तद् अस्ति अहमात्मा गुडाकेश सर्वभूताशायस्थितः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "यद्भूतं स्यात् तन्नास्ति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "किमपि नास्तीत्याह -- न तदस्ति विना मयेति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "यत्स्याद्भवेत् तच्चराचरं भूतं नास्त्येवेति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यत्स्याद्भवेच्चरमचरं वा भूतं वस्तु तन्नास्त्येव",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "vinā",
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "syāt",
       "lemma": "as",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mayā",
-      "lemma": "mā",
-      "grammar": "instrumental singular feminine noun",
+      "lemma": "mad",
+      "grammar": "instrumental singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtam",
       "lemma": "bhū",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "carā",
-      "lemma": "carā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "acaram",
-      "lemma": "car",
-      "grammar": "1st person singular imperfect active verb",
+      "surface_form": "carācaram",
+      "lemma": "carācara",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -467,7 +370,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Kṛṣṇa is the bīja of every being, does that mean every creative act — a poem, a business, a child — participates in divine generativity, or does it flatten all causes into one?",

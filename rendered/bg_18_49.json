@@ -9,109 +9,86 @@
   },
   "word_by_word": [
     {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "asakta",
+      "lemma": "asakta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rū",
-      "lemma": "ru",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "buddhiḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "atra",
-      "lemma": "atra",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "sarvatra",
+      "lemma": "sarvatra",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jitāt",
+      "surface_form": "jita",
       "lemma": "ji",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "जितात्मा"
-      ]
-    },
-    {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "जितात्मा"
-      ]
-    },
-    {
-      "surface_form": "vigataspṛhas",
-      "lemma": "vigataspṛha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "naiṣkarmyasiddhim",
-      "lemma": "naiṣkarmyasiddhi",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "ātmā",
+      "lemma": "ātman",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vigata",
+      "lemma": "vigam",
+      "grammar": "compound participle (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "spṛhaḥ",
+      "lemma": "spṛhā",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "naiṣkarmya",
+      "lemma": "naiṣkarmya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "siddhim",
+      "lemma": "siddhi",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paramām",
       "lemma": "parama",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃnyāsena",
-      "lemma": "saṃnyas",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सम्यग्दर्शनेन तत्पूर्वकेण वा सर्वकर्मसंन्यासेन अधिगच्छति प्राप्नोति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "युक्तः कर्म कुर्वन् परमां नैष्कर्म्यसिद्धिम् अधिगच्छति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "नैष्कर्म्यसिद्धिं सर्वकर्मनिवृत्तिलक्षणां सत्त्वशुद्धिमधिगच्छति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "शिखायज्ञोपवीतादिसहितसर्वकर्मत्यागेन",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "saṃnyāsa",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "adhigacchati",
       "lemma": "adhigam",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -484,7 +461,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If naishkarmya (actionlessness) is the supreme goal, why does Krsna not simply command Arjuna to stop fighting? What work is the word 'sanyasena' (through renunciation) doing that 'karma-tyagena' (through abandoning action) does not?",

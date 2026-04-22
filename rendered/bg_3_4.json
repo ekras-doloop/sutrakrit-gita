@@ -11,119 +11,85 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmaṇām",
       "lemma": "karman",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अनारम्भाद्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ana",
-      "lemma": "an",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ārambhān",
-      "lemma": "ārambha",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "anārambhāt",
+      "lemma": "anārambha",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "naiṣkarmyam",
       "lemma": "naiṣkarmya",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aśnute",
       "lemma": "aś",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃnyasanāt",
-      "lemma": "saṃnyas",
-      "grammar": "ablative singular masculine noun",
+      "lemma": "saṃnyasana",
+      "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "siddhim",
-      "lemma": "sidh",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "siddhi",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "samadhigacchati",
       "lemma": "samadhigam",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न प्राप्नोति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "प्राप्नोति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -347,7 +313,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B (substrate architecture and feature definitions)"
+    "score_methodology_documented_at": "Paper 1, Section II.B (substrate architecture and feature definitions)",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Every school anchors naiṣkarmya in citta-śuddhi rather than behavioural cessation — but they name different mechanisms (Śaṅkara: vicāra after purification; Rāmānuja: Bhagavān-ārādhana-karma; Madhva: Hari's anugraha following desireless action; Vallabha: Kṛṣṇa's prasāda; Śrīdhara: karma up to jñāna; Madhusūdana: karma + bhakti together). Are these genuinely different paths or different descriptions of a single interior movement?",

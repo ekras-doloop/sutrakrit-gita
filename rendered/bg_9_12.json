@@ -11,126 +11,98 @@
     {
       "surface_form": "mogha",
       "lemma": "mogha",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āśā",
+      "surface_form": "āśāḥ",
       "lemma": "āśā",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mogha",
       "lemma": "mogha",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "karma",
+      "surface_form": "karmāṇaḥ",
       "lemma": "karman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कर्म चैव तदर्थीयं सदित्येवाभिधीयते"
-      ]
-    },
-    {
-      "surface_form": "aṇo",
-      "lemma": "aṇu",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mogha",
       "lemma": "mogha",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jñānās",
-      "lemma": "jñā",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "jñānāḥ",
+      "lemma": "jñāna",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vicetasas",
+      "surface_form": "vicetasaḥ",
       "lemma": "vicetas",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rākṣasīm",
-      "lemma": "rākṣasī",
-      "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आसुरीं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āsus",
-      "lemma": "as",
-      "grammar": "3rd person plural perfect active verb",
+      "lemma": "rākṣasa",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īm",
-      "lemma": "ī",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "āsurīm",
+      "lemma": "āsura",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कर्म चैव तदर्थीयं सदित्येवाभिधीयते",
-        "राक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prakṛtim",
-      "lemma": "prakṛ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "prakṛti",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mohinīm",
-      "lemma": "muh",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "mohin",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śritās",
+      "surface_form": "śritāḥ",
       "lemma": "śri",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -486,7 +458,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If aspiration (āśā), action (karma), and knowledge (jñāna) can all become mogha from a single misaligned orientation, which of the three is the most tractable point of intervention for a sincere practitioner who suspects self-deception?",

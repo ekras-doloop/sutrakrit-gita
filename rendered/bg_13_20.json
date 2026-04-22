@@ -10,105 +10,99 @@
   "word_by_word": [
     {
       "surface_form": "kārya",
-      "lemma": "kṛ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "kārya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कार्य"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "karaṇa",
-      "lemma": "kṛ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "karaṇa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kartṛtve",
-      "lemma": "kartṛtva",
-      "grammar": "locative singular neuter noun",
+      "surface_form": "kartṛ",
+      "lemma": "kartṛ",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hetur",
-      "lemma": "hi",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "tve",
+      "lemma": "tva",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "prakṛtis",
-      "lemma": "prakṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "hetuḥ",
+      "lemma": "hetu",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "prakṛtiḥ",
+      "lemma": "prakṛti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukha",
-      "lemma": "sukhi",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सुख-दुःख"
-      ]
-    },
-    {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "sukha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "khānām",
-      "lemma": "khan",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "duḥkhānām",
+      "lemma": "duḥkha",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhoktṛtve",
-      "lemma": "bhoktṛtva",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हेतुः? सुखदुःखानुभवाश्रयः इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "surface_form": "bhoktṛ",
+      "lemma": "bhoktṛ",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hetur",
-      "lemma": "hi",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "tve",
+      "lemma": "tva",
+      "grammar": "locative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "hetuḥ",
+      "lemma": "hetu",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -410,7 +404,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If prakrti is the real cause of action (kartrtva) and purusa only the witness-experiencer, who exactly bears moral responsibility for what the body does — and does the answer differ across these six schools?",

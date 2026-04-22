@@ -9,118 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "buddhis",
-      "lemma": "budh",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vyavasāya",
+      "lemma": "vyavasāya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ātmikā",
+      "lemma": "ātmaka",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "buddhiḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनन्त"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "īha",
-      "lemma": "īh",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ekā",
+      "lemma": "eka",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iha",
+      "lemma": "iha",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kuru",
-      "lemma": "kṛ",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "kuru",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nandana",
-      "lemma": "nandi",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "nandana",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bahu",
       "lemma": "bahu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śākhā",
+      "surface_form": "śākhāḥ",
       "lemma": "śākhā",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "anan",
-      "lemma": "an",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनन्त"
-      ]
-    },
-    {
-      "surface_form": "tās",
-      "lemma": "tāsi",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "anantāḥ",
+      "lemma": "ananta",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "buddhayas",
-      "lemma": "budh",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "buddhayaḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avi",
-      "lemma": "o",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "avas",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āyinām",
-      "lemma": "i",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "surface_form": "avyavasāyinām",
+      "lemma": "avyavasāyin",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -414,7 +396,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If vyavasāyātmikā buddhi is described as singular (ekā) while the discernments of the avyavasāyin are described as anantā (endless), does this mean that multiplicity of goals is constitutively different in kind from multiplicity of means — and what does that imply for a practitioner who pursues mokṣa through multiple daily sādhanas (practices)?",

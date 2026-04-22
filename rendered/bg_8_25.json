@@ -9,148 +9,94 @@
   },
   "word_by_word": [
     {
-      "surface_form": "dhūm",
-      "lemma": "dhū",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "dhūmaḥ",
+      "lemma": "dhūma",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "rātṛ",
-      "lemma": "rā",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "is",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "rātriḥ",
+      "lemma": "rātri",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kṛṣṇas",
+      "surface_form": "kṛṣṇaḥ",
       "lemma": "kṛṣṇa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "māsā",
+      "surface_form": "ṣaṭ",
+      "lemma": "ṣaṣ",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "māsāḥ",
       "lemma": "māsa",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dakṣiṇā",
-      "lemma": "dakṣiṇā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dakṣiṇāyanam",
+      "lemma": "dakṣiṇāyana",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayanam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tat",
-      "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ra",
-      "lemma": "ra",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "tatra",
+      "lemma": "tatra",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "cāndramasam",
       "lemma": "cāndramasa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jyotis",
+      "surface_form": "jyotiḥ",
       "lemma": "jyotis",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogī",
       "lemma": "yogin",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कर्मी प्राप्य भुक्त्वा तत्क्षयात् इह पुनः निवर्तते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्मयोगीष्टापूर्तदत्तकारी प्राप्य यावत्संपातमुषित्वा निवर्तते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "pra",
-      "lemma": "pra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "apya",
-      "lemma": "apya",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "prāpya",
+      "lemma": "prāp",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nivartate",
       "lemma": "nivṛt",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। संपतत्यनेनेति संपातः कर्म। तस्मादेतस्मादावृत्तिमार्गादनावृत्तिमार्गः श्रेयानित्यर्थः।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -379,7 +325,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the Gītā list cosmological waypoints (smoke, night, dark fortnight, dakṣiṇāyana) rather than simply saying 'those who act for reward return'? What work does the mythological geography do that a bare doctrinal statement cannot?",

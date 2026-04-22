@@ -9,118 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "viviktasevī",
-      "lemma": "viviktasevin",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अरण्यनदीपुलिनगिरिगुहादीन् विविक्तान् देशान् सेवितुं शीलम् अस्य इति विविक्तसेवी? लघ्वाशी लघ्वशनशीलः -- विविक्तसेवालघ्वशन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सर्वैः ध्यानविरोधिभिः विविक्ते देशे वर्तमानः लघ्वाशी अत्यशनानशनरहितः? यतवाक्कायमानसः ध्यानाभिमुखीकृतकायवाङ्मनोवृत्तिः?",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "शुद्धदेशावस्थायी लध्वाशी मितभोजी एतैरुपायैर्यतवाक्कायमानसः संयतवाग्देहचित्तो भूत्वा नित्यं सर्वदा ध्यानेन यो योगो ब्रह्",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "surface_form": "vivikta",
+      "lemma": "vivikta",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sevī",
+      "lemma": "sevin",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "laghu",
       "lemma": "laghu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āśī",
-      "lemma": "aś",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "āśin",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yata",
+      "lemma": "yam",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ava",
-      "lemma": "u",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "vāc",
+      "lemma": "vāc",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ak",
-      "lemma": "aj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kāyam",
+      "surface_form": "kāya",
       "lemma": "kāya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ānas",
-      "lemma": "an",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "mānasaḥ",
+      "lemma": "mānasa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dhyāna",
+      "lemma": "dhyāna",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yoga",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "paraḥ",
+      "lemma": "para",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nityam",
-      "lemma": "nitya",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "nityam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vairāgyam",
       "lemma": "vairāgya",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "samup",
-      "lemma": "saṃvap",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āśritas",
-      "lemma": "āśri",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "samupāśritaḥ",
+      "lemma": "samupāśri",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -385,7 +367,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Sankara insists 'nityam' means all other duties are superseded — does that leave room for any engaged life, or is this verse describing an exit from the world entirely?",

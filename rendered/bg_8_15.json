@@ -10,153 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "upā",
-      "lemma": "vap",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "itya",
-      "lemma": "i",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "upetya",
+      "lemma": "upe",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "punar",
       "lemma": "punar",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "janma",
       "lemma": "janman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न प्राप्नुवन्ति यत एते महात्मानः महामनसो यथावस्थितमत्स्वरूपज्ञानाः अत्यर्थमत्प्रियत्वेन मया विना आत्मधारणम् अलभमाना मयि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "सम्भवतीत्येवं तत्र स्वयम्प्राप्तानां जन्माभावे",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "न प्राप्नुवन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kha",
-      "lemma": "khan",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "duḥkha",
+      "lemma": "duḥkha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ālayam",
       "lemma": "ālaya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aśāśvatam",
       "lemma": "aśāśvata",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अनवस्थितस्वरूपं च",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "महात्मानः",
-        "मृत्युसंसारवर्त्मनि"
-      ]
-    },
-    {
-      "surface_form": "āpnuvanti",
-      "lemma": "āp",
-      "grammar": "nominative plural neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mahāt",
-      "lemma": "mah",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "āpnuvanti",
+      "lemma": "āp",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "महात्मा",
-        "महात्मानः"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "mānas",
-      "lemma": "mā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "mahātmānaḥ",
+      "lemma": "mahātman",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃsiddhim",
       "lemma": "saṃsiddhi",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paramām",
       "lemma": "parama",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gatās",
+      "surface_form": "gatāḥ",
       "lemma": "gam",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -473,7 +412,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If birth is literally a 'dwelling-place of suffering' (duḥkhālaya), what is the relationship between the householder's ordinary joys and the structural claim that saṃsāra is constitutively painful — is every pleasure a masked form of that suffering?",

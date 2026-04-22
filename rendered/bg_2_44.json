@@ -10,161 +10,86 @@
   "word_by_word": [
     {
       "surface_form": "bhoga",
-      "lemma": "bhuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "bhoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aiśvarya",
       "lemma": "aiśvarya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prasaktānām",
       "lemma": "prasañj",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tayā",
-      "lemma": "tā",
-      "grammar": "instrumental singular feminine noun",
+      "lemma": "tad",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "apahṛta",
       "lemma": "apahṛ",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "cetasām",
+      "lemma": "cetas",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ām",
-      "lemma": "ā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "vyavasāya",
+      "lemma": "vyavasāya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "buddhis",
-      "lemma": "budh",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ātmikā",
+      "lemma": "ātmaka",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "buddhiḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "samādhau",
-      "lemma": "samādhā",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समाधीयते अस्मिन् पुरुषोपभोगाय सर्वमिति समाधिः अन्तःकरणं बुद्धिः तस्मिन् समाधौ न विधीयते न भवति इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मनसि न विधीयते न उत्पद्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "समाध्यर्थे न विधीयते",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "हृदीति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "lemma": "samādhi",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vidhīyate",
       "lemma": "vidhā",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न भवति इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "न उत्पद्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। सम्यङ्निर्णीतार्थानामीश्वरे मनस्समाधानं सम्यग्भवति। तद्धि मोक्षसाधनम्। उक्तं चैतदन्यत्र न तस्य तत्त्वग्रहणाय साक्षाद्व",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "। विशेषेण न स्थाप्यते इति वा। तेषां समाधौ हृदीति।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। कर्मकर्तरिप्रयोगः। नोत्पद्यत इत्यर्थः। function playAudio(){ if(document.getElementById('slkaudio') != null) document.",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। न भवतीत्यर्थः। समाधिविषया व्यवसायात्मिका बुद्धिस्तेषां न भवतीति वा। अधिकरणे विषये वा सप्तम्यास्तुल्यत्वात्। विधीयत इति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -449,7 +374,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the very Vedic speech that should orient the student toward liberation can itself become the instrument of bondage, what distinguishes a transformative Vedic teaching from one that merely cements samsāric desire?",

@@ -11,135 +11,84 @@
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "krodha",
       "lemma": "krodha",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "क्रोध"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "viyuktānām",
       "lemma": "viyuj",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yatīnām",
-      "lemma": "yam",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "yati",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yata",
-      "lemma": "yat",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yam",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ām",
-      "lemma": "ā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "cetasām",
+      "lemma": "cetas",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhitas",
       "lemma": "abhitas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
-    },
-    {
-      "surface_form": "nis",
-      "lemma": "ni",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vās",
-      "lemma": "vā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṇam",
-      "lemma": "ṇa",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "nirvāṇam",
+      "lemma": "nirvāṇa",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vartate",
       "lemma": "vṛt",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विदितात्मनां विदितः ज्ञातः आत्मा येषां ते विदितात्मानः तेषां विदितात्मनां सम्यग्दर्शिनामित्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। एवंभूतानां हस्तस्थं ब्रह्मनिर्वाणम् इत्यर्थः।उक्तं कर्मयोगं स्वलक्ष्यभूतयोगशिरस्कम् उपसंहरति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "नित्यत्वात् नतु भविष्यति साध्यत्वाभावात्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "viditāt",
-      "lemma": "vid",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manām",
-      "lemma": "man",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "vidita",
+      "lemma": "vid",
+      "grammar": "compound participle (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātmanām",
+      "lemma": "ātman",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -476,7 +425,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If brahma-nirvāṇa is already present for the one who has truly relinquished desire and anger, what does it mean to 'seek' liberation — is seeking itself the obstacle?",

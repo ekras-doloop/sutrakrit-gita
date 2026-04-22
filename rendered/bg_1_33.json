@@ -11,128 +11,112 @@
     {
       "surface_form": "yeṣām",
       "lemma": "yad",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "arthe",
-      "lemma": "arthi",
-      "grammar": "dative singular masculine noun",
+      "lemma": "artha",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāṅkṣitam",
-      "lemma": "kāṅkṣi",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "kāṅkṣ",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nas",
-      "lemma": "na",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "naḥ",
+      "lemma": "mad",
+      "grammar": "genitive plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rājyam",
-      "lemma": "rāj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "rājya",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhogās",
-      "lemma": "bhuj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "bhogāḥ",
+      "lemma": "bhoga",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukhāni",
-      "lemma": "sukhi",
-      "grammar": "nominative plural neuter noun",
+      "lemma": "sukha",
+      "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "im",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ime",
+      "lemma": "idam",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "e",
-      "lemma": "a",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "avasthitā",
+      "surface_form": "avasthitāḥ",
       "lemma": "avasthā",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yuddhe",
-      "lemma": "yudh",
-      "grammar": "locative singular masculine noun",
+      "lemma": "yuddha",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prāṇān",
       "lemma": "prāṇa",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tyaktvā",
       "lemma": "tyaj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्यागमङ्गीकृत्य युद्धार्थमवस्थिताः",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dhanāni",
       "lemma": "dhana",
-      "grammar": "vocative plural neuter noun",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -357,7 +341,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When the people for whose sake you built something are themselves willing to destroy it, what remains of your original justification?",

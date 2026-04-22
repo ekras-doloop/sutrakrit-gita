@@ -11,191 +11,91 @@
     {
       "surface_form": "etām",
       "lemma": "etad",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dṛṣṭim",
-      "lemma": "dṛś",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अवष्टभ्य आश्रित्य नष्टात्मानः नष्टस्वभावाः विभ्रष्टपरलोकसाधनाः अल्पबुद्धयः विषयविषया अल्पैव बुद्धिः येषां ते अल्पबुद्धय",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अवष्टभ्य अवलम्ब्य? नष्टात्मानः? अदृष्टदेहातिरिक्तात्मानः? अल्पबुद्धयः -- घटादिवद् ज्ञेयभूते देहे ज्ञातृत्वेन देहव्यतिरि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "dṛṣṭi",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avaṣṭabhya",
       "lemma": "avaṣṭambh",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आश्रित्य नष्टात्मानः नष्टस्वभावाः विभ्रष्टपरलोकसाधनाः अल्पबुद्धयः विषयविषया अल्पैव बुद्धिः येषां ते अल्पबुद्धयः प्रभवन्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अवलम्ब्य? नष्टात्मानः? अदृष्टदेहातिरिक्तात्मानः? अल्पबुद्धयः -- घटादिवद् ज्ञेयभूते देहे ज्ञातृत्वेन देहव्यतिरिक्त आत्मा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "naṣṭāt",
-      "lemma": "naś",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mānas",
-      "lemma": "mā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "naṣṭa",
+      "lemma": "naś",
+      "grammar": "compound participle (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātmānaḥ",
+      "lemma": "ātman",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "alpa",
       "lemma": "alpa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "buddhayas",
-      "lemma": "budh",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "buddhayaḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prabhavanti",
       "lemma": "prabhū",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ugra",
       "lemma": "ugra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "karma",
+      "surface_form": "karmāṇaḥ",
       "lemma": "karman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "येषां तेऽहिता वैरिणो भूत्वा? जगतः क्षयाय प्रभवन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṇas",
-      "lemma": "ṇa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣayāya",
-      "lemma": "kṣi",
-      "grammar": "dative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जगतः प्रभवन्ति इति संबन्धः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "प्रभवन्ति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "प्रभवन्त्युद्भवन्ति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "प्रभवन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "व्याघ्रसर्पादिरूपेण प्रभवन्त्युत्पद्यन्ते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "jagatas",
-      "lemma": "jagat",
-      "grammar": "nominative plural masculine noun",
+      "lemma": "kṣaya",
+      "grammar": "dative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ahitās",
+      "surface_form": "jagataḥ",
+      "lemma": "jagant",
+      "grammar": "genitive neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ahitāḥ",
       "lemma": "ahita",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -426,7 +326,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the naṣṭātmā (self-lost person) has lost access to their own essential nature, what remains as the site of their action — and who or what bears moral responsibility for ugra-karma (fierce deeds) done from that site?",

@@ -11,157 +11,105 @@
     {
       "surface_form": "uddharet",
       "lemma": "uddhṛ",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मनः"
-      ]
-    },
-    {
-      "surface_form": "manāt",
-      "lemma": "man",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "ātmanā",
+      "lemma": "ātman",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mānam",
-      "lemma": "mā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ātmānam",
+      "lemma": "ātman",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nāt",
+      "surface_form": "na",
       "lemma": "na",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mānam",
-      "lemma": "mā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ātmānam",
+      "lemma": "ātman",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avas",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "avasādayet",
+      "lemma": "avasāday",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ādayet",
-      "lemma": "ādi",
-      "grammar": "3rd person singular optative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मनः"
-      ]
-    },
-    {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "ātmā",
+      "lemma": "ātman",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मनः"
-      ]
-    },
-    {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ātmanaḥ",
+      "lemma": "ātman",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bandhur",
-      "lemma": "bandh",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "bandhuḥ",
+      "lemma": "bandhu",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मनः"
-      ]
-    },
-    {
-      "surface_form": "mā",
-      "lemma": "mā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "ātmā",
+      "lemma": "ātman",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ripus",
+      "surface_form": "ripuḥ",
       "lemma": "ripu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "आत्मनः"
-      ]
-    },
-    {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ātmanaḥ",
+      "lemma": "ātman",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -448,7 +396,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the same ātman is both bandhu and ripuh, what changes — the ātman's nature or its orientation? And if it is only orientation that changes, who or what orients it?",

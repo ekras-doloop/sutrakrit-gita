@@ -11,142 +11,114 @@
     {
       "surface_form": "yadi",
       "lemma": "yadi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ite",
-      "lemma": "iti",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "ete",
+      "lemma": "etad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कथं न ज्ञेयमस्माभिः ৷৷৷৷ प्रपश्यद्भिर्जनार्दन",
-        "पश्यन्",
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "paśyanti",
       "lemma": "dṛś",
-      "grammar": "vocative singular feminine noun",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "lobha",
-      "lemma": "lubh",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "lobha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "upahata",
       "lemma": "upahan",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "cetasaḥ",
+      "lemma": "cetas",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣaya",
-      "lemma": "kṣi",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "kṣaya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtam",
       "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "doṣam",
       "lemma": "doṣa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mitra",
       "lemma": "mitra",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "drohe",
-      "lemma": "druh",
-      "grammar": "locative singular masculine noun",
+      "lemma": "droha",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "pātakam",
-      "lemma": "pat",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "pātaka",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -375,7 +347,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the capacity to see moral consequences (paśyati — one who sees) while others cannot creates greater obligation rather than greater freedom, at what point does moral clarity become a burden that justifies inaction rather than a mandate for action?",

@@ -10,246 +10,106 @@
   "word_by_word": [
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñātvā",
       "lemma": "jñā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यत् ज्ञानं तैः उपदिष्टं अधिगम्य प्राप्य पुनः भूयः मोहम् एवं यथा इदानीं मोहं गतोऽसि पुनः एवं न यास्यसि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "पुनः एवं देहाद्यात्माभिमानरूपं तत्कृतं ममताद्यास्पदं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्राप्य पुनर्बन्धुवधादिनिमित्तं मोहं न प्राप्स्यसि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "प्राप्य",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "श्रुत्वाप्येनं वेद न चैव कश्चित्",
-        "सर्वभूतानि चात्मनि"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "punar",
       "lemma": "punar",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "moham",
-      "lemma": "muh",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एवं यथा इदानीं मोहं गतोऽसि पुनः एवं न यास्यसि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "lemma": "moha",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yāsyasi",
       "lemma": "yā",
-      "grammar": "2nd person singular simple future active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हे पाण्डव",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "येन देवमनुष्याद्याकेरण अननुसंहितानि सर्वाणि भूतानि स्वात्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। हे पाण्डव कस्मादेवं यस्मादेव ज्ञानेन भूतानि पितृपुत्रादीनि अशेषेण ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "future indicative 2nd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇḍava",
       "lemma": "pāṇḍava",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। किञ्च येन ज्ञानेन भूतानि अशेषेण ब्रह्मादीनि स्तम्बपर्यन्तानि द्रक्ष्यसि साक्षात् आत्मनि प्रत्यगात्मनिमत्संस्थानि इमानि",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कस्मादेवं यस्मादेव ज्ञानेन भूतानि पितृपुत्रादीनि अशेषेण ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्मनि त्वयि त",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पाण्डव"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yena",
-      "lemma": "yā",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "yad",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "श्रुत्वाप्येनं वेद न चैव कश्चित्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
-      "lemma": "bhū",
-      "grammar": "nominative plural neuter noun",
+      "lemma": "bhūta",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वभूतानि चात्मनि"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "aśeṣeṇa",
-      "lemma": "aśeṣeṇa",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्रह्मादीनि स्तम्बपर्यन्तानि द्रक्ष्यसि साक्षात् आत्मनि प्रत्यगात्मनिमत्संस्थानि इमानि भूतानि इति अथो",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "द्रक्ष्यसि मत्स्वरूपसाम्यात्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्मनि त्वयि त्वंपदार्थे अथो",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "aśeṣa",
+      "grammar": "instrumental neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "drakṣyasi",
       "lemma": "dṛś",
-      "grammar": "2nd person singular simple future active verb",
+      "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "ātmani",
+      "lemma": "ātman",
+      "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "man",
-      "lemma": "maṅki",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "i",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "atha",
-      "lemma": "atha",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "atho",
+      "lemma": "atho",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mayi",
-      "lemma": "mevi",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "locative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -515,7 +375,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "All six schools agree that this knowledge ends moha — but they disagree sharply on what the vision of 'beings in ātman and in Me' actually means (non-difference, svarūpa-sāmya, dependent residence, cid-aṃśa, avidyā-dissolution, or adhisthāna-recognition). Which of these accounts can survive contact with the actual phenomenology of grief — and which are purely doctrinal constructions?",

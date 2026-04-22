@@ -10,258 +10,148 @@
   "word_by_word": [
     {
       "surface_form": "prayāṇa",
-      "lemma": "prayā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "prayāṇa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāle",
-      "lemma": "kal",
-      "grammar": "locative singular masculine noun",
+      "lemma": "kāla",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "manasā",
+      "lemma": "manas",
+      "grammar": "instrumental neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "acalena",
+      "lemma": "acala",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhaktyā",
-      "lemma": "bhañj",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युक्तः भजनं भक्तिः तया युक्तः योगबलेन चैव योगस्य बलं योगबलं समाधिजसंस्कारप्रचयजनितचित्तस्थैर्यलक्षणं योगबलं तेन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "युक्तो योगबलेन इति पृथङ्निर्देशात् परोक्तप्राणजयबलादिपृथगर्थताप्रतीतिः स्यादिति तदपाकरणाय विशिष्टैकार्थतां दर्शयितुंभक्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "परमेश्वरविषयेण परमेण प्रेम्णा युक्तः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "भक्त्या"
-      ]
+      "lemma": "bhakti",
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "yuktas",
+      "surface_form": "yuktaḥ",
       "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "balā",
-      "lemma": "balā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "balena",
+      "lemma": "bala",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhruvos",
+      "surface_form": "bhruvoḥ",
       "lemma": "bhrū",
-      "grammar": "Vibhakti.Sasthi dual feminine noun",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhye",
       "lemma": "madhya",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्राणम् आवेश्य स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उप",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "प्राणम् आवेश्य संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "prāṇam",
-      "lemma": "prāṇ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आवेश्य स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उपैति प्रत",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आवेश्य संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āveśya",
-      "lemma": "āviś",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उपैति प्रतिपद्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sami",
-      "lemma": "sam",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ak",
-      "lemma": "aj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "prāṇam",
+      "lemma": "prāṇa",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āveśya",
+      "lemma": "āveśay",
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "samyak",
+      "lemma": "samyak",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tam",
-      "lemma": "tay",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "param",
-      "lemma": "pṝ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "para",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "puruṣam",
       "lemma": "puruṣa",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उपैति प्रतिपद्यते दिव्यं द्योतनात्मकम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इत्यन्वयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "upā",
-      "lemma": "vap",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "eti",
-      "lemma": "i",
-      "grammar": "3rd person singular present indicative active verb",
+      "surface_form": "upaiti",
+      "lemma": "upe",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "divyam",
       "lemma": "divya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -600,7 +490,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If yogabala (the accumulated force of meditative saṃskāra) is what actually moves the prāṇa at death — and not a last-moment effort of will — what does this imply about the relationship between a lifetime of daily practice and the quality of one's dying?",

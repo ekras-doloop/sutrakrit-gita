@@ -11,157 +11,92 @@
     {
       "surface_form": "nimittāni",
       "lemma": "nimitta",
-      "grammar": "vocative plural neuter noun",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
-      "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। अस्वजनमपि युद्धे हत्वा श्रेयो न पश्यामि।द्वाविमौ पुरूषौ लोके सूर्यमण्डलमेदिनौ। परिव्राड्योगयुक्तश्च रणे चाभिमुखो हतः।।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "viparītā",
-      "lemma": "viparītā",
-      "grammar": "nominative singular feminine noun",
+      "lemma": "paś",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āni",
-      "lemma": "an",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "viparītāni",
+      "lemma": "viparīta",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "keśava",
       "lemma": "keśava",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "स्वजनम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śreyas",
+      "surface_form": "śreyaḥ",
       "lemma": "śreyas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "up",
-      "lemma": "vap",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "aśi",
-      "lemma": "aś",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āmi",
-      "lemma": "am",
-      "grammar": "3rd person singular aorist passive verb",
+      "surface_form": "anupaśyāmi",
+      "lemma": "anupaś",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hatvā",
       "lemma": "han",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "श्रेयः फलं न पश्यामि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "श्रेयो न पश्यामि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "su",
-      "lemma": "su",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajanam",
-      "lemma": "aj",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "sva",
+      "lemma": "sva",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "janam",
+      "lemma": "jana",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āhave",
-      "lemma": "āhu",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युद्धे हत्वा श्रेयः फलं न पश्यामि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "lemma": "āhava",
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -378,7 +313,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Arjuna sees 'viparīta-nimitta' (reversed omens) before he can articulate a philosophical argument — what is the relationship between embodied premonition and reasoned moral judgment, and which should carry more weight?",

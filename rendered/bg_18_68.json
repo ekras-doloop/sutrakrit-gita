@@ -9,140 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paramam",
       "lemma": "parama",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guhi",
-      "lemma": "guh",
-      "grammar": "locative singular neuter noun",
+      "surface_form": "guhyam",
+      "lemma": "guhya",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "mat",
-      "lemma": "math",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "mad",
+      "lemma": "mad",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhakteṣu",
-      "lemma": "bhaj",
-      "grammar": "locative plural masculine noun",
+      "lemma": "bhakta",
+      "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhidhāsyati",
       "lemma": "abhidhā",
-      "grammar": "3rd person singular simple future active verb",
+      "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhaktim",
-      "lemma": "bhañj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bhakti",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mayi",
-      "lemma": "mevi",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "locative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parām",
-      "lemma": "parā",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "para",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtvā",
       "lemma": "kṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भगवतः परमगुरोः अच्युतस्य शुश्रूषा मया क्रियते इत्येवं कृत्वेत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "माम् एव एष्यति न तत्र संशयः।",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "भगवतः परमगुरोः शुश्रूषैवेयं मया क्रियत इत्येवं कृत्वा निश्चित्य योऽभिधास्यति स मामेवैष्यति मां भगवन्तं वासुदेवमेष्यत्ये",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eṣyati",
       "lemma": "i",
-      "grammar": "3rd person singular simple future active verb",
+      "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asaṃśayas",
+      "surface_form": "asaṃśayaḥ",
       "lemma": "asaṃśaya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -384,7 +351,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If teaching this text is itself the highest bhakti, does the teacher's motive (financial, social, spiritual) alter the fruit — or does the act of transmission carry its own validity independent of motive?",

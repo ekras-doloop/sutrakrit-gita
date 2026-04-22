@@ -9,119 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yadā",
+      "lemma": "yadā",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न कर्मस्वनुषज्जते",
-        "संन्यास",
-        "संन्यासी"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "indriyārtheṣu",
-      "lemma": "indriyārtha",
-      "grammar": "locative plural masculine noun",
+      "surface_form": "indriya",
+      "lemma": "indriya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "artheṣu",
+      "lemma": "artha",
+      "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न कर्मस्वनुषज्जते",
-        "संन्यास",
-        "संन्यासी"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "karmasu",
       "lemma": "karman",
-      "grammar": "locative plural neuter noun",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anuṣajjate",
+      "lemma": "anuṣañj",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "saṃkalpa",
+      "lemma": "saṃkalpa",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
-    },
-    {
-      "surface_form": "kalpa",
-      "lemma": "kalpa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "संकल्प"
-      ]
     },
     {
       "surface_form": "saṃnyāsī",
-      "lemma": "saṃnyas",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "संन्यासी"
-      ]
-    },
-    {
-      "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "saṃnyāsin",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ārūḍhas",
+      "surface_form": "yoga",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ārūḍhaḥ",
       "lemma": "āruh",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tadā",
       "lemma": "tadā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -374,7 +362,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If sarva-saṃkalpa-sannyāsa (renunciation of all volition) is the condition for yogārūḍha, does this mean the practitioner must first cease all ritual obligation — or does the renunciation happen while still acting?",

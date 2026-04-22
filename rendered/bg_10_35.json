@@ -10,140 +10,85 @@
   "word_by_word": [
     {
       "surface_form": "bṛhat",
-      "lemma": "bṛhat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "bṛhant",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sāma",
-      "lemma": "sāmi",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "sāman",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sām",
-      "lemma": "sā",
-      "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nām",
-      "lemma": "na",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "sāmnām",
+      "lemma": "sāman",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gāyatrī",
       "lemma": "gāyatrī",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "च्छन्दसाम् अहं गायत्र्यादिच्छन्दोविशिष्टानामृचां गायत्री ऋक् अहम् अस्मि इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "इति। मासेषु मार्गशीर्षस्यातिशयः वर्षगर्भाधानकालत्वान्मासाधिदेवेषु केशवादिषु प्रथमस्य केशवस्य मासत्वाद्ब्रतवर्गारम्भकालत",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "मे विभूतिः? मत्स्वरूपप्रतिपादकत्वाद्भगवत्सेवकैश्चिन्तनीया",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ऋगहम्।चतुरक्षराणि हवा अग्रे छन्दांस्यासुस्ततो जगती सोममच्छापतत्सा त्रीण्यक्षराणि हित्वा जगाम ततस्त्रिष्टुप्सोममच्छापतत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "chandasām",
       "lemma": "chandas",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "māsānām",
       "lemma": "māsa",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mārgaśīrṣas",
+      "surface_form": "mārgaśīrṣaḥ",
       "lemma": "mārgaśīrṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ṛtūnām",
       "lemma": "ṛtu",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kus",
-      "lemma": "ku",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "um",
-      "lemma": "u",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ākaras",
-      "lemma": "ākṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kusumākaraḥ",
+      "lemma": "kusumākara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -356,7 +301,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa identify Himself with particular excellence rather than with each thing equally — what does selectivity in the vibhūti-list teach about how Brahman (or Bhagavān) is to be recognized in the world?",

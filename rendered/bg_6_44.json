@@ -11,170 +11,105 @@
     {
       "surface_form": "pūrva",
       "lemma": "pūrva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पूर्वाभ्यास"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "abhyāsena",
-      "lemma": "abhyas",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "abhyāsa",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tena",
-      "lemma": "tena",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तेनैव"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hriyate",
       "lemma": "hṛ",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संसिद्धौ हि यस्मात् अवशोऽपि सः योगभ्रष्टः न कृतं चेत् योगाभ्यासजात् संस्कारात् बलवत्तरमधर्मादिलक्षणं कर्म तदा योगाभ्यास",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "प्रसिद्धं हि एतद् योगमाहात्म्यम् इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "विषयेभ्यः परावृत्त्य योगनिष्ठः क्रियते",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स्ववशीक्रियते अकस्मादेव भोगवासनाभ्यो व्युत्थाप्य मोक्षसाधनोन्मुखः क्रियते ज्ञानवासनाया एवाल्पकालाभ्यस्ताया",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avaśas",
+      "surface_form": "avaśaḥ",
       "lemma": "avaśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saḥ",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jijñāsus",
-      "lemma": "jijñāsa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "jijñāsuḥ",
+      "lemma": "jijñāsu",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "api",
       "lemma": "api",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogasya",
-      "lemma": "yuj",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्वरूपं ज्ञातुमिच्छन्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "स तथोक्तः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "जिज्ञासुरपि",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "स्वरूपं जिज्ञासुरेव केवलं नतु प्राप्तयोगः",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "मोक्षसाधनज्ञानस्य विषयं ब्रह्मज्ञानं प्रथमभूमिकायां स्थितः संन्यासीति यावत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "yoga",
+      "grammar": "genitive masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śabda",
       "lemma": "śabda",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "brahma",
+      "lemma": "brahman",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ativartate",
+      "lemma": "ativṛt",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -466,7 +401,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If prior-birth yoga-saṃskāra can override present-life obstacles and re-orient a soul without its consent, what does this imply about the relationship between individual effort (puruṣārtha) and accumulated momentum — is volition primary, or secondary?",

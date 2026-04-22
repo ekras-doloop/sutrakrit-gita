@@ -9,102 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "udāsi",
-      "lemma": "udas",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "udāsīna",
+      "lemma": "udāsīna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "vat",
+      "lemma": "vat",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avat",
-      "lemma": "av",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āsīnas",
+      "surface_form": "āsīnaḥ",
       "lemma": "ās",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guṇais",
+      "surface_form": "guṇaiḥ",
       "lemma": "guṇa",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "उदासीन"
-      ]
-    },
-    {
-      "surface_form": "vica",
-      "lemma": "vici",
-      "grammar": "instrumental singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ālyate",
-      "lemma": "āli",
-      "grammar": "3rd person singular present indicative passive verb",
+      "surface_form": "vicālyate",
+      "lemma": "vicālay",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guṇās",
+      "surface_form": "guṇāḥ",
       "lemma": "guṇa",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vartante",
       "lemma": "vṛt",
-      "grammar": "3rd person plural present indicative active verb",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "itī",
+      "surface_form": "iti",
       "lemma": "iti",
-      "grammar": "nominative dual feminine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "avatiṣṭhati",
+      "lemma": "avasthā",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iṅgate",
+      "lemma": "iṅg",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -336,7 +341,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the gunas 'move among themselves' without touching the Self, what exactly is doing the observing — and can that observer ever be said to act at all?",

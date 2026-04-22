@@ -9,198 +9,95 @@
   },
   "word_by_word": [
     {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "rajas",
+      "surface_form": "rajaḥ",
       "lemma": "rajas",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tama",
-      "lemma": "tam",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "tamaḥ",
+      "lemma": "tamas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guṇās",
+      "surface_form": "guṇāḥ",
       "lemma": "guṇa",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "prakṛti",
-      "lemma": "prakṛ",
-      "grammar": "locative singular masculine noun",
+      "lemma": "prakṛti",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "प्रकृति"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "saṃbhavās",
-      "lemma": "samas",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "saṃbhavāḥ",
+      "lemma": "sambhava",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nibadhnanti",
       "lemma": "nibandh",
-      "grammar": "vocative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति उच्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "देहे,वर्तमानत्वोपाधिना निबध्नन्ति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। त्वं तं बन्धं,निवर्त्तयेति सम्बोधयति।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। स्वकार्यैः सुखदुःखमोहादिभिः संयोजयन्तीत्यर्थः।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "निर्विकारमेव सन्तं स्वविकारवत्तयोपदर्शयन्तीव भ्रान्त्या जलपात्राणीव दिवि स्थितमादित्यं प्रतिबिम्बाध्यासेन स्वकम्पादिमत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mahā",
-      "lemma": "mah",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bāho",
       "lemma": "bāhu",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dehe",
-      "lemma": "dah",
-      "grammar": "3rd person singular perfect passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शरीरे देहिनं देहवन्तम् अव्ययम्? अव्ययत्वं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "वर्तमानं निबध्नन्ति देहे,वर्तमानत्वोपाधिना निबध्नन्ति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तादात्म्येन स्थितं देहिनं चिदंशं वस्तुतोऽव्ययं निर्विकारमेव सन्तं निबध्नन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "प्रकृतिकार्ये शरीरेन्द्रियसंघाते देहिनं देहतादात्म्याध्यासापन्नं जीवं परमार्थतः सर्वविकारशून्यत्वेनाव्ययं निबध्नन्ति नि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "deha",
+      "grammar": "locative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dehinam",
-      "lemma": "dih",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अव्ययं स्वतो गुणसम्बन्धानर्हं देहे वर्तमानं निबध्नन्ति देहे,वर्तमानत्वोपाधिना निबध्नन्ति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "dehin",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyayam",
-      "lemma": "vye",
-      "grammar": "1st person singular imperfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? अव्ययत्वं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "अव्ययम्"
-      ]
+      "lemma": "avyaya",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -490,7 +387,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the dehin is truly avyaya (imperishable) and unstained, why does Bhagavan bother warning Arjuna about gunas binding him at all — what is the practical force of a binding that is 'merely apparent'?",

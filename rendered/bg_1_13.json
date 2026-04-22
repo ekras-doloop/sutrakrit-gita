@@ -11,112 +11,105 @@
     {
       "surface_form": "tatas",
       "lemma": "tatas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śaṅkhās",
+      "surface_form": "śaṅkhāḥ",
       "lemma": "śaṅkha",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhā",
-      "lemma": "bhū",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īryas",
-      "lemma": "īr",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "bheryaḥ",
+      "lemma": "bherī",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paṇava",
       "lemma": "paṇava",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "anaka",
-      "lemma": "an",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ānaka",
+      "lemma": "ānaka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gomukhās",
+      "surface_form": "gomukhāḥ",
       "lemma": "gomukha",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sahasā",
-      "lemma": "sahas",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "sahasā",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhyahanyanta",
       "lemma": "abhihan",
-      "grammar": "3rd person plural imperfect passive verb",
+      "grammar": "impf indicative pass 3rd person plural",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śabdas",
+      "surface_form": "śabdaḥ",
       "lemma": "śabda",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tumulas",
+      "surface_form": "tumulaḥ",
       "lemma": "tumula",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhavat",
       "lemma": "bhū",
-      "grammar": "3rd person singular imperfect active verb",
+      "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -323,7 +316,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Bhīṣma blows his conch to generate joy in Duryodhana — is an act of motivated compassion (generating another's courage) still entangled in the web of results, or does the motive purify it?",

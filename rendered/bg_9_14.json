@@ -10,147 +10,99 @@
   "word_by_word": [
     {
       "surface_form": "satatam",
-      "lemma": "satata",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "satatam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kīrtayantas",
-      "lemma": "kīrti",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "kīrtayantaḥ",
+      "lemma": "kīrtay",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yat",
+      "surface_form": "yatantaḥ",
       "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "antas",
-      "lemma": "anti",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dṛḍha",
       "lemma": "dṛḍha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nam",
-      "lemma": "na",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "vratāḥ",
+      "lemma": "vrata",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asyantas",
-      "lemma": "as",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "namasyantaḥ",
+      "lemma": "namasy",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhaktyā",
-      "lemma": "bhañj",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नित्ययुक्ताः सन्तः उपासते सेवन्ते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "चरणसेवया मां पुरुषोत्तमं सर्वत्र उपासते दास्यभावेन भजन्ते",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "मद्विषयेण परेण प्रेम्णा नित्ययुक्ताः सर्वदा संयुक्ताः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "भक्त्या"
-      ]
-    },
-    {
-      "surface_form": "nitya",
-      "lemma": "nitya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "नित्य",
-        "नित्ययुक्त",
-        "नित्ययुक्ताः"
-      ]
-    },
-    {
-      "surface_form": "yuktā",
-      "lemma": "yuj",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "नित्ययुक्ताः"
-      ]
-    },
-    {
-      "surface_form": "upā",
-      "lemma": "vap",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "bhakti",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asate",
-      "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "surface_form": "nitya",
+      "lemma": "nitya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yuktāḥ",
+      "lemma": "yuj",
+      "grammar": "nominative masculine plural participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "upāsate",
+      "lemma": "upās",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -467,7 +419,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If kīrtana (glorification) is the first-named activity, what does each school make of the relationship between sound, memory, and presence — is the Name a pointer to Brahman or a direct vehicle of Bhagavān?",

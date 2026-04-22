@@ -9,155 +9,101 @@
   },
   "word_by_word": [
     {
-      "surface_form": "drupada",
+      "surface_form": "drupadaḥ",
       "lemma": "drupada",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। परमेष्वासादिविशेषणचतुष्टयं प्रत्येकं संबध्यते।",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "इति। हे पृथिवीपते हे धृतराष्ट्र।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "draupadeyās",
+      "surface_form": "draupadeyāḥ",
       "lemma": "draupadeya",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvaśas",
       "lemma": "sarvaśas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthivī",
       "lemma": "pṛthivī",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pate",
-      "lemma": "pat",
-      "grammar": "dative singular masculine noun",
+      "lemma": "pati",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saubhadras",
+      "surface_form": "saubhadraḥ",
       "lemma": "saubhadra",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mahābāhus",
-      "lemma": "mahābāhu",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bāhuḥ",
+      "lemma": "bāhu",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śaṅkhān",
       "lemma": "śaṅkha",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पृथक् पृथक् प्रदध्मुः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "दध्मुः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "accusative masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dadhmus",
-      "lemma": "dhmā",
-      "grammar": "3rd person plural perfect active verb",
+      "surface_form": "dadhmuḥ",
+      "lemma": "dham",
+      "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthak",
       "lemma": "pṛthak",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पृथक् प्रदध्मुः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthak",
       "lemma": "pṛthak",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पृथक् प्रदध्मुः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -371,7 +317,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the text insist on pṛthak pṛthak (each separately) — what would be lost if it simply said 'they all blew their conches together'?",

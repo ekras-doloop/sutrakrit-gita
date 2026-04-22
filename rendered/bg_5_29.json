@@ -10,190 +10,100 @@
   "word_by_word": [
     {
       "surface_form": "bhoktāram",
-      "lemma": "bhuj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bhoktṛ",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yajña",
-      "lemma": "yaj",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भोक्तारं यज्ञतपसाम्"
-      ]
-    },
-    {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "lemma": "yajña",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ām",
-      "lemma": "ā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "tapasām",
+      "lemma": "tapas",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वलोकमहेश्वरम्",
-        "सुहृदं सर्वभूतानाम्",
-        "सुहृदः सर्वदेहिनाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "loka",
-      "lemma": "lok",
-      "grammar": "2nd person singular imperative active verb",
+      "lemma": "loka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वलोकमहेश्वरम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "maha",
-      "lemma": "mah",
-      "grammar": "2nd person singular imperative active verb",
+      "surface_form": "mahā",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वलोकमहेश्वरम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "īśvaram",
       "lemma": "īśvara",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "suhṛdam",
       "lemma": "suhṛd",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वलोकमहेश्वरम्",
-        "सुहृदं सर्वभूतानाम्",
-        "सुहृदः सर्वदेहिनाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhūtānām",
-      "lemma": "bhū",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "bhūta",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सुहृदं सर्वभूतानाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "jñātvā",
       "lemma": "jñā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शान्तिं सर्वसंसारोपरतिम् ऋच्छति प्राप्नोति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "शान्तिम् ऋच्छति कर्मयोगकरण",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "शान्तिमुक्तां श्रोतव्यश्रुतविषयां कर्मफलान्निर्वेदरूपां प्राप्नोति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "मत्प्रसादेन शान्तिं मोक्षमृच्छति प्राप्नोति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "मुच्यत इति तदाह सर्वेषां यज्ञानां तपसां",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śāntim",
-      "lemma": "śam",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ऋच्छति कर्मयोगकरण",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "śānti",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ṛcchati",
-      "lemma": "ṛ",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्राप्नोति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्मयोगकरण",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "ṛch",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -458,7 +368,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If śānti (peace) is produced by jñāna of Bhagavān's triple character — Enjoyer, Sovereign, Friend — must all three be known simultaneously, or is partial knowledge sufficient? What does the verse's structure (tripartite compound + jñātvā as aorist gerund) imply?",

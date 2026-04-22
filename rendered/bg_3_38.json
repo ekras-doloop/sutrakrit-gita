@@ -9,129 +9,108 @@
   },
   "word_by_word": [
     {
-      "surface_form": "dhūm",
-      "lemma": "dhū",
-      "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ena",
-      "lemma": "a",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "dhūmena",
+      "lemma": "dhūma",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āvriyate",
       "lemma": "āvṛ",
-      "grammar": "3rd person singular present indicative passive verb",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vahnis",
+      "surface_form": "vahniḥ",
       "lemma": "vahni",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yathā",
       "lemma": "yathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "adarśas",
-      "lemma": "dṛś",
-      "grammar": "2nd person singular aorist active verb",
+      "surface_form": "ādarśaḥ",
+      "lemma": "ādarśa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "malena",
-      "lemma": "mal",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "च यथा उल्बेन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यथा च उल्बेन आवृतो गर्भः तथा तेन कामेन इदं जन्तुजातम् आवृतम्।आवरणप्रकारम् आह",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "lemma": "mala",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "garbhas",
+      "surface_form": "yathā",
+      "lemma": "yathā",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ulbena",
+      "lemma": "ulba",
+      "grammar": "instrumental masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āvṛtaḥ",
+      "lemma": "āvṛ",
+      "grammar": "nominative masculine singular participle noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "garbhaḥ",
       "lemma": "garbha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tena",
-      "lemma": "tena",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āvṛtam",
       "lemma": "āvṛ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "।।किं पुनस्तत् इदंशब्दवाच्यं यत् कामेनावृतमित्युच्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "।आवरणप्रकारम् आह",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "nominative neuter singular participle noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -359,7 +338,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If kāma (desire) is connatural to fire — saha-ja, born with it — does this mean desire is inseparable from embodied life, and what does that imply for whether total desirelessness is possible while alive?",

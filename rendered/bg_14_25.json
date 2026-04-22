@@ -9,134 +9,101 @@
   },
   "word_by_word": [
     {
-      "surface_form": "mān",
-      "lemma": "mā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "māna",
+      "lemma": "māna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āpamānayos",
-      "lemma": "āp",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
+      "surface_form": "apamānayoḥ",
+      "lemma": "apamāna",
+      "grammar": "genitive masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tulyas",
+      "surface_form": "tulyaḥ",
       "lemma": "tulya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tulyas",
+      "surface_form": "tulyaḥ",
       "lemma": "tulya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mitra",
       "lemma": "mitra",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ari",
-      "lemma": "ṛ",
-      "grammar": "locative singular masculine noun",
+      "lemma": "ari",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pakṣayos",
+      "surface_form": "pakṣayoḥ",
       "lemma": "pakṣa",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
+      "grammar": "genitive masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ārambha",
       "lemma": "ārambha",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parityāgī",
       "lemma": "parityāgin",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guṇāt",
+      "surface_form": "guṇa",
       "lemma": "guṇa",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ītas",
-      "lemma": "ī",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "atītaḥ",
+      "lemma": "atī",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "saḥ",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "।।उदासीनवत् (गीता 14।23) इत्यादि गुणातीतः स उच्यते (गीता 14।25) इत्येतदन्तम् उक्तं यावत् यत्नसाध्यं तावत् संन्यासिनः अन",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "।अथ एवं रूपगुणात्यये प्रधानहेतुम् आह --",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "ज्ञानमार्गीयः",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। यदुक्तमुपेक्षकत्वादि तद्विद्योदयात्पूर्वं यत्नसाध्यं विद्याधिकारिणा साधनत्वेनानुष्ठेयमुत्पन्नायां तु विद्यायां जीवन्मु",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -374,7 +341,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When does equanimity toward friend and foe become spiritual bypassing — a refusal of legitimate moral discernment — and how does the Gita's insistence on sarvarambha-parityaga address that worry?",

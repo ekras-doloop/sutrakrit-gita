@@ -9,88 +9,79 @@
   },
   "word_by_word": [
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "anta",
-      "lemma": "anti",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ananta",
+      "lemma": "ananta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vijayam",
-      "lemma": "viji",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "vijaya",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rājā",
-      "lemma": "rāj",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युधि चायमेव जयभागित्वेन स्थिरो नत्वेतद्विपक्षाः स्थिरा भविष्यन्तीति युधिष्ठिरपदेन सूचितम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "rājan",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kuntī",
-      "lemma": "kunti",
-      "grammar": "nominative dual masculine noun",
+      "lemma": "kuntī",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yudhiṣṭhiras",
+      "surface_form": "putraḥ",
+      "lemma": "putra",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yudhiṣṭhiraḥ",
       "lemma": "yudhiṣṭhira",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "nakulas",
+      "surface_form": "nakulaḥ",
       "lemma": "nakula",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sahadevas",
+      "surface_form": "sahadevaḥ",
       "lemma": "sahadeva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sughoṣa",
       "lemma": "sughoṣa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "maṇipuṣpakau",
       "lemma": "maṇipuṣpaka",
-      "grammar": "nominative dual masculine noun",
+      "grammar": "nominative masculine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -308,7 +299,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "The verse names five conches across three brothers but gives no commentary on what they sound like or how they sound — why does the text record names rather than effects, and what does naming a sacred object accomplish that describing it cannot?",

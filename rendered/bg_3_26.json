@@ -11,200 +11,93 @@
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अज्ञान",
-        "अनुयायी",
-        "असक्तः विद्वान्",
-        "कर्मसङ्गिनाम् अज्ञानम्",
-        "ज्ञान",
-        "न बुद्धिभेदं ৷৷ विद्वानयुक्तः समाचरन्",
-        "मनुवाँ तो चहुँ दिसि फिरै यह तो सुमिरन नाहिं",
-        "युक्तः विद्वान्",
-        "लोकसंग्रहमेवापि संपश्यन्",
-        "सक्ताः कर्मण्यविद्वांसो तथा कुर्वन्ति भारत",
-        "समाचरन्",
-        "सुमिरन"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "buddhi",
-      "lemma": "budh",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "buddhi",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न बुद्धिभेदं ৷৷ विद्वानयुक्तः समाचरन्",
-        "बुद्धि"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "bhedam",
-      "lemma": "bhid",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "bheda",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "janayā",
-      "lemma": "jan",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "it",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "janayet",
+      "lemma": "janay",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ajñānām",
       "lemma": "ajña",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कर्मसङ्गिनाम् अज्ञानम्",
-        "कर्मसङ्गी",
-        "कर्माणि",
-        "सक्ताः कर्मण्यविद्वांसो तथा कुर्वन्ति भारत"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "saṅginām",
       "lemma": "saṅgin",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कर्मसङ्गिनाम् अज्ञानम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "joṣayet",
-      "lemma": "juṣ",
-      "grammar": "3rd person singular optative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कारयेत् सर्वकर्माणि विद्वान् स्वयं तदेव अविदुषां कर्म युक्तः अभियुक्तः समाचरन्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इत्यस्यार्थ प्रीतिं जनयेदिति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "प्रीत्या सेवयेत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "जोषयेत्"
-      ]
+      "lemma": "joṣay",
+      "grammar": "present optative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "sarva",
       "lemma": "sarva",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karmāṇi",
       "lemma": "karman",
-      "grammar": "vocative plural neuter noun",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कर्माणि"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "vidvān",
-      "lemma": "vid",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्वयं तदेव अविदुषां कर्म युक्तः अभियुक्तः समाचरन्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "लोकसंग्रहं चिकीर्षुः अविद्वदधिकारिकाणि सर्वकर्माणि समाचरन् तेषां श्रद्धामुत्पाद्य जोषयेत् प्रीत्या सेवयेत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "असक्तः विद्वान्",
-        "युक्तः विद्वान्"
-      ]
+      "lemma": "vidvas",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "yuktas",
+      "surface_form": "yuktaḥ",
       "lemma": "yuj",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "samācaran",
       "lemma": "samācar",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "।।अविद्वानज्ञः कथं कर्मसु सज्जते इत्याह",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। बुद्धिचालने कृते सति कर्मसु श्रद्धानिवृत्तेर्ज्ञानस्य चानुत्पत्तेस्तेषामुभयभ्रंशः स्यादिति भावः।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तेषां श्रद्धामुत्पाद्य जोषयेत् प्रीत्या सेवयेत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "न बुद्धिभेदं ৷৷ विद्वानयुक्तः समाचरन्",
-        "समाचरन्"
-      ]
+      "grammar": "nominative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -812,7 +705,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If disturbing the karma-saṅgin's conviction causes double ruin, at what point — if ever — is it right to introduce jñāna to someone clearly wedded to action?",

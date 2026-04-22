@@ -9,151 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "doṣais",
+      "surface_form": "doṣaiḥ",
       "lemma": "doṣa",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "etais",
+      "surface_form": "etaiḥ",
       "lemma": "etad",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ghnānām",
-      "lemma": "han",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "ghna",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "varṇa",
       "lemma": "varṇa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃkara",
-      "lemma": "saṃskṛ",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "saṃkara",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kārakais",
-      "lemma": "kṛ",
-      "grammar": "instrumental plural masculine noun",
+      "surface_form": "kārakaiḥ",
+      "lemma": "kāraka",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ut",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sādyante",
-      "lemma": "sad",
-      "grammar": "3rd person plural present indicative passive verb",
+      "surface_form": "utsādyante",
+      "lemma": "utsāday",
+      "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jāti",
-      "lemma": "ji",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "jāti",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "dharmāḥ",
+      "lemma": "dharma",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ṝm",
-      "lemma": "ṝ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "dharmāḥ",
+      "lemma": "dharma",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "śa",
-      "lemma": "śa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "शाश्वत"
-      ]
-    },
-    {
-      "surface_form": "aśvat",
-      "lemma": "śvi",
-      "grammar": "3rd person singular aorist active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ās",
-      "lemma": "a",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "śāśvatāḥ",
+      "lemma": "śāśvata",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -378,7 +327,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When Arjuna says 'eternal kula-dharmas are uprooted' — is he defending sacred order or rationalizing avoidance of a hard duty? How does the text distinguish between the two?",

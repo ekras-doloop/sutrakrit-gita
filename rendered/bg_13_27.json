@@ -10,132 +10,87 @@
   "word_by_word": [
     {
       "surface_form": "samam",
-      "lemma": "sam",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "sama",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarveṣu",
       "lemma": "sarva",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भूतेषु देवादिविषमाकाराद् वियुक्तं तत्र तत्र तत्तद्देहेन्द्रियमनांसि प्रति परमेश्वरत्वेन स्थितम् आत्मानं ज्ञातृत्वेन समा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūteṣu",
-      "lemma": "bhū",
-      "grammar": "locative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देवादिविषमाकाराद् वियुक्तं तत्र तत्र तत्तद्देहेन्द्रियमनांसि प्रति परमेश्वरत्वेन स्थितम् आत्मानं ज्ञातृत्वेन समानाकारं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "bhūta",
+      "grammar": "locative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tiṣṭhantam",
       "lemma": "sthā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parameśvaram",
       "lemma": "parameśvara",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vinaśyatsu",
       "lemma": "vinaś",
-      "grammar": "locative plural masculine noun",
+      "grammar": "locative neuter plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vinaśyantam",
+      "lemma": "vinaś",
+      "grammar": "accusative masculine singular present participle verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paśyati",
       "lemma": "dṛś",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? क्षेत्रं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? स पश्यति? स आत्मानं यथावद् अवस्थितं पश्यति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पश्यति"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "paśyati",
       "lemma": "dṛś",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? क्षेत्रं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? स पश्यति? स आत्मानं यथावद् अवस्थितं पश्यति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पश्यति"
-      ]
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -402,7 +357,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the same Parameshvara abides equally in all beings, what changes when I treat another person with contempt — is it only a social wrong, or am I also failing to see correctly?",

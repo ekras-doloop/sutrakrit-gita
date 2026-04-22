@@ -11,101 +11,93 @@
     {
       "surface_form": "divya",
       "lemma": "divya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनेकदिव्याभरणम्",
-        "दिव्य",
-        "दिव्यगन्धानुलेपनम्",
-        "दिव्यमाल्याम्बरधरम्",
-        "दिव्यानेकोद्यतायुधम्"
-      ]
-    },
-    {
-      "surface_form": "dharam",
-      "lemma": "dhṛ",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "दिव्यमाल्याम्बरधरम्"
-      ]
-    },
-    {
-      "surface_form": "divya",
-      "lemma": "divya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अनेकदिव्याभरणम्",
-        "दिव्य",
-        "दिव्यगन्धानुलेपनम्",
-        "दिव्यमाल्याम्बरधरम्",
-        "दिव्यानेकोद्यतायुधम्"
-      ]
-    },
-    {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्"
-      ]
-    },
-    {
-      "surface_form": "ṛvās",
-      "lemma": "ṛ",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "carya",
-      "lemma": "car",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "mālya",
+      "lemma": "mālya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्"
-      ]
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ambara",
+      "lemma": "ambara",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dharam",
+      "lemma": "dhara",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "divya",
+      "lemma": "divya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "gandha",
+      "lemma": "gandha",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anulepanam",
+      "lemma": "anulepana",
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "sarva",
+      "lemma": "sarva",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "āścarya",
+      "lemma": "āścarya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mayam",
-      "lemma": "may",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "maya",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "devam",
       "lemma": "deva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अनन्तं न अस्य अन्तः अस्ति इति अनन्तः तम्? विश्वतोमुखं सर्वतोमुखं सर्वभूतात्मभूतत्वात्? तं दर्शयामास",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "grammar": "accusative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anantam",
-      "lemma": "an",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "ananta",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mukham",
-      "lemma": "mukha",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "viśvatomukham",
+      "lemma": "viśvatomukha",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -401,7 +393,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the Lord's faces point in every direction (viśvato-mukha), what does it mean for a practitioner to seek a single 'correct' direction in which to face while worshipping?",

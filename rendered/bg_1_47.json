@@ -10,143 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uktvā",
       "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "बन्धुविश्लेषजनितशोकसंविग्नमानसः सशरं चापं विसृज्य रथोपस्थे उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ārjunas",
-      "lemma": "ārjuna",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "arjunaḥ",
+      "lemma": "arjuna",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃkhye",
-      "lemma": "saṃkhyā",
-      "grammar": "nominative dual masculine noun",
+      "lemma": "saṃkhya",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rathopastha",
+      "surface_form": "rathopasthe",
       "lemma": "rathopastha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उपाविशत् सर्वतो दुःखेन निर्विण्ण उपविष्टः इत्यार्तवत्वं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "locative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "upāviśat",
       "lemma": "upaviś",
-      "grammar": "3rd person singular imperfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सर्वतो दुःखेन निर्विण्ण उपविष्टः इत्यार्तवत्वं",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "grammar": "impf indicative 3rd person singular",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "visṛjya",
       "lemma": "visṛj",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रथोपस्थे उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sas",
+      "surface_form": "sa",
       "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śaram",
       "lemma": "śara",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ca",
-      "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āpam",
-      "lemma": "āp",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "cāpam",
+      "lemma": "cāpa",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śoka",
-      "lemma": "śuc",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "śoka",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃvigna",
       "lemma": "saṃvij",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "mānas",
-      "lemma": "mā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "mānasaḥ",
+      "lemma": "mānasa",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -347,7 +296,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Is viṣāda (Arjuna's collapse) a defect to be overcome or a necessary precondition for genuine spiritual instruction — and does the answer differ across schools?",

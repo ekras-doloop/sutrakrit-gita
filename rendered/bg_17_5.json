@@ -9,139 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "aśa",
-      "lemma": "aś",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "a",
+      "lemma": "a",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "astra",
-      "lemma": "astra",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "śāstra",
+      "lemma": "śāstra",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vihitam",
       "lemma": "vidhā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ghoram",
       "lemma": "ghora",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tapyante",
       "lemma": "tap",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "निर्वर्तयन्ति ये तपो जनाः ते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "? प्रदर्शनार्थम् इदम्? अशास्त्रविहितं बह्वायासं यागादिकं ये कुर्वते? ते दम्भाहङ्कारसंयुक्ताः कामरागबलान्विताः शरीरस्थं प",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कुर्वन्ति ये जनाः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapas",
-      "lemma": "tap",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "janās",
+      "surface_form": "janāḥ",
       "lemma": "jana",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dambhās",
+      "surface_form": "dambha",
       "lemma": "dambha",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ham",
-      "lemma": "ha",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ahaṃkāra",
+      "lemma": "ahaṃkāra",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kāra",
-      "lemma": "kṛ",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "saṃyuktās",
+      "surface_form": "saṃyuktāḥ",
       "lemma": "saṃyuj",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rāga",
-      "lemma": "rāj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "rāga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "balā",
-      "lemma": "balā",
-      "grammar": "nominative singular feminine noun",
+      "surface_form": "bala",
+      "lemma": "bala",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "anvitās",
-      "lemma": "anvi",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "anvitāḥ",
+      "lemma": "anvita",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -398,7 +366,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the difference between intense scriptural tapas that is also physically painful and the 'ghora' tapas condemned here — where exactly does the boundary lie?",

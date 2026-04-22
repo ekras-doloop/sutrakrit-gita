@@ -10,123 +10,78 @@
   "word_by_word": [
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "uktas",
+      "surface_form": "uktaḥ",
       "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hṛṣīkeśas",
+      "surface_form": "hṛṣīkeśaḥ",
       "lemma": "hṛṣīkeśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "guḍākeśena",
       "lemma": "guḍākeśa",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "गुडाकेशेन"
-      ]
-    },
-    {
-      "surface_form": "bhās",
-      "lemma": "bhū",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "rata",
-      "lemma": "ram",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "bhārata",
+      "lemma": "bhārata",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "पश्यैतान् धार्तराष्ट्रान् समानिति",
-        "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्",
-        "सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्"
-      ]
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "senayoḥ",
+      "lemma": "senā",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayos",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ubhayos",
-      "lemma": "ubh",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
+      "surface_form": "ubhayoḥ",
+      "lemma": "ubhaya",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhye",
       "lemma": "madhya",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्"
-      ]
-    },
-    {
-      "surface_form": "sthā",
-      "lemma": "sthā",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्"
-      ]
-    },
-    {
-      "surface_form": "āpayitvā",
-      "lemma": "āp",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ṛ",
-      "lemma": "ṛ",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "sthāpayitvā",
+      "lemma": "sthāpay",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "atha",
-      "lemma": "atha",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ratha",
+      "lemma": "ratha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "uttamam",
       "lemma": "uttama",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -458,7 +413,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa comply instantly without protest — is instant obedience here a model of ahiṃsā (non-harm), of bhakti, or of omniscient strategy?",

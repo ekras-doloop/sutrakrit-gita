@@ -11,105 +11,98 @@
     {
       "surface_form": "aniṣṭam",
       "lemma": "aniṣṭa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iṣṭam",
-      "lemma": "yaj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "iṣ",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "miśram",
       "lemma": "miśra",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न तु संन्यासिनां क्वचित्"
-      ]
-    },
-    {
-      "surface_form": "trividham",
-      "lemma": "trividha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "karmaṇas",
+      "surface_form": "trividham",
+      "lemma": "trividha",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karmaṇaḥ",
       "lemma": "karman",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "phalam",
-      "lemma": "phal",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "phala",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "pra",
-      "lemma": "pra",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "bhavati",
+      "lemma": "bhū",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "itya",
-      "lemma": "i",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "atyāginām",
+      "lemma": "atyāgin",
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "pretya",
+      "lemma": "pre",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न तु संन्यासिनां क्वचित्",
-        "संन्यास"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "न तु संन्यासिनां क्वचित्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "saṃnyāsinām",
-      "lemma": "saṃnyas",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
+      "lemma": "saṃnyāsin",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kū",
-      "lemma": "kū",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "acit",
-      "lemma": "acit",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kvacid",
+      "lemma": "kvacid",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -376,7 +369,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the same outward action — giving to charity, doing one's job — can bind or liberate depending solely on the inner stance of the actor, what does this imply about the primacy of interiority over externally observable virtue?",

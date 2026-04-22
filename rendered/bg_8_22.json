@@ -9,216 +9,114 @@
   },
   "word_by_word": [
     {
-      "surface_form": "puruṣas",
+      "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "सर्वम्",
-        "स्थान"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "paras",
-      "lemma": "pṝ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "paraḥ",
+      "lemma": "para",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "परः निरतिशयः यस्मात् पुरुषात् न परं किञ्चित्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
+      "grammar": "vocative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "bhaktyā",
-      "lemma": "bhañj",
-      "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "लभ्यस्तु ज्ञानलक्षणया अनन्यया आत्मविषयया",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "लभ्यः।अथ आत्मयाथात्म्यविदः परमपुरुषनिष्ठस्य च साधारणीम् अर्चिरादिकां गतिम् आह द्वयोः अपि अर्चिरादिका गतिः श्रुतौ श्रुता",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "युक्तः [8",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "भक्त्या"
-      ]
+      "lemma": "bhakti",
+      "grammar": "instrumental feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "labhyas",
+      "surface_form": "labhyaḥ",
       "lemma": "labh",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "anani",
-      "lemma": "an",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "ananyayā",
+      "lemma": "ananya",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayā",
-      "lemma": "ā",
-      "grammar": "instrumental singular feminine noun",
+      "surface_form": "yasya",
+      "lemma": "yad",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "yāntas",
-      "lemma": "yā",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "antar",
+      "lemma": "antar",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sthāni",
-      "lemma": "sthā",
-      "grammar": "nominative plural neuter noun",
+      "lemma": "stha",
+      "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
-      "lemma": "bhū",
-      "grammar": "nominative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कार्यभूतानि कार्यं हि कारणस्य अन्तर्वर्ति भवति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "येन च परेण पुरुषेण सर्वम् इदं ततं स परपुरुषो अनन्यचेताः सततम् (गीता 8।14) इति अनन्यया भक्त्या लभ्यः।अथ आत्मयाथात्म्यविद",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "इति साक्षराणि",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स्थितानि",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "सर्वाणि कार्याणि",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "bhūta",
+      "grammar": "nominative neuter plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yena",
-      "lemma": "yā",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "yad",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sarvam",
       "lemma": "sarva",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इदं ततं स परपुरुषो अनन्यचेताः सततम् (गीता 8",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "सर्वम्"
-      ]
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tatam",
       "lemma": "tan",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -575,7 +473,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If ananyā (undivided) bhakti is the sole means, does any practice — karma, jñāna, aṣṭāṅga-yoga — have instrumental value, or does it only matter to the degree it reduces 'anyā' (other-directedness)?",

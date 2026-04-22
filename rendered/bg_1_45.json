@@ -9,128 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "aha",
-      "lemma": "aha",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "aho",
+      "lemma": "aho",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bata",
       "lemma": "bata",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mahat",
-      "lemma": "mah",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mahat",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāpam",
       "lemma": "pāpa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kartum",
       "lemma": "kṛ",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vyavasita",
-      "lemma": "vyavasita",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "vyavasitāḥ",
+      "lemma": "vyavasā",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vayam",
-      "lemma": "aj",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "mad",
+      "grammar": "nominative plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
       "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "rājya",
-      "lemma": "rāj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "rājya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sukha",
-      "lemma": "sukhi",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "sukha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "lobhena",
-      "lemma": "lubh",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "lobha",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hantum",
       "lemma": "han",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "su",
-      "lemma": "su",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sva",
+      "lemma": "sva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajanam",
-      "lemma": "aj",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "janam",
+      "lemma": "jana",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ut",
-      "lemma": "u",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "yatās",
-      "lemma": "yat",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "udyatāḥ",
+      "lemma": "udyam",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -349,7 +328,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Is Arjuna's self-diagnosis of mahāt pāpam (great sin) accurate, or is it itself a symptom of the moha (delusion) Kṛṣṇa will diagnose in 2.11?",

@@ -11,122 +11,77 @@
     {
       "surface_form": "pāñcajanyam",
       "lemma": "pāñcajanya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "hṛṣīkeśas",
+      "surface_form": "hṛṣīkeśaḥ",
       "lemma": "hṛṣīkeśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "devadattam",
       "lemma": "devadatta",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhanam",
-      "lemma": "dhana",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "jayas",
-      "lemma": "ji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "dhanaṃjayaḥ",
+      "lemma": "dhanaṃjaya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pauṇḍram",
       "lemma": "pauṇḍra",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dadhmau",
-      "lemma": "dhmā",
-      "grammar": "3rd person singular perfect active verb",
+      "lemma": "dham",
+      "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mahā",
-      "lemma": "mah",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "mahat",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śaṅkham",
       "lemma": "śaṅkha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhīm",
-      "lemma": "bhī",
-      "grammar": "accusative singular feminine noun",
+      "surface_form": "bhīma",
+      "lemma": "bhīma",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "karma",
+      "surface_form": "karmā",
       "lemma": "karman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यस्य सः वृकवदुदरं यस्य स वृकोदरो महाशङ्खं पौण्ड्रं दध्माविति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यस्य तादृशः वृकोदरत्वेन बह्वन्नपाकादतिबलिष्ठो भीमसेन इति कथितम्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "vṛkas",
-      "lemma": "vṛka",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "daras",
-      "lemma": "dṝ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vṛkodaraḥ",
+      "lemma": "vṛkodara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -364,7 +319,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If Kṛṣṇa is 'Hṛṣīkeśa' (lord of all senses) before the battle even begins, what does that imply about who is truly the agent of every action that follows in the Gītā?",

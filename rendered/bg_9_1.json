@@ -11,148 +11,91 @@
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "te",
-      "lemma": "tā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "tvad",
+      "grammar": "dative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "guhi",
-      "lemma": "guh",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "atamam",
-      "lemma": "tam",
-      "grammar": "1st person singular aorist active verb",
+      "surface_form": "guhyatamam",
+      "lemma": "guhyatama",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pravakṣyāmi",
       "lemma": "pravac",
-      "grammar": "1st person singular simple future active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "प्रवक्ष्यामि"
-      ]
-    },
-    {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "asūyave",
-      "lemma": "asūyu",
-      "grammar": "dative singular masculine noun",
+      "surface_form": "anasūyave",
+      "lemma": "anasūyu",
+      "grammar": "dative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vijñāna",
-      "lemma": "vijñā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "vijñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "विज्ञान"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "sahitam",
-      "lemma": "sah",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "sahita",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñātvā",
       "lemma": "jñā",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्राप्य मोक्ष्यसे अशुभात् संसारबन्धनात्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मत्प्राप्तिविरोधिनः सर्वस्माद् अशुभात् मोक्ष्यसे",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यज्ज्ञात्वा मोक्ष्यसेऽशुभात्"
-      ]
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "mokṣyase",
       "lemma": "muc",
-      "grammar": "2nd person singular simple future passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अशुभात् संसारबन्धनात्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सद्य एव संसारबन्धनादशुभात्सर्वदुःखहेतोः।",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यज्ज्ञात्वा मोक्ष्यसेऽशुभात्"
-      ]
+      "grammar": "future indicative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "aśubhāt",
       "lemma": "aśubha",
-      "grammar": "ablative singular masculine noun",
+      "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -491,7 +434,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa emphasise the recipient's freedom from envy (anasūyava) before disclosing the supreme secret — what does this say about the pre-conditions for receiving transformative knowledge?",

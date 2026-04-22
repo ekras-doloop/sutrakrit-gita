@@ -11,136 +11,100 @@
     {
       "surface_form": "hṛṣīkeśam",
       "lemma": "hṛṣīkeśa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tadā",
       "lemma": "tadā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vākyam",
-      "lemma": "vac",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "vākya",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "वाक्यम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "idam",
       "lemma": "idam",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āha",
-      "lemma": "brū",
-      "grammar": "3rd person singular present indicative active verb",
+      "lemma": "ah",
+      "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mahī",
-      "lemma": "mah",
-      "grammar": "nominative dual neuter noun",
+      "lemma": "mahī",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pate",
-      "lemma": "pat",
-      "grammar": "dative singular masculine noun",
+      "lemma": "pati",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय",
-        "यावदेतान्निरीक्षेऽहं ৷৷ रणसमुद्यमे",
-        "सेनयोरुभयोर्मध्ये"
-      ]
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "senayoḥ",
+      "lemma": "senā",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ayos",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ubhayos",
-      "lemma": "ubh",
-      "grammar": "Vibhakti.Sasthi dual masculine noun",
+      "surface_form": "ubhayoḥ",
+      "lemma": "ubhaya",
+      "grammar": "genitive feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madhye",
       "lemma": "madhya",
-      "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय",
-        "सेनयोरुभयोर्मध्ये"
-      ]
-    },
-    {
-      "surface_form": "ratham",
-      "lemma": "ratha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sthā",
-      "lemma": "sthā",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ratham",
+      "lemma": "ratha",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "āpaya",
-      "lemma": "āp",
-      "grammar": "2nd person singular imperative active verb",
+      "surface_form": "sthāpaya",
+      "lemma": "sthāpay",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यावदेतान्निरीक्षेऽहं ৷৷ रणसमुद्यमे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "acyuta",
       "lemma": "acyuta",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय"
-      ]
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -407,7 +371,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Arjuna use two divine epithets — Hṛṣīkeśa and Acyuta — in a single practical request to stop a chariot? What do these names signal about the nature of the action being asked for?",

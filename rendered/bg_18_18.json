@@ -10,176 +10,92 @@
   "word_by_word": [
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñeyam",
       "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular gdv noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "parijñā",
-      "lemma": "parijñā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ātā",
-      "lemma": "ātā",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "parijñātā",
+      "lemma": "parijñātṛ",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "trividhā",
       "lemma": "trividha",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्रिप्रकारा कर्मचोदना",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्मचोदना बोधबोद्धव्यबोद्धृयुक्तो ज्योतिष्टोमादिकर्मविधिः इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कर्मचोदना एतत् त्रिविधमपेक्ष्य कर्मविधिरिति त्रिविधेत्युच्यते",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "कर्मचोदना",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "कर्मचोदनेति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "karmacodanā",
-      "lemma": "karmacodanā",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। ज्ञानादीनां हि त्रयाणां संनिपाते हानोपादानादिप्रयोजनः सर्वकर्मारम्भः स्यात्। ततः पञ्चभिः अधिष्ठानादिभिः आरब्धं वाङ्मनः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "बोधबोद्धव्यबोद्धृयुक्तो ज्योतिष्टोमादिकर्मविधिः इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "एतत् त्रिविधमपेक्ष्य कर्मविधिरिति त्रिविधेत्युच्यते",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "कर्म क्रिया पुरुषव्यापाररूपा भावना तद्विषया चोदना प्रेरणा विधिरूपा शाब्दीभावनेत्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "karaṇam",
-      "lemma": "kṛ",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? परिज्ञाता",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। परिज्ञाता तस्याश्रयो भोक्तान्तःकरणोपाधिपरिकल्पितः। एतेषां त्रयाणां,सन्निपाते हि हानोपादानादिसर्वकर्मारम्भः स्यादत एतत्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "codanā",
+      "lemma": "codana",
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karaṇam",
+      "lemma": "karaṇa",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kartā",
-      "lemma": "kṛ",
-      "grammar": "3rd person singular periphrastic future active verb",
+      "lemma": "kartṛ",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "trividhas",
+      "surface_form": "trividhaḥ",
       "lemma": "trividha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "karmasaṅgrahas",
-      "lemma": "karmasaṃgraha",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "karma",
+      "lemma": "karman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṅgrahaḥ",
+      "lemma": "saṃgraha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -469,7 +385,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If every impulse to act (jnana, jneya, parijnata) is itself constituted by the gunas, can the decision to renounce action be any less guna-determined — or does the verse quietly dissolve the agent who would renounce?",

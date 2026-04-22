@@ -11,142 +11,84 @@
     {
       "surface_form": "yotsyamānān",
       "lemma": "yudh",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural future participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avekṣe",
-      "lemma": "avekṣā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "avekṣ",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अवेक्षे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ye",
-      "lemma": "yā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अवेक्षे"
-      ]
-    },
-    {
-      "surface_form": "ite",
-      "lemma": "iti",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "ete",
+      "lemma": "etad",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "atra",
       "lemma": "atra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "samāgatās",
+      "surface_form": "samāgatāḥ",
       "lemma": "samāgam",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhā",
-      "lemma": "dhā",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "dhārtarāṣṭrasya",
+      "lemma": "dhārtarāṣṭra",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "artar",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अवेक्षे"
-      ]
-    },
-    {
-      "surface_form": "aṣṭṛ",
-      "lemma": "aś",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "asya",
-      "lemma": "a",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "buddhes",
-      "lemma": "budh",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "durbuddheḥ",
+      "lemma": "durbuddhi",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yuddhe",
-      "lemma": "yudh",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युद्धभूमौ स्थित्वा प्रियं कर्तुमिच्छवो राजानः समागता दृश्यन्ते तेन तेषामौपाधिकमस्मत्प्रतियोगित्वमुपपन्नमित्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "नतु दुर्बुद्ध्यपनयनादौ तान् योत्स्यमानानहमवेक्षे उपलभे नतु सन्धिकामान्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "yuddha",
+      "grammar": "locative neuter singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "priya",
-      "lemma": "prī",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "priya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "cikīrṣavaḥ",
+      "lemma": "cikīrṣu",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -356,7 +298,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Arjuna wants to survey (avekṣe) those assembled 'to please' Duryodhana — what does it mean to organize one's life around pleasing someone whose intellect (buddhi) is corrupt (dur-)? How does priya-cikīrṣā (desire to please) differ from sevā (service)?",

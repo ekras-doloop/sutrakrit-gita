@@ -11,97 +11,84 @@
     {
       "surface_form": "adharma",
       "lemma": "adharma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhibhavāt",
-      "lemma": "abhyas",
-      "grammar": "ablative singular masculine noun",
+      "lemma": "abhibhava",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛṣṇa",
       "lemma": "kṛṣṇa",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "कृष्ण"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "praduṣyanti",
       "lemma": "praduṣ",
-      "grammar": "vocative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति कायिकदोषोक्तिः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kula",
       "lemma": "kula",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "striyas",
+      "surface_form": "striyaḥ",
       "lemma": "strī",
-      "grammar": "nominative plural feminine noun",
+      "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "strīṣu",
       "lemma": "strī",
-      "grammar": "locative plural feminine noun",
+      "grammar": "locative feminine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "duṣṭāsu",
       "lemma": "duṣ",
-      "grammar": "locative plural feminine noun",
+      "grammar": "locative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vārṣṇeya",
       "lemma": "vārṣṇeya",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "वार्ष्णेय"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "jāyate",
       "lemma": "jan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "varṇa",
       "lemma": "varṇa",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃkaras",
-      "lemma": "saṃskṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saṃkaraḥ",
+      "lemma": "saṃkara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -348,7 +335,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If adharma is the root cause and varṇa-saṃkara the downstream effect, what practical intervention point does this causal chain suggest — and is that intervention available to Arjuna at this moment?",

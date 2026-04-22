@@ -10,118 +10,99 @@
   "word_by_word": [
     {
       "surface_form": "akṣarāṇām",
-      "lemma": "akṣarā",
-      "grammar": "Vibhakti.Sasthi plural feminine noun",
+      "lemma": "akṣara",
+      "grammar": "genitive neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "akāras",
+      "surface_form": "akāraḥ",
       "lemma": "akāra",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asmi",
       "lemma": "as",
-      "grammar": "1st person singular present indicative active verb",
+      "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sās",
-      "lemma": "sa",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "dvandvaḥ",
+      "lemma": "dvaṃdva",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "māsikasya",
-      "lemma": "māsika",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "surface_form": "sāmāsikasya",
+      "lemma": "sāmāsika",
+      "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "akṣayas",
-      "lemma": "kṣi",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "akṣayaḥ",
+      "lemma": "akṣaya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kālas",
-      "lemma": "kal",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kālaḥ",
+      "lemma": "kāla",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dhātā",
-      "lemma": "dhā",
-      "grammar": "3rd person singular periphrastic future active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अहं कर्मफलस्य विधाता सर्वजगतः विश्वतोमुखः सर्वतोमुखः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "चाहम्।",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। सर्वकर्मफलविधाताहमित्यर्थः।",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "सर्वकर्मफलदातेश्वरोऽहमित्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "lemma": "dhātṛ",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "viśvatas",
+      "lemma": "viśvatas",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mukhaḥ",
+      "lemma": "mukha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -364,7 +345,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa choose akāra and dvandva specifically as his cosmic signatures — what do they share structurally that makes them emblematic of Brahman or Bhagavān?",

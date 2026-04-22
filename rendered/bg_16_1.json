@@ -11,147 +11,100 @@
     {
       "surface_form": "abhayam",
       "lemma": "abhaya",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "sattva",
+      "lemma": "sattva",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tva",
-      "lemma": "tva",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "śuddhis",
-      "lemma": "śudh",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saṃśuddhiḥ",
+      "lemma": "saṃśuddhi",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñāna",
-      "lemma": "jñā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान",
-        "ज्ञान-योग"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान-योग"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "vyavasthitis",
-      "lemma": "vyavasthā",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "vyavasthitiḥ",
+      "lemma": "vyavasthiti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dānam",
-      "lemma": "dā",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "dāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "दानम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "damas",
-      "lemma": "dam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "damaḥ",
+      "lemma": "dama",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yajñas",
-      "lemma": "yaj",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "yajñaḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "svādhi",
-      "lemma": "svādhī",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "svādhyāyaḥ",
+      "lemma": "svādhyāya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āyas",
-      "lemma": "i",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tapa",
-      "lemma": "tap",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ārjavam",
       "lemma": "ārjava",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ऋजुत्वं सर्वदा",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मनोवाक्कायकर्मवृत्तीनाम् एकनिष्ठा परेषु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "आर्जवम्"
-      ]
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     }
   ],
   "intertextual_panel": [
@@ -474,7 +427,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Bhagavan opens Chapter 16 by enumerating endowments rather than commandments — what does it mean that these qualities are framed as sampat (wealth, endowment) rather than as dharma (duty)?",

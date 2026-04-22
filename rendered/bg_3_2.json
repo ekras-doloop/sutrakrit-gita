@@ -9,175 +9,107 @@
   },
   "word_by_word": [
     {
-      "surface_form": "vyās",
-      "lemma": "vī",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "vyāmiśreṇa",
+      "lemma": "vyāmiśra",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "miśreṇa",
-      "lemma": "miśra",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "व्यामिश्रेणेव वाक्येन",
-        "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे"
-      ]
-    },
-    {
       "surface_form": "iva",
       "lemma": "iva",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vākyena",
-      "lemma": "vac",
-      "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अहम् अनुष्ठेयरूपं निश्चित्य आत्मनः श्रेयः प्राप्नुयाम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "त्वं मे मम मन्दबुद्धेर्वाक्यतात्पर्यापरिज्ञानाद्बुद्धिमन्तःकरणं मोहयसीव भ्रान्त्या योजयसीव",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "व्यामिश्रेणेव वाक्येन",
-        "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे"
-      ]
+      "lemma": "vākya",
+      "grammar": "instrumental neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "buddhim",
-      "lemma": "budh",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "buddhi",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "mohayasi",
+      "lemma": "mohay",
+      "grammar": "present indicative 2nd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "iva",
+      "lemma": "iva",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
-      "lemma": "mā",
-      "grammar": "locative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "genitive singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे",
-        "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ekam",
+      "lemma": "eka",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vada",
       "lemma": "vad",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "niścitya",
       "lemma": "niści",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "वद ब्रूहि येन ज्ञानेन कर्मणा वा अन्यतरेण श्रेयः अहम् आप्नुयां प्राप्नुयाम् इति यदुक्तं तदपि नोपपद्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आत्मनः श्रेयः प्राप्नुयाम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "वदेति। यद्वा इदमेव श्रेयःसाधनमिति निश्चित्य येनानुष्ठितेन श्रेयो मोक्षमहमाप्नुयां प्राप्स्यामि तदेवैकं निश्चित्य वदेत्य",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "वद। येनाधिकारनिश्चयपुरःसरमुक्तेन त्वया मया चानुष्ठितेन ज्ञानेन कर्मणा वैकेन श्रेयो मोक्षमहमाप्नुयां प्राप्तुं योग्यः स्",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्"
-      ]
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yena",
-      "lemma": "yā",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "yad",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्",
-        "व्यामिश्रेणेव वाक्येन",
-        "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "śreyas",
+      "surface_form": "śreyaḥ",
       "lemma": "śreyas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aham",
-      "lemma": "aha",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "mad",
+      "grammar": "nominative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āpnuyām",
       "lemma": "āp",
-      "grammar": "1st person singular optative active verb",
+      "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -639,7 +571,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When a teacher gives you two apparently contradictory instructions, how do you distinguish genuine ambiguity from a teaching that requires you to first determine your own eligibility (adhikāra) before the instruction resolves?",

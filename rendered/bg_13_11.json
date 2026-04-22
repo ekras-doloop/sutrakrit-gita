@@ -11,130 +11,112 @@
     {
       "surface_form": "adhyātma",
       "lemma": "adhyātma",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñāna",
-      "lemma": "jñā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अज्ञान",
-        "ज्ञान",
-        "ज्ञानम्"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "nityatvam",
-      "lemma": "nityatva",
-      "grammar": "nominative singular neuter noun",
+      "surface_form": "nitya",
+      "lemma": "nitya",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "tvam",
+      "lemma": "tva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tattva",
       "lemma": "tattva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "jñāna",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "artha",
+      "lemma": "artha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "darśanam",
-      "lemma": "dṛś",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "darśana",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etat",
       "lemma": "etad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñānam",
-      "lemma": "jñā",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। विविक्तदेशसेवित्वम्? विविक्तः स्वभावतः संस्कारेण वा अशुच्यादिभिः सर्पव्याघ्रादिभिश्च रहितः अरण्यनदीपुलिनदेवगृहादिभिर्व",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अध्यात्मज्ञानं तन्निष्ठत्वम्? तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानप्रयोजनं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
+      "lemma": "jñāna",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "proktam",
       "lemma": "pravac",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajñās",
-      "lemma": "jñā",
-      "grammar": "2nd person singular imperfect active verb",
+      "surface_form": "ajñānam",
+      "lemma": "ajñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
-    },
-    {
-      "surface_form": "nam",
-      "lemma": "na",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञानम्"
-      ]
     },
     {
       "surface_form": "yat",
-      "lemma": "yat",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "yad",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "at",
-      "lemma": "ad",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "atas",
+      "lemma": "atas",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anyathā",
       "lemma": "anyathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -500,7 +482,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If ajnana is defined structurally as whatever departs from this orientation — not as wrong beliefs but as scattered attention — what does this imply about how practitioners should evaluate their own state of practice?",

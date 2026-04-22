@@ -10,99 +10,113 @@
   "word_by_word": [
     {
       "surface_form": "sama",
-      "lemma": "sam",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "sama",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "duḥkha",
+      "lemma": "duḥkha",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kha",
-      "lemma": "khan",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "sukhaḥ",
+      "lemma": "sukha",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sukhas",
-      "lemma": "sukhi",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "svasthas",
+      "surface_form": "svasthaḥ",
       "lemma": "svastha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sama",
-      "lemma": "sam",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "sama",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "loṣṭa",
+      "lemma": "loṣṭa",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aśma",
+      "lemma": "aśman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "kāñcanaḥ",
+      "lemma": "kāñcana",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tulya",
       "lemma": "tulya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "priyā",
-      "lemma": "priyā",
-      "grammar": "nominative singular feminine noun",
+      "surface_form": "priya",
+      "lemma": "priya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āp",
-      "lemma": "āp",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "apriyaḥ",
+      "lemma": "apriya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "riya",
-      "lemma": "ri",
-      "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dhīras",
+      "surface_form": "dhīraḥ",
       "lemma": "dhīra",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tulya",
       "lemma": "tulya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "saṃstutis",
-      "lemma": "saṃstu",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "nindā",
+      "lemma": "nindā",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ātma",
+      "lemma": "ātman",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṃstutiḥ",
+      "lemma": "saṃstuti",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -343,7 +357,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If gold and clod are truly equal to the gunatita, does the tradition expect literal indifference to material loss, or is this a description of the internal state that does not prescribe external behavior?",

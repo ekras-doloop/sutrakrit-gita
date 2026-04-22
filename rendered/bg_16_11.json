@@ -10,111 +10,85 @@
   "word_by_word": [
     {
       "surface_form": "cintām",
-      "lemma": "cint",
-      "grammar": "Vibhakti.Sasthi plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अपरिमेयां च? न परिमातुं शक्यते यस्याः चिन्तायाः इयत्ता सा अपरिमेया? ताम् अपरिमेयाम्? प्रलयान्तां मरणान्ताम् उपाश्रिताः?",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अपरिमेयां",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "lemma": "cintā",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "aparimeyām",
       "lemma": "aparimeya",
-      "grammar": "accusative singular feminine noun",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pralaya",
       "lemma": "pralaya",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "प्रलय"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "antām",
-      "lemma": "anti",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "anta",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "up",
-      "lemma": "vap",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āśritās",
-      "lemma": "āśri",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "upāśritāḥ",
+      "lemma": "upāśri",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāma",
       "lemma": "kāma",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "upabhoga",
-      "lemma": "upabhuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "upabhoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "paramā",
+      "surface_form": "paramāḥ",
       "lemma": "parama",
-      "grammar": "nominative singular feminine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etāvat",
       "lemma": "etāvat",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
-      "lemma": "i",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "iti",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "niścitās",
+      "surface_form": "niścitāḥ",
       "lemma": "niści",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -348,7 +322,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "What is the difference between healthy planning and the 'boundless anxiety' (chinta aparimeya) the verse diagnoses — where does one shade into the other?",

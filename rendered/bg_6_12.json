@@ -9,179 +9,115 @@
   },
   "word_by_word": [
     {
-      "surface_form": "pratiṣṭha",
-      "lemma": "pratiṣṭhā",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "apya",
-      "lemma": "apya",
-      "grammar": "vocative singular neuter noun",
+      "surface_form": "pratiṣṭhāpya",
+      "lemma": "pratiṣṭhāpay",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kim",
-      "lemma": "kim",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "ka",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tat",
-      "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "rā",
-      "lemma": "ṛ",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "tatra",
+      "lemma": "tatra",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ekāgram",
       "lemma": "ekāgra",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "manaḥ",
+      "lemma": "manas",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtvā",
       "lemma": "kṛ",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यतचित्तेन्द्रियक्रियः चित्तं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "यतचित्तेन्द्रियक्रियः सर्वात्मना उपसंहृतचित्तेन्द्रियक्रियः आत्मविशुद्धये बन्धविमुक्तये योगं यु़ञ्ज्यात् आत्मावलोकनं कु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "योगं युञ्ज्यादभ्यसेत्",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "योगमभ्यसेदिति तत्राह एकाग्रं राजसतामसव्युत्थानाख्यप्रागुक्तभूमित्रयपरित्यागेनैकविषयकधारावाहिकानेकवृत्तियुक्तमुद्रिक्तसत",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "conv",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yata",
-      "lemma": "yat",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yam",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "citta",
-      "lemma": "cit",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "citta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "चित्त"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "indriya",
       "lemma": "indriya",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "upaviśyās",
+      "surface_form": "kriyaḥ",
+      "lemma": "kriyā",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "upaviśya",
       "lemma": "upaviś",
-      "grammar": "2nd person singular benedictive active verb",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ane",
-      "lemma": "an",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "āsane",
+      "lemma": "āsana",
+      "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yuñjyāt",
       "lemma": "yuj",
-      "grammar": "3rd person singular optative active verb",
+      "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogam",
-      "lemma": "yuj",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "योगम्"
-      ]
-    },
-    {
-      "surface_form": "āt",
-      "lemma": "a",
-      "grammar": "ablative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ma",
-      "lemma": "ma",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ātma",
+      "lemma": "ātman",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "योगम्"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "viśuddhaye",
       "lemma": "viśuddhi",
-      "grammar": "dative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उपशान्तये",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "grammar": "dative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -427,7 +363,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If ātma-viśuddhi (self-purification) is only preparatory for Advaita but is itself liberation for Viśiṣṭādvaita (bandha-vimukti), does this verse describe one stage or the final goal — and what changes in practice if it is the latter?",

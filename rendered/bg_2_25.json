@@ -9,136 +9,101 @@
   },
   "word_by_word": [
     {
-      "surface_form": "avyaktas",
+      "surface_form": "avyaktaḥ",
       "lemma": "avyakta",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "acintyas",
+      "surface_form": "acintyaḥ",
       "lemma": "acintya",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avika",
-      "lemma": "avika",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āryas",
-      "lemma": "ārya",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "avikāryaḥ",
+      "lemma": "avikārya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayam",
-      "lemma": "i",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
-      "grammar": "3rd person singular present indicative passive verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। तस्मात् एवं यथोक्तप्रकारेण एनम् आत्मानं विदित्वा त्वं न अनुशोचितुमर्हसि हन्ताहमेषाम् मयैते हन्यन्त इति।। आत्मनः अनित्य",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "वेदेन सोपकरणेनाच्छेद्याव्यक्तादिरूप एवायमुच्यते तात्पर्येण प्रतिपाद्यते अतो न वेदस्य तत्प्रतिपादकस्यापि छेद्यत्वादिप्रत",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative pass 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "evam",
-      "lemma": "eva",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "evam",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viditvā",
       "lemma": "vid",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्यक्त"
-      ]
-    },
-    {
-      "surface_form": "īn",
-      "lemma": "i",
-      "grammar": "accusative plural masculine noun",
+      "surface_form": "enam",
+      "lemma": "enad",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "am",
-      "lemma": "a",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anuśocitum",
+      "lemma": "anuśuc",
+      "grammar": "infinitive",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "arhasi",
       "lemma": "arh",
-      "grammar": "2nd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आत्मवेदिनस्ते शोकयोग्यतैव न स्यादिति भावः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "present indicative 2nd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -401,7 +366,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the self is literally unperceivable and unthinkable, how am I supposed to 'know' it — the verse says 'having known it thus' (viditvā), but knowing by what means?",

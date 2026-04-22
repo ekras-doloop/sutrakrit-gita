@@ -11,140 +11,105 @@
     {
       "surface_form": "indriyāṇi",
       "lemma": "indriya",
-      "grammar": "vocative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "श्रोत्रादीनि पञ्च देहं स्थूलं बाह्यं परिच्छिन्नं",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "आहुः यत इन्द्रियेषु विषयव्यापृतेषु आत्मनि ज्ञानं न प्रवर्तते इन्द्रियेभ्यः परं मनः इन्द्रियेषु उपरतेषु",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "पराणि इत्यस्य पूर्वेण सङ्गतिर्न दृश्यते अत आह शत्रुहनन इति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "देहादिभ्यो ग्राह्येभ्यः पराणि श्रेष्ठान्याहुः",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "इन्द्रियाणि"
-      ]
+      "grammar": "accusative neuter plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "parāṇi",
-      "lemma": "pṝ",
-      "grammar": "nominative plural neuter noun",
+      "lemma": "para",
+      "grammar": "accusative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āhus",
-      "lemma": "brū",
-      "grammar": "3rd person plural present indicative active verb",
+      "surface_form": "āhuḥ",
+      "lemma": "ah",
+      "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "indriyebhyas",
+      "surface_form": "indriyebhyaḥ",
       "lemma": "indriya",
-      "grammar": "dative plural masculine noun",
+      "grammar": "ablative neuter plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "param",
-      "lemma": "pṝ",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "para",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "manas",
-      "lemma": "man",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "manasas",
+      "surface_form": "manaḥ",
       "lemma": "manas",
-      "grammar": "ablative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "manasaḥ",
+      "lemma": "manas",
+      "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parā",
-      "lemma": "parā",
-      "grammar": "nominative singular feminine noun",
+      "lemma": "para",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "buddhis",
-      "lemma": "budh",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "buddhiḥ",
+      "lemma": "buddhi",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "buddhes",
-      "lemma": "budh",
-      "grammar": "ablative singular masculine noun",
+      "surface_form": "buddheḥ",
+      "lemma": "buddhi",
+      "grammar": "ablative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "paratas",
       "lemma": "paratas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "sas",
-      "lemma": "sa",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "saḥ",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -425,7 +390,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If manas activates the senses and buddhi governs manas, why does disciplining the senses (prāṇāyāma, āsana) feel more tractable in practice than quieting manas — what does the hierarchy predict about the order of difficulty?",

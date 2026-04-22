@@ -9,132 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "dambhas",
+      "surface_form": "dambhaḥ",
       "lemma": "dambha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "darpas",
+      "surface_form": "darpaḥ",
       "lemma": "darpa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "atimānas",
-      "lemma": "atiman",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "atimānaḥ",
+      "lemma": "atimāna",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "krodhas",
+      "surface_form": "krodhaḥ",
       "lemma": "krodha",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pāruṣyam",
       "lemma": "pāruṣya",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ajñās",
-      "lemma": "jñā",
-      "grammar": "2nd person singular imperfect active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "nam",
-      "lemma": "na",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "ajñānam",
+      "lemma": "ajñāna",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "abhijātasya",
       "lemma": "abhijan",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
+      "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। किम् अभिजातस्येति? आह -- संपदम् आसुरीम् असुराणां संपत् आसुरी ताम् अभिजातस्य इत्यर्थः।।अनयोः संपदोः कार्यम् उच्यते --,",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
-    },
-    {
-      "surface_form": "sam",
-      "lemma": "sa",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "padam",
-      "lemma": "pad",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "saṃpadam",
+      "lemma": "sampad",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "āsus",
-      "lemma": "as",
-      "grammar": "3rd person plural perfect active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "īm",
-      "lemma": "ī",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "āsurīm",
+      "lemma": "āsura",
+      "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -521,7 +489,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does the verse list dambha (pretense) first rather than krodha (anger) — what does the ordering imply about which vice is most dangerous or most foundational to the asuri orientation?",

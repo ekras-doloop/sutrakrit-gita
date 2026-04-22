@@ -9,125 +9,114 @@
   },
   "word_by_word": [
     {
-      "surface_form": "karśayantas",
-      "lemma": "karśi",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "karśayantaḥ",
+      "lemma": "karśay",
+      "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śarīra",
       "lemma": "śarīra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "stham",
       "lemma": "stha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhūta",
-      "lemma": "bhū",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "bhūta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "grāmam",
-      "lemma": "grāmi",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "grāma",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "acetasas",
+      "surface_form": "acetasaḥ",
       "lemma": "acetas",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अचेतसः"
-      ]
-    },
-    {
-      "surface_form": "eva",
-      "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "antas",
-      "lemma": "anti",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "eva",
+      "lemma": "eva",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "antar",
+      "lemma": "antar",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śarīra",
       "lemma": "śarīra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "stham",
       "lemma": "stha",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tān",
-      "lemma": "tam",
-      "grammar": "nominative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viddhi",
       "lemma": "vid",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āsura",
       "lemma": "āsura",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। निश्चयः श्रद्धा। कर्मधारयपक्षे हि सामानाधिकरण्यं गौणमिति कल्प्यम् मत्वर्थीयप्रत्ययो वा तथा च गौरवमिति भावः। ननु प्",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        }
-      ],
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "niścayān",
-      "lemma": "niści",
-      "grammar": "accusative plural masculine noun",
+      "lemma": "niścaya",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -343,7 +332,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "When personal discipline — diet, fasting, intense practice — is it possible to harm the very divine presence we imagine we are approaching through that discipline?",

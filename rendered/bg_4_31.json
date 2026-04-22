@@ -10,214 +10,106 @@
   "word_by_word": [
     {
       "surface_form": "yajña",
-      "lemma": "yaj",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्"
-      ]
-    },
-    {
-      "surface_form": "śiṣṭām",
-      "lemma": "śiṣ",
-      "grammar": "accusative singular feminine noun",
+      "lemma": "yajña",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ṛta",
-      "lemma": "ṛ",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "śiṣṭa",
+      "lemma": "śās",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "bhujas",
+      "surface_form": "amṛta",
+      "lemma": "amṛta",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "bhujaḥ",
       "lemma": "bhuj",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yānti",
       "lemma": "yā",
-      "grammar": "3rd person plural present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "गच्छन्ति ब्रह्म सनातनं चिरन्तनं मुमुक्षवश्चेत् कालातिक्रमापेक्षया इति सामर्थ्यात् गम्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। अयज्ञस्य महायज्ञादिपूर्वकनित्यनैमित्तिककर्मरहितस्य न अयं लोकः न प्राकृतलोकः प्राकृतलोकसम्बन्धिधर्मार्थकामाख्यः पुरुषार",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। तदकरणे दोषदर्शनेन व्यतिरेचयति नायमिति। अयमल्पानन्दोऽपि लोको देहो वाऽयज्ञस्य न भवति ततोऽन्यो दिव्यस्तु कुतः इति कर्त्तव",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्",
-        "यान्ति ब्रह्म सनातनम्"
-      ]
+      "grammar": "present indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सनातनं चिरन्तनं मुमुक्षवश्चेत् कालातिक्रमापेक्षया इति सामर्थ्यात् गम्यते",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यान्ति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "साक्षात् परम्परया",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ज्ञानद्वारेण प्राप्नुवन्ति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "ब्रह्म",
-        "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्",
-        "यान्ति ब्रह्म सनातनम्"
-      ]
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "sanātanam",
       "lemma": "sanātana",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्",
-        "यान्ति ब्रह्म सनातनम्"
-      ]
-    },
-    {
-      "surface_form": "nāyam",
-      "lemma": "nī",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "la",
-      "lemma": "la",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "uk",
-      "lemma": "vac",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "ayam",
+      "lemma": "idam",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "as",
-      "lemma": "a",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "lokaḥ",
+      "lemma": "loka",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "asti",
       "lemma": "as",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ayajñasya",
       "lemma": "ayajña",
-      "grammar": "Vibhakti.Sasthi singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "महायज्ञादिपूर्वकनित्यनैमित्तिककर्मरहितस्य न अयं लोकः न प्राकृतलोकः प्राकृतलोकसम्बन्धिधर्मार्थकामाख्यः पुरुषार्थः न सिध्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "grammar": "genitive masculine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kutas",
-      "lemma": "ku",
-      "grammar": "nominative plural masculine noun",
+      "lemma": "kutas",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "anyaḥ",
+      "lemma": "anya",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "kurus",
-      "lemma": "kuru",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "attam",
-      "lemma": "ad",
-      "grammar": "2nd person dual imperative active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "kurusattama",
+      "lemma": "kurusattama",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -510,7 +402,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "Why does Kṛṣṇa frame the consequence of neglecting yajña as the loss of 'this world' first — before any higher world — rather than simply threatening the loss of mokṣa? What does this ordering reveal about the verse's intended audience?",

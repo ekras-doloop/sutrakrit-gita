@@ -9,151 +9,100 @@
   },
   "word_by_word": [
     {
-      "surface_form": "śuk",
-      "lemma": "śuc",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "la",
-      "lemma": "la",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "śukla",
+      "lemma": "śukla",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṛṣṇe",
-      "lemma": "kṛṣṇā",
-      "grammar": "nominative dual feminine noun",
+      "lemma": "kṛṣṇa",
+      "grammar": "nominative feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "gatī",
-      "lemma": "gam",
-      "grammar": "nominative dual masculine noun",
+      "lemma": "gati",
+      "grammar": "nominative feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "a",
-      "lemma": "a",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "ete",
+      "lemma": "etad",
+      "grammar": "nominative feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ite",
-      "lemma": "iti",
-      "grammar": "vocative singular feminine noun",
+      "surface_form": "jagataḥ",
+      "lemma": "jagant",
+      "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "jagatas",
-      "lemma": "jagat",
-      "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "śa",
-      "lemma": "śa",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "शाश्वत"
-      ]
-    },
-    {
-      "surface_form": "aśvat",
-      "lemma": "śvi",
-      "grammar": "3rd person singular aorist active verb",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "e",
-      "lemma": "a",
-      "grammar": "locative singular masculine noun",
+      "surface_form": "śāśvate",
+      "lemma": "śāśvata",
+      "grammar": "nominative feminine dual noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mate",
       "lemma": "man",
-      "grammar": "locative singular masculine noun",
+      "grammar": "nominative feminine dual participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ek",
-      "lemma": "ej",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ayā",
-      "lemma": "ā",
-      "grammar": "instrumental singular feminine noun",
+      "surface_form": "ekayā",
+      "lemma": "eka",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yāti",
-      "lemma": "yat",
-      "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ana",
-      "lemma": "an",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āvṛttim",
-      "lemma": "āvṛt",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "an",
-      "lemma": "añji",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "yayā",
       "lemma": "yā",
-      "grammar": "instrumental singular feminine noun",
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anāvṛttim",
+      "lemma": "anāvṛtti",
+      "grammar": "accusative feminine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "anyayā",
+      "lemma": "anya",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "āvartate",
       "lemma": "āvṛt",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "punar",
       "lemma": "punar",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -405,7 +354,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If both paths are śāśvata (eternal), is saṃsāra itself eternal — and what does that imply for the urgency of choosing a path in this birth?",

@@ -10,234 +10,100 @@
   "word_by_word": [
     {
       "surface_form": "mām",
-      "lemma": "mā",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "lemma": "mad",
+      "grammar": "accusative singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yas",
-      "lemma": "ī",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yaḥ",
+      "lemma": "yad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "avi",
-      "lemma": "o",
-      "grammar": "locative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "abhicāreṇa",
-      "lemma": "abhicāra",
-      "grammar": "instrumental singular masculine noun",
+      "surface_form": "avyabhicāreṇa",
+      "lemma": "avyabhicāra",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhakti",
-      "lemma": "bhañj",
-      "grammar": "nominative singular neuter noun",
+      "lemma": "bhakti",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "भक्ति"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "yogena",
-      "lemma": "yuj",
-      "grammar": "instrumental singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sevate",
       "lemma": "sev",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? सः गुणान् समतीत्य एतान् यथोक्तान् ब्रह्मभूयाय? भवनं भूयः? ब्रह्मभूयाय ब्रह्मभवनाय मोक्षाय कल्पते समर्थो भवति इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "? स एतान् सत्त्वादीन् गुणान् दुरत्ययान् अतीत्य ब्रह्मभूयाय ब्रह्मत्वाय कल्पते ब्रह्मभावयोग्यो भवति? यथावस्थितम् आत्मानम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "? स गुणानेतानतीत्य ब्रह्मभूयायाक्षरब्रह्मभावाय कल्पते",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स एतान्गुणान्समतीत्य सम्यगतिक्रम्य ब्रह्मभूयाय ब्रह्मभावाय मोक्षाय कल्पते योग्यो भवति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "सदा चिन्तयति स मद्भक्त एतान् प्रागुक्तान् गुणान् समतीत्य,सम्यगतिक्रम्य द्वैतदर्शनेन बाधित्वा ब्रह्मभूयाय ब्रह्मभवनाय मो",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sa",
-      "lemma": "sa",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "tad",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "guṇān",
       "lemma": "guṇa",
-      "grammar": "accusative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समतीत्य एतान् यथोक्तान् ब्रह्मभूयाय? भवनं भूयः? ब्रह्मभूयाय ब्रह्मभवनाय मोक्षाय कल्पते समर्थो भवति इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "दुरत्ययान् अतीत्य ब्रह्मभूयाय ब्रह्मत्वाय कल्पते ब्रह्मभावयोग्यो भवति? यथावस्थितम् आत्मानम् अमृतम् अव्ययं प्राप्नोति इत",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "समतीत्य,सम्यगतिक्रम्य द्वैतदर्शनेन बाधित्वा ब्रह्मभूयाय ब्रह्मभवनाय मोक्षाय कल्पते समर्थो भवति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "samati",
-      "lemma": "sam",
-      "grammar": "locative singular masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ityā",
-      "lemma": "iti",
-      "grammar": "instrumental singular feminine noun",
+      "surface_form": "samatītya",
+      "lemma": "samatī",
+      "grammar": "conv",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etān",
       "lemma": "etad",
-      "grammar": "accusative plural masculine noun",
+      "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ब्रह्म"
-      ]
-    },
-    {
-      "surface_form": "bhūyās",
-      "lemma": "bhū",
-      "grammar": "2nd person singular benedictive active verb",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ya",
-      "lemma": "yad",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "bhūyāya",
+      "lemma": "bhūya",
+      "grammar": "dative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kalpate",
       "lemma": "kṛp",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "समर्थो भवति इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ब्रह्मभावयोग्यो भवति? यथावस्थितम् आत्मानम् अमृतम् अव्ययं प्राप्नोति इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "। एतेन अव्यभिचारिभक्तिमर्यादया सेवतामपि ब्रह्मात्मप्राप्तिरुक्तानुषङ्गिकी अव्यभिचारिभक्तियोगोक्तिः। यथा च श्रुतौ -- यो व",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "योग्यो भवति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "समर्थो भवति",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "grammar": "present indicative 3rd person singular verb",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
@@ -528,7 +394,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If avyabhicharena (without deviation) is the condition, what counts as deviation — distraction of mind, mixed motivation, or lapse into sense-identification — and how does each school diagnose the failure mode differently?",

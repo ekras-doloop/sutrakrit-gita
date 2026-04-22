@@ -11,114 +11,91 @@
     {
       "surface_form": "yāvat",
       "lemma": "yāvat",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्थावरजङ्गमात्मना सत्त्वं जायते तावत् क्षेत्रक्षेत्रज्ञ योरितरेतर संयोगाद्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "grammar": "",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃjāyate",
       "lemma": "saṃjan",
-      "grammar": "3rd person singular present indicative active verb",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kim",
-      "lemma": "kim",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "kiṃcid",
+      "lemma": "kaścit",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cit",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "sat",
-      "lemma": "sat",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "tvam",
-      "lemma": "tva",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "sattvam",
+      "lemma": "sattva",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sthāvara",
       "lemma": "sthāvara",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jaṅgamam",
-      "lemma": "jaṃgamya",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "jaṅgama",
+      "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣetra",
       "lemma": "kṣetra",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "क्षेत्र",
-        "क्षेत्रज्ञ"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "kṣetrajña",
       "lemma": "kṣetrajña",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "क्षेत्रज्ञ"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "saṃyogāt",
-      "lemma": "saṃyuj",
-      "grammar": "ablative singular masculine noun",
+      "lemma": "saṃyoga",
+      "grammar": "ablative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tat",
       "lemma": "tad",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viddhi",
       "lemma": "vid",
-      "grammar": "2nd person singular imperative active verb",
+      "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "विद्धि"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "bharatarṣabha",
-      "lemma": "bharataṛṣabha",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "bharata",
+      "lemma": "bharata",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ṛṣabha",
+      "lemma": "ṛṣabha",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -402,7 +379,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If every being without exception arises from the ksetra-ksetrajna sanyoga, what distinguishes the person who 'knows the field' from one who is merely 'in the field'?",

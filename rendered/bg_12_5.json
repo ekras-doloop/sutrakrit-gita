@@ -9,132 +9,86 @@
   },
   "word_by_word": [
     {
-      "surface_form": "kleśas",
+      "surface_form": "kleśaḥ",
       "lemma": "kleśa",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "adhikataraḥ",
+      "lemma": "adhikatara",
+      "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "teṣām",
       "lemma": "tad",
-      "grammar": "Vibhakti.Sasthi plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अव्यक्तासक्तचेतसाम्",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "अव्यक्तासक्तचेतसां क्लेशः तु अधिकतरः? अव्यक्ता हि गतिः अव्यक्तविषया मनोवृत्तिः देहवद्भिः देहात्माभिमानयुक्तैः दुःखेन अव",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "तेषाम्"
-      ]
+      "grammar": "genitive masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
-      "surface_form": "avyaktās",
+      "surface_form": "avyakta",
       "lemma": "avyakta",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "akta",
-      "lemma": "añj",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "āsakta",
+      "lemma": "āsañj",
+      "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "cetas",
-      "lemma": "cit",
-      "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "ām",
-      "lemma": "ā",
-      "grammar": "accusative singular masculine noun",
+      "surface_form": "cetasām",
+      "lemma": "cetas",
+      "grammar": "genitive masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avyaktā",
       "lemma": "avyakta",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "गतिर्दुःखं ह्यवाप्यते",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        }
-      ],
+      "grammar": "nominative feminine singular noun",
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "hi",
       "lemma": "hi",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "gatis",
-      "lemma": "gam",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "gatiḥ",
+      "lemma": "gati",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dus",
-      "lemma": "dus",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "duḥkham",
+      "lemma": "duḥkham",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "kham",
-      "lemma": "khan",
-      "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "dehavadbhis",
+      "surface_form": "dehavadbhiḥ",
       "lemma": "dehavat",
-      "grammar": "instrumental plural masculine noun",
+      "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ava",
-      "lemma": "u",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "अव्यक्त",
-        "अव्यक्तम्"
-      ]
-    },
-    {
-      "surface_form": "āpyate",
-      "lemma": "āp",
-      "grammar": "3rd person singular present indicative passive verb",
+      "surface_form": "avāpyate",
+      "lemma": "avāp",
+      "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -442,7 +396,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If the unmanifest Brahman and the personal God are ultimately the same reality, why does the path of worshipping form produce less suffering — is the difference in the goal or in the worshipper?",

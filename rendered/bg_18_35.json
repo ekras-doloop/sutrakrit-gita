@@ -10,161 +10,106 @@
   "word_by_word": [
     {
       "surface_form": "yayā",
-      "lemma": "yā",
-      "grammar": "instrumental singular feminine noun",
+      "lemma": "yad",
+      "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "svapnam",
-      "lemma": "svap",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "svapna",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "bhayam",
       "lemma": "bhaya",
-      "grammar": "nominative singular neuter noun",
+      "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "śokam",
-      "lemma": "śuc",
-      "grammar": "accusative singular masculine noun",
+      "lemma": "śoka",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "viṣādam",
       "lemma": "viṣāda",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "madam",
       "lemma": "mada",
-      "grammar": "accusative singular masculine noun",
+      "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
-      "grammar": "vocative singular neuter noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "स्वप्न"
-      ]
+      "theme_lists": []
     },
     {
       "surface_form": "vimuñcati",
       "lemma": "vimuc",
-      "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "धारयत्येव दुर्मेधाः कुत्सितमेधाः पुरुषः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "धारयति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तान्प्रति प्रयुक्ता मनःप्राणेन्द्रियक्रिया वा न विमुञ्चति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "पुनःपुनरावर्तयति",
-          "school": "bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "durmedhās",
-      "lemma": "durmedhas",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "dhṛtis",
-      "lemma": "dhṛ",
-      "grammar": "nominative singular masculine noun",
+      "surface_form": "durmedhāḥ",
+      "lemma": "durmedhas",
+      "grammar": "nominative masculine singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "dhṛtiḥ",
+      "lemma": "dhṛti",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sā",
-      "lemma": "sā",
-      "grammar": "nominative singular feminine noun",
+      "lemma": "tad",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
-      "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? तामसी",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "पार्थ"
-      ]
-    },
-    {
-      "surface_form": "tāmas",
-      "lemma": "tam",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ī",
-      "lemma": "i",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "tāmasī",
+      "lemma": "tāmasa",
+      "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -461,7 +406,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If tamasic dhrti holds sleep, fear, and grief as quasi-duties, what does it look like when a person mistakes their depression or anxiety for a stable identity they must protect?",

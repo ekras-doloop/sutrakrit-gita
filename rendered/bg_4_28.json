@@ -11,128 +11,105 @@
     {
       "surface_form": "dravya",
       "lemma": "dravya",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [
-        "द्रव्य"
-      ]
-    },
-    {
-      "surface_form": "yajñās",
-      "lemma": "yaj",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "tapa",
-      "lemma": "tap",
-      "grammar": "vocative singular masculine noun",
+      "surface_form": "yajñāḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "ū",
-      "lemma": "u",
-      "grammar": "nominative dual masculine noun",
+      "surface_form": "tapaḥ",
+      "lemma": "tapas",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yajñā",
-      "lemma": "yaj",
-      "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "याजका इत्यर्थ इत्युक्तं भवति",
-          "school": "dvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        }
-      ],
-      "theme_lists": [
-        "यज्ञाः"
-      ]
+      "surface_form": "yajñāḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
     },
     {
       "surface_form": "yoga",
-      "lemma": "yuj",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "yoga",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yajñās",
-      "lemma": "yaj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yajñāḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
-      "grammar": "nominative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "apare",
       "lemma": "apara",
-      "grammar": "nominative plural masculine noun",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "svādhi",
-      "lemma": "svādhī",
-      "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "āya",
-      "lemma": "a",
-      "grammar": "dative singular masculine noun",
+      "surface_form": "svādhyāya",
+      "lemma": "svādhyāya",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "jñāna",
-      "lemma": "jñā",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
-      "theme_lists": [
-        "ज्ञान",
-        "ज्ञानयज्ञ"
-      ]
+      "theme_lists": []
     },
     {
-      "surface_form": "yajñās",
-      "lemma": "yaj",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yajñāḥ",
+      "lemma": "yajña",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
-      "grammar": "vocative singular masculine noun",
+      "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
-      "surface_form": "yatayas",
-      "lemma": "yam",
-      "grammar": "nominative plural masculine noun",
+      "surface_form": "yatayaḥ",
+      "lemma": "yati",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃśita",
-      "lemma": "saṃśo",
-      "grammar": "vocative singular masculine noun",
+      "lemma": "saṃśita",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "vratāḥ",
+      "lemma": "vrata",
+      "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [],
       "theme_lists": []
     }
@@ -450,7 +427,8 @@
       ]
     },
     "extraction_date": "2026-04-21",
-    "score_methodology_documented_at": "Paper 1, Section II.B"
+    "score_methodology_documented_at": "Paper 1, Section II.B",
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
   },
   "so_what_questions": [
     "If sacrifice (yajña) can be performed through material giving, austerity, meditation, recitation, or knowledge — what makes any one of these more 'real' as offering than another?",
