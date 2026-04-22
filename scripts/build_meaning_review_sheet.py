@@ -49,11 +49,9 @@ def iast_to_slp1(s: str) -> str:
     return out
 
 
-def fetch_gloss(lemma_iast: str, cache: dict) -> str:
-    if lemma_iast in cache:
-        return cache[lemma_iast]
+def _direct_lookup(lemma_iast: str) -> str:
+    """Single MW lookup, no recursion."""
     if not lemma_iast or len(lemma_iast) <= 1:
-        cache[lemma_iast] = ""
         return ""
     key_slp = iast_to_slp1(lemma_iast)
     url = (
@@ -67,21 +65,118 @@ def fetch_gloss(lemma_iast: str, cache: dict) -> str:
         req = urllib.request.Request(url, headers={"User-Agent": "curl"})
         raw = urllib.request.urlopen(req, timeout=10).read().decode("utf-8", "replace")
     except Exception:
-        cache[lemma_iast] = ""
         return ""
     text = re.sub(r"<[^>]+>", " ", raw)
     text = unescape(re.sub(r"\s+", " ", text)).strip()
-    # Find first occurrence of ") " then take until first ";" or "[ID="
-    # Pattern: "... part-of-speech-info ) <GLOSS> [ID= or ;"
-    # Simpler: take everything between the first ")" after the lemma and the first ";" or "["
-    m = re.search(r"\)\s+([^;\[]+?)(?:[;\[]|,$)", text)
-    gloss = m.group(1).strip() if m else ""
-    # Tidy: remove "RV. &c. &c." and similar abbrev tails
+    # No body content → not in dictionary
+    if "Printed book page" not in text:
+        return ""
+    # MW entry shape (after HTML strip):
+    #   "<lemma> (H1) [Printed book page X,Y] <lemma> <pos> <gloss> [ ID=N ] ..."
+    # Strategy: find each "[ID=...]"-delimited chunk, pick first one with real gloss.
+    # Drop the leading "<lemma> (H1) [Printed book page X,Y]" header.
+    chunks = re.split(r"\[\s*ID\s*=\s*\d+\s*\]", text)
+    best = ""
+    for chunk in chunks:
+        # Strip "[Printed book page X,Y]"
+        c = re.sub(r"\[\s*Printed book page[^\]]+\]", " ", chunk)
+        # Strip "(H<n>)" headers
+        c = re.sub(r"\(\s*H\s*\d+\s*\)", " ", c)
+        # Drop initial lemma + part-of-speech tag (m./f./n./mfn./ind./cl. etc.)
+        c = re.sub(r"^\s*\S+\s+(?:m|f|n|mfn|ind|cl|adv|num|ifc|iic)\.\s*", "", c)
+        # Drop leading "<lemma> See col. 3 ." cross-reference stubs
+        if re.match(r"^\s*\S+\s+See\s+col", c):
+            continue
+        # Drop pure parentheticals at the start
+        c = re.sub(r"^\s*\([^)]*\)\s*", "", c).strip()
+        # Take up to the first ; or , followed by source-abbreviation pattern
+        m = re.search(r"^([^;]+?)(?:\s*,\s*(?:RV|MBh|Mn|R|L|Pāṇ|Pur|TS|ŚB|Hariv|Yājñ|Suśr|Kāv|MārkP|VP|BhP|VarBṛS|Ragh|Bhag|ChUp|TUp|MuṇḍUp|MaitrUp|Kaṭh|MahābhārayMBh|Vishn|Subh|Mn|Yājñ|Daś|Kum|Megh|Śak|Vikr|Mālav|Mudr|Vet)\.|\s*\[)", c)
+        if m:
+            best = m.group(1).strip(" ,.")
+        else:
+            # fallback: first ; or first 100 chars
+            best = re.split(r"[;\[]", c)[0].strip(" ,.")[:100]
+        if best and len(best) >= 5:
+            break
+    gloss = best
     gloss = re.sub(r"\b(RV|MBh|Mn|L|cf|i\.e|e\.g|esp|etc|&c)\.[\s,&c.]*", "", gloss).strip(" ,.")
     if len(gloss) > 100:
         gloss = gloss[:100].rsplit(" ", 1)[0] + "…"
-    cache[lemma_iast] = gloss
     return gloss
+
+
+def fetch_gloss(lemma_iast: str, cache: dict) -> str:
+    """MW lookup with compound-split fallback.
+
+    If the full lemma isn't in MW (common for samāsa not lexicalized as one entry),
+    try splitting it at every position and look up both halves. Pick the split
+    where both halves resolve and the second half is a known compound-final
+    (adhipa, pati, īśa, etc.) or both halves are at least 3 chars and both
+    return MW glosses.
+    """
+    if lemma_iast in cache:
+        return cache[lemma_iast]
+    if not lemma_iast or len(lemma_iast) <= 1:
+        cache[lemma_iast] = ""
+        return ""
+
+    direct = _direct_lookup(lemma_iast)
+    if direct:
+        cache[lemma_iast] = direct
+        return direct
+
+    # Sandhi-aware compound split fallback: try every position 3+ from each end.
+    # Common joints in samāsa: a+a → ā (so "janā" + "dhipa" came from jana + adhipa).
+    # We try both raw splits and ā-split-becomes-a+a reconstructions.
+    candidates = []
+    L = lemma_iast
+    n = len(L)
+    for i in range(3, n - 2):
+        left, right = L[:i], L[i:]
+        # Try as-is
+        candidates.append((left, right))
+        # Try ā at boundary → a + a (jana + adhipa from janādhipa)
+        if left.endswith("ā"):
+            candidates.append((left[:-1] + "a", "a" + right))
+        # Try ā at boundary → a + ī or ā + i (etc.) — a few more sandhi reversals
+        if left.endswith("e"):
+            candidates.append((left[:-1] + "a", "i" + right))
+            candidates.append((left[:-1] + "a", "ī" + right))
+        if left.endswith("o"):
+            candidates.append((left[:-1] + "a", "u" + right))
+            candidates.append((left[:-1] + "a", "ū" + right))
+
+    best = None
+    for left, right in candidates:
+        if len(left) < 2 or len(right) < 2:
+            continue
+        lg = _lookup_with_cache(left, cache)
+        rg = _lookup_with_cache(right, cache)
+        if lg and rg:
+            # Score: prefer roughly balanced splits with both glosses present
+            score = abs(len(left) - len(right))
+            if best is None or score < best[0]:
+                best = (score, left, right, lg, rg)
+                if score == 0:  # perfect balance, stop
+                    break
+
+    if best:
+        _, left, right, lg, rg = best
+        result = f"{left} ({lg.split(',')[0][:40]}) + {right} ({rg.split(',')[0][:40]})"
+        cache[lemma_iast] = result
+        return result
+
+    cache[lemma_iast] = ""
+    return ""
+
+
+def _lookup_with_cache(lemma_iast: str, cache: dict) -> str:
+    """Direct lookup but use cache to avoid duplicates during compound search."""
+    if lemma_iast in cache:
+        return cache[lemma_iast]
+    g = _direct_lookup(lemma_iast)
+    cache[lemma_iast] = g
+    return g
 
 
 def get_shankara_rendering(verse_id: str) -> str:
@@ -98,25 +193,13 @@ def main() -> int:
     verses_sorted = sorted(verses, key=lambda x: tuple(int(p) for p in x["verse_id"].split(".")))
     multitask = json.loads((RUNS / "byt5_multitask.json").read_text())
 
+    # Use the curated gloss dict (hand-written, accurate). Cologne MW scraping
+    # produced too many false negatives and homonym mis-pulls.
+    curated_path = ROOT / "data" / "parser_eval" / "curated_glosses.json"
     cache = {}
-    if GLOSS_CACHE.exists():
-        cache = json.loads(GLOSS_CACHE.read_text())
-
-    # Collect unique lemmas
-    unique_lemmas = sorted({
-        t["lemma"] for vid, toks in multitask.items() for t in toks if t.get("lemma")
-    })
-    print(f"Looking up {len(unique_lemmas)} unique lemmas in MW...", file=sys.stderr)
-    t0 = time.time()
-    for i, lem in enumerate(unique_lemmas):
-        if lem in cache:
-            continue
-        fetch_gloss(lem, cache)
-        if (i + 1) % 25 == 0:
-            print(f"  {i+1}/{len(unique_lemmas)} ({time.time()-t0:.1f}s)", file=sys.stderr)
-            GLOSS_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2))
-    GLOSS_CACHE.write_text(json.dumps(cache, ensure_ascii=False, indent=2))
-    print(f"  done in {time.time()-t0:.1f}s", file=sys.stderr)
+    if curated_path.exists():
+        curated = json.loads(curated_path.read_text())
+        cache = {k: v for k, v in curated.items() if not k.startswith("_")}
 
     lines = []
     lines.append("# Substrate parser eval — meaning-first review sheet\n")

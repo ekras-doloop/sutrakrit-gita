@@ -1,23 +1,17 @@
-# Substrate parser eval — meaning-first review sheet
+# Substrate parser eval — meaning-first review sheet (v2: curated glosses)
 
-**What you are doing:** scanning whether the new Sanskrit parser correctly identifies the words inside each verse.
+**Glosses are now hand-curated** — `vyavasāya`, `vipratipatti`, `buddhi`, `janādhipa` etc. all properly defined. Cologne MW scraping was abandoned (too many false negatives).
 
-**What is on each verse:**
-1. The verse in IAST so you can read it.
-2. Śaṅkara's English rendering — so you know what the verse means.
-3. **A list of words the parser found**, each with the parser-lemma + a 1-line dictionary gloss (Monier-Williams).
+**Goal:** does the parser identify words that mean what the verse needs them to mean?
 
-**What you are looking for:** rows where the parser-lemma is *clearly wrong for this verse* — meaning, the dictionary gloss has nothing to do with what the verse needs. Mark those `→ X`.
+**How:** For each verse, read Śaṅkara's English rendering. Then scan the parser-lemma list. Each row is `parser-lemma — one-line gloss`. Mark wrong rows `→ X correction`. Leave correct rows alone.
 
-**Two failure modes to distinguish:**
-- `→ X parser` — the parser identified the wrong word (e.g., it returned `eka` where the verse needs `āyus`).
-- `→ X gloss` — the parser is right but the dictionary returned the wrong entry for a homonym (e.g., `ca` shown as the consonant-letter ca rather than the conjunction "and"). This is NOT a parser error; it tells me to fix the gloss-fetcher.
+**Stop early.** If 10 verses look clean, substrate is publishable. If full of errors, also stop and tell me.
 
-If a row looks right, or you cannot judge, leave it alone.
-
-**Time:** 50 verses, ~756 words. If the first 10 verses look mostly clean, the substrate is publishable — stop early. If the first 10 are full of errors, also stop and tell me.
+**50 verses · ~756 words total**
 
 ---
+
 
 ## BG 1.16
 
@@ -30,17 +24,17 @@ _ananta-vijayaṃ rājā kuntī-putro yudhiṣṭhiraḥ | nakulaḥ sahadevaś 
 
 **Words the parser found:**
 
-- **ananta** _(seen as ananta)_ — _(no MW gloss; not in dictionary)_
-- **vijaya** _(seen as vijayam)_ — year of Jupiter's cycle, VarBṛS
-- **rājan** _(seen as rājā)_ — in Tat-puruṣa s
-- **kuntī** _(seen as kuntī)_ — _(no MW gloss; not in dictionary)_
-- **putra** _(seen as putraḥ)_ — a son, child, (also the young of an animal
-- **yudhiṣṭhira** _(seen as yudhiṣṭhiraḥ)_ — _(no MW gloss; not in dictionary)_
-- **nakula** _(seen as nakulaḥ)_ — of a partic. colour (perhaps that of the ichneumon), TS
-- **sahadeva** _(seen as sahadevaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **sughoṣa** _(seen as sughoṣa)_ — _(no MW gloss; not in dictionary)_
-- **maṇipuṣpaka** _(seen as maṇipuṣpakau)_ — _(no MW gloss; not in dictionary)_
+- **ananta** _(seen as ananta)_ — endless, infinite; an epithet of Viṣṇu
+- **vijaya** _(seen as vijayam)_ — victory, conquest
+- **rājan** _(seen as rājā)_ — king, ruler
+- **kuntī** _(seen as kuntī)_ — Kuntī (mother of the Pāṇḍavas)
+- **putra** _(seen as putraḥ)_ — son, child
+- **yudhiṣṭhira** _(seen as yudhiṣṭhiraḥ)_ — Yudhiṣṭhira (the eldest Pāṇḍava, son of Dharma)
+- **nakula** _(seen as nakulaḥ)_ — Nakula (the fourth Pāṇḍava); a mongoose
+- **sahadeva** _(seen as sahadevaḥ)_ — Sahadeva (the fifth Pāṇḍava)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **sughoṣa** _(seen as sughoṣa)_ — Sughoṣa (Nakula's conch, lit. well-sounding)
+- **maṇipuṣpaka** _(seen as maṇipuṣpakau)_ — Maṇipuṣpaka (Sahadeva's conch, lit. jewel-blossomed)
 
 
 ## BG 1.46
@@ -54,18 +48,18 @@ _yadi mām apratīkāram aśastraṃ śastra-pāṇayaḥ | dhārtarāṣṭrā 
 
 **Words the parser found:**
 
-- **yadi** _(seen as yadi)_ — if, in case that, In the earlier language yadi may be joined with Indic. Subj. or Leṭ Pot. , or…
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **apratīkāra** _(seen as apratīkāram)_ — _(no MW gloss; not in dictionary)_
-- **aśastra** _(seen as aśastram)_ — _(no MW gloss; not in dictionary)_
-- **śastra** _(seen as śastra)_ — _(no MW gloss; not in dictionary)_
-- **pāṇi** _(seen as pāṇayaḥ)_ — _(no MW gloss; not in dictionary)_
-- **dhārtarāṣṭra** _(seen as dhārtarāṣṭrāḥ)_ — _(no MW gloss; not in dictionary)_
-- **raṇa** _(seen as raṇe)_ — _(no MW gloss; not in dictionary)_
-- **han** _(seen as hanyuḥ)_ — hanti (3. du. hataH , 3. pl. Gnanti
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **kṣematara** _(seen as kṣemataram)_ — _(no MW gloss; not in dictionary)_
-- **bhū** _(seen as bhavet)_ — Bavati (rarely Ā. °te
+- **yadi** _(seen as yadi)_ — if
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **apratīkāra** _(seen as apratīkāram)_ — without resistance, defenseless
+- **aśastra** _(seen as aśastram)_ — weaponless, unarmed
+- **śastra** _(seen as śastra)_ — weapon
+- **pāṇi** _(seen as pāṇayaḥ)_ — hand
+- **dhārtarāṣṭra** _(seen as dhārtarāṣṭrāḥ)_ — son of Dhṛtarāṣṭra (esp. Duryodhana et al.)
+- **raṇa** _(seen as raṇe)_ — battle, war
+- **han** _(seen as hanyuḥ)_ — to slay, kill, strike (verbal root)
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **kṣematara** _(seen as kṣemataram)_ — more conducive to well-being
+- **bhū** _(seen as bhavet)_ — to be, become; the earth (verbal root / noun)
 
 
 ## BG 2.12
@@ -79,26 +73,26 @@ _kutas te aśocyāḥ ? yato nityāḥ | katham ? na tv evāhaṃ jātu nāsaṃ
 
 **Words the parser found:**
 
-- **kutas** _(seen as kutas)_ — from no side
-- **tad** _(seen as te)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **aśocya** _(seen as aśocyāḥ)_ — _(no MW gloss; not in dictionary)_
-- **yatas** _(seen as yatas)_ — from which or what, whence, whereof, wherefrom, ( yato yataH , ‘from whichever’, ‘from whatever’,…
-- **nitya** _(seen as nityāḥ)_ — innate, native, iii, 13941
-- **katham** _(seen as katham)_ — _(no MW gloss; not in dictionary)_
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **tu** _(seen as tu)_ — to have authority, be strong, i, 94, 2 ( pf. tUtAva Naigh. iv, 1
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **mad** _(seen as aham)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **jātu** _(seen as jātu)_ — at all, ever, x, 27, 11
-- **as** _(seen as āsam)_ — to be, live, exist, be present
-- **tvad** _(seen as tvam)_ — &c. See col. 2
-- **idam** _(seen as ime)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **janādhipa** _(seen as janādhipāḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **bhū** _(seen as bhaviṣyāmaḥ)_ — Bavati (rarely Ā. °te
-- **sarva** _(seen as sarve)_ — whole, entire, all, every ( m. sg. ‘every one’
-- **atas** _(seen as atas)_ — _(no MW gloss; not in dictionary)_
-- **param** _(seen as param)_ — far, distant, remote (in space), opposite, ulterior, farther than, beyond, on the other or farther…
+- **kutas** _(seen as kutas)_ — from where? whence?
+- **tad** _(seen as te)_ — that (distal demonstrative); also 3rd-person pronoun
+- **aśocya** _(seen as aśocyāḥ)_ — not to be grieved over
+- **yatas** _(seen as yatas)_ — whence, since, because
+- **nitya** _(seen as nityāḥ)_ — eternal, permanent, daily
+- **katham** _(seen as katham)_ — how?
+- **na** _(seen as na)_ — not (negation particle)
+- **tu** _(seen as tu)_ — but, on the other hand (particle)
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **mad** _(seen as aham)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **jātu** _(seen as jātu)_ — ever, at any time
+- **as** _(seen as āsam)_ — to be (verbal root)
+- **tvad** _(seen as tvam)_ — you (2nd person pronoun stem)
+- **idam** _(seen as ime)_ — this (proximal demonstrative)
+- **janādhipa** _(seen as janādhipāḥ)_ — lord of people, king (jana + adhipa)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **bhū** _(seen as bhaviṣyāmaḥ)_ — to be, become; the earth (verbal root / noun)
+- **sarva** _(seen as sarve)_ — all, entire
+- **atas** _(seen as atas)_ — from this, hence, therefore
+- **param** _(seen as param)_ — supreme, ultimate; beyond
 
 
 ## BG 2.41
@@ -112,19 +106,19 @@ _vyavasāyātmikā buddhir ekeha kuru-nandana | bahu-śākhā hy anantāś ca bu
 
 **Words the parser found:**
 
-- **vyavasāya** _(seen as vyavasāya)_ — _(no MW gloss; not in dictionary)_
-- **ātmaka** _(seen as ātmikā)_ — _(no MW gloss; not in dictionary)_
-- **buddhi** _(seen as buddhiḥ)_ — _(no MW gloss; not in dictionary)_
-- **eka** _(seen as ekā)_ — alone, solitary, single, happening only once, that one only (frequently ifc
-- **iha** _(seen as iha)_ — _(no MW gloss; not in dictionary)_
-- **kuru** _(seen as kuru)_ — Comm. on ChUp
-- **nandana** _(seen as nandana)_ — rejoicing, gladdening ( °daka )
-- **bahu** _(seen as bahu)_ — _(no MW gloss; not in dictionary)_
-- **śākhā** _(seen as śākhāḥ)_ — _(no MW gloss; not in dictionary)_
-- **hi** _(seen as hi)_ — cl. 5. P. ( Dhātup. xxvii, 11 ) hinoti ( Ved. also hinute , hinvati and hinvati , °te
-- **ananta** _(seen as anantāḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **avyavasāyin** _(seen as avyavasāyinām)_ — _(no MW gloss; not in dictionary)_
+- **vyavasāya** _(seen as vyavasāya)_ — resolve, determination, settled intention; firm resolution
+- **ātmaka** _(seen as ātmikā)_ — having the nature of, consisting of
+- **buddhi** _(seen as buddhiḥ)_ — intellect, intelligence, discriminating faculty
+- **eka** _(seen as ekā)_ — one, alone, single
+- **iha** _(seen as iha)_ — here, in this world, in this life
+- **kuru** _(seen as kuru)_ — Kuru (the dynastic name); imperative of √kṛ (do!)
+- **nandana** _(seen as nandana)_ — delighting, son, joy
+- **bahu** _(seen as bahu)_ — many, much, abundant
+- **śākhā** _(seen as śākhāḥ)_ — branch (of a tree); recension of the Veda
+- **hi** _(seen as hi)_ — for, indeed, because (particle)
+- **ananta** _(seen as anantāḥ)_ — endless, infinite; an epithet of Viṣṇu
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **avyavasāyin** _(seen as avyavasāyinām)_ — irresolute, unsteady, lacking determination
 
 
 ## BG 3.17
@@ -138,20 +132,20 @@ _yas tv ātma-ratir eva syād ātma-tṛptaś ca mānavaḥ | ātmany eva ca sa�
 
 **Words the parser found:**
 
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **tu** _(seen as tu)_ — to have authority, be strong, i, 94, 2 ( pf. tUtAva Naigh. iv, 1
-- **ātman** _(seen as ātma)_ — the breath
-- **rati** _(seen as ratiḥ)_ — _(no MW gloss; not in dictionary)_
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **as** _(seen as syāt)_ — to be, live, exist, be present
-- **tṛp** _(seen as tṛptaḥ)_ — to satiate, satisfy, refresh, gladden
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **mānava** _(seen as mānavaḥ)_ — descended from or belonging to man or Manu , human
-- **saṃtuṣ** _(seen as saṃtuṣṭaḥ)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as tasya)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **kārya** _(seen as kāryam)_ — to be caused to do, Naiṣ
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **vid** _(seen as vidyate)_ — vetti ( vidmahe , Br
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **tu** _(seen as tu)_ — but, on the other hand (particle)
+- **ātman** _(seen as ātma)_ — the Self, soul; one's own self
+- **rati** _(seen as ratiḥ)_ — delight, pleasure, attachment
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **as** _(seen as syāt)_ — to be (verbal root)
+- **tṛp** _(seen as tṛptaḥ)_ — to be satisfied (verbal root)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **mānava** _(seen as mānavaḥ)_ — human, descendant of Manu
+- **saṃtuṣ** _(seen as saṃtuṣṭaḥ)_ — to be content, satisfied (sam + √tuṣ)
+- **tad** _(seen as tasya)_ — that (distal demonstrative); also 3rd-person pronoun
+- **kārya** _(seen as kāryam)_ — to be done, duty, effect
+- **na** _(seen as na)_ — not (negation particle)
+- **vid** _(seen as vidyate)_ — to know; to find (verbal root)
 
 
 ## BG 3.22
@@ -165,29 +159,29 @@ _yady atra te loka-saṃgraha-kartavyatāyāṃ vipratipattis tarhi māṃ kiṃ
 
 **Words the parser found:**
 
-- **yadi** _(seen as yadi)_ — if, in case that, In the earlier language yadi may be joined with Indic. Subj. or Leṭ Pot. , or…
-- **atra** _(seen as atra)_ — _(no MW gloss; not in dictionary)_
-- **tvad** _(seen as te)_ — &c. See col. 2
-- **loka** _(seen as loka)_ — the inhabitants of the world, mankind, folk, people (sometimes opp. to ‘king’)
-- **saṃgraha** _(seen as saṃgraha)_ — agglomeration (= saMyoga , q.v. ), MW
-- **kṛ** _(seen as kartavya)_ — cl. 2. P. 2. sg. karzi du. kfTas pl. kfTa
-- **tā** _(seen as tāyām)_ — _(no MW gloss; not in dictionary)_
-- **vipratipatti** _(seen as vipratipattiḥ)_ — _(no MW gloss; not in dictionary)_
-- **tarhi** _(seen as tarhi)_ — at that time, then, at that moment, in that case (correlative of yad
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **kim** _(seen as kim)_ — kim — uta , or kim — uta-vA or kim — aTavA — uta , whether—or—or, R
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **dṛś** _(seen as paśyasi)_ — _(no MW gloss; not in dictionary)_
-- **pārtha** _(seen as pārtha)_ — _(no MW gloss; not in dictionary)_
-- **as** _(seen as asti)_ — to be, live, exist, be present
-- **tri** _(seen as triṣu)_ — _(no MW gloss; not in dictionary)_
-- **kaścana** _(seen as kiṃcana)_ — _(no MW gloss; not in dictionary)_
-- **anavāpta** _(seen as anavāptam)_ — _(no MW gloss; not in dictionary)_
-- **avāp** _(seen as avāptavyam)_ — to reach, attain, obtain, gain, get, Up
-- **vṛt** _(seen as vartā)_ — surrounding, enclosing, obstructing (see arRo- and nadI-vft )
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **karman** _(seen as karmaṇi)_ — the object (it stands either in the acc
+- **yadi** _(seen as yadi)_ — if
+- **atra** _(seen as atra)_ — here, in this place
+- **tvad** _(seen as te)_ — you (2nd person pronoun stem)
+- **loka** _(seen as loka)_ — world, realm; people
+- **saṃgraha** _(seen as saṃgraha)_ — summary, collection, holding together
+- **kṛ** _(seen as kartavya)_ — to do, make (verbal root)
+- **tā** _(seen as tāyām)_ — (feminine suffix; or stem-form of various words — context-dependent)
+- **vipratipatti** _(seen as vipratipattiḥ)_ — contradictory views, controversy, disagreement, dispute
+- **tarhi** _(seen as tarhi)_ — then, in that case
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **kim** _(seen as kim)_ — what? why? (interrogative)
+- **na** _(seen as na)_ — not (negation particle)
+- **dṛś** _(seen as paśyasi)_ — to see (verbal root)
+- **pārtha** _(seen as pārtha)_ — son of Pṛthā (Kuntī); epithet of Arjuna
+- **as** _(seen as asti)_ — to be (verbal root)
+- **tri** _(seen as triṣu)_ — three
+- **kaścana** _(seen as kiṃcana)_ — anyone, anything (with negation: no one)
+- **anavāpta** _(seen as anavāptam)_ — unobtained, not-yet-attained
+- **avāp** _(seen as avāptavyam)_ — to obtain, attain, reach
+- **vṛt** _(seen as vartā)_ — to be, exist, occur, turn (verbal root)
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **karman** _(seen as karmaṇi)_ — action, deed, the law of action
 
 
 ## BG 3.23
@@ -197,19 +191,19 @@ _yadi hy ahaṃ na varteyaṃ jātu karmaṇy atandritaḥ | mama vartmānuvarta
 
 **Words the parser found:**
 
-- **yadi** _(seen as yadi)_ — if, in case that, In the earlier language yadi may be joined with Indic. Subj. or Leṭ Pot. , or…
-- **hi** _(seen as hi)_ — cl. 5. P. ( Dhātup. xxvii, 11 ) hinoti ( Ved. also hinute , hinvati and hinvati , °te
-- **mad** _(seen as aham)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **vṛt** _(seen as varteyam)_ — surrounding, enclosing, obstructing (see arRo- and nadI-vft )
-- **jātu** _(seen as jātu)_ — at all, ever, x, 27, 11
-- **karman** _(seen as karmaṇi)_ — the object (it stands either in the acc
-- **atandrita** _(seen as atandritaḥ)_ — _(no MW gloss; not in dictionary)_
-- **vartman** _(seen as vartma)_ — _(no MW gloss; not in dictionary)_
-- **anuvṛt** _(seen as anuvartante)_ — _(no MW gloss; not in dictionary)_
-- **manuṣya** _(seen as manuṣyāḥ)_ — _(no MW gloss; not in dictionary)_
-- **pārtha** _(seen as pārtha)_ — _(no MW gloss; not in dictionary)_
-- **sarvaśas** _(seen as sarvaśas)_ — _(no MW gloss; not in dictionary)_
+- **yadi** _(seen as yadi)_ — if
+- **hi** _(seen as hi)_ — for, indeed, because (particle)
+- **mad** _(seen as aham)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **na** _(seen as na)_ — not (negation particle)
+- **vṛt** _(seen as varteyam)_ — to be, exist, occur, turn (verbal root)
+- **jātu** _(seen as jātu)_ — ever, at any time
+- **karman** _(seen as karmaṇi)_ — action, deed, the law of action
+- **atandrita** _(seen as atandritaḥ)_ — unwearied, alert, vigilant
+- **vartman** _(seen as vartma)_ — path, course, track
+- **anuvṛt** _(seen as anuvartante)_ — to follow, conform to
+- **manuṣya** _(seen as manuṣyāḥ)_ — human being
+- **pārtha** _(seen as pārtha)_ — son of Pṛthā (Kuntī); epithet of Arjuna
+- **sarvaśas** _(seen as sarvaśas)_ — in every way, completely
 
 
 ## BG 4.14
@@ -223,17 +217,17 @@ _na māṃ karmāṇi limpanti na me karma-phale spṛhā | iti māṃ yo 'bhij�
 
 **Words the parser found:**
 
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **karman** _(seen as karmāṇi)_ — the object (it stands either in the acc
-- **lip** _(seen as limpanti)_ — cl. 6. 1. P. Ā. ( Dhātup. xxviii, 139 ) limpati , °te ( pf. lilepa , Br. &c
-- **phala** _(seen as phale)_ — fruit ( of trees)
-- **spṛhā** _(seen as spṛhā)_ — eager desire, desire, covetousness, envy, longing for, pleasure or delight in ( dat. , gen. loc. ,…
-- **iti** _(seen as iti)_ — See √ i above
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **abhijñā** _(seen as abhijānāti)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as sa)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **bandh** _(seen as badhyate)_ — _(no MW gloss; not in dictionary)_
+- **na** _(seen as na)_ — not (negation particle)
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **karman** _(seen as karmāṇi)_ — action, deed, the law of action
+- **lip** _(seen as limpanti)_ — to smear, anoint, taint, stain (verbal root)
+- **phala** _(seen as phale)_ — fruit, result
+- **spṛhā** _(seen as spṛhā)_ — longing, desire
+- **iti** _(seen as iti)_ — thus (quotative particle)
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **abhijñā** _(seen as abhijānāti)_ — to recognize, know, perceive
+- **tad** _(seen as sa)_ — that (distal demonstrative); also 3rd-person pronoun
+- **bandh** _(seen as badhyate)_ — to bind (verbal root)
 
 
 ## BG 4.15
@@ -247,17 +241,17 @@ _evaṃ jñātvā kṛtaṃ karma pūrvair api mumukṣubhiḥ | kuru karmaiva t
 
 **Words the parser found:**
 
-- **evam** _(seen as evam)_ — _(no MW gloss; not in dictionary)_
-- **jñā** _(seen as jñātvā)_ — to know, have knowledge, become acquainted with ( acc
-- **kṛ** _(seen as kṛtam)_ — cl. 2. P. 2. sg. karzi du. kfTas pl. kfTa
-- **karman** _(seen as karma)_ — the object (it stands either in the acc
-- **pūrva** _(seen as pūrvaiḥ)_ — being before or in front, fore, first
-- **api** _(seen as api)_ — and, also, moreover, besides, assuredly, surely
-- **mumukṣu** _(seen as mumukṣubhiḥ)_ — _(no MW gloss; not in dictionary)_
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **tasmāt** _(seen as tasmāt)_ — from that, on that account, therefore (correlative of yad , yasmAt ), AV
-- **tvad** _(seen as tvam)_ — &c. See col. 2
-- **pūrvatara** _(seen as pūrvataram)_ — _(no MW gloss; not in dictionary)_
+- **evam** _(seen as evam)_ — thus, in this way
+- **jñā** _(seen as jñātvā)_ — to know (verbal root)
+- **kṛ** _(seen as kṛtam)_ — to do, make (verbal root)
+- **karman** _(seen as karma)_ — action, deed, the law of action
+- **pūrva** _(seen as pūrvaiḥ)_ — former, prior, eastern
+- **api** _(seen as api)_ — also, even, although
+- **mumukṣu** _(seen as mumukṣubhiḥ)_ — desirous of liberation
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **tasmāt** _(seen as tasmāt)_ — therefore, from that
+- **tvad** _(seen as tvam)_ — you (2nd person pronoun stem)
+- **pūrvatara** _(seen as pūrvataram)_ — earlier, more ancient
 
 
 ## BG 4.40
@@ -271,18 +265,18 @@ _ajñaś cāśraddadhānaś ca saṃśayātmā vinaśyati | nāyaṃ loko 'sti n
 
 **Words the parser found:**
 
-- **ajña** _(seen as ajñaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **aśraddadhāna** _(seen as aśraddadhānaḥ)_ — _(no MW gloss; not in dictionary)_
-- **saṃśaya** _(seen as saṃśaya)_ — _(no MW gloss; not in dictionary)_
-- **ātman** _(seen as ātmā)_ — the breath
-- **vinaś** _(seen as vinaśyati)_ — _(no MW gloss; not in dictionary)_
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **idam** _(seen as ayam)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **loka** _(seen as lokaḥ)_ — the inhabitants of the world, mankind, folk, people (sometimes opp. to ‘king’)
-- **as** _(seen as asti)_ — to be, live, exist, be present
-- **para** _(seen as paraḥ)_ — far, distant, remote (in space), opposite, ulterior, farther than, beyond, on the other or farther…
-- **sukha** _(seen as sukham)_ — running swiftly or easily (only applied to cars or chariots, superl. suKa-tama ), easy
+- **ajña** _(seen as ajñaḥ)_ — ignorant, foolish
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **aśraddadhāna** _(seen as aśraddadhānaḥ)_ — without faith, faithless
+- **saṃśaya** _(seen as saṃśaya)_ — doubt, uncertainty
+- **ātman** _(seen as ātmā)_ — the Self, soul; one's own self
+- **vinaś** _(seen as vinaśyati)_ — to perish, be destroyed
+- **na** _(seen as na)_ — not (negation particle)
+- **idam** _(seen as ayam)_ — this (proximal demonstrative)
+- **loka** _(seen as lokaḥ)_ — world, realm; people
+- **as** _(seen as asti)_ — to be (verbal root)
+- **para** _(seen as paraḥ)_ — highest, supreme, beyond, other
+- **sukha** _(seen as sukham)_ — happiness, pleasure, ease
 
 
 ## BG 5.10
@@ -296,21 +290,21 @@ _brahmaṇy ādhāya karmāṇi saṅgaṃ tyaktvā karoti yaḥ | lipyate na sa
 
 **Words the parser found:**
 
-- **brahman** _(seen as brahmaṇi)_ — pious effusion or utterance, outpouring of the heart in worshipping the gods, prayer
-- **ādhā** _(seen as ādhāya)_ — _(no MW gloss; not in dictionary)_
-- **karman** _(seen as karmāṇi)_ — the object (it stands either in the acc
-- **saṅga** _(seen as saṅgam)_ — _(no MW gloss; not in dictionary)_
-- **tyaj** _(seen as tyaktvā)_ — to leave, abandon, quit, x, 71, 6
-- **kṛ** _(seen as karoti)_ — cl. 2. P. 2. sg. karzi du. kfTas pl. kfTa
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **lip** _(seen as lipyate)_ — cl. 6. 1. P. Ā. ( Dhātup. xxviii, 139 ) limpati , °te ( pf. lilepa , Br. &c
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **tad** _(seen as sa)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **pāpa** _(seen as pāpena)_ — ( ŚBr. xiv  , also pApa ) n. bad, vicious, wicked, evil, wretched, vile, low
-- **padma** _(seen as padma)_ — a lotus ( the flower of the lotus-plant Nelumbium Speciosum which closes towards evening
-- **pattra** _(seen as patram)_ — (sometimes spelt patra ) the wing of a bird, pinion, feather, VS
-- **iva** _(seen as iva)_ — _(no MW gloss; not in dictionary)_
-- **ambhas** _(seen as ambhasā)_ — ( as ) sg. the number ‘four’
+- **brahman** _(seen as brahmaṇi)_ — Brahman (the Absolute); also: the Veda; sacred utterance
+- **ādhā** _(seen as ādhāya)_ — to place upon, deposit, fix
+- **karman** _(seen as karmāṇi)_ — action, deed, the law of action
+- **saṅga** _(seen as saṅgam)_ — attachment, association, contact
+- **tyaj** _(seen as tyaktvā)_ — to abandon, give up, renounce (verbal root)
+- **kṛ** _(seen as karoti)_ — to do, make (verbal root)
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **lip** _(seen as lipyate)_ — to smear, anoint, taint, stain (verbal root)
+- **na** _(seen as na)_ — not (negation particle)
+- **tad** _(seen as sa)_ — that (distal demonstrative); also 3rd-person pronoun
+- **pāpa** _(seen as pāpena)_ — sin, evil, demerit
+- **padma** _(seen as padma)_ — lotus
+- **pattra** _(seen as patram)_ — leaf
+- **iva** _(seen as iva)_ — like, as if
+- **ambhas** _(seen as ambhasā)_ — water
 
 
 ## BG 5.21
@@ -324,19 +318,19 @@ _bāhya-sparśeṣv asaktātmā vindaty ātmani yat sukham | sa brahma-yoga-yukt
 
 **Words the parser found:**
 
-- **bāhya** _(seen as bāhya)_ — being outside (a door, house, &c.), situated without ( abl. or comp. ), outer, exterior ( acc. with…
-- **sparśa** _(seen as sparśeṣu)_ — _(no MW gloss; not in dictionary)_
-- **asakta** _(seen as asakta)_ — _(no MW gloss; not in dictionary)_
-- **ātman** _(seen as ātmā)_ — the breath
-- **vid** _(seen as vindati)_ — vetti ( vidmahe , Br
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **sukha** _(seen as sukham)_ — running swiftly or easily (only applied to cars or chariots, superl. suKa-tama ), easy
-- **tad** _(seen as sa)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **brahman** _(seen as brahma)_ — pious effusion or utterance, outpouring of the heart in worshipping the gods, prayer
-- **yoga** _(seen as yoga)_ — the act of yoking, joining, attaching, harnessing, putting to (of horses)
-- **yuj** _(seen as yukta)_ — cl. 7. P. Ā. ( Dhātup. xxix, 7 ) yunakti , yuNkte ( ep. also yuYjati , °te
-- **akṣaya** _(seen as akṣayam)_ — _(no MW gloss; not in dictionary)_
-- **aś** _(seen as aśnute)_ — _(no MW gloss; not in dictionary)_
+- **bāhya** _(seen as bāhya)_ — external, outer
+- **sparśa** _(seen as sparśeṣu)_ — touch, contact, sense-contact
+- **asakta** _(seen as asakta)_ — unattached, detached
+- **ātman** _(seen as ātmā)_ — the Self, soul; one's own self
+- **vid** _(seen as vindati)_ — to know; to find (verbal root)
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **sukha** _(seen as sukham)_ — happiness, pleasure, ease
+- **tad** _(seen as sa)_ — that (distal demonstrative); also 3rd-person pronoun
+- **brahman** _(seen as brahma)_ — Brahman (the Absolute); also: the Veda; sacred utterance
+- **yoga** _(seen as yoga)_ — yoga; union, discipline, application
+- **yuj** _(seen as yukta)_ — to yoke, join, engage in (verbal root)
+- **akṣaya** _(seen as akṣayam)_ — undecaying, imperishable
+- **aś** _(seen as aśnute)_ — to eat / to pervade (verbal root, two homophonous roots)
 
 
 ## BG 5.26
@@ -350,18 +344,18 @@ _kāma-krodha-viyuktānāṃ yatīnāṃ yata-cetasām | abhito brahma-nirvāṇ
 
 **Words the parser found:**
 
-- **kāma** _(seen as kāma)_ — desirous of, desiring, having a desire or intention ( go-k ° , Darma-k °
-- **krodha** _(seen as krodha)_ — the breast, chest, bosom (of men and animals), AV
-- **viyuj** _(seen as viyuktānām)_ — to forsake, abandon ( acc. ), Kir
-- **yati** _(seen as yatīnām)_ — a disposer, vii, 13, 1 ( Sāy. ‘a giver’)
-- **yam** _(seen as yata)_ — yacCati ( Ved. also °te , and Ved. ep. yamati , °te
-- **cetas** _(seen as cetasām)_ — consciousness, intelligence, thinking soul, heart, mind, VS. xxxiv, 3
-- **abhitas** _(seen as abhitas)_ — on both sides, ŚBr. &c
-- **brahman** _(seen as brahma)_ — pious effusion or utterance, outpouring of the heart in worshipping the gods, prayer
-- **nirvāṇa** _(seen as nirvāṇam)_ — _(no MW gloss; not in dictionary)_
-- **vṛt** _(seen as vartate)_ — surrounding, enclosing, obstructing (see arRo- and nadI-vft )
-- **vid** _(seen as vidita)_ — vetti ( vidmahe , Br
-- **ātman** _(seen as ātmanām)_ — the breath
+- **kāma** _(seen as kāma)_ — desire, lust, sensual pleasure
+- **krodha** _(seen as krodha)_ — anger, wrath
+- **viyuj** _(seen as viyuktānām)_ — to disjoin, separate
+- **yati** _(seen as yatīnām)_ — an ascetic, controlled one
+- **yam** _(seen as yata)_ — to restrain, control (verbal root); also: which (relative)
+- **cetas** _(seen as cetasām)_ — consciousness, mind, awareness
+- **abhitas** _(seen as abhitas)_ — near, towards, on all sides
+- **brahman** _(seen as brahma)_ — Brahman (the Absolute); also: the Veda; sacred utterance
+- **nirvāṇa** _(seen as nirvāṇam)_ — extinction (of suffering), liberation, peace
+- **vṛt** _(seen as vartate)_ — to be, exist, occur, turn (verbal root)
+- **vid** _(seen as vidita)_ — to know; to find (verbal root)
+- **ātman** _(seen as ātmanām)_ — the Self, soul; one's own self
 
 
 ## BG 6.10
@@ -375,17 +369,17 @@ _yogī yuñjīta satatam ātmānaṃ rahasi sthitaḥ | ekākī yata-cittātmā 
 
 **Words the parser found:**
 
-- **yogin** _(seen as yogī)_ — or contemplative saint, devotee, ascetic, MaitrUp
-- **yuj** _(seen as yuñjīta)_ — cl. 7. P. Ā. ( Dhātup. xxix, 7 ) yunakti , yuNkte ( ep. also yuYjati , °te
-- **satatam** _(seen as satatam)_ — constant, perpetual, continual, uninterrupted (only in comp. and am ind. ‘constantly, always, ever’
-- **ātman** _(seen as ātmānam)_ — the breath
-- **rahas** _(seen as rahasi)_ — swiftness, speed, velocity, BhP
-- **sthā** _(seen as sthitaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ekākin** _(seen as ekākī)_ — alone, solitary, AV. xix, 56, 1
-- **yam** _(seen as yata)_ — yacCati ( Ved. also °te , and Ved. ep. yamati , °te
-- **citta** _(seen as citta)_ — the heart, mind, TS. i
-- **nirāśī** _(seen as nirāśīḥ)_ — _(no MW gloss; not in dictionary)_
-- **aparigraha** _(seen as aparigrahaḥ)_ — _(no MW gloss; not in dictionary)_
+- **yogin** _(seen as yogī)_ — yogi; one engaged in yoga
+- **yuj** _(seen as yuñjīta)_ — to yoke, join, engage in (verbal root)
+- **satatam** _(seen as satatam)_ — always, constantly
+- **ātman** _(seen as ātmānam)_ — the Self, soul; one's own self
+- **rahas** _(seen as rahasi)_ — secrecy, secret place
+- **sthā** _(seen as sthitaḥ)_ — to stand, remain (verbal root)
+- **ekākin** _(seen as ekākī)_ — alone, solitary
+- **yam** _(seen as yata)_ — to restrain, control (verbal root); also: which (relative)
+- **citta** _(seen as citta)_ — mind, thought, consciousness, mental substance
+- **nirāśī** _(seen as nirāśīḥ)_ — without expectation, free of desire
+- **aparigraha** _(seen as aparigrahaḥ)_ — non-acceptance, freedom from possessions
 
 
 ## BG 6.14
@@ -399,20 +393,20 @@ _praśāntātmā vigata-bhīr brahmacāri-vrate sthitaḥ | manaḥ saṃyamya m
 
 **Words the parser found:**
 
-- **praśam** _(seen as praśānta)_ — _(no MW gloss; not in dictionary)_
-- **ātman** _(seen as ātmā)_ — the breath
-- **vigam** _(seen as vigata)_ — _(no MW gloss; not in dictionary)_
-- **bhī** _(seen as bhīḥ)_ — biBeti ( du. biBItas or biBitas Pot. biBIyAt or biBiyAt , Pāṇ. vi, 4, 115
-- **brahmacārin** _(seen as brahmacāri)_ — or who practises chastity, a young Br° before marriage (in the first period of his life), AV
-- **vrata** _(seen as vrate)_ — will, command, law, ordinance, rule
-- **sthā** _(seen as sthitaḥ)_ — _(no MW gloss; not in dictionary)_
-- **manas** _(seen as manaḥ)_ — _(no MW gloss; not in dictionary)_
-- **saṃyam** _(seen as saṃyamya)_ — _(no MW gloss; not in dictionary)_
-- **mad** _(seen as mad)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **citta** _(seen as cittaḥ)_ — the heart, mind, TS. i
-- **yuj** _(seen as yuktaḥ)_ — cl. 7. P. Ā. ( Dhātup. xxix, 7 ) yunakti , yuNkte ( ep. also yuYjati , °te
-- **ās** _(seen as āsīta)_ — Ah! Oh! &c
-- **para** _(seen as paraḥ)_ — far, distant, remote (in space), opposite, ulterior, farther than, beyond, on the other or farther…
+- **praśam** _(seen as praśānta)_ — calm, tranquillity
+- **ātman** _(seen as ātmā)_ — the Self, soul; one's own self
+- **vigam** _(seen as vigata)_ — to depart, disappear
+- **bhī** _(seen as bhīḥ)_ — fear; to fear (verbal root)
+- **brahmacārin** _(seen as brahmacāri)_ — celibate student, follower of brahmacarya
+- **vrata** _(seen as vrate)_ — vow, observance
+- **sthā** _(seen as sthitaḥ)_ — to stand, remain (verbal root)
+- **manas** _(seen as manaḥ)_ — mind (lower mind), the inner organ of perception
+- **saṃyam** _(seen as saṃyamya)_ — to restrain, control fully
+- **mad** _(seen as mad)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **citta** _(seen as cittaḥ)_ — mind, thought, consciousness, mental substance
+- **yuj** _(seen as yuktaḥ)_ — to yoke, join, engage in (verbal root)
+- **ās** _(seen as āsīta)_ — to sit, remain (verbal root)
+- **para** _(seen as paraḥ)_ — highest, supreme, beyond, other
 
 
 ## BG 6.21
@@ -426,22 +420,22 @@ _sukham ātyantikaṃ yat tad buddhi-grāhyam atīndriyam | vetti yatra na caiv�
 
 **Words the parser found:**
 
-- **sukha** _(seen as sukham)_ — running swiftly or easily (only applied to cars or chariots, superl. suKa-tama ), easy
-- **ātyantika** _(seen as ātyantikam)_ — _(no MW gloss; not in dictionary)_
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **buddhi** _(seen as buddhi)_ — _(no MW gloss; not in dictionary)_
-- **grah** _(seen as grāhyam)_ — to seize, take (by the hand, pARO or kare , exceptionally pARim (double acc. ), i, 125, 1
-- **atīndriya** _(seen as atīndriyam)_ — senses
-- **vid** _(seen as vetti)_ — vetti ( vidmahe , Br
-- **yatra** _(seen as yatra)_ — in or to which place, where, wherein, wherever, whither, ( yatra yatra , ‘wherever’, ‘whithersoever’
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **idam** _(seen as ayam)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **sthā** _(seen as sthitaḥ)_ — _(no MW gloss; not in dictionary)_
-- **cal** _(seen as calati)_ — cl. 1. °lati (metrically also Ā. °te
-- **tattva** _(seen as tattvataḥ)_ — a true principle (in Sāṃkhya phil. 25 in number, viz. a-vyakta , budDi , ahaM-kAra , the 5…
+- **sukha** _(seen as sukham)_ — happiness, pleasure, ease
+- **ātyantika** _(seen as ātyantikam)_ — absolute, ultimate, complete
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **buddhi** _(seen as buddhi)_ — intellect, intelligence, discriminating faculty
+- **grah** _(seen as grāhyam)_ — to seize, grasp, accept (verbal root)
+- **atīndriya** _(seen as atīndriyam)_ — beyond the senses, transcendent of sense-perception
+- **vid** _(seen as vetti)_ — to know; to find (verbal root)
+- **yatra** _(seen as yatra)_ — where
+- **na** _(seen as na)_ — not (negation particle)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **idam** _(seen as ayam)_ — this (proximal demonstrative)
+- **sthā** _(seen as sthitaḥ)_ — to stand, remain (verbal root)
+- **cal** _(seen as calati)_ — to move, shake (verbal root)
+- **tattva** _(seen as tattvataḥ)_ — thatness, principle, reality
 
 
 ## BG 7.16
@@ -455,21 +449,21 @@ _catur-vidhā bhajante māṃ janāḥ sukṛtino 'rjuna | ārto jijñāsur arth
 
 **Words the parser found:**
 
-- **catur** _(seen as catur)_ — _(no MW gloss; not in dictionary)_
-- **vidha** _(seen as vidhāḥ)_ — _(no MW gloss; not in dictionary)_
-- **bhaj** _(seen as bhajante)_ — Bajati , °te (2. sg. as Impv. Bakzi
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **jana** _(seen as janāḥ)_ — creature, living being, man, person, race ( paYca janAs , ‘the five races’ = p ° kfzwayas , iii  ,…
-- **sukṛtin** _(seen as sukṛtinaḥ)_ — _(no MW gloss; not in dictionary)_
-- **arjuna** _(seen as arjuna)_ — white, clear (the colour of the day, vi, 9, 1
-- **ārta** _(seen as ārtaḥ)_ — fallen into (misfortune), struck by calamity, afflicted, pained, disturbed
-- **jijñāsu** _(seen as jijñāsuḥ)_ — _(no MW gloss; not in dictionary)_
-- **artha** _(seen as artha)_ — _(no MW gloss; not in dictionary)_
-- **arthin** _(seen as arthī)_ — _(no MW gloss; not in dictionary)_
-- **jñānin** _(seen as jñānī)_ — knowing the higher knowledge or knowledge of spirit ( Kathās. lxxix  ), xii, 103
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **bharata** _(seen as bharata)_ — _(no MW gloss; not in dictionary)_
-- **ṛṣabha** _(seen as ṛṣabha)_ — _(no MW gloss; not in dictionary)_
+- **catur** _(seen as catur)_ — four
+- **vidha** _(seen as vidhāḥ)_ — kind, sort, manner
+- **bhaj** _(seen as bhajante)_ — to share, partake of, worship, love (verbal root)
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **jana** _(seen as janāḥ)_ — person, people, folk
+- **sukṛtin** _(seen as sukṛtinaḥ)_ — righteous, doer of good
+- **arjuna** _(seen as arjuna)_ — Arjuna (the third Pāṇḍava); also: white, bright
+- **ārta** _(seen as ārtaḥ)_ — afflicted, distressed
+- **jijñāsu** _(seen as jijñāsuḥ)_ — desirous of knowing, inquirer
+- **artha** _(seen as artha)_ — meaning, purpose, wealth, goal
+- **arthin** _(seen as arthī)_ — one seeking (wealth, an end)
+- **jñānin** _(seen as jñānī)_ — knower, the wise one
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **bharata** _(seen as bharata)_ — Bharata (ancestor of the Kurus); a descendant of Bharata
+- **ṛṣabha** _(seen as ṛṣabha)_ — bull (often as 'best of'); ṛṣabha
 
 
 ## BG 7.24
@@ -483,18 +477,18 @@ _avyaktaṃ vyaktim āpannaṃ manyante mām abuddhayaḥ | paraṃ bhāvam ajā
 
 **Words the parser found:**
 
-- **avyakta** _(seen as avyaktam)_ — unknown as quantity or number
-- **vyakti** _(seen as vyaktim)_ — gender, Pāṇ. i, 2, 51
-- **āpad** _(seen as āpannam)_ — to come, walk near, approach, BhP
-- **man** _(seen as manyante)_ — manute , manyate ( ep. also °ti
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **abuddhi** _(seen as abuddhayaḥ)_ — _(no MW gloss; not in dictionary)_
-- **para** _(seen as param)_ — far, distant, remote (in space), opposite, ulterior, farther than, beyond, on the other or farther…
-- **bhāva** _(seen as bhāvam)_ — becoming, being, existing, occurring, appearance, ŚvetUp
-- **a** _(seen as a)_ — _(no MW gloss; not in dictionary)_
-- **jñā** _(seen as jānantaḥ)_ — to know, have knowledge, become acquainted with ( acc
-- **avyaya** _(seen as avyayam)_ — made of sheep's skin (as the woollen Soma strainer)
-- **anuttama** _(seen as anuttamam)_ — not used in the uttama , or first person
+- **avyakta** _(seen as avyaktam)_ — unmanifest, imperceptible; the Unmanifest (prakṛti)
+- **vyakti** _(seen as vyaktim)_ — manifestation, individuality
+- **āpad** _(seen as āpannam)_ — to befall, occur; calamity, distress
+- **man** _(seen as manyante)_ — to think, regard, consider (verbal root)
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **abuddhi** _(seen as abuddhayaḥ)_ — lack of intelligence, foolishness
+- **para** _(seen as param)_ — highest, supreme, beyond, other
+- **bhāva** _(seen as bhāvam)_ — being, state, mood, emotion, condition
+- **a** _(seen as a)_ — negation prefix (un-, non-, not)
+- **jñā** _(seen as jānantaḥ)_ — to know (verbal root)
+- **avyaya** _(seen as avyayam)_ — imperishable, immutable; an indeclinable
+- **anuttama** _(seen as anuttamam)_ — supreme, unsurpassed
 
 
 ## BG 7.27
@@ -508,18 +502,18 @@ _icchā-dveṣa-samutthena dvandva-mohena bhārata | sarva-bhūtāni saṃmoha�
 
 **Words the parser found:**
 
-- **icchā** _(seen as icchā)_ — a question or problem
-- **dveṣa** _(seen as dveṣa)_ — _(no MW gloss; not in dictionary)_
-- **samuttha** _(seen as samutthena)_ — _(no MW gloss; not in dictionary)_
-- **dvaṃdva** _(seen as dvandva)_ — pair, couple, male and female, TS
-- **moha** _(seen as mohena)_ — loss of consciousness, bewilderment, perplexity, distraction, infatuation, delusion, error, folly,…
-- **bhārata** _(seen as bhārata)_ — _(no MW gloss; not in dictionary)_
-- **sarva** _(seen as sarva)_ — whole, entire, all, every ( m. sg. ‘every one’
-- **bhūta** _(seen as bhūtāni)_ — being or being like anything, consisting of, mixed or joined with, Prāt
-- **sammoha** _(seen as saṃmoham)_ — a partic. conjunction of planets, VarBṛS
-- **sarga** _(seen as sarge)_ — letting go, discharging, voiding (as excrement)
-- **yā** _(seen as yānti)_ — a goer or mover
-- **paraṃtapa** _(seen as parantapa)_ — _(no MW gloss; not in dictionary)_
+- **icchā** _(seen as icchā)_ — wish, desire, will
+- **dveṣa** _(seen as dveṣa)_ — aversion, hatred
+- **samuttha** _(seen as samutthena)_ — having arisen, originated
+- **dvaṃdva** _(seen as dvandva)_ — pair of opposites (heat/cold, joy/sorrow); duality
+- **moha** _(seen as mohena)_ — delusion, infatuation, bewilderment
+- **bhārata** _(seen as bhārata)_ — descendant of Bharata; epithet of Arjuna
+- **sarva** _(seen as sarva)_ — all, entire
+- **bhūta** _(seen as bhūtāni)_ — being, creature; element; past, gone
+- **sammoha** _(seen as saṃmoham)_ — delusion, bewilderment, confusion
+- **sarga** _(seen as sarge)_ — creation, emanation
+- **yā** _(seen as yānti)_ — to go (verbal root)
+- **paraṃtapa** _(seen as parantapa)_ — scorcher of foes (epithet of Arjuna)
 
 
 ## BG 8.1
@@ -533,17 +527,17 @@ _kiṃ tad brahma kim adhyātmaṃ kiṃ karma puruṣottama | adhibhūtaṃ ca 
 
 **Words the parser found:**
 
-- **ka** _(seen as kim)_ — ka is often connected with a demonstrative pron. ( ko 'yam AyAti , who comes here?) or with the…
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **brahman** _(seen as brahma)_ — pious effusion or utterance, outpouring of the heart in worshipping the gods, prayer
-- **adhyātma** _(seen as adhyātmam)_ — _(no MW gloss; not in dictionary)_
-- **karman** _(seen as karma)_ — the object (it stands either in the acc
-- **puruṣottama** _(seen as puruṣottama)_ — _(no MW gloss; not in dictionary)_
-- **adhibhūta** _(seen as adhibhūtam)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **pravac** _(seen as proktam)_ — _(no MW gloss; not in dictionary)_
-- **adhidaiva** _(seen as adhidaivam)_ — _(no MW gloss; not in dictionary)_
-- **vac** _(seen as ucyate)_ — vakti (occurs only in sg. vacmi , vakzi , vakti , and Impv. vaktu
+- **ka** _(seen as kim)_ — who? what? (interrogative)
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **brahman** _(seen as brahma)_ — Brahman (the Absolute); also: the Veda; sacred utterance
+- **adhyātma** _(seen as adhyātmam)_ — pertaining to the self; the inward principle
+- **karman** _(seen as karma)_ — action, deed, the law of action
+- **puruṣottama** _(seen as puruṣottama)_ — the Supreme Person
+- **adhibhūta** _(seen as adhibhūtam)_ — the elemental / material plane
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **pravac** _(seen as proktam)_ — to declare, expound, proclaim
+- **adhidaiva** _(seen as adhidaivam)_ — the divine / presiding deity plane
+- **vac** _(seen as ucyate)_ — to speak (verbal root)
 
 
 ## BG 8.15
@@ -557,19 +551,19 @@ _mām upetya punar-janma duḥkhālayam aśāśvatam | nāpnuvanti mahātmāna�
 
 **Words the parser found:**
 
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **upe** _(seen as upetya)_ — P. -Eti , to go or come or step near, approach, betake one's self to, arrive at, meet with, turn…
-- **punar** _(seen as punar)_ — _(no MW gloss; not in dictionary)_
-- **janman** _(seen as janma)_ — N. of the 1st lunar mansion, civ
-- **duḥkha** _(seen as duḥkha)_ — uneasy, uncomfortable, unpleasant, difficult, R
-- **ālaya** _(seen as ālayam)_ — _(no MW gloss; not in dictionary)_
-- **aśāśvata** _(seen as aśāśvatam)_ — _(no MW gloss; not in dictionary)_
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **āp** _(seen as āpnuvanti)_ — to reach, overtake, meet with, fall upon
-- **mahātman** _(seen as mahātmānaḥ)_ — ‘high-souled’, magnanimous, having a gr° or noble nature, high-minded, noble
-- **saṃsiddhi** _(seen as saṃsiddhim)_ — _(no MW gloss; not in dictionary)_
-- **parama** _(seen as paramām)_ — most distant, remotest, extreme, last
-- **gam** _(seen as gatāḥ)_ — : cl. 3. P. jaganti ( Naigh. ii, 14
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **upe** _(seen as upetya)_ — to approach, draw near (upa + √i)
+- **punar** _(seen as punar)_ — again, once more
+- **janman** _(seen as janma)_ — birth, origin
+- **duḥkha** _(seen as duḥkha)_ — suffering, sorrow, pain
+- **ālaya** _(seen as ālayam)_ — abode, dwelling, receptacle
+- **aśāśvata** _(seen as aśāśvatam)_ — non-eternal, perishable
+- **na** _(seen as na)_ — not (negation particle)
+- **āp** _(seen as āpnuvanti)_ — to obtain, reach (verbal root)
+- **mahātman** _(seen as mahātmānaḥ)_ — great soul, magnanimous, noble
+- **saṃsiddhi** _(seen as saṃsiddhim)_ — perfection, complete attainment
+- **parama** _(seen as paramām)_ — highest, supreme
+- **gam** _(seen as gatāḥ)_ — to go (verbal root)
 
 
 ## BG 8.25
@@ -583,19 +577,19 @@ _dhūmo rātris tathā kṛṣṇaḥ ṣaṇ-māsā dakṣiṇāyanam | tatra c
 
 **Words the parser found:**
 
-- **dhūma** _(seen as dhūmaḥ)_ — _(no MW gloss; not in dictionary)_
-- **rātri** _(seen as rātriḥ)_ — rAtrI ( prob. ‘bestower’, fr. √ rA
-- **tathā** _(seen as tathā)_ — _(no MW gloss; not in dictionary)_
-- **kṛṣṇa** _(seen as kṛṣṇaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ṣaṣ** _(seen as ṣaṭ)_ — cl. 1. P. ( Dhātup. xvii, 77 ) SaSati (only pr. p. SaSat , Kir. xv, 5  ), to leap, bound, dance
-- **māsa** _(seen as māsāḥ)_ — the moon (see pUrRa-m ° )
-- **dakṣiṇāyana** _(seen as dakṣiṇāyanam)_ — _(no MW gloss; not in dictionary)_
-- **tatra** _(seen as tatra)_ — ( ta-tra , correlative of ya-tra
-- **cāndramasa** _(seen as cāndramasam)_ — lunar, relating to the moon, AV. xix, 9, 10
-- **jyotis** _(seen as jyotiḥ)_ — _(no MW gloss; not in dictionary)_
-- **yogin** _(seen as yogī)_ — or contemplative saint, devotee, ascetic, MaitrUp
-- **prāp** _(seen as prāpya)_ — P. Ā. prA pnoti ( irreg. Pot. prA peyam ), to attain to
-- **nivṛt** _(seen as nivartate)_ — to ( acc. with or without prati , or dat. )
+- **dhūma** _(seen as dhūmaḥ)_ — smoke
+- **rātri** _(seen as rātriḥ)_ — night
+- **tathā** _(seen as tathā)_ — thus, in that manner; likewise
+- **kṛṣṇa** _(seen as kṛṣṇaḥ)_ — Kṛṣṇa; black, dark
+- **ṣaṣ** _(seen as ṣaṭ)_ — six
+- **māsa** _(seen as māsāḥ)_ — month
+- **dakṣiṇāyana** _(seen as dakṣiṇāyanam)_ — the southern course of the sun (winter solstice direction)
+- **tatra** _(seen as tatra)_ — there, in that case
+- **cāndramasa** _(seen as cāndramasam)_ — lunar; pertaining to the moon
+- **jyotis** _(seen as jyotiḥ)_ — light, brilliance, luminary
+- **yogin** _(seen as yogī)_ — yogi; one engaged in yoga
+- **prāp** _(seen as prāpya)_ — to obtain, attain (verbal root)
+- **nivṛt** _(seen as nivartate)_ — to cease, turn back, desist
 
 
 ## BG 9.4
@@ -609,19 +603,19 @@ _mayā tatam idaṃ sarvaṃ jagad avyakta-mūrtinā | mat-sthāni sarva-bhūtā
 
 **Words the parser found:**
 
-- **mad** _(seen as mayā)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **tan** _(seen as tatam)_ — cl. 4. °nyati ( aor. 2. sg. tatanas ) to resound, roar, i, 38, 14
-- **idam** _(seen as idam)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **sarva** _(seen as sarvam)_ — whole, entire, all, every ( m. sg. ‘every one’
-- **jagant** _(seen as jagat)_ — _(no MW gloss; not in dictionary)_
-- **avyakta** _(seen as avyakta)_ — unknown as quantity or number
-- **mūrti** _(seen as mūrtinā)_ — _(no MW gloss; not in dictionary)_
-- **stha** _(seen as sthāni)_ — _(no MW gloss; not in dictionary)_
-- **bhūta** _(seen as bhūtāni)_ — being or being like anything, consisting of, mixed or joined with, Prāt
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **tad** _(seen as teṣu)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **avasthā** _(seen as avasthitaḥ)_ — _(no MW gloss; not in dictionary)_
+- **mad** _(seen as mayā)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **tan** _(seen as tatam)_ — to extend, stretch, spread (verbal root)
+- **idam** _(seen as idam)_ — this (proximal demonstrative)
+- **sarva** _(seen as sarvam)_ — all, entire
+- **jagant** _(seen as jagat)_ — the world, the moving (universe)
+- **avyakta** _(seen as avyakta)_ — unmanifest, imperceptible; the Unmanifest (prakṛti)
+- **mūrti** _(seen as mūrtinā)_ — form, embodiment, image
+- **stha** _(seen as sthāni)_ — standing, situated (suffix)
+- **bhūta** _(seen as bhūtāni)_ — being, creature; element; past, gone
+- **na** _(seen as na)_ — not (negation particle)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **tad** _(seen as teṣu)_ — that (distal demonstrative); also 3rd-person pronoun
+- **avasthā** _(seen as avasthitaḥ)_ — state, condition, situation
 
 
 ## BG 9.22
@@ -635,19 +629,19 @@ _ananyāś cintayanto māṃ ye janāḥ paryupāsate | teṣāṃ nityābhiyukt
 
 **Words the parser found:**
 
-- **an** _(seen as an)_ — the substitute for 3. a , or a privative
-- **anya** _(seen as anyāḥ)_ — _(no MW gloss; not in dictionary)_
-- **cintay** _(seen as cintayantaḥ)_ — _(no MW gloss; not in dictionary)_
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **yad** _(seen as ye)_ — _(no MW gloss; not in dictionary)_
-- **jana** _(seen as janāḥ)_ — creature, living being, man, person, race ( paYca janAs , ‘the five races’ = p ° kfzwayas , iii  ,…
-- **paryupās** _(seen as paryupāsate)_ — Ā. -upA ste (3. pl. -upA sate Pot. 3. sg. -upA sIta
-- **tad** _(seen as teṣām)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **nitya** _(seen as nitya)_ — innate, native, iii, 13941
-- **abhiyuj** _(seen as abhiyuktānām)_ — for a special purpose ( acc. ), ŚBr. : P. to put to (as horses) subsequently, ŚBr. : Ā. to summon,…
-- **yoga** _(seen as yoga)_ — the act of yoking, joining, attaching, harnessing, putting to (of horses)
-- **kṣema** _(seen as kṣemam)_ — _(no MW gloss; not in dictionary)_
-- **vah** _(seen as vahāmi)_ — vahati , °te (in later language Ā. only mc
+- **an** _(seen as an)_ — negation prefix (variant of a-)
+- **anya** _(seen as anyāḥ)_ — other, different
+- **cintay** _(seen as cintayantaḥ)_ — to think, ponder, consider
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **yad** _(seen as ye)_ — which, who (relative pronoun)
+- **jana** _(seen as janāḥ)_ — person, people, folk
+- **paryupās** _(seen as paryupāsate)_ — to attend upon, worship
+- **tad** _(seen as teṣām)_ — that (distal demonstrative); also 3rd-person pronoun
+- **nitya** _(seen as nitya)_ — eternal, permanent, daily
+- **abhiyuj** _(seen as abhiyuktānām)_ — to attack, attach to, employ
+- **yoga** _(seen as yoga)_ — yoga; union, discipline, application
+- **kṣema** _(seen as kṣemam)_ — well-being, security, peace
+- **vah** _(seen as vahāmi)_ — to carry, bear (verbal root)
 
 
 ## BG 9.33
@@ -661,20 +655,20 @@ _kiṃ punar brāhmaṇāḥ puṇyā bhaktā rājarṣayas tathā | anityam asu
 
 **Words the parser found:**
 
-- **ka** _(seen as kim)_ — ka is often connected with a demonstrative pron. ( ko 'yam AyAti , who comes here?) or with the…
-- **punar** _(seen as punar)_ — _(no MW gloss; not in dictionary)_
-- **brāhmaṇa** _(seen as brāhmaṇāḥ)_ — _(no MW gloss; not in dictionary)_
-- **puṇya** _(seen as puṇyāḥ)_ — _(no MW gloss; not in dictionary)_
-- **bhakta** _(seen as bhaktāḥ)_ — forming part of, belonging to, Pāṇ. , Sch
-- **rājarṣi** _(seen as rājarṣayaḥ)_ — _(no MW gloss; not in dictionary)_
-- **tathā** _(seen as tathā)_ — _(no MW gloss; not in dictionary)_
-- **anitya** _(seen as anityam)_ — _(no MW gloss; not in dictionary)_
-- **asukha** _(seen as asukham)_ — _(no MW gloss; not in dictionary)_
-- **loka** _(seen as lokam)_ — the inhabitants of the world, mankind, folk, people (sometimes opp. to ‘king’)
-- **idam** _(seen as imam)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **prāp** _(seen as prāpya)_ — P. Ā. prA pnoti ( irreg. Pot. prA peyam ), to attain to
-- **bhaj** _(seen as bhajasva)_ — Bajati , °te (2. sg. as Impv. Bakzi
-- **mad** _(seen as mām)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
+- **ka** _(seen as kim)_ — who? what? (interrogative)
+- **punar** _(seen as punar)_ — again, once more
+- **brāhmaṇa** _(seen as brāhmaṇāḥ)_ — a brāhmaṇa (priest-class); pertaining to Brahman
+- **puṇya** _(seen as puṇyāḥ)_ — merit, virtue, the auspicious
+- **bhakta** _(seen as bhaktāḥ)_ — devotee; one who is devoted
+- **rājarṣi** _(seen as rājarṣayaḥ)_ — royal sage (king-seer)
+- **tathā** _(seen as tathā)_ — thus, in that manner; likewise
+- **anitya** _(seen as anityam)_ — impermanent, transient
+- **asukha** _(seen as asukham)_ — unhappy; suffering, misery
+- **loka** _(seen as lokam)_ — world, realm; people
+- **idam** _(seen as imam)_ — this (proximal demonstrative)
+- **prāp** _(seen as prāpya)_ — to obtain, attain (verbal root)
+- **bhaj** _(seen as bhajasva)_ — to share, partake of, worship, love (verbal root)
+- **mad** _(seen as mām)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
 
 
 ## BG 10.1
@@ -688,20 +682,20 @@ _bhūya eva mahā-bāho śṛṇu me paramaṃ vacaḥ | yat te 'haṃ prīyamā
 
 **Words the parser found:**
 
-- **bhūyas** _(seen as bhūyas)_ — more, more numerous or abundant, greater, larger, mightier (also ‘much or many, very numerous or…
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **mahat** _(seen as mahā)_ — great (in space, time, quantity or degree) large, big, huge, ample, extensive, long, abundant,…
-- **bāhu** _(seen as bāho)_ — ( fr. √ bah , baMh
-- **śru** _(seen as śṛṇu)_ — _(no MW gloss; not in dictionary)_
-- **mad** _(seen as me)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **parama** _(seen as paramam)_ — most distant, remotest, extreme, last
-- **vacas** _(seen as vacaḥ)_ — speech, voice, word, ( °casAmpatiH N. of Bṛhaspati , Laghuj. )
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **tvad** _(seen as te)_ — &c. See col. 2
-- **prī** _(seen as prīyamāṇāya)_ — prIRAti , prIRIte
-- **vac** _(seen as vakṣyāmi)_ — vakti (occurs only in sg. vacmi , vakzi , vakti , and Impv. vaktu
-- **hita** _(seen as hita)_ — sent, impelled, urged on, set in motion &c
-- **kāmyā** _(seen as kāmyayā)_ — _(no MW gloss; not in dictionary)_
+- **bhūyas** _(seen as bhūyas)_ — more, again, abundantly
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **mahat** _(seen as mahā)_ — great, large; the cosmic intellect (mahattattva)
+- **bāhu** _(seen as bāho)_ — arm
+- **śru** _(seen as śṛṇu)_ — to hear (verbal root)
+- **mad** _(seen as me)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **parama** _(seen as paramam)_ — highest, supreme
+- **vacas** _(seen as vacaḥ)_ — speech, word, statement
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **tvad** _(seen as te)_ — you (2nd person pronoun stem)
+- **prī** _(seen as prīyamāṇāya)_ — to please, gratify (verbal root)
+- **vac** _(seen as vakṣyāmi)_ — to speak (verbal root)
+- **hita** _(seen as hita)_ — beneficial, good; well-being
+- **kāmyā** _(seen as kāmyayā)_ — desirable; performed for desire of result
 
 
 ## BG 10.5
@@ -715,21 +709,21 @@ _ahiṃsā samatā tuṣṭis tapo dānaṃ yaśo 'yaśaḥ | bhavanti bhāvā b
 
 **Words the parser found:**
 
-- **ahiṃsā** _(seen as ahiṃsā)_ — _(no MW gloss; not in dictionary)_
-- **sama** _(seen as sama)_ — any, every
-- **tā** _(seen as tā)_ — _(no MW gloss; not in dictionary)_
-- **tuṣṭi** _(seen as tuṣṭiḥ)_ — _(no MW gloss; not in dictionary)_
-- **tapas** _(seen as tapaḥ)_ — N. of a month intervening between winter and spring, VS
-- **dāna** _(seen as dānam)_ — distribution of food or of a sacrificial meal
-- **yaśas** _(seen as yaśaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ayaśas** _(seen as ayaśaḥ)_ — _(no MW gloss; not in dictionary)_
-- **bhū** _(seen as bhavanti)_ — Bavati (rarely Ā. °te
-- **bhāva** _(seen as bhāvāḥ)_ — becoming, being, existing, occurring, appearance, ŚvetUp
-- **bhūta** _(seen as bhūtānām)_ — being or being like anything, consisting of, mixed or joined with, Prāt
-- **mad** _(seen as mattaḥ)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **pṛthak** _(seen as pṛthak)_ — _(no MW gloss; not in dictionary)_
-- **vidha** _(seen as vidhāḥ)_ — _(no MW gloss; not in dictionary)_
+- **ahiṃsā** _(seen as ahiṃsā)_ — non-violence, non-harming
+- **sama** _(seen as sama)_ — equal, same, even-minded
+- **tā** _(seen as tā)_ — (feminine suffix; or stem-form of various words — context-dependent)
+- **tuṣṭi** _(seen as tuṣṭiḥ)_ — contentment, satisfaction
+- **tapas** _(seen as tapaḥ)_ — austerity, ascetic heat, spiritual discipline
+- **dāna** _(seen as dānam)_ — giving, charity, gift
+- **yaśas** _(seen as yaśaḥ)_ — fame, glory, renown
+- **ayaśas** _(seen as ayaśaḥ)_ — infamy, dishonor
+- **bhū** _(seen as bhavanti)_ — to be, become; the earth (verbal root / noun)
+- **bhāva** _(seen as bhāvāḥ)_ — being, state, mood, emotion, condition
+- **bhūta** _(seen as bhūtānām)_ — being, creature; element; past, gone
+- **mad** _(seen as mattaḥ)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **pṛthak** _(seen as pṛthak)_ — separately, distinctly, apart
+- **vidha** _(seen as vidhāḥ)_ — kind, sort, manner
 
 
 ## BG 10.25
@@ -743,18 +737,18 @@ _maharṣīṇāṃ bhṛgur ahaṃ girām asmy ekam akṣaram | yajñānāṃ j
 
 **Words the parser found:**
 
-- **mahat** _(seen as mahā)_ — great (in space, time, quantity or degree) large, big, huge, ample, extensive, long, abundant,…
-- **ṛṣi** _(seen as ṛṣīṇām)_ — _(no MW gloss; not in dictionary)_
-- **bhṛgu** _(seen as bhṛguḥ)_ — N. of a mythical race of beings (closely connected with fire, which they find
-- **mad** _(seen as aham)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **gir** _(seen as girām)_ — addressing, invoking, praising
-- **as** _(seen as asmi)_ — to be, live, exist, be present
-- **eka** _(seen as ekam)_ — alone, solitary, single, happening only once, that one only (frequently ifc
-- **akṣara** _(seen as akṣaram)_ — _(no MW gloss; not in dictionary)_
-- **yajña** _(seen as yajñānām)_ — N. of the reputed author of x, 130 , Anukr
-- **japa** _(seen as japa)_ — muttering prayers, repeating in a murmuring tone passages from scripture or charms or names of a…
-- **sthāvara** _(seen as sthāvarāṇām)_ — _(no MW gloss; not in dictionary)_
-- **himālaya** _(seen as himālayaḥ)_ — _(no MW gloss; not in dictionary)_
+- **mahat** _(seen as mahā)_ — great, large; the cosmic intellect (mahattattva)
+- **ṛṣi** _(seen as ṛṣīṇām)_ — seer, sage
+- **bhṛgu** _(seen as bhṛguḥ)_ — Bhṛgu (a great seer)
+- **mad** _(seen as aham)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **gir** _(seen as girām)_ — speech, voice, hymn
+- **as** _(seen as asmi)_ — to be (verbal root)
+- **eka** _(seen as ekam)_ — one, alone, single
+- **akṣara** _(seen as akṣaram)_ — imperishable; syllable; the Imperishable (Brahman)
+- **yajña** _(seen as yajñānām)_ — sacrifice, worship, ritual offering
+- **japa** _(seen as japa)_ — muttered prayer, repetition of mantra
+- **sthāvara** _(seen as sthāvarāṇām)_ — immobile, stationary (e.g., plants)
+- **himālaya** _(seen as himālayaḥ)_ — the Himālayan mountains (abode of snow)
 
 
 ## BG 11.6
@@ -768,18 +762,18 @@ _paśyādityān vasūn rudrān aśvinau marutas tathā | bahūny adṛṣṭa-p�
 
 **Words the parser found:**
 
-- **paś** _(seen as paśya)_ — _(no MW gloss; not in dictionary)_
-- **āditya** _(seen as ādityān)_ — N. of a constellation, the seventh lunar mansion
-- **vasu** _(seen as vasūn)_ — excellent, good, beneficent
-- **rudra** _(seen as rudrān)_ — crying, howling, roaring, dreadful, terrific, terrible, horrible (applied to the Aśvin s, Agni ,…
-- **aśvin** _(seen as aśvinau)_ — _(no MW gloss; not in dictionary)_
-- **marut** _(seen as marutaḥ)_ — the storm-gods (Indra 's companions and sometimes, Ragh. xii, 101 = devAH , the gods or deities in…
-- **tathā** _(seen as tathā)_ — _(no MW gloss; not in dictionary)_
-- **bahu** _(seen as bahūni)_ — _(no MW gloss; not in dictionary)_
-- **adṛṣṭa** _(seen as adṛṣṭa)_ — _(no MW gloss; not in dictionary)_
-- **pūrva** _(seen as pūrvāṇi)_ — being before or in front, fore, first
-- **āścarya** _(seen as āścaryāṇi)_ — _(no MW gloss; not in dictionary)_
-- **bhārata** _(seen as bhārata)_ — _(no MW gloss; not in dictionary)_
+- **paś** _(seen as paśya)_ — to see (verbal root, suppletive of √dṛś)
+- **āditya** _(seen as ādityān)_ — Āditya, son of Aditi; the sun
+- **vasu** _(seen as vasūn)_ — Vasu (a class of eight deities); wealth, treasure
+- **rudra** _(seen as rudrān)_ — Rudra (the fierce Vedic deity / Śiva)
+- **aśvin** _(seen as aśvinau)_ — the twin Aśvins (divine horsemen-physicians)
+- **marut** _(seen as marutaḥ)_ — Marut (storm gods); wind
+- **tathā** _(seen as tathā)_ — thus, in that manner; likewise
+- **bahu** _(seen as bahūni)_ — many, much, abundant
+- **adṛṣṭa** _(seen as adṛṣṭa)_ — unseen, invisible; fate, the unmanifest karmic residue
+- **pūrva** _(seen as pūrvāṇi)_ — former, prior, eastern
+- **āścarya** _(seen as āścaryāṇi)_ — wonderful, marvel
+- **bhārata** _(seen as bhārata)_ — descendant of Bharata; epithet of Arjuna
 
 
 ## BG 11.19
@@ -793,25 +787,25 @@ _anādi-madhyāntam ananta-vīryam ananta-bāhuṃ śaśi-sūrya-netram | paśy�
 
 **Words the parser found:**
 
-- **anādi** _(seen as anādi)_ — _(no MW gloss; not in dictionary)_
-- **madhya** _(seen as madhya)_ — _(no MW gloss; not in dictionary)_
-- **anta** _(seen as antam)_ — _(no MW gloss; not in dictionary)_
-- **ananta** _(seen as ananta)_ — _(no MW gloss; not in dictionary)_
-- **vīrya** _(seen as vīryam)_ — manliness, valour, strength, power, energy
-- **bāhu** _(seen as bāhum)_ — ( fr. √ bah , baMh
-- **śaśin** _(seen as śaśi)_ — _(no MW gloss; not in dictionary)_
-- **sūrya** _(seen as sūrya)_ — _(no MW gloss; not in dictionary)_
-- **netra** _(seen as netram)_ — leading, guiding, conducting, AV. x, 10, 22
-- **dṛś** _(seen as paśyāmi)_ — _(no MW gloss; not in dictionary)_
-- **tvad** _(seen as tvām)_ — &c. See col. 2
-- **dīp** _(seen as dīpta)_ — to blaze, flare, shine, be luminous or illustrious, AV
-- **hutāśa** _(seen as hutāśa)_ — _(no MW gloss; not in dictionary)_
-- **vaktra** _(seen as vaktram)_ — the initial quantity or first term of a progression, Col
-- **sva** _(seen as sva)_ — house’]
-- **tejas** _(seen as tejasā)_ — the sharp edge (of a knife &c.), point or top of a flame or ray, glow, glare, splendour,…
-- **viśva** _(seen as viśvam)_ — _(no MW gloss; not in dictionary)_
-- **idam** _(seen as idam)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **tap** _(seen as tapantam)_ — cl. 4. Ā. °pyate , to rule, Dhātup. xxvi, 50
+- **anādi** _(seen as anādi)_ — without beginning, beginningless
+- **madhya** _(seen as madhya)_ — middle, midst
+- **anta** _(seen as antam)_ — end, conclusion, limit, death
+- **ananta** _(seen as ananta)_ — endless, infinite; an epithet of Viṣṇu
+- **vīrya** _(seen as vīryam)_ — valor, vigor, prowess
+- **bāhu** _(seen as bāhum)_ — arm
+- **śaśin** _(seen as śaśi)_ — the moon (lit. having a hare)
+- **sūrya** _(seen as sūrya)_ — the sun
+- **netra** _(seen as netram)_ — eye
+- **dṛś** _(seen as paśyāmi)_ — to see (verbal root)
+- **tvad** _(seen as tvām)_ — you (2nd person pronoun stem)
+- **dīp** _(seen as dīpta)_ — to shine, blaze (verbal root)
+- **hutāśa** _(seen as hutāśa)_ — fire (lit. eater of oblations)
+- **vaktra** _(seen as vaktram)_ — mouth, face
+- **sva** _(seen as sva)_ — own, self
+- **tejas** _(seen as tejasā)_ — splendor, brilliance, energy
+- **viśva** _(seen as viśvam)_ — all, the universe, every
+- **idam** _(seen as idam)_ — this (proximal demonstrative)
+- **tap** _(seen as tapantam)_ — to heat, perform tapas / austerity (verbal root)
 
 
 ## BG 11.53
@@ -825,18 +819,18 @@ _nāhaṃ vedair na tapasā na dānena na cejyayā | śakya evaṃ-vidho draṣ�
 
 **Words the parser found:**
 
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **mad** _(seen as aham)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **veda** _(seen as vedaiḥ)_ — knowledge, true or sacred knowledge or lore, knowledge of ritual
-- **tapas** _(seen as tapasā)_ — N. of a month intervening between winter and spring, VS
-- **dāna** _(seen as dānena)_ — distribution of food or of a sacrificial meal
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **ijyā** _(seen as ijyayā)_ — _(no MW gloss; not in dictionary)_
-- **śakya** _(seen as śakyaḥ)_ — _(no MW gloss; not in dictionary)_
-- **evaṃvidha** _(seen as evaṃvidhaḥ)_ — _(no MW gloss; not in dictionary)_
-- **dṛś** _(seen as draṣṭum)_ — _(no MW gloss; not in dictionary)_
-- **as** _(seen as asi)_ — to be, live, exist, be present
-- **yathā** _(seen as yathā)_ — _(no MW gloss; not in dictionary)_
+- **na** _(seen as na)_ — not (negation particle)
+- **mad** _(seen as aham)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **veda** _(seen as vedaiḥ)_ — the Veda; knowledge
+- **tapas** _(seen as tapasā)_ — austerity, ascetic heat, spiritual discipline
+- **dāna** _(seen as dānena)_ — giving, charity, gift
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **ijyā** _(seen as ijyayā)_ — sacrifice, worship, offering
+- **śakya** _(seen as śakyaḥ)_ — able, possible, capable
+- **evaṃvidha** _(seen as evaṃvidhaḥ)_ — of this kind, such
+- **dṛś** _(seen as draṣṭum)_ — to see (verbal root)
+- **as** _(seen as asi)_ — to be (verbal root)
+- **yathā** _(seen as yathā)_ — as, in the manner that
 
 
 ## BG 12.3
@@ -850,19 +844,19 @@ _ye tv akṣaram anirdeśyam avyaktaṃ paryupāsate | sarvatra-gam acintyaṃ c
 
 **Words the parser found:**
 
-- **yad** _(seen as ye)_ — _(no MW gloss; not in dictionary)_
-- **tu** _(seen as tu)_ — to have authority, be strong, i, 94, 2 ( pf. tUtAva Naigh. iv, 1
-- **akṣara** _(seen as akṣaram)_ — _(no MW gloss; not in dictionary)_
-- **anirdeśya** _(seen as anirdeśyam)_ — _(no MW gloss; not in dictionary)_
-- **avyakta** _(seen as avyaktam)_ — unknown as quantity or number
-- **paryupās** _(seen as paryupāsate)_ — Ā. -upA ste (3. pl. -upA sate Pot. 3. sg. -upA sIta
-- **sarvatra** _(seen as sarvatra)_ — _(no MW gloss; not in dictionary)_
-- **ga** _(seen as gam)_ — only ifc. going, moving ( yAna- , going in a carriage, iv, 120
-- **acintya** _(seen as acintyam)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **kūṭastha** _(seen as kūṭastham)_ — _(no MW gloss; not in dictionary)_
-- **acala** _(seen as acalam)_ — _(no MW gloss; not in dictionary)_
-- **dhruva** _(seen as dhruvam)_ — _(no MW gloss; not in dictionary)_
+- **yad** _(seen as ye)_ — which, who (relative pronoun)
+- **tu** _(seen as tu)_ — but, on the other hand (particle)
+- **akṣara** _(seen as akṣaram)_ — imperishable; syllable; the Imperishable (Brahman)
+- **anirdeśya** _(seen as anirdeśyam)_ — indefinable, indescribable
+- **avyakta** _(seen as avyaktam)_ — unmanifest, imperceptible; the Unmanifest (prakṛti)
+- **paryupās** _(seen as paryupāsate)_ — to attend upon, worship
+- **sarvatra** _(seen as sarvatra)_ — everywhere
+- **ga** _(seen as gam)_ — going, going to (suffix); short for gam
+- **acintya** _(seen as acintyam)_ — inconceivable, beyond thought
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **kūṭastha** _(seen as kūṭastham)_ — fixed at the summit, immutable, unchanging
+- **acala** _(seen as acalam)_ — immovable, steady (also: mountain)
+- **dhruva** _(seen as dhruvam)_ — fixed, certain, eternal; the polestar
 
 
 ## BG 12.17
@@ -876,19 +870,19 @@ _yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati | śubhāśubha-par
 
 **Words the parser found:**
 
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **na** _(seen as na)_ — &c. &c. (as well in simple negation as in wishing, requesting and commanding, except in prohibition…
-- **hṛṣ** _(seen as hṛṣyati)_ — _(no MW gloss; not in dictionary)_
-- **dviṣ** _(seen as dveṣṭi)_ — _(no MW gloss; not in dictionary)_
-- **śuc** _(seen as śocati)_ — _(no MW gloss; not in dictionary)_
-- **kāṅkṣ** _(seen as kāṅkṣati)_ — _(no MW gloss; not in dictionary)_
-- **śubha** _(seen as śubha)_ — _(no MW gloss; not in dictionary)_
-- **aśubha** _(seen as aśubha)_ — _(no MW gloss; not in dictionary)_
-- **parityāgin** _(seen as parityāgī)_ — _(no MW gloss; not in dictionary)_
-- **bhaktimat** _(seen as bhaktimān)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as sa)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **mad** _(seen as me)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **priya** _(seen as priyaḥ)_ — _(no MW gloss; not in dictionary)_
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **na** _(seen as na)_ — not (negation particle)
+- **hṛṣ** _(seen as hṛṣyati)_ — to be glad, rejoice (verbal root)
+- **dviṣ** _(seen as dveṣṭi)_ — to hate (verbal root); enemy
+- **śuc** _(seen as śocati)_ — to grieve (verbal root)
+- **kāṅkṣ** _(seen as kāṅkṣati)_ — to desire, long for (verbal root)
+- **śubha** _(seen as śubha)_ — auspicious, good
+- **aśubha** _(seen as aśubha)_ — inauspicious, evil
+- **parityāgin** _(seen as parityāgī)_ — renunciant, one who relinquishes
+- **bhaktimat** _(seen as bhaktimān)_ — possessed of devotion
+- **tad** _(seen as sa)_ — that (distal demonstrative); also 3rd-person pronoun
+- **mad** _(seen as me)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **priya** _(seen as priyaḥ)_ — dear, beloved
 
 
 ## BG 12.19
@@ -902,20 +896,20 @@ _tulya-nindā-stutir maunī saṃtuṣṭo yena kenacit | aniketaḥ sthira-mati
 
 **Words the parser found:**
 
-- **tulya** _(seen as tulya)_ — equal to, of the same kind or class or number or value, similar, comparable, like (with instr. or…
-- **nindā** _(seen as nindā)_ — one of the eight worldly conditions, Dharmas. lxi
-- **stuti** _(seen as stutiḥ)_ — praise, eulogy, panegyric, commendation, adulation
-- **maunin** _(seen as maunī)_ — _(no MW gloss; not in dictionary)_
-- **saṃtuṣ** _(seen as saṃtuṣṭaḥ)_ — _(no MW gloss; not in dictionary)_
-- **yad** _(seen as yena)_ — _(no MW gloss; not in dictionary)_
-- **kaścit** _(seen as kenacid)_ — _(no MW gloss; not in dictionary)_
-- **aniketa** _(seen as aniketaḥ)_ — _(no MW gloss; not in dictionary)_
-- **sthira** _(seen as sthira)_ — _(no MW gloss; not in dictionary)_
-- **mati** _(seen as matiḥ)_ — devotion, prayer, worship, hymn, sacred utterance
-- **bhaktimat** _(seen as bhaktimān)_ — _(no MW gloss; not in dictionary)_
-- **mad** _(seen as me)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **priya** _(seen as priyaḥ)_ — _(no MW gloss; not in dictionary)_
-- **nara** _(seen as naraḥ)_ — a man, a male, a person ( pl. men, people), TS. &c. &c
+- **tulya** _(seen as tulya)_ — equal, similar
+- **nindā** _(seen as nindā)_ — blame, censure, reproach
+- **stuti** _(seen as stutiḥ)_ — praise, hymn
+- **maunin** _(seen as maunī)_ — silent sage; observer of mauna (silence)
+- **saṃtuṣ** _(seen as saṃtuṣṭaḥ)_ — to be content, satisfied (sam + √tuṣ)
+- **yad** _(seen as yena)_ — which, who (relative pronoun)
+- **kaścit** _(seen as kenacid)_ — someone, anyone
+- **aniketa** _(seen as aniketaḥ)_ — homeless, without abode
+- **sthira** _(seen as sthira)_ — firm, steady, fixed
+- **mati** _(seen as matiḥ)_ — thought, opinion, intention
+- **bhaktimat** _(seen as bhaktimān)_ — possessed of devotion
+- **mad** _(seen as me)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **priya** _(seen as priyaḥ)_ — dear, beloved
+- **nara** _(seen as naraḥ)_ — man, human
 
 
 ## BG 13.18
@@ -929,20 +923,20 @@ _iti kṣetraṃ tathā jñānaṃ jñeyaṃ coktaṃ samāsataḥ | mad-bhakta 
 
 **Words the parser found:**
 
-- **iti** _(seen as iti)_ — See √ i above
-- **kṣetra** _(seen as kṣetram)_ — _(no MW gloss; not in dictionary)_
-- **tathā** _(seen as tathā)_ — _(no MW gloss; not in dictionary)_
-- **jñāna** _(seen as jñānam)_ — the higher knowledge (derived from meditation on the one Universal Spirit), ŚāṅkhŚr. xiii
-- **jñā** _(seen as jñeyam)_ — to know, have knowledge, become acquainted with ( acc
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **vac** _(seen as uktam)_ — vakti (occurs only in sg. vacmi , vakzi , vakti , and Impv. vaktu
-- **samāsatas** _(seen as samāsatas)_ — _(no MW gloss; not in dictionary)_
-- **mad** _(seen as mad)_ — cl. 4. P. ( Dhātup. xxvi, 99 ) mAdyati ( ep. also °te
-- **bhakta** _(seen as bhaktaḥ)_ — forming part of, belonging to, Pāṇ. , Sch
-- **etad** _(seen as etat)_ — this, this here, here (especially as pointing to what is nearest to the speaker, eza bARaH , this…
-- **vijñā** _(seen as vijñāya)_ — : Caus. -jYapayati , or -jYApayati (rarely °te
-- **bhāva** _(seen as bhāvāya)_ — becoming, being, existing, occurring, appearance, ŚvetUp
-- **upapad** _(seen as upapadyate)_ — -ti , to go towards or against, attack, AV. iv, 18, 2
+- **iti** _(seen as iti)_ — thus (quotative particle)
+- **kṣetra** _(seen as kṣetram)_ — field, body (as the field of experience)
+- **tathā** _(seen as tathā)_ — thus, in that manner; likewise
+- **jñāna** _(seen as jñānam)_ — knowledge, wisdom, cognition
+- **jñā** _(seen as jñeyam)_ — to know (verbal root)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **vac** _(seen as uktam)_ — to speak (verbal root)
+- **samāsatas** _(seen as samāsatas)_ — in summary, briefly
+- **mad** _(seen as mad)_ — I, me (1st person pronoun stem); also: to rejoice (verbal root)
+- **bhakta** _(seen as bhaktaḥ)_ — devotee; one who is devoted
+- **etad** _(seen as etat)_ — this (proximal demonstrative)
+- **vijñā** _(seen as vijñāya)_ — to discern, understand fully
+- **bhāva** _(seen as bhāvāya)_ — being, state, mood, emotion, condition
+- **upapad** _(seen as upapadyate)_ — to arise, occur, befit
 
 
 ## BG 13.21
@@ -956,20 +950,20 @@ _puruṣaḥ prakṛti-stho hi bhuṅkte prakṛtijān guṇān | kāraṇaṃ g
 
 **Words the parser found:**
 
-- **puruṣa** _(seen as puruṣaḥ)_ — _(no MW gloss; not in dictionary)_
-- **prakṛti** _(seen as prakṛti)_ — the original producer of (or rather passive power of creating) the material world (consisting of 3…
-- **stha** _(seen as sthaḥ)_ — _(no MW gloss; not in dictionary)_
-- **hi** _(seen as hi)_ — cl. 5. P. ( Dhātup. xxvii, 11 ) hinoti ( Ved. also hinute , hinvati and hinvati , °te
-- **bhuj** _(seen as bhuṅkte)_ — Bujati ( pf. buBoja aor. aBOkzIt fut. Bokzyati and °ktA Gr
-- **ja** _(seen as jān)_ — ifc. born or descended from, produced or caused by, born or produced in or at or upon, growing in,…
-- **guṇa** _(seen as guṇān)_ — _(no MW gloss; not in dictionary)_
-- **kāraṇa** _(seen as kāraṇam)_ — _(no MW gloss; not in dictionary)_
-- **saṅga** _(seen as saṅgaḥ)_ — _(no MW gloss; not in dictionary)_
-- **idam** _(seen as asya)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **as** _(seen as sat)_ — to be, live, exist, be present
-- **asat** _(seen as asat)_ — _(no MW gloss; not in dictionary)_
-- **yoni** _(seen as yoni)_ — the womb, uterus, vulva, vagina, female organs of generation, (together with the liNga , a typical…
-- **janman** _(seen as janmasu)_ — N. of the 1st lunar mansion, civ
+- **puruṣa** _(seen as puruṣaḥ)_ — person, man; the cosmic Person; the Self (Sāṅkhya/Vedānta)
+- **prakṛti** _(seen as prakṛti)_ — primordial nature; material principle (Sāṅkhya)
+- **stha** _(seen as sthaḥ)_ — standing, situated (suffix)
+- **hi** _(seen as hi)_ — for, indeed, because (particle)
+- **bhuj** _(seen as bhuṅkte)_ — to enjoy, eat, experience (verbal root)
+- **ja** _(seen as jān)_ — born of, produced from (suffix)
+- **guṇa** _(seen as guṇān)_ — quality, attribute (esp. the three guṇas: sattva/rajas/tamas)
+- **kāraṇa** _(seen as kāraṇam)_ — cause, reason
+- **saṅga** _(seen as saṅgaḥ)_ — attachment, association, contact
+- **idam** _(seen as asya)_ — this (proximal demonstrative)
+- **as** _(seen as sat)_ — to be (verbal root)
+- **asat** _(seen as asat)_ — non-being, untruth, that which is not
+- **yoni** _(seen as yoni)_ — womb, source, origin
+- **janman** _(seen as janmasu)_ — birth, origin
 
 
 ## BG 13.29
@@ -983,18 +977,18 @@ _prakṛtyaiva ca karmāṇi kriyamāṇāni sarvaśaḥ | yaḥ paśyati tathā
 
 **Words the parser found:**
 
-- **prakṛti** _(seen as prakṛtyā)_ — the original producer of (or rather passive power of creating) the material world (consisting of 3…
-- **eva** _(seen as eva)_ — (√ i , Uṇ. i, 152
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **karman** _(seen as karmāṇi)_ — the object (it stands either in the acc
-- **kṛ** _(seen as kriyamāṇāni)_ — cl. 2. P. 2. sg. karzi du. kfTas pl. kfTa
-- **sarvaśas** _(seen as sarvaśas)_ — _(no MW gloss; not in dictionary)_
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **dṛś** _(seen as paśyati)_ — _(no MW gloss; not in dictionary)_
-- **tathā** _(seen as tathā)_ — _(no MW gloss; not in dictionary)_
-- **ātman** _(seen as ātmānam)_ — the breath
-- **akartṛ** _(seen as akartāram)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as sa)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
+- **prakṛti** _(seen as prakṛtyā)_ — primordial nature; material principle (Sāṅkhya)
+- **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **karman** _(seen as karmāṇi)_ — action, deed, the law of action
+- **kṛ** _(seen as kriyamāṇāni)_ — to do, make (verbal root)
+- **sarvaśas** _(seen as sarvaśas)_ — in every way, completely
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **dṛś** _(seen as paśyati)_ — to see (verbal root)
+- **tathā** _(seen as tathā)_ — thus, in that manner; likewise
+- **ātman** _(seen as ātmānam)_ — the Self, soul; one's own self
+- **akartṛ** _(seen as akartāram)_ — non-doer; one who does not act
+- **tad** _(seen as sa)_ — that (distal demonstrative); also 3rd-person pronoun
 
 
 ## BG 14.11
@@ -1008,20 +1002,20 @@ _sarva-dvāreṣu dehe 'smin prakāśa upajāyate | jñānaṃ yadā tadā vidy�
 
 **Words the parser found:**
 
-- **sarva** _(seen as sarva)_ — whole, entire, all, every ( m. sg. ‘every one’
-- **dvāra** _(seen as dvāreṣu)_ — _(no MW gloss; not in dictionary)_
-- **deha** _(seen as dehe)_ — the body, TĀr
-- **idam** _(seen as asmin)_ — idam often refers to something immediately following, whereas etad points to what precedes ( SrutvE…
-- **prakāśa** _(seen as prakāśaḥ)_ — _(no MW gloss; not in dictionary)_
-- **upajan** _(seen as upajāyate)_ — _(no MW gloss; not in dictionary)_
-- **jñāna** _(seen as jñānam)_ — the higher knowledge (derived from meditation on the one Universal Spirit), ŚāṅkhŚr. xiii
-- **yadā** _(seen as yadā)_ — when, at what time, whenever (generally followed by the correlatives tadA , tatas , tarhi , in Veda…
-- **tadā** _(seen as tadā)_ — at that time, then, in that case (often used redundantly, after tatas or purA or before aTa
-- **vid** _(seen as vidyāt)_ — vetti ( vidmahe , Br
-- **vivṛdh** _(seen as vivṛddham)_ — _(no MW gloss; not in dictionary)_
-- **sattva** _(seen as sattvam)_ — being, existence, entity, reality ( ISvara-s ° , ‘the existence of a Supreme Being’), TS. &c. &c
-- **iti** _(seen as iti)_ — See √ i above
-- **uta** _(seen as uta)_ — or, utrum-an ( kaTam nirRIyate kiM syAn nizkAraRo banDur uta viSvAsa-GAtakaH , how can it be…
+- **sarva** _(seen as sarva)_ — all, entire
+- **dvāra** _(seen as dvāreṣu)_ — door, gateway
+- **deha** _(seen as dehe)_ — body
+- **idam** _(seen as asmin)_ — this (proximal demonstrative)
+- **prakāśa** _(seen as prakāśaḥ)_ — light, luminosity, manifestation
+- **upajan** _(seen as upajāyate)_ — to be born, arise, originate
+- **jñāna** _(seen as jñānam)_ — knowledge, wisdom, cognition
+- **yadā** _(seen as yadā)_ — when
+- **tadā** _(seen as tadā)_ — then, at that time
+- **vid** _(seen as vidyāt)_ — to know; to find (verbal root)
+- **vivṛdh** _(seen as vivṛddham)_ — to grow, increase
+- **sattva** _(seen as sattvam)_ — purity, lightness (the first guṇa); being, essence
+- **iti** _(seen as iti)_ — thus (quotative particle)
+- **uta** _(seen as uta)_ — and, also, even
 
 
 ## BG 14.12
@@ -1035,18 +1029,18 @@ _lobhaḥ pravṛttir ārambhaḥ karmaṇām aśamaḥ spṛhā | rajasy etāni
 
 **Words the parser found:**
 
-- **lobha** _(seen as lobhaḥ)_ — _(no MW gloss; not in dictionary)_
-- **pravṛtti** _(seen as pravṛttiḥ)_ — the multiplier, W. ( w.r. for pra-kfti ?)
-- **ārambha** _(seen as ārambhaḥ)_ — the commencement of the action which awakens an interest in the progress of the principal plot,…
-- **karman** _(seen as karmaṇām)_ — the object (it stands either in the acc
-- **aśama** _(seen as aśamaḥ)_ — _(no MW gloss; not in dictionary)_
-- **spṛhā** _(seen as spṛhā)_ — eager desire, desire, covetousness, envy, longing for, pleasure or delight in ( dat. , gen. loc. ,…
-- **rajas** _(seen as rajasi)_ — the second of the three Guṇa s or qualities (the other two being sattva , goodness, and tamas ,…
-- **etad** _(seen as etāni)_ — this, this here, here (especially as pointing to what is nearest to the speaker, eza bARaH , this…
-- **jan** _(seen as jāyante)_ — to generate, beget, produce, create, cause
-- **vivṛdh** _(seen as vivṛddhe)_ — _(no MW gloss; not in dictionary)_
-- **bharata** _(seen as bharata)_ — _(no MW gloss; not in dictionary)_
-- **ṛṣabha** _(seen as ṛṣabha)_ — _(no MW gloss; not in dictionary)_
+- **lobha** _(seen as lobhaḥ)_ — greed, covetousness
+- **pravṛtti** _(seen as pravṛttiḥ)_ — engagement, activity, inclination, proceeding-forth
+- **ārambha** _(seen as ārambhaḥ)_ — beginning, undertaking
+- **karman** _(seen as karmaṇām)_ — action, deed, the law of action
+- **aśama** _(seen as aśamaḥ)_ — restlessness, lack of peace
+- **spṛhā** _(seen as spṛhā)_ — longing, desire
+- **rajas** _(seen as rajasi)_ — passion, activity (the second guṇa); dust
+- **etad** _(seen as etāni)_ — this (proximal demonstrative)
+- **jan** _(seen as jāyante)_ — to be born; to produce (verbal root)
+- **vivṛdh** _(seen as vivṛddhe)_ — to grow, increase
+- **bharata** _(seen as bharata)_ — Bharata (ancestor of the Kurus); a descendant of Bharata
+- **ṛṣabha** _(seen as ṛṣabha)_ — bull (often as 'best of'); ṛṣabha
 
 
 ## BG 14.20
@@ -1060,20 +1054,20 @@ _guṇān etān atītya trīn dehī deha-samudbhavān | janma-mṛtyu-jarā-du�
 
 **Words the parser found:**
 
-- **guṇa** _(seen as guṇān)_ — _(no MW gloss; not in dictionary)_
-- **etad** _(seen as etān)_ — this, this here, here (especially as pointing to what is nearest to the speaker, eza bARaH , this…
-- **atī** _(seen as atītya)_ — cl. 2. P. aty-eti , -etum , to pass by, elapse, pass over, overflow
-- **tri** _(seen as trīn)_ — _(no MW gloss; not in dictionary)_
-- **dehin** _(seen as dehī)_ — _(no MW gloss; not in dictionary)_
-- **deha** _(seen as deha)_ — the body, TĀr
-- **samudbhava** _(seen as samudbhavān)_ — existence, production, origin ( ifc. either ‘arisen or produced from’ or ‘being the source of’)
-- **janman** _(seen as janma)_ — N. of the 1st lunar mansion, civ
-- **mṛtyu** _(seen as mṛtyu)_ — death, dying
-- **jarā** _(seen as jarā)_ — the act of becoming old, old age, i, 140, 8
-- **duḥkha** _(seen as duḥkhaiḥ)_ — uneasy, uncomfortable, unpleasant, difficult, R
-- **vimuc** _(seen as vimuktaḥ)_ — _(no MW gloss; not in dictionary)_
-- **amṛta** _(seen as amṛtam)_ — not dead
-- **aś** _(seen as aśnute)_ — _(no MW gloss; not in dictionary)_
+- **guṇa** _(seen as guṇān)_ — quality, attribute (esp. the three guṇas: sattva/rajas/tamas)
+- **etad** _(seen as etān)_ — this (proximal demonstrative)
+- **atī** _(seen as atītya)_ — to pass beyond, transcend
+- **tri** _(seen as trīn)_ — three
+- **dehin** _(seen as dehī)_ — embodied being; the soul in a body
+- **deha** _(seen as deha)_ — body
+- **samudbhava** _(seen as samudbhavān)_ — origin, source, arising from
+- **janman** _(seen as janma)_ — birth, origin
+- **mṛtyu** _(seen as mṛtyu)_ — death; Mṛtyu personified
+- **jarā** _(seen as jarā)_ — old age
+- **duḥkha** _(seen as duḥkhaiḥ)_ — suffering, sorrow, pain
+- **vimuc** _(seen as vimuktaḥ)_ — to release, set free
+- **amṛta** _(seen as amṛtam)_ — immortal; immortality; nectar
+- **aś** _(seen as aśnute)_ — to eat / to pervade (verbal root, two homophonous roots)
 
 
 ## BG 15.2
@@ -1087,22 +1081,22 @@ _adhaś cordhvaṃ prasṛtās tasya śākhā guṇa-pravṛddhā viṣaya-prav�
 
 **Words the parser found:**
 
-- **adhas** _(seen as adhas)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **ūrdhvam** _(seen as ūrdhvam)_ — _(no MW gloss; not in dictionary)_
-- **prasṛ** _(seen as prasṛtāḥ)_ — and sarati (sometimes also Ā. °te ), to move forwards, advance (‘for’ or ‘against’ acc. ), proceed…
-- **tad** _(seen as tasya)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **śākhā** _(seen as śākhāḥ)_ — _(no MW gloss; not in dictionary)_
-- **guṇa** _(seen as guṇa)_ — _(no MW gloss; not in dictionary)_
-- **pravṛdh** _(seen as pravṛddhāḥ)_ — _(no MW gloss; not in dictionary)_
-- **viṣaya** _(seen as viṣaya)_ — _(no MW gloss; not in dictionary)_
-- **pravāla** _(seen as pravālāḥ)_ — a young shoot, sprout, new leaf or branch (to which feet and lips are often compared)
-- **mūla** _(seen as mūlāni)_ — ‘firmly fixed’, a root (of any plant or tree
-- **anusaṃtan** _(seen as anusaṃtatāni)_ — _(no MW gloss; not in dictionary)_
-- **karman** _(seen as karma)_ — the object (it stands either in the acc
-- **anubandhin** _(seen as anubandhīni)_ — _(no MW gloss; not in dictionary)_
-- **manuṣya** _(seen as manuṣya)_ — _(no MW gloss; not in dictionary)_
-- **loka** _(seen as loke)_ — the inhabitants of the world, mankind, folk, people (sometimes opp. to ‘king’)
+- **adhas** _(seen as adhas)_ — below, downward
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **ūrdhvam** _(seen as ūrdhvam)_ — upward, above
+- **prasṛ** _(seen as prasṛtāḥ)_ — to extend, spread out, move forth
+- **tad** _(seen as tasya)_ — that (distal demonstrative); also 3rd-person pronoun
+- **śākhā** _(seen as śākhāḥ)_ — branch (of a tree); recension of the Veda
+- **guṇa** _(seen as guṇa)_ — quality, attribute (esp. the three guṇas: sattva/rajas/tamas)
+- **pravṛdh** _(seen as pravṛddhāḥ)_ — grown up, increased, developed
+- **viṣaya** _(seen as viṣaya)_ — object of sense; sense-domain; sphere
+- **pravāla** _(seen as pravālāḥ)_ — shoot, sprout, coral
+- **mūla** _(seen as mūlāni)_ — root, base, foundation
+- **anusaṃtan** _(seen as anusaṃtatāni)_ — to extend, continue
+- **karman** _(seen as karma)_ — action, deed, the law of action
+- **anubandhin** _(seen as anubandhīni)_ — binding, consequent, having attachment
+- **manuṣya** _(seen as manuṣya)_ — human being
+- **loka** _(seen as loke)_ — world, realm; people
 
 
 ## BG 15.8
@@ -1116,20 +1110,20 @@ _śarīraṃ yad avāpnoti yac cāpy utkrāmatīśvaraḥ | gṛhītvaitāni sa�
 
 **Words the parser found:**
 
-- **śarīra** _(seen as śarīram)_ — _(no MW gloss; not in dictionary)_
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **avāp** _(seen as avāpnoti)_ — to reach, attain, obtain, gain, get, Up
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **api** _(seen as api)_ — and, also, moreover, besides, assuredly, surely
-- **utkram** _(seen as utkrāmati)_ — P. (and rarely Ā. ) -krAmati , -kramati ( Ved. impf. 3. pl. -akraman , AV. iv, 3, 1 ), -te ( pf. 3.…
-- **īśvara** _(seen as īśvaraḥ)_ — _(no MW gloss; not in dictionary)_
-- **grah** _(seen as gṛhītvā)_ — to seize, take (by the hand, pARO or kare , exceptionally pARim (double acc. ), i, 125, 1
-- **etad** _(seen as etāni)_ — this, this here, here (especially as pointing to what is nearest to the speaker, eza bARaH , this…
-- **saṃyā** _(seen as saṃyāti)_ — _(no MW gloss; not in dictionary)_
-- **vāyu** _(seen as vāyuḥ)_ — wind, air (as one of the 5 elements
-- **gandha** _(seen as gandhān)_ — _(no MW gloss; not in dictionary)_
-- **iva** _(seen as iva)_ — _(no MW gloss; not in dictionary)_
-- **āśaya** _(seen as āśayāt)_ — _(no MW gloss; not in dictionary)_
+- **śarīra** _(seen as śarīram)_ — body
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **avāp** _(seen as avāpnoti)_ — to obtain, attain, reach
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **api** _(seen as api)_ — also, even, although
+- **utkram** _(seen as utkrāmati)_ — to depart, go up and out (esp. of the soul leaving body)
+- **īśvara** _(seen as īśvaraḥ)_ — the Lord, controller, God
+- **grah** _(seen as gṛhītvā)_ — to seize, grasp, accept (verbal root)
+- **etad** _(seen as etāni)_ — this (proximal demonstrative)
+- **saṃyā** _(seen as saṃyāti)_ — to go with, depart together
+- **vāyu** _(seen as vāyuḥ)_ — wind; the wind-god Vāyu
+- **gandha** _(seen as gandhān)_ — smell, odor, fragrance
+- **iva** _(seen as iva)_ — like, as if
+- **āśaya** _(seen as āśayāt)_ — abode, intention, disposition
 
 
 ## BG 15.12
@@ -1143,19 +1137,19 @@ _yad āditya-gataṃ tejo jagad bhāsayate 'khilam | yac candramasi yac cāgnau 
 
 **Words the parser found:**
 
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **āditya** _(seen as āditya)_ — N. of a constellation, the seventh lunar mansion
-- **gam** _(seen as gatam)_ — : cl. 3. P. jaganti ( Naigh. ii, 14
-- **tejas** _(seen as tejaḥ)_ — the sharp edge (of a knife &c.), point or top of a flame or ray, glow, glare, splendour,…
-- **jagant** _(seen as jagat)_ — _(no MW gloss; not in dictionary)_
-- **bhāsay** _(seen as bhāsayate)_ — _(no MW gloss; not in dictionary)_
-- **akhila** _(seen as akhilam)_ — _(no MW gloss; not in dictionary)_
-- **candramas** _(seen as candramasi)_ — the moon, deity of the moon (considered as a Dānava , i, 2534
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **agni** _(seen as agnau)_ — fire, sacrificial fire (of three kinds, Gārhapatya , Āhavanīya , and Dakṣiṇa )
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **vid** _(seen as viddhi)_ — vetti ( vidmahe , Br
-- **māmaka** _(seen as māmakam)_ — my, mine
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **āditya** _(seen as āditya)_ — Āditya, son of Aditi; the sun
+- **gam** _(seen as gatam)_ — to go (verbal root)
+- **tejas** _(seen as tejaḥ)_ — splendor, brilliance, energy
+- **jagant** _(seen as jagat)_ — the world, the moving (universe)
+- **bhāsay** _(seen as bhāsayate)_ — to cause to shine, illuminate
+- **akhila** _(seen as akhilam)_ — complete, whole, entire
+- **candramas** _(seen as candramasi)_ — the moon
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **agni** _(seen as agnau)_ — fire; the fire-god Agni
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **vid** _(seen as viddhi)_ — to know; to find (verbal root)
+- **māmaka** _(seen as māmakam)_ — mine, my own (esp. of partisans)
 
 
 ## BG 16.5
@@ -1169,17 +1163,17 @@ _daivī saṃpad vimokṣāya nibandhāyāsurī matā | mā śucaḥ saṃpada�
 
 **Words the parser found:**
 
-- **daiva** _(seen as daivī)_ — belonging to or coming from the gods, divine, celestial, AV
-- **sampad** _(seen as saṃpad)_ — to become thoroughly, Pāṇ. v, 4, 53
-- **vimokṣa** _(seen as vimokṣāya)_ — _(no MW gloss; not in dictionary)_
-- **nibandha** _(seen as nibandhāya)_ — _(no MW gloss; not in dictionary)_
-- **āsura** _(seen as āsurī)_ — _(no MW gloss; not in dictionary)_
-- **man** _(seen as matā)_ — manute , manyate ( ep. also °ti
-- **mā** _(seen as mā)_ — m. time
-- **śuc** _(seen as śucaḥ)_ — _(no MW gloss; not in dictionary)_
-- **abhijan** _(seen as abhijātaḥ)_ — to be born for or to, i, 168, 2 , &c
-- **as** _(seen as asi)_ — to be, live, exist, be present
-- **pāṇḍava** _(seen as pāṇḍava)_ — _(no MW gloss; not in dictionary)_
+- **daiva** _(seen as daivī)_ — divine; fate, destiny
+- **sampad** _(seen as saṃpad)_ — prosperity, success, endowment
+- **vimokṣa** _(seen as vimokṣāya)_ — release, liberation
+- **nibandha** _(seen as nibandhāya)_ — binding, bondage, attachment
+- **āsura** _(seen as āsurī)_ — demonic, of the asuras
+- **man** _(seen as matā)_ — to think, regard, consider (verbal root)
+- **mā** _(seen as mā)_ — do not (prohibitive); also: to measure (verbal root)
+- **śuc** _(seen as śucaḥ)_ — to grieve (verbal root)
+- **abhijan** _(seen as abhijātaḥ)_ — to be born to / origin, lineage (verb / noun)
+- **as** _(seen as asi)_ — to be (verbal root)
+- **pāṇḍava** _(seen as pāṇḍava)_ — son of Pāṇḍu (the five Pāṇḍava brothers)
 
 
 ## BG 16.10
@@ -1193,20 +1187,20 @@ _kāmam āśritya duṣpūraṃ dambha-māna-madānvitāḥ | mohād gṛhītvā
 
 **Words the parser found:**
 
-- **kāma** _(seen as kāmam)_ — desirous of, desiring, having a desire or intention ( go-k ° , Darma-k °
-- **āśri** _(seen as āśritya)_ — _(no MW gloss; not in dictionary)_
-- **duṣpūra** _(seen as duṣpūram)_ — _(no MW gloss; not in dictionary)_
-- **dambha** _(seen as dambha)_ — _(no MW gloss; not in dictionary)_
-- **māna** _(seen as māna)_ — opinion, notion, conception, idea, Tattvas. ( Atma-m ° )
-- **mada** _(seen as mada)_ — sexual desire or enjoyment, wantonness, lust, ruttishness, rut ( of an elephant)
-- **anvita** _(seen as anvitāḥ)_ — _(no MW gloss; not in dictionary)_
-- **moha** _(seen as mohāt)_ — loss of consciousness, bewilderment, perplexity, distraction, infatuation, delusion, error, folly,…
-- **grah** _(seen as gṛhītvā)_ — to seize, take (by the hand, pARO or kare , exceptionally pARim (double acc. ), i, 125, 1
-- **asat** _(seen as asat)_ — _(no MW gloss; not in dictionary)_
-- **grāha** _(seen as grāhān)_ — ifc. seizing, holding, catching, receiving, Yājñ. ii, 51
-- **pravṛt** _(seen as pravartante)_ — have anything ( acc. ), : Caus. -vartayati , to cause to turn or roll, set in motion
-- **aśuci** _(seen as aśuci)_ — _(no MW gloss; not in dictionary)_
-- **vrata** _(seen as vratāḥ)_ — will, command, law, ordinance, rule
+- **kāma** _(seen as kāmam)_ — desire, lust, sensual pleasure
+- **āśri** _(seen as āśritya)_ — to take refuge in, resort to
+- **duṣpūra** _(seen as duṣpūram)_ — hard to fill, insatiable
+- **dambha** _(seen as dambha)_ — hypocrisy, pride, ostentation
+- **māna** _(seen as māna)_ — honor, pride, respect
+- **mada** _(seen as mada)_ — intoxication, pride, frenzy
+- **anvita** _(seen as anvitāḥ)_ — possessed of, endowed with, accompanied by
+- **moha** _(seen as mohāt)_ — delusion, infatuation, bewilderment
+- **grah** _(seen as gṛhītvā)_ — to seize, grasp, accept (verbal root)
+- **asat** _(seen as asat)_ — non-being, untruth, that which is not
+- **grāha** _(seen as grāhān)_ — shark, crocodile; a seizer
+- **pravṛt** _(seen as pravartante)_ — to engage in, set forth, proceed
+- **aśuci** _(seen as aśuci)_ — impure, unclean
+- **vrata** _(seen as vratāḥ)_ — vow, observance
 
 
 ## BG 16.17
@@ -1220,21 +1214,21 @@ _ātma-saṃbhāvitāḥ stabdhā dhana-māna-madānvitāḥ | yajante nāma-yaj
 
 **Words the parser found:**
 
-- **ātman** _(seen as ātma)_ — the breath
-- **sambhāvay** _(seen as saṃbhāvitāḥ)_ — _(no MW gloss; not in dictionary)_
-- **stambh** _(seen as stabdhāḥ)_ — cl. 5. 9. P. ( Dhātup. xxxi, 7 ) staBnoti , staBnAti ( Pāṇ. iii, 1, 82 ), or cl. 1. Ā. ( x, 26 )…
-- **dhana** _(seen as dhana)_ — _(no MW gloss; not in dictionary)_
-- **māna** _(seen as māna)_ — opinion, notion, conception, idea, Tattvas. ( Atma-m ° )
-- **mada** _(seen as mada)_ — sexual desire or enjoyment, wantonness, lust, ruttishness, rut ( of an elephant)
-- **anvita** _(seen as anvitāḥ)_ — _(no MW gloss; not in dictionary)_
-- **yaj** _(seen as yajante)_ — yajati , °te (1. sg. yajase , viii, 25, 1
-- **nāman** _(seen as nāma)_ — a characteristic mark or sign, form, nature, kind, manner
-- **yajña** _(seen as yajñaiḥ)_ — N. of the reputed author of x, 130 , Anukr
-- **tad** _(seen as te)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **dambha** _(seen as dambhena)_ — _(no MW gloss; not in dictionary)_
-- **a** _(seen as a)_ — _(no MW gloss; not in dictionary)_
-- **vidhi** _(seen as vidhi)_ — _(no MW gloss; not in dictionary)_
-- **pūrvaka** _(seen as pūrvakam)_ — _(no MW gloss; not in dictionary)_
+- **ātman** _(seen as ātma)_ — the Self, soul; one's own self
+- **sambhāvay** _(seen as saṃbhāvitāḥ)_ — to cause to be, regard, honor
+- **stambh** _(seen as stabdhāḥ)_ — to support, hold up, paralyze (verbal root)
+- **dhana** _(seen as dhana)_ — wealth, riches
+- **māna** _(seen as māna)_ — honor, pride, respect
+- **mada** _(seen as mada)_ — intoxication, pride, frenzy
+- **anvita** _(seen as anvitāḥ)_ — possessed of, endowed with, accompanied by
+- **yaj** _(seen as yajante)_ — to sacrifice, worship (verbal root)
+- **nāman** _(seen as nāma)_ — name
+- **yajña** _(seen as yajñaiḥ)_ — sacrifice, worship, ritual offering
+- **tad** _(seen as te)_ — that (distal demonstrative); also 3rd-person pronoun
+- **dambha** _(seen as dambhena)_ — hypocrisy, pride, ostentation
+- **a** _(seen as a)_ — negation prefix (un-, non-, not)
+- **vidhi** _(seen as vidhi)_ — rule, injunction, prescribed procedure
+- **pūrvaka** _(seen as pūrvakam)_ — preceded by, accompanied by, formerly
 
 
 ## BG 17.5
@@ -1248,21 +1242,21 @@ _aśāstra-vihitaṃ ghoraṃ tapyante ye tapo janāḥ | dambhāhaṃkāra-sa�
 
 **Words the parser found:**
 
-- **a** _(seen as a)_ — _(no MW gloss; not in dictionary)_
-- **śāstra** _(seen as śāstra)_ — _(no MW gloss; not in dictionary)_
-- **vidhā** _(seen as vihitam)_ — _(no MW gloss; not in dictionary)_
-- **ghora** _(seen as ghoram)_ — _(no MW gloss; not in dictionary)_
-- **tap** _(seen as tapyante)_ — cl. 4. Ā. °pyate , to rule, Dhātup. xxvi, 50
-- **yad** _(seen as ye)_ — _(no MW gloss; not in dictionary)_
-- **tapas** _(seen as tapaḥ)_ — N. of a month intervening between winter and spring, VS
-- **jana** _(seen as janāḥ)_ — creature, living being, man, person, race ( paYca janAs , ‘the five races’ = p ° kfzwayas , iii  ,…
-- **dambha** _(seen as dambha)_ — _(no MW gloss; not in dictionary)_
-- **ahaṃkāra** _(seen as ahaṃkāra)_ — the third of the eight producers or sources of creation, viz. the conceit or conception of…
-- **saṃyuj** _(seen as saṃyuktāḥ)_ — to have sexual intercourse, PraśnUp
-- **kāma** _(seen as kāma)_ — desirous of, desiring, having a desire or intention ( go-k ° , Darma-k °
-- **rāga** _(seen as rāga)_ — the act of colouring or dyeing ( mUrDaja-r ° )
-- **bala** _(seen as bala)_ — power, strength, might, vigour, force, validity, ( balAt , ‘forcibly, against one's will, without…
-- **anvita** _(seen as anvitāḥ)_ — _(no MW gloss; not in dictionary)_
+- **a** _(seen as a)_ — negation prefix (un-, non-, not)
+- **śāstra** _(seen as śāstra)_ — scripture, treatise, authoritative teaching
+- **vidhā** _(seen as vihitam)_ — to ordain, place, allot
+- **ghora** _(seen as ghoram)_ — terrible, fearsome, dreadful
+- **tap** _(seen as tapyante)_ — to heat, perform tapas / austerity (verbal root)
+- **yad** _(seen as ye)_ — which, who (relative pronoun)
+- **tapas** _(seen as tapaḥ)_ — austerity, ascetic heat, spiritual discipline
+- **jana** _(seen as janāḥ)_ — person, people, folk
+- **dambha** _(seen as dambha)_ — hypocrisy, pride, ostentation
+- **ahaṃkāra** _(seen as ahaṃkāra)_ — ego-sense, the I-maker
+- **saṃyuj** _(seen as saṃyuktāḥ)_ — to join, unite, yoke together
+- **kāma** _(seen as kāma)_ — desire, lust, sensual pleasure
+- **rāga** _(seen as rāga)_ — passion, attachment, color
+- **bala** _(seen as bala)_ — strength, power, force
+- **anvita** _(seen as anvitāḥ)_ — possessed of, endowed with, accompanied by
 
 
 ## BG 17.22
@@ -1276,19 +1270,19 @@ _adeśa-kāle yad dānam apātrebhyaś ca dīyate | asatkṛtam avajñātaṃ ta
 
 **Words the parser found:**
 
-- **a** _(seen as a)_ — _(no MW gloss; not in dictionary)_
-- **deśa** _(seen as deśa)_ — _(no MW gloss; not in dictionary)_
-- **kāla** _(seen as kāle)_ — Ipomoea atropurpurea , Suśr
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **dāna** _(seen as dānam)_ — distribution of food or of a sacrificial meal
-- **apātra** _(seen as apātrebhyaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **dā** _(seen as dīyate)_ — ifc. ( Pāṇ. iii, 2, 3 ) giving, granting, offering, effecting, producing ( aBI zwa- , ‘giving any…
-- **asatkṛ** _(seen as asatkṛtam)_ — _(no MW gloss; not in dictionary)_
-- **avajñā** _(seen as avajñātam)_ — to disesteem, have a low opinion of, despise, treat with contempt
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **tāmasa** _(seen as tāmasam)_ — dark
-- **udāhṛ** _(seen as udāhṛtam)_ — _(no MW gloss; not in dictionary)_
+- **a** _(seen as a)_ — negation prefix (un-, non-, not)
+- **deśa** _(seen as deśa)_ — place, region, country
+- **kāla** _(seen as kāle)_ — time; death; the appropriate time
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **dāna** _(seen as dānam)_ — giving, charity, gift
+- **apātra** _(seen as apātrebhyaḥ)_ — unworthy, unfit recipient
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **dā** _(seen as dīyate)_ — to give (verbal root)
+- **asatkṛ** _(seen as asatkṛtam)_ — to dishonor, treat with disrespect
+- **avajñā** _(seen as avajñātam)_ — contempt, disdain, disrespect
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **tāmasa** _(seen as tāmasam)_ — tāmasa; pertaining to the tamas guṇa (dark, inert)
+- **udāhṛ** _(seen as udāhṛtam)_ — to declare, proclaim, give as example
 
 
 ## BG 18.23
@@ -1302,20 +1296,20 @@ _niyataṃ saṅgarahitamarāgadveṣataḥ kṛtam | aphalaprepsunā karma yatt
 
 **Words the parser found:**
 
-- **niyam** _(seen as niyatam)_ — to stop ( intrans. ), stay, remain
-- **saṅga** _(seen as saṅga)_ — _(no MW gloss; not in dictionary)_
-- **rahita** _(seen as rahitam)_ — wanting, absent ( below)
-- **a** _(seen as a)_ — _(no MW gloss; not in dictionary)_
-- **rāga** _(seen as rāga)_ — the act of colouring or dyeing ( mUrDaja-r ° )
-- **dveṣa** _(seen as dveṣataḥ)_ — _(no MW gloss; not in dictionary)_
-- **kṛ** _(seen as kṛtam)_ — cl. 2. P. 2. sg. karzi du. kfTas pl. kfTa
-- **phala** _(seen as phala)_ — fruit ( of trees)
-- **prepsu** _(seen as prepsunā)_ — _(no MW gloss; not in dictionary)_
-- **karman** _(seen as karma)_ — the object (it stands either in the acc
-- **yad** _(seen as yat)_ — _(no MW gloss; not in dictionary)_
-- **tad** _(seen as tat)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **sāttvika** _(seen as sāttvikam)_ — spirited, vigorous, energetic
-- **vac** _(seen as ucyate)_ — vakti (occurs only in sg. vacmi , vakzi , vakti , and Impv. vaktu
+- **niyam** _(seen as niyatam)_ — to restrain, control (verbal root)
+- **saṅga** _(seen as saṅga)_ — attachment, association, contact
+- **rahita** _(seen as rahitam)_ — deprived of, devoid of
+- **a** _(seen as a)_ — negation prefix (un-, non-, not)
+- **rāga** _(seen as rāga)_ — passion, attachment, color
+- **dveṣa** _(seen as dveṣataḥ)_ — aversion, hatred
+- **kṛ** _(seen as kṛtam)_ — to do, make (verbal root)
+- **phala** _(seen as phala)_ — fruit, result
+- **prepsu** _(seen as prepsunā)_ — desirous of obtaining
+- **karman** _(seen as karma)_ — action, deed, the law of action
+- **yad** _(seen as yat)_ — which, who (relative pronoun)
+- **tad** _(seen as tat)_ — that (distal demonstrative); also 3rd-person pronoun
+- **sāttvika** _(seen as sāttvikam)_ — sāttvika; pertaining to the sattva guṇa (pure, luminous)
+- **vac** _(seen as ucyate)_ — to speak (verbal root)
 
 
 ## BG 18.71
@@ -1329,20 +1323,20 @@ _śraddhāvānanasūyaśca śṛṇuyādapi yo naraḥ | so'pi muktaḥ śubhā~
 
 **Words the parser found:**
 
-- **śraddhāvat** _(seen as śraddhāvān)_ — _(no MW gloss; not in dictionary)_
-- **anasūya** _(seen as anasūyaḥ)_ — _(no MW gloss; not in dictionary)_
-- **ca** _(seen as ca)_ — class of consonants, having the sound of ch in church
-- **śru** _(seen as śṛṇuyāt)_ — _(no MW gloss; not in dictionary)_
-- **api** _(seen as api)_ — and, also, moreover, besides, assuredly, surely
-- **yad** _(seen as yaḥ)_ — _(no MW gloss; not in dictionary)_
-- **nara** _(seen as naraḥ)_ — a man, a male, a person ( pl. men, people), TS. &c. &c
-- **tad** _(seen as saḥ)_ — m. he f. she n. it, that, this (often correlative of ya generally standing in the preceding clause,…
-- **muc** _(seen as muktaḥ)_ — muYcati , °te ( also, mucanti , mucasva
-- **śubha** _(seen as śubhān)_ — _(no MW gloss; not in dictionary)_
-- **loka** _(seen as lokān)_ — the inhabitants of the world, mankind, folk, people (sometimes opp. to ‘king’)
-- **prāp** _(seen as prāpnuyāt)_ — P. Ā. prA pnoti ( irreg. Pot. prA peyam ), to attain to
-- **puṇya** _(seen as puṇya)_ — _(no MW gloss; not in dictionary)_
-- **karman** _(seen as karmaṇām)_ — the object (it stands either in the acc
+- **śraddhāvat** _(seen as śraddhāvān)_ — endowed with faith, faithful
+- **anasūya** _(seen as anasūyaḥ)_ — without envy / spite
+- **ca** _(seen as ca)_ — and; (homonym: also the consonant ca)
+- **śru** _(seen as śṛṇuyāt)_ — to hear (verbal root)
+- **api** _(seen as api)_ — also, even, although
+- **yad** _(seen as yaḥ)_ — which, who (relative pronoun)
+- **nara** _(seen as naraḥ)_ — man, human
+- **tad** _(seen as saḥ)_ — that (distal demonstrative); also 3rd-person pronoun
+- **muc** _(seen as muktaḥ)_ — to release, free (verbal root)
+- **śubha** _(seen as śubhān)_ — auspicious, good
+- **loka** _(seen as lokān)_ — world, realm; people
+- **prāp** _(seen as prāpnuyāt)_ — to obtain, attain (verbal root)
+- **puṇya** _(seen as puṇya)_ — merit, virtue, the auspicious
+- **karman** _(seen as karmaṇām)_ — action, deed, the law of action
 
 
 ---
