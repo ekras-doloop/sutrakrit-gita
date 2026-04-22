@@ -249,7 +249,7 @@ _evaṃ jñātvā kṛtaṃ karma pūrvair api mumukṣubhiḥ | kuru karmaiva t
 - **eva** _(seen as eva)_ — indeed, truly, only (emphatic particle)
 - **tasmāt** _(seen as tasmāt)_ — therefore, from that
 - **tvad** _(seen as tvam)_ — you (2nd person pronoun stem)
-- **pūrvatara** _(seen as pūrvataram)_ — earlier, more ancient
+- **pūrvatara** _(seen as pūrvataram)_ — earlier, more ancient (pūrva 'former' + comparative -tara)
 
 
 ## BG 4.40
@@ -1226,7 +1226,7 @@ _ātma-saṃbhāvitāḥ stabdhā dhana-māna-madānvitāḥ | yajante nāma-yaj
 - **dambha** _(seen as dambhena)_ — hypocrisy, pride, ostentation
 - **a** _(seen as a)_ — negation prefix (un-, non-, not)
 - **vidhi** _(seen as vidhi)_ — rule, injunction, prescribed procedure
-- **pūrvaka** _(seen as pūrvakam)_ — preceded by, accompanied by, formerly
+- **pūrvaka** _(seen as pūrvakam)_ — preceded by, accompanied by (pūrva 'former' + -ka)
 
 
 ## BG 17.5
