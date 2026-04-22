@@ -271,7 +271,8 @@
         "shankara_9.1",
         "anandgiri_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Liberation is immediate upon true jñāna; bhakti is entirely absent as a final path in Śaṅkara's reading."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -280,7 +281,8 @@
         "ramanuja_9.1",
         "vedantadeshika_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "The goal is positive union with Bhagavān (mat-prāpti), not bare cessation; upāsanā-structure distinguishes this from Advaita's jñāna-mārga."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -289,7 +291,8 @@
         "madhva_9.1",
         "jayatirtha_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's bhāṣya here is minimal; rendering extrapolates from his established Dvaita framework applied to this opening. Flagged: no extended 9.1 commentary from Madhva in this payload."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -297,7 +300,8 @@
       "witness_passages": [
         "vallabha_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Aśubha is specifically moha, not saṃsāra generically; and the gift is bhakti's own glorious power, not liberation conceived as escape."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -305,7 +309,8 @@
       "witness_passages": [
         "sridhara_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Three-tier hierarchy of secrets is Śrīdhara's distinctive structural move; liberation is immediate (sadya eva), aligning with Advaita tone but grounded in bhakti-upāsanā."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -313,7 +318,8 @@
       "witness_passages": [
         "madhusudan_9.1"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Uniquely synthesizes: jñāna removes ajñāna (Advaita); but the proximate cause throughout chapter 8 was ananyā bhakti (8.22), so both jñāna and bhakti are load-bearing, not hierarchical."
     }
   },
   "prosodic_information": {
@@ -480,5 +486,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "Why does Kṛṣṇa emphasise the recipient's freedom from envy (anasūyava) before disclosing the supreme secret — what does this say about the pre-conditions for receiving transformative knowledge?",
+    "Three commentators (Śaṅkara, Madhusūdana, Śrīdhara) agree that 'vijñāna' means experiential realization beyond verbal knowledge — what does this imply about the limits of textual study alone on the path to mokṣa?",
+    "Rāmānuja reads 'aśubha' as every obstacle to mat-prāpti (attainment of Bhagavān), while Śaṅkara reads it as saṃsāra-bandhana — does this difference in the terminus of liberation change the nature of the path itself?",
+    "Vallabha's maṅgala-śloka identifies chapter 9's secret as the asādhāraṇa māhātmya of bhajana itself — is the 'secret' a metaphysical proposition or a relational practice, and does that distinction matter?",
+    "Śrīdhara's three-tier hierarchy (dharma-knowledge → ātma-knowledge → paramātma-knowledge) suggests earlier Gītā chapters were progressively preparing the student — how does seeing the Gītā as a graduated curriculum change how one reads chapters 1-8?",
+    "Madhusūdana argues that dhyāna purifies but cannot remove ajñāna at its root, only jñāna can — yet the entire path rests on ananyā bhakti: is there a coherent synthesis here, or a productive tension that the practitioner must hold?",
+    "The verse is addressed specifically to Arjuna (te, anasūyave) — what does it mean that the most secret teaching is given to a warrior in crisis, not to a renunciant in a forest?"
+  ],
+  "everyday_applications": {
+    "advaita": "Before each significant decision, pause and ask whether you are acting from the assumption that 'I am the body-mind-ego' or from recognition of ātman as the sole witness; the 'supreme secret' is simply to stop mistaking the instrument for the player. The practice is not ritual but sustained inquiry (vicāra): when worry arises, note that worry belongs to the superimposition, not to the self, and return to the groundless ground.",
+    "viśiṣṭādvaita": "Structure your daily routine as a sequence of kainkarya (acts of service) to Bhagavān: the commute, the meeting, the meal are all occasions of upāsanā when oriented toward Bhagavān as the inner ruler (antaryāmin). The 'specific knowledge of upāsanā-modalities' Rāmānuja references means learning precisely how to hold Bhagavān in mind during each activity — not vaguely 'offer to God' but with named qualities, specific memory, sustained attention.",
+    "dvaita": "Each morning, make explicit the confession of dependence: name one thing you accomplished yesterday that would have been impossible without capacities you did not give yourself. Madhva's 'supreme secret' is the experiential conviction (pratīti) that independence is always borrowed; the practical task is training the mind to locate the real agent (Hari) rather than the apparent one (the jīva-ego).",
+    "śuddhādvaita": "When you encounter beauty — in music, in a person, in nature — instead of treating it as a trigger for self-directed desire, practise receiving it as prasāda: a gift disclosed rather than a resource to be captured. Vallabha's aśubha-as-moha means the error is not moral failure but a case of mistaken ownership; the application is gratitude practiced precisely in the moments of pleasure, not only in hardship.",
+    "bhakti": "Use Śrīdhara's three-tier hierarchy as a diagnostic tool: when you feel blocked or confused, identify which register you are operating in — dharmic obligation, personal identity, or direct relationship with the Divine — and ask whether you are applying the appropriate 'grade' of knowledge. The immediate liberation (sadya eva mukti) Śrīdhara promises is available now, in this day, through sincere upāsanā; do not postpone it to a later life-stage.",
+    "advaita-bhakti": "Madhusūdana's synthesis suggests a two-register practice: keep a jñāna anchor (the non-dual recognition that awareness is prior to all content) and a bhakti anchor (specific, named, loving attention to Kṛṣṇa). When you are absorbed in work, the jñāna anchor prevents identification with outcomes; when you are alone and quiet, the bhakti anchor prevents the jñāna from becoming cold abstraction. Neither replaces the other; the 'supreme secret' is their co-presence."
   }
 }

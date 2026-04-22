@@ -1,0 +1,363 @@
+{
+  "verse_id": "3.4",
+  "mūla": {
+    "devanāgarī": "न कर्मणाम् अनारम्भान् नैष्कर्म्यं पुरुषो ऽश्नुते | न च संन्यसनाद् एव सिद्धिं समधिगच्छति",
+    "iast": "na karmaṇām anārambhān naiṣkarmyaṃ puruṣo 'śnute | na ca saṃnyasanād eva siddhiṃ samadhigacchati",
+    "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 4",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "karmaṇām",
+      "lemma": "karman",
+      "grammar": "Vibhakti.Sasthi plural neuter noun",
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनारम्भाद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ana",
+      "lemma": "an",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ārambhān",
+      "lemma": "ārambha",
+      "grammar": "accusative plural masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "naiṣkarmyam",
+      "lemma": "naiṣkarmya",
+      "grammar": "nominative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "puruṣas",
+      "lemma": "puruṣa",
+      "grammar": "nominative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "aśnute",
+      "lemma": "aś",
+      "grammar": "3rd person singular present indicative active verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "na",
+      "lemma": "na",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "vocative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "saṃnyasanāt",
+      "lemma": "saṃnyas",
+      "grammar": "ablative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "eva",
+      "lemma": "eva",
+      "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "siddhim",
+      "lemma": "sidh",
+      "grammar": "accusative singular masculine noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "samadhigacchati",
+      "lemma": "samadhigam",
+      "grammar": "3rd person singular present indicative active verb",
+      "senses_attested_in_panel": [
+        {
+          "sense": "न प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
+      "theme_lists": []
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "5.13",
+      "type": "lemma-family resonance",
+      "score": 0.9032,
+      "feature_breakdown": {
+        "cosine": 0.8532,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.5217,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "6.1",
+      "type": "lemma-family resonance",
+      "score": 0.8992,
+      "feature_breakdown": {
+        "cosine": 0.8592,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.1058,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "5.14",
+      "type": "semantic neighbor",
+      "score": 0.8946,
+      "feature_breakdown": {
+        "cosine": 0.8647,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0494,
+        "lemma_overlap": 3.4329,
+        "stem_prefix": 2.0
+      }
+    },
+    {
+      "verse": "3.18",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.8914,
+      "feature_breakdown": {
+        "cosine": 0.8514,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 3.952,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "4.41",
+      "type": "shared-vocabulary echo",
+      "score": 0.8906,
+      "feature_breakdown": {
+        "cosine": 0.8507,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0494,
+        "lemma_overlap": 7.0395,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "18.3",
+      "type": "semantic neighbor",
+      "score": 0.886,
+      "feature_breakdown": {
+        "cosine": 0.856,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 4.4992,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "6.4",
+      "type": "shared-vocabulary echo",
+      "score": 0.8858,
+      "feature_breakdown": {
+        "cosine": 0.8459,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0494,
+        "lemma_overlap": 7.0395,
+        "stem_prefix": 3.0
+      }
+    },
+    {
+      "verse": "13.23",
+      "type": "shared-vocabulary echo",
+      "score": 0.8846,
+      "feature_breakdown": {
+        "cosine": 0.8446,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.5587,
+        "stem_prefix": 4.0
+      }
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "shankara_3.4",
+        "anandgiri_3.4"
+      ],
+      "score": 0.5
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "ramanuja_3.4",
+        "vedantadeshika_3.4"
+      ],
+      "score": 0.5
+    },
+    "dvaita": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhva_3.4",
+        "jayatirtha_3.4"
+      ],
+      "score": 0.5
+    },
+    "śuddhādvaita": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "vallabha_3.4"
+      ],
+      "score": 0.5
+    },
+    "bhakti": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "sridhara_3.4"
+      ],
+      "score": 0.5
+    },
+    "advaita-bhakti": {
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
+      "key_cross_references": [],
+      "witness_passages": [
+        "madhusudan_3.4"
+      ],
+      "score": 0.5
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": true,
+    "pragmatic_context": {
+      "vocative": "",
+      "preceding_question": "",
+      "following_response": ""
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "मार्मिक बात",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.47",
+        "3.18"
+      ]
+    },
+    {
+      "list": "योगस्थः कुरु कर्माणि",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "2.48",
+        "4.16",
+        "4.18"
+      ]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {
+      "a": 1.0,
+      "b": 0.01,
+      "e_v": 0.005,
+      "z": 0.2,
+      "h": 0.0,
+      "th": 0.01
+    },
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+      "panel_witnesses": [
+        "bg-mula",
+        "bg-shankara",
+        "bg-ramanuja",
+        "bg-madhva",
+        "bg-vedantadeshika",
+        "bg-vallabha",
+        "bg-jayatirtha",
+        "bg-anandgiri",
+        "bg-sridhara",
+        "bg-madhusudan"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B (substrate architecture and feature definitions)"
+  },
+  "so_what_questions": [
+    "Every school anchors naiṣkarmya in citta-śuddhi rather than behavioural cessation — but they name different mechanisms (Śaṅkara: vicāra after purification; Rāmānuja: Bhagavān-ārādhana-karma; Madhva: Hari's anugraha following desireless action; Vallabha: Kṛṣṇa's prasāda; Śrīdhara: karma up to jñāna; Madhusūdana: karma + bhakti together). Are these genuinely different paths or different descriptions of a single interior movement?",
+    "Śaṅkara invokes the upāya-upeya (means-end) principle to argue that bypassing karma bypasses the only available means to naiṣkarmya. Does this logic imply that karma-yoga is universally mandatory, or only for those who lack the rare direct adhikāra (qualification) for jñāna-niṣṭhā without it?",
+    "Rāmānuja specifies śāstrīya-karma (ordained action) as the purifier — not any activity, but scripture-ordained service oriented to Bhagavān. How does this specification change the practical meaning of 'do not stop acting'? Does it license withdrawing from non-ordained professional or social activity?",
+    "Madhva's structural argument — that the jīva always inhabits some body, so past karma is always maturing — implies that inaction cannot stop the karmic process, only desireless action can metabolise it. Does this framework make mokṣa categorically impossible without Hari's direct anugraha (grace), regardless of one's effort?",
+    "Vallabha's bhāṣya is the most compressed in the payload, yet his framework is the most radical: liberation belongs entirely to Kṛṣṇa's prasāda, not to any technique. Does the brevity of his comment signal that the verse is less central to Puṣṭi-mārga, or that its teaching is absorbed so completely into the prasāda-framework that it needs no elaboration?",
+    "Śrīdhara protects two niṣṭhās from counterfeits: do not mimic jñāna-niṣṭhā by stopping karma, and do not mimic saṃnyāsa-siddhi by adopting outer renunciant form. Which of these counterfeits is more dangerous from the standpoint of spiritual self-deception, and why might the verse address them in this order?",
+    "All six commentators require inner transformation before renunciation bears fruit — this is the only point of consensus. What does this cross-school consensus imply about the relationship between outer religious form (āśrama, ritual, vow) and inner readiness? Can a tradition enforce this sequence institutionally, or is it inherently a matter of individual discernment?"
+  ],
+  "everyday_applications": {
+    "advaita": "When the temptation arises to declare your engagement finished — to stop producing, stop showing up, stop performing the demanding work that currently structures your days — Śaṅkara's reading asks a prior question: has the antaḥkaraṇa been sufficiently purified that genuine jñāna-niṣṭhā is actually available, or is the withdrawal a flight from the discomfort of continued purification? The test is not outer stillness but inner observation: if desire, anxiety, and the sense of doership are still operative below the surface, the cessation mimics naiṣkarmya without producing it, and the correct move is to return to the work until the instrument is genuinely ready.",
+    "viśiṣṭādvaita": "Rāmānuja's reading applies directly to anyone convinced that a current demanding role — a draining job, a difficult relationship, an unglamorous duty — is spiritually inferior to a cleaner, quieter field. The verse says the anādi-pāpa-saṃcaya (accumulated sin from beginningless time) cannot be bypassed by stepping outside the conditioning; it must be metabolised through action. The Viśiṣṭādvaita instruction is to reframe the current duty as Paramapuruṣa-kainkarya (service to the Lord who is present in the work) rather than abandoning it in search of a purer field — because siddhi comes through full engagement correctly oriented, not through escape.",
+    "dvaita": "Madhva's bhāṣya is a corrective to a specific pattern: the belief that stepping out of professional or social responsibility and formally adopting a renunciant identity is sufficient for spiritual progress. His argument is that past karma continues to mature regardless of present posture — the jīva cannot outrun accumulated karma by stopping. What actually metabolises it is niṣkāma-karma (desireless action) whose antaḥkaraṇa-śuddhi eventually produces the vairāgya and jñāna that Hari confirms with anugraha; the shortcut of premature formal renunciation is not renunciation but another expression of the very aversion it claims to transcend.",
+    "śuddhādvaita": "Vallabha's reading removes the strategic mind from the equation: when you find yourself calculating whether action or non-action will more efficiently advance your liberation, the Puṣṭi-mārga response is to recognise that calculation itself as the obstacle. Neither action nor its cessation is within your productive power to convert into mokṣa — that is Kṛṣṇa's prasāda alone. The everyday instruction is to act fully within the given structure of your life as a form of receiving what Kṛṣṇa has already arranged — keeping the quality of the action bright and full — while releasing the meta-project of managing your own liberation through strategic choice between doing and not-doing.",
+    "bhakti": "Śrīdhara's dual warning maps onto a recognisable pattern: the person who, having encountered teachings on non-attachment, uses them as permission to disengage from responsibilities (calling it vairāgya while practising avoidance), and the person who adopts a formal spiritual identity — meditator, renunciant, practitioner — without the antaḥkaraṇa-śuddhi that alone gives it substance. The application from the bhāṣya is diagnostic: assess the inner instrument honestly; if agitation, attachment, and reactivity persist, the prescribed path is varṇāśrama-ucita-karma performed with as much śuddhi (purity) as one can manage — not the premature adoption of the outer forms of the next stage.",
+    "advaita-bhakti": "Madhusūdana's synthesis identifies the single operative test: not outer activity-level but inner orientation. If you are acting with bhagavad-arpaṇa-buddhi (genuine offering of action and fruit to Bhagavān — not as a technique but as a real relinquishment of outcome), then karma is performing its citta-śuddhi function regardless of how intense the outer engagement is. If you are sitting still without that orientation, the stillness produces nothing. The everyday instruction is therefore to establish the offering-orientation first and adjust outer activity-level only secondarily — and only when karma-janita-citta-śuddhi has genuinely matured, not when mere preference for less effort suggests it has."
+  }
+}
