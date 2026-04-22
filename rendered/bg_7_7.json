@@ -12,7 +12,41 @@
       "surface_form": "mattaḥ",
       "lemma": "mad",
       "grammar": "ablative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परमेश्वरात् परतरम् अन्यत् कारणान्तरं किञ्चित् नास्ति न विद्यते अहमेव जगत्कारणमित्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अन्यत् मद्व्यतिरिक्तं किञ्चिद् ज्ञानबलादिगुणान्तरयोगि परतरं न अस्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परतरं नान्यदिति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सकाशात्परतरं श्रेष्ठं जगतः सृष्टिसंहारयोः स्वतन्त्रं कारणं किंचिदपि नास्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +81,32 @@
       "surface_form": "asti",
       "lemma": "as",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। सर्वम् इदं चिदचिद्वस्तुजातं कार्यावस्थं कारणावस्थं च मच्छरीरभूतं सूत्रे मणिगणवदात्मतया अवस्थिते मयि प्रोतम् आश्रितम्।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dhanaṃjaya",
       "lemma": "dhanaṃjaya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मयि कल्पितं परमार्थतो न मत्तो भिद्यत इत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +120,16 @@
       "surface_form": "sarvam",
       "lemma": "sarva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इदं चिदचिद्वस्तुजातं कार्यावस्थं कारणावस्थं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +150,40 @@
       "surface_form": "sūtre",
       "lemma": "sūtra",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च मणिगणा इव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मणिगणवदात्मतया अवस्थिते मयि प्रोतम् आश्रितम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मणिगणा इव इत्यात्मशरीरभावेनावस्थानमुक्तं यस्य पृथिवी शरीरं बृ.उ.3",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मणिगणा इवेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

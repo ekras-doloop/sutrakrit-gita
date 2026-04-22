@@ -47,14 +47,48 @@
       "surface_form": "smaran",
       "lemma": "smṛ",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मुक्त्त्वा परित्यज्य कलेवरं शरीरं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कलेवरं त्यक्त्वाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यो भक्तिमान् योगी प्रयाति प्रयाणं करोति स मद्भावं यातीति नास्त्यत्र संशयः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "muktvā",
       "lemma": "muc",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शरीरेऽहंममाभिमानं त्यक्त्वा प्राणवियोकाले",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +109,40 @@
       "surface_form": "prayāti",
       "lemma": "prayā",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गच्छति सः मद्भावं वैष्णवं तत्त्वं याति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स मद्भावं याति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रयाणं करोति स मद्भावं यातीति नास्त्यत्र संशयः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सगुणध्यानपक्षेऽग्रिर्ज्योतिरहः शुक्ल इत्यादिवक्ष्यमाणेन देवयानमार्गेण पितृयानमार्गात्प्रकर्षेण याति स उपासको मद्भावं मद",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +170,42 @@
       "surface_form": "yāti",
       "lemma": "yā",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। नास्ति न विद्यते अत्र अस्मिन् अर्थे संशयः -- याति वा न वा इति।।न मद्विषय एव अयं नियमः। किं तर्हि --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "। मम यो भावः स्वभावः तं याति तदानीं यथा माम् अनुसंधत्ते तथाविधाकारो भवति इत्यर्थः। यथा आदिभरतादयः तदानीं स्मर्यमाणमृगसजा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स मद्भावं मद्रूपतां याति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स उपासको मद्भावं मद्रूपतां निर्गुणब्रह्मभावं हिरण्यगर्भलोकभोगान्ते याति प्राप्नोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +233,32 @@
       "surface_form": "saṃśayaḥ",
       "lemma": "saṃśaya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "-- याति वा न वा इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यनेन अभिप्रेतां प्रयोजकप्रसिद्धिं दर्शयति -- यथाऽऽदिभरतादय इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। आत्मा देहाद्व्यतिरिक्तो न वा देहव्यतिरेकेऽपि ईश्वराद्भिन्नो न वेति संदेहो न विद्यते।छिद्यन्ते सर्वसंशयाः इति श्रुतेः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

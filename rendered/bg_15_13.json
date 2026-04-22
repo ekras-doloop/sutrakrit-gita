@@ -19,7 +19,24 @@
       "surface_form": "āviśya",
       "lemma": "āviś",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रविश्य धारयामि भूतानि जगत् अहम् ओजसा बलेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वाणि भूतानि ओजसा मम अप्रतिहतसामर्थ्येन धारयामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,48 @@
       "surface_form": "bhūtāni",
       "lemma": "bhūta",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जगत् अहम् ओजसा बलेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ओजसा मम अप्रतिहतसामर्थ्येन धारयामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "धारयामि तत्र धारणशक्तिर्मदंशतेजोभूता",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "धारयामि? अहमेव रसमयः सोमो भूत्वा व्रीह्याद्यौषधीः सर्वाः संवर्धयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पृथिव्याधेयानि वस्तून्यहमेव धारयामि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +112,72 @@
       "surface_form": "ojasā",
       "lemma": "ojas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "बलेन यत् बलं कामरागविवर्जितम् ऐश्वरं रूपं जगद्विधारणाय पृथिव्याम् आविष्टं येन पृथिवी गुर्वी न अधः पतति न विदीर्यते च। त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मम अप्रतिहतसामर्थ्येन धारयामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भुवमाविश्य भूतानि धारयामि तत्र धारणशक्तिर्मदंशतेजोभूता",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "निजेन बलेन पृथिवीं धूलिमुष्टितुल्यां दृढीकृत्य भूतानि पृथिव्याधेयानि वस्तून्यहमेव धारयामि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "puṣṇāmi",
       "lemma": "puṣ",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुष्टिमतीः रसस्वादुमतीश्च करोमि सोमो भूत्वा रसात्मकः सोमः सन् रसात्मकः रसस्वभावः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। इदं च सोमोत्पत्तौ निरूपितम्।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पुष्टिमतीः स्वादुमतीश्च करोमि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +198,25 @@
       "surface_form": "sarvāḥ",
       "lemma": "sarva",
       "grammar": "accusative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "व्रीहियवाद्याः पुष्णामि पुष्टिमतीः रसस्वादुमतीश्च करोमि सोमो भूत्वा रसात्मकः सोमः सन् रसात्मकः रसस्वभावः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "संवर्धयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +230,40 @@
       "surface_form": "bhūtvā",
       "lemma": "bhū",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रसात्मकः सोमः सन् रसात्मकः रसस्वभावः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वौषधीः पुष्णामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "व्रीह्याद्यौषधीः सर्वाः संवर्धयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ओषधीः सर्वा व्रीहियवाद्याः पृथिव्यां जाता अहमेव पुष्णामि पुष्टिमतीः स्वादुमतीश्च करोमि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

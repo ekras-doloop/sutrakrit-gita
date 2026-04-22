@@ -33,7 +33,32 @@
       "surface_form": "śuklaḥ",
       "lemma": "śukla",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शुक्लपक्षदेवता षण्मासा उत्तरायणम् तत्रापि देवतैव मार्गभूता इति स्थितः अन्यत्र अयं न्यायः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "षण्मासा उत्तरायणम् इति संवत्सरादीनां प्रदर्शनम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति गीताऽपि",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +79,24 @@
       "surface_form": "uttarāyaṇam",
       "lemma": "uttarāyaṇa",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्रापि देवतैव मार्गभूता इति स्थितः अन्यत्र अयं न्यायः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति संवत्सरादीनां प्रदर्शनम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,21 +117,138 @@
       "surface_form": "gacchanti",
       "lemma": "gam",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्म ब्रह्मविदो ब्रह्मोपासकाः ब्रह्मोपासनपरा जनाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ब्रह्म ब्रह्मविदो जनाः इति सिद्धत्वात् पञ्चाग्निविदोऽपि परमात्मप्राप्तिरस्त्येवेति स्वीकर्तव्यम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। श्रीपुरुषोत्तमतत्त्वज्ञानिनस्तु तदा सद्योमुक्तिप्रकारेण प्रयाता भगवन्तमुपासीना भवन्तीति द्वितीयस्कन्धे निरूप्यतेयादृशी",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ब्रह्मकार्योपाधिकंकार्यं बादरिरस्य गत्युपपत्तेः इति न्यायात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मविदो ब्रह्मोपासकाः ब्रह्मोपासनपरा जनाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "गमयति [छां.उ.4",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "याति हि इति ब्राह्मे",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "तदक्षरं प्राप्नुवंति तथा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्राप्नुवन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मविदो ब्रह्मोपासकाः ब्रह्मोपासनपरा जनाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "गमयति [छां.उ.4",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "याति हि इति ब्राह्मे",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "तदक्षरं प्राप्नुवंति तथा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्राप्नुवन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +262,40 @@
       "surface_form": "janāḥ",
       "lemma": "jana",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। क्रमेण इति वाक्यशेषः। न हि सद्योमुक्तिभाजां सम्यग्दर्शननिष्ठानां गतिः आगतिर्वा क्वचित् अस्ति न तस्य प्राणा उत्क्रामन्त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति सिद्धत्वात् पञ्चाग्निविदोऽपि परमात्मप्राप्तिरस्त्येवेति स्वीकर्तव्यम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ब्रह्म प्राप्नुवन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अत्रएतेन प्रतिपद्यमाना इमं मानवमावर्तं नावर्तन्ते इति श्रुताविममिति विशेषणात्कल्पान्तरे केचिदावर्तन्त इति प्रतीयते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

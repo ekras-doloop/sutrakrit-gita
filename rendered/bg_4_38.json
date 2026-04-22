@@ -26,7 +26,33 @@
       "surface_form": "jñānena",
       "lemma": "jñāna",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सदृशं तुल्यं पवित्रं पावनं शुद्धिकरम् इह विद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "सदृशं पवित्रं शुद्धिकरम् इह जगति वस्त्वन्तरं न विद्यते तस्मादात्मज्ञानं सर्वं पापं नाशयति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सदृशं पवित्रं पावनं शुद्धिकरमन्यदिह वेदे लोकव्यवहारे वा विद्यते ज्ञानभिन्नस्याज्ञानानिवर्तकत्वेन समूलपापनिवर्तकत्वाभावा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +80,32 @@
       "surface_form": "vidyate",
       "lemma": "vid",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तत् ज्ञानं स्वयमेव योगसंसिद्धः योगेन कर्मयोगेन समाधियोगेन च संसिद्धः संस्कृतः योग्यताम् आपन्नः सन् मुमुक्षुः कालेन महत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्मादात्मज्ञानं सर्वं पापं नाशयति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ज्ञानभिन्नस्याज्ञानानिवर्तकत्वेन समूलपापनिवर्तकत्वाभावात् कारणसद्भावेन पुनः पापोदयाच्च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +133,73 @@
       "surface_form": "saṃsiddhaḥ",
       "lemma": "saṃsidh",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संस्कृतः योग्यताम् आपन्नः सन् मुमुक्षुः कालेन महता आत्मनि विन्दति लभते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कालेन स्वात्मनि स्वयमेव लभते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "संस्कृतो योग्यतामापन्नः स्वयमात्मन्यन्तःकरणे विन्दति लभते नतु योग्यतामापन्नोऽन्यदत्तं स्वनिष्ठतया न वा परनिष्ठं स्वीयतय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kālena",
       "lemma": "kāla",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "महता आत्मनि विन्दति लभते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "स्वात्मनि स्वयमेव लभते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "महता कर्मयोगेन संसिद्धो योग्यतां प्राप्तःसन्स्वयमेवानायासेन लभते नतु कर्मयोगं विनेत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "महता योगसंसिद्धो योगेन पूर्वोक्तकर्मयोगेन संसिद्धः संस्कृतो योग्यतामापन्नः स्वयमात्मन्यन्तःकरणे विन्दति लभते नतु योग्यत",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +213,24 @@
       "surface_form": "vindati",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लभते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "लभते नतु योग्यतामापन्नोऽन्यदत्तं स्वनिष्ठतया न वा परनिष्ठं स्वीयतया विन्दतीत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -54,14 +54,80 @@
       "surface_form": "vetti",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वतः तत्त्वेन यथावदित्येतत्? सः अविकम्पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तत्त्वतः स भक्तिरूपेण योगेन युज्यते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सोऽविकम्पेन निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तत्त्वतः यथावत्सोऽविकम्पेनाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tattvataḥ",
       "lemma": "tattva",
       "grammar": "ablative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वेन यथावदित्येतत्? सः अविकम्पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स भक्तिरूपेण योगेन युज्यते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यथावत्सोऽविकम्पेनाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +148,72 @@
       "surface_form": "yogena",
       "lemma": "yoga",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "युज्यते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सम्यग्दर्शनेन युक्तो भवति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yujyate",
       "lemma": "yuj",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संबध्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? न अत्र संशयः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। नात्र संशयः प्रतिबन्धः कश्चित्।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +234,33 @@
       "surface_form": "saṃśayaḥ",
       "lemma": "saṃśaya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न अस्मिन् अर्थे संशयः अस्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।मद्विभूतिविषयं कल्याणगुणविषयं च ज्ञानं भक्तियोगवर्धनम् इति स्वयम् एव द्रक्ष्यसि इत्यभिप्रायः।विभूतिज्ञानविपाकरूपां भक्त",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रतिबन्धः कश्चित्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

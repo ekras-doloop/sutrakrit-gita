@@ -12,14 +12,40 @@
       "surface_form": "yasmāt",
       "lemma": "yasmāt",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "क्षरम् अतीतः अहं संसारमायावृक्षम् अश्वत्थाख्यम् अतिक्रान्तः अहम् अक्षरादपि संसारमायारूपवृक्षबीजभूतादपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "क्षरं कार्यत्वेन विनाशिनं मायामयं संसारवृक्षमश्वत्थाख्यमतीतोऽतिक्रान्तोऽहं परमेश्वरोऽक्षरादपि मायाख्यादव्याकृतात्अक्षरा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kṣaram",
       "lemma": "kṣara",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अतीतः अहं संसारमायावृक्षम् अश्वत्थाख्यम् अतिक्रान्तः अहम् अक्षरादपि संसारमायारूपवृक्षबीजभूतादपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +108,96 @@
       "surface_form": "loke",
       "lemma": "loka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वेदे च प्रथितः प्रख्यातः। पुरुषोत्तमः इत्येवं मां भक्तजनाः विदुः। कवयः काव्यादिषु च इदं नाम निबध्नन्ति। पुरुषोत्तम इत्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वेदे च पुरुषोत्तमः इति प्रथितः अस्मि। वेदार्थावलोकनात् लोक इति स्मृतिः इह उच्यते। श्रुतौ स्मृतौ च इत्यर्थः। श्रुतौ तावत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वेदे च प्रथितोऽहं पुरुषोत्तम इति पुरुषाभ्यां क्षराक्षराभ्यां उत्तम इत्येवं वेदे ब्रह्मविदाप्नोति परं [तै.उ.2।1] इति श्र",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "वेदे च पुरुषोत्तम इति प्रथितः प्रख्यातोऽस्मि। तथाच श्रुतिःस वा अयमात्मा सर्वस्य वशी सर्वस्येशानः सर्वस्याधिपतिः सर्वमिद",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वेदे च प्रथितः प्रख्यातः पुरुषोत्तम इति स उत्तमः पुरुष इति वेद उदाहृत एव। लोके च कविकाव्यादौहरिर्यथैकः पुरुषोत्तमः स्मृ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vede",
       "lemma": "veda",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च प्रथितः प्रख्यातः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च पुरुषोत्तमः इति प्रथितः अस्मि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च प्रथितोऽहं पुरुषोत्तम इति पुरुषाभ्यां क्षराक्षराभ्यां उत्तम इत्येवं वेदे ब्रह्मविदाप्नोति परं [तै.उ.2",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "च पुरुषोत्तम इति प्रथितः प्रख्यातोऽस्मि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "च प्रथितः प्रख्यातः पुरुषोत्तम इति स उत्तमः पुरुष इति वेद उदाहृत एव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +211,73 @@
       "surface_form": "prathitaḥ",
       "lemma": "prath",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रख्यातः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अस्मि। वेदार्थावलोकनात् लोक इति स्मृतिः इह उच्यते। श्रुतौ स्मृतौ च इत्यर्थः। श्रुतौ तावत् -- परं ज्योतिरूपं संपद्य स्वे",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रख्यातोऽस्मि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रख्यातः पुरुषोत्तम इति स उत्तमः पुरुष इति वेद उदाहृत एव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "puruṣottamaḥ",
       "lemma": "puruṣottama",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्येवं मां भक्तजनाः विदुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति प्रथितः अस्मि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्मृतः इत्यादिप्रसिद्धंकारुण्यतो नरवदाचरतः परार्थान्पार्थाय बोधितवतो निजमीश्वरत्वम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

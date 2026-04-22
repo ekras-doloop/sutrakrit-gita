@@ -12,7 +12,48 @@
       "surface_form": "prasāde",
       "lemma": "prasāda",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वदुःखानाम् आध्यात्मिकादीनां हानिः विनाशः अस्य यतेः उपजायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सति प्रकृतिसंसर्गप्रयुक्तसर्वदुःखानां हानिः उपजायते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सति किं स्यात् इत्यत उक्तंप्रसाद इति तदाक्षिपति कथ मिति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "सति किं स्यादित्यत्राह प्रसाद इति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सति किं स्यादित्युच्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +81,24 @@
       "surface_form": "asya",
       "lemma": "idam",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यतेः उपजायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुरुषस्य मनसः प्रसादे सति प्रकृतिसंसर्गप्रयुक्तसर्वदुःखानां हानिः उपजायते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +140,80 @@
       "surface_form": "buddhiḥ",
       "lemma": "buddhi",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पर्यवतिष्ठते आकाशमिव परि समन्तात् अवतिष्ठते आत्मस्वरूपेणैव निश्चलीभवतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मयि पर्यवतिष्ठते अतो मनःप्रसादे सर्वदुःखानां हानिः भवति एव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पर्यवतिष्ठते ब्रह्मापरोक्ष्येण सम्यक्स्थितिं करोति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठिता भवतीत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "paryavatiṣṭhate",
       "lemma": "paryavasthā",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आकाशमिव परि समन्तात् अवतिष्ठते आत्मस्वरूपेणैव निश्चलीभवतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अतो मनःप्रसादे सर्वदुःखानां हानिः भवति एव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ब्रह्मापरोक्ष्येण सम्यक्स्थितिं करोति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "परि समन्तादवतिष्ठते स्थिरा भवति विपरीतभावनादिप्रतिबन्धाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

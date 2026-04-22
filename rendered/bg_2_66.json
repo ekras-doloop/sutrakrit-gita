@@ -61,7 +61,48 @@
       "surface_form": "bhāvanā",
       "lemma": "bhāvanā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मज्ञानाभिनिवेशः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ध्यानम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तत्त्वचिन्तनम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ध्यानम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निदिध्यासनात्मिका विजातीयप्रत्ययानन्तरितसजातीयप्रत्ययप्रवाहरूपा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +137,32 @@
       "surface_form": "aśāntasya",
       "lemma": "aśānta",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कुतः सुखम् इन्द्रियाणां हि विषयसेवातृष्णातः निवृत्तिर्या तत्सुखम् न विषयविषया तृष्णा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विषयस्पृहायुक्तस्य कुतो नित्यनिरतिशयसुखप्राप्तिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कुतः सुखं मोक्षानन्द इत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +176,16 @@
       "surface_form": "sukham",
       "lemma": "sukha",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इन्द्रियाणां हि विषयसेवातृष्णातः निवृत्तिर्या तत्सुखम् न विषयविषया तृष्णा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

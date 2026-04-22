@@ -19,7 +19,33 @@
       "surface_form": "mohaḥ",
       "lemma": "moha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अज्ञानजः समस्तसंसारानर्थहेतुः? सागर इव दुरुत्तरः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विपरीतज्ञान त्वत्प्रसादात् मम तद् विनष्टम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परमपुरुषस्वरूपतया तदात्मकस्य सर्वस्य चिदचिद्वस्तुनः अतदात्माभिमानरूपश्च नित्यादिकर्मणो भगवदर्थतया तत्प्राप्त्युपायभूतस्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +59,24 @@
       "surface_form": "labdhā",
       "lemma": "labh",
       "grammar": "nominative feminine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? यस्याः लाभात् सर्वहृदयग्रन्थीनां विप्रमोक्षः त्वत्प्रसादात् तव प्रसादात् मया त्वत्प्रसादम् आश्रितेन अच्युत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अतः स्थितोऽस्मि युद्धायोपस्थितोऽस्मि। गतो धर्मविषयः संदेहो यस्य सोऽहं तवाज्ञां करिष्य इति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +139,32 @@
       "surface_form": "kariṣye",
       "lemma": "kṛ",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वचनं तव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यथोक्तं युद्धादिकं करिष्ये इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वचनं तव भगवतः परमगुरोराज्ञां पालयिष्यामीति प्रयाससाफल्यकथनेन भगवन्तमर्जुनः परितोषयामास",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

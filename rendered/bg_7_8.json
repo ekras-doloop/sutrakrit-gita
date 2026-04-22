@@ -26,21 +26,89 @@
       "surface_form": "apsu",
       "lemma": "ap",
       "grammar": "locative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रसः एवं प्रभा अस्मि शशिसूर्ययोः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "रस इत्यादिविशेषशब्दैः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "रसत्वेन स्थितोऽस्मि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "रसोऽहम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्रूपे मयि सर्वा आपः प्रोता इत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prabhā",
       "lemma": "prabhā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अस्मि शशिसूर्ययोः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वाश्रयातिरिक्तप्रसारितेजोद्रव्यविशेषः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रकाशः शशिसूर्ययोरहमस्मि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +136,16 @@
       "surface_form": "praṇavaḥ",
       "lemma": "praṇava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ओंकारः सर्ववेदेषु तस्मिन् प्रणवभूते मयि सर्वे वेदाः प्रोताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +159,40 @@
       "surface_form": "vedeṣu",
       "lemma": "veda",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वैखरीरूपेषु तन्मूलभूतः प्रणव ओंकारोऽस्मि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śabdaḥ",
       "lemma": "śabda",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सारभूतः तस्मिन् मयि खं प्रोतम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुण्यस्तन्मात्ररूपः खे आकाशेऽनुस्यूतोऽहम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +213,48 @@
       "surface_form": "nṛṣu",
       "lemma": "nṛ",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्मिन् मयि पुरुषाः प्रोताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जीवेष्वित्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मानुषेषु पौरुषं वीर्यम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पुरुषेषु पौरुषमुद्यमोऽस्मि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पुरुषेषु यदनुस्यूतं तदहम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

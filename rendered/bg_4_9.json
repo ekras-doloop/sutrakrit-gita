@@ -12,14 +12,100 @@
       "surface_form": "janma",
       "lemma": "janman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मायारूपं कर्म",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "चेष्टितं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "नैतीति गतिः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "नित्यसिद्धस्यैव मम सच्चिदानन्दघनस्य लीलया तथानुकरणं कर्म",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च साधूनां परित्राणादि मे मम दिव्यम् अप्राकृतम् ऐश्वरम् एवं यथोक्तं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "इति श्लोकेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "चे ति। भगवज्जन्मादिज्ञानमात्रेण मुक्तिरुच्यत इति प्रतीतिनिरासायाह पृथगि ति।एकदेशज्ञानेनेत्यर्थः। दर्शनार्थमुपलक्षणार्थम",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "वा मायिकं किन्त्वैच्छिकं दिव्यमित्याशयेन स्वजन्मकर्मणां ज्ञाने फलमाह जन्मकर्मेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "च धर्मपालनरूपं दिव्यमलौकिकं तत्त्वतः परानुग्रहार्थमेवेति यो वेत्ति स देहाभिमानं त्यक्त्वा पुनर्जन्म नैति न प्राप्नोति क",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "च धर्मसंस्थापनेन जगत्परिपालनं मे मम नित्यसिद्धेश्वरस्य दिव्यमप्राकृतमन्यैः कर्तुमशक्यमीश्वरस्यैवासाधारणम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +126,25 @@
       "surface_form": "divyam",
       "lemma": "divya",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अप्राकृतम् ऐश्वरम् एवं यथोक्तं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अप्राकृतं मदसाधारणं मम जन्म चेष्टितं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,21 +165,113 @@
       "surface_form": "vetti",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वतः तत्त्वेन यथावत् त्यक्त्वा देहम् इमं पुनर्जन्म पुनरुत्पत्तिं न एति न प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स वर्तमानं देहं परित्यज्य पुनः जन्म न एति माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सोऽपि जन्मफलं प्राप्य प्राकृतं देहं त्यक्त्वाऽर्थादलोकसम्बन्धिसच्चिदानन्दमयस्वरूपं प्राप्य पुनर्जन्म नैति किन्तु मामेती",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स देहाभिमानं त्यक्त्वा पुनर्जन्म नैति न प्राप्नोति किंतु मामेव प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तत्त्वतो भ्रमनिवर्तनेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tattvataḥ",
       "lemma": "tattva",
       "grammar": "ablative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वेन यथावत् त्यक्त्वा देहम् इमं पुनर्जन्म पुनरुत्पत्तिं न एति न प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यो वेत्ति स वर्तमानं देहं परित्यज्य पुनः जन्म न एति माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परानुग्रहार्थमेवेति यो वेत्ति स देहाभिमानं त्यक्त्वा पुनर्जन्म नैति न प्राप्नोति किंतु मामेव प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tyaktvā",
       "lemma": "tyaj",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देहम् इमं पुनर्जन्म पुनरुत्पत्तिं न एति न प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुनर्जन्म नैति न प्राप्नोति किंतु मामेव प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "देहमिमं पुनर्जन्म नैति किंतु मां भगवन्तं वासुदेवमेव सच्चिदानन्दघनमेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +292,43 @@
       "surface_form": "janma",
       "lemma": "janman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मायारूपं कर्म",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "चेष्टितं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "नैतीति गतिः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "नित्यसिद्धस्यैव मम सच्चिदानन्दघनस्य लीलया तथानुकरणं कर्म",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

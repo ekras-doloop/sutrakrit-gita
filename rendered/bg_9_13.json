@@ -33,7 +33,16 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दैवीं देवानां प्रकृतिं शमदमदयाश्रद्धादिलक्षणाम् आश्रिताः सन्तः भजन्ति सेवन्ते अनन्यमनसः अनन्यचित्ताः ज्ञात्वा भूतादिं भ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +56,40 @@
       "surface_form": "prakṛtim",
       "lemma": "prakṛti",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आश्रिताः महात्मानः ते? भूतादिम् अव्ययं वाङ्मनसागोचरनामकर्मस्वरूपं परमकारुणिकतया साधुपरित्राणाय मनुष्यत्वेन अवतीर्णं मां",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "āśritāḥ",
       "lemma": "āśri",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सन्तः भजन्ति सेवन्ते अनन्यमनसः अनन्यचित्ताः ज्ञात्वा भूतादिं भूतानां वियदादीनां प्राणिनां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "महात्मानः ते? भूतादिम् अव्ययं वाङ्मनसागोचरनामकर्मस्वरूपं परमकारुणिकतया साधुपरित्राणाय मनुष्यत्वेन अवतीर्णं मां ज्ञात्वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,21 +124,81 @@
       "surface_form": "jñātvā",
       "lemma": "jñā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतादिं भूतानां वियदादीनां प्राणिनां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अनन्यमनसः मां भजन्ते मत्प्रियत्वातिरेकेण मद्भजनेन विना मनसः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भगवन्मार्गीयाचार्यचरणोपदेशानुसारेण भजन्ति पुरुषोत्तमं मामेव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भजन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "भजन्ति सेवन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtādim",
       "lemma": "bhūtādi",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अव्ययं वाङ्मनसागोचरनामकर्मस्वरूपं परमकारुणिकतया साधुपरित्राणाय मनुष्यत्वेन अवतीर्णं मां ज्ञात्वा अनन्यमनसः मां भजन्ते म",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "avyayam",
       "lemma": "avyaya",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।कथम् -- --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

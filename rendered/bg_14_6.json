@@ -40,14 +40,40 @@
       "surface_form": "prakāśakam",
       "lemma": "prakāśaka",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनामयं निरुपद्रवं सत्त्वं तन्निबध्नाति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रकाशसुखावरणस्वभावरहितता निर्मलत्वम् प्रकाशसुखजननैकान्तस्वभावतया प्रकाशसुखहेतुभूतम् इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "anāmayam",
       "lemma": "anāmaya",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आमयाख्यकार्यं न विद्यते? इति अनामयम् अरोगताहेतुः इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,14 +87,56 @@
       "surface_form": "saṅgena",
       "lemma": "saṅga",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "बध्नातीत्युच्यते -- तत्रेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "badhnāti",
       "lemma": "bandh",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? पुरुषस्य सुखसङ्गं ज्ञानसङ्गं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? पुरुषस्य सुखे ज्ञाने",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। प्रकाशकत्वाच्च स्वकार्येण ज्ञानेन यः सङगस्तेन च बध्नाति। हे अनघ निष्पाप? अहं सुखी ज्ञानी चेति मनोधर्मास्तदभिमानिनि क्ष",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सुखसङ्गेन ज्ञानसङ्गेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +150,16 @@
       "surface_form": "saṅgena",
       "lemma": "saṅga",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "बध्नातीत्युच्यते -- तत्रेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

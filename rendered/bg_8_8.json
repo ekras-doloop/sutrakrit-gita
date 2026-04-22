@@ -12,7 +12,25 @@
       "surface_form": "abhyāsa",
       "lemma": "abhyāsa",
       "grammar": "compound masculine (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "-- इत्यादिश्लोकत्रयार्थमाहतत्रेति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "एव योगोऽभ्यासयोगः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +51,33 @@
       "surface_form": "cetasā",
       "lemma": "cetas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नान्यगामिना न अन्यत्र विषयान्तरे गन्तुं शीलम् अस्येति नान्यगामि तेन नान्यगामिना परमं निरतिशयं पुरुषं दिव्यं दिवि सूर्यम",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अन्तकाले परमं पुरुषं दिव्यं मां वक्ष्यमाणप्रकारं चिन्तयन् माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "दिव्यं द्योतनात्मकं परमं पुरुषं परमेश्वरमनुचिन्तयन्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +126,72 @@
       "surface_form": "yāti",
       "lemma": "yā",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आदिभरतमृगत्वप्राप्तिवत् ऐश्वर्यविशिष्टतया मत्समानाकारो भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तमेव विशिनष्टि --,कविमिति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "गच्छति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुचिन्तयन् शास्त्राचार्योपदेशम् अनुध्यायन् इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तमेव यातीति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अनुचिन्तयन् शास्त्राचार्योपदेशमनुध्यायन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -12,7 +12,32 @@
       "surface_form": "vaktrāṇi",
       "lemma": "vaktra",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मुखानि ते तव त्वरमाणाः त्वरायुक्ताः सन्तः विशन्ति? किंविशिष्टानि मुखानि दंष्ट्राकरालानि भयानकानि भयंकराणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विनाशाय विशन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "विशन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +58,41 @@
       "surface_form": "viśanti",
       "lemma": "viś",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? किंविशिष्टानि मुखानि दंष्ट्राकरालानि भयानकानि भयंकराणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तत्र केचित् चूर्णितैः उत्तमाङ्गैः दशनान्तरेषु विलग्नाः संदृश्यन्ते।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। तेषां मध्ये केचिच्चूर्णीकृतैरुत्तमाङ्गैः शिरोभिरुपलक्षिता दन्तसंधिषु संश्लिष्टाः संदृश्यन्ते।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। तत्र च केचिच्चूर्णितैरुत्तमाङ्गैः शिरोभिर्विशिष्टा दशनान्तरेषु विलग्ना विशेषेण संलग्ना दृश्यन्ते मया सम्यगसंदेहेन।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +106,49 @@
       "surface_form": "karālāni",
       "lemma": "karāla",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भयंकराणि वक्त्राणि विशन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhayānakāni",
       "lemma": "bhayānaka",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भयंकराणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तव वक्त्राणि विनाशाय विशन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "वक्त्राणिव त्वरमाणा विशन्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +183,16 @@
       "surface_form": "sandṛśyante",
       "lemma": "saṃdṛś",
       "grammar": "present indicative pass 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्युक्तं भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +206,24 @@
       "surface_form": "uttamāṅgaiḥ",
       "lemma": "uttamāṅga",
       "grammar": "instrumental neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शिरोभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "दशनान्तरेषु विलग्नाः संदृश्यन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

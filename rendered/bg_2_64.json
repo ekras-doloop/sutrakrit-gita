@@ -40,7 +40,24 @@
       "surface_form": "viṣayān",
       "lemma": "viṣaya",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अवर्जनीयान् चरन् उपलभमानः आत्मवश्यैः आत्मनः वश्यानि वशीभूतानि इन्द्रियाणि तैः आत्मवश्यैः विधेयात्मा इच्छातः विधेयः आत्म",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चरन् विषयान् तिरस्कृत्य वर्तमानो विधेयात्मा विधेयमनाः प्रसादम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +92,17 @@
       "surface_form": "vidheya",
       "lemma": "vidhā",
       "grammar": "compound gdv (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मा यस्य सः जितात्मेत्यर्थः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +116,48 @@
       "surface_form": "prasādam",
       "lemma": "prasāda",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अधिगच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "adhigacchati",
       "lemma": "adhigam",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। प्रसादः प्रसन्नता स्वास्थ्यम्।। प्रसादे सति किं स्यात् इत्युच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। निर्मलान्तःकरणो भवति इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

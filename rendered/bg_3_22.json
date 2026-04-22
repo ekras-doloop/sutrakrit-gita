@@ -117,7 +117,40 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न अस्ति न विद्यते कर्तव्यं त्रिषु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यादिश्लोकत्रयेण",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मे कर्तव्यं नास्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मे मम त्रिष्वपि लोकेषु किमपि कर्तव्यं नास्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -138,14 +171,58 @@
       "surface_form": "triṣu",
       "lemma": "tri",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि लोकेषु किञ्चन किञ्चिदपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "लोकेषु देवमनुष्यादिरूपेण स्वच्छन्दतो वर्तमानस्य किञ्चिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "lokeṣu",
       "lemma": "loka",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "किञ्चन किञ्चिदपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देवमनुष्यादिरूपेण स्वच्छन्दतो वर्तमानस्य किञ्चिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "किमपि कर्तव्यं नास्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -201,7 +278,25 @@
       "surface_form": "karmaṇi",
       "lemma": "karman",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहम्।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव वर्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

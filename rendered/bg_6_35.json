@@ -54,7 +54,24 @@
       "surface_form": "abhyāsena",
       "lemma": "abhyāsa",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु अभ्यासो नाम चित्तभूमौ कस्यांचित् समानप्रत्ययावृत्तिः चित्तस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "लयप्रतिबन्धाद्वैराग्येण",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +99,32 @@
       "surface_form": "gṛhyate",
       "lemma": "grah",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विक्षेपरूपः प्रचारः चित्तस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निगृह्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निगृह्यते सर्ववृत्तिशून्यं क्रियते तन्मन इत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

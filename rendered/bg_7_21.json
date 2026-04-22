@@ -47,14 +47,57 @@
       "surface_form": "bhaktaḥ",
       "lemma": "bhakta",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "श्रद्धया अर्चितुम् इच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यां यां तनुं देवतारूपां मदीयामेव मूर्तिं श्रद्धयार्चितुमिच्छति प्रवर्तते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śraddhayā",
       "lemma": "śraddhā",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संयुक्तः भक्त श्च सन् अर्चितुं पूजयितुम् इच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अर्चितुम् इच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "जन्मान्तरवासनाबलप्रादुर्भूतया भक्त्या संयुक्तः सन्नर्चितुं अर्चयितुमिच्छति प्रवर्तते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,21 +111,122 @@
       "surface_form": "icchati",
       "lemma": "iṣ",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्य तस्य कामिनः अचलां स्थिरां श्रद्धां तामेव विदधामि स्थिरीकरोमि।।ययैव पूर्वं प्रवृत्तः स्वभावतो यः यां देवतातनुं श्रद",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्य तस्य अजानतः अपि मत्तनुविषया एषा श्रद्धा इति अहम् एव अनुसन्धाय ताम् एव अचलां निर्विघ्नां विदधामि अहम्।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्य कामिनः अचलां स्थिरां श्रद्धां तामेव विदधामि स्थिरीकरोमि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्य अजानतः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च ब्रह्मादिग्रहणे सम्भवाद्भगवद्ग्रहणे चाम्सम्भवादिति भावेनाह उक्त चे ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तस्य भक्तस्य तत्तन्मूर्तिविषयां तामेव श्रद्धामचलां दृढामहमन्तर्यामी विदधामि करोमि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तस्य कामिनस्तामेव देवतातनुं प्रति श्रद्धां पूर्ववासनावशात्प्राप्तां भक्तिमचलां स्थिरां विदधामि करोम्यहमन्तर्यामी नतु मद",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्य कामिनः अचलां स्थिरां श्रद्धां तामेव विदधामि स्थिरीकरोमि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्य अजानतः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च ब्रह्मादिग्रहणे सम्भवाद्भगवद्ग्रहणे चाम्सम्भवादिति भावेनाह उक्त चे ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तस्य भक्तस्य तत्तन्मूर्तिविषयां तामेव श्रद्धामचलां दृढामहमन्तर्यामी विदधामि करोमि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तस्य कामिनस्तामेव देवतातनुं प्रति श्रद्धां पूर्ववासनावशात्प्राप्तां भक्तिमचलां स्थिरां विदधामि करोम्यहमन्तर्यामी नतु मद",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

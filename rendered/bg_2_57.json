@@ -19,7 +19,32 @@
       "surface_form": "sarvatra",
       "lemma": "sarvatra",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देहजीवितादिष्वपि अनभिस्नेहः अभिस्नेहवर्जितः तत्तत् प्राप्य शुभाशुभं तत्तत् शुभं अशुभं वा लब्ध्वा न अभिनन्दति न द्वेष्टि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रियेषु अनभिस्नेहः उदासीनः प्रियसंश्लेषविश्लेषरूपं शुभाशुभं प्राप्य अभिनन्दनद्वेषरहितः सोऽपि स्थितप्रज्ञः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पुत्रादिष्वप्यनभिस्नेहः स्नेहशून्यः अतएव बाधितानुवृत्त्या तत्तच्छुभमनुकूलं प्राप्य नाभिनन्दति न प्रशंसति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +72,48 @@
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शुभाशुभं तत्तत् शुभं अशुभं वा लब्ध्वा न अभिनन्दति न द्वेष्टि शुभं प्राप्य न तुष्यति न हृष्यति अशुभं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अभिनन्दनद्वेषरहितः सोऽपि स्थितप्रज्ञः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "नाभिनन्दति न द्वेष्टि",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "नाभिनन्दति न प्रशंसति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नाभिनन्दति हर्षविशेषपुरःसरं न प्रशंसति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,28 +155,129 @@
       "surface_form": "dveṣṭi",
       "lemma": "dviṣ",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शुभं प्राप्य न तुष्यति न हृष्यति अशुभं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न निन्दति किंतु केवलमुदासीन",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अन्तरसूयापूर्वकं न निन्दति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एवं हर्षविषादवर्जितस्य विवेकजा प्रज्ञा प्रतिष्ठिता भवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रज्ञा प्रतिष्ठिताऽवसेया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रज्ञा प्रतिष्ठितेत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prajñā",
       "lemma": "prajñā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतिष्ठिता भवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठिताऽवसेया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठितेत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परमात्मतत्त्वविषया प्रतिष्ठिता फलपर्यवसायिनी",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pratiṣṭhitā",
       "lemma": "pratiṣṭhā",
       "grammar": "nominative feminine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भवति।। किञ्च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "फलपर्यवसायिनी",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

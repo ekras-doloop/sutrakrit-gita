@@ -12,7 +12,32 @@
       "surface_form": "labhante",
       "lemma": "labh",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मनिर्वाणं मोक्षम् ऋषयः सम्यग्दर्शिनः संन्यासिनः क्षीणकल्मषाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।उक्तगुणानां ब्रह्म अत्यन्तसुलभम् इत्याह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "।यस्मिन्सर्वाणि भूतान्यात्मैवाभूद्विजानतः। तत्र को मोहः कः शोक एकत्वमनुपश्यतः।। इति श्रुतेः। बहुवचनंतद्यो यो देवानाम् इत",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +58,40 @@
       "surface_form": "ṛṣayaḥ",
       "lemma": "ṛṣi",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सम्यग्दर्शिनः संन्यासिनः क्षीणकल्मषाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मानः संयतेन्द्रियाः सर्वभूतहित",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "द्रष्टारः आत्मावलोकनपरा ये एवंभूताः ते क्षीणा शेषात्मप्राप्तिविरोधि कल्मषाः ब्रह्मनिर्वाणं लभन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सम्यग्दर्शिनः क्षीणं कल्मषं येषां छिन्नं द्वैधं संशयो येषां यत संयत आत्मा चित्तं येषां सर्वेषां भूतानां हिते रताः कृपाल",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सूक्ष्मवस्तुविवेचनसमर्थाः संन्यासिनः ततः श्रवणादिपरिपाकेन छिन्नद्वैधा निवृतसर्वसंशयाः ततो निदिध्यासनपरिपाकेन संयतात्मान",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +105,16 @@
       "surface_form": "kalmaṣāḥ",
       "lemma": "kalmaṣa",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मनिर्वाणं लभन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +163,56 @@
       "surface_form": "hite",
       "lemma": "hita",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आनुकूल्ये रताः अहिंसका इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ratāḥ",
       "lemma": "ram",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मवत् सर्वेषां भूतानां हितेषु निरताः ऋषयः द्रष्टारः आत्मावलोकनपरा ये एवंभूताः ते क्षीणा शेषात्मप्राप्तिविरोधि कल्मषाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

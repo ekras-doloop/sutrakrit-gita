@@ -26,7 +26,24 @@
       "surface_form": "tvā",
       "lemma": "tvad",
       "grammar": "accusative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्वां सुरसंघाः ये अत्र भूभारावताराय अवतीर्णाः वस्वादिदेवसंघाः मनुष्यसंस्थानाः त्वां विशन्ति प्रविशन्तः दृश्यन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विशन्ति इत्यत्र न संहारादिकं विवक्षितं? स्तुत्यादिभिः सहपाठाद्धार्तराष्ट्रादिवदासन्नोपसहाराभावात् परोक्तस्यावतीर्णसुरसङ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,28 +57,105 @@
       "surface_form": "saṃghāḥ",
       "lemma": "saṃgha",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः संपूर्णाभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "viśanti",
       "lemma": "viś",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रविशन्तः दृश्यन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तेषु एव केचिद् अति उग्रम् अति अद्भुतं च तव आकारम् आलोक्य भीताः प्राञ्जलयः स्वज्ञानानुगुणं स्तुतिरूपाणि वाक्यानि गृणन्त",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "शरणं प्रविशन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रविशन्तो दृश्यन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kecid",
       "lemma": "kaścit",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अति उग्रम् अति अद्भुतं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhītāḥ",
       "lemma": "bhī",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राञ्जलयः सन्तो गृणन्ति स्तुवन्ति त्वाम् अन्ये पलायनेऽपि अशक्ताः सन्तः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राञ्जलयः स्वज्ञानानुगुणं स्तुतिरूपाणि वाक्यानि गृणन्ति उच्चारयन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सन्तः त्वां विशन्ति शरणं प्रविशन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +169,40 @@
       "surface_form": "gṛṇanti",
       "lemma": "gṛ",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्तुवन्ति त्वाम् अन्ये पलायनेऽपि अशक्ताः सन्तः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उच्चारयन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "जयजय रक्षरक्षेति प्रार्थयन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्तुवन्ति त्वाम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +223,16 @@
       "surface_form": "uktvā",
       "lemma": "vac",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुष्कलाभिः भगवदनुरूपाभिः स्तुतिभिः स्तुवन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,14 +260,40 @@
       "surface_form": "saṃghāḥ",
       "lemma": "saṃgha",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्तुवन्ति त्वां स्तुतिभिः पुष्कलाभिः संपूर्णाभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "stuvanti",
       "lemma": "stu",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्वाम् अन्ये पलायनेऽपि अशक्ताः सन्तः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "त्वाम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -145,14 +307,57 @@
       "surface_form": "stutibhiḥ",
       "lemma": "stuti",
       "grammar": "instrumental feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुष्कलाभिः संपूर्णाभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्तुवन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "puṣkalābhiḥ",
       "lemma": "puṣkala",
       "grammar": "instrumental feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संपूर्णाभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भगवदनुरूपाभिः स्तुतिभिः स्तुवन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परिपूर्णार्थाभिः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

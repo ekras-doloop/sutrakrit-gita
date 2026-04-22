@@ -19,14 +19,56 @@
       "surface_form": "bhavanti",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जायन्ते भूतानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पर्जन्याद् अन्नसंभवः इति सर्वलोकसाक्षिकम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "जायन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
       "lemma": "bhūta",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। पर्जन्यात् वृष्टेः अन्नस्य संभवः अन्नसंभवः । यज्ञात् भवति पर्जन्यः अग्नौ प्रास्ताहुतिः सम्यगादित्यमुपतिष्ठते। आदित्या",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भवन्ति पर्जन्याद् अन्नसंभवः इति सर्वलोकसाक्षिकम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +89,24 @@
       "surface_form": "saṃbhavaḥ",
       "lemma": "sambhava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्नसंभवः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पर्जन्यादृष्टेः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +120,32 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पर्जन्यः अग्नौ प्रास्ताहुतिः सम्यगादित्यमुपतिष्ठते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति च शास्त्रेण अवगम्यते अग्नौ प्रास्ताहुतिः सम्यगादित्यमुपतिष्ठते। आदित्याज्जायते वृष्टिर्वृष्टेरन्नं ततः प्रजाः।। (मन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तद्व्यापाद्यं कर्मविधये",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,21 +159,82 @@
       "surface_form": "yajñaḥ",
       "lemma": "yajña",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपूर्वम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "च द्रव्यार्जनादिकर्तृपुरुषव्यापाररूप कर्मसमुद्भवः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पर्जन्यत्वात्तत्कारणमुच्यते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कर्मसमुद्भवः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कर्तव्यमित्याह अन्नादिति त्रिभिः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कर्तव्यमपि तु जगच्चक्रप्रवृत्तिहेतुत्वादपीत्याह अन्नादित्यादित्रिभिः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "samudbhavaḥ",
       "lemma": "samudbhava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यस्य यज्ञस्य अपूर्वस्य स यज्ञः कर्मसमुद्भवः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

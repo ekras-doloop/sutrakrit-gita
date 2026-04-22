@@ -33,14 +33,64 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति योनिरेव विशिष्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यत् तस्मिन् गर्भं दधामि अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। प्रकृतिरित्यर्थः। तन्महद्ब्रह्म मम परमेश्वरस्य योनिर्गर्भाधानस्थानं? तस्मिन्नहं गर्भं जगद्विस्तारहेतुं चिदाभासं दधामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tasmin",
       "lemma": "tad",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "महति ब्रह्मणि योनौ गर्भं हिरण्यगर्भस्य जन्मनः बीजं सर्वभूतजन्मकारणं बीजं दधामि निक्षिपामि क्षेत्रक्षेत्रज्ञप्रकृतिद्वयश",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "गर्भं दधामि अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "गर्भं दधाम्यहम् इति वाक्यशेषाद्भार्यार्थतानिश्चयात्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +118,16 @@
       "surface_form": "saṃbhavaḥ",
       "lemma": "sambhava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उत्पत्तिः सर्वभूतानां हिरण्यगर्भोत्पत्तिद्वारेण ततः तस्मात् गर्भाधानात् भवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +155,65 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हे भारत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।कार्यावस्थः अपि चितचित्प्रकृतिसंसर्गो मया एव कृतः इत्याह --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "? किन्त्वियमन्यैव",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तदेव बीजमित्युच्यते तत्सम्मृष्टपुरुषो विराट्? तत्संसृष्टा उभयस्वरूपाश्चेतना अणवो व्युञ्चरिता जायायामिवात्मा वै जायते इत",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "हे भारत? नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

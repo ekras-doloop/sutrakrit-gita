@@ -40,21 +40,64 @@
       "surface_form": "nityam",
       "lemma": "nityam",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुतिष्ठन्ति अनुवर्तन्ते मानवाः मनुष्याः श्रद्धावन्तः श्रद्दधानाः अनसूयन्तः असूयां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "anutiṣṭhanti",
       "lemma": "anuṣṭhā",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुवर्तन्ते मानवाः मनुष्याः श्रद्धावन्तः श्रद्दधानाः अनसूयन्तः असूयां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ये च अननुतिष्ठन्तः अपि अस्मिन् शास्त्रार्थे श्रद्दधाना भवन्ति ये च अश्रद्दधाना अपिएवं शास्त्रार्थो न संभवति इति न अभ्यस",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "mānavāḥ",
       "lemma": "mānava",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनुष्याः श्रद्धावन्तः श्रद्दधानाः अनसूयन्तः असूयां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मनिष्ठशास्त्राधिकारिणःअयम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +118,33 @@
       "surface_form": "mucyante",
       "lemma": "muc",
       "grammar": "present indicative pass 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तेऽपि एवंभूताः कर्मभिः धर्माधर्माख्यैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। ते अपि कर्मभिः इति अपिशब्दाद् एषां पृथक्करणम्। इदानीम् अननुतिष्ठन्तः अपि अस्मिन् शास्त्रार्थे श्रद्दधाना अनभ्यसूयवः च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ज्ञानद्वारा किम्वपरोक्षज्ञानिनः न तु साधनान्तरमुच्यते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +165,32 @@
       "surface_form": "karmabhiḥ",
       "lemma": "karman",
       "grammar": "instrumental neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "धर्माधर्माख्यैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मुच्यन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इत्यपिशब्देन ज्ञानमिव निवृत्तं कर्मापि मोक्षसाधनमुच्यते इत्यन्यथा प्रतीतिनिरासाय व्याचष्टे ये त्वि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

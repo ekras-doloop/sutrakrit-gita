@@ -54,14 +54,40 @@
       "surface_form": "vicetasaḥ",
       "lemma": "vicetas",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विगतविवेकाश्च ते भवन्ति इत्यभिप्रायः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथा सर्वत्र विगतयाथात्म्यज्ञानाः? मां सर्वेश्वरम् इतरसमं मत्वा मयि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "rākṣasīm",
       "lemma": "rākṣasa",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आसुरीं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +129,32 @@
       "surface_form": "śritāḥ",
       "lemma": "śri",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आश्रिताः? छिन्द्धि? भिन्द्धि? पिब? खाद? परस्वमपहर? इत्येवं वदनशीलाः क्रूरकर्माणो भवन्ति इत्यर्थः? असुर्या नाम ते लोकाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "राक्षसीं तामसीं शिश्नोदरभरणैकस्वभावरूपां तथा मोहिनीं सात्विकराजसी मानुषीं प्रकृतिं संश्रिता इत्यासुरादयो मामवजानन्ति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "आश्रिताः सन्तो मामवजानन्तीति पूर्वेणान्वयः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

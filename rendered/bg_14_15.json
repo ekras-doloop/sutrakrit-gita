@@ -12,7 +12,41 @@
       "surface_form": "rajasi",
       "lemma": "rajas",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गुणे विवृद्धे प्रलयं मरणं गत्वा प्राप्य कर्मसङ्गिषु कर्मासक्तियुक्तेषु मनुष्येषु जायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे मरणं प्राप्य फलार्थं कर्म कुर्वतां कुलेषु जायते तत्र जनित्वा स्वर्गादिफलसाधनकर्मसु अधिकरोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे सति मृत्युं प्राप्य कर्मासक्तेषु मनुष्येषु जायते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे सति प्रलयं मृत्युं गत्वा प्राप्य कर्मसङ्गिषु श्रुतिस्मृतिविहितप्रतिषिद्धकर्मफलाधिकारिषु मनुष्येषु जायते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,14 +60,40 @@
       "surface_form": "gatvā",
       "lemma": "gam",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्य कर्मसङ्गिषु कर्मासक्तियुक्तेषु मनुष्येषु जायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राप्य कर्मसङ्गिषु श्रुतिस्मृतिविहितप्रतिषिद्धकर्मफलाधिकारिषु मनुष्येषु जायते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कुर्वतां कुलेषु जायते तत्र जनित्वा स्वर्गादिफलसाधनकर्मसु अधिकरोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +107,49 @@
       "surface_form": "jāyate",
       "lemma": "jan",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तथा तद्वदेव प्रलीनः मृतः तमसि विवृद्धे मूढयोनिषु पश्वादियोनिषु जायते ।।अतीतश्लोकार्थस्यैव संक्षेपः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तत्र जनित्वा स्वर्गादिफलसाधनकर्मसु अधिकरोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तमसीति अधोयोनिषु नीचलोकेषु जायते।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तथा तमसि प्रवृद्धे सति प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। तथा तद्वदेव तमसि प्रवृद्धे प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +170,40 @@
       "surface_form": "tamasi",
       "lemma": "tamas",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विवृद्धे मूढयोनिषु पश्वादियोनिषु जायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे मृतो मूढयोनिषु श्वसूकरादियोनिषु जायते सकलपुरुषार्थारम्भानर्हो जायते इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे सति प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रवृद्धे प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +224,49 @@
       "surface_form": "jāyate",
       "lemma": "jan",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तथा तद्वदेव प्रलीनः मृतः तमसि विवृद्धे मूढयोनिषु पश्वादियोनिषु जायते ।।अतीतश्लोकार्थस्यैव संक्षेपः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तत्र जनित्वा स्वर्गादिफलसाधनकर्मसु अधिकरोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तमसीति अधोयोनिषु नीचलोकेषु जायते।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तथा तमसि प्रवृद्धे सति प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। तथा तद्वदेव तमसि प्रवृद्धे प्रलीनो मृतो मूढयोनिषु पश्वादिषु जायते।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

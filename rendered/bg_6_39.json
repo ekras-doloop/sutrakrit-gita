@@ -40,7 +40,24 @@
       "surface_form": "chettum",
       "lemma": "chid",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपनेतुम् अर्हसि अशेषतः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अर्हसि स्वतः प्रत्यक्षेण युगपत् सर्वं सर्वदा स्वत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,14 +85,56 @@
       "surface_form": "anyaḥ",
       "lemma": "anya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ऋषिः देवो वा च्छेत्ता नाशयिता संशयस्य अस्य न हि यस्मात् उपपद्यते न संभवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "संशयस्य अस्य छेत्ता न हि उपपद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃśayasya",
       "lemma": "saṃśaya",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अस्य न हि यस्मात् उपपद्यते न संभवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अस्य छेत्ता न हि उपपद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "छेत्ता सम्यगुत्तरदानेन नाशयिता हि यस्मान्नोपपद्यते न संभवति तस्मात्त्वमेव प्रत्यक्षदर्शी सर्वस्य परमगुरुः संशयमेतं मम छ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +148,32 @@
       "surface_form": "chettā",
       "lemma": "chettṛ",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न हि उपपद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "निवर्तकः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सम्यगुत्तरदानेन नाशयिता हि यस्मान्नोपपद्यते न संभवति तस्मात्त्वमेव प्रत्यक्षदर्शी सर्वस्य परमगुरुः संशयमेतं मम छेत्तुमर",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +194,16 @@
       "surface_form": "upapadyate",
       "lemma": "upapad",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न संभवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

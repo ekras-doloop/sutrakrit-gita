@@ -89,7 +89,32 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स जीवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स जीवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तस्य जीवनान्मरणमेव वरम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +128,32 @@
       "surface_form": "jīvati",
       "lemma": "jīv",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।तस्मात् अज्ञेन अधिकृतेन कर्तव्यमेव कर्मेति प्रकरणार्थः। प्राक् आत्मज्ञाननिष्ठायोग्यताप्राप्तेः तादर्थ्येन कर्मयोगानुष",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।असाधनायत्तात्मदर्शनस्य मुक्तस्य एव महायज्ञादिवर्णाश्रमोचितकर्मानारम्भ इत्याह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। हे पार्थ तस्य जीवनान्मरणमेव वरम्। जन्मान्तरे धर्मानुष्ठानसंभवादित्यर्थः। तथाच श्रुतिःअथो अयं वा आत्मा सर्वेषां भूतानां",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

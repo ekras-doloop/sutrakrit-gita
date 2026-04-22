@@ -19,7 +19,40 @@
       "surface_form": "sahasreṣu",
       "lemma": "sahasra",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनेकेषु कश्चित् यतति प्रयत्नं करोति सिद्धये सिद्ध्यर्थम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कश्चिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मध्ये कश्चिदेव प्रकृष्टपुण्यवशात्सिद्धये आत्मज्ञानाय प्रयतते प्रयत्नं कुर्वतामपि सहस्रेषु कश्चिदेव प्रकृष्टपुण्यवशादात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मध्ये कश्चिदेकोऽनेकजन्मकृतसुकृतसमासादितनित्यानित्यवस्तुविवेकः सन् यतति यतते सिद्धये सत्त्वशुद्धिद्वारा ज्ञानोत्पत्तये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +73,58 @@
       "surface_form": "yatati",
       "lemma": "yat",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रयत्नं करोति सिद्धये सिद्ध्यर्थम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यतते सिद्धये सत्त्वशुद्धिद्वारा ज्ञानोत्पत्तये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "siddhaye",
       "lemma": "siddhi",
       "grammar": "dative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सिद्ध्यर्थम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "यतते। मद्विदां सहस्रेषु तत्त्वतो यथावत्स्थितं मां वेत्ति न कश्चिद् इति अभिप्रायः।स महात्मा सुदुर्लभः (गीता 7।19)मां तु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सत्त्वशुद्धिद्वारा ज्ञानोत्पत्तये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +173,81 @@
       "surface_form": "vetti",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्वतः यथावत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न कश्चिद् इति अभिप्रायः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तादृशानां चात्मज्ञानसिद्धानां सहस्रेषु कश्चिदेव मां परमात्मानं मत्प्रसादेन तत्त्वतो वेत्ति तदेवमतिदुर्लभमपि मज्ज्ञानं त",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "साक्षात्करोति तत्त्वतः प्रत्यगभेदेन तत्त्वमसीत्यादिगुरूपदिष्टमहावाक्येभ्यः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tattvataḥ",
       "lemma": "tattva",
       "grammar": "ablative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यथावत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति विशिष्टं वेदनं सामान्यतोऽपि वेदनमात्रे सत्येव हि भवति अतोयततामपि सिद्धानां कश्चिन्मां वेत्तिमद्विधेषु कश्चिन्मां तत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "निरतिशयमहिमत्वतः कश्चिदेव व्यासवामदेवशुकादिर्वेत्ति न सर्वः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रत्यगभेदेन तत्त्वमसीत्यादिगुरूपदिष्टमहावाक्येभ्यः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

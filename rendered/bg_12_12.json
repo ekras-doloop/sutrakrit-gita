@@ -26,7 +26,24 @@
       "surface_form": "jñānam",
       "lemma": "jñāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कस्मात् अविवेकपूर्वकात् अभ्यासात्। तस्मादपि ज्ञानात् ज्ञानपूर्वकं ध्यानं विशिष्यते। ज्ञानवतो ध्यानात् अपि कर्मफलत्यागः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव आत्महितत्वे विशिष्यते आत्मापरोक्ष्य ज्ञानाद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +71,49 @@
       "surface_form": "viśiṣyate",
       "lemma": "viśiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। ज्ञानवतो ध्यानात् अपि कर्मफलत्यागः? विशिष्यते इति अनुषज्यते। एवं कर्मफलत्यागात् पूर्वविशेषणवतः शान्तिः उपशमः सहेतुकस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मापरोक्ष्य ज्ञानाद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। ज्ञानमात्रात्सज्ञानं ध्यानम्। तथा च सामवेदे अनभिम्लानशाखायाम् -- अधिकं केवलाभ्यासाज्ज्ञानं तत्सहितं ततः। ध्यानं ततश्चा",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। शान्तिर्हि लाभेऽलाभे जये़ऽजये च मनस उपशमस्वरूपा? ततश्च कृतार्थतेत्यर्थसिद्धम्।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "अतिशयितं भवति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

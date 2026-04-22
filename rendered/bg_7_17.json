@@ -19,7 +19,41 @@
       "surface_form": "jñānī",
       "lemma": "jñānin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्त्ववित् तत्त्ववित्त्वात् नित्ययुक्तः भवति एकभक्तिश्च अन्यस्य भजनीयस्य अदर्शनात् अतः स एकभक्तिः विशिष्यते विशेषम् आधि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विशिष्यते कुतः नित्ययुक्त एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठो मत इत्याह तेषां ज्ञानीति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "श्रेष्ठ इत्याह तेषामिति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +88,82 @@
       "surface_form": "viśiṣyate",
       "lemma": "viśiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विशेषम् आधिक्यम् आपद्यते अतिरिच्यते इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कुतः नित्ययुक्त एकभक्तिः इति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सर्वतोऽतिरिच्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "priyaḥ",
       "lemma": "priya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रसिद्धं हि लोके आत्मा प्रियो भवति इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथा मया सर्वज्ञेन सर्वशक्तिना",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परस्परमित्याह प्रियो हीति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स च मम। तस्मादेतैर्नित्ययुक्तत्वादिभिश्चतुर्भिर्हेतुभिः स उत्तम इत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। आत्मा प्रियोऽतिशयेन भवतीति श्रुतिलोकयोः प्रसिद्धमेवेत्यर्थः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +219,49 @@
       "surface_form": "priyaḥ",
       "lemma": "priya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रसिद्धं हि लोके आत्मा प्रियो भवति इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथा मया सर्वज्ञेन सर्वशक्तिना",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परस्परमित्याह प्रियो हीति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स च मम। तस्मादेतैर्नित्ययुक्तत्वादिभिश्चतुर्भिर्हेतुभिः स उत्तम इत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। आत्मा प्रियोऽतिशयेन भवतीति श्रुतिलोकयोः प्रसिद्धमेवेत्यर्थः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

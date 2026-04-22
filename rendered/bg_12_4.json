@@ -12,7 +12,24 @@
       "surface_form": "saṃniyamya",
       "lemma": "saṃniyam",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सम्यक् नियम्य उपसंहृत्य इन्द्रियग्रामम् इन्द्रियसमुदायं सर्वत्र सर्वस्मिन् काले समबुद्धयः समा तुल्या बुद्धिः येषाम् इष्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वविषयेभ्य उपसंहृत्येन्द्रियग्रामं करणसमुदायम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,16 @@
       "surface_form": "sarvatra",
       "lemma": "sarvatra",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वस्मिन् काले समबुद्धयः समा तुल्या बुद्धिः येषाम् इष्टानिष्टप्राप्तौ ते समबुद्धयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +87,32 @@
       "surface_form": "prāpnuvanti",
       "lemma": "prāp",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मामेव सर्वभूतहिते रताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव। मत्समानाकारम् असंसारिणम् आत्मानं प्राप्नुवन्ति एव इत्यर्थः।मम साधर्म्यमागताः (गीता 14।2) इति वक्ष्यते श्रूयते च --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। पूर्वमपि मद्रूपा एव सन्तोऽविद्यानिवृत्त्या मद्रूपा एव तिष्ठन्तीत्यर्थः।ब्रह्मैव सन्ब्रह्माप्येतिब्रह्म वेद ब्रह्मैव भव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +147,41 @@
       "surface_form": "hite",
       "lemma": "hita",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रताः सर्वेभ्यो भूतेभ्यो हितमेव चिन्तयन्तस्तदेवाचरन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ratāḥ",
       "lemma": "ram",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। न तु तेषां वक्तव्यं किञ्चित् मां ते प्राप्नुवन्ति इति ज्ञानी त्वात्मैव मे मतम् (गीता 7।18) इति हि उक्तम्। न हि भगवत्स्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "सर्वभूताहितरतित्वात् निवृत्ताः? सर्वभूताहितरतित्वं हि आत्मनो देवादिविषमाकाराभिमाननिमित्तम्? ये एवम् अक्षरम् उपासते ते अ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

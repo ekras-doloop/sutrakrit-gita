@@ -12,7 +12,33 @@
       "surface_form": "lobhaḥ",
       "lemma": "lobha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परद्रव्यादित्सा? प्रवृत्तिः प्रवर्तनं सामान्यचेष्टा? आरम्भः कस्य कर्मणाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वकीयद्रव्यस्य अत्यागशीलता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। स्वविषयप्राप्त्यनिवर्त्य इच्छाविशेष इति यावत्। प्रवृत्तिर्निरन्तरं प्रयतमानता। आरम्भः कर्मणां बहुवित्तव्ययायासकराणां क",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,28 +52,128 @@
       "surface_form": "ārambhaḥ",
       "lemma": "ārambha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कस्य कर्मणाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": ", कर्मणां फलसाधनभूतानां कर्मणाम् आरम्भे उद्योगः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कर्मणां बहुवित्तव्ययायासकराणां काम्यनिषिद्धलौकिकमहागृहादिविषयाणां व्यापाराणामुद्यमः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karmaṇām",
       "lemma": "karman",
       "grammar": "genitive neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। अशमः अनुपशमः? हर्षरागादिप्रवृत्तिः स्पृहा सर्वसामान्यवस्तुविषया तृष्णा -- रजसि गुणे विवृद्धे एतानि लिङ्गानि जायन्ते हे",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आरम्भे उद्योगः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "aśamaḥ",
       "lemma": "aśama",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुपशमः? हर्षरागादिप्रवृत्तिः स्पृहा सर्वसामान्यवस्तुविषया तृष्णा -- रजसि गुणे विवृद्धे एतानि लिङ्गानि जायन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इन्द्रियानुपरतिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इदं कृत्वा इदं करिष्यामीत्यादिसंकल्पविकल्पानुपरमः? स्पृहा उच्चावचेषु दृष्टमात्रेषु वस्तुष्वितस्ततो जिघृक्षा? रजसि प्रवृ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "spṛhā",
       "lemma": "spṛhā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वसामान्यवस्तुविषया तृष्णा -- रजसि गुणे विवृद्धे एतानि लिङ्गानि जायन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विषयेच्छा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "उच्चावचेषु दृष्टमात्रेषु वस्तुष्वितस्ततो जिघृक्षा? रजसि प्रवृद्धे सति एतानि लिङ्गानि जायन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "उच्चावचेषु परधनेषु दृष्टमात्रेषु येनकेनाप्युपायेनोपादित्सा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,21 +187,104 @@
       "surface_form": "etāni",
       "lemma": "etad",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लिङ्गानि जायन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "रजसि प्रवृद्धे जायन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "लिङ्गानि जायन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "रागात्मकानि लिङ्गानि जायन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "jāyante",
       "lemma": "jan",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हे भरतर्षभ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। यदा लोभादयो वर्तन्ते? तदा रजः प्रवृद्धम् इति विद्याद् इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। एतैर्लिङ्गै रजोगुणस्य वृद्धिं विद्यादित्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। हे भरतर्षभ? एतैर्लिङ्गैर्विवृद्धं रजो जानीयादित्यर्थः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vivṛddhe",
       "lemma": "vivṛdh",
       "grammar": "locative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एतानि लिङ्गानि जायन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एतानि रागात्मकानि लिङ्गानि जायन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

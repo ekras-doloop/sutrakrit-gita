@@ -12,7 +12,24 @@
       "surface_form": "pitā",
       "lemma": "pitṛ",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जनयिता अहम् अस्य जगतः? माता जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जनयिता माता जनयित्री धाता पोषयिता तत्तत्कर्मफलविधाता वा पितामहः पितुः पिता वेद्यं वेदितव्यं वस्तु पूयतेऽनेनेति पवित्रं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,7 +43,32 @@
       "surface_form": "asya",
       "lemma": "idam",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जगतः? माता जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्थावरजङ्गमात्मकस्य जगतः तत्र तत्र पितृत्वेन मातृत्वेन धातृत्वेन पितामहत्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "जगतः सर्वस्य प्राणिजातस्य पिता जनयिता माता जनयित्री धाता पोषयिता तत्तत्कर्मफलविधाता वा पितामहः पितुः पिता वेद्यं वेदितव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,21 +82,88 @@
       "surface_form": "mātā",
       "lemma": "mātṛ",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चाहम्। धाताऽन्वाधाता। यजमानश्चाहं ब्रह्मैव?ब्रह्मणा हुतं [4।24] इति पूर्वसूत्रितत्वात्। पितामहश्चाहं स्मार्त्ते श्राद्ध",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "जनयित्री धाता पोषयिता तत्तत्कर्मफलविधाता वा पितामहः पितुः पिता वेद्यं वेदितव्यं वस्तु पूयतेऽनेनेति पवित्रं पावनं शुद्धि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dhātā",
       "lemma": "dhātṛ",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्मफलविधाता? वेद्यं ज्ञेयं वस्तु? पवित्रं शोधकं प्रायश्चित्तात्मकं वा? ओंकारः प्रणवः? ऋग्वेदादयो वेदाश्च अहमेव? स्पष्ट",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पोषयिता तत्तत्कर्मफलविधाता वा पितामहः पितुः पिता वेद्यं वेदितव्यं वस्तु पूयतेऽनेनेति पवित्रं पावनं शुद्धिहेतुर्गङ्गास्न",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pitāmahaḥ",
       "lemma": "pitāmaha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पितुः पिता वेद्यं वेदितव्यं वस्तु पूयतेऽनेनेति पवित्रं पावनं शुद्धिहेतुर्गङ्गास्नानगायत्रीजपादि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

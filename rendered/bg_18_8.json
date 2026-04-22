@@ -12,7 +12,24 @@
       "surface_form": "duḥkham",
       "lemma": "duḥkha",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति एव यत् कर्म कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "[म.भा.3",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +57,41 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तथापि दुःखात्मकद्रव्यार्जनसाध्यत्वात् बह्वायासरूपतया कायक्लेश करत्वात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "त्यजेदिति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "त्यजेदिति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +119,24 @@
       "surface_form": "tyajet",
       "lemma": "tyaj",
       "grammar": "present optative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य फलं मोक्षाख्यं न लभेत् नैव लभेत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स राजसं रजोमूलं त्यागं कृत्वा तद् अयथा अवस्थितशास्त्रार्थरूपम् इति ज्ञानोत्पत्तिरूपं त्यागफलं न लभेत्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +150,49 @@
       "surface_form": "kṛtvā",
       "lemma": "kṛ",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य फलं मोक्षाख्यं न लभेत् नैव लभेत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद् अयथा अवस्थितशास्त्रार्थरूपम् इति ज्ञानोत्पत्तिरूपं त्यागफलं न लभेत्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तत्फलं ज्ञाननिष्ठालक्षणं न लभेत सत्त्वसञ्जातत्वाज्ज्ञानस्येत्यर्थः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "राजसः पुरुषस्त्यागस्य फलं ज्ञाननिष्ठालक्षणं नैव लभत इत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नैव त्यागफलं सात्त्विकत्यागस्य फलं ज्ञाननिष्ठालक्षणं नैव लभेन्न लभेत",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +241,24 @@
       "surface_form": "labhet",
       "lemma": "labh",
       "grammar": "present optative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नैव लभेत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी।। (गीता 18।31) इति हि वक्ष्यते। न हि कर्म दृष्टद्वारेण मनःप्रसादहेतुः। अपि तु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

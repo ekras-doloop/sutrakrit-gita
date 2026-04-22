@@ -19,14 +19,67 @@
       "surface_form": "sarveṣu",
       "lemma": "sarva",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कालेषु माम् अनुस्मर यथाशास्त्रम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "कालेषु आप्रयाणाद् अहरहः माम् अनुस्मर अहरहः अनुस्मृतिकरं युद्धादिकं वर्णाश्रमानुबन्धिश्रुतिस्मृतिचोदितनित्यनैमित्तिकं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कालेषु पूर्वमेवादरेण मां सगुणमीश्वरमनुस्मर चिन्तय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kāleṣu",
       "lemma": "kāla",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "माम् अनुस्मर यथाशास्त्रम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आप्रयाणाद् अहरहः माम् अनुस्मर अहरहः अनुस्मृतिकरं युद्धादिकं वर्णाश्रमानुबन्धिश्रुतिस्मृतिचोदितनित्यनैमित्तिकं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पूर्वमेवादरेण मां सगुणमीश्वरमनुस्मर चिन्तय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +93,64 @@
       "surface_form": "anusmara",
       "lemma": "anusmṛ",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यथाशास्त्रम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अहरहः अनुस्मृतिकरं युद्धादिकं वर्णाश्रमानुबन्धिश्रुतिस्मृतिचोदितनित्यनैमित्तिकं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yudhya",
       "lemma": "yudh",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च युद्धं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च इति विहितस्य युद्धस्य अत्रफलवत्सन्निधावफलं तदङ्गम् इत्यादिन्यायादनुस्मृत्यङ्गत्वं सिद्धम् तच्च युद्धमत्र प्रस्तुतत्वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च युध्यस्व",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "च। अन्तःकरणशुद्ध्यर्थं युद्धादिकं स्वधर्मं कुरु। युध्येति युध्यस्वेत्यर्थः। एवंच नित्यनैमित्तिककर्मानुष्ठानेनाशुद्धिक्ष",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +213,24 @@
       "surface_form": "asaṃśayaḥ",
       "lemma": "asaṃśaya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न संशयः अत्र विद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "संशयोऽत्र नास्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

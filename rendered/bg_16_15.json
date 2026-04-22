@@ -26,7 +26,16 @@
       "surface_form": "asmi",
       "lemma": "as",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? अभिजनवान् अस्मि स्वत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,14 +77,82 @@
       "surface_form": "yakṣye",
       "lemma": "yaj",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यागेनापि अन्यान् अभिभविष्यामि? दास्यामि नटादिभ्यः? मोदिष्ये हर्षं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? दास्यामि? मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "यागाद्यनुष्ठानेनापि दीक्षितान्तरेभ्यः सकाशान्महतीं प्रतिष्ठां प्राप्स्यामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यागेनाप्यन्यानभिभविष्यामि? दास्यामि धनं स्तावकेभ्यो नटादिभ्यश्च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dāsyāmi",
       "lemma": "dā",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नटादिभ्यः? मोदिष्ये हर्षं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्तावकेभ्यश्च",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "धनं स्तावकेभ्यो नटादिभ्यश्च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +180,24 @@
       "surface_form": "vimohitāḥ",
       "lemma": "vimohay",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विविधम् अविवेकभावम् आपन्नाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मिथ्याभिनिवेशं प्रापिताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

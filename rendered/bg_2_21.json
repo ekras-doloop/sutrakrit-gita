@@ -54,7 +54,16 @@
       "surface_form": "avyayam",
       "lemma": "avyaya",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपक्षयरहितं कथं केन प्रकारेण सः विद्वान् पुरुषः अधिकृतः हन्ति हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +84,24 @@
       "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अधिकृतः हन्ति हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कं हन्ति कथं वा हन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +122,98 @@
       "surface_form": "ghātayati",
       "lemma": "ghātay",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कं वा कथं हन्ति कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "हन्ति वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। न कंचिदपि कथंचिदपीत्यर्थः। अनेन मय्यपि प्रयोजकत्वाद्दोषदृष्टिं मा कार्षीरित्युक्तं भवति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। कथं घातयति। कमपि न घातयति कथमपि न घातयतीत्यर्थः। नहि सर्वविकारशून्यस्याकर्तुर्हननक्रियायां कर्तृत्वं संभवति। तथाच श्रु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "hanti",
       "lemma": "han",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हननक्रिया करोति कथं वा घातयति हन्तारं प्रयोजयति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कथं नाशयति कथं वा तत्प्रयोजको भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वा अविनाशिनं नैमित्तिकविनाशरहितम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कथं वा हन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न हन्यते इति प्रतिज्ञाय न हन्यत इत्युपपादितं इदानीं न हन्तीत्युपपादयन्नुपसंहरति न विनष्टुं शीलं यस्य तमविनाशिनमन्त्यविक",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -61,14 +61,41 @@
       "surface_form": "ijyate",
       "lemma": "yaj",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निर्वर्त्यते? यष्टव्यमेवेति यज्ञस्वरूपनिर्वर्तनमेव कार्यम् इति मनः समाधाय? न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स सात्त्विकः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yaṣṭavyam",
       "lemma": "yaj",
       "grammar": "nominative neuter singular gdv noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव इति भगवदाराधनत्वेन स्वयंप्रयोजनतया यष्टव्यम् इति मनः समाधाय यो यज्ञ इज्यते स सात्त्विकः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +123,40 @@
       "surface_form": "samādhāya",
       "lemma": "samādhā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चित्य? सः सात्त्विकः यज्ञः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यो यज्ञ इज्यते स सात्त्विकः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। एकाग्रं कृत्वेत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निश्चित्याफलाकाङ्क्षिभिरन्तःकरणशुद्ध्यर्थितया काम्यप्रयोगविमुखैर्विधिदृष्टो यथाशास्त्रं निश्चितो यो यज्ञ इज्यतेऽनुष्ठीय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +170,16 @@
       "surface_form": "sāttvikaḥ",
       "lemma": "sāttvika",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यज्ञः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

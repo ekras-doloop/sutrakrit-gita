@@ -19,7 +19,48 @@
       "surface_form": "sarvasya",
       "lemma": "sarva",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जगतः प्रभवः उत्पत्तिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विचित्रचिदचित्प्रपञ्चस्य प्रभवः उत्पत्तिकारणम् सर्वं मत्त",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रभव इत्यादि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "जगतः प्रभवो भृग्वादिरूपविभूतिद्वारेणोत्पत्तिहेतुः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "जगतः प्रभव उत्पत्तिकारणमुपादानां निमित्तं च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +74,16 @@
       "surface_form": "mattaḥ",
       "lemma": "mad",
       "grammar": "ablative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव स्थितिनाशक्रियाफलोपभोगलक्षणं विक्रियारूपं सर्वं जगत् प्रवर्तते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +97,32 @@
       "surface_form": "pravartate",
       "lemma": "pravṛt",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। इति एवं मत्वा भजन्ते सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्वित",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति इदं मम स्वाभाविकं निरङ्कुशैश्वर्यं सौशील्यसौन्दर्यवात्सल्यादिकल्याणगुणगणयोगं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भवति। मयैवान्तर्यामिणा सर्वज्ञेन सर्वशक्तिना प्रेर्यमाणं स्वस्वमर्यादामनतिक्रम्य सर्वं जगत्प्रवर्तते चेष्टत इति वा। इत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,14 +136,67 @@
       "surface_form": "matvā",
       "lemma": "man",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भजन्ते सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्विताः संयुक्ताः इत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "बुधाः ज्ञानिनो भावसमन्विताः मां सर्वकल्याणगुणान्वितं भजन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "बुधा विवेकेनावगततत्त्वाभावेन परमार्थतत्त्वग्रहणरूपेण प्रेम्णा समन्विताः सन्तो मां भजन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhajante",
       "lemma": "bhaj",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सेवन्ते मां बुधाः अवगतपरमार्थतत्त्वाः? भावसमन्विताः भावः भावना परमार्थतत्त्वाभिनिवेशः तेन समन्विताः संयुक्ताः इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। भावो मनोवृत्तिविशेषः? मयि स्पृहयालवो मां भजन्त इत्यर्थः।कथम् --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सेवामार्गप्रकारेण सेवन्ते? न पूजाडम्बरेणेति? सेवायां स्थितिस्तेषामुक्तासेवायां वा कथायां वा इति भक्तिवर्द्धिन्यां कथाया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +224,24 @@
       "surface_form": "samanvitāḥ",
       "lemma": "samanvita",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संयुक्ताः इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सन्तो मां भजन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

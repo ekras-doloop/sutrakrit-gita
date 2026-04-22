@@ -89,21 +89,97 @@
       "surface_form": "paśyan",
       "lemma": "dṛś",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उपलभमानः स्वे",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अन्यनिरपेक्षम् आत्मनि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वेदान्तप्रमाणजया वृत्त्या साक्षात्कुर्वन्नात्मन्येव परमानन्दघने तुष्यति न देहेन्द्रियसंघाते न वा तद्भोग्येऽन्यत्र",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ātmani",
       "lemma": "ātman",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तुष्यति तुष्टिं भजते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव तुष्यति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "देहे आत्मानं भगवन्तं पश्यन्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tuṣyati",
       "lemma": "tuṣ",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तुष्टिं भजते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नतु विषयेषु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न देहेन्द्रियसंघाते न वा तद्भोग्येऽन्यत्र",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

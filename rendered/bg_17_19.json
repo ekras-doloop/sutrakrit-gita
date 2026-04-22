@@ -40,14 +40,80 @@
       "surface_form": "pīḍayā",
       "lemma": "pīḍā",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत् क्रियते तपः परस्य उत्सादनार्थं विनाशार्थं वा?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यत् तपः क्रियते परस्य उत्सादनार्थं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यत्तपः क्रियते परस्योत्सादनार्थं वाऽन्यस्य विनाशार्थमभिचाररूपं तत्तामसमुदाहृतं कथितम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यत्तपः क्रियते परस्योत्सादनार्थं वान्यस्य विनाशार्थमभिचाररूपं वा तत्तामसमुदाहृतं शिष्टैः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kriyate",
       "lemma": "kṛ",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तपः परस्य उत्सादनार्थं विनाशार्थं वा?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परस्य उत्सादनार्थं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परस्योत्सादनार्थं वाऽन्यस्य विनाशार्थमभिचाररूपं तत्तामसमुदाहृतं कथितम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परस्योत्सादनार्थं वान्यस्य विनाशार्थमभिचाररूपं वा तत्तामसमुदाहृतं शिष्टैः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +127,24 @@
       "surface_form": "parasya",
       "lemma": "para",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उत्सादनार्थं विनाशार्थं वा?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उत्सादनार्थं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +179,32 @@
       "surface_form": "tāmasam",
       "lemma": "tāmasa",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उदाहृतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "udāhṛtam",
       "lemma": "udāhṛ",
       "grammar": "nominative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।इदानीं दानत्रैविध्यम् उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

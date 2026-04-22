@@ -26,7 +26,33 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्विदुः कृत्स्नम् (गीता 7",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अध्यात्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तद्विदुः कृत्स्नमध्यात्मं कर्म चाखिलम् इत्यादिना सार्धश्लोकेन सप्त पदार्था ज्ञेयत्वेन भगवता सूत्रितास्तेषां वृत्तिस्थान",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +80,32 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च किम् इति वक्तव्यम् ऐश्वर्यार्थिनां ज्ञातव्यम् अधिभूतम् अधिदैवं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वा किमिति वक्तव्यम् अग्रिमाणां",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "चाखिलम् इत्यादिना सार्धश्लोकेन सप्त पदार्था ज्ञेयत्वेन भगवता सूत्रितास्तेषां वृत्तिस्थानीयोऽयमष्टमोऽध्याय आरभ्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +161,24 @@
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "[गी.सं.12] इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "।।1।। पूर्वाध्यायान्ते भगवतोपक्षिप्तानां ब्रह्माध्यात्मादिसप्तानां पदार्थानां तत्त्वं जिज्ञासुरर्जुन उवाच -- किं तद्ब्रह",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

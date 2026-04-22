@@ -19,28 +19,177 @@
       "surface_form": "jñātvā",
       "lemma": "jñā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कृतं कर्म पूर्वैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपि विमुक्तपापैः पूर्वैः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कर्मकरणे आचारोऽप्यस्तीत्याह एवमिति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "पूर्वैरपि मुमुक्षुभिः कक्षीवन्नारदादिभिर्मन्वादिभिर्वा जनकादिभिर्वा कर्म स्वधर्माख्यं वक्ष्यमाणप्रकारेण कृतम् तस्मात्त्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पूर्वैर्जनकादिभिरपि मुमुक्षुभिः सत्त्वशुद्ध्यर्थं पूर्वतरं युगान्तरेष्वपि कृतम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कृतं कर्म पूर्वैरतिक्रान्तैरपि अस्मिन् युगे ययातियदुप्रभृतिभिर्मुमुक्षुभिः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtam",
       "lemma": "kṛ",
       "grammar": "accusative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "(गीता 4.15) इत्युच्यते यस्मात् महत् वैषम्यं कर्मणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक्तं वक",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तस्मात्त्वमपि कर्मैव कुरु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तस्मात्त्वमपि प्रथमं कर्मैव कुरु।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। एतेनास्मिन्युगेऽन्ययुगे च पूर्वपूर्वतरैः कृतत्वादवश्यं त्वया कर्तव्यं कर्मेति दर्शयति।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूर्वैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कृतम्। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रपञ्चयितुमनुस्मारयति एवं ज्ञात्वेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pūrvaiḥ",
       "lemma": "pūrva",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि अतिक्रान्तैः मुमुक्षुभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपि मुमुक्षुभिः उक्तलक्षणं कर्म कृतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कृतमित्यनेनैव पूर्वतर त्वस्योक्तत्वात् पुनरुक्तिरित्यत आह पूर्वतर मिति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "जनकादिभिः पूर्वतरं अतिपूर्वं युगान्तरेऽपि कृतम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,21 +203,113 @@
       "surface_form": "mumukṣubhiḥ",
       "lemma": "mumukṣu",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कुरु तेन कर्मैव त्वम् न तूष्णीमासनं नापि संन्यासः कर्तव्यः तस्मात् त्वं पूर्वैरपि अनुष्ठितत्वात् यदि अनात्मज्ञः त्वं त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उक्तलक्षणं कर्म कृतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कक्षीवन्नारदादिभिर्मन्वादिभिर्वा जनकादिभिर्वा कर्म स्वधर्माख्यं वक्ष्यमाणप्रकारेण कृतम् तस्मात्त्वमपि कर्मैव कुरु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सत्त्वशुद्ध्यर्थं पूर्वतरं युगान्तरेष्वपि कृतम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kuru",
       "lemma": "kṛ",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तेन कर्मैव त्वम् न तूष्णीमासनं नापि संन्यासः कर्तव्यः तस्मात् त्वं पूर्वैरपि अनुष्ठितत्वात् यदि अनात्मज्ञः त्वं तदा आत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "।वक्ष्यमाणस्य कर्मणो दुर्ज्ञानताम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। न चेदमाधुनिकम् किन्तु पूर्वतरं पूर्वैश्च कृतम्। इति शिष्टाचारात्कर्त्तव्यता बोधिता।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "न तूष्णीमासनं नापि संन्यासम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूर्वैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कृतम्। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रपञ्चयितुमनुस्मारयति एवं ज्ञात्वेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +337,40 @@
       "surface_form": "pūrvaiḥ",
       "lemma": "pūrva",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि अतिक्रान्तैः मुमुक्षुभिः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपि मुमुक्षुभिः उक्तलक्षणं कर्म कृतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कृतमित्यनेनैव पूर्वतर त्वस्योक्तत्वात् पुनरुक्तिरित्यत आह पूर्वतर मिति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "जनकादिभिः पूर्वतरं अतिपूर्वं युगान्तरेऽपि कृतम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +384,48 @@
       "surface_form": "kṛtam",
       "lemma": "kṛ",
       "grammar": "accusative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "(गीता 4.15) इत्युच्यते यस्मात् महत् वैषम्यं कर्मणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक्तं वक",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तस्मात्त्वमपि कर्मैव कुरु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तस्मात्त्वमपि प्रथमं कर्मैव कुरु।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। एतेनास्मिन्युगेऽन्ययुगे च पूर्वपूर्वतरैः कृतत्वादवश्यं त्वया कर्तव्यं कर्मेति दर्शयति।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

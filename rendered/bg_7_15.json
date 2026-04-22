@@ -33,14 +33,89 @@
       "surface_form": "mūḍhāḥ",
       "lemma": "muh",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रपद्यन्ते नराधमाः नराणां मध्ये अधमाः निकृष्टाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विपरीतज्ञाना पूर्वोक्तप्रकारेण मत्स्वरूपापरिज्ञानात् प्राकृतेषु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मिथ्याज्ञानिनः विपर्ययस्याधर्मकार्यत्वप्रसिद्धेः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prapadyante",
       "lemma": "prapad",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नराधमाः नराणां मध्ये अधमाः निकृष्टाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मूढा नराधमाः मायया अपहृतज्ञाना आसुरं भावम् आश्रिताः इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तत्कथमस्य",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मायातारकत्वादित्याह न मां दुष्कृतिन इति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "न भजन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न भजन्ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +136,32 @@
       "surface_form": "māyayā",
       "lemma": "māyā",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपहृतज्ञानाः संमुषितज्ञानाः आसुरं भावं हिंसानृतादिलक्षणम् आश्रिताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपहृतज्ञाना आसुरं भावम् आश्रिताः इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ह्यधिभूयते इति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +189,40 @@
       "surface_form": "bhāvam",
       "lemma": "bhāva",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आश्रिताः इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "āśritāḥ",
       "lemma": "āśri",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।ये पुनर्नरोत्तमाः पुण्यकर्माणः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति। मूढाः विपरीतज्ञाना पूर्वोक्तप्रकारेण मत्स्वरूपापरिज्ञानात् प्राकृतेषु एव विषयेषु सक्ताः पूर्वोक्तप्रकारेण भगवच्छेष",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

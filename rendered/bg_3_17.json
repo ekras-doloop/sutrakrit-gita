@@ -75,7 +75,24 @@
       "surface_form": "mānavaḥ",
       "lemma": "mānava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनुष्यः संन्यासी आत्मन्येव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति कथं ज्ञानिनो वाचकं इत्यत आह मन्वि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +127,33 @@
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कार्यं करणीयं न विद्यते नास्ति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मदर्शनाय कर्तव्यं न विद्यते स्वत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च महत्त्वं संशब्देनोक्तमतस्तत्कारणत्वं चोपपन्नमित्यर्थः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +174,34 @@
       "surface_form": "vidyate",
       "lemma": "vid",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नास्ति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वत एव सर्वदा दृष्टात्मस्वरूपत्वात्।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "।स्थितप्रज्ञस्यापि कार्यो देहादिर्दृश्यते। यद्वास्वधर्मो मम तुष्ट्यर्थः सा हि सर्वैरपेक्षिता इति वचनाच्च पञ्चरात्रे। अन्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

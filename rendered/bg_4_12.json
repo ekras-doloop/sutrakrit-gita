@@ -12,7 +12,32 @@
       "surface_form": "kāṅkṣantaḥ",
       "lemma": "kāṅkṣ",
       "grammar": "nominative masculine plural present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अभीप्सन्तः कर्मणां सिद्धिं फलनिष्पत्तिं प्रार्थयन्तः यजन्ते इह अस्मिन् लोके देवताः इन्द्राग्न्याद्याः अथ योऽन्यां देवता",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यत्र विशेषनिर्देशाभावात्सर्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रायशः इह मनुष्यलोके इन्द्रादिदेवता",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +72,24 @@
       "surface_form": "devatāḥ",
       "lemma": "devatā",
       "grammar": "accusative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इन्द्राग्न्याद्याः अथ योऽन्यां देवतामुपास्ते अन्योऽसावन्योऽहमस्मीति न स वेद यथा पशुरेवं स देवानाम् (बृ0 उ 0 1.4.10) इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देवानिन्द्राग्न्याद्यान्यजन्ते पूजयन्ति अज्ञानप्रतिहतत्वान्नतु निष्कामाः सन्तो मां भगवन्तं वासुदेवमिति शेषः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,14 +110,83 @@
       "surface_form": "mānuṣe",
       "lemma": "mānuṣa",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लोके मनुष्यलोके हि शास्त्राधिकारः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "लोके कर्मजा पुत्रपश्वन्नाद्या सिद्धिः भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "लोके सिद्धिः फलं प्राकृतं कर्मजं भवति अतो देवता इन्द्रादीन् यजन्ते भगवन्तं न मां क्षिप्रं फलदातृत्वाभावनिश्चयात् निरुपा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "लोके। ज्ञानफलं त्वन्तःकरणशुद्धिसापेक्षत्वान्न क्षिप्रं प्रभवति। मानुषे लोके कर्मफलं शीघ्रं भवतीति विशेषणादन्यलोकेऽपि वर",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "loke",
       "lemma": "loka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवताः इन्द्राग्न्याद्याः अथ योऽन्यां देवतामुपास्ते अन्योऽसावन्योऽहमस्मीति न स वेद यथा पशुरेवं स देवानाम् (बृ0 उ 0 1.4.",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "कर्मजा पुत्रपश्वन्नाद्या सिद्धिः भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सिद्धिः फलं प्राकृतं कर्मजं भवति अतो देवता इन्द्रादीन् यजन्ते भगवन्तं न मां क्षिप्रं फलदातृत्वाभावनिश्चयात् निरुपाधिकस्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "देवताः देवानिन्द्राग्न्याद्यान्यजन्ते पूजयन्ति अज्ञानप्रतिहतत्वान्नतु निष्कामाः सन्तो मां भगवन्तं वासुदेवमिति शेषः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +200,48 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कर्मजा कर्मणो जाता।।मानुषे एव लोके वर्णाश्रमादिकर्माधिकारः न अन्येषु लोकेषु इति नियमः किंनिमित्त इति अथवा वर्णाश्रमादि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। मनुष्यलोकशब्दः स्वर्गादिलोकप्रदर्शनार्थः।सर्व एव हि लौकिकाः पुरुषा अक्षीणानादिकालप्रवृत्तानन्तपापसंचयतया अविवेकिनः क्ष",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "अतो देवता इन्द्रादीन् यजन्ते भगवन्तं न मां क्षिप्रं फलदातृत्वाभावनिश्चयात् निरुपाधिकस्यौपाधिककामितदाने विचारस्तत्पूर्वक",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नतु ज्ञानफलं कैवल्यम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मानुषे लोके",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

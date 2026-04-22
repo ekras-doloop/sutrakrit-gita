@@ -33,7 +33,16 @@
       "surface_form": "kṛṣṇaḥ",
       "lemma": "kṛṣṇa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कृष्णपक्षदेवता",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +63,16 @@
       "surface_form": "dakṣiṇāyanam",
       "lemma": "dakṣiṇāyana",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति च पूर्ववत् देवतैव। तत्र चन्द्रमसि भवं चान्द्रमसं ज्योतिः फलम् इष्टादिकारी योगी कर्मी प्राप्य भुक्त्वा तत्क्षयात् इह",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,21 +100,80 @@
       "surface_form": "yogī",
       "lemma": "yogin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कर्मी प्राप्य भुक्त्वा तत्क्षयात् इह पुनः निवर्तते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्मयोगीष्टापूर्तदत्तकारी प्राप्य यावत्संपातमुषित्वा निवर्तते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भुक्त्वा तत्क्षयात् इह पुनः निवर्तते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सुखभोगानन्तरमावृत्ती राजसी",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तत्रेष्टापूर्तकर्मफलं भुक्त्धा पुनरावर्तते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यावत्संपातमुषित्वा निवर्तते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "nivartate",
       "lemma": "nivṛt",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। संपतत्यनेनेति संपातः कर्म। तस्मादेतस्मादावृत्तिमार्गादनावृत्तिमार्गः श्रेयानित्यर्थः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

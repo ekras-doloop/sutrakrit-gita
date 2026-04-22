@@ -40,7 +40,24 @@
       "surface_form": "smaran",
       "lemma": "smṛ",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चिन्तयन् त्यजति परित्यजति अन्ते अन्तकाले प्राणवियोगकाले कलेवरं शरीरं तं तमेव स्मृतं भावमेव एति नान्यं कौन्तेय सदा सर्वद",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कलेवरं त्यजति तं तं भावम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +78,33 @@
       "surface_form": "ante",
       "lemma": "anta",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्तकाले प्राणवियोगकाले कलेवरं शरीरं तं तमेव स्मृतं भावमेव एति नान्यं कौन्तेय सदा सर्वदा तद्भावभावितः तस्मिन् भावः तद्भ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अन्तकाले यं यं वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्मरन्निति स्मरणस्यैव तत्रापि किं प्रयोजनं इति चेत् उच्यतेलक्षणहेत्वोः क्रियायाः [अष्टा.3",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +146,16 @@
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सदा सर्वदा तद्भावभावितः तस्मिन् भावः तद्भावः स भावितः स्मर्यमाणतया अभ्यस्तः येन सः तद्भावभावितः सन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +183,25 @@
       "surface_form": "bhāvitaḥ",
       "lemma": "bhāvay",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्मर्यमाणतया अभ्यस्तः येन सः तद्भावभावितः सन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "संपादितो येन स तथा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

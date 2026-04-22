@@ -19,7 +19,24 @@
       "surface_form": "yasya",
       "lemma": "yad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यतेः हे महाबाहो निगृहीतानि सर्वशः सर्वप्रकारैः मानसादिभेदैः इन्द्रियाणि इन्द्रियार्थेभ्यः शब्दादिभ्यः तस्य प्रज्ञा प्रत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इन्द्रियाणि इन्द्रियार्थेभ्यः सर्वशो निगृहीतानि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +57,32 @@
       "surface_form": "nigṛhītāni",
       "lemma": "nigrah",
       "grammar": "nominative neuter plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वशः सर्वप्रकारैः मानसादिभेदैः इन्द्रियाणि इन्द्रियार्थेभ्यः शब्दादिभ्यः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तस्य एव आत्मनि प्रज्ञा प्रतिष्ठिता भवति। एवं नियतेन्द्रियस्य प्रसन्नमनसः सिद्धिम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तस्य प्रज्ञा प्रतिष्ठिताऽवसेया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,21 +117,112 @@
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रज्ञा प्रतिष्ठिता",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव आत्मनि प्रज्ञा प्रतिष्ठिता भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रज्ञा प्रतिष्ठिताऽवसेया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रज्ञा प्रतिष्ठिता ज्ञातव्येत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prajñā",
       "lemma": "prajñā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतिष्ठिता",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठिता भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठिताऽवसेया",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रतिष्ठिता ज्ञातव्येत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pratiṣṭhitā",
       "lemma": "pratiṣṭhā",
       "grammar": "nominative feminine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।। योऽयं लौकिको वैदिकश्च व्यवहारः स उत्पन्नविवेकज्ञानस्य स्थितप्रज्ञस्य अविद्याकार्यत्वात् अविद्यानिवृत्तौ निवर्तते अविद",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भवति। एवं नियतेन्द्रियस्य प्रसन्नमनसः सिद्धिम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भवतीत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

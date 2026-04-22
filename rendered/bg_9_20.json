@@ -26,7 +26,24 @@
       "surface_form": "somapāḥ",
       "lemma": "somapa",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सोमं पिबन्तीति सोमपाः? तेनैव सोमपानेन पूतपापाः शुद्धकिल्बिषाः? यज्ञैः अग्निष्टोमादिभिः इष्ट्वा पूजयित्वा स्वर्गतिं स्वर",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तेनैव पूतपापाः शोधितकल्मषाः सन्तः स्वर्गतिं स्वर्गं प्रति गतिं ये प्रार्थयन्ते ते पुण्यफलरूपं सुरेन्द्रस्य लोकं स्वर्गम",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +71,24 @@
       "surface_form": "iṣṭvā",
       "lemma": "yaj",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूजयित्वा स्वर्गतिं स्वर्गगमनं स्वरेव गतिः स्वर्गतिः ताम्? प्रार्थयन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथा अवस्थितं माम् अजानन्तः स्वर्गतिं प्रार्थयन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +109,49 @@
       "surface_form": "prārthayante",
       "lemma": "prārthay",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। ते च पुण्यं पुण्यफलम् आसाद्य संप्राप्य सुरेन्द्रलोकं शतक्रतोः स्थानम् अश्नन्ति भुञ्जते दिव्यान् दिवि भवान् अप्राकृतान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। ते पुण्यं दुःखासंभिन्नं सुरेन्द्रलोकं प्राप्य तत्र दिव्यान् देवभोगान् अश्नन्ति।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "।।स्वर्गतिमित्युपलक्षणं कर्मानुगुणलोकानाम्। तथाहि निबन्धे -- सात्त्विकः सात्त्विकं कर्म यथा श्रुतिपरः कृती। स्वर्गलोकस्त",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ते पुण्यफलरूपं सुरेन्द्रस्य लोकं स्वर्गमासाद्य प्राप्य दिवि स्वर्गे दिव्यानुत्तमान्देवानां भोगानश्नन्ति भुञ्जते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नतु सत्त्वशुद्धिज्ञानोत्पत्त्यादि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +172,16 @@
       "surface_form": "āsādya",
       "lemma": "āsāday",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संप्राप्य सुरेन्द्रलोकं शतक्रतोः स्थानम् अश्नन्ति भुञ्जते दिव्यान् दिवि भवान् अप्राकृतान् देवभोगान् देवानां भोगान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,21 +209,89 @@
       "surface_form": "aśnanti",
       "lemma": "aś",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भुञ्जते दिव्यान् दिवि भवान् अप्राकृतान् देवभोगान् देवानां भोगान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भुञ्जते? अनुभवन्तीत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "divyān",
       "lemma": "divya",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दिवि भवान् अप्राकृतान् देवभोगान् देवानां भोगान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देवभोगान् अश्नन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "divi",
       "lemma": "div",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भवान् अप्राकृतान् देवभोगान् देवानां भोगान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भवान् देवभोगान् देवानां भोग्यानित्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्वर्गे दिव्यानुत्तमान्देवानां भोगानश्नन्ति भुञ्जते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्वर्गे लोके पुण्यं पुण्यफलं सर्वोत्कृष्टं सुरेन्द्रलोकं शतक्रतोः स्थानमासाद्य दिव्यान्मनुष्यैरलभ्यान् देवभोगान्देवदेहो",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -40,14 +40,65 @@
       "surface_form": "vadanti",
       "lemma": "vad",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्वा एतदक्षरं गार्गि ब्राह्मणा अभिवदन्ति (बृ0 उ 0 3",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वीतरागाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "viśanti",
       "lemma": "viś",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रविशन्ति सम्यग्दर्शनप्राप्तौ सत्यां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यद् अक्षरं प्राप्तुम् इच्छन्तो ब्रह्मचर्यं चरन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "एकत्वमाप्नुवन्तीति सन्न्यासिनां प्राप्यतयोक्तम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स्वरूपतया सम्यग्दर्शनेन यदक्षरं यतयो",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +154,49 @@
       "surface_form": "caranti",
       "lemma": "car",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आचरन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तत् ते पदं संग्रहेण प्रवक्ष्ये",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति ब्रह्मचारिणां तदक्षरस्वरूपं मत्पदस्वरूपत्वात्पदम्चैद्ये",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तत्ते तुभ्यं पदं पद्यते गम्यत इति पदं प्राप्यं संग्रहरेण संक्षेपेण प्रवक्ष्ये। तत्प्राप्त्युपायं कथयिष्यामीत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तत्ते पदं सग्रहेण ब्रवीम्योमित्येतत् इत्यादिश्रुतिप्रतिपादितत्वेन प्रणवेनैवाभिधानेन तदनुस्मरणं कर्तव्यं नान्येन मन्त्रा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,14 +224,80 @@
       "surface_form": "saṃgraheṇa",
       "lemma": "saṃgraha",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संग्रहः संक्षेपः तेन संक्षेपेण प्रवक्ष्ये कथयिष्यामि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रवक्ष्ये",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "संक्षेपेणाहं प्रवक्ष्ये प्रकर्षेण कथयिष्यामि यथा तव बोधो भवति तथा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pravakṣye",
       "lemma": "pravac",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कथयिष्यामि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।पद्यते गम्यते अनेन इति पदं तद् निखिलवेदान्तवेद्यं मत्स्वरूपम् अक्षरं यथा उपास्यं तथा संक्षेपेण प्रवक्ष्यामि इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तेषां गम्यमिति वक्ष्यामीत्यर्थः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तत्प्राप्त्युपायं कथयिष्यामीत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रकर्षेण कथयिष्यामि यथा तव बोधो भवति तथा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -19,7 +19,16 @@
       "surface_form": "duḥkhe",
       "lemma": "duḥkha",
       "grammar": "accusative neuter dual noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्धेतावलाभे तद्धेतावपजये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +42,33 @@
       "surface_form": "kṛtvā",
       "lemma": "kṛ",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रागद्वेषावप्यकृत्वेत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तत्साधनक्रियाभूतौ लाभालाभौ जयाजयौ",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तथा तयोः कारणभूतौ यौ लाभालाभावपि तयोरपि कारणभूतौ जयाजयावपि समौ कृत्वा एतेषां समत्वे कारणं हर्षविषादराहित्यम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +110,73 @@
       "surface_form": "yuddhāya",
       "lemma": "yuddha",
       "grammar": "dative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "युज्यस्व घटस्व",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "युज्यस्व",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "युज्यस्व संनद्धो भव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yujyasva",
       "lemma": "yuj",
       "grammar": "present imperative pass 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "घटस्व। न एवं युद्धं कुर्वन् पापम् अवाप्स्यसि । इत्येष उपदेशः प्रासङ्गिकः।। शोकमोहापनयनाय लौकिको न्यायः स्वधर्ममपि चावेक",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। एवं कृतेऽनुद्देशतस्त्वं पापं न प्राप्स्यसि।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सन्नद्धो भव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "संनद्धो भव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +197,48 @@
       "surface_form": "pāpam",
       "lemma": "pāpa",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अवाप्स्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अवाप्स्यसि पापं दुःखरूपं संसारं न अवाप्स्यसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "avāpsyasi",
       "lemma": "avāp",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। इत्येष उपदेशः प्रासङ्गिकः।। शोकमोहापनयनाय लौकिको न्यायः स्वधर्ममपि चावेक्ष्य इत्याद्यैः श्लोकैरुक्तः न तु तात्पर्येण।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पापं दुःखरूपं संसारं न अवाप्स्यसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

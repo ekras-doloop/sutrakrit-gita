@@ -12,7 +12,41 @@
       "surface_form": "jñānena",
       "lemma": "jñāna",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु येन अज्ञानेन आवृताः मुह्यन्ति जन्तवः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद ज्ञानावरणम् अनादिकालप्रवृत्तानन्तकर्मसंशयरूपाज्ञानं नाशितं तेषां",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "येषां तद्वैषम्योपलम्भकज्ञानं नाशितं तज्ज्ञानं तेषामज्ञानं नाशयित्वा तत्परं परिपूर्णमीश्वरस्वरूपं प्रकाशयति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "गुरूपदिष्टवेदान्तमहावाक्यजन्येन श्रवणमनननिदिध्यासनपरिपाकनिर्मलान्तःकरणवृत्तिरूपेण निर्विकल्पकसाक्षात्कारेण शोधिततत्त्वं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,21 +81,56 @@
       "surface_form": "nāśitam",
       "lemma": "nāśay",
       "grammar": "nominative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मनः भवति तेषां जन्तूनाम् आदित्यवत् यथा आदित्यः समस्तं रूपजातम् अवभासयति तद्वत् ज्ञानं ज्ञेयं वस्तु सर्वं प्रकाशयति त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ātmanaḥ",
       "lemma": "ātman",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भवति तेषां जन्तूनाम् आदित्यवत् यथा आदित्यः समस्तं रूपजातम् अवभासयति तद्वत् ज्ञानं ज्ञेयं वस्तु सर्वं प्रकाशयति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति षष्ठ्या सम्बन्धसामान्यमात्रपरत्वं कर्तृविषयत्वं चात्रानुपयुक्तमिति भावः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "teṣām",
       "lemma": "tad",
       "grammar": "genitive masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति विनष्टाज्ञानानां बहुत्वाभिधानाद् आत्मस्वरूपबहुत्वम् न त्वेवाहं जातु नासं न त्वं नेमे (गीता 2",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +158,56 @@
       "surface_form": "prakāśayati",
       "lemma": "prakāśay",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत् परं परमार्थतत्त्वम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तेषाम् इति विनष्टाज्ञानानां बहुत्वाभिधानाद् आत्मस्वरूपबहुत्वम् न त्वेवाहं जातु नासं न त्वं नेमे (गीता 2।12) इति उपक्रम",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तथैकमेव ज्ञानमज्ञानं निवर्तयति परं",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "स्वयमेवेति भगवत्प्रदत्तत्वाद्भगवद्रूपं तदिति स्वतन्त्रकर्तृत्वं तस्योक्तम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। यथा आदित्यस्तमो निरस्य समस्तं वस्तुजातं प्रकाशयति तद्वत्।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रतिच्छायाग्रहणमात्रेणैव कर्मतान्तरेणाभिव्यनक्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -40,7 +40,32 @@
       "surface_form": "dhārayan",
       "lemma": "dhāray",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अचलं च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "दिशश्च अनवलोकयन् स्वं नासिकाग्रं संप्रेक्ष्य प्रशान्तात्मा अत्यन्तनिर्वृतमनाः विगतभीः ब्रह्मचर्ययुक्तो मनः संयम्य मच्चि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "स्थिरः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +79,56 @@
       "surface_form": "sthiraḥ",
       "lemma": "sthira",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थिरो भूत्वा इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। दृढप्रयत्नो भूत्वेत्यर्थः। स्वकीयं नासिकाग्रं संप्रेक्ष्य च। अर्धनिमीलितनेत्र इत्यर्थः। इतस्ततो दिशश्चानवलोकयन्नासीतेत",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃprekṣya",
       "lemma": "saṃprekṣ",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सम्यक् प्रेक्षणं दर्शनं कृत्वेव इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रशान्तात्मा अत्यन्तनिर्वृतमनाः विगतभीः ब्रह्मचर्ययुक्तो मनः संयम्य मच्चित्तो युक्तः अवहितो मत्पर आसीत माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च। अर्धनिमीलितनेत्र इत्यर्थः। इतस्ततो दिशश्चानवलोकयन्नासीतेत्युत्तरेणान्वयः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

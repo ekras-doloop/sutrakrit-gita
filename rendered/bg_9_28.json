@@ -40,21 +40,57 @@
       "surface_form": "mokṣyase",
       "lemma": "muc",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। सोऽयं संन्यासयोगो नाम? संन्यासश्च असौ मत्समर्पणतया कर्मत्वात् योगश्च असौ इति? तेन संन्यासयोगेन युक्तः आत्मा अन्तःकरणं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? तैः विमुक्तो माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च सर्वं मदाराधनम् अनुसंदधानो लौकिकं वैदिकं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bandhanaiḥ",
       "lemma": "bandhana",
       "grammar": "instrumental neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मत्प्राप्तिविरोधिभिः सर्वैः मोक्ष्यसे? तैः विमुक्तो माम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +111,24 @@
       "surface_form": "yukta",
       "lemma": "yuj",
       "grammar": "compound participle (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मा यस्य तथाविधस्त्वं कर्मबन्धनैरिष्टानिष्टफलैः मुक्तो भविष्यसि मुक्तिसिद्धर्भविता",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "आत्मा चित्तं यस्य तथाभूतस्त्वं मां प्राप्स्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +156,24 @@
       "surface_form": "upaiṣyasi",
       "lemma": "upe",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आगमिष्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।मम इमं परमम् अतिलोकं स्वभावं श्रृणु --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

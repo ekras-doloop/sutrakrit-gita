@@ -19,7 +19,40 @@
       "surface_form": "jñātvā",
       "lemma": "jñā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत् ज्ञानं तैः उपदिष्टं अधिगम्य प्राप्य पुनः भूयः मोहम् एवं यथा इदानीं मोहं गतोऽसि पुनः एवं न यास्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुनः एवं देहाद्यात्माभिमानरूपं तत्कृतं ममताद्यास्पदं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्राप्य पुनर्बन्धुवधादिनिमित्तं मोहं न प्राप्स्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्राप्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +73,16 @@
       "surface_form": "moham",
       "lemma": "moha",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एवं यथा इदानीं मोहं गतोऽसि पुनः एवं न यास्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +96,56 @@
       "surface_form": "yāsyasi",
       "lemma": "yā",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हे पाण्डव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "येन देवमनुष्याद्याकेरण अननुसंहितानि सर्वाणि भूतानि स्वात्मनि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। हे पाण्डव कस्मादेवं यस्मादेव ज्ञानेन भूतानि पितृपुत्रादीनि अशेषेण ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇḍava",
       "lemma": "pāṇḍava",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। किञ्च येन ज्ञानेन भूतानि अशेषेण ब्रह्मादीनि स्तम्बपर्यन्तानि द्रक्ष्यसि साक्षात् आत्मनि प्रत्यगात्मनिमत्संस्थानि इमानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कस्मादेवं यस्मादेव ज्ञानेन भूतानि पितृपुत्रादीनि अशेषेण ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्मनि त्वयि त",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +166,33 @@
       "surface_form": "aśeṣeṇa",
       "lemma": "aśeṣa",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मादीनि स्तम्बपर्यन्तानि द्रक्ष्यसि साक्षात् आत्मनि प्रत्यगात्मनिमत्संस्थानि इमानि भूतानि इति अथो",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "द्रक्ष्यसि मत्स्वरूपसाम्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ब्रह्मादिस्तम्बपर्यन्तानि स्वाविद्याविजृम्भितानि आत्मनि त्वयि त्वंपदार्थे अथो",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

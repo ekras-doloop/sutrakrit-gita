@@ -61,14 +61,65 @@
       "surface_form": "sarvasya",
       "lemma": "sarva",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जगतः प्रशासितारम् अणोः सूक्ष्मादपि अणीयांसं सूक्ष्मतरम् अनुस्मरेत् अनुचिन्तयेत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "धातारं सर्वस्य स्रष्टारम् अचिन्त्यरूपं सकलेतरविसजातीयस्वरूपम् आदित्यवर्णं तमसः परस्तात् अप्राकृतस्वासाधारणदिव्यरूपम् तम",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "धातारं इत्येतत् भगवत",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "धातारं पोषकं अपरिमितमहित्वादचिन्त्यरूपम् मलीमसयोर्मनोबुद्ध्योरगोचरं आदित्यवत्स्वपरप्रकाशात्मको वर्णः स्वरूपं यस्य तं तम",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "जगतो नियन्तारं अणोरणीयांसं सूक्ष्मादप्याकाशादेः सूक्ष्मतरं तदुपादानत्वात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dhātāram",
       "lemma": "dhātṛ",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्यत्र सर्वस्येति पदमाकर्षणीयम् विशेषनिर्देशाभावाद्वा सर्वविषयत्वमित्यभिप्रायेण -- विश्वस्येत्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +154,90 @@
       "surface_form": "tamasaḥ",
       "lemma": "tamas",
       "grammar": "ablative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परस्तात् अज्ञानलक्षणात् मोहान्धकारात् परं तम् अनुचिन्तयत् याति इति पूर्वेण संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परस्तात् अप्राकृतस्वासाधारणदिव्यरूपम् तम् एवंभूतम् अहरहः अभ्यस्यमानभक्तियुक्त योगबलेन आरूढसंस्कारतया अचलेन मनसा प्रयाणक",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परस्तादित्येतत् आदित्यादिसाधारणं इत्यतो द्वेधा सप्रमाणकं व्याचष्टे -- तमस इति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "प्रकृतेः परस्तात्परतरम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रकृतेः परस्ताद्वर्तमानंवेदाहमेतं पुरुषं महान्तम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परस्तात्तमसो मोहान्धकारादज्ञानलक्षणात्परस्तात् प्रकाशरूपत्वेन तमोविरोधिनमिति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "parastāt",
       "lemma": "parastāt",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अज्ञानलक्षणात् मोहान्धकारात् परं तम् अनुचिन्तयत् याति इति पूर्वेण संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अप्राकृतस्वासाधारणदिव्यरूपम् तम् एवंभूतम् अहरहः अभ्यस्यमानभक्तियुक्त योगबलेन आरूढसंस्कारतया अचलेन मनसा प्रयाणकाले भ्रुव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति श्रुतिः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

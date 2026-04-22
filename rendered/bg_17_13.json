@@ -61,7 +61,16 @@
       "surface_form": "adakṣiṇam",
       "lemma": "adakṣiṇa",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उक्तदक्षिणारहितम्? श्रद्धाविरहितं यज्ञं तामसं परिचक्षते तमोनिर्वृत्तं कथयन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +105,40 @@
       "surface_form": "paricakṣate",
       "lemma": "paricakṣ",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तमोनिर्वृत्तं कथयन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।अथ तपसो गुणतः त्रैविध्यं वक्तुं तस्य शरीरवाङ्मनोभिः निष्पाद्यतया तत्स्वरूपभेदं तावद् आह --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कथयन्ति शिष्टाः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शिष्टाः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -40,7 +40,16 @@
       "surface_form": "dānam",
       "lemma": "dāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? तत् तामसम् उदाहृतम् ।।यज्ञदानतपःप्रभृतीनां साद्गुण्यकरणाय अयम् उपदेशः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +70,32 @@
       "surface_form": "dīyate",
       "lemma": "dā",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? असत्कृतं पादप्रक्षालनादिगौरवरहितम्? अवज्ञातं सावज्ञम्? अनुपचारयुक्तं यद् दीयते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। देशकालपात्रसंपत्तावपि असत्कृतं पादप्रक्षालनादिसत्कारशून्यम्? अवज्ञातं तिरस्कारयुक्तं। एंवभूतं दानं तामसमुदाहृतम्।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "? देशकालपात्रसंपत्तावप्यसत्कृतं प्रियभाषणपादप्रक्षालनपूजादिसत्कारशून्यं अवज्ञातं पात्रपरिभवयुक्तं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +123,40 @@
       "surface_form": "tāmasam",
       "lemma": "tāmasa",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उदाहृतम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "udāhṛtam",
       "lemma": "udāhṛ",
       "grammar": "nominative neuter singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।यज्ञदानतपःप्रभृतीनां साद्गुण्यकरणाय अयम् उपदेशः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।एवं वैदिकानां यज्ञतपोदानानां सत्त्वादिगुणभेदेन भेद उक्तः। इदानीं तस्य एव वैदिकस्य यज्ञादेः प्रणवसंयोगेन तत्सच्छब्दव्यपद",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -68,7 +68,24 @@
       "surface_form": "arjuna",
       "lemma": "arjuna",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। प्रकरणोपसंहारार्थं विभूतिसंक्षेपमाह -- न तत् अस्ति भूतं चराचरं चरम् अचरं वा? मया विना यत् स्यात् भवेत्। मया अपकृष्टं प",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? मया विना",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +106,81 @@
       "surface_form": "asti",
       "lemma": "as",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतं चराचरं चरम् अचरं वा? मया विना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अहमात्मा गुडाकेश सर्वभूताशायस्थितः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vinā",
       "lemma": "vinā",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत् स्यात् भवेत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यत् स्यात् न तद् अस्ति अहमात्मा गुडाकेश सर्वभूताशायस्थितः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यद्भूतं स्यात् तन्नास्ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "किमपि नास्तीत्याह -- न तदस्ति विना मयेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यत्स्याद्भवेत् तच्चराचरं भूतं नास्त्येवेति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यत्स्याद्भवेच्चरमचरं वा भूतं वस्तु तन्नास्त्येव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +215,16 @@
       "surface_form": "carācaram",
       "lemma": "carācara",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। इति अत्र अपि आत्मतया अवस्थानम् एव विवक्षितम्।सर्ववस्तुजातं सर्वावस्थं मया आत्मभूतेन युक्तं स्याद् इत्यर्थः। अनेन सर्वस",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

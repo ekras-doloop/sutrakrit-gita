@@ -33,7 +33,32 @@
       "surface_form": "sarvasya",
       "lemma": "sarva",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भोक्तुः प्राणिनः त्रिविधो भवति प्रियः इष्टः? तथा यज्ञः तथा तपः? तथा दानम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राणिजातस्य सत्त्वादिगुणत्रयान्वयेन त्रिविधः प्रियो भवति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रियस्त्रिविध",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +72,64 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रियः इष्टः? तथा यज्ञः तथा तपः? तथा दानम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तथा एव यज्ञः अपि त्रिविधः? तथा तपो दानं च। तेषां भेदम् इमं श्रृणु -- तेषाम् आहारयज्ञतपोदानानां सत्त्वादिगुणभेदेन इमम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तथा यज्ञतपोदानानि च त्रिविधानि भवन्ति। तेषां च वक्ष्यमाणमिमं भेदं श्रृणु। एतच्च राजसतामसाहारयज्ञादिपरित्यागेन सात्त्वि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। सर्वस्य त्रिगुणात्मकत्वेन चतुर्थ्या विधाया असंभवात्। यथा दृष्टार्थ आहारस्त्रिविधस्तथा यज्ञतपोदानान्यदृष्टार्थान्यपि त्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "priyaḥ",
       "lemma": "priya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इष्टः? तथा यज्ञः तथा तपः? तथा दानम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तथा यज्ञस्तपो दानं चेति त्रितयं श्रौतशास्त्रीयं तेषां भेदमिमं वक्ष्यमाणं शृणु।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +171,24 @@
       "surface_form": "bhedam",
       "lemma": "bheda",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इमं वक्ष्यमाणं श्रृणु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इमं श्रृणु -- तेषाम् आहारयज्ञतपोदानानां सत्त्वादिगुणभेदेन इमम् उच्यमानं भेदं श्रृणु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

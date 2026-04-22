@@ -12,7 +12,25 @@
       "surface_form": "adhyeṣyate",
       "lemma": "adhī",
       "grammar": "future indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च पठिष्यति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? तेन ज्ञानयज्ञेन अहम् इष्टः स्याम् इति मे मतिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +65,16 @@
       "surface_form": "saṃvādam",
       "lemma": "saṃvāda",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अध्येष्यते? तेन ज्ञानयज्ञेन अहम् इष्टः स्याम् इति मे मतिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +95,16 @@
       "surface_form": "yajñena",
       "lemma": "yajña",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चतुर्थाध्यायोक्तेन द्रव्ययज्ञादिश्रेष्ठेनाहं सर्वेश्वरस्तेनाध्येत्रा इष्टः पूजितः स्यामिति मे मतिर्मम निश्चयः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +132,16 @@
       "surface_form": "syām",
       "lemma": "as",
       "grammar": "present optative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति मे मतिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +162,32 @@
       "surface_form": "matiḥ",
       "lemma": "mati",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निश्चयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अस्मिन् यो ज्ञानयज्ञः अभिधीयते? तेन अहम् एतद् अध्ययनमात्रेण इष्टः स्याम् इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। यद्यप्यसौ गीतार्थमबुध्यमान एव केवलं,जपति तथापि मम तच्छ्रण्वतो मामेवासौ प्रकाशयतीति बुद्धिर्भवति। यथा लोके यदृच्छयापि क",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

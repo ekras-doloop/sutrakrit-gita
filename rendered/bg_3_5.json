@@ -47,7 +47,32 @@
       "surface_form": "jātu",
       "lemma": "jātu",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कदाचित् कश्चित् तिष्ठति अकर्मकृत् सन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कास्यांचिदवस्थायां क्षणमात्रमपि कश्चिदपि ज्ञानी वाऽज्ञो वा अकर्मकृत्कर्माण्यकुर्वाणो न तिष्ठति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कदाचित्कश्चिदप्यजितेन्द्रियोऽकर्मकृत्सन्न तिष्ठति अपितु लौकिकवैदिककर्मानुष्ठानव्यग्र",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +93,32 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वः प्राणी प्रकृतिजैः प्रकृतितो जातैः सत्त्वरजस्तमोभिः गुणैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अकुर्वाणः तिष्ठति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कार्यत एव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +132,42 @@
       "surface_form": "kāryate",
       "lemma": "kāray",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रवर्त्यते हि यस्मात् अवश",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "प्रवर्त्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कर्मणि प्रवर्तते अवशोऽस्वतन्त्रः सन्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। अतः कर्माण्यकुर्वाणो न कश्चिदपि तिष्ठतीत्यर्थः। यतः स्वाभाविका गुणाश्चालकाः अतः परवशतया सर्वदा कर्माणि कुर्वतोऽशुद्धबु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,28 +181,96 @@
       "surface_form": "avaśaḥ",
       "lemma": "avaśa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कार्यते प्रवर्त्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वः प्राणी प्रकृतिजैः प्रकृतितो जातैः सत्त्वरजस्तमोभिः गुणैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अकुर्वाणः तिष्ठति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कार्यत एव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarvaḥ",
       "lemma": "sarva",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राणी प्रकृतिजैः प्रकृतितो जातैः सत्त्वरजस्तमोभिः गुणैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुरुषः प्रकृति समुद्भवैः सत्त्वरजस्तमोभिः प्राक्तनकर्मानुगुणं प्रवृद्धैः गुणैः स्वोचितं कर्म प्रति अवशः कार्यते प्रवर्त",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रकृतिजैर्गुणैर्वा कर्म कार्यत एव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prakṛti",
       "lemma": "prakṛti",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समुद्भवैः सत्त्वरजस्तमोभिः प्राक्तनकर्मानुगुणं प्रवृद्धैः गुणैः स्वोचितं कर्म प्रति अवशः कार्यते प्रवर्त्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +284,24 @@
       "surface_form": "guṇaiḥ",
       "lemma": "guṇa",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। अज्ञ इति वाक्यशेषः यतो वक्ष्यतिगुणैर्यो न विचाल्यते इति। सांख्यानां पृथक्करणात् अज्ञानामेव हि कर्मयोगः न ज्ञानिनाम्।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वोचितं कर्म प्रति अवशः कार्यते प्रवर्त्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

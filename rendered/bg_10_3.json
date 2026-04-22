@@ -47,7 +47,49 @@
       "surface_form": "vetti",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विजानाति लोकमहेश्वरं लोकानां महान्तम् ईश्वरं तुरीयम् अज्ञानतत्कार्यवर्जितम् असंमूढः संमोहवर्जितः सः मर्त्येषु मनुष्येषु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इतरसजातीयतया एकीकृत्य मोहः संमोहः तद्रहितोऽसंमूढः स मद्भक्त्युत्पत्तिविरोधिभिः सर्वैः पापैः प्रमुच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मर्त्येषु स्वेच्छया 2सर्वे रर्थे2 विजातीयविलक्षणं वेत्ति स सर्वपापैः संसारहेतुभूतैः भक्त्युत्पात्ताविरोधिभिः प्रमुच्यत",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स मनुष्येष्वसंमूढः संमोहरहतिः सन्सर्वपापैः प्रमुच्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स मर्त्येषु मनुष्येषु मध्ये असंमूढः सन्मोहवर्जितः सर्वैः पापैर्मतिपूर्वकृतैरपि प्रमुच्यते प्रकर्षेण कारणोच्छेदात्तत्संस",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +117,24 @@
       "surface_form": "asaṃmūḍhaḥ",
       "lemma": "asaṃmūḍha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संमोहवर्जितः सः मर्त्येषु मनुष्येषु? सर्वपापैः सर्वैः पापैः मतिपूर्वामतिपूर्वकृतैः प्रमुच्यते प्रमोक्ष्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सन्मोहवर्जितः सर्वैः पापैर्मतिपूर्वकृतैरपि प्रमुच्यते प्रकर्षेण कारणोच्छेदात्तत्संस्काराभावरूपेण मुच्यते मुक्तो भवति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +148,41 @@
       "surface_form": "martyeṣu",
       "lemma": "martya",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनुष्येषु? सर्वपापैः सर्वैः पापैः मतिपूर्वामतिपूर्वकृतैः प्रमुच्यते प्रमोक्ष्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "असंमूढो यो वेत्ति इतरसजातीयतया एकीकृत्य मोहः संमोहः तद्रहितोऽसंमूढः स मद्भक्त्युत्पत्तिविरोधिभिः सर्वैः पापैः प्रमुच्यत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्वेच्छया 2सर्वे रर्थे2 विजातीयविलक्षणं वेत्ति स सर्वपापैः संसारहेतुभूतैः भक्त्युत्पात्ताविरोधिभिः प्रमुच्यत इति तथा ज्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मनुष्येषु मध्ये असंमूढः सन्मोहवर्जितः सर्वैः पापैर्मतिपूर्वकृतैरपि प्रमुच्यते प्रकर्षेण कारणोच्छेदात्तत्संस्काराभावरूपे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +196,56 @@
       "surface_form": "pāpaiḥ",
       "lemma": "pāpa",
       "grammar": "instrumental neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मतिपूर्वामतिपूर्वकृतैः प्रमुच्यते प्रमोक्ष्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रमुच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pramucyate",
       "lemma": "pramuc",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रमोक्ष्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। एतद् उक्तं भवति -- लोके मनुष्याणां राजा इतरमनुष्यसाजीतयः? केनचित् कर्मणा तदाधिपत्यं प्राप्तः? तथा देवानाम् अधिपतिः अपि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रकर्षेण कारणोच्छेदात्तत्संस्काराभावरूपेण मुच्यते मुक्तो भवति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

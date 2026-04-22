@@ -26,7 +26,24 @@
       "surface_form": "śāstram",
       "lemma": "śāstra",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। यद्यपि गीताख्यं समस्तम् शास्त्रम् उच्यते? तथापि अयमेव अध्यायः इह शास्त्रम् इति उच्यते स्तुत्यर्थं प्रकरणात्। सर्वो हि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति।मया वक्तव्यतत्त्ववेदिना? त्वदधिकारवेदिना? तव सख्या चेत्यर्थः। प्रागुक्तशास्त्रानुवादताभ्रमव्युदासायाहतवोक्तमिति।सा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,21 +85,104 @@
       "surface_form": "buddhvā",
       "lemma": "budh",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "बुद्धिमान् स्यात् भवेत् न अन्यथा कृतकृत्यश्च भारत कृतं कृत्यं कर्तव्यं येन सः कृतकृत्यः विशिष्टजन्मप्रसूतेन ब्राह्मणेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "बुद्धिमान् स्यात् कृतकृत्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "बुद्धिमान् सम्यग्ज्ञानी कृतकृत्यश्च स्याद्योऽपि कोऽपि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "buddhimān",
       "lemma": "buddhimat",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्यात् भवेत् न अन्यथा कृतकृत्यश्च भारत कृतं कृत्यं कर्तव्यं येन सः कृतकृत्यः विशिष्टजन्मप्रसूतेन ब्राह्मणेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्यात् कृतकृत्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": ",शास्त्रतात्पर्यज्ञानवान् कृतकृत्यश्च स्यात् योऽपि कोऽपि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सम्यग्ज्ञानी कृतकृत्यश्च स्याद्योऽपि कोऽपि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "syāt",
       "lemma": "as",
       "grammar": "present optative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भवेत् न अन्यथा कृतकृत्यश्च भारत कृतं कृत्यं कर्तव्यं येन सः कृतकृत्यः विशिष्टजन्मप्रसूतेन ब्राह्मणेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कृतकृत्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योऽपि कोऽपि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +210,40 @@
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कृतं कृत्यं कर्तव्यं येन सः कृतकृत्यः विशिष्टजन्मप्रसूतेन ब्राह्मणेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "त्वं कृतकृत्योऽसीति किमु वक्तव्यम् इति भावः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "? त्वं कृतकृत्योसीति किं वक्तव्यमिति भावः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "? त्वं तु महाकुलप्रसूतः स्वयं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

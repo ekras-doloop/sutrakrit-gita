@@ -40,14 +40,56 @@
       "surface_form": "āśritya",
       "lemma": "āśri",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मत्समाहितचित्ताः सन्तः यतन्ति प्रयतन्ते ये ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ये यतन्ते ते तद् ब्रह्म विदुः अध्यात्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yatanti",
       "lemma": "yat",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रयतन्ते ये ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यतयो ये आत्मतत्त्वजिज्ञासवस्ते ब्रह्म परमं तदक्षरं विदुरध्यात्मं आत्माधिगतं स्वभावं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यतन्ते मदर्पितानि फलाभिसन्धिशून्यानि विहितानि कर्माणि कुर्वन्ति ते क्रमेण शुद्धान्तःकरणाः सन्तस्तज्जगत्कारणं मायाधिष्ठा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +110,57 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परं तत् विदुः कृत्स्नं समस्तम् अध्यात्मं प्रत्यगात्मविषयं वस्तु तत् विदुः कर्म च अखिलं समस्तं विदुः।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विदुः अध्यात्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तद्विदुः इति पुनरुक्तमित्यत आह त एवे ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "परमं तदक्षरं विदुरध्यात्मं आत्माधिगतं स्वभावं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "विदुः कृत्स्नमध्यात्मं",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निर्गुणं तत्पदलक्ष्यं मां विदुः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +174,48 @@
       "surface_form": "viduḥ",
       "lemma": "vid",
       "grammar": "past indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कृत्स्नं समस्तम् अध्यात्मं प्रत्यगात्मविषयं वस्तु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अध्यात्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। यमेवैष वृणुते कठो.2।22मुंडो.2।3 इति श्रुतेः।",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "कृत्स्नमध्यात्मं",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। तथात्मानं शरीरमधिकृत्य प्रकाशमानं कृत्स्नमुपाध्यपरिच्छिन्नं त्वंपदलक्ष्यं विदुः। कर्म च तदुभयवेदनसाधनं गुरूपसदनश्रवणमन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +236,32 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च अखिलं समस्तं विदुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च अखिलं विदुः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च तदुभयवेदनसाधनं गुरूपसदनश्रवणमननाद्यखिलं निरवशेषं फलाव्यभिचारि विदुर्जानन्तीत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

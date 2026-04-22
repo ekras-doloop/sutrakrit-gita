@@ -33,7 +33,40 @@
       "surface_form": "sukheṣu",
       "lemma": "sukha",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्तेषु विगता स्पृहा तृष्णा यस्य न अग्निरिव इन्धनाद्याधाने सुखान्यनु विवर्धते स विगतस्पृहः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विगतस्पृहः प्रियेषु सन्निहितेषु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "विगता स्पृहा यस्य सः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सत्त्वपरिणामरूपप्रीत्यात्मकचित्तवृत्तिविशेषेषु त्रिविधेषु प्रारब्धपुण्यकर्मप्रापितेषु विगतस्पृहः आगामितज्जातीयसुखस्पृहा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +108,24 @@
       "surface_form": "krodhaḥ",
       "lemma": "krodha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तद्रहितः एवंभूतो मुनिः आत्ममननशीलः स्थितधीः इति उच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। ते सर्वे विपर्ययरूपत्वाद्विगता यस्मात्स तथा एतादृशो मुनिर्मननशीलः संन्यासी स्थितप्रज्ञ उच्यते। एवंलक्षणः स्थितधीः स्वा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +153,40 @@
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।। किञ्च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। ततः अर्वाचीनदशा प्रोच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तथा शोभनाध्यास उच्यते इत्यर्थः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। एवंलक्षणः स्थितधीः स्वानुभवप्रकटनेन शिष्यशिक्षार्थमनुद्वेगनिस्पृहत्वादिवाचः प्रभाषत इत्यन्वय उक्तः। एवंचान्योऽपि मुमुक",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

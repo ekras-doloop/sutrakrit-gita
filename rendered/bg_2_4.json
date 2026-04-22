@@ -33,7 +33,24 @@
       "surface_form": "saṃkhye",
       "lemma": "saṃkhya",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रणे हे मधुसूदन इषुभिर्यत्र वाचापि योत्स्यामीति वक्तुमनुचितं तत्र कथं बाणैर्योत्स्ये इति भावः। सायकैस्तौ कथं प्रतियोत्स्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "रणे इषुभिः सायकैः प्रतियोत्स्यामि प्रहरिष्यामि कथम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,21 +71,72 @@
       "surface_form": "madhusūdana",
       "lemma": "madhusūdana",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इषुभिर्यत्र वाचापि योत्स्यामीति वक्तुमनुचितं तत्र कथं बाणैर्योत्स्ये इति भावः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "iṣubhiḥ",
       "lemma": "iṣu",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतियोत्स्यामि इत्यस्य हननपर्यन्तप्रतियुद्धाभिप्रायत्वमुत्तरश्लोकेन विवृतमितिहनिष्यामीत्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सायकैः प्रतियोत्स्यामि प्रहरिष्यामि कथम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pratiyotsyāmi",
       "lemma": "pratiyudh",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतियोत्स्ये तौ हि पूजार्हौ कुसुमादिभिरर्चनयोग्यौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "इत्यस्य भावः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रहरिष्यामि कथम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

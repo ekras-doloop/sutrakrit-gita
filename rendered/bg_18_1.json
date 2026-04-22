@@ -12,7 +12,40 @@
       "surface_form": "saṃnyāsasya",
       "lemma": "saṃnyāsa",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संन्यासशब्दार्थस्य इत्येतत्?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "त्यागस्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "त्यागस्य",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "केनचिद्रूपेण कर्मत्यागस्य तत्त्वं स्वरूपं पृथक् सात्त्विकराजसतामसभेदेन वेदितुमिच्छामि त्यागस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +66,16 @@
       "surface_form": "tattvam",
       "lemma": "tattva",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? याथात्म्यमित्येतत्? इच्छामि वेदितुं ज्ञातुम्? त्यागस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +89,64 @@
       "surface_form": "veditum",
       "lemma": "vid",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इच्छामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tyāgasya",
       "lemma": "tyāga",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च त्यागशब्दार्थस्येत्येतत्? हृषीकेश? पृथक् इतरेतरविभागतः केशिनिषूदन केशिनामा हयच्छद्मा कश्चित् असुरः तं निषूदितवान् भगव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च तत्त्वं याथात्म्यं पृथग् वेदितुम् इच्छामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च तत्त्वं पृथक् विवेकतो ज्ञातुमिच्छामि? संशयासुरनिरासार्थंमहाबाहो केशिनिषूदन इति सम्बोधयति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "च तत्त्वं पृथग्विवेकेन वेदितुमिच्छामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "च तत्त्वं वेदितुमिच्छामि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,21 +160,88 @@
       "surface_form": "hṛṣīkeśa",
       "lemma": "hṛṣīkeśa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? पृथक् इतरेतरविभागतः केशिनिषूदन केशिनामा हयच्छद्मा कश्चित् असुरः तं निषूदितवान् भगवान् वासुदेवः? तेन तन्नाम्ना संबोध्यत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वेन्द्रियनियामक?",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthak",
       "lemma": "pṛthak",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इतरेतरविभागतः केशिनिषूदन केशिनामा हयच्छद्मा कश्चित् असुरः तं निषूदितवान् भगवान् वासुदेवः? तेन तन्नाम्ना संबोध्यते अर्जु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विवेकतो ज्ञातुमिच्छामि? संशयासुरनिरासार्थंमहाबाहो केशिनिषूदन इति सम्बोधयति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सात्त्विकराजसतामसभेदेन वेदितुमिच्छामि त्यागस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "keśiniṣūdana",
       "lemma": "keśiniṣūdana",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "केशिनामा हयच्छद्मा कश्चित् असुरः तं निषूदितवान् भगवान् वासुदेवः? तेन तन्नाम्ना संबोध्यते अर्जुनेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति सम्बोधयति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "केशिनाम्नो हि महतो हयाकृतेर्दैत्यस्य युद्धे मुखं व्यादाय भक्षयितुमागच्छतोऽत्यन्तं व्यात्ते मुखे वामबाहुं प्रवेश्य तत्क्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -40,7 +40,24 @@
       "surface_form": "yasmin",
       "lemma": "yad",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पदे गताः प्रविष्टाः न निवर्तन्ति न आवर्तन्ते भूयः पुनः संसाराय",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "गता भूयः न निवर्तन्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +78,32 @@
       "surface_form": "nivartanti",
       "lemma": "nivṛt",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न आवर्तन्ते भूयः पुनः संसाराय",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। नावर्तन्त इत्यर्थः। अन्वेषणप्रकारमाह। यत एषा पुराणी चिरंतनी संसारप्रवृत्तिः प्रसृता विस्तृता तमेव चाद्यं पुरुषं प्रपद्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नावर्तन्ते भूयः पुनः संसाराय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +152,49 @@
       "surface_form": "prapadye",
       "lemma": "prapad",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्येवं परिमार्गितव्यं तच्छरणतया इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तम् एव शरणं प्रपद्येत। यतः यस्मात् कृत्स्नस्य स्रष्टुः इयं गुणमयभोगसङ्ग प्रवृत्तिः पुराणी पुरातनी प्रसृता। उक्तं हि मया",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रपद्येत",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "शरणं व्रजामीत्येवमेकान्तभक्त्यान्वेष्टव्यमित्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शरणं गतोऽस्मीत्येवं तदेकशरणतया तदन्वेष्टव्यमित्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,21 +208,120 @@
       "surface_form": "pravṛttiḥ",
       "lemma": "pravṛtti",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रसृता निःसृता? ऐन्द्रजालिकादिव माया? पुराणी चिरंतनी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुराणी पुरातनी प्रसृता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prasṛtā",
       "lemma": "prasṛ",
       "grammar": "nominative feminine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निःसृता? ऐन्द्रजालिकादिव माया? पुराणी चिरंतनी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। उक्तं हि मया एव पूर्वम् एतत् -- दैवी ह्येषा गुणमयी मम माया दुरत्यया। मामेव ये प्रपद्यन्ते मायामेतां तरन्ति ते।। (गीता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भवति। तं प्रपद्य इति वा पाठः।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "विस्तृता तमेव चाद्यं पुरुषं प्रपद्ये शरणं व्रजामीत्येवमेकान्तभक्त्यान्वेष्टव्यमित्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निःसृतैन्द्रजालिकादिव मायाहस्त्यादि तं पुरुषं प्रपद्य इत्यन्वयः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "purāṇī",
       "lemma": "purāṇa",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चिरंतनी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुरातनी प्रसृता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कृत्स्नस्य जगतः कर्मसु प्रवृत्तिरुत्पत्तिः प्रसृता भवति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "चिरंतनी संसारप्रवृत्तिः प्रसृता विस्तृता तमेव चाद्यं पुरुषं प्रपद्ये शरणं व्रजामीत्येवमेकान्तभक्त्यान्वेष्टव्यमित्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चिरंतन्यनादिरेषा प्रसृता निःसृतैन्द्रजालिकादिव मायाहस्त्यादि तं पुरुषं प्रपद्य इत्यन्वयः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

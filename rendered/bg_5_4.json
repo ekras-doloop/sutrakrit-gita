@@ -19,7 +19,16 @@
       "surface_form": "yogau",
       "lemma": "yoga",
       "grammar": "accusative masculine dual noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "फलभेदात् पृथग्भूतौ ये प्रवदन्ति ते बालाः अनिष्पन्नज्ञानाः न पण्डिताः न तु कृत्स्नविदः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,14 +42,73 @@
       "surface_form": "bālāḥ",
       "lemma": "bāla",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रवदन्ति न पण्डिताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अनिष्पन्नज्ञानाः न पण्डिताः न तु कृत्स्नविदः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "शास्त्रार्थज्ञानविवेकशून्याः प्रवदन्ति न पण्डिताः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pravadanti",
       "lemma": "pravad",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न पण्डिताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ते बालाः अनिष्पन्नज्ञानाः न पण्डिताः न तु कृत्स्नविदः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "नतु पण्डिताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न पण्डिताः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +122,41 @@
       "surface_form": "paṇḍitāḥ",
       "lemma": "paṇḍita",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। पण्डितास्तु ज्ञानिन एकं फलम् अविरुद्धम् इच्छन्ति। कथम् एकमपि सांख्ययोगयोः सम्यक् आस्थितः सम्यगनुष्ठितवान् इत्यर्थः उभय",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न तु कृत्स्नविदः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। तत्र हेतुः अनयोरेकमपि सम्यगास्थित आश्रितः सन्नुभयोरपि फलं प्राप्नोति। तथाहि कर्मयोगं सम्यगनुतिष्ठन् शुद्धचित्तः सन् ज्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। किं तर्हि पण्डितानां मतम्। उच्यते एकमपि संन्यासकर्मणोर्मध्ये सम्यगास्थितः स्वाधिकारानुरूपेण सम्यग्यथाशास्त्रं कृतवान्स",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +177,24 @@
       "surface_form": "āsthitaḥ",
       "lemma": "āsthā",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सम्यगनुष्ठितवान् इत्यर्थः उभयोः विन्दते फलम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद् एव फलं लभते।एतद् एव विवृणोति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +215,16 @@
       "surface_form": "vindate",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "फलम्। उभयोः तदेव हि निःश्रेयसं फलम् अतः न फले विरोधः अस्ति।।ननु संन्यासकर्मयोगशब्देन प्रस्तुत्य सांख्ययोगयोः फलैकत्वं क",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

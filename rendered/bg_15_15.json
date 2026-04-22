@@ -12,7 +12,49 @@
       "surface_form": "sarvasya",
       "lemma": "sarva",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च प्राणिजातस्य अहम् आत्मा सन् हृदि बुद्धौ संनिविष्टः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भूतजातस्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सकलप्रवृत्तिहेतुज्ञानोदयदेशे हृदि सर्वं स्वसङ्कल्पेन नियच्छन्नहमात्मतया सन्निविष्टः अन्तःप्रविष्टः शास्ता जनानां सर्वात",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्राणिजातस्य हृदि सम्यगन्तर्यामिरूपेण प्रविष्टोऽहम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चेति। किंच सर्वस्य ब्रह्मादिस्थावरान्तस्य प्राणिजातस्याहमात्मा सन् हृदि बुद्धौ संनिविष्टःस एष इह प्रविष्टः इति श्रुतेःअ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +75,49 @@
       "surface_form": "hṛdi",
       "lemma": "hṛd",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "बुद्धौ संनिविष्टः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वं मत्संकलपेन नियच्छन् अहम् आत्मतया सन्निविष्टः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सर्वं स्वसङ्कल्पेन नियच्छन्नहमात्मतया सन्निविष्टः अन्तःप्रविष्टः शास्ता जनानां सर्वात्मा [चित्त्यु.11",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सम्यगन्तर्यामिरूपेण प्रविष्टोऽहम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "बुद्धौ संनिविष्टःस एष इह प्रविष्टः इति श्रुतेःअनेन जीवेनात्मनानुप्रविश्य नामरूपे व्याकरवाणि इति च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +131,33 @@
       "surface_form": "mattaḥ",
       "lemma": "mad",
       "grammar": "ablative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मनः सर्वप्राणिनां स्मृतिः ज्ञानं तदपोहनं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "एव सर्वेषां स्मृतिः जायते? स्मृतिः पूर्वानुभूतविषयम् अनुभवसंस्कारमात्रजं ज्ञानम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सर्वेषां स्मृतिः पूर्वानुभूतविषयसंस्कारमात्रजं ज्ञानं? ज्ञानमिन्द्रियलिङ्गागमयोगजो वस्तुनिश्चयः? सोऽपि मत्तः अपोहनं तयो",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +171,24 @@
       "surface_form": "jñānam",
       "lemma": "jñāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। ज्ञानम् इन्द्रियलिङ्गागमयोगजो वस्तुनिश्चयः? सः अपि मत्तः। अपोहनं च? अपोहनं ज्ञाननिवृत्तिः।अपोहनम् ऊहनं वा ऊहनं ऊहः? ऊह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? तच्चापि मत्त एव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

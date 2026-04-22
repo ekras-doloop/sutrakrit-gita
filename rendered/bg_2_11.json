@@ -19,7 +19,16 @@
       "surface_form": "bhagavān",
       "lemma": "bhagavant",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वासुदेवस्तदा स्वमार्गे न स्वीकुर्वन्नात्मनस्तत्त्वाविवेकादस्यैवं शोको भवतीति तन्निवारणार्थं साङ्ख्यबुद्धिं प्रदर्शयन्ना",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +42,24 @@
       "surface_form": "aśocyān",
       "lemma": "aśocya",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्यादि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रति अनुशोचसिपतन्ति पितरो ह्येषां लुप्तपिण्डोदकक्रियाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +101,73 @@
       "surface_form": "bhāṣase",
       "lemma": "bhāṣ",
       "grammar": "present indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तदेतत् मौढ्यं पाण्डित्यं च विरुद्धम् आत्मनि दर्शयसि उन्मत्त इव इत्यभिप्रायः। यस्मात् गतासून् गतप्राणान् मृतान् अगतासून",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। देहात्मस्वभावज्ञानवतां न अत्र किञ्चित् शोकनिमित्तम् अस्ति। गतासून् देहान् अगतासून् आत्मनश्च प्रति तयोः स्वभावयाथात्म्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ते प्रज्ञावादाः अतो न भाषणीया इति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "देहात्मस्वभावज्ञानवतां शोके निमित्ताभावात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नतु पण्डितोऽसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "gatāsūn",
       "lemma": "gatāsu",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गतप्राणान् मृतान् अगतासून् अगतप्राणान् जीवतश्च न अनुशोचन्ति पण्डिताः आत्मज्ञाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देहान् अगतासून् आत्मनश्च प्रति तयोः स्वभावयाथात्म्यविदो न शोचन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +202,32 @@
       "surface_form": "paṇḍitāḥ",
       "lemma": "paṇḍita",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मज्ञाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। प्रज्ञावादविप्रतिषिद्धशोकेनोन्नींतांस्तदज्ञानविषयानाह अतो देहेत्यादिना। शोकस्तु सिद्धः प्रज्ञा तु वादमात्रस्थेति भावः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "विचारजन्यात्मतत्त्वज्ञानवन्तस्ते गतप्राणानगतप्राणांश्च बन्धुत्वेन कल्पितान्देहान्नानुशोचन्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

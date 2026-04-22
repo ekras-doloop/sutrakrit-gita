@@ -54,7 +54,24 @@
       "surface_form": "samudbhavaḥ",
       "lemma": "samudbhava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यस्य सः कामः रजोगुणसमुद्भवः रजोगुणस्य वा समुद्भवः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कारणं यस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +99,16 @@
       "surface_form": "pāpmā",
       "lemma": "pāpman",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कार्यतया यस्यास्तीति स महापाप्मा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +136,24 @@
       "surface_form": "vairiṇam",
       "lemma": "vairin",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।कथं वैरी इति दृष्टान्तैः प्रत्याययति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तदेतत्सर्वं विवृतं वार्तिककारैरात्मैवेदमग्र आसीदिति श्रुतिव्याख्यानेप्रवृत्तौ च निवृत्तौ च यथोक्तस्याधिकारिणः। स्वातन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

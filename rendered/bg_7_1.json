@@ -33,7 +33,24 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "योगं युञ्जन् मनःसमाधानं कुर्वन् मदाश्रयः अहमेव परमेश्वरः आश्रयो यस्य सः मदाश्रयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मयि परमात्मनि भगवति सर्वधर्माश्रये निरतिशयालौकिकलीले परमनियन्तरि करुणाशीले आसक्तचित्तः योगमुक्तलक्षणं समभ्यसन् मदाश्रयो",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +64,24 @@
       "surface_form": "yuñjan",
       "lemma": "yuj",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनःसमाधानं कुर्वन् मदाश्रयः अहमेव परमेश्वरः आश्रयो यस्य सः मदाश्रयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "योक्तुं प्रवृत्तो योगविषयभूतं माम् असंशयं निःसंशयं समग्रं सकलं यथा ज्ञास्यसि येन ज्ञानेन उक्तेन ज्ञास्यसि तद् ज्ञानम् अ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +130,48 @@
       "surface_form": "jñāsyasi",
       "lemma": "jñā",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संशयमन्तरेण एवमेव भगवान् इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "येन ज्ञानेन उक्तेन ज्ञास्यसि तद् ज्ञानम् अवस्थितमनाः श्रृणु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तच्छृणु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तदिदं मया वक्ष्यमाणं शृणु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तच्छृणूच्यमानं मया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

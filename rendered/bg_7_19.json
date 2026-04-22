@@ -19,21 +19,65 @@
       "surface_form": "janmanām",
       "lemma": "janman",
       "grammar": "genitive neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्यत्र न तावद्बहुजन्मसद्भावमात्रं विवक्षितम् तस्यात्रानुपयुक्तत्वात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ante",
       "lemma": "anta",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाप्तौ ज्ञानवान् प्राप्तपरिपाकज्ञानः मां वासुदेवं प्रत्यगात्मानं प्रत्यक्षतः प्रपद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अवसाने वासुदेवशेषतैकरसः अहं तदायत्तस्वरूपस्थितिप्रवृत्तिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "jñānavān",
       "lemma": "jñānavat",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्तपरिपाकज्ञानः मां वासुदेवं प्रत्यगात्मानं प्रत्यक्षतः प्रपद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भूत्वा वासुदेव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,21 +91,106 @@
       "surface_form": "prapadyate",
       "lemma": "prapad",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कथम् वासुदेवः सर्वम् इति। यः एवं सर्वात्मानं मां नारायणं प्रतिपद्यते सः महात्मा न तत्समः अन्यः अस्ति अधिको वा। अतः सु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "माम् उपास्ते स महात्मा महामनाः सुदुर्लभः दुर्लभतरः लोके",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भजति अतः स महात्माऽपरिच्छिन्नदृष्टिः सुदुर्लभः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वदा समस्तप्रेमविषयत्वेन भजते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vāsudevaḥ",
       "lemma": "vāsudeva",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वम् इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वम् इत्यस्य अयम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सर्वमिति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सर्वमिति ज्ञानवान्सन्मां निरुपाधिप्रेमास्पदं प्रपद्यते सर्वदा समस्तप्रेमविषयत्वेन भजते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarvam",
       "lemma": "sarva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति। यः एवं सर्वात्मानं मां नारायणं प्रतिपद्यते सः महात्मा न तत्समः अन्यः अस्ति अधिको वा। अतः सुदुर्लभः मनुष्याणां सहस्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति मां यो प्रपद्यते माम् उपास्ते स महात्मा महामनाः सुदुर्लभः दुर्लभतरः लोके",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +211,25 @@
       "surface_form": "mahātmā",
       "lemma": "mahātman",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न तत्समः अन्यः अस्ति अधिको वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "महामनाः सुदुर्लभः दुर्लभतरः लोके",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +243,16 @@
       "surface_form": "durlabhaḥ",
       "lemma": "durlabha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तादृशोऽपि मां पुरुषोत्तमं परमात्मानं प्रपन्नो विज्ञानवानतिदुर्लभः यतो ज्ञानमपि तस्य नात्मैकविषयकं किन्तु भगवत्सर्वविषय",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

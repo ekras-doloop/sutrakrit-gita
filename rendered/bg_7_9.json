@@ -12,7 +12,48 @@
       "surface_form": "gandhaḥ",
       "lemma": "gandha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पृथिव्यां",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तुलस्यादिगन्धः सुरभिगन्धमात्रं वा तद्योगेन हि पृथिवी सत्त्वोन्मेषस्य सुखस्य वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इत्यस्य ग्रहणम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। गन्धतन्मात्रं पृथिव्या आश्रयभूतमहमित्यर्थः। यद्वा विभूतिरूपेणाश्रयधत्वस्य विवक्षितत्वात्सुरभिगन्धस्यैवोत्कृष्टतया विभू",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वपृथिवीसामान्यरूपस्तन्मात्राख्यः पृथिव्यामनुस्यूतोऽहम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +95,24 @@
       "surface_form": "vibhāvasau",
       "lemma": "vibhāvasu",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अग्नौ। तथा जीवनं सर्वभूतेषु येन जीवन्ति सर्वाणि भूतानि तत् जीवनम्। तपश्च अस्मि तपस्विषु तस्मिन् तपसि मयि तपस्विनः प्रोत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। स्पष्टमेव। सर्वभूतेषु जीवनं प्राणनं तपः कायशोधनम्।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +133,16 @@
       "surface_form": "bhūteṣu",
       "lemma": "bhūta",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवमनुष्यादिरूपेणावस्थितेषु जन्तुषु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +170,32 @@
       "surface_form": "tapasviṣu",
       "lemma": "tapasvin",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्मिन् तपसि मयि तपस्विनः प्रोताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वानप्रस्थादिषु द्वन्द्वसहनरूपं तपोऽस्मि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नित्यं तपोयुक्तेषु वानप्रस्थादिषु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

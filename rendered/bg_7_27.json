@@ -26,7 +26,16 @@
       "surface_form": "samutthena",
       "lemma": "samuttha",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शीतोष्णादिद्वन्द्वाख्येन मोहेन सर्वभूतानि सर्गे जन्मकाल",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +49,58 @@
       "surface_form": "mohena",
       "lemma": "moha",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वभूतानि सर्गे जन्मकाल",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "हेतुना सर्वभूतानि क्षरपदवाच्यानि संसृतानि सर्गे",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "अहं सुखी अहं दुःखीत्यादिविपर्ययेण सर्वाण्यपि भूतानि संमोहं विवेकायोग्यत्वं सर्गे स्थूलदेहोत्पत्तौ सत्यां यान्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भरतान्वयज सर्वभूतानि संमोहितानि सन्ति संमोहं संमूढतां सर्गे जन्मनि उत्पत्तिकाले इत्येतत् यान्ति गच्छन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "हे परंतपेति संबोधनद्वस्य कुलमहिम्ना स्वरूपशक्त्या",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +114,16 @@
       "surface_form": "bhūtāni",
       "lemma": "bhūta",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संमोहं विवेकायोग्यत्वं सर्गे स्थूलदेहोत्पत्तौ सत्यां यान्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +137,89 @@
       "surface_form": "sarge",
       "lemma": "sarga",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जन्मनि उत्पत्तिकाले इत्येतत् यान्ति गच्छन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जन्मकाल",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सर्गकाले आरभ्यैव शरीरे हि सतीच्छादयः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "एव सम्मोहं जन्ममरणपर्यावर्त्ते कारणभूतं भगवत्स्वरूपाज्ञानभयं प्राप्नुवन्ति गुणप्रवाहमध्ये पतिता भवन्तीत्यर्थः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स्थूलदेहोत्पत्तौ सत्यां तदनुकूल इच्छा तत्प्रतिकूले",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्थूलदेहोत्पत्तौ सत्यां यान्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yānti",
       "lemma": "yā",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गच्छन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। एतद् उक्तं भवति गुणमयेषु सुखदुःखादिद्वन्द्वेषु पूर्वपूर्वजन्मनि यद्विषयौ इच्छाद्वेषौ रागद्वैषौ अभ्यस्तौ तद्वासनया पुनर",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। हे भारत हे परंतपेति संबोधनद्वस्य कुलमहिम्ना स्वरूपशक्त्या च त्वां द्वन्द्वमोहाख्यः शत्रुर्नाभिभवितुमलमिति भावः। नहीच्छ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

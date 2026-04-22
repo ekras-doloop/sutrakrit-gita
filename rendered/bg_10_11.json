@@ -12,7 +12,16 @@
       "surface_form": "teṣām",
       "lemma": "tad",
       "grammar": "genitive masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव अनुग्रहार्थम् अहम् आत्मभावस्थः तेषां मनोवृत्तौ विषयतया अवस्थितो मदीयान् कल्याणगुणगणान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +112,72 @@
       "surface_form": "dīpena",
       "lemma": "dīpa",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानविरोधिप्राचीनकर्मरूपाज्ञानजं मद्व्यतिरिक्तविषयप्रावण्यरूपं पूर्वाभ्यस्तं तमः नाशयामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "नाशयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhāsvatā",
       "lemma": "bhāsvat",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानदीपेनेत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "दीपेन ज्ञानविरोधिप्राचीनकर्मरूपाज्ञानजं मद्व्यतिरिक्तविषयप्रावण्यरूपं पूर्वाभ्यस्तं तमः नाशयामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ज्ञानदर्पणेनात्मविषयकसाक्षात्कारेणोभयाज्ञानजं तमो देहाध्यासादिना विषयप्रावण्यरूपं पूर्वाभ्यस्तं सर्वं नाशयामि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "विस्फुरता ज्ञानलक्षणेन दीपेन नाशयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चिदाभासयुक्तेनाप्रतिबद्धेनाज्ञानजमज्ञानोपादानकं तमो मिथ्याप्रत्ययलक्षणं स्वविषयावरणमन्धकारं तदुपादानाऽज्ञाननाशेन नाशयाम",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

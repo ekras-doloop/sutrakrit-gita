@@ -12,14 +12,56 @@
       "surface_form": "karmendriyāṇi",
       "lemma": "karmendriya",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हस्तादीनि संयम्य संहृत्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वाक्पाण्यादीनि संयम्य निगृह्य बहिरिन्द्रियैः कर्माण्यकुर्वन्निति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃyamya",
       "lemma": "saṃyam",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संहृत्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निगृह्य यो मनसा भगवद्ध्यानच्छलेनेन्द्रियार्थान् विषयान् स्मरन्नास्ते अविशुद्धतया मनसा आत्मनि स्थैर्यभावात् स मिथ्याचारः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निगृह्य बहिरिन्द्रियैः कर्माण्यकुर्वन्निति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,21 +75,113 @@
       "surface_form": "āste",
       "lemma": "ās",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तिष्ठति मनसा स्मरन् चिन्तयन् इन्द्रियार्थान् विषयान् विमूढात्मा विमूढान्तःकरणः मिथ्याचारो मृषाचारः पापाचारः सः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अन्यथा संकल्प्य अन्यथा चरति इति स मिथ्याचारः उच्यते आत्मज्ञानाय उद्युक्तो विपरीतो विनष्टो भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "manasā",
       "lemma": "manas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्मरन् चिन्तयन् इन्द्रियार्थान् विषयान् विमूढात्मा विमूढान्तःकरणः मिथ्याचारो मृषाचारः पापाचारः सः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्मरन् इत्यनेनार्थसिद्धं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स्मरन् मनसा नियम्येति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "तत्स्मृतेः पुनः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भगवद्ध्यानच्छलेनेन्द्रियार्थान् विषयान् स्मरन्नास्ते अविशुद्धतया मनसा आत्मनि स्थैर्यभावात् स मिथ्याचारः कपटाचारो दाम्भि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "रागादिप्रेरितेनेन्द्रियार्थाञ्शब्दादीन् नत्वात्मतत्त्वं स्मरन्नास्ते कृतसंन्यासोऽहमित्यभिमानेन कर्मशून्यस्तिष्ठति स मिथ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "smaran",
       "lemma": "smṛ",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चिन्तयन् इन्द्रियार्थान् विषयान् विमूढात्मा विमूढान्तःकरणः मिथ्याचारो मृषाचारः पापाचारः सः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "य आस्ते अन्यथा संकल्प्य अन्यथा चरति इति स मिथ्याचारः उच्यते आत्मज्ञानाय उद्युक्तो विपरीतो विनष्टो भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मनसा नियम्येति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +237,16 @@
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मज्ञानाय उद्युक्तो विपरीतो विनष्टो भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

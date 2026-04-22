@@ -68,7 +68,49 @@
       "surface_form": "niścayena",
       "lemma": "niścaya",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अध्यवसायेन योक्तव्यः अनिर्विण्णचेतसा न निर्विण्णम् अनिर्विण्णम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अनिर्विण्णचेतसा हृष्टचेतसा योगो योक्तव्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योक्तव्यः योक्तव्य",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "शास्त्राचार्योपदेशजनितेन योक्तव्योऽभ्यसनीयः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शास्त्राचार्यवचनतात्पर्यविषयोऽर्थः सत्य एवेत्यध्यवसायेन योक्तव्योऽभ्यसनीयः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +138,32 @@
       "surface_form": "cetasā",
       "lemma": "cetas",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चित्तेनेत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "योक्तव्यः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। इह जन्मनि जन्मान्तरे वा सेत्स्यसि किं त्वरयेत्येवं धैर्ययुक्तेन मनसेत्यर्थः। तदेतद्गौडपादा उदाजह्नुःउत्सेक उदधेर्यद्वत",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

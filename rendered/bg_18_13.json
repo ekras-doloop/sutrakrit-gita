@@ -12,7 +12,32 @@
       "surface_form": "pañca",
       "lemma": "pañcan",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एतानि वक्ष्यमाणानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एतानि कारणानि निबोध मे मम सकाशात् अनुसंधत्स्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वेदान्तप्रमाणमूलानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +65,81 @@
       "surface_form": "kāraṇāni",
       "lemma": "kāraṇa",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निर्वर्तकानि निबोध मे मम इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निबोध मे मम सकाशात् अनुसंधत्स्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "निबोध मे मम सकाशादवधेहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मे वचनान्निबोध जानीहि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निर्वर्तकानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "nibodha",
       "lemma": "nibudh",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मे मम इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मे मम सकाशात् अनुसंधत्स्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मे मम सकाशादवधेहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,28 +153,161 @@
       "surface_form": "sāṅkhye",
       "lemma": "sāṃkhya",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कृतान्ते इति न साङ्ख्यसिद्धान्तो विवक्षितः? तत्रेश्वरानभ्युपगमात् करणातिरिक्तस्य कर्तृत्वानभ्युपगमेनकर्ता करणं पृथग्विध",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रोक्तानि सिद्धान्तीकृत्योक्तानि सर्वकर्मणां सिद्धये पञ्चैतानि कारणानि निबोध मे मम सकाशादवधेहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kṛtānte",
       "lemma": "kṛtānta",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति तस्यैव विशेषणम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यथावस्थिततत्त्वविषयया वैदिक्या बुद्ध्या अनुसंहिते निर्णये सर्वकर्मणां सिद्धये -- उत्पत्तये प्रोक्तानि पञ्च एतानि कारणान",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ज्ञानसिद्धान्ते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "सिद्धान्ते कृतनिर्णये वा साङ्ख्ये प्रोक्तानि सिद्धान्तीकृत्योक्तानि सर्वकर्मणां सिद्धये पञ्चैतानि कारणानि निबोध मे मम स",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रोक्तानीति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "proktāni",
       "lemma": "pravac",
       "grammar": "accusative neuter plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कथितानि सिद्धये निष्पत्त्यर्थं सर्वकर्मणाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पञ्च एतानि कारणानि निबोध मे मम सकाशात् अनुसंधत्स्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सिद्धान्तीकृत्योक्तानि सर्वकर्मणां सिद्धये पञ्चैतानि कारणानि निबोध मे मम सकाशादवधेहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रसिद्धान्येव लोकेऽनात्मभूतान्येवात्मतया मिथ्याज्ञानारोपेण गृहीतान्यात्मतत्त्वज्ञानेन बाधसिद्धये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "siddhaye",
       "lemma": "siddhi",
       "grammar": "dative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निष्पत्त्यर्थं सर्वकर्मणाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "-- उत्पत्तये प्रोक्तानि पञ्च एतानि कारणानि निबोध मे मम सकाशात् अनुसंधत्स्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पञ्चैतानि कारणानि निबोध मे मम सकाशादवधेहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "निष्पत्तये इमानि वक्ष्यमाणानि पञ्च कारणानि मे वचनान्निबोध जानीहि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निष्पत्तये कारणानि निर्वर्तकानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

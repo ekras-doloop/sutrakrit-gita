@@ -33,7 +33,32 @@
       "surface_form": "ādhatsva",
       "lemma": "ādhā",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थापय",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "-- मयि मनः समाधानं कुरु? मयि बुद्धिं निवेशय -- अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "स्थिरीकुरु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +79,97 @@
       "surface_form": "niveśaya",
       "lemma": "niveśay",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। ततः ते किं स्यात् इति श्रृणु -- निवसिष्यसि निवत्स्यसि निश्चयेन मदात्मना मयि निवासं करिष्यसि एव अतः शरीरपातात् ऊर्ध्वम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "-- अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सङ्कल्पविकल्पविषयकमपि मदीयमेव कुरु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। एवं कुर्वन्मत्प्रसादेन लब्धज्ञानः सन्नत ऊर्ध्वं देहान्ते मरणान्तरं मय्येव निवसिष्यसि निवत्स्यसि मदात्मना वासं करिष्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वा बुद्धिवृत्तीर्मद्विषया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "nivasiṣyasi",
       "lemma": "nivas",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निवत्स्यसि निश्चयेन मदात्मना मयि निवासं करिष्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अहम् एव परमप्राप्य इति अध्यवसायपूर्वकमनोनिवेशनानन्तरम् एव मयि निवसिष्यसि इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "? न त्वक्षरादौ धाम्नि? किन्तु मद्रूप इति भावः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "निवत्स्यसि मदात्मना वासं करिष्यसि नात्र संशयः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "निवत्स्यसि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +211,32 @@
       "surface_form": "saṃśayaḥ",
       "lemma": "saṃśaya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संशयः अत्र न कर्तव्यः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तथाच श्रुतिःदेहान्ते देवस्तारकं परब्रह्म व्याचष्टे इति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "नात्र प्रतिबन्धशङ्का कर्तव्येत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

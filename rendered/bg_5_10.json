@@ -19,14 +19,81 @@
       "surface_form": "ādhāya",
       "lemma": "ādhā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निक्षिप्य तदर्थं कर्म करोमि इति भृत्य इव स्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "फल सङ्गं त्यक्त्वा नैव किञ्चित् करोमि इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "समर्प्य सङ्गं फलाभिलाषं त्यक्त्वेश्वरार्थं भृत्यइव स्वाम्यर्थं स्वफलनिरपेक्षतया करोमीत्यभिप्रायेण कर्माणि लौकिकानि वैदि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karmāṇi",
       "lemma": "karman",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "करोति स प्रकृतिसंसृष्टतया वर्तमानः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "स्वेनैव क्रियमाणानि अनुसन्धायेति क्रियाद्वैतभाव उक्तः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "करोति असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "लौकिकानि वैदिकानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +107,91 @@
       "surface_form": "tyaktvā",
       "lemma": "tyaj",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "करोति यः सर्वकर्माणि लिप्यते न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन। केवलं सत्त्वशुद्धिमात्रमेव फलं तस्य कर्मणः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "नैव किञ्चित् करोमि इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यो योगी करोति स तदधिगतः ब्रह्मवित् जीवन्मुक्तः पापेनाकरणप्रत्यवायेन नाश्लिष्टो भवति पद्मपत्रमिवाम्भसा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यः कर्माणि करोति असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karoti",
       "lemma": "kṛ",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यः सर्वकर्माणि लिप्यते न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "स प्रकृतिसंसृष्टतया वर्तमानः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स तदधिगतः ब्रह्मवित् जीवन्मुक्तः पापेनाकरणप्रत्यवायेन नाश्लिष्टो भवति पद्मपत्रमिवाम्भसा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यो लिप्यते न स पापेन पापपुण्यात्मकेन कर्मणेति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +205,48 @@
       "surface_form": "lipyate",
       "lemma": "lip",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पद्मपत्रमिवाम्भसा यथा पद्मपत्रम् अम्भसा संसृष्टम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "5।7लिप्यते न स पापेन इति पुनः पुनः फलकथनं इत्यत आह साधने ति। साधननियमस्येति तदुक्तेरित्यर्थः। सन्न्यासयोगौ मिलितावेव फल",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। यथा पद्मपत्रमम्भसि स्थितमप्यम्भसा न लिप्यते तद्वत्।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न स पापेन पापपुण्यात्मकेन कर्मणेति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +267,48 @@
       "surface_form": "pāpena",
       "lemma": "pāpa",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न लिप्यते पद्मपत्रमिवाम्भसा यथा पद्मपत्रम् अम्भसा संसृष्टम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति पुनः पुनः फलकथनं इत्यत आह साधने ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पापपुण्यात्मकेन कर्मणेति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

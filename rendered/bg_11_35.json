@@ -33,7 +33,40 @@
       "surface_form": "keśavasya",
       "lemma": "keśava",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूर्वोक्तं कृताञ्जलिः सन् वेपमानः कम्पमानः किरीटी नमस्कृत्वा? भूयः पुनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वचनं श्रुत्वा अर्जुनः तस्मै नमस्कृत्य भीतभीतः अतिभीतः भूयः तं प्रणम्य कृताञ्जलिः वेपमानः किरीटी सगद्गदम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वचनं श्रुत्वा वेपमानः कम्पमानः किरीट्यर्जुनः कृताञ्जलिः संपुटीकृतहस्तः कुष्णं नमस्कृत्य पुनरप्याह उक्तवान्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वचनं श्रुत्वा कृताञ्जलिः किरीटी इन्द्रदत्तकिरीटः परमवीरत्वेन प्रसिद्धः वेपमानः परमाश्चर्यदर्शनजनितेन संभ्रमेण कम्पमानोऽ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,21 +80,88 @@
       "surface_form": "vepamānaḥ",
       "lemma": "vip",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कम्पमानः किरीटी नमस्कृत्वा? भूयः पुनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "किरीटी सगद्गदम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कम्पमानः किरीट्यर्जुनः कृताञ्जलिः संपुटीकृतहस्तः कुष्णं नमस्कृत्य पुनरप्याह उक्तवान्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परमाश्चर्यदर्शनजनितेन संभ्रमेण कम्पमानोऽर्जुनः कृष्णं भक्ताघकर्षणं भगवन्तं नमस्कृत्य भूयः पुनरप्याह उक्तवान्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kirīṭī",
       "lemma": "kirīṭin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नमस्कृत्वा? भूयः पुनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सगद्गदम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इन्द्रदत्तकिरीटः परमवीरत्वेन प्रसिद्धः वेपमानः परमाश्चर्यदर्शनजनितेन संभ्रमेण कम्पमानोऽर्जुनः कृष्णं भक्ताघकर्षणं भगवन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "namaskṛtvā",
       "lemma": "namaskṛ",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? भूयः पुनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,14 +217,48 @@
       "surface_form": "bhītaḥ",
       "lemma": "bhī",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सन्प्रणम्यावनतो भूत्वा",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सन् पूर्वं नमस्कृत्य पुनरपि प्रणम्यात्यन्तनम्रो भूत्वाहेति संबन्धः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "praṇamya",
       "lemma": "praṇam",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रह्वः भूत्वा? आह इति व्यवहितेन संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कृताञ्जलिः वेपमानः किरीटी सगद्गदम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -33,7 +33,24 @@
       "surface_form": "durgāṇi",
       "lemma": "durga",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मत्प्रसादाद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "दुस्तराणि सांसारिकाणि दुःखानि तरिष्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +71,40 @@
       "surface_form": "tariṣyasi",
       "lemma": "tṛ",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अतिक्रमिष्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अथ त्वम् अहंकाराद् अहम् एव कृत्याकृत्यविषयं सर्वं जानामि इति भावात् मदुक्तं न श्रोष्यसि चेद् विनङ्क्ष्यसि नष्टो भविष्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। अथ चेदिति उपपत्तिः। मतान्तरस्थितिमाशङ्क्य न श्रोष्यसि तर्हि नष्टो भविष्यसि? प्राकृत इव।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। विपक्षे दोषमाह -- अथ चेद्यदि पुनस्त्वमहकाराज्ज्ञातृत्वाभिमानान्मदुक्तमेतन्न श्रोष्यसि तर्हि विनङ्क्ष्यसि पुरुषार्थाद्भ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +125,16 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहंकाराद् अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +155,89 @@
       "surface_form": "śroṣyasi",
       "lemma": "śru",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न ग्रहीष्यसि? ततः त्वं विनङ्क्ष्यसि विनाशं गमिष्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चेद् विनङ्क्ष्यसि नष्टो भविष्यसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तर्हि नष्टो भविष्यसि? प्राकृत इव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तर्हि विनङ्क्ष्यसि पुरुषार्थाद्भश्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मद्वचनार्थं न करिष्यसि ततो विनङ्क्ष्यसि पुरुषार्थाद्भ्रष्टो भविष्यसि कामकारेण संन्यासाद्याचरन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vinaṅkṣyasi",
       "lemma": "vinaś",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विनाशं गमिष्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नष्टो भविष्यसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पुरुषार्थाद्भश्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पुरुषार्थाद्भ्रष्टो भविष्यसि कामकारेण संन्यासाद्याचरन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -40,14 +40,40 @@
       "surface_form": "vegāḥ",
       "lemma": "vega",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अम्बुवेगाः त्वराविशेषाः समुद्रमेव अभिमुखाः प्रतिमुखाः द्रवन्ति प्रविशन्ति? तथा तद्वत? तव अमी भीष्मादयः नरलोकवीराः मनुष्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रवाहाः समुद्राभिमुखाः सन्तो यथा समुद्रमेव द्रवन्ति प्रविशन्ति तथा अमी ये नरलोकवीरास्तेऽभिविज्वलन्ति सर्वतः प्रदीप्यमा",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "samudram",
       "lemma": "samudra",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इव प्रदीप्तज्वलनम् इव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +94,32 @@
       "surface_form": "dravanti",
       "lemma": "dru",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रविशन्ति? तथा तद्वत? तव अमी भीष्मादयः नरलोकवीराः मनुष्यलोके शूराः विशन्ति वक्त्राणि अभिविज्वलन्ति प्रकाशमानानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रविशन्ति तथा अमी ये नरलोकवीरास्तेऽभिविज्वलन्ति सर्वतः प्रदीप्यमानानि वक्त्राणि प्रविशन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "विशन्ति तथा ते तवामी नरलोकवीरा विशन्ति वक्त्राण्यभितः सर्वतो ज्वलन्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +168,24 @@
       "surface_form": "viśanti",
       "lemma": "viś",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वक्त्राणि अभिविज्वलन्ति प्रकाशमानानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथा ते तवामी नरलोकवीरा विशन्ति वक्त्राण्यभितः सर्वतो ज्वलन्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +199,33 @@
       "surface_form": "abhivijvalanti",
       "lemma": "abhivijval",
       "grammar": "accusative neuter plural present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रकाशमानानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वयम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति वा पाठः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

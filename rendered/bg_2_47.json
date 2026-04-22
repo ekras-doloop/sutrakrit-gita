@@ -12,7 +12,40 @@
       "surface_form": "karmaṇi",
       "lemma": "karman",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रवर्तते तदा कर्मफलस्यैव जन्मनो",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नित्यसत्त्वस्थस्य मुमुक्षोः ते कर्ममात्रे अधिकारः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रवर्तितुं शक्यन्ते अतस्तेषां कर्मण्यभिरुचिजननार्थं स्वर्गकामः आ.श्रौ.10",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कृते तत्फलं स्यादेव भोजने कृते तृप्तिवदित्याशङ्क्याह",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +80,56 @@
       "surface_form": "phaleṣu",
       "lemma": "phala",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अधिकारः अस्तु कर्मफलतृष्णा मा भूत् कदाचन कस्याञ्चिदप्यवस्थायामित्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न कदाचिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति द्वयमुक्तम् तत्कथं न फलकामकर्तव्यतेत्येकस्यैव ग्रहणम् उच्यते फलकामकर्तव्यतानिषेधस्यैवात्र प्राधान्यात्कर्मण्येवाधिक",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kadācana",
       "lemma": "kadācana",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कस्याञ्चिदप्यवस्थायामित्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कस्यांचिदप्यवस्थायां कर्मानुष्ठानात्प्रागूर्ध्वं तत्काले वाधिकारो मयेदं भोक्तव्यमिति बोधो मास्तु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +143,16 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कुर्वतां या निन्दा कृतायामिमां 2",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,7 +208,33 @@
       "surface_form": "akarmaṇi",
       "lemma": "akarman",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अकरणे प्रीतिर्मा भूत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अननुष्ठाने न योत्स्यामि इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च निषिद्धे परधर्मे सङ्गो मा तेऽस्तु",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -12,7 +12,24 @@
       "surface_form": "yuñjan",
       "lemma": "yuj",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाधानं कुर्वन् एवं यथोक्तेन विधानेन सदा आत्मानं सर्वदा योगी नियतमानसः नियतं संयतं मानसं मनो यस्य सोऽयं नियतमानसः शान्त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नियतमानसः निश्चलमानसः मत्स्पर्शपवित्रीकृतमानसतया निश्चलमानसः मत्संस्थां निर्वाणपरमां शान्तिम् अधिगच्छति निर्वाणकाष्ठारू",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +57,33 @@
       "surface_form": "yogī",
       "lemma": "yogin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नियतमानसः नियतं संयतं मानसं मनो यस्य सोऽयं नियतमानसः शान्तिम् उपरतिं निर्वाणपरमां निर्वाणं मोक्षः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "युक्तः सिद्धः स मयि संस्थां लयं मोक्षादक्षरतादात्म्यरूपादपि परमं प्रवेशं प्राप्नोति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सदा योगाभ्यासपरोऽभ्यासातिशयेन नियतं निरुद्धं मानसं मनो येन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +139,24 @@
       "surface_form": "adhigacchati",
       "lemma": "adhigam",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निर्वाणकाष्ठारूपां मत्संस्थां मयि संस्थितां शान्तिम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

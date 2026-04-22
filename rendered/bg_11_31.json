@@ -12,7 +12,24 @@
       "surface_form": "ākhyāhi",
       "lemma": "ākhyā",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कथय मे मह्यं कः भवान् उग्ररूपः क्रूराकारः? नमः अस्तु ते तुभ्यं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मे नमोऽस्तु ते देववर प्रसीद -- नमः ते अस्तु सर्वेश्वर एवं कर्तुम् अनेन अभिप्रायेण इदं संहर्तृरूपम् आविष्कृतम् इति उक्त्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,33 @@
       "surface_form": "bhavān",
       "lemma": "bhavat",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उग्ररूपः क्रूराकारः? नमः अस्तु ते तुभ्यं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "किं कर्तुं प्रवृत्तः इति भवन्तं ज्ञातुम् इच्छामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति प्रश्नेन भाव्यम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +132,41 @@
       "surface_form": "prasīda",
       "lemma": "prasad",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रसादं कुरु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "-- नमः ते अस्तु सर्वेश्वर एवं कर्तुम् अनेन अभिप्रायेण इदं संहर्तृरूपम् आविष्कृतम् इति उक्त्वा प्रसन्नरूपश्च भव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रसन्नो भव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रसादं क्रौर्यत्यागं कुरु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +180,40 @@
       "surface_form": "icchāmi",
       "lemma": "iṣ",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भवन्तम् आद्यम् आदौ भवम् आद्यम्? न हि यस्मात् प्रजानामि तव त्वदीयां प्रवृत्तिं चेष्टाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तव अभिप्रेतां प्रवृत्तिं न जानामि। एतद् आख्याहि मे नमोऽस्तु ते देववर प्रसीद -- नमः ते अस्तु सर्वेश्वर एवं कर्तुम् अनेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhavantam",
       "lemma": "bhavat",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आद्यम् आदौ भवम् आद्यम्? न हि यस्मात् प्रजानामि तव त्वदीयां प्रवृत्तिं चेष्टाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -138,7 +241,32 @@
       "surface_form": "prajānāmi",
       "lemma": "prajñā",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तव त्वदीयां प्रवृत्तिं चेष्टाम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तव प्रवृत्तिं इति प्रवृत्तिप्रश्नाभिप्रायेणाज्ञातांशश्चात्रैव निर्दिश्यत इति तद्विषयजिज्ञासयैवायं प्रश्नो युक्त इत्यभिप",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तव प्रवृत्तिं चेष्टाम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

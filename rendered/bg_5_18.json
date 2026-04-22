@@ -12,28 +12,96 @@
       "surface_form": "vidyā",
       "lemma": "vidyā",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वेदार्थविज्ञानमित्यङ्गीकृत्य विनय व्याचष्टे विनय इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वेदार्थपरिज्ञानं ब्रह्मविद्या वा विनयो निरहंकारत्वम् अनौद्धृत्यमिति यावत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vinaya",
       "lemma": "vinaya",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "व्याचष्टे विनय इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃpanne",
       "lemma": "sampad",
       "grammar": "locative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मविदि विनीते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "brāhmaṇe",
       "lemma": "brāhmaṇa",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गवि हस्तिनि शुनि चैव श्वपाके",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति पदद्वयं न समानाधिकरणं निर्विशेषणसमुदायसहपठितत्वाद्विद्याविनयसम्पन्नविशेषणप्रतिशीर्षानुक्तेश्च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च शुनो",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सात्त्विके सर्वोत्तमे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +115,72 @@
       "surface_form": "hastini",
       "lemma": "hastin",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शुनि चैव श्वपाके",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्याकारवैषम्यं द्वाभ्यां दर्शितम् श्वश्वपचशब्दाभ्यां वृत्त्या वैषम्यम् तद्वत्पूर्वाभ्यामपि मिथो वैषम्यमेवाभिप्रेतम् अत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "शुनि चेति जातितो वैषम्यं दर्शितम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शुनि श्वपाके चात्यन्ततामसे सर्वाधर्मेऽपि सत्त्वादिगुणैस्तज्जैश्च संस्कारैरस्पृष्टमेव समं ब्रह्म द्रष्टुं शीलं येषां ते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śuni",
       "lemma": "śvan",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चैव श्वपाके",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चेति जातितो वैषम्यं दर्शितम्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "श्वपाके चात्यन्ततामसे सर्वाधर्मेऽपि सत्त्वादिगुणैस्तज्जैश्च संस्कारैरस्पृष्टमेव समं ब्रह्म द्रष्टुं शीलं येषां ते समदर्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +201,24 @@
       "surface_form": "śvapāke",
       "lemma": "śvapāka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च पण्डिताः समदर्शिनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चात्यन्ततामसे सर्वाधर्मेऽपि सत्त्वादिगुणैस्तज्जैश्च संस्कारैरस्पृष्टमेव समं ब्रह्म द्रष्टुं शीलं येषां ते समदर्शिनः पण्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +232,33 @@
       "surface_form": "paṇḍitāḥ",
       "lemma": "paṇḍita",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समदर्शिनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "आत्मयाथात्म्यविदो ज्ञानैकाकारतया सर्वत्र समदर्शिनः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ज्ञानिन इत्यर्थः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

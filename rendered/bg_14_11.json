@@ -19,14 +19,65 @@
       "surface_form": "dvāreṣu",
       "lemma": "dvāra",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यदा वस्तुयाथात्म्यप्रकाशे ज्ञानम् उपजायते? तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "श्रोत्रादिषु यदा शब्दादिज्ञानात्मकः प्रकाश उपजायते उत्पद्यते तदा अनेन प्रकाशलिङ्गेन सत्त्वं विवृद्धं विद्याज्जानीयत्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dehe",
       "lemma": "deha",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अस्मिन् उपजायते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सत्त्वं प्रवृद्धम् इति विद्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सर्वेष्वपि द्वारेषु श्रोत्रादिषु यदा शब्दादिज्ञानात्मकः प्रकाश उपजायते उत्पद्यते तदा अनेन प्रकाशलिङ्गेन सत्त्वं विवृद्ध",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वेष्वपि द्वारेषूपलब्धिसाधनेषु श्रोत्रादिकरणेषु यदा प्रकाशः बुद्धिपरिणामविशेषो विषयाकारः स्वविषयावरणविरोधी दीपवत्? तद",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +98,40 @@
       "surface_form": "upajāyate",
       "lemma": "upajan",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तदेव ज्ञानम्। यदा एवं प्रकाशो ज्ञानाख्यः उपजायते? तदा ज्ञानप्रकाशेन लिङ्गेन विद्यात् विवृद्धम् उद्भूतं सत्त्वम् इति उत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "उत्पद्यते तदा अनेन प्रकाशलिङ्गेन सत्त्वं विवृद्धं विद्याज्जानीयत्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तदाऽनेन शब्दादिविषयज्ञानाख्यप्रकाशेन लिङ्गेन प्रकाशात्मकं सत्त्वं विवृद्धमुद्भूतमिति विद्याज्जानीयात् उत",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +173,16 @@
       "surface_form": "sattvam",
       "lemma": "sattva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति उत अपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

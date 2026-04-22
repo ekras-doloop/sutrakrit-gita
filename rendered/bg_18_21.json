@@ -12,7 +12,41 @@
       "surface_form": "pṛthaktvena",
       "lemma": "pṛthaktva",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु भेदेन प्रतिशरीरम् अन्यत्वेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्माख्यान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "तु यज्ज्ञानमित्यस्यैव विवरणं सर्वेषु भूतेषु देहेषु नानाभावान्वस्तुत एवानेकान्क्षेत्रज्ञान् पृथग्विधान्सुखीदुःखीत्यादिरू",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "भेदेन स्थितेषु सर्वभूतेषु देहादिषु नानाभावान् प्रतिदेहमन्यानात्मनः पृथग्विधान् सुखदुःखित्वादिरूपेण परस्परविलक्षणान्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,42 +74,162 @@
       "surface_form": "nānā",
       "lemma": "nānā",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतान् सितदीर्घादिपृथक्त्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhāvān",
       "lemma": "bhāva",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नाना भूतान् सितदीर्घादिपृथक्त्वेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pṛthagvidhān",
       "lemma": "pṛthagvidha",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पृथक्प्रकारान् भिन्नलक्षणान् इत्यर्थः? वेत्ति विजानाति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "फलादिसंयोगयोग्यान् कर्माधिकारवेलायां यद् ज्ञानं वेत्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सुखदुःखित्वादिरूपेण परस्परविलक्षणान्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vetti",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विजानाति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तत् ज्ञानं राजसं विद्धि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तज्ज्ञानं राजसं विद्धि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarveṣu",
       "lemma": "sarva",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भूतेषु? ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भूतेषु ब्राह्मणादिषु ब्राह्मणाद्याकार पृथक्त्वेन आत्माख्यान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "भूतेषु देहेषु नानाभावान्वस्तुत एवानेकान्क्षेत्रज्ञान् पृथग्विधान्सुखीदुःखीत्यादिरूपेण विलक्षणान् येन ज्ञानेन वेत्ति तज्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhūteṣu",
       "lemma": "bhūta",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ब्राह्मणादिषु ब्राह्मणाद्याकार पृथक्त्वेन आत्माख्यान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "देहेषु नानाभावान्वस्तुत एवानेकान्क्षेत्रज्ञान् पृथग्विधान्सुखीदुःखीत्यादिरूपेण विलक्षणान् येन ज्ञानेन वेत्ति तज्ज्ञानं",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +250,24 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "राजसं रजोगुणनिर्वृत्तम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "राजसमिति पुनर्ज्ञानपदमात्मभेदज्ञानं अनात्मभेदज्ञानं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

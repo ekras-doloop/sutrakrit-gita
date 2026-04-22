@@ -33,7 +33,40 @@
       "surface_form": "lokāḥ",
       "lemma": "loka",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वे पुनरावर्तिनः पुनरावर्तनस्वभावाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भोगैश्वर्यालयाः पुनरावर्तिनः विनाशिनः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ब्रह्मभुवनमभिव्याप्य निर्दिष्टा जनाः सर्वे एवेह पुनरावर्त्तनशीलाः सन्ति धर्मस्य ह्यनिमित्तस्य विपाकः परमेष्ठ्यसौ इत्यपि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पुनरावर्तनशीलाः ब्रह्मलोकस्यापि विनाशित्वात्तत्प्राप्तानामनुत्पन्नज्ञानानामवश्यंभावि पुनर्जन्म",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +101,16 @@
       "surface_form": "upetya",
       "lemma": "upe",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु कौन्तेय पुनर्जन्म पुनरुत्पत्तिः न विद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +124,24 @@
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुनर्जन्म पुनरुत्पत्तिः न विद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मातृतोऽपि प्रसिद्धमहानुभाव पुनर्जन्म न विद्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +169,40 @@
       "surface_form": "vidyate",
       "lemma": "vid",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।ब्रह्मलोकसहिताः लोकाः कस्मात् पुनरावर्तिनः कालपरिच्छिन्नत्वात्। कथम् --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।ब्रह्मलोकपर्यन्तानां लोकानां तदन्तर्वर्तिनां च परमपुरुषसंकल्पकृताम् उत्पत्तिविनाशकालव्यवस्थाम् आह --",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "नैष्कर्म्यगम्यत्वात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। पुनरावृत्तिर्नास्तीत्यर्थः। अत्रार्जुन कौन्तेयेति संबोधनद्वयेन स्वरूपतः कारणतश्च शुद्धिर्ज्ञानसंपत्तये सूचिता। अत्रेयं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

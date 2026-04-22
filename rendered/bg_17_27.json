@@ -12,21 +12,128 @@
       "surface_form": "yajñe",
       "lemma": "yajña",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यज्ञकर्मणि या स्थितिः? तपसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तपसि दाने",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तपसि ৷৷. कर्म चैव इत्यनेन यज्ञादिषु सच्छब्दो व्याख्यातः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तपसि दाने",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tapasi",
       "lemma": "tapas",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च या स्थितिः? दाने",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "दाने च स्थितिः कल्याणतया सद् इति उच्यते। कर्म च तदर्थीयं त्रैवर्णिकार्थीयं यज्ञदानादिकं सद् इति एव अभिधीयते।तस्माद् वेद",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "৷৷. कर्म चैव इत्यनेन यज्ञादिषु सच्छब्दो व्याख्यातः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "दाने च स्थितिः सदिति चोच्यते। स्थादिधातुगणे भुवो व्यापकत्वं? तदनुकृञश्चेति यज्ञपत्युपाध्यायाः प्रोचुः। अतएवोक्तं -- सर्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "दाने च या स्थितिस्तत्परतयावस्थितिर्निष्ठा सापि सदित्युच्यते विद्वद्भिः। कर्म चैव तदर्थीयं तेषु यज्ञदानतपोरूपेष्वर्थेषु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dāne",
       "lemma": "dāna",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च या स्थितिः? सा सत् इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च स्थितिः कल्याणतया सद् इति उच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च स्थितिः सदिति चोच्यते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "च या स्थितिस्तत्परतयावस्थितिर्निष्ठा सापि सदित्युच्यते विद्वद्भिः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +147,32 @@
       "surface_form": "sthitiḥ",
       "lemma": "sthiti",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? तपसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कल्याणतया सद् इति उच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सदिति चोच्यते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +207,57 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च एव तदर्थीयं यज्ञदानतपोऽर्थीयम् अथवा? यस्य अभिधानत्रयं प्रकृतं तदर्थीयं यज्ञदानतपोऽर्थीयम् ईश्वरार्थीयम् इत्येतत् सत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च तदर्थीयं त्रैवर्णिकार्थीयं यज्ञदानादिकं सद् इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "चैव इत्यनेन यज्ञादिषु सच्छब्दो व्याख्यातः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "चैव तदर्थीयं सदुत्तममित्येवाभिधीयते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पूजोपहारगृहाङ्गणपरिमार्जनोपलेपरङ्गमाङ्गलिकादिक्रियास्तत्सिद्धये यदन्यत्कर्म क्रियते उद्यानशालिक्षेत्रधनार्जनादिविषयं तत",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चैव तदर्थीयं तेषु यज्ञदानतपोरूपेष्वर्थेषु भवं तदनुकूलमेव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

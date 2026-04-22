@@ -19,7 +19,40 @@
       "surface_form": "bhūteṣu",
       "lemma": "bhūta",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "येन ज्ञानेन एकं भावं वस्तु -- भावशब्दः वस्तुवाची? एकम् आत्मवस्तु इत्यर्थः अव्ययं न व्येति स्वात्मना स्वधर्मेण वा? कूटस्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्माधिकारिषु येन ज्ञानेन एकाकारम् आत्माख्यं भावं तत्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ब्रह्मादिस्थावरान्तेषु विभक्तेषु परस्परं व्यावृत्तेषु अविभक्तमनुस्यूतं एकमव्ययं निर्विकारं भावं परमात्मतत्त्वं येन ज्ञा",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अव्याकृतहिरण्यगर्भविराट्संज्ञेषु बीजसूक्ष्मस्थूलरूपेषु समष्टिव्यष्ट्यात्मकेषु",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +73,16 @@
       "surface_form": "bhāvam",
       "lemma": "bhāva",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अविभक्तं प्रतिदेहं विभक्तेषु देहभेदेषु न विभक्तं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +110,40 @@
       "surface_form": "vibhakteṣu",
       "lemma": "vibhaj",
       "grammar": "locative neuter plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देहभेदेषु न विभक्तं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वेषु भूतेषु कर्माधिकारिषु येन ज्ञानेन एकाकारम् आत्माख्यं भावं तत्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परस्परं व्यावृत्तेषु अविभक्तमनुस्यूतं एकमव्ययं निर्विकारं भावं परमात्मतत्त्वं येन ज्ञानेनेक्षते आलोचयति तज्ज्ञानं सात्त",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परस्परव्यावृत्तेषु नानारसेष्वव्ययमुत्पत्तिविनाशादिसर्वविक्रियाशून्यमदृश्यमविभक्तमव्यावृत्तं सर्वत्रानुस्यूतमधिष्ठानतया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +164,32 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति।।यानि द्वैतदर्शनानि तानि असम्यग्भूतानि राजसानि तामसानि च इति न साक्षात् संसारोच्छित्तये भवन्ति --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अतएवोक्तं श्रीमद्भागवते -- [6।16।9]एष,नित्योऽव्ययः सूक्ष्म एष सर्वाश्रयः स्वदृक् इति। अत्र सर्वाश्रय एक एवात्माऽणुर्जी",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। द्वैतदर्शनं तु राजसं तामसं च संसारकारणं न सात्त्विकमित्यभिप्रायः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

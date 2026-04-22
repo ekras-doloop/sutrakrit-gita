@@ -47,7 +47,32 @@
       "surface_form": "jātu",
       "lemma": "jātu",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कदाचित् कर्मणि अतन्द्रितः अनलसः सन् मम श्रेष्ठस्य सतः वर्त्म मार्गम् अनुवर्तन्ते मनुष्याः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कदाचिदतन्द्रितोऽनलसः सन्यदि कर्मणि न वर्तेयं कर्म नानुतिष्ठेयं तर्हि ममैव वर्त्म मार्गं मनुष्या अनुवर्तन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कदाचिन्न वर्तेयं नानुतिष्ठेयं कर्माणि तदा मम श्रेष्ठस्य सतो वर्त्म मार्गं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +86,25 @@
       "surface_form": "atandritaḥ",
       "lemma": "atandrita",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनलसः सन् मम श्रेष्ठस्य सतः वर्त्म मार्गम् अनुवर्तन्ते मनुष्याः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वदा यदि न वर्तेयम् मम शिष्टजनाग्रेसरवसुदेवसूनोः वर्त्म अकृत्स्नविदः शिष्टाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +118,40 @@
       "surface_form": "vartma",
       "lemma": "vartman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मार्गम् अनुवर्तन्ते मनुष्याः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अकृत्स्नविदः शिष्टाः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मार्गं मनुष्या अनुवर्तन्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मार्गं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +165,48 @@
       "surface_form": "manuṣyāḥ",
       "lemma": "manuṣya",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हे पार्थ सर्वशः सर्वप्रकारैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्माधिकारिणः सन्तोऽनुवर्तन्तेऽनुवर्तेरन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वशः सर्वप्रकारैः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मनुष्याः कर्माधिकारिणः सन्तोऽनुवर्तन्तेऽनुवर्तेरन्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

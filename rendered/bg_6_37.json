@@ -12,7 +12,24 @@
       "surface_form": "ayatiḥ",
       "lemma": "ayati",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अप्रयत्नवान् योगमार्गे श्रद्धया आस्तिक्यबुद्ध्या",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यादिपदानामर्थौचित्यात् क्रमभेदेन अन्वयो दर्शितः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +78,16 @@
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्रासंभावनाविपरीतभावनाख्यप्रतिबन्धनिरासायअथातो ब्रह्मजिज्ञासा इत्यादिअनावृत्तिः शब्दात् इत्यन्तया चतुर्लक्षणमीमांसया श",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +122,56 @@
       "surface_form": "kṛṣṇa",
       "lemma": "kṛṣṇa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्षकेत्यन्वर्थसम्बोधनं साभिप्रायम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "गच्छति सुगतिं दुर्गतिं वा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "gacchati",
       "lemma": "gam",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति सामान्यनिर्दिष्टमेवकच्चित् इत्यादिना विवृतम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "सुगतिं दुर्गतिं वा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

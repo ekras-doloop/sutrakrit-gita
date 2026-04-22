@@ -26,14 +26,48 @@
       "surface_form": "paśyati",
       "lemma": "dṛś",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कश्चित्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तथाविधः कश्चित् परस्मै वदति एवं कश्चिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। शास्त्राचार्योपदेशाभ्यामाविद्यकसर्वद्वैतनिषेधेन परमात्मस्वरूपमात्राकारायां वेदान्तमहावाक्यजन्यायां सर्वसुकृतफलभूतायामन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kaścid",
       "lemma": "kaścit",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव श्रृणोति श्रुत्वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +95,32 @@
       "surface_form": "vadati",
       "lemma": "vad",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तथैव च अन्यः। आश्चर्यवच्च एनमन्यः श्रृणोति। श्रुत्वा दृष्ट्वा उक्त्वापि एनमात्मानं वेद न चैव कश्चित्। अथवा योऽयमात्मानं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एवं कश्चिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च शृणोति च",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +148,16 @@
       "surface_form": "anyaḥ",
       "lemma": "anya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। आश्चर्यवच्च एनमन्यः श्रृणोति। श्रुत्वा दृष्ट्वा उक्त्वापि एनमात्मानं वेद न चैव कश्चित्। अथवा योऽयमात्मानं पश्यति स आश्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,21 +192,64 @@
       "surface_form": "anyaḥ",
       "lemma": "anya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। आश्चर्यवच्च एनमन्यः श्रृणोति। श्रुत्वा दृष्ट्वा उक्त्वापि एनमात्मानं वेद न चैव कश्चित्। अथवा योऽयमात्मानं पश्यति स आश्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śṛṇoti",
       "lemma": "śru",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च। अन्य कश्चित्पुनर्विपरीतभावनाभिभूतः श्रुत्वापि नैव वेद। चशब्दादुक्त्वापि न सम्यग्वेदेति द्रष्टव्यम्।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "श्रुत्वाप्येनं वेदेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śrutvā",
       "lemma": "śru",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दृष्ट्वा उक्त्वापि एनमात्मानं वेद न चैव कश्चित्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपि एनं यथावद् अवस्थितं तत्त्वतो न कश्चिद् वेद",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -187,7 +298,16 @@
       "surface_form": "kaścid",
       "lemma": "kaścit",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव श्रृणोति श्रुत्वा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

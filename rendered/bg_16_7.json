@@ -61,7 +61,16 @@
       "surface_form": "āsurāḥ",
       "lemma": "āsura",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न विदुः न जानन्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,14 +133,82 @@
       "surface_form": "teṣu",
       "lemma": "tad",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विद्यते अशौचाः अनाचाराः मायाविनः अनृतवादिनो हि आसुराः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न विद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "विद्यते इति मानसकायिकवाचिकदोषसद्भावेन सर्वत्र कर्मादौ तत्प्रतिपादकशास्त्रे",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "नास्त्येव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vidyate",
       "lemma": "vid",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अशौचाः अनाचाराः मायाविनः अनृतवादिनो हि आसुराः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। न अपि च आचारः? तद् बाह्याभ्यन्तरशौचं येन सन्ध्यावन्दनादिना आचारेण जायते? स अपि आचारः तेषु न विद्यते। तथा उक्तम् -- सन्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति मानसकायिकवाचिकदोषसद्भावेन सर्वत्र कर्मादौ तत्प्रतिपादकशास्त्रे",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। सत्यशौचयोराचारान्तर्भावेऽपि ब्राह्मणपरिव्राजकन्यायेन पृथगुपादानम्। अशौचा अनाचारा अनृतवादिनो ह्यसुरा मायाविनः प्रसिद्धा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

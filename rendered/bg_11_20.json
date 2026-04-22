@@ -82,14 +82,73 @@
       "surface_form": "sarvāḥ",
       "lemma": "sarva",
       "grammar": "nominative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "व्याप्ताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "त्वया एकेन व्याप्ताः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "रूपान्तरैरित्युक्तं भवति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dṛṣṭvā",
       "lemma": "dṛś",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उपलभ्य अद्भुतं विस्मापकं रूपम् इदं तव उग्रं क्रूरं लोकानां त्रयं लोकत्रयं प्रव्यथितं भीतं प्रचलितं वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अद्भूतं रूपम् उग्रं तव इदम् अनन्तायामविस्तारम् अत्यद्भुतम् अति उग्रं तव रूपं दृष्ट्वा लोकत्रयं प्रव्यथितम् -- युद्धदिदृ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "देवं मोदमाना अदृष्ट्वाऽप्येतद्भयाद्बिभ्यतो दृष्टवत्ते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "लोकत्रयं प्रव्यथितमतिभीतं पश्यामीति पूर्वस्यैवानुषङ्गः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +162,24 @@
       "surface_form": "rūpam",
       "lemma": "rūpa",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इदं तव उग्रं क्रूरं लोकानां त्रयं लोकत्रयं प्रव्यथितं भीतं प्रचलितं वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उग्रं तव इदम् अनन्तायामविस्तारम् अत्यद्भुतम् अति उग्रं तव रूपं दृष्ट्वा लोकत्रयं प्रव्यथितम् -- युद्धदिदृक्षया आगतेषु ब",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -152,7 +228,24 @@
       "surface_form": "mahātman",
       "lemma": "mahātman",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अक्षुद्रस्वभाव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपरिच्छेद्यमनोवृत्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -33,14 +33,80 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? शरीरारम्भद्वारेण संसारकारणम्? किमनेन इत्येवम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न द्वेष्टि? कुशले",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अशोभनं काम्यं निषिद्धं वा कर्म न प्रतिकूलतया मन्यते? कुशले शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति? कर्तृत्वाद्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kuśale",
       "lemma": "kuśala",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शोभने नित्ये कर्मणि सत्त्वशुद्धिज्ञानोत्पत्तितन्निष्ठाहेतुत्वेन मोक्षकारणम् इदम् इत्येवं न अनुषज्जते अनुषङ्गं प्रीतिं न",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च कर्मणि न अनुषज्जते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "चेष्टस्वर्गादिफलके कर्मणि नानुषज्जते? त्यक्तात्मसुखातिरिक्तफलत्वात्? त्यक्तकर्तृत्वाच्च",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "च सुखकरे कर्मणि निदाघे माध्याह्नस्नानादौ नानुषज्जते प्रीतिं न करोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति? कर्तृत्वाद्यभिमानरहितत्वेन कृतकृत्यत्वात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +127,25 @@
       "surface_form": "tyāgī",
       "lemma": "tyāgin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पूर्वोक्तेन सङ्गफलत्यागेन तद्वान् त्यागी?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न द्वेष्टि अकुशलं कर्म कुशले",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +166,32 @@
       "surface_form": "medhāvī",
       "lemma": "medhāvin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मेधया आत्मज्ञानलक्षणया प्रज्ञया संयुक्तः तद्वान् मेधावी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यथावस्थिततत्त्वज्ञानः तत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "शमदमसर्वकर्मोपरमगुरूपसदनादिसामवायिकाङ्गयुक्तेन मनननिदिध्यासनाख्यफलोपकार्यङ्गयुक्तेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +205,16 @@
       "surface_form": "saṃśayaḥ",
       "lemma": "saṃśaya",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यस्य आत्मस्वरूपावस्थानमेव परं निःश्रेयससाधनम्? न अन्यत् किञ्चित् इत्येवं निश्चयेन च्छिन्नसंशयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -12,7 +12,25 @@
       "surface_form": "śreyān",
       "lemma": "śreyas",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रशस्यतरः स्वो धर्मः स्वधर्मः? विगुणो ऽपि इति अपिशब्दो द्रष्टव्यः? परधर्मात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।तद् एव उपपादयति -- प्रकृतिसंसृष्टस्य पुरुषस्य इन्द्रियव्यापाररूपतया स्वभावत एव नियत त्वात् कर्मणः कर्म कुर्वन् किल्बिषं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,7 +44,16 @@
       "surface_form": "viguṇaḥ",
       "lemma": "viguṇa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपि परधर्माद् इन्द्रियजयनिपुणपुरुषधर्माद् ज्ञानयोगात् सकलेन्द्रियनियमनरूपतया सप्रमादात् कदाचित् स्वनुष्ठितात् श्रेयान्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +102,81 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कुर्वन् न आप्नोति किल्बिषं पापम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "कुर्वन् -- यथा क्षत्ित्रयस्य युद्धादि तदेव स्वाभाविकं तव कर्म युद्धादिकमुचितमिति भावः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कुर्वन्किल्बिषं नाप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कुर्वन् किल्बिषं पापं बन्धुवधादिनिमित्तं न प्राप्नोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kurvan",
       "lemma": "kṛ",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न आप्नोति किल्बिषं पापम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "किल्बिषं संसारं न आप्नोति अप्रमादत्वात् कर्मणः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "-- यथा क्षत्ित्रयस्य युद्धादि तदेव स्वाभाविकं तव कर्म युद्धादिकमुचितमिति भावः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "किल्बिषं पापं बन्धुवधादिनिमित्तं न प्राप्नोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

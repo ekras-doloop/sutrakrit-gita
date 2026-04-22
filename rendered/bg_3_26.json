@@ -61,7 +61,32 @@
       "surface_form": "joṣayet",
       "lemma": "joṣay",
       "grammar": "present optative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कारयेत् सर्वकर्माणि विद्वान् स्वयं तदेव अविदुषां कर्म युक्तः अभियुक्तः समाचरन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यस्यार्थ प्रीतिं जनयेदिति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रीत्या सेवयेत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,21 +107,81 @@
       "surface_form": "vidvān",
       "lemma": "vidvas",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्वयं तदेव अविदुषां कर्म युक्तः अभियुक्तः समाचरन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "लोकसंग्रहं चिकीर्षुः अविद्वदधिकारिकाणि सर्वकर्माणि समाचरन् तेषां श्रद्धामुत्पाद्य जोषयेत् प्रीत्या सेवयेत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yuktaḥ",
       "lemma": "yuj",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अभियुक्तः समाचरन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्म एव आचरन् सर्वकर्मसु अकृत्स्नविदां प्रीतिं जनयेत्।अथ कर्मयोगम् अनुतिष्ठतो विदुषः अविदुषश्च विशेषं प्रदर्शयन् कर्मयो",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "samācaran",
       "lemma": "samācar",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।अविद्वानज्ञः कथं कर्मसु सज्जते इत्याह",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। बुद्धिचालने कृते सति कर्मसु श्रद्धानिवृत्तेर्ज्ञानस्य चानुत्पत्तेस्तेषामुभयभ्रंशः स्यादिति भावः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तेषां श्रद्धामुत्पाद्य जोषयेत् प्रीत्या सेवयेत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

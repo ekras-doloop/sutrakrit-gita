@@ -12,7 +12,48 @@
       "surface_form": "cetasā",
       "lemma": "cetas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विवेकबुद्ध्या सर्वकर्माणि दृष्टादृष्टार्थानि मयि ईश्वरे संन्यस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मनो मदीयत्वमन्नियाम्यत्वबुद्ध्या उक्तं हिमयि सर्वाणि कर्माणि संन्यस्याध्यात्मचेतसा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योगभक्तिवासितेन मयि साक्षात्कर्त्तरि परदेवतायां सन्न्यस्यानुसन्धाय त्यागार्थकत्वेऽपिदण्डिपुरुषं त्यज इतिवद्विशेषणपरित्य",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मयि संन्यस्य समर्प्य मत्परः अहमेव परः प्राप्यः पुरुषार्थो यस्य सः व्यवसायात्मिकया बुद्ध्या योगमाश्रित्य सततं कर्मानुष्ठ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "विवेकबुद्ध्या सर्वकर्माणि दृष्टादृष्टार्थानि मयीश्वरे संन्यस्ययत्करोषि यदश्नासि इत्युक्तन्यायेन समर्प्य मत्परोऽहं भगवान",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,7 +67,16 @@
       "surface_form": "karmāṇi",
       "lemma": "karman",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संन्यस्याध्यात्मचेतसा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +90,32 @@
       "surface_form": "saṃnyasya",
       "lemma": "saṃnyas",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत् करोषि यदश्नासि (गीता 9",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मत्परः अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "समर्प्य मत्परः अहमेव परः प्राप्यः पुरुषार्थो यस्य सः व्यवसायात्मिकया बुद्ध्या योगमाश्रित्य सततं कर्मानुष्ठानकालेऽपिब्रह",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

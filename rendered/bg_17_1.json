@@ -33,21 +33,89 @@
       "surface_form": "utsṛjya",
       "lemma": "utsṛj",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परित्यज्य यजन्ते देवादीन् पूजयन्ति श्रद्धया अन्विताः श्रद्धया आस्तिक्यबुद्ध्या अन्विताः संयुक्ताः सन्तः -- श्रुतिलक्षणं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "श्रद्धयान्विता ये यजन्ते तेषां निष्ठा का किं सत्वम् आहो स्वित् रजः अथ तमःनिष्ठा स्थितिः? स्थीयते अस्मिन् इति स्थितिः? स",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yajante",
       "lemma": "yaj",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवादीन् पूजयन्ति श्रद्धया अन्विताः श्रद्धया आस्तिक्यबुद्ध्या अन्विताः संयुक्ताः सन्तः -- श्रुतिलक्षणं स्मृतिलक्षणं वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तेषां निष्ठा का किं सत्वम् आहो स्वित् रजः अथ तमःनिष्ठा स्थितिः? स्थीयते अस्मिन् इति स्थितिः? सत्त्वादिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इत्यनेन शास्त्रार्थं बुध्वा तमुल्लङ्घ्य वर्तमानाश्च गृह्यन्ते? तेषां श्रद्धया यजनानुपपत्तेः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "देवपूजादिकं कुर्वन्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "śraddhayā",
       "lemma": "śraddhā",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्विताः श्रद्धया आस्तिक्यबुद्ध्या अन्विताः संयुक्ताः सन्तः -- श्रुतिलक्षणं स्मृतिलक्षणं वा कञ्चित् शास्त्रविधिम् अपश्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वर्तमानानां किमधिकारोऽस्ति नास्ति वेति बुभुत्सया अर्जुन उवाच -- य इति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +136,57 @@
       "surface_form": "niṣṭhā",
       "lemma": "niṣṭhā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु का कृष्ण सत्त्वम् आहो रजः तमः? किं सत्त्वं निष्ठा अवस्थानम्? आहोस्वित् रजः? अथवा तमः इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "का किं सत्वम् आहो स्वित् रजः अथ तमःनिष्ठा स्थितिः? स्थीयते अस्मिन् इति स्थितिः? सत्त्वादिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पृच्छ्येत तदा ते तामसा इत्येवोत्तरमुच्येत तदीयतामसत्त्वस्याविकल्पितत्वादिति भावः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "का हे कर्षक किं सत्त्वमाहो रजस्तम इति तेषां सत्त्वविषयिणी सा रजस्तमोविषयिणी वा निष्ठा इति प्रश्नतात्पर्यम्।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "का स्थितिः क आश्रयः तामेव विशेषेण पृच्छति किं सत्त्वं? आहो किं वा रजः? अथवा तम इति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "का कीदृशी तेषां शास्त्रविध्यनपेक्षा श्रद्धापूर्विका च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +207,40 @@
       "surface_form": "kṛṣṇa",
       "lemma": "kṛṣṇa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सत्त्वम् आहो रजः तमः? किं सत्त्वं निष्ठा अवस्थानम्? आहोस्वित् रजः? अथवा तमः इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भक्ताघकर्षण? किं सात्त्विकी तथा सति सात्त्विकत्वात्ते देवाः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sattvam",
       "lemma": "sattva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आहो रजः तमः? किं सत्त्वं निष्ठा अवस्थानम्? आहोस्वित् रजः? अथवा तमः इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

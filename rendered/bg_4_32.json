@@ -54,14 +54,66 @@
       "surface_form": "mukhe",
       "lemma": "mukha",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "द्वारे वेदद्वारेण अवगम्यमानाः ब्रह्मणो मुखे वितता उच्यन्ते तद्यथा वाचि हि प्राणं जुहुमः इत्यादयः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वितताः आत्मयाथात्म्यावाप्तिसाधनतया स्थिताः तान् उक्तलक्षणानुक्तभेदान् कर्मयोगान् सर्वान् कर्मजान् विद्धि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "।अहं हि सर्वयज्ञानां भोक्ता च प्रभुरेव च 9।24 इति वक्ष्यति। मानसिकवाचिककायिककर्मजा एव हि ते सर्वे। एवं ज्ञात्वा तानि कर्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "वितताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "द्वारे वेदद्वारेणैव तेऽवगता इत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। अतो विहितं न त्याज्यमिति भावः।",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +127,24 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तान् सर्वान् अनात्मजान् निर्व्यापारो हि आत्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अहरहः अनुष्ठीयमाननित्यनैमित्तिककर्मानुष्ठानजान् विद्धि। एवं ज्ञात्वा यथोक्तप्रकारेण अनुष्ठाय विमोक्ष्यसे।अन्तर्गतज्ञान",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +158,33 @@
       "surface_form": "sarvān",
       "lemma": "sarva",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनात्मजान् निर्व्यापारो हि आत्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्मजान् विद्धि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इत्ययुक्तमित्यत आह मानसिके ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +198,97 @@
       "surface_form": "jñātvā",
       "lemma": "jñā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विमोक्ष्यसे अशुभात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यथोक्तप्रकारेण अनुष्ठाय विमोक्ष्यसे",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तानि कर्माणि कृत्वा विमोक्ष्यसे",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "मोक्ष्यसे",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ज्ञाननिष्ठः सन्संसाराद्विमुक्तो भविष्यसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "विमोक्ष्यसे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vimokṣyase",
       "lemma": "vimuc",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अशुभात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।अन्तर्गतज्ञानतया कर्मणो ज्ञानाकारत्वम् उक्तम् तत्र अन्तर्गतज्ञाने कर्मणि ज्ञानांशस्य एव प्राधान्यम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। युद्धं परित्यज्य यन्मोक्षार्थं करिष्यसि तदपि कर्म। अतो विहितं न त्याज्यमिति भावः।",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "। अस्मात्संसारबन्धनादिति शेषः।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

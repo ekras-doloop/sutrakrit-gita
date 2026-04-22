@@ -19,21 +19,115 @@
       "surface_form": "brāhmī",
       "lemma": "brāhma",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मणि भवा इयं स्थितिः सर्वं कर्म संन्यस्य ब्रह्मरूपेणैव अवस्थानम् इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ब्रह्मप्रापिका",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "स्थितिः ब्रह्मविषया स्थितिः लक्षणम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "ब्रह्मसम्बन्धिनी वा स्थितिः स्थितधीलक्षणा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ब्रह्मविषया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sthitiḥ",
       "lemma": "sthiti",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वं कर्म संन्यस्य ब्रह्मरूपेणैव अवस्थानम् इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "स्थितधीलक्षणा ब्राह्मी ब्रह्मप्रापिका",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ब्रह्मविषया स्थितिः लक्षणम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "स्थितधीलक्षणा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न एनां स्थितिं प्राप्य लब्ध्वा न विमुह्यति न मोहं प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एनां स्थितिं प्राप्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,21 +148,147 @@
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लब्ध्वा न विमुह्यति न मोहं प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न विमुह्यति न पुनः संसारम् आप्नोति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "रुद्रपदं गतः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "न विमुह्यति पुनः संसारमोहं न प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "यः कश्चिदपि पुनर्न विमुह्यति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vimuhyati",
       "lemma": "vimuh",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न मोहं प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "न पुनः संसारम् आप्नोति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति। पाशुपतवैशेषिकादयस्त्वाहुः अनियतकालविपाकान्यपि कर्माणि ज्ञानी योगसामर्थ्यात्समाहृत्यानेकशरीरफलान्यपि कायव्यूहनिर्मा",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "पुनः संसारमोहं न प्राप्नोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। नहि ज्ञानबाधितस्याज्ञानस्य पुनः संभवोऽस्ति अनादित्वेनोत्पत्त्यसंभवात्। अस्यां स्थितावन्तकालेऽप्यन्त्येऽपि वयसि स्थित्व",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sthitvā",
       "lemma": "sthā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अस्यां स्थितौ ब्राह्म्यां यथोक्तायां अन्तकालेऽपि अन्त्ये वयस्यपि ब्रह्मनिर्वाणं ब्रह्मनिर्वृतिं मोक्षम् ऋच्छति गच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ब्रह्म निर्वाणम् ऋच्छति निर्वाणमयं ब्रह्म गच्छति सुखैकतानम् आत्मानम् आप्नोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ब्रह्मसुखं प्राप्नोति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ब्रह्मणि निर्वाणं लयमृच्छति प्राप्नोति किं पुनर्वक्तव्यं बाल्यमारभ्य स्थित्वा प्राप्नोतीति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मनिर्वाणं ब्रह्मणि निर्वाणं निर्वृतिं ब्रह्मरूपं निर्वाणमिति वा ऋच्छति गच्छत्यभेदेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,21 +323,64 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हि निर्दोषं समम् तस्यैवेति ब्राह्मी ब्रह्मसम्बन्धिनी वा स्थितिः स्थितधीलक्षणा",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "nirvāṇam",
       "lemma": "nirvāṇa",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ऋच्छति निर्वाणमयं ब्रह्म गच्छति सुखैकतानम् आत्मानम् आप्नोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ṛcchati",
       "lemma": "ṛch",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गच्छति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निर्वाणमयं ब्रह्म गच्छति सुखैकतानम् आत्मानम् आप्नोति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "गच्छत्यभेदेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

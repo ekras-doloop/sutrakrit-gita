@@ -26,7 +26,40 @@
       "surface_form": "manasā",
       "lemma": "manas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अचलेन चलनवर्जितेन भक्त्या युक्तः भजनं भक्तिः तया युक्तः योगबलेन चैव योगस्य बलं योगबलं समाधिजसंस्कारप्रचयजनितचित्तस्थैर्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रयाणकाले भ्रुवोः मध्ये प्राणम् आवेश्य संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योऽनुस्मरेत्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "तं पुरुषं योऽनुस्मरेदित्यनुवर्तते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +73,32 @@
       "surface_form": "bhaktyā",
       "lemma": "bhakti",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "युक्तः भजनं भक्तिः तया युक्तः योगबलेन चैव योगस्य बलं योगबलं समाधिजसंस्कारप्रचयजनितचित्तस्थैर्यलक्षणं योगबलं तेन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "युक्तो योगबलेन इति पृथङ्निर्देशात् परोक्तप्राणजयबलादिपृथगर्थताप्रतीतिः स्यादिति तदपाकरणाय विशिष्टैकार्थतां दर्शयितुंभक्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परमेश्वरविषयेण परमेण प्रेम्णा युक्तः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,28 +147,89 @@
       "surface_form": "madhye",
       "lemma": "madhya",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राणम् आवेश्य स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उप",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राणम् आवेश्य संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prāṇam",
       "lemma": "prāṇa",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आवेश्य स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उपैति प्रत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आवेश्य संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "āveśya",
       "lemma": "āveśay",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थापयित्वा सम्यक् अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उपैति प्रतिपद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "संस्थाप्य तत्र भ्रुवोर्मध्ये दिव्यं पुरुषं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "samyak",
       "lemma": "samyak",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अप्रमत्तः सन् सः एवं विद्वान् योगी,कविं पुराणम् इत्यादिलक्षणं तं परं परतरं पुरुषम् उपैति प्रतिपद्यते दिव्यं द्योतनात्मक",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -138,14 +257,48 @@
       "surface_form": "puruṣam",
       "lemma": "puruṣa",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उपैति प्रतिपद्यते दिव्यं द्योतनात्मकम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यन्वयः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "upaiti",
       "lemma": "upe",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतिपद्यते दिव्यं द्योतनात्मकम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद्भावं याति तत्समानैश्वर्यो भवति इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

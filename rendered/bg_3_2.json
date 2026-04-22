@@ -26,7 +26,24 @@
       "surface_form": "vākyena",
       "lemma": "vākya",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहम् अनुष्ठेयरूपं निश्चित्य आत्मनः श्रेयः प्राप्नुयाम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "त्वं मे मम मन्दबुद्धेर्वाक्यतात्पर्यापरिज्ञानाद्बुद्धिमन्तःकरणं मोहयसीव भ्रान्त्या योजयसीव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +99,41 @@
       "surface_form": "niścitya",
       "lemma": "niści",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वद ब्रूहि येन ज्ञानेन कर्मणा वा अन्यतरेण श्रेयः अहम् आप्नुयां प्राप्नुयाम् इति यदुक्तं तदपि नोपपद्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मनः श्रेयः प्राप्नुयाम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "वदेति। यद्वा इदमेव श्रेयःसाधनमिति निश्चित्य येनानुष्ठितेन श्रेयो मोक्षमहमाप्नुयां प्राप्स्यामि तदेवैकं निश्चित्य वदेत्य",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वद। येनाधिकारनिश्चयपुरःसरमुक्तेन त्वया मया चानुष्ठितेन ज्ञानेन कर्मणा वैकेन श्रेयो मोक्षमहमाप्नुयां प्राप्तुं योग्यः स्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

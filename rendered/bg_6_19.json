@@ -68,7 +68,32 @@
       "surface_form": "smṛtā",
       "lemma": "smṛ",
       "grammar": "nominative feminine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चिन्तिता योगिनो यतचित्तस्य संयतान्तःकरणस्य युञ्जतो योगम् अनुतिष्ठतः आत्मनः समाधिमनुतिष्ठत इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "समाधिदशासन्दर्शिभिर्योगिभिरिति शेषः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स दृष्टान्तश्चिन्तितो योगज्ञैः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +114,16 @@
       "surface_form": "cittasya",
       "lemma": "citta",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वदात्माकारतयात्मपदवैयर्थ्यं च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +137,56 @@
       "surface_form": "yogam",
       "lemma": "yoga",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुतिष्ठतः आत्मनः समाधिमनुतिष्ठत इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्येतद्व्याहन्येतेत्यभिप्रायेणाह आत्मनि योगं युञ्जत इति आत्मनि विषये साक्षात्कारं कुर्वत इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ātmanaḥ",
       "lemma": "ātman",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाधिमनुतिष्ठत इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति व्यधिकरणे षष्ठ्यौ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति अन्वयनिरासाय योगमित्युक्तम् अन्यथा वैयर्थ्यात्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

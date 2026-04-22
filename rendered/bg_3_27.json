@@ -12,28 +12,153 @@
       "surface_form": "prakṛteḥ",
       "lemma": "prakṛti",
       "grammar": "genitive feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रकृतिः प्रधानं सत्त्वरजस्तमसां गुणानां साम्यावस्था तस्याः प्रकृतेः गुणैः विकारैः कार्यकरणरूपैः क्रियमाणानि कर्माणिलौक",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "गुणैः सत्त्वादिभिः स्वानुरूपं क्रियमाणानि कर्माणि प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "क्रियमाणानि इति श्लोकद्वयस्यास्फुटत्वात्तात्पर्यमाह विद्वदि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kriyamāṇāni",
       "lemma": "kṛ",
       "grammar": "accusative neuter plural present participle pass verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कर्माणिलौकिकानि शास्त्रीयाणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्माणि प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति श्लोकद्वयस्यास्फुटत्वात्तात्पर्यमाह विद्वदि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कर्मामि कर्त्ताऽहं पुरुष इति मन्यते विपरीतमतिः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यानि कर्माणि तान्यहमेव कर्ता करोमीति मन्यसे",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "लौकिकानि वैदिकानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "guṇaiḥ",
       "lemma": "guṇa",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विकारैः कार्यकरणरूपैः क्रियमाणानि कर्माणिलौकिकानि शास्त्रीयाणि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सत्त्वादिभिः स्वानुरूपं क्रियमाणानि कर्माणि प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karmāṇi",
       "lemma": "karman",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "क्रियन्ते न केवलेनात्मनेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तान्यहमेव कर्ता करोमीति मन्यसे",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वशः सर्वप्रकारैरहंकारेण कार्यकारणसंघातात्मप्रत्ययेन विमूढः स्वरूपविवेकासमर्थ आत्मान्तःकरणं यस्य सोऽहंकारविमूढात्माऽन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +179,25 @@
       "surface_form": "vimūḍha",
       "lemma": "vimuh",
       "grammar": "compound participle (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मा यस्य असौ अहंकारविमूढात्मा अहंकारो नाम अनहमर्थे प्रकृतौ अहम् इति अभिमानः तेन अज्ञातात्मस्वरूपो गुणकर्मसु अहं कर्ता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "आत्मा बुद्धिर्यस्य सः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +225,48 @@
       "surface_form": "manyate",
       "lemma": "man",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।यः पुनर्विद्वान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अहंकारेण विमूढ आत्मा यस्य असौ अहंकारविमूढात्मा अहंकारो नाम अनहमर्थे प्रकृतौ अहम् इति अभिमानः तेन अज्ञातात्मस्वरूपो गुण",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति कथमुच्यते इत्यत आह न ही ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "विपरीतमतिः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कर्त्रध्यासेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

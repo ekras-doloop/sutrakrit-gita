@@ -19,14 +19,49 @@
       "surface_form": "yonīni",
       "lemma": "yoni",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ब्रह्मादिस्तम्बपर्यन्तानि उच्चावचभावेन अवस्थितानि चिदचिन्मिश्राणि सर्वाणि भूतानि मदीयानि इति उपधारय मदीयप्रकृतिद्वययोनी",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhūtāni",
       "lemma": "bhūta",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वाणि इति एवम् उपधारय जानीहि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मदीयानि इति उपधारय मदीयप्रकृतिद्वययोनीनि हि तानि मदीयानि एव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "भवनधर्मकाणि सर्वाणि चेतनाचेतनात्मकानिजनिमन्ति निखिलानीत्येवमुपधारय जानीहि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +82,24 @@
       "surface_form": "upadhāraya",
       "lemma": "upadhāray",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जानीहि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मदीयप्रकृतिद्वययोनीनि हि तानि मदीयानि एव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,21 +113,153 @@
       "surface_form": "kṛtsnasya",
       "lemma": "kṛtsna",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समस्तस्य जगतः प्रभवः उत्पत्तिः प्रलयः विनाशः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जगतः तयोः द्वयोः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "जगतः प्रभवः प्रलयस्तथा शां. इति व्याख्यानमपहसितं भवति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "सप्रकृतिकस्य जगतः प्रभवः प्रकर्षेण भवत्यस्मादिति प्रभवः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चराचरात्मकस्य जगतः सर्वस्य कार्यवर्गस्य प्रभव उत्पत्तिकारणं प्रलयस्तथा विनाशकारणम् स्वाप्निकस्येव प्रपञ्चस्य मायिकस्य म",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "jagataḥ",
       "lemma": "jagant",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रभवः उत्पत्तिः प्रलयः विनाशः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तयोः द्वयोः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रभवः प्रलयस्तथा शां. इति व्याख्यानमपहसितं भवति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "प्रभवः प्रलयस्तथा घटपटादेर्भूरिव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रभवः प्रकर्षेण भवत्यस्मादिति प्रभवः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वस्य कार्यवर्गस्य प्रभव उत्पत्तिकारणं प्रलयस्तथा विनाशकारणम् स्वाप्निकस्येव प्रपञ्चस्य मायिकस्य मायाश्रयत्वविषयत्वाभ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prabhavaḥ",
       "lemma": "prabhava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उत्पत्तिः प्रलयः विनाशः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अहम् एव प्रलयः अहम् एव च शेषी इति उपधारय। तयोः चिदचित्समष्टिभूतयोः प्रकृतिपुरुषयोः अपि परमपुरुषयोनित्वं श्रुतिस्मृतिसिद",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्रलीयतेऽस्मिन्निति प्रलयः इति शक्यते व्याख्यातुं तथापि महिमातिशयलाभायैवं व्याख्यातम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "प्रलयस्तथा घटपटादेर्भूरिव",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्रकर्षेण भवत्यस्मादिति प्रभवः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

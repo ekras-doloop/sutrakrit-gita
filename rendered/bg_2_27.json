@@ -12,7 +12,24 @@
       "surface_form": "jātasya",
       "lemma": "jan",
       "grammar": "genitive masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हि लब्धजन्मनः ध्रुवः अव्यभिचारी मृत्युः मरणं ध्रुवं जन्म मृतस्य च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वकृतधर्माधर्मादिवशाल्लब्धशरीरेन्द्रियसंबन्धनस्य स्थिरस्यात्मनो ध्रुव आवश्यको मृत्युस्तच्छरीरादिविच्छेदस्तदारम्भककर्मक",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +64,88 @@
       "surface_form": "janma",
       "lemma": "janman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मृतस्य च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अवर्जनीयम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। एवमवर्जनीयेऽर्थे न शोचितुमर्हसि।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "मृतस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "mṛtasya",
       "lemma": "mṛ",
       "grammar": "genitive masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च। तस्मादपरिहार्योऽयं जन्ममरणलक्षणोऽर्थः। तस्मिन्नपरिहार्येऽर्थे न त्वं शोचितुमर्हसि।। कार्यकरणसंघातात्मकान्यपि भूतान्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जन्मव्याघाताभिप्रायेण चोदयति कथमिति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "च ध्रुवमवर्जनीयं जन्म",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तत्तद्देहकृतेन कर्मणा जन्मापि ध्रुवमेव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "च प्राग्देहकृतकर्मफलोपभोगार्थं सानुशयस्यैव प्रस्तुतत्वान्न जीवन्मुक्तेर्व्यभिचारः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +194,32 @@
       "surface_form": "śocitum",
       "lemma": "śuc",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अर्हसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "arhasi",
       "lemma": "arh",
       "grammar": "present indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। सतो द्रव्यस्य पूर्वावस्थाविरोध्यवस्थान्तरप्राप्तिदर्शनेन यः अल्पीयान् शोकः सोऽपि मनुष्यादिभूतेषु न संभवति इत्याह।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

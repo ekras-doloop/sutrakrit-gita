@@ -40,7 +40,41 @@
       "surface_form": "jānāti",
       "lemma": "jñā",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अयम् अहम् अस्मि इति पुरुषोत्तमं सः सर्ववित् सर्वात्मना सर्वं वेत्तीति सर्वज्ञः सर्वभूतस्थं भजति मां सर्वभावेन सर्वात्मत",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? क्षराक्षरपुरुषाभ्याम् अव्ययस्वभावतया व्यापनभरणैश्वर्यादियोगेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स सर्ववित् एकविज्ञानेन सर्वविज्ञानात्सर्वात्मभावेन मां भजति सेवत इति मार्गान्तराद्वैलक्षण्यं दर्शितम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स सर्वभावेन सर्वप्रकारेण मामेव भजति ततः सर्ववित् सर्वज्ञो भवति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +109,48 @@
       "surface_form": "bhajati",
       "lemma": "bhaj",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मां सर्वभावेन सर्वात्मतया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मां सर्वभावेन ये",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सेवत इति मार्गान्तराद्वैलक्षण्यं दर्शितम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ततः सर्ववित् सर्वज्ञो भवति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सेवते सर्ववित् मां सर्वात्मानं वेत्तीति स",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +178,24 @@
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।अस्मिन् अध्याये भगवत्तत्त्वज्ञानं मोक्षफलम् उक्त्वा? अथ इदानीं तत् स्तौति --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? अतो यदुक्तंमां",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

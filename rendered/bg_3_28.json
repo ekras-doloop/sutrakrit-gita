@@ -54,7 +54,16 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कुर्वतोर्विद्वदविदुषोर्विशेषं स्पष्टं सन्दर्शयति प्रकृतेरिति द्वाभ्याम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +84,41 @@
       "surface_form": "guṇeṣu",
       "lemma": "guṇa",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विषयात्मकेषु वर्तन्ते न आत्मा इति मत्वा न सज्जते सक्तिं न करोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विषयेषु",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "विषयेषु वर्तन्ते नाहमिति मत्वा",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "विषयेषु प्रवर्तन्ते विकारित्वान्नतु निर्विकार आत्मेति मत्वा न सज्जते सक्तिं कर्तृत्वाभिनिवेशमतत्त्वविदिव न करोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +139,32 @@
       "surface_form": "matvā",
       "lemma": "man",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न सज्जते सक्तिं न करोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "गुणकर्मसु अहं कर्ता इति न सज्जते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न सज्जते सक्तिं कर्तृत्वाभिनिवेशमतत्त्वविदिव न करोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +178,40 @@
       "surface_form": "sajjate",
       "lemma": "sañj",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सक्तिं न करोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। इन्द्रियनिष्ठा गुणा विषयगुणेषु वर्तन्ते इति मननात्साङ्ख्ययोगयोरेक एवार्थः।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कर्तृत्वाभिनिवेशं न करोति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सक्तिं कर्तृत्वाभिनिवेशमतत्त्वविदिव न करोति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

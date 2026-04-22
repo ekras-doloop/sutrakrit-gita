@@ -12,7 +12,25 @@
       "surface_form": "śreyān",
       "lemma": "śreyas",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "द्रव्यमयात् द्रव्यसाधनसाध्यात् यज्ञात् ज्ञानयज्ञः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। सर्वस्य कर्मणः तदितरस्य च अखिलस्य उपादेयस्य ज्ञाने परिसमाप्तेः।तद् एवं सर्वैः साधनैः प्राप्यभूतं ज्ञानं कर्मान्तर्गतत्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +65,32 @@
       "surface_form": "yajñaḥ",
       "lemma": "yajña",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "फलस्यारम्भकः ज्ञानयज्ञः न फलारम्भकः अतः श्रेयान् प्रशस्यतरः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "parantapa",
       "lemma": "paraṃtapa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कस्मादेवं यस्मात् सर्वं कर्म इष्टिपशुसोमचयनरूपं श्रौतमखिलं निरवशेषं स्मार्तमुपासनादिरूपं च यत्कर्मं तत् ज्ञाने ब्रह्मा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +104,32 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समस्तम् अखिलम् अप्रतिबद्धं पार्थ ज्ञाने मोक्षसाधने सर्वतःसंप्लुतोदकस्थानीये परिसमाप्यते अन्तर्भवतीत्यर्थः यथा कृताय विज",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्युक्तत्वात् अखिलमिति पुनरुक्तिरित्यत आह अखिलमि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "परिसमाप्यते अन्तर्भवति सर्वं तदभिसमेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,21 +143,121 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञाने मोक्षसाधने सर्वतःसंप्लुतोदकस्थानीये परिसमाप्यते अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ज्ञाने परिसमाप्यते इत्यनेन कर्मफलस्य सर्वस्य ज्ञानेऽन्तर्भावश्च प्रतीयतेअपि चेदसि सर्वेभ्यः पापेभ्यः पापकृत्तमः 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "jñāne",
       "lemma": "jñāna",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मोक्षसाधने सर्वतःसंप्लुतोदकस्थानीये परिसमाप्यते अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं तदभिसमे",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परिसमाप्तेः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "परिसमाप्यते इत्यस्य ज्ञाने जाते न कर्म कार्यमित्यन्यथाप्रतीतिनिवारणाय तात्पर्यमाह ज्ञाने ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "परिसमाप्यते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मात्मैक्यसाक्षात्कारे समाप्यते प्रतिबन्धक्षयद्वारेण पर्यवस्यति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "parisamāpyate",
       "lemma": "parisamāp",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अन्तर्भवतीत्यर्थः यथा कृताय विजितायाधरेयाः संयन्त्येवमेनं सर्वं तदभिसमेति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यनेन कर्मफलस्य सर्वस्य ज्ञानेऽन्तर्भावश्च प्रतीयतेअपि चेदसि सर्वेभ्यः पापेभ्यः पापकृत्तमः 4",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इत्यस्य ज्ञाने जाते न कर्म कार्यमित्यन्यथाप्रतीतिनिवारणाय तात्पर्यमाह ज्ञाने ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "अन्तर्भवति सर्वं तदभिसमेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। अन्तर्भवतीत्यर्थः।सर्वं तदभिसमेति यत्किंचित्प्रजाः साधु कुर्वन्ति इति श्रुतेः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -54,7 +54,32 @@
       "surface_form": "samanvitaḥ",
       "lemma": "samanvita",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संयुक्तः धृत्युत्साहसमन्वितः? सिद्ध्यसिद्ध्योः क्रियमाणस्य कर्मणः फलसिद्धौ असिद्धौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सिद्ध्यसिद्ध्योः निर्विकारः युद्धादौ कर्मणि तदुपकरणभूतद्रव्यार्जनादिषु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "संयुक्तः? आरब्धस्य कर्मणः सिद्धावसिद्धौ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,14 +93,48 @@
       "surface_form": "nirvikāraḥ",
       "lemma": "nirvikāra",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? केवलं शास्त्रप्रमाणेन प्रयुक्तः न फलरागादिना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "युद्धादौ कर्मणि तदुपकरणभूतद्रव्यार्जनादिषु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kartā",
       "lemma": "kartṛ",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यः सः सात्त्विकः उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सात्त्विक उच्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +148,24 @@
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। एवंभूतः कर्ता यः सः सात्त्विकः उच्यते ।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्तेति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

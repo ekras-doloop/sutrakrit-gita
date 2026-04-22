@@ -12,7 +12,32 @@
       "surface_form": "rāgī",
       "lemma": "rāgin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "रागः अस्य अस्तीति रागी? कर्मफलप्रेप्सुः कर्मफलार्थी इत्यर्थः? लुब्धः परद्रव्येषु संजाततृष्णः? तीर्थादौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यशोऽर्थी? कर्मफलप्रेप्सुः कर्मफलाथीं? लुब्धः कर्मापेक्षितद्रव्यव्ययस्वभावरहितः हिंसात्मकः परान् पीडयित्वा तैः कर्म कुर्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कामाद्याकुलचित्तः? अतएव कर्मफलप्रेप्सुः कर्मफलार्थी? लुब्धः परद्रव्याभिलाषी धर्मार्थं स्वद्रव्यत्यागासमर्थश्च? स्वाभिप्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +72,16 @@
       "surface_form": "hiṃsā",
       "lemma": "hiṃsā",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तदात्मकस्तत्स्वभावः स्वाभिप्रायाप्रकटने तु नैष्कृतिक इति भेदः? अशुचिः शास्त्रोक्तशौचहीनः? सिद्ध्यसिद्ध्योः कर्मफलस्य हर",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +123,80 @@
       "surface_form": "kartā",
       "lemma": "kartṛ",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सः राजसः परिकीर्तितः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "राजसः परिकीर्तितः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न तत्फलं राज्यस्वर्गादि लभते किन्तु हर्षशोकौ ताभ्यामन्वित इति राजसः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "राजसः परिकीर्तितः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "rājasaḥ",
       "lemma": "rājasa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परिकीर्तितः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परिकीर्तितः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परिकीर्तितः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परिकीर्तितः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

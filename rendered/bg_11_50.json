@@ -103,7 +103,24 @@
       "surface_form": "bhītam",
       "lemma": "bhī",
       "grammar": "accusative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एनम्? भूत्वा पुनः सौम्यवपुः प्रसन्नदेहः महात्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एनं पुनः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +134,40 @@
       "surface_form": "bhūtvā",
       "lemma": "bhū",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुनः सौम्यवपुः प्रसन्नदेहः महात्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आश्वासयामास च? महात्मा सत्यसंकल्पः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पुरुषोत्तमोऽचिन्त्ययोगेश्वरो विभुर्महात्मा भीतमेनं आश्वासयामास",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पुनः पूर्ववत्सौम्यवपुरनुग्रशरीरः महात्मा परमकारुणिकः सर्वेश्वरः सर्वज्ञ इत्यादिकल्याणगुणाकरः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -145,7 +195,40 @@
       "surface_form": "mahātmā",
       "lemma": "mahātman",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।। अर्जुन उवाच --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सत्यसंकल्पः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "विश्वरूपः कृपालुरिति वा",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परमकारुणिकः सर्वेश्वरः सर्वज्ञ इत्यादिकल्याणगुणाकरः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -19,7 +19,40 @@
       "surface_form": "kāle",
       "lemma": "kāla",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रयाताः इति व्यवहितेन संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तु इत्यादेःयोगयुक्तो भवार्जुन [8",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "मृताः आवृत्त्यनावृत्ती यान्ति तत्प्रतिपादनार्थमुत्तरो ग्रन्थ इत्यन्यथाप्रतीतिनिरासार्थमाह -- यदि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "मार्गे",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +66,16 @@
       "surface_form": "anāvṛttim",
       "lemma": "anāvṛtti",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अपुनर्जन्म आवृत्तिं तद्विपरीतां चैव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +103,25 @@
       "surface_form": "yoginaḥ",
       "lemma": "yogin",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति योगिनः कर्मिणश्च उच्यन्ते कर्मिणस्तु गुणतः -- कर्मयोगेन योगिनाम् (गीता 3",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "ज्ञानिनः पुण्यकर्मसम्बन्धिनश्च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +135,56 @@
       "surface_form": "yānti",
       "lemma": "yā",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत्र काले",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तं मार्गं वक्ष्यामि इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तत्प्रतिपादनार्थमुत्तरो ग्रन्थ इत्यन्यथाप्रतीतिनिरासार्थमाह -- यदि ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "तं वक्ष्यामि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "यस्मिंश्च काले प्रयाता आवृत्तिं यान्ति तं कालं वक्ष्यामीत्यन्वयः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "देवयाने पथि प्रयाता ध्यायिनोऽनावृत्तिं यान्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +205,40 @@
       "surface_form": "vakṣyāmi",
       "lemma": "vac",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भरतर्षभ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। यद्यप्यग्निज्योतिषोः कालाभिमानित्वं स्वतो न सम्भवति तथापि सायम्प्रातः कालाभिमानित्वेन तथोक्तिः सम्भवति। अतएव मंत्रे --",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "हे भरतर्षभ अत्र कालशब्दस्य मुख्यार्थत्वे अग्निर्ज्योतिर्धूमशब्दानामनुपपत्तिर्गतिसृतिशब्दयोश्चेति तदनुरोधेनैकस्मिन्कालपद",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

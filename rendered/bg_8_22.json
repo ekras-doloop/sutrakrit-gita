@@ -12,7 +12,40 @@
       "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुरि शयनात् पूर्णत्वाद्वा स परः पार्थ परः निरतिशयः यस्मात् पुरुषात् न परं किञ्चित्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सः इति श्लोके तुशब्देनार्थान्तरद्योतनात्अनन्यया भक्त्या इत्यस्य सामर्थ्यात्पुरुषशब्दस्य परमात्मनि पुरिशयत्वपूर्णत्वपूर्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स पर इति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "परमात्माहमेव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,14 +66,49 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परः निरतिशयः यस्मात् पुरुषात् न परं किञ्चित्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhaktyā",
       "lemma": "bhakti",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लभ्यस्तु ज्ञानलक्षणया अनन्यया आत्मविषयया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "लभ्यः।अथ आत्मयाथात्म्यविदः परमपुरुषनिष्ठस्य च साधारणीम् अर्चिरादिकां गतिम् आह द्वयोः अपि अर्चिरादिका गतिः श्रुतौ श्रुता",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "युक्तः [8",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,14 +129,72 @@
       "surface_form": "ananyayā",
       "lemma": "ananya",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मविषयया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भक्त्या लभ्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न विद्यतेऽन्यो विषयो यस्यां तया प्रेमलक्षणया भक्त्यैव लभ्यो नान्यथा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "yasya",
       "lemma": "yad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "पुरुषस्य अन्तःस्थानि मध्यस्थानि भूतानि कार्यभूतानि कार्यं हि कारणस्य अन्तर्वर्ति भवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पृथिवी शरीरं [बृ.उ.3",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कारणभूतस्यान्तर्मध्ये भूतानि स्थितानि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पुरुषस्यान्तःस्थान्यन्तर्वतीनि भूतानि सर्वाणि कार्याणि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +215,48 @@
       "surface_form": "bhūtāni",
       "lemma": "bhūta",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कार्यभूतानि कार्यं हि कारणस्य अन्तर्वर्ति भवति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "येन च परेण पुरुषेण सर्वम् इदं ततं स परपुरुषो अनन्यचेताः सततम् (गीता 8।14) इति अनन्यया भक्त्या लभ्यः।अथ आत्मयाथात्म्यविद",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "इति साक्षराणि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स्थितानि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वाणि कार्याणि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +270,17 @@
       "surface_form": "sarvam",
       "lemma": "sarva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इदं ततं स परपुरुषो अनन्यचेताः सततम् (गीता 8",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

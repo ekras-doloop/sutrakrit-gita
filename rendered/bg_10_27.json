@@ -12,7 +12,16 @@
       "surface_form": "uccaiḥśravasam",
       "lemma": "uccaiḥśravas",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अश्वानां उच्चैःश्रवाः नाम अश्वराजः तं मां विद्धि विजानीहि अमृतोद्भवम् अमृतनिमित्तमथनोद्भवम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,7 +35,40 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विजानीहि अमृतोद्भवम् अमृतनिमित्तमथनोद्भवम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। गजेन्द्राणां सर्वेषां मध्येः अमृतमथनोद्भवम् ऐरावतं मां विद्धि।अमृतोद्भवम् इति ऐरावतस्य अपि विशेषणम्। नराणां मध्ये राजा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। अमृतोद्भवमित्येतदैरावतेऽपि संबध्यते। नराधिपं राजानं मां विद्धि।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। ऐरावतं गजममृतमथनोद्भवं गजेन्द्राणां मध्ये मां विद्धि। नराणां च मध्ये नराधिपं राजानं मां विद्धीत्यनुषज्यते।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

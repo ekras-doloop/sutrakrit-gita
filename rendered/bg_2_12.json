@@ -40,7 +40,16 @@
       "surface_form": "nityāḥ",
       "lemma": "nitya",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शुद्धाश्चेतना एवात्मान इत्यशोच्याः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +91,48 @@
       "surface_form": "jātu",
       "lemma": "jātu",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कदाचिद् अहं नासम् किं तु आसमेव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नासं इति दृष्टान्तेनानादित्वसाधनमनुवदति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कदाचिन्नासं न तथाऽभूवं वा नोत्पन्नोऽसि वाऽभूश्च इमे पुरः स्थिता जनाधिपाश्च नोत्पन्नाः किन्तु सर्वदा नित्याः शुद्धाश्चेत",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कदाचिल्लीलाविग्रहस्याविर्भावे तिरोभावेऽपि नासमिति नैव अपितु आसमेव अनादित्वात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "कदाचिदपि नासमिति नैव अपितु आसमेव तथा त्वमप्यासीः इमे जनाधिपाश्चासन्नेव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +181,32 @@
       "surface_form": "janādhipāḥ",
       "lemma": "janādhipa",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न आसन् किं तु आसन्नेव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यत्रन त्वेव इत्येतदनुषज्य न त्वं नासीः नेमे जनाधिपा नासन् इत्यन्वयः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "नृपाः नासन्निति न अपितु आसन्नेव मदंशत्वात् तथाऽतःपरं इतउपर्यपि नभविष्यामो न स्थास्याम इति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -166,14 +241,48 @@
       "surface_form": "bhaviṣyāmaḥ",
       "lemma": "bhū",
       "grammar": "future indicative 1st person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "किं तु भविष्याम",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अपि तु भविष्याम एव",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarve",
       "lemma": "sarva",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वयम् अतः अस्मात् देहविनाशात् परम् उत्तरकाले अपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "वयं अहं त्वं इमे जनाधिपाश्चातःपरं नभविष्याम इति न अपितु भविष्याम एवेति ध्वंसाप्रतियोगित्वमुक्तम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

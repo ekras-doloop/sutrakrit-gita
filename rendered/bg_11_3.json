@@ -40,7 +40,24 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आत्मानं परमेश्वर",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आत्मानं ब्रवीषि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +71,58 @@
       "surface_form": "parameśvara",
       "lemma": "parameśvara",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तथापि द्रष्टुमिच्छामि ते तव ज्ञानैश्वर्यशक्तिबलवीर्यतेजोभिः संपन्नम् ऐश्वरं वैष्णवं रूपं पुरुषोत्तम ।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एवम् एतद् इति अवधृतं यथा आत्थ त्वम् आत्मानं ब्रवीषि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "? एवमेतत्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "? यथा येन प्रकारेण सोपाधिकेन निरुपाधिकेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "draṣṭum",
       "lemma": "dṛś",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "साक्षात्कर्तुम् इच्छामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +157,24 @@
       "surface_form": "puruṣottama",
       "lemma": "puruṣottama",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आश्रितवात्सल्यजलधे तव ऐश्वरं त्वदसाधारणं सर्वस्य प्रशासितृत्वे पालयितृत्वे स्रष्ट्टत्वे संहर्तृत्वे भर्तृत्वे कल्याणगुण",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "नहि मादृशस्त्वयि सति न सिद्धमनोरथो भवितुमर्हतीति भावः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -40,7 +40,32 @@
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वृक्षस्य शाखा इव शाखाः प्रसृताः प्रगताः? गुणप्रवृद्धाः गुणैः सत्त्वरजस्तमोभिः प्रवृद्धाः स्थूलीकृताः उपादानभूतैः? विषयप",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "शाखा भूतान्यधश्च स्वापेक्षयाऽप्रकृष्टे शरीरादौ कार्ये चोर्ध्वं",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "शाखास्थानीयतया सुकृतिनो दुष्कृतिनश्चोच्यन्ते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +100,32 @@
       "surface_form": "pravālāḥ",
       "lemma": "pravāla",
       "grammar": "nominative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इव देहादिकर्मफलेभ्यः शाखाभ्यः अङ्कुरीभवन्तीव? तेन विषयप्रवालाः शाखाः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पल्लवस्थानीया यासां ताः? प्रशाखास्थानीयाभिरिन्द्रियवृत्तिभिः संयुक्तत्वात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पल्लवा इव यासां संसारवृक्षशाखानां तास्तथा शाखाग्रस्थानीयाभिरिन्द्रियवृत्तिभिः संबन्धाद्रागाधिष्ठानत्वाच्च",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +153,56 @@
       "surface_form": "anusaṃtatāni",
       "lemma": "anusaṃtan",
       "grammar": "nominative neuter plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अनुप्रविष्टानि कर्मानुबन्धीनि कर्म धर्माधर्मलक्षणम् अनुबन्धः पश्चाद्भावि? येषाम् उद्भूतिम् अनु उद्भवति? तानि कर्मानुबन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तानि च कर्मानुबन्धीनि। कर्माणि एव अनुबन्धीनि मूलानि अधो मनुष्यलोके च भवति इत्यर्थः। मनुष्यत्वावस्थायां कृतैः हि कर्मभिः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "विरूढानि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एवानुबन्धि अनन्तरभावि येषां तानि ऊर्ध्वाधोलोकेषु यदुपभुक्तं तत्तद्भोगवासनादिभिर्हि कर्मक्षयेण मनुष्यलोकं प्राप्तानां तत",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "धर्माधर्मलक्षणमनुबद्धुं पश्चाज्जनयितुं शीलं येषां तानि कर्मानुबन्धीनि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,7 +223,16 @@
       "surface_form": "loke",
       "lemma": "loka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जटामूलान्यत्र वासनाख्यान्यनुसन्ततानि कर्मानुबन्धीनि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

@@ -12,14 +12,66 @@
       "surface_form": "vihāya",
       "lemma": "vihā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परित्यज्य कामान्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "तत्र निःस्पृहः ममतारहितश्च अनात्मनि देहे आत्माभिमानरहितः चरति स आत्मानं दृष्ट्वा शान्तिम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यश्चरेति भक्षयति भक्षयामीत्यहङ्कारममकारवर्जितश्च स हि पुमान्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "कामान्प्राकृतान् त्यक्त्वा स्वात्मारामत्वात् अन्यत्र निस्स्पृहःअहन्ताममतानाशे सर्वथा निरंहकृतौ",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kāmān",
       "lemma": "kāma",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यः संन्यासी पुमान् सर्वान् अशेषतः कात्स्न्र्येन चरति जीवनमात्रचेष्टाशेषः पर्यटतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विषयान् निस्स्पृहतया विहाय यश्चरेति भक्षयति भक्षयामीत्यहङ्कारममकारवर्जितश्च स हि पुमान्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +85,24 @@
       "surface_form": "sarvān",
       "lemma": "sarva",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अशेषतः कात्स्न्र्येन चरति जीवनमात्रचेष्टाशेषः पर्यटतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विषयान् विहाय तत्र निःस्पृहः ममतारहितश्च अनात्मनि देहे आत्माभिमानरहितः चरति स आत्मानं दृष्ट्वा शान्तिम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,14 +116,64 @@
       "surface_form": "carati",
       "lemma": "car",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जीवनमात्रचेष्टाशेषः पर्यटतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स आत्मानं दृष्ट्वा शान्तिम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "niḥspṛhaḥ",
       "lemma": "niḥspṛha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "शरीरजीवनमात्रेऽपि निर्गता स्पृहा यस्य सः निःस्पृहः सन् निर्ममः शरीरजीवनमात्राक्षिप्तपरिग्रहेऽपि ममेदम् इत्यभिनिवेशवर्जि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ममतारहितश्च अनात्मनि देहे आत्माभिमानरहितः चरति स आत्मानं दृष्ट्वा शान्तिम् अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यतो निरहंकारः अतएव तद्भोगसाधनेषु निर्ममः सन्नन्तर्दृष्टिर्भूत्वा यश्चरति प्रारब्धवशेन भोगान्भुङ्क्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सन्। यतो निरहंकारः शरीरेन्द्रियादावयमहमित्यभिमानशून्यः विद्यावत्त्वादिनिमित्तात्मसंभावनारहित इति वा। अतो निर्ममः शरीरया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +187,32 @@
       "surface_form": "nirahaṃkāraḥ",
       "lemma": "nirahaṃkāra",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विद्यावत्त्वादिनिमित्तात्मसंभावनारहितः इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अतएव तद्भोगसाधनेषु निर्ममः सन्नन्तर्दृष्टिर्भूत्वा यश्चरति प्रारब्धवशेन भोगान्भुङ्क्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "शरीरेन्द्रियादावयमहमित्यभिमानशून्यः विद्यावत्त्वादिनिमित्तात्मसंभावनारहित इति वा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +226,32 @@
       "surface_form": "śāntim",
       "lemma": "śānti",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अधिगच्छति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "adhigacchati",
       "lemma": "adhigam",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्नोति ब्रह्मभूतो भवति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

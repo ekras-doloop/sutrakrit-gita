@@ -19,21 +19,72 @@
       "surface_form": "prahṛṣyet",
       "lemma": "prahṛṣ",
       "grammar": "present optative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रहर्षं न कुर्यात् प्रियम् इष्टं प्राप्य लब्ध्वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति सन्न्यासप्रपञ्चनमिति सूचितम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "priyam",
       "lemma": "priya",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इष्टं प्राप्य लब्ध्वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लब्ध्वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "हर्षोद्वेगौ न कुर्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न प्रहृष्येन्न प्रहृष्टो हर्षवान्स्यात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +105,32 @@
       "surface_form": "prāpya",
       "lemma": "prāp",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "लब्ध्वा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "हर्षोद्वेगौ न कुर्यात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "न प्रहृष्येन्न प्रहृष्टो हर्षवान्स्यात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +172,16 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्मात्तद्रूपमात्मानं साक्षात्कुर्वन् दुःखेष्वनुद्विग्नमनाः सुखेषु विगतस्पृहः इत्यत्र व्याख्यातं पूर्वार्धम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,14 +195,74 @@
       "surface_form": "brahmaṇi",
       "lemma": "brahman",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थितः अकर्मकृत् सर्वकर्मसंन्यासी इत्यर्थःकिञ्च ब्रह्मणि स्थितः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "स्थितः उपदेशेन ब्रह्मवित् सन् तस्मिन् ब्रह्मणि अभ्यासयुक्तः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "योगेन युक्तस्तदैक्यं प्राप्त आत्मा यस्य तथाभूतः सन्नक्षयं ब्रह्मसुखमनुभवतीत्यर्थः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "बुद्धिर्यस्य स तथा",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sthitaḥ",
       "lemma": "sthā",
       "grammar": "nominative masculine singular participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अकर्मकृत् सर्वकर्मसंन्यासी इत्यर्थःकिञ्च ब्रह्मणि स्थितः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "उपदेशेन ब्रह्मवित् सन् तस्मिन् ब्रह्मणि अभ्यासयुक्तः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स प्रियं प्राप्य न प्रहृष्येन्न प्रहृष्टो हर्षवान्स्यात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

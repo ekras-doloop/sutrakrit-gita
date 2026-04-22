@@ -40,14 +40,56 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्रिभिः एतैः प्रारभते निर्वर्तयति नरः? न्याय्यं वा धर्म्यं शास्त्रीयम्? विपरीतं वा अशास्त्रीयम् अधर्म्यं यच्चापि निमिषि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "शारीरं वाचिकं मानसं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "त्रिष्वेवान्तर्भाव्यशरीरवाङ्मनोभिरित्युक्तं शारीरं वाचिकं मानसं",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prārabhate",
       "lemma": "prārabh",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निर्वर्तयति नरः? न्याय्यं वा धर्म्यं शास्त्रीयम्? विपरीतं वा अशास्त्रीयम् अधर्म्यं यच्चापि निमिषितचेष्टितादि जीवनहेतुः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "निर्वर्तयति नरो मनुष्याधिकारत्वाच्छास्त्रस्य कीदृशं कर्म न्याय्यं वा? शास्त्रीयं धर्म विपरीतं वाऽशास्त्रीयमधर्मं यच्च न",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +131,25 @@
       "surface_form": "pañca",
       "lemma": "pañcan",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एते यथोक्ताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एते हेतवः। अधिष्ठानं शरीरम्? अधिष्ठीयते जीवात्मना इति महाभूतसंघातरूपं शरीरम् अधिष्ठानम्। तथा कर्ता जीवात्मा अस्य जीवात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +163,74 @@
       "surface_form": "tasya",
       "lemma": "tad",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वस्यैव कर्मणो",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "च हेतुत्वमुपपन्नम् अतः कथमत्र परमात्मेत्युच्यते इत्थं न हि प्रागेव विनष्टानां कर्मणां स्वरूपेण हेतुत्वं सम्भवति अतः कर्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पञ्चते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "hetavaḥ",
       "lemma": "hetu",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कारणानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अधिष्ठानं शरीरम्? अधिष्ठीयते जीवात्मना इति महाभूतसंघातरूपं शरीरम् अधिष्ठानम्। तथा कर्ता जीवात्मा अस्य जीवात्मनः ज्ञातृ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। दैवं च पञ्चमं अदृष्टमिति केचित् (माध्वाः)। वस्तुतस्तु पञ्चसङ्ख्यापूरणमुत्तममन्तर्यामिरूपं,कर्ममात्रनिष्पत्तौ प्रधानं?",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कारणानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

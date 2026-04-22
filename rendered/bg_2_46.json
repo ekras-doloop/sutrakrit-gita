@@ -12,7 +12,24 @@
       "surface_form": "yāvān",
       "lemma": "yāvat",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यावत्परिमाणः स्नानपानादिः अर्थः फलं प्रयोजनं स सर्वः अर्थः सर्वतःसंप्लुतोदके ऽपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अर्थः यावद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -26,7 +43,40 @@
       "surface_form": "udapāne",
       "lemma": "udapāna",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परिच्छिन्नोदके यावान् यावत्परिमाणः स्नानपानादिः अर्थः फलं प्रयोजनं स सर्वः अर्थः सर्वतःसंप्लुतोदके ऽपि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पिपासोः यावान् अर्थः यावद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "उदन्वति सरसि पिपासादिमतो यावानर्थः यावदेव प्रयोजनं तावदेव तेन तेनोपादीयते न सर्वं एवं सर्वेषु वेदेषु ब्राह्मणस्य वेदाधि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "क्षुद्रजलाशये",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,35 +104,195 @@
       "surface_form": "tāvān",
       "lemma": "tāvat",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तावत्परिमाण",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarveṣu",
       "lemma": "sarva",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वेदेषु वेदोक्तेषु कर्मसु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वेदेषु ब्राह्मणस्य विजानतः वैदिकस्य मुमुक्षोः यदेव मोक्षसाधनं तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "वेदेषु",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "वेदेषु ब्राह्मणस्य वेदाधिकृतस्य तदर्थं विवेकेन जानतो योगिनो यदेवात्मसंसिद्धिसाधनं तदेवोपादेयं न सर्वम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "वेदेषु वेदोक्तेषु काम्यकर्मसु यावानर्थो हैरण्यगर्भानन्दपर्यन्तस्तावान्विजानतो ब्रह्मतत्त्वं साक्षात्कृतवतो ब्राह्मणस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vedeṣu",
       "lemma": "veda",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वेदोक्तेषु कर्मसु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ब्राह्मणस्य विजानतः वैदिकस्य मुमुक्षोः यदेव मोक्षसाधनं तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यत्फलं तद्विजानतोऽपि ज्ञानिनो ब्राह्मणस्य फलेऽन्तर्भवति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "ब्राह्मणस्य वेदाधिकृतस्य तदर्थं विवेकेन जानतो योगिनो यदेवात्मसंसिद्धिसाधनं तदेवोपादेयं न सर्वम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तत्तकर्मफलरूपोऽर्थस्तावान्सर्वोऽपि विजानतो व्यवसायात्मिकबुद्धियुक्तस्य ब्राह्मणस्य ब्रह्मनिष्ठस्य भवत्येव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वेदोक्तेषु काम्यकर्मसु यावानर्थो हैरण्यगर्भानन्दपर्यन्तस्तावान्विजानतो ब्रह्मतत्त्वं साक्षात्कृतवतो ब्राह्मणस्य ब्रह्मब",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "brāhmaṇasya",
       "lemma": "brāhmaṇa",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संन्यासिनः परमार्थतत्त्वं विजानतो",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "विजानतः वैदिकस्य मुमुक्षोः यदेव मोक्षसाधनं तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "फलेऽन्तर्भवति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "वेदाधिकृतस्य तदर्थं विवेकेन जानतो योगिनो यदेवात्मसंसिद्धिसाधनं तदेवोपादेयं न सर्वम्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ब्रह्मनिष्ठस्य भवत्येव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मबुभूषोर्भवत्येव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vijānataḥ",
       "lemma": "vijñā",
       "grammar": "genitive masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वैदिकस्य मुमुक्षोः यदेव मोक्षसाधनं तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

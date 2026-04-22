@@ -40,7 +40,24 @@
       "surface_form": "icchāmi",
       "lemma": "iṣ",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्वां प्रार्थये त्वां द्रष्टुम् अहं तथैव? पूर्ववत् इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? अतः तेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +71,24 @@
       "surface_form": "draṣṭum",
       "lemma": "dṛś",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहं तथैव? पूर्ववत् इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इच्छामि? अतः तेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +130,41 @@
       "surface_form": "rūpeṇa",
       "lemma": "rūpa",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वसुदेवपुत्ररूपेण चतुर्भुजेन? सहस्रबाहो वार्तमानिकेन विश्वरूपेण? भव विश्वमूर्ते उपसंहृत्य विश्वरूपम्? तेनैव रूपेण भव इत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "युक्तो भव सहस्रबाहो विश्वमूर्ते इदानीं सहस्रबाहुत्वेन विश्वशरीरत्वेन दृश्यमानरूपः त्वं तेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "भवाविर्भव",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "चतुर्भुजेन वसुदेवात्मजत्वेन भव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

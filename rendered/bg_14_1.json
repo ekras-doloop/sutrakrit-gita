@@ -26,7 +26,41 @@
       "surface_form": "pravakṣyāmi",
       "lemma": "pravac",
       "grammar": "future indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। तच्च परं परवस्तुविषयत्वात्। किं तत् ज्ञानं सर्वेषां ज्ञानानाम् उत्तमम्? उत्तमफलत्वात्। ज्ञानानाम् इति न अमानित्वादीनाम",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तत् च ज्ञानं सर्वेषां प्रकृतिपुरुषविषय ज्ञानानाम् उत्तमम् यद् ज्ञानं ज्ञात्वा सर्वे मुनयः तन्मननशीलाः इतः संसारमण्डलात्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "विवृण्वन्वक्ष्यामीति प्रशब्दार्थः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भूयः पुनः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,14 +74,48 @@
       "surface_form": "jñānam",
       "lemma": "jñāna",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति व्यवहितेन संबन्धः? भूयः पुनः पूर्वेषु सर्वेष्वध्यायेषु असकृत् उक्तमपि प्रवक्ष्यामि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "uttamam",
       "lemma": "uttama",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? उत्तमफलत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यद् ज्ञानं ज्ञात्वा सर्वे मुनयः तन्मननशीलाः इतः संसारमण्डलात् परां सिद्धिं गताः परिशुद्धात्मस्वरूपप्राप्तिरूपां सिद्धिम",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? मोक्षहेतुत्वात्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,21 +129,81 @@
       "surface_form": "jñātvā",
       "lemma": "jñā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "यत् ज्ञानं ज्ञात्वा प्राप्य मुनयः संन्यासिनः मननशीलाः सर्वे परां सिद्धिं मोक्षाख्याम् इतः अस्मात् देहबन्धनात् ऊर्ध्वं ग",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "सर्वे मुनयः तन्मननशीलाः इतः संसारमण्डलात् परां सिद्धिं गताः परिशुद्धात्मस्वरूपप्राप्तिरूपां सिद्धिम् अवाप्ताः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "munayaḥ",
       "lemma": "muni",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संन्यासिनः मननशीलाः सर्वे परां सिद्धिं मोक्षाख्याम् इतः अस्मात् देहबन्धनात् ऊर्ध्वं गताः प्राप्ताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तन्मननशीलाः इतः संसारमण्डलात् परां सिद्धिं गताः परिशुद्धात्मस्वरूपप्राप्तिरूपां सिद्धिम् अवाप्ताः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परां गुणातीतां मुक्तिं गताः? इतस्त्रैगुण्यात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarve",
       "lemma": "sarva",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इतो देहबन्धनात्परां सिद्धिं गताः प्राप्ताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परां सिद्धिं मोक्षाख्यां इतो देहबन्धनाद्गताः प्राप्ताः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +217,16 @@
       "surface_form": "siddhim",
       "lemma": "siddhi",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अवाप्ताः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +240,40 @@
       "surface_form": "gatāḥ",
       "lemma": "gam",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्ताः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परिशुद्धात्मस्वरूपप्राप्तिरूपां सिद्धिम् अवाप्ताः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? इतस्त्रैगुण्यात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "प्राप्ताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

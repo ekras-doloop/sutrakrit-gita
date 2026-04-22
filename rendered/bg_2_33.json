@@ -26,7 +26,16 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इमं धर्म्यं धर्मादनपेतं विहितं संग्रामं युद्धं न करिष्यसि चेत् ततः तदकरणात् स्वधर्मं कीर्तिं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +70,40 @@
       "surface_form": "kariṣyasi",
       "lemma": "kṛ",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चेत् ततः तदकरणात् स्वधर्मं कीर्तिं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चेत् ततः प्रारब्धस्यधर्मस्याकरणात् स्वधर्मफलं निरतिशयसुखं विजयेन निरतिशयां कीर्तिं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तर्हि लौकिकवैदिकहानिपूर्वकं प्रत्यवायमवाप्स्यसि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "धर्मतो लोकतो वा भीतः परावृत्तो भविष्यसि चेत् ततोनिर्जित्य परसैन्यानि क्षितिं धर्मेण पालयेत् इत्यादिशास्त्रविहितस्य युद्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,21 +145,56 @@
       "surface_form": "hitvā",
       "lemma": "hā",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "केवलं पापम् अवाप्स्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पापं निरतिशयम् अवाप्स्यसि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pāpam",
       "lemma": "pāpa",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अवाप्स्यसि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "avāpsyasi",
       "lemma": "avāp",
       "grammar": "future indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।। न केवलं स्वधर्मकीर्तिपरित्यागः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

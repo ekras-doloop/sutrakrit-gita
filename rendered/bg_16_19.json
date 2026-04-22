@@ -26,21 +26,80 @@
       "surface_form": "dviṣataḥ",
       "lemma": "dviṣ",
       "grammar": "accusative masculine plural present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "क्रूरान्संसारेषु जन्ममृत्युमार्गेषु? तत्रापि आसुरीष्वेवातिक्रूरासु व्याघ्रादियोनिषु अजस्रमनवरतं क्षिपामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "साधून् मां",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "krūrān",
       "lemma": "krūra",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संसारेषु",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नराधमान् अशुभान् अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "हिंसापरानतो नराधमानतिनिन्दितानजस्रं सन्ततमशुभानशुभकर्मकारिणः अहं सर्वकर्मफलदातेश्वरः संसारेष्वेव नरकसंसरणमार्गेषु क्षिप",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃsāreṣu",
       "lemma": "saṃsāra",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव अनेकनरकसंसरणमार्गेषु नराधमान् अधर्मदोषवत्त्वात् क्षिपामि प्रक्षिपामि अजस्रं संततम् अशुभान् अशुभकर्मकारिणः आसुरीष्वेव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +134,24 @@
       "surface_form": "aśubhān",
       "lemma": "aśubha",
       "grammar": "accusative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अशुभकर्मकारिणः आसुरीष्वेव क्रूरकर्मप्रायासु व्याघ्रसिंहादि योनिषु क्षिपामि इत्यनेन संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +172,32 @@
       "surface_form": "yoniṣu",
       "lemma": "yoni",
       "grammar": "locative feminine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "क्षिपामि इत्यनेन संबन्धः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "क्षिपामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पुनः पुनः क्षिपामि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

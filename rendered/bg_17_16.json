@@ -19,7 +19,32 @@
       "surface_form": "prasādaḥ",
       "lemma": "prasāda",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? सौम्यत्वं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वस्थता? सौम्यत्वमक्रूरता? मौनं मुनेर्भावः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स्वच्छता विषयचिन्ताव्याकुलत्वराहित्यं? सौम्यत्वं सौमनस्यं सर्वलोकहितैषित्वं प्रतिषिद्धाचिन्तनं च? मौनं मुनिभाव एकाग्रतय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -40,7 +65,24 @@
       "surface_form": "maunam",
       "lemma": "mauna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति विशेषः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? तच्च मननशीलत्वाख्यमागमार्थस्य युक्तिभिरनुसन्धानम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +96,16 @@
       "surface_form": "vinigrahaḥ",
       "lemma": "vinigraha",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विषयेभ्यः? प्रत्याहारः? भावसंशुद्धिर्व्यवहारे मायाराहित्यमित्येतन्मानसं तपः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +147,41 @@
       "surface_form": "mānasam",
       "lemma": "mānasa",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उच्यते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनःसंयमो मौनमिति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यभिधानम्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

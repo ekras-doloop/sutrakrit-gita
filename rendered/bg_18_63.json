@@ -26,7 +26,16 @@
       "surface_form": "jñānam",
       "lemma": "jñāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आख्यातं कथितं गुह्यात् गोप्यात् गुह्यतरम् अतिशयेन गुह्यं रहस्यम् इत्यर्थः? मया सर्वज्ञेन ईश्वरेण",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +77,41 @@
       "surface_form": "vimṛśya",
       "lemma": "vimṛś",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विमर्शनम् आलोचनं कृत्वा एतत् यथोक्तं शास्त्रम् अशेषेण समस्तं यथोक्तं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वाधिकारानुरूपं यथा इच्छसि तथा कुरु? कर्मयोगं ज्ञानं भक्तियोगं वा यथेष्टम् आतिष्ठ इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "पर्यालोच्य पश्चाद्यथेच्छसि तथा कुरु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "पर्यालोच्य एतन्मयोपदिष्टं गीताशास्त्रमशेषेण सामस्त्येन सर्वैकवाक्यतया ज्ञात्वा स्वाधिकारानुरूपेण यथेच्छसि तथा कुरु न त्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +153,42 @@
       "surface_form": "kuru",
       "lemma": "kṛ",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।भूयोऽपि मया उच्यमानं श्रृणु --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "? कर्मयोगं ज्ञानं भक्तियोगं वा यथेष्टम् आतिष्ठ इत्यर्थः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। एतस्मिन्पर्यालोचिते सति तव मोहो निवर्तिष्यत इति भावः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न त्वेतदविमृश्यैव कामकारेण",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

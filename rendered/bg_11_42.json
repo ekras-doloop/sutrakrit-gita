@@ -61,7 +61,24 @@
       "surface_form": "śayyā",
       "lemma": "śayyā",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? आसनम् आस्थायिका? भोजनम् अदनम्? इति एतेषु विहारशय्यासनभोजनेषु? एकः परोक्षः सन् असत्कृतः असि परिभूतः असि अथवापि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तूलिकाद्यास्तरणविशेषः? आसनं सिंहासनादि? भोजनं बहूनां पङ्क्तावशनं तेषु विषयभूतेषु असत्कृतोऽसि मया परिभूतोऽसि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +127,32 @@
       "surface_form": "acyuta",
       "lemma": "acyuta",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? तत् समक्षम्? तच्छब्दः क्रियाविशेषणार्थः? प्रत्यक्षं वा असत्कृतः असि तत् सर्वम् अपराधजातं क्षामये क्षमां कारये त्वाम् अ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? यच्च परिहासार्थं क्रीडादिषु तिरस्कृतोऽसि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वदा निर्विकार? तत्सर्ववचनरूपमसत्करणरूपं चापराधजातं क्षामये क्षमयामि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -138,14 +180,56 @@
       "surface_form": "kṣāmaye",
       "lemma": "kṣāmay",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "क्षमां कारये त्वाम् अहम् अप्रमेयं प्रमाणातीतम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "क्षमां कारयामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "क्षमयामि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tvām",
       "lemma": "tvad",
       "grammar": "accusative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहम् अप्रमेयं प्रमाणातीतम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अप्रमेयम् अहं क्षामये",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -159,7 +243,16 @@
       "surface_form": "aprameyam",
       "lemma": "aprameya",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अहं क्षामये",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

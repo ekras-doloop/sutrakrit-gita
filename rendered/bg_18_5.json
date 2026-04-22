@@ -12,7 +12,24 @@
       "surface_form": "yajña",
       "lemma": "yajña",
       "grammar": "compound (compound member)",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति। न केवलमत्याज्यं किंतु कर्तव्यमेवेत्याह -- कार्यमिति। प्रतिज्ञातमेवं विभज्य हेतुं विभजते -- कस्मादिति।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "इत्यादिना",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,41 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न त्याज्यं न त्यक्तव्यम्? कार्यं करणीयम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मुमुक्षुणा न कदाचिद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "न त्याज्यं मुमुक्षुणाऽपि? अपित्वाप्रायणादन्वहं कार्यमेव वेदोक्तत्वादपि कर्त्तव्यं एकांशेऽपि वेदस्यापरित्यागनियमात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "तन्न त्याज्यं किंतु कार्यमेव तत्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +105,16 @@
       "surface_form": "kāryam",
       "lemma": "kṛ",
       "grammar": "nominative neuter singular gdv noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एव कुतः यज्ञदानतपःप्रभृतीनि वर्णाश्रमसम्बन्धीनि कर्माणि मनीषिणां मननशीलानां पावनानि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,14 +170,57 @@
       "surface_form": "pāvanāni",
       "lemma": "pāvana",
       "grammar": "nominative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विशुद्धिकराणि मनीषिणां फलानभिसंधीनाम् इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। मननम् उपासनम्। मुमुक्षूणां यावज्जीवम् उपासनं कुर्वताम् उपासननिष्पत्तिविरोधिप्राचीनकर्मविनाशनानि इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "चित्तशुद्धिकराणि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ज्ञानप्रतिबन्धकपापमलक्षालनेन ज्ञानोत्पत्तियोग्यतारूपपुण्यगुणाधानेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "manīṣiṇām",
       "lemma": "manīṣin",
       "grammar": "genitive masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति समभिव्याहारसिद्धमुपकारप्रकारं व्यनक्ति -- मुमुक्षूणामित्यादिना",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

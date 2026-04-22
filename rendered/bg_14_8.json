@@ -40,7 +40,24 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मोहनं मोहकरम् अविवेककरं सर्वदेहिनां सर्वेषां देहवताम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अतः सर्वेषां देहिनां मोहनं अविवेकरूपत्वेन भ्रान्तिजनकं। प्रमादेनालस्येन निद्रया च तत्तमो निबध्नाति देहिनमित्यनुषज्यते।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +113,65 @@
       "surface_form": "nibadhnāti",
       "lemma": "nibandh",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भारत ।।पुनः गुणानां व्यापारः संक्षेपतः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "। प्रमादः कर्तव्यात् कर्मणः अन्यत्र प्रवृत्तिहेतुभूतम् अनवधानम्। आलस्यं कर्मसु अनारम्भस्वभावः? स्तब्धता इति यावत्। पुरुष",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तत्र प्रमादोऽनवधानं? आलस्यमनुद्यमः? निद्रा चित्तस्यावसादो लयः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "देहिनमित्यनुषज्यते",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।पुनः गुणानां व्यापारः संक्षेपतः उच्यते --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? प्रमादो वस्तुविवेकासामर्थ्यं सत्त्वकार्यप्रकाशविरोधी? आलस्यं प्रवृत्त्यसामर्थ्यं रजःकार्यप्रवृत्तिविरोधि? उभयविरोधिनी",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

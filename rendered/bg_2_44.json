@@ -68,14 +68,88 @@
       "surface_form": "buddhiḥ",
       "lemma": "buddhi",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाधौ समाधीयते अस्मिन् पुरुषोपभोगाय सर्वमिति समाधिः अन्तःकरणं बुद्धिः तस्मिन् समाधौ न विधीयते न भवति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "समाधौ मनसि न विधीयते न उत्पद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "समाधौ समाध्यर्थे न विधीयते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "समाधिविषयिणी न विधीयते",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कुतो न भवति प्रमाणस्य तुल्यत्वादित्याशङ्क्य प्रतिबन्धकसद्भावान्न भवतीत्याह त्रिभिः यामिमां वाचं प्रवदन्ति तया वाचापहृतच",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "samādhau",
       "lemma": "samādhi",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाधीयते अस्मिन् पुरुषोपभोगाय सर्वमिति समाधिः अन्तःकरणं बुद्धिः तस्मिन् समाधौ न विधीयते न भवति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मनसि न विधीयते न उत्पद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "समाध्यर्थे न विधीयते",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "हृदीति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +163,56 @@
       "surface_form": "vidhīyate",
       "lemma": "vidhā",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न भवति इत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "न उत्पद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। सम्यङ्निर्णीतार्थानामीश्वरे मनस्समाधानं सम्यग्भवति। तद्धि मोक्षसाधनम्। उक्तं चैतदन्यत्र न तस्य तत्त्वग्रहणाय साक्षाद्व",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "। विशेषेण न स्थाप्यते इति वा। तेषां समाधौ हृदीति।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। कर्मकर्तरिप्रयोगः। नोत्पद्यत इत्यर्थः। function playAudio(){ if(document.getElementById('slkaudio') != null) document.",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। न भवतीत्यर्थः। समाधिविषया व्यवसायात्मिका बुद्धिस्तेषां न भवतीति वा। अधिकरणे विषये वा सप्तम्यास्तुल्यत्वात्। विधीयत इति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

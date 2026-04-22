@@ -47,14 +47,56 @@
       "surface_form": "samāvṛtāḥ",
       "lemma": "samāvṛ",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। प्रसक्ताः कामभोगेषु तत्रैव निषण्णाः सन्तः तेन उपचितकल्मषाः पतन्ति नरके अशुचौ वैतरण्यादौ।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कामभोगेषु प्रकर्षेण सक्ताः मध्ये मृताः अशुचौ नरके पतन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? मत्स्या इव सूत्रमयेन जानेन यन्त्रिताः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prasaktāḥ",
       "lemma": "prasañj",
       "grammar": "nominative masculine plural participle noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कामभोगेषु तत्रैव निषण्णाः सन्तः तेन उपचितकल्मषाः पतन्ति नरके अशुचौ वैतरण्यादौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सर्वथा तदेकपराः प्रतिक्षणमुपचीयमानकल्मषाः पतन्ति नरके वैतरण्यादौ अशुचौ विण्मूत्रश्लेष्मादिपूर्णे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,21 +110,88 @@
       "surface_form": "bhogeṣu",
       "lemma": "bhoga",
       "grammar": "locative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तत्प्रयुक्तेषूपभोगेष्विति यावत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "patanti",
       "lemma": "pat",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नरके अशुचौ वैतरण्यादौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "नरके वैतरण्यादौ अशुचौ विण्मूत्रश्लेष्मादिपूर्णे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "narake",
       "lemma": "naraka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अशुचौ वैतरण्यादौ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पतन्ति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पतन्ति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "पतन्ति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वैतरण्यादौ अशुचौ विण्मूत्रश्लेष्मादिपूर्णे",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

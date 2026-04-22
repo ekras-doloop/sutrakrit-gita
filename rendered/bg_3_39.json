@@ -19,14 +19,41 @@
       "surface_form": "jñānam",
       "lemma": "jñāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "एतेन कामकारेण विषयव्यामोहजननेन नित्यवैरिणा आवृतं दुष्पूरेण पूर्त्यनर्हविषयेण अनलेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "etena",
       "lemma": "etad",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानं ज्ञानिनः नित्यवैरिणा ज्ञानी हि जानाति अनेन अहमनर्थे प्रयुक्तः इति पूर्वमेव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कामकारेण विषयव्यामोहजननेन नित्यवैरिणा आवृतं दुष्पूरेण पूर्त्यनर्हविषयेण अनलेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,7 +102,32 @@
       "surface_form": "duṣpūreṇa",
       "lemma": "duṣpūra",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दुःखेन पूरणमस्य इति दुष्पूरः तेन अनलेन न अस्य अलं पर्याप्तिः विद्यते इत्यनलः तेन च",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पूर्त्यनर्हविषयेण अनलेन",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। दुःखेन हि कामः पूर्यते। न हीन्द्रादिपदं सुखेन लभ्यते। यद्यपीन्द्रादिपदं प्राप्तं पुनर्ब्रह्मादिपदमिच्छतीत्यलं बुद्धिर्",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

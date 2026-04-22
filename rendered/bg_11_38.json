@@ -12,7 +12,24 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आदिदेवः? जगतः स्रष्ट्टत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आदिदेवः पुरुषः पुराणः त्वम् अस्य विश्वस्य परं निधानम्? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,32 @@
       "surface_form": "puruṣaḥ",
       "lemma": "puruṣa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? पुरि शयनात् पुराणः चिरंतनः त्वम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "पुराणः त्वम् अस्य विश्वस्य परं निधानम्? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्वस्य शरीरभूतस्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "पूरयिता पुराणोऽनादिः त्वमस्य विश्वस्य परं निधानं लयस्थानत्वात् निधीयते सर्वमस्मिन्निति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,21 +89,88 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आदिदेवः? जगतः स्रष्ट्टत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आदिदेवः पुरुषः पुराणः त्वम् अस्य विश्वस्य परं निधानम्? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्व",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "asya",
       "lemma": "idam",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विश्वस्य परं प्रकृष्टं निधानं निधीयते अस्मिन् जगत् सर्वं महाप्रलयादौ इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "विश्वस्य परं निधानम्? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्वस्य शरीरभूतस्य आत्मतया परमाधारभूत",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "viśvasya",
       "lemma": "viśva",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परं प्रकृष्टं निधानं निधीयते अस्मिन् जगत् सर्वं महाप्रलयादौ इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "परं निधानम्? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्वस्य शरीरभूतस्य आत्मतया परमाधारभूतः त्वम् ए",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "परं निधानं लयस्थानम्? तथा विश्वस्य वेत्ता वेदिता ज्ञाता",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परं निधानं लयस्थानत्वात् निधीयते सर्वमस्मिन्निति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +184,40 @@
       "surface_form": "nidhānam",
       "lemma": "nidhāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? निधीयते त्वयि विश्वम् इति त्वम् अस्य विश्वस्य परं निधानम्? विश्वस्य शरीरभूतस्य आत्मतया परमाधारभूतः त्वम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "vettāsi",
       "lemma": "vid",
       "grammar": "future indicative peri 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्यादौ परमात्मनो वेदितृत्वादिमात्रविधानेऽतिशयाभावात् कारणावस्थद्रव्यान्तर्यामित्वस्य चोक्तत्वात्? कार्यावस्थज्ञातृज्ञे",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "वेद्यं चेति विरुद्धधर्माश्रयत्वमक्षरत्वं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,7 +259,40 @@
       "surface_form": "tvayā",
       "lemma": "tvad",
       "grammar": "instrumental singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ततं व्याप्तं विश्वं समस्तम्?",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ततं विश्वम् अनन्तरूप त्वया आत्मत्वेन विश्वं चिदचिन्मिश्रं जगत् ततं व्याप्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "ततं विश्वं इति व्याख्यानभूतंमया ततमिदं सर्वं जगदव्यक्तमूर्तिना [9",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सद्रूपेण स्फुरणरूपेण",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -138,7 +306,16 @@
       "surface_form": "viśvam",
       "lemma": "viśva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति त्वम् अस्य विश्वस्य परं निधानम्? विश्वस्य शरीरभूतस्य आत्मतया परमाधारभूतः त्वम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -33,7 +33,42 @@
       "surface_form": "dharmasya",
       "lemma": "dharma",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ग्लानिः हानिः वर्णाश्रमादिलक्षणस्य प्राणिनामभ्युदयनिःश्रेयससाधनस्य भवति भारत अभ्युत्थानम् उद्भवः अधर्मस्य तदा तदा आत्मा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "वेदेन उदितस्य चातुर्वर्ण्यचातुराश्रम्यव्यवस्थया अवस्थितस्य कर्तव्यस्य ग्लानिः भवति यदा यदा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ग्लानिर्हानिः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "वेदविहितस्य प्राणिनामभ्युदयनिःश्रेयससाधनस्य प्रवृत्तिनिवृत्तिलक्षणस्य वर्णाश्रमतदाचारव्यंग्यस्य यदा यदा ग्लानिर्हानिर्भ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,28 +82,89 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "भारत अभ्युत्थानम् उद्भवः अधर्मस्य तदा तदा आत्मानं सृजामि अहं मायया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "यदा यदा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhārata",
       "lemma": "bhārata",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अभ्युत्थानम् उद्भवः अधर्मस्य तदा तदा आत्मानं सृजामि अहं मायया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भरतवंशोद्भवत्वेन भा ज्ञानं तत्र रतत्वेन वा त्वं न धर्महानिं सोढुं शक्नोषीति संबोधनार्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "abhyutthānam",
       "lemma": "abhyutthāna",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "उद्भवः अधर्मस्य तदा तदा आत्मानं सृजामि अहं मायया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "adharmasya",
       "lemma": "adharma",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तदा तदा आत्मानं सृजामि अहं मायया",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अभ्युत्थानं तदा अहम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

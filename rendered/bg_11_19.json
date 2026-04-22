@@ -82,7 +82,32 @@
       "surface_form": "paśyāmi",
       "lemma": "dṛś",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्वां दीप्तहुताशवक्त्रं दीप्तश्च असौ हुताशश्च वक्त्रं यस्य तव सः त्वं दीप्तहुताशवक्त्रः तं त्वां दीप्तहुताशवक्त्रम्? स्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। एवंभूतं सर्वस्य स्रष्टारम्? सर्वस्य आधारभूतं सर्वस्य प्रशासितारम्? सर्वस्य संहर्तारम्? ज्ञानाद्यपरिमितगुणसागरम्? आदिमध",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। तथा दीप्तो हुताशोऽग्निर्वक्त्रेषु यस्य तम् स्वतेजसा इदं विश्वं तपन्तं संतापयन्तं पश्यामि।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,14 +149,40 @@
       "surface_form": "tejasā",
       "lemma": "tejas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विश्वम् इदं तपन्तं त्वां पश्यामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "viśvam",
       "lemma": "viśva",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इदं समस्तं तपन्तम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इदं तपन्तम् -- तेजः पराभिभवनसामर्थ्यम्? स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -145,7 +196,17 @@
       "surface_form": "tapantam",
       "lemma": "tap",
       "grammar": "accusative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "-- तेजः पराभिभवनसामर्थ्यम्? स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

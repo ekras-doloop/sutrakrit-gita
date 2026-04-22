@@ -40,7 +40,24 @@
       "surface_form": "loke",
       "lemma": "loka",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "संसारे जीवभूतः कर्ता भोक्ता इति प्रसिद्धः सनातनः चिरंतनः यथा जलसूर्यकः सूर्यांशः जलनिमित्तापाये सूर्यमेव गत्वा न निवर्त",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च प्रसिद्धम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +78,32 @@
       "surface_form": "sanātanaḥ",
       "lemma": "sanātana",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "चिरंतनः यथा जलसूर्यकः सूर्यांशः जलनिमित्तापाये सूर्यमेव गत्वा न निवर्तते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "[15।7] इति।प्रकाशादिवन्नैवं परः [ब्र.सू.2।3।46] इत्यत्र च जीवस्यांशत्वं हस्तादिवत् तद्दुःखेन परस्यापि तदा दुःखित्वं स्य",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सर्वदा संसारित्वेन प्रसिद्धः असौ सुषुप्तिप्रलययोः प्रकृतौ लीनतया स्थितानि मनः षष्ठं येषां तानीन्द्रियाणि पुनर्जीवलोके स",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +145,40 @@
       "surface_form": "karṣati",
       "lemma": "kṛṣ",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आकर्षति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। कश्चित् च पूर्वोक्तमार्गेण अस्या अविद्याया मुक्तः स्वेन रूपेण अवतिष्ठते।जीवभूतः तु अतिसंकुचितज्ञानैश्वर्यः कर्मलब्धप्र",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। कश्चित्पूर्वोक्तमार्गेणास्या अविद्याया मुक्तः स्वेन रूपेणावतिष्ठते संसारी जीवः अयं तु यतस्ततोऽतिसङ्कुचितज्ञानैश्वर्यः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कूर्मोऽङ्गानीव प्रकृतेरज्ञानादाकर्षति विषयग्रहणयोग्यतयाविर्भावयतीत्यर्थः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

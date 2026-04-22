@@ -33,7 +33,24 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परमात्मानम् आप्नोति? तथा तं प्रकारं ज्ञाननिष्ठाप्राप्तिक्रमं मे मम वचनात् निबोध त्वं निश्चयेन अवधारय इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्राप्नोति तथा समासेन मे निबोध",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +71,41 @@
       "surface_form": "nibodha",
       "lemma": "nibudh",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "त्वं निश्चयेन अवधारय इत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तद् एव ब्रह्म विशिष्यते निष्ठा ज्ञानस्य या परा इति। ज्ञानस्य ध्यानात्मकस्य या परा निष्ठा परं प्राप्यम् इत्यर्थः।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। या सिद्धिर्ज्ञानस्य परा निष्ठा।",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "मे मद्वचनादवधारयानुष्ठातुम्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -68,7 +119,24 @@
       "surface_form": "samāsena",
       "lemma": "samāsena",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मे निबोध",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "संक्षेपेणैव नतु विस्तरेण",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,21 +150,113 @@
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? यथा ब्रह्म प्राप्नोति तथा निबोधेति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? तदवधारणे किं स्यादित्यत आह -- निष्ठेति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "niṣṭhā",
       "lemma": "niṣṭhā",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञानस्य या परा इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ज्ञानस्य या परा इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तां सिद्धिं प्राप्तोऽपि जीवन्नेवेह यथाऽऽत्मनाऽक्षरब्रह्मप्राप्तो भवति तथा मत्तो निबोध",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "ज्ञानस्य या परा ज्ञानस्य विचारपरिनिष्पन्नस्य निष्ठा परिसमाप्तिर्यदनन्तरं साधनान्तरं नानुष्ठेयमस्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "jñānasya",
       "lemma": "jñāna",
       "grammar": "genitive neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "या परा इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "या परा इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "च ब्रह्मप्राप्तावनपेक्षत्वादिति भावेन निष्ठेत्येतद्व्याचष्टे -- ये ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "या परा निष्ठा तां सिद्धिं प्राप्तोऽपि जीवन्नेवेह यथाऽऽत्मनाऽक्षरब्रह्मप्राप्तो भवति तथा मत्तो निबोध",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "या परा ज्ञानस्य विचारपरिनिष्पन्नस्य निष्ठा परिसमाप्तिर्यदनन्तरं साधनान्तरं नानुष्ठेयमस्ति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

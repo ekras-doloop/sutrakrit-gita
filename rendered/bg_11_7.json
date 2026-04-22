@@ -40,7 +40,40 @@
       "surface_form": "paśya",
       "lemma": "paś",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अद्य इदानीं सचराचरं सह चरेण अचरेण",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। यत् च अन्यद् द्रष्टुम् इच्छसि तद् अपि एकदेहैकदेशे एव पश्य।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। यच्चान्यज्जगदाश्रयभूतं कारणस्वरूपम्। जगतश्चावस्थाविशेषादिकम्। जयपराजयादिकं च यदप्यन्यद्द्रष्टुमिच्छसि तत्सर्वं पश्य।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। हे गुडाकेश? यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +108,64 @@
       "surface_form": "dehe",
       "lemma": "deha",
       "grammar": "locative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गुडाकेश",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तत्र अपि एकस्थम् एकदेशस्थं सचराचरं कृत्स्नं जगत् पश्य। यत् च अन्यद् द्रष्टुम् इच्छसि तद् अपि एकदेहैकदेशे एव पश्य।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "जगत्कृत्स्नमित्युक्त्वा प्रत्यक्षजगद्दर्शनेनालीकत्वं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "एकस्थं एकस्मिन्नेवावयवरूपेण स्थितं जगत् कृत्स्नं समस्तं सचराचरं जङ्गमस्थावरसहितं तत्र तत्र परिभ्रमता वर्षकोटिसहस्रेणापि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "guḍākeśa",
       "lemma": "guḍākeśa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। यच्च अन्यत् जयपराजयादि? यत् शङ्कसे? यद्वा जयेम यदि वा नो जयेयुः (गीता 2।6) इति यत् अवोचः? तदपि द्रष्टुं यदि इच्छसि ।।क",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "? यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,14 +193,40 @@
       "surface_form": "draṣṭum",
       "lemma": "dṛś",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इच्छसि तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "icchasi",
       "lemma": "iṣ",
       "grammar": "present indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "।।किन्तु --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद् अपि एकदेहैकदेशे एव पश्य।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

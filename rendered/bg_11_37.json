@@ -40,21 +40,96 @@
       "surface_form": "nameran",
       "lemma": "nam",
       "grammar": "present optative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नमस्कुर्युः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति विरुद्धं कथं पृच्छति इत्यत आक्षेप एवायमिति ज्ञापयन् तन्निवर्त्याशङ्काप्रदर्शनपूर्वकमवतारयति -- कथ मिति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "mahātman",
       "lemma": "mahātman",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? गरीयसे गुरुतराय यतः ब्रह्मणः हिरण्यगर्भस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ते तुभ्यं गरीयसे ब्रह्मणः हिरण्यगर्भस्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? हे अनन्त? हे देवेश? हे जगन्निवास। कस्माद्धेतोस्ते तुभ्यं न नमेरन्नमस्कारं न कुर्युः। कथंभूताय। ब्रह्मणोऽपि गरीयसे गुरु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "garīyase",
       "lemma": "garīyas",
       "grammar": "dative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गुरुतराय यतः ब्रह्मणः हिरण्यगर्भस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मणः हिरण्यगर्भस्य",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "गुरुतराय आदिकर्त्रे",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "गुरुतराय आदिकर्त्रे ब्रह्मणोऽपि जनकाय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,21 +157,96 @@
       "surface_form": "kartre",
       "lemma": "kartṛ",
       "grammar": "dative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? हिरण्यगर्भादयः कस्माद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ananta",
       "lemma": "ananta",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवेश हे जगन्निवास त्वम् अक्षरं तत् परम्? यत् वेदान्तेषु श्रूयते। किं तत् सदसत् इति। सत् विद्यमानम्? असत् च यत्र नास्ति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "देवेश जगन्निवास त्वम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? हे देवेश? हे जगन्निवास। कस्माद्धेतोस्ते तुभ्यं न नमेरन्नमस्कारं न कुर्युः। कथंभूताय। ब्रह्मणोऽपि गरीयसे गुरुतराय आदिकर",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वपरिच्छेदशून्य?",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "deveśa",
       "lemma": "deveśa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हे जगन्निवास त्वम् अक्षरं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "जगन्निवास त्वम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? हे जगन्निवास। कस्माद्धेतोस्ते तुभ्यं न नमेरन्नमस्कारं न कुर्युः। कथंभूताय। ब्रह्मणोऽपि गरीयसे गुरुतराय आदिकर्त्रे च ब्",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "हिरण्यगर्भादीनामपि देवानां नियन्तः?",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +267,24 @@
       "surface_form": "tvam",
       "lemma": "tvad",
       "grammar": "nominative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अक्षरं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव अक्षरम् न क्षरति इति अक्षरम् जीवात्मतत्त्वम्न जायते म्रियते वा विपश्चित् (कठ0 1",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

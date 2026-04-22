@@ -26,7 +26,24 @@
       "surface_form": "vihārasya",
       "lemma": "vihāra",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "नियतत्वं योजनान्न परं गच्छेदित्यादि कर्मसु चेष्टाया नियतत्वं वाङ्नियमादि रात्रौ प्रथमतो दशघटिकापरिमिते काले जागरणं मध्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "नियतत्वंयोजनान्न परं गच्छेत् इत्यादि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +64,33 @@
       "surface_form": "karmasu",
       "lemma": "karman",
       "grammar": "locative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तस्य तथा युक्तस्वप्नावबोधस्य युक्तौ स्वप्नश्च अवबोधश्च तौनियतकालौ यस्य",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "कार्येषु युक्ता नियतैव चेष्टा यस्य युक्तौ नियतौ स्वप्नावबोधौ निद्राजागरौ यस्य",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "युक्ता नियतकाला चेष्टा यस्य तथा स्वप्नो निद्रा अवबोधो जागरणं तौ युक्तौ नियतकालौ यस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +125,40 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दुःखहा दुःखानि सर्वाणि हन्तीति दुःखहा सर्वसंसारदुःखक्षयकृत योगः भवतीत्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तावदाहारादेरित्यर्थः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "सिध्यति",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "साधनपाटवात्समाधिः सिध्यति नान्यस्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

@@ -19,21 +19,115 @@
       "surface_form": "karmāṇi",
       "lemma": "karman",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वकर्माणि संन्यस्य परित्यज्य नित्यं नैमित्तिकं काम्यं प्रतिषिद्धं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "नवद्वारे पुरे सन्यस्य वशी देही स्वयं देहाधिष्ठानप्रयत्नम् अकुर्वन् देहेन न",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "विक्षेपकाणि मनसा विवेकयुक्तेन संन्यस्य सुखं यथा भवत्येवं ज्ञाननिष्ठः सन्नास्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मनसाकर्मण्यकर्म",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "manasā",
       "lemma": "manas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विवेकबुद्ध्या कर्मादौ अकर्मसंदर्शनेन संत्यज्येत्यर्थः आस्ते तिष्ठति सुखम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "सर्वाणि कर्माणि नवद्वारे पुरे सन्यस्य वशी देही स्वयं देहाधिष्ठानप्रयत्नम् अकुर्वन् देहेन न",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सन्न्यस्यास्ते सुखं यथा भवति तथा स्वयं नैव कुर्वन्मनसा त्यागात् इन्द्रियैरपि न कारयन्निति साङ्ख्याद्भेदोऽपि सूचितः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "विवेकयुक्तेन संन्यस्य सुखं यथा भवत्येवं ज्ञाननिष्ठः सन्नास्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "saṃnyasya",
       "lemma": "saṃnyas",
       "grammar": "conv",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परित्यज्य नित्यं नैमित्तिकं काम्यं प्रतिषिद्धं",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "सुखं यथा भवत्येवं ज्ञाननिष्ठः सन्नास्ते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "परित्यज्य प्रारब्धकर्मवशादास्ते तिष्ठत्येव",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -75,14 +169,73 @@
       "surface_form": "pure",
       "lemma": "pura",
       "grammar": "locative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। सप्त शीर्षण्यानि आत्मन उपलब्धिद्वाराणि अवाग् द्वे मूत्रपुरीषविसर्गार्थे तैः द्वारैः नवद्वारं पुरम् उच्यते शरीरम् पुरमि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सन्यस्य वशी देही स्वयं देहाधिष्ठानप्रयत्नम् अकुर्वन् देहेन न",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। द्वे श्रोत्रे द्वे चक्षुषी द्वे नासिके वागेकेति शिरसि सप्त द्वे पायूपस्थाख्ये अध इति नवद्वारविशिष्टे देहे। देही देहभिन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "dehī",
       "lemma": "dehin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सर्वं कर्म संन्यस्य आस्ते किं विशेषणेन सर्वो हि देही संन्यासी असंन्यासी वा देहे",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वयं देहाधिष्ठानप्रयत्नम् अकुर्वन् देहेन न",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "अवतिष्ठते",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "देहभिन्नात्मदर्शी प्रवासीव परगेहेतत्पूजापरिभवादिभिरप्रहृष्यन्नविषीदन्नहंकारममकारशून्यस्तिष्ठति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +256,24 @@
       "surface_form": "kurvan",
       "lemma": "kṛ",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्वयम् न",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्याद्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +287,32 @@
       "surface_form": "kārayan",
       "lemma": "kāray",
       "grammar": "nominative masculine singular present participle verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "क्रियासु प्रवर्तयन्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सुखम् आस्ते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "आस्त इति संबन्धः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

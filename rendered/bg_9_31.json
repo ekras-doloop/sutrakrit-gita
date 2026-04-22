@@ -19,7 +19,57 @@
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "धर्मात्मा धर्मचित्तः एव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "क्षिप्रम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "धर्मात्मा",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "एवं स्वरूपभजनेन शश्वच्छान्तिमपुनरावर्त्तिनीं मत्प्राप्तिं विरुद्धाचारनिवृत्तिं याति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। ततश्च शश्वच्छान्तिं शाश्वतीमुपशान्तिं चित्तोपप्लवोपरमरूपां परमेश्वरनिष्ठां नितरां गच्छति प्राप्नोति। कुतर्ककर्कशवादिनो",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "धर्मात्मा धर्मानुगतचित्तः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,21 +104,120 @@
       "surface_form": "nigacchati",
       "lemma": "nigam",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्राप्नोति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। शाश्वतीम् अपुनरावर्तिनीं मत्प्राप्तिविरोध्याचारनिवृत्तिं गच्छति। कौन्तेय त्वम् एव अस्मिन् अर्थे प्रतिज्ञां कुरु मद्भक्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "नितरां प्राप्नोत्यतिनिर्वेदात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kaunteya",
       "lemma": "kaunteya",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रतिजानीहि निश्चितां प्रतिज्ञां कुरु? न मे मम भक्तः मयि समर्पितान्तरात्मा मद्भक्तः न प्रणश्यति इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "त्वम् एव अस्मिन् अर्थे प्रतिज्ञां कुरु मद्भक्तौ उपक्रान्तो विरोध्याचारमिश्रः अपि न नश्यति अपि तु मद्भक्तिमाहात्म्येन सर",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "त्वमस्मिन्नर्थे मे प्रतिज्ञां जानीहि",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "? पटहकाहलादिमहाघोषपूर्वकं विवदमानानां सभां गत्वा बाहुमुत्क्षिप्य निःशङ्कं प्रतिजानीहि प्रतिज्ञां कुरु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "? निश्चितमेवेदृशं मद्भक्तेर्माहात्म्यं? अतो विप्रतिपन्नामां पुरस्तादपि त्वं प्रतिजानीहि सावज्ञं सगर्वं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pratijānīhi",
       "lemma": "pratijñā",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "निश्चितां प्रतिज्ञां कुरु? न मे मम भक्तः मयि समर्पितान्तरात्मा मद्भक्तः न प्रणश्यति इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यत्र ज्ञानमात्रविधावुपसर्गस्य नैरर्थक्यात् वास्तोष्पते प्रतिजानीह्यस्मान् [ऋक्सं.5",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "प्रतिज्ञां कुरु",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सावज्ञं सगर्वं",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,14 +238,96 @@
       "surface_form": "bhaktaḥ",
       "lemma": "bhakta",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मयि समर्पितान्तरात्मा मद्भक्तः न प्रणश्यति इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रणश्यति इत्ययं प्रतिज्ञाविषय इति ज्ञापनायअस्मिन्नर्थे इत्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "? मध्यमदुराचारस्तु तथाविधः कथं इत्यत आह -- साधारणे ति",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "प्रणश्यति इति त्वं वा सभायां गत्वा प्रतिज्ञां कुरु? न मे भगवतो भक्तो दोषैः पराभूतो भवाम्बुधौ निमज्जति? किन्तु परां गतिं",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "सुदुराचारोऽपि न प्रणश्यति अपितु कृतार्थ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "praṇaśyati",
       "lemma": "praṇaś",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति।।किञ्च --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्ययं प्रतिज्ञाविषय इति ज्ञापनायअस्मिन्नर्थे इत्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "इति त्वं वा सभायां गत्वा प्रतिज्ञां कुरु? न मे भगवतो भक्तो दोषैः पराभूतो भवाम्बुधौ निमज्जति? किन्तु परां गतिं याति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "अपितु कृतार्थ",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "किंतु कृतार्थ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

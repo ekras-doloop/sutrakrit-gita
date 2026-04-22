@@ -40,7 +40,24 @@
       "surface_form": "sarvam",
       "lemma": "sarva",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इदं ततं जगत् व्याप्तम् स्वकर्मणा पूर्वोक्तेन प्रतिवर्णं तम् ईश्वरम् अभ्यर्च्य पूजयित्वा आराध्य केवलं ज्ञाननिष्ठायोग्यता",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इदं ततं स्वकर्मणां तं माम् इन्द्राद्यन्तरात्मतयावस्थितम् अभ्यर्च्य मत्प्रसादात् मत्प्राप्तिरूपां सिद्धिं विन्दति मानवः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,14 +113,57 @@
       "surface_form": "vindati",
       "lemma": "vid",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मानवः मनुष्यः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "मानवः।मत्त एव सर्वम् उत्पद्यते? मया च सर्वम् इदम् ततम् इति पूर्वम् एव उक्तम् -- अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा।।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "मानवो? देवादिस्तूपासनामात्रेणेति भावः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "mānavaḥ",
       "lemma": "mānava",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मनुष्यः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "।मत्त एव सर्वम् उत्पद्यते? मया च सर्वम् इदम् ततम् इति पूर्वम् एव उक्तम् -- अहं कृत्स्नस्य जगतः प्रभवः प्रलयस्तथा।।मत्तः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

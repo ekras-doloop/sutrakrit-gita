@@ -19,21 +19,115 @@
       "surface_form": "tvām",
       "lemma": "tvad",
       "grammar": "accusative singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ऋषयः वसिष्ठादयः सर्वे देवर्षिः नारदः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "एव शाश्वतं दिव्यं पुरुषम् आदिदेवम् अजं विभुम् आहुः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "ṛṣayaḥ",
       "lemma": "ṛṣi",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "वसिष्ठादयः सर्वे देवर्षिः नारदः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च सर्वे परावरतत्त्वयाथात्म्यविदः त्वाम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? तथा महाभगवदीयो मर्यादापुष्टिभक्तः देवर्षिर्नारदः आह असितो देवलो व्यासश्च -- एष नारायणः श्रीमान् क्षीरार्णवनिकेतनः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भृग्वादयः सर्वे देवर्षिर्नारदः असितश्च देवलश्च व्यासश्च स्वयं त्वमेव साक्षान्मे मह्यं ब्रवीषि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sarve",
       "lemma": "sarva",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवर्षिः नारदः तथा",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "पाप्मानः प्रदूयन्ते (छा0 उ 0 5",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "ऋषयः? तथा महाभगवदीयो मर्यादापुष्टिभक्तः देवर्षिर्नारदः आह असितो देवलो व्यासश्च -- एष नारायणः श्रीमान् क्षीरार्णवनिकेतनः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "देवर्षिर्नारदः असितश्च देवलश्च व्यासश्च स्वयं त्वमेव साक्षान्मे मह्यं ब्रवीषि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "भृगुवसिष्ठादयः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,7 +176,16 @@
       "surface_form": "vyāsaḥ",
       "lemma": "vyāsa",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "च। एष नारायणः श्रीमान् क्षीरार्णवनिकेतनः। नागपर्यङ्कमुत्सृज्य ह्यागतो मथुरां पुरीम्।।पुण्या द्वारवती तत्र यत्रास्ते मधु",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +213,32 @@
       "surface_form": "bravīṣi",
       "lemma": "brū",
       "grammar": "present indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मे ।।",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "चभूमिरापोऽनलो वायुः खं मनो बुद्धिरेव च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। अत्र ऋषित्वेऽपि साक्षाद्वक्तृ़णां नारदादीनामतिविशिष्टत्वात्पृथग्ग्रहणम्।",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

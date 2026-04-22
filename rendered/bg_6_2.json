@@ -19,7 +19,16 @@
       "surface_form": "saṃnyāsam",
       "lemma": "saṃnyāsa",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति प्राहुः श्रुतिस्मृतिविदः योगं कर्मानुष्ठानलक्षणं तं परमार्थसंन्यासं विद्धि जानीहि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,14 +63,64 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जानीहि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। तद् उपपादयति न ह्यसंन्यस्तसंकल्पो योगी भवति कश्चन इति। आत्मयाथात्म्यानुसन्धानेन अनात्मनि प्रकृतौ आत्मसंकल्पः संन्यस्तः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "यत्रत्यकर्मसु फलसङ्कल्पत्यागस्य निरूप्यमाणत्वात्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। हे पाण्डव अब्रह्मदत्तं ब्रह्मदत्तमित्याह तं वयं मन्यामहे ब्रह्मदत्तसदृशोऽयमिति न्यायात्परशब्दः परत्र प्रयुज्यमानः सादृ",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "pāṇḍava",
       "lemma": "pāṇḍava",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। कर्मयोगस्य प्रवृत्तिलक्षणस्य तद्विपरीतेन निवृत्तिलक्षणेन परमार्थसंन्यासेन कीदृशं सामान्यमङ्गीकृत्य तद्भाव उच्यते इत्यप",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अब्रह्मदत्तं ब्रह्मदत्तमित्याह तं वयं मन्यामहे ब्रह्मदत्तसदृशोऽयमिति न्यायात्परशब्दः परत्र प्रयुज्यमानः सादृश्यं बोधयति",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,21 +155,138 @@
       "surface_form": "yogī",
       "lemma": "yogin",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "समाधानवान् भवति न संभवतीत्यर्थः फलसंकल्पस्य चित्तवेक्षेपहेतुत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "भवति कश्चन इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "चेत्युक्त्या प्राप्तात्यन्तभेदशङ्कानिवृत्त्यर्थमिति शेषः",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "jayatirtha"
+          ]
+        },
+        {
+          "sense": "न भवति",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "भवति। अतः फलसंकल्पत्यागसाम्यात्संन्यासात्संन्यासी च फलसंकल्पत्यागादेव चित्तविक्षेपाभावाद्योगी च भवत्येव स इत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "न भवति अपितु सर्वो योगी त्यक्तफलसंकल्प",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "bhavati",
       "lemma": "bhū",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "न संभवतीत्यर्थः फलसंकल्पस्य चित्तवेक्षेपहेतुत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कश्चन इति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। तादृशकर्मकर्त्ता चेद्योग्येव न। तथा चेद्योग्येवेति भावः।",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। अतः फलसंकल्पत्यागसाम्यात्संन्यासात्संन्यासी च फलसंकल्पत्यागादेव चित्तविक्षेपाभावाद्योगी च भवत्येव स इत्यर्थः।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "अपितु सर्वो योगी त्यक्तफलसंकल्प",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "kaścana",
       "lemma": "kaścana",
       "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कश्चिदपि कर्मी योगी समाधानवान् भवति न संभवतीत्यर्थः फलसंकल्पस्य चित्तवेक्षेपहेतुत्वात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इति। आत्मयाथात्म्यानुसन्धानेन अनात्मनि प्रकृतौ आत्मसंकल्पः संन्यस्तः परित्यक्तो येन स संन्यस्तसंकल्पः अनेवंभूतो यः स अस",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "कश्चिदपि योगी न भवति अपितु सर्वो योगी त्यक्तफलसंकल्प",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

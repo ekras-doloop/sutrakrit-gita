@@ -19,7 +19,35 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "nominative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "(गीता 8",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "इति निर्दिष्टं परमम् अक्षरं न क्षरति इति अक्षरं क्षेत्रज्ञं समष्टिरूपम् तथा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "। वेदादिशङ्काव्यावृत्त्यर्थमेतत्। आत्मन्यधि यत्तदध्यात्मम्। आत्माधिकारे यत्तदिति वा। तथा हि -- जैवः स्वभावः। स्वाख्यो भा",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva",
+            "jayatirtha"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +75,24 @@
       "surface_form": "ucyate",
       "lemma": "vac",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "। आत्मानं देहम् अधिकृत्य प्रत्यगात्मतया प्रवृत्तं परमार्थब्रह्मावसानं वस्तु स्वभावः अध्यात्मम् उच्यते अध्यात्मशब्देन अभि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स्वभावः प्रकृतिः अनात्मभूतम् आत्मनि संबद्ध्यमानं भूतसूक्ष्मतद्वासनादिकं पञ्चाग्निविद्यायां ज्ञातव्यतया उदितम् तदुभयं प्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

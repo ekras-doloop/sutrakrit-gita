@@ -19,14 +19,64 @@
       "surface_form": "sāṃkhyaiḥ",
       "lemma": "sāṃkhya",
       "grammar": "instrumental masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "ज्ञाननिष्ठैः संन्यासिभिः प्राप्यते स्थानं मोक्षाख्यम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ज्ञाननिष्ठैः यद् आत्मावलोकनरूपफलं प्राप्यते तद्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prāpyate",
       "lemma": "prāp",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "स्थानं मोक्षाख्यम्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तद् एव कर्मयोगनिष्ठैः अपि प्राप्यते। एवम् एकफलत्वेन एकं वैकल्पिकं सांख्यं योगं च यः पश्यति स पश्यति स एव पण्डित इत्यर्थ",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "तदेव योगैरित्यत्रार्श आदित्वेन मत्वर्थीयोऽच्",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "आवरणाभावमात्रेण लभ्यत इव नित्यप्राप्तत्वात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +111,32 @@
       "surface_form": "gamyate",
       "lemma": "gam",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इत्यभिप्रायः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। अवाप्यत इत्यर्थः। अतः सांख्यं च योगं चैकफलत्वेनैकं यः पश्यति स एव सम्यक्पश्यति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "। अत एकफलत्वादेकं सांख्यं च योगं च यः पश्यति स एव सभ्यक् पश्यति नान्यः। अयं भावः येषां संन्यासपूर्विका ज्ञाननिष्ठा दृश्य",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -110,7 +185,49 @@
       "surface_form": "paśyati",
       "lemma": "dṛś",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "फलैकत्वात् स सम्यक् पश्यती त्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स पश्यति स",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स सम्यग्दर्शनः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स एव सम्यक्पश्यति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स एव सभ्यक् पश्यति नान्यः। अयं भावः येषां संन्यासपूर्विका ज्ञाननिष्ठा दृश्यते तेषां तयैव लिङ्गेन प्राग्जन्मसु भगवदर्पित",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -124,7 +241,49 @@
       "surface_form": "paśyati",
       "lemma": "dṛś",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "फलैकत्वात् स सम्यक् पश्यती त्यर्थः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "स पश्यति स",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "स सम्यग्दर्शनः",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "स एव सम्यक्पश्यति।",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "स एव सभ्यक् पश्यति नान्यः। अयं भावः येषां संन्यासपूर्विका ज्ञाननिष्ठा दृश्यते तेषां तयैव लिङ्गेन प्राग्जन्मसु भगवदर्पित",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

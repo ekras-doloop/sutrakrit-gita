@@ -40,14 +40,65 @@
       "surface_form": "manyate",
       "lemma": "man",
       "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "जानाति तमसा आवृता सती? सर्वार्थान् सर्वानेव ज्ञेयपदार्थान् विपरीतांश्च विपरीतानेव विजानाति? बुद्धिः सा पार्थ? तामसी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अधर्मं धर्मं धर्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tamasā",
       "lemma": "tamas",
       "grammar": "instrumental neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आवृता सती? सर्वार्थान् सर्वानेव ज्ञेयपदार्थान् विपरीतांश्च विपरीतानेव विजानाति? बुद्धिः सा पार्थ? तामसी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आवृता सती सर्वार्थान् विपरीतान् मन्यते अधर्मं धर्मं धर्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "अज्ञानेनाऽऽवृता सर्वार्थान्विपरीतान्मन्यते सा तामसी",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "विशेषदर्शनविरोधिना दोषेणावृता या बुद्धिरधर्मं धर्ममिति मन्यतेऽदृष्टार्थे सर्वत्र विपर्यस्यति तथा सर्वार्थान्सर्वान्दृष्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -89,7 +140,24 @@
       "surface_form": "buddhiḥ",
       "lemma": "buddhi",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सा पार्थ? तामसी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "तमसा आवृता सती सर्वार्थान् विपरीतान् मन्यते अधर्मं धर्मं धर्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,14 +171,33 @@
       "surface_form": "pārtha",
       "lemma": "pārtha",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? तामसी",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "tāmasī",
       "lemma": "tāmasa",
       "grammar": "nominative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "तु बुद्धिः तमसा आवृता सती सर्वार्थान् विपरीतान् मन्यते अधर्मं धर्मं धर्मं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

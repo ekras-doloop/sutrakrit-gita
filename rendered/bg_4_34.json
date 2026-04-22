@@ -19,35 +19,185 @@
       "surface_form": "viddhi",
       "lemma": "vid",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विजानीहि येन विधिना प्राप्यते इति",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "(गीता 2",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "प्राप्नुहि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "लभस्व। आचार्यानभिगम्य तेषां प्रणिपातेन प्रकर्षेण नीचैः पतनं प्रणिपातो दीर्घनमस्कारस्तेन। कोऽहं कथं बद्धोऽस्मि केनोपायेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "praṇipātena",
       "lemma": "praṇipāta",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रकर्षेण नीचैः पतनं प्रणिपातः दीर्घनमस्कारः तेन कथं बन्धः कथं मोक्षः का विद्या का चाविद्या इति परिप्रश्नेन सेवया गुरुश",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कायिकेनामानित्वसाधनेन ततश्च वाचिकेन महदुपसदनं गत्वा प्रणयकृतेन परिप्रश्नेन आन्तरीयेण सेवनेन च",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "दण्डवन्नमस्कारेण ततः परिप्रश्नेन कुतोऽयं मम संसारः कथं वा निवर्तत इति प्रश्नेन सेवया शुश्रूषया",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "प्रकर्षेण नीचैः पतनं प्रणिपातो दीर्घनमस्कारस्तेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "paripraśnena",
       "lemma": "paripraśna",
       "grammar": "instrumental masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सेवया गुरुशुश्रूषया एवमादिना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आन्तरीयेण सेवनेन च",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "कुतोऽयं मम संसारः कथं वा निवर्तत इति प्रश्नेन सेवया शुश्रूषया",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "बहुविषयेण प्रश्नेन",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "sevayā",
       "lemma": "sevā",
       "grammar": "instrumental feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "गुरुशुश्रूषया एवमादिना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "शुश्रूषया",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सर्वभावेन तदनुकूलकारितया",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "upadekṣyanti",
       "lemma": "upadiś",
       "grammar": "future indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "कथयिष्यन्ति ते ज्ञानं यथोक्तविशेषणं ज्ञानिनः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "।आत्मयाथात्म्यविषयसाक्षात्काररूपस्य लक्षणम् आह",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "उपदेशेन संपादयिष्यन्ति ते तुभ्यं ज्ञानं परमात्मविषयं साक्षान्मोक्षफलं ज्ञानिनः पदवाक्यन्यायादिमाननिपुणास्तत्त्वदर्शिनः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

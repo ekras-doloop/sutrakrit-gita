@@ -40,7 +40,16 @@
       "surface_form": "duḥkham",
       "lemma": "duḥkham",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आप्तुं प्राप्तुम् अयोगतः योगेन विना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -54,7 +63,32 @@
       "surface_form": "ayogataḥ",
       "lemma": "ayoga",
       "grammar": "ablative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "योगेन विना",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कर्मयोगाद् ऋते प्राप्तुम् अशक्यः",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "कर्मयोगं विना संन्यासः प्राप्तुं दुःखहेतुः",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -82,14 +116,56 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "परमात्मज्ञाननिष्ठालक्षणत्वात् प्रकृतः संन्यासः ब्रह्म उच्यते न्यास इति ब्रह्मा ब्रह्मा हि परः (ना0 उ 0 2.78) इति श्रुते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "अधिगच्छति आत्मानं प्राप्नोति",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "सत्यज्ञानादिलक्षणमात्मानं नचिरेण शीघ्रमेवाधिगच्छति साक्षात्करोति प्रतिबन्धकाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "nacireṇa",
       "lemma": "nacireṇa",
       "grammar": "",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "इति नञः क्रियान्वये चिरेणाप्यधिगमो न स्यादिति भ्रमः स्यात् तद्व्युदासायनचिरेणेत्युक्तम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        },
+        {
+          "sense": "शीघ्रमेवाधिगच्छति साक्षात्करोति प्रतिबन्धकाभावात्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {

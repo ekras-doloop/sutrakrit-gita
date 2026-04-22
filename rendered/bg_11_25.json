@@ -26,7 +26,32 @@
       "surface_form": "karālāni",
       "lemma": "karāla",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "विकृतानि ते तव मुखानि दृष्ट्वैव उपलभ्य कालानलसंनिभानि प्रलयकाले लोकानां दाहकः अग्निः कालानलः तत्सदृशानि कालानलसंनिभानि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "कालानलः प्रलयाग्निस्तत्सदृशानि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "विकृतत्वेन भयंकराणि प्रलयकालानलसदृशानि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +72,40 @@
       "surface_form": "mukhāni",
       "lemma": "mukha",
       "grammar": "accusative neuter plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दृष्ट्वैव उपलभ्य कालानलसंनिभानि प्रलयकाले लोकानां दाहकः अग्निः कालानलः तत्सदृशानि कालानलसंनिभानि मुखानि दृष्ट्वेत्येतत्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "दृष्ट्वा दिशो न जाने सुखं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "दृष्ट्वा भयावेशेन दिशो न जानामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "दृष्ट्वैव नतु तानि प्राप्य भयवशेन दिशः पूर्वापरादिविवेकेन न जाने",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +161,32 @@
       "surface_form": "jāne",
       "lemma": "jñā",
       "grammar": "present indicative 1st person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "दिङ्मूढो जातः अस्मि",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "सुखं च न लभे। जगतां निवास देवेश ब्रह्मादीनाम् ईश्वराणाम् अपि परममहेश्वरं मां प्रति प्रसन्नो भव यथा अहं प्रकृतिं गतो भवा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। अतो न लभे च शर्म सुखं त्वद्रूपदर्शनेऽपि। अतो हे देवेश हे जगन्निवास? प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -131,21 +214,96 @@
       "surface_form": "śarma",
       "lemma": "śarman",
       "grammar": "accusative neuter singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "सुखम्। अतः प्रसीद प्रसन्नो भव हे देवेश? जगन्निवास ।।येभ्यो मम पराजयाशङ्का या आसीत् सा च अपगता।,यतः --,",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "च सुखं न लभे",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "सुखं त्वद्रूपदर्शनेऽपि",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "prasīda",
       "lemma": "prasad",
       "grammar": "present imperative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "प्रसन्नो भव",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्शनजं सुखं प्राप्नुयामिति शेषः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "deveśa",
       "lemma": "deveśa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "? जगन्निवास",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "ब्रह्मादीनाम् ईश्वराणाम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "? तव मुखानि दृष्ट्वा भयावेशेन दिशो न जानामि",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "हे जगन्निवास? प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्शनजं सुखं प्राप्नुयामिति शेषः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -159,7 +317,16 @@
       "surface_form": "nivāsa",
       "lemma": "nivāsa",
       "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "देवेश ब्रह्मादीनाम् ईश्वराणाम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

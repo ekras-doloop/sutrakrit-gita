@@ -19,7 +19,24 @@
       "surface_form": "vyaktim",
       "lemma": "vyakti",
       "grammar": "accusative feminine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "आपन्नं प्रकाशं गतम् इदानीं मन्यन्ते मां नित्यप्रसिद्धमीश्वरमपि सन्तम् अबुद्धयः अविवेकिनः परं भावं परमात्मस्वरूपम् अजानन",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "आपन्नं प्राप्तं माम् अबुद्धयो मन्यन्ते अतो मां न श्रयन्ते न कर्मभिः आराधयन्ति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -33,7 +50,57 @@
       "surface_form": "manyante",
       "lemma": "man",
       "grammar": "present indicative 3rd person plural verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "मां नित्यप्रसिद्धमीश्वरमपि सन्तम् अबुद्धयः अविवेकिनः परं भावं परमात्मस्वरूपम् अजानन्तः अविवेकिनः मम अव्ययं व्ययरहितम् अ",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "अतो मां न श्रयन्ते न कर्मभिः आराधयन्ति च",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "गौणदैहिकम् इत्यादौ",
+          "school": "dvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "madhva"
+          ]
+        },
+        {
+          "sense": "वा मानयन्ति प्राकृतं व्यक्तिमापन्नं वा मन्यन्तेऽबुद्धयोऽतः तथा मानने",
+          "school": "śuddhādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vallabha"
+          ]
+        },
+        {
+          "sense": "। तत्र हेतुः। मम परं भावं स्वरूपमजानन्तः। कथंभूतम्। अव्ययं नित्यम्। न विद्यत उत्तमो यस्मात्तं भावं। अतो जगद्रक्षार्थं ली",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "मामीश्वरमप्यबुद्धयो विवेकशून्याः",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -47,7 +114,24 @@
       "surface_form": "abuddhayaḥ",
       "lemma": "abuddhi",
       "grammar": "nominative masculine plural noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अविवेकिनः परं भावं परमात्मस्वरूपम् अजानन्तः अविवेकिनः मम अव्ययं व्ययरहितम् अनुत्तमं निरतिशयं मदीयं भावमजानन्तः मन्यन्ते",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "इत्यनेन परमात्मतदवतारादिविषयश्रवणमननादिराहित्यं वैलक्षण्यज्ञापकलिङ्गदर्शनेऽपि तदूहशक्तिवैकल्यं",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -61,7 +145,17 @@
       "surface_form": "bhāvam",
       "lemma": "bhāva",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अव्ययम् अनुत्तमम् अजानन्तः प्राकृतराजसूनुसमानम् इतः पूर्वम् अनभिव्यक्तम् इदानीं कर्मवशाद् जन्मविशेषं प्राप्य व्यक्तिम्",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja",
+            "vedantadeshika"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -96,7 +190,16 @@
       "surface_form": "anuttamam",
       "lemma": "anuttama",
       "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अजानन्तः प्राकृतराजसूनुसमानम् इतः पूर्वम् अनभिव्यक्तम् इदानीं कर्मवशाद् जन्मविशेषं प्राप्य व्यक्तिम् आपन्नं प्राप्तं मा",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],

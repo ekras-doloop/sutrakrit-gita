@@ -54,14 +54,32 @@
       "surface_form": "vikampitum",
       "lemma": "vikamp",
       "grammar": "infinitive",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "अर्हसि धर्म्यात् न्यायतः प्रवृत्तात् युद्धाद् अन्यत् न हि क्षत्रियस्य श्रेयो विद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
       "surface_form": "arhasi",
       "lemma": "arh",
       "grammar": "present indicative 2nd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "धर्म्यात् न्यायतः प्रवृत्तात् युद्धाद् अन्यत् न हि क्षत्रियस्य श्रेयो विद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -103,7 +121,25 @@
       "surface_form": "kṣatriyasya",
       "lemma": "kṣatriya",
       "grammar": "genitive masculine singular noun",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "युद्धं तमपि अवेक्ष्य त्वं न विकम्पितुं प्रचलितुम् नार्हसि क्षत्रियस्य स्वाभाविकाद्धर्मात् आत्मस्वाभाव्यादित्यभिप्रायः",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara",
+            "anandgiri"
+          ]
+        },
+        {
+          "sense": "श्रेयो विद्यते",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        }
+      ],
       "theme_lists": []
     },
     {
@@ -117,7 +153,32 @@
       "surface_form": "vidyate",
       "lemma": "vid",
       "grammar": "present indicative pass 3rd person singular verb",
-      "senses_attested_in_panel": [],
+      "senses_attested_in_panel": [
+        {
+          "sense": "हि यस्मात्",
+          "school": "advaita",
+          "weight": 0.8,
+          "witnesses": [
+            "shankara"
+          ]
+        },
+        {
+          "sense": "। शौर्यं तेजो धृतिर्दाक्ष्यं युद्धे चाप्यपलायनम्। दानमीश्वरभावश्च क्षात्रं कर्म स्वभावजम्।।(गीता 18।43) इति हि वक्ष्यते।",
+          "school": "viśiṣṭādvaita",
+          "weight": 0.8,
+          "witnesses": [
+            "ramanuja"
+          ]
+        },
+        {
+          "sense": "। युद्धमेव हि पृथिवीजयद्वारेण प्रजारक्षणब्राह्मणशुश्रूषादिक्षात्रधर्मनिर्वाहकमिति तदेव क्षत्रियस्य प्रशस्ततरमित्यभिप्राय",
+          "school": "advaita-bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "madhusudan"
+          ]
+        }
+      ],
       "theme_lists": []
     }
   ],
