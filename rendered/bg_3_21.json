@@ -340,7 +340,8 @@
         "shankara_3.21",
         "anandgiri_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "For Śaṅkara the śreṣṭha's authority is instrumentally useful for loka-saṃgraha; the ultimate end remains jñāna, not exemplary action as a terminal value."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -349,7 +350,8 @@
         "ramanuja_3.21",
         "vedantadeshika_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Unlike Śaṅkara, Rāmānuja insists karma is not merely preparatory but constitutive of bhakti-yoga; exemplary action binds the community of jīvas to Bhagavān through the śreṣṭha's mediating role."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -358,7 +360,8 @@
         "madhva_3.21",
         "jayatirtha_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's bhāṣya on this verse is notably brief; the theological weight is placed on the śreṣṭha's utterance as pramāṇa, consonant with Madhva's broader emphasis on śabda-pramāṇa (scriptural testimony) as the highest epistemological instrument. Flag: bhāṣya excerpt is minimal; inference drawn from established Madhva pramāṇa-doctrine."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -366,7 +369,8 @@
       "witness_passages": [
         "vallabha_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "FLAG: Vallabha bhāṣya payload is minimal (two words). This rendering is anchored in Puṣṭi-mārga doctrinal framework, not in extended bhāṣya prose. Treat as reasoned extrapolation, not direct commentary translation."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -374,7 +378,8 @@
       "witness_passages": [
         "sridhara_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's synthesis is notably even-handed — he does not subordinate action to jñāna (as Śaṅkara) or insist on aṅga-completeness (as Rāmānuja). The bhakti register keeps the example-setting function devotionally open: the śreṣṭha's life itself becomes an act of seva to the community."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -382,7 +387,8 @@
       "witness_passages": [
         "madhusudan_3.21"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana uniquely foregrounds the epistemological danger: since the common person's very sense of pramāṇa is shaped by the śreṣṭha, an irresponsible exemplar corrupts not just behavior but the community's capacity for normative judgment itself."
     }
   },
   "prosodic_information": {
@@ -509,5 +515,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If the loka follows the śreṣṭha regardless of whether the action is śubha (auspicious) or aśubha (inauspicious) — as Madhusūdana explicitly notes — does the verse contain an implicit warning about the dangers of corrupted leadership rather than only a positive teaching about exemplary conduct?",
+    "Rāmānuja insists the śreṣṭha must perform karma with full aṅga-completeness; what happens in communities where the exemplar follows only the spirit of a practice while dropping its structural forms — does the loka then follow a degraded form, and is that degradation traceable back to the śreṣṭha's partial anuṣṭhāna?",
+    "Śaṅkara's pivot — 'why do you not look to Me (mām) as your pramāṇa?' — reframes the verse from sociology of imitation to direct spiritual instruction: when Kṛṣṇa Himself is the śreṣṭha, does this verse dissolve the distinction between dharmic example and divine revelation?",
+    "Madhusūdana identifies a two-stage influence: first imitation of act, then adoption of the śreṣṭha's pramāṇa (epistemic standard). Does this mean leadership corruption is more dangerous at the second stage — corrupting what counts as evidence — than at the first?",
+    "Śrīdhara's inclusion of nivṛtti-śāstra alongside karma-śāstra suggests a renunciant's conduct is equally imitated: what obligations does this place on sādhus, sannyāsīs, and public teachers whose example shapes lay practice in domains they may consider beyond the householder's concern?",
+    "All commentators agree the prākṛta jana follows without independent judgment — yet the verse is addressed to Arjuna, who is not prākṛta. Does the verse ask Arjuna to accept the burden of being imitated even when he himself has not resolved his own dharmic confusion?",
+    "If the śreṣṭha's authority is self-reinforcing (the loka's imitation itself confirms the śreṣṭha's pramāṇa-status), what external check prevents a culturally dominant but doctrinally mistaken figure from capturing the normative center? Does any school's commentary provide such a check?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "A manager who has genuinely internalized non-attachment to outcomes (niṣkāma-karma) will find their team unconsciously adopting the same disposition — not because a policy was announced, but because the standard (pramāṇa) of 'what counts as good work' has shifted. The Advaita application: before trying to change team culture, examine which personal pramāṇa you are publicly enacting. Are you, in practice, treating quarterly metrics as the only valid evidence of success? The loka will follow that pramāṇa, not your stated values."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "Rāmānuja's aṅga-completeness principle applies directly to mentorship: if a senior practitioner — whether in craft, medicine, or spiritual practice — performs their discipline fully but then short-circuits certain 'minor' preparatory steps when observed by juniors, the juniors will copy the truncated form while missing why the aṅgas mattered. Viśiṣṭādvaita application: the śreṣṭha's responsibility is not just exemplary outcome but exemplary process — every auxiliary step performed in full, always, because loka-rakṣā (protection of the community) depends on the integrity of the transmitted form."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "In Madhva's framework, the śreṣṭha's vākya (utterance) is the primary vehicle of pramāṇa. Everyday application: what a leader says publicly — especially casual speech — becomes normative faster than any official policy. A CEO who jokes dismissively about a competitor's ethics, or a teacher who offhandedly discounts a certain kind of evidence, is unknowingly installing an epistemic standard in everyone present. Dvaita application: treat public speech as pramāṇa-setting, not merely information-sharing; the loka will quote what you said, not what you meant."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "Puṣṭi-mārga reads exemplary leadership as participation in Kṛṣṇa's own grace-flow (prasāda). Everyday application: a parent, teacher, or community elder who acts from genuine love — seva to those in their care — generates an energy that is received as prasāda rather than instruction. The community does not follow because they calculated that following is rational; they follow because they were drawn. Śuddhādvaita application: invest in the quality of your inner state (bhāva) before your external conduct; it is the bhāva, not the performance of leadership, that the loka unconsciously tracks."
+    },
+    "bhakti": {
+      "school": "Bhakti-philological (Śrīdhara)",
+      "application": "Śrīdhara's inclusion of nivṛtti-śāstra makes this verse relevant to those who choose simplicity, minimalism, or voluntary restraint as a public practice. A teacher who visibly renounces prestige-seeking does not need to lecture on ego; the prākṛta jana around them begins recalibrating what counts as success. Bhakti application: loka-saṃgraha is served equally by exemplary pravṛtti and exemplary nivṛtti — the world learns its normative range from those willing to embody both poles honestly."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-Bhakti (Madhusūdana)",
+      "application": "Madhusūdana's warning — that the loka follows the śreṣṭha even in aśubha (inauspicious) action — maps directly onto institutional ethics. A founder who cuts ethical corners 'just this once' to hit a target is not merely making a one-time compromise; they are shifting the organization's pramāṇa. The team's internal standard of what counts as acceptable evidence for a decision, what counts as a real commitment, begins to drift. Advaita-Bhakti application: treat every visible decision as a pramāṇa-setting act, not an isolated choice — because the loka's epistemology, not just its behavior, is being shaped by your example."
+    }
   }
 }
