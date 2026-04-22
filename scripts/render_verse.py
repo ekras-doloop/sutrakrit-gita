@@ -24,6 +24,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -34,7 +35,13 @@ sys.path.insert(0, str(REPO_ROOT))
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
 from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
 from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
+from substrate.reading_summaries import summarize_school_reading  # noqa: E402
 from substrate.sense_extraction import extract_panel_senses  # noqa: E402
+
+# Set to True to call LLM for reading_summary generation. Default False
+# to keep render_verse.py runnable without API keys; render_all.py
+# enables when LLM credentials are available in the environment.
+ENABLE_READING_SUMMARIES = os.environ.get("ENABLE_READING_SUMMARIES", "false").lower() == "true"
 
 PANEL_COMMENTATORS = ["shankara", "anandgiri", "ramanuja", "vedantadeshika",
                       "madhva", "jayatirtha", "vallabha", "sridhara", "madhusudan"]
@@ -180,16 +187,27 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     doctrinal_projections = {}
     for school, commentators in SCHOOLS.items():
         witness_passages = []
+        primary_prose = None
+        primary_commentator = None
         for c in commentators:
             prose = sub.panel_commentary_for(c, verse_id)
             if prose:
                 witness_passages.append(f"{c}_{verse_id}")
+                if primary_prose is None:
+                    primary_prose = prose
+                    primary_commentator = c
         if witness_passages:
+            reading_summary = ""
+            if ENABLE_READING_SUMMARIES and primary_prose and len(primary_prose) >= 50:
+                try:
+                    reading_summary = summarize_school_reading(
+                        verse_id, school, devanagari, primary_prose
+                    )
+                except Exception as e:
+                    reading_summary = f"(LLM summary failed: {e})"
             doctrinal_projections[school] = {
-                "reading_summary": (
-                    "(reading summary extraction from school commentary "
-                    "forthcoming in next-pass build)"
-                ),
+                "reading_summary": reading_summary
+                or "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
                 "key_cross_references": [],
                 "witness_passages": witness_passages,
                 "score": 0.5,
@@ -248,7 +266,7 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
             continue
         # Convert surface form back to Devanāgarī for commentary search
         dev_surface = _devanagari_surface_for_lemma(tok["surface_form"])
-        senses = extract_panel_senses(dev_surface, commentary_lookups) if dev_surface else []
+        senses = extract_panel_senses(dev_surface, commentary_lookups, verse_devanagari=devanagari) if dev_surface else []
         # Per-lemma theme-list membership: which of this verse's
         # theme-lists have a key-phrase that contains this lemma?
         per_lemma_lists = sub.lists_containing_lemma(dev_surface, verse_id) if dev_surface else []

@@ -54,24 +54,7 @@
       "surface_form": "dhā",
       "lemma": "dhā",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "र्मिकः सभ्रातृको भवद्भिः अतिघोरैः मारणैः जतुगृहादिभिः असकृद् वञ्चितः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "र्थमवलोकनार्थं चोत्थितः सन् शोकेन संविग्नं पीडितं मानसं यस्य सः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -85,16 +68,7 @@
       "surface_form": "a",
       "lemma": "a",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "र्जुन उवाच संजय उवाच स तु पार्थो महामनाः परमकारुणिको दीर्घबन्धुः परमधार्मिकः सभ्रातृको भवद्भिः अतिघोरैः मारणैः जतुगृहादि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -108,16 +82,7 @@
       "surface_form": "raṇa",
       "lemma": "raṇ",
       "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ैः जतुगृहादिभिः असकृद् वञ्चितः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -145,40 +110,14 @@
       "surface_form": "me",
       "lemma": "mā",
       "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "व प्रवेदनप्रकारं दर्शयति एवमिति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "रथोपस्थे रथस्योपर्युपविशेश",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kṣā",
       "lemma": "kṣā",
       "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यां संख्ये संग्रामे रथोपस्थे रथस्योपर्युपविशेश",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -206,112 +145,112 @@
   "intertextual_panel": [
     {
       "verse": "1.20",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8977,
       "feature_breakdown": {
         "cosine": 0.8377,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 16.0518,
+        "lemma_overlap": 15.9622,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "1.23",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8813,
       "feature_breakdown": {
         "cosine": 0.8413,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.7549,
+        "lemma_overlap": 9.6653,
         "stem_prefix": 4.0
       }
     },
     {
+      "verse": "1.1",
+      "type": "lemma-family resonance",
+      "score": 0.8772,
+      "feature_breakdown": {
+        "cosine": 0.8172,
+        "theme_graph": 0.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 10.8823,
+        "stem_prefix": 6.0
+      }
+    },
+    {
       "verse": "15.12",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.876,
       "feature_breakdown": {
         "cosine": 0.826,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.9147,
+        "lemma_overlap": 7.9068,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.7",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.875,
       "feature_breakdown": {
         "cosine": 0.835,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.7032,
+        "lemma_overlap": 6.6645,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "9.22",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8723,
       "feature_breakdown": {
         "cosine": 0.8223,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.2938,
+        "lemma_overlap": 8.2858,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "3.23",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.872,
       "feature_breakdown": {
         "cosine": 0.832,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.1455,
+        "lemma_overlap": 9.117,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "1.36",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8713,
       "feature_breakdown": {
         "cosine": 0.8113,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 14.5819,
+        "lemma_overlap": 14.4875,
         "stem_prefix": 6.0
-      }
-    },
-    {
-      "verse": "9.3",
-      "type": "thematic-similarity",
-      "score": 0.8702,
-      "feature_breakdown": {
-        "cosine": 0.8202,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 5.0808,
-        "stem_prefix": 5.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.46",
@@ -320,7 +259,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.46",
@@ -329,7 +268,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_1.46",
@@ -338,7 +277,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.46"
@@ -346,7 +285,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_1.46"

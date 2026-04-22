@@ -33,107 +33,21 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "युक्तिं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "यः तत्त्वतो वेत्ति? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः।मद्विभूतिविषयं कल्याणगुणविषयं च ज्ञानं भक्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "यो वेत्ति तत्त्वतः स भक्तिरूपेण योगेन युज्यते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ैश्वर्यलक्षणं तत्त्वतो यो वेत्ति सोऽविकम्पेन निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तत्तदर्थनिर्माणसामर्थ्यं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "mama",
       "lemma": "mā",
       "grammar": "2nd person plural perfect active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मदीयं योगं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "हेयप्रत्यनीककल्याणगुणरूपं योगं च यः तत्त्वतो वेत्ति? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः।मद्विभूति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "विभूतिं? योगं चैश्वर्यलक्षणं तत्त्वतो यो वेत्ति सोऽविकम्पेन निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यो वेत्ति तत्त्वतः यथावत्सोऽविकम्पेनाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yas",
       "lemma": "ī",
       "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "य भावः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -144,7 +58,7 @@
         {
           "sense": "तत्त्वतः तत्त्वेन यथावदित्येतत्? सः अविकम्पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -152,7 +66,7 @@
         {
           "sense": "? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -160,7 +74,7 @@
         {
           "sense": "तत्त्वतः स भक्तिरूपेण योगेन युज्यते",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -168,7 +82,7 @@
         {
           "sense": "सोऽविकम्पेन निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -176,7 +90,7 @@
         {
           "sense": "तत्त्वतः यथावत्सोऽविकम्पेनाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -190,50 +104,7 @@
       "surface_form": "tat",
       "lemma": "tad",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्वतः तत्त्वेन यथावदित्येतत्? सः अविकम्पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "त्वतो वेत्ति? सः अविकम्पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "त्वतः स भक्तिरूपेण योगेन युज्यते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "त्वज्ञानस्य फलमाह -- एतामिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तद्रूपेणावस्थितिं योगं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "यो वेत्ति तत्त्वतः"
       ]
@@ -242,56 +113,21 @@
       "surface_form": "tu",
       "lemma": "tu",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नियन्तव्यविषयता वक्ष्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "at",
       "lemma": "ad",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "र संशयः न अस्मिन् अर्थे संशयः अस्ति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "as",
       "lemma": "a",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मिन् अर्थे संशयः अस्ति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -305,66 +141,14 @@
       "surface_form": "avikam",
       "lemma": "avika",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पेन अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "पेन अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pena",
       "lemma": "pā",
       "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अप्रचलितेन योगेन सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "अप्रकम्पेन भक्तियोगेन युज्यते? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "निःसंशयेन योगेन सम्यग्दर्शनेन युक्तो भवति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ाप्रचलितेन योगेन सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -375,24 +159,15 @@
         {
           "sense": "सम्यग्दर्शनस्थैर्यलक्षणेन युज्यते संबध्यते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "युज्यते? न अत्र संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
           "sense": "युज्यते",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -400,7 +175,7 @@
         {
           "sense": "सम्यग्दर्शनेन युक्तो भवति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -408,7 +183,7 @@
         {
           "sense": "सम्यग्ज्ञानस्थैर्यलक्षणेन समाधिना युज्यते",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -424,7 +199,7 @@
         {
           "sense": "संबध्यते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -432,7 +207,7 @@
         {
           "sense": "? न अत्र संशयः",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -440,7 +215,7 @@
         {
           "sense": "। नात्र संशयः प्रतिबन्धः कश्चित्।",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -452,50 +227,7 @@
       "surface_form": "na",
       "lemma": "na",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ः घटनम्? अथवा योगैश्वर्यसामर्थ्यं सर्वज्ञत्वं योगजं योगः उच्यते? मम मदीयं योगं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ीककल्याणगुणरूपं योगं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "युज्यते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स्य फलमाह -- एतामिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "फलमाह -- एतां प्रागुक्तां बुद्ध्यादिमहर्ष्यादिरूपां विभूतिं विविधभावं तत्तद्रूपेणावस्थितिं योगं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "मानसा जाताः"
       ]
@@ -504,24 +236,7 @@
       "surface_form": "atra",
       "lemma": "atra",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संशयः न अस्मिन् अर्थे संशयः अस्ति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संशयः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -535,112 +250,112 @@
   "intertextual_panel": [
     {
       "verse": "4.9",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9462,
       "feature_breakdown": {
         "cosine": 0.8362,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 17.3814,
+        "lemma_overlap": 17.3693,
         "stem_prefix": 10.0
       }
     },
     {
       "verse": "10.18",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9063,
       "feature_breakdown": {
         "cosine": 0.8363,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 11.1541,
+        "lemma_overlap": 11.142,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "14.26",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9037,
       "feature_breakdown": {
         "cosine": 0.8437,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 11.298,
+        "lemma_overlap": 11.2889,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "7.30",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8973,
       "feature_breakdown": {
         "cosine": 0.8373,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.806,
+        "lemma_overlap": 8.7938,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "9.5",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8954,
       "feature_breakdown": {
         "cosine": 0.8354,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.5504,
+        "lemma_overlap": 6.5382,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.3",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.895,
       "feature_breakdown": {
         "cosine": 0.845,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.786,
+        "lemma_overlap": 7.7811,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.38",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.895,
       "feature_breakdown": {
         "cosine": 0.835,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.7501,
+        "lemma_overlap": 9.747,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "7.17",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8936,
       "feature_breakdown": {
         "cosine": 0.8236,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.5534,
+        "lemma_overlap": 8.5412,
         "stem_prefix": 7.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_10.7",
@@ -649,7 +364,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_10.7",
@@ -658,7 +373,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_10.7",
@@ -667,7 +382,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_10.7"
@@ -675,7 +390,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_10.7"
@@ -683,7 +398,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_10.7"

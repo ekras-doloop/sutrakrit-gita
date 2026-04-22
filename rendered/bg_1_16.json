@@ -12,41 +12,14 @@
       "surface_form": "an",
       "lemma": "añji",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तरे विषण्णः अभवत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "येषमापि रथस्थत्वे स्थितएवासाधारण्येन रथोत्कर्षकथनार्थं ततः श्वेतैर्हयैर्युक्त इत्यादिना रथस्थत्वकथनम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "anta",
       "lemma": "anti",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रे विषण्णः अभवत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -64,7 +37,7 @@
         {
           "sense": "युधि चायमेव जयभागित्वेन स्थिरो नत्वेतद्विपक्षाः स्थिरा भविष्यन्तीति युधिष्ठिरपदेन सूचितम्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -76,16 +49,7 @@
       "surface_form": "kuntī",
       "lemma": "kunti",
       "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पुत्र इति कुन्त्या महता तपसा धर्ममाराध्य लब्धः स्वयं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -113,57 +77,14 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सञ्जय उवाच दुर्योधनः स्वयमेव भीमाभिरक्षितं पाण्डवानां बलम् आत्मीयं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "पृथक्पृथक् शङ्खान् दध्मुः",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "जन्यो देवदत्तः पौण्ड्रोऽनन्तविजयः सुधोषो मणिपुष्पकश्चेति शङ्खनामकथनम् परसैन्ये स्वस्वनामभिः प्रसिद्धा एतावन्तः शङ्खाः भव",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sughoṣa",
       "lemma": "sughoṣa",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं नाम शङ्खं दध्मौ",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ं सहदेवो मणिपुष्पकं दध्मावित्यनुषज्यते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -177,7 +98,7 @@
   "intertextual_panel": [
     {
       "verse": "11.19",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8945,
       "feature_breakdown": {
         "cosine": 0.8512,
@@ -190,20 +111,20 @@
     },
     {
       "verse": "13.9",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.8905,
       "feature_breakdown": {
         "cosine": 0.8705,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.0119,
+        "lemma_overlap": 4.0077,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "11.40",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8817,
       "feature_breakdown": {
         "cosine": 0.8384,
@@ -216,59 +137,59 @@
     },
     {
       "verse": "11.38",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8785,
       "feature_breakdown": {
         "cosine": 0.8272,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0568,
-        "lemma_overlap": 7.0958,
+        "lemma_overlap": 7.0917,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "1.32",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.875,
       "feature_breakdown": {
         "cosine": 0.845,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.0665,
+        "lemma_overlap": 9.0624,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "1.4",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.8716,
       "feature_breakdown": {
         "cosine": 0.8516,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 1.0732,
+        "lemma_overlap": 1.069,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "2.41",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8711,
       "feature_breakdown": {
         "cosine": 0.8411,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 1.0732,
+        "lemma_overlap": 1.069,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "11.11",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.87,
       "feature_breakdown": {
         "cosine": 0.85,
@@ -282,7 +203,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.16",
@@ -291,7 +212,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.16",
@@ -300,7 +221,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.16"
@@ -308,7 +229,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_1.16"
@@ -316,7 +237,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_1.16"

@@ -12,32 +12,7 @@
       "surface_form": "brahmaṇi",
       "lemma": "brahman",
       "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ईश्वरे आधाय निक्षिप्य तदर्थं कर्म करोमि इति भृत्य इव स्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इति श्लोकेन",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "परमेश्वरे आधाय समर्प्य सङ्गं फलाभिलाषं त्यक्त्वेश्वरार्थं भृत्यइव स्वाम्यर्थं स्वफलनिरपेक्षतया करोमीत्यभिप्रायेण कर्माण",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -48,7 +23,7 @@
         {
           "sense": "निक्षिप्य तदर्थं कर्म करोमि इति भृत्य इव स्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -56,7 +31,7 @@
         {
           "sense": "फल सङ्गं त्यक्त्वा नैव किञ्चित् करोमि इति",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -64,7 +39,7 @@
         {
           "sense": "समर्प्य सङ्गं फलाभिलाषं त्यक्त्वेश्वरार्थं भृत्यइव स्वाम्यर्थं स्वफलनिरपेक्षतया करोमीत्यभिप्रायेण कर्माणि लौकिकानि वैदि",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -80,7 +55,7 @@
         {
           "sense": "मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -89,16 +64,15 @@
         {
           "sense": "करोति स प्रकृतिसंसृष्टतया वर्तमानः",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "स्वेनैव क्रियमाणानि अनुसन्धायेति क्रियाद्वैतभाव उक्तः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -106,7 +80,7 @@
         {
           "sense": "करोति असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -114,7 +88,7 @@
         {
           "sense": "लौकिकानि वैदिकानि",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -138,9 +112,9 @@
       "grammar": "nominative singular masculine noun",
       "senses_attested_in_panel": [
         {
-          "sense": "करोति",
+          "sense": "करोति यः सर्वकर्माणि लिप्यते न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन। केवलं सत्त्वशुद्धिमात्रमेव फलं तस्य कर्मणः",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -149,7 +123,7 @@
         {
           "sense": "नैव किञ्चित् करोमि इति",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -157,15 +131,15 @@
         {
           "sense": "यो योगी करोति स तदधिगतः ब्रह्मवित् जीवन्मुक्तः पापेनाकरणप्रत्यवायेन नाश्लिष्टो भवति पद्मपत्रमिवाम्भसा",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
         },
         {
-          "sense": "यः कर्माणि करोति असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते। यथा पद्मपत्रमम्भसि स्थितमप्यम्भसा न",
+          "sense": "यः कर्माणि करोति असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -181,9 +155,9 @@
       "grammar": "3rd person singular present indicative active verb",
       "senses_attested_in_panel": [
         {
-          "sense": "यः सर्वकर्माणि लिप्यते न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन। केवलं सत्त्वशुद्धिमात्रमेव फलं तस्य कर्मणः स्यात्",
+          "sense": "यः सर्वकर्माणि लिप्यते न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -192,7 +166,7 @@
         {
           "sense": "स प्रकृतिसंसृष्टतया वर्तमानः",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -201,7 +175,7 @@
         {
           "sense": "स तदधिगतः ब्रह्मवित् जीवन्मुक्तः पापेनाकरणप्रत्यवायेन नाश्लिष्टो भवति पद्मपत्रमिवाम्भसा",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -209,7 +183,7 @@
         {
           "sense": "असौ पापेन बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -217,7 +191,7 @@
         {
           "sense": "यो लिप्यते न स पापेन पापपुण्यात्मकेन कर्मणेति यावत्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -229,32 +203,7 @@
       "surface_form": "yas",
       "lemma": "ī",
       "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्विति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "तत्त्ववित् कर्मकरणादिति विवेचयति ब्रह्मणीति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "य करोमीत्यभिमानोऽस्ति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -265,7 +214,7 @@
         {
           "sense": "न स पापेन न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -273,7 +222,7 @@
         {
           "sense": "पद्मपत्रमिवाम्भसा यथा पद्मपत्रम् अम्भसा संसृष्टम्",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -281,7 +230,7 @@
         {
           "sense": "5।7लिप्यते न स पापेन इति पुनः पुनः फलकथनं इत्यत आह साधने ति। साधननियमस्येति तदुक्तेरित्यर्थः। सन्न्यासयोगौ मिलितावेव फल",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
@@ -289,7 +238,7 @@
         {
           "sense": "। यथा पद्मपत्रमम्भसि स्थितमप्यम्भसा न लिप्यते तद्वत्।",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -297,7 +246,7 @@
         {
           "sense": "न स पापेन पापपुण्यात्मकेन कर्मणेति यावत्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -309,59 +258,7 @@
       "surface_form": "na",
       "lemma": "na",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "िक्षिप्य तदर्थं कर्म करोमि इति भृत्य इव स्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "प्रकृतिः इह उच्यतेमम योनिर्महद्ब्रह्म (गीता 14",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "्न्यासयोगयुक्त",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "चायं मुनिः केवलं साङ्ख्यमार्गीयः कर्मसन्न्यासाभावात् किन्तु योगमार्गीयस्तत्त्ववित् कर्मकरणादिति विवेचयति ब्रह्मणीति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ोऽस्ति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "्कर्तृत्वाभिमानाल्लिप्येतैव तथाच कथं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अज्ञान",
         "भगवान्"
@@ -371,59 +268,7 @@
       "surface_form": "sa",
       "lemma": "sa",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "्थितायां प्रकृतौपश्यन् श्रृण्वन् इत्यादिना उक्तप्रकारेण कर्मणि आधाय फल सङ्गं त्यक्त्वा नैव किञ्चित् करोमि इति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "न्न्यासयोगयुक्त",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ाङ्ख्यमार्गीयः कर्मसन्न्यासाभावात् किन्तु योगमार्गीयस्तत्त्ववित् कर्मकरणादिति विवेचयति ब्रह्मणीति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "्य करोमीत्यभिमानोऽस्ति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "्य संन्यासपूर्विका ज्ञाननिष्ठा स्यादिति तत्राह ब्रह्मणि परमेश्वरे आधाय समर्प्य सङ्गं फलाभिलाषं त्यक्त्वेश्वरार्थं भृत्यइ",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "संसार",
         "सङ्गं त्यक्त्वा",
@@ -438,7 +283,7 @@
         {
           "sense": "न संबध्यते पद्मपत्रमिव अम्भसा उदकेन",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -446,7 +291,7 @@
         {
           "sense": "न लिप्यते पद्मपत्रमिवाम्भसा यथा पद्मपत्रम् अम्भसा संसृष्टम्",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -454,23 +299,15 @@
         {
           "sense": "इति पुनः पुनः फलकथनं इत्यत आह साधने ति",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
         },
         {
-          "sense": "ाकरणप्रत्यवायेन नाश्लिष्टो भवति पद्मपत्रमिवाम्भसा",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
           "sense": "बन्धहेतुतया पापिष्ठेन पुण्यपापात्मकेन कर्मणा न लिप्यते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -478,7 +315,7 @@
         {
           "sense": "पापपुण्यात्मकेन कर्मणेति यावत्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -490,218 +327,68 @@
       "surface_form": "padma",
       "lemma": "padma",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पत्रमिव अम्भसा उदकेन",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "पत्रमिवाम्भसा यथा पद्मपत्रम् अम्भसा संसृष्टम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "पत्रमिवाम्भसा",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "पत्रमम्भसि स्थितमप्यम्भसा न लिप्यते तद्वत्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "पत्रमुपरि प्रक्षिप्तेनाम्भसा न लिप्यते तद्वद्भगवदर्पणबुद्ध्यानुष्ठितं कर्म बुद्धिशुद्धिफलमेव स्यात्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pat",
       "lemma": "pat",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "रमिव अम्भसा उदकेन",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "वेन इन्द्रियाकारेण अवस्थितायां प्रकृतौपश्यन् श्रृण्वन् इत्यादिना उक्तप्रकारेण कर्मणि आधाय फल सङ्गं त्यक्त्वा नैव किञ्चित",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "रमिवाम्भसा",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "रमम्भसि स्थितमप्यम्भसा न लिप्यते तद्वत्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "रमुपरि प्रक्षिप्तेनाम्भसा न लिप्यते तद्वद्भगवदर्पणबुद्ध्यानुष्ठितं कर्म बुद्धिशुद्धिफलमेव स्यात्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ram",
       "lemma": "ra",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अम्भसा संसृष्टम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "भस्य नियमार्थत्वादिति भावः",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iva",
       "lemma": "iva",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्वाम्यर्थं सर्वाणि कर्माणि मोक्षेऽपि फले सङ्गं त्यक्त्वा करोति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "स्वाम्यर्थं स्वफलनिरपेक्षतया करोमीत्यभिप्रायेण कर्माणि लौकिकानि वैदिकानि",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ambhasā",
       "lemma": "ambhas",
       "grammar": "instrumental singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उदकेन",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "संसृष्टम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
   "intertextual_panel": [
     {
-      "verse": "1.1",
-      "type": "thematic-similarity",
-      "score": 0.9125,
-      "feature_breakdown": {
-        "cosine": 0.8139,
-        "theme_graph": 6.0,
-        "vocative": 0.0,
-        "substring": 0.1931,
-        "lemma_overlap": 0.0,
-        "stem_prefix": 0.0
-      }
-    },
-    {
       "verse": "8.3",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9017,
       "feature_breakdown": {
         "cosine": 0.842,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0483,
-        "lemma_overlap": 8.5666,
+        "lemma_overlap": 8.5568,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "18.9",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8956,
       "feature_breakdown": {
         "cosine": 0.8356,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.9125,
+        "lemma_overlap": 12.9028,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "3.15",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8918,
       "feature_breakdown": {
         "cosine": 0.8521,
@@ -714,7 +401,7 @@
     },
     {
       "verse": "4.24",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8889,
       "feature_breakdown": {
         "cosine": 0.8477,
@@ -727,33 +414,33 @@
     },
     {
       "verse": "6.1",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8882,
       "feature_breakdown": {
         "cosine": 0.8382,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.3901,
+        "lemma_overlap": 9.3803,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.20",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8882,
       "feature_breakdown": {
         "cosine": 0.8382,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.4099,
+        "lemma_overlap": 10.4001,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "6.38",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8836,
       "feature_breakdown": {
         "cosine": 0.8324,
@@ -763,11 +450,24 @@
         "lemma_overlap": 7.9852,
         "stem_prefix": 3.0
       }
+    },
+    {
+      "verse": "5.20",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.8819,
+      "feature_breakdown": {
+        "cosine": 0.8406,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0563,
+        "lemma_overlap": 4.4313,
+        "stem_prefix": 2.0
+      }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_5.10",
@@ -776,7 +476,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_5.10",
@@ -785,7 +485,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_5.10",
@@ -794,7 +494,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_5.10"
@@ -802,7 +502,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_5.10"
@@ -810,7 +510,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_5.10"

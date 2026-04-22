@@ -16,24 +16,23 @@
         {
           "sense": "आत्मनः योगं योगैश्वर्यशक्तिविशेषं विभूतिं",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "shankara",
-            "anandgiri"
+            "shankara"
           ]
         },
         {
           "sense": "कथय। त्वया उच्यमानं त्वन्माहात्म्यामृतं श्रृण्वतो मे तृप्तिः न अस्ति हि -- मम अतृप्तिः त्वया एव विदिता इति अभिप्रायः।",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
         },
         {
-          "sense": "ेति समस्तप्रश्नस्फोरणं विभूतिं योगं चेति",
+          "sense": "वदेति पृच्छति",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -41,7 +40,7 @@
         {
           "sense": "कथयेत्याह -- विस्तरेणेति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -49,7 +48,7 @@
         {
           "sense": ",संक्षेपेण सप्तमे नवमे चोक्तमपि भूयः पुनः कथय",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -61,56 +60,14 @@
       "surface_form": "āt",
       "lemma": "a",
       "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मनः योगं योगैश्वर्यशक्तिविशेषं विभूतिं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मनस्तव योगं सर्वज्ञत्वसर्वशक्तित्वादिलक्षणं योगैश्वर्यं विभूतिं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "मनस्तव योगं सर्वज्ञत्वसर्वशक्तित्वादिलक्षणमैश्वर्यातिशयं विभूतिं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "manas",
       "lemma": "man",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तव योगं सर्वज्ञत्वसर्वशक्तित्वादिलक्षणं योगैश्वर्यं विभूतिं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तव योगं सर्वज्ञत्वसर्वशक्तित्वादिलक्षणमैश्वर्यातिशयं विभूतिं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -131,59 +88,7 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "विस्तरं ध्येयपदार्थानां",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "भूयः विस्तरेण कथय",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "संसारमिति जनार्दनः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "चिन्तनं युक्तमेवेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ित्ते तत्र तत्र विभूतिभेदेन त्वच्चिन्तैव यथा भवेत्तथा विस्तरेण कथयेत्याह -- विस्तरेणेति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ध्यानालम्बनं विस्तरेण,संक्षेपेण सप्तमे नवमे चोक्तमपि भूयः पुनः कथय",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -194,33 +99,23 @@
         {
           "sense": "? अर्दतेः गतिकर्मणः रूपम्? असुराणां देवप्रतिपक्षभूतानां जनानां नरकादिगमयितृत्वात् जनार्दनः अभ्युदयनिःश्रेयसपुरुषार्थप्रय",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "shankara",
-            "anandgiri"
+            "shankara"
           ]
         },
         {
-          "sense": "ः। विस्तरबुभुत्साहेतुज्ञापनार्थं योगशब्दविवक्षितव्यक्त्यर्थं च भूयश्शब्दफलितमाह -- अहं सर्वस्येति। अमृतशब्दोऽत्रातृप्तिस",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ः। तथा च बाभ्रव्यशाखायाम् -- स भूतः स जनार्दनः इति। स ह्यासीत्स नासीत्सोऽर्दयत् इति।",
+          "sense": "इति शङ्करः? तदप्रामाणिकं व्याख्यानम्",
           "school": "dvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "madhva",
             "jayatirtha"
           ]
         },
         {
           "sense": "? अतो ममापि याञ्चा त्वय्युचितैव",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -241,40 +136,7 @@
       "surface_form": "kathaya",
       "lemma": "kathi",
       "grammar": "2nd person singular imperative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तृप्तिः परितोषः हि यस्मात् नास्ति मे मम शृण्वतः त्वन्मुखनिःसृतवाक्या मृतम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। त्वया उच्यमानं त्वन्माहात्म्यामृतं श्रृण्वतो मे तृप्तिः न अस्ति हि -- मम अतृप्तिः त्वया एव विदिता इति अभिप्रायः।",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "ेत्याह -- विस्तरेणेति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। सर्वैर्जनैरभ्युदयनिःश्रेयसप्रयोजनं याच्यस इति हे जनार्दन? अतो ममापि याञ्चा त्वय्युचितैव। उक्तस्य पुनः कथनं कुतो याचसे",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -288,41 +150,7 @@
       "surface_form": "hi",
       "lemma": "hi",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यस्मात् नास्ति मे मम शृण्वतः त्वन्मुखनिःसृतवाक्या मृतम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "-- मम अतृप्तिः त्वया",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "र्मुखेऽपि चित्ते तत्र तत्र विभूतिभेदेन त्वच्चिन्तैव यथा भवेत्तथा विस्तरेण कथयेत्याह -- विस्तरेणेति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यस्माच्छृण्वतः श्रवणेन पिबतस्त्वद्वाक्यामृतममृतवत्पदे पदे स्वादु स्वादु",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -336,59 +164,7 @@
       "surface_form": "na",
       "lemma": "na",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ः योगं योगैश्वर्यशक्तिविशेषं विभूतिं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ियमनं च भूयः विस्तरेण कथय। त्वया उच्यमानं त्वन्माहात्म्यामृतं श्रृण्वतो मे तृप्तिः न अस्ति हि -- मम अतृप्तिः त्वया एव वि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "जायतेऽर्दयति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं इत्यपेक्षायामाह -- कथं विद्यामिति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "त्वच्चिन्तैव यथा भवेत्तथा विस्तरेण कथयेत्याह -- विस्तरेणेति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "स्तव योगं सर्वज्ञत्वसर्वशक्तित्वादिलक्षणमैश्वर्यातिशयं विभूतिं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "जनार्दन"
       ]
@@ -397,58 +173,14 @@
       "surface_form": "asti",
       "lemma": "as",
       "grammar": "3rd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हि -- मम अतृप्तिः त्वया",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "me",
       "lemma": "mā",
       "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मम शृण्वतः त्वन्मुखनिःसृतवाक्या मृतम्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "तृप्तिः न अस्ति हि -- मम अतृप्तिः त्वया",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "वेति। केषुकेषूभयविधेषु भावेषु मया चिन्त्योऽसि।योगिन् इति पाठे तद्वत्त्वात्तव योगमपि कथमहं विद्यामिति प्रश्न उपलभ्यते। तत",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "नवमे चोक्तमपि भूयः पुनः कथय",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -462,112 +194,112 @@
   "intertextual_panel": [
     {
       "verse": "10.19",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9241,
       "feature_breakdown": {
         "cosine": 0.8239,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0506,
-        "lemma_overlap": 23.019,
+        "lemma_overlap": 23.0111,
         "stem_prefix": 9.0
       }
     },
     {
       "verse": "11.2",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9107,
       "feature_breakdown": {
         "cosine": 0.8405,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0506,
-        "lemma_overlap": 8.66,
+        "lemma_overlap": 8.6479,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "16.6",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.9065,
       "feature_breakdown": {
         "cosine": 0.8464,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0506,
-        "lemma_overlap": 6.4008,
+        "lemma_overlap": 6.3887,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "9.5",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9005,
       "feature_breakdown": {
         "cosine": 0.8405,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.3995,
+        "lemma_overlap": 8.3874,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "13.24",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8999,
       "feature_breakdown": {
         "cosine": 0.8399,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.7433,
+        "lemma_overlap": 8.7312,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "10.7",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8971,
       "feature_breakdown": {
         "cosine": 0.8271,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 11.1541,
+        "lemma_overlap": 11.142,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "5.8",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8959,
       "feature_breakdown": {
         "cosine": 0.8459,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.2258,
+        "lemma_overlap": 10.2209,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "6.20",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8957,
       "feature_breakdown": {
         "cosine": 0.8457,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.3353,
+        "lemma_overlap": 7.3232,
         "stem_prefix": 5.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_10.18",
@@ -576,7 +308,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_10.18",
@@ -585,7 +317,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_10.18",
@@ -594,7 +326,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_10.18"
@@ -602,7 +334,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_10.18"
@@ -610,7 +342,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_10.18"

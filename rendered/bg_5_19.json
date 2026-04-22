@@ -12,90 +12,14 @@
       "surface_form": "iha",
       "lemma": "iha",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एव जीवद्भिरेव तैः समदर्शिभिः पण्डितैः जितः वशीकृतः सर्गः जन्म येषां साम्ये सर्वभूतेषु ब्रह्मणि समभावे स्थितं निश्चलीभूत",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "एव साधनानुष्ठानदशायाम् एव तैः सर्गो जितः संसारो जितः येषाम् उक्तरीत्या सर्वेषु आत्मसु साम्ये स्थितं मनः निर्दोषं हि समं",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ैवेति।",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "ैवेति। येषां साम्ये स्थितं मनस्तैः सर्गः प्रवाहमार्गो जितः।समदर्शिनः इत्यस्याथ त्वयमेव विवृणोति निर्दोष हि समं ब्रह्मेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "लोकात्परलोकाच्च हीयत इति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जीवद्भिरेव तैः समदर्शिभिः पण्डितैः जितः वशीकृतः सर्गः जन्म येषां साम्ये सर्वभूतेषु ब्रह्मणि समभावे स्थितं निश्चलीभूतं म",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "साधनानुष्ठानदशायाम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "मुक्तिरुक्तेत्यत आह तदेवे ति",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "विद्यते तथापि धर्महानिर्दोषो भवत्येव",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -123,16 +47,7 @@
       "surface_form": "yeṣām",
       "lemma": "yad",
       "grammar": "Vibhakti.Sasthi plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उक्तरीत्या सर्वेषु आत्मसु साम्ये स्थितं मनः निर्दोषं हि समं ब्रह्म प्रकृतिसंसर्गदोषवियुक्ततया समम् आत्मवस्तु हि ब्रह्म",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -143,7 +58,7 @@
         {
           "sense": "सर्वभूतेषु ब्रह्मणि समभावे स्थितं निश्चलीभूतं मनः अन्तःकरणम्",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -152,16 +67,15 @@
         {
           "sense": "स्थितं मनः निर्दोषं हि समं ब्रह्म प्रकृतिसंसर्गदोषवियुक्ततया समम् आत्मवस्तु हि ब्रह्म आत्मसाम्ये स्थिताः चेद् ब्रह्मणि",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "स्थितं मनस्तैः सर्गः प्रवाहमार्गो जितः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -169,7 +83,7 @@
         {
           "sense": "समत्वे स्थितम्",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -177,7 +91,7 @@
         {
           "sense": "सर्वभूतेषु विषमेष्वपि वर्तमानस्य ब्रह्मणः समभावे स्थितं निश्चलं मनः",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -189,32 +103,14 @@
       "surface_form": "sthitam",
       "lemma": "sthā",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "। तत्र हेतुः हि यस्मात् ब्रह्म समं निर्दोषं च तस्मात्ते समदर्शिनो ब्रह्मण्येव स्थिताः। ब्रह्मभावं प्राप्ता इत्यर्थः। गौत",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "manas",
       "lemma": "man",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तैः सर्गः प्रवाहमार्गो जितः",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -235,50 +131,7 @@
       "surface_form": "hi",
       "lemma": "hi",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यस्मात् नापि स्वगुणभेदभिन्नम् निर्गुणत्वात् चैतन्यस्य",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "समं ब्रह्म प्रकृतिसंसर्गदोषवियुक्ततया समम् आत्मवस्तु हि ब्रह्म आत्मसाम्ये स्थिताः चेद् ब्रह्मणि स्थिता",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "समं ब्रह्मेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "यस्मात् ब्रह्म समं निर्दोषं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यम्मान्निर्दोषं समं सर्वविकारशून्यं कूटस्थनित्यमेकं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "निर्दोषं हि समं ब्रह्म तस्माद्ब्रह्मणि ते स्थिताः"
       ]
@@ -287,16 +140,7 @@
       "surface_form": "samam",
       "lemma": "sam",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आत्मवस्तु हि ब्रह्म आत्मसाम्ये स्थिताः चेद् ब्रह्मणि स्थिता",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -305,45 +149,19 @@
       "grammar": "vocative singular neuter noun",
       "senses_attested_in_panel": [
         {
-          "sense": "णि समभावे स्थितं निश्चलीभूतं मनः अन्तःकरणम्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
           "sense": "प्रकृतिसंसर्गदोषवियुक्ततया समम् आत्मवस्तु हि ब्रह्म आत्मसाम्ये स्थिताः चेद् ब्रह्मणि स्थिता",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "रूपमिति मन्तव्यं यदि मनोऽपि निरोधे समं स्यात्तदा ब्रह्मैव तादात्म्यात्सिद्ध्यसिद्धयो ৷৷. समत्वं योगः 2",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
+            "ramanuja"
           ]
         },
         {
           "sense": "समं निर्दोषं",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "णः समभावे स्थितं निश्चलं मनः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -357,41 +175,7 @@
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ब्रह्मणि",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ते ब्रह्मणि स्थिता इत्यर्थो ज्ञातव्यः",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ते समदर्शिनो ब्रह्मण्येव स्थिताः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ते समदर्शिनो ब्रह्मण्येव स्थिताः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -402,25 +186,23 @@
         {
           "sense": "समभावे स्थितं निश्चलीभूतं मनः अन्तःकरणम्",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "shankara",
-            "anandgiri"
+            "shankara"
           ]
         },
         {
           "sense": "स्थिता",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "स्थिता इत्यर्थो ज्ञातव्यः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -435,58 +217,7 @@
       "surface_form": "te",
       "lemma": "tā",
       "grammar": "nominative dual feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "षु ब्रह्मणि समभावे स्थितं निश्चलीभूतं मनः अन्तःकरणम्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "। ब्रह्मणि स्थितिः एव हि संसारजयः। आत्मसु ज्ञानैकाकारतया साम्यम् एव अनुसन्दधाना मुक्ता एव इत्यर्थः।येन प्रकारेण अवस्थितस",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तत्कथमुच्यते अपरोक्षज्ञानसाधनमिति प्राग्ज्ञानिनोऽपि जन्मान्तरसद्भाव उक्तः तत्कथमिहैवेति तद्देह",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ब्रह्मतादात्म्यापन्ना इत्याह इहैवेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "पण्डिताः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तत्समायैवान्यस्मै चतुर्वेदपारगाय सदाचाराय विषमे तदपेक्षया न्यूने पूजाप्रकारे कृते तथाल्पवेदानां हीनाचाराणां यादृशो हीनस",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "निर्दोषं हि समं ब्रह्म तस्माद्ब्रह्मणि ते स्थिताः"
       ]
@@ -502,7 +233,7 @@
   "intertextual_panel": [
     {
       "verse": "2.72",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8872,
       "feature_breakdown": {
         "cosine": 0.8472,
@@ -515,7 +246,7 @@
     },
     {
       "verse": "5.25",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8799,
       "feature_breakdown": {
         "cosine": 0.8399,
@@ -528,7 +259,7 @@
     },
     {
       "verse": "3.15",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8798,
       "feature_breakdown": {
         "cosine": 0.8498,
@@ -541,33 +272,33 @@
     },
     {
       "verse": "5.24",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.8792,
       "feature_breakdown": {
         "cosine": 0.8392,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.4273,
+        "lemma_overlap": 8.4209,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "4.24",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8774,
       "feature_breakdown": {
         "cosine": 0.8474,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.5167,
+        "lemma_overlap": 4.5103,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "8.24",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8764,
       "feature_breakdown": {
         "cosine": 0.8464,
@@ -580,7 +311,7 @@
     },
     {
       "verse": "5.20",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.876,
       "feature_breakdown": {
         "cosine": 0.836,
@@ -593,7 +324,7 @@
     },
     {
       "verse": "7.29",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8751,
       "feature_breakdown": {
         "cosine": 0.8351,
@@ -607,7 +338,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_5.19",
@@ -616,7 +347,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_5.19",
@@ -625,7 +356,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_5.19",
@@ -634,7 +365,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_5.19"
@@ -642,7 +373,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_5.19"
@@ -650,7 +381,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_5.19"

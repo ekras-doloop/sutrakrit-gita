@@ -23,15 +23,15 @@
         {
           "sense": "कृतं कर्म पूर्वैः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "अपि विमुक्तपापैः पूर्वैः अपि मुमुक्षुभिः उक्तलक्षणं कर्म कृतम्। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः व",
+          "sense": "अपि विमुक्तपापैः पूर्वैः",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -40,7 +40,7 @@
         {
           "sense": "कर्मकरणे आचारोऽप्यस्तीत्याह एवमिति",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhva"
           ]
@@ -48,7 +48,7 @@
         {
           "sense": "पूर्वैरपि मुमुक्षुभिः कक्षीवन्नारदादिभिर्मन्वादिभिर्वा जनकादिभिर्वा कर्म स्वधर्माख्यं वक्ष्यमाणप्रकारेण कृतम् तस्मात्त्",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -56,7 +56,7 @@
         {
           "sense": "पूर्वैर्जनकादिभिरपि मुमुक्षुभिः सत्त्वशुद्ध्यर्थं पूर्वतरं युगान्तरेष्वपि कृतम्",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -64,7 +64,7 @@
         {
           "sense": "कृतं कर्म पूर्वैरतिक्रान्तैरपि अस्मिन् युगे ययातियदुप्रभृतिभिर्मुमुक्षुभिः",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -82,7 +82,7 @@
         {
           "sense": "(गीता 4.15) इत्युच्यते यस्मात् महत् वैषम्यं कर्मणि",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -90,7 +90,7 @@
         {
           "sense": "। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक्तं वक",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -98,7 +98,7 @@
         {
           "sense": "तस्मात्त्वमपि कर्मैव कुरु",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -106,7 +106,7 @@
         {
           "sense": "। तस्मात्त्वमपि प्रथमं कर्मैव कुरु।",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -114,7 +114,7 @@
         {
           "sense": "। एतेनास्मिन्युगेऽन्ययुगे च पूर्वपूर्वतरैः कृतत्वादवश्यं त्वया कर्तव्यं कर्मेति दर्शयति।",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -130,52 +130,25 @@
         {
           "sense": "पूर्वैः",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "shankara",
-            "anandgiri"
+            "shankara"
           ]
         },
         {
-          "sense": "कृतम्",
+          "sense": "कृतम्। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "करणे आचारोऽप्यस्तीत्याह एवमिति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
+            "ramanuja"
           ]
         },
         {
           "sense": "प्रपञ्चयितुमनुस्मारयति एवं ज्ञात्वेति",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
-          ]
-        },
-        {
-          "sense": "योगं प्रपञ्चयितुमनुस्मारयति एवमिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "फले स्पृहेति ज्ञानात्कर्मभिर्न बध्यते अतः एवं आत्मनोऽकर्तुः कर्मालेपं ज्ञात्वा कृतं कर्म पूर्वैरतिक्रान्तैरपि अस्मिन् यु",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -192,24 +165,7 @@
       "surface_form": "api",
       "lemma": "api",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अतिक्रान्तैः मुमुक्षुभिः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "विमुक्तपापैः पूर्वैः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -227,7 +183,7 @@
         {
           "sense": "तेन कर्मैव त्वम् न तूष्णीमासनं नापि संन्यासः कर्तव्यः तस्मात् त्वं पूर्वैरपि अनुष्ठितत्वात् यदि अनात्मज्ञः त्वं तदा आत्",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -236,7 +192,7 @@
         {
           "sense": "।वक्ष्यमाणस्य कर्मणो दुर्ज्ञानताम् आह",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -244,7 +200,7 @@
         {
           "sense": "। न चेदमाधुनिकम् किन्तु पूर्वतरं पूर्वैश्च कृतम्। इति शिष्टाचारात्कर्त्तव्यता बोधिता।",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -252,7 +208,7 @@
         {
           "sense": "न तूष्णीमासनं नापि संन्यासम्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -268,52 +224,25 @@
         {
           "sense": "पूर्वैः",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "shankara",
-            "anandgiri"
+            "shankara"
           ]
         },
         {
-          "sense": "कृतम्",
+          "sense": "कृतम्। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "करणे आचारोऽप्यस्तीत्याह एवमिति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
+            "ramanuja"
           ]
         },
         {
           "sense": "प्रपञ्चयितुमनुस्मारयति एवं ज्ञात्वेति",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
-          ]
-        },
-        {
-          "sense": "योगं प्रपञ्चयितुमनुस्मारयति एवमिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "फले स्पृहेति ज्ञानात्कर्मभिर्न बध्यते अतः एवं आत्मनोऽकर्तुः कर्मालेपं ज्ञात्वा कृतं कर्म पूर्वैरतिक्रान्तैरपि अस्मिन् यु",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -323,59 +252,7 @@
       "surface_form": "eva",
       "lemma": "eva",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं ज्ञात्वा कृतं कर्म पूर्वैः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ं मां ज्ञात्वा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ं ज्ञात्वा कर्मकरणे आचारोऽप्यस्तीत्याह एवमिति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं प्रासङ्गिकमुक्त्वा पूर्वोक्तयोगे कर्त्तव्यं कर्म प्रपञ्चयितुमनुस्मारयति एवं ज्ञात्वेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "मिति। अहंकारादिराहित्येन कृतं कर्म बन्धकं न भवतीत्येवं ज्ञात्वा पूर्वैर्जनकादिभिरपि मुमुक्षुभिः सत्त्वशुद्ध्यर्थं पूर्वत",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ं आत्मनोऽकर्तुः कर्मालेपं ज्ञात्वा कृतं कर्म पूर्वैरतिक्रान्तैरपि अस्मिन् युगे ययातियदुप्रभृतिभिर्मुमुक्षुभिः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "एवं ज्ञात्वा"
       ]
@@ -384,48 +261,7 @@
       "surface_form": "tasmāt",
       "lemma": "tasmāt",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्वं पूर्वैरपि अनुष्ठितत्वात् यदि अनात्मज्ञः त्वं तदा आत्मशुद्ध्यर्थम् तत्त्वविच्चेत् लोकसंग्रहार्थं पूर्वैः जनकादिभिः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "त्वमपि कर्मैव कुरु",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "त्वमपि प्रथमं कर्मैव कुरु",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "त्वमपि कर्मैव कुरु न तूष्णीमासनं नापि संन्यासम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "तस्मात्"
       ]
@@ -434,24 +270,7 @@
       "surface_form": "tvam",
       "lemma": "tva",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न तूष्णीमासनं नापि संन्यासः कर्तव्यः तस्मात् त्वं पूर्वैरपि अनुष्ठितत्वात् यदि अनात्मज्ञः त्वं तदा आत्मशुद्ध्यर्थम् तत्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -483,7 +302,7 @@
         {
           "sense": "(गीता 4.15) इत्युच्यते यस्मात् महत् वैषम्यं कर्मणि",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -491,7 +310,7 @@
         {
           "sense": "। तस्मात् त्वम् उक्तप्रकारमद्विषयज्ञानविधूतपापः पूर्वैः विवस्वन्मन्वादिभिः कृतं पूर्वतरं पुरातनं तदानीम् एव मया उक्तं वक",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -499,7 +318,7 @@
         {
           "sense": "तस्मात्त्वमपि कर्मैव कुरु",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -507,7 +326,7 @@
         {
           "sense": "। तस्मात्त्वमपि प्रथमं कर्मैव कुरु।",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -515,7 +334,7 @@
         {
           "sense": "। एतेनास्मिन्युगेऽन्ययुगे च पूर्वपूर्वतरैः कृतत्वादवश्यं त्वया कर्तव्यं कर्मेति दर्शयति।",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -527,46 +346,46 @@
   "intertextual_panel": [
     {
       "verse": "3.19",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8919,
       "feature_breakdown": {
         "cosine": 0.8419,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.3351,
+        "lemma_overlap": 7.3253,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "16.24",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8873,
       "feature_breakdown": {
         "cosine": 0.8473,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.5807,
+        "lemma_overlap": 9.5709,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "4.32",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8842,
       "feature_breakdown": {
         "cosine": 0.825,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0958,
-        "lemma_overlap": 3.739,
+        "lemma_overlap": 3.7326,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "6.46",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8788,
       "feature_breakdown": {
         "cosine": 0.8388,
@@ -579,46 +398,46 @@
     },
     {
       "verse": "18.18",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8787,
       "feature_breakdown": {
         "cosine": 0.8487,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.2091,
+        "lemma_overlap": 6.1993,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "4.36",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8771,
       "feature_breakdown": {
         "cosine": 0.8271,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.7816,
+        "lemma_overlap": 12.7655,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.20",
-      "type": "thematic-similarity",
+      "type": "near-cluster echo",
       "score": 0.8758,
       "feature_breakdown": {
         "cosine": 0.8358,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.8169,
+        "lemma_overlap": 7.8008,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "3.41",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8745,
       "feature_breakdown": {
         "cosine": 0.8345,
@@ -632,7 +451,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_4.15",
@@ -641,7 +460,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_4.15",
@@ -650,7 +469,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_4.15",
@@ -659,7 +478,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_4.15"
@@ -667,7 +486,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_4.15"
@@ -675,7 +494,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_4.15"

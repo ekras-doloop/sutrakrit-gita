@@ -16,34 +16,25 @@
         {
           "sense": "आस्तिक्यबुद्ध्या परया प्रकृष्टया तप्तम् अनुष्ठितं तपः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "यत् त्रिविधं तपः कायवाङ्मनोभिः तप्तं तत् सात्त्विकं परिचक्षते।",
+          "sense": "यत् त्रिविधं तपः कायवाङ्मनोभिः तप्तं",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "फलाकाङ्क्षाशून्यैर्युक्तैरेकाग्रचित्तैर्नरैस्तप्तं तत्सात्त्विकं कथयन्ति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "स्तिक्यबुद्ध्या परया प्रकृष्टया अप्रामाण्यशङ्काकलङ्कशून्यया फलाभिसन्धिशून्यैर्युक्तै समाहितैः सिद्ध्यसिद्ध्योर्निर्विकार",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -57,7 +48,7 @@
         {
           "sense": "प्रकृष्टया तप्तम् अनुष्ठितं तपः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -65,7 +56,7 @@
         {
           "sense": "श्रद्धया",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -73,7 +64,7 @@
         {
           "sense": "प्रकृष्टया अप्रामाण्यशङ्काकलङ्कशून्यया फलाभिसन्धिशून्यैर्युक्तै समाहितैः सिद्ध्यसिद्ध्योर्निर्विकारैर्नरैरधिकारिभिस्तप्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -85,16 +76,7 @@
       "surface_form": "taptam",
       "lemma": "tap",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अनुष्ठितं तपः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -108,40 +90,7 @@
       "surface_form": "tat",
       "lemma": "tad",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रकृतं त्रिविधं त्रिप्रकारं त्र्यधिष्ठानं नरैः अनुष्ठातृभिः अफलाकाङ्क्षिभिः फलाकाङ्क्षारहितैः युक्तैः समाहितैः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "सात्त्विकं परिचक्षते",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "सात्त्विकं कथयन्ति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "पूर्वोक्तं त्रिविधं शारीरं वाचिकं मानसं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -190,20 +139,20 @@
   "intertextual_panel": [
     {
       "verse": "16.22",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9037,
       "feature_breakdown": {
         "cosine": 0.8537,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.345,
+        "lemma_overlap": 8.3419,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "17.2",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9001,
       "feature_breakdown": {
         "cosine": 0.8606,
@@ -216,33 +165,33 @@
     },
     {
       "verse": "17.7",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8906,
       "feature_breakdown": {
         "cosine": 0.8406,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.6241,
+        "lemma_overlap": 10.621,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "18.4",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8868,
       "feature_breakdown": {
         "cosine": 0.8468,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.21,
+        "lemma_overlap": 7.2069,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "12.2",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8864,
       "feature_breakdown": {
         "cosine": 0.8273,
@@ -255,33 +204,33 @@
     },
     {
       "verse": "7.22",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8862,
       "feature_breakdown": {
         "cosine": 0.8219,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0716,
-        "lemma_overlap": 8.7433,
+        "lemma_overlap": 8.7402,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "18.20",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8772,
       "feature_breakdown": {
         "cosine": 0.8372,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.8533,
+        "lemma_overlap": 6.8502,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "4.39",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8752,
       "feature_breakdown": {
         "cosine": 0.8357,
@@ -295,7 +244,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_17.17",
@@ -304,7 +253,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_17.17",
@@ -313,7 +262,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_17.17",
@@ -322,7 +271,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_17.17"
@@ -330,7 +279,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_17.17"
@@ -338,7 +287,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_17.17"

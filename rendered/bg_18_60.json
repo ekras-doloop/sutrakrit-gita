@@ -37,7 +37,7 @@
         {
           "sense": "निबद्धः निश्चयेन बद्धः स्वेन आत्मीयेन कर्मणा कर्तुं न इच्छसि",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -45,7 +45,7 @@
         {
           "sense": "? यद्बन्धुवधादिनिमित्तं युद्धं मोहात्स्वतन्त्रोऽहं यथेच्छामि तथा संपादयिष्यामीति भ्रमात् कर्तुं नेच्छसि तदवशोऽप्यनिच्छन्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -59,16 +59,7 @@
       "surface_form": "nibaddhas",
       "lemma": "nibandh",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्वमिति संबन्धः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -79,7 +70,7 @@
         {
           "sense": "आत्मीयेन कर्मणा कर्तुं न इच्छसि",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -88,18 +79,10 @@
         {
           "sense": "कर्मणा निबद्धः तत",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ानागन्तुकेन कर्मणा निबद्धो वशीकृतस्त्वं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -113,7 +96,7 @@
         {
           "sense": "कर्तुं न इच्छसि",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -122,23 +105,15 @@
         {
           "sense": "निबद्धः तत",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
         },
         {
-          "sense": "निबद्धः अवशः करिष्यस्येव",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
           "sense": "शौर्यादिना पूर्वोक्तेन निबद्धो यन्त्रितस्त्वं मोहाद्यत्कर्म युद्धलक्षणं कर्तुं नेच्छसि? अवशोऽपि तत्कर्म करिष्यस्येव",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -146,7 +121,7 @@
         {
           "sense": "निबद्धो वशीकृतस्त्वं",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -165,50 +140,7 @@
       "surface_form": "na",
       "lemma": "na",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शौर्यादिना यथोक्तेन कौन्तेय निबद्धः निश्चयेन बद्धः स्वेन आत्मीयेन कर्मणा कर्तुं न इच्छसि",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "शौर्याख्येन स्वेन कर्मणा निबद्धः तत",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ेति। इदं च द्वितीयतृतीयाद्यध्यायार्थविवरणं स्वभावः प्राकृतस्तज्जेन क्षात्त्रकर्मणा निबद्धः अवशः करिष्यस्येव।",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "स्वकीयेन कर्मणा शौर्यादिना पूर्वोक्तेन निबद्धो यन्त्रितस्त्वं मोहाद्यत्कर्म युद्धलक्षणं कर्तुं नेच्छसि? अवशोऽपि तत्कर्म",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ेति। स्वभावजेन पूर्वोक्तक्षत्रियस्वभावजेन शौर्यादिना स्वेनानागन्तुकेन कर्मणा निबद्धो वशीकृतस्त्वं हे कौन्तेय? यद्बन्धुवध",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "कौन्तेय"
       ]
@@ -217,56 +149,14 @@
       "surface_form": "icchasi",
       "lemma": "iṣ",
       "grammar": "2nd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यत् कर्म? मोहात् अविवेकतः करिष्यसि अवशोऽपि परवश एव तत् कर्म।।यस्मात् --,",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "।सर्वं हि भूतजातं सर्वेश्वरेण मया पूर्वकर्मानुगुण्येन प्रकृत्यनुवर्तने नियमितम्? तत् श्रृणु --",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
       "lemma": "yat",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कर्म? मोहात् अविवेकतः करिष्यसि अवशोऽपि परवश",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "र व्याख्यातः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "वे हेतुः पूर्वकर्मसंस्कारस्तस्माज्जातेन स्वकीयेन कर्मणा शौर्यादिना पूर्वोक्तेन निबद्धो यन्त्रितस्त्वं मोहाद्यत्कर्म युद्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -277,25 +167,9 @@
         {
           "sense": "अविवेकतः करिष्यसि अवशोऽपि परवश",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
-          ]
-        },
-        {
-          "sense": "इति वाक्यान्तर्वाक्यनिवेशो हास्यकरुणरसावेशेन? तद्विविनक्तियदिदानीमिति",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "स्वतन्त्रोऽहं यथेच्छामि तथा संपादयिष्यामीति भ्रमात् कर्तुं नेच्छसि तदवशोऽप्यनिच्छन्नपि स्वाभाविककर्मपरतन्त्रः परमेश्वरपर",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -305,40 +179,14 @@
       "surface_form": "kariṣyasi",
       "lemma": "kṛ",
       "grammar": "2nd person singular simple future active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अवशोऽपि परवश",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "यद् इदानीं मोहाद् अज्ञानात् कर्तुं न इच्छसि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "avaśas",
       "lemma": "avaśa",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "य कथं कर्मकर्तृत्वमिति शङ्कापरिहारार्थम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -352,32 +200,7 @@
       "surface_form": "tat",
       "lemma": "tad",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कर्म।।यस्मात् --,",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "श्रृणु --",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "कर्म करिष्यस्येव",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "करिष्यस्यवशोऽपि तत्"
       ]
@@ -386,59 +209,59 @@
   "intertextual_panel": [
     {
       "verse": "18.47",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.918,
       "feature_breakdown": {
         "cosine": 0.8578,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0512,
-        "lemma_overlap": 11.369,
+        "lemma_overlap": 11.3593,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "3.9",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9164,
       "feature_breakdown": {
         "cosine": 0.8364,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 15.0812,
+        "lemma_overlap": 15.0714,
         "stem_prefix": 7.0
       }
     },
     {
       "verse": "3.5",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8953,
       "feature_breakdown": {
         "cosine": 0.8453,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.8948,
+        "lemma_overlap": 12.8851,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.20",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8944,
       "feature_breakdown": {
         "cosine": 0.8444,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.7315,
+        "lemma_overlap": 7.7217,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "18.45",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8898,
       "feature_breakdown": {
         "cosine": 0.8598,
@@ -451,20 +274,20 @@
     },
     {
       "verse": "3.33",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8878,
       "feature_breakdown": {
         "cosine": 0.8478,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.6371,
+        "lemma_overlap": 8.6273,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "18.25",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8795,
       "feature_breakdown": {
         "cosine": 0.8395,
@@ -484,14 +307,14 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0512,
-        "lemma_overlap": 3.9635,
+        "lemma_overlap": 3.9537,
         "stem_prefix": 3.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_18.60",
@@ -500,7 +323,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_18.60",
@@ -509,7 +332,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_18.60",
@@ -518,7 +341,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_18.60"
@@ -526,7 +349,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_18.60"
@@ -534,7 +357,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_18.60"

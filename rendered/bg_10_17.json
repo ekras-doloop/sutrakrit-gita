@@ -23,7 +23,7 @@
         {
           "sense": "इत्यस्य चिन्तनहेतुत्वात्लक्षणहेत्वोः क्रियायाः [अष्टा.3",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vedantadeshika"
           ]
@@ -42,65 +42,14 @@
       "surface_form": "yogin",
       "lemma": "yuj",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्वां सदा परिचिन्तयन्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "इति परेषां पाठोऽनार्षः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "इति पाठे तद्वत्त्वात्तव योगमपि कथमहं विद्यामिति प्रश्न उपलभ्यते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "? कथं कैर्विभूतिभेदैः सदा परिचिन्तयन्नहं त्वां विद्यां जानीयाम्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "निरतिशयैश्वर्यादिशक्तिशालिन्? अहमतिस्थूलमतिस्त्वां देवादिभिरपि ज्ञातुमशक्यं कथं विद्यां जानीयाम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tvām",
       "lemma": "tva",
       "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति धर्मिविशेषस्य प्रतिपन्नत्वात्प्रकारविशेषेषु बुभुत्सेति ज्ञापनायोक्तंपरिपूर्णेत्यादि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -114,37 +63,43 @@
       "surface_form": "dā",
       "lemma": "dā",
       "grammar": "vocative singular neuter noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": []
+    },
+    {
+      "surface_form": "keṣu",
+      "lemma": "kevi",
+      "grammar": "locative plural neuter noun",
       "senses_attested_in_panel": [
         {
-          "sense": "परिचिन्तयन्",
+          "sense": "केषु च भावेषु वस्तुषु चिन्त्यः असि ध्येयः असि भगवन् मया ।।",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
           ]
         },
         {
-          "sense": "परिचिन्तयन् चिन्तयितुं प्रवृत्तः चिन्तनीयं त्वां परिपूर्णैश्वर्यादिकल्याणगुणगणं कथं विद्या पूर्वोक्तबुद्धिज्ञानादिभाव्य",
+          "sense": "केषु च भावेषु मया नियन्तृत्वेन चिन्त्यः असि।",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
-          "sense": "परिचिन्तयन्नहं त्वां विद्यां जानीयाम्",
+          "sense": "केषु पदार्थेषु मया चिन्तनीयोऽसि",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
         },
         {
-          "sense": "ह द्वाभ्याम् -- योगो निरतिशयैश्वर्यादिशक्तिः सोऽस्यास्तीति",
+          "sense": "केषु च भावेषु चेतनाचेतनात्मकेषु वस्तुषु त्वद्विभूतिभूतेषु मया चिन्त्योऽसि हे भगवन्।",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -160,7 +115,7 @@
         {
           "sense": "केषु च भावेषु वस्तुषु चिन्त्यः असि ध्येयः असि भगवन् मया ।।",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -169,23 +124,15 @@
         {
           "sense": "केषु च भावेषु मया नियन्तृत्वेन चिन्त्यः असि।",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
         },
         {
-          "sense": "केषूभयविधेषु भावेषु मया चिन्त्योऽसि",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
           "sense": "केषु पदार्थेषु मया चिन्तनीयोऽसि",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -193,56 +140,7 @@
         {
           "sense": "केषु च भावेषु चेतनाचेतनात्मकेषु वस्तुषु त्वद्विभूतिभूतेषु मया चिन्त्योऽसि हे भगवन्।",
           "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": []
-    },
-    {
-      "surface_form": "keṣu",
-      "lemma": "kevi",
-      "grammar": "locative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "केषु च भावेषु वस्तुषु चिन्त्यः असि ध्येयः असि भगवन् मया ।।",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "केषु च भावेषु मया नियन्तृत्वेन चिन्त्यः असि।",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "केषूभयविधेषु भावेषु मया चिन्त्योऽसि",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "केषु पदार्थेषु मया चिन्तनीयोऽसि",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "केषु च भावेषु चेतनाचेतनात्मकेषु वस्तुषु त्वद्विभूतिभूतेषु मया चिन्त्योऽसि हे भगवन्।",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -254,50 +152,7 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "िन्तयन्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "िन्तयन् चिन्तयितुं प्रवृत्तः चिन्तनीयं त्वां परिपूर्णैश्वर्यादिकल्याणगुणगणं कथं विद्या पूर्वोक्तबुद्धिज्ञानादिभाव्यतिरेक",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "चिन्तनं युक्तमेवेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "िन्तयन्नहं त्वां विद्यां जानीयाम्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "िन्तयन्सर्वदा ध्यायन्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -308,7 +163,7 @@
         {
           "sense": "वस्तुषु चिन्त्यः असि ध्येयः असि भगवन् मया",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -316,7 +171,7 @@
         {
           "sense": "मया नियन्तृत्वेन चिन्त्यः असि",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -325,7 +180,7 @@
         {
           "sense": "मया चिन्त्योऽसि",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -333,7 +188,7 @@
         {
           "sense": "चेतनाचेतनात्मकेषु वस्तुषु त्वद्विभूतिभूतेषु मया चिन्त्योऽसि",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -352,16 +207,7 @@
       "surface_form": "asi",
       "lemma": "as",
       "grammar": "2nd person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ध्येयः असि भगवन् मया",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -375,152 +221,119 @@
       "surface_form": "mayā",
       "lemma": "mā",
       "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नियन्तृत्वेन चिन्त्यः असि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "चिन्त्योऽसि",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "चिन्तनीयोऽसि",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "चिन्त्योऽसि",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
   "intertextual_panel": [
     {
       "verse": "9.22",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9006,
       "feature_breakdown": {
         "cosine": 0.8506,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.5522,
+        "lemma_overlap": 12.5474,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "7.10",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8958,
       "feature_breakdown": {
         "cosine": 0.8458,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.0227,
+        "lemma_overlap": 9.0178,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "2.7",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8954,
       "feature_breakdown": {
         "cosine": 0.8454,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.3351,
+        "lemma_overlap": 9.3303,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "7.17",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8887,
       "feature_breakdown": {
         "cosine": 0.8387,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.1927,
+        "lemma_overlap": 8.1837,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "7.30",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8844,
       "feature_breakdown": {
         "cosine": 0.8344,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.0309,
+        "lemma_overlap": 8.0218,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.3",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8838,
       "feature_breakdown": {
         "cosine": 0.8438,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.7231,
+        "lemma_overlap": 6.7183,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "6.29",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8834,
       "feature_breakdown": {
         "cosine": 0.8334,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.5695,
+        "lemma_overlap": 7.5605,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "10.7",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8817,
       "feature_breakdown": {
         "cosine": 0.8317,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.0309,
+        "lemma_overlap": 8.0218,
         "stem_prefix": 5.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_10.17",
@@ -529,7 +342,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_10.17",
@@ -538,7 +351,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_10.17",
@@ -547,7 +360,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_10.17"
@@ -555,7 +368,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_10.17"
@@ -563,7 +376,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_10.17"

@@ -14,36 +14,11 @@
       "grammar": "vocative singular masculine noun",
       "senses_attested_in_panel": [
         {
-          "sense": "ः साधुकारः साधुः अयं तपस्वी ब्राह्मणः इत्येवमर्थम्? मानो माननं प्रत्युत्थानाभिवादनादिः तदर्थम्? पूजा पादप्रक्षालनार्चनाश",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ः? वाचा प्रशंसा मानम्? शारीरो नमस्कारादिः पूजा",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
           "sense": "इति। सत्कारः साधुकारः साधुरयमिति तापस इत्यादि वाक्पूजा? मानः प्रत्युत्थानाभिवादनादिः दैहिकीपूजाऽर्थलाभादिः? एतदर्थं दम्",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "ेति। सत्कारः साधुरयं तपस्वी ब्राह्मण इत्येवमविवेकिभिः क्रियमाणा स्तुतिः मानः प्रत्युत्थानाभिवादनादिः? पूजा पादप्रक्षालना",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -53,73 +28,14 @@
       "surface_form": "māna",
       "lemma": "mā",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ो माननं प्रत्युत्थानाभिवादनादिः तदर्थम्? पूजा पादप्रक्षालनार्चनाशयितृत्वादिः तदर्थं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "म्? शारीरो नमस्कारादिः पूजा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ः प्रत्युत्थानाभिवादनादिः दैहिकीपूजाऽर्थलाभादिः? एतदर्थं दम्भेन",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ः प्रत्युत्थानाभिवादनादिः? पूजा पादप्रक्षालनार्चनदानादिस्तदर्थं दम्भेनैव",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tapas",
       "lemma": "tap",
       "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "वी ब्राह्मणः इत्येवमर्थम्? मानो माननं प्रत्युत्थानाभिवादनादिः तदर्थम्? पूजा पादप्रक्षालनार्चनाशयितृत्वादिः तदर्थं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तदिह राजसं प्रोक्तम्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "वी ब्राह्मण इत्येवमविवेकिभिः क्रियमाणा स्तुतिः मानः प्रत्युत्थानाभिवादनादिः? पूजा पादप्रक्षालनार्चनदानादिस्तदर्थं दम्भेन",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -130,16 +46,16 @@
         {
           "sense": "चैव यत् क्रियते तपः तत् इह प्रोक्तं कथितं राजसं चलं कादाचित्कफलत्वेन अध्रुवम् ।।",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
           ]
         },
         {
-          "sense": "हेतुना यत् तपः क्रियते तद् इह राजसं प्रोक्तम् स्वर्गादिफलसाधनत्वेनास्थिरत्वात् चलम् अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम",
+          "sense": "हेतुना",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -147,17 +63,9 @@
         {
           "sense": "च यत्तपः क्रियते अतएव चलं अनियतं अध्रुवं च क्षणिकं। यदेवंभूतं तपस्तदिह राजसं प्रोक्तम्।",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "ैव च केवलं धर्मध्वजित्वेनैव च न त्वास्तिक्यबुद्ध्या यत्तपः क्रिये तद्राजसं प्रोक्तं शिष्टैः इहास्मिन्नेव लोके फलदं न पार",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -167,99 +75,21 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "नाशयितृत्वादिः तदर्थं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ा प्रशंसा मानम्? शारीरो नमस्कारादिः पूजा",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "यत्तपः क्रियते अतएव चलं अनियतं अध्रुवं च क्षणिकं। यदेवंभूतं तपस्तदिह राजसं प्रोक्तम्।",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "नदानादिस्तदर्थं दम्भेनैव",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "eva",
       "lemma": "eva",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "चलं अनियतं अध्रुवं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yat",
       "lemma": "yat",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "क्रियते तपः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तपः क्रियते तद् इह राजसं प्रोक्तम् स्वर्गादिफलसाधनत्वेनास्थिरत्वात् चलम् अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्व",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तपः क्रियते अतएव चलं अनियतं अध्रुवं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तपः क्रिये तद्राजसं प्रोक्तं शिष्टैः इहास्मिन्नेव लोके फलदं न पारलौकिकं चलमत्यल्पकालस्थायि फलमध्रुवं फलजनकतानियमशून्यम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -270,7 +100,7 @@
         {
           "sense": "तपः तत् इह प्रोक्तं कथितं राजसं चलं कादाचित्कफलत्वेन अध्रुवम् ।।",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -278,7 +108,7 @@
         {
           "sense": "तद् इह राजसं प्रोक्तम् स्वर्गादिफलसाधनत्वेनास्थिरत्वात् चलम् अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्वं क्षयिष्णुत",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -286,7 +116,7 @@
         {
           "sense": "अतएव चलं अनियतं अध्रुवं",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -298,72 +128,21 @@
       "surface_form": "tat",
       "lemma": "tad",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इह प्रोक्तं कथितं राजसं चलं कादाचित्कफलत्वेन अध्रुवम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "राध्रुवशब्देन फलानित्यत्वोक्तेश्चलशब्दः फलस्य विद्यमानदशाभाविदोषपरः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iha",
       "lemma": "iha",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रोक्तं कथितं राजसं चलं कादाचित्कफलत्वेन अध्रुवम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "राजसं प्रोक्तम् स्वर्गादिफलसाधनत्वेनास्थिरत्वात् चलम् अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्वं क्षयिष्णुत्वम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "ास्मिन्नेव लोके फलदं न पारलौकिकं चलमत्यल्पकालस्थायि फलमध्रुवं फलजनकतानियमशून्यम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "proktam",
       "lemma": "pravac",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "स्वर्गादिफलसाधनत्वेनास्थिरत्वात् चलम् अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्वं क्षयिष्णुत्वम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -384,16 +163,7 @@
       "surface_form": "calam",
       "lemma": "cala",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अध्रुवम् चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्वं क्षयिष्णुत्वम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -404,7 +174,7 @@
         {
           "sense": "चलत्वं पातभयेन चलनहेतुत्वम् अध्रुवत्वं क्षयिष्णुत्वम्",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -416,112 +186,112 @@
   "intertextual_panel": [
     {
       "verse": "17.15",
-      "type": "thematic-similarity",
+      "type": "near-cluster echo",
       "score": 0.9028,
       "feature_breakdown": {
         "cosine": 0.8228,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.6452,
+        "lemma_overlap": 10.6218,
         "stem_prefix": 8.0
       }
     },
     {
       "verse": "18.31",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8916,
       "feature_breakdown": {
         "cosine": 0.8316,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.3195,
+        "lemma_overlap": 8.2961,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "17.12",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.891,
       "feature_breakdown": {
         "cosine": 0.841,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.3595,
+        "lemma_overlap": 8.3459,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "8.28",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8905,
       "feature_breakdown": {
         "cosine": 0.8305,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.7766,
+        "lemma_overlap": 9.7661,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "17.28",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8902,
       "feature_breakdown": {
         "cosine": 0.8202,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 14.6781,
+        "lemma_overlap": 14.6641,
         "stem_prefix": 7.0
       }
     },
     {
       "verse": "3.21",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8898,
       "feature_breakdown": {
         "cosine": 0.8298,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.989,
+        "lemma_overlap": 7.9698,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "9.2",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.889,
       "feature_breakdown": {
         "cosine": 0.849,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.7529,
+        "lemma_overlap": 5.7401,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "18.8",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8882,
       "feature_breakdown": {
         "cosine": 0.8382,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.211,
+        "lemma_overlap": 9.1918,
         "stem_prefix": 5.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_17.18",
@@ -530,7 +300,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_17.18",
@@ -539,7 +309,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_17.18",
@@ -548,7 +318,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_17.18"
@@ -556,7 +326,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_17.18"
@@ -564,7 +334,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_17.18"

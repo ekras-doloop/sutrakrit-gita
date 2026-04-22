@@ -16,10 +16,9 @@
         {
           "sense": "धर्माधर्मभयेन",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         }
       ],
@@ -29,16 +28,7 @@
       "surface_form": "parayā",
       "lemma": "parā",
       "grammar": "instrumental singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ऽऽविष्टः इति ह्युक्तम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -59,32 +49,7 @@
       "surface_form": "it",
       "lemma": "i",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "यनेनाभिप्रेतं द्योतयति",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "युपक्रम्यभ्रमतीव",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "यतः प्राक्तनेन ग्रन्थेन",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -114,24 +79,7 @@
       "surface_form": "dṛṣṭvā",
       "lemma": "dṛś",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मदीयानि गात्राणि करचरणादीनि सीदन्ति विशीर्यन्ते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "स्थितस्य मम",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "दृष्ट्वा",
         "दृष्ट्वा तु पाण्डवानीकम्",
@@ -156,16 +104,7 @@
       "surface_form": "su",
       "lemma": "su",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हृदः वयोविशेषानपेक्षया हितैषिणः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
         "युयुत्सुं समुपस्थितम्"
@@ -186,7 +125,7 @@
         {
           "sense": "योद्धुमिच्छन्तं पुरतः सम्यगवस्थितमिमं बन्धुजनं दृष्ट्वा मदीयानि गात्राणि करचरणादीनि सीदन्ति विशीर्यन्ते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -220,7 +159,7 @@
   "intertextual_panel": [
     {
       "verse": "1.29",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9566,
       "feature_breakdown": {
         "cosine": 0.8166,
@@ -233,7 +172,7 @@
     },
     {
       "verse": "1.30",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.9361,
       "feature_breakdown": {
         "cosine": 0.8061,
@@ -245,47 +184,60 @@
       }
     },
     {
+      "verse": "1.1",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.8976,
+      "feature_breakdown": {
+        "cosine": 0.8276,
+        "theme_graph": 4.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 9.6518,
+        "stem_prefix": 3.0
+      }
+    },
+    {
       "verse": "2.2",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8931,
       "feature_breakdown": {
         "cosine": 0.8331,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 17.2389,
+        "lemma_overlap": 17.2059,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "11.41",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8866,
       "feature_breakdown": {
         "cosine": 0.8466,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.3841,
+        "lemma_overlap": 10.3543,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "5.1",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8858,
       "feature_breakdown": {
         "cosine": 0.8458,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.8638,
+        "lemma_overlap": 8.8607,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "2.1",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8849,
       "feature_breakdown": {
         "cosine": 0.8349,
@@ -298,34 +250,21 @@
     },
     {
       "verse": "2.10",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8843,
       "feature_breakdown": {
         "cosine": 0.8343,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.6246,
+        "lemma_overlap": 12.6215,
         "stem_prefix": 5.0
-      }
-    },
-    {
-      "verse": "11.35",
-      "type": "thematic-similarity",
-      "score": 0.8777,
-      "feature_breakdown": {
-        "cosine": 0.8477,
-        "theme_graph": 1.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 4.2471,
-        "stem_prefix": 2.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.28",
@@ -334,7 +273,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.28",
@@ -343,7 +282,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.28"
@@ -351,7 +290,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_1.28"
@@ -359,7 +298,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_1.28"

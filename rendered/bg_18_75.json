@@ -12,56 +12,21 @@
       "surface_form": "param",
       "lemma": "pṝ",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "परया।।",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yogam",
       "lemma": "yuj",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? योगार्थत्वात् ग्रन्थोऽपि योगः? संवादम् इमं योगमेव वा योगेश्वरात् कृष्णात् साक्षात् कथयतः स्वयम्? न परम्परया",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। परत्वमाविष्करोति। योगेश्वराच्छ्रीकृष्णात्स्वयमेव साक्षात्कथयतः श्रुतवानिति।",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "su",
       "lemma": "su",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "देवेनार्जुनाय इव",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -75,7 +40,7 @@
   "intertextual_panel": [
     {
       "verse": "4.38",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8838,
       "feature_breakdown": {
         "cosine": 0.8438,
@@ -88,7 +53,7 @@
     },
     {
       "verse": "1.28",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8767,
       "feature_breakdown": {
         "cosine": 0.8467,
@@ -101,7 +66,7 @@
     },
     {
       "verse": "6.37",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8735,
       "feature_breakdown": {
         "cosine": 0.8435,
@@ -114,7 +79,7 @@
     },
     {
       "verse": "18.74",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.8699,
       "feature_breakdown": {
         "cosine": 0.8599,
@@ -153,7 +118,7 @@
     },
     {
       "verse": "10.15",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8684,
       "feature_breakdown": {
         "cosine": 0.8384,
@@ -166,7 +131,7 @@
     },
     {
       "verse": "8.10",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8681,
       "feature_breakdown": {
         "cosine": 0.8381,
@@ -180,7 +145,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_18.75",
@@ -189,7 +154,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_18.75",
@@ -198,7 +163,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_18.75",
@@ -207,7 +172,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_18.75"
@@ -215,7 +180,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_18.75"
@@ -223,7 +188,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_18.75"

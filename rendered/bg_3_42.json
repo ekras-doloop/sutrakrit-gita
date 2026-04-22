@@ -16,7 +16,7 @@
         {
           "sense": "श्रोत्रादीनि पञ्च देहं स्थूलं बाह्यं परिच्छिन्नं",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -24,16 +24,15 @@
         {
           "sense": "आहुः यत इन्द्रियेषु विषयव्यापृतेषु आत्मनि ज्ञानं न प्रवर्तते इन्द्रियेभ्यः परं मनः इन्द्रियेषु उपरतेषु",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "पराणि इत्यस्य पूर्वेण सङ्गतिर्न दृश्यते अत आह शत्रुहनन इति",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
@@ -41,7 +40,7 @@
         {
           "sense": "देहादिभ्यो ग्राह्येभ्यः पराणि श्रेष्ठान्याहुः",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -55,41 +54,7 @@
       "surface_form": "parāṇi",
       "lemma": "pṝ",
       "grammar": "nominative plural neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "प्रकृष्टानि आहुः पण्डिताः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "उत्कृष्टानि",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "श्रेष्ठान्याहुः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "सूक्ष्मत्वात्प्रकाशकत्वाद्व्यापकत्वाह्यापकत्वादन्तःस्थत्वाच्च प्रकृष्टान्याहुः पण्डिताः श्रुतयो वा",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -110,24 +75,7 @@
       "surface_form": "param",
       "lemma": "pṝ",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तत्प्रवर्तकत्वात्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -141,149 +89,21 @@
       "surface_form": "manasas",
       "lemma": "manas",
       "grammar": "ablative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्विति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "तथाविधमपि प्रावण्यं स्यादेव",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तु बुद्धिर्निश्चयात्मिका परा निश्चयपूर्वकत्वात्संकल्पस्य",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तु परा बुद्धिरध्यवसायात्मिका",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "परा बुद्धिः निश्चयात्मिका",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "परा बुद्धिः मनसि विषयान्तरविमुखे",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ं ज्ञेयमाह इन्द्रियाणीति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं शक्यन्ते तदात्मस्वरूपं देहादिभ्यो विविच्य दर्शयति इन्द्रियाणीति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "परा बुद्धिरध्यवसायात्मिका",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "parā",
       "lemma": "parā",
       "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "णि प्रकृष्टानि आहुः पण्डिताः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "बुद्धिः मनसि विषयान्तरविमुखे",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "णि उत्कृष्टानि",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "णीति अत्र परशब्दो बलवत्प्रतीपत्वसूचकः",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "णि श्रेष्ठान्याहुः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "णि सूक्ष्मत्वात्प्रकाशकत्वाद्व्यापकत्वाह्यापकत्वादन्तःस्थत्वाच्च प्रकृष्टान्याहुः पण्डिताः श्रुतयो वा",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -297,49 +117,7 @@
       "surface_form": "yas",
       "lemma": "ī",
       "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "येत्यत्रोक्तमेव स्पष्टीकर्तुं प्रश्नपूर्वकं श्लोकान्तरमवतारयति इन्द्रियाणीत्यादिना",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "त्येव सा हि कादाचित्काऽल्पसत्त्वमूला विषयेच्छा तु प्रचितप्राचीनकर्मोद्भावितनिरन्तरानुवृत्तरजोमूला तस्मादात्मेच्छा यावदात",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "य परं दृष्ट्वा निवर्तते 2",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "तु बुद्धेः परः तत्साक्षित्वेनावस्थितः सर्वान्तरः स आत्मा विमोहयति देहिनमिति देहिशब्दोक्त आत्मा स इति परामृश्यते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "य परं दृष्ट्वा निवर्तत इत्यत्र परदर्शनस्य रसाभिधानीयकतृष्णात्यागसाधनस्य प्रागुक्तेः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -353,138 +131,28 @@
       "surface_form": "paratas",
       "lemma": "paratas",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तु सः सः बुद्धेः द्रष्टा परमात्मा",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तु सः इत्यस्यबुद्धेरात्मा महान्परः इत्यनेन तुल्यार्थत्वादात्मविषयत्वमेवोचितम् एवं",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तु सः इति परमात्मोच्यते",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "तद्भासकत्वेवनावस्थितः यं देहिनमिन्द्रियादिभिराश्रयैर्युक्तः कामो ज्ञानावरणद्वारा मोहयतीत्युक्तं स बुद्धेर्द्रष्टा पर आत्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "परा बुद्धिः निश्चयात्मिका",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "परा बुद्धिः मनसि विषयान्तरविमुखे",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ं ज्ञेयमाह इन्द्रियाणीति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं शक्यन्ते तदात्मस्वरूपं देहादिभ्यो विविच्य दर्शयति इन्द्रियाणीति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "परा बुद्धिरध्यवसायात्मिका",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sas",
       "lemma": "sa",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "त्विति",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "तथाविधमपि प्रावण्यं स्यादेव",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तु बुद्धिर्निश्चयात्मिका परा निश्चयपूर्वकत्वात्संकल्पस्य",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तु परा बुद्धिरध्यवसायात्मिका",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
   "intertextual_panel": [
     {
       "verse": "3.7",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9264,
       "feature_breakdown": {
         "cosine": 0.8481,
@@ -497,7 +165,7 @@
     },
     {
       "verse": "3.40",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.9173,
       "feature_breakdown": {
         "cosine": 0.839,
@@ -510,7 +178,7 @@
     },
     {
       "verse": "13.5",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9068,
       "feature_breakdown": {
         "cosine": 0.8485,
@@ -523,7 +191,7 @@
     },
     {
       "verse": "3.6",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.9042,
       "feature_breakdown": {
         "cosine": 0.8605,
@@ -536,7 +204,7 @@
     },
     {
       "verse": "5.28",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8933,
       "feature_breakdown": {
         "cosine": 0.8433,
@@ -549,7 +217,7 @@
     },
     {
       "verse": "2.60",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8904,
       "feature_breakdown": {
         "cosine": 0.8406,
@@ -562,7 +230,7 @@
     },
     {
       "verse": "2.67",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8901,
       "feature_breakdown": {
         "cosine": 0.8548,
@@ -575,7 +243,7 @@
     },
     {
       "verse": "5.11",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8894,
       "feature_breakdown": {
         "cosine": 0.8472,
@@ -589,7 +257,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_3.42",
@@ -598,7 +266,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_3.42",
@@ -607,7 +275,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_3.42",
@@ -616,7 +284,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_3.42"
@@ -624,7 +292,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_3.42"
@@ -632,7 +300,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_3.42"

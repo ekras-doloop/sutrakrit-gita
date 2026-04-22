@@ -23,7 +23,7 @@
         {
           "sense": "बन्धुविश्लेषजनितशोकसंविग्नमानसः सशरं चापं विसृज्य रथोपस्थे उपाविशत्",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -51,18 +51,9 @@
       "grammar": "vocative singular masculine noun",
       "senses_attested_in_panel": [
         {
-          "sense": "े उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
           "sense": "उपाविशत् सर्वतो दुःखेन निर्विण्ण उपविष्टः इत्यार्तवत्वं",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -78,7 +69,7 @@
         {
           "sense": "सर्वतो दुःखेन निर्विण्ण उपविष्टः इत्यार्तवत्वं",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -94,7 +85,7 @@
         {
           "sense": "रथोपस्थे उपाविशत्",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -121,25 +112,7 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संजय उवाच स तु पार्थो महामनाः परमकारुणिको दीर्घबन्धुः परमधार्मिकः सभ्रातृको भवद्भिः अतिघोरैः मारणैः जतुगृहादिभिः असकृद्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "प्रस्विन्नाङ्गः सर्वथा न योत्स्यामीत्युक्त्वा मोहशोकाविष्टः सशरं चापं उत्सृज्य रथोपस्थ उपाविशत् सर्वतो दुःखेन निर्विण्ण",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -153,42 +126,14 @@
       "surface_form": "śoka",
       "lemma": "śuc",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "संविग्नमानसः सशरं चापं विसृज्य रथोपस्थे उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ाविष्टः सशरं चापं उत्सृज्य रथोपस्थ उपाविशत् सर्वतो दुःखेन निर्विण्ण उपविष्टः इत्यार्तवत्वं",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "saṃvigna",
       "lemma": "saṃvij",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मानसः सशरं चापं विसृज्य रथोपस्थे उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -209,53 +154,53 @@
   "intertextual_panel": [
     {
       "verse": "1.24",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8808,
       "feature_breakdown": {
         "cosine": 0.8147,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0808,
-        "lemma_overlap": 8.7724,
+        "lemma_overlap": 8.7495,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "4.2",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8784,
       "feature_breakdown": {
         "cosine": 0.8384,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.5268,
+        "lemma_overlap": 6.5173,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "9.30",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.873,
       "feature_breakdown": {
         "cosine": 0.823,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.1433,
+        "lemma_overlap": 6.1248,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "7.22",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8729,
       "feature_breakdown": {
         "cosine": 0.8229,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.1433,
+        "lemma_overlap": 6.1248,
         "stem_prefix": 5.0
       }
     },
@@ -268,20 +213,20 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.2425,
+        "lemma_overlap": 4.2211,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "1.21",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8679,
       "feature_breakdown": {
         "cosine": 0.8179,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.5007,
+        "lemma_overlap": 8.4794,
         "stem_prefix": 5.0
       }
     },
@@ -294,7 +239,7 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.9215,
+        "lemma_overlap": 4.9079,
         "stem_prefix": 4.0
       }
     },
@@ -307,14 +252,14 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.1077,
-        "lemma_overlap": 4.5141,
+        "lemma_overlap": 4.4912,
         "stem_prefix": 3.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.47"
@@ -322,7 +267,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.47",
@@ -331,7 +276,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_1.47"
@@ -339,7 +284,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.47"

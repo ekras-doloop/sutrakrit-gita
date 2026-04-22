@@ -16,7 +16,7 @@
         {
           "sense": "अपरिमेयां च? न परिमातुं शक्यते यस्याः चिन्तायाः इयत्ता सा अपरिमेया? ताम् अपरिमेयाम्? प्रलयान्तां मरणान्ताम् उपाश्रिताः?",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -24,7 +24,7 @@
         {
           "sense": "अपरिमेयां",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -36,115 +36,21 @@
       "surface_form": "aparimeyām",
       "lemma": "aparimeya",
       "grammar": "accusative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "? प्रलयान्तां मरणान्ताम् उपाश्रिताः? सदा चिन्तापराः इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इत्यसङ्ख्येयविषयत्वेनानन्तशाखत्वं विवक्षितमित्याह -- अपरिच्छेद्यामिति",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "िन्ताम् अपरिमेयां च? न परिमातुं शक्यते यस्याः चिन्तायाः इयत्ता सा अपरिमेया? ताम् अपरिमेयाम्? प्रलयान्तां मरणान्ताम् उपाश",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "िन्ताम् अपरिमेयां",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "िन्तामिति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "-- चिन्तामिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "िन्तामिति",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "pralaya",
       "lemma": "pralaya",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ान्तां मरणान्ताम् उपाश्रिताः? सदा चिन्तापराः इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ान्तां प्राकृतप्रलयावधिकालसाध्यविषयाम् उपाश्रिताः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ो मरणमेवान्तो यस्यास्ताम्",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ो मरणमेवान्तो यस्यास्तां प्रलयान्ताम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "प्रलय"
       ]
@@ -174,50 +80,7 @@
       "surface_form": "kāma",
       "lemma": "kāma",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ोपभोगपरमाः? काम्यन्ते इति कामाः विषयाः शब्दादयः तदुपभोगपरमाः अयमेव परमः पुरुषार्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ोपभोगपरमाः कामोपभोग",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ोपभोग एव फलमिति निश्चिताः।",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ोपभोग एव परमो येषां ते? एतावदिति कामोपभोग एव परमः पुरुषार्थो नान्यदस्तीति कृतनिश्चयाः? अर्थसंचयानीहन्त इत्युत्तरेणान्वयः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "परिमेयामपरिमेयविषयत्वात्परिमातुमशक्यां प्रलयो मरणमेवान्तो यस्यास्तां प्रलयान्ताम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -231,91 +94,21 @@
       "surface_form": "paramā",
       "lemma": "parama",
       "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ः? काम्यन्ते इति कामाः विषयाः शब्दादयः तदुपभोगपरमाः अयमेव परमः पुरुषार्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ः कामोपभोग",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ः काम्यन्त इति कामा दृष्टाः शब्दादयो विषयास्तदुपभोग",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "etāvat",
       "lemma": "etāvat",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति निश्चिताः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
       "lemma": "i",
       "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कामाः विषयाः शब्दादयः तदुपभोगपरमाः अयमेव परमः पुरुषार्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "मन्वानाः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "?चैतन्यविशिष्टः कामः पुरुषः इति च",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "समुच्चयार्थश्चकारः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -329,7 +122,7 @@
   "intertextual_panel": [
     {
       "verse": "9.22",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8747,
       "feature_breakdown": {
         "cosine": 0.8347,
@@ -342,27 +135,27 @@
     },
     {
       "verse": "17.6",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8712,
       "feature_breakdown": {
         "cosine": 0.8412,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.6273,
+        "lemma_overlap": 8.6231,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "13.22",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.869,
       "feature_breakdown": {
         "cosine": 0.829,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.9724,
+        "lemma_overlap": 8.9682,
         "stem_prefix": 4.0
       }
     },
@@ -375,20 +168,20 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.2216,
+        "lemma_overlap": 4.2175,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "14.2",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8682,
       "feature_breakdown": {
         "cosine": 0.8182,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.9771,
+        "lemma_overlap": 12.973,
         "stem_prefix": 4.0
       }
     },
@@ -401,13 +194,13 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 2.4299,
+        "lemma_overlap": 2.4257,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "16.8",
-      "type": "thematic-similarity",
+      "type": "near-cluster echo",
       "score": 0.8679,
       "feature_breakdown": {
         "cosine": 0.8279,
@@ -427,14 +220,14 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 2.4299,
+        "lemma_overlap": 2.4257,
         "stem_prefix": 3.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_16.11",
@@ -443,7 +236,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_16.11",
@@ -452,7 +245,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_16.11",
@@ -461,7 +254,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_16.11"
@@ -469,7 +262,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_16.11"
@@ -477,7 +270,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_16.11"

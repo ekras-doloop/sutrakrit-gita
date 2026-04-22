@@ -16,7 +16,7 @@
         {
           "sense": "ब्रह्मनिर्वाणं मोक्षम् ऋषयः सम्यग्दर्शिनः संन्यासिनः क्षीणकल्मषाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मा",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -24,16 +24,15 @@
         {
           "sense": "।उक्तगुणानां ब्रह्म अत्यन्तसुलभम् इत्याह",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "।यस्मिन्सर्वाणि भूतान्यात्मैवाभूद्विजानतः। तत्र को मोहः कः शोक एकत्वमनुपश्यतः।। इति श्रुतेः। बहुवचनंतद्यो यो देवानाम् इत",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -47,57 +46,7 @@
       "surface_form": "brahma",
       "lemma": "brahman",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "निर्वाणं मोक्षम् ऋषयः सम्यग्दर्शिनः संन्यासिनः क्षीणकल्मषाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मानः संयत",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "निर्वाणं लभन्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "प्राप्तिः पुनः किमर्थमुच्यते इत्यत आह पापे ति",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ानन्दं लभन्ते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "निर्वाणं मोक्षं लभन्ते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "विदो ब्रह्मनिर्वाणं लभन्ते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "ब्रह्म"
       ]
@@ -106,16 +55,7 @@
       "surface_form": "nis",
       "lemma": "ni",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सङ्गत्वं तदर्थदोषदर्शनं कामक्रोधवेगनिवारणम् आत्मन्येव सर्वविधभोग्यताकल्पनं",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -129,16 +69,7 @@
       "surface_form": "ṇam",
       "lemma": "ṇa",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आत्मन्येव सर्वविधभोग्यताकल्पनं",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -152,101 +83,14 @@
       "surface_form": "kṣīṇa",
       "lemma": "kṣī",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कल्मषाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मानः संयतेन्द्रियाः सर्वभूतहिते रताः सर्वेषां भूतानां हिते आन",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ा शेषात्मप्राप्तिविरोधि कल्मषाः ब्रह्मनिर्वाणं लभन्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "कल्मषा भूत्वा छिन्नद्वैधा यतात्मानः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं कल्मषं येषां छिन्नं द्वैधं संशयो येषां यत संयत आत्मा चित्तं येषां सर्वेषां भूतानां हिते रताः कृपालवस्ते ब्रह्मनिर्वाणं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "कल्मषाः ततोऽन्तःकरणशुद्ध्या ऋषयः सूक्ष्मवस्तुविवेचनसमर्थाः संन्यासिनः ततः श्रवणादिपरिपाकेन छिन्नद्वैधा निवृतसर्वसंशयाः त",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kalmaṣa",
       "lemma": "kalmaṣa",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ाः क्षीणपापाः निर्दोषाः छिन्नद्वैधाः छिन्नसंशयाः यतात्मानः संयतेन्द्रियाः सर्वभूतहिते रताः सर्वेषां भूतानां हिते आनुकूल्",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ाः ब्रह्मनिर्वाणं लभन्ते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ा भूत्वा छिन्नद्वैधा यतात्मानः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ं येषां छिन्नं द्वैधं संशयो येषां यत संयत आत्मा चित्तं येषां सर्वेषां भूतानां हिते रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ाः ततोऽन्तःकरणशुद्ध्या ऋषयः सूक्ष्मवस्तुविवेचनसमर्थाः संन्यासिनः ततः श्रवणादिपरिपाकेन छिन्नद्वैधा निवृतसर्वसंशयाः ततो नि",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -260,149 +104,21 @@
       "surface_form": "chinna",
       "lemma": "chid",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "द्वैधाः छिन्नसंशयाः यतात्मानः संयतेन्द्रियाः सर्वभूतहिते रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "द्वैधाः शीतोष्णादिद्वन्द्वैः विमुक्ताः यतात्मानः आत्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "द्वैधा यतात्मानः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "संशया यतात्मानो ब्रह्मानन्दं लभन्ते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ं द्वैधं संशयो येषां यत संयत आत्मा चित्तं येषां सर्वेषां भूतानां हिते रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "द्वैधा निवृतसर्वसंशयाः ततो निदिध्यासनपरिपाकेन संयतात्मानः परमात्मन्येवैकाग्रचित्ताः एतादृशाश्च द्वैतादर्शित्वेन सर्वभूतह",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "dvaidhā",
       "lemma": "dvaidha",
       "grammar": "nominative singular feminine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ः छिन्नसंशयाः यतात्मानः संयतेन्द्रियाः सर्वभूतहिते रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ः शीतोष्णादिद्वन्द्वैः विमुक्ताः यतात्मानः आत्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "यतात्मानः",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "निवृतसर्वसंशयाः ततो निदिध्यासनपरिपाकेन संयतात्मानः परमात्मन्येवैकाग्रचित्ताः एतादृशाश्च द्वैतादर्शित्वेन सर्वभूतहिते रत",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "yatāt",
       "lemma": "yat",
       "grammar": "ablative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मानः संयतेन्द्रियाः सर्वभूतहिते रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मानः आत्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "मानः। द्वेधा भावो द्वैधम् संशयो विपर्ययो वा। तच्चोक्तम् विपर्ययः संशयो वा यद्वैधं त्वकृतात्मनाम्। ज्ञानासिना तु तच्छित्त",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "मानो ब्रह्मानन्दं लभन्ते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "मानः परमात्मन्येवैकाग्रचित्ताः एतादृशाश्च द्वैतादर्शित्वेन सर्वभूतहिते रता हिंसाशून्या ब्रह्मविदो ब्रह्मनिर्वाणं लभन्ते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "यतात्मा"
       ]
@@ -418,58 +134,7 @@
       "surface_form": "sarva",
       "lemma": "sarva",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "भूतहिते रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "भूतहिते रताः आत्मवत् सर्वेषां भूतानां हितेषु निरताः ऋषयः द्रष्टारः आत्मावलोकनपरा ये एवंभूताः ते क्षीणा शेषात्मप्राप्तिवि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ज्ञा इत्यर्थः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ज्ञा भूत्वा छिन्नसंशया यतात्मानो ब्रह्मानन्दं लभन्ते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ेषां भूतानां हिते रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "संशयाः ततो निदिध्यासनपरिपाकेन संयतात्मानः परमात्मन्येवैकाग्रचित्ताः एतादृशाश्च द्वैतादर्शित्वेन सर्वभूतहिते रता हिंसाशून",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "सर्वभूतहिते रताः"
       ]
@@ -478,58 +143,7 @@
       "surface_form": "bhūta",
       "lemma": "bhū",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "हिते रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "हिते रताः आत्मवत् सर्वेषां भूतानां हितेषु निरताः ऋषयः द्रष्टारः आत्मावलोकनपरा ये एवंभूताः ते क्षीणा शेषात्मप्राप्तिविरोध",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "्वा छिन्नद्वैधा यतात्मानः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "्वा छिन्नसंशया यतात्मानो ब्रह्मानन्दं लभन्ते",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ानां हिते रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "हिते रता हिंसाशून्या ब्रह्मविदो ब्रह्मनिर्वाणं लभन्ते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "सर्वभूतहिते रताः"
       ]
@@ -540,36 +154,19 @@
       "grammar": "dative singular masculine noun",
       "senses_attested_in_panel": [
         {
-          "sense": "रताः सर्वेषां भूतानां हिते आनुकूल्ये रताः अहिंसका इत्यर्थः",
+          "sense": "आनुकूल्ये रताः अहिंसका इत्यर्थः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "रताः आत्मवत् सर्वेषां भूतानां हितेषु निरताः ऋषयः द्रष्टारः आत्मावलोकनपरा ये एवंभूताः ते क्षीणा शेषात्मप्राप्तिविरोधि कल",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
           "sense": "रताः कृपालवस्ते ब्रह्मनिर्वाणं मोक्षं लभन्ते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "रता हिंसाशून्या ब्रह्मविदो ब्रह्मनिर्वाणं लभन्ते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -588,33 +185,33 @@
   "intertextual_panel": [
     {
       "verse": "2.72",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9145,
       "feature_breakdown": {
         "cosine": 0.8445,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 14.5739,
+        "lemma_overlap": 14.5708,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "18.54",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.914,
       "feature_breakdown": {
         "cosine": 0.854,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.5313,
+        "lemma_overlap": 8.5265,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "5.26",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9073,
       "feature_breakdown": {
         "cosine": 0.8473,
@@ -627,20 +224,20 @@
     },
     {
       "verse": "5.21",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.9021,
       "feature_breakdown": {
         "cosine": 0.8421,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.9848,
+        "lemma_overlap": 6.9769,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "5.24",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9021,
       "feature_breakdown": {
         "cosine": 0.8421,
@@ -653,47 +250,47 @@
     },
     {
       "verse": "12.4",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9007,
       "feature_breakdown": {
         "cosine": 0.8407,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.3487,
+        "lemma_overlap": 10.3438,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "12.13",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8976,
       "feature_breakdown": {
         "cosine": 0.8376,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.336,
+        "lemma_overlap": 8.3329,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "6.29",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8941,
       "feature_breakdown": {
         "cosine": 0.8541,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.6471,
+        "lemma_overlap": 5.6392,
         "stem_prefix": 4.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_5.25",
@@ -702,7 +299,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_5.25",
@@ -711,7 +308,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_5.25",
@@ -720,7 +317,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_5.25"
@@ -728,7 +325,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_5.25"
@@ -736,7 +333,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_5.25"

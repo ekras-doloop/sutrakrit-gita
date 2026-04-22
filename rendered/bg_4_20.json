@@ -16,7 +16,7 @@
         {
           "sense": "कर्मसु अभिमानं फलासङ्गं",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -25,7 +25,7 @@
         {
           "sense": "नित्यतृप्तो नित्ये स्वात्मनि",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -34,16 +34,15 @@
         {
           "sense": "ज्ञानस्वरूपमाह पुनर्नित्यतृप्त इति",
           "school": "dvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "madhva",
-            "jayatirtha"
+            "madhva"
           ]
         },
         {
           "sense": "अर्थात् अप्राकृतं वस्तु यथाभूततया सर्वं विभाव्य कर्मणि प्रवृत्तोऽपि नैव किञ्चित्करोति अकर्मैव स यथा ब्रह्मा कर्मोक्तं त",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -51,7 +50,7 @@
         {
           "sense": "नित्येन निजानन्देन तृप्तः अतएव योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -59,7 +58,7 @@
         {
           "sense": "अकर्त्रभोक्त्रात्मसम्यग्दर्शनेन बाधित्वा नित्यतृप्तः परमानन्दस्वरूपलाभेन सर्वत्र निराकाङ्क्षः",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -73,58 +72,7 @@
       "surface_form": "karma",
       "lemma": "karman",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सु अभिमानं फलासङ्गं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "फलासङ्गं त्यक्त्वा नित्यतृप्तो नित्ये स्वात्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "फलासङ्गं इत्यनेनोच्यते",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ण्यकर्म",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "णि तत्फले चासक्तिं त्यक्त्वा नित्येन निजानन्देन तृप्तः अतएव योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "णां दाहः आगामिनां चानुत्पत्तिः ज्ञानोत्पत्तिकाले क्रियमाणं तु पूर्वोत्तरयोरनन्तर्भावात्फलाय भवेदिति भवेत्कस्यचिदाशङ्का त",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "त्यक्त्वा कर्मफलासङ्गम्"
       ]
@@ -147,59 +95,7 @@
       "surface_form": "nitya",
       "lemma": "nitya",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तृप्तः निराकाङ्क्षो विषयेषु इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "तृप्तो नित्ये स्वात्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "तृप्त इति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ानन्देन तृप्तः प्राकृताश्रयरहितश्च तत्तद्वस्तुनि ब्रह्मभावनादिति वक्ष्यति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ेन निजानन्देन तृप्तः अतएव योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "तृप्तः परमानन्दस्वरूपलाभेन सर्वत्र निराकाङ्क्षः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "नित्य"
       ]
@@ -222,49 +118,7 @@
       "surface_form": "karmaṇi",
       "lemma": "karman",
       "grammar": "locative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अभिप्रवृत्तोऽपि निष्क्रियात्मदर्शनसंपन्नत्वात् नैव किञ्चित् करोति सः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "आभिमुख्येन प्रवृत्तः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "यज्ञादौ फलं स्वर्गादि प्राकृतं तथा सङ्गं प्राकृतं स्वस्य कर्तृत्वाभिनिवेशनं",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "तत्फले चासक्तिं त्यक्त्वा नित्येन निजानन्देन तृप्तः अतएव योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "फले चासङ्ग कर्तृत्वाभिमानं भोगाभिलाषं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -278,75 +132,14 @@
       "surface_form": "api",
       "lemma": "api",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "न एव किञ्चित् कर्म करोति कर्मापदेशेन ज्ञानाभ्यासम् एव करोति इत्यर्थः।पुनः अपि कर्मणा ज्ञानाकारता एव विशोध्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "na",
       "lemma": "na",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं फलासङ्गं",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ित्यतृप्तो नित्ये स्वात्मनि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "च कामसङ्कल्पाभावेनालम् आसङ्गं स्नेहं च त्यक्त्वा ज्ञानस्वरूपमाह पुनर्नित्यतृप्त इति। नित्यतृप्तनिराश्रयेश्वरसरूपोऽस्मीत",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "िर्वर्त्ये कर्मणि यज्ञादौ फलं स्वर्गादि प्राकृतं तथा सङ्गं प्राकृतं स्वस्य कर्तृत्वाभिनिवेशनं",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "ित्येन निजानन्देन तृप्तः अतएव योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ाग्निना प्राक्तनानामप्रारब्धकर्मणां दाहः आगामिनां चानुत्पत्तिः ज्ञानोत्पत्तिकाले क्रियमाणं तु पूर्वोत्तरयोरनन्तर्भावात्फ",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "नाभावो विद्यते सतः",
         "नित्य"
@@ -356,48 +149,7 @@
       "surface_form": "eva",
       "lemma": "eva",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ंभूतेन स्वप्रयोजनाभावात् ससाधनं कर्म परित्यक्तव्यमेव इति प्राप्ते ततः निर्गमासंभवात् लोकसंग्रहचिकीर्षया शिष्टविगर्हणापरि",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तृप्तः निराश्रयः अस्थिरप्रकृतौ आश्रयबुद्धिरहितो",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "ं कर्त्ताऽप्यकर्त्तैव स असङ्गात् ब्रह्मवत् तदाह त्यक्त्वेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "योगक्षेमार्थमाश्रयणीयरहितः एवंभूतो",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ंभूतो जीवन्मुक्तो व्युत्थानदशायां कर्मणि वैदिके लौकिके वा अभिप्रवृत्तोऽपि प्रारब्धकर्मवशाल्लोकदृष्ट्याऽभितः साङ्गोपाङ्गा",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -411,41 +163,7 @@
       "surface_form": "cit",
       "lemma": "cit",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "करोति सः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्म करोति कर्मापदेशेन ज्ञानाभ्यासम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "करोति अकर्मैव स यथा ब्रह्मा कर्मोक्तं तथैव नित्यानन्देन तृप्तः प्राकृताश्रयरहितश्च तत्तद्वस्तुनि ब्रह्मभावनादिति वक्ष्यत",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "करोति सः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -456,7 +174,7 @@
         {
           "sense": "सः ।।यः पुनः पूर्वोक्तविपरीतः प्रागेव कर्मारम्भात् ब्रह्मणि सर्वान्तरे प्रत्यगात्मनि निष्क्रिये संजातात्मदर्शनः स दृष्ट",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -465,34 +183,17 @@
         {
           "sense": "। स कर्मणि आभिमुख्येन प्रवृत्तः अपि न एव किञ्चित् कर्म करोति कर्मापदेशेन ज्ञानाभ्यासम् एव करोति इत्यर्थः।पुनः अपि कर्मणा",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "अकर्मैव स यथा ब्रह्मा कर्मोक्तं तथैव नित्यानन्देन तृप्तः प्राकृताश्रयरहितश्च तत्तद्वस्तुनि ब्रह्मभावनादिति वक्ष्यति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
+            "ramanuja"
           ]
         },
         {
           "sense": "। तस्य कर्माकर्मतामापद्यत इत्यर्थः।",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "सः। निष्क्रियात्मदर्शनेन बाधितत्वादित्यर्थः।",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -509,85 +210,85 @@
   "intertextual_panel": [
     {
       "verse": "18.9",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9277,
       "feature_breakdown": {
         "cosine": 0.8527,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0753,
-        "lemma_overlap": 14.0004,
+        "lemma_overlap": 13.9843,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "6.1",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9196,
       "feature_breakdown": {
         "cosine": 0.8496,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.4564,
+        "lemma_overlap": 10.4467,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "18.8",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9056,
       "feature_breakdown": {
         "cosine": 0.8456,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 11.9033,
+        "lemma_overlap": 11.8872,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "18.6",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9052,
       "feature_breakdown": {
         "cosine": 0.8402,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0753,
-        "lemma_overlap": 13.2872,
+        "lemma_overlap": 13.2774,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "5.12",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9045,
       "feature_breakdown": {
         "cosine": 0.8494,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0753,
-        "lemma_overlap": 10.9272,
+        "lemma_overlap": 10.9174,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "5.10",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9026,
       "feature_breakdown": {
         "cosine": 0.8345,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0903,
-        "lemma_overlap": 10.4099,
+        "lemma_overlap": 10.4001,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "18.11",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9011,
       "feature_breakdown": {
         "cosine": 0.8421,
@@ -600,21 +301,21 @@
     },
     {
       "verse": "3.5",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8992,
       "feature_breakdown": {
         "cosine": 0.8492,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.5434,
+        "lemma_overlap": 10.5337,
         "stem_prefix": 5.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_4.20",
@@ -623,7 +324,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_4.20",
@@ -632,7 +333,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_4.20",
@@ -641,7 +342,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_4.20"
@@ -649,7 +350,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_4.20"
@@ -657,7 +358,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_4.20"

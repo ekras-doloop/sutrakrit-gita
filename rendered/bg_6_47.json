@@ -11,7 +11,7 @@
   "intertextual_panel": [
     {
       "verse": "12.2",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8818,
       "feature_breakdown": {
         "cosine": 0.8518,
@@ -24,7 +24,7 @@
     },
     {
       "verse": "9.22",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8653,
       "feature_breakdown": {
         "cosine": 0.8553,
@@ -37,7 +37,7 @@
     },
     {
       "verse": "7.18",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8636,
       "feature_breakdown": {
         "cosine": 0.8536,
@@ -50,7 +50,7 @@
     },
     {
       "verse": "12.6",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.8625,
       "feature_breakdown": {
         "cosine": 0.8625,
@@ -63,7 +63,7 @@
     },
     {
       "verse": "8.27",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8617,
       "feature_breakdown": {
         "cosine": 0.8417,
@@ -76,7 +76,7 @@
     },
     {
       "verse": "8.14",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.861,
       "feature_breakdown": {
         "cosine": 0.851,
@@ -89,7 +89,7 @@
     },
     {
       "verse": "17.3",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8609,
       "feature_breakdown": {
         "cosine": 0.8509,
@@ -102,7 +102,7 @@
     },
     {
       "verse": "6.29",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8609,
       "feature_breakdown": {
         "cosine": 0.8509,
@@ -116,7 +116,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_6.47",
@@ -125,7 +125,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_6.47",
@@ -134,7 +134,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_6.47",
@@ -143,7 +143,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_6.47"
@@ -151,7 +151,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_6.47"
@@ -159,7 +159,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_6.47"

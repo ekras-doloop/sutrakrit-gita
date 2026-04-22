@@ -16,50 +16,25 @@
         {
           "sense": "अपानवृत्तौ जुह्वति प्रक्षिपन्ति प्राणं प्राणवृत्तिम् पूरकाख्यं प्राणायामं कुर्वन्तीत्यर्थः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "जुह्वति प्राणम् इति पूरकः प्राणे अपानम् इति रेचकः प्राणापानगती रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
           "sense": "जुह्वति इत्येतत् पूरकरेचककुम्भकपरतया केचिद्व्याचक्षते तदसत् अध्याहारादिप्रसङ्गात्",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
         },
         {
-          "sense": "ति। अधोवृत्तिप्राणा ऊर्द्धृवृत्तिरिति पर्यायेण तद्रोधे तथाविधाः।",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
           "sense": "अधोवृत्तौ प्राणमूर्ध्ववृत्तिं पूरकेण जुह्वति पूरककाले प्राणमपानेनैकीकुर्वन्ति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "ऽपानवृत्तौ जुह्वति प्रक्षिपन्ति प्राणवृत्तिम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -75,23 +50,23 @@
         {
           "sense": "प्रक्षिपन्ति प्राणं प्राणवृत्तिम् पूरकाख्यं प्राणायामं कुर्वन्तीत्यर्थः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
         },
         {
-          "sense": "प्राणम् इति पूरकः प्राणे अपानम् इति रेचकः प्राणापानगती रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
+          "sense": "इति कुम्भकः",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
         },
         {
-          "sense": "अपानं",
+          "sense": "अपानं च प्राणे। कुम्बकस्था एव भवन्तीत्यर्थः।",
           "school": "dvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "madhva",
             "jayatirtha"
@@ -100,7 +75,7 @@
         {
           "sense": "पूरककाले प्राणमपानेनैकीकुर्वन्ति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -108,7 +83,7 @@
         {
           "sense": "प्रक्षिपन्ति प्राणवृत्तिम्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -123,16 +98,7 @@
       "surface_form": "prāṇam",
       "lemma": "prāṇ",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति पूरकः प्राणे अपानम् इति रेचकः प्राणापानगती रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -143,7 +109,7 @@
         {
           "sense": "अपानं तथा अपरे जुह्वति रेचकाख्यं",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -151,16 +117,15 @@
         {
           "sense": "अपानम् इति रेचकः प्राणापानगती रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "। कुम्बकस्था एव भवन्तीत्यर्थः।",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhva"
           ]
@@ -168,17 +133,9 @@
         {
           "sense": "जुह्वति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "षु बाह्याभ्यन्तरकुम्भकाभ्यासनिगृहीतेषु प्राणान् ज्ञानेन्द्रियकर्मर्मेन्द्रियरूपान्जुह्णति चतुर्थकुम्भकाभ्यासेन विलापयन्त",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -190,97 +147,21 @@
       "surface_form": "apānam",
       "lemma": "apāna",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति रेचकः प्राणापानगती रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tathā",
       "lemma": "tathā",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अपरे जुह्वति रेचकाख्यं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "विधाः।",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "कुम्भकेन प्राणापानयोरूर्ध्वाधोगती रुद्ध्वा रेचककालेऽपानं प्राणे जुह्वति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ऽपरे जुह्वति शारीरवायोर्बहिर्निर्गमनेन रेचकाख्यं प्राणायामं कुर्वन्तीत्यर्थः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "apare",
       "lemma": "apara",
       "grammar": "nominative plural masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "जुह्वति रेचकाख्यं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "कर्मयोगिनः प्राणायामेषु निष्ठां कुर्वन्ति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "प्राणायामपरायणाः प्राणमपाने जुह्वति अपानं",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "इत्यर्थः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अपरे नियताहाराः प्राणान् प्राणेषु जुह्वति"
       ]
@@ -303,49 +184,7 @@
       "surface_form": "gatī",
       "lemma": "gam",
       "grammar": "nominative dual masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मुखनासिकाभ्यां वायोः निर्गमनं प्राणस्य गतिः तद्विपर्ययेण अधोगमनम् अपानस्य गतिः ते प्राणापानगती एते रुद्ध्वा निरुध्य प्र",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "रुद्ध्वा प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "रुद्धा इति द्रष्टव्यम्",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "रुद्ध्वा रेचककालेऽपानं प्राणे जुह्वति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "मुखनासिकाभ्यामान्तरस्य वायोर्बहिर्निर्गमः श्वासः प्राणस्य गतिः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -356,7 +195,7 @@
         {
           "sense": "निरुध्य प्राणायामपरायणाः प्राणायामतत्पराः कुम्भकाख्यं प्राणायामं कुर्वन्तीत्यर्थः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -364,7 +203,7 @@
         {
           "sense": "प्राणान् प्राणेषु जुह्वति इति कुम्भकः",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -372,7 +211,7 @@
         {
           "sense": "रेचककालेऽपानं प्राणे जुह्वति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -380,7 +219,7 @@
         {
           "sense": "प्राणायामपरायणाः सन्तोऽपरे पूर्वविलक्षणानियताहाराः आहारनियमादियोगसाधनविशिष्टाः प्राणेषु बाह्याभ्यन्तरकुम्भकाभ्यासनिगृही",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -392,59 +231,7 @@
       "surface_form": "prāṇāyāma",
       "lemma": "prāṇāyāma",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं कुर्वन्तीत्यर्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ेषु निष्ठां कुर्वन्ति",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "परायणाः प्राणमपाने जुह्वति अपानं",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "पराः केचिन्नियताहारा उत्तममध्यमा इति तान्निरूपयति अपानेति",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "परायणा अपरे इत्यर्थः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "यज्ञमाह सार्धेन अपानेऽपानवृत्तौ जुह्वति प्रक्षिपन्ति प्राणवृत्तिम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अपाने जुह्वति ৷৷ प्राणायामपरायणाः",
         "स्तम्भवृत्ति प्राणायाम"
@@ -454,50 +241,7 @@
       "surface_form": "parāyaṇa",
       "lemma": "parāyaṇa",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ाः प्राणायामतत्पराः कुम्भकाख्यं प्राणायामं कुर्वन्तीत्यर्थः",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "ाः इत्यनेन वर्गत्रयस्य सामान्यसङ्ग्रहः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ाः प्राणमपाने जुह्वति अपानं",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "ा अपरे इत्यर्थः",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "ाः सन्तोऽपरे पूर्वविलक्षणानियताहाराः आहारनियमादियोगसाधनविशिष्टाः प्राणेषु बाह्याभ्यन्तरकुम्भकाभ्यासनिगृहीतेषु प्राणान् ज",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अपाने जुह्वति ৷৷ प्राणायामपरायणाः"
       ]
@@ -513,33 +257,33 @@
   "intertextual_panel": [
     {
       "verse": "4.30",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 1.0073,
       "feature_breakdown": {
         "cosine": 0.8573,
         "theme_graph": 11.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.1923,
+        "lemma_overlap": 9.1892,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "4.27",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.8959,
       "feature_breakdown": {
         "cosine": 0.8459,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.1923,
+        "lemma_overlap": 9.1892,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "5.27",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8855,
       "feature_breakdown": {
         "cosine": 0.8555,
@@ -552,20 +296,20 @@
     },
     {
       "verse": "8.10",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8812,
       "feature_breakdown": {
         "cosine": 0.8512,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.7153,
+        "lemma_overlap": 5.7122,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "6.7",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8786,
       "feature_breakdown": {
         "cosine": 0.8486,
@@ -578,20 +322,20 @@
     },
     {
       "verse": "4.28",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.8778,
       "feature_breakdown": {
         "cosine": 0.8478,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.6759,
+        "lemma_overlap": 7.6728,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "15.14",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8751,
       "feature_breakdown": {
         "cosine": 0.8451,
@@ -604,21 +348,21 @@
     },
     {
       "verse": "9.32",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8724,
       "feature_breakdown": {
         "cosine": 0.8324,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.229,
+        "lemma_overlap": 6.2259,
         "stem_prefix": 4.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_4.29",
@@ -627,7 +371,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_4.29",
@@ -636,7 +380,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_4.29",
@@ -645,7 +389,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_4.29"
@@ -653,7 +397,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_4.29"
@@ -661,7 +405,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_4.29"

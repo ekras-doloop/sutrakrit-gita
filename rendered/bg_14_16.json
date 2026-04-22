@@ -23,7 +23,7 @@
         {
           "sense": "सात्त्विकस्य इत्यर्थः? आहुः शिष्टाः सात्त्विकम्",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -32,7 +32,7 @@
         {
           "sense": "फलाभिसन्धिरहितस्य मदाराधनरूपस्य कर्मणः फलं पुनः",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -40,7 +40,7 @@
         {
           "sense": "सत्त्वेन कृतस्य कर्मणः पुण्यरूपस्य निर्मलं भवति दुःखगन्धरहितं अज्ञानादिगन्धरहितं च",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -48,7 +48,7 @@
         {
           "sense": "सात्त्विककर्मणः सात्त्विकं सत्त्वप्रधानं निर्मलं प्रकाशबहुलं सुखं फलमाहुः कपिलादयः",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -56,7 +56,7 @@
         {
           "sense": "सात्त्विकस्य कर्मणो धर्मस्य सात्त्विकं सत्त्वेन निर्वृत्तं निर्मलं रजस्तमोमलामिश्रितं सुखं फलमाहुः परमर्षयः",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -75,16 +75,7 @@
       "surface_form": "sāttvikam",
       "lemma": "sāttvika",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एव निर्मलं फलम् इति। रजसस्तु फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम् अपि दुःखम् एव? कारणानुरूप्यात् राजसम",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -98,24 +89,7 @@
       "surface_form": "phalam",
       "lemma": "phal",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। रजसस्तु फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम् अपि दुःखम् एव? कारणानुरूप्यात् राजसमेव। तथा अज्ञानं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "एवम् अन्तकालप्रवृद्धस्य तमसः फलम् अज्ञानपरम्परारूपम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अज्ञानं तमसः फलम्"
       ]
@@ -124,112 +98,21 @@
       "surface_form": "rajasas",
       "lemma": "rajas",
       "grammar": "ablative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तु फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "तु फलं दुःखमित्यल्पसुखं दुःखम्",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "तु दुःखमज्ञानं तमसः कर्मणः फलं येन",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "tu",
       "lemma": "tu",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम्",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "फलं फलसाधनकर्मसङ्गिकुले जन्म? फलाभिसन्धिपूर्वककर्मारम्भतत्फलानुभवपुनर्जन्मरजोवृद्धिफलाभिसन्धिपूर्वककर्मारम्भपरम्परारूपं",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "फलं दुःखमित्यल्पसुखं दुःखम्",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        },
-        {
-          "sense": "फलं सुकृतस्य सत्त्वेन कृतस्य कर्मणः पुण्यरूपस्य निर्मलं भवति दुःखगन्धरहितं अज्ञानादिगन्धरहितं च",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "त्वमाह -- कर्मण इति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "कर्मणः पापमिश्रस्य पुण्यस्य फलं राजसं दुःखं दुःखबहुलमल्पसुखं",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "phalam",
       "lemma": "phal",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। रजसस्तु फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम् अपि दुःखम् एव? कारणानुरूप्यात् राजसमेव। तथा अज्ञानं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "एवम् अन्तकालप्रवृद्धस्य तमसः फलम् अज्ञानपरम्परारूपम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अज्ञानं तमसः फलम्"
       ]
@@ -245,24 +128,7 @@
       "surface_form": "kham",
       "lemma": "khan",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "एव? कारणानुरूप्यात् राजसमेव",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "। तथा हि शार्कराक्षशाखायाम् -- रजसो ह्येव जायते मात्रया सुखं दुःखं तस्मात्तान्सुखिनो दुःखिन इत्याचक्षते इति। अन्यथा दुःख",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -283,40 +149,14 @@
       "surface_form": "tamasas",
       "lemma": "tamasa",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "तामसस्य कर्मणोऽधर्मस्य फलमाहुरित्यनुषज्यते",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "phalam",
       "lemma": "phal",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति। रजसस्तु फलं दुःखं राजसस्य कर्मणः इत्यर्थः? कर्माधिकारात् फलम् अपि दुःखम् एव? कारणानुरूप्यात् राजसमेव। तथा अज्ञानं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "एवम् अन्तकालप्रवृद्धस्य तमसः फलम् अज्ञानपरम्परारूपम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अज्ञानं तमसः फलम्"
       ]
@@ -325,7 +165,7 @@
   "intertextual_panel": [
     {
       "verse": "18.9",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9145,
       "feature_breakdown": {
         "cosine": 0.8745,
@@ -338,7 +178,7 @@
     },
     {
       "verse": "5.15",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9114,
       "feature_breakdown": {
         "cosine": 0.8514,
@@ -351,7 +191,7 @@
     },
     {
       "verse": "12.12",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9057,
       "feature_breakdown": {
         "cosine": 0.8557,
@@ -364,7 +204,7 @@
     },
     {
       "verse": "14.9",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9057,
       "feature_breakdown": {
         "cosine": 0.8557,
@@ -377,7 +217,7 @@
     },
     {
       "verse": "18.12",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9014,
       "feature_breakdown": {
         "cosine": 0.8493,
@@ -390,7 +230,7 @@
     },
     {
       "verse": "14.17",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9004,
       "feature_breakdown": {
         "cosine": 0.8504,
@@ -403,7 +243,7 @@
     },
     {
       "verse": "5.16",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8987,
       "feature_breakdown": {
         "cosine": 0.8487,
@@ -416,7 +256,7 @@
     },
     {
       "verse": "16.4",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8971,
       "feature_breakdown": {
         "cosine": 0.8571,
@@ -430,7 +270,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_14.16",
@@ -439,7 +279,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_14.16",
@@ -448,7 +288,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_14.16",
@@ -457,7 +297,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_14.16"
@@ -465,7 +305,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_14.16"
@@ -473,7 +313,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_14.16"

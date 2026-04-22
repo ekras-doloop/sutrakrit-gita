@@ -23,7 +23,7 @@
         {
           "sense": "कर्माणिलौकिकानि शास्त्रीयाणि",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -31,7 +31,7 @@
         {
           "sense": "कर्माणि प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -39,7 +39,7 @@
         {
           "sense": "इति श्लोकद्वयस्यास्फुटत्वात्तात्पर्यमाह विद्वदि ति",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
@@ -47,7 +47,7 @@
         {
           "sense": "कर्मामि कर्त्ताऽहं पुरुष इति मन्यते विपरीतमतिः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -55,7 +55,7 @@
         {
           "sense": "यानि कर्माणि तान्यहमेव कर्ता करोमीति मन्यसे",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -63,7 +63,7 @@
         {
           "sense": "लौकिकानि वैदिकानि",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -84,26 +84,17 @@
       "grammar": "vocative plural neuter noun",
       "senses_attested_in_panel": [
         {
-          "sense": "लौकिकानि शास्त्रीयाणि",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
           "sense": "प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "क्रियन्ते न केवलेनात्मनेति",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -111,7 +102,7 @@
         {
           "sense": "तान्यहमेव कर्ता करोमीति मन्यसे",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -119,7 +110,7 @@
         {
           "sense": "सर्वशः सर्वप्रकारैरहंकारेण कार्यकारणसंघातात्मप्रत्ययेन विमूढः स्वरूपविवेकासमर्थ आत्मान्तःकरणं यस्य सोऽहंकारविमूढात्माऽन",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -140,66 +131,14 @@
       "surface_form": "aham",
       "lemma": "aha",
       "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति अभिमानः तेन अज्ञातात्मस्वरूपो गुणकर्मसु अहं कर्ता इति मन्यते इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "kāra",
       "lemma": "kṛ",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ैः कार्यकरणरूपैः क्रियमाणानि कर्माणिलौकिकानि शास्त्रीयाणि",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "विमूढात्मा अहं कर्ता इति मन्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "्थत्वात् विवक्षितमर्थमाह प्रकृतेरि ति",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "्यैरिन्द्रियैः सर्वप्रकारेण क्रियमाणानि यानि कर्माणि तान्यहमेव कर्ता करोमीति मन्यसे",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "्थं विवृणोति द्वाभ्याम् प्रकृतिर्माया सत्त्वरजस्तमोगुणमयी मिथ्याज्ञानात्मिका पारमेश्वरी शक्तिः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अहंकार",
         "अहंकारविमूढात्मा"
@@ -223,59 +162,7 @@
       "surface_form": "mā",
       "lemma": "mā",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "णानि कर्माणिलौकिकानि शास्त्रीयाणि",
-          "school": "advaita",
-          "weight": 0.5,
-          "witnesses": [
-            "shankara",
-            "anandgiri"
-          ]
-        },
-        {
-          "sense": "णानि कर्माणि प्रति अहंकारविमूढात्मा अहं कर्ता इति मन्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "ह प्रकृतेरिति",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "श्रयः पुरुषोत्तम एवांशतोऽक्षरः कालः प्रकृतिः पुरुष आत्मा भवति स (इममेव) आत्मानं द्वेधापातयत् (ततः) पतिश्च पत्नी चाभवत् ब",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "णानि यानि कर्माणि तान्यहमेव कर्ता करोमीति मन्यसे",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "नुष्ठानसाम्येऽपि कर्तृत्वाभिमानतदभावाभ्यां विशेषं दर्शयन्सक्ताः कर्मणीति (25) श्लोकार्थं विवृणोति द्वाभ्याम् प्रकृतिर्मा",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": [
         "अहंकारविमूढात्मा",
         "कर्माणि"
@@ -289,7 +176,7 @@
         {
           "sense": "इति मन्यते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -297,34 +184,18 @@
         {
           "sense": "इति मन्यते",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
           ]
         },
         {
-          "sense": "ऽहमिति मन्यते इति कथमुच्यते इत्यत आह न ही ति",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
           "sense": "करोमीति मन्यसे",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "हमिति करोम्यहमिति मन्यते कर्त्रध्यासेन",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -337,65 +208,14 @@
       "surface_form": "aham",
       "lemma": "aha",
       "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इति अभिमानः तेन अज्ञातात्मस्वरूपो गुणकर्मसु अहं कर्ता इति मन्यते इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "iti",
       "lemma": "i",
       "grammar": "nominative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "मन्यते",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मन्यते",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "श्लोकद्वयस्यास्फुटत्वात्तात्पर्यमाह विद्वदि ति",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "श्रुतेः",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "श्रुतेः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -406,7 +226,7 @@
         {
           "sense": "।।यः पुनर्विद्वान्",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -414,7 +234,7 @@
         {
           "sense": "। अहंकारेण विमूढ आत्मा यस्य असौ अहंकारविमूढात्मा अहंकारो नाम अनहमर्थे प्रकृतौ अहम् इति अभिमानः तेन अज्ञातात्मस्वरूपो गुण",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -422,7 +242,7 @@
         {
           "sense": "इति कथमुच्यते इत्यत आह न ही ति",
           "school": "dvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "jayatirtha"
           ]
@@ -430,7 +250,7 @@
         {
           "sense": "विपरीतमतिः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -438,7 +258,7 @@
         {
           "sense": "कर्त्रध्यासेन",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -453,20 +273,20 @@
   "intertextual_panel": [
     {
       "verse": "13.29",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9483,
       "feature_breakdown": {
         "cosine": 0.8677,
         "theme_graph": 2.0,
         "vocative": 0.0,
         "substring": 0.0532,
-        "lemma_overlap": 13.0696,
+        "lemma_overlap": 13.055,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "3.28",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 0.9324,
       "feature_breakdown": {
         "cosine": 0.8524,
@@ -479,20 +299,20 @@
     },
     {
       "verse": "7.4",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9257,
       "feature_breakdown": {
         "cosine": 0.8451,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0532,
-        "lemma_overlap": 12.3558,
+        "lemma_overlap": 12.3412,
         "stem_prefix": 6.0
       }
     },
     {
       "verse": "3.29",
-      "type": "thematic-similarity",
+      "type": "near-cluster echo",
       "score": 0.9205,
       "feature_breakdown": {
         "cosine": 0.8581,
@@ -505,46 +325,46 @@
     },
     {
       "verse": "3.5",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.9205,
       "feature_breakdown": {
         "cosine": 0.8598,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0532,
-        "lemma_overlap": 10.8362,
+        "lemma_overlap": 10.8265,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "2.43",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.9091,
       "feature_breakdown": {
         "cosine": 0.8691,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.1852,
+        "lemma_overlap": 5.1706,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "13.20",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.9024,
       "feature_breakdown": {
         "cosine": 0.8617,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0532,
-        "lemma_overlap": 5.3388,
+        "lemma_overlap": 5.3291,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "3.30",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 0.9014,
       "feature_breakdown": {
         "cosine": 0.8614,
@@ -558,7 +378,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_3.27",
@@ -567,7 +387,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_3.27",
@@ -576,7 +396,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_3.27",
@@ -585,7 +405,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_3.27"
@@ -593,7 +413,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_3.27"
@@ -601,7 +421,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_3.27"

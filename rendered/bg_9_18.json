@@ -23,7 +23,7 @@
         {
           "sense": "पोष्टा? प्रभुः स्वामी? साक्षी प्राणिनां कृताकृतस्य? निवासः यस्मिन् प्राणिनो निवसन्ति? शरणम् आर्तानाम्? प्रपन्नानामार्ति",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -31,16 +31,15 @@
         {
           "sense": "धारयिता? प्रभुः शासिता? साक्षी साक्षाद् द्रष्टा? निवासः वासस्थानं",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
           "sense": "पोषणकर्ता? प्रभुः नियन्ता? साक्षी शुभाशुभद्रष्टा? निवासः भोगस्थानम्? शरणं रक्षकः?सुहृद्धितकर्ता? प्रकर्षेण भवत्यनेनेति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -48,7 +47,7 @@
         {
           "sense": "पोष्टा सुखसाधनस्यैव दाता",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -74,7 +73,7 @@
         {
           "sense": "प्राणिनां कृताकृतस्य? निवासः यस्मिन् प्राणिनो निवसन्ति? शरणम् आर्तानाम्? प्रपन्नानामार्तिहरः",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -82,7 +81,7 @@
         {
           "sense": "साक्षाद् द्रष्टा? निवासः वासस्थानं",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -90,16 +89,15 @@
         {
           "sense": "। तथाहि बाष्कलशाखायाम् स साक्षादिदमद्राक्षीद्यदद्राक्षीत्तत्साक्षिणः साक्षित्वम् इति। शरणमाश्रयः संसारभीतस्य।परं परायणं",
           "school": "dvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "madhva",
-            "jayatirtha"
+            "madhva"
           ]
         },
         {
           "sense": "कृताकृतावेक्षकत्वेन ब्रह्मरूपश्चाहम्",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -107,7 +105,7 @@
         {
           "sense": "शुभाशुभद्रष्टा? निवासः भोगस्थानम्? शरणं रक्षकः?सुहृद्धितकर्ता? प्रकर्षेण भवत्यनेनेति प्रभवः स्रष्टा? प्रलीयतेऽनेनेति प्",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -115,7 +113,7 @@
         {
           "sense": "सर्वप्राणिनां शुभाशुभद्रष्टा",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -137,32 +135,7 @@
       "surface_form": "śaraṇam",
       "lemma": "śṝ",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "आर्तानाम्? प्रपन्नानामार्तिहरः",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "इष्टस्य प्रापकतया अनिष्टस्य निवारणतया समाश्रयणीयः चेतनः शरणम्? स",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। प्रपन्नानामार्तिहृत्। सुहृत् प्रत्युपकारानपेक्षः सन्नुपकारी। प्रभव उत्पत्तिः प्रलयो विनाशः स्थानं स्थितिः। यद्वा प्रकर",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -173,7 +146,7 @@
         {
           "sense": "प्रत्युपकारानपेक्षः सन् उपकारी? प्रभवः उत्पत्तिः जगतः? प्रलयः प्रलीयते अस्मिन् इति? तथा स्थानं तिष्ठति अस्मिन् इति? निध",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -181,7 +154,7 @@
         {
           "sense": "हितैषी? प्रभवप्रलयस्थानं यस्य कस्य",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja",
             "vedantadeshika"
@@ -190,7 +163,7 @@
         {
           "sense": "यजमानस्य बन्धुवर्गः",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -198,7 +171,7 @@
         {
           "sense": "प्रत्युपकारानपेक्षः सन्नुपकारी",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -219,82 +192,21 @@
       "surface_form": "pralayas",
       "lemma": "pralaya",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "थानं यस्य कस्य",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "थानमिति यावत्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "sthānam",
       "lemma": "sthā",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इत्यर्थः",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "? शरणं रक्षकः?सुहृद्धितकर्ता? प्रकर्षेण भवत्यनेनेति प्रभवः स्रष्टा? प्रलीयतेऽनेनेति प्रलयः संहर्ता? तिष्ठन्त्यस्मिन्निति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "। शीर्यते दुःखमस्मिन्निति शरणम्। प्रपन्नानामार्तिहृत्। सुहृत् प्रत्युपकारानपेक्षः सन्नुपकारी। प्रभव उत्पत्तिः प्रलयो विन",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "nidhānam",
       "lemma": "nidhā",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "उत्पाद्यम् उपसंहार्यं",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। तथा हि ऋग्वेदखिलेषु अपश्यमप्यये मायया विश्वकर्मण्यदो जगन्निहितं शुभ्रचक्षुः इति।",
-          "school": "dvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "madhva"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -312,7 +224,7 @@
         {
           "sense": "? न हि अबीजं किञ्चित् प्ररोहति नित्यं",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -326,7 +238,7 @@
   "intertextual_panel": [
     {
       "verse": "9.17",
-      "type": "thematic-similarity",
+      "type": "next-verse continuation",
       "score": 1.0173,
       "feature_breakdown": {
         "cosine": 0.8273,
@@ -339,7 +251,7 @@
     },
     {
       "verse": "9.16",
-      "type": "thematic-similarity",
+      "type": "thematic-cluster continuation",
       "score": 1.0011,
       "feature_breakdown": {
         "cosine": 0.8111,
@@ -352,7 +264,7 @@
     },
     {
       "verse": "9.2",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8932,
       "feature_breakdown": {
         "cosine": 0.8432,
@@ -365,7 +277,7 @@
     },
     {
       "verse": "18.62",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8898,
       "feature_breakdown": {
         "cosine": 0.8398,
@@ -378,7 +290,7 @@
     },
     {
       "verse": "11.36",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8809,
       "feature_breakdown": {
         "cosine": 0.8409,
@@ -391,7 +303,7 @@
     },
     {
       "verse": "13.16",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8805,
       "feature_breakdown": {
         "cosine": 0.8405,
@@ -404,7 +316,7 @@
     },
     {
       "verse": "15.1",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8776,
       "feature_breakdown": {
         "cosine": 0.8376,
@@ -417,7 +329,7 @@
     },
     {
       "verse": "7.6",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8752,
       "feature_breakdown": {
         "cosine": 0.8352,
@@ -431,7 +343,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_9.18",
@@ -440,7 +352,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_9.18",
@@ -449,7 +361,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_9.18",
@@ -458,7 +370,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_9.18"
@@ -466,7 +378,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_9.18"
@@ -474,7 +386,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_9.18"

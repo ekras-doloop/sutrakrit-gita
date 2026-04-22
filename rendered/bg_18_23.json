@@ -21,17 +21,9 @@
       "grammar": "accusative singular masculine noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? तद्विपरीतम् अरागद्वेषतःकृतम्? अफलप्रेप्सुना फलं प्रेप्सतीति फलप्रेप्सुः फलतृष्णः तद्विपरीतेन अफलप्रेप्सुना कर्त्रा कृत",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
           "sense": "? अदम्भेन कृतम् इत्यर्थः अफलप्रेप्सुना अफलाभिसन्धिना कार्यम् इति",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -47,7 +39,7 @@
         {
           "sense": "फलं प्रेप्सतीति फलप्रेप्सुः फलतृष्णः तद्विपरीतेन अफलप्रेप्सुना कर्त्रा कृतं कर्म",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -55,15 +47,15 @@
         {
           "sense": "अफलाभिसन्धिना कार्यम् इति",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
         },
         {
-          "sense": "यत्कृतं कर्म तत्सात्त्विकम्।",
+          "sense": "यत्कृतं कर्म तत्सात्त्विकम्",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
@@ -79,41 +71,40 @@
         {
           "sense": "यत्? तत् सात्त्विकम् उच्यते ।।",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
           ]
         },
         {
-          "sense": "तत् सात्त्विकम् उच्यते।",
+          "sense": "तत् सात्त्विकम् उच्यते",
           "school": "viśiṣṭādvaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
+            "ramanuja"
           ]
         },
         {
-          "sense": "णो गुणतस्त्रैविध्यमाह -- नियतमिति",
+          "sense": "तत्सात्त्विकम्",
           "school": "śuddhādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "vallabha"
           ]
         },
         {
-          "sense": "ाह -- नियतमिति त्रिभिः",
+          "sense": ",तत्सात्त्विकमुच्यते",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
         },
         {
-          "sense": "ोच्यते -- नियतमिति",
+          "sense": "यागदानहोमादि तत्सात्त्विकमुच्यते",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -125,33 +116,33 @@
   "intertextual_panel": [
     {
       "verse": "18.9",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.9056,
       "feature_breakdown": {
         "cosine": 0.8541,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0575,
-        "lemma_overlap": 8.0282,
+        "lemma_overlap": 8.0185,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "18.47",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.8901,
       "feature_breakdown": {
         "cosine": 0.8586,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0575,
-        "lemma_overlap": 3.9635,
+        "lemma_overlap": 3.9537,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "17.11",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8799,
       "feature_breakdown": {
         "cosine": 0.8599,
@@ -164,46 +155,46 @@
     },
     {
       "verse": "5.12",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.878,
       "feature_breakdown": {
         "cosine": 0.858,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 3.9635,
+        "lemma_overlap": 3.9537,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "3.8",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8759,
       "feature_breakdown": {
         "cosine": 0.8344,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0575,
-        "lemma_overlap": 8.0282,
+        "lemma_overlap": 8.0185,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "3.19",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.8758,
       "feature_breakdown": {
         "cosine": 0.8558,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 3.9635,
+        "lemma_overlap": 3.9537,
         "stem_prefix": 2.0
       }
     },
     {
       "verse": "14.16",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8756,
       "feature_breakdown": {
         "cosine": 0.8556,
@@ -216,7 +207,7 @@
     },
     {
       "verse": "18.10",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8751,
       "feature_breakdown": {
         "cosine": 0.8551,
@@ -230,7 +221,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_18.23",
@@ -239,7 +230,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_18.23",
@@ -248,7 +239,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_18.23",
@@ -257,7 +248,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_18.23"
@@ -265,7 +256,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_18.23"
@@ -273,7 +264,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_18.23"

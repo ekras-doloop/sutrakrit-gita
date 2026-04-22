@@ -12,16 +12,7 @@
       "surface_form": "aha",
       "lemma": "aha",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं न योत्स्यामि इति उक्त्वा बन्धुविश्लेषजनितशोकसंविग्नमानसः सशरं चापं विसृज्य रथोपस्थे उपाविशत्",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -70,24 +61,7 @@
       "surface_form": "a",
       "lemma": "a",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "र्जुन उवाच संजय उवाच स तु पार्थो महामनाः परमकारुणिको दीर्घबन्धुः परमधार्मिकः सभ्रातृको भवद्भिः अतिघोरैः मारणैः जतुगृहादि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "प्रतीकारं स्वप्राणत्राणाय व्यापारमकुर्वाणं बन्धुवधाध्यवसायमात्रेणापि प्रायश्चित्तान्तरहितं वा",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -101,16 +75,7 @@
       "surface_form": "yat",
       "lemma": "yat",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "येव त्वया पुनः किं विधेयमित्यत आह प्राणादपि प्रकृष्टो धर्मः प्राणभृतामहिंसा पापानिष्पतेः तस्माज्जीवनापेक्षया मरणमेव मम क",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -145,16 +110,7 @@
       "surface_form": "su",
       "lemma": "su",
       "grammar": "nominative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "कत्वाद्बन्धुवधो भविष्यत्येव त्वया पुनः किं विधेयमित्यत आह प्राणादपि प्रकृष्टो धर्मः प्राणभृतामहिंसा पापानिष्पतेः तस्माज्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -182,112 +138,112 @@
   "intertextual_panel": [
     {
       "verse": "1.36",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8884,
       "feature_breakdown": {
         "cosine": 0.8584,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.365,
+        "lemma_overlap": 8.3619,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "1.37",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.887,
       "feature_breakdown": {
         "cosine": 0.837,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 14.1459,
+        "lemma_overlap": 14.1129,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "2.38",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.884,
       "feature_breakdown": {
         "cosine": 0.844,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 11.4403,
+        "lemma_overlap": 11.4305,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "1.39",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8815,
       "feature_breakdown": {
         "cosine": 0.8515,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 6.6845,
+        "lemma_overlap": 6.6716,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "3.37",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8795,
       "feature_breakdown": {
         "cosine": 0.8395,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.8135,
+        "lemma_overlap": 5.8104,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "17.18",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.878,
       "feature_breakdown": {
         "cosine": 0.838,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.7176,
+        "lemma_overlap": 7.7047,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "7.11",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8777,
       "feature_breakdown": {
         "cosine": 0.8477,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.9006,
+        "lemma_overlap": 5.8975,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "9.2",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8754,
       "feature_breakdown": {
         "cosine": 0.8354,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.7529,
+        "lemma_overlap": 5.7401,
         "stem_prefix": 4.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.45",
@@ -296,7 +252,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.45",
@@ -305,7 +261,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_1.45",
@@ -314,7 +270,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.45"
@@ -322,7 +278,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_1.45"

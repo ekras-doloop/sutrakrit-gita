@@ -33,49 +33,7 @@
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "क्षुः स्पर्शनं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "श्रुतिः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति स्पष्टम्",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -96,65 +54,14 @@
       "surface_form": "eva",
       "lemma": "eva",
       "grammar": "vocative singular neuter noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ं देहगतं देहात् --,",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "ca",
       "lemma": "ca",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "क्षुः स्पर्शनं",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "श्रुतिः",
-          "school": "dvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "madhva",
-            "jayatirtha"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति स्पष्टम्",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "्छति तदाह -- श्रोत्रमिति",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -165,7 +72,7 @@
         {
           "sense": "देहस्थः विषयान् शब्दादीन् उपसेवते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -173,7 +80,7 @@
         {
           "sense": "स्वस्वविषयवृत्त्यनुगुणानि कृत्वा तान् शब्दादीन् विषयान् उपसेवते उपभुंक्ते",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -203,7 +110,7 @@
         {
           "sense": "शब्दादीन् उपसेवते",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -211,7 +118,7 @@
         {
           "sense": "उपसेवते उपभुंक्ते",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -219,7 +126,7 @@
         {
           "sense": "शब्दादीनयं जीव उपसेवते भुंक्ते",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -235,7 +142,7 @@
         {
           "sense": "।।एवं देहगतं देहात् --,",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -243,7 +150,7 @@
         {
           "sense": "उपभुंक्ते",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -251,7 +158,7 @@
         {
           "sense": "भुंक्ते",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -263,27 +170,27 @@
   "intertextual_panel": [
     {
       "verse": "5.27",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.9017,
       "feature_breakdown": {
         "cosine": 0.8517,
         "theme_graph": 1.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 12.7755,
+        "lemma_overlap": 12.765,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "5.8",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8759,
       "feature_breakdown": {
         "cosine": 0.8259,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 14.3007,
+        "lemma_overlap": 14.2944,
         "stem_prefix": 5.0
       }
     },
@@ -302,7 +209,7 @@
     },
     {
       "verse": "2.59",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.865,
       "feature_breakdown": {
         "cosine": 0.855,
@@ -322,7 +229,7 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 2.5666,
+        "lemma_overlap": 2.5561,
         "stem_prefix": 3.0
       }
     },
@@ -335,7 +242,7 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 3.2661,
+        "lemma_overlap": 3.262,
         "stem_prefix": 3.0
       }
     },
@@ -348,7 +255,7 @@
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 4.7595,
+        "lemma_overlap": 4.749,
         "stem_prefix": 3.0
       }
     },
@@ -368,7 +275,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_15.9",
@@ -377,7 +284,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_15.9",
@@ -386,7 +293,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_15.9",
@@ -395,7 +302,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_15.9"
@@ -403,7 +310,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_15.9"
@@ -411,7 +318,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_15.9"

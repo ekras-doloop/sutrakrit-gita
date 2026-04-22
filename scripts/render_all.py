@@ -30,11 +30,13 @@ sys.path.insert(0, str(REPO_ROOT))
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
 from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
 from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
+from substrate.reading_summaries import summarize_school_reading  # noqa: E402
 from substrate.sense_extraction import extract_panel_senses  # noqa: E402
 
 from scripts.render_verse import (  # noqa: E402
     CHAPTER_NAMES,
     DIALOGUE_MAP,
+    ENABLE_READING_SUMMARIES,
     PANEL_COMMENTATORS,
     SCHOOLS,
     _adjacent_verse_id,
@@ -92,12 +94,25 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
     doctrinal_projections = {}
     for school, commentators in SCHOOLS.items():
         witnesses = []
+        primary_prose = None
         for c in commentators:
-            if sub.panel_commentary_for(c, verse_id):
+            prose = sub.panel_commentary_for(c, verse_id)
+            if prose:
                 witnesses.append(f"{c}_{verse_id}")
+                if primary_prose is None:
+                    primary_prose = prose
         if witnesses:
+            reading_summary = ""
+            if ENABLE_READING_SUMMARIES and primary_prose and len(primary_prose) >= 50:
+                try:
+                    reading_summary = summarize_school_reading(
+                        verse_id, school, devanagari, primary_prose
+                    )
+                except Exception as e:
+                    reading_summary = f"(LLM summary failed: {e})"
             doctrinal_projections[school] = {
-                "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+                "reading_summary": reading_summary
+                or "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
                 "key_cross_references": [],
                 "witness_passages": witnesses,
                 "score": 0.5,
@@ -148,6 +163,7 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
                     extract_panel_senses(
                         _devanagari_surface_for_lemma(tok["surface_form"]),
                         commentary_lookups,
+                        verse_devanagari=devanagari,
                     )
                     if _devanagari_surface_for_lemma(tok["surface_form"])
                     else []

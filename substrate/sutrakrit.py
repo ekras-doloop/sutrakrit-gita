@@ -55,9 +55,107 @@ class Candidate:
     relationship_type: str = "thematic-similarity"
 
 
+def classify_relationship(
+    source_verse: str,
+    candidate_verse: str,
+    feature_breakdown: dict,
+) -> str:
+    """Classify the kind of intertextual relationship between source and candidate
+    based on the substrate's feature signature.
+
+    Different feature patterns signal different kinds of intertextual relationships
+    in the bhāṣya tradition:
+      - verbatim/near-verbatim quotation: high substring score
+      - next-verse / chapter-cluster continuation: same chapter + adjacent or near-adjacent
+      - thematic-cluster member: high theme-graph co-membership
+      - lemma-family resonance: high lemma-overlap, low substring
+      - chapter-distance echo: same theme-graph membership but distant chapters
+      - semantic neighbor: high cosine, low everything else
+    """
+    if not feature_breakdown:
+        return "thematic-similarity"
+
+    cosine = float(feature_breakdown.get("cosine", 0))
+    substring = float(feature_breakdown.get("substring", 0))
+    theme_graph = float(feature_breakdown.get("theme_graph", 0))
+    lemma_overlap = float(feature_breakdown.get("lemma_overlap", 0))
+    stem_prefix = float(feature_breakdown.get("stem_prefix", 0))
+
+    try:
+        src_ch, src_v = (int(x) for x in source_verse.split("."))
+        cand_ch, cand_v = (int(x) for x in candidate_verse.split("."))
+    except (ValueError, AttributeError):
+        src_ch = cand_ch = 0
+        src_v = cand_v = 0
+
+    same_chapter = src_ch == cand_ch and src_ch > 0
+    chapter_distance = abs(src_ch - cand_ch)
+    verse_distance = abs(src_v - cand_v) if same_chapter else None
+
+    # Verbatim / near-verbatim quotation — strong substring match
+    if substring >= 0.7:
+        return "verbatim-quotation"
+    if substring >= 0.3:
+        return "near-verbatim echo"
+
+    # Next-verse continuation
+    if same_chapter and verse_distance is not None and verse_distance == 1:
+        return "next-verse continuation"
+
+    # Thematic-cluster continuation within the same chapter
+    if same_chapter and verse_distance is not None and verse_distance <= 5:
+        if theme_graph >= 0.5:
+            return "thematic-cluster continuation"
+        return "near-cluster echo"
+
+    # Cross-chapter thematic resonance with theme-graph co-membership
+    if theme_graph >= 0.5:
+        if chapter_distance >= 6:
+            return "long-distance thematic echo"
+        return "cross-chapter thematic parallel"
+
+    # Strong morphological resonance
+    if lemma_overlap >= 8 and stem_prefix >= 4:
+        return "lemma-family resonance"
+    if lemma_overlap >= 5:
+        return "shared-vocabulary echo"
+
+    # Pure semantic similarity (mostly mE5)
+    if cosine >= 0.85:
+        return "semantic neighbor"
+
+    return "thematic-similarity"
+
+
 def _normalize(s: str) -> str:
     s = re.sub(r"[।॥|.,;:!?\(\)\[\]\{\}]", " ", s)
     return re.sub(r"\s+", " ", s).strip()
+
+
+# Editorial-preamble patterns observed in the source corpus dump.
+# Each pattern, when matched at the start of a verse string, is stripped.
+# Order matters: longer / more specific patterns first.
+_EDITORIAL_PREAMBLE_PATTERNS = [
+    # Śaṅkara's bhāṣya-preamble at start of BG 1.1
+    re.compile(r"^.*?उपोद्घातः\s*ॐ?\s*[^।॥]*?(?=\S+\s+(?:धृतराष्ट्र|एवम्|दृष्ट्वा|यदा|न|यद्|अहं|पार्थ|कृष्ण))", re.DOTALL),
+    # Speaker tags at verse start
+    re.compile(r"^(?:श्री[-\s]?)?(?:भगवान्?|अर्जुन|संजय|धृतराष्ट्र|सञ्जय)\s*उवाच\s*"),
+    # Generic chapter-head (e.g., "॥ अथ X अध्यायः ॥")
+    re.compile(r"^॥?\s*अथ\s+\S+\s+अध्यायः?\s*॥?\s*"),
+]
+
+
+def _strip_editorial_preamble(text: str) -> str:
+    """Strip editorial preamble (commentary headings, speaker tags,
+    chapter-headers) that the source corpus sometimes prepends to a
+    verse's Devanāgarī text. Returns the cleaned verse string.
+    """
+    if not text:
+        return text
+    cleaned = text
+    for pat in _EDITORIAL_PREAMBLE_PATTERNS:
+        cleaned = pat.sub("", cleaned, count=1)
+    return cleaned.strip()
 
 
 def _slp_to_iast(text: str) -> str:
@@ -191,6 +289,10 @@ class Substrate:
     def _load_bg(self) -> None:
         if self._bg is not None:
             return
+        # bg_mula.json is the cleaned BG mūla from GRETIL (academic-standard
+        # Sanskrit text repository, BORI-critical-edition-derived, no
+        # editorial contamination). See scripts/fetch_bg_mula.py for the
+        # build script.
         self._bg = json.loads(BG_MULA_PATH.read_text())
         self._milestones = sorted(
             self._bg.keys(), key=lambda m: tuple(int(x) for x in m.split("."))
@@ -490,6 +592,11 @@ class Substrate:
             )
 
         scored.sort(key=lambda c: c.score, reverse=True)
+        # Classify relationship type per candidate from feature signature
+        for c in scored[:top_k]:
+            c.relationship_type = classify_relationship(
+                source_verse, c.verse, c.feature_breakdown
+            )
         return scored[:top_k]
 
     # ------------------------------------------------------------------

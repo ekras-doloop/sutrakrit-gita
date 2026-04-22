@@ -30,7 +30,7 @@
         {
           "sense": "-- अयमग्निर्वैश्वानरो योऽयमन्तः पुरुषे येनेदमन्नं पच्यते (बृ0 उ 0 5",
           "school": "advaita",
-          "weight": 0.5,
+          "weight": 0.8,
           "witnesses": [
             "shankara",
             "anandgiri"
@@ -39,7 +39,7 @@
         {
           "sense": "सर्वेषां प्राणिनां देहम् आश्रितः तैः भुक्तं खाद्यचोष्यलेह्यपेयात्मकं चतुर्विधम् अन्नं प्राणापान वृत्तिभेद समायुक्तः पचा",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -47,17 +47,9 @@
         {
           "sense": "प्राणिनां देहस्यान्तः प्रविश्य प्राणापानाभ्यां तदुद्दीपकाभ्यां सहितः प्राणिभिर्भुक्तं भक्ष्यं भोज्यं लेह्यं चोष्यं चेति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
-          ]
-        },
-        {
-          "sense": "अयमग्निर्वैश्वानरो योऽयमन्तः पुरुषे येनेदमन्नं पच्यते इत्यादिश्रुतिप्रतिपादितः सन् प्राणिनां सर्वेषां देहमाश्रितोऽन्तःप्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
           ]
         }
       ],
@@ -78,7 +70,7 @@
         {
           "sense": "आश्रितः प्रविष्टः प्राणापानसमायुक्तः प्राणापानाभ्यां समायुक्तः संयुक्तः पचामि पक्तिं करोमि अन्नम् अशनं चतुर्विधं चतुष्प",
           "school": "advaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "shankara"
           ]
@@ -86,7 +78,7 @@
         {
           "sense": "आश्रितः तैः भुक्तं खाद्यचोष्यलेह्यपेयात्मकं चतुर्विधम् अन्नं प्राणापान वृत्तिभेद समायुक्तः पचामि",
           "school": "viśiṣṭādvaita",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
@@ -119,25 +111,7 @@
       "surface_form": "sama",
       "lemma": "sam",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "ायुक्तः प्राणापानाभ्यां समायुक्तः संयुक्तः पचामि पक्तिं करोमि अन्नम् अशनं चतुर्विधं चतुष्प्रकारं भोज्यं भक्ष्यं चोष्यं ल",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "ायुक्तः पचामि",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -151,87 +125,28 @@
       "surface_form": "pacāmi",
       "lemma": "pac",
       "grammar": "1st person singular present indicative active verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "पक्तिं करोमि अन्नम् अशनं चतुर्विधं चतुष्प्रकारं भोज्यं भक्ष्यं चोष्यं लेह्यं च",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "।अत्र परमपुरुषविभूतिभूतौ सोमवैश्वानरौ अहं सोमो भूत्वा वैश्वानरो भूत्वा इति तत्सामानाधिकरण्येन निर्दिष्टौ। तयोः च सर्वस्य",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "। अत्र परमपुरुषविभूतिरूपाः सूर्यसोमवैश्वानरोऽहं रविः सोमोऽन्तर्वैश्वानरो भूत्वेति सामानाधिकरण्येन निर्दिष्टाः।",
-          "school": "śuddhādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "। तत्र यद्दन्तैरवखण्ड्यावखण्ड्य भक्ष्यतेऽपूपादि तद्भक्ष्यम्। यत्तु केवलं जिह्वया विलोड्य निगीर्यते पायासादि तद्भोज्यम्।",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "पक्तिं नयामि",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "annam",
       "lemma": "anna",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अशनं चतुर्विधं चतुष्प्रकारं भोज्यं भक्ष्यं चोष्यं लेह्यं च",
-          "school": "advaita",
-          "weight": 1.0,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
       "surface_form": "vidham",
       "lemma": "vidhā",
       "grammar": "accusative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अन्नं प्राणापान वृत्तिभेद समायुक्तः पचामि",
-          "school": "viśiṣṭādvaita",
-          "weight": 1.0,
-          "witnesses": [
-            "ramanuja"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     }
   ],
   "intertextual_panel": [
     {
       "verse": "9.13",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8822,
       "feature_breakdown": {
         "cosine": 0.8422,
@@ -244,7 +159,7 @@
     },
     {
       "verse": "8.4",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8767,
       "feature_breakdown": {
         "cosine": 0.8467,
@@ -257,7 +172,7 @@
     },
     {
       "verse": "5.27",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.875,
       "feature_breakdown": {
         "cosine": 0.835,
@@ -270,7 +185,7 @@
     },
     {
       "verse": "10.30",
-      "type": "thematic-similarity",
+      "type": "semantic neighbor",
       "score": 0.873,
       "feature_breakdown": {
         "cosine": 0.853,
@@ -283,7 +198,7 @@
     },
     {
       "verse": "4.29",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8724,
       "feature_breakdown": {
         "cosine": 0.8424,
@@ -336,7 +251,7 @@
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_15.14",
@@ -345,7 +260,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_15.14",
@@ -354,7 +269,7 @@
       "score": 0.5
     },
     "dvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhva_15.14",
@@ -363,7 +278,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_15.14"
@@ -371,7 +286,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_15.14"
@@ -379,7 +294,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_15.14"

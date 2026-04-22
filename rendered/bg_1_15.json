@@ -61,24 +61,7 @@
       "surface_form": "mahā",
       "lemma": "mah",
       "grammar": "instrumental singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "शङ्खं पौण्ड्रं दध्माविति",
-          "school": "bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "sridhara"
-          ]
-        },
-        {
-          "sense": "धनुर्धरः काशिराजः",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -99,25 +82,7 @@
       "surface_form": "a",
       "lemma": "a",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "वलोक्य आत्मविजये",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "न्येषमापि रथस्थत्वे स्थितएवासाधारण्येन रथोत्कर्षकथनार्थं ततः श्वेतैर्हयैर्युक्त इत्यादिना रथस्थत्वकथनम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -128,7 +93,7 @@
         {
           "sense": "यस्य सः वृकवदुदरं यस्य स वृकोदरो महाशङ्खं पौण्ड्रं दध्माविति",
           "school": "bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "sridhara"
           ]
@@ -136,7 +101,7 @@
         {
           "sense": "यस्य तादृशः वृकोदरत्वेन बह्वन्नपाकादतिबलिष्ठो भीमसेन इति कथितम्",
           "school": "advaita-bhakti",
-          "weight": 1.0,
+          "weight": 0.8,
           "witnesses": [
             "madhusudan"
           ]
@@ -148,25 +113,7 @@
       "surface_form": "a",
       "lemma": "a",
       "grammar": "vocative singular masculine noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "वलोक्य आत्मविजये",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.5,
-          "witnesses": [
-            "ramanuja",
-            "vedantadeshika"
-          ]
-        },
-        {
-          "sense": "न्येषमापि रथस्थत्वे स्थितएवासाधारण्येन रथोत्कर्षकथनार्थं ततः श्वेतैर्हयैर्युक्त इत्यादिना रथस्थत्वकथनम्",
-          "school": "advaita-bhakti",
-          "weight": 1.0,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "senses_attested_in_panel": [],
       "theme_lists": []
     },
     {
@@ -187,20 +134,20 @@
   "intertextual_panel": [
     {
       "verse": "11.14",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8895,
       "feature_breakdown": {
         "cosine": 0.8395,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 8.6169,
+        "lemma_overlap": 8.6138,
         "stem_prefix": 5.0
       }
     },
     {
       "verse": "2.49",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8705,
       "feature_breakdown": {
         "cosine": 0.8505,
@@ -213,33 +160,33 @@
     },
     {
       "verse": "1.6",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8665,
       "feature_breakdown": {
         "cosine": 0.8365,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 7.1128,
+        "lemma_overlap": 7.1097,
         "stem_prefix": 3.0
       }
     },
     {
       "verse": "9.9",
-      "type": "thematic-similarity",
+      "type": "lemma-family resonance",
       "score": 0.8651,
       "feature_breakdown": {
         "cosine": 0.8251,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 10.6557,
+        "lemma_overlap": 10.6526,
         "stem_prefix": 4.0
       }
     },
     {
       "verse": "11.36",
-      "type": "thematic-similarity",
+      "type": "long-distance thematic echo",
       "score": 0.8645,
       "feature_breakdown": {
         "cosine": 0.8245,
@@ -252,7 +199,7 @@
     },
     {
       "verse": "10.37",
-      "type": "thematic-similarity",
+      "type": "shared-vocabulary echo",
       "score": 0.8644,
       "feature_breakdown": {
         "cosine": 0.8444,
@@ -265,34 +212,34 @@
     },
     {
       "verse": "1.25",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8642,
       "feature_breakdown": {
         "cosine": 0.8342,
         "theme_graph": 2.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 0.7751,
+        "lemma_overlap": 0.772,
         "stem_prefix": 1.0
       }
     },
     {
       "verse": "2.10",
-      "type": "thematic-similarity",
+      "type": "cross-chapter thematic parallel",
       "score": 0.8642,
       "feature_breakdown": {
         "cosine": 0.8242,
         "theme_graph": 2.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 5.3788,
+        "lemma_overlap": 5.3757,
         "stem_prefix": 2.0
       }
     }
   ],
   "doctrinal_projections": {
     "advaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "shankara_1.15",
@@ -301,7 +248,7 @@
       "score": 0.5
     },
     "viśiṣṭādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "ramanuja_1.15",
@@ -310,7 +257,7 @@
       "score": 0.5
     },
     "śuddhādvaita": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "vallabha_1.15"
@@ -318,7 +265,7 @@
       "score": 0.5
     },
     "bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "sridhara_1.15"
@@ -326,7 +273,7 @@
       "score": 0.5
     },
     "advaita-bhakti": {
-      "reading_summary": "(reading summary extraction forthcoming in next-pass build)",
+      "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
         "madhusudan_1.15"
