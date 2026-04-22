@@ -343,7 +343,8 @@
         "shankara_10.3",
         "anandgiri_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara reads loka-maheśvara not as a personal ruler but as the non-dual witness beyond the three states; liberation is by vijñāna (direct knowing), not devotion."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -352,7 +353,8 @@
         "ramanuja_10.3",
         "vedantadeshika_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja uniquely differentiates aja from anādi: both apply to God, but freed souls share ajatva without sharing anāditva. Liberation here is framed as removal of bhakti-obstacles, not mere jñāna."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -361,7 +363,8 @@
         "madhva_10.3",
         "jayatirtha_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's commentary is markedly brief, emphasizing the ontological primacy of Hari's independence (svātantrya): the logical implication, not elaborated bhakti-soteriology, is foregrounded."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -369,7 +372,8 @@
       "witness_passages": [
         "vallabha_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha uniquely stresses Kṛṣṇa's voluntary descent (svecchā-avatāra logic) and the epistemological failure of even ṛṣis to grasp His origin — the highest mark of absolute transcendence."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -377,7 +381,8 @@
       "witness_passages": [
         "sridhara_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's voice is economical and philologically tidy — he derives anāditva directly from kāraṇatva (causality) and ajatva from anāditva, without Rāmānuja's categorical distinctions or Śaṅkara's turīya gloss."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -385,7 +390,8 @@
       "witness_passages": [
         "madhusudan_10.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana alone adds the mechanism of liberation: not mere forgiveness but structural impossibility of recurrence through kāraṇa-uccheda (root-cause extirpation) — a synthesis of Advaita causation-logic with bhakti's promise of complete purification."
     }
   },
   "prosodic_information": {
@@ -426,5 +432,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "What is the difference between knowing God as 'unborn' (aja) and merely believing He is eternal — and why does Kṛṣṇa insist on this distinction at the opening of the vibhūti chapter?",
+    "Rāmānuja distinguishes liberated souls (also birthless) from Kṛṣṇa (beginningless-birthless): what practical difference does anāditva — a history without bondage — make to how we relate to the divine?",
+    "Śaṅkara reads 'great lord of all worlds' as the turīya witness, while Rāmānuja reads it as the personal sovereign over all lords including Brahmā; what is at stake in this disagreement for the practitioner?",
+    "The verse promises freedom from 'all sins' simply through correct knowing (vettti). Is this an epistemological claim, a devotional promise, or both — and how do the six schools weigh the difference?",
+    "Madhusūdana specifies that even deliberately-committed (mati-pūrva-kṛta) sins are dissolved — not merely forgiven but structurally eradicated through kāraṇa-uccheda. What does it mean for an impression (saṃskāra) to become impossible rather than merely suppressed?",
+    "Vallabha stresses that even the mantra-seers (ṛṣis) cannot trace Kṛṣṇa's origin — yet Kṛṣṇa says 'whoever knows Me' can be freed. What kind of knowing transcends the limit the ṛṣis could not cross?",
+    "All six schools agree that asaṃmūḍha (freedom from delusion) among mortals is the precondition for liberation here. What is the specific confusion being named — and how does each school diagnose it differently?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you recognize that the awareness in which all your roles — parent, professional, citizen — arise is itself causeless and unborn, you stop defending those roles as your ultimate identity. The anxiety of self-maintenance loses its grip not by effort but by clear seeing.",
+    "viśiṣṭādvaita": "Rāmānuja's point that even liberated souls had a prior history of bondage — while Bhagavān never did — can steady a practitioner who feels spiritually behind. Your history of entanglement does not disqualify you; it simply marks the difference between the one you serve and yourself. Service (kainkarya) from that honest position is purer than pretending to an equality you haven't realized.",
+    "dvaita": "Madhva's insistence on irreducible distinction (bhedā) offers a specific protection: it prevents the subtle spiritual ego that arises when a practitioner begins to identify their 'expanded consciousness' with the absolute. Knowing that Hari is categorically other — the mover, never moved — keeps worship honest and prevents the collapse into non-dual claims that bypass actual sādhana.",
+    "śuddhādvaita": "Vallabha's vijātīya-vilakṣaṇa framing — Kṛṣṇa as distinct-in-kind, not just degree — suggests that encounters with genuine beauty, generosity, or grace in the world are not self-sufficient; they point toward, but are not, the source. Recognizing this prevents both dismissal of the world and idolatry of it.",
+    "bhakti": "Śrīdhara's clean derivation — causality → beginninglessness → birthlessness — is a practical heuristic for moments of overwhelm: ask 'what is the cause of this cause?' and keep tracing back. The practice isn't philosophy for its own sake; it trains the mind to locate the uncaused ground beneath every cascade of events, which is itself a form of freedom from reactive panic.",
+    "advaita-bhakti": "Madhusūdana's kāraṇa-uccheda — root-cause extirpation rather than sin-suppression — describes something recognizable in sustained practice: a pattern that once reliably triggered a harmful response simply stops arising, not because you suppress it each time but because the ground from which it grew has been dissolved. This is what makes bhakti with jñāna different from willpower: it aims at structural change, not repeated override."
   }
 }
