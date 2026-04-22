@@ -331,7 +331,8 @@
         "shankara_4.19",
         "anandgiri_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "For Śaṅkara the end-point is saṃnyāsa; continued action is only provisional (lokasaṅgraha or jīvana-mātra). Fire metaphor = epistemological, not ontological."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -340,7 +341,8 @@
         "ramanuja_4.19",
         "vedantadeshika_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Against Advaita: karma is not preparatory scaffolding to be discarded; it becomes jñāna when the ātman is held distinct from prakṛti throughout."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -349,7 +351,8 @@
         "madhva_4.19",
         "jayatirtha_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Bhāṣya is sparse by design (prapañcayati = 'will be elaborated'). Rendering draws on Dvaita's structural insistence on jīva-Brahman permanent distinction; no conflation with Advaita's akarma-in-karma reading."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -357,7 +360,8 @@
       "witness_passages": [
         "vallabha_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Uniquely emphasizes paṇḍā as active discriminative intelligence (not passive renunciation). 'Adhenugovat' — the barren-cow image — is Vallabha's own contribution absent in other bhāṣyas."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -365,7 +369,8 @@
       "witness_passages": [
         "sridhara_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's bhāṣya is authentic Sanskrit — no HTML artifacts. Unique contribution: karma-born-purification-born-jñānāgni-burns-karma cycle (sequential, not simultaneous as in Advaita)."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -373,7 +378,8 @@
       "witness_passages": [
         "madhusudan_4.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Most precise definitional work: kāma and saṅkalpa each receive technical glosses absent in other bhāṣyas. Brahma-Sūtra citation makes karma-dissolution not a metaphor but a jurisprudential ruling."
     }
   },
   "prosodic_information": {
@@ -541,5 +547,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If the fire of knowledge (jñānāgni) burns both merit and demerit equally, does moral effort toward good action become irrelevant — or does the verse assume that such effort has already built the pure mind that catches fire?",
+    "Rāmānuja insists that karma itself becomes knowledge (karmaṇo jñānākāratva); Śaṅkara insists karma is preparatory scaffolding to be left behind — which framing better accounts for the Gītā's sustained refusal to endorse bare renunciation?",
+    "Madhusūdana defines saṅkalpa as the ego-claim 'ahaṃ karomi' ('I am the doer') — if this claim is dissolved, what is the metaphysical subject who remains, and is that remainder a self at all?",
+    "Vallabha's adhenugovat (barren-cow) image suggests karma without seed-potential — but cows are naturally fertile; the image implies an unnatural condition. What does it mean for a human being to act as a deliberately de-seeded agent?",
+    "The verse says 'the wise call such a one a paṇḍita' — not 'such a one is a paṇḍita.' Does the social recognition matter, or is the framing a pedagogical device to make the standard visible from outside?",
+    "Śrīdhara's sequential model (karma → pure mind → jñānāgni → burns karma) implies the fire emerges from the very fuel it consumes. Is this a virtuous cycle or a paradox — and how does one enter the loop without already being inside it?",
+    "All six schools agree that kāma-saṅkalpa must be absent, yet they disagree on what saṅkalpa means (ego-identification with prakṛti per Rāmānuja; doer-claim per Madhusūdana; fruit-resolution per Vallabha). Does the practical discipline differ depending on which definition you adopt?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "application": "Before any significant undertaking, pause and ask: 'Who is starting this?' Not as a rhetorical device but as a genuine inquiry. Advaita practice here is not to stop the project but to notice that the sense of a separate initiating agent is a superimposition. Act; do not narrate yourself acting. Over time, the narrative layer (the inner commentary 'I am doing this for X') grows quiet — the action continues, the story stops. This is what Śaṅkara means by ceṣṭāmātra (mere movement): the body moves, the mind processes, the fiction of a sovereign initiator fades."
+    },
+    "viśiṣṭādvaita": {
+      "application": "Rāmānuja's saṅkalpa-error is specific: you mistake yourself for a bundle of prakṛti-qualities (anxious, ambitious, talented, tired) and act from that bundle. The corrective is not detachment but re-identification: before acting, hold the conviction 'I am ātman, distinct from these qualities, held within Bhagavān.' Every professional, relational, and domestic act then becomes kainkarya (dedicated service) not because you label it so but because the doer-center has shifted. The fruit matters less because you are less invested in proving the bundle's worth."
+    },
+    "dvaita": {
+      "application": "Dvaita's application is an honesty discipline: you are a dependent agent, not an originator. When a project succeeds, the pious acknowledgment 'Hari's will worked through this jīva' is not false modesty — it is accurate ontology. When it fails, the same frame prevents the spiral of self-blame that comes from believing you were ever the sufficient cause. In practice: keep a brief daily record of actions taken, marking each 'dependent offering' rather than 'my achievement.' The accumulation of this record trains perception of the jīva's constitutive subordination."
+    },
+    "śuddhādvaita": {
+      "application": "Vallabha's paṇḍā (discriminative intelligence alive in the action) asks: at the moment of starting any task, is the intellect actually present, or is the hand moving on autopilot? The Puṣṭi-mārga application is not suppression of enthusiasm but its purification — act with full viveka (discernment) engaged, letting Kṛṣṇa's grace (prasāda) provide the animating energy rather than personal craving. The adhenugovat image is a warning: desire-driven action is generative (seeds future bondage); prasāda-animated action is like the barren cow — abundant in milk of presence, empty of reproductive compulsion."
+    },
+    "bhakti": {
+      "application": "Śrīdhara's sequential cycle suggests a practical entry-point: you do not need jñāna before beginning. Begin with the action (karma), hold it with attention and without agenda, allow it to purify the mind, and trust that the purified mind will, in time, generate its own fire. The application is perseverance without expectation: show up for the work — meditation, service, craft, relationship-tending — not because you can measure the progress toward ārūḍhāvasthā (the advanced stage) but because the cycle is trustworthy. Śrīdhara's 'śeṣaṃ spaṣṭam' (the rest is clear) is itself a teaching: once the fire is lit, it is self-explanatory."
+    },
+    "advaita-bhakti": {
+      "application": "Madhusūdana's two precise definitions — kāma as phala-tṛṣṇā (thirst for outcome) and saṅkalpa as kartṛtva-abhimāna (pride of authorship) — offer a two-question audit for any action. First: 'Am I thirsty for a particular result, or am I at peace with whatever emerges?' Second: 'Am I narrating this as my accomplishment, or am I transparent to the action?' Both questions can be run in real time, mid-task. The Brahma-Sūtra citation about karma neither clinging nor being re-enacted provides the metaphysical assurance: past errors need not be rehearsed; the dissolution is structural, not earned by perfect future behavior."
+    }
   }
 }

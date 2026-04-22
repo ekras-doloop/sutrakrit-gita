@@ -458,7 +458,8 @@
         "shankara_4.32",
         "anandgiri_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara reads 'brahmaṇo mukhe' as the Veda's gateway; liberation turns on recognizing ātman's nirvy āpāra (complete non-agency), not on performing yajña well."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -467,7 +468,8 @@
         "ramanuja_4.32",
         "vedantadeshika_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja's distinctive move: jñāna is not a separate subsequent stage but already present within karma-yoga as its inner form — karma carries jñāna as its essential dimension."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -476,7 +478,8 @@
         "madhva_4.32",
         "jayatirtha_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva uniquely glosses 'brahmaṇaḥ' as Paramātman (not Veda), grounds all yajña in Hari's lordship, and preemptively closes the escape route of renunciation as spiritually superior to action."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -484,7 +487,8 @@
       "witness_passages": [
         "vallabha_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha ties mokṣa to a dual puruṣārtha frame (absence of pain + presence of joy) and roots yajña in the Vedic creation-hymns, making ritual action a participation in the primordial cosmic yajña of the gods."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -492,7 +496,8 @@
       "witness_passages": [
         "sridhara_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's distinctive purpose is compositional: this verse is a deliberate recapitulation that sets up the subsequent praise of jñāna-yajña as the highest; liberation is explicitly tied to jñāna-niṣṭhā, not merely performance."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -500,7 +505,8 @@
       "witness_passages": [
         "madhusudan_4.32"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana's synthesis: he follows Śaṅkara's ātman-as-nirvy āpāra logic almost verbatim while foregrounding the Veda's epistemic authority as the warrant — his response to an implied objection that Kṛṣṇa is speculating rather than citing scripture."
     }
   },
   "prosodic_information": {
@@ -666,5 +672,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If all yajñas are karma-ja (born of body, speech, and mind) and the ātman is nirvy āpāra (utterly actionless), does performing any yajña at all move one closer to liberation — or is the knowledge of that actionlessness itself the only liberating act?",
+    "Madhva insists that even renunciation of battle is a karma, collapsing the escape from prescribed duty. Does that argument apply universally, or does it presuppose Dvaita's ontology of jīva-dependence on Hari?",
+    "Rāmānuja embeds jñāna inside karma as its 'knowledge-aspect.' How does that differ practically from Śaṅkara's position that karma is merely preparatory for jñāna, which then supersedes it?",
+    "Vallabha reads mokṣa through a dual puruṣārtha lens (absence of pain + presence of joy). Does that frame revalue karma — making it a vehicle for joy rather than merely a means of negating suffering?",
+    "Śrīdhara says this verse is a deliberate recapitulation meant to set up jñāna-yajña as supreme. If that compositional reading is correct, what does it imply about how the Gītā structures its pedagogy — does it argue by accumulation and then inversion?",
+    "All six commentators agree: know the yajñas, then be freed. Yet they diverge on what 'knowing' requires — ātman's non-agency (Śaṅkara/Madhusūdana), right performance with embedded jñāna (Rāmānuja), divine lordship (Madhva), primordial participation (Vallabha), jñāna-niṣṭhā steadiness (Śrīdhara). Which disagreement is empirically testable in practice?",
+    "The verse says 'evaṃ jñātvā vimokṣyase' — 'having known thus, you will be freed.' Is this promise unconditional, or does each school tacitly add qualifying conditions that make liberation school-dependent rather than verse-given?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "Before any demanding task, pause and locate the witnessing awareness that watches the work without being defined by its outcome. The effort belongs to the instrument (body-mind); the ātman is uninvolved. This is not detachment as indifference but as clear seeing — 'these motions are not mine' — which paradoxically produces more focused, less anxious action."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "Treat daily obligatory acts — morning practice, professional duties, care for dependents — as nityakarma (standing ritual) that carries its own jñāna when performed without self-seeking. The knowledge that your action serves the whole (which is Bhagavān's body) is not added afterward; it is the quality of right attention already present in careful, ungrasping work."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "When tempted to abandon a difficult legitimate responsibility for what looks like a purer spiritual alternative, recognize that the abandonment is itself an action — and one that lacks divine sanction. Perform the prescribed duty as an offering to Hari; the act's worth comes from whose service it enters, not from how spiritually refined it feels to you."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "Bring the dimension of joy — not merely the removal of pain — into each act of devotion or service. The Vedic creation-yajña was performed in delight; your participation in daily ritual, family care, or creative work is a continuation of that primordial celebratory action. Mokṣa is not escape from life but life's joy fulfilled."
+    },
+    "bhakti": {
+      "school": "Bhakti-philological (Śrīdhara)",
+      "application": "When you feel overwhelmed by the multiplicity of religious duties and practices competing for your attention, recognize that the verse itself performs a deliberate recapitulation — gathering the many into one summary before pointing beyond all of them. Likewise, periodically gather and review your own practices to see which ones are training your jñāna-niṣṭhā (steady knowledge) and which are mere accumulation."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-Bhakti synthesis (Madhusūdana)",
+      "application": "When someone challenges your spiritual framework with 'that's just your speculation,' respond not by defending the framework but by pointing to the lineage of authoritative transmission behind it. Madhusūdana insists the Veda's gateway is the warrant, not the speaker's opinion. Build practices that are grounded in verified tradition rather than personal conjecture, so the foundation survives scrutiny — and so you can explain why without it collapsing into 'because I feel it is true.'"
+    }
   }
 }
