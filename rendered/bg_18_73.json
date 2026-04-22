@@ -297,7 +297,8 @@
         "shankara_18.73",
         "anandgiri_18.73"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita locates the resolution entirely in jnana: 'krtarthah, na me kartavyam asti' — Arjuna is fulfilled; his battle-compliance is the residue of prarabdha, not a fresh obligation."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -315,7 +316,8 @@
         "madhva_18.73",
         "jayatirtha_18.73"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita uniquely stresses that the smriti recovered is not Self-knowledge in any non-dual sense but knowledge of the jiva's permanent, irreducible subordination to Hari — a distinction Advaita and Vishishtadvaita both resist."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -331,7 +333,8 @@
       "witness_passages": [
         "sridhara_18.73"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shridhara is the tersest voice in the panel; his 'gata dharma-visayah sandehah' specifies that the dissolved doubt was about dharma, not merely metaphysics — a practically-inflected reading absent from Shankara's purely jnana framing."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -339,6 +342,15 @@
       "witness_passages": [
         "madhusudan_18.73"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana alone explicitly declares this verse the shastra-phala-upsamhara (conclusion of the scripture's fruit-statement), bridging Shankara's jnana-centrism and bhakti's guru-devotion into a single closure statement."
+    },
+    "visistadvaita": {
+      "divergence_note": "Vishishtadvaita insists action (the battle) is kainkarya to the Lord — the compliance is theologically positive, not a mere remnant.",
+      "score": 0.5
+    },
+    "suddhAdvaita": {
+      "divergence_note": "Shuddhadvaita alone makes prasada = bhakti the direct efficient cause of both moha-nashta and smriti-labdha, collapsing the distinction between cognitive recovery and devotional surrender.",
       "score": 0.5
     }
   },
@@ -425,5 +437,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "What is the difference between intellectual agreement with a teaching and the actual dissolution of moha — and how would you know which one you have experienced?",
+    "Arjuna says smriti (memory / recognition) was lost, not that he gained new information. What does it mean for self-knowledge to be something recoverable rather than something newly acquired?",
+    "The verse marks a transition from paralysis to readiness without describing any inner struggle between them. What conditions made the shift instantaneous, and are those conditions reproducible?",
+    "Arjuna does not say he now wants to fight, only that he will do Krsna's word. Is this the highest form of agency or a surrender of it — and does the distinction matter?",
+    "Six schools produce sharply different accounts of what was destroyed and what was recovered. Which account is most useful for diagnosing your own form of moha?",
+    "The verse ends the dialogue and opens the epilogue. What is the structural significance of placing Arjuna's declaration of freedom at the threshold between the teaching and the world?",
+    "prasada (grace) is the stated cause in every school. What is the relationship between effort — Arjuna sat through 18 chapters of instruction — and the grace that ultimately dissolves the knot?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you recognise that your anxiety about a decision was rooted not in the facts of the situation but in a persistent misidentification with a role — employee, parent, critic — and the anxiety lifts not because the situation changed but because you stopped mistaking the role for the self: that is the smriti this verse points at. The action you were postponing can now be done cleanly, without the weight of identity defending itself.",
+    "visistadvaita": "Every obligation that felt like a burden — a caregiving duty, a professional commitment you resent — can be reframed as kainkarya: service whose completion honours something larger than your preference. The moha was believing the obligation belongs to you and can therefore oppress you. The smriti is the recognition that you are acting within a web of relationship that holds you, not a solitary self being ground down by duty.",
+    "dvaita": "There are decisions you keep revisiting because you believe your analysis is the crucial variable. The Dvaita reading of this verse invites a different diagnosis: the revisiting is itself the moha — the inflation of the jiva's independent efficacy. 'I will do your word' becomes: make the decision that aligns with your deepest orientation toward what is true and good, then release your grip on the outcome, not because outcomes do not matter but because your grip does not determine them.",
+    "suddhAdvaita": "Vallabha's reading is useful when you are caught between knowing what you should do and being unable to feel it. The three-part analysis — Sankhya clears the conceptual confusion, Yoga restores functional clarity, and bhakti-prasada alone makes the shift real — maps onto this: sometimes information and technique are not sufficient and something has to be given, not earned. Recognising when you are in a prasada-gap, rather than a technique-gap, is a practical reorientation.",
+    "bhakti": "Shridhara's 'ayam aham asmi' — the renewed recognition 'this is what I am' — has a direct correlate in moments when you return to a capacity or an orientation that felt lost. You did not learn something new; you remembered something true. Tracking these moments of svarupa-anusandhana (return to one's own nature) more carefully than moments of acquisition is the practical discipline this reading suggests.",
+    "advaita-bhakti": "Madhusudana's lifespan framing — 'yavaj-jivam karisye vacanam tava' — converts a single battle-decision into a life-orientation. The practical application is the difference between 'I will do this hard thing' and 'I am the kind of person who does this kind of thing.' The latter is a smriti-level commitment, not a task-level one, and it reshapes the quality of all subsequent decisions without requiring renegotiation at each junction."
   }
 }

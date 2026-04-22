@@ -315,7 +315,8 @@
         "shankara_18.28",
         "anandgiri_18.28"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara uniquely stresses 'asamahita' (unintegrated concentration) as the root defect — without inner sammahana, no karma can serve as jnana-preparation."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -333,7 +334,8 @@
         "madhva_18.28",
         "jayatirtha_18.28"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva is the only school that re-defines 'dirghasutri' as an informer/fault-exposer rather than a procrastinator — a genuinely divergent philological claim anchored in etymology of 'sutri' as thread-puller or sutra-maker (one who 'threads' accusations)."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -349,7 +351,8 @@
       "witness_passages": [
         "sridhara_18.28"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shridhara alone explicitly connects this verse to the triadic hermeneutic of ch. 18 as a whole, treating the agent's three types as unlocking the types of knower and known — a meta-structural observation absent from the other schools."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -357,6 +360,15 @@
       "witness_passages": [
         "madhusudan_18.28"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudhana is unique in identifying the interior mechanism of 'dirghasutri' as 'nirantara-shankasahasra' — a thousand unceasing doubts devouring the antahkarana — giving what is elsewhere a behavioral description an explicitly psychological-meditational diagnosis."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Ramanuja alone specifies 'dirghasutri' as long-term scheming of harm to others through abhichara — linking tamasic delay to active malevolence, not merely inertia.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha adds 'duhkhi' (one who suffers) as a distinct attribute — not present in Shankara's listing — reflecting the Pushti-marga reading of tamasic existence as a condition of unchosen affliction rather than culpable will.",
       "score": 0.5
     }
   },
@@ -468,5 +480,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "The verse lists eight attributes of the tamasic agent — but Madhva re-reads 'dirghasutri' as an informer rather than a procrastinator. Does that philological divergence imply that the same vice can manifest as either paralysis or malicious action? What does that say about the unity of tamas?",
+    "Shankara grounds each defect in a failure of inner sammahana (integration). If all eight attributes collapse to 'asamahita,' is this verse ultimately about one defect or eight? How do you distinguish tamas from plain ignorance (avidya)?",
+    "Ramanuja and Vallabha both reference abhichara (harmful rites). Does tamasic action include actively choosing destructive forms of sacred practice, or is tamas always an absence rather than a wrong choice?",
+    "Shridhara says threefold agents imply threefold knowers and threefold objects of knowledge. Does that mean the qualities described here are epistemically self-sealing — can a tamasic agent even recognize his own tamas?",
+    "Madhusudhana locates 'dirghasutri' in an antahkarana (inner faculty) consumed by a thousand doubts. Is chronic doubt a tamasic or rajasic feature? What would Shankara say about doubt as a mode of tamas?",
+    "All schools agree that 'stabdha' means refusal to bow to guru or devata. In a tradition where guru-deference is the threshold of qualification (adhikara), does this verse imply the tamasic agent is literally incapable of being initiated?",
+    "Vallabha adds 'duhkhi' (one who suffers) as a tamasic marker. Is tamasic suffering structurally different from sattvic grief (shoka) or rajasic frustration? What pedagogical implication follows for how one addresses a tamasic student?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you notice you keep deferring a clear duty — not from busyness but from a diffuse inner fog — Shankara's reading names it: 'asamahita,' unintegrated attention. The practice is not to will harder but to ask what single pointed act of dharmic attention you are avoiding. Tamas here is a failure of inner concentration before it is a failure of outer effort.",
+    "vishishtadvaita": "Ramanuja's 'dirghasutri' as long-term scheming of harm reframes passive delay: when procrastination is actually sustained resentment — rehearsing grievances, imagining how someone will eventually fail — that is tamasic action wearing the mask of inaction. The antidote in kainkarya (service) terms is to redirect that long plotting-energy into a single concrete act of seva.",
+    "dvaita": "Madhva's informer-reading of 'dirghasutri' is directly applicable to professional and family contexts: the habit of surfacing old faults at inconvenient moments, archiving grievances to deploy later, is tamasic even when the facts cited are true. Hari-worship under dvaita requires releasing the archive — not because the faults were not real but because toting them forward is itself the tamas.",
+    "shuddhadvaita": "Vallabha's addition of 'duhkhi' (the suffering one) opens pastoral space: if you find yourself chronically afflicted — not motivated by pleasure or pain but just weighed down — Pushti-marga reads this as absence of prasada, not moral failure. The response is not self-correction but surrender: make oneself available to Bhagavan's grace by performing even small acts of bhakti without requiring them to 'work.'",
+    "bhakti": "Shridhara's 'vivekashunya' (devoid of discrimination) as the core of 'prakrita' has a direct application in decision-making: when you cannot tell which of two options aligns with dharma — not because both are unclear but because you have stopped asking — you are operating in tamasic prakrita mode. The bhakti correction is to pause and offer the decision to Bhagavan before acting, restoring the discriminative gap that tamas closes.",
+    "advaita-bhakti": "Madhusudhana's thousand-doubts portrait of 'dirghasutri' maps precisely onto the modern experience of analysis paralysis: the inner faculty is not empty but overfull — each possible step spawns three objections. His synthesis points toward the Advaita correction (recognize the doubts as objects in awareness, not as awareness itself) held together with the bhakti correction (dedicate the very act of beginning to Krsna, bypassing the need for certainty before starting)."
   }
 }

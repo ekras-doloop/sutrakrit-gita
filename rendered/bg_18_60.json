@@ -320,7 +320,8 @@
         "shankara_18.60",
         "anandgiri_18.60"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita reads moha as avidya-rooted ego-illusion of authorship; liberation lies in jnana that transcends svabhava entirely."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -338,7 +339,8 @@
         "madhva_18.60",
         "jayatirtha_18.60"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita: jiva-paramatma bheda is eternal and real; 'helplessness' is not ignorance but the jiva's constitutive ontology — it can never be self-sufficient."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -354,7 +356,8 @@
       "witness_passages": [
         "sridhara_18.60"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Bhakti-philological voice: svabhava is purva-karma samskara specifically; the yantrita (instrumented) metaphor is foregrounded, softened by devotional surrender."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -362,6 +365,15 @@
       "witness_passages": [
         "madhusudan_18.60"
       ],
+      "score": 0.5,
+      "divergence_note": "Advaita-bhakti uniquely names the moha as svAtantrya-bhrama (the specific delusion of self-sovereignty); liberation requires both jnana (to see the bhrama) and bhakti (to realign will with Parameshvara)."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Vishishtadvaita stresses Ishvara as inner regulator acting through the jiva's prakriti; the jiva is a real dependent agent, not an illusion.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Shuddhadvaita emphasizes svabhava as prakritic, and helplessness as the opening for divine prasada, not a problem requiring jnana to transcend.",
       "score": 0.5
     }
   },
@@ -441,5 +453,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If a person is already bound to act by their svabhava (innate nature), what is the point of deliberating about action at all — does deliberation itself belong to svabhava?",
+    "How do the schools distinguish between the avasha (helplessness) here as a description of the conditioned state versus a prescription — is Krishna saying Arjuna will act, or that he should accept that he will act?",
+    "What does it mean for moral responsibility that the action will happen regardless of the agent's wish — does the verse dissolve culpability, or deepen it by locating the error in moha rather than the act itself?",
+    "Across schools, svabhava is read as either purva-karma samskara (Sridhara), kshatriya-prakriti (Ramanuja), or avidya-conditioned ego-flow (Shankara) — what is at stake in that taxonomic difference for practice?",
+    "If the jiva is simultaneously paratantra (dependent on Ishvara) and bound by svabhava, is the path to freedom a transformation of svabhava or a detachment from it — and do these differ?",
+    "Does this verse counsel acceptance of one's social or psychological nature as the only realistic basis for action, and if so, how is that different from fatalism?",
+    "What distinguishes the yantrita (instrumented) person who has not realized their bound condition from the one who acts with full awareness of that condition — is the action the same, and only the inner relationship different?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you find yourself doing exactly what you swore you would not — checking your phone despite the resolution, snapping despite the intention to stay calm — recognize this as svabhava-born action asserting itself against the ego's fiction of self-control. The Advaita application: do not double down on the resolution (which strengthens ego); instead inquire who is it that resolves and then fails. The gap between intention and act is the teaching site for self-inquiry (vichara).",
+    "vishishtadvaita": "In a work situation where your temperament keeps pulling you toward a certain role even as you try to reinvent yourself — the engineer who always ends up leading, the caregiver who cannot stop helping — Ramanuja would say: your svabhava is Ishvara's design for your current body-mind. Rather than resist it as ego-projection, offer that natural pull as kainkarya (service). The application: identify where you are most naturally compelled and dedicate that very compulsion to Bhagavan rather than fighting or indulging it.",
+    "dvaita": "When you feel the helplessness of a habit or a compulsion — unable to change a reaction pattern despite knowing it is harmful — Madhva's lens says: this reveals the jiva's utter paratantrya (dependence). The practical step is not self-improvement willpower but explicit prayer to Hari for his grace to act differently, because the jiva cannot transform its svabhava by itself. Surrendering the outcome to Hari while doing one's best is the only coherent response.",
+    "shuddhadvaita": "In creative or spiritual practice, there are days when you cannot make yourself do the work despite every intention. Vallabha's Pushtimarga reading: your inability is itself a moment of Krishna's lila — he is withholding his energy so you feel the ground of helplessness that precedes grace. The application: instead of forcing, pause and ask for prasada; the next action that arises from that pause is more likely to flow from the Lord's will than from ego's push.",
+    "bhakti": "When a recurring pattern in your relationships — say, always taking on others' burdens — feels impossible to break, Sridhara would identify it as purva-karma samskara (deep conditioning) running through you. The bhakti application is not to erase the pattern by willpower but to remain inwardly surrendered to Krishna while the pattern plays out, so that the samskara gradually loses its compulsive charge. Each recurrence becomes an occasion for renewed offering rather than self-reproach.",
+    "advaita-bhakti": "When you catch yourself believing 'I will just decide differently this time' and then doing the same thing again, Madhusudana's synthesis names the root error: svAtantrya-bhrama, the delusion of self-sovereign will. The dual application: use Advaita inquiry to see that the independent decider is a constructed overlay on an already-moving process (jnana dissolves the bhrama); simultaneously, use bhakti to consciously re-dedicate the natural-born action to Krishna so that what was compulsion becomes offering. Both moves are needed — inquiry without devotion stays cold; devotion without inquiry stays naive."
   }
 }

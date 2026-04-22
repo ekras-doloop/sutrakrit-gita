@@ -227,7 +227,8 @@
         "shankara_18.23",
         "anandgiri_18.23"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara's interest is epistemological purity, not devotional dedication — the fruit relinquished here prepares the mind for non-dual recognition, not for service to Ishvara."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -245,7 +246,8 @@
         "madhva_18.23",
         "jayatirtha_18.23"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita's key divergence: even the 'detached' agent is not empty of motivation but filled with Hari-directed motivation — detachment from personal fruit is positive dedication to Vishnu's will, not mere negation."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -261,7 +263,8 @@
       "witness_passages": [
         "sridhara_18.23"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's bhakti register means nishkama-karma is implicitly oriented toward Bhagavan even if not stated — the 'eternal ordainment' carries devotional charge absent in pure Advaita readings."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -269,6 +272,15 @@
       "witness_passages": [
         "madhusudan_18.23"
       ],
+      "score": 0.5,
+      "divergence_note": "The synthesis move: even this sattvic karma is ultimately within avidya for the non-knower, yet it is the vehicle through which Krsna-bhakti ripens — making nishtadvaita and bhakti structurally co-dependent, not competing."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Where Shankara aims at jnana-preparation, Ramanuja aims at kainkarya (service-disposition) — the same detachment is bhakti-yoga infrastructure, not merely cognitive purification.",
+      "score": 0.5
+    },
+    "shuddhadvata": {
+      "divergence_note": "Shuddhadvaita treats this sattva as the floor of the cosmic order maintained by Krishna's lila-prasada; for the pushti-marga devotee, Krishna's grace lifts one beyond even this floor without the agent's striving.",
       "score": 0.5
     }
   },
@@ -352,5 +364,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "All six schools agree the act must be 'niyata' — but who or what establishes what is prescribed? Is it Veda, social order, Bhagavan's will, or one's own deepest nature?",
+    "Shankara and Madhusudana both say sattvic agents still carry some ahankara — so what distinguishes sattvic self-sense from rajasic ego? Where is the line?",
+    "Sridhara names love for one's child as a raga that corrupts action — does this mean parental care is incompatible with sattva, or is there a sattvic mode of parental love?",
+    "Ramanuja grounds niyata in varna-ashrama — does that limit sattvic karma to those with a defined social station, or does the principle generalise beyond the classical order?",
+    "Madhusudana says the sattvic agent still operates within avidya yet prepares for Krsna-bhakti — is there a paradox in saying impure action is the path to purity?",
+    "The verse names aphala-prepsuna as the defining criterion — but is an action still sattvic if the agent began with desire for fruit and then released it mid-execution?",
+    "Vallabha adds mamata-parityaga as a precondition — what is the difference between releasing possessiveness of results and releasing the sense of ownership over the act itself?"
+  ],
+  "everyday_applications": {
+    "advaita": "Before beginning a project, bracket the question of how it reflects on you. Complete the deliverable because it is your function today; the result is data, not identity. This is not indifference — it is the practice of acting from clarity rather than craving.",
+    "vishishtadvaita": "Do your role's specific work — not a neighbour's role, not an aspirational future role — with full attention, and dedicate the outcome silently to Bhagavan before logging off. The dedication is not rhetorical; it structurally removes you from the position of sole owner of the result.",
+    "dvaita": "Recognise that every capacity you exercise in your work — intelligence, skill, energy — arrived from a source you did not manufacture. Act as the conduit Hari placed here; when the result comes, report it honestly rather than hoarding credit.",
+    "shuddhadvata": "Release both the hunger for praise and the flinch from criticism before the meeting begins. Vallabha's mamata-parityaga means: do not treat the outcome as yours to possess. If grace brings reward, receive it; if not, the action is complete in itself.",
+    "bhakti": "Notice whether you are doing something to maintain a relationship (raga for family approval) or to settle a grievance (dvesha toward a rival). Sridhara's test: if either of those is the engine, the action belongs to a lower register. Shift the engine to duty before proceeding.",
+    "advaita-bhakti": "Madhusudana's distinction is surgical: there is a legitimate sense of 'I am the one doing this work' that need not be dissolved before action, and a social-vanity layer ('I am the one who did the great thing') that corrupts it. Keep the first, drop the second — and offer the whole act inwardly to Krsna."
   }
 }

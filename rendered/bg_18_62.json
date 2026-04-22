@@ -306,7 +306,8 @@
         "shankara_18.62",
         "anandgiri_18.62"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita reads 'param shantim' as uparati — the cessation that precedes non-dual recognition — not as devotional peace within a theistic relationship."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -324,7 +325,8 @@
         "madhva_18.62",
         "jayatirtha_18.62"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita bhashya here is extremely sparse — a single line. Rendering reconstructed from Madhva's doctrinal framework. Flagged: this is an inferred rendering, not directly extracted from rich commentary prose."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -340,7 +342,8 @@
       "witness_passages": [
         "sridhara_18.62"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Bhakti school here foregrounds ego-dissolution (ahankara-parityaga) as the gateway to grace, placing the internal act of surrender before any external devotional practice."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -348,6 +351,15 @@
       "witness_passages": [
         "madhusudan_18.62"
       ],
+      "score": 0.5,
+      "divergence_note": "Advaita-bhakti synthesis: grace is not the final state but the cause of jnana, which itself dissolves into non-dual awareness. Krsna-bhakti and Advaita are not rivals — bhakti is the vehicle by which avidya is burned."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Vishishtadvaita uniquely stresses that refuge is not an alternative to war but the frame within which war is rightly done — surrender enables action, it does not replace it.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Shuddhadvaita uniquely frames surrender as the rational recognition that divine nature will move you anyway — making conscious surrender a form of knowing participation in lila (divine play), not a sacrifice of agency.",
       "score": 0.5
     }
   },
@@ -445,5 +457,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "What makes 'sarva-bhavena' (with all of oneself) different from a partial or conditional surrender — and can a person even know when surrender is total?",
+    "If Ishvara's maya will drive you to act regardless (as Ramanuja and Vallabha both note), what is the practical difference between a person who surrenders and one who does not?",
+    "The verse promises both 'param shanti' (supreme peace) and 'shasvata sthana' (eternal station) — are these the same reality described from two angles, or two distinct fruits of surrender?",
+    "Madhusudana addresses the determinism objection head-on: if God moves all beings, why does injunction (shastra) matter? What is his resolution, and does it satisfy you?",
+    "The Advaita reading of 'param shantim' as uparati (cessation) and the Dvaita reading as liberated service are not merely doctrinal — they produce different practical orientations. Which understanding of peace do you actually live from?",
+    "Sridhara places 'ahankara-parityaga' (ego-abandonment) as the prerequisite of surrender. Is the act of taking refuge itself an ego-act, and how do you cross that threshold?",
+    "Madhva's cryptic comment — that this verse speaks indirectly, like Bhima's words to Drona — implies the verse is reaching a larger audience through Arjuna. Who is that audience, and what does the indirection mean for how you receive it?"
+  ],
+  "everyday_applications": {
+    "advaita": "When a decision feels impossible — career change, relationship rupture, illness — notice the moment you stop trying to calculate the right outcome and simply let the ground hold you. That surrender of the calculating self is 'sarva-bhavena' in daily life. Peace is not achieved; it is what remains when the effort to achieve it drops.",
+    "vishishtadvaita": "At work, when your manager or circumstance forces a direction you did not choose, you can fight it with resentment or you can surrender to the situation while bringing your full skill and care — trusting that the structure of the situation is itself a kind of grace. Ramanuja's point: you were going to be in this situation anyway; the only choice is whether you serve willingly.",
+    "dvaita": "Dvaita's application: recognize that you are not the source of your own capacities — intelligence, health, relationships are held by something other than you. Gratitude flows naturally when you stop attributing your abilities to yourself. Service to others becomes service to Hari, the real proprietor, not a performance for your own self-image.",
+    "shuddhadvaita": "Pusti-marga's application: when you catch yourself planning how to earn grace — through ritual, effort, or virtue accumulation — notice that Vallabha says grace is not earned, only received. The practice is to stop the earning-logic entirely and act from delight in the Lord's will, as a child acts in a parent's house without calculating rent.",
+    "bhakti": "In daily relationships, ego-abandonment (ahankara-parityaga) means not needing the last word, not needing credit, not needing the relationship to validate your worth. Sridhara's teaching: the peace you are seeking in the relationship is available only after you stop making the relationship about the self. Refuge in Ishvara is what makes loving another person sustainably possible.",
+    "advaita-bhakti": "Madhusudana's synthesis applies when you are pulled between action and contemplation — between the demands of work and the longing for stillness. Neither pure activism nor pure withdrawal is the answer. Grace produces the arising of clarity (tattva-jnana); that clarity dissolves the conflict. The practice is to stay close to devotion until clarity arises on its own, not to force either pole."
   }
 }
