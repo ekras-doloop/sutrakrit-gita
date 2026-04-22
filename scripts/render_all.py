@@ -30,13 +30,16 @@ sys.path.insert(0, str(REPO_ROOT))
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
 from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
 from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
+from substrate.sense_extraction import extract_panel_senses  # noqa: E402
 
 from scripts.render_verse import (  # noqa: E402
     CHAPTER_NAMES,
     DIALOGUE_MAP,
+    PANEL_COMMENTATORS,
     SCHOOLS,
-    _to_iast,
     _adjacent_verse_id,
+    _devanagari_surface_for_lemma,
+    _to_iast,
 )
 
 
@@ -103,6 +106,11 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
     theme_lists = sub.theme_lists_for(verse_id)
     tokens = sub.tokenize_with_grammar(devanagari)
 
+    # Build commentary lookups for this verse (used by sense extraction)
+    commentary_lookups = {
+        c: sub.panel_commentary_for(c, verse_id) for c in PANEL_COMMENTATORS
+    }
+
     # Prosody
     meter, _ = detect_meter(devanagari)
     prev_id = _adjacent_verse_id(verse_id, -1)
@@ -136,7 +144,14 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
                 "surface_form": tok["surface_form"],
                 "lemma": tok["lemma"],
                 "grammar": tok["grammar"],
-                "senses_attested_in_panel": [],
+                "senses_attested_in_panel": (
+                    extract_panel_senses(
+                        _devanagari_surface_for_lemma(tok["surface_form"]),
+                        commentary_lookups,
+                    )
+                    if _devanagari_surface_for_lemma(tok["surface_form"])
+                    else []
+                ),
                 "theme_lists": [],
             }
             for tok in tokens

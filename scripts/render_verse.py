@@ -34,6 +34,23 @@ sys.path.insert(0, str(REPO_ROOT))
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
 from substrate.pragmatics import detect_vocatives, primary_vocative  # noqa: E402
 from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
+from substrate.sense_extraction import extract_panel_senses  # noqa: E402
+
+PANEL_COMMENTATORS = ["shankara", "anandgiri", "ramanuja", "vedantadeshika",
+                      "madhva", "jayatirtha", "vallabha", "sridhara", "madhusudan"]
+
+
+def _devanagari_surface_for_lemma(token_surface: str) -> str:
+    """The token surface_form in the renderer is in IAST after our
+    transliteration. To match against Devanāgarī commentary text, we
+    need to convert back to Devanāgarī.
+    """
+    try:
+        from vidyut.lipi import Scheme, transliterate
+
+        return transliterate(token_surface, Scheme.Iast, Scheme.Devanagari)
+    except Exception:
+        return ""
 
 DIALOGUE_MAP = {
     "1": ("Arjuna", "Krishna"),
@@ -217,17 +234,26 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
 
     # --- word_by_word section ----------------------------------------
     tokens = sub.tokenize_with_grammar(devanagari)
-    word_by_word = [
-        {
-            "surface_form": tok["surface_form"],
-            "lemma": tok["lemma"],
-            "grammar": tok["grammar"],
-            "senses_attested_in_panel": [],  # next-pass: extract from panel
-            "theme_lists": [],
-        }
-        for tok in tokens
-        if tok["lemma"]  # skip unparsed punctuation tokens
-    ]
+    # Build commentary lookup once for all lemmas in this verse
+    commentary_lookups = {
+        c: sub.panel_commentary_for(c, verse_id) for c in PANEL_COMMENTATORS
+    }
+    word_by_word = []
+    for tok in tokens:
+        if not tok["lemma"]:
+            continue
+        # Convert surface form back to Devanāgarī for commentary search
+        dev_surface = _devanagari_surface_for_lemma(tok["surface_form"])
+        senses = extract_panel_senses(dev_surface, commentary_lookups) if dev_surface else []
+        word_by_word.append(
+            {
+                "surface_form": tok["surface_form"],
+                "lemma": tok["lemma"],
+                "grammar": tok["grammar"],
+                "senses_attested_in_panel": senses,
+                "theme_lists": [],
+            }
+        )
 
     # --- audit_trail section ------------------------------------------
     audit_trail = {
