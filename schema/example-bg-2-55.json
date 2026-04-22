@@ -1,0 +1,159 @@
+{
+  "verse_id": "2.55",
+  "mūla": {
+    "devanāgarī": "प्रजहाति यदा कामान् सर्वान् पार्थ मनोगतान् । आत्मन्येवात्मना तुष्टः स्थितप्रज्ञस्तदोच्यते ॥ २.५५ ॥",
+    "iast": "prajahāti yadā kāmān sarvān pārtha mano-gatān | ātmany evātmanā tuṣṭaḥ sthita-prajñas tadocyate || 2.55 ||",
+    "chant_audio_ref": "audio/bg_2_55_anushtubh.mp3",
+    "chapter_position": "Chapter 2 (Sāṅkhya-Yoga), verse 55 of 72",
+    "speaker": "Krishna",
+    "addressed_to": "Arjuna (vocative: Pārtha)"
+  },
+  "word_by_word": [
+    {
+      "surface_form": "prajahāti",
+      "lemma": "pra-√hā",
+      "grammar": "3rd singular present indicative active",
+      "senses_attested_in_panel": [
+        {"sense": "abandons (volitional)", "weight": 0.62, "witnesses": ["śaṅkara_2.55", "vedantadeshika_2.55"]},
+        {"sense": "lets fall away (non-volitional, as ripeness)", "weight": 0.31, "witnesses": ["madhusūdana_2.55", "ramsukhdas_2.55"]},
+        {"sense": "rejects (active discarding)", "weight": 0.07, "witnesses": ["vallabha_2.55"]}
+      ],
+      "theme_lists": ["renunciation-spectrum", "sthitaprajña-lakṣaṇa"]
+    },
+    {
+      "surface_form": "kāmān",
+      "lemma": "kāma",
+      "grammar": "accusative plural masculine",
+      "senses_attested_in_panel": [
+        {"sense": "desires (general)", "weight": 0.71},
+        {"sense": "objects of desire (specific)", "weight": 0.18},
+        {"sense": "intentional desires as opposed to instinctive ones", "weight": 0.11, "school": "viśiṣṭādvaita", "witnesses": ["vedantadeshika_2.55", "rāmānuja_2.55"]}
+      ],
+      "theme_lists": ["desire-and-its-management", "kāma-discipline"]
+    },
+    {
+      "surface_form": "sthita-prajñas",
+      "lemma": "sthita-prajña",
+      "grammar": "nominative singular masculine; compound (sthita 'established' + prajña 'wisdom-bearing')",
+      "senses_attested_in_panel": [
+        {"sense": "the person of established stable wisdom (Advaita: established in non-dual realization)", "school": "advaita", "weight": 0.42, "witnesses": ["śaṅkara_2.55", "anandagiri_2.55"]},
+        {"sense": "steady in devoted intellect (Viśiṣṭādvaita: stably attentive to the personal Lord)", "school": "viśiṣṭādvaita", "weight": 0.28, "witnesses": ["vedantadeshika_2.55", "rāmānuja_2.55"]},
+        {"sense": "fixed in discriminative knowledge (Dvaita)", "school": "dvaita", "weight": 0.18, "witnesses": ["madhva_2.55", "jayatīrtha_2.55"]},
+        {"sense": "established witness-consciousness (Yoga-Sūtra-aligned)", "school": "yoga-aligned", "weight": 0.12, "witnesses": []}
+      ],
+      "theme_lists": ["sthitaprajña-lakṣaṇa", "jñāna-yoga-marks", "ātma-svarūpa"]
+    }
+  ],
+  "intertextual_panel": [
+    {
+      "verse": "2.56",
+      "type": "definitional-elaboration (next-verse continuation)",
+      "score": 0.91,
+      "feature_breakdown": {"cosine": 0.84, "substring": 0.20, "theme_graph": 1.00, "vocative": 0.0, "lemma_overlap": 0.41, "stem_prefix": 0.33}
+    },
+    {
+      "verse": "2.57",
+      "type": "thematic-cluster continuation",
+      "score": 0.88,
+      "feature_breakdown": {"cosine": 0.82, "substring": 0.15, "theme_graph": 1.00, "vocative": 0.0, "lemma_overlap": 0.38, "stem_prefix": 0.31}
+    },
+    {
+      "verse": "2.58",
+      "type": "thematic-cluster continuation",
+      "score": 0.86,
+      "feature_breakdown": {"cosine": 0.79, "substring": 0.12, "theme_graph": 1.00, "vocative": 0.0, "lemma_overlap": 0.36, "stem_prefix": 0.29}
+    },
+    {
+      "verse": "5.20",
+      "type": "echo at chapter-distance",
+      "score": 0.74,
+      "feature_breakdown": {"cosine": 0.71, "substring": 0.0, "theme_graph": 0.50, "vocative": 0.0, "lemma_overlap": 0.32, "stem_prefix": 0.27}
+    },
+    {
+      "verse": "6.7",
+      "type": "thematic-cluster (yoga-context restatement)",
+      "score": 0.71,
+      "feature_breakdown": {"cosine": 0.68, "substring": 0.0, "theme_graph": 0.50, "vocative": 0.0, "lemma_overlap": 0.30, "stem_prefix": 0.25}
+    },
+    {
+      "verse": "12.13",
+      "type": "thematic-cluster (devotee-marks parallel)",
+      "score": 0.68,
+      "feature_breakdown": {"cosine": 0.65, "substring": 0.0, "theme_graph": 0.50, "vocative": 0.0, "lemma_overlap": 0.28, "stem_prefix": 0.24}
+    }
+  ],
+  "doctrinal_projections": {
+    "advaita": {
+      "reading_summary": "The verse defines sthita-prajña as the person who has abandoned desires by realizing the non-dual self; satisfaction-in-self means the natural state of the realized self resting in itself with no second to satisfy or be satisfied by. The abandonment is the spontaneous result of jñāna; it is not a volitional disciplinary act of suppressing desires but the recognition that what one had taken to be desires belongs to a self that is not the realized ātman.",
+      "key_cross_references": ["2.59", "2.61", "5.18", "5.19", "5.20", "5.21"],
+      "witness_passages": ["Śaṅkara on 2.55", "Anandagiri ṭīkā ad loc"],
+      "score": 0.83
+    },
+    "viśiṣṭādvaita": {
+      "reading_summary": "The verse defines sthita-prajña as the devotee whose mind has stably turned away from sense-objects toward the personal Lord. Satisfaction-in-self means satisfaction of the self in the Lord whose attribute the self is; the self does not become identical with the Lord (as in Advaita) but is stably composed in its devotional relationship to the Lord. The abandonment of desires is preparatory to the devotional state, not its automatic consequence.",
+      "key_cross_references": ["6.30", "6.31", "12.13", "12.14", "12.15", "12.16", "12.17", "12.18", "12.19", "18.65", "18.66"],
+      "witness_passages": ["Vedantadeshika Tātparya-candrikā 2.55", "Rāmānuja gloss ad loc"],
+      "score": 0.79
+    },
+    "dvaita": {
+      "reading_summary": "The verse defines sthita-prajña as the discriminating soul who has properly understood its eternal distinction from the Lord and from prakṛti. Abandoning desires here is preparatory to liberation as eternal participation in service from preserved individuality; the soul does not merge into the Lord (as in Advaita) and does not become a fully-attribute-status entity (as in Viśiṣṭādvaita) but maintains its eternal substance-distinction while engaging in devotional service.",
+      "key_cross_references": ["18.62", "18.66"],
+      "witness_passages": ["Madhva Gītā-bhāṣya 2.55", "Jayatīrtha ṭīkā ad loc"],
+      "score": 0.61
+    }
+  },
+  "prosodic_information": {
+    "meter": "anuṣṭubh",
+    "meter_shift_from_previous": false,
+    "meter_shift_to_next": false,
+    "meter_shifts_in_chapter": ["after 2.10", "after 2.69"],
+    "pragmatic_context": {
+      "vocative": "Pārtha",
+      "vocative_cluster": "Pārtha appears 27 times in the BG, clustering at verses where Krishna re-engages Arjuna as the Pāṇḍava-warrior-prince specifically",
+      "preceding_question": "Arjuna asks at 2.54: 'sthita-prajñasya kā bhāṣā ...' — what are the marks of the person of stable wisdom, how does such a person speak, sit, walk?",
+      "following_response": "2.56-72 elaborate the marks in detail, with 2.55 as the opening definitional verse"
+    }
+  },
+  "theme_list_memberships": [
+    {
+      "list": "sthitaprajña-lakṣaṇa",
+      "role": "anchor",
+      "other_verses_in_list": ["2.54", "2.56", "2.57", "2.58", "2.59", "2.60", "2.61", "2.62", "2.63", "2.64", "2.65", "2.66", "2.67", "2.68", "2.69", "2.70", "2.71", "2.72"]
+    },
+    {
+      "list": "jñāna-yoga-marks",
+      "role": "supporting",
+      "other_verses_in_list": ["4.18", "4.19", "5.18", "5.19", "5.20", "13.7-13.11"]
+    },
+    {
+      "list": "ātma-svarūpa",
+      "role": "supporting",
+      "other_verses_in_list": ["2.20", "2.23", "2.24", "13.31", "13.32"]
+    },
+    {
+      "list": "sense-control-discipline",
+      "role": "supporting",
+      "other_verses_in_list": ["2.58", "2.59", "2.61", "2.68", "3.7", "3.41", "5.7", "5.13", "6.4", "6.10"]
+    }
+  ],
+  "audit_trail": {
+    "substrate_version": "v2.6-frozen",
+    "fitted_weights": {"a": 1.0, "b": 0.01, "e_v": 0.005, "z": 0.2, "h": 0.0, "th": 0.01},
+    "corpus_provenance": {
+      "mūla": "Belvalkar critical edition (BORI 1947)",
+      "panel_witnesses": [
+        "bg-mula-ambuda",
+        "bg-shankara-ambuda",
+        "bg-ramanuja-gitasupersite",
+        "bg-madhva-gitasupersite",
+        "bg-vedantadeshika-gitasupersite",
+        "bg-vallabha-gitasupersite",
+        "bg-jayatirtha-gitasupersite",
+        "bg-anandagiri-gitasupersite",
+        "bg-ramsukhdas-gitapress"
+      ]
+    },
+    "extraction_date": "2026-04-21",
+    "score_methodology_documented_at": "Paper 1, Section II.B (substrate architecture and feature definitions)"
+  }
+}

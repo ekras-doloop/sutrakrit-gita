@@ -1,0 +1,65 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sutrakrit-gita"
+version = "0.1.0"
+description = "Sūtrakṛt-Gītā: the first substrate-rendered edition of the Bhagavad Gītā, airgapped from any single school, preserving bounded polysemy at the mathematical maximum the corpus union supports."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Gaurav Rastogi", email = "gaurav@doloopdigital.com"},
+]
+keywords = [
+    "sanskrit",
+    "bhagavad-gita",
+    "computational-hermeneutics",
+    "bounded-polysemy",
+    "indic-textual-tradition",
+    "decolonized-scholarship",
+    "sutrakrit",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Text Processing :: Linguistic",
+    "Natural Language :: Sanskrit",
+]
+
+dependencies = [
+    "sentence-transformers>=2.7",
+    "numpy>=1.26",
+    "vidyut>=0.4",
+    "jsonschema>=4.21",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+    "mypy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/ekras-doloop/sutrakrit-gita"
+Repository = "https://github.com/ekras-doloop/sutrakrit-gita"
+Documentation = "https://github.com/ekras-doloop/sutrakrit-gita/tree/main/docs"
+Issues = "https://github.com/ekras-doloop/sutrakrit-gita/issues"
+
+[tool.setuptools.packages.find]
+where = ["substrate", "scripts"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

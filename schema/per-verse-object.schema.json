@@ -1,0 +1,289 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://gita.ekrasworks.com/schema/per-verse-object.schema.json",
+  "title": "Sūtrakṛt-Gītā Per-Verse Object",
+  "description": "The per-verse object schema for the substrate-rendered Bhagavad Gītā edition. Every verse's rendered output conforms to this schema. Anchor for the substrate-rendered edition's deliverable.",
+  "type": "object",
+  "required": ["verse_id", "mūla", "word_by_word", "intertextual_panel", "doctrinal_projections", "prosodic_information", "theme_list_memberships", "audit_trail"],
+  "properties": {
+    "verse_id": {
+      "type": "string",
+      "pattern": "^[1-9]|1[0-8]\\.[1-9][0-9]?$",
+      "description": "BG verse identifier in chapter.verse form (e.g., '2.55' for Bhagavad Gītā chapter 2 verse 55)."
+    },
+
+    "mūla": {
+      "type": "object",
+      "required": ["devanāgarī", "iast", "speaker", "addressed_to", "chapter_position"],
+      "properties": {
+        "devanāgarī": {
+          "type": "string",
+          "description": "The verse text in Devanāgarī script, from the BORI critical edition."
+        },
+        "iast": {
+          "type": "string",
+          "description": "IAST (International Alphabet of Sanskrit Transliteration) romanization of the verse."
+        },
+        "chant_audio_ref": {
+          "type": "string",
+          "description": "Optional reference path to the verse's chant audio file in the appropriate meter."
+        },
+        "chapter_position": {
+          "type": "string",
+          "description": "Human-readable position descriptor (e.g., 'Chapter 2 (Sāṅkhya-Yoga), verse 55 of 72')."
+        },
+        "speaker": {
+          "type": "string",
+          "enum": ["Krishna", "Arjuna", "Dhṛtarāṣṭra", "Sañjaya"],
+          "description": "Who is speaking the verse."
+        },
+        "addressed_to": {
+          "type": "string",
+          "description": "To whom the verse is addressed, including any vocative forms."
+        }
+      }
+    },
+
+    "word_by_word": {
+      "type": "array",
+      "description": "Array of per-lemma analyses, one entry per content-bearing word in the verse.",
+      "items": {
+        "type": "object",
+        "required": ["surface_form", "lemma", "grammar", "senses_attested_in_panel"],
+        "properties": {
+          "surface_form": {
+            "type": "string",
+            "description": "The word as it appears in the verse (post-sandhi-resolution)."
+          },
+          "lemma": {
+            "type": "string",
+            "description": "The canonical lemma form, identified via vidyut-cheda lemmatization."
+          },
+          "grammar": {
+            "type": "string",
+            "description": "Grammatical analysis (e.g., 'nominative singular masculine', '3rd singular present indicative active')."
+          },
+          "senses_attested_in_panel": {
+            "type": "array",
+            "description": "Ranked list of senses attested for this lemma across the commentator panel.",
+            "items": {
+              "type": "object",
+              "required": ["sense", "weight"],
+              "properties": {
+                "sense": {
+                  "type": "string",
+                  "description": "Brief gloss of this sense, in English."
+                },
+                "school": {
+                  "type": "string",
+                  "description": "If the sense is school-specific, the school that attests it (advaita / viśiṣṭādvaita / dvaita / bhakti / yoga-aligned / etc.)."
+                },
+                "weight": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1,
+                  "description": "Panel-evidence weight for this sense in this verse-context."
+                },
+                "witnesses": {
+                  "type": "array",
+                  "description": "Array of commentary-source identifiers that attest this sense for this lemma in this verse.",
+                  "items": {"type": "string"}
+                }
+              }
+            }
+          },
+          "theme_lists": {
+            "type": "array",
+            "description": "Theme-list identifiers this lemma participates in (e.g., 'sthitaprajña-lakṣaṇa', 'jñāna-yoga-marks').",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+
+    "intertextual_panel": {
+      "type": "array",
+      "description": "Top-K Bhagavad Gītā verses ranked by the substrate's full score as candidate intertexts for this verse, with score decomposed by feature.",
+      "items": {
+        "type": "object",
+        "required": ["verse", "type", "score", "feature_breakdown"],
+        "properties": {
+          "verse": {
+            "type": "string",
+            "pattern": "^[1-9]|1[0-8]\\.[1-9][0-9]?$",
+            "description": "The candidate intertext verse (chapter.verse)."
+          },
+          "type": {
+            "type": "string",
+            "description": "Substrate-classified type of intertextual relationship (e.g., 'definitional-elaboration', 'thematic-cluster continuation', 'echo at chapter-distance')."
+          },
+          "score": {
+            "type": "number",
+            "minimum": 0,
+            "description": "Composite substrate score for this candidate."
+          },
+          "feature_breakdown": {
+            "type": "object",
+            "description": "Decomposition of the composite score by individual substrate feature.",
+            "properties": {
+              "cosine": {"type": "number", "description": "mE5 cosine similarity contribution"},
+              "substring": {"type": "number", "description": "Substring-match contribution"},
+              "theme_graph": {"type": "number", "description": "Theme-graph co-membership contribution"},
+              "vocative": {"type": "number", "description": "Vocative-cue contribution"},
+              "lemma_overlap": {"type": "number", "description": "Lemma-IDF overlap contribution"},
+              "stem_prefix": {"type": "number", "description": "Stem-prefix overlap contribution"}
+            }
+          }
+        }
+      }
+    },
+
+    "doctrinal_projections": {
+      "type": "object",
+      "description": "Per-school reading projections, surfaced from the panel commentaries. Each school's projection is queryable independently.",
+      "properties": {
+        "advaita": {"$ref": "#/$defs/doctrinal_projection"},
+        "viśiṣṭādvaita": {"$ref": "#/$defs/doctrinal_projection"},
+        "dvaita": {"$ref": "#/$defs/doctrinal_projection"},
+        "bhakti": {"$ref": "#/$defs/doctrinal_projection"},
+        "śuddhādvaita": {"$ref": "#/$defs/doctrinal_projection"},
+        "yoga-aligned": {"$ref": "#/$defs/doctrinal_projection"},
+        "karma-yoga-modernist": {"$ref": "#/$defs/doctrinal_projection"},
+        "integral-yoga": {"$ref": "#/$defs/doctrinal_projection"}
+      }
+    },
+
+    "prosodic_information": {
+      "type": "object",
+      "required": ["meter"],
+      "properties": {
+        "meter": {
+          "type": "string",
+          "enum": ["anuṣṭubh", "triṣṭubh", "jagatī", "indravajrā", "upajāti", "vaṃśastha", "śālinī", "praharṣiṇī", "mālinī", "śārdūlavikrīḍita", "sragdharā", "other"],
+          "description": "Meter identification for this verse."
+        },
+        "meter_shift_from_previous": {
+          "type": "boolean",
+          "description": "True if this verse's meter differs from the immediately preceding verse, signaling a topic transition."
+        },
+        "meter_shift_to_next": {
+          "type": "boolean",
+          "description": "True if the immediately following verse's meter differs from this one's."
+        },
+        "meter_shifts_in_chapter": {
+          "type": "array",
+          "description": "Verses in the same chapter where meter shifts occur, providing thematic-structure context.",
+          "items": {"type": "string"}
+        },
+        "pragmatic_context": {
+          "type": "object",
+          "description": "Discourse-frame context for the verse.",
+          "properties": {
+            "vocative": {"type": "string", "description": "Vocative used to address the listener (e.g., 'Pārtha', 'Bhārata', 'Kaunteya')"},
+            "vocative_cluster": {"type": "string", "description": "Description of the vocative's cluster pattern in the BG"},
+            "preceding_question": {"type": "string", "description": "If this verse is a response, the preceding question's verse-id and content"},
+            "following_response": {"type": "string", "description": "If this verse evokes a response, the following response's verse-id and content"}
+          }
+        }
+      }
+    },
+
+    "theme_list_memberships": {
+      "type": "array",
+      "description": "Theme-list memberships for this verse, identifying its role in each thematic cluster the substrate recognizes.",
+      "items": {
+        "type": "object",
+        "required": ["list", "role"],
+        "properties": {
+          "list": {
+            "type": "string",
+            "description": "Theme-list identifier (e.g., 'sthitaprajña-lakṣaṇa', 'bhakta-lakṣaṇa', 'ātma-svarūpa')."
+          },
+          "role": {
+            "type": "string",
+            "enum": ["anchor", "supporting", "elaboration", "transitional", "closing"],
+            "description": "This verse's role within the theme-list."
+          },
+          "other_verses_in_list": {
+            "type": "array",
+            "description": "Other verses participating in this theme-list.",
+            "items": {"type": "string"}
+          }
+        }
+      }
+    },
+
+    "audit_trail": {
+      "type": "object",
+      "required": ["substrate_version", "fitted_weights", "corpus_provenance", "extraction_date"],
+      "properties": {
+        "substrate_version": {
+          "type": "string",
+          "description": "Version identifier of the Sūtrakṛt substrate used to render this verse (e.g., 'v2.6-frozen')."
+        },
+        "fitted_weights": {
+          "type": "object",
+          "description": "The frozen weight values used by the substrate for this rendering.",
+          "properties": {
+            "a": {"type": "number", "description": "Cosine-similarity weight"},
+            "b": {"type": "number", "description": "Theme-graph-co-membership weight"},
+            "e_v": {"type": "number", "description": "Vocative-signal weight"},
+            "z": {"type": "number", "description": "Substring-match weight"},
+            "h": {"type": "number", "description": "Lemma-IDF-overlap weight"},
+            "th": {"type": "number", "description": "Stem-prefix-overlap weight"}
+          }
+        },
+        "corpus_provenance": {
+          "type": "object",
+          "description": "Source corpora used in the rendering.",
+          "properties": {
+            "mūla": {"type": "string", "description": "Source for the verse's mūla text (e.g., 'Belvalkar critical edition (BORI 1947)')"},
+            "panel_witnesses": {
+              "type": "array",
+              "description": "Identifier list of all commentator corpora consulted in producing this object.",
+              "items": {"type": "string"}
+            }
+          }
+        },
+        "extraction_date": {
+          "type": "string",
+          "format": "date",
+          "description": "Date the per-verse object was rendered."
+        },
+        "score_methodology_documented_at": {
+          "type": "string",
+          "description": "Reference to the published paper section documenting the substrate's scoring methodology (default: Paper-1 Section II)."
+        }
+      }
+    }
+  },
+
+  "$defs": {
+    "doctrinal_projection": {
+      "type": "object",
+      "required": ["reading_summary", "score"],
+      "properties": {
+        "reading_summary": {
+          "type": "string",
+          "description": "Brief English summary of how this school reads the verse."
+        },
+        "key_cross_references": {
+          "type": "array",
+          "description": "Cross-reference verses that this school's reading particularly emphasizes for this verse.",
+          "items": {"type": "string"}
+        },
+        "witness_passages": {
+          "type": "array",
+          "description": "Source-commentary passages that license this projection.",
+          "items": {"type": "string"}
+        },
+        "score": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "Confidence score for this school's projection at this verse, based on panel evidence density."
+        }
+      }
+    }
+  }
+}
