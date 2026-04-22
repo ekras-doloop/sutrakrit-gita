@@ -310,7 +310,8 @@
         "shankara_16.15",
         "anandgiri_16.15"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita locates the error in ahamkara mistaking the field for the knower of the field."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -328,7 +329,8 @@
         "madhva_16.15",
         "jayatirtha_16.15"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita's distinctive term is paratantryata (dependence on Hari) — the asura's error is claiming svatantryata (independence)."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -344,7 +346,8 @@
       "witness_passages": [
         "sridhara_16.15"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara adds 'prestige over other initiates' as the specific social telos of yajna — absent in other bhashyas."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -352,6 +355,15 @@
       "witness_passages": [
         "madhusudan_16.15"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana uniquely specifies nartakyadibhih (dancing-girls) and vibhrama-parampara (cascade of delusions) — absent in all other bhashyas."
+    },
+    "visistadvaita": {
+      "divergence_note": "Vishishtadvaita uniquely names Ishvara-nirapeksha (grace-rejection) as the structural sin; Advaita names aviveka.",
+      "score": 0.5
+    },
+    "suddhadvita": {
+      "divergence_note": "Shuddhadvaita alone finds tragic irony: the asura names the truth ('I am the Lord') but seizes it without grace.",
       "score": 0.5
     }
   },
@@ -510,5 +522,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "When I feel most self-sufficient — in competence, status, or generosity — is that confidence grounded in something real, or is it the asura's 'adhyo'ham' replaying in modern dress?",
+    "The verse lists three acts: yajna (sacrifice/ritual effort), dana (giving), and bhoga (enjoyment). How do I distinguish giving that reinforces self-image from giving that genuinely releases attachment?",
+    "Ramanuja says the asura's core error is Ishvara-nirapeksha — acting as if grace plays no role. What does it mean practically to hold one's competence as gift rather than achievement?",
+    "Madhusudana describes 'vibhrama-parampara' — a cascade of delusions feeding each other. What triggers in my own life set off self-reinforcing spirals of pride, and what breaks the chain?",
+    "Vallabha reads 'Ishvaro'ham asmi' as an accidentally true statement seized without grace. Is there a version of self-confidence that carries this truth without the asura's possessiveness?",
+    "Sridhara notes the asura performs yajna (sacrifice) for pratishtham (social prestige) over other dikshitas (initiates). In professional or spiritual communities, how does competitive spiritual performance operate today?",
+    "All six schools agree the asura is 'ajnana-vimohitah' (deluded by ignorance) — but they disagree on what the ignorance is about. Which diagnosis feels most alive for the errors I personally make: aviveka (Advaita), grace-rejection (Vishishtadvaita), false autonomy (Dvaita), misappropriated truth (Shuddhadvaita), prestige-seeking (Bhakti), or self-reinforcing spiral (Advaita-Bhakti)?"
+  ],
+  "everyday_applications": {
+    "advaita": "Notice the moment you say 'I built this' or 'I deserve this' and ask: which part of that is the kshetra (body, mind, memory) speaking, and which part is the kshetrajna (the knowing witness)? The asura's boast lives in every performance review, every LinkedIn post, every comparison with a peer. The Advaita practice is not to deny accomplishment but to locate the 'I' that claims it — and find it absent.",
+    "visistadvaita": "Before any significant act of giving — a donation, a favor, a speech — pause and ask: 'Am I giving because I want to be seen as a giver, or as an offering into the Lord's economy?' Ramanuja's asura gives to flatterers (stavakebhyah) expecting reciprocal prestige. The Vishishtadvaita alternative is to give as kainkarya (service) with no account ledger running — the outcome is Bhagavan's business, not yours.",
+    "dvaita": "When you succeed at something — a project, a negotiation, a creative work — practice the Dvaita audit: list every dependency that made the outcome possible (teachers, tools, luck, others' labor, Krishna's will). The asura collapses this list to zero and says 'I alone.' Madhva's remedy is paratantryata as a daily discipline: the jiva is real, capable, and also always an instrument in Hari's hands.",
+    "suddhadvita": "Vallabha's insight is that the asura's pleasures (modisye) are real pleasures — the same bliss Krishna pours into lila. The Pushti-marga application: do not suppress joy or achievement, but receive it as prasada rather than claiming it as conquest. When you feel genuine delight in your work, in a meal, in music — can you hold it as gift rather than trophy? That shift from bhoga to prasada is the Shuddhadvaita move.",
+    "bhakti": "Sridhara names the specific trap: performing religious or professional 'sacrifice' (yajna) for prestige among one's peer group (pratishtham among dikshitantarebhyah). Check your spiritual and professional communities: are you presenting, donating, or volunteering in ways calibrated to social standing? The Bhakti corrective is simple but uncomfortable — do something significant that no one in your community will ever know about.",
+    "advaita-bhakti": "Madhusudana's 'vibhrama-parampara' (cascade of delusions) is recognizable as the modern anxiety spiral: I need to succeed → to be seen succeeding → to outperform peers → to give publicly → to be praised → to feel secure enough to enjoy. Each step is defensible; the chain is imprisoning. The Advaita-Bhakti intervention is to find the ONE link in that chain you can snap today — not fix the whole spiral, just refuse one reinforcing move — and see what happens."
   }
 }

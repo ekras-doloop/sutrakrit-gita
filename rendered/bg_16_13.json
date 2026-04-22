@@ -279,7 +279,8 @@
         "shankara_16.13",
         "anandgiri_16.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara emphasizes cognitive error (the root in mithya-jnana) over moral failure — the asura is not evil so much as epistemically blind."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -297,7 +298,8 @@
         "madhva_16.13",
         "jayatirtha_16.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "FLAG: Madhva bhashya absent for this verse. Rendering is doctrinal projection only, not anchored in attested commentary."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -313,7 +315,8 @@
       "witness_passages": [
         "sridhara_16.13"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's contribution is structural: he is the only school here that explicitly frames 16.13 as part of a four-verse syntactic unit with a deferred predicate."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -321,6 +324,15 @@
       "witness_passages": [
         "madhusudan_16.13"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana alone lexically unpacks 'upaya' (method/means) — the asura is not just acquisitive but strategically acquisitive, which deepens the moral indictment."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Ramanuja uniquely specifies kshetra-putra (fields, sons) as the objects of possessive pride, grounding the verse in householder reality and making the contrast with kainkarya vivid.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha's terse treatment contrasts sharply with Shankara and Madhusudana's analytical expansion; the rendering emphasizes grace-absence rather than cognitive or moral failure.",
       "score": 0.5
     }
   },
@@ -362,5 +374,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "When I mentally catalogue what I have, what I am about to get, and what I expect next year — am I engaging in legitimate planning or asuric mano-rajya (mind-kingdom fantasy)?",
+    "The asura says 'maya labdham' (obtained by me) — where in my own life do I systematically erase the contributions of grace, community, or fortune from my sense of achievement?",
+    "Ramanuja's asura denies adrshta (unseen merit/consequence) entirely. What would change in my decisions if I genuinely factored in consequences I cannot see?",
+    "Sridhara links this verse syntactically to hell-arrival four verses later. What is the 'fourth verse' in my own behavioral loops — the eventual consequence I keep deferring acknowledgment of?",
+    "Madhusudana unpacks the asura's four time-registers of craving. Which register dominates my own relationship to wealth: anxiety about the past, urgency about the present, fantasy about the near future, or projection about next year?",
+    "All six schools agree that the asuric voice is self-enclosed — no Bhagavan, no dharma, no community in the grammar of 'mine.' What would it cost me to insert even one outward acknowledgment into my mental accounting?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you succeed at work or accumulate savings, notice the mental voice that says 'I earned this by my intelligence and effort.' Shankara's reading invites a single disruptive question: who exactly is the 'I' that earned? Even brief inquiry into the witness behind the earner loosens the grip of accumulation-identity without requiring you to give anything away.",
+    "vishishtadvaita": "Before a major financial or career move, Ramanuja's asura is a mirror-test: am I crediting only 'my capability' or can I name the conditions, people, and grace that made this possible? A practice: before signing any significant agreement, write one sentence acknowledging one factor you did not control. This is not false humility — it is the structural corrective to the asuric erasure.",
+    "dvaita": "Madhva's frame (even inferred) asks: are you acting as if you are self-sovereign in this domain? In family or work disputes about resources, the Dvaita corrective is to ask what Hari-ordered dharma requires of you in this role — not what you are entitled to extract from it. The jiva as steward, not owner.",
+    "shuddhadvaita": "Vallabha's terseness points to a direct practice: if you find yourself in the asuric catalogue-loop (got this, will get that, already have this, will have more), it is a signal that you are running on empty — prasada (grace, delight) has not touched that domain of life. The corrective is not willpower but seeking contact with the beautiful, the devotional, the lila-saturated. Restock the grace account.",
+    "bhakti": "Sridhara's structural point is practically useful: our asuric wishes rarely travel alone. Identify the 'fourth verse' in your own sequence — the consequence that trails your craving-cycles. Not to generate guilt, but to see the full syntactic unit of your behavior before you are living inside the consequence verse.",
+    "advaita-bhakti": "Madhusudana's 'upaya' (method) detail is the sharpest modern mirror: we are not just acquisitive but strategically acquisitive — optimizing methods, A/B testing approaches, building systems to maximize gain. The question he raises is whether dhana-trsna has colonized your planning apparatus. One practical check: review your last quarterly goals. How many were about receiving versus giving, building versus releasing?"
   }
 }

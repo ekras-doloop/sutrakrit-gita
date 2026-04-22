@@ -327,7 +327,8 @@
         "shankara_16.14",
         "anandgiri_16.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara does not moralize; he catalogs the claims clinically as symptoms of ahamkara, leaving the soteriological diagnosis implicit."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -345,7 +346,8 @@
         "madhva_16.14",
         "jayatirtha_16.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "The Dvaita school alone emphasizes the constitutive (not merely circumstantial) nature of asuric opposition to Bhagavan — a harder theological position than correction-by-knowledge."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -361,7 +363,8 @@
       "witness_passages": [
         "sridhara_16.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's restraint contrasts with Madhusudan's expansive psychological unpacking — both are bhakti-inflected, but Sridhara trusts the text's self-evidence while Madhusudan teaches through elaboration."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -369,6 +372,15 @@
       "witness_passages": [
         "madhusudan_16.14"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudan alone makes the psychological sequencing explicit — lobha (greed) generates the fantasy of ishvarata (lordship), which in turn demands krodha-fueled elimination of all rivals; this cascade reading is absent in the other schools."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Unlike Shankara who targets ahamkara as cognitive error, Ramanuja targets the theological usurpation of divine attributes — a distinction with devotional import.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha alone frames the error as severed ananda rather than usurped sovereignty or cognitive avidya — the devotional valence is experiential, not primarily epistemic.",
       "score": 0.5
     }
   },
@@ -440,5 +452,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "When I recite my accomplishments to myself — promotions won, adversaries outmaneuvered, goals achieved — am I describing reality or building the asuric interior monologue this verse catalogs?",
+    "The verse strings together five self-attributions: lord, enjoyer, accomplished, powerful, happy. Which of these do I most habitually claim as self-originating rather than received?",
+    "Ramanuja's gloss turns on 'svatas' (by myself) repeated three times. Where in my life do I most insist that my competence, pleasure, or well-being originates in me rather than through conditions and grace?",
+    "Shankara sees the boast of incomparability ('none equals me') as the diagnostic marker of asuric ahamkara. What triggers that particular boast in me, and what does it protect?",
+    "Madhusudan traces the sequence: greed generates a fantasy of godhood, which demands the elimination of rivals. Can I trace a moment when financial or competitive anxiety escalated into a felt need to 'destroy' a competitor rather than simply outperform them?",
+    "Sridhara calls the verse 'spashta' (self-evident) — implying the asuric voice condemns itself without commentary. Are there places where I speak in ways that, heard back on recording, would be equally self-condemning?",
+    "Vallabha's correction is not 'stop enjoying' but 'stop severing the enjoyment from its source.' What would it change practically if every act of strength or success were felt as participation in something larger rather than personal trophy?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita",
+      "application": "When a difficult project succeeds, pause before the performance review and ask: 'Who actually did this?' Not as false modesty, but as genuine inquiry into kartrtva (doership). If the honest answer is 'a combination of prior causes, team, circumstance, and an awareness that witnessed it all,' let that recognition replace the asuric monologue this verse describes. The Advaitin practice is not self-erasure but kartrtva-viveka — discernment about the agent."
+    },
+    "vishishtadvaita": {
+      "school": "Vishishtadvaita",
+      "application": "After a competitive win — in business, sport, or argument — offer the outcome explicitly to Bhagavan before claiming it. The Vishishtadvaita practitioner would say: 'This strength, this victory, is Narayana's shakti (divine power) working through this body-mind.' The practical discipline is the moment of attribution before the moment of enjoyment — reversing the sequence the asura performs by claiming sovereignty first and enjoyment second."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "Notice the specific moment when competitive drive tips into the felt need to 'destroy' rather than simply excel. Dvaita names this as the signature of Hari-dvesha (turning away from Hari's order) — not merely ego but an active alignment against the grain of divine will. The corrective is japa (repetition of Hari's name) precisely at that tipping point: the name reinstates the hierarchy that the asuric impulse collapses."
+    },
+    "shuddhadvaita": {
+      "school": "Shuddhadvaita",
+      "application": "In Pushti-marga practice, seva (devotional service) is the antidote because it structurally prevents the asuric appropriation this verse describes: when every act is framed as an offering to Shrinathji, the 'I killed, I shall kill, I am lord' monologue has nowhere to land. The practical instruction is to begin the workday with an explicit offering of all anticipated victories to Krishna — not as ritual formality but as a pre-commitment that protects against the lobha-krodha cascade Madhusudan identifies."
+    },
+    "bhakti": {
+      "school": "Bhakti (Sridhara)",
+      "application": "Sridhara's key gloss is 'siddha = kritakrtyah' — 'accomplished' in the worldly sense. The bhakti corrective is to ask daily: by whose standard am I siddha? If the answer is purely social — income, status, reputation — the asuric frame has been accepted. Kritakrtyata (true fulfillment) in bhakti means only one thing: has today's living deepened bhagavat-priti (love of Bhagavan)? Make this the only success metric that closes the day."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-Bhakti (Madhusudan)",
+      "application": "Madhusudan's psychological cascade — greed feeds godhood-fantasy feeds violence — suggests a specific intervention point: intercept at the lobha (greed) stage before it escalates to the ishvarata (lord) claim. The Advaita-bhakti practitioner uses Krishna-smarana (remembrance of Krishna) the moment acquisitive desire arises, not after it has generated the full asuric monologue. The bhakti element is the name; the Advaita element is the recognition that the grasping self who wants more is itself a construct on the awareness that needs nothing."
+    }
   }
 }
