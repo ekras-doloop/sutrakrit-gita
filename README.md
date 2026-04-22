@@ -31,19 +31,18 @@ sutrakrit-gita/
 ├── web/              # Frontend code for gita.ekrasworks.com
 ├── scripts/          # Build pipeline scripts
 ├── tests/            # Validation tests against the panel
-├── papers/           # The three Sūtrakṛt papers (intellectual foundation)
 └── docs/             # Architecture documentation
 ```
 
 ## The intellectual foundation
 
-This work rests on three companion papers (in `papers/`):
+This work rests on three companion research papers (forthcoming):
 
 1. **Sūtrakṛt: A Computational Substrate for Cross-Reference Retrieval Across the Bhagavad Gītā Commentary Tradition** — the empirical substrate validation across an eight-commentator panel
 2. **Bounded Polysemy as the Architecture of Long-Lived Texts** — the architectural framework with the four-metric faithfulness evaluation
 3. **Convergent Validation in Computational Hermeneutics** — the methodology that escapes authority-based validation's self-reference trap
 
-The papers articulate the methodological commitments under which this edition is built; the edition is the operational instantiation that the methodology licenses.
+The papers articulate the methodological commitments under which this edition is built; the edition is the operational instantiation that the methodology licenses. Citations and links will be added to this README upon formal publication of the papers.
 
 ## Build status
 
@@ -68,7 +67,7 @@ Code: MIT License (see `LICENSE`). Per-verse rendered objects: CC-BY 4.0 (see `L
 
 ## Citation
 
-If you use this work, please cite the three companion papers (citation details forthcoming on first paper publication).
+If you use this work, please cite the three companion research papers (publication forthcoming; citation details will be added here when available).
 
 ## Contact
 

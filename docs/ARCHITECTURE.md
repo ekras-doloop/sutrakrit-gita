@@ -108,10 +108,6 @@ Validation tests:
 - `test_substrate_recall.py` — substrate's recall@4 on the panel matches committed expected values (regression test)
 - `test_audit_trail_completeness.py` — every claim in every per-verse object has a corpus-provenance entry
 
-### `papers/`
-
-The three Sūtrakṛt papers — the intellectual foundation of the project. Reference, not source code.
-
 ### `docs/`
 
 Architecture documentation (this file plus others).
@@ -175,4 +171,4 @@ Code is MIT-licensed (`LICENSE`). Per-verse rendered objects and panel data are 
 
 ## Citations
 
-If using this work, cite the three companion papers in `papers/`. Citation format will be finalized when papers are formally published.
+If using this work, cite the three companion research papers (forthcoming). Citation format will be finalized when papers are formally published; canonical citation strings will appear here.
