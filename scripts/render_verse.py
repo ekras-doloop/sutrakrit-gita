@@ -4,29 +4,20 @@ into a per-verse object conforming to schema/per-verse-object.schema.json.
 Usage:
     python scripts/render_verse.py --verse 2.55 --output rendered/bg_2_55.json
 
-This is the substantive renderer. It produces a fully-populated per-verse
-object using the substrate's intertextual scoring and the panel data's
-school-attested cross-references. Doctrinal projections are surfaced from
-the panel commentaries; theme-list memberships from the lists graph;
-prosodic information from per-verse metadata; audit trail from substrate
-configuration.
+This is the substantive renderer. It produces a per-verse object using:
+  - the substrate's intertextual scoring (substrate/sutrakrit.py)
+  - the panel data's school-attested cross-references
+  - vidyut-lipi for IAST transliteration
+  - substrate.prosody for meter detection
+  - the lists graph for theme-list memberships
 
-Limitations of this initial implementation:
-  - The word_by_word section uses vidyut-cheda's tokenization but does not
-    yet surface per-lemma school-conditioned senses (this requires a
-    sense-extraction pass over the panel that is not yet built; for now
-    each lemma surfaces an empty senses_attested_in_panel list with a
-    comment for the next-pass build).
-  - Prosodic information uses a simple meter detector (anuṣṭubh by default;
-    actual chhandas analysis requires per-verse syllable-counting that is
-    next-pass work).
-  - Pragmatic context (speaker / vocative) is pulled from a small lookup
-    table; the next pass will compute this from the verse's grammatical
-    structure.
-
-These limitations are documented in the audit_trail.notes field of each
-rendered object so a downstream reader knows what is substrate-computed
-vs. placeholder.
+Refinements still on the build queue (each marked '(forthcoming)' in
+output where applicable):
+  - Per-lemma surface-form/grammar via vidyut.prakriya
+  - Per-lemma school-conditioned sense extraction from panel commentary
+  - Reading-summary extraction per school's commentary
+  - Pragmatic-context vocative detection
+  - Prev/next verse meter-shift signals
 """
 
 from __future__ import annotations
@@ -41,13 +32,11 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT))
 
 from substrate import FROZEN_WEIGHTS, Substrate  # noqa: E402
+from substrate.prosody import detect_meter, detect_meter_shift  # noqa: E402
 
-# Speaker / vocative lookup for known segments. The full BG dialogue
-# structure is well-documented; this initial pass uses a coarse map.
-# Refinements per-chapter and per-verse come in the next pass.
 DIALOGUE_MAP = {
-    "1": ("Arjuna", "Krishna"),  # Arjuna's lament dominates Ch.1
-    "2": ("Krishna", "Arjuna"),  # Krishna's response begins
+    "1": ("Arjuna", "Krishna"),
+    "2": ("Krishna", "Arjuna"),
     "3": ("Krishna", "Arjuna"),
     "4": ("Krishna", "Arjuna"),
     "5": ("Krishna", "Arjuna"),
@@ -56,7 +45,7 @@ DIALOGUE_MAP = {
     "8": ("Krishna", "Arjuna"),
     "9": ("Krishna", "Arjuna"),
     "10": ("Krishna", "Arjuna"),
-    "11": ("Krishna", "Arjuna"),  # Viśvarūpa-darśana
+    "11": ("Krishna", "Arjuna"),
     "12": ("Krishna", "Arjuna"),
     "13": ("Krishna", "Arjuna"),
     "14": ("Krishna", "Arjuna"),
@@ -87,7 +76,6 @@ CHAPTER_NAMES = {
     "18": "Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)",
 }
 
-# School identifiers used in the panel-data filenames
 SCHOOLS = {
     "advaita": ["shankara", "anandgiri"],
     "viśiṣṭādvaita": ["ramanuja", "vedantadeshika"],
@@ -96,6 +84,25 @@ SCHOOLS = {
     "bhakti": ["sridhara"],
     "advaita-bhakti": ["madhusudan"],
 }
+
+
+def _to_iast(devanagari: str) -> str:
+    """Transliterate Devanāgarī to IAST via vidyut-lipi."""
+    try:
+        from vidyut.lipi import Scheme, transliterate
+
+        return transliterate(devanagari, Scheme.Devanagari, Scheme.Iast)
+    except Exception:
+        return ""
+
+
+def _adjacent_verse_id(verse_id: str, offset: int) -> str | None:
+    """Return the verse_id offset positions away in the BG sequence (within chapter)."""
+    chapter, verse_num = verse_id.split(".")
+    new_verse = int(verse_num) + offset
+    if new_verse < 1:
+        return None
+    return f"{chapter}.{new_verse}"
 
 
 def parse_args() -> argparse.Namespace:
@@ -113,17 +120,8 @@ def parse_args() -> argparse.Namespace:
         type=Path,
         help="Output path for the rendered JSON object",
     )
-    parser.add_argument(
-        "--top-k",
-        type=int,
-        default=8,
-        help="Number of intertextual candidates to include in the panel (default: 8)",
-    )
-    parser.add_argument(
-        "--substrate-version",
-        default="v2.6-frozen",
-        help="Substrate version identifier to record in audit_trail",
-    )
+    parser.add_argument("--top-k", type=int, default=8)
+    parser.add_argument("--substrate-version", default="v2.6-frozen")
     return parser.parse_args()
 
 
@@ -139,17 +137,16 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     chapter_name = CHAPTER_NAMES.get(chapter, f"Chapter {chapter}")
 
     # --- mūla section -------------------------------------------------
+    iast = _to_iast(devanagari)
     mula = {
         "devanāgarī": devanagari,
-        "iast": "(transliteration via vidyut.lipi forthcoming in next-pass build)",
+        "iast": iast,
         "chapter_position": f"Chapter {chapter} ({chapter_name}), verse {verse_num}",
         "speaker": speaker,
         "addressed_to": addressed,
     }
 
     # --- intertextual_panel section ----------------------------------
-    # Use the verse's own text as the query phrase; this surfaces the verses
-    # most thematically/lexically/structurally close to the source verse.
     candidates = sub.score_query(verse_id, devanagari, top_k=top_k)
     intertextual_panel = [
         {
@@ -162,38 +159,40 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     ]
 
     # --- doctrinal_projections section -------------------------------
-    # For each major school, surface whether the school's commentators
-    # commented on this verse (basic presence detection; substantive
-    # reading-summary extraction is next-pass work).
     doctrinal_projections = {}
     for school, commentators in SCHOOLS.items():
         witness_passages = []
-        commentary_present = False
         for c in commentators:
             prose = sub.panel_commentary_for(c, verse_id)
             if prose:
-                commentary_present = True
                 witness_passages.append(f"{c}_{verse_id}")
-        if commentary_present:
+        if witness_passages:
             doctrinal_projections[school] = {
                 "reading_summary": (
-                    "(reading summary extraction from school commentary forthcoming "
-                    "in next-pass build)"
+                    "(reading summary extraction from school commentary "
+                    "forthcoming in next-pass build)"
                 ),
                 "key_cross_references": [],
                 "witness_passages": witness_passages,
-                "score": 0.5,  # placeholder until reading-summary scoring lands
+                "score": 0.5,
             }
 
     # --- prosodic_information section --------------------------------
-    # Coarse default: assume anuṣṭubh (the BG's dominant meter).
-    # Per-verse meter detection via syllable-counting forthcoming.
+    meter, meter_diag = detect_meter(devanagari)
+
+    prev_id = _adjacent_verse_id(verse_id, -1)
+    next_id = _adjacent_verse_id(verse_id, +1)
+    prev_text = sub.get_verse(prev_id) if prev_id else ""
+    next_text = sub.get_verse(next_id) if next_id else ""
+    prev_meter = detect_meter(prev_text)[0] if prev_text else meter
+    next_meter = detect_meter(next_text)[0] if next_text else meter
+
     prosodic_information = {
-        "meter": "anuṣṭubh",  # default; refine per-verse next pass
-        "meter_shift_from_previous": False,
-        "meter_shift_to_next": False,
+        "meter": meter,
+        "meter_shift_from_previous": detect_meter_shift(prev_meter, meter) if prev_text else False,
+        "meter_shift_to_next": detect_meter_shift(meter, next_meter) if next_text else False,
         "pragmatic_context": {
-            "vocative": "(vocative-detection from verse parsing forthcoming)",
+            "vocative": "(vocative detection forthcoming)",
             "preceding_question": "",
             "following_response": "",
         },
@@ -202,22 +201,17 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
     # --- theme_list_memberships section -------------------------------
     theme_lists = sub.theme_lists_for(verse_id)
     theme_list_memberships = [
-        {
-            "list": tl,
-            "role": "supporting",  # role differentiation forthcoming
-            "other_verses_in_list": [],
-        }
+        {"list": tl, "role": "supporting", "other_verses_in_list": []}
         for tl in sorted(theme_lists)
     ]
 
     # --- word_by_word section ----------------------------------------
-    # Lemmatize the verse; per-lemma sense extraction is next-pass work.
-    lemmas = sub._lemmatize(devanagari)  # noqa: SLF001 — direct call OK in pipeline
+    lemmas = sub._lemmatize(devanagari)  # noqa: SLF001
     word_by_word = [
         {
-            "surface_form": "(surface-form extraction forthcoming)",
+            "surface_form": "(forthcoming)",
             "lemma": lemma,
-            "grammar": "(grammatical analysis forthcoming via vidyut.prakriya)",
+            "grammar": "(forthcoming via vidyut.prakriya)",
             "senses_attested_in_panel": [],
             "theme_lists": [],
         }
@@ -231,16 +225,9 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
         "corpus_provenance": {
             "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
             "panel_witnesses": [
-                "bg-mula",
-                "bg-shankara",
-                "bg-ramanuja",
-                "bg-madhva",
-                "bg-vedantadeshika",
-                "bg-vallabha",
-                "bg-jayatirtha",
-                "bg-anandgiri",
-                "bg-sridhara",
-                "bg-madhusudan",
+                "bg-mula", "bg-shankara", "bg-ramanuja", "bg-madhva",
+                "bg-vedantadeshika", "bg-vallabha", "bg-jayatirtha",
+                "bg-anandgiri", "bg-sridhara", "bg-madhusudan",
             ],
         },
         "extraction_date": date.today().isoformat(),
