@@ -344,7 +344,8 @@
         "shankara_5.19",
         "anandgiri_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara explicitly rebuts the Gautama-smṛti objection that equal treatment of unequal persons is a ritual fault; he restricts that rule to worshippers who retain body-identification. The jīvanmukta stands outside it entirely."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -353,7 +354,8 @@
         "ramanuja_5.19",
         "vedantadeshika_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja shifts the locus of sameness from Brahman-as-undifferentiated-consciousness to the shared essence of all ātmans as a class — they are equal in being knowers, not in being identical with Brahman."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -362,7 +364,8 @@
         "madhva_5.19",
         "jayatirtha_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "BHĀṢYA FLAG: Madhva's commentary on this verse is a single summary sentence ('tadaiva stauti ihaiveti') with no independent elaboration. This rendering is the complete extent of his textual witness; no further doctrinal expansion is warranted from the supplied bhāṣya."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -370,7 +373,8 @@
       "witness_passages": [
         "vallabha_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha anchors the verse in tādātmya — ontological identity through matching quality — rather than in jñāna or bhakti as separate means; this is distinctively Puṣṭi: the mind that becomes sāmya does not reach Brahman, it becomes Brahman."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -378,7 +382,8 @@
       "witness_passages": [
         "sridhara_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara foregrounds the legal-theological tension (Gautama vs. the verse) more explicitly than any other commentator, and resolves it chronologically: the smṛti-rule applies before brahma-bhāva is attained; post-attainment, it is simply inapplicable."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -386,7 +391,8 @@
       "witness_passages": [
         "madhusudan_5.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana deploys a double exoneration: first, Brahman is immune to impurity both externally (asaṅgatva, like ākāśa and the sun) and internally (kāmādi are antaḥkaraṇa-dharma, not ātma-dharma); second, the smṛti restriction is socially scoped to householders, making jīvanmukta renunciants structurally exempt."
     }
   },
   "prosodic_information": {
@@ -503,5 +509,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If sarga (rebirth / world-projection) is conquered here in life by equanimity alone, what work remains for post-mortem liberation — and do the six schools agree on the answer?",
+    "Brahman is said to be nirdoṣa (faultless) even when pervading beings who carry faults — what is the precise mechanism of non-contamination, and does it differ between the ākāśa-analogy (Advaita/Advaita-Bhakti) and the prakṛti-purification model (Viśiṣṭādvaita)?",
+    "The verse places sāmya (equanimity) in the mind (manas) as the condition for brahma-sthiti — is this an epistemic claim (the mind correctly perceives Brahman everywhere) or an ontological one (the mind's quality changes and it becomes Brahman), and which schools read which way?",
+    "Śrīdhara and Madhusūdana both engage the Gautama-smṛti rule against treating unequals as equal — if the jīvanmukta is exempt from social-ritual hierarchy, what are the practical implications for how a living-liberated person behaves in community?",
+    "Madhva's near-silence on this verse is itself data — why might a Dvaita reading have little to add to a verse that collapses the jīva-Brahman distinction so completely, and what does that silence reveal about the verse's doctrinal pressure?",
+    "Vallabha reads sāmya as tādātmya (ontological identity by matching quality) — how does this differ from Śaṅkara's reading that the wise person simply ceases to misidentify with the body, and what spiritual practice follows from each reading?",
+    "The verse uses 'iha eva' (here itself, right now) — across all six schools, does conquest of sarga require a final event (death, formal renunciation, initiation) or is it available in any ordinary moment of genuine equanimity?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "When you feel stung by an insult or inflated by praise, pause and ask: which layer is reacting? Śaṅkara's point is that the reaction belongs to the body-aggregate (deha-saṅghāta) with which you have falsely identified. Practice: before responding to a charged situation, spend one breath recognizing that the awareness witnessing the reaction is untouched — the way the sky is untouched by smoke. Over time this recognition, not suppression of emotion, is the actual sarga-jaya (conquest of compulsive becoming)."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "Rāmānuja's reading localizes sameness in the shared ātman-class — every person you meet carries the same knower-essence, regardless of their social position or behaviour. In a work meeting where hierarchy and ego are live, try inwardly addressing the other person's ātman rather than their role or affect. This is not pretending differences don't exist — it is seeing the shared substrate beneath them, which is what the Viśiṣṭādvaita understanding of sāmya actually means."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "Madhva's terse praise signals that equanimity is real and available — but it remains worship of Hari expressed through steady seeing, not dissolution into Brahman. Practically: when you achieve a difficult task with no anxiety or elation, recognize that steadiness as prasāda (gracious gift) from Hari, not as your own accomplishment. This keeps the Dvaita architecture intact: jīva remains distinct, and the conquest of sarga is a dependent achievement held in Hari's hand."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "Vallabha's tādātmya reading means that when your mind genuinely settles into stillness — no grasping, no aversion — that stillness is not a pointer toward Brahman, it is Brahman manifesting through Kṛṣṇa's prasāda. So the Puṣṭi-mārga practice is not to manufacture equanimity through effort but to receive it: surrender the turbulence, let Kṛṣṇa's grace produce the sāmya, and recognize in those quiet moments that you are already tādātmya — identical through grace."
+    },
+    "bhakti": {
+      "school": "Bhakti-philological",
+      "application": "Śrīdhara's key move is chronological: the dharma-rules about differential treatment apply before brahma-bhāva is won, not after. This has a practical corollary — do not use 'I see everyone as equal' as a license to skip the hard work of honest discernment in early stages of practice. Genuine equanimity is an arrival, not a starting posture. Until then, do the work of recognizing quality differences while cultivating the underlying brahma-seeing that will eventually make those distinctions spiritually irrelevant."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-Bhakti synthesis",
+      "application": "Madhusūdana's double-exoneration — Brahman is immune both to external contact-pollution and internal desire-pollution — suggests a practice of discernment about what layer in you is actually being affected by events. When someone's difficult behaviour leaves you disturbed, ask: is this a real pollution of my awareness, or is the disturbance in the antaḥkaraṇa (inner organ) rather than in the ātman? Then bring bhakti into the gap: the ātman, like the sun lighting all eyes without being soiled by what they see, is already free. Rest there while still engaging the world with love."
+    }
   }
 }
