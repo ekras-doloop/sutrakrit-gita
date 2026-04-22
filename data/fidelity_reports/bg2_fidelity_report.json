@@ -1,0 +1,1155 @@
+{
+  "summary": {
+    "chapter": "2",
+    "verses_evaluated": 37,
+    "mean_cross_school_divergence": 0.5573265916807607,
+    "mean_coverage_by_translator": {
+      "sivananda": 0.26615688453923747,
+      "purohit_swami": 0.23845718845718847,
+      "gambhirananda": 0.2768178518178518,
+      "sankaranarayan": 0.0297603286238882,
+      "adidevananda": 0.28152565946683594,
+      "adidevananda_ramanuja_commentary": 0.18503842653438218,
+      "sankaranarayan_abhinavagupta_commentary": 0.03478693747510951
+    },
+    "mean_longest_run_by_translator": {
+      "sivananda": 0.972972972972973,
+      "purohit_swami": 0.8378378378378378,
+      "gambhirananda": 1.0,
+      "sankaranarayan": 1.0,
+      "adidevananda": 1.0,
+      "adidevananda_ramanuja_commentary": 0.9,
+      "sankaranarayan_abhinavagupta_commentary": 0.3
+    },
+    "max_longest_run_by_translator": {
+      "sivananda": 3,
+      "purohit_swami": 3,
+      "gambhirananda": 3,
+      "sankaranarayan": 4,
+      "adidevananda": 4,
+      "adidevananda_ramanuja_commentary": 3,
+      "sankaranarayan_abhinavagupta_commentary": 1
+    }
+  },
+  "per_verse": [
+    {
+      "verse_id": "2.1",
+      "cross_school_divergence": 0.918849131190571,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.4166666666666667,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.4375,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.4166666666666667,
+          "longest_run": 3
+        },
+        "sankaranarayan": {
+          "coverage": 0.05063291139240506,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.35714285714285715,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.10",
+      "cross_school_divergence": 0.9719855565182869,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.5555555555555556,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.4444444444444444,
+          "longest_run": 2
+        },
+        "gambhirananda": {
+          "coverage": 0.4444444444444444,
+          "longest_run": 3
+        },
+        "sankaranarayan": {
+          "coverage": 0.03870967741935484,
+          "longest_run": 3
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.42028985507246375,
+          "longest_run": 3
+        },
+        "adidevananda": {
+          "coverage": 0.5454545454545454,
+          "longest_run": 3
+        }
+      }
+    },
+    {
+      "verse_id": "2.12",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.13",
+      "cross_school_divergence": 0.936645243499081,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.6153846153846154,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.5833333333333334,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.05,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.2641509433962264,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.7142857142857143,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.14",
+      "cross_school_divergence": 0.9390676239026404,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.4375,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 2
+        },
+        "gambhirananda": {
+          "coverage": 0.35714285714285715,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.030864197530864196,
+          "longest_run": 4
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.05555555555555555,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.25,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.47058823529411764,
+          "longest_run": 4
+        }
+      }
+    },
+    {
+      "verse_id": "2.15",
+      "cross_school_divergence": 0.9485753675565145,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.15384615384615385,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.3,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.23076923076923078,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.019230769230769232,
+          "longest_run": 1
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.09876543209876543,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.05263157894736842,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.2727272727272727,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.16",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.17",
+      "cross_school_divergence": 0.9036777282434233,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.7142857142857143,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.42857142857142855,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.75,
+          "longest_run": 3
+        },
+        "sankaranarayan": {
+          "coverage": 0.032467532467532464,
+          "longest_run": 2
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.5,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.5714285714285714,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.18",
+      "cross_school_divergence": 0.9406210282386308,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.5,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.4166666666666667,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.38461538461538464,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.08641975308641975,
+          "longest_run": 1
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.1935483870967742,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.24691358024691357,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.4166666666666667,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.19",
+      "cross_school_divergence": 0.9355320333700833,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.7,
+          "longest_run": 3
+        },
+        "gambhirananda": {
+          "coverage": 1.0,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.012903225806451613,
+          "longest_run": 1
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.4,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.2",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.20",
+      "cross_school_divergence": 0.9290235939908219,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.5,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.4666666666666667,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.5,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.12422360248447205,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.625,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.21",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.22",
+      "cross_school_divergence": 0.9387615057698409,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.4117647058823529,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.42857142857142855,
+          "longest_run": 2
+        },
+        "gambhirananda": {
+          "coverage": 0.4444444444444444,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.05555555555555555,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.06666666666666667,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.4117647058823529,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.23",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.24",
+      "cross_school_divergence": 0.9402243014405254,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.36363636363636365,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.3,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.42857142857142855,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.04516129032258064,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.46153846153846156,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.25",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.26",
+      "cross_school_divergence": 0.9323939073183223,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.2,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.16666666666666666,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.45454545454545453,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.012987012987012988,
+          "longest_run": 1
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.45454545454545453,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.27",
+      "cross_school_divergence": 0.9699866800921363,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.8181818181818182,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.875,
+          "longest_run": 3
+        },
+        "gambhirananda": {
+          "coverage": 0.6666666666666666,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.08974358974358974,
+          "longest_run": 2
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.3274336283185841,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.8,
+          "longest_run": 3
+        }
+      }
+    },
+    {
+      "verse_id": "2.28",
+      "cross_school_divergence": 0.9325431632255401,
+      "external_translators_compared": 7,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.75,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.5555555555555556,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.375,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.03184713375796178,
+          "longest_run": 1
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.4375,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.7777777777777778,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.29",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.3",
+      "cross_school_divergence": 0.9482651213604413,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.26666666666666666,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.125,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.2727272727272727,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.03164556962025317,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.09090909090909091,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.30",
+      "cross_school_divergence": 0.9120262063502896,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.2727272727272727,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.16666666666666666,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.38461538461538464,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.044585987261146494,
+          "longest_run": 2
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.30612244897959184,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.25,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.31",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.32",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan_abhinavagupta_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.33",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.34",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.35",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.36",
+      "cross_school_divergence": 0.9669314060803064,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 1
+        },
+        "purohit_swami": {
+          "coverage": 0.1111111111111111,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.42857142857142855,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.0457516339869281,
+          "longest_run": 1
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.38461538461538464,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.25,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.38",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.39",
+      "cross_school_divergence": 0.9157690615829462,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.35294117647058826,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.3125,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.14285714285714285,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.0379746835443038,
+          "longest_run": 2
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.1111111111111111,
+          "longest_run": 1
+        },
+        "adidevananda": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.4",
+      "cross_school_divergence": 0.9445657680186493,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.5,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.5833333333333334,
+          "longest_run": 1
+        },
+        "sankaranarayan": {
+          "coverage": 0.09433962264150944,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.6363636363636364,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.5",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.6",
+      "cross_school_divergence": 0.9273398291878596,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.23076923076923078,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.3076923076923077,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.6153846153846154,
+          "longest_run": 3
+        },
+        "sankaranarayan": {
+          "coverage": 0.0783132530120482,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.5,
+          "longest_run": 2
+        }
+      }
+    },
+    {
+      "verse_id": "2.7",
+      "cross_school_divergence": 0.0,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "purohit_swami": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "gambhirananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "sankaranarayan": {
+          "coverage": 0.0,
+          "longest_run": 0
+        },
+        "adidevananda": {
+          "coverage": 0.0,
+          "longest_run": 0
+        }
+      }
+    },
+    {
+      "verse_id": "2.8",
+      "cross_school_divergence": 0.9461588566375083,
+      "external_translators_compared": 5,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.6666666666666666,
+          "longest_run": 2
+        },
+        "purohit_swami": {
+          "coverage": 0.36363636363636365,
+          "longest_run": 1
+        },
+        "gambhirananda": {
+          "coverage": 0.6,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.04375,
+          "longest_run": 3
+        },
+        "adidevananda": {
+          "coverage": 0.6153846153846154,
+          "longest_run": 1
+        }
+      }
+    },
+    {
+      "verse_id": "2.9",
+      "cross_school_divergence": 0.9221407786137283,
+      "external_translators_compared": 6,
+      "per_translator": {
+        "sivananda": {
+          "coverage": 0.45454545454545453,
+          "longest_run": 3
+        },
+        "purohit_swami": {
+          "coverage": 0.6666666666666666,
+          "longest_run": 3
+        },
+        "gambhirananda": {
+          "coverage": 0.42857142857142855,
+          "longest_run": 2
+        },
+        "sankaranarayan": {
+          "coverage": 0.0440251572327044,
+          "longest_run": 2
+        },
+        "adidevananda_ramanuja_commentary": {
+          "coverage": 0.3333333333333333,
+          "longest_run": 2
+        },
+        "adidevananda": {
+          "coverage": 0.46153846153846156,
+          "longest_run": 3
+        }
+      }
+    }
+  ]
+}
