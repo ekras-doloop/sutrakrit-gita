@@ -253,7 +253,9 @@
         "shankara_13.11",
         "anandgiri_13.11"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "Steadiness in knowledge of the self (adhyatma-jnana-nityatva) means the unbroken habit of attending to the inner witness — not a burst of insight but a continuous orientation. Seeing the purpose of tattva-jnana is seeing that all this inquiry is aimed at the cognition of the non-dual Brahman alone, not at any worldly result. Whatever departs from this orientation — craving objects, accumulating opinions, dispersing attention among the undisciplined crowd — Sankara names that simply 'ajnana': not a rival view but the structural absence of discriminative attention.",
+      "divergence_note": "Sankara glosses 'avivikcita-jana-samsadi aratih' as distaste for the assembly of the unrefined (prakrta), because that assembly disperses the inward settling that makes atma-bhavana possible. Solitude in naturally purified places (vivikta-desa) allows the mind to settle and the ātman-inquiry to arise."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -262,7 +264,9 @@
         "ramanuja_13.11",
         "vedantadeshika_13.11"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "Adhyatma-jnana-nityatva is steady engagement in self-knowledge understood as knowledge of the jiva as the body (sarira) of Isvara — this is not an impersonal inquiry but a relational one, always knowing oneself as belonging to Bhagavan. Tattva-jnanartha-darsana is perceiving what that tattva-knowledge is actually for: liberation as eternal kainkarya, service in the divine presence. The entire cluster of qualities from amanitva onward — enumerated through 13.7-13.11 — is the indispensable equipment of the kshetrajna, and whatever opposes this equipment is ajnana.",
+      "divergence_note": "Ramanuja's bhashya explicitly identifies the list of qualities as 'atma-jnanopayogi' (useful for self-knowledge) and what is outside them as 'kshetra-karya atma-jnana-virodhi' — the workings of the field that oppose self-knowledge. The verse closes the amanitvadi list as a coherent set."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -270,7 +274,9 @@
       "witness_passages": [
         "vallabha_13.11"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "The capstone of this knowledge-list is ananya-yoga with Krishna as unconditional, causeless (nirhetur) bhakti — not a technique of purification but the natural overflow of recognizing that Krsna alone is the whole. This bhakti is 'hrdaya-rupa', heart-formed, not a mental discipline but a grace already flowing when the obstruction of self-importance dissolves. All prior qualities in the list are simply the falling away of what is not this love.",
+      "divergence_note": "Vallabha's bhashya for this verse is minimal: 'ananya-yogena nirhetur bhaktih — madhye hrdaya-rupa ukta' — causeless bhakti described as heart-formed. Rendering is anchored in this seed-gloss extended through Vallabha's documented Pustimarga principle that jnana items are preparatory clearing for prasada-bhakti."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -278,7 +284,9 @@
       "witness_passages": [
         "sridhara_13.11"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "Sridhara reads the verse as enumerating three concrete marks that close the jnana list: single-pointed devotion to Paramesvara with the vision that He is the self of all (sarvātma-drstya), seeking out places (vivikta-desa) that naturally clarify the mind and settle the heart, and the absence of any relish in the assemblies of the prakrta — the conventionally minded whose company scatters attention. Together these constitute the positive content of jnana; their opposites constitute ajnana.",
+      "divergence_note": "Sridhara's bhashya is directly available and well-formed. He glosses 'mayi ca' as devotion to Paramesvara 'sarvātma-drstya' (with vision of Him as self of all), 'vivikta' as 'suddhi-citta-prasadakara' (purifier and settler of the mind), and specifies ajnana as 'arati' — the absence of genuine relish in solitude and divine focus."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -286,13 +294,17 @@
       "witness_passages": [
         "madhusudan_13.11"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "Madhusudan holds the tension deliberately: bhakti to Vasudeva is 'sarvotkarstatva-jnana-purvika priti' — the love that arises from knowing Vasudeva to be the highest of all, and therefore undeflectable by any adverse circumstance. This bhakti is simultaneously the fruit of jnana and its cause. Vivikta-desa (solitary, purified space) is glossed with the Shvetasvatara shruti passage about places free from fire, pebbles, noise and water — the outer correlate of inner settling. And the disrelish for the assembly of those 'turned away from atma-jnana, addicted to sense-enjoyment' is balanced by the explicit endorsement of the assembly of the sat — sadhu-sanga — as its proper counterpart.",
+      "divergence_note": "Madhusudan's bhashya is the most elaborated in the payload. He cites the shruti 'same sucau sarkaravahni-baluka-vivarjite' for vivikta-desa, quotes the saying 'sangah sarvatmana heyah... sa sadbhih saha kartavyah — santa-sango hi bhesajam' for the jnana-friendly assembly, and explicitly distinguishes the devotion here as knowledge-preceded, unconditional love ('kenapi pratikulenahetur nivārayitum asakya')."
     },
     "visistadvaita": {
       "score": 0.5
     },
     "dvaita": {
-      "score": 0.5
+      "score": 0.5,
+      "english_rendering": "Perpetual dwelling in the knowledge that the jiva is absolutely dependent on and distinct from Hari — this is adhyatma-jnana-nityatva. Seeing the purpose of tattva-jnana means never losing sight of the goal: liberation as unobstructed vision of Vishnu, not merging. Any stance that obscures the eternal ontological boundary between jiva and Brahman — whether Advaita non-difference or the attachment to worldly assemblies — is precisely what Krishna calls ajnana here.",
+      "divergence_note": "Madhva bhashya is ABSENT in payload (empty string in panel_commentary_devanagari). This rendering is projected from Madhva's documented Dvaita hermeneutics and his consistent polemical contrast with Advaita on jiva-Brahman distinction; not anchored in direct bhashya text for this verse. Flagged as inferred."
     },
     "suddhadvata": {
       "score": 0.5
