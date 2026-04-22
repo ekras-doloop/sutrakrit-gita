@@ -354,7 +354,8 @@
         "shankara_12.2",
         "anandgiri_12.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara does not praise the saguna worshipper without reservation; the verse is a prelude to his pivot toward the nirguna path in 12.3-4. The most devoted are best only within the saguna dispensation."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -372,7 +373,8 @@
         "madhva_12.2",
         "jayatirtha_12.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "The Dvaita reading categorically rejects any Advaitic implication that the worshipper's consciousness is becoming Bhagavan. 'Yuktatama' is a relational grade, not an ontological state."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -388,7 +390,8 @@
       "witness_passages": [
         "sridhara_12.2"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's payload shows some signs of possible textual transmission issues (the source was flagged for potential HTML artifacts) but the Devanagari bhashya is clean Sanskrit and has been used directly. No artificial inflation of meaning has been added."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -396,6 +399,15 @@
       "witness_passages": [
         "madhusudan_12.2"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana alone among these commentators makes Arjuna's personal epistemic eligibility (adhikara) the hermeneutic key to the verse — the Lord is not asserting that saguna is categorically superior, but meeting Arjuna where he is. This is the synthesis position: neither a capitulation to bhakti nor a covert Advaita takeover."
+    },
+    "visistadvaita": {
+      "divergence_note": "Ramanuja reads the verse as a bhakti-yoga prescription where the mind's absorption is already relational, not preparatory to jnana. The worshipper and the worshipped remain distinct; proximity to Bhagavan, not merger, is the telos.",
+      "score": 0.5
+    },
+    "suddhadvata": {
+      "divergence_note": "Vallabha inserts 'yena-kena ca sambandena' (by whatever relation at all) as an alternate reading, vastly expanding who qualifies — even an adversarial or fearful relation toward Krsna counts if it is total. This is the Pushti-marga's most radical departure from the other schools.",
       "score": 0.5
     }
   },
@@ -557,5 +569,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "The Lord says 'my view' (me matah) — does yuktatama (most-united) describe a spiritual grade or a pedagogical judgment about what works for a given practitioner? What is the difference?",
+    "All six schools agree that the mind (manas) must be immersed — but immersed in what exactly? Are the schools describing the same act when they say 'fixing the mind on Me'?",
+    "Nitya-yukta (perpetually unified) and para-shraddha (highest faith) are paired — can one have ceaselessly engaged practice without the highest faith, or does faith generate the perpetual engagement? Which is prior?",
+    "Vallabha opens 'yena-kena ca sambandena' (by whatever relation) as an alternate — does this mean a person terrified of God or angry at God can also qualify as yuktatama if their relation is total? What does that do to the ethics of the path?",
+    "Madhusudana says the Lord is grading paths according to Arjuna's adhikara, not in absolute terms. If so, is there a version of this verse spoken to a different practitioner with a different adhikara where the ranking reverses?",
+    "The verse never names the object of nirguna upasana for comparison — that comes in 12.3-4. What does it mean to call someone the 'most united' before the full comparison has been stated?",
+    "Para shraddha (highest faith) appears across all schools as the condition — but faith in what? In the saguna form, in the teaching, in the practice, or in the outcome? Does it matter which?"
+  ],
+  "everyday_applications": {
+    "advaita": "Identify one daily activity — eating, walking, coding — and perform it without mental commentary for a fixed interval. The practice is not relaxation but uninterrupted single-pointedness: nairantarya. Notice when the commentary resumes; that noticing is the beginning of the Advaitic discipline.",
+    "visistadvaita": "Before a task you find tedious, pause and ask: 'What would it mean to do this because I love the one I am serving?' The Ramanuja reading makes love the engine of concentration, not concentration the engine of love. Let affection precede effort for one hour.",
+    "dvaita": "In a relationship where you hold more power — manager, parent, senior colleague — practice the Dvaita asymmetry consciously: your yuktatama is not merger with the other but sustained, faithful attention to them as irreducibly distinct. Do not project yourself onto them; attend to who they actually are.",
+    "suddhadvata": "Write down one relationship in your life — friend, teacher, rival, difficult family member — and ask whether the totality of your engagement with that person, whatever its flavor, has made you more alive or less. Vallabha's 'yena-kena ca sambandena' says total relation of any kind is the ground. What relation in your life is that total?",
+    "bhakti": "Take one thing you do for others today — a meal cooked, a report filed, a message sent — and perform it explicitly as madarthakarmanusthana (action done for the sake of the one you serve). Do not announce it. The Sridhara reading says the upasana lives in the orientation of the act, not in a separate ritual.",
+    "advaita-bhakti": "Find the one person or pursuit in your life toward which you are, as Madhusudana says, 'ananya-sharana' — without other refuge. Acknowledge that this is already your saguna upasana, whatever its object. The question is whether it has para shraddha (highest faith) behind it or only habit."
   }
 }

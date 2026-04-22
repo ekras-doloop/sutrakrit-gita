@@ -253,7 +253,8 @@
         "shankara_12.5",
         "anandgiri_12.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara affirms the akshara path is valid but costly; bhakti to saguna Brahman is pragmatically easier without being superior in ultimate terms."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -271,7 +272,8 @@
         "madhva_12.5",
         "jayatirtha_12.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva goes furthest of all schools: not merely harder but structurally dependent on the same Vishnu-prasada that bhakti already directly invokes — making the avyakta route redundant as well as painful."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -287,7 +289,8 @@
       "witness_passages": [
         "sridhara_12.5"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara is balanced and philological: he does not deny the avyakta path's validity but locates the differential squarely in embodied cognitive habit, without the strong grace-dependency argument Madhva deploys."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -295,6 +298,15 @@
       "witness_passages": [
         "madhusudan_12.5"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana's synthesis holds Advaita's non-dualism firm while conceding bhakti's practical superiority: the nirguna and saguna paths share an ultimate identity, but the saguna path, by providing a personal focus for shraddha, eliminates an entire layer of cognitive friction."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Unlike Shankara, Ramanuja reads the superiority of saguna worship as ontologically grounded: Bhagavan's grace is a real causal factor missing from the nirguna path.",
+      "score": 0.5
+    },
+    "shuddhadvaita": {
+      "divergence_note": "Vallabha is the most experientially demanding: the avyakta path is not merely harder but terminally inferior, because its fruit is formless absorption rather than the tasted rasa of Krishna's svarupa.",
       "score": 0.5
     }
   },
@@ -423,5 +435,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If the unmanifest Brahman and the personal God are ultimately the same reality, why does the path of worshipping form produce less suffering — is the difference in the goal or in the worshipper?",
+    "Shankara says body-identification must be forcibly relinquished on the avyakta path. In what specific contemplative practices does one dismantle deha-abhimana, and what happens to motivation when the object of practice has no attributes to sustain attention?",
+    "Madhva claims that even successful avyakta-aparoksha (direct perception of the unmanifest) still requires Vishnu-prasada for liberation. Does this collapse the distinction between the two paths at the causal level, making the nirguna path a detour rather than an alternative?",
+    "Vallabha says Krishna-bhakti yields ananda (bliss) from the very first step, while the jnana path yields it only at the end. What does this imply about the phenomenology of spiritual practice — is suffering a sign of misdirection or of an inherently steeper gradient?",
+    "The verse applies to embodied beings (dehavat). Does the klesha (suffering) decrease as deha-abhimana loosens, making the verse a description of the novice's predicament rather than an inherent property of the nirguna path itself?",
+    "If most practitioners are body-identified by default, does this verse function as a compassionate redirect — meet people where they are — rather than a metaphysical hierarchy of paths?",
+    "Six schools find genuine divergence here on the question of grace, fruit, and cognitive structure. What does this multi-school divergence itself tell us about the verse's bounded polysemy — is the verse designed to hold all these readings simultaneously?"
+  ],
+  "everyday_applications": {
+    "advaita": "When you find meditation on pure awareness (nirguna practice) leaving you exhausted and disoriented, Shankara's counsel is not to abandon the path but to recognize that deha-abhimana (body-habit) must be systematically dissolved — and that a qualified teacher (guru) providing Vedanta-vicara is not optional scaffolding but necessary infrastructure for this particular climb.",
+    "vishishtadvaita": "If you are choosing between an abstract spiritual practice (contemplating emptiness or pure awareness) and a relational one (devotion to a personal form of the divine), Ramanuja's observation is practically grounded: the personal form offers reciprocity, grace, and corrective feedback that abstract practice cannot. Start where love is already present and let it refine itself.",
+    "dvaita": "Madhva's application is unsparing: no amount of philosophical precision or meditative technique substitutes for Vishnu's direct prasada (grace). This means the practitioner's central task is not accumulating jnana but cultivating the conditions — ethical conduct, sincere worship, humility — under which that grace operates. Effort without proper orientation toward the personal God compounds the klesha.",
+    "shuddhadvaita": "Vallabha's application is immediate and sensory: if your spiritual life feels like labor rather than joy, that is diagnostic information. Krishna-bhakti was designed to yield ananda at every stage, not only at liberation. Check whether your practice preserves the taste (rasa) of the personal relationship with Krishna — if it has become abstract or effortful, something has been subtracted that needs to be restored.",
+    "bhakti": "Sridhara's application is accessible and non-hierarchical: if you are struggling to hold formless awareness in meditation, this is not a personal failure but a structural feature of embodied cognition. Redirect toward a form, a name, a quality of the divine that your mind can naturally hold — and trust that this redirection is not a concession but the appropriate starting point for a being with a body.",
+    "advaita-bhakti": "Madhusudana's application is integrative: the goal is not to abandon Vedantic understanding but to let bhakti serve as the vehicle that makes that understanding available without the grinding effort of nirguna meditation alone. Engage with the personal form of the divine as a doorway through which the formless becomes accessible — the easier road and the harder road arrive at the same place; take the road your shraddha (faith) can actually sustain."
   }
 }
