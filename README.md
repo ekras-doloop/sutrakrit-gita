@@ -54,9 +54,11 @@ The papers articulate the methodological commitments under which this edition is
 - [x] **Public-facing web frontend live at [gita.ekrasworks.com](https://gita.ekrasworks.com)** — chapter-by-chapter browse, verse-level six-school panel rendering, so-what questions, everyday applications, compare-mode, click-trails, theme-list walks, lemma-wire view
 - [x] **Word-by-word substrate: ByT5-Sanskrit-multitask** (Nehrdich, Hellwig & Keutzer, EMNLP 2024) with full audit-trail provenance. Every verse renders per-token lemma + case/gender/number/tense/mood/person.
 - [x] **15-domain × 2-engine cross-framework eval** completed April 22 — Perplexity + Grok converge on substrate-fit rank ordering across Indic / legal / religious / literary / technical / critical domains with ISO 8601 negative control correctly discriminating.
-- [ ] Hand-labeled 50-verse gold subset for ≥95% lemma-agreement validation gate (next-session queued)
-- [ ] Per-school sense re-extraction on ByT5-quality lemmas (current `senses_attested_in_panel` empty pending re-extraction)
-- [ ] Independent reviewer audit by participating Sanskritists (invited)
+- [x] **Curated 2,135-lemma Sanskrit-English gloss dictionary** (`data/parser_eval/glosses_production.json`) covering 100% of unique lemmas across the 700-verse corpus, with prefix/suffix etymology and compound-member breakdowns where decomposable. Rendered live under each lemma in the public word-by-word display.
+- [x] **Three-tier reading interface** — Tier 1: Devanāgarī + IAST + six one-line school readings + 2 so-what questions above the fold. Tier 2: full six-school doctrinal panel + everyday applications. Tier 3: word-by-word + intertextual panel + theme-lists + audit trail (collapsible).
+- [ ] **Hand-labeled 50-verse gold subset** for the ≥95% lemma-agreement validation gate. Auto-cleared binary criteria (0 particle-as-noun errors, 0 unparsed tokens, 0 single-char artifacts, 0 empty-result verses). The percentage gate requires Sanskritist-labeled gold; sheet prepared at `data/parser_eval/REVIEW_SHEET_meanings.md`.
+- [ ] **Per-school sense re-extraction** on ByT5-quality lemmas. Substrate code at `substrate/sense_extraction.py` exists; needs to be re-run against the new word-by-word and re-merged into `rendered/`. Current `senses_attested_in_panel` arrays are empty (the prior vidyut-anchored senses were intentionally cleared during the substrate swap rather than carried over with broken anchors).
+- [ ] **Independent reviewer audit** by participating Sanskritists (invited).
 
 **Companion papers:** the Sūtrakṛt triptych (Papers 1–3) + Sūtrakṛt-for-Code (Paper 4) + Sūtrakṛt-for-Context-Engineering (Paper 5) are drafted and pending arXiv submission. See the related Pneumae 16-paper research program on the voice-conversation substrate (Rastogi, February–April 2026, Project Respire).
 
