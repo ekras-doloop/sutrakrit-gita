@@ -349,7 +349,8 @@
         "shankara_2.38",
         "anandgiri_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "For Śaṅkara, samatva (equanimity) here is purely a removal of rāga-dveṣa — it carries no intrinsic soteriological weight and is explicitly subordinate to jñāna. The injunction 'fight' is instrumental, not the point."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -358,7 +359,8 @@
         "ramanuja_2.38",
         "vedantadeshika_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Unlike Śaṅkara's demotion to incidental advice, Rāmānuja treats karma-yoga as a full-fledged liberation path; samatva here is the dispositional condition that makes service to Bhagavān (kainkarya) possible."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -367,7 +369,8 @@
         "madhva_2.38",
         "jayatirtha_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Dvaita resists any reading in which samatva implies ontological levelling of the pairs; real duality is preserved, and equanimity is volitional surrender to Hari's will, not metaphysical indifference."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -375,7 +378,8 @@
       "witness_passages": [
         "vallabha_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha's samatva is not Śaṅkara's negation of rāga-dveṣa nor Rāmānuja's undisturbed-duty; it is the rapturous recognition that all pairs are Kṛṣṇa's prasāda and therefore equally sacred — a distinctly Puṣṭi-mārga move."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -383,7 +387,8 @@
       "witness_passages": [
         "sridhara_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's distinctive contribution is the layered causal analysis: samatva must be applied at all three levels (result, proximate cause, ultimate cause), not merely at the emotional surface — making his reading more structurally thorough than those that stop at rāga-dveṣa."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -391,7 +396,8 @@
       "witness_passages": [
         "madhusudan_2.38"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana's synthesis is the most juridically complete: he resolves the apparent contradiction between the earlier 'you will attain heaven if slain' (2.37) and this verse's niṣkāma injunction by showing they operate at different logical levels — anusaṅgika-phala (incidental fruit) vs. niṣkāma-dharma (duty-without-intention)."
     }
   },
   "prosodic_information": {
@@ -480,5 +486,89 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    {
+      "id": "sq1",
+      "question": "Śaṅkara calls this verse 'incidental instruction' (prāsaṅgika upadeśa) and not the central teaching — so what does it mean that Kṛṣṇa embeds a workaround for Arjuna's grief before the real argument has even begun? Is the equanimity being taught here genuine transformation or a therapeutic bridge?",
+      "target_schools": [
+        "advaita"
+      ]
+    },
+    {
+      "id": "sq2",
+      "question": "Rāmānuja reads 'you will not incur pāpa' as 'you will be released from saṃsāra' — so what is the relationship between moral innocence and liberation in Viśiṣṭādvaita? Can a karma-yogi act wrongly in terms of outcome yet remain soteriologically clean?",
+      "target_schools": [
+        "viśiṣṭādvaita"
+      ]
+    },
+    {
+      "id": "sq3",
+      "question": "Śrīdhara insists that samatva must be applied at all three causal levels — result, proximate cause, ultimate cause — not just at the feeling-surface. So what happens to a practitioner who achieves emotional equanimity (no harṣa-viṣāda) but remains subtly attached to the outcome two levels below? Is partial samatva spiritually dangerous?",
+      "target_schools": [
+        "bhakti"
+      ]
+    },
+    {
+      "id": "sq4",
+      "question": "Vallabha's frame makes all pairs — victory and defeat equally — Kṛṣṇa's prasāda. But the verse also says 'fight' — a specific action with a specific opponent. So what distinguishes Puṣṭi-mārga equanimity from quietism or indifference to outcome? How does anuddea (non-purposive action) coexist with strategic excellence on the battlefield?",
+      "target_schools": [
+        "śuddhādvaita"
+      ]
+    },
+    {
+      "id": "sq5",
+      "question": "Madhusūdana distinguishes two types of pāpa that the niṣkāma fighter avoids simultaneously — the sin of violent action and the sin of omission. So what does this double-escape structure reveal about how karma-theory actually works: is pāpa located in the action, in the intention, or in the relationship between the two?",
+      "target_schools": [
+        "advaita-bhakti"
+      ]
+    },
+    {
+      "id": "sq6",
+      "question": "Across all six schools, the verse links samatva explicitly to legal innocence ('you will not incur pāpa') — not to liberation, bliss, or proximity to God, but to exemption from moral debt. Why does Kṛṣṇa reach first for the juridical frame rather than the soteriological one? What does that sequencing reveal about where Arjuna actually is?",
+      "target_schools": [
+        "advaita",
+        "viśiṣṭādvaita",
+        "dvaita",
+        "śuddhādvaita",
+        "bhakti",
+        "advaita-bhakti"
+      ]
+    },
+    {
+      "id": "sq7",
+      "question": "The verse pairs sukha-duḥkha with lābha-alābha and jaya-ajaya — three nested doublings, not one. None of the commentators treats these three pairs as identical. What is the doctrinal logic for this gradation, and is the innermost pair (victory-defeat) the hardest for a warrior to hold in samatva because it is most identity-constituting?",
+      "target_schools": [
+        "advaita",
+        "viśiṣṭādvaita",
+        "bhakti"
+      ]
+    }
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "Before entering a high-stakes review or negotiation, bracket the outcome mentally — not by suppressing the desire to win but by recognizing the reviewing self as distinct from the outcome-accumulating persona. Śaṅkara's 'remove rāga and dveṣa themselves' means: check whether you are entering the room as the person who needs a particular result, or as the person who acts rightly regardless. The task is not emotional flatness but the removal of the investment that would make you argue against your better judgment to protect a preferred conclusion."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "When you are required to give difficult feedback — to a report, a student, a family member — do so with aviḍkrta-buddhi (undisturbed intelligence): neither softening the truth because you fear their pain (that is attachment to their pleasure) nor sharpening it to prove your authority (that is attachment to your victory). Rāmānuja's kārya-buddhi means: act because the relationship and the role require it, not because the outcome will confirm your competence. The Viśiṣṭādvaita practitioner trusts that honest service is itself the liberation-work, regardless of how it lands."
+    },
+    "dvaita": {
+      "school": "Dvaita Vedānta",
+      "application": "In competitive work — a contested promotion, a legal dispute, a business rivalry — the Dvaita practitioner prepares fully and fights hard, because capability deployed in Hari's service is itself worship. But after each round, the result is handed back: 'this outcome belongs to Hari's dispensation, not to my desert.' This is not fatalism before the contest; it is a specific post-action practice of releasing the result to its sovereign. The distinction between preparation (fully engaged) and attachment to outcome (fully released) is the Dvaita everyday move."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "In creative work — writing, music, design — Vallabha's anuddea (non-purposive action) means making the work for the work's sake, as Kṛṣṇa's play, without orienting every choice toward approval or impact. When a piece lands badly with an audience (alābha, apajaya), the practitioner does not revise the internal vision to match external taste, because the success-failure axis belongs to the līlā-field, not to the creator's identity. The everyday practice is: complete the work fully, then release the reception entirely — not as discipline but as recognition that the reception was never yours to hold."
+    },
+    "bhakti": {
+      "school": "Bhakti (traditional)",
+      "application": "Śrīdhara's three-level samatva has a direct application in health and illness: equanimity at the surface (not weeping at pain) is easy to perform and easy to fake; equanimity at the proximate cause (not investing in recovery as a measure of self-worth) is harder; equanimity at the deepest level (not orienting one's spiritual practice around being healed) is where harṣa-viṣāda-rāhitya actually lives. The Śrīdhara-informed practitioner checks all three levels — am I calm about this result, about the process that produced it, and about the deeper conditions that made that process possible? — before claiming samatva."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-Bhakti synthesis",
+      "application": "Madhusūdana's Āpastamba citation offers a precise frame for professional life: do excellent work as your dharma, and allow wealth, recognition, and influence to arise as incidental by-products — the shade and fragrance, not the fruit you planted for. The practical move is to keep the quality bar anchored in the dharma of the role (what does this work require?) rather than the incentive structure (what will this work get me?). This is not indifference to results — the mango tree is still planted carefully — but it means that if the fragrance doesn't come, the planting was not a failure."
+    }
   }
 }

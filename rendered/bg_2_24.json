@@ -265,7 +265,8 @@
         "shankara_2.24",
         "anandgiri_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara explicitly defends the verbal repetition across 2.17–2.25 as pedagogically necessary, not poetic padding — the ātman is a single non-dual reality being approached from multiple angles of negation."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -274,7 +275,8 @@
         "ramanuja_2.24",
         "vedantadeshika_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja reads sarvagatatva not as Śaṅkara's pure non-dual omnipresence but as the jīvātman's pervasion by its own caitanya (consciousness), which is itself a dharma (attribute) dependent on Bhagavān — the jīva pervades by quality, not by identical being."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -283,7 +285,8 @@
         "madhva_2.24",
         "jayatirtha_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's commentary pivots sharply to Viṣṇu-supremacy doctrine, marshalling Nāradīya, Skānda-Śaiva, and Ṛgveda passages to establish that sarvagatatva in its fullest sense belongs only to Mahāviṣṇu, not the jīva — the jīva's version is real but categorically lesser."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -291,7 +294,8 @@
       "witness_passages": [
         "vallabha_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha's sole exegetical move here is the ākāśa-distinction via Taittirīya: the verse's seven attributes together mark out a reality prior to and generative of even the subtlest element, which is a specifically Puṣṭi-mārga point about Kṛṣṇa as the ultimate ground."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -299,7 +303,8 @@
       "witness_passages": [
         "sridhara_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's commentary is the most technically precise in grounding each negative attribute in a corresponding ontological property — his sequence niravaayavtva → acchhedya, amūrtatva → adāhya, dra-vatva-abhāva → aśoṣya is the most tightly constructed causal chain in the panel."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -307,7 +312,8 @@
       "witness_passages": [
         "madhusudan_2.24"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana is unique in constructing an explicit logical chain — nityatva → sarvagatatva → sthāṇutva → acalatva — where each attribute entails the next and the set together refutes four specific categories of action (production, attainment, modification, refinement). No other commentator in this panel does this."
     }
   },
   "prosodic_information": {
@@ -430,5 +436,61 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
-  }
+  },
+  "so_what_questions": [
+    {
+      "id": 1,
+      "question": "Śaṅkara says Kṛṣṇa repeats these verses because ātman-knowledge is duḥ-bodha (hard to grasp) for the saṃsārin. What is it about the conditioned mind — trained on objects that arise, change, and perish — that makes the concept of something truly nityaḥ (eternal) so resistant to understanding, even after repeated hearing?"
+    },
+    {
+      "id": 2,
+      "question": "Madhusūdana argues that sarvagatatva (all-pervasiveness) logically entails nityatva (eternality) and vice versa, via the maxim that division tracks modification. Does this mean that any genuine encounter with the infinite — in deep contemplation, in nature, in love — is simultaneously an encounter with the imperishable? What would change if that were taken seriously?"
+    },
+    {
+      "id": 3,
+      "question": "Rāmānuja insists the jīva pervades by its sva-caitanya-guṇa (quality of consciousness), which is itself a dharma of Bhagavān, not by identical being. Madhva insists the jīva's eternity is real but categorically derivative of Viṣṇu's ananta-māhātmya (infinite greatness). Both preserve the jīva's reality while subordinating it. What is at stake — practically, in how one lives — in affirming that one's own deepest nature is real but not self-grounding?"
+    },
+    {
+      "id": 4,
+      "question": "Vallabha uses Taittirīya Upaniṣad (tasmād vā etasmād ātmanaḥ ākāśaḥ sambhūtaḥ) to distinguish the ātman from ākāśa (space): space was born from ātman, so ātman is prior. If even the subtlest element — the medium of sound, of transmission, of emptiness — arose from the ātman, what does that say about the substrate of all experience, including grief?"
+    },
+    {
+      "id": 5,
+      "question": "Śrīdhara's sequence makes acalatva (non-motion) mean that the ātman does not pūrva-rūpa-parityāga (abandon its prior form to take on a new form) — it does not undergo qualitative transformation. How does this differ from mere inertia or numbness? What distinguishes sanātana stillness from the stillness of something simply dead?"
+    },
+    {
+      "id": 6,
+      "question": "Madhusūdana's most striking claim: the ātman cannot be cut because it is antaryāmī (inner controller) of the very weapons — their sattā (being) and sphurti (luminosity) flow from it. Is the verse then describing an ontological impossibility (the ātman as ground cannot become the object of what it grounds), or is it an ethical instruction (do not treat yourself as if you were a thing)?"
+    },
+    {
+      "id": 7,
+      "question": "Six schools read this one verse and arrive at different accounts of what nityatva (eternality) means: identity with Brahman, attribute of Bhagavān, derivative reality under Viṣṇu's supremacy, Kṛṣṇa's prasāda-given ground, a logical property, a devotional anchor. The mūlam (root text) itself uses no school-specific vocabulary. What does the verse's resistance to single-school capture reveal about the nature of bounded polysemy as a design principle of the Gītā?"
+    }
+  ],
+  "everyday_applications": [
+    {
+      "school": "advaita",
+      "application": "The Advaita reading applies most directly when a person faces the devastation of irreversible loss — death, the end of a career, the dissolution of an identity. Śaṅkara's point is that the grief is real and the world's description of loss is accurate, but the one who grieves is operating under avidyā (nescience): treating the ātman as if it were a kārya (produced effect) that can be unmade. The practice is not to suppress grief but to bring the repeated hearing of nityatva into contact with the actual site of grief until the assumption that sustains the grief — that something truly essential has been destroyed — becomes visible as an assumption. This is a slow discipline, not a quick consolation."
+    },
+    {
+      "school": "viśiṣṭādvaita",
+      "application": "Rāmānuja's reading applies when a person is exhausted by the feeling that their service — to a family, an institution, a community — is draining something out of them that will not be replenished. The sthira-svabhāva (inherently stable nature) of the jīvātman means that kainkarya (service as an expression of one's nature) does not deplete the server; what depletes is service performed as an transaction of the ego. When the work is reoriented as an expression of the jīva's own dharma flowing toward Bhagavān, the stable all-pervading ground underneath the activity is not diminished by the activity — just as a flame does not exhaust its heat by giving light."
+    },
+    {
+      "school": "dvaita",
+      "application": "The Dvaita reading applies when a person is tempted to collapse the distinction between their own consciousness and ultimate reality — when meditation, mystical experience, or intellectual argument makes it feel as though individual identity is a mistake to be dissolved. Madhva insists the jīva's conscious reality is genuine, not an appearance to be transcended; but its genuine reality is always already in a relation of dependence on Hari. The practical implication is a kind of grounded humility: one's awareness, one's experience of being real, is not to be denied or inflated — it is to be held lightly, as something sustained by an infinite greatness one did not produce and cannot rival."
+    },
+    {
+      "school": "śuddhādvaita",
+      "application": "Vallabha's Puṣṭi-mārga application meets people who feel spiritually inert — not wicked, not seeking, simply flat. The verse's sanātana establishes that the jīva's nature is prior even to ākāśa (space), meaning it precedes every condition that currently produces the flatness. The practice in Puṣṭi-mārga is not technique but receptivity to Kṛṣṇa's prasāda (unreasoned grace) — and Vallabha's reading of this verse makes receptivity metaphysically grounded: there is something in the person that is older than their current state and cannot be permanently eclipsed by it. Grace lands on a substrate that is already sanātana."
+    },
+    {
+      "school": "bhakti",
+      "application": "Śrīdhara's technically anchored reading applies when a person confronts their own aging or physical diminishment — watching the body change and feeling as though the self is changing with it. His precise sequence (niravayavatva → acchhedya, amūrtatva → adāhya) gives the practitioner something specific to hold: each feared change in the body corresponds to a physical property the ātman does not possess. The body has parts that can be severed; the ātman has no parts. The body is material and burns; the ātman has no material form. Running through this catalog slowly, the practitioner begins to notice that the one who is watching the body age has not itself gained a single wrinkle."
+    },
+    {
+      "school": "advaita-bhakti",
+      "application": "Madhusūdana's synthesis applies in professional or creative life when a person feels that their output — their work, their art, their thinking — is subject to forces entirely outside them: market forces, critics, illness, time. His argument that the ātman cannot be made utpādya (producible), prāpya (reachable as object), vikārya (modifiable), or saṃskārya (improvable) maps onto the distinction between the one who creates and the created thing. The created thing is subject to all four; the creator's awareness is not. The practice is to locate the creating awareness underneath the anxiety about the created object — not to become indifferent to quality, but to stop conflating the worker with the work in a way that makes every criticism an ontological threat."
+    }
+  ]
 }

@@ -122,7 +122,8 @@
         "shankara_2.19",
         "anandgiri_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita locates the error in *avidyā*-driven identification of ātman with the body. Agency and patient-hood are *vivarta* (apparent), not real. No devotional relation to Kṛṣṇa is in view — the teaching is pure *tattva-viveka* (discernment of truth)."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -131,7 +132,8 @@
         "ramanuja_2.19",
         "vedantadeshika_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Rāmānuja preserves the real ontological existence of jīvātman as a *viśeṣaṇa* (attribute/mode) of Brahman. Unlike Advaita, the jīva genuinely exists and genuinely serves; the error is misidentifying *what* kind of entity it is, not denying its existence. The śāstra citations (*na hiṃsyāt sarvā bhūtāni*) anchor the reading in *dharmaśāstra* as well."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -140,7 +142,8 @@
         "madhva_2.19",
         "jayatirtha_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's *pratibimba-vāda* makes agency a metaphysical impossibility for the jīva as such. This is sharper than Advaita: not merely that ātman is beyond change, but that any appearance of jīva-agency is ontologically dependent on Hari's independent action. Dvaita is the most polemically explicit school here."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -148,7 +151,8 @@
       "witness_passages": [
         "vallabha_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha's Puṣṭi-mārga reads this as protecting Kṛṣṇa's sovereignty over all manifestation — ātman belongs wholly to Kṛṣṇa, and Kṛṣṇa's *prasāda* sustains it. Killing and being killed are categories that apply only within the domain of *māyā*-body, which is itself Kṛṣṇa's *līlā*. The tone is imperative: recognize this and act in surrender."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -156,7 +160,8 @@
       "witness_passages": [
         "sridhara_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara is the most pastorally explicit: his bhāṣya traces both griefs and resolves both. His commentary is pedagogically structured (grief 1 → grief 2), and the devotional register colors his reading — right action in war becomes compatible with bhakti once agency is properly located away from the ātman."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -164,7 +169,8 @@
       "witness_passages": [
         "madhusudan_2.19"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana uniquely names the two philosophical opponents — tārkika (Nyāya-Vaiśeṣika school granting jīva-kartṛtva) and Cārvāka (materialist school admitting ātman-nāśa) — and shows that the Kaṭha citation demolishes both simultaneously. The synthesis of Advaita *jñāna* with Kṛṣṇa-devotion is visible in his framing: Bhagavān is the active teacher deploying śruti as weapon, not merely a theoretical voice."
     }
   },
   "prosodic_information": {
@@ -301,5 +307,93 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
-  }
+  },
+  "so_what_questions": [
+    {
+      "question": "If ātman neither kills nor is killed, what is the precise ontological status of the warrior's action — is it real, apparent, or something between?",
+      "target_schools": [
+        "advaita",
+        "dvaita"
+      ],
+      "anchor": "Śaṅkara's *avikriya* claim versus Madhva's *pratibimba* claim give opposed answers: Advaita says vyavahāra-level action is *mithyā* (not ultimately real); Dvaita says jīva-action is real but wholly derivative of Hari's will."
+    },
+    {
+      "question": "The verse cites a Kaṭha Upaniṣad parallel — does the *śruti*-citation function as proof (*pramāṇa*) or as poetic amplification (*arthavāda*)?",
+      "target_schools": [
+        "advaita-bhakti",
+        "advaita"
+      ],
+      "anchor": "Madhusūdana explicitly flags the Kaṭha *pāṭha* as a *śruti* citation deployed to close a logical loophole about sin. Śaṅkara treats it as *pramāṇa* establishing ātman's *avikriyatva*."
+    },
+    {
+      "question": "Does 'not knowing' (*na vijānītaḥ*) refer to ignorance of a metaphysical fact, or to a practical moral error — and does the answer change what kind of correction is required?",
+      "target_schools": [
+        "advaita",
+        "viśiṣṭādvaita",
+        "bhakti"
+      ],
+      "anchor": "Advaita requires *jñāna* (knowledge) as the cure; Rāmānuja requires *upāsanā* (devotional meditation) grounded in correct doctrinal understanding; Śrīdhara requires pastoral guidance resolving both intellectual and affective errors."
+    },
+    {
+      "question": "Rāmānuja reads *hanti* as *śarīraviyogakaraṇa* (causing bodily separation). Does this reading dissolve the verse's force, or does it create a sharper problem: who or what is the *kāraṇa* if not ātman?",
+      "target_schools": [
+        "viśiṣṭādvaita",
+        "dvaita"
+      ],
+      "anchor": "Rāmānuja's answer: no *hetu* (cause) can make ātman the instrument; Madhva's answer: Hari-bimba is the only real agent; both agree the question must be redirected away from jīva."
+    },
+    {
+      "question": "Vallabha limits *hanti* to composite, bodied entities (*sāvayava śarīra*). How does the *ahiṃsā* injunction (*na hiṃsyāt sarvā bhūtāni*) survive this reading — is it now a rule about bodies only?",
+      "target_schools": [
+        "śuddhādvaita",
+        "viśiṣṭādvaita"
+      ],
+      "anchor": "Both Rāmānuja and Vallabha cite the same *śāstra* injunction and give nearly identical answers: prohibitions against killing are body-directed. This is a rare point of convergence across normally opposed schools."
+    },
+    {
+      "question": "Madhusūdana distinguishes the *atiśūra* (supremely bold) and *atikātara* (supremely timid) as two possible framings of Arjuna's situation — how does this psychological typology interact with the metaphysical argument about non-agency?",
+      "target_schools": [
+        "advaita-bhakti"
+      ],
+      "anchor": "This is unique to Madhusūdana's commentary; it suggests the same metaphysical truth (ātman is neither killer nor killed) lands differently depending on whether the hearer is frozen by excess boldness-become-remorse or by excess fear."
+    },
+    {
+      "question": "If all six schools agree ātman is not the killer, why does Bhagavān not simply stop here and dismiss the war? What work does 2.19 leave undone that subsequent verses must complete?",
+      "target_schools": [
+        "advaita",
+        "viśiṣṭādvaita",
+        "dvaita",
+        "śuddhādvaita",
+        "bhakti",
+        "advaita-bhakti"
+      ],
+      "anchor": "2.19 establishes non-agency of ātman; it does not yet establish why action is still enjoined. The gap between 'ātman does not kill' and 'therefore fight' is bridged by 2.20–2.37 across all schools."
+    }
+  ],
+  "everyday_applications": [
+    {
+      "school": "advaita",
+      "application": "When you are blamed for an outcome that harmed someone, notice the two-layered error: first, the identification of yourself with the body-mind that acted; second, the belief that the ātman inside that body-mind was the true locus of causation. Śaṅkara's *avikriya* teaching does not license indifference — it relocates accountability from metaphysical agency to conventional (*vyavahāra*) responsibility while refusing to let conventional guilt become existential self-condemnation."
+    },
+    {
+      "school": "viśiṣṭādvaita",
+      "application": "In service-oriented roles — care-giving, teaching, medicine — you routinely face outcomes where patients, students, or dependents suffer despite your action. Rāmānuja's reading of *hanti* as *śarīraviyogakaraṇa* reframes this: you can cause bodily-level separation or harm without being the destroyer of the person; the eternal jīvātman you serve remains untouched. This grounds compassionate action without the paralysis of omnipotent guilt."
+    },
+    {
+      "school": "dvaita",
+      "application": "Madhva's *pratibimba* teaching applies when you feel the weight of a decision that will hurt others: the jīva, as reflection of Hari, is not the originating cause of any real event. Practically this means: act in dependence on Hari, do not arrogate to yourself the final authorship of consequence. The Dvaita practitioner reviews a difficult choice by asking 'is this what Hari's will, through scripture and dharma, directs?' rather than 'can I bear to be the cause of this?'"
+    },
+    {
+      "school": "śuddhādvaita",
+      "application": "Vallabha's *sāvayava-śarīra* limitation of *hanti* speaks directly to the grief of those who have outlived a loved one: you did not destroy the person — you witnessed the separation of a composite body from its animating principle, which is Kṛṣṇa's own. The Puṣṭi-mārga application is to surrender the narrative of personal causation — 'I caused this death,' 'I failed to prevent it' — and rest in Kṛṣṇa's ultimate sovereignty over all separations."
+    },
+    {
+      "school": "bhakti",
+      "application": "Śrīdhara's two-grief structure is a practical diagnostic for moral distress: identify whether your suffering comes from loss (grief 1, addressed by ātman's deathlessness) or from guilt about your own role in harm (grief 2, addressed by ātman's non-agency). Many people conflate these and attempt to solve grief-1 with guilt-reasoning or vice versa; Śrīdhara's reading gives a precise triage: apply the correct teaching to the correct grief, and the path through is shorter."
+    },
+    {
+      "school": "advaita-bhakti",
+      "application": "Madhusūdana's naming of the *tārkika* and *cārvāka* errors maps onto two modern failure modes: the person who over-philosophizes their agency ('I have free will, therefore I am fully responsible for every consequence, and therefore I am culpable') and the materialist who denies any persisting self ('there is no self, so nothing matters'). Both are forms of not-knowing. The Advaita-bhakti application is to hold both the reality of conventional moral seriousness (act with devotion, not nihilism) and the freedom from metaphysical self-condemnation (ātman is not destroyed by what it does in the body)."
+    }
+  ]
 }

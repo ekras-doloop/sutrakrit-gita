@@ -311,7 +311,8 @@
         "shankara_2.14",
         "anandgiri_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śaṅkara's analysis is rigorously analytical: the grammatical parsing of mātrā as 'that by which sensibles are measured' (mīyante viṣayāḥ ābhiḥ) grounds the entire instruction in a theory of perception, not in devotion."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -320,7 +321,8 @@
         "ramanuja_2.14",
         "vedantadeshika_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Unlike Śaṅkara, Rāmānuja does not analyse the impermanence of contacts as evidence of the ātman's nirguṇatva; impermanence here is a practical argument that makes endurance rational, not a metaphysical argument that dissolves the subject of experience."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -329,7 +331,8 @@
         "madhva_2.14",
         "jayatirtha_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva alone deploys anvaya-vyatireka as the epistemological proof of the verse's claim: were sorrow intrinsic to the ātman it would be present always; its absence in sleep clinches the case."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -337,7 +340,8 @@
       "witness_passages": [
         "vallabha_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha's titikṣā is the least ascetic of the six: sarvāsahana (endurance of everything) is framed as a precondition for remaining in the world as a participant in Kṛṣṇa's play, not as preparation for withdrawal."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -345,7 +349,8 @@
       "witness_passages": [
         "sridhara_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara bridges the personal and the doctrinal more explicitly than the other commentators: the verse is heard as a direct response to Arjuna's stated grief over separation, which makes titikṣā emotionally specific rather than abstractly metaphysical."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -353,7 +358,8 @@
       "witness_passages": [
         "madhusudan_2.14"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhusūdana alone refutes a named philosophical school (Vaiśeṣika, and implicitly Sāṅkhya on the question of per-body ātman difference) before arriving at the verse's instruction, making this the most technically philosophical of the six renderings and the one in which the synthesis of Advaita and bhakti is most explicit."
     }
   },
   "prosodic_information": {
@@ -491,5 +497,61 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
-  }
+  },
+  "so_what_questions": [
+    {
+      "id": "sq_1",
+      "question": "Kṛṣṇa names śīta and uṣṇa (cold and heat) separately from sukha and duḥkha (pleasure and pain) — Śaṅkara says this is because śīta-uṣṇa are aniyata (variable: sometimes pleasant, sometimes painful) while sukha-duḥkha are niyata (invariant in character). What does this parsing imply about the phenomenology of suffering: is there a class of experience whose valence is inherently fixed, and does that fixedness make it harder or easier to practise titikṣā?"
+    },
+    {
+      "id": "sq_2",
+      "question": "Madhva's anvaya-vyatireka argument holds that because sorrow is absent in suṣupti (deep sleep), it cannot belong to the ātman itself. How far does this logic extend: does the dreamless-sleep test constitute valid evidence for claims about the ātman's nature, or does it merely establish that sorrow is correlated with a particular psycho-physical state?"
+    },
+    {
+      "id": "sq_3",
+      "question": "Rāmānuja frames titikṣā as instrumental — hold steady until śāstrīya-karma is complete, at which point even the arising-and-departing of contacts ceases. Śaṅkara frames it as preparatory — clear elation and dejection so the deeper teaching can be heard. These are different relationships between endurance and its goal: is titikṣā a practice that wears out the occasion for suffering, a practice that repositions the witness of suffering, or both simultaneously?"
+    },
+    {
+      "id": "sq_4",
+      "question": "Śrīdhara draws the explicit parallel: just as sun and water naturally produce cold and heat, so iṣṭa-saṃyoga and viyoga (desired union and separation) naturally produce sukha and duḥkha. If this naturalness is conceded, what work does the injunction titikṣasva actually perform — is it asking for a change in what is experienced, a change in how it is evaluated, or a change in what action follows from the experience?"
+    },
+    {
+      "id": "sq_5",
+      "question": "Vallabha insists on sarvāsahana — endurance of all things, not selective bearing of the unpleasant. In what sense does comprehensive endurance differ from indifference (udāsīnatā), and why would the Puṣṭi-mārga tradition consider the distinction significant for a path centred on Kṛṣṇa-bhakti rather than on withdrawal?"
+    },
+    {
+      "id": "sq_6",
+      "question": "Madhusūdana frames the dual address — Kaunteya (son of Kuntī) and Bhārata (scion of Bharata) — as Kṛṣṇa signalling that confusion between ātman and antaḥkaraṇa is unworthy of Arjuna's lineage. What theory of moral address is operative here: does lineage-reminding function as an appeal to pride, an appeal to transmitted wisdom, or an appeal to a form of identity the person already endorses?"
+    },
+    {
+      "id": "sq_7",
+      "question": "All six schools agree that the contacts are anitya (impermanent), yet they draw different practical conclusions — stoic endurance (Śaṅkara), fortitude for duty (Rāmānuja), discriminative relinquishing of abhimāna (Madhva), poised receptivity to prasāda (Vallabha), emotional specificity toward grief (Śrīdhara), and discriminative upekṣā (Madhusūdana). Does the shared premise of impermanence underdetermine the practical instruction, or does each school's additional metaphysical commitment uniquely determine the direction of its application?"
+    }
+  ],
+  "everyday_applications": [
+    {
+      "school": "advaita",
+      "application": "When discomfort arrives — a difficult conversation, physical illness, professional setback — the Advaita practice is to notice the arising-and-departing character (āgamāpāyin) of the inner event itself, not merely to remind yourself that 'it will pass.' The exercise is precise: observe that the distress belongs to the modification of the inner organ and that you are the one for whom it appears, not the one it belongs to. This is not suppression — Śaṅkara explicitly says do not produce hārṣa or viṣāda, meaning both the pleasant and the unpleasant require the same non-proprietorial attention. Over time the habit of mis-location (taking the antaḥkaraṇa's mood as one's own identity) is interrupted."
+    },
+    {
+      "school": "viśiṣṭādvaita",
+      "application": "Rāmānuja's practical instruction is oriented toward the completion of dharmic work: when discomfort, fatigue, or resistance arises in the course of an obligation — parenting, professional duty, community service — bear it with dhairya only until that obligation is fulfilled, not as permanent stoic posture. The rationale is that the discomfort is āgamāpāyin: it is part of the karma-field that is being worked through, and working through it with steadiness is itself the act that exhausts binding karma. The application is to distinguish between enduring discomfort that belongs to genuine dharmic action and enduring discomfort that belongs to avoidance of facing what needs to change."
+    },
+    {
+      "school": "dvaita",
+      "application": "The Dvaita application turns on relinquishing abhimāna — the possessive claim over a particular body, circumstance, or outcome. When grief or pain arrives, the pratice is to ask the question Madhva implies: where exactly is this sorrow residing right now? If you look for it during deep sleep or in states of complete absorption, it is absent — which means it was tracking a condition, not constituting you. This inquiry is not intellectual distancing but an act of honest seeing about the structure of Hari's creation: the ātman is genuinely distinct from the body-mind complex, and recognising that distinction in the moment of pain is the act of worship that the Dvaita tradition calls viveka-bhakti."
+    },
+    {
+      "school": "śuddhādvaita",
+      "application": "Vallabha's everyday application is closest to what contemplative traditions call 'being a fair witness': when a dvandva arrives — heat, cold, praise, blame, gain, loss — do not contract away from it or expand toward it, but remain present as a stable vessel. The word sarvāsahana (bearing everything) is key: the practice is not reserved for adversity alone but applies equally to pleasure, which can capsize the sādhaka as readily as pain. In Puṣṭi-mārga terms, this evenness is the precondition for being able to receive Kṛṣṇa's prasāda without gripping it or recoiling from it — participation in līlā requires a steady participant."
+    },
+    {
+      "school": "bhakti",
+      "application": "Śrīdhara's application is the most emotionally graduated: the verse is heard as permission to acknowledge that unions and separations genuinely produce sukha and duḥkha — this is their nature, as natural as water producing cold. The practice is not to pretend otherwise but to recognise that pāravaśya (enslavement to the affective wave) is distinct from the experience itself. In grief over loss — of a person, a role, a phase of life — one can feel the full weight of viyoga and still not be owned by it. The dhīra (steady one) is not the person who does not feel; it is the person who feels without being swept into action that the feeling, rather than dharma, dictates."
+    },
+    {
+      "school": "advaita-bhakti",
+      "application": "Madhusūdana's synthesis yields an application that combines discriminative seeing with an affirmative orientation. When distress arises, the first movement is discriminative: this distress belongs to the antaḥkaraṇa — the changeable, cognizable, dṛśya inner organ — and not to the svaprakāśa (self-luminous) ātman that you are. The second movement, which Advaita-bhakti adds to bare Advaita, is the return: after the upekṣā (setting-aside of misidentification), one's attention is free to rest in the jñānānanda-rūpa (knowing-blissful nature) of the ātman, which is also one's relation to Kṛṣṇa. Titikṣā here is not the destination but the clearing that makes the devotional re-orientation possible."
+    }
+  ]
 }

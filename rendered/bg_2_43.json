@@ -315,7 +315,8 @@
         "shankara_2.43",
         "anandgiri_2.43"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara reads the entire verse as a diagnosis of why the ordinary Vedic mind cannot attain vyavasayatmika buddhi. The rites are condemned not as false but as insufficient; the goal is dissolution of the desiring subject, not its satisfaction via heaven."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -332,7 +333,8 @@
         "madhva_2.43",
         "jayatirtha_2.43"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva does not elaborate a phenomenology of desire; he delivers a structural correction: the Veda's telos is Hari-worship, not svarga. His terseness is itself a rhetorical act — there is nothing more to say once the telos is corrected."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -348,7 +350,8 @@
       "witness_passages": [
         "sridhara_2.43"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara's voice is more affectively engaged than Shankara's: he describes agitation (akulata) rather than only structural error. The Sridhara panel entry contained JavaScript artifact text in the payload; this rendering draws exclusively from the Sanskrit bhashya portions."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -356,6 +359,15 @@
       "witness_passages": [
         "madhusudan_2.43"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudana is the only panelist who explicitly distinguishes two kinds of purification — bhoga-conducive and jnana-conducive — and names the failure mechanism precisely. Not all rites are equally obstructive; the variable is phala-abhisandhi, and bhakti is what dissolves it."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Where Shankara locates the error in the desiring subject's nature, Ramanuja locates it in an incomplete reading of scriptural intention. The Veda, read fully, points toward Bhagavan as the real phala; the kamin has simply stopped reading too soon.",
+      "score": 0.5
+    },
+    "shuddhAdvaita": {
+      "divergence_note": "Vallabha's distinctive move is grammatical: making desire structural to selfhood, not incidental. This sets up the Pushti-marga insistence that only Krishna's grace can dissolve what no practice can overcome from within.",
       "score": 0.5
     }
   },
@@ -464,5 +476,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If the Vedas themselves authorize the speech being condemned here, what distinguishes legitimate Vedic ritual prescription from the flowery speech Krishna criticizes — is the difference in the speaker's intention, the listener's understanding, or the text's telos?",
+    "The verse pairs kama-atmanah (desire-natured) with svarga-parah (heaven-focused): does the text suggest heaven is merely a low goal, or that the very structure of goal-directed desire is the problem regardless of how elevated the goal?",
+    "Madhusudana's water-wheel image (ghati-yantra) implies the rite-rebirth cycle is mechanically self-sustaining — what would it mean to interrupt a mechanism rather than simply to desire to leave it?",
+    "All schools agree that kriya-vishesa-bahula (dense with specific rites) describes a pathology of elaboration — does this imply a general principle that spiritual sophistication expressed as procedural complexity is suspect?",
+    "Janma-karma-phala-pradata names rebirth itself as the fruit of these rites — how does this reframe conventional religious achievement (performing complex rituals correctly) as spiritual failure?",
+    "The verse's addressee is implicitly a Vedic practitioner already committed to ritual — what does it mean for a tradition to critique its own practitioners from within its own highest text?",
+    "Vallabha reads kama-atmanah as structural selfhood-constituted-by-desire rather than a person who incidentally has desires — what practical difference does this ontological distinction make for what kind of remedy is possible?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "application": "Notice when your spiritual or professional planning accumulates elaborate procedures — new courses, certifications, side-projects — while the felt sense of insufficiency that drives them remains untouched. Shankara's diagnosis of kriya-vishesa-bahula (thickness of specific rites) maps directly onto the proliferation of productivity systems, credential-seeking, or wellness routines that promise transformation but only produce the next version of the same desiring self. The Advaita practice is to periodically ask not what should I add but what am I circling around that I have not yet looked at directly."
+    },
+    "vishishtadvaita": {
+      "application": "Ramanuja's image of the practitioner who stops at the Veda's outer petals applies to any situation where you follow a practice's most visible, socially legible layer — attending services, performing visible charity, meeting formal obligations — without engaging its deeper intention, which is reorientation of the whole person toward Bhagavan. The everyday test is whether your practice is making you more porous to others' reality (kainkarya, service-readiness) or whether it is primarily managing your self-image as a religious person. Stop reading too soon and the flower never opens into fruit."
+    },
+    "dvaita": {
+      "application": "Madhva's structural correction translates as: identify the real telos behind your actions. When you work hard, serve your community, or practice devotion, the operative question is whose glory the action is ultimately organized around — yours (outcome-obsessed) or Hari's (service-structured). This is not a sentimental adjustment but an ontological one: the jiva is constitutionally dependent (paratantra), and actions that proceed from the fiction of independence produce the bondage the verse names. Take one recurring action and ask whether its success condition is defined by your satisfaction or by fidelity to something larger."
+    },
+    "shuddhAdvaita": {
+      "application": "Vallabha's reading that kama-atmanah names desire as one's very constitution — not a bad habit but the organizing principle of the self — implies that no quantity of effortful practice can undo it from within. The practical implication is to stop treating spiritual development primarily as self-improvement and start treating it as a receptivity practice: creating conditions in which Krishna's prasada (grace-gift) can arrive. In daily life this looks like deliberately reducing the transactional frame around devotion — bhajana, service, study — removing the implicit in-order-that from these acts and simply doing them in Krishna's presence."
+    },
+    "bhakti": {
+      "application": "Sridhara's kama-akula-citta (agitated mind) is recognizable as the background hum of goal-directedness that makes genuine rest impossible — always planning the next move, qualifying the present moment by future outcome. The bhakti application is to notice that agitation (akulata) is the actual obstacle, not merely a symptom, and that bhakti practice is specifically designed to address the affective level where Advaita analysis cannot easily reach. Make devotional practice — recitation, singing, offering — a direct counterweight to agitation rather than one more item on a to-do list, and measure the practice by its actual calming effect on the mind's surface."
+    },
+    "advaita-bhakti": {
+      "application": "Madhusudana's distinction between bhoga-anukula shuddhi (purification that feeds pleasure-seeking) and jnanopayogini shuddhi (purification that supports liberating insight) offers a diagnostic for evaluating one's current practices. Ask of any spiritual practice, self-care routine, or growth activity: does this leave me cleaner and quieter, or does it leave me wanting the next version? Practices organized around outcome-desire (phala-abhisandhi) tend to produce only more refined desire, while practice saturated with Krishna-bhakti and released from result-fixation produces the purification that opens into samadhi. Identify one practice where you can genuinely release the result-expectation and observe what shifts."
+    }
   }
 }
