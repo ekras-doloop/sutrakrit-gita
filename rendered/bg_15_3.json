@@ -457,7 +457,8 @@
         "shankara_15.3",
         "anandgiri_15.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Shankara reads the imperceptibility as mithya-status (dream/mirage analogy). The sword is viveka sharpened by vairagya; the goal is jnana-nishtha, not devotion."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -475,7 +476,8 @@
         "madhva_15.3",
         "jayatirtha_15.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's radical divergence: anta and adi refer to Vishnu, not to the tree's measurability. The cutting is vimarsha (reflection on Brahman), not renunciation. The tree binds jivas but not Brahman who is its root — a theistic realism absent in Shankara."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -491,7 +493,8 @@
       "witness_passages": [
         "sridhara_15.3"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara is terse and traditional, grounding asanga firmly in ahankara-mamata-tyaga (relinquishing I-ness and mine-ness). No elaborate metaphysical apparatus; the practical orientation toward tattva-jnana is the telos."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -499,6 +502,15 @@
       "witness_passages": [
         "madhusudan_15.3"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudhana inherits Shankara's mithya-language and dream-mirage analogy, but his asanga-shastra includes devotional yearning (Paramatma-aujsukya) as the edge that sharpens the sword — a synthesis unavailable in strict jnana-marga reading."
+    },
+    "vishishtadvaita": {
+      "divergence_note": "Ramanuja anchors imperceptibility in the samsarin's experiential blindness, not metaphysical illusion. Asanga-shastra is samyag-jnana whose ultimate instrument is prapatti (surrender to the Primeval Person, citing BG 7.14 and 9.10).",
+      "score": 0.5
+    },
+    "shuddhadvaitta": {
+      "divergence_note": "Vallabha refuses both full-world-negation (contra Shankara) and simple devotional renunciation. The cut separates jiva-projected samsara from the divine world that persists as Bhagavan's lila; the sword is vairagya toward the non-adorable, not a general detachment.",
       "score": 0.5
     }
   },
@@ -560,5 +572,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If the samsara-tree has no perceptible beginning, middle, or end, what does it mean to 'cut' something whose boundaries cannot be located — and can that act be deliberate at all?",
+    "Shankaracharya's dream-mirage analogy and Vallabha's 'dross-gold' image produce opposite prescriptions for how to relate to the world after the cut — which is the correct consequence of BG 15.3 for a householder?",
+    "Madhva identifies anta and adi with Vishnu rather than with the tree's unmeasurability — does that reading change what the 'sword' must actually strike?",
+    "The verse says the roots are su-virudha-mula (deeply grown) — does Ramanuja's diagnosis of guna-sanga as the hidden root imply the cut must happen at the level of motivation rather than action?",
+    "If asanga (non-attachment) is the sword, what is the whetstone? The schools offer viveka, upasana, prapatti, and vairagya — are these the same process at different depths or genuinely different technologies?",
+    "This verse is the transition from description (15.1-2) to prescription (15.3-4): what makes description of samsara therapeutically necessary before the prescription is given?",
+    "Sridhara collapses asanga into ahankara-mamata-tyaga (abandonment of I-sense and mine-sense) — can a person systematically relinquish I-sense, or does the attempt itself reinstate the I?"
+  ],
+  "everyday_applications": {
+    "advaita": "When a project, relationship, or identity you have built for years suddenly collapses, notice that you cannot locate when it 'really' began or exactly when it ended — that unmappability is itself the teaching: what seemed solid was always mithya-structured, and the grief is the sword being sharpened.",
+    "vishishtadvaita": "Before making a major life decision, ask: 'Am I seeing the full tree — my role in a chain of debts, obligations, and continuations I did not originate?' The samsarin sees only 'I am this person's child, that person's parent'; recovering the wider view is the beginning of the cut toward the Primeval Person.",
+    "dvaita": "In any situation where you feel trapped by circumstances, pause and ask whether the binding is in the situation or in your ignorance of the One who is simultaneously its beginning, middle, and end. The cut is vimarsha — sitting with that question until the Vishnu-ground becomes perceptible beneath the tangle.",
+    "shuddhadvaitta": "Distinguish, in your daily life, between what you engage with as adorable (worthy of full presence) and what you engage with out of compulsion or habit. The sword is not withdrawal from the world but selective non-engagement with the compulsive layer — leaving the adorable world of Bhagavan's lila intact.",
+    "bhakti": "Identify one domain — work, money, reputation, a relationship — where you genuinely cannot see its beginning or where it will end. Let that opacity be the signal: this is a root of the samsara-tree. Cultivate samyag-vichara (honest inquiry) specifically about that domain rather than applying generic renunciation.",
+    "advaita-bhakti": "Combine two daily practices: one moment of viveka (asking 'is this permanent?') and one moment of autsukya (yearning — touching the desire to know the Supreme rather than suppressing desire altogether). Madhusudhana's synthesis says the sword needs both the edge of discrimination and the heat of longing to cut through beginningless avidya."
   }
 }
