@@ -46,16 +46,19 @@ The papers articulate the methodological commitments under which this edition is
 
 ## Build status
 
-This repo is in active scaffolding (April 2026). Current state:
+**As of April 22 2026 (v1.0 substrate-swap complete):**
 
-- [x] Substrate validated on the eight-commentator panel (companion paper Section III)
+- [x] Substrate validated on the eight-commentator panel (companion paper Section III) — Ramsukhdas R@4 71.5%, Śaṅkara 71.6% with frozen weights, Vedantadeshika 40.2% at n=629, Tilak (negative control) 38.4%
 - [x] Per-verse object schema designed (companion paper Section VI)
-- [x] Approximately 100 of 700 verses rendered through the full pipeline
-- [ ] Remaining 600 verses rendered
-- [ ] Public-facing web frontend at gita.ekrasworks.com
-- [ ] Independent reviewer audit by participating Sanskritists
+- [x] **All 700 verses rendered through the full pipeline** (10,578 tokens), all 6 doctrinal schools × 2 registers (Vyāsa-discipline + Tulsīdās-discipline), intertextual panels, theme-list memberships, audit trail
+- [x] **Public-facing web frontend live at [gita.ekrasworks.com](https://gita.ekrasworks.com)** — chapter-by-chapter browse, verse-level six-school panel rendering, so-what questions, everyday applications, compare-mode, click-trails, theme-list walks, lemma-wire view
+- [x] **Word-by-word substrate: ByT5-Sanskrit-multitask** (Nehrdich, Hellwig & Keutzer, EMNLP 2024) with full audit-trail provenance. Every verse renders per-token lemma + case/gender/number/tense/mood/person.
+- [x] **15-domain × 2-engine cross-framework eval** completed April 22 — Perplexity + Grok converge on substrate-fit rank ordering across Indic / legal / religious / literary / technical / critical domains with ISO 8601 negative control correctly discriminating.
+- [ ] Hand-labeled 50-verse gold subset for ≥95% lemma-agreement validation gate (next-session queued)
+- [ ] Per-school sense re-extraction on ByT5-quality lemmas (current `senses_attested_in_panel` empty pending re-extraction)
+- [ ] Independent reviewer audit by participating Sanskritists (invited)
 
-Expected complete edition release: 4–6 weeks from repo creation.
+**Companion papers:** the Sūtrakṛt triptych (Papers 1–3) + Sūtrakṛt-for-Code (Paper 4) + Sūtrakṛt-for-Context-Engineering (Paper 5) are drafted and pending arXiv submission. See the related Pneumae 16-paper research program on the voice-conversation substrate (Rastogi, February–April 2026, Project Respire).
 
 ## Reproducibility commitment
 
