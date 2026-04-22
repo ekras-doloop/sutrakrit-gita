@@ -329,7 +329,8 @@
         "shankara_6.25",
         "anandgiri_6.25"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sankara treats atmasamstha as jnana-recognition, not devotional rest — the mind dissolves into its own true nature, not into a personal deity."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -347,7 +348,8 @@
         "madhva_6.25",
         "jayatirtha_6.25"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva's commentary here is terse (a single line in the source). Buddhi-primacy for mano-nigraha is affirmed; atma-ramana retains permanent jiva-Brahman distinction — bhashya is sparse but unambiguous on this ontological floor. [NOTE: Madhva bhashya for this verse is highly compressed; inference from his wider siddhanta supplements.]"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -363,7 +365,8 @@
       "witness_passages": [
         "sridhara_6.25"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Sridhara alone among the panel explicitly names the fruit within the restraint-process itself — the self-luminous parama-ananda that arises when the mind goes still — giving this verse a positive, not merely privative, telos."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -371,6 +374,15 @@
       "witness_passages": [
         "madhusudan_6.25"
       ],
+      "score": 0.5,
+      "divergence_note": "Madhusudhana's synthesis is most architecturally elaborate — he reads the verse through the four Katha Sruti stages, making it a map of Advaita levels of dissolution, while retaining the guru-path and patient non-despondency of devotional praxis."
+    },
+    "visistadvaita": {
+      "divergence_note": "Ramanuja's 'Atman' here is the jiva understood as sarira (body) of Isvara — atmasamstha does not mean dissolution into undifferentiated Brahman but the soul resting in its own authentic mode within Bhagavan.",
+      "score": 0.5
+    },
+    "suddhadvaita": {
+      "divergence_note": "Vallabha's commentary spans verses 6.22-6.25 as a unit; he reads atmasamstha as rest in Krsna-svarupa under the Pustimarga lens of total dependence on grace, not autonomous jnana-effort. [NOTE: Vallabha bhashya covers this verse only in a block with 6.22; rendering supplements from Pustimarga siddhanta.]",
       "score": 0.5
     }
   },
@@ -438,5 +450,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If 'gradually' (sanaih sanaih) is the explicit instruction, what is wrong with forcing stillness quickly — and what does forced stillness actually produce?",
+    "Sankara says atmasamstha means 'the Atman alone is all, nothing else exists' — Ramanuja says it means 'resting in the jiva as mode of Isvara.' Is this a difference in practice or only in metaphysics?",
+    "Sridhara says parama-ananda self-illuminates when the mind goes still — does the practitioner aim at the ananda, or is aiming at it itself the obstacle?",
+    "Madhusudhana cites the Katha Upanisad four-stage ladder inside a yoga verse — what does it mean that Upanisadic jnana-structure and yogic practice instruction are read as identical?",
+    "Madhva gives only a single terse line here. Does doctrinal compression signal that this verse's methodology is subordinate to Hari's grace in his school — or is it simply covered elsewhere?",
+    "Vallabha bundles 6.22-6.25 as a unit about fruit (duhkha-samyoga-viyoga). Does treating the 'how' verses as subordinate to the 'what fruit' framing change the practitioner's relationship to the technique?",
+    "All six schools agree on 'do not think of anything' as the endpoint — yet they disagree on what that empty mind is resting in. Is the disagreement soteriological, phenomenological, or both?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "application": "When agitation arises during seated practice, do not wrestle with it immediately. Invoke dhrti: the recognition that there is no urgency because the Atman is already whole. Let each return to stillness be a small, complete act — not a struggle toward a goal that is elsewhere."
+    },
+    "visistadvaita": {
+      "application": "Distinguish the desires you can release by simply withdrawing mental association (plans, projections, fantasies) from the ones attached to sensory contact (discomfort, pleasure in the body). Work on the mental-construction desires first, with viveka — sort your inner inventory before trying to force equanimity on the body."
+    },
+    "dvaita": {
+      "application": "When the mind wanders, the buddhi is the instrument of return — not willpower alone. Strengthen your discernment (buddhi) through scriptural study and satsanga with those who know Hari; a weakened buddhi cannot hold the mind steady regardless of how much effort the will exerts."
+    },
+    "suddhadvaita": {
+      "application": "Bring into daily life the resolve (niscaya) that this practice will bear fruit — not as optimism but as surrender to Krsna's own promise. Remove the internal bargaining about whether you are 'making progress.' Take up the practice as if Krsna has already guaranteed the outcome, because in Pustimarga, He has."
+    },
+    "bhakti": {
+      "application": "When old habit-patterns (samskaras) pull the mind away from stillness, do not treat this as failure. Sridhara explicitly anticipates this — use dharana (steady mental holding) each time it happens, patiently, through the sequence of practice. The arising of parama-ananda is not caused by your effort; your effort only removes the obstructions."
+    },
+    "advaita-bhakti": {
+      "application": "Practise with the guru's specific instruction as your map and Madhusudhana's four-stage sequence as orientation: first bring all scattered speech-activity into the mind; then bring the mind's activity into pure awareness; then release even the personal 'I-sense' into the vast sense of being. Do not rush any stage — the instruction sanaih sanaih (gradually, gradually) is repeated twice for a reason."
+    }
   }
 }

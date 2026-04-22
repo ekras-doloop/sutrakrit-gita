@@ -258,7 +258,8 @@
         "shankara_6.36",
         "anandgiri_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Advaita frames yoga here as preparation for jñāna, not as terminal goal; the upāya is instrumental to mokṣasādhana (liberation-means), not devotional surrender."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -267,7 +268,8 @@
         "ramanuja_6.36",
         "vedantadeshika_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Where Śaṅkara's upāya is the dyad abhyāsa-vairāgya leading toward jñāna, Rāmānuja's upāya is devotional karma-yoga as kainkarya; the goal is samadaśana as bhakti, not jñāna as mokṣa."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -276,7 +278,8 @@
         "madhva_6.36",
         "jayatirtha_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Madhva is the sharpest divergence: yoga's inaccessibility is not a technical difficulty of practice but an ontological fact — the mind cannot be controlled without Hari's grace, and grace is withheld from the Viṣṇu-averse jīva."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -284,7 +287,8 @@
       "witness_passages": [
         "vallabha_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Vallabha's terseness is doctrinal: extended upāya-analysis implies the practitioner can engineer liberation; Puṣṭi-mārga refuses this premise, so the verse needs no elaboration beyond acknowledging Kṛṣṇa's condition."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -292,7 +296,8 @@
       "witness_passages": [
         "sridhara_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "Śrīdhara's voice is integrative rather than polemical; he preserves the Advaita grammatical analysis while pointing toward bhakti's relational register, treating abhyāsa-vairāgya as preparation for surrender rather than for impersonal jñāna."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -300,7 +305,8 @@
       "witness_passages": [
         "madhusudan_6.36"
       ],
-      "score": 0.5
+      "score": 0.5,
+      "divergence_note": "This school uniquely allows that a jñānin can still be disqualified from the highest yoga; the verse is thus not merely about beginners but about the advanced practitioner who has seen truth yet not fully stilled the mind — a position no other school in this panel articulates."
     }
   },
   "prosodic_information": {
@@ -365,5 +371,40 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B"
+  },
+  "so_what_questions": [
+    "If abhyāsa (practice) and vairāgya (dispassion) are the two instruments named across multiple bhāṣyas, what is their precise sequence — must one cultivate vairāgya before abhyāsa, or do they develop concurrently, and does the answer vary by school?",
+    "Madhusūdana distinguishes tattva-sākṣātkāra (direct realization) from citta-vṛtti-nirodha (stilling of mental modifications) — can these genuinely come apart in a single practitioner, and what are the experiential signs that one has the first without the second?",
+    "Madhva cites a Brahma-text making mind-control impossible for those hostile to Viṣṇu — is this a descriptive claim about psychological fact, or a normative-theological gatekeeping claim, and how would Śaṅkara or Rāmānuja respond?",
+    "Vallabha's spaṣṭam etat ('this is obvious') is the most minimal comment in the panel — does brevity signal confidence in prasāda as self-evident, or is it an implicit refusal to engage the effort-based framing of the verse?",
+    "Kṛṣṇa says upāyataḥ (by the method / by means) — each school loads this word differently (abhyāsa-vairāgya dyad, madārādhana-karma, Hari's grace, prasāda, pauruṣa-effort). What does the polysemy of upāya tell us about what each school thinks is ultimately operative in transformation?",
+    "If the asaṃyatātman 'falls from yoga at the moment of death' (as Śaṅkara contextualizes), does this verse constitute a genuine threat to the aspiring yogi or a compassionate reassurance that the path is real for those who do the work?",
+    "The verse is the last word before Arjuna's panic question about the fallen yogi (6.37 onward) — does 6.36 function rhetorically as a provocation designed to elicit that question, and if so, what does Kṛṣṇa want Arjuna to fear and then release?"
+  ],
+  "everyday_applications": {
+    "advaita": {
+      "school": "Advaita Vedānta",
+      "application": "Treat the mind's daily restlessness as diagnostic data, not failure. Each morning, before screen contact, spend ten minutes in a fixed sitting posture with no content-input — this is the abhyāsa (repeated practice) side. Each evening, notice one attachment that drove that day's agitation and name it clearly — this is the vairāgya (seeing-through) side. The goal is not bliss but a quieter antaḥkaraṇa that can hold inquiry without being hijacked by prārabdha noise."
+    },
+    "viśiṣṭādvaita": {
+      "school": "Viśiṣṭādvaita",
+      "application": "Before any significant action — a conversation, a decision, a creative act — take one breath and silently acknowledge that the action is being performed in the presence of Bhagavān who pervades the person in front of you. This is the antargata-jñāna Rāmānuja means by the 'upāya': the mind becomes vśya not by suppression but by re-orienting its field of attention toward the divine ground within the situation."
+    },
+    "dvaita": {
+      "school": "Dvaita",
+      "application": "Audit your motivational structure honestly: is there any residual contempt for the practice, the teacher, or the tradition? Madhva's citation identifies dveṣa (hostility) toward the divine as the structural obstacle, not lack of technique. If resentment or cynicism is present, address it directly — through satsaṅga (association with those who love the practice) — before adding more technique. Technique layered on dveṣa does not compound; it dissipates."
+    },
+    "śuddhādvaita": {
+      "school": "Śuddhādvaita / Puṣṭi-mārga",
+      "application": "Stop performing yoga as self-improvement. Instead, show up for your practice with the attitude of a child entering a room where Kṛṣṇa is already present — no agenda, no metric, no self-monitoring. Vallabha's 'spaṣṭam etat' means the mechanism is not complicated: when you stop trying to engineer the result and simply remain receptive, the vśyatā of mind arrives as prasāda, not as achievement."
+    },
+    "bhakti": {
+      "school": "Bhakti-philological (Śrīdhara Svāmī)",
+      "application": "Use the two-instrument frame as a practical checklist at the end of each week: (1) Did I practice consistently this week — same time, same method, without skipping? (2) Did I notice, and not act on, at least one strong pull toward a distracting object or story? If both answers are yes, the citta is moving toward vaśavartin (obedience). If one is missing, that is the single thing to address next week — not both simultaneously."
+    },
+    "advaita-bhakti": {
+      "school": "Advaita-bhakti synthesis (Madhusūdana Sarasvatī)",
+      "application": "If you have had genuine moments of clarity or insight about the nature of mind or reality, do not assume they have 'fixed' you. Madhusūdana's aparam-yogin warning applies: insights without sustained practice leave the vāsanā-stream running. Redirect that stream through deliberate śubha-vāsanā cultivation — choose one repeating habit (daily reading, physical discipline, a service commitment) that builds momentum in the auspicious direction, and maintain it even when insight makes it feel redundant."
+    }
   }
 }
