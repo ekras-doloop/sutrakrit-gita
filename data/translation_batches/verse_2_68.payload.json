@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.68",
+  "mula_devanagari": "तस्माद् यस्य महाबाहो निगृहीतानि सर्वशः | इन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.68।। इन्द्रियाणां प्रवृत्तौ दोष उपपादितो यस्मात् &nbsp; तस्मात् यस्य &nbsp; यतेः हे &nbsp; महाबाहो निगृहीतानि सर्वशः &nbsp; सर्वप्रकारैः मानसादिभेदैः &nbsp; इन्द्रियाणि इन्द्रियार्थेभ्यः &nbsp; शब्दादिभ्यः &nbsp; तस्य प्रज्ञा प्रतिष्ठिता।। योऽयं लौकिको वैदिकश्च व्यवहारः स उत्पन्नविवेकज्ञानस्य स्थितप्रज्ञस्य अविद्याकार्यत्वात् अविद्यानिवृत्तौ निवर्तते अविद्यायाश्च विद्याविरोधात् निवृत्तिः इत्येतमर्थं स्फुटीकुर्वन् आह &nbsp;"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.68।।&nbsp; तस्माद् &nbsp; उक्तेन प्रकारेण शुभाश्रये मयि निविष्टमनसो &nbsp; यस्य इन्द्रियाणि इन्द्रियार्थेभ्यः सर्वशो निगृहीतानि तस्य &nbsp; एव आत्मनि &nbsp; प्रज्ञा प्रतिष्ठिता &nbsp; भवति। एवं नियतेन्द्रियस्य प्रसन्नमनसः सिद्धिम् आह"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.68।।तस्मात्सर्वात्मना निगृहीतेन्द्रिय एव ज्ञानीति निगमयति। तस्मादिति।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.68।।उक्तमुपसंहरति तस्मादिति। हे क्रियाशक्तियुक्त यस्येन्द्रियाणि सर्वशः इन्द्रियार्थेभ्यो विषयेभ्यो निगृहीतानि तस्य प्रज्ञा प्रतिष्ठिताऽवसेया। स तादृशो लक्ष्यत इत्यर्थः। सम्बोधनेन त्वमपि महाबाहुभ्यां इममिन्द्रियनिग्रहणं कुरुष्वेति सूचितम्।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.68।।इन्द्रियसंयमस्य स्थितप्रज्ञत्वसाधनत्वलक्षणत्वं प्रोक्तमुपसंहरति&nbsp; यस्मादिति। &nbsp; प्रतिष्ठिता भवतीत्यर्थः। लक्षणत्वोपसंहारे तस्य प्रज्ञा प्रतिष्ठिता ज्ञातव्येत्यर्थः। महाबाहो इति संबोधनं वैरिनिग्रहसमर्थस्य तवात्रापि सामर्थ्यं भवेदिति सूचयति। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.68 Therefore, O mighty-armed one, this wisdom becomes established whose organs in all their varieties are withdrawn from their objects. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElem"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.68।।हि यस्मादेवं सर्वशः सर्वाणि समनस्कानि। हे महाबाहो इति संबोधयन् सर्वशत्रुनिवारणक्षमत्वादिन्द्रियशत्रुनिवारणेऽपि त्वं क्षमोऽसीति सूचयति। स्पष्टमन्यत्। तस्येति सिद्धस्य साधकस्य च परामर्शः। इन्द्रियसंयमयस्य स्थितप्रज्ञंप्रति लक्षणत्वस्य मुमुक्षुंप्रति प्रज्ञासाधनत्वस्य चोपसंहरणीयत्वात्।"
+    }
+  }
+}

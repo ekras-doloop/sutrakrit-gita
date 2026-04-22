@@ -1,0 +1,79 @@
+{
+  "translator_name": "Sūtrakṛt Translator",
+  "version": "v1.0",
+  "version_id": "sutrakrit-translator-v1.0-bg2-pilot-2026-04-21",
+  "purpose": "First AI translator that produces a panel-of-doctrine-anchored renderings + everyday-applications for a verse-structured wisdom text, instead of a single committed translation. Vyāsa-discipline (preserve every lineage's reading) AND Tulsīdās-discipline (vernacular bridge for working modern readers). Generalizable to any verse-text with multiple commentary traditions (Brahma-Sūtras, Yoga-Sūtras, Upaniṣads, Dhammapada, Tao Te Ching, Pirkei Avot).",
+
+  "inputs_per_verse": {
+    "mula_devanagari": "The verse in source script",
+    "mula_iast": "(optional) Romanized for fallback",
+    "school_panel": {
+      "school_name": {
+        "voice_descriptor": "One-line characterization of this lineage's interpretive register and stylistic signature (e.g., 'Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice')",
+        "primary_commentator": "Named ācārya whose prose anchors this rendering",
+        "panel_commentary_devanagari": "Up to 3500 characters of the actual bhāṣya prose for this verse — the load-bearing input"
+      }
+    }
+  },
+
+  "outputs_per_verse": {
+    "doctrinal_renderings": "dict[school -> {english, key_terms_preserved, divergence_note}] — N=6 for BG; N varies by text",
+    "so_what_questions": "list[str] (5-7) — verse-level, universal across schools, written for a working modern person",
+    "everyday_applications": "dict[school -> str] — 2-3 sentences, plain modern English, recognizably distinct per school",
+    "self_assessment": "Honest grade + flagged limitations (absent bhāṣyas, sparse payloads, contamination, etc.)"
+  },
+
+  "prompt_v1.0_text": "Generate Sūtrakṛt translation panel for [VERSE_ID].\n\nINPUT: payload at [PATH] containing mula + each school's bhāṣya prose.\nOUTPUT: results JSON at [PATH].\n\n(A) Six doctrinal renderings — one per school. Each:\n  - ≤3 sentences\n  - Anchored in THE SUPPLIED SANSKRIT COMMENTARY (NOT in training-data memory of standard English Gītā translations like Gambhīrānanda, Easwaran, Prabhupāda)\n  - Cross-school divergence MUST be real and doctrinally meaningful — if schools differ on a key term, let that show in English. If you produce 6 paraphrases of the same reading, you've failed.\n  - Stay tight to the Sanskrit. Don't add modern psychologizing, don't smooth out theological commitments.\n  - Read like the named ācārya speaking, not like a translator's paraphrase. Voice matters: [voice descriptors per school]\n\n(B) 5-7 so-what questions — verse-level, universal. The kind a working modern person (manager, parent, founder, doctor, teacher) would actually ask if a friend handed them this verse. Verse-specific, not generic. No Sanskrit jargon.\n\n(C) Six everyday-applications — one per school. 2-3 sentences in plain modern English that takes that school's specific doctrinal mechanism (visible in its rendering) and lands it concretely in a working person's life. Each must be recognizably distinct from the others. No religious-gauze language. Reference recognizable life situations.\n\nHARD CONSTRAINTS:\n- Sanskrit terms appear ONLY in their Sanskrit form with parenthetical English gloss. NEVER attach English suffixes (-ly, -ing, -ed, -s) to Sanskrit roots. No 'niṣkāmly', no 'mokṣa-ed', no 'dharmically', no 'jñāna-ing'.\n- If a school's bhāṣya is absent for this verse, FLAG explicitly in divergence_note rather than fabricate. Honest gap-disclosure beats invented bhāṣya.\n- doctrinal_renderings MUST be a dict keyed by school name (not a list of objects). Same for everyday_applications.\n- If panel commentary contains HTML/JS artifacts (scraper contamination), use only the Sanskrit content.\n\nReturn ONLY JSON to the output path, no markdown, no preamble.\n\nSCHEMA:\n{\n  \"verse_id\": \"...\",\n  \"doctrinal_renderings\": {\n    \"<school>\": {\"english\": \"...\", \"key_terms_preserved\": [...], \"divergence_note\": \"...\"}\n  },\n  \"so_what_questions\": [...],\n  \"everyday_applications\": {\"<school>\": \"...\"},\n  \"self_assessment\": \"...\"\n}",
+
+  "design_decisions_log": [
+    {
+      "decision": "Two-register output (doctrinal panel + so-what + everyday-applications)",
+      "rationale": "Vyāsa-discipline alone (panel) leaves working readers cold; Tulsīdās-discipline alone (vernacular landing) collapses source polysemy. Both registers run simultaneously per verse. See memory: sutrakrit_vyasa_tulsidas_dual_discipline.md.",
+      "date": "2026-04-21"
+    },
+    {
+      "decision": "Anchor in supplied bhāṣya prose, not training-data English Gītās",
+      "rationale": "If the model leans on Gambhīrānanda or Prabhupāda, our renderings collapse to paraphrases of those — the entire airgap discipline fails. The fidelity benchmark explicitly checks for English-Gītā contamination via longest common content-word run.",
+      "date": "2026-04-21"
+    },
+    {
+      "decision": "No English suffixes on Sanskrit roots (no 'niṣkāmly', 'mokṣa-ed')",
+      "rationale": "User caught 'niṣkāmly' in the smoke-test output. Morphological category-error: Sanskrit stems don't take English suffixes. Added as hard constraint in v1.0.",
+      "date": "2026-04-21"
+    },
+    {
+      "decision": "Flag absent bhāṣyas honestly rather than fabricate",
+      "rationale": "Many ācāryas skip verses (Śaṅkara begins at 2.10, Madhva at 2.11; both have many other gaps). Honest gap-disclosure preserves credibility with Sanskritists. Subagents have consistently complied — every absent bhāṣya in BG 2 was disclosed, never papered over.",
+      "date": "2026-04-21"
+    },
+    {
+      "decision": "Schema MUST be dict keyed by school name, not list",
+      "rationale": "Initial dispatches without this constraint produced ~20% list-shaped outputs (different ordering, can't index by school). Added explicit instruction in wave 6+.",
+      "date": "2026-04-21"
+    },
+    {
+      "decision": "Per-verse subagent dispatch, not batched",
+      "rationale": "One verse per subagent gives each call full context-budget for the panel commentary (which can run 5KB+) and avoids quality dilution from multi-verse batching. Cost: 700 calls for full BG. Still tractable.",
+      "date": "2026-04-21"
+    }
+  ],
+
+  "fidelity_benchmark_methodology": {
+    "metric_1_cross_school_divergence": "Mean pairwise Jaccard distance over content tokens of the 6 school-renderings. Target: ≥ 0.5 (schools more different than similar). BG 2 actual: 0.557 at n=37.",
+    "metric_2_superset_coverage": "Per external translator T, fraction of T's content tokens that appear (lemma-loose) in our 6-rendering union. Target: ≥ 0.3 lexical floor (semantic via mE5 will be higher). BG 2 actual: 0.23-0.28 against full-text translators (Sivananda, Purohit, Gambhīrānanda, Adidevananda).",
+    "metric_3_contamination_check": "Longest run of consecutive matching content words between our union-text and any external translator (allowed-shared-vocab stripped). Target: ≤ 5. BG 2 actual: max 4 across all 7 supersite translators.",
+    "open_metrics": "Future v2 additions: (a) mE5 cosine semantic coverage to replace lexical floor; (b) Source-Polysemy Calibration (SPC) — does our cross-school divergence track the bhāṣya tradition's own divergence on each verse?; (c) ācārya-sign-off blind eval — submit unlabeled per-school renderings to a Sanskritist and ask which lineage each belongs to."
+  },
+
+  "generalization_notes": {
+    "applicable_to": "Any verse-structured wisdom text with ≥2 commentary lineages. Tested on Bhagavad Gītā (6 schools, 700 verses); designed to extend to Yoga-Sūtras (Vyāsa, Vācaspati, Bhoja), Brahma-Sūtras (Śaṅkara, Rāmānuja, Madhva, Vallabha, Nimbārka), Upaniṣads (multi-school), Dhammapada (Theravāda commentaries), Tao Te Ching (Wang Bi, Heshang Gong), Pirkei Avot (Rambam, Bartenura, Tosafot).",
+    "minimal_inputs_required": "Per text: list of (school_name, voice_descriptor, primary_commentator). Per verse: mula + per-school bhāṣya prose (or 'absent' marker). The substrate handles the rest.",
+    "what_makes_it_NOT_yet_a_universal_translator": "(a) Voice descriptors are hand-curated per text — not yet auto-derived from commentator corpora; (b) Schema is fixed at 6 schools — needs to be N-school for non-Indic texts; (c) Fidelity benchmark requires external translator panel for the target text; (d) so-what / everyday-application register is calibrated for working modern English readers — would need register-recalibration for non-English languages."
+  },
+
+  "evolution_log": [
+    {"version": "v0-smoke", "date": "2026-04-21", "scope": "BG 2.47 single verse, 6-school doctrinal-only panel", "outcome": "Six genuinely divergent renderings; bhāṣya-anchored. Validated approach."},
+    {"version": "v0.1-sowhat", "date": "2026-04-21", "scope": "BG 2.47 + so-what + everyday-applications added", "outcome": "User identified 'niṣkāmly' portmanteau → added morphology constraint. User reframed as Vyāsa+Tulsīdās dual-discipline."},
+    {"version": "v1.0-pilot", "date": "2026-04-21", "scope": "BG 2 full pilot (72 verses)", "outcome": "In-progress. First fidelity benchmark at n=37: divergence 0.557, contamination max 4-word-run, lexical coverage 23-28%. Both pass-criteria green."}
+  ]
+}

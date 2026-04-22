@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.67",
+  "mula_devanagari": "इन्द्रियाणां हि चरतां यन् मनो ऽनुविधीयते | तद् अस्य हरति प्रज्ञां वायुर् नावम् इवाम्भसि",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.67।। &nbsp; इन्द्रियाणां हि &nbsp; यस्मात् &nbsp; चरतां &nbsp; स्वस्वविषयेषु प्रवर्तमानानां &nbsp; यत् मनः अनुविधीयते &nbsp; अनुप्रवर्तते &nbsp; तत् &nbsp; इन्द्रियविषयविकल्पनेन प्रवृत्तं मनः &nbsp; अस्य &nbsp; यतेः &nbsp; हरति प्रज्ञाम् &nbsp; आत्मानात्मविवेकजां नाशयति। कथम् &nbsp; वायुः नावमिव अम्भसि &nbsp; उदके जिगमिषतां मार्गादुद्धृत्य उन्मार्गे यथा वायुः नावं प्रवर्तयति एवमात्मविषयां प्रज्ञां हृत्वा मनो विषयविषयां करोति।। यततो हि इत्युपन्यस्तस्यार्थस्य अनेकधा उपपत्तिमुक्त्वा तं चार्थमुपपाद्य उपसंहरति"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.67।।&nbsp; इन्द्रियाणां &nbsp; विषयेषु &nbsp; चरतां &nbsp; विषयेषु वर्तमानानां वर्तनम् अनु &nbsp; यन्मनः अनु विधीयते &nbsp; पुरुषेण अनुवर्त्यते &nbsp; तत् &nbsp; मनः &nbsp; अस्य &nbsp; विविक्तात्मप्रवणां &nbsp; प्रज्ञां हरति &nbsp; विषेयप्रवणतां करोति इत्यर्थः। यथा &nbsp; अम्भसि &nbsp; नीयमानां &nbsp; नावं &nbsp; प्रतिकूलो &nbsp; वायुः &nbsp; प्रसह्य हरति।"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.67।।कथमयुक्तस्य भावना न भवति इत्याह इन्द्रियाणामिति। अनुविधीयते क्रियते नन्वीश्वरेण इन्द्रियाणामनु बुद्धिर्ज्ञानमिति वक्ष्यमाणत्वात्। प्रज्ञां ज्ञानं उत्पत्स्यदपि निवारयतीत्यर्थः। उत्पन्नस्याप्यभिभवो भवति।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.67।।अत्र हेतुमाह इन्द्रियाणामिति। विषयेषु चरतामिन्द्रियाणां मध्ये यन्मनः कर्तृ प्रबलमेकमनुविधीयते अनेन चानुक्रियते तदस्य प्रज्ञां हरति। तत्र दृष्टान्तः वायुर्नावमिवाम्भसीति।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.67।।नास्ति बुद्धिरयुक्तस्येत्यत्र हेतुमाह&nbsp; इन्द्रियाणामिति। &nbsp; इन्द्रियाणामवशीकृतानां स्वैरं विषयेषु चरतां मध्ये यदेवैकमिन्द्रियं मनोऽनुविधीयतेऽवशीकृतं सदिन्द्रियेण सह गच्छति तदेवैकमिन्द्रियमस्य मनसः पुरुषस्य वा प्रज्ञां हरति विषयविक्षिप्तां करोति किमुत वक्तव्यं बहूनि प्रज्ञां हरन्तीति। यथा प्रमत्तस्य कर्णधारस्य नावं वायुः समुद्रे सर्वतः परिभ्रामयति तद्वत्। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.67 For, the mind which follows in the wake of the wandering senses, that (mind) carries away his wisdom like the mind (diverting) a boat on the waters. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slka"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.67।।अयुक्तस्य कुतो नास्ति बुद्धिरित्यत आह चरतां स्वविषयेषु प्रवर्तमानानामवशीकृतानामिन्द्रियाणां मध्ये यदेकमपीन्द्रियमनुलक्षीकृत्य मनोऽनुविधीयते प्रेर्यते। प्रवर्तत इति यावत्। कर्मकर्तरि लकारः। तदिन्द्रियमेकमपि मनसानुसृतमस्य साधकस्य मनसो वा प्रज्ञामात्मविषयां शास्त्रीयां हरत्यपनयति मनसस्तद्विषयाविष्टत्वात्। यदैकमपीन्द्रियं प्रज्ञां हरति तदा सर्वाणि हरन्तीति किमु वक्तव्यमित्यर्थः। दृष्टान्तस्तु स्पष्टः। अम्भस्येव वायोर्नौकाहरणसामर्थ्यं न भुवीति सूचयितुमम्भसीत्युक्तम्। एवं दार्ष्टान्तिकेऽप्यम्भःस्थानीये मनश्चाञ्चल्ये सत्येव प्रज्ञाहरणसामर्थ्यमिन्द्रियस्य नतु भूस्थानीये मनःस्थैर्य इति सूचितम्।"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.71",
+  "mula_devanagari": "विहाय कामान् यः सर्वान् पुमांश् चरति निःस्पृहः | निर्ममो निरहंकारः स शान्तिम् अधिगच्छति",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.71।। &nbsp; विहाय &nbsp; परित्यज्य &nbsp; कामान् यः &nbsp; संन्यासी &nbsp; पुमान् सर्वान् &nbsp; अशेषतः कात्स्न्र्येन &nbsp; चरति &nbsp; जीवनमात्रचेष्टाशेषः पर्यटतीत्यर्थः। &nbsp; निःस्पृहः &nbsp; शरीरजीवनमात्रेऽपि निर्गता स्पृहा यस्य सः निःस्पृहः सन् &nbsp; निर्ममः &nbsp; शरीरजीवनमात्राक्षिप्तपरिग्रहेऽपि ममेदम् इत्यभिनिवेशवर्जितः &nbsp; निरहंकारः &nbsp; विद्यावत्त्वादिनिमित्तात्मसंभावनारहितः इत्येतत्। &nbsp; सः &nbsp; एवंभूतः स्थितप्रज्ञः ब्रह्मवित् &nbsp; शान्तिं &nbsp; सर्वसंसारदुःखोपरमलक्षणां निर्वाणाख्याम् &nbsp; अधिगच्छति &nbsp;प्राप्नोति ब्रह्मभूतो भवति इत्यर्थः।। सैषा ज्ञाननिष्ठा स्तूयते।।"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.71।।काम्यन्ते इति कामाः शब्दादयो विषयाः। &nbsp; यः पुमान् &nbsp; शब्दादीन् &nbsp; सर्वान् &nbsp; विषयान् &nbsp; विहाय &nbsp; तत्र &nbsp; निःस्पृहः &nbsp; ममतारहितश्च अनात्मनि देहे आत्माभिमानरहितः &nbsp; चरति स &nbsp; आत्मानं दृष्ट्वा &nbsp; शान्तिम् अधिगच्छति। &nbsp;"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.71।।एतदेव प्रपञ्चयति विहायेति। कामान् विषयान् निस्स्पृहतया विहाय यश्चरेति भक्षयति भक्षयामीत्यहङ्कारममकारवर्जितश्च स हि पुमान्। स एव च मुक्तिमधिगच्छतीत्यर्थः।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.71।।यस्मादेवं तस्मात् विहाय कामान्प्राकृतान् त्यक्त्वा स्वात्मारामत्वात् अन्यत्र निस्स्पृहःअहन्ताममतानाशे सर्वथा निरंहकृतौ। स्वरूपस्थो यदा जीवः कृतार्थः स निगद्यते इति। स शान्तिमधिगच्छतीत्यवसेयम्।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.71।।यस्मादेवं तस्मात्&nbsp; विहायेति। &nbsp; प्राप्तान्कामान्विहाय त्यक्त्वोपेक्ष्य अप्राप्तेषु च निःस्पृहः यतो निरहंकारः अतएव तद्भोगसाधनेषु निर्ममः सन्नन्तर्दृष्टिर्भूत्वा यश्चरति प्रारब्धवशेन भोगान्भुङ्क्ते यत्र क्वापि गच्छति वा स शान्तिमाप्नोति। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.71 That man attains peace who, after rejecting all desires, moves about free from hankering, without the idea of ('me' and) 'mine', and devoid of pride. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (do"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.71।।यस्मादेवं तस्मात्प्राप्तानपि सर्वान्बाह्यन्गृहक्षेत्रादीन् आन्तरान्मनोराज्यरूपान्वासनामात्ररूपांश्च पथि गच्छतस्तृणस्पर्शरूपान्कामांस्त्रिविधान्विहायोपेक्ष्य शरीरजीवनमात्रेऽपि निःस्पृहः सन्। यतो निरहंकारः शरीरेन्द्रियादावयमहमित्यभिमानशून्यः विद्यावत्त्वादिनिमित्तात्मसंभावनारहित इति वा। अतो निर्ममः शरीरयात्रामात्रार्थेऽपि प्रारब्धकर्माक्षिप्ते कौपीनाच्छादनादौ ममेदमित्यभिमानवर्जितः सन् यः पुमांश्चरति प्रारब्धकर्मवशेन भोगान्भुङ्क्ते यादृच्छिकतया यत्र क्वापि गच्छतीति वा। स एवंभूतः स्थितप्रज्ञः शान्तिं सर्वसंसारदुःखोपरमलक्षणामविद्यातत्कार्यनिवृत्तिमधिगच्छति ज्ञानबलेन प्राप्नोति तदेतदीदृशं व्रजनं स्थितप्रज्ञस्येति चतुर्थप्रश्नस्योत्तरं परिसमाप्तम्।"
+    }
+  }
+}

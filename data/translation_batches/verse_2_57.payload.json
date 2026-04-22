@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.57",
+  "mula_devanagari": "यः सर्वत्रानभिस्नेहस् तत् तत् प्राप्य शुभाशुभम् | नाभिनन्दति न द्वेष्टि तस्य प्रज्ञा प्रतिष्ठिता",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.57।। &nbsp; यः &nbsp; मुनिः &nbsp; सर्वत्र &nbsp; देहजीवितादिष्वपि &nbsp; अनभिस्नेहः &nbsp; अभिस्नेहवर्जितः &nbsp; तत्तत् प्राप्य शुभाशुभं &nbsp;तत्तत् शुभं अशुभं वा लब्ध्वा &nbsp; न अभिनन्दति न द्वेष्टि &nbsp; शुभं प्राप्य न तुष्यति न हृष्यति अशुभं च प्राप्य न द्वेष्टि इत्यर्थः। &nbsp; तस्य &nbsp; एवं हर्षविषादवर्जितस्य विवेकजा &nbsp; प्रज्ञा प्रतिष्ठिता &nbsp; भवति।। किञ्च"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.57।।&nbsp; यः सर्वत्र &nbsp; प्रियेषु &nbsp; अनभिस्नेहः &nbsp; उदासीनः प्रियसंश्लेषविश्लेषरूपं &nbsp; शुभाशुभं प्राप्य &nbsp; अभिनन्दनद्वेषरहितः सोऽपि स्थितप्रज्ञः। ततः अर्वाचीनदशा प्रोच्यते"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.57 2.58।।सर्वत्रानभिस्नेहत्वाच्छुभाशुभं प्राप्य नाभिनन्दति न द्वेष्टि।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.57।।किं प्रभोषेत इत्यस्योत्तरमाह यः सर्वत्रेति। इहामुत्र विरागवान् नाभिनन्दति। न द्वेष्टीति रागद्वेषवचनं न भाषत इत्यर्थः। तस्य प्रज्ञा प्रतिष्ठिताऽवसेया।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.57।।कथं भाषेतेत्यस्योत्तरमाह&nbsp; य इति। &nbsp; यः सर्वत्र पुत्रादिष्वप्यनभिस्नेहः स्नेहशून्यः अतएव बाधितानुवृत्त्या तत्तच्छुभमनुकूलं प्राप्य नाभिनन्दति न प्रशंसति। अशुभं प्रतिकूलं प्राप्य न द्वेष्टि न निन्दति किंतु केवलमुदासीन एव भाषते तस्य प्रज्ञा प्रतिष्ठितेत्यर्थः। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.57 The wisdom of that person remains established who has not attachment for anything anywhere, who neither welcomes nor rejects anything whatever good or bad when he comes across it. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) documen"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.57।।किंच यः सर्वत्रेति। सर्वदेहेषु जीवनादिष्वपि यो मुनिरनभिस्नेहः यस्मिन्सत्यन्यदीये हानिवृद्धी स्वस्मिन्नारोप्येते स तादृशोऽन्यविषयः प्रेमापरपर्यायस्तामसो वृत्तिविशेषः स्नेहः सर्वप्रकारेण तद्रहितोऽनभिस्नेहः भगवति परमात्मनि तु सर्वथाभिस्नेहवान्भवेदेव अनात्मस्नेहाभावस्य तदर्थत्वादिति द्रष्टव्यम्। तत्तत्प्रारब्धकर्मपरिप्रापितं शुभं सुखहेतुं विषयं प्राप्य नाभिनन्दति हर्षविशेषपुरःसरं न प्रशंसति। अशुभं दुःखहेतुं विषयं प्राप्य न द्वेष्टि अन्तरसूयापूर्वकं न निन्दति। अज्ञस्य हि सुखहेतुर्यः स्वकलत्रादिः स शुभो विषयस्तद्गुणकथनादिप्रवर्तिका धीवृत्तिर्भ्रान्तिरूपाभिनन्दः सच तामसः। तद्गुणकथनादेः परप्ररोचनार्थत्वाभावेन व्यर्थत्वात्। एवमसूयोत्पादनेन दुःखहेतुः परकीयविद्याप्रकर्षादिरेनं प्रत्यशुभो विषयस्तन्निन्दादिप्रवर्तिका भ्रान्तिरूपा धीवृत्तिर्द्वेषः। सोऽपि तामसः। तन्निन्दाया निवारणार्थत्वाभावेन व्यर्थत्वात् तावभिनन्दद्वेषौ भ्रान्तिरूपौ तामसौ कथमभ्रान्ते शुद्धसत्वे स्थितप्रज्ञे संभवेताम्। तस्माद्विचालकाभावात् तस्यानभिस्नेहस्य हर्षविषादरहितस्य मुनेः प्रज्ञा परमात्मतत्त्वविषया प्रतिष्ठिता फलपर्यवसायिनी। स स्थितप्रज्ञ इत्यर्थः। एवमन्योऽपि मुमुक्षुः सर्वत्रानभिस्नेहो भवेत्। शुभं प्राप्य न प्रशंसेत् अशुभं प्राप्य न निन्देदित्यभिप्रायः। अत्र च निन्दाप्रशंसादिरूपा वाचो न प्रभाषेत इति व्यतिरेक उक्तः।"
+    }
+  }
+}

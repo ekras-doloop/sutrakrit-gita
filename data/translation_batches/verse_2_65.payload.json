@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.65",
+  "mula_devanagari": "प्रसादे सर्व-दुःखानां हानिर् अस्योपजायते | प्रसन्न-चेतसो ह्य् आशु बुद्धिः पर्यवतिष्ठते",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.65।। &nbsp; प्रसादे सर्वदुःखानाम् &nbsp; आध्यात्मिकादीनां &nbsp; हानिः &nbsp; विनाशः &nbsp; अस्य &nbsp; यतेः &nbsp; उपजायते &nbsp;। किञ्च &nbsp; प्रसन्नचेतसः &nbsp; स्वस्थान्तःकरणस्य &nbsp; हि &nbsp; यस्मात् &nbsp; आशु &nbsp; शीघ्रं &nbsp; बुद्धिः पर्यवतिष्ठते &nbsp; आकाशमिव परि समन्तात् अवतिष्ठते आत्मस्वरूपेणैव निश्चलीभवतीत्यर्थः।। एवं प्रसन्नचेतसः अवस्थितबुद्धेः कृतकृत्यता यतः तस्मात् रागद्वेषवियुक्तैः इन्द्रियैः शास्त्राविरुद्धेषु अवर्जनीयेषु युक्तः समाचरेत् इति वाक्यार्थः।। सेयं प्रसन्नता स्तूयते"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.65।।अस्य पुरुषस्य मनसः प्रसादे सति प्रकृतिसंसर्गप्रयुक्तसर्वदुःखानां हानिः उपजायते। प्रसन्नचेतसः आत्मावलोकनविरोधिदोषरहितमनसः तदानीम् एव हि विविक्तात्मविषया बुद्धिः मयि पर्यवतिष्ठते अतो मनःप्रसादे सर्वदुःखानां हानिः भवति एव।"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.65।।कथं प्रसादमात्रेण सर्वदुःखहानिः प्रसन्नचेतसो हि बुद्धिः पर्यवतिष्ठते ब्रह्मापरोक्ष्येण सम्यक्स्थितिं करोति। प्रसादो नाम स्वतः प्रायो विषयागतिः।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.64 2.65।।नन्विन्द्रियाणां विषयाभिमुखस्वभावानां निरोधस्याशक्यत्वाद्दोषो दुष्परिहर इति कथं प्रज्ञायाः प्रतिष्ठितत्वं इत्याशङ्क्याह द्वाभ्याम् रागेति। यो वश्यात्मा स्वेन्द्रियै रागद्वेषवियुक्तैर्विषयानुपभुञ्जानोऽपि प्रसादं प्रशान्तिमधिगच्छति तस्य प्रसन्नचेतसः प्रज्ञा प्रतिष्ठिताऽवसेया।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.65।।&nbsp; &nbsp;प्रसादे सति किं स्यादित्यत्राह&nbsp; प्रसाद इति। &nbsp; प्रसादे सति सर्वदुःखनाशस्ततश्च प्रसन्नचेतसो बुद्धिः प्रतिष्ठिता भवतीत्यर्थः। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.65 When there is serenity, there follows eradication of all his sorrows, because the wisdom of one who has a serene mind soon becomes firmly established. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(con"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.65।।प्रसादमधिगच्छति इत्युक्तं तत्र प्रसादे सति किं स्यादित्युच्यते। चित्तस्य प्रसादे स्वच्छत्वरूपे सति सर्वदुःखानामाध्यात्मिकादीनामज्ञानविलसितानां हानिर्विनाशोऽस्य यतेरुपजायते। हि यस्मात्प्रसन्नचेतसो यतेराशु शीघ्रमेव बुद्धिर्ब्रह्मात्मैक्याकारा पर्यवतिष्ठते परि समन्तादवतिष्ठते स्थिरा भवति विपरीतभावनादिप्रतिबन्धाभावात्। ततश्च प्रसादे सति बुद्धिपर्यवस्थानं ततस्तद्विरोध्यज्ञाननिवृत्तिः ततस्तत्कार्यसकलदुःखहानिरिति क्रमेऽपि प्रसादे यत्नाधिक्याय सर्वदुःखहानिकरत्वकथनमिति न विरोधः।"
+    }
+  }
+}

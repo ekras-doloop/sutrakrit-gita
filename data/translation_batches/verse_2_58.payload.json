@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.58",
+  "mula_devanagari": "यदा संहरते चायं कूर्मो ऽङ्गानीव सर्वशः | इन्द्रियाणीन्द्रियार्थेभ्यस् तस्य प्रज्ञा प्रतिष्ठिता",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.58।। &nbsp; यदा संहरते &nbsp; सम्यगुपसंहरते &nbsp; च अयं &nbsp; ज्ञाननिष्ठायां प्रवृत्तो यतिः &nbsp; कूर्मः अङ्गानि &nbsp; इव यथा कूर्मः भयात् स्वान्यङ्गानि उपसंहरति &nbsp; सर्वशः &nbsp; सर्वतः एवं ज्ञाननिष्ठः &nbsp; इन्द्रियाणि इन्द्रियार्थेभ्यः &nbsp; सर्वविषयेभ्यः उपसंहरते। &nbsp; तस्य प्रज्ञा प्रतिष्ठिता &nbsp; इत्युक्तार्थं वाक्यम्।। तत्र विषयाननाहरतः आतुरस्यापि इन्द्रियाणि कूर्माङ्गानीव संह्रियन्ते न तु तद्विषयो रागः स कथं संह्रियते इति उच्यते"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.58।।&nbsp; यदा इन्द्रियाणि &nbsp; इन्द्रियार्थान् स्प्रष्टुम् उद्युक्तानि तदा एव कूर्मः &nbsp; अङ्गानि इव इन्द्रियार्थेभ्यः सर्वशः &nbsp; प्रतिसंहृत्य मन आत्मनि एव स्थापयति सोऽपि स्थितप्रज्ञः। एवं चतुर्विधा ज्ञाननिष्ठा पूर्वपूर्वोत्तरोत्तरनिष्पाद्या इति प्रतिपादितम्। इदानीं ज्ञाननिष्ठाया दुष्प्रापतां तत्प्राप्त्युपायं च आह"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.57 2.58।।सर्वत्रानभिस्नेहत्वाच्छुभाशुभं प्राप्य नाभिनन्दति न द्वेष्टि।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.58।।किमासीत इत्यस्योत्तरमाह चतुर्भिः। यदेति विषयेभ्य इन्द्रियाणि संहरते प्रत्याहृत्यास्ते। अनायासेनैकत्र संहारे दृष्टान्तः अङ्गानि करचरणादिनि यथा स्वभावतः कूर्मः संहरते तद्वत्।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.58।।किंच&nbsp; यदेति। &nbsp; यदा चायं योगी इन्द्रियार्थेभ्यः सकाशादिन्द्रियाणि संहरते प्रत्याहरति। अनायासेन संहारे दृष्टान्तः। अङ्गानि करचरणादीनि कूर्मो यथा स्वभावेनैवाकर्षति तद्वत्। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.58 And when this one fully withdraws the senses from the objects of the senses, as a tortoise wholly (withdraws) the limbs, then his wisdom remains established. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getEle"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.58।।इदानीं किमासीतेति प्रश्नस्योत्तरं वक्तुमारभते भगवान् षड्भिः श्लोकैः तत्र च प्रारब्धकर्मवशाद्व्युत्थानेन विक्षिप्तानीन्द्रियाणि पुनरुपसंहृत्य समाध्यर्थमेव स्थितप्रज्ञस्योपवेशनमिति दर्शयितुमाह अहं व्युत्थितः सर्वशः सर्वाणीन्द्रियाणि इन्द्रियार्थेभ्यः शब्दादिंभ्यः सर्वेभ्यः। च पुनरर्थे। यदा संहरते पुनरुपसंहरति संकोचयति। तत्र दृष्टान्तः कूर्मोऽङ्गानीव तदा तस्य प्रज्ञा प्रतिष्ठितेति स्पष्टम्। पूर्वश्लोकाभ्यां व्युत्थानदशायामपि सकलताभसवृत्त्यभाव उक्तः अधुना तु पुनः समाध्यवस्थायां सकलवृत्त्यभाव इति विशेषः।"
+    }
+  }
+}

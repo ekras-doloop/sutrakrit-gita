@@ -1,0 +1,36 @@
+{
+  "verse_id": "2.48",
+  "mula_devanagari": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनंजय | सिद्ध्य्-असिद्ध्योः समो भूत्वा समत्वं योग उच्यते",
+  "schools": {
+    "advaita": {
+      "voice": "Śaṅkarācārya — strict Advaita Vedānta, jñāna-mārga, niṣkāma-karma as preparation for jñāna; terse, dialectical voice",
+      "primary_commentator": "shankara",
+      "panel_commentary_devanagari": "।।2.48।। &nbsp; योगस्थः &nbsp; सन् &nbsp; कुरु कर्माणि &nbsp; केवलमीश्वरार्थम् तत्रापि ईश्वरो मे तुष्यतु इति &nbsp; सङ्गं त्यक्त्वा धनञ्जय। &nbsp; फलतृष्णाशून्येन क्रियमाणे कर्मणि सत्त्वशुद्धिजा ज्ञानप्राप्तिलक्षणा सिद्धिः तद्विपर्ययजा असिद्धिः तयोः &nbsp; सिद्ध्यसिद्ध्योः &nbsp; अपि &nbsp; समः &nbsp; तुल्यः &nbsp; भूत्वा &nbsp; कुरु कर्माणि। कोऽसौ योगः यत्रस्थः कुरु इति उक्तम् इदमेव तत् सिद्ध्यसिद्ध्योः &nbsp; समत्वं योगः उच्यते।। यत्पुनः समत्वबुद्धियुक्तमीश्वराराधनार्थं कर्मोक्तम् एतस्मात्कर्मणः &nbsp;"
+    },
+    "viśiṣṭādvaita": {
+      "voice": "Rāmānujācārya — Viśiṣṭādvaita, karma as kainkarya (service) to Bhagavān, niṣkāma-karma as bhakti-yoga preparation; expansive, devotional voice",
+      "primary_commentator": "ramanuja",
+      "panel_commentary_devanagari": "।।2.48।।राज्यबन्धुप्रभृतिषु &nbsp; सङ्गं त्यक्त्वा &nbsp; युद्धादीनि &nbsp; कर्माणि योगस्थः कुरु। &nbsp; तदन्तर्भूतविजयादि&nbsp; सिद्ध्यसिद्ध्योः समो भूत्वा &nbsp; कुरु। तद् इदं सिद्ध्यसिद्ध्योः &nbsp; समत्वम् &nbsp; योगस्थ इत्यत्र योगशब्देन &nbsp; उच्यते। योगः &nbsp; सिद्ध्यसिद्ध्योः समत्वरूपं चित्तसमाधानम्। किमर्थम् इदम् असकृद् उच्यते इत्यत आह"
+    },
+    "dvaita": {
+      "voice": "Madhvācārya — Dvaita, jīva eternally distinct from Brahman, action as dependent worship of Hari; precise, polemical voice",
+      "primary_commentator": "madhva",
+      "panel_commentary_devanagari": "।।2.48।।पूर्वश्लोकं स्पष्टयति योगस्थ इति। योगस्थः उपायस्थः। सङ्गं फलस्नेहं त्यक्त्वा। तत एव सिद्ध्यसिद्ध्योः समो भूत्वा। स एव च मयोक्तो योगः।"
+    },
+    "śuddhādvaita": {
+      "voice": "Vallabhācārya — Śuddhādvaita / Puṣṭi-mārga, all action as Kṛṣṇa's līlā-prasāda; rapturous, imperative voice",
+      "primary_commentator": "vallabha",
+      "panel_commentary_devanagari": "।।2.48।।तर्हि कथं स्वकर्म करोमि इति चेत्तत्राह योगस्थ इति। फलस्वरूपो योगो मद्योगस्थ इत्यर्थः। फलेषु सङ्गं त्यक्त्वा। योगं व्याचष्टे समत्वं योग इति। तच्च मनोनिरोधे सम्भवति तथैव कुर्विति पूर्वोक्तं समर्थितम्।"
+    },
+    "bhakti": {
+      "voice": "Śrīdhara Svāmī — bhakti-philological, traditional but devotionally inflected; balanced voice",
+      "primary_commentator": "sridhara",
+      "panel_commentary_devanagari": "।।2.48।।किं तर्हि&nbsp; योगस्थ इति। &nbsp; योगः परमेश्वरैकपरता तत्र स्थितः कर्माणि कुरु। तथा सङ्गं कर्तृत्वाभिनिवेशं त्यक्त्वा केवलमीश्वराश्रयेणैव कुरु। तत्फलस्य ज्ञानस्यापि सिद्ध्यसिद्ध्योः समो भूत्वा केवलमीश्वरार्पणेनैव कुरु। यत एवंभूतं समत्वमेव योग उच्यते सद्भिः। चित्तसमाधानरूपत्वात्। function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'purohitAudio': if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); else if(contPlay) nextAudio(); break; case 'tejAudio': if(contPlay) nextAudio(); break; } } function nextAudio(){ var regex = /[?&]([^=#]+)=([^&#]*)/g; var url = window.location.href; var params = {}; var match; var args = '&'; while(match = regex.exec(url)) { params[match[1]] = match[2]; } // console.log(params); var lang = document.getElementById('edit-language').value; var chapter = parseInt(document.getElementById('edit-field-chapter-value').value); var sloka = parseInt(document.getElementById('edit-field-nsutra-value').value); var next_sloka; var max_sloka; if(chapter == 1) max_sloka = 47; else if (chapter == 2) max_sloka = 72; else if (chapter == 3) max_sloka = 43; else if (chapter == 4) max_sloka = 42; else if (chapter == 5) max_sloka = 29; else if (chapter == 6) max_sloka = 47; else if (chapter == 7) max_sloka = 30; else if (chapter == 8) max_sloka = 28; else if (chapter == 9) max_sloka = 34; else if (chapter == 10) max_sloka = 42; else if (chapter == 11) max_sloka = 55; else if (chapter == 12) max_sloka = 20; else if (chapter == 13) max_sloka = 35; else if (chapter == 14) max_sloka = 27; else if (chapter == 15) max_sloka = 20; else if (chapter == 16) max_sloka = 24; else if (chapter == 17) max_sloka = 28; else if (chapter == 18) max_sloka = 78; switch(chapter){ case 1: if(sloka >= 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka = 1 && sloka English Translation By Swami Gambirananda 2.48 By being established in Yoga, O Dhananjaya (Arjuna), undertake actions, casting off attachment and remaining eipoised in success and failure. Eanimity is called Yoga. function playAudio(){ if(document.getElementById('slkaudio') != null) document.getElementById('slkaudio').play(); else if (document.getElementById('purohitAudio') != null) document.getElementById('purohitAudio').play(); else if (document.getElementById('tejAudio') != null) document.getElementById('tejAudio').play(); } if(document.getElementById(\"edit-enable-autoplay\").checked || document.getElementById(\"edit-enable-contplay\").checked) playAudio(); function playNext(id, contPlay = false){ switch(id){ case 'slkaudio': if (document.getElementById('purohitAudio') != null) docume"
+    },
+    "advaita-bhakti": {
+      "voice": "Madhusūdana Sarasvatī — synthesizes Advaita-jñāna with Kṛṣṇa-bhakti; synthesizing voice",
+      "primary_commentator": "madhusudan",
+      "panel_commentary_devanagari": "।।2.48।।पूर्वोक्तमेव विवृणोति हे धनंजय त्वं योगस्थः सन् सङ्गं फलाभिलाषं कर्तृत्वाभिनिवेशं च त्यक्त्वा कर्माणि कुरु। अत्र बहुवचनात्कर्मण्येवाधिकारस्ते इत्यत्र जातावेकवचनम्। सङ्गत्यागोपायमाह सिद्ध्यसिद्ध्योः समो भूत्वा फलसिद्धौ हर्षं फलासिद्धौ च विषादं त्यक्त्वा केवलमीश्वराराधनबुद्ध्या कर्माणि कुर्वित्यर्थः। ननु योगशब्देन प्राक्कर्मोक्तम्। अत्र तु योगस्थः कर्माणि कुर्वित्युच्यते अतः कथमेतबोद्वुं शक्यमित्यत आह समत्वं योग उच्यते। यदेतत्सिद्ध्यसिद्ध्योः समत्वं इदमेव योगस्थ इत्यत्र योगशब्देनोच्यते नतु कर्मेति न कोऽपि विरोध इत्यर्थः। अत्र पूर्वार्धस्योत्तरार्धेन व्याख्यानं क्रियत इत्यपौनरुक्त्यमिति भाष्यकारीयः पन्थाः। सुखदुःखे समे कृत्वेत्यत्र जयाजयसाम्येन युद्धमात्रकर्तव्यता प्रकृतत्वादुक्ता। इह तु दृष्टादृष्टसर्वफलपरित्यागेन सर्वकर्मकर्तव्यतेति विशेषः।"
+    }
+  }
+}
