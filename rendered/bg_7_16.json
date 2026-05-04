@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "bhajante",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -380,7 +380,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -506,13 +506,6 @@
         "7.17",
         "7.18"
       ]
-    },
-    {
-      "list": "ज्ञानी त्वात्मैव मे मतम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.18"
-      ]
     }
   ],
   "audit_trail": {
@@ -542,7 +535,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhajante: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the distressed (ārta) who prays only to end suffering receives genuine bhajana-credit, does instrumental prayer count as devotion — and if so, what distinguishes prayer from transaction?",
@@ -560,5 +563,6 @@
     "śuddhādvaita": "Vallabha's two-tier model has a counter-intuitive practical implication: if you find yourself approaching Kṛṣṇa not from distress or calculation or inquiry but from a pull you cannot explain or justify — a pull that does not wait for merit to accumulate — do not domesticate that pull into the sukṛti-ladder. Treat it as a signal of svarūpa-anugraha (grace from Bhagavān's very nature) and follow it without demanding theological credentials from yourself.",
     "bhakti": "Śrīdhara's sharp contrast — same distress, same person, different destination depending on prior merit — reframes the question of 'why do some people turn toward God in crisis and others do not' as a karmic-accumulation question rather than a willpower question. The practical implication: the merit that redirects crisis is built in ordinary, non-crisis time — through satsaṅga (good company), study, and consistent small acts of surrender — not assembled at the moment crisis arrives.",
     "advaita-bhakti": "Madhusūdana's insistence that even the sākāma three — praying from need — eventually cross māyā through bhajana dissolves the common anxiety that 'I am not spiritual enough because I only pray when things go wrong.' He offers a developmental map: ārta and arthārthī are not stuck; bhajana itself produces the jijñāsutva (spirit of inquiry) that transforms them, and jijñāsutva, sustained, produces the bhagavat-tattva-sākṣātkāra that is jñāna. Begin wherever you actually are."
-  }
+  },
+  "primary_meaning": "Four kinds of virtuous people come to Me, Arjuna: those in distress, those who seek to understand, those who seek worldly gain, and the wise."
 }

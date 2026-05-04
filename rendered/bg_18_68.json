@@ -1,8 +1,8 @@
 {
   "verse_id": "18.68",
   "mūla": {
-    "devanāgarī": "य इदं परमं गुह्यं मद्भक्तेष्वभिधास्यति | भक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः",
-    "iast": "ya idaṃ paramaṃ guhyaṃ madbhakteṣvabhidhāsyati | bhaktiṃ mayi parāṃ kṛtvā māmevaiṣyatyasaṃśayaḥ",
+    "devanāgarī": "य इदं परमं गुह्यं मद् भक्तेष्वभिधास्यति | भक्तिं मयि परां कृत्वा मामेवैष्यत्यसंशयः",
+    "iast": "ya idaṃ paramaṃ guhyaṃ mad bhakteṣvabhidhāsyati | bhaktiṃ mayi parāṃ kṛtvā māmevaiṣyatyasaṃśayaḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 68",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "abhidhāsyati",
-      "lemma": "abhidhā",
+      "lemma": "abhi-√dhā",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "eṣyati",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -292,8 +292,9 @@
         "jayatirtha_18.68"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse (payload confirms 'Sri Madhvacharya did not comment on this sloka'). Drawing from Dvaita siddhanta (established doctrine): the jivatman is eternally distinct from Hari, and 'mam eva eshyati' means the devotee-teacher reaches Vishnu's transcendent abode (Vaikuntha) while remaining a separate, eternally dependent self. The act of transmission to genuine bhaktas is an act of seva (service) that accumulates bhakti-merit proportional to the receptivity of the recipient; the teacher's eligibility is grounded not in jnana (knowledge) but in dependence-as-devotion (prapatti).",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Ya idaṃ paramaṃ guhyaṃ madbhakteṣvabhidhāsyati* — whoever declares this supreme secret among Hari's *bhaktas* (devotees) performs the highest *sevā* (service) to the Lord. *Bhaktiṃ mayi parāṃ kṛtvā* names the condition: *parā bhakti* (supreme devotion), understood in dvaita not as absorption into Hari but as the fullest expression of *paratantra* (eternally dependent) selfhood oriented entirely toward the *svatantra* (independently real, self-sufficient) Lord. The teacher-transmitter remains a *jīva* (individual self), irreducibly distinct from Hari by *bheda* (real distinction) — one instance of the *pañca-bheda* (five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) that no salvific event dissolves. *Māmevaiṣyatyasaṃśayaḥ* — 'he shall come to Me alone, without doubt' — means real arrival at Viṣṇu's abode, Vaikuṇṭha, the *jīva* retaining its distinct nature within the *taratamya* (graded ontological hierarchy) of liberated souls. The act of transmission is itself *bhakti*-saturated *sevā*; the transmitter's eligibility rests on dependence-as-devotion, not on autonomous *jñāna* (knowledge). Because *bheda* is ontologically real and unbreached, 'reaching Hari' is genuine proximity and eternal service, not identity.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -333,7 +334,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -393,7 +394,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "madbhakteṣvabhidhāsyati -> mad bhakteṣvabhidhāsyati"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "मद्भक्तेष्वभिधास्यति -> मद् भक्तेष्वभिधास्यति"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhidhāsyati: abhidhā -> abhi-√dhā",
+          "eṣyati: i -> √i"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If teaching this text is itself the highest bhakti, does the teacher's motive (financial, social, spiritual) alter the fruit — or does the act of transmission carry its own validity independent of motive?",
@@ -411,5 +439,6 @@
     "shuddhAdvaita": "A parent who reads to a child not because it is good for the child's development but because the reading itself is pure joy — an act of grace overflowing — and who trusts that the child is already held by something larger than parental effort, is in the Pushti-marga register: the transmission is lila, not labor.",
     "bhakti": "A therapist, coach, or teacher who speaks difficult truths to a client not from professional obligation but from genuine devotion to their flourishing — and who notices that the act of honest, caring speech deepens the speaker's own clarity — is Sridhara's teacher: the giving is simultaneously the growth.",
     "advaita-bhakti": "A writer who publishes their deepest insights openly — not hedging for audience approval, but establishing the full argument both in structure and in meaning ('granthato arthatas cha') — while remaining inwardly anchored in service rather than recognition, is Madhusudana's sampradaya-pravartaka: the outer act is fearless transmission, the inner state is param bhakti, and the combination is what makes the work lasting."
-  }
+  },
+  "primary_meaning": "Whoever teaches this highest secret among my devotees, acting out of supreme devotion to me, will come to me without doubt."
 }

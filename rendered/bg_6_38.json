@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "vibhraṣṭaḥ",
-      "lemma": "vibhraṃś",
+      "lemma": "vi-√bhraṃś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "chinna",
-      "lemma": "chid",
+      "lemma": "√chid",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "naśyati",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "vimūḍhaḥ",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -468,7 +468,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vibhraṣṭaḥ: vibhraṃś -> vi-√bhraṃś",
+          "chinna: chid -> √chid",
+          "naśyati: naś -> √naś",
+          "vimūḍhaḥ: vimuh -> vi-√muh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If incomplete spiritual practice is worse than no practice (because it severs both supports without securing either), does the Gītā counsel against beginning a path one cannot complete — and if so, what constitutes 'enough' commitment to start?",
@@ -486,5 +499,6 @@
     "śuddhādvaita": "Vallabha's application is the most counter-intuitive: since only Kṛṣṇa's prasāda provides ground, the scattered-cloud state is not corrected by adding more effort but by deepening relationship — spending time in Kṛṣṇa's svarūpa (icon, kirtan, līlā-kathā) so that grace flows spontaneously. In practice: if formal meditation feels empty and worldly work has been renounced, do not redouble technique; instead, sit in the company of Kṛṣṇa's presence as primary activity.",
     "bhakti": "Śrīdhara's logical frame offers a practical diagnostic: are you in the chinnābhram state? Ask two questions — (1) Have I genuinely surrendered the fruits of my work to Īśvara, so that I no longer expect worldly reward from it? (2) Is my inner contemplative practice producing stable, progressive clarity, or stagnating? If yes to (1) and no to (2) simultaneously, you are apratiṣṭha. The corrective is not to un-surrender karma but to intensify the sādhana that builds yogāniṣpatti (yoga to completion).",
     "advaita-bhakti": "Madhusūdana's application is specifically for the intellectually sophisticated practitioner who has studied non-dualism, tried to combine it with devotional practice, and feels neither is working. His diagnosis: 'samuccaya' thinking (doing both simultaneously as a hedge) is precisely the error — it prevents full commitment to either. The everyday application is to choose a primary path (jñāna or bhakti) and practice it as if the other were not a fallback. The address 'mahā-bāho' signals that Kṛṣṇa's grace can rescue even the mid-air state — but the student must name the fear honestly, as Arjuna does here."
-  }
+  },
+  "primary_meaning": "Arjuna asks whether one who abandons ritual duty but fails to reach Brahman simply dissolves, groundless and bewildered, like a scrap of cloud torn from its mass and unable to join another."
 }

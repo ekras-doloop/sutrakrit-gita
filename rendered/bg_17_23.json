@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "sat",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "smṛtaḥ",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "vihitāḥ",
-      "lemma": "vidhā",
+      "lemma": "vi-√dhā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -440,7 +440,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -530,7 +530,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sat: as -> √as",
+          "smṛtaḥ: smṛ -> √smṛ",
+          "vihitāḥ: vidhā -> vi-√dhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If these three syllables can 'repair' a defective yajna, does the power reside in the sound itself, in the intention behind it, or in the name-bearer (Brahman/Hari/Krsna) to whom it points? What is the difference among the schools on this?",
@@ -548,5 +560,6 @@
     "shuddhadvaita": "When the conditions you planned for are not available — the time is wrong, the place is imperfect, you are not at your best — do the sacred act anyway and let the utterance of Krsna's name supply what the situation lacks. The name is not a workaround; it is the real substance of which perfect conditions are only the outer form.",
     "bhakti": "When you realize mid-effort that your motivation has been mixed — partly ego, partly fear, partly genuine care — do not abort the effort. Complete it with conscious naming of the good it is meant to serve. Sridhara's point is that the triple name can retroactively re-orient an act, the way acknowledging the right frame restores meaning to what almost became mere busyness.",
     "advaita-bhakti": "Keep a short phrase of genuine invocation — whatever name or word actually calls you toward what is real — as a standing repair for moments of distraction, error, or drift. Madhusudana's prayaschitta logic is not about guilt; it is about continuity of orientation. The phrase does not undo the mistake; it re-establishes the direction."
-  }
+  },
+  "primary_meaning": "The ancient threefold designation of Brahman is *oṃ tat sat*, through which Brahmanas, the Vedas, and sacrificial rites were ordained from the beginning."
 }

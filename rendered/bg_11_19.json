@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "dīpta",
-      "lemma": "dīp",
+      "lemma": "√dīp",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -213,7 +213,7 @@
     },
     {
       "surface_form": "tapantam",
-      "lemma": "tap",
+      "lemma": "√tap",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -476,7 +476,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paśyāmi: dṛś -> √dṛś",
+          "dīpta: dīp -> √dīp",
+          "tapantam: tap -> √tap"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān is anādi-madhyānta (without beginning, middle, or end), what does it mean to 'meet' or 'encounter' Him — is encounter possible with what has no temporal boundary?",
@@ -494,5 +506,6 @@
     "śuddhādvaita": "Vallabha reads the verse as Kṛṣṇa's Kāla-body — time itself is His face. When the day ends, that is the fire-face of evening. When the month turns, that is the moon-eye. When the year burns hot, that is His solar gaze. Living inside Kṛṣṇa's līlā means the rhythms of time are not neutral background noise — they are His prasāda in motion. Practice: greet each transition of time (dawn, dusk, new month) as a moment of His self-disclosure.",
     "bhakti": "Śrīdhara's gloss 'utpatti-sthiti-pralaya-rahitam' — free from arising, sustaining, and dissolution — describes Bhagavān, but it also describes what devotion points toward: a relationship that does not depend on favorable conditions arising, good conditions sustaining, or bad conditions ending. Cultivate bhakti that holds steady across all three phases of any life-situation, because the object of bhakti is prior to all three.",
     "advaita-bhakti": "Madhusūdana's key move is synecdoche: the infinite arms stand for all infinite limbs. In your contemplative practice, any one quality of Bhagavān — His beauty, His wisdom, His power — is a doorway to the infinite. You do not need to enumerate everything; one attribute, apprehended fully, opens into limitlessness. Begin with the quality of Kṛṣṇa that moves you most, and let the infinite unfold from that single thread."
-  }
+  },
+  "primary_meaning": "I see you without beginning, middle, or end, infinite in power, with arms beyond counting, moon and sun your eyes, a blazing fire your mouth, scorching this whole world with your own radiance."
 }

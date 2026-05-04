@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "uddharet",
-      "lemma": "uddhṛ",
+      "lemma": "ud-√dhṛ",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "avasādayet",
-      "lemma": "avasāday",
+      "lemma": "ava-√sāday",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -442,32 +442,6 @@
         "7.2",
         "12.11"
       ]
-    },
-    {
-      "list": "मेरे लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.21",
-        "3.40"
-      ]
-    },
-    {
-      "list": "मैं जवान हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.1"
-      ]
-    },
-    {
-      "list": "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.14",
-        "9.29",
-        "9.30"
-      ]
     }
   ],
   "audit_trail": {
@@ -497,7 +471,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uddharet: uddhṛ -> ud-√dhṛ",
+          "avasādayet: avasāday -> ava-√sāday"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same ātman is both bandhu and ripuh, what changes — the ātman's nature or its orientation? And if it is only orientation that changes, who or what orients it?",
@@ -515,5 +500,6 @@
     "śuddhādvaita": "Vallabha's Bhāgavata citation applies to the inner circle: if a relationship, habit, or community system is structurally unable to help you 'release from death' — that is, unable to support real transformation — it is no true bandhu regardless of affective warmth. Assess relationships by their liberation-function, not their comfort-function.",
     "bhakti": "Śrīdhara's forensic audit in practice: at the end of a day, ask which choices moved toward vairāgya (reduced compulsive wanting) and which fed rāgādi (passion-momentum). The manas that ran the audit honestly is the bandhu; the manas that rationalized the rāgādi choices is the ripuh. No external judge needed.",
     "advaita-bhakti": "Madhusūdana's kośakāra image as diagnostic: notice when you are spinning narrative around a wound or identity — each layer feels self-protective but actually thickens the prison. Bhakti-kīrtana (devotional chanting) or any practice that interrupts the spinning is the viveka-yukta ātman acting as its own rescuer."
-  }
+  },
+  "primary_meaning": "Lift yourself up; do not let yourself sink. The self is its own best friend and its own worst enemy."
 }

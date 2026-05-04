@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "saṃharate",
-      "lemma": "saṃhṛ",
+      "lemma": "saṃ-√hṛ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "pratiṣṭhitā",
-      "lemma": "pratiṣṭhā",
+      "lemma": "prati-√ṣṭhā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -436,7 +436,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃharate: saṃhṛ -> saṃ-√hṛ",
+          "pratiṣṭhitā: pratiṣṭhā -> prati-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says 'as a tortoise withdraws its limbs' — but a tortoise withdraws from danger, while wisdom-withdrawal (prajñā-pratiṣṭhā) is not fear-based: what distinguishes mechanical suppression of the senses from genuine pratyāhāra (internalization)?",
@@ -454,5 +465,6 @@
     "śuddhādvaita": "Vallabha's anāyāsena (effortless) withdrawal points to the practice of filling the senses with Kṛṣṇa's forms first — nāma-smaraṇa (name-remembrance), rūpa-dhyāna (form-meditation), kīrtana — so that when external viṣaya arise they find no vacancy to occupy. The practical implication: instead of fighting distraction by suppression, the Puṣṭi-mārga practitioner crowds out distraction by saturating attention with Kṛṣṇa's sweetness before entering potentially distracting situations (commute, social media, difficult conversations).",
     "bhakti": "Śrīdhara's reading of svabhāva (natural character) as the key to effortless withdrawal suggests a long-arc application: the practitioner cultivates sangha (company), texts, and daily rituals that gradually make devotional orientation the default mode of the nervous system. Just as the tortoise's withdrawal is habit not heroism, the bhakta works to make Bhagavān-orientation structurally habitual — scheduling the day so that satsaṅga, pāṭha (recitation), and seva (service) are the lowest-effort default, and sense-indulgence requires extra friction.",
     "advaita-bhakti": "Madhusūdana's two-phase rhythm (vyutthāna/scattering → samādhi/return) normalises the experience of 'I was present, then I got pulled away, now I'm back.' The practical discipline is the re-centering itself — not shame about having been distracted but the swift, warm return, like a practitioner of mantra who has drifted mid-recitation: the distraction is not the failure, failing to return is. Each conscious return is simultaneously a jñāna-act (recognising the movement of vṛttis) and a bhakti-act (returning to Kṛṣṇa), so the two paths reinforce rather than compete."
-  }
+  },
+  "primary_meaning": "When you draw your senses back from their objects, as a tortoise pulls its limbs inside the shell, your wisdom stands firm."
 }

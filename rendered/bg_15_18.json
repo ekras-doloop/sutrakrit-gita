@@ -52,7 +52,7 @@
     },
     {
       "surface_form": "atītaḥ",
-      "lemma": "atī",
+      "lemma": "√atī",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -222,7 +222,7 @@
     },
     {
       "surface_form": "prathitaḥ",
-      "lemma": "prath",
+      "lemma": "pra-√th",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -431,7 +431,9 @@
         "jayatirtha_15.18"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya's extant corpus does not contain a direct commentary (bhashya) on this verse; this rendering therefore draws on the Dvaita framework as a whole. Because I, Hari, eternally transcend the kshara — the jiva-class enmeshed in samsara — and am categorically superior to the akshara, the unchanging Lakshmi-shakti and other nityamuktas, there can be no ontological parity between Ishvara and jiva at any level. The name Purushottama is thus not merely honorific but a formal statement of the Dvaita hierarchy: two purushas (kshara, akshara) exist, and I, the third, am not merely 'better' but categorically other."
+      "english_rendering": "*Yasmāt kṣaram atīto 'ham akṣarād api cottamaḥ* — Hari alone speaks here, and the declaration is ontological, not rhetorical. The *kṣara* is the class of *jīva*s bound in *saṃsāra*, each *paratantra* (eternally dependent) and subject to change. The *akṣara* is the immutable order: *Lakṣmī*, the *nityamukta*s, the unmanifest *prakṛti* in its stable aspect — *paratantra* still, but free of flux. Hari transcends both. Not as a third member in a continuous series but as *svatantra* (the independently real, self-sufficient), the sole *puruṣa* whose being is self-grounded. The *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) holds at every level: no dissolution of the *kṣara* into the *akṣara*, no dissolution of either into Hari. *Ato 'smi loke vede ca prathitaḥ puruṣottamaḥ* — *Puruṣottama* is therefore a metaphysical designation, registered in both *loka* (common usage) and *veda* (scriptural authority), naming what *taratamya* (graded ontological hierarchy) entails: Hari stands not merely above but categorically other than any *paratantra* being. The name is the *siddhānta* compressed: two dependent orders exist; the third is the Lord alone.",
+      "divergence_note": "Bucket changed from B to C: Madhva and Jayatīrtha are silent on this verse; rendering proceeds by siddhānta reconstruction from the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -581,7 +583,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "atītaḥ: atī -> √atī",
+          "asmi: as -> √as",
+          "prathitaḥ: prath -> pra-√th"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Purushottama transcends both kshara (mutable) and akshara (immutable), what is the experiential difference between worshipping an immutable principle and worshipping Purushottama directly?",
@@ -598,5 +612,6 @@
     "shuddhadvaita": "Every sensory encounter with beauty — a piece of music, a face, a meal — is an encounter with saccidananda in formed manifestation (akrti). Pushti-marga practice: do not deflect the beauty upward into abstraction. Receive it fully as Krishna's own body presenting itself. Gratitude is the correct response, not detachment.",
     "bhakti": "Sridhara's two criteria — freedom and sovereignty — are immediately applicable: ask of any authority figure in your life (employer, institution, tradition) whether they exercise genuine freedom (nityamukta) and genuine care for all (niyantri). If neither is present, the authority is kshara — useful, but not ultimate.",
     "advaita-bhakti": "Madhusudana's synthesis suggests that intellectual clarity about ultimate reality (jnana) without an affective response (bhakti) is structurally incomplete. When you understand something deeply — a scientific truth, a philosophical insight, a moment of self-recognition — let the understanding generate wonder, not just satisfaction. Wonder is the bhakti-reflex that keeps jnana alive."
-  }
+  },
+  "primary_meaning": "Because I stand above the perishable and am higher still than the imperishable, I am celebrated in scripture and in the world as *Puruṣottama*, the Highest Person."
 }

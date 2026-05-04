@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "chindanti",
-      "lemma": "chid",
+      "lemma": "√chid",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "dahati",
-      "lemma": "dah",
+      "lemma": "√dah",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "kledayanti",
-      "lemma": "kleday",
+      "lemma": "√kleday",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "śoṣayati",
-      "lemma": "śoṣay",
+      "lemma": "√śoṣay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -399,7 +399,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "chindanti: chid -> √chid",
+          "dahati: dah -> √dah",
+          "kledayanti: kleday -> √kleday",
+          "śoṣayati: śoṣay -> √śoṣay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara grounds the ātman's indestructibility in its being niravaayava (partless): does this mean that anything composite — including mental constructs and habits of mind — is, by the same logic, destroyable and therefore not the true self?",
@@ -417,5 +430,6 @@
     "śuddhādvaita": "Vallabha's emphasis on śravaṇa (hearing with openness) as the mode of receiving this teaching reframes how one approaches spiritual instruction: rather than arriving with prepared objections, the practitioner cultivates sugrahaṇa (easy, receptive grasping), allowing Kṛṣṇa's words to land without the friction of immediate analysis. In practice this means setting aside, at least momentarily, the habit of measuring every teaching against prior frameworks, and simply receiving the declaration of one's own indestructibility as prasāda (grace offered), not as a proposition to be verified.",
     "bhakti": "Śrīdhara's attention to kleda — the preliminary softening before dissolution — points to a practice of discerning harm at its earliest stage rather than waiting for collapse. Just as water begins by making something śithila (loose, pliable, weakened) before fully dissolving it, the erosion of one's inner stability typically begins with subtle softening: minor compromises, gradual numbing, slow drift away from one's values. The bhakta (devotee) is asked to recognize and resist not only obvious destruction but the preliminary kleda — the small yieldings that, if unchecked, lead to dissolution of purpose.",
     "advaita-bhakti": "Madhusūdana's escalating superlatives — the most extreme conceivable force still cannot harm the ātman — offer a specific practice for moments of extreme duress, when ordinary reassurance fails: instead of moderating the fear ('it's probably not that bad'), one is invited to follow it to its maximal form and then test Kṛṣṇa's unconditional guarantee against it. The devotee does not need to minimize suffering; Madhusūdana's framing says even atiprabala (maximally powerful) destruction is answered by the ātman's permanence, and so the bhakta's confidence in Kṛṣṇa's protection grows proportionally to the extremity of the challenge, not inversely."
-  }
+  },
+  "primary_meaning": "No weapon can cut this self, no fire burn it, no water wet it, no wind dry it."
 }

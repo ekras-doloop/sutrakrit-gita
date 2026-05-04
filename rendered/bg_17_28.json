@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "hutam",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "dattam",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "taptam",
-      "lemma": "tap",
+      "lemma": "√tap",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "kṛtam",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -439,7 +439,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -529,7 +529,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hutam: hu -> √hu",
+          "dattam: dā -> √dā",
+          "taptam: tap -> √tap",
+          "kṛtam: kṛ -> √kṛ",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If shraddha is the condition that makes any act real, what distinguishes shraddha from mere belief, sincere intention, or emotional fervour — and can it be cultivated deliberately?",
@@ -547,5 +561,6 @@
     "shuddhadvaita": "Vallabha's vyartha — purposeless — is the everyday experience of going through motions you no longer believe in. Pushti-marga's answer is not more effort but receptivity: let Krishna's lila enter the act. Practically this means staying awake to the fact that you are not the ultimate author — the space that allows any act to happen is itself the prasada. One moment of that recognition converts vyartha into sat.",
     "bhakti": "Sridhara's ayasha-skara — the act that earns disgrace — points to the social and relational dimension missing from the other readings. Mechanical generosity (datta without shraddha) is sensed by the recipient; it diminishes rather than honours. In workplace, family, and community contexts, the quality of attention with which something is given determines whether the gift lands as sat or asat. Shraddha is also a social skill: showing up fully present.",
     "advaita-bhakti": "Madhusudana's stone-seed image is the sharpest everyday diagnostic: some activities are structurally incapable of producing the result we want from them because the substrate is wrong. No technique, repetition, or invocation salvages them. The practice he implies is categorical discernment before investment — is shraddha actually present here, or am I about to water a stone? If absent, the work is to restore shraddha first, not to optimise the act."
-  }
+  },
+  "primary_meaning": "Whatever sacrifice, gift, or austerity is performed without faith is called \"unreal,\" Arjuna. It bears no fruit in this world or the next."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "dhyāyataḥ",
-      "lemma": "dhyā",
+      "lemma": "√dhyā",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "upajāyate",
-      "lemma": "upajan",
+      "lemma": "upa-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "saṃjāyate",
-      "lemma": "saṃjan",
+      "lemma": "saṃ-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -200,7 +200,7 @@
     },
     {
       "surface_form": "abhijāyate",
-      "lemma": "abhijan",
+      "lemma": "abhi-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -413,34 +413,10 @@
       ]
     },
     {
-      "list": "क्रोधाद्भवति सम्मोहः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.63",
-        "3.40",
-        "9.12"
-      ]
-    },
-    {
-      "list": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.63"
-      ]
-    },
-    {
       "list": "बुद्धिनाशात्प्रणश्यति",
       "role": "supporting",
       "other_verses_in_list": [
         "2.63"
-      ]
-    },
-    {
-      "list": "सङ्गात्संजायते कामः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.63",
-        "5.10"
       ]
     },
     {
@@ -485,7 +461,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhyāyataḥ: dhyā -> √dhyā",
+          "upajāyate: upajan -> upa-√jan",
+          "saṃjāyate: saṃjan -> saṃ-√jan",
+          "abhijāyate: abhijan -> abhi-√jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse locates the root pathology in dhyāna (mental dwelling) rather than in physical contact — does this mean sense-restraint without mind-restraint is structurally incomplete, and what specific practice would address the mind's replay loop rather than merely the body's proximity to objects?",
@@ -503,5 +492,6 @@
     "śuddhādvaita": "Vallabha's conclusion that the person swept through the cascade becomes 'prākṛta eva — merely natural again' describes what contemporary practitioners recognize as spiritual regression: the gradual loss of refinement, sensitivity to Kṛṣṇa's presence, and quality of prayer that follows sustained indulgence in viṣaya-dhyāna. The Puṣṭi-mārga application is not heroic vairāgya (renunciation) but sevā (dedicated ritual service to Kṛṣṇa's image) scheduled so regularly that there is no unoccupied mental space in which the viṣaya-replay can take root — the cascade is interrupted not at the level of desire but upstream, at the dhyāna stage, by substituting Kṛṣṇa as the primary object of mental attention.",
     "bhakti": "Śrīdhara's identification of guṇabuddhi (cognizing objects through their pleasurable qualities) as the initiating step offers a practical perceptual intervention: in the moment of encounter with a desirable object (food, praise, a screen, another person), consciously register whether one is seeing the guṇa-surface (the sensory appeal) or looking through to the underlying prakṛti. This is not ascetic denial but a deliberate shift in perceptual frame — the same object encountered with guṇabuddhi initiates the cascade; the same object encountered with viveka (discernment) does not, because the mind does not initiate the replay loop when it sees through rather than into the surface.",
     "advaita-bhakti": "Madhusūdana's most practically urgent observation is that the cascade operates even when the outer senses are already restrained — which means periods of solitude, retreat, and sensory reduction are not inherently safe if the mind replays what the senses recently absorbed or has stored from the past. The advaita-bhakti application for daily life: pair any period of physical withdrawal (closing the phone, sitting in silence) with an immediate intentional reorientation toward Kṛṣṇa — not as an afterthought but as the first act of the withdrawal — so that the mental quiet is occupied by the bimba-buddhi (the Ātman-reflecting mode of mind) rather than by the viṣaya-replay that Madhusūdana shows will fill the vacuum otherwise."
-  }
+  },
+  "primary_meaning": "When a person keeps turning sense-objects over in the mind, attachment to them grows; from attachment comes desire, and from desire, when blocked, comes anger."
 }

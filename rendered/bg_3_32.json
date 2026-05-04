@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "abhyasūyantaḥ",
-      "lemma": "abhyasūy",
+      "lemma": "√abhyasūy",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "anutiṣṭhanti",
-      "lemma": "anuṣṭhā",
+      "lemma": "anu-√sthā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "vimūḍhān",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "naṣṭān",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -327,8 +327,9 @@
         "vallabha_3.32"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha's bhāṣya on 3.32 is minimal (only 'viparakṣe doṣam āha ye tv iti' — 'he states the fault in the opposing case'). Invoking the Puṣṭi-mārga framework: those who malign Kṛṣṇa's teaching have not received his prasāda (grace-gift); their very resistance is the mark of exclusion from the līlā. In Śuddhādvaita, where brahman is Kṛṣṇa's own pure being (śuddha, untainted by māyā), confusion about knowledge is confusion about Kṛṣṇa's own nature. They are acetas because Kṛṣṇa's ānanda (bliss), which is the foundation of all cit, has not been kindled in them.",
-      "divergence_note": "Bhāṣya absent beyond the rubric phrase. Rendering constructed from Śuddhādvaita metaphysics to honor the constraint of anchoring in available text. FLAGGED: Vallabha's commentary provides no developed prose on this verse; one line only."
+      "english_rendering": "*Abhyasūyantaḥ* (those who cavil, who find fault) in Kṛṣṇa's *matam* (teaching, which is nothing other than his own *svarūpa*-disclosure) do not follow it — *nānutiṣṭhanti*. In *śuddhādvaita*, Kṛṣṇa's teaching is not an external injunction but an expression of his own pure being, *śuddha-brahman*, untouched by *māyā*. To malign it is to turn away from *ānanda* itself. Such turning away is not merely intellectual error; it is exclusion from *puṣṭi* (the Lord's own grace-flow), for *puṣṭi-mārga* holds that Kṛṣṇa's favour, not human striving, is what opens a *jīva* to *jñāna*. *Sarva-jñāna-vimūḍhāḥ* — bewildered across all knowledge — because the one who rejects Kṛṣṇa's *matam* loses the *cit*-light that Kṛṣṇa himself is. The world is Kṛṣṇa's real self-manifestation, not illusion; confusion about it is confusion about him. *Naṣṭāḥ acetasaḥ*: ruined, devoid of inner consciousness — *acetas* names the state of one in whom Kṛṣṇa's *ānanda*, the ground of all *cit*, has not been kindled. Vallabha's rubric — *vipakṣe doṣam āha ye tv iti* — marks the verse as stating the fault in the opposing case, the case of those to whom *puṣṭi* has not descended.",
+      "divergence_note": "Vallabha's bhāṣya offers only the rubric *vipakṣe doṣam āha ye tv iti*; the reading is developed from *śuddhādvaita* *siddhānta* anchored on that phrase and the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -453,20 +454,6 @@
       ]
     },
     {
-      "list": "तौ ह्यस्य परिपन्थिनौ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.34"
-      ]
-    },
-    {
-      "list": "नष्टान् विद्धि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.33"
-      ]
-    },
-    {
       "list": "प्रेम",
       "role": "supporting",
       "other_verses_in_list": [
@@ -545,7 +532,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anutiṣṭhanti: anuṣṭhā -> anu-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhyasūyantaḥ: abhyasūy -> √abhyasūy",
+          "vimūḍhān: vimuh -> vi-√muh",
+          "viddhi: vid -> √vid",
+          "naṣṭān: naś -> √naś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes legitimate intellectual doubt about a teaching from the abhyasūyā (malicious fault-finding) the verse condemns — and how does a practitioner honestly locate themselves on that spectrum?",
@@ -563,5 +571,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga orients resistance as absence of Kṛṣṇa's own prasāda (grace-gift) rather than willful sin. The practical implication: if you encounter someone hostile to a teaching you hold true, the response is not argument but prayer that Kṛṣṇa's prasāda reach them. You cannot argue someone into receiving a gift; you can only stay in the relationship and continue offering.",
     "bhakti": "Śrīdhara's īśvara-artha criterion is practically demanding: every action is to be oriented toward the Lord. The everyday test is simple and repeated: before an action, ask 'for whom?' The verse's warning applies not to spectacular apostasy but to the quiet habitual performance of action for self-gain that accumulates into the confusion of viveka-śūnyatā (absence of discernment). The corrective is not grand renunciation but re-dedication, one action at a time.",
     "advaita-bhakti": "Madhusūdana identifies the root as āstikya-abhāva (absence of the faith-premise) — not just wrong action but corrupted cit (intellect-consciousness). The everyday implication is diagnostic: when someone appears confused across multiple domains simultaneously (their relationships, their work, their worldview all seem systematically distorted), Madhusūdana's reading suggests looking for a foundational śraddhā (faith) deficit rather than domain-specific errors. Addressing the root — through satsaṅga (company of the faithful), bhajana (devotional practice), or study — is more efficient than correcting each symptom separately."
-  }
+  },
+  "primary_meaning": "Those who resent this teaching and refuse to follow it are lost, confused about every kind of knowledge, and without real discernment."
 }

@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "prāhuḥ",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -471,7 +471,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāhuḥ: prāh -> √prāh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When two authoritative traditions disagree about a core practice, what standard do you use to adjudicate — scripture, reason, or lived consequence?",
@@ -489,5 +499,6 @@
     "suddhAdvaita": "Vallabha's partial-witness frame is useful when advisors disagree. Rather than dismissing one side, ask what each is correctly protecting. The advisor who says 'stop' and the one who says 'continue' are often both responding to a real feature of the situation — your job is to find the Krsna-centered action that honors both constraints.",
     "bhakti": "Sridhara's Mimamsa resolution applies directly to role-based duties: the specific obligation of your role (parent, professional, citizen) overrides the general philosophical preference for inaction. 'Na himsyat sarva-bhutani' does not mean: do nothing that could conceivably cause friction. It means: do not cause unprovoked harm. Your yajna — your structured, socially-embedded obligatory action — is not in conflict with that.",
     "advaita-bhakti": "Madhusudana's antahkarana-suddhi frame gives daily practice its logic: yajna (disciplined offering), dana (giving without calculation), and tapas (voluntary difficulty) are not optional extras on the spiritual path — they are the mechanism by which the inner instrument becomes capable of receiving knowledge. Skipping them because they seem 'merely preparatory' is the error this verse begins to correct."
-  }
+  },
+  "primary_meaning": "Some learned men say all action is flawed and should be given up; others say acts of sacrifice, charity, and austerity must never be abandoned."
 }

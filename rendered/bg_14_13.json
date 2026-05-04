@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "jāyante",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "vivṛddhe",
-      "lemma": "vivṛdh",
+      "lemma": "vi-√vṛdh",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -331,7 +331,8 @@
         "jayatirtha_14.13"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse (bhashya absent for BG 14.13). From Dvaita's structural logic: the four signs — aprakasha, apravritti, pramada, moha — manifest in the jiva whose dependence on Hari is obscured by tamas; they are not the jiva's own nature but the disguise tamas imposes on it. The eternal distinction between jiva and Hari means only Hari's anugraha (grace) can lift this veil, not the jiva's own effort alone."
+      "english_rendering": "*Aprakāśa* (non-illumination), *apravṛtti* (inertia), *pramāda* (heedlessness), and *moha* (delusion) — these four arise, O Kuru-nandana, when *tamas* (the quality of inertia and obscuration) swells and prevails. In the dvaita reading, each of these signs marks a specific mode of *paratantra* (eternally dependent) *jīva*-bondage under tamas. *Aprakāśa* is the suppression of the *jīva*'s natural cognitive orientation toward *svatantra* (the independently real, self-sufficient) Hari; *apravṛtti* is the cessation of any movement toward *bhakti* (devotion); *pramāda* is the collapse of discriminative attention; *moha* is the thickening of *adhyāsa* upon *bheda* (real distinction) — the *jīva* loses its grip on its own differentiated status from Hari, from other *jīvas*, and from matter, the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) being effectively obscured though never annulled. Tamas does not alter the *jīva*'s ontological *paratantra* structure; it buries it. Only Hari's *anugraha* (grace), not the *jīva*'s self-generated effort alone, dissolves what tamas has heaped upon it — for the *jīva* remains wholly *paratantra* even in the work of its own liberation.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -414,7 +415,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jāyante: jan -> √jan",
+          "vivṛddhe: vivṛdh -> vi-√vṛdh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If tamas produces aprakasha (non-illumination) even when teaching is present, what does this say about the limits of pedagogy — and what must change in the learner before instruction can take hold?",
@@ -432,5 +444,6 @@
     "śuddhādvaita": "Vallabha's five-fold avidya map suggests that what presents as 'I don't know who I am' (svarupa-ajna) cascades into every downstream confusion — bodily, emotional, mental, relational. The Pusti-marga application: when you are lost in any of these layers, return to Krsna-svarupa contemplation rather than trying to fix the downstream symptom. The root avidya dissolves in the light of Krishna's presence.",
     "bhakti": "Sridhara's 'mithya-abhinivesha' (false fixation) is the tamassic pattern of clinging to a view, a grievance, or a self-story long after evidence has contradicted it. The bhakti diagnostic: if you notice you cannot update your position even when shown clearly that it is wrong, this is moha in Sridhara's precise sense. The remedy is a daily reading of scripture with the explicit intention to be corrected — using the text as mirror rather than confirmation.",
     "advaita-bhakti": "Madhusudana's 'avyabhicarin linga' (unfailing marks) framework offers a practical self-audit: each morning, check which of the four signs is present — non-receptivity to teaching, inability to act on what you already know is right, inattentiveness to the present duty, or sleep-like confusion. Name the one that is most active. Then bring Krsna-bhakti specifically to that symptom: not generic devotion but targeted surrender of that specific tamo-expression to the Lord."
-  }
+  },
+  "primary_meaning": "When *tamas* swells, O heir of Kuru, four signs appear: dullness of mind, paralysis of will, heedlessness, and delusion."
 }

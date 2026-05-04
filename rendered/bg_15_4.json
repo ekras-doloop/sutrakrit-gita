@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "gatāḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "nivartanti",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "prapadye",
-      "lemma": "prapad",
+      "lemma": "pra-√pad",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "prasṛtā",
-      "lemma": "prasṛ",
+      "lemma": "pra-√sṛ",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -535,13 +535,6 @@
       ]
     },
     {
-      "list": "तमेव शरणं गच्छ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.62"
-      ]
-    },
-    {
       "list": "परमात्मा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -614,32 +607,10 @@
       ]
     },
     {
-      "list": "मामेकं शरणं व्रज",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "18.66"
-      ]
-    },
-    {
-      "list": "मैं भगवान्का ही हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.1"
-      ]
-    },
-    {
       "list": "यस्मिन्",
       "role": "supporting",
       "other_verses_in_list": [
         "6.22"
-      ]
-    },
-    {
-      "list": "यस्मिन्गता न निवर्तन्ति भूयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.3"
       ]
     },
     {
@@ -699,7 +670,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatāḥ: gam -> √gam",
+          "nivartanti: nivṛt -> ni-√vṛt",
+          "prapadye: prapad -> pra-√pad",
+          "prasṛtā: prasṛ -> pra-√sṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse commands 'seek that pada' — but Shankara says seeking IS understanding (jnatavyam), while Ramanuja says seeking IS surrender (prapadye): can a single imperative genuinely hold both meanings, or does the school divergence reveal an unresolvable hermeneutic split at the root of Vedanta?",
@@ -717,5 +701,6 @@
     "shuddhadvaita": "If a child or creative project feels like an imposition rather than a gift, Vallabha's frame invites you to see it as Krishna's lila flowing through you. The 'ancient stream of pravrttti' is not your burden — it is His generosity. Receiving it as prasada rather than managing it as obligation changes the texture of the same action.",
     "bhakti": "Shridhara's 'I take refuge' is a first-person vow, not a doctrine. When anxiety about the future returns, try making it literal: say aloud 'I take refuge in the Primordial' and notice whether the quality of the anxiety changes. Ekanta-bhakti begins in small acts of surrender before it becomes a sustained orientation.",
     "advaita-bhakti": "Madhusudana would say: before acting on a major life choice, spend time with a Vedanta sentence — not as intellectual exercise but as invitation. 'He by whom all this is filled' — sit with that until the filler and the filled are less separate. The inquiry and the surrender are not sequential steps; they open simultaneously when the question is genuine."
-  }
+  },
+  "primary_meaning": "Then seek that place from which none return, and take refuge in the primordial Purusha from whom this ancient current of existence first poured forth."
 }

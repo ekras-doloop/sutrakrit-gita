@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "vyatitariṣyati",
-      "lemma": "vyatitṛ",
+      "lemma": "√vyatitṛ",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "gantāsi",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "future indicative peri 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "śrutasya",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "genitive neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -514,7 +514,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyatitariṣyati: vyatitṛ -> √vyatitṛ",
+          "gantāsi: gam -> √gam",
+          "śrutasya: śru -> √śru"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says buddhi 'crosses' the moha-kalila (turbidity of delusion) — does this crossing happen in one decisive moment (like waking from sleep) or is it a gradual thinning, and does the answer differ between the schools?",
@@ -532,5 +544,6 @@
     "śuddhādvaita": "Vallabha's reading places the turning-point inside the quality of the buddhi itself, not in external achievement. In daily life this means: instead of accumulating more techniques, more workshops, or more advice (all of which belong to the realm of the śrotavya — what is yet to be heard), the Puṣṭi-mārgī invites the buddhi to simply rest in Kṛṣṇa's prasāda-grace. When you notice that the impulse to research another solution or read another book has quietly dissolved — not through discipline but through a kind of natural saturation — the nirveda Vallabha describes is already present, and the buddhi is approaching its acalā-avasthā (immovable state) that opens into yoga-svarūpa.",
     "bhakti": "Śrīdhara's key contribution is the causal arrow: it is the Parameśvara-ārādhana (dedicated worship) that dissolves the deha-abhimāna (body-identification), not the reverse. For everyday practice this means: rather than trying to overcome ego-attachment through self-analysis, sustain a daily ritual of worship — pūjā (ritual offering), nāma-japa (repetition of the divine name), or satsaṅga (company of the wise) — and watch whether the body-identified anxieties thin on their own. The criterion Śrīdhara gives is practical: you will know the thicket has been crossed when the question 'what will I get from this?' no longer arises as you sit down to pray, study, or serve.",
     "advaita-bhakti": "Madhusūdana's refusal of a kāla-niyama (time-rule) is itself practical counsel: stop measuring your spiritual progress by elapsed calendar time, and instead watch for qualitative shifts in the antaḥkaraṇa. The sign is vaitṛṣṇya (freedom from craving) — not a forced detachment but the natural evaporation of the aham-idam-mama complex (I-this-mine overlay) that previously made every outcome feel personally momentous. In daily terms: when a project failure at work registers as information rather than as a verdict on your worth, and when planning for next year's success no longer carries the same charge of necessity, the antaḥkaraṇa-śuddhi Madhusūdana describes is underway — the buddhi is crossing the moha-swamp, even if no date was fixed for the crossing."
-  }
+  },
+  "primary_meaning": "When your mind crosses through the dense fog of delusion, you will feel a deep dispassion toward everything you have heard and everything yet to be heard."
 }

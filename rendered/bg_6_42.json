@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -403,8 +403,9 @@
         "jayatirtha_6.42"
       ],
       "score": 0.5,
-      "english_rendering": "The verse promises birth in the family of wise yogis as an alternative to royal lineage — Hari's sovereign grace arranges the jīva's return to exactly the environment needed for completion of dependent worship. [NOTE: Madhva did not comment on this verse; this rendering reconstructs the Dvaita framework from his general teaching on jīva-svātantrya, sādhanā-continuity, and Hari as the sole efficient cause of all yogic progress.]",
-      "divergence_note": "ABSENT — payload explicitly states 'Sri Madhvacharya did not comment on this sloka.' Rendering is framework-inference only."
+      "english_rendering": "Or instead, the *yogi* (one engaged in meditative practice) is born into the family of wise *yogins* — *yoginām eva kule bhavati dhīmatām*. Such a birth is *durlabhataram* (rarer still) in this world than even a royal birth. Hari alone, as the *svatantra* (independently real, self-sufficient) Lord who is the sole efficient cause of all *sādhanā* (spiritual practice), arranges the *paratantra* *jīva*'s (eternally dependent individual self's) return to precisely the lineage where accumulated *bhakti* (devotion) can resume and ripen. The *dhīmatām* — the wise ones — are not merely learned but are graded within *taratamya* (graded ontological hierarchy); birth among them is itself a fruit of Hari's sovereign dispensation, not the jīva's own autonomous achievement. The *pañca-bheda* (five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) remains intact across births: the jīva does not dissolve into the yogic family but arrives as a genuinely distinct dependent self, carrying forward the momentum of prior worship under Hari's direction.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya exists for this verse; the reading voices Dvaita siddhānta directly from the mūla, grounding *durlabhataraṃ janma* in Hari's sovereign grace and *taratamya* rather than in any notion of jīva self-determination.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -490,7 +491,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the soul's sādhanā-saṃskāras (practice-impressions) survive death and engineer the next birth-environment, what does that imply about the moral weight of every hour spent in genuine practice versus performed piety?",
@@ -508,5 +519,6 @@
     "śuddhādvaita": "Vallabha's Jaḍa-Bharata example counsels against anxious striving to 'complete' one's sādhanā by one's own force. If deep saṃskāras of devotion are present, Kṛṣṇa's prasāda (grace-gift) may carry one across without further deliberate effort. The everyday implication: cultivate genuine love for Kṛṣṇa as the primary act; let the architecture of continuation be His concern, not a project to manage.",
     "bhakti": "Śrīdhara distinguishes short-practice fallers from long-practice fallers — the longer you have practiced, the more direct your next environment will be toward mokṣa. The practical takeaway: consistency over years matters more than intensity in any single session. A decade of steady, modest practice builds saṃskāras that will position you closer to liberation than a year of intense but abandoned effort.",
     "advaita-bhakti": "Madhusūdana's criterion for the highest birth is 'bhoga-vāsanā-śūnya' (empty of desire for enjoyment). The daily practice this implies: before undertaking any activity, audit whether it is driven by genuine sādhanā or by subtle bhoga-vāsanā dressed as spiritual aspiration. The soul fit for saṃnyāsa is not the one who has suppressed desire but the one in whom desire for enjoyment has genuinely dissolved — and this is built incrementally through honest self-examination, not by declaration."
-  }
+  },
+  "primary_meaning": "Or else the fallen yogi is born into a family of wise yogis themselves, and that birth, rarer than any other in this world, carries the practice forward from where it left off."
 }

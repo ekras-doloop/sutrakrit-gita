@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "gataḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -409,17 +409,6 @@
       ]
     },
     {
-      "list": "विशेष बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "3.18",
-        "3.21",
-        "3.23",
-        "3.24"
-      ]
-    },
-    {
       "list": "सनातन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -476,7 +465,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gataḥ: gam -> √gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says Kṛṣṇa repeats these verses because ātman-knowledge is duḥ-bodha (hard to grasp) for the saṃsārin. What is it about the conditioned mind — trained on objects that arise, change, and perish — that makes the concept of something truly nityaḥ (eternal) so resistant to understanding, even after repeated hearing?",
@@ -494,5 +493,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga application meets people who feel spiritually inert — not wicked, not seeking, simply flat. The verse's sanātana establishes that the jīva's nature is prior even to ākāśa (space), meaning it precedes every condition that currently produces the flatness. The practice in Puṣṭi-mārga is not technique but receptivity to Kṛṣṇa's prasāda (unreasoned grace) — and Vallabha's reading of this verse makes receptivity metaphysically grounded: there is something in the person that is older than their current state and cannot be permanently eclipsed by it. Grace lands on a substrate that is already sanātana.",
     "bhakti": "Śrīdhara's technically anchored reading applies when a person confronts their own aging or physical diminishment — watching the body change and feeling as though the self is changing with it. His precise sequence (niravayavatva → acchhedya, amūrtatva → adāhya) gives the practitioner something specific to hold: each feared change in the body corresponds to a physical property the ātman does not possess. The body has parts that can be severed; the ātman has no parts. The body is material and burns; the ātman has no material form. Running through this catalog slowly, the practitioner begins to notice that the one who is watching the body age has not itself gained a single wrinkle.",
     "advaita-bhakti": "Madhusūdana's synthesis applies in professional or creative life when a person feels that their output — their work, their art, their thinking — is subject to forces entirely outside them: market forces, critics, illness, time. His argument that the ātman cannot be made utpādya (producible), prāpya (reachable as object), vikārya (modifiable), or saṃskārya (improvable) maps onto the distinction between the one who creates and the created thing. The created thing is subject to all four; the creator's awareness is not. The practice is to locate the creating awareness underneath the anxiety about the created object — not to become indifferent to quality, but to stop conflating the worker with the work in a way that makes every criticism an ontological threat."
-  }
+  },
+  "primary_meaning": "Nothing can cut, burn, wet, or dry this self: it is eternal, all-pervading, unmoving, and ancient beyond beginning."
 }

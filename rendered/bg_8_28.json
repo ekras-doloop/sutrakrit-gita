@@ -158,7 +158,7 @@
     },
     {
       "surface_form": "pradiṣṭam",
-      "lemma": "pradiś",
+      "lemma": "pra-√diś",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "atyeti",
-      "lemma": "atī",
+      "lemma": "√atī",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -356,7 +356,7 @@
     },
     {
       "surface_form": "upaiti",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -533,8 +533,9 @@
         "jayatirtha_8.28"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya left no direct commentary on this verse. From established Dvaita doctrine: the jīva is eternally and essentially distinct from Hari (viśeṣa is non-negotiable), so all Vedic merit — study, sacrifice, austerity, giving — accrues to a dependent agent who can never dissolve into Brahman. The yogin who surpasses these merits does so not by identity with the supreme but by attaining Hari's presence as a perfected servant; the 'primordial station' is Vaikuṇṭha as dwelling-place, not absorption.",
-      "divergence_note": "ABSENT — Madhva corpus entry reads 'did not comment on this śloka.' Rendering is inferred from core Dvaita axioms (viśeṣa, Hari-āśraya, Vaikuṇṭha as goal)."
+      "english_rendering": "*Puṇya-phala* (the meritorious fruit) *pradiṣṭam* (ordained, assigned) across Vedic study, *yajña* (sacrifice), *tapas* (austerity), and *dāna* (giving) — the *yogī* who knows *idaṃ* (this, the teaching of chapters seven and eight in full) *atyeti tat sarvam* (surpasses all of that). He *upaiti paraṃ sthānam ādyam* (attains the supreme and primordial station).\n\nIn dvaita *siddhānta*, every actor in those Vedic rites is *paratantra* (eternally dependent), a *jīva* wholly subordinate to *svatantra* Hari. The merit those rites yield — however great — belongs to the domain of *karma*-fruit and accrues to a *jīva* who never ceases to be distinct from the Lord. *Pañca-bheda* (the five-fold real distinction) is not dissolved by any quantum of *puṇya*. What this *yogī* surpasses is not distinction itself but the lower goal of finite *puṇya-phala*; the surpassing is upward, not inward. *Paraṃ sthānam ādyam* is Vaikuṇṭha — the primordial abode of Hari, attained by the perfected *jīva* as a *paratantra* servant arriving into Hari's presence, not merging into Hari's being. *Taratamya* (graded ontological hierarchy) persists even there: the liberated *jīva* occupies its proper station within the hierarchy, enjoying *bhakti* as ontological subordination fulfilled, not annulled. Real arrival, not dissolution, is the dvaita reading of *upaiti*.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha survives for this verse. The reading proceeds directly from dvaita *siddhānta*: *paratantra* jīva-hood, *pañca-bheda*, *taratamya*, and Vaikuṇṭha as the real goal — not *sāyujya* absorption.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -639,7 +640,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pradiṣṭam: pradiś -> pra-√diś",
+          "atyeti: atī -> √atī",
+          "upaiti: upe -> √upe"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If jñāna surpasses the aggregate of all Vedic merit, does this verse imply that orthodox ritual observance is ultimately dispensable — or is it a prerequisite ground from which surpassing becomes possible?",
@@ -657,5 +670,6 @@
     "śuddhādvaita": "Vallabha's key word is vairāgya arising naturally after mahāpuruṣa-cintana (meditation on a great person, i.e., Kṛṣṇa). The application is cumulative: daily spend a few minutes not on task-lists or self-improvement metrics but on a vivid, loving recollection of Kṛṣṇa's qualities or of a person who embodies those qualities. Vallabha's insight is that this practice produces non-attachment to ordinary rewards as a side-effect, not a goal — you do not renounce, you become too absorbed to crave.",
     "bhakti": "Śrīdhara's summation framing suggests the verse rewards those who have followed the full chapter-argument, not those who drop in at the end. The everyday application is reading integrity: do not treat scripture as a collection of independent aphorisms to be applied piecemeal; the fruit declared here (surpassing all merit) is available only after comprehending the preceding eight-question framework. In study groups or personal reading, resist the urge to extract quotable conclusions before tracing the full reasoning arc — viditvā (having understood) precedes upaiti (attains).",
     "advaita-bhakti": "Madhusūdana's śraddhā-deepening purpose is the clearest everyday application: when your meditation practice feels dry or unproductive compared to concrete results from professional effort, recall the meticulous Vedic merit-path in all its rigor — Madhusūdana lists it deliberately so you feel the weight of what is being surpassed. Then notice that the yogin who has understood this chapter surpasses that entire edifice not by more effort but by recognition (viditvā). Concretely: keep a brief log of one moment per week where clarity or stillness was simply present, without being earned — this is the data-point that Madhusūdana's śraddhā-enhancement is pointing at."
-  }
+  },
+  "primary_meaning": "The yogin who truly understands this teaching surpasses every merit earned through Vedic study, sacrifice, austerity, and giving, and reaches the supreme, primordial station."
 }

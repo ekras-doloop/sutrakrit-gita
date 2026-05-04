@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "upajāyate",
-      "lemma": "upajan",
+      "lemma": "upa-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "vidyāt",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "vivṛddham",
-      "lemma": "vivṛdh",
+      "lemma": "vi-√vṛdh",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -351,8 +351,9 @@
         "jayatirtha_14.11"
       ],
       "score": 0.5,
-      "english_rendering": "When luminous discernment floods all the sense-apertures of this body, one should know sattva has arisen. The jiva, eternally distinct from Hari, receives this light as a dependent capacity; clarity of cognition is Hari's gift to the jiva and signals a state of readiness for devoted worship. Do not mistake the sign for the source: light in the gates is a datum, not the possessor of that light.",
-      "divergence_note": "Madhva did not comment on this verse directly (bhashya absent in payload). Rendering is extrapolated from Madhva's characteristic insistence on jiva-Brahman distinction and dependent cognition, consistent with his documented stance on gunas elsewhere."
+      "english_rendering": "*Sarva-dvāreṣu dehe 'smin prakāśa upajāyate jñānaṃ yadā* — when *prakāśa* (luminous clarity) arises at every gate of this body and *jñāna* (cognition) floods the sense-apertures, one should know *sattva* has grown predominant. In Dvaita reckoning, *sattva* is a *paratantra* (eternally dependent) *guṇa* of *prakṛti*, and the *jīva* (the individual self) who experiences this brightening is himself *paratantra*, never *svatantra* (the independently real, self-sufficient) — that status belongs to Hari alone. The illumination is not self-originated in the *jīva*; it is Hari's superintendence through *antaryāmitva* that permits *sattva* to rise and cognition to sharpen. *Bheda* (real distinction) between Lord, *jīva*, and *guṇa* holds even at the peak of *sāttvik* clarity: the light in the gates registers the *jīva*'s fitness, not an identity with its source. Recognizing *vivṛddhaṃ sattvam* correctly is itself an act of discernment within the *taratamya* (graded ontological hierarchy) — it positions the *jīva* for *bhakti* (devotion) as ontological subordination to Hari, the one in whom *prakāśa* is *svataḥsiddha* (self-established) rather than borrowed.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is reconstructed from Dvaita *siddhānta*: *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) governs the analysis of *guṇa*-states; *sāttvik* clarity is a datum of dependent cognition, not a mark of non-dual absorption.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -371,8 +372,8 @@
         "sridhara_14.11"
       ],
       "score": 0.5,
-      "english_rendering": "This verse opens the three-verse sequence announcing the signs (lingani) of the three gunas in their risen state. When in this body — which is the seat of the self's experience — through all the gates of the senses (shrotra-adi), the light that consists in knowledge of sound and other objects (shabda-adi-jnana-atmaka prakasha) arises, one should know by this sign of light that sattva is risen. Moreover, by the additional sign of happiness (sukha) one should know the same — as the word 'uta' indicates.",
-      "divergence_note": "Sridhara explicitly marks this as the first of three verses on guna-signs ('tribuhi') and glosses 'uta' as indicating that sukha-linga confirms the same conclusion as prakasha-linga, maintaining a balanced philological stance without collapsing to a single darshana."
+      "english_rendering": "Here begins the three-verse sequence announcing the signs of the *guṇa*s in their risen state — *tribuḥ* (by three). In *asmin ātmano bhogāyatane dehe* (this body, the seat of the self's experience), through all the gates, *sarveṣv api dvāreṣu śrotrādiṣu* (all the openings, beginning with hearing), when *śabdādi-jñānātmakaḥ prakāśaḥ* (the light consisting in knowledge of sound and other objects) *upajāyate* (arises), one should know by this sign of light — *anena prakāśa-liṅgena* — that *sattva* is risen, *vivṛddham*. The word *uta* signals that by the sign of *sukha* and the rest — *sukhādi-liṅgenāpi* — one should know the same: *jānīyāt*.",
+      "divergence_note": "Śrīdhara marks *uta* as carrying *sukhādi-liṅgena api jānīyāt* — happiness confirms the same conclusion as *prakāśa*, a second independent sign rather than a subordinate gloss."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -534,7 +535,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upajāyate: upajan -> upa-√jan",
+          "vidyāt: vid -> √vid",
+          "vivṛddham: vivṛdh -> vi-√vṛdh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the rising of sattva is detectable by inner light and ease, what practices in daily life reliably cultivate the conditions for sattva to increase rather than fluctuate?",
@@ -552,5 +565,6 @@
     "shuddhadvaita": "Vallabha's bhogayana framing reclaims the body as the site of Krsna's gifting, not a prison to escape. When your senses are sharp and your mood is light — what he calls the co-signs of prakasha and sukha — recognize that as the body functioning as intended, as Krsna's instrument for experiencing his own world. Use that state for seva, creativity, and connection rather than waiting for a supposedly purer, bodiless awareness.",
     "bhakti": "Sridhara's diagnostic framing has a practical corollary: track your inner state as you would a health metric. Do your senses feel open and alert (prakasha-linga present)? Do you feel a quiet ease rather than agitation or heaviness (sukha-linga present)? If both are present, that is your window for learning, devotion, and clear action. Build a daily rhythm that protects and extends these windows rather than letting them be consumed by reactive tasks.",
     "advaita-bhakti": "Madhusudan's 'lamp opposing concealment' image is immediately practical: sattva's light does not add information, it removes what was blocking your view. When you feel a sudden lifting of confusion about a relationship or decision, that is the dipavat function — the object's concealing veil has been removed by a sattvic shift. The synthesis counsel is: cultivate Krsna-bhakti as the fastest way to shift the buddhi-parinama toward that lamp-like clarity, and then act from the illuminated seeing rather than waiting for conditions to change."
-  }
+  },
+  "primary_meaning": "When light floods all the gates of this body and knowledge rises through every sense, know that sattva has grown strong."
 }

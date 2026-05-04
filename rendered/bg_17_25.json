@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "kriyante",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -424,7 +424,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyante: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes utterance of 'tat' as a genuine Brahman-orientation from a ritual formality that simply substitutes one form of self-reassurance for another?",
@@ -442,5 +452,6 @@
     "śuddhādvaita": "Recognize that acts arising from genuine attraction to a source of meaning (whatever Krsna represents to you) are structurally different from acts done under compulsion to avoid punishment or gain reward. The Vallabha discipline: let your daily work flow from what you are drawn toward rather than what you are afraid of losing — that is the pushti posture.",
     "bhakti": "Use fruit-renunciation as a practical tool for inner clarity: before deciding on a major life action, ask whether you could carry it out identically if you knew in advance that no social recognition would follow. Sridhara's insight is that phala-sankalpa-tyaga (releasing the resolve about outcome) purifies the instrument for clearer perception. The bhakti discipline: declutter the motive before acting, not after.",
     "advaita-bhakti": "Madhusudana's application is integrative: let your devotional practice (prayer, gratitude, contemplation) serve as the means of inner-organ purification so that your analytical or professional work operates from a steadier base. The advaita-bhakti discipline: do not treat spiritual practice and practical life as separate departments — one purifies the instrument the other requires."
-  }
+  },
+  "primary_meaning": "Those who seek liberation perform their sacrifices, austerities, and acts of giving with the word *tat*, a name of Brahman, on their lips and with no thought of any reward."
 }

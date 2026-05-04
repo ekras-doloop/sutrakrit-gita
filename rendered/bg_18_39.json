@@ -1,8 +1,8 @@
 {
   "verse_id": "18.39",
   "mūla": {
-    "devanāgarī": "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः | निद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्",
-    "iast": "yadagre cānubandhe ca sukhaṃ mohanamātmanaḥ | nidrālasyapramādotthaṃ tattāmasamudāhṛtam",
+    "devanāgarī": "यदग्रे चानुबन्धे च सुखं मोहनमात्मनः | निद्रालस्यप्रमादोत्थं तत् तामसमुदाहृतम्",
+    "iast": "yadagre cānubandhe ca sukhaṃ mohanamātmanaḥ | nidrālasyapramādotthaṃ tat tāmasamudāhṛtam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 39",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "udāhṛtam",
-      "lemma": "udāhṛ",
+      "lemma": "ud-√āhṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -292,8 +292,9 @@
         "jayatirtha_18.39"
       ],
       "score": 0.5,
-      "english_rendering": "BHASHYA ABSENT — Madhva did not comment on this verse. Rendering constructed from Dvaita doctrinal principles. Tamasic pleasure is that which, arising from sleep, sloth, and negligence, deludes the jiva regarding its own dependent nature (paratantrya) vis-a-vis Hari. For Madhva, any pleasure that deepens the jiva's confusion about its eternal distinctness from and dependence on the Lord is tamasic in the strictest sense — it reinforces the fundamental error of self-sufficiency and obscures the devotee's calling to pure upasana of Vishnu.",
-      "divergence_note": "FLAG: No Madhva bhashya on 18.39 in the supplied corpus. Doctrinal projection only."
+      "english_rendering": "*Tāmasika* pleasure (*sukha*, 18.39) is that which deludes the *jīva* (*mohanam ātmanaḥ*) at its very arising (*agre*) and in its consequences (*anubandhe*), springing from sleep (*nidrā*), sloth (*ālasya*), and negligence (*pramāda*). For the *paratantra* (eternally dependent) *jīva*, such pleasure is doubly treacherous: it blunts the discriminative awareness by which the *jīva* knows itself as wholly subordinate to *svatantra* (the independently real, self-sufficient) Hari, and it deadens the movement toward *bhakti* (devotion) that alone constitutes the *jīva*'s proper orientation. *Nidrā*, *ālasya*, and *pramāda* are not merely moral failings but ontological ones — each deepens the obscuration of *bheda* (real distinction) between Lord and *jīva*, fostering a torpor in which the *jīva* fails to register its place within the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) order. The verse's word *mohanam* names the mechanism precisely: this pleasure does not merely fail to edify but actively produces confusion, pulling the *jīva* downward in the *taratamya* (graded ontological hierarchy) of spiritual fitness and away from *upāsanā* of Viṣṇu.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant on this verse; reading voiced directly from Dvaita *siddhānta* as applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -378,7 +379,33 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "tattāmasamudāhṛtam -> tat tāmasamudāhṛtam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "तत्तामसमुदाहृतम् -> तत् तामसमुदाहृतम्"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "udāhṛtam: udāhṛ -> ud-√āhṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says tamasic pleasure deludes 'both at the outset and in its aftermath' — what does it mean that the delusion is present even before enjoyment ends, not only in the hangover?",
@@ -396,5 +423,6 @@
     "shuddhAdvaita": "Vallabha's sarvatha (entirely, in all respects) is the key. Half-measures against tamas do not serve Pushti-marga. In practice: do not permit prolonged idle fantasy about outcomes, reputation, or pleasures unconnected to Shri Krishna's service. The moment you catch the mind in tamasic drift, bring it back to nama-smarana or seva — not gradually, but entirely, as Vallabha insists.",
     "bhakti": "Sridhara's manorajya is immediately recognizable: the half-awake daydream where you are not asleep but not attending to anything real either. In contemporary life this is the default state for millions — a background hum of undirected fantasy sustained by phone, television, or ambient distraction. The bhakti-philological answer is simple attention: return to what you are actually supposed to be doing, which is itself a form of bhakti.",
     "advaita-bhakti": "Madhusudana's triple diagnosis helps you locate which kind of pleasure you are in. If it came from sustained intellectual or spiritual effort that produced clarity, it is sattvic. If it came from genuine engagement with a sense-object and will leave a clear trace of experience, it is rajasic. If it is simply there, murky, with no clear source and leaving you no clearer — that formless murk is tamas. The synthesizing practice is to notice which mode you are feeding, and to use even the rajasic as a stepping-stone toward the sattvic rather than drifting into the tamasic default."
-  }
+  },
+  "primary_meaning": "Pleasure that deludes the self from the first moment to the last, born of sleep, sloth, and daydreaming, is called tamasic."
 }

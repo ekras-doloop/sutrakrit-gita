@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "prāhuḥ",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -457,7 +457,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viduḥ: vid -> √vid",
+          "prāhuḥ: prāh -> √prāh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gita need two words — sannyasa and tyaga — if both point to relinquishment? What is the cost of collapsing them into one?",
@@ -475,5 +486,6 @@
     "śuddhādvaita": "Vallabha's nipuna bhakta keeps performing the action but releases the named reward. In practice: show up fully for the task — cook, teach, build — but refuse to attach identity to whether it succeeds or is praised. The action remains; the self-score goes.",
     "bhakti": "Sridhara's vividishtartha move: redirect habitual daily duties — exercise, email, meetings — by asking each morning, 'What is the knowing this activity serves?' Not every task needs an answer, but the question itself re-orients energy from accumulation toward understanding.",
     "advaita-bhakti": "Madhusudana's synthesis: the difference between obligatory and desire-driven action is not in the act but in your intention. Audit one routine commitment this week — gym, networking, a weekly call — and ask whether the intention beneath it is purifying your attention or compounding a craving. Shift the intention; keep the action."
-  }
+  },
+  "primary_meaning": "The wise say *saṃnyāsa* means giving up actions done out of desire; the discerning say *tyāga* means releasing the fruits of every action, desired or obligatory."
 }

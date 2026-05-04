@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "pravakṣyāmi",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -251,7 +251,7 @@
     },
     {
       "surface_form": "gatāḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -426,7 +426,7 @@
         "jayatirtha_14.1"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is sparse — only an auspicious salutation to the 'sadhana-knowledge-giver' (sadhana-krit-jnana-datre namah) is recorded, and he notes that the subsequent chapters will expound sadhana (spiritual means) as their primary subject. On Madhva's broader Dvaita framework: the 'param jnanam' (supreme knowledge) is knowledge of Hari as independently real and of the jiva (individual soul) as eternally dependent and distinct; 'param siddhi' (supreme accomplishment) is not identity-dissolution but eternal proximity of the purified, distinct jiva to Hari. Bhāshya is absent for this verse — rendering is inferred from Madhva's system. [FLAG: Madhva bhashya for 14.1 is minimal; inference from system applied.]"
+      "english_rendering": "Kṛṣṇa opens with *sādhanakṛjjñānadātre namaḥ* — salutation to the one who gives the knowledge that effects *sādhana* (the spiritual means). The verse announces *paraṃ jñānānāṃ jñānam uttamam*: knowledge supreme above all knowledges, by which *munayaḥ sarve parāṃ siddhim ito gatāḥ* — all sages have departed from this world to *parā siddhi* (the highest attainment). Madhva identifies that attainment not as dissolution into identity but as the purified *jīva*'s (*paratantra*, eternally dependent) eternal proximity to *svatantra* Hari, *bheda* (real distinction) between them remaining inviolate. The remaining five chapters expound *sādhanam* as their chief subject — *sādhanam prādhānyenotarair adhyāyair vakti*. The prior six chapters, beginning with the pledge *yoge tv imāṃ śṛṇu* (BG 2.39), established *karma-dhyāna-lakṣaṇaṃ jñānasādhanam* together with its obligatory adjuncts (*itikartavyatā*) such as renunciation of desire (*kāmavarjanādi*). The present chapter, working through what was named in 13.22 — *kāraṇaṃ guṇasaṅgo'sya* (the cause of the *jīva*'s bondage is its entanglement with the *guṇas*) — expands that *guṇasambandha* in detail and then declares the means of transcending it (*tadatyayasādhanam*). That the verse also touches *īśvaramāhātmya* (the Lord's sovereign greatness), as in *mama yonir mahad brahma* (14.3), does not displace *sādhanam* as the chapters' primary theme — *prādhānyena* qualifies the treatment as predominant, not exclusive."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -590,13 +590,6 @@
       ]
     },
     {
-      "list": "परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.1"
-      ]
-    },
-    {
       "list": "प्रवक्ष्यामि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -690,7 +683,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravakṣyāmi: pravac -> pra-√vac",
+          "gatāḥ: gam -> √gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes knowledge that merely improves a life within samsara from knowledge that ends samsara altogether — and does BG 14.1 supply a criterion?",
@@ -708,5 +712,6 @@
     "shuddhadvaita": "Vallabha's insistence that even the liberating knowledge is ultimately Purushottama's prasada (grace-gift) — not the meditator's accomplishment — dissolves the subtle ego-investment in one's own spiritual progress. In practice: when you complete a significant piece of work or growth, the Pushtimarga gesture is gratitude before pride. The craftsman does not own the inspiration; it arrived.",
     "bhakti": "Shridhara's framing of the chapter as refuting autonomous prakriti (nature acting without Ishvara's will) has a quiet practical implication: the forces shaping your life — personality, circumstance, relationship patterns — are not simply 'you' operating independently. Recognizing that these are the guna-field working through Ishvara's sanction creates a small but real spaciousness: you are participating in something larger, not just executing your own programming.",
     "advaita-bhakti": "Madhusudana's distinction between knowing-as-concept and knowing-as-enactment ('anushtaya') is directly applicable to any domain where reading about a practice substitutes for the practice. The everyday form: ask yourself whether your familiarity with an idea has shortened or lengthened the gap between understanding and doing. If it has lengthened it — if knowing the theory has become a reason not to act — that is precisely the failure mode Madhusudana flags."
-  }
+  },
+  "primary_meaning": "Krishna says: I will teach you once more the highest of all knowledge, by knowing which sages have left this world and reached the supreme attainment."
 }

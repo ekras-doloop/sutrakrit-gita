@@ -1,8 +1,8 @@
 {
   "verse_id": "18.21",
   "mūla": {
-    "devanāgarī": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान्पृथग्विधान् | वेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम्",
-    "iast": "pṛthaktvena tu yajjñānaṃ nānābhāvānpṛthagvidhān | vetti sarveṣu bhūteṣu tajjñānaṃ viddhi rājasam",
+    "devanāgarī": "पृथक्त्वेन तु यज्ज्ञानं नानाभावान् पृथग्विधान् | वेत्ति सर्वेषु भूतेषु तज्ज्ञानं विद्धि राजसम्",
+    "iast": "pṛthaktvena tu yajjñānaṃ nānābhāvān pṛthagvidhān | vetti sarveṣu bhūteṣu tajjñānaṃ viddhi rājasam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 21",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -144,7 +144,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -260,7 +260,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -429,8 +429,9 @@
         "jayatirtha_18.21"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya left no direct commentary on this sloka. From the broader Dvaita framework: rajasic knowledge perceives multiplicity — jivas as distinct from one another and from Hari — but does so without recognizing that all distinctions are real and sustained by Hari's sovereign will (svatantrya). The rajasic knower reads the differences but does not read through them to Hari as the one who holds each distinct jiva in its proper place. Knowledge that fragments without re-integrating around Hari-as-controller is rajasic by character.",
-      "divergence_note": "BHASHYA ABSENT — Madhvacarya did not comment on this verse per the payload. Rendering is constructed from Dvaita siddhanta, not direct bhashya prose."
+      "english_rendering": "*Rājasic* (passion-born) *jñāna* (knowledge) is named here: *pṛthaktvena tu yaj jñānaṃ nānābhāvān pṛthagvidhān vetti sarveṣu bhūteṣu* — knowledge that, moving through all beings, grasps only the manifold differentiated states as so many *pṛthak* (separate) entities, each self-standing. The dvaita reading cuts precisely here: *bheda* (real distinction) among *jīvas* and between *jīva* and matter is not itself the error — *pañca-bheda* (the five-fold real distinction) is ontologically true. The error of rājasic knowing is that it reads the many without reading through them to *svatantra* (the independently real, self-sufficient) Hari, whose sovereign will (*svatantrya*) positions each *paratantra* (eternally dependent) *jīva* within *taratamya* (graded ontological hierarchy). Such knowledge fragments correctly at the surface yet misses the one *svatantra* who holds every *paratantra* entity in its ordained place. Distinction perceived without Hari as its ground and governor — that is *rājasa-jñāna*.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha on this verse. Reading voices dvaita siddhānta directly from the mūla: the school's distinctive move is that rājasic error lies not in perceiving *bheda* (which is real) but in perceiving it without anchoring each distinction in Hari's *svatantrya*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -646,7 +647,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "nānābhāvānpṛthagvidhān -> nānābhāvān pṛthagvidhān"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "नानाभावान्पृथग्विधान् -> नानाभावान् पृथग्विधान्"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If rajasic knowledge correctly perceives real differences (Visistadvaita affirms jiva-plurality is real) — what exactly makes such perception rajasic rather than accurate? Is rajasa a defect of the perceiver or of the knowledge-object?",
@@ -664,5 +692,6 @@
     "suddhAdvaita": "When a family celebration or creative work feels divided by individual preferences and competing needs, rajasic knowledge is what fragments the occasion into separate agendas. The Pustimarga application: see the plurality of moods and participants as Krsna's self-differentiation in lila — the variety is His play, not an obstacle. Perceiving separateness without this ground is what makes knowledge rajasic.",
     "bhakti": "In any caregiving role — parenting, teaching, therapy — it is necessary to see each person as differently constituted (sukhi-duhkhi, the joyful or suffering one). Sridhara's application: this differential perception is required but should not become your final frame. Rajasic knowledge treats the variety of experiential states as the endpoint; bhakti-grounded knowledge uses that variety as the map to better serve each person's actual condition.",
     "advaita-bhakti": "When conflicts arise between people who are genuinely different — different in values, capacity, or circumstance — the mind generates five kinds of narratives about how they are separate. Madhusudana's application: when you notice you are running any of the five-bheda (five-difference) narratives — they are different from me, I am different from the divine, they are different from the divine — pause and ask whether that narrative is serving clarity or is simply the kutarka (false reasoning) of a rajas-conditioned mind insisting on its own categories."
-  }
+  },
+  "primary_meaning": "Knowledge that sees each creature as a separately-natured self, missing the single reality that holds them all, is rajasic."
 }

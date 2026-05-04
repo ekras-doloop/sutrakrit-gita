@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "bhajate",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "vyavasitaḥ",
-      "lemma": "vyavasā",
+      "lemma": "√vyavasā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -436,31 +436,6 @@
       ]
     },
     {
-      "list": "क्षिप्रं भवति धर्मात्मा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.28",
-        "9.31"
-      ]
-    },
-    {
-      "list": "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.5",
-        "8.14",
-        "9.29"
-      ]
-    },
-    {
-      "list": "व्यवसायात्मिका बुद्धि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.41",
-        "2.44"
-      ]
-    },
-    {
       "list": "व्यवसितो हि सः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -495,7 +470,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhajate: bhaj -> √bhaj",
+          "vyavasitaḥ: vyavasā -> √vyavasā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If conduct is subordinate to inner resolve, what stops the verse from functioning as a moral blank cheque? What doctrinal safeguards do different schools build in?",
@@ -513,5 +499,6 @@
     "śuddhādvaita": "Vallabha's puṣṭi frame: when you find yourself unable to achieve external purity of conduct—diet, speech, social norms—do not let that failure become a barrier to citta-prāvaṇya (the mind's flow toward what you love most deeply). The Lord's purifying grace works from the inside out. Keep the inner channel open even when the outer is messy.",
     "bhakti": "Śrīdhara's ananya-bhāk reading is a practical monotheism of attention: in any given period of work or prayer, is your attention consolidated on one centre of meaning, or is it fragmented across competing loyalties? The verse is less about conduct and more about the integrity of orientation. Reduce the number of 'other gods'—competing allegiances, approval-seeking, hedged commitments—and the rest will follow.",
     "advaita-bhakti": "Madhusūdana's bhāgyodaya (fortunate rise of destiny) framing releases you from the need to construct a clean narrative of transformation. Sometimes grace arrives before the life is ready for it—Ajāmila did not intend liberation. When you notice an unexpected opening toward depth, coherence, or love, do not dismiss it because the surrounding conditions are not yet worthy. Receive it; the śodhana (purification) follows."
-  }
+  },
+  "primary_meaning": "Even the worst sinner, if he worships me with undivided devotion, is to be counted among the righteous, for his resolve is sound."
 }

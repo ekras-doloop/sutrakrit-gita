@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "anupaśyati",
-      "lemma": "anupaś",
+      "lemma": "anu-√dṛś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -199,7 +199,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -523,7 +523,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anupaśyati: anupaś -> anu-√dṛś",
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the guṇas are the actual agents of all action, what is the moral and legal status of the jīva — can responsibility, guilt, or credit be meaningfully assigned to a person at all?",
@@ -541,5 +560,6 @@
     "śuddhādvaita": "Vallabha's mokṣa-līlā frame suggests treating spiritual practice itself as play rather than labor. When you sit for japa or study, notice whether you approach it as a guṇa-driven transaction ('I must accumulate merit') or as participation in Kṛṣṇa's own delight-movement. The verse promises that recognising the ātman beyond the guṇas opens directly onto brahma-sukha — not a distant reward but an immediate flavour available right now in the quality of attention you bring.",
     "bhakti": "Śrīdhara's viveka pivot means that the first practical step is honest self-observation: watch which guṇa is driving each impulse through the day — sattva, rajas, or tamas — without adding the story 'therefore I am good/bad/lazy.' That non-judgmental watching is itself the beginning of the witness-stance that the verse describes. Over time the observer solidifies and the guṇa-waves lose their authority.",
     "advaita-bhakti": "Madhusūdana's sun-simile is directly usable in grief or joy: when a strong emotion arises, ask whether sunlight changes when water shivers under it. You are the light; the emotion is the shimmer. This is not suppression — the shimmer is fully real — but it is the recognition that 'I' do not move when the surface moves. Sustaining that recognition even briefly is, in Madhusūdana's reading, a taste of mad-rūpatā, the Kṛṣṇa-nature you already are."
-  }
+  },
+  "primary_meaning": "When you see that nothing apart from the three qualities acts, and you know what lies beyond them, you attain my nature."
 }

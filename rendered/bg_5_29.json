@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "ṛcchati",
-      "lemma": "ṛch",
+      "lemma": "√ṛch",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -325,8 +325,9 @@
         "jayatirtha_5.29"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is minimal — the sūtra 'ध्येयमाह भोक्तारमिति' ('He declares what is to be meditated upon: the Enjoyer') is the entirety of his extant gloss here. From Madhva's broader system we can anchor: the verse names the object of dhyāna (meditation) — Hari as independently self-luminous bhoktā who consumes the fruits of all sacrificial action while jīvas remain eternally distinct (bheda) worshippers. Peace belongs only to the jīva who meditates correctly on Hari's absolute lordship, never by conflating self with Lord.",
-      "divergence_note": "Madhva's direct gloss (terse sūtra only): 'ध्येयमाह भोक्तारमिति.' Extended doctrinal detail absent from this verse; rendering draws on Dvaita system-level positions."
+      "english_rendering": "*Jñātvā* (having known, here carrying the sense of *dhyātvā* — having meditated upon) *māṃ* — Hari, the *svatantra* (the independently real, self-sufficient) Lord — as *bhoktāraṃ yajña-tapasāṃ* (the sole Enjoyer of all sacrifices and austerities), as *sarva-loka-maheśvaram* (the supreme sovereign of all worlds), and as *suhṛdaṃ sarva-bhūtānāṃ* (the disinterested friend of all beings), the *jīva* (the individual self) *ṛcchati śāntim* — arrives at peace. The threefold qualification is not ornamental: *bhoktṛtva* (enjoyer-ship) names Hari as the one in whom all sacrificial and ascetic merit ultimately inheres; *maheśvaratva* names His *pañca-bheda*-sustaining (marking the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) lordship over every order of existence; *suhṛdtva* names His unconditional grace toward the *paratantra* (eternally dependent) *jīva* without any expectation of return. Madhva's sūtra *dhyeyam āha bhoktāram iti* — 'He declares what is to be meditated upon: the Enjoyer' — concentrates the verse's force: the object of *dhyāna* (meditation) is precisely this triple-qualified Hari. Peace is not dissolution into Hari but real arrival — the *jīva* attains *śānti* while remaining irreducibly distinct (*bheda*), now properly ordered under the absolute *svatantra* Lord. *Bhakti* (devotion) as ontological subordination is the mode by which this meditative knowing is sustained.",
+      "divergence_note": "Jayatīrtha's *Nyāya-sudhā* gloss on Madhva's sūtra specifies that *jñātvā* carries the sense of *dhyātvā*: the śānti-producing cognition is itself a *dhyeya-viśeṣaṇa*, an attribute of the object of meditation, co-ordinate with *bhoktṛtva* and the rest — not a separate epistemological step. The rendering preserves this move.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -371,13 +372,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "भोक्तारं यज्ञतपसाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.3"
-      ]
-    },
-    {
       "list": "शान्ति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -397,29 +391,6 @@
       "other_verses_in_list": [
         "3.31",
         "11.3"
-      ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.40",
-        "6.9",
-        "7.21",
-        "8.6",
-        "9.29",
-        "12.13",
-        "12.14"
-      ]
-    },
-    {
-      "list": "सुहृदः सर्वदेहिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.11",
-        "6.9",
-        "12.13",
-        "12.14"
       ]
     }
   ],
@@ -450,7 +421,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ṛcchati: ṛch -> √ṛch"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If śānti (peace) is produced by jñāna of Bhagavān's triple character — Enjoyer, Sovereign, Friend — must all three be known simultaneously, or is partial knowledge sufficient? What does the verse's structure (tripartite compound + jñātvā as aorist gerund) imply?",
@@ -468,5 +449,6 @@
     "śuddhādvaita": "Vallabha's three-register reading suggests a daily inventory: in your karma (external acts), do you offer them as yajña to Kṛṣṇa the Enjoyer? In your upāsanā (inner worship), do you hold Him as Maheśvara of every circumstance — including the difficult ones? In your jñāna (understanding), do you recognise Him as the ātmā (self) of every being you encounter? Running this three-part check — even briefly at day's end — is the puṣṭi-mārga version of the verse's integrative knowing.",
     "bhakti": "When you feel that your efforts (tapas, sustained difficult work) go unrecognised or unreciprocated, Śrīdhara's reading offers a reframe: Bhagavān as bhoktā is the one who truly receives and as pālaka is the one who truly protects the fruit. The pratupakāra-nirapekṣa (return-gift-independent) quality of the Lord's suhṛt means friendship without ledger-keeping. Bring this to any relationship where you are expending effort for someone who cannot fully reciprocate: parent caring for an ageing child, teacher serving an indifferent student — mat-prasādena, grace flows regardless.",
     "advaita-bhakti": "Madhusūdana's synthesis resolves the tension many practitioners feel between intellectual study (jñāna-mārga) and devotional feeling (bhakti-mārga). In practice: begin your study session by invoking Kṛṣṇa as pūrṇa-saccidānanda — full, complete, of one flavour — then proceed analytically. The emotional warmth of bhakti and the precision of Advaita analysis are not competing modes; they are two lenses on the same knowing. When the analysis feels dry, remember the Friend (suhṛt); when the devotion feels unanchored, remember the Witness (sākṣin). The verse authorises both moves simultaneously."
-  }
+  },
+  "primary_meaning": "Knowing Krishna as the one who receives every sacrifice and austerity, as the sovereign lord of all worlds, and as the unconditional friend of every living being, you reach peace."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -407,7 +407,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the self is literally unperceivable and unthinkable, how am I supposed to 'know' it — the verse says 'having known it thus' (viditvā), but knowing by what means?",
@@ -425,5 +436,6 @@
     "śuddhādvaita": "Vallabha's distinction between the ātmā and Pradhāna (primal matter) via avikārya speaks directly to creative or productive work: everything produced — the project, the company, the artwork — belongs to the realm of Pradhāna, which undergoes vikāra (transformation, decay). Identifying yourself with your outputs means binding your sense of self to what is structurally designed to change. Puṣṭi-mārga practice inverts this: offer the output as prasāda back to Kṛṣṇa, whose līlā (divine play) is the real origin of any creation, and recognize that what you are — the akṣara (imperishable) — was never in the product to begin with.",
     "bhakti": "Śrīdhara's three-tier map — avyakta as beyond senses, acintya as beyond mind, avikārya as beyond action-organs — gives a progressive diagnostic for where spiritual attention gets stuck. Most people's grief lives at tier one: sensory evidence of loss (avyakta points here). Rumination lifts it to tier two: mental re-playing of what happened (acintya points here). Compulsive corrective action keeps the fire burning at tier three (avikārya points here). The verse's three epithets thus identify the three rungs at which grief circulates and invites a staged withdrawal: disengage the senses first, then the mind, then compulsive action.",
     "advaita_bhakti": "Madhusūdana's observation that Kṛṣṇa returns to the same truth through fresh formulation because the ātmā is durbodha (hard to comprehend) for saṃsārins offers a practice of what might be called recursive re-entry: exposure to a profound truth once does not dislodge deep conditioning. The practitioner re-enters the same insight through a different angle — through devotion when jñāna (analytical knowledge) runs out, through jñāna when bhakti becomes sentimental, cycling deliberately. This matches Madhusūdana's own synthesis: jñāna and bhakti are not rivals but two pramāṇa-channels targeting the same durbodha object from different sides."
-  }
+  },
+  "primary_meaning": "This self is unmanifest, unthinkable, and immutable, so knowing it as such, you have no cause to grieve."
 }

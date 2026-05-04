@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -440,36 +440,6 @@
       ]
     },
     {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
-      "list": "शिष्यते शेषसंज्ञः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10"
-      ]
-    },
-    {
       "list": "सदसच्चाहमर्जुन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -504,7 +474,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sthitaḥ: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa is the ātmā of all beings, what changes — practically — in how you relate to a person you find difficult or contemptible?",
@@ -522,5 +502,6 @@
     "śuddhādvaita": "Take one ordinary material thing you use daily — a cup, a plant, the grain you eat — and hold it for a moment as Kṛṣṇa's own aṃśa, not inert matter but His extended radiance. This is not poeticizing; it is Vallabha's ontology made habitual. Over time the category 'mere material world' dissolves into prasāda.",
     "bhakti": "When you are confused about what to do next — in work, in relationship, in practice — recall that the Paramātmā abides in your antaḥkaraṇa as the inner regulator with full sarvajñatva. The question 'what should I do?' already has an indwelling witness who knows. Sitting quietly to hear that rather than immediately reaching for external advice is a concrete enactment of 10.20.",
     "advaita-bhakti": "In meditation, begin with the formless: rest as pure caitanya-ānanda-ghana awareness with no object. Then, without losing that ground, let the form of Vāsudeva arise within it — not as a second thing but as the same presence taking a face. This double movement (formless → formed → back) is Madhusūdana's dhyāna-pedagogy for 10.20, and it prevents both the coldness of bare Advaita and the forgetfulness of form-only devotion."
-  }
+  },
+  "primary_meaning": "I am the Self seated in the heart of every being, Arjuna; I am their beginning, their middle, and their end."
 }

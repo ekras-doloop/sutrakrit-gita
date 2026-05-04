@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "kriyate",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -246,7 +246,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -388,7 +388,8 @@
         "jayatirtha_18.9"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE: Madhva did not comment on this verse in the surviving bhashya record ('Sri Madhvacharya did not comment on this sloka'). Drawing on Dvaita's established principles: the eternally distinct jiva (jiva-nityabhedah) performs prescribed action as utterly dependent worship of Hari, whose sovereignty is total. Sattvic renunciation here means executing duty as Hari-seva without claiming agency or reward, since the jiva possesses neither independently. This rendering is a doctrinal projection, not a direct bhashya citation."
+      "english_rendering": "*Niyataṃ karma* (prescribed, obligatory action) performed solely because it is *kāryam* — what must be done — with *saṅga* (attachment to the action itself) and *phala* (fruit) both relinquished: such *tyāga* (renunciation) is *sāttvika*. For the *paratantra* *jīva* (the eternally dependent individual self), this verse names the only mode of action consonant with the *pañca-bheda* (the five-fold real distinction) that obtains inviolably between Lord and *jīva*. Because the *jīva* possesses neither independent agency nor a claim on results — both belonging solely to *svatantra* Hari (the independently real, self-sufficient Lord) — every *niyata-karma* is rightly understood as *Hari-sevā* (service of Hari). Relinquishing *saṅga* is thus not a psychological adjustment but an ontological acknowledgment: the *jīva* never owned the action. Relinquishing *phala* follows necessarily, since fruit accrues only to one whose sovereignty underwrites the deed. The *sāttvika* character of this *tyāga* reflects *taratamya* (graded ontological hierarchy): action performed in clear recognition of the Lord's total sovereignty and the *jīva*'s utter dependence stands at the highest grade of renunciation. *Bhakti* as ontological subordination is the living form of this *tyāga* — not dissolution into Hari, but real, differentiated surrender that preserves the *bheda* even in the act of offering.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -541,7 +542,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyate: kṛ -> √kṛ",
+          "mataḥ: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If fruit must be renounced even at the subtle level of imagined self-purification, how does one distinguish genuine duty-consciousness from elaborate spiritual self-deception?",
@@ -559,5 +571,6 @@
     "suddhadvaita": "Every duty, however mundane — cooking, answering email, paying bills — can be done as if the Lord himself assigned this precise task to you today. The Pushti-marga practitioner does not perform duty reluctantly and then 'let go'; the act is already his act, and you are simply present in it, joyfully.",
     "bhakti": "Before beginning an obligatory task, settle the mind with the simple recognition: 'this is what is required of me here.' Not why it benefits you, not how it makes you look — just: it is required. Sridhara's spare reading asks nothing more exotic than that clarity, combined with working through the task without keeping a mental tally of what you are owed for doing it.",
     "advaita-bhakti": "Madhusudana's antahkarana-shuddhi frame has a practical corollary: each time you complete a required task without attaching your identity to the outcome, your mind becomes slightly less reactive — more transparent to what actually needs doing next. The benefit is real and it accrues automatically, like shade from a mango tree; the practice fails the moment you start cultivating the shade on purpose."
-  }
+  },
+  "primary_meaning": "Do what must be done, Arjuna, without clinging to the act or craving its reward. That renunciation is *sāttvika*."
 }

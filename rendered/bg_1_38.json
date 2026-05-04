@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "upahata",
-      "lemma": "upahan",
+      "lemma": "upa-√han",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "kṛtam",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -298,7 +298,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -308,13 +308,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "कथं न ज्ञेयमस्माभिः ৷৷৷৷ प्रपश्यद्भिर्जनार्दन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.39"
-      ]
-    },
     {
       "list": "पश्यन्",
       "role": "supporting",
@@ -327,13 +320,6 @@
         "13.28",
         "15.10",
         "15.11"
-      ]
-    },
-    {
-      "list": "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.39"
       ]
     }
   ],
@@ -364,7 +350,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upahata: upahan -> upa-√han",
+          "kṛtam: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the capacity to see moral consequences (paśyati — one who sees) while others cannot creates greater obligation rather than greater freedom, at what point does moral clarity become a burden that justifies inaction rather than a mandate for action?",
@@ -382,5 +379,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga teaching holds that moments when your heart breaks open — when you see the harm and feel the compassion that others cannot — are Kṛṣṇa's own composition, arranged so that your surrender (śaraṇāgati) can deepen. Do not manage or suppress the grief or the moral distress that comes with seeing clearly. Let it carry you to Kṛṣṇa rather than to paralysis: the distress is the door, and prasāda (Kṛṣṇa's gift) flows precisely through the opening that karuṇā (compassion) creates.",
     "bhakti": "Śrīdhara's bhakti-philological sensibility teaches that the person who can perceive pātaka (sin) in betrayal — who feels the weight of mitra-droha (betrayal of allies) even before it occurs — is already oriented toward Bhagavān's dharma-preserving function. In daily life, this means trusting the moral sensitivity that makes you reluctant when others rush forward: that reluctance is not weakness but a form of attunement. Act from the sensitivity rather than suppressing it to match the crowd's momentum.",
     "advaita-bhakti": "Madhusūdana's śyena-yāga test offers a practical ethical criterion: before acting on something that is technically permitted — by rule, by convention, by professional norm — ask whether its foreseeable fruit is bound to aśreyas (harm to the deep good of those affected). If yes, the permission is overridden by the deeper dharma. This applies whenever institutional or social sanction exists for something that your clearer vision tells you will cause kula-kṣaya (destruction of what matters most, whether a family, a team, or a community): sanction is not the same as rightness, and seeing that distinction is itself the first act of integrity."
-  }
+  },
+  "primary_meaning": "Greed has so clouded their minds that they cannot see the wrong of tearing a family apart, nor the sin of turning against allies."
 }

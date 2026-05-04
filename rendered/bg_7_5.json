@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "bhūtām",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "accusative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "dhāryate",
-      "lemma": "dhāray",
+      "lemma": "√dhāray",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -393,7 +393,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -403,14 +403,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अपरा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4",
-        "12.8"
-      ]
-    },
     {
       "list": "अहं-अहं",
       "role": "supporting",
@@ -429,13 +421,6 @@
       ]
     },
     {
-      "list": "अहंकारं ৷৷ विमुच्य निर्ममः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
       "list": "अहंता",
       "role": "supporting",
       "other_verses_in_list": [
@@ -447,44 +432,10 @@
       ]
     },
     {
-      "list": "इतीयं मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
-      "list": "इदं शरीरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
       "list": "जीवभूताम्",
       "role": "supporting",
       "other_verses_in_list": [
         "7.4"
-      ]
-    },
-    {
-      "list": "निर्ममो निरहंकारः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.71",
-        "3.21",
-        "7.4",
-        "12.13"
-      ]
-    },
-    {
-      "list": "परा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "7.4",
-        "7.6",
-        "12.8"
       ]
     },
     {
@@ -518,13 +469,6 @@
     },
     {
       "list": "प्रकृति-विकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
-      "list": "प्रकृतिरष्टधा अपरेयम्",
       "role": "supporting",
       "other_verses_in_list": [
         "7.4"
@@ -579,13 +523,6 @@
       ]
     },
     {
-      "list": "भूमिरापोऽनलो वायुः ৷৷ विद्धि मे पराम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
       "list": "महाबाहो",
       "role": "supporting",
       "other_verses_in_list": [
@@ -603,40 +540,10 @@
       ]
     },
     {
-      "list": "मैं सोया था अब जाग्रत् हुआ हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
       "list": "ययेदं धार्यते जगत्",
       "role": "supporting",
       "other_verses_in_list": [
         "6.31"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
       ]
     },
     {
@@ -675,13 +582,6 @@
       ]
     },
     {
-      "list": "व्यष्टि अपरा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
       "list": "सदसच्चाहम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -690,20 +590,6 @@
         "8.4",
         "9.23",
         "11.54"
-      ]
-    },
-    {
-      "list": "सन्तने उससे कहा कि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
-      ]
-    },
-    {
-      "list": "सम्बन्धकी सत्ता",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4"
       ]
     }
   ],
@@ -734,7 +620,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "bhūtām: bhū -> √bhū",
+          "dhāryate: dhāray -> √dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If jiva is itself Bhagavan's para-prakrti, what is the doctrinal status of the jiva's suffering — is it real, willed, or an appearance?",
@@ -752,5 +650,6 @@
     "suddhadvita": "Your sense of being a separate self is not a mistake to be corrected but Krsna's own joyful differentiation — He wanted more centers of ananda (bliss). When confusion or suffering arises, it is His vyamohika-maya temporarily narrowing your access to that ananda. The remedy is not effort but grace (pusta): open yourself to His prasada rather than striving to dissolve the self.",
     "bhakti": "The jiva sustains the world through sva-karma (its own action) — meaning your daily work is literally dharyate-jagat (world-sustaining) when done as a conscious being aligned with its nature. The devotional implication: do not diminish your agency as trivial. Offer that action — which is cosmically load-bearing — back to Bhagavan.",
     "advaita-bhakti": "Hold both truths in tension simultaneously: you are ultimately nothing other than pure consciousness (Brahman), and you are also the one through whom Krsna enters and names the world (nama-rupe vyakaravanimi). The practice is not to resolve the tension but to live in it — acting fully in the world as Krsna's presence, while remaining inwardly unbound."
-  }
+  },
+  "primary_meaning": "Beyond this lower nature, know My higher one: the conscious beings, O mighty-armed, by which this whole world is sustained."
 }

@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "tṛpta",
-      "lemma": "tṛp",
+      "lemma": "√tṛp",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "vijita",
-      "lemma": "viji",
+      "lemma": "√viji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -555,13 +555,6 @@
         "9.1",
         "18.42"
       ]
-    },
-    {
-      "list": "सर्वकर्मफलत्यागं ततः कुरु यतात्मवान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.11"
-      ]
     }
   ],
   "audit_trail": {
@@ -591,7 +584,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tṛpta: tṛp -> √tṛp",
+          "vijita: viji -> √viji",
+          "yuktaḥ: yuj -> √yuj",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Shankara and Ramanuja both invoke jnana/vijnana but mean different things by the pair — what is actually different between 'scriptural knowledge confirmed by experience' and 'knowledge of the atman as categorically unlike prakrti,' and does the difference change what the practitioner must do?",
@@ -609,5 +615,6 @@
     "shuddhadvdaita": "Vallabha's test is sama-buddhi toward persons, not objects — the gold/stone distinction is easy once detachment is understood, but treating a critic and a supporter with equal purposefulness is the actual yardstick. Pusti-marga application: when you notice yourself working harder to please one person than another in the same role, that differential is the prakti-driven heyopadeyabuddhi still operating. The corrective is not forced equality of behavior but recognizing Krsna's prasada equally in both.",
     "bhakti": "Sridhara's heyopadeyabuddhi-shunya state — no longer mechanically sorting experience into to-be-acquired and to-be-avoided — is the practical target. Daily exercise: pick one recurring low-stakes preference (preferred seat, preferred route, preferred phrasing) and deliberately suspend the preference for one day, not as austerity but as a test of whether the sorting mechanism is running automatically. The goal is to see the mechanism, not to eliminate preferences by force.",
     "advaita-bhakti": "Madhusudana's vicara step — inquiry that removes the doubt about whether what you have understood is actually reliable — applies directly to any learning context. When you have studied something thoroughly but still hesitate to act on it, the hesitation is usually not lack of information but unresolved doubt about the validity of what you already know. The application: name the doubt explicitly, trace it to its source, and resolve it directly rather than seeking more information as a proxy for confidence."
-  }
+  },
+  "primary_meaning": "Satisfied by knowledge and the direct experience of it, standing unmoved with senses mastered, treating a clod of earth, a stone, and gold as equal: such a person is rightly called a yogi."
 }

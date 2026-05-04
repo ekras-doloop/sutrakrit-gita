@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "viśiṣyate",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -350,13 +350,6 @@
       ]
     },
     {
-      "list": "कर्मयोगो विशिष्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.2"
-      ]
-    },
-    {
       "list": "ज्ञान",
       "role": "supporting",
       "other_verses_in_list": [
@@ -498,16 +491,6 @@
       ]
     },
     {
-      "list": "फले सक्तो निबध्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "4.18",
-        "5.12",
-        "11.33"
-      ]
-    },
-    {
       "list": "शान्तिः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -542,7 +525,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viśiṣyate: viśiṣ -> vi-√śiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krishna rank practices in a descending hierarchy of accessibility rather than intrinsic worth — and what does that reveal about his pedagogy?",
@@ -560,5 +553,6 @@
     "shuddhadvaita": "Vallabha's shanti is equanimity in gain and loss alike — what he calls svasthhya (inner wellness). The practical test: does your sense of okayness depend on whether the project succeeded today? If yes, phala-tyaga (fruit-renunciation) is still incomplete; work on it not by gritting your teeth but by returning every outcome to Krishna as his lila.",
     "bhakti": "Sridhara's emphasis on mat-prasada (the Lord's grace) as the proximate cause of shanti corrects a common misreading: the hierarchy is not about personal achievement climbing a ladder but about clearing channels through which grace can flow. Phala-tyaga clears the channel; grace then moves through it immediately.",
     "advaita-bhakti": "Madhusudana's 'Agastya-praise' analogy offers a reframe for motivational teachers: praising a student for small acts of generosity using the same language you would use for a saint is not flattery — it is a legitimately Shastraic device (stuti) that activates the quality already present in seed form. Use encouragement deliberately, knowing it works by partial-quality-sharing, not by false equivalence."
-  }
+  },
+  "primary_meaning": "Knowledge is better than blind practice; meditation is better than knowledge; renouncing the fruits of your actions is better still, and from that renunciation, peace follows at once."
 }

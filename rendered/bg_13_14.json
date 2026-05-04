@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "vivarjitam",
-      "lemma": "vivarjay",
+      "lemma": "vi-√varjay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -273,7 +273,9 @@
         "jayatirtha_13.14"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this verse; the Dvaita rendering is projected from Madhva's broader framework. Hari alone is the independent Absolute; all sense-powers (sarvendriya-guna) shimmer in creatures only as dependent reflections of Hari's own infinite perceptual sovereignty. The jiva, permanently distinct, neither possesses those powers as its own nor is the ground of them; Hari's asanga (non-attachment) is ontological independence, not mere indifference, and his 'sarva-bhrt' is the act of sustaining dependent beings whose very capacity to perceive is a borrowed gleam."
+      "english_rendering": "*Sarvendriya-guṇābhāsam* (shining with the qualities of all sense-faculties) yet *sarvendriya-vivarjitam* (utterly free of those faculties) — this apparent contradiction resolves only within *pañca-bheda* (the five-fold real distinction). Hari, the sole *svatantra* (the independently real, self-sufficient), possesses no sense-organs as instruments of dependence, yet all perceptual power that flickers in *jīva* (the individual self) and matter is a derivative luminosity of his own infinite cognizing nature. The *jīva* does not generate that light; it receives it as a *paratantra* (eternally dependent) being, sustained at every moment by Hari's *sarva-bhṛt* (all-sustaining) sovereignty. *Asaktam* names not indifference but ontological non-attachment grounded in absolute self-sufficiency: Hari needs no object, no support, no organ — yet nothing exists apart from his upholding will. *Nirguṇam* (without the *guṇas* of *prakṛti*) and *guṇa-bhoktṛ* (experiencer of those *guṇas*) hold simultaneously: Hari transcends *prakṛtic* conditioning absolutely, yet as sovereign witness he encompasses all *guṇa*-modification in the field without being touched by it. The *jīva*, by contrast, is genuinely subject to *guṇa*-fluctuation, which is the mark of its *paratantra* status within *taratamya* (graded ontological hierarchy). *Bheda* (real distinction) between the Lord and the *jīva* is not cancelled by the Lord's pervasive luminosity — it is confirmed by it.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from Dvaita *siddhānta* applied to the *mūla*: *pañca-bheda*, *taratamya*, and the *svatantra*/*paratantra* axis structure the resolution of the verse's apparent paradoxes.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -377,7 +379,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vivarjitam: vivarjay -> vi-√varjay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord is present as the very capacity to see in every eye, what happens to the felt sense of 'my' seeing — is ordinary perception already a form of darshana (vision)?",
@@ -395,5 +407,6 @@
     "shuddhadvaita": "Choose one sensory pleasure today — a taste, a piece of music, morning light — and receive it consciously as Krishna's own lila pressing itself into your awareness. Vallabha's guna-bhoktri is not a license for indulgence; it is an instruction to experience the world's beauty as the Lord's self-disclosure, not as your private acquisition.",
     "bhakti": "When two things that seem contradictory are both true — you are exhausted and somehow still functioning, you love someone and are also hurt by them — recall Sridhara's achintya-shakti: the Lord holds opposites together not by resolving them but by being their common ground. Let the contradiction rest without forcing a resolution.",
     "advaita-bhakti": "When you next feel that spiritual practice is producing 'nothing' — no vision, no peace, no progress — run Madhusudana's argument in reverse: every sensation you still have, every thought still arising, is itself evidence that consciousness is present and active. The nasat-shanka ('maybe there is nothing here') is refuted by the very awareness entertaining the doubt."
-  }
+  },
+  "primary_meaning": "It shines as if through every sense yet holds no sense-organ; unattached, it bears all things; beyond the qualities of nature, it tastes them all."
 }

@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "pravibhaktāni",
-      "lemma": "pravibhaj",
+      "lemma": "pra-√vibhaj",
       "grammar": "nominative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -458,7 +458,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravibhaktāni: pravibhaj -> pra-√vibhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If svabhava is formed by purvajanma-samskaras, is it possible to change one's varna-duty mid-life through deliberate cultivation of a different guna-balance, or does this verse foreclose such reorientation?",
@@ -476,5 +486,6 @@
     "shuddhadvaita": "Your svabhava-gunas are the form of Krishna's prasada arriving as your natural constitution: receive them as gift, not as limitation. Rather than forcing yourself into another's guna-template, perform your own natural capacities as an offering back to the inner Krishna who gave them. The inequality of guna-distribution is Krishna's just lila calibrated to your own purva-kriti.",
     "bhakti": "Use the verse as a self-audit: which duties come to you without strain, which require forcing? The effortless ones are most likely aligned with your svabhava-guna and therefore most serviceable as Ishvara-aradhana. Sridhara's reading reminds you that the entire point is to complete the act of worship, and the most efficacious worship uses the natural capacity you already have.",
     "advaita-bhakti": "Madhusudhana's synthesis offers a practical sequence: (1) honestly map your guna-dominant tendencies, (2) find the duty-field that fits them, (3) perform that field as Ishvara-upasana, (4) receive jnana-prasada as the fruit of sustained devotional action, (5) use that jnana as the asanga-shastra to cut remaining attachments. The entire path is accessible only by starting where you actually are, not where you wish to be."
-  }
+  },
+  "primary_meaning": "The duties of brahmanas, kshatriyas, vaishyas, and shudras are each distinctly assigned by the *guṇas* that arise from their own nature."
 }

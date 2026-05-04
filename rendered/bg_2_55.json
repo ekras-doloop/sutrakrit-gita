@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "prajahāti",
-      "lemma": "prahā",
+      "lemma": "pra-√hā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "gatān",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "tuṣṭaḥ",
-      "lemma": "tuṣ",
+      "lemma": "√tuṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "sthita",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -390,53 +390,12 @@
   },
   "theme_list_memberships": [
     {
-      "list": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30",
-        "4.12",
-        "5.11",
-        "6.3"
-      ]
-    },
-    {
       "list": "कामान्",
       "role": "supporting",
       "other_verses_in_list": [
         "1.22",
         "2.71",
         "7.22"
-      ]
-    },
-    {
-      "list": "तस्य प्रज्ञा प्रतिष्ठिता",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.57",
-        "2.58",
-        "2.61",
-        "2.68"
-      ]
-    },
-    {
-      "list": "तस्यां जागर्ति संयमी",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.69"
-      ]
-    },
-    {
-      "list": "नैनां प्राप्य विमुह्यति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.72"
-      ]
-    },
-    {
-      "list": "परं दृष्ट्वा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.59"
       ]
     },
     {
@@ -492,42 +451,6 @@
       ]
     },
     {
-      "list": "बुद्धिः पर्यवतिष्ठते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
-      "list": "यस्यां जाग्रति भूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.69"
-      ]
-    },
-    {
-      "list": "या निशा सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.69"
-      ]
-    },
-    {
-      "list": "युक्त आसीत मत्परः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.14",
-        "6.15"
-      ]
-    },
-    {
-      "list": "स शान्तिमधिगच्छति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.71"
-      ]
-    },
-    {
       "list": "सर्वान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -537,13 +460,6 @@
         "4.32",
         "6.24",
         "11.15"
-      ]
-    },
-    {
-      "list": "सा निशा पश्यतो मुनेः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.69"
       ]
     }
   ],
@@ -574,7 +490,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prajahāti: prahā -> pra-√hā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatān: gam -> √gam",
+          "tuṣṭaḥ: tuṣ -> √tuṣ",
+          "sthita: sthā -> √sthā",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kṛṣṇa says 'casts off all desires' (sarvān kāmān prajahāti) — but is this a precondition for sthitaprajñatā or its consequence? The schools divide: is the abandonment the cause of the wisdom-stability, or does the stability produce the abandonment automatically?",
@@ -592,5 +529,6 @@
     "śuddhādvaita": "Vallabha's path does not ask the devotee to renounce desires through effort — it asks the devotee to place themselves in the stream of Kṛṣṇa's grace and trust the dissolution that follows. The everyday application is sevā: concrete, daily, physical service to Kṛṣṇa's form (mūrti, scripture, community) performed as an offering of one's entire being, including one's desiring self. The practitioner does not try to be ātmārāma; they offer the non-ārāma parts too, trusting that Kṛṣṇa's ānanda will flood in proportion to the openness of the vessel. The discipline is therefore surrender of self-management, not self-management.",
     "bhakti": "Śrīdhara's insight — that the siddha's lakṣaṇa is the sādhaka's sādhana — makes this verse a mirror: look at the marks of the arrived one and begin living them provisionally, as practice. The everyday application is what might be called 'anticipatory ātmārāmatā': before reaching for a distraction or a pleasure, pause and taste the background ānanda that is already present in simple awareness. This is not suppression; it is learning to find the paramānanda-rūpa ātman sufficiently interesting that the kṣudra-viṣayāḥ — petty objects — become genuinely less compelling. Meditation, specifically on the ānanda-dimension of pure awareness, is the Śrīdhara-path's practical anchor.",
     "advaita-bhakti": "Madhusūdana's synthesis offers the most technically complete everyday practice: treat every arising mental modification (vṛtti) as a kāma in Patañjali's expanded sense — pramāṇa-vṛtti (opining), viparyaya-vṛtti (misperception), vikalpa-vṛtti (fantasy), nidrā-vṛtti (dullness), smṛti-vṛtti (compulsive remembering) — and practice nirodha not as suppression but as return to the svaprakāśa-cid-rūpa substrate. The Kṛṣṇa-bhakti element enters as the affective charge: the light of consciousness is not an abstract Brahman but Kṛṣṇa's own cit-prakāśa. When a desire-wave subsides, do not experience the subsidence as blank emptiness; receive it as a momentary taste of Kṛṣṇa's ānanda flooding the cleared space. Samādhi-practice and devotional practice are thus not two techniques but one."
-  }
+  },
+  "primary_meaning": "When someone casts off every desire lodged in the mind and rests content in the self alone, Krishna says, that one is called a person of steady wisdom."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "vīta",
-      "lemma": "vī",
+      "lemma": "√vī",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "upāśritāḥ",
-      "lemma": "upāśri",
+      "lemma": "√upāśri",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "pūtāḥ",
-      "lemma": "pū",
+      "lemma": "√pū",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "āgatāḥ",
-      "lemma": "āgam",
+      "lemma": "√āgam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -479,7 +479,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vīta: vī -> √vī",
+          "upāśritāḥ: upāśri -> √upāśri",
+          "pūtāḥ: pū -> √pū",
+          "āgatāḥ: āgam -> √āgam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says jñāna-tapas alone suffices and makes all other tapas irrelevant — does this mean a scholar without devotion is closer to liberation than a devotee without learning?",
@@ -497,5 +510,6 @@
     "śuddhādvaita": "Vallabha's inclusion of the gopīs and even Kaṃsa dissolves the requirement for 'clean' emotion. If your dominant engagement with a creative project, a relationship, or your work is intense — even anxious, even obsessive — Puṣṭi-mārga says: do not sanitize it, deepen it. Pour that intensity toward Kṛṣṇa's svarūpa in whatever form you find compelling, and the kīṭa-bhṛṅga-nyāya (wasp-and-caterpillar transformation) will do the rest.",
     "bhakti": "Śrīdhara's dvandva-ekavat (two-as-one) framing of jñāna and svadharma as a single austerity is directly actionable: do not separate your spiritual practice from your professional responsibility. The svadharma you perform with mad-eka-citta (single-pointed mind on Bhagavān) is itself the tapas that matures self-knowledge. There is no 'spiritual life' separated from the particular calling you are already in.",
     "advaita-bhakti": "Madhusūdana names the renunciant's existential anxiety precisely: 'if I abandon all objects for jñāna, how will I live?' This is a real fear, not a spiritual failure. His synthesis says: take shelter through ekānta-prema (exclusive love) — the bhakti path does not require you to resolve the survival anxiety first. The love itself reorganizes the emotional field. Begin with whatever bhāva (affective disposition) is most alive in you toward Kṛṣṇa, even if it coexists with fear."
-  }
+  },
+  "primary_meaning": "Free of attachment, fear, and anger, absorbed in Me and taking shelter in Me, many have been purified by the austerity of knowledge and reached My state."
 }

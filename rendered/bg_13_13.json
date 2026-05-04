@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "tiṣṭhati",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -416,7 +416,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhati: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Brahman cannot be called 'sat' (existing) or 'asat' (non-existing), what epistemic status does the Gita's own claim to teach about it actually have?",
@@ -434,5 +444,6 @@
     "shuddhadvaita": "The verse's 'na sat na asat' points to Krishna's inexhaustibility. Vallabha's application: do not reduce your encounter with Krishna — in scripture, image, kirtan, or memory — to a single fixed meaning. The Lord's gunas are ananta (infinite); every encounter can reveal a new facet. The devotee's practice is to stay porous to that inexhaustibility rather than fixing a final definition.",
     "bhakti": "Sridhara's 'mat-param' reading keeps a personal anchor in the impersonal: even nirvishesha-Brahman is 'Vishnu's own rupa.' In life, this means: intellectual inquiry into the absolute need not end in abstraction — it can return to a personal devotional center. When philosophical study exhausts the conceptual categories, let it empty into bhakti rather than into nihilism.",
     "advaita-bhakti": "Madhusudana's synthesis offers a practical technology for moments of genuine unknowing: when you cannot name what you are experiencing — grief that is not quite grief, joy that exceeds its occasion — resist the urgency to categorize. The experience is pointing beyond both the affirmative and negative frames. This is not pathology; it is the self touching its own ground. The appropriate response is not analysis but attentive stillness."
-  }
+  },
+  "primary_meaning": "It has hands and feet on every side, eyes and heads and mouths on every side, ears throughout the world, and it stands enveloping all."
 }

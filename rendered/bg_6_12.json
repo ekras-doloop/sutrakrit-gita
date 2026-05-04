@@ -110,7 +110,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -184,7 +184,7 @@
     },
     {
       "surface_form": "yuñjyāt",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -467,7 +467,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yata: yam -> √yam",
+          "yuñjyāt: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ātma-viśuddhi (self-purification) is only preparatory for Advaita but is itself liberation for Viśiṣṭādvaita (bandha-vimukti), does this verse describe one stage or the final goal — and what changes in practice if it is the latter?",
@@ -485,5 +496,6 @@
     "śuddhādvaita": "Do not wait until you have the perfect quiet time or the perfect āsana to begin smaraṇa (remembrance of Kṛṣṇa). Vallabha's 'satatam' (continuously) means that the yoking of attention to Kṛṣṇa is a background current running through all daily activity — cooking, walking, working. The formal seated session is a concentration of what is already present; it is not the only valid site of practice.",
     "bhakti": "Treat your morning sitting as pure abhyāsa (disciplined repetition): same time, same seat, same duration, same object of attention — without judging quality from session to session. Śrīdhara's equation of viśuddhi with upaśānti means the metric of success is quieting, not insight. If you rise from the seat slightly more settled than you sat down, the practice has done its work.",
     "advaita-bhakti": "When the mind wanders during meditation, Madhusūdana's model offers a specific corrective: notice which bhūmi (ground) the mind fell to — excited fantasy (rājasic), torpor (tāmasic), or restless sense-craving — name it, and consciously redirect toward a single brahma-ākāra vritti (thought-form shaped by the infinite). Using a Kṛṣṇa mantra or image as the anchor is not a concession to emotion; it is the sattva-dominant stream that Madhusūdana says carries the mind toward Brahman-sākṣātkāra."
-  }
+  },
+  "primary_meaning": "Seated on that āsana, make the mind one-pointed, rein in the activity of the senses and mind together, and practice yoga for the purification of the self."
 }

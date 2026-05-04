@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yatataḥ",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -201,7 +201,7 @@
     },
     {
       "surface_form": "haranti",
-      "lemma": "hṛ",
+      "lemma": "√hṛ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -543,7 +543,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatataḥ: yat -> √yat",
+          "haranti: hṛ -> √hṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even a vivekī (person of genuine discrimination) can have the manas seized by the indriyāṇi mid-effort, what does 'being wise' actually protect against — and what does it leave exposed?",
@@ -561,5 +572,6 @@
     "śuddhādvaita": "When a carefully maintained discipline (diet, screen-time, speech) collapses in a moment of weakness, Vallabha's reading suggests the collapse itself is data: it reveals exactly where prasāda (Kṛṣṇa's freely given grace) has not yet reached, and that no personal technique will fill the gap. The response is not shame followed by doubled effort, but a direct, childlike re-approach to Kṛṣṇa — mat-paraḥ (making Kṛṣṇa the absolute referent) — trusting that grace accomplishes what willpower structurally cannot.",
     "bhakti": "Śrīdhara's sādhaka-avasthā framing means that the aspirant phase deserves the most honest, unglamourized attention — not because liberation is far away, but because indriya-saṃyama is the daily building-material of sthitaprajñatā (steady wisdom). In practical terms: treat the moment when an impulse seizes your manas not as an interruption to your practice but as the practice itself — the very site where mahān prayatnaḥ (great effort) must be consistently applied, session after session, without expecting the indriyāṇi to cooperate.",
     "advaita-bhakti": "Madhusūdana's dacoit analogy maps well onto the experience of craving during a moment of high intellectual clarity: you understand perfectly well why you should not reach for the phone or the snack — the guard (viveka) is present and watching — and yet the 'dacoit' (indriya) takes the object anyway, in full view. His synthesis says: use the jñāna to diagnose (the guard is real but insufficient) and turn to kṛṣṇa-smaraṇa (Kṛṣṇa-remembrance) as the disarmament strategy — not because thinking about Kṛṣṇa is a trick, but because filling the mind with an object of love is the only known method of evicting an object of craving without a direct fight."
-  }
+  },
+  "primary_meaning": "Even a wise person who strives earnestly finds the senses so turbulent by nature that they forcibly drag the mind away."
 }

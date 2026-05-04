@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "muhyati",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -352,7 +352,7 @@
         "vallabha_2.13"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha is the tersest voice in the panel: having established in the preceding verses that the self is beyond birth and death, he now extends that reasoning by a laukika (worldly) illustration — just as the passage through kaumārādi-avasthā (childhood and subsequent states) in this gross body (sthūla-deha) is niyata (ordained/inevitable) and causes no grief in the wise, so dehāntara-prāptī (attainment of another body) is equally ordained for the ātman. The dhīra neither confuses himself nor grieves. The brevity itself carries Puṣṭi-mārga's coloring: in the framework of Kṛṣṇa's prasāda (grace), transitions across lives are as natural as transitions across seasons in his līlā (divine play) — comment is almost superfluous, because the loving devotee simply trusts the movement.",
+      "english_rendering": "Having established in the preceding verses the *aśocyatā* (non-grievability) of the *ātman* by the argument of non-origination — *evam ātmanām aśocyatām anutpattyā upapādya* — Kṛṣṇa now states the *aśocyatā* of the *deha-ātmādi* (body, self, and the rest): *dehina iti*. By a *laukika-nidarśana* (worldly illustration): just as in *asmin sthūla-dehe* (this gross body) the *kaumārādy-avasthā-prāpti* (attainment of childhood and subsequent states) is *niyata* (ordained), so too *dehāntara-prāpti* — attainment of another body — is ordained for the *ātman*. Therefore the *dhīra* (the steady one) *na muhyati*, *na tatra śocati* — neither falls into confusion nor grieves over it. In the *puṣṭi-mārga* (path of grace), where Kṛṣṇa's *prasāda* (grace) governs all movement, the passage across bodies is as natural and un-lamentable as passage across the stages of a single life; the devoted *dhīra* simply abides in that trust.",
       "commentator": "Vallabhācārya"
     },
     "bhakti": {
@@ -398,23 +398,6 @@
       ]
     },
     {
-      "list": "मैं वही हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.9"
-      ]
-    },
-    {
-      "list": "मैं हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.3",
-        "4.3",
-        "4.38",
-        "6.25"
-      ]
-    },
-    {
       "list": "स्वप्न",
       "role": "supporting",
       "other_verses_in_list": [
@@ -451,7 +434,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "muhyati: muh -> √muh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If my personality, memories, and skills all live in my brain — a part of my body — what exactly is the 'self' that supposedly persists across bodies, and why should I believe it exists?",
@@ -469,5 +462,6 @@
     "śuddhādvaita": "Vallabha's terse reading invites the simplest practice: notice how little drama the transition from one chapter of life to the next actually requires when it is accepted as niyata (ordained). A child who becomes a teenager does not mourn childhood in every waking moment; life moves and the self moves with it. The Puṣṭi-mārga coloring suggests treating the entire arc of a life — and its eventual close — with the same unresisting trust one might have in a season changing, because in Kṛṣṇa's economy all of it is prasāda (given grace), none of it accidental.",
     "bhakti": "Śrīdhara's pratyabhijñāna (recognition) insight is directly useful when accompanying the dying or grieving: the question 'is there anything of him left?' is answered not by speculating about afterlives but by pointing to the structure of recognition itself. The same 'I' that a person said while learning to walk, while falling in love, while being afraid at the end — that continuity across radically different states is the datum Śrīdhara isolates. Sitting with someone in grief and gently directing attention to what has been continuously recognized, rather than to what the body can no longer do, is his verse-practice made relational.",
     "advaita-bhakti": "Madhusūdana's synthesis carries the widest modern bandwidth because he explicitly dismantles five competing frameworks before landing on his own. The everyday application is intellectual: when you feel pulled between 'science says there is no self' and 'I cannot shake the feeling that there is something it is like to be me,' Madhusūdana names that tension as real — and shows that neither the materialist nor the atomist position can actually account for the unbroken recognitional thread. The devotional add: once this becomes clear, grief at another's death shifts from 'that person is gone' toward 'that configuration of Kṛṣṇa's one ātman has moved' — which does not cancel love or mourning, but changes their quality."
-  }
+  },
+  "primary_meaning": "Just as the same person passes from childhood through youth to old age in a single body, the self moves into another body at death, and the wise do not grieve at this."
 }

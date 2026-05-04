@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "bhaviṣyatām",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "genitive masculine plural future participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -403,8 +403,9 @@
         "jayatirtha_10.34"
       ],
       "score": 0.5,
-      "english_rendering": "The Dvaita bhāṣya of Madhvācārya is not extant for this verse (the payload records 'Sri Madhvacharya did not comment on this sloka'). From Dvaita siddhānta: Hari alone is the independent agent of dissolution; mṛtyu is His vibhūti (sovereign manifestation), never an independent entity, for all jīvas and forces are eternally dependent (parādhīna) on Him. The seven feminine qualities are vibhūtis of Hari's omnipotence, not shared attributes of the jīva-world.",
-      "divergence_note": "No direct Madhva bhāṣya on 10.34; rendering constructed from Dvaita siddhānta principles."
+      "english_rendering": "*Mṛtyuḥ sarva-haraś cāham* — Hari is *mṛtyu* (death), the all-seizing power that withdraws every *jīva* and every material form at dissolution. This is no independent force: *mṛtyu* is wholly *paratantra* (eternally dependent on the *svatantra* Lord), existing only as an instrument of Hari's sovereign will. He is equally *udbhava* (the arising) of all that shall be — origin and cessation are both His *vibhūti* (sovereign manifestation), confirming *pañca-bheda* (the five-fold real distinction): the Lord stands apart from *jīva* and matter as their sole independent cause. Among feminine qualities — *kīrti* (glory), *śrī* (beauty-and-fortune), *vāk* (speech), *smṛti* (memory), *medhā* (discernment), *dhṛti* (steadfastness), *kṣamā* (forbearance) — each is a *vibhūti* of Hari's omnipotence, not an attribute that belongs to *jīva* or to nature in their own right. *Taratamya* (graded ontological hierarchy) holds: the goddess *Śrī* herself, greatest among these, remains *paratantra*, subordinate to and sustained by Hari, whose lordship over all arising and all cessation is absolute.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on 10.34 is extant; reading constructed from Dvaita siddhānta applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -505,7 +506,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhaviṣyatām: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord identifies Himself as mṛtyu — the all-seizer — what does this say about the devotee's fear of death, and how does smaraṇa (remembrance) of this vibhūti transform the terror of dissolution?",
@@ -523,5 +534,6 @@
     "śuddhādvaita": "In Vallabha's Puṣṭi-mārga, death is not an impersonal mechanism but Kṛṣṇa removing what blocks His devotees. Identify one relationship, habit, or attachment in your life that is actively blocking your flow of bhakti-rasa; hold it before Kṛṣṇa and ask whether this is the kind of mṛtyu-vibhūti He is enacting in your life right now. This is not resignation — it is discernment of prasāda.",
     "bhakti": "Śrīdhara's reading of the seven as devatā-rūpā striyaḥ (women who are deity-forms) suggests a concrete practice: when you encounter a person of exceptional kīrti (renown), vāk (speech), or kṣamā (patience), do not reduce them to a personality trait you admire and wish to acquire. Recognize the vibhūti, bow inwardly, and let the ābhāsa do its elevating work on you without extracting or imitating.",
     "advaita-bhakti": "Madhusūdana's precise definition of kṣamā — equanimity untouched by harṣa or viṣāda — gives you a measurable inner instrument. At the end of each day, review your emotional ledger: how many swings toward harṣa (elation at praise, success) and viṣāda (deflation at criticism, loss)? The gap between current oscillation and genuine kṣamā is your sādhana-map. Bhakti provides the warmth; Advaita provides the ground — this synthesis is Madhusūdana's daily gift."
-  }
+  },
+  "primary_meaning": "I am death the all-devourer, and the source of all that is yet to be born; among women I am fame, fortune, speech, memory, discernment, steadfastness, and patience."
 }

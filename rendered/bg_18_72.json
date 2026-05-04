@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "śrutam",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "pranaṣṭaḥ",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -307,7 +307,8 @@
         "jayatirtha_18.72"
       ],
       "score": 0.5,
-      "english_rendering": "[Madhvacarya's bhasyam is absent from the panel corpus for this sloka — the payload notes 'Sri Madhvacharya did not comment on this sloka.' A Dvaita-aligned rendering is constructed from school principles.] Krsna, the independent Sovereign (svatantra-Hari), asks whether Arjuna — a dependent jiva bound by his svabhava — has truly received the upadesa with undivided attention. The destruction of ajnana-sammohah is not identity with Brahman but the correct recognition of the jiva's eternal servanthood (dasatva) to Hari; ignorance is destroyed when the jiva stops falsely claiming independence."
+      "english_rendering": "*Kaccidetacchrutaṃ pārtha tvayaikāgreṇa cetasā | kaccidajñānasammohaḥ pranaṣṭaste dhanañjaya* — the *svatantra* (the independently real, self-sufficient) Hari turns to question the *paratantra* (eternally dependent) *jīva*: has the teaching been received with *ekāgra* (one-pointed) *cetas* (mind)? The two *kaccit* interrogatives press on two distinct matters — reception and liberation from *ajñāna-sammohaḥ* (the bewilderment born of ignorance). In dvaita, *bheda* (real distinction) between Lord and *jīva* persists even after the *sammohā* is destroyed; what perishes is the *jīva*'s false claim to *svatantratā*, not the *jīva* itself. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) remain intact after right knowledge dawns. Arjuna addressed as *Dhanañjaya* — the conqueror of wealth — is reminded that even his heroic capacity is *paratantra*, wholly supported by Hari's will. The destruction of ignorance is the *jīva*'s correct recognition of its eternal *dāsatva* (servanthood) to Hari, not any dissolution into Brahman. *Taratamya* (graded ontological hierarchy) stands: liberated, Arjuna ascends through the hierarchy yet remains eternally distinct, eternally subordinate, eternally real.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -527,7 +528,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śrutam: śru -> √śru",
+          "pranaṣṭaḥ: praṇaś -> pra-√ṇaś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between hearing a teaching and truly receiving it — and how does one know which has occurred?",
@@ -544,5 +556,6 @@
     "śuddhādvaita": "Let the question asked of you by someone who cares about your understanding be received as a gift rather than a test. Being checked on — 'did that land?' — is an act of love; the checking itself is often where the understanding deepens.",
     "bhakti": "Before moving on from any significant learning, pause and name the specific confusion or false belief that you held before. If you cannot name what was wrong before, you have not yet confirmed the understanding; naming the old error is the evidence that it has been displaced.",
     "advaita-bhakti": "A good mentor or teacher does not declare your growth for you — they ask. Practice both sides: as a student, welcome being asked 'has this changed something?' as a signal of care; as a guide, resist the urge to assume someone has understood just because they have listened attentively."
-  }
+  },
+  "primary_meaning": "Did you hear all this with a focused mind, Arjuna? Has the bewilderment that ignorance planted in you been destroyed?"
 }

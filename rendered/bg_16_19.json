@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "dviṣataḥ",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "accusative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "kṣipāmi",
-      "lemma": "kṣip",
+      "lemma": "√kṣip",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -349,7 +349,9 @@
         "jayatirtha_16.19"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya did not comment on this verse (bhāṣya absent from the panel corpus). Under the general Dvaita framework — in which jivas are eternally categorized as mukti-yogya, nitya-samsarin, or tamo-yogya (fit for liberation, perpetual cycling, or eternal darkness) — this verse would be read as Hari's sovereign declaration of his executive authority over the tamo-yogya class: their repeated asuri births are not remedial but ontologically final for those whose very svabhava (innate nature) is irreconcilably hostile to Hari. The hurling is not reformation but cosmic classification."
+      "english_rendering": "*Tān ahaṃ dviṣataḥ krūrān saṃsāreṣu narādhamān | kṣipāmy ajasram aśubhān āsurīṣv eva yoniṣu* — Hari, the sole *svatantra* (the independently real, self-sufficient) being, declares his sovereign act of perpetual casting: those who are *dviṣataḥ* (hating), *krūrān* (cruel), *aśubhān* (inauspicious), and *narādhamān* (the lowest of men) he hurls *ajasram* (without pause) into *āsurīṣu yoniṣu* (demoniac wombs). The *pañca-bheda* (the five-fold real distinction) between Lord and *jīva* (the individual self) is absolute; these *jīvas* are *paratantra* (eternally dependent) yet constitutively oriented against the very *svatantra* on whom they depend. Within the *taratamya* (graded ontological hierarchy), the *tamo-yogya* class — whose *svabhāva* (innate nature) is irreversibly hostile to Hari — occupies the lowest grade, not as a temporary station awaiting correction but as an ontological finality. The repeated *āsurī yoni* is not remedial cycling; Hari's *kṣipāmi* is an executive ordering of cosmic *bheda* (real distinction), placing each *jīva* in the birth-class that *svabhāva* makes final. The Lord's authority here is underscored by the pronoun *aham*: it is Hari alone, as *jagat-kartā* (maker of the cosmos), who executes this classification across all *saṃsāreṣu* (cycles of worldly existence).",
+      "divergence_note": "Neither Madhva nor Jayatīrtha commented on this verse; the reading is reconstructed from the school's established *taratamya* doctrine and the *tamo-yogya* classification of eternally downward *jīvas*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -430,7 +432,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dviṣataḥ: dviṣ -> √dviṣ",
+          "kṣipāmi: kṣip -> √kṣip"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord himself does the hurling, does free will survive — or is this verse evidence that Krsna is also the enforcer of karmic necessity, not merely its witness?",
@@ -448,5 +461,6 @@
     "śuddhādvaita": "Vallabha's punar punar (again and again) is the key. Demonic svabhava is not a single bad decision but a groove worn by repetition. The Pusti-marga application is daily: every morning, identify one recurring pattern that closes you to Krsna's lila — whether it is comparison, resentment, or self-justification — and consciously interrupt it before it runs. The groove can still be redirected while it is a tendency; it becomes sahaja (innate) only after years of unopposed repetition.",
     "bhakti": "Sridhara's papa-karma fruiting precisely as animal-birth vividness points to a devotional practice of consequence-imagination. Before acting from cruelty, contempt, or indifference to others' suffering, Sridhara's verse invites you to ask: what kind of consciousness does this action cultivate in me? The tiger, the serpent — these are not metaphors for hell but for narrowed, reactive, predatory awareness. The question is whether your current trajectory is widening or narrowing the range of responses available to you next year.",
     "advaita-bhakti": "Madhusudana's most practical line is also his most devastating: Isvara does not will the purification of those who harm his devotees, and no amount of power changes a stone into soil. The application is a two-sided check: (1) examine whether your conduct toward people who represent integrity, devotion, or honest teaching has been consistently dismissive or hostile — that pattern is what forfeits adhikara; (2) equally, stop imagining that spiritual effort will automatically overcome a fundamental refusal to respect what is good. Grace requires a minimum of receptivity; the task is to maintain that receptivity, not to assume it is always present."
-  }
+  },
+  "primary_meaning": "Those who are hateful, cruel, and the lowest of men I hurl ceaselessly, life after life, into demonic wombs."
 }

@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "nigṛhītāni",
-      "lemma": "nigrah",
+      "lemma": "ni-√grah",
       "grammar": "nominative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "pratiṣṭhitā",
-      "lemma": "pratiṣṭhā",
+      "lemma": "prati-√ṣṭhā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -504,7 +504,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nigṛhītāni: nigrah -> ni-√grah",
+          "pratiṣṭhitā: pratiṣṭhā -> prati-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prajñā (wisdom) is established only when the senses are withdrawn 'in all their modes' (sarvataḥ, including the mental), does this verse imply that even correct intellectual understanding counts as unstable wisdom until the inner sense-organ (antaḥkaraṇa) is also stilled?",
@@ -522,5 +533,6 @@
     "śuddhādvaita": "Vallabha's reading of 'mahābāho' as hidden injunction invites a reframing of personal strength: the same decisiveness and energy you deploy in professional or competitive arenas can be deliberately turned toward the inner arena. This is not suppression but re-channeling — every moment of successful sense-mastery is understood as Kṛṣṇa's own prasāda (gift) flowing through your existing capacities. Concretely, identify one domain where you already exercise strong self-command (diet, speech, time) and treat it as a model for extending the same quality into domains where restraint currently collapses.",
     "bhakti": "Śrīdhara's structural point — that the verse simultaneously describes the sthita-prajña (mark) and prescribes the sādhana (means) — suggests a diagnostic practice: at the end of each day, review whether prajñā felt stable or destabilized, and trace the correlation backward to moments of sense-capture. The vocative 'mahābāho' is Śrīdhara's reminder that the capacity is already yours; the question is not whether you can do it but whether the heroic disposition has been consciously redirected. Even one incident per day of voluntary withdrawal from a habitual stimulus counts as the sādhana the verse describes.",
     "advaita-bhakti": "Madhusūdana's inclusion of the mind (sa-manaska) in 'sarvataḥ' makes this practically demanding: it is not enough to sit still while the internal dialogue runs at full speed. The synthesis school's answer is that Kṛṣṇa's direct address — the fact that he is speaking to Arjuna, not delivering a treatise — is itself a device of grace that draws the inner organ toward the speaker. In practice, this means entering periods of sense-restraint not as solo effort but as conversation: direct the attempt toward Kṛṣṇa explicitly, treating the withdrawal as a response to his address rather than a self-generated discipline, and note whether the quality of stillness that results carries a devotional warmth that purely technical practice does not."
-  }
+  },
+  "primary_meaning": "The one whose senses are fully drawn back from their objects, on all sides and without exception, has wisdom that stands firm."
 }

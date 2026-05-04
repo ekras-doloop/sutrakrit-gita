@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "baddhāḥ",
-      "lemma": "bandh",
+      "lemma": "√bandh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "īhante",
-      "lemma": "īh",
+      "lemma": "√īh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -309,8 +309,9 @@
         "jayatirtha_16.12"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse. From the Dvaita perspective the verse is read as a portrait of those jivas whose nature (svabhava) is permanently oriented away from Hari-bhakti: hope-snares, desire, and anger are the marks of souls bound in tamasa constitution, incapable of dependent worship (paravarti-bhakti), who accumulate wealth through injustice precisely because they lack the viveka to recognize Hari as the sole owner of all wealth. This rendering is a doctrinal projection, not an attested Madhva gloss.",
-      "divergence_note": "No Madhva bhashya for this verse in the payload. Rendering constructed from Dvaita theological principles only."
+      "english_rendering": "*Āśā-pāśa-śatair baddhāḥ* — bound by hundreds of hope-snares — the *āsura* *jīvas* (individual selves oriented against *Hari*) are wholly given over to *kāma-krodha* (desire and anger) as their supreme refuge (*parāyaṇāḥ*). Their *īhā* (striving) is directed solely toward the enjoyment of sensory objects (*kāma-bhogārtham*), and they accumulate (*saṃcayān*) wealth by *anyāya* (injustice, means contrary to *dharma*). Within the *pañca-bheda* (the five-fold real distinction between Lord, *jīva*, and *jaḍa*-matter), all wealth subsists as the property of *svatantra* (independently real, self-sufficient) Hari alone; the *āsura* *jīva*, *paratantra* (eternally dependent) yet refusing subordination, seizes it through illicit means. This is not mere moral failure but an ontological disposition: the *taratamya* (graded hierarchy) assigns these *jīvas* a constitution (*svabhāva*) deeply adverse to *bhakti* as ontological subordination to Hari. The hundreds of *āśā-pāśas* are not metaphor but real bondage — real *bheda* (distinction) between the entrapped *jīva* and the liberating Lord persists even in bondage, and liberation from these snares comes only through Hari's grace extended to those whose *svabhāva* permits it.",
+      "divergence_note": "No attested bhāṣya from Madhva or Jayatīrtha on this verse. Reading voiced directly from Dvaita *siddhānta* primitives applied to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -329,8 +330,8 @@
         "sridhara_16.12"
       ],
       "score": 0.5,
-      "english_rendering": "Hope itself becomes the snare (asha eva pasha), and their hundreds drag the asura mind in every direction, making steady devotion impossible. Kama and krodha are the supreme shelter (paramayanamashraya) for these beings — not Bhagavan. They desire to accumulate wealth (artha-sancaya) through theft and similar means (cauryadi), all for the sake of sensory enjoyment. Sridhara emphasizes the irony: the very energy that could fuel bhakti is hijacked by desire, anger, and greed operating as a self-reinforcing triad.",
-      "divergence_note": "Sridhara: 'asha eva pashas tesham shatani tais baddha itastat akrshyamanah; kama-bhogartham anyayena cauryad-ina arthanam sancayavashinihante icchanti.' Bhashya present. Note: payload Sridhara text is unambiguous Sanskrit prose; no HTML artifacts affecting this verse."
+      "english_rendering": "*Āśā* (hope) itself is the snare — *āśā eva pāśāḥ* — and hundreds of such snares bind them, pulling them here and there, *itastat ākṛṣyamāṇāḥ*. *Kāma* (desire) and *krodha* (anger) are their supreme refuge: *kāma-krodhau parama-yanam āśrayo yeṣāṃ te*. For the sake of sensory enjoyment, *kāma-bhogārtham*, they desire accumulation of wealth by unjust means — theft and similar acts, *anyāyena cauryādinā arthānāṃ saṃcayāvāśīn īhante icchanti*. No movement toward *bhakti* is possible where *āśā* has replaced Bhagavān as the governing bond.",
+      "divergence_note": "Re-anchored to Śrīdhara's bhāṣya: *āśā eva pāśāḥ*, *itastat ākṛṣyamāṇāḥ*, *kāma-krodhau parama-yanam āśrayaḥ*, and *cauryādinā arthānāṃ saṃcayāvāśīn* are all quoted verbatim from the source. The prior rendering's closing 'self-reinforcing triad' gloss was a projected synthesis absent from the bhāṣya; removed."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -404,7 +405,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "baddhāḥ: bandh -> √bandh",
+          "īhante: īh -> √īh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between aspiration (which drives growth) and asha (hope-as-snare) as Shankara describes it — and how would one recognize which is operating in a given drive?",
@@ -422,5 +434,6 @@
     "śuddhādvaita": "In Pushti-marga, the antidote to asha-pasha is not discipline but prasada — receiving Krishna's grace as the only genuine nourishment. The practical form: when noticing the hunger that accumulation produces (Madhusudana's 'vardhamana-trishna'), the Pushti-marga response is not self-restraint but turning toward seva and prasada as the interruption. Feed the hunger with Krishna's lila rather than more acquisition.",
     "bhakti": "Sridhara's observation that kama and krodha are the 'supreme shelter' for the asura mind points to a diagnostic practice: check what you instinctively turn to when threatened or unfulfilled. If the reflexive move is toward accumulation or retaliation (cauryadi in its modern forms), that is the indicator that kama-krodha have become paramayanamashraya. The bhakti counter-move is to practice deliberately turning to smarana (remembrance of Bhagavan) in the precise moment of that reflex.",
     "advaita-bhakti": "Madhusudana's grammatical insight — that the plural 'sancayan' encodes loba's self-amplifying structure — is a precise practical tool. When pursuing any goal, track whether attainment reduces or increases the desire for more. If each acquisition produces a new hunger rather than sufficiency, Madhusudana's analysis names this as loba operating structurally, not as normal ambition. The Advaita-bhakti response is recognition (viveka) first, then Krsna-bhakti as the only appetite that satisfies by its own nature rather than by its object."
-  }
+  },
+  "primary_meaning": "Bound by hundreds of hope-snares, ruled by desire and anger, they strive to pile up wealth by unjust means, all for the pleasure of their appetites."
 }

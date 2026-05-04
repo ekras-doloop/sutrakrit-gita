@@ -53,7 +53,7 @@
     },
     {
       "surface_form": "tiṣṭhantam",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -69,7 +69,7 @@
     },
     {
       "surface_form": "vinaśyatsu",
-      "lemma": "vinaś",
+      "lemma": "vi-√naś",
       "grammar": "locative neuter plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "vinaśyantam",
-      "lemma": "vinaś",
+      "lemma": "vi-√naś",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -423,7 +423,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhantam: sthā -> √sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vinaśyatsu: vinaś -> vi-√naś",
+          "vinaśyantam: vinaś -> vi-√naś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same Parameshvara abides equally in all beings, what changes when I treat another person with contempt — is it only a social wrong, or am I also failing to see correctly?",
@@ -441,5 +460,6 @@
     "shuddhadvaita": "On the Pushti path, the equal-seeing of this verse is received, not achieved. The practice is to open yourself to Krishna's self-disclosure in every encounter — to be available to the moment when his presence suddenly becomes obvious in the face of a child, the texture of a season, the grief in a friend's eyes. You cannot manufacture this sight; you can only remove the obstructions (self-preoccupation, the habit of using others instrumentally) so that the prasada of equal-vision can arrive.",
     "bhakti": "Sridhara's balanced reading asks you to hold discrimination and devotion together. The practical work is twofold: first, clearly distinguish what in every person is bound and perishable (the body, the conditioned personality) from what is imperishable (the presence of Ishvara as their ground); second, let that discrimination deepen your affection rather than cool it. True bhakti, on this reading, is love for the imperishable Lord seen in and through the perishable person — not in spite of their limitations but with clear eyes about what those limitations are.",
     "advaita-bhakti": "Madhusudana's synthesis means that moments of genuine love for Krishna — devotional absorption, kirtan, prayer, a flash of gratitude — are also moments of correct metaphysical seeing, not departures from it. If the non-dual samam-pashyati sounds cold and abstract, let it be approached through bhakti: the equal-presence of the Lord becomes viscerally obvious in states of deep devotional surrender, not only in dry analysis. Conversely, intellectual clarity about the ksetra-ksetrajnya distinction can deepen bhakti by clearing the distortions that make people objects of possession or fear rather than loci of the beloved Lord."
-  }
+  },
+  "primary_meaning": "Whoever sees the imperishable Lord abiding equally in all perishable beings, that one truly sees."
 }

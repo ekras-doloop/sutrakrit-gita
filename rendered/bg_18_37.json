@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "proktam",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -323,7 +323,9 @@
         "jayatirtha_18.37"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya's bhashya is absent for this verse; this rendering follows the Dvaita doctrinal orientation. Sattvic joy is grounded in the jiva's correct self-knowledge as eternally distinct from and dependent upon Hari. It appears poisonous at first because the jiva's innate subordination (paratatantrya) to Bhagavan runs against rajasic self-assertion. At maturation, when the jiva truly knows its own nature as anu-atman (atomic self) in relationship to Paramatman, that knowledge yields nectar-like joy — not as independence claimed but as dependence fully accepted. [NOTE: Madhva did not comment on this verse; rendering is inferential from Dvaita siddhanta.]"
+      "english_rendering": "*Sāttvika* (pertaining to the quality of lucidity) joy is described in *yat tad agre viṣam iva pariṇāme 'mṛtopamam* — what is like poison at first, like nectar at maturation. Its source is *ātmabuddhi-prasāda-jam*: it arises from the clarification of the *jīva*'s (the individual self's) buddhi directed toward its own real nature.\n\nIn dvaita, that nature is *paratantra* (eternally dependent): the *jīva* is an *aṇu-ātman* (atomic self), real in its own right yet wholly subordinate to *Hari*, the sole *svatantra* (independently real, self-sufficient) principle. The initial bitterness belongs to the *jīva*'s resistance — rajasic self-assertion recoiling from the discipline that strips away the pretense of autonomy. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not annulled at maturation but fully realized; *bheda* (real distinction) is precisely what makes the joy possible, since the *jīva* that delights in Hari is genuinely other than Hari. When *ātmabuddhi* — the intellect's grasp of the self — is purified through *sāttvika* practice and *bhakti* (devotion as ontological subordination), what remains is nectar: the *jīva*'s *taratamya* (graded ontological hierarchy) position accepted, its dependence embraced rather than evaded. That acceptance is the nectar's taste.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha survives for this verse; the reading is voiced directly from dvaita *siddhānta* primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -476,7 +478,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktam: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the text use poison and nectar as its poles rather than, say, difficulty and ease — what does that choice of image say about the nature of the transformation at stake?",
@@ -494,5 +506,6 @@
     "suddhadvaita": "Vallabha's pushti-marga applies here to the discipline of seva (devotional service): when you take on a commitment to daily ritual or bhajan and it feels effortful and joyless in the first weeks, the verse names what is happening. The svarupa (the self's own form as servant of Krishna) has not yet arisen into felt experience. The dryness is not absence of grace but grace working beneath the surface.",
     "bhakti": "Sridhara's reading offers a practical diagnostic: if a joy in your life requires no effort at the outset — if it is immediately pleasurable — it is probably rajasic or tamasic in origin. Sattvic joy always has a period of manah-samyama (mind-discipline) as its cost of entry. Use this as a filter when discerning which practices and relationships are genuinely building atmabuddhi clarity.",
     "advaita-bhakti": "Madhusudana's synthesis applies directly to the phenomenon of 'hitting the wall' in any deep practice — the point where neither the initial novelty nor the eventual depth is accessible and only effort remains. He names this as the poison-phase of samadhi-sukha. The practitioner who recognizes the wall as the verse's agre-visam (initial poison) and who has been told by trusted teachers that the nectar is real on the other side has a reason to continue that is not merely optimism but doctrinal testimony."
-  }
+  },
+  "primary_meaning": "What tastes like poison at the start and like nectar at the end, that joy, born of a clear mind turned toward the self, is called sattvic."
 }

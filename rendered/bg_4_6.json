@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "san",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "san",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "saṃbhavāmi",
-      "lemma": "sambhū",
+      "lemma": "sam-√bhū",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -373,7 +373,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -541,13 +541,6 @@
         "10.22",
         "13.15"
       ]
-    },
-    {
-      "list": "सोइ जानइ जेहि देहु जनाई",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.25"
-      ]
     }
   ],
   "audit_trail": {
@@ -577,7 +570,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "san: as -> √as",
+          "san: as -> √as",
+          "saṃbhavāmi: sambhū -> sam-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord's prakṛti is śuddha-sattva and not the triguṇa-māyā that binds the jīva, what testable difference does this make to how a bhakta relates to the avatāra's body — is it to be worshipped, meditated upon, or seen through?",
@@ -595,5 +600,6 @@
     "śuddhādvaita": "Vallabha's polysemy of māyā — sāmarthya, kṛpā, śakti — implies that every encounter with beauty, abundance, or unexpected grace is simultaneously an exercise of divine omnipotence and an act of compassion. The Puṣṭi-mārga application is non-ascetic: the practitioner does not try to see through the world's appearances but to receive them as āvirbhāva, the Lord's self-disclosure. Feasting, music, and the beauty of the Braj landscape are not distractions from the divine presence but its preferred vehicles — the verse licenses this by making the Lord's own 'birth' into beauty his highest act.",
     "bhakti": "Śrīdhara's śuddha-sattva-ātmikā prakṛti reading has a practical consequence for image-worship (mūrti-pūjā): the deity's form is not a symbol or a representation but a genuine condensation of pure sattva. Treating the mūrti with this understanding — bathing, dressing, feeding it as though its substance is different in kind from ordinary matter — is not anthropomorphism but a technically accurate response to what the verse says about the Lord's embodiment-mechanism. The everyday application is the quality of attention brought to pūjā.",
     "advaita-bhakti": "Madhusūdana's synthesis — ākāśa-śarīra visible only through māyā — implies a two-register practice: at the jñāna register, the practitioner works to see that the Lord's apparent human qualities (birth, hunger, play, death) are loka-anugraha appearances, not ontological facts. At the bhakti register, the practitioner works in the opposite direction — treating every appearance of the Lord in scripture, icon, or teacher as viśuddha-sattva-mūrti, fully real and fully present. Madhusūdana's application is holding both registers simultaneously without resolving the tension — the unresolved co-presence is itself the sādhana."
-  }
+  },
+  "primary_meaning": "Though birthless and imperishable, the lord of all beings, I take on my own nature by my own power and come into being."
 }

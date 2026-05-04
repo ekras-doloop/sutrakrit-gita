@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yatantaḥ",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "avasthitam",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "yatantaḥ",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -321,7 +321,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -381,7 +381,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatantaḥ: yat -> √yat",
+          "avasthitam: avasthā -> ava-√sthā",
+          "yatantaḥ: yat -> √yat"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If effort alone is insufficient — what exactly constitutes the 'prepared self' (krthatman) that makes perception possible, and who or what does the preparing?",
@@ -398,5 +410,6 @@
     "śuddhādvaita": "Vallabha's 'manda-matayah' (dull of understanding) is not a condemnation but a diagnosis: a mind not yet ready is a mind not yet touched by grace. The practical stance is to remain in the stance of an aspirant rather than an achiever — cultivating receptivity (citta-krta) through satsanga, seva, and kirtana rather than forcing an experience that can only be bestowed.",
     "bhakti": "Sridhara's pairing of dhyana (direct inner practice) with sastraabhyasa (study) as two legitimate but insufficient routes when citta remains impure points to a practical integration: the student who combines scriptural learning with emotional purification — working through grief, resentment, and agitation rather than bypassing them — creates the conditions in which study and practice can converge into actual seeing.",
     "advaita-bhakti": "Madhusudana's image of the self reflected in the purified buddhi has an immediate practical application: the quality of our moment-to-moment perception of ourselves and others is a direct function of how clear the 'mirror' of the antahkarana (inner organ) is. Practices that clean the mirror — honest self-examination, disinterested action, bhakti as emotional clearing — are not preliminary to spiritual life; they are spiritual life as it manifests in ordinary time."
-  }
+  },
+  "primary_meaning": "Striving yogins see this self settled within, but those who strive without a prepared mind, their understanding still impure, do not see it at all."
 }

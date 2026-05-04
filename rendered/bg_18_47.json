@@ -1,8 +1,8 @@
 {
   "verse_id": "18.47",
   "mūla": {
-    "devanāgarī": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वभावनियतं कर्म कुर्वन्नाप्नोति किल्बिषम्",
-    "iast": "śreyānsvadharmo viguṇaḥ paradharmātsvanuṣṭhitāt | svabhāvaniyataṃ karma kurvannāpnoti kilbiṣam",
+    "devanāgarī": "श्रेयान्स्वधर्मो विगुणः परधर्मात्स्वनुष्ठितात् | स्वभावनियतं कर्म कुर्वन् नाप्नोति किल्बिषम्",
+    "iast": "śreyānsvadharmo viguṇaḥ paradharmāt svanuṣṭhitāt | svabhāvaniyataṃ karma kurvannāpnoti kilbiṣam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 47",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "anuṣṭhitāt",
-      "lemma": "anuṣṭhā",
+      "lemma": "anu-√ṣṭhā",
       "grammar": "ablative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "niyatam",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "kurvan",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -200,7 +200,7 @@
     },
     {
       "surface_form": "āpnoti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -350,7 +350,8 @@
         "jayatirtha_18.47"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE: The supplied bhashya for this school reads 'Sri Madhvacharya did not comment on this sloka.' No Madhva commentary is available in the panel for 18.47. The following is extrapolated from Madhva's wider documented position on svadharma. For Madhva, jiva and Brahman are eternally distinct (nitya-bheda); action belonging to one's own varna-ashrama station is the form of Hari-seva (dependent worship of Hari) appropriate to that jiva's specific svarupa. Svabhava-niyatam karma acquires its justification not from self-sufficiency but from Hari's sovereign ordering of cosmic function: each jiva's dharma is the exact task Hari has assigned that class of jiva, and executing it is obedience; deviating into para-dharma is presumption against Hari's dispensation. Kilbisham is thus not merely ritual sin but ontological disorder — acting outside one's Hari-assigned station. This rendering is flagged EXTRAPOLATED; no attested bhashya text for this verse."
+      "english_rendering": "*Svadharma* (one's own duty, station-specific obligation) imperfectly performed excels *paradharma* (another's duty) well performed — *śreyān svadharmo viguṇaḥ paradharmātsvanuṣṭhitāt*. Performing *svabhāvaniyataṃ karma* (action fixed by one's own nature), one does not incur *kilbiṣam* (sin, ontological stain).\n\nIn the dvaita reading, *svabhāva* is not an autonomous self-determination but the specific nature Hari has apportioned to each *paratantra* *jīva* (the eternally dependent individual self) within the *taratamya* (graded ontological hierarchy) of *pañca-bheda* (the five-fold real distinction). Every *jīva* occupies a fixed rank in Hari's sovereign order; the *karma* that belongs to that rank is Hari's assignment, not the *jīva*'s own invention. To perform it — even deficiently — is *bhakti* (devotion) as ontological subordination: the *jīva* acting within the station *svatantra* (the independently real, self-sufficient) Hari has ordained. To cross into *paradharma* is not mere ritual error but a presumption against that dispensation, a violation of *bheda* (real distinction) between one's own assigned function and another's. *Kilbiṣam* is therefore the stain of misalignment with one's Hari-given *svarūpa*, not a merely procedural failing. The *viguṇa* qualification — imperfect execution — is tolerated; usurpation of another's station is not.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -453,7 +454,36 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "paradharmātsvanuṣṭhitāt -> paradharmāt svanuṣṭhitāt"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "कुर्वन्नाप्नोति -> कुर्वन् नाप्नोति"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anuṣṭhitāt: anuṣṭhā -> anu-√ṣṭhā",
+          "niyatam: niyam -> ni-√yam",
+          "kurvan: kṛ -> √kṛ",
+          "āpnoti: āp -> √āp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If 'one's own dharma imperfectly done' beats 'another's dharma perfectly done,' what does this imply for modern career and role decisions — does excellence in a mismatched role carry hidden costs the verse names?",
@@ -471,5 +501,6 @@
     "shuddhadvaita": "Vallabha's pushti reading says the grace flows through the channel of your God-given nature, not through the channel of your aspirational identity. Find one place today where you are imitating someone else's mode of devotion or service rather than expressing your own — and notice whether the imitation has the same quality of presence as your native expression.",
     "bhakti": "Sridhara's move is to pre-empt the rationalization: 'my para-dharma feels holier because it avoids the messiness of my sva-dharma.' The test is whether the messiness you are avoiding (Arjuna's: slaying kinsmen) is actually constituted by your svabhava or is an externally-imposed distortion. Name one 'messy' task that is genuinely yours by nature and that you have been outsourcing or avoiding behind the language of nonviolence or sensitivity.",
     "advaita-bhakti": "Madhusudana's 'bhagavat-prasada-hetu' reframe: your constitutive work is not the obstacle to grace — it is the mechanism of grace. Choose one recurring task you perform competently but joylessly, and practice it once today as if it were a grace-channel rather than an obligation. Notice whether the quality of attention changes when prasada-reception, not outcome-production, is the frame."
-  }
+  },
+  "primary_meaning": "Your own duty, even imperfectly done, is better than another's duty done well. Acting within the nature you were born to, you take on no sin."
 }

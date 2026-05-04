@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "jānantaḥ",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "upāsate",
-      "lemma": "upās",
+      "lemma": "√upās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "atitaranti",
-      "lemma": "atit￞",
+      "lemma": "ati-√t￞",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -428,7 +428,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jānantaḥ: jñā -> √jñā",
+          "upāsate: upās -> √upās",
+          "atitaranti: atit￞ -> ati-√t￞"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If someone is not capable of sustained meditation or scholarly discrimination, does this verse guarantee that simple, faithful listening to a teacher is genuinely sufficient to cross beyond death — or is it a provisional concession?",
@@ -446,5 +458,6 @@
     "suddhadvaitA": "Vallabha's prasada orientation means the path chosen matters less than recognising it as the Lord's own gift to this temperament. A person drawn to intellectual analysis (sankhya) and another drawn to devotional service (karma-yoga) are not in competition; Krsna's lila operates through both. The application: stop measuring your path against others' paths.",
     "bhakti": "Shridhara's sadhana-vikalpa (alternatives) reading liberates practitioners from path-anxiety. If dhyana is inaccessible, sankhya-style discrimination is available; if that is too abstract, karma-yoga; if systematic practice is impossible, then hearing from knowers. The teaching: there is always one gate open, regardless of circumstance or capacity.",
     "advaita-bhakti": "Madhusudana's four-tier scheme suggests self-assessment is itself a spiritual practice — knowing honestly which tier you occupy today (meditator, reflective scholar, active server, or mere listener) and working faithfully within that tier rather than performing a higher tier you have not yet earned. Honest placement prevents the subtle pride of claiming uttama status while living as mandatara."
-  }
+  },
+  "primary_meaning": "Those who cannot grasp the self through their own practice simply listen to those who can, and even they, devoted to what they hear, cross beyond death."
 }

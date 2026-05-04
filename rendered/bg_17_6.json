@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "karśayantaḥ",
-      "lemma": "karśay",
+      "lemma": "√karśay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -400,7 +400,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "karśayantaḥ: karśay -> √karśay",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When personal discipline — diet, fasting, intense practice — is it possible to harm the very divine presence we imagine we are approaching through that discipline?",
@@ -418,5 +429,6 @@
     "śuddhādvaita": "Vallabha's reading offers a corrective to the idea that more suffering equals more sincerity in practice. Puṣṭi-mārga holds that Kṛṣṇa's grace flows toward those who remain open, not those who drive Him away through joyless violence against His gift of a body. Ease and joy in practice are not spiritual laziness; they may be the signal that the antaryāmin is present, not absent.",
     "bhakti": "Śrīdhara's 'vṛthā-upavāsa' (pointless fasting) distinguishes purposeful fasting done with awareness from compulsive self-deprivation dressed in spiritual language. Applied today: check whether the austerity has a clear śāstric or teacher-authorized rationale, produces inner clarity, and is proportionate — if none of these hold, the label 'tapas' is covering something else.",
     "advaita-bhakti": "Madhusūdana's bhoktā/bhogyam distinction speaks to anyone managing chronic illness, high-performance training, or care-giving exhaustion. The self that experiences life requires the body as instrument; systematically destroying the instrument in the name of some higher goal (spiritual or otherwise) is not transcendence but metaphysical inversion. The corrective is to identify the actual śāstric or ethical ground for the hardship, and if none exists, to stop."
-  }
+  },
+  "primary_meaning": "Without discernment, they torment the body and afflict the Lord dwelling within it. Know those of such cruel resolve to be demonic."
 }

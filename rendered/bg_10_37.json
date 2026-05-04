@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -382,13 +382,6 @@
         "1.1",
         "1.2"
       ]
-    },
-    {
-      "list": "पाण्डवानां धनञ्जयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.14"
-      ]
     }
   ],
   "audit_trail": {
@@ -418,7 +411,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa list himself alongside a human student (Arjuna) as a vibhūti — does this collapse the teacher-student distinction or deepen it?",
@@ -436,5 +439,6 @@
     "śuddhādvaita": "Vallabha's reading invites you to experience your own best moments — a creative flow state, a moment of athletic precision, a burst of genuine kindness — as Kṛṣṇa's own līlā happening through you. The practice is to hold that recognition lightly and gratefully in the moment itself, not retrospectively. Joy in excellence is itself prasāda (grace freely given).",
     "bhakti": "Śrīdhara's plain reading points to a simple discipline: identify the teachers in your life who are genuinely illumining you right now, and receive their instruction with the same attentiveness Arjuna brings here. The Lord speaks through actual human guides; honoring that relationship is a primary bhakti practice.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests a meditation practice: choose one domain where you sense a genuine calling (writing, music, service, scholarship), contemplate the Kṛṣṇa-vibhūti behind the greatest exemplars of that domain, then let that love and awe draw you toward your own deepest capacity. Bhakti and excellence are not competitors — devotional intensity fuels mastery."
-  }
+  },
+  "primary_meaning": "Among the Vrishnis I am Vasudeva, among the Pandavas I am Arjuna, among the sages I am Vyasa, and among the seers of far vision I am the poet Ushanas."
 }

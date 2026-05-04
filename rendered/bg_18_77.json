@@ -234,7 +234,7 @@
     },
     {
       "surface_form": "hṛṣyāmi",
-      "lemma": "hṛṣ",
+      "lemma": "√hṛṣ",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -435,8 +435,9 @@
         "jayatirtha_18.77"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva offers no direct commentary on this verse. Reading through Dvaita principles: Sanjaya's wonder is the wonder of the eternally distinct jiva (jiva-nitya-bhedah) before the absolute superiority (sarvottamatva) of Hari. The Vishvarupa is not Brahman-as-world but Hari's own sovereign display, categorically beyond all jivas. Repeated thrilling (punah punah hrsyami) is the appropriate affect of an inferior being before its irreducibly superior Lord — not merger, but endless adoration across an ontological gap that never closes.",
-      "divergence_note": "Bhashya absent: the payload explicitly notes 'Sri Madhvacharya did not comment on this sloka.' This rendering draws on Madhva's established sarvottamatva and jiva-bhedah doctrines applied to the Vishvarupa context."
+      "english_rendering": "Recalling again and again that *rūpa* (form) of *Hareḥ* — *atyad-bhutam*, surpassing all wonder — Sañjaya declares *vismayo me mahān*: a great astonishment, and *hṛṣyāmi ca punaḥ punaḥ*, thrilling repeatedly. In dvaita, this is not the vertigo of approaching dissolution but the inexhaustible response of a *paratantra* *jīva* (eternally dependent individual self) before the *svatantra* (independently real, self-sufficient) Lord. The Viśvarūpa belongs to *Hareḥ* alone — it is His own sovereign display, not the world-appearance of an undifferentiated Brahman. *Pañca-bheda* (the five-fold real distinction) holds absolutely: the gap between the astonished *jīva* and the Lord who is *sarvottama* (supremely excellent beyond all grades) never closes. *Punaḥ punaḥ* — again and again — registers this precisely: repetition is not redundancy but the structural condition of a *paratantra* being whose *bhakti* (devotion) is itself an ontological subordination that no single moment of awe exhausts. *Taratamya* (graded ontological hierarchy) is alive here: even Sañjaya, who only heard the Gītā at remove through Vyāsa's grace, stands grades below Arjuna who witnessed directly, yet both *jīvas* thrill before the same undiminished *rūpa*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta* — *sarvottamatva*, *pañca-bheda*, *taratamya*, and *paratantra*-*jīva* doctrine — applied to the mūla's language of repeated astonishment before *Hareḥ rūpam*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -523,7 +524,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hṛṣyāmi: hṛṣ -> √hṛṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Sanjaya saw the Vishvarupa through Vyasa's transmitted vision, not his own eyes — what does it mean to thrill at a memory of borrowed seeing? Is second-hand wonder still valid?",
@@ -541,5 +552,6 @@
     "shuddhadvaita": "Vallabha's point that this joy belongs only to the divinely graced translates practically: some experiences of beauty or meaning that arrive uninvited, unrepeatable, without personal effort — these are prasada (gift), not achievement. Do not try to manufacture them. When they come, recall them repeatedly (samsmrtya samsmrtya); that recollection is itself another installment of the same grace.",
     "bhakti": "Sridhara's 'spastam anyat' (the rest is clear) is an instruction: some experiences of beauty or the sacred do not need interpretation. The trained reflex to immediately explain, categorize, or contextualize an overwhelming experience can be suspended. Let the awe land completely before the commentary begins.",
     "advaita-bhakti": "Madhusudana frames the Vishvarupa as a meditative object (dhyanartham): the point of an overwhelming experience is not to cling to it but to use it as an anchor for sustained attention. When something has moved you deeply, return to it deliberately in contemplation — not to relive the emotion, but to let it train your capacity for absorbed presence."
-  }
+  },
+  "primary_meaning": "And recalling again and again that supremely wondrous form of Hari, great astonishment fills me, O King, and I thrill with joy again and again."
 }

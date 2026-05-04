@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -328,7 +328,7 @@
     },
     {
       "surface_form": "abhidhīyate",
-      "lemma": "abhidhā",
+      "lemma": "abhi-√dhā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -470,7 +470,9 @@
         "jayatirtha_17.27"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya does not comment on this verse. On Dvaita principles: steadiness in yajna, tapas, and dana merits the designation 'sat' because such acts, when directed to Hari as independent Lord, express the jiva's (individual soul's) eternal dependence (paratatrya). Action performed for that purpose — Hari-worship through structured ritual, self-discipline, and giving — is called 'sat' because it reflects the real distinction between sovereign God and dependent soul. No conflation of jiva and Brahman is intended by the term."
+      "english_rendering": "Steadiness (*sthiti*) in *yajña* (sacrifice), *tapas* (austerity), and *dāna* (giving) is called *sat* — and *karma* performed for that purpose (*tad-arthīyam*) is likewise named *sat*. In dvaita siddhānta, *sat* here is not a pointer toward non-dual absorption but a mark of ontological alignment with the *svatantra* (independently real, self-sufficient) Hari. Acts of *yajña*, *tapas*, and *dāna* receive the designation *sat* precisely when grounded in *brahma-viṣayatva* — orientation toward Brahman as the sovereign referent — and sustained by *niṣṭhā* (steadfast commitment). Jayatīrtha reads *tad-arthīyam karma* as action whose very purposiveness (*arthīya*) is defined by that Brahman-directedness: the *sac-chabda* (the word *sat*) is thus not predicated of the *jīva* (individual self) in isolation but of the *jīva*'s acts insofar as they express *paratantra* (eternal dependence) on the *svatantra* Lord. No *bheda* (real distinction) between Hari and *jīva* is dissolved by the label; if anything, *sat* confirms the *pañca-bheda* (the five-fold real distinction) by locating all meritorious action in its proper subordinate relation to the independently real. *Bhakti* expressed through ritual, austerity, and giving is *sat* because its terminus is Hari, not because the doer becomes Hari.",
+      "divergence_note": "Madhva himself is silent; the reading draws on Jayatīrtha's *Nyāya-Sudhā* gloss that *sac-chabda* in this verse is explicated through *brahma-viṣayatva* and *niṣṭhā*, and on dvaita *pañca-bheda* and *taratamya* (graded ontological hierarchy) as the governing scheme for interpreting Kṛṣṇa's use of *sat*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -544,7 +546,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac",
+          "abhidhīyate: abhidhā -> abhi-√dhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the term 'sat' can redeem deficient action performed with sraddha, what does this say about the relationship between intention and ritual correctness in Vedic practice?",
@@ -562,5 +575,6 @@
     "suddhadvavita": "Treat your household maintenance — cleaning, cooking, arranging — as acts whose very being (bhavartha) is Krsna. Vallabha's Bhagavata citation suggests that even ordinary domestic acts, when seen as pointed toward the Lord, become part of the chain 'mam vidhatte abhidhatte mam' (all conduct points to Me).",
     "bhakti": "When your livelihood work feels remote from spiritual practice, apply Sridhara's principle: earning income to sustain a household oriented toward Paramatman is tad-arthiyam — still 'sat.' This prevents the false split between 'spiritual' and 'worldly' hours in your day.",
     "advaita-bhakti": "Bring the Madhusudana synthesis to imperfect action: when you complete a task you know was done with mixed motives or partial effort, offer it explicitly — 'Bhagavad-arpana-buddhi' — rather than discarding or being ashamed of it. The name 'sat' has the power to remove karma-vaigunya (action-defect); you do not need to wait for perfect conditions to act."
-  }
+  },
+  "primary_meaning": "Steadiness in sacrifice, austerity, and giving is called *sat*, and any action done for that same purpose is called *sat* as well."
 }

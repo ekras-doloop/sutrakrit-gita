@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "ramate",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "nigacchati",
-      "lemma": "nigam",
+      "lemma": "ni-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -309,8 +309,9 @@
         "jayatirtha_18.36"
       ],
       "score": 0.5,
-      "english_rendering": "The threefold nature of happiness is now declared. Even in Dvaita framework, the happiness that arises from abhyasa (disciplined practice in service to Hari) is categorically distinct from sense pleasure: it requires time, it deepens with repetition, and its result is not temporary relief but the genuine ending of bondage-suffering. The jiva, eternally distinct from and dependent on Vishnu, finds this happiness only through worship aligned with the Lord's will.",
-      "divergence_note": "No Madhva bhashya is attested for this verse in the supplied payload. This rendering is constructed from Madhva's broader Dvaita framework applied to the verse's plain sense."
+      "english_rendering": "*Bharatarṣabha* (bull of the Bharatas), hear from Me now the three kinds of *sukha* (happiness). That in which the *jīva* delights through *abhyāsa* (repeated practice), and which reaches the end of *duḥkha* (suffering) — this is *sāttvika* happiness. For the *paratantra* *jīva*, eternally dependent on *svatantra* Hari, such delight is not self-generated: it arises through disciplined engagement in the Lord's service, deepening with each repetition until bondage-suffering is genuinely extinguished. The *pañca-bheda* (five-fold real distinction) stands throughout — the jīva does not dissolve into the Lord at the end of duḥkha but arrives at its own full, graded enjoyment within *taratamya* (ontological hierarchy), remaining irreducibly distinct. *Abhyāsa* is the operative word: what takes time and repetition is precisely what belongs to sāttvika happiness, not the instant gratification of sense-contact.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta* applied to the mūla: *paratantra* jīva, real *bheda*, and *taratamya* supply the doctrinal content; no bhāṣya Sanskrit can be quoted.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -412,7 +413,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nigacchati: nigam -> ni-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ramate: ram -> √ram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the verse open with 'tu' (but/however) — what contrast is being marked after the prior classification of actions and agents?",
@@ -430,5 +449,6 @@
     "śuddhādvaita": "In Pushti-marga, even the effort of returning to practice is itself Krsna's grace moving through you. When you show up repeatedly to seva or smarana even without immediate joy, you are not straining toward happiness — you are progressively becoming receptive to the Lord's own sukha already present. The 'practice' is really a clearing of the channel.",
     "bhakti": "Sridhara's gloss 'not suddenly like sense pleasure' is a direct practical warning: do not abandon a genuine practice because it does not deliver immediate delight. Sense pleasure gives instant rati and then pain; sattvika sukha gives slow rati and then the end of pain. Patience in practice is not passive waiting — it is the very mechanism.",
     "advaita-bhakti": "Madhusudan's specification that this is 'samadhi-sukha' means the happiness is found in states of inner absorption — meditation, deep contemplative reading, sustained one-pointed attention to the divine. Build even five minutes of genuine absorption into daily life; the cumulative effect is duhkhanta, the structural dissolution of background anxiety, not just momentary calm."
-  }
+  },
+  "primary_meaning": "Now hear from me, Arjuna, the three kinds of happiness: that in which the mind finds delight through practice, and which brings suffering to its end."
 }

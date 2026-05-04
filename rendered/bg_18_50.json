@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "prāptaḥ",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "āpnoti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "nibodha",
-      "lemma": "nibudh",
+      "lemma": "ni-√budh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -726,7 +726,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāptaḥ: prāp -> √prāp",
+          "āpnoti: āp -> √āp",
+          "nibodha: nibudh -> ni-√budh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the relationship between karma-yoga and jnana in this verse — does successful action lead to knowledge, or merely make room for it?",
@@ -744,5 +756,6 @@
     "suddhAdvaita": "Vallabha's reading opens a question: if liberation is available to the living person through Krsna's own prasada, then every moment of genuine delight — in beauty, in music, in the unexpected sweetness of connection — can be received as a small foretaste of that aksara-dwelling. Practice the recognition, not the manufacture, of these moments.",
     "bhakti": "Sridhara's paramahansa has gone beyond prescribed duty but still walks and breathes and teaches. The application for those not yet paramahansas: identify one area of your life where you are performing a duty purely from habit or fear, and ask whether that duty has already run its course. The approach to naiskarma-siddhi begins with honest audit of what is driving each action.",
     "advaita-bhakti": "Madhusudana's arc — worship through svadharma, purification of antahkarana, jnana arising from the purified instrument — is a sequential ladder. The daily application is to treat your work-in-role as the first rung: perform it as clearly and cleanly as possible (the worship rung), and watch whether clarity in action produces even brief intervals of interior quiet (the purification rung). Do not skip rungs."
-  }
+  },
+  "primary_meaning": "Learn from me, Arjuna, how one who has attained perfection reaches Brahman — briefly, this is the highest ground of knowledge."
 }

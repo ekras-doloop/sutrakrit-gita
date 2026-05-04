@@ -208,7 +208,7 @@
     },
     {
       "surface_form": "vettāsi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "future indicative peri 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -314,7 +314,7 @@
     },
     {
       "surface_form": "tatam",
-      "lemma": "tan",
+      "lemma": "√tan",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -553,13 +553,6 @@
       ]
     },
     {
-      "list": "त्वमस्य विश्वस्य परं निधानम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.18"
-      ]
-    },
-    {
       "list": "त्वम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -589,13 +582,6 @@
         "9.17",
         "9.18",
         "11.18"
-      ]
-    },
-    {
-      "list": "परं धाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.12"
       ]
     },
     {
@@ -686,7 +672,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vettāsi: vid -> √vid",
+          "tatam: tan -> √tan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If you are simultaneously the knower (vettā) and the known (vedyam), what does this imply for the classical subject-object structure that underlies most epistemology — can any knowledge-system that assumes a permanent gap between knower and known remain intact after BG 11.38?",
@@ -704,5 +701,6 @@
     "śuddhādvaita": "Notice moments in your day when you are simultaneously the one who is aware (vettā) and the content being noticed (vedyam) — in meditation, in deep listening, in flow states. Vallabha calls this the aksara-nature blazing through. These are not mystical exceptions; they are the default condition noticed at last.",
     "bhakti": "When you encounter someone who seems to have every quality — intelligence, beauty, authority, reach — the verse's seven-reason structure (saptabhiḥ hetubhiḥ) reminds you that those qualities, when totalised and traced to their source, converge in a single ground worthy of prostration. Devotion is not naïve; it is the recognition of convergence.",
     "advaita-bhakti": "When grief or fear collapses the world into a dense, immovable feeling, recall that even that collapse is the world dissolving into its luminous ground (sad-rūpa, sphurana). The dense mass of sat-cit-ānanda is not distant — Madhusūdana says it is the param dhāma already pervading the phenomenal world that feels so heavy. Sit with the heaviness without fleeing it; the dissolution is already the pervasion."
-  }
+  },
+  "primary_meaning": "You are the first god, the ancient person, the universe's highest refuge, its knower and the supreme thing worth knowing, its final home, and you alone pervade it all, O Lord of endless forms."
 }

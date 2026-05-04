@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "gamaḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "past jus 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "upapadyate",
-      "lemma": "upapad",
+      "lemma": "upa-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "uttiṣṭha",
-      "lemma": "utthā",
+      "lemma": "ut-√sthā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -447,7 +447,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uttiṣṭha: utthā -> ut-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gamaḥ: gam -> √gam",
+          "upapadyate: upapad -> upa-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kṛṣṇa calls the grief 'petty' (kṣudra) and 'unmanning' (klaibya) — but Arjuna's grief looks like moral seriousness about killing family. How do we distinguish genuine ethical hesitation from hṛdaya-daurbalya (heart-weakness)?",
@@ -465,5 +484,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga application runs against both stoic and therapeutic framings: the grief was not a mistake, the breakdown was not a failure of discipline, and the recovery is not a matter of gathering resolve. Kṛṣṇa called it kaśmala (impurity or occlusion) because in Śuddhādvaita the true self is śuddha-svarūpa (pure in its essential form) and the grief was simply an interruption of the natural flow of being in Kṛṣṇa's current (pravāha). The practical application is to treat the low moment — the inability to function, the loss of ojas — not as a character deficiency to be corrected but as a temporary occlusion of puṣṭi (divine nourishment) to be recognized and released. The path back is not effort but receptivity: returning attention to the source of the current rather than analyzing the interruption.",
     "bhakti": "Śrīdhara's balanced application is the most directly usable in professional or civic contexts: the two epithets work as a two-step reality check. First, Pārtha — name your constituted capacity, the one that your lineage, training, and actual track record confirm. Second, Paraṃtapa — name the specific capability you are known for that is directly relevant to the present moment. The verse's structure suggests that the hṛdaya-daurbalya is often context-specific: a person is not globally weak, they are weak in this moment, for this decision. Locating the weakness as kṣudra (small, specific, not structural) and then naming the counter-capacities that are already present is sufficient. The action follows from the naming.",
     "advaita-bhakti": "Madhusūdana's synthesizing application is most useful when the paralysis has two simultaneous roots — philosophical confusion about what is real and an emotional collapse of ojas and tejas (vital and luminous energy). He treats both as simultaneously real and simultaneously addressable by a single instrument: viveka (discrimination), applied not as cold analysis but as the act of setting aside (apanīya) what has been identified as kṣudra. In practice this means: when you cannot act, first name what exactly has broken down (is it certainty about outcomes? fear of being seen? loss of narrative coherence?), then apply the specific discrimination that fits that disruption rather than a generic motivational overlay. The rising (uttistha) follows naturally from the seeing — the body responds when the mind has done the right diagnostic work rather than the wrong self-motivating work."
-  }
+  },
+  "primary_meaning": "Don't yield to unmanliness, Partha, for it doesn't suit you. Cast off this petty weakness of heart and rise, scorcher of foes."
 }

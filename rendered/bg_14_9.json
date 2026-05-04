@@ -60,7 +60,7 @@
     },
     {
       "surface_form": "saṃjayati",
-      "lemma": "saṃji",
+      "lemma": "saṃ-√ji",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -227,7 +227,7 @@
     },
     {
       "surface_form": "saṃjayati",
-      "lemma": "saṃji",
+      "lemma": "saṃ-√ji",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -559,13 +559,6 @@
         "14.17",
         "15.15"
       ]
-    },
-    {
-      "list": "न कर्मस्वनुषज्जते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.4"
-      ]
     }
   ],
   "audit_trail": {
@@ -595,7 +588,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃjayati: saṃji -> saṃ-√ji",
+          "saṃjayati: saṃji -> saṃ-√ji"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the three qualities (guna-traya) always coexist in every person, what determines which one 'wins' at any given moment — and can that outcome be influenced by deliberate practice?",
@@ -613,5 +617,6 @@
     "suddhadvita": "In Pustimarga bhakti, even the sweetness of kirtana (devotional singing) can become a sattvic attachment if the pleasure of the experience is what one seeks rather than Krishna Himself. The teaching is to let Krishna's prasada dissolve the seeking altogether — including the seeking for pleasant devotional states.",
     "bhakti": "When a teacher or mentor is speaking and the mind wanders to unrelated concerns (phone, fatigue, tomorrow's tasks), that is tamas-as-pramada in operation — covering the jnana that is being offered in real time. The practical corrective is to return attention to the teaching as an act of deliberate reverence (adara), not willpower.",
     "advaita-bhakti": "Notice the three-quality rhythm across a single day: morning clarity that gravitates toward pleasant reflection (sattva), afternoon restlessness that converts every task into another task (rajas), evening heaviness that makes even known obligations feel unreachable (tamas). Naming the quality operating — without judgment — is the first move toward the witness-position where Krishna-bhakti and Advaita-jnana meet."
-  }
+  },
+  "primary_meaning": "Sattva binds you to pleasure, rajas to restless action, and tamas, covering your discernment, binds you to heedlessness and inertia."
 }

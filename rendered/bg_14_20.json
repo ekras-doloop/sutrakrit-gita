@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "vimuktaḥ",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "aśnute",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -438,7 +438,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vimuktaḥ: vimuc -> vi-√muc",
+          "aśnute: aś -> √aś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What exactly is being 'transcended' — do the gunas disappear, or does the relationship to them change? Each school answers differently: is the change ontological (the gunas are unreal), relational (the jiva sees through them), or dispositional (Hari acts, not I)?",
@@ -456,5 +467,6 @@
     "suddhadvita": "Vallabha's Pushti-mārga reframes the daily texture of life as Krishna's lila-prasada. Even the gunas — the irritability of rajas in a difficult meeting, the dullness of tamas on a low-energy morning — are His play unfolding. The practice is not to transcend them by effort but to receive each state as prasada, which paradoxically loosens their grip. When you can meet tamas with 'this too is His gift to be offered back,' you have entered brahma-sukha — the bliss that is not earned.",
     "bhakti": "Śrīdhara's teaching is that viveka (discriminative clarity) is bhakti's sharpest tool. In everyday life this means naming what guna is operating: 'this anxiety is rajas; this clarity is sattva; this avoidance is tamas.' Not as judgment but as precise seeing. The devotee who can name the guna at play is already not wholly inside it — and that distance is the beginning of the brahmananda Śrīdhara promises. Keep a brief daily log: which guna dominated each major decision or mood today?",
     "advaita-bhakti": "Madhusudana's synthesis offers a two-register practice: use tattva-jnana (clear discernment that the gunas are maya-atmaka, constructed of illusion) to achieve present-moment freedom — tat-sambandha-shunya, emptiness of guna-association — while keeping alive the devotional aspiration that matures into mad-bhavam 'at the end.' In practice: when stress hits, apply the Advaita sublation ('this is maya-constructed, not my nature'); in quiet moments, nourish the bhakti aspiration ('may I ripen toward Krishna's own state'). Both moves belong together."
-  }
+  },
+  "primary_meaning": "When the embodied soul rises above all three *guṇas*, the very forces that generate bodily birth, it is freed from the cycle of birth, death, old age, and sorrow, and tastes immortality."
 }

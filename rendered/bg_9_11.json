@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "avajānanti",
-      "lemma": "avajñā",
+      "lemma": "ava-√jñā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "mūḍhāḥ",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "āśritam",
-      "lemma": "āśri",
+      "lemma": "√āśri",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "jānantaḥ",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -342,13 +342,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.34"
-      ]
-    },
-    {
       "list": "परं भावम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -383,7 +376,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avajānanti: avajñā -> ava-√jñā",
+          "mūḍhāḥ: muh -> √muh",
+          "āśritam: āśri -> √āśri",
+          "jānantaḥ: jñā -> √jñā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes avajñā (active contempt) from mere agnosticism about Kṛṣṇa's divinity — does the verse condemn those who simply do not know, or specifically those who see and dismiss?",
@@ -401,5 +407,6 @@
     "śuddhādvaita": "Vallabha's ānanda-mātra body means that sensory delight in Kṛṣṇa's form — color, movement, sound — is not a lesser gateway but the direct path; the mūḍha's error is precisely in treating the visible as merely visible, as inert matter. The Puṣṭi-mārga sādhaka is trained to receive the rasa (aesthetic-emotional essence) of the divine form as prasāda — not to look through it toward an abstract beyond, but to rest in the fullness of what is offered. Everyday implication: receive beauty as bhagavad-datta (given by Bhagavān), not as distraction.",
     "bhakti": "Śrīdhara's point is structural: the śuddha-sattva body assumed at the bhakta's desire means Kṛṣṇa's human-seeming form is a responsiveness, not a limitation. The practical implication for bhaktas: the form of the Lord you are drawn to — whether child, cowherd, teacher, king — is shaped by your own longing; honor that responsiveness by bringing your full attention rather than treating it as a consolation prize for those who cannot handle formless brahman.",
     "advaita-bhakti": "Madhusūdana's double register — ānanda-ghana ātman AND bhakty-anugraha vehicle — points to a practice of holding both simultaneously: in meditation, the formless infinite; in worship and relationship, the gracious particular form. The covered antaḥkaraṇa is cleared by both jñāna (recognition of the infinite) and bhakti (grateful reception of the particular) — letting either collapse into the other reproduces the mūḍha's error from the opposite side. Daily: do not use your non-dualism to avoid gratitude, and do not use your devotion to avoid clear seeing."
-  }
+  },
+  "primary_meaning": "Fools see only a human body and miss the supreme reality within, not knowing that Krishna is the great lord of all beings."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -225,7 +225,7 @@
     },
     {
       "surface_form": "bravīṣi",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -465,34 +465,6 @@
       ]
     },
     {
-      "list": "दिव्य पुरुष",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.12"
-      ]
-    },
-    {
-      "list": "परं ब्रह्म परं धाम पवित्रं परमं भवान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.12"
-      ]
-    },
-    {
-      "list": "पवित्राणां पवित्रं यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.12"
-      ]
-    },
-    {
-      "list": "पुरुषं शाश्वतं दिव्यमादिदेवमजं ৷৷ स्वयं चैव ब्रवीषि मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.12"
-      ]
-    },
-    {
       "list": "शाश्वत",
       "role": "supporting",
       "other_verses_in_list": [
@@ -586,7 +558,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āhuḥ: ah -> √ah",
+          "bravīṣi: brū -> √brū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What work does a convergent witness-chain (human seers + divine seers + Kṛṣṇa himself) actually do? Is Arjuna building a case, expressing wonder, or doing something else entirely?",
@@ -603,5 +586,6 @@
     "śuddhādvaita": "When gratitude arises — after a near-miss, a creative breakthrough, an unexpected kindness — let it arrive whole rather than routing it through analysis. Vallabha's reading says even the great seers' testimony is an outflowing of Kṛṣṇa's own self-disclosure (vibhūti). In practice: when many good things converge at once, receive that confluence as prasāda (unearned grace), not as your earned result. The witnesses are the gift, not the explanation.",
     "bhakti": "Śrīdhara's sākṣāt (directly) points at an experiential fact: there is a qualitative difference between hearing truth reported and receiving it in direct exchange. When a teacher, a text, or a practice speaks to you in a way that bypasses the usual filtering and lands immediately — honour that. Do not reduce it to information. That directness is the devotional register of this verse in daily life.",
     "advaita-bhakti": "Madhusūdana's synthesis: hold both the infinite (ananta-mahimānam — boundless majesty) and the intimate ('bravīṣi me' — speaks to me) without collapsing one into the other. In practice, cultivate relationships where the person's full depth is neither reduced to their usefulness nor kept at the distance of reverence. Let what is vast remain vast; let what is personal remain personal. That double-hold is the advaita-bhakti posture in any serious relationship."
-  }
+  },
+  "primary_meaning": "All the great seers say it, Nārada and Asita and Devala and Vyāsa, and you yourself now say it to me directly."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "praśānta",
-      "lemma": "praśam",
+      "lemma": "pra-√śam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "upaiti",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "śānta",
-      "lemma": "śam",
+      "lemma": "√śam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "bhūtam",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -284,8 +284,9 @@
         "jayatirtha_6.27"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse. The rendering below is constructed from Dvaita doctrinal commitments applied to the verse's vocabulary. The yogin who is praśānta-manas and akalmaṣa comes to utter dependence on Hari; brahma-bhūtam in Dvaita idiom means Brahman-reflected — not identity — since the jīva remains eternally and essentially distinct (nitya-bheda). Supreme happiness is therefore the bliss of Hari-sāyujya (proximity-without-merging), never self-sufficient.",
-      "divergence_note": "ABSENT — Madhvācārya's commentary for BG 6.27 is not present in the corpus ('Sri Madhvacharya did not comment on this sloka'). Dvaita reading is inferred from doctrinal position; not anchored in a primary bhāṣya for this verse."
+      "english_rendering": "*Sukham uttamam* (supreme happiness) comes to this *yogin* — *praśānta-manasaṃ* (of wholly stilled mind), *śānta-rajasaṃ* (with passion quieted), *brahma-bhūtam* (Brahman-become), *akalmaṣam* (stainless). In the Dvaita reading, *brahma-bhūtam* cannot mean identity with Brahman: the *jīva* remains *paratantra* (eternally dependent), ontologically subordinate to *svatantra* Hari across all states. 'Brahman-become' names the *jīva*'s fullest realization of its own Brahman-reflective nature — luminous, purified, *akalmaṣa* — not a dissolution of *bheda* (real distinction) but its consummation. The *sukham uttamam* is the bliss of Hari-proximity, a beatitude received from Hari's grace, never self-generated. *Śānta-rajas* marks the erasure of the *rajas*-driven impulse that sustains *saṃsāra*; once *rajas* is stilled and the mind *praśānta*, the *jīva* is fit vessel for that supreme happiness to arrive — *upaiti*, it comes to him. The movement is receptive, not self-sufficient: happiness approaches the purified *paratantra* *jīva* because Hari, the *svatantra* ground of all *sukha*, grants it.",
+      "divergence_note": "No bhāṣya by Madhva or Jayatīrtha on BG 6.27. Reading drawn from Dvaita *siddhānta*: *pañca-bheda*, *taratamya*, and the doctrine that *brahma-bhūtam* names Brahman-reflection in the *jīva*, not *tādātmya* (identity). The receptive grammar of *upaiti* — happiness arrives — aligns with the *paratantra* character of the *jīva*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -438,7 +439,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "praśānta: praśam -> pra-√śam",
+          "upaiti: upe -> √upe",
+          "śānta: śam -> √śam",
+          "bhūtam: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If supreme happiness (sukham uttamam) 'arrives' rather than being achieved — what does this imply about the relationship between effort and grace in spiritual practice? Does the verse resolve that tension or deepen it?",
@@ -456,5 +470,6 @@
     "śuddhādvaita": "Vallabha's frame inverts the usual productivity logic: instead of optimizing for outputs, optimize for emptying — release attachment to results until the vessel is clear. The experience this opens is not blankness but prasāda, a quality of joy that feels received rather than manufactured. Practically: end each day by explicitly releasing the outcomes you were gripping, and notice what quality of awareness remains.",
     "bhakti": "Śrīdhara's emphasis on repetition (punaḥ punar — again and again) and samādhi-sukha reframes what meditation is for. The goal is not a single breakthrough but cumulative rajas-reduction through consistent return to the breath or mantra whenever the mind wanders. Each return is not failure-recovery; it is the practice itself. The happiness that eventually arrives spontaneously (svayam eva) is the compound interest of those returns.",
     "advaita-bhakti": "Madhusūdana's tri-guṇa map gives a diagnostic: when you feel distracted and hyperactive, rajas is dominant; when you feel dull, heavy, and avoidant, tamas is dominant. The practice is to name which one is operating — precisely, without moral judgment — and apply the right counter. Rajas calls for slowing and grounding; tamas calls for light, movement, and inquiry. The verse's promise (supreme happiness) becomes accessible only when both are addressed, not just the one you notice first."
-  }
+  },
+  "primary_meaning": "Supreme happiness comes on its own to the yogin whose mind is stilled, whose restlessness has quieted, who stands free of stain, established in Brahman."
 }

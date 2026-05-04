@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "nigacchati",
-      "lemma": "nigam",
+      "lemma": "ni-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "pratijānīhi",
-      "lemma": "pratijñā",
+      "lemma": "prati-√jñā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -296,7 +296,7 @@
     },
     {
       "surface_form": "praṇaśyati",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -599,13 +599,6 @@
         "12.15",
         "12.16"
       ]
-    },
-    {
-      "list": "भक्तोऽसि मे सखा चेति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.3"
-      ]
     }
   ],
   "audit_trail": {
@@ -635,7 +628,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nigacchati: nigam -> ni-√gam",
+          "pratijānīhi: pratijñā -> prati-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū",
+          "praṇaśyati: praṇaś -> pra-√ṇaś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If bhajana (worship) can uproot even deep-seated bad conduct swiftly — what does this say about the relationship between intention and character formation? Is svarūpa-bhajana a shortcut, or is it a different causal order altogether?",
@@ -653,5 +666,6 @@
     "śuddhādvaita": "Vallabha's reading is for those who feel disqualified — by background, education, social position, or past actions — from serious spiritual practice. The verse names jāti-pāpa (the sin attached to birth-position) as a real obstruction, then says it is uprooted by bhajana's power. If you have inherited a context (family, culture, addiction-pattern, economic precarity) that seems to block your path, Vallabha says: your very connection to Kṛṣṇa — however it began — is the redemptive mechanism. The application is simply: begin where you are, in whatever form you have access to.",
     "bhakti": "Śrīdhara's reading carries a public-testimony dimension: there are moments when a spiritual truth needs to be spoken aloud — not for the speaker's benefit but for others who are hesitating. If you know someone in genuine distress who believes their past conduct disqualifies them from grace, Śrīdhara's Arjuna raises his arm in open assembly and says: 'A devotee of the Supreme does not perish — I guarantee it.' The everyday application is: be willing to be a vocal witness to redemptive possibility in contexts where 'karka-tarka' (harsh skepticism) dominates.",
     "advaita-bhakti": "Madhusūdana's synthesizing reading is useful when you encounter the gap between your spiritual aspiration and your actual conduct — and that gap does not close as fast as you expected. His reading says: the sam-yag-vyavasāya (right, whole-hearted determination) is already operative even before the conduct has changed; viṣaya-bhoga-spṛhā-nivṛtti (the cessation of craving for objects) comes through ati-nirveda (utter dispassion) that the determination itself generates. The practical implication: do not wait for clean conduct before making the determination whole-hearted. The determination is causally prior — and Madhusūdana's list of exemplars (Ajāmila, Prahlāda, Dhruva, Gajendra) shows that the protection has never required a clean record."
-  }
+  },
+  "primary_meaning": "Even a person of vile conduct swiftly becomes righteous and reaches lasting peace when they worship with genuine devotion, for Krishna's bhakta does not perish."
 }

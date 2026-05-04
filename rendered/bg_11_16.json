@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -525,7 +525,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paśyāmi: dṛś -> √dṛś",
+          "paśyāmi: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What does it mean to perceive something that has no beginning, middle, or end — is Arjuna experiencing a limit of perception, a limit of cognition, or a direct encounter with genuine infinity?",
@@ -543,5 +554,6 @@
     "śuddhādvaita": "Vallabha's 'kūṭasthatvāt' — because of immutability — invites a counter-intuitive practice: when you feel most overwhelmed by multiplicity (infinite demands, infinite perspectives, infinite obligations), locate the one thing in you that is not shaped by any of it. Kūṭastha means 'standing at the anvil' — the anvil takes every blow and remains itself. That still point is available; you are looking for it under the wrong name.",
     "bhakti": "Śrīdhara's sarvagatatva (all-pervadingness) means the Divine has no blind spot, no location where it is absent. The practical consequence: there is no context — workplace crisis, family conflict, physical pain — in which the resource you are drawing on is unavailable. It does not have edges. You are not running toward it from a distance; you are already inside it, unable to see its walls because there are none.",
     "advaita-bhakti": "Madhusūdana notices that Arjuna loses syntactic control (atisambhrama) and piles up epithets. This is a permission structure, not a failure: there are moments of genuine encounter — with beauty, with grief, with overwhelming love — when precise language is the wrong tool. The two vocatives tumbling over each other are more accurate than a well-formed sentence would have been. Recognize when your over-articulation is a defense against the real thing."
-  }
+  },
+  "primary_meaning": "I see you everywhere at once, Lord of the universe, your arms and bellies and faces and eyes beyond counting, your form without end, without middle, without beginning."
 }

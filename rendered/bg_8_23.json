@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "prayātāḥ",
-      "lemma": "prayā",
+      "lemma": "pra-√yā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "vakṣyāmi",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -492,7 +492,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prayātāḥ: prayā -> pra-√yā",
+          "yānti: yā -> √yā",
+          "vakṣyāmi: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the bright and dark paths are defined by presiding deities rather than by clock-time, what does it mean for a practitioner today who has no access to the Vedic ritual fire-worship that feeds Agni — the first deity on the bright path?",
@@ -510,5 +522,6 @@
     "śuddhādvaita": "Vallabha's practitioner cultivates mahimā-jñāna (knowledge of Kṛṣṇa's greatness) as the primary everyday practice — not ritual correctness or metaphysical inquiry, but a sustained, joyful recognition of Kṛṣṇa's pervasion in each moment. Practically: beauty, music, tasting of prasāda, and even ordinary domestic care are offered as expressions of that recognition. The bright path is not an exit route to be prepared for; it is the texture of a life lived inside Kṛṣṇa's līlā. The verse motivates daily consciousness of 'am I acting as an arthārthī (seeker of personal ends) or as a mahimā-jñānin?'",
     "bhakti": "Śrīdhara's balanced reading makes the two paths a template for self-audit. The practitioner asks at the end of each day: which upāsanā (act of devotion or worship) was directed toward paramareśvara (the supreme Lord) without personal expectation, and which was driven by pūrta-karma (meritorious works expecting reward)? The former accumulates the pattern that aligns one with the devayāna; the latter accumulates āvṛtti-karma. Practically: even small ritual acts — morning prayer, charitable giving — are categorized not by their outer form but by the inner quality of expectation, making ordinary piety a continuous path-audit.",
     "advaita-bhakti": "Madhusūdana's krama-mukti (gradual liberation) teaching offers a generous framework: even imperfect upāsanā (qualified worship) that does not reach full samyag-darśana still carries the practitioner progressively toward liberation across multiple existences without reversal. Practically: this removes the high-stakes anxiety of 'am I advanced enough?' Each sincere act of upāsanā is a step on a one-directional arc. The everyday application is to maintain consistency of devotional practice rather than depth-testing one's metaphysical attainment — the direction of travel matters more than the current altitude."
-  }
+  },
+  "primary_meaning": "I will tell you, Arjuna, the times of departure by which yogins go forth to non-return, and those by which they return."
 }

@@ -223,7 +223,7 @@
     },
     {
       "surface_form": "kurvanti",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -520,16 +520,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "3.30",
-        "4.12",
-        "6.3"
-      ]
-    },
-    {
       "list": "कर्म कुर्वन्ति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -592,7 +582,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kurvanti: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If body, mind, intellect, and senses are all enumerated separately, is the verse claiming that the ordinary person uses these instruments with possessiveness at each level — and that liberation means denaturalizing ownership at every layer?",
@@ -610,5 +610,6 @@
     "śuddhādvaita": "Vallabha's naming of śravaṇa, darśana, and kīrtana as the primary forms of karma suggests that the devotional arts — attending a concert, visiting a temple, singing with a community — are not leisure supplements to 'real' practice but are themselves the highest form of the action this verse describes. The everyday application is to stop treating these activities as optional and treat them as the structural non-negotiables of the week, performed without the agenda of measurable spiritual progress.",
     "bhakti": "Śrīdhara's framing of the verse as mokṣa-hetu (cause of liberation) through citta-śuddhi (mind-field purification) implies that the practitioner should monitor the quality of the mind that emerges from action, not the action itself. After completing any project — professional, domestic, creative — ask: is the mind lighter or more contracted? Lightness is the empirical signal that the action was performed with the right orientation. Use this as a real-time calibration tool, not a post-hoc rationalization.",
     "advaita-bhakti": "Madhusūdana holds both poles: the act is offered to Kṛṣṇa (devotional form) AND the doer dissolves the sense of mine (non-dual underpinning). In practice this means that any sincere engagement with beauty — music, literature, craftsmanship — can serve as the operative form: bring full technical rigor (the intellect, the senses, the body fully engaged) while holding the outcome loosely as an offering. Neither sloppiness in the name of detachment nor obsession in the name of excellence — the synthesis is skilled action with a permeable boundary around 'my result.'"
-  }
+  },
+  "primary_meaning": "Yogins act through body, mind, intellect, and senses as bare instruments, without claiming ownership of the results, and so purify themselves."
 }

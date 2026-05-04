@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "avasthitān",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -386,7 +386,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avasthitān: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the text name Arjuna 'kauṇteya' (son of Kuntī) at the precise moment of emotional collapse — what does the matrilineal address signal about the nature of the grief being disclosed?",
@@ -404,5 +414,6 @@
     "śuddhādvaita": "When a life situation renders you suddenly incapable — grief, shock, the moment your careful plan collapses — Vallabha's Puṣṭi-mārga reading offers a reframe: this radical vulnerability may be precisely what is being arranged so that something you could not have received in your competent state can now enter. The practice is not to fight the collapse or to analyze it immediately, but to stay in it long enough to notice whether something is being offered through it — the prasāda that arrives in the space opened by kāraṇā.",
     "bhakti": "Śrīdhara's viṣīdan — 'viśeṣeṇa sīdan,' specially sinking — names a recognizable experience: the moments when you are not generically sad but specifically unmade by a particular face, a particular memory, a particular person standing exactly where they are standing. The bhakti-philological practice is to name the specificity precisely rather than managing it into a general category of 'stress' or 'difficulty.' Emotional accuracy (calling avasāda what it is, glāni what it is) is both intellectually honest and spiritually preparatory: you cannot receive teaching addressed to a vague condition.",
     "advaita-bhakti": "Madhusūdana's observation that Arjuna's second compassion — for the enemy — arose spontaneously, without deliberate cultivation, points to a quality worth tracking in your own life: the moment when care for those outside your circle arrives unbidden, as something svataḥ-siddha (self-arisen). When that happens, Madhusūdana would say, do not immediately judge it as sentimentality or strategic error; notice its source. The capacity to feel genuine kṛpā for someone positioned as your adversary is not a confusion of dharma but a signal that your inner ground is wider than your current role — and it is from that widened ground that the most discerning action eventually becomes possible."
-  }
+  },
+  "primary_meaning": "Arjuna, son of Kuntī, looked across both armies and saw his fathers-in-law, dear friends, and all his kinsmen standing there."
 }

@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "anupaśyati",
-      "lemma": "anupaś",
+      "lemma": "anu-√dṛś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "saṃpadyate",
-      "lemma": "sampad",
+      "lemma": "sam-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -421,7 +421,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anupaśyati: anupaś -> anu-√dṛś"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃpadyate: sampad -> sam-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the multiplicity I see daily — different people, different capacities, different fates — all arise from a single root (prakrti), does that change how I assign blame and credit to individuals, including myself?",
@@ -439,5 +457,6 @@
     "śuddhādvaita": "When you catch yourself taking ownership of a creative breakthrough — 'I made this' — notice the Vallabha move: the infinitesimal cit-atman is a real amsa (portion) of Purushottama, and the breakthrough is Purushottama's play flowing through that amsa. This is not self-erasure: your particularity is real and Krishna delights in it. Dedicate the act not as a renunciatory gesture but as a returning of what was always his.",
     "bhakti": "The next time you feel trapped by a role — parent, employee, dutiful child — ask Sridhara's question: is the sense of compulsion arising from the actual atman, or from body-mind identification (deha-abhimana) that has accumulated over years? You cannot answer the question in the abstract. Sit with a specific moment of felt compulsion and trace whether there is an observing presence that is not itself compelled.",
     "advaita-bhakti": "When you witness suffering — your own or another's — and the mind wants someone to blame (the person, fate, God), Madhusudana's frame offers a third position: the machinery producing this outcome is Bhagavan's maya, not a clerical error or a punishment. That does not make suffering unreal or action unnecessary. It means the response can come from clarity rather than from the reactive system that identifies suffering as a verdict on personhood. Act, but act from the space that recognizes the whole field as the Lord's self-expression."
-  }
+  },
+  "primary_meaning": "When you see that all the variety of beings rests in one ground, and that all its branching spread comes from that ground alone, you become Brahman."
 }

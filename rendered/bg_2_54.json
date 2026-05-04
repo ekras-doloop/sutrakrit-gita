@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "labdha",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -239,7 +239,7 @@
     },
     {
       "surface_form": "sthita",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -354,7 +354,7 @@
     },
     {
       "surface_form": "sthita",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -378,7 +378,7 @@
     },
     {
       "surface_form": "prabhāṣeta",
-      "lemma": "prabhāṣ",
+      "lemma": "pra-√bhāṣ",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -652,7 +652,23 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "labdha: labh -> √labh",
+          "uvāca: vac -> √vac",
+          "uvāca: vac -> √vac",
+          "sthita: sthā -> √sthā",
+          "sthita: sthā -> √sthā",
+          "prabhāṣeta: prabhāṣ -> pra-√bhāṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Arjuna ask for bhāṣā — a linguistic/identifying mark — rather than simply asking 'who is a wise person?' What does the choice of this word reveal about what he thinks wisdom actually is?",
@@ -670,5 +686,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga application: notice the moments when you feel most naturally yourself — neither performing competence nor suppressing feeling, simply present and alive. That state is the samādhi Arjuna is asking about, Kṛṣṇa's prasāda already operative in you. The everyday practice is to recognise these moments as you move through them rather than only in retrospect, so that gradually anuṣṭhāna-prakāra (the mode of living that flows from grace) becomes visible to you in real time rather than only in quiet reflection.",
     "bhakti": "Śrīdhara's jijñāsu framing invites a specific daily discipline: begin any study or important conversation by explicitly naming what you want to understand, as Arjuna does here. The act of formulating a real question — not a rhetorical question, not a test, but a genuine inquiry into someone's lakṣaṇa — transforms the encounter from information exchange into a relationship. In bhakti practice this is literal: approach the text, the teacher, the interlocutor with 'I am here to understand what marks this truth, not merely to collect data about it.'",
     "advaita-bhakti": "Madhusūdana's two-state model (samādhi and vyutthita) gives a practical diagnostic for your own inner life: notice when you are genuinely absorbed (thoughts quiet, presence full) versus when the mind has 'emerged' and is managing stimuli. The advaita-bhakti application is to treat Kṛṣṇa — your own deepest intelligence, the sarvāntaryāmin — as the one you are really addressing in both states, not only in formal meditation. The question 'kiṃ āsīta vrajeta kiṃ' (how do you sit, how do you move?) becomes a continuous inquiry into whether your daily locomotive and relational life is oriented from that absorbed centre or from reactive mental management."
-  }
+  },
+  "primary_meaning": "Arjuna asks: what marks a person of steady wisdom, Keśava, one whose mind rests in samādhi? How does such a person speak, sit, and move?"
 }

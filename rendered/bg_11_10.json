@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "udyata",
-      "lemma": "udyam",
+      "lemma": "ud-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -355,13 +355,6 @@
       "other_verses_in_list": [
         "11.11"
       ]
-    },
-    {
-      "list": "सर्वाश्चर्यमयं देवमनन्तं विश्वतोमुखम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.11"
-      ]
     }
   ],
   "audit_trail": {
@@ -391,7 +384,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "udyata: udyam -> ud-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you encounter something that exceeds your capacity to enumerate — a great city, a catastrophe, a life's worth of relationships — what does the mind do with the surplus? Does it collapse the multiplicity into a single label, or does it hold the aneka (many-ness) open?",
@@ -409,5 +412,6 @@
     "śuddhādvaita": "When you encounter something vast and bewildering — a policy document, an organizational chart, a city's infrastructure — try Vallabha's move: decode its ornaments. What are the 'Vedic meters' (structural rhythms) underneath? What are the 'five elements' (basic forces) at work? Every complex system has a cosmological grammar; prasāda comes when you can read it.",
     "bhakti": "Set aside five minutes to sit with something beautiful and simply let the wonder (vismaya) accumulate without explaining it. Śrīdhara's restraint is a practice: resist the impulse to label the adbhuta (wondrous), to post it, to narrate it. Let the form be aneka — irreducibly multiple — and feel what that does to the one who is watching.",
     "advaita-bhakti": "The next time something fills you with genuine astonishment (vismaya-hetu) — a child's question, an unexpected kindness, a mathematical proof — treat that astonishment as a jñāna-doorway rather than a distraction. Madhusūdana's insight: the feeling of wonder is not separate from understanding; it is the moment the ordinary frame breaks open. Stay in it one beat longer than is comfortable."
-  }
+  },
+  "primary_meaning": "The form Arjuna sees has countless mouths and eyes, wondrous sights on every side, divine ornaments without number, and weapons raised and gleaming throughout."
 }

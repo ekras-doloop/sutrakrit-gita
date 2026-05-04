@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "sīdanti",
-      "lemma": "sad",
+      "lemma": "√sad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "pariśuṣyati",
-      "lemma": "pariśuṣ",
+      "lemma": "pari-√śuṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "jāyate",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -245,7 +245,9 @@
         "anandgiri_1.29"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya did not comment on BG 1.29; his bhāṣya opens at 2.10. Reading from the mūla alone: the body's collapse — limbs sinking (sīdanti gātrāṇi), mouth parching, trembling (vepathus), and piloerection (romaharṣa) — are the Advaita reader's first empirical exhibit of ajñāna operating through the upādhi (limiting adjunct) of the body. These symptoms announce that Arjuna has mistaken the deha (body) for the ātman, the foundational error that will make jñāna-upadeśa necessary."
+      "english_rendering": "*Sīdanti mama gātrāṇi mukhaṃ ca pariśuṣyati | vepathuś ca śarīre me romaharṣaś ca jāyate* — the limbs sink, the mouth parches, trembling (*vepathus*) seizes the body, and *romaharṣa* (piloerection) arises. Each symptom belongs to the *upādhi* (limiting adjunct) of the gross body, not to the *ātman* (the self), which is untouched, changeless, and without limbs to sink or mouth to parch. That Arjuna registers these as *his* afflictions — *mama gātrāṇi*, *śarīre me* — is itself the first visible signature of *adhyāsa* (superimposition): the non-self, the *deha* (body), is taken as self. *Ajñāna* (ignorance), operating through identification with this *upādhi*, generates the entire cascade — distress, trembling, grief — because where non-dual *ātman* alone is real, no such collapse could touch the knower. The *viṣāda* (despondency) of this chapter is not an obstacle external to Arjuna's spiritual path but a dramatic disclosure of the *avidyā* (ignorance of the self) that must be burned by *jñāna-niṣṭhā* (steady establishment in knowledge). Śrī Kṛṣṇa's subsequent *upadeśa* (teaching) is necessitated precisely here, where the body's symptoms expose the *adhyāsa* most nakedly.",
+      "divergence_note": "Ānandagiri (1.29) classifies *vepathus* and *romaharṣa* as *bhīti-liṅga* (signs of fear), distinguishing them from the *śoka-liṅga* (signs of grief) of the preceding verse. The advaita siddhānta reading absorbs both categories under *adhyāsa*: fear and grief alike presuppose body-identification, and their differentiation is secondary to that shared root.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -339,30 +341,6 @@
       ]
     },
     {
-      "list": "दृष्ट्वा तु पाण्डवानीकम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30"
-      ]
-    },
-    {
-      "list": "दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30"
-      ]
-    },
-    {
-      "list": "दृष्ट्वेमं स्वजनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "2.11"
-      ]
-    },
-    {
       "list": "पाण्डवाः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -434,53 +412,11 @@
       ]
     },
     {
-      "list": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30",
-        "18.78"
-      ]
-    },
-    {
-      "list": "युयुत्सुं समुपस्थितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30"
-      ]
-    },
-    {
-      "list": "व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30"
-      ]
-    },
-    {
       "list": "शरीरे",
       "role": "supporting",
       "other_verses_in_list": [
         "2.20",
         "11.13"
-      ]
-    },
-    {
-      "list": "समवेता युयुत्सवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.1",
-        "1.28",
-        "1.30"
-      ]
-    },
-    {
-      "list": "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.30"
       ]
     },
     {
@@ -521,7 +457,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sīdanti: sad -> √sad",
+          "pariśuṣyati: pariśuṣ -> pari-√śuṣ",
+          "jāyate: jan -> √jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the body's collapse (trembling, burning, falling bow) is the first honest signal in the Gītā, what does that say about the relationship between physiological truth and spiritual readiness?",
@@ -539,5 +487,6 @@
     "śuddhādvaita": "When every strategy you have tried fails simultaneously — career, relationship, health, plan all breaking at once — Vallabha's reading suggests that this is not punishment but preparation. Puṣṭi-mārga asks: what false āśraya (refuge) has been cleared by this collapse? Make a literal list. The clearing is Kṛṣṇa's work; what remains after every worldly refuge is removed is the only refuge that was never contingent. The spinning mind (bhramatīva) is the last symptom before grace becomes receivable.",
     "bhakti": "Śrīdhara's four-symptom vocabulary — trembling, piloerection, falling grip, burning skin — offers a practical self-assessment protocol before any high-stakes action. Name each symptom separately rather than labeling the whole state 'anxiety' or 'fear.' Which signal is loudest? Trembling (instability of ground) calls for a different response than skin-burning (inner anguish about harm). Specific naming opens specific response; the bhakti tradition's precision with inner states is itself a discipline, not merely description.",
     "advaita-bhakti": "Madhusūdana's mapping — Gāṇḍīva falling as the exterior sign of interior adhairya (failure of steadiness) — offers a precise life-practice: track the moment your primary instrument (your voice in a conversation, your pen at a desk, your hands at a craft) becomes unreliable, and read that as the surface signal of a deeper inner burning (antaḥsantāpa). The question is not 'why did my hand shake?' but 'what is the inner fire that the shaking skin is reporting?' Answering that deeper question with both Advaita honesty (this is ignorance) and bhakti warmth (Kṛṣṇa is already present here) is the synthesis Madhusūdana is modeling."
-  }
+  },
+  "primary_meaning": "My limbs are giving way, my mouth is parching, trembling runs through my body, and my hair stands on end."
 }

@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "bhavet",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "utthitā",
-      "lemma": "utthā",
+      "lemma": "ut-√thā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "syāt",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -416,7 +416,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavet: bhū -> √bhū",
+          "utthitā: utthā -> ut-√thā",
+          "syāt: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gītā use a quantitative comparison (a thousand suns) to point at something it immediately declares unquantifiable — what does this rhetorical self-defeat accomplish?",
@@ -434,5 +446,6 @@
     "śuddhādvaita": "Vallabha's abhūtopamā — a simile whose referent doesn't exist — is a model for approaching Kṛṣṇa's līlā: do not ask whether the stories are historically possible. Their impossibility is the sign. Bring the same interpretive generosity to irreducibly extraordinary moments in your own life.",
     "bhakti": "Śrīdhara's 'no other comparison exists' is a practical instruction for contemplative prayer: at some point, stop searching for the right metaphor for what you have experienced and rest in the nānyopamā — the trackless open beyond analogy.",
     "advaita-bhakti": "Madhusūdana synthesises both paths in daily life: use the best available comparand (a great teacher, a transformative book, an act of grace) to orient the student — then let the comparand break, and name the break explicitly as the truer teaching. This is the pedagogical arc from upāya to apophasis."
-  }
+  },
+  "primary_meaning": "If a thousand suns were to rise together in the sky at once, their combined light might barely match the radiance of that great being."
 }

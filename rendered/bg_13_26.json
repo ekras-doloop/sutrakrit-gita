@@ -27,7 +27,7 @@
     },
     {
       "surface_form": "saṃjāyate",
-      "lemma": "saṃjan",
+      "lemma": "saṃ-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -402,7 +402,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃjāyate: saṃjan -> saṃ-√jan",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every being without exception arises from the ksetra-ksetrajna sanyoga, what distinguishes the person who 'knows the field' from one who is merely 'in the field'?",
@@ -420,5 +431,6 @@
     "suddhAdvaita": "You do not need advanced scholarship or long hours of meditation to begin. Pick up even a single quality teaching, listen with genuine sraddha, and return to it daily. Krishna's pushti-krpa (grace) will do the rest; your part is only faithful, trusting hearing.",
     "bhakti": "Find one acarya or teaching tradition you trust and commit to showing up consistently — even when you feel unqualified, confused, or too busy. Sridhara's assurance is that sraddha-saturated hearing, repeated over time, is itself the path. Steadiness matters more than comprehension.",
     "advaita-bhakti": "On days when philosophical reasoning feels beyond you, do not abandon the practice. Madhusudan's reading licenses a simpler posture: sit with the text, receive it as gift from a compassionate lineage, and let sraddha carry what intellect cannot. That receptive openness is both bhakti and the seed of jnana."
-  }
+  },
+  "primary_meaning": "Whatever exists, moving or still, arises from the union of field and field-knower. Know that, Arjuna."
 }

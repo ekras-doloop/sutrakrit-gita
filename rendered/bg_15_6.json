@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "bhāsayate",
-      "lemma": "bhāsay",
+      "lemma": "√bhāsay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "nivartante",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -381,7 +381,7 @@
         "jayatirtha_15.6"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's spare gloss — 'He describes His own nature (svarūpam) by this verse' — is characteristically precise: the dhāma is Hari's absolute, independent (svatantra) svarūpa, utterly distinct from the jīva and the world. No external light-source reaches it because Hari's existence is its own ontological ground, depending on nothing. The jīva, eternally separate (nitya-bhinna), enters a state of mukti that is full beatitude yet never collapses into identity with Hari; it does not return because Hari's grace holds it permanently in His presence. Note: Madhva's available bhāṣya text for this verse is extremely compressed; the above rendering closely follows his established doctrinal framework."
+      "english_rendering": "Madhva opens with a single sūtra: *svarūpaṃ kathayati — na tad ityādinā* — 'He declares His own nature by the words beginning *na tad*.' Jayatīrtha draws out the connective logic (*uttaravākyānāṃ saṅgatyaprātītes tāṃ sūcayan*): the question arising from the preceding verses is *kīdṛśaṃ tat padaṃ yat prāptiḥ puruṣārthaḥ* — 'what kind of *pada* (abode) is it whose attainment is the *puruṣārtha* (the supreme human end)?' This verse answers that question. Further, Jayatīrtha notes that by the single word *svarūpam*, Madhva simultaneously glosses both *padam* (already stated) and *dhāma* (about to be stated), since the two — mere location (*sthāna*) and mere light (*tejas*) — do not fit: *sthānatejasorasaṅgatvāt*. *Dhāma* therefore names neither a place nor a luminosity but the *svarūpa* of Hari Himself — *svatantra* (independently real, self-sufficient), illumined by no *sūrya*, *śaśāṅka*, or *pāvaka* because its light is its own being. The *jīva* (*paratantra*, eternally dependent) that reaches this *dhāma* does not return (*na nivartante*): *bheda* (real distinction) between Hari and *jīva* abides, yet the *jīva* rests permanently in Hari's presence by His grace."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -457,7 +457,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhāsayate: bhāsay -> √bhāsay",
+          "nivartante: nivṛt -> ni-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ultimate reality illumines the sun itself, what does that imply about the limits of empirical science and sensory knowledge as paths to final understanding?",
@@ -475,5 +486,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga: do not treat spiritual life as a discipline you maintain — treat it as Kṛṣṇa's play that you are invited to participate in. When work or creativity feels effortless and joyful, that is prasāda already arriving. The test is whether you can receive that joy with full gratitude rather than immediately converting it into a technique you control.",
     "bhakti": "Śrīdhara's point that the dhāma transcends jaḍatva (inertness) and thermal qualities invites a daily audit: are you pursuing a liberation that is simply a cooler, calmer version of the same inert comfort-seeking? The dhāma is not pleasant temperature; it is alive awareness. Orient your practice toward wakefulness, not sedation.",
     "advaita-bhakti": "Madhusūdana's synthesis offers a working principle: hold both the personal and the impersonal simultaneously rather than choosing. In a difficult conversation, you can be fully present as awareness (non-dual) and also genuinely moved by the other person (devotional). The two are not in conflict; the verse shows how self-luminosity and personal presence coincide in the supreme dhāma. Practice this double register in everyday encounters."
-  }
+  },
+  "primary_meaning": "The sun does not light it, nor the moon, nor fire; those who reach it do not come back. That is my supreme abode."
 }

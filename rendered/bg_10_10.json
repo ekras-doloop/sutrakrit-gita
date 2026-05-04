@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "yuktānām",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "bhajatām",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -147,7 +147,7 @@
     },
     {
       "surface_form": "upayānti",
-      "lemma": "upayā",
+      "lemma": "upa-√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -499,7 +499,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktānām: yuj -> √yuj",
+          "bhajatām: bhaj -> √bhaj",
+          "upayānti: upayā -> upa-√yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes the buddhi-yoga Kṛṣṇa gives here from the buddhi-yoga Arjuna could cultivate on his own — is this verse claiming a form of grace unavailable to solo effort?",
@@ -516,5 +528,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga here says: pour yourself entirely into sevā — not as technique but as surrender of the whole person — and trust that Kṛṣṇa's own prasāda will draw you close; the 'nearness' promised (samīpa) is not an abstraction but a felt relational warmth that deepens with each act of ungrasping love.",
     "bhakti": "Śrīdhara's plain reading offers this: the specific upāya you need to find your way to the divine is already matched to you — 'tam' (that particular buddhi-yoga) — so steady, loving practice is not generic effort but a personalised path the Lord tailors to each devotee's constitution.",
     "advaita-bhakti": "Madhusūdana's synthesis speaks to practitioners who feel torn between devotion and inquiry: they are not competing paths. Love without agenda opens the inner organ; that opening is precisely what makes samyag-darśana (right seeing of the Lord as one's own ātman) possible — you don't choose between bhakti and jñāna, you discover that sustained bhakti is what makes jñāna available."
-  }
+  },
+  "primary_meaning": "To those who worship me constantly and with love, I give the clarity of understanding by which they reach me."
 }

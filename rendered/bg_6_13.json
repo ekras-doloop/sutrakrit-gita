@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "dhārayan",
-      "lemma": "dhāray",
+      "lemma": "√dhāray",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -325,8 +325,9 @@
         "jayatirtha_6.13"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is sparse — he groups 6.12–6.14 under a single gloss: 'let him engage in samādhi-yoga (samādhi-yogam yuñjyāt).' The minimalism is itself doctrinal: the physical instructions matter only insofar as they channel the jīva's dependent worship toward Hari; the technique is scaffolding for that deeper dvaitika orientation in which the eternally distinct jīva (nitya-bhedī) fixes on Bhagavān as the absolute independent principle (svatantra). No posture detail is elaborated because the key point for Madhva is already established: it is Hari, not a self-posited awareness, who is the object of yoga.",
-      "divergence_note": "Madhva 6.12–6.14 gloss: 'yogaṃ samādhiyogaṃ yuñjyāt' — posture subsumed under samādhi-yoga without elaboration."
+      "english_rendering": "Trunk, head, and neck held erect and still — *samaṃ kāya-śiro-grīvaṃ dhārayann acalaṃ sthiraḥ* — the gaze turned inward toward the tip of one's own nose, the eyes not ranging outward across the directions: this bodily composure is the outer face of *samādhi-yoga* (the yoga of total absorption). The *paratantra* *jīva* (the eternally dependent individual self) does not self-posit this stillness as its own achievement; the fixity of body mirrors the fixity of mind upon *svatantra* (the independently real, self-sufficient) Hari. Looking neither left nor right — *diśaś cānavalokayan* — the *jīva* withdraws the senses from all that is not Bhagavān, for *bheda* (real distinction) between self and Lord is never dissolved: the one who sits in stillness remains irreducibly other than the One upon whom attention is fixed. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) perdures through and within the posture; posture is not philosophy, but it is the body enacting *paratantra* subordination — every steadied limb an acknowledgment that the *jīva* moves only as Hari permits.",
+      "divergence_note": "Madhva's gloss covers 6.12–6.14 in a single phrase — *yogaṃ samādhiyogaṃ yuñjyāt* — subsuming all posture detail under the injunction to engage in samādhi-yoga. Jayatīrtha adds that *yuñjyāt* (let him engage) means *kuryāt* (let him do), with *sthāna-viveka* (discernment of place) as the operative concern, not limb-by-limb elaboration. The dvaita siddhānta reading above is extrapolated from these school-wide doctrinal commitments.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -397,7 +398,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhārayan: dhāray -> √dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says the 'nose-tip' instruction really means inward gaze-convergence (dṛṣṭi-saṃnipāta) — does this mean the literal instruction in the verse is a teaching-device rather than a direct command, and how does this affect how we read other concrete posture prescriptions in the Gītā?",
@@ -415,5 +426,6 @@
     "śuddhādvaita": "Treat the aligned body as a murti (consecrated form) being set upright for Kṛṣṇa to inhabit. When fidgeting or slumping arises, do not harden resolve — instead, invite Kṛṣṇa's own playful straightening of His instrument. The practice is not effortful austerity but an opening of the posture as an act of surrender, trusting that the prasāda of stillness will arrive as a gift from the Lord rather than a conquest by the practitioner.",
     "bhakti": "Use the anatomical precision of this verse as a physical checklist before devotional reading or kirtan: is the trunk-middle (kāya) lifted, or collapsed at the lumbar? Are the eyes half-closed and inward, or wandering? Running this brief body-inventory is itself a devotional act — a way of honoring the text's care for the practitioner's citta-ekāgratā (one-pointedness of mind) rather than treating posture as incidental to worship.",
     "advaita-bhakti": "When digital work (screen-reading, writing, calls) induces either dullness (laya) or frenetic scatter (vikṣepa), pause and reset with this verse's prescription: straighten the spine from base to crown, let the eyes open softly without fixing on the screen, and close the peripheral field by slightly narrowing the gaze. This is the laya-vikṣepa-rāhitya (freedom from dissolution and distraction) that Madhusūdana identifies as the verse's practical gift — applicable at a desk, not only on a cushion."
-  }
+  },
+  "primary_meaning": "Hold trunk, head, and neck in one straight, unmoving line, gaze drawn toward the tip of your own nose, eyes not wandering to any direction."
 }

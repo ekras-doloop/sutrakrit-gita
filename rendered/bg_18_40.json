@@ -1,8 +1,8 @@
 {
   "verse_id": "18.40",
   "mūla": {
-    "devanāgarī": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः | सत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात्त्रिभिर्गुणैः",
-    "iast": "na tadasti pṛthivyāṃ vā divi deveṣu vā punaḥ | sattvaṃ prakṛtijairmuktaṃ yadebhiḥ syāttribhirguṇaiḥ",
+    "devanāgarī": "न तदस्ति पृथिव्यां वा दिवि देवेषु वा पुनः | सत्त्वं प्रकृतिजैर्मुक्तं यदेभिः स्यात् त्रिभिर्गुणैः",
+    "iast": "na tadasti pṛthivyāṃ vā divi deveṣu vā punaḥ | sattvaṃ prakṛtijairmuktaṃ yadebhiḥ syāt tribhirguṇaiḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 40",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "muktam",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "syāt",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -390,7 +390,8 @@
         "jayatirtha_18.40"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya did not comment on this verse (bhashya absent). On Dvaita principles the verse affirms the eternal ontological subordination of jivas to Hari: no independently-existing entity — human, divine, or elemental — can ever transcend the gunas by its own power, confirming that liberation (mukti) is Hari's gracious act, not the jiva's self-achievement. The jiva's dependence (paratantrata) on Hari is thus structural and universal."
+      "english_rendering": "*Na tadasti* — not that being exists, on earth, in heaven, or among the gods, which stands free of the three *guṇas* (*tribhir guṇaiḥ*) born of *prakṛti*. The verse maps the entire field of *sattvas* — human, celestial, elemental — under a single law: all are *paratantra* (eternally dependent), none *svatantra* (self-sufficient). *Pañca-bheda* holds without remainder: Lord–*jīva* distinction is real, *jīva*–matter distinction is real, and no *jīva* anywhere in the three tiers of existence (*pṛthivī*, *divi*, *deveṣu*) escapes *guṇa*-bondage by its own power. The *taratamya* (graded ontological hierarchy) of *jīvas* — from Brahmā downward — does not dissolve *guṇa*-subjection; it only ranks the degree of *sattva*-predominance. Liberation from the *guṇas* is therefore not a *jīva*'s self-achievement but Hari's sovereign act of grace, the *paratantra jīva* arriving at *mukti* only through ontological subordination to the *svatantra* Lord — *bhakti* as that subordination's living form.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -421,7 +422,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -488,7 +489,35 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "syāttribhirguṇaiḥ -> syāt tribhirguṇaiḥ"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "स्यात्त्रिभिर्गुणैः -> स्यात् त्रिभिर्गुणैः"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as",
+          "muktam: muc -> √muc",
+          "syāt: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every being from Brahma to a blade of grass is entangled in the three gunas, what makes spiritual effort meaningful rather than futile — is liberation even possible, or is the verse a counsel of despair?",
@@ -505,5 +534,6 @@
     "śuddhādvaita": "Vallabha's lens: treat encounters with beauty — music, nature, human affection — not as traps of rajas or tamas but as potential lila-prasada if offered back to Krsna. The discipline is to receive the guna-colored world as the Lord's gift rather than fleeing it as bondage.",
     "bhakti": "Sridhara's integrating reading suggests a practical audit: at the end of each day, inventory which guna dominated each major action or decision. Not to judge, but to sharpen guna-discernment (viveka), which Sridhara treats as the instrument of bhakti's progressive purification.",
     "advaita-bhakti": "Madhusudana's synthesis: when a difficult emotion (anger, grief, lust) arises, hold both truths simultaneously — 'this guna-storm is maya-kalpita and has no ultimate reality' (Advaita) AND 'Krsna's grace alone can dissolve what my own effort cannot uproot' (bhakti). Neither dismissal nor helplessness — clear-eyed surrender."
-  }
+  },
+  "primary_meaning": "Nothing anywhere, on earth or in the heavens, escapes the three qualities born of nature."
 }

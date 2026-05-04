@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "āsīta",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -305,7 +305,7 @@
     },
     {
       "surface_form": "pratiṣṭhitā",
-      "lemma": "pratiṣṭhā",
+      "lemma": "prati-√ṣṭhā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -622,7 +622,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "āsīta: ās -> √ās",
+          "pratiṣṭhitā: pratiṣṭhā -> prati-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Mat-paraḥ appears here for the first time in the Gītā — does this mark a structural pivot from general ethical instruction (yoga, restraint) to theologically grounded practice, and if so, what does that pivot demand of the reader?",
@@ -640,5 +652,6 @@
     "śuddhādvaita": "Puṣṭi-mārga's everyday application is radical: stop managing your spiritual progress and instead create conditions for Kṛṣṇa's grace to act. This means seva (service to the Lord's image or community) done with the feeling that the Lord Himself is the doer, not you — and receiving the fruits, including moments of sudden restraint you did not manufacture, as prasāda. The intellect's role (buddhi-saṃyama from the bhāṣya) is real but preparatory: use it to clear the ground, then stand back for the grace-act.",
     "bhakti": "Śrīdhara's two-condition reading (restraint within devotion) translates into a paired practice: pair every act of discipline with an act of remembrance. If you are fasting, do not fast alone — fast with the Lord's name on your breath. If you are refraining from a distraction, redirect the freed attention immediately toward smaraṇa (remembrance) or nāma-japa. This prevents restraint from becoming dry suppression (which rebounds) and keeps the senses oriented rather than merely blocked.",
     "advaita-bhakti": "Madhusūdana's king-and-bandit image is directly usable: when you feel the senses are 'bandits' you cannot overpower alone, do not try to fight them directly. Instead, place yourself consciously under the protection of the inner sovereign (antaryāmin) — through prayer, mantra, or simply the interior gesture of 'I am Yours.' Madhusūdana is specific: 'na vāsudeva-bhaktānām aśubhaṃ vidyate kvacit' — for the Vāsudeva-bhakta, no inauspiciousness exists anywhere. Let this function as a confidence-anchor: you are not fighting alone, and the inner Lord has jurisdiction over the very faculties that trouble you."
-  }
+  },
+  "primary_meaning": "Restrain all the senses and sit steady with Me as your highest refuge; wisdom stands firm in the one who holds the senses in check."
 }

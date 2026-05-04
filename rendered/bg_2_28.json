@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -652,7 +652,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara glosses avyakta as adarśana — not \"unmanifest\" in a metaphysical sense but literally \"non-appearance to the instruments of perception.\" If the beginning and end of every being are defined simply as the edges of perceptibility, what does that say about the ontological status of everything we currently perceive — and about the grief we feel for what passes out of perception?",
@@ -670,5 +680,6 @@
     "śuddhādvaita": "Vallabha's dual-track reading applies when someone is paralyzed not by loss of a specific person but by the sheer contingency of existence — the feeling that everything could disappear at any moment because it all appeared without reason. His reading answers: the middle appearance is Kṛṣṇa's icchā (will), not a random accident; and the avyakta that brackets it is the akṣara mahad-bhūta from which the ātmans emerge and into which they return — a ground of supreme stability. The Puṣṭi-mārga practice arising here is radical consent: since the appearing and disappearing is Kṛṣṇa's own creative movement through the beings, the response is not strategic management of loss but surrender to the same will that produced the appearance in the first place. Grief becomes an occasion for returning to the source, not a problem to be solved.",
     "bhakti": "Śrīdhara's dream-analogy has a specific application in grief counseling that the other schools cannot quite reach: he addresses the grief for the body itself — the physical person, the face, the voice, the presence — rather than asking the griever to leap immediately to ātman-discourse. His point is that the body was always pradhāna-ādika (of the nature of the material ground as its origin), always in kāraṇātmikā sthiti even when perceived as vyakta. When someone is bereaved, the suggestion to \"think of the ātman, not the body\" often fails because the grief is for the body. Śrīdhara's reading meets the grief at that level and says: even on the body's own terms, you are grieving a dream-figure; the awakened person does not grieve for dream-companions because the awakening does not annihilate the companion — it reveals what the companion always was.",
     "advaita-bhakti": "Madhusūdana's ādāv-ante-ca-yan-nāsti principle — whatever is absent at beginning and end is also absent in the middle — has a sharp application to the grief of failed projects, collapsed institutions, and the dissolution of communities. The temptation is to say: \"We built something real, and now it is gone.\" Madhusūdana would say: the middle-phase reality of what was built was mithyābhūta (of the nature of the false-apparent) in precisely the way all vyakta-madhya appearances are — vivid enough to warrant full engagement, but never the kind of independent reality whose disappearance constitutes a metaphysical loss. The Bhārata address, which Madhusūdana reads as a signal of adhikāra (fitness to receive the teaching), implies that understanding this is not emotional coldness but a kind of śuddha-vaṃśa qualification (purity of lineage in the sense of trained discernment): the one qualified to act in the world is the one who acts fully without locating their ground in the world's middle-phase appearances."
-  }
+  },
+  "primary_meaning": "Before birth all beings are unseen, between birth and death they appear, and at death they vanish again into that same unseen. What is there to mourn?"
 }

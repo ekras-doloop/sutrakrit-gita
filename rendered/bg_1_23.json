@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yotsyamānān",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "accusative masculine plural future participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "avekṣe",
-      "lemma": "avekṣ",
+      "lemma": "a-√vekṣ",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "samāgatāḥ",
-      "lemma": "samāgam",
+      "lemma": "sam-√āgam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -304,7 +304,9 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "In Madhva's framework the phrase priya-cikīrṣavaḥ (those wishing to please) carries doctrinal weight: these warriors serve Duryodhana — a jīva among jīvas, with no capacity to be a final object of devotion. Arjuna's avekṣaṇa (survey) is thus both a military assessment and a theological act: he will see that every being here is an instrument (upāya) whose ultimate purpose is determined by Hari's will, not Duryodhana's corrupt desire (durbaddhi). The durbuddheḥ qualifier is for Madhva a direct marker of tamasa-jīva nature — those in Duryodhana's camp have, by their choice of allegiance, declared the quality of their being."
+      "english_rendering": "*Yotsyamānān avekṣe 'haṃ ya ete 'tra samāgatāḥ | dhārtarāṣṭrasya durbuddher yuddhe priya-cikīrṣavaḥ* — Arjuna proposes to survey the combatants assembled here, those wishing (*priya-cikīrṣavaḥ*) to gratify Duryodhana's corrupt intellect (*durbuddhi*) in battle. The surveying (*avekṣaṇa*) is not mere military reconnaissance: each warrior present is a *paratantra* *jīva* (eternally dependent individual self), whose station within the *taratamya* (graded ontological hierarchy) is fixed by *Hari*'s sovereign will. *Priya-cikīrṣavaḥ* marks these jīvas as having bound their allegiance to a *jīva* — Duryodhana — who is himself *paratantra* and incapable of being any final object of service. To seek to please one *paratantra* at the cost of one's duty to the *svatantra* (the independently real, self-sufficient) Hari is the precise shape of *tāmasa* misdirection. *Durbuddheḥ* is the mūla's own testimony to Duryodhana's *tāmasa-jīva* nature: corrupt intelligence (*durbaddhi*) names a *jīva* whose orientation is away from Hari. The *pañca-bheda* (the five-fold real distinction — Lord from *jīva*, *jīva* from *jīva*, and so on) is presupposed in Arjuna's very grammar: the camp of Dhṛtarāṣṭra's son is a gathering of *jīvas* bound to a *jīva*, arrayed against those whose *bhakti* (devotion) orients them, however obscurely, toward the *svatantra* Lord.",
+      "divergence_note": "Bucket corrected from B to C: both Madhva's bhāṣya and Jayatīrtha's Tīkā are absent for this verse. The reading is voiced directly from Dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     }
   },
   "prosodic_information": {
@@ -354,7 +356,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yotsyamānān: yudh -> √yudh",
+          "avekṣe: avekṣ -> a-√vekṣ",
+          "samāgatāḥ: samāgam -> sam-√āgam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna wants to survey (avekṣe) those assembled 'to please' Duryodhana — what does it mean to organize one's life around pleasing someone whose intellect (buddhi) is corrupt (dur-)? How does priya-cikīrṣā (desire to please) differ from sevā (service)?",
@@ -372,5 +386,6 @@
     "śuddhādvaita": "Vallabha's reading of the scene as Kṛṣṇa's own arrangement invites the application: when circumstances feel as though they are forcing you into a confrontation you did not choose, hold the possibility that the positioning itself — being placed between two opposing forces — is the grace-event, not the obstacle to it. The puṣṭi-mārga practice is to treat the moment of being placed (sthāpita) in an uncomfortable spot as the location where bhakti is being invited to become real rather than decorative.",
     "bhakti": "Śrīdhara's anvaya (syntactic) reading highlights that Arjuna's survey is purposive — he wants to see the warriors so he can understand what he is entering. The practical bhakti application is the discipline of intentional seeing before action: before responding in a charged situation, explicitly name what you are looking for and why. Arjuna's mistake will be that his seeing is too successful — he will see everything — but the discipline of having a named purpose for one's avekṣaṇa (survey) is itself sound.",
     "advaita-bhakti": "Madhusūdana's insistence that these warriors are yuyutsu (battle-hungry), not sandhikāma (peace-seeking), resists the comfortable illusion that conflict can always be dissolved through goodwill. The synthesis application: distinguish clearly between situations where reconciliation is structurally possible (sandhikāma parties) and situations where the assembled momentum has made conflict the actual field of teaching. Misidentifying a yuyutsu situation as a sandhikāma one produces the same moha as misidentifying a sandhikāma one as yuyutsu — accurate situational discernment is the first move of jñāna-bhakti."
-  }
+  },
+  "primary_meaning": "I want to look over the warriors assembled here, those who have come to fight for the pleasure of Dhritarashtra's corrupt-minded son."
 }

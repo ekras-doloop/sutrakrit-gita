@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "yuktāḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "upāsate",
-      "lemma": "upās",
+      "lemma": "√upās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "upetāḥ",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "matāḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -428,13 +428,6 @@
       ]
     },
     {
-      "list": "नष्टो मोहः स्मृतिर्लब्धा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.73"
-      ]
-    },
-    {
       "list": "नित्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -530,14 +523,6 @@
       "other_verses_in_list": [
         "6.47"
       ]
-    },
-    {
-      "list": "स मे युक्ततमो मतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.32",
-        "6.47"
-      ]
     }
   ],
   "audit_trail": {
@@ -567,7 +552,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktāḥ: yuj -> √yuj",
+          "upāsate: upās -> √upās",
+          "upetāḥ: upe -> √upe",
+          "matāḥ: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The Lord says 'my view' (me matah) — does yuktatama (most-united) describe a spiritual grade or a pedagogical judgment about what works for a given practitioner? What is the difference?",
@@ -585,5 +583,6 @@
     "suddhadvata": "Write down one relationship in your life — friend, teacher, rival, difficult family member — and ask whether the totality of your engagement with that person, whatever its flavor, has made you more alive or less. Vallabha's 'yena-kena ca sambandena' says total relation of any kind is the ground. What relation in your life is that total?",
     "bhakti": "Take one thing you do for others today — a meal cooked, a report filed, a message sent — and perform it explicitly as madarthakarmanusthana (action done for the sake of the one you serve). Do not announce it. The Sridhara reading says the upasana lives in the orientation of the act, not in a separate ritual.",
     "advaita-bhakti": "Find the one person or pursuit in your life toward which you are, as Madhusudana says, 'ananya-sharana' — without other refuge. Acknowledge that this is already your saguna upasana, whatever its object. The question is whether it has para shraddha (highest faith) behind it or only habit."
-  }
+  },
+  "primary_meaning": "Those who fix their minds on me, worship me with unbroken devotion, and approach with the highest faith, Krishna says, are the most perfectly united with me."
 }

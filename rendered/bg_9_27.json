@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "aśnāsi",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "juhoṣi",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "surface_form": "tapasyasi",
-      "lemma": "tapasy",
+      "lemma": "√tapasy",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -491,13 +491,6 @@
         "18.50",
         "18.60"
       ]
-    },
-    {
-      "list": "तत्कुरुष्व मदर्पणम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.28"
-      ]
     }
   ],
   "audit_trail": {
@@ -527,7 +520,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "aśnāsi: aś -> √aś",
+          "juhoṣi: hu -> √hu",
+          "tapasyasi: tapasy -> √tapasy"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If 'whatever you do' includes acts done out of sheer habit or desire (Madhusūdana's rāgāt prāptam), does the verse leave any action outside the scope of dedication — and what would such an action even look like?",
@@ -545,5 +550,6 @@
     "śuddhādvaita": "Before using anything — a tool, a food item, a block of time — spend one breath consciously placing it in the service of something you regard as genuinely larger than your preference. Vallabha's protocol: dedicate first, use second. The sequence is not ceremonial; it restructures the motivational order so that service precedes consumption rather than following it.",
     "bhakti": "Choose one recurring daily act — morning coffee, the commute, washing dishes — and hold it as your formal offering for one week. Do not change the act; change the frame. Śrīdhara's point is that the full texture of ordinary life is already the raw material of devotion; nothing exotic is required.",
     "advaita-bhakti": "When you find yourself doing something you did not consciously choose — a habitual reaction, an automatic kindness, an instinctive withdrawal — rather than judging whether it was 'good,' simply place it: 'this too.' Madhusūdana's ātmanepada insight applies here: the placement purifies the agent, not the act. You are not cleaning up the past; you are changing who will encounter the next moment."
-  }
+  },
+  "primary_meaning": "Whatever you do, eat, offer in fire, give away, or endure as austerity, Arjuna, offer it all to Me."
 }

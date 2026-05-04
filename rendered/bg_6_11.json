@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "ucchritam",
-      "lemma": "ucchri",
+      "lemma": "√ucchri",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -386,8 +386,9 @@
         "vallabha_6.11"
       ],
       "score": 0.5,
-      "divergence_note": "Vallabha does not comment on 6.11 in isolation; the seat-details are absorbed into the broader svarūpa-arc. Direct bhāṣya on śucau deśe / āsana-layers is absent — flagged.",
-      "english_rendering": "Vallabha's tīkā spans 6.10–6.13 without isolating 6.11's seat-details; the operative move is yogī yuñjānaḥ rahasi sthitaḥ — the Puṣṭi-mārga yogin situated in solitude, ever yoked. Within Vallabha's prasāda-theology the kuśa-ajina-caila arrangement becomes a stage in the āroha (ascent) toward yogārūḍha-svarūpa; every physical act of preparation is Kṛṣṇa's own līlā-śakti working from within the devotee. The 'clean place' is ultimately Kṛṣṇa's own indwelling presence as the space in which all practice occurs."
+      "divergence_note": "Vallabha's extant bhāṣya treats 6.10–6.13 as a continuous unit focused on the *yogī yuñjānaḥ rahasi sthitaḥ* arc; the seat-details of 6.11 are not isolated. The reading here derives the *śuddhādvaita* siddhānta directly from the mūla, consistent with Vallabha's *puṣṭi-mārga* and the non-illusory status of all material elements within Brahman's self-manifestation.",
+      "english_rendering": "*Śucau deśe pratiṣṭhāpya sthiram āsanam ātmanaḥ* — the aspirant establishes a firm seat in a pure place, neither too high nor too low, layered with *caila* (cloth), *ajina* (hide), and *kuśa* (sacred grass). In *śuddhādvaita*, this physical preparation is not mere discipline but a real participation in Kṛṣṇa's *puṣṭi* (sustaining grace): the body, the place, and the layered seat all belong to Brahman's own non-illusory self-expression. There is no *māyā* to dissolve the reality of *kuśa* or *ajina*; the arrangement is Kṛṣṇa's own provision, received by the *jīva* as an instance of *puṣṭi-mārga* (the path of grace). The purity of the ground — *śucau deśe* — is not merely ritual fitness; it is the suitability of a locus already permeated by Kṛṣṇa as *antaryāmin*, the inner sustainer whose *śakti* moves the devotee from within even before meditation begins. Firmness of the seat (*sthiram āsanam*) reflects the *yogī*'s entire svarūpa: held steady not by self-effort alone but by the Lord's *prasāda*. The three-layered base ascends from *kuśa* to hide to cloth — an outer image of the interior ascent toward *yogārūḍha*-svarūpa, each layer real, each a gift within *brahma-sambandha* (the devotee's consecrated relation to Brahman).",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -460,7 +461,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucchritam: ucchri -> √ucchri"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the verse specify both the material layering (kuśa / ajina / caila) and the height constraint (neither too high nor too low) — are these physically functional, symbolically graduated, or both?",
@@ -478,5 +489,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga the preparation of rahasa (solitude) is itself a form of sevā (loving service): you are making a private space for Kṛṣṇa to meet you. The physical tidying of your seat and the quieting of the room are acts of welcoming the Beloved — not techniques for self-improvement but invitations. The āsana becomes the threshold of the inner meeting-place where Kṛṣṇa's prasāda descends.",
     "bhakti": "Follow the layer-order precisely: kuśa at the base (connects to earth, absorbs subtle energies), animal skin above it (insulates and grounds), soft cloth as the topmost surface for comfort. This is āsana-niyama — a rule, not a suggestion. Śrīdhara's framing implies that departure from the sequence is not a minor variation but a departure from the prescribed discipline; get the physical details right before asking about inner states.",
     "advaita-bhakti": "Find a place that is simultaneously secluded from crowds (jana-samudāya-rahita) and free from fear (nirbhaya) — Madhusūdana names riverside and cave settings not as literal requirements but as paradigm cases of environments where both conditions are naturally met. In an urban context this might mean early-morning practice before household activity begins, in a room you have psychologically 'claimed' as undisturbed. Use your own cushion, not a shared one — the seat's energetic continuity matters for the subtlety of yoga practice."
-  }
+  },
+  "primary_meaning": "In a clean place, set up your own firm seat, neither too high nor too low, layered with cloth over hide over kusha grass."
 }

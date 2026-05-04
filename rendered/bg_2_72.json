@@ -202,7 +202,7 @@
     },
     {
       "surface_form": "vimuhyati",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -368,7 +368,7 @@
     },
     {
       "surface_form": "ṛcchati",
-      "lemma": "ṛch",
+      "lemma": "√ṛch",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -734,7 +734,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vimuhyati: vimuh -> vi-√muh",
+          "ṛcchati: ṛch -> √ṛch"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If brāhmī-sthiti (abidance in Brahman) is the verse's summit, what specific shift in relationship to action, desire, and death does it require — and how do the schools disagree on whether this shift is cognitive, devotional, or both?",
@@ -752,5 +763,6 @@
     "śuddhādvaita": "Vallabha's puṣṭi (nourishment by grace) reading of brāhmī-sthiti inverts the usual sādhanā logic: the state is not reached by effort but received. The everyday application is to stop scanning your own practice for signs of progress and instead cultivate receptivity — āsakti (loving attachment) to Kṛṣṇa rather than detachment from the world. Concretely: in any moment of difficulty or beauty, turn the mind toward Kṛṣṇa as the one who is already here, already offering this moment as prasāda (blessed gift). The 'even at the moment of death' clause is Vallabha's deepest comfort: Kṛṣṇa's grace is not contingent on lifelong discipline but on the openness of the heart in a single instant.",
     "bhakti": "Śrīdhara's condition — śuddhānta-karaṇa (a purified inner instrument) achieved through parameśvarārādhana (worship of the Lord) — names the mechanism practically: regular, sincere, embodied worship is the primary purifier, not philosophical argument. The application is to treat whatever form of sādhana (spiritual practice) you actually do — whether mantra, pūjā, seva (service), kirtan — as the direct means of inner-instrument refinement, not merely as preparation for some separate act of jñāna. Śrīdhara's 'kṣaṇam api' (even for a moment) clause means: a single genuine moment of bhakti-purified stillness at the right instant outweighs years of mechanical practice — so depth and sincerity in each practice session matter more than duration or frequency.",
     "advaita-bhakti": "Madhusūdana holds that karma-yoga, sustained with sincerity, issues in jñāna — which means the practitioner does not need to choose between the path of action and the path of knowledge, because the former, when fully lived, transforms into the latter. The everyday application: when performing duties, do not maintain an internal argument about whether 'this counts as sādhanā.' Madhusūdana's synthesis says the argument itself is the moha — the residue of the sense that you are standing outside the process evaluating it. Instead, let each moment of full engagement — with its whole complexity of care, effort, and uncertainty — be the material through which avidyā (ignorance) is gradually combusted and brahma-nirvāṇa becomes not a future destination but a present recognition."
-  }
+  },
+  "primary_meaning": "This is the *brāhmī sthiti*, Arjuna, the grounded abiding in Brahman. Whoever reaches it is never deluded again, and even one who settles into it at the very moment of death attains the peace of Brahman."
 }

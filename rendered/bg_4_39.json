@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "labhate",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "saṃyata",
-      "lemma": "saṃyam",
+      "lemma": "saṃ-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -351,8 +351,9 @@
         "jayatirtha_4.39"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya on 4.39 is extremely spare — a joint commentary covering 4.38–4.39 that concludes: 'having stated the sādhana and the opposing result of that, the verse summarizes.' The Dvaita doctrinal position is therefore reconstructed from context: jñāna here is not ātma-jñāna in any self-sufficiency sense, but dependent recognition of Hari as the only independent reality (svatantra). Śraddhā is anugraha-pūrva śraddhā — faith downstream of Hari's grace, not an autonomous human faculty. The 'swift peace' is sāyujya of the liberated jīva remaining distinct in eternal dependent consciousness (āśrita-cit). NOTE: bhāṣya text is minimal; Dvaita voice is inferred from Madhva's systematic position, not from dense commentary prose on this verse.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Śraddhā* (faith) here is not an autonomous human faculty but *anugraha-pūrva* — consequent upon Hari's own grace, which initiates the seeker's movement toward *jñāna*. The one who is *śraddhāvān*, *tat-paraḥ* (wholly intent on That — on *svatantra* Hari alone), and *saṃyatendriya* (with restrained senses) attains *jñāna*. That *jñāna* is not self-sufficient illumination of an undifferentiated *ātman* but the *paratantra* *jīva*'s dependent recognition of Hari as the sole independently real — the one *bheda* (real distinction) between Lord and *jīva* held firm even in liberation. *Śraddhā*, *tat-parāyaṇa* (one-pointed orientation toward Him), and *saṃyama* (restraint) are the inner *sādhana* (*antaḥkaraṇa-sādhana*); *ajñāna* and its residues are the opposing forces (*virodhī*) that *saṃyama* subdues. Having obtained this *jñāna*, the *jīva* reaches *parā śānti* — the supreme peace — *acireṇa*, swiftly. That peace is not dissolution into an undivided absolute but the liberated *jīva*'s eternal *āśrita-cit* (dependent consciousness) resting in Hari, distinct within *taratamya* (the graded hierarchy of dependent beings), in unbroken *bhakti* as ontological subordination to the *svatantra* Lord.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -566,7 +567,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "labhate: labh -> √labh",
+          "saṃyata: saṃyam -> saṃ-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If śraddhā is the necessary precondition for jñāna, what distinguishes it from mere belief or docile acceptance — and how does the sādhaka cultivate it without first having the jñāna that would confirm its object?",
@@ -584,5 +604,6 @@
     "śuddhādvaita": "Vallabha's reading spotlights śraddhā as receptivity to grace rather than an effort one generates. In daily life this translates to the practice of active surrender before beginning any creative or devotional work: instead of asking 'what do I know?' ask 'what is already available through this channel if I stay open?' The citta-upaśama (mind-stilling) promised is not achieved by force but by allowing the śakti already present to settle. Try beginning one task a day with thirty seconds of deliberate receptivity — śraddhā as posture — before engaging.",
     "bhakti": "Śrīdhara's structural point — karma-yoga for purification before jñāna; after jñāna nothing further required — maps cleanly onto stages of learning in any domain. In a professional or creative discipline, there is a phase of disciplined practice (karma-yoga for śuddhi) where showing up consistently, doing the boring work, and building foundational skill is non-negotiable. There is a later phase where a genuine insight reorganizes everything and the prior scaffolding drops away. Resist the temptation to skip the purification phase; resist equally the temptation to keep practicing the scaffolding after the insight has landed.",
     "advaita-bhakti": "Madhusūdana's lamp metaphor is the everyday anchor: a lit lamp requires no further act to dispel darkness — the dispelling is simultaneous with the arising. When a genuine insight occurs (about a relationship, a pattern, a belief you have held), do not then ask 'what must I now do to make it stick?' The insight is the event; it does its own work. The practical implication: stop rehearsing conclusions you have already genuinely reached. Madhusūdana explicitly rejects prasaṃkhyāna (repeated contemplative reinforcement) as unnecessary once true jñāna has arisen — trust the lamp."
-  }
+  },
+  "primary_meaning": "The one with faith who is wholly intent on that teaching and keeps the senses restrained gains knowledge, and having gained it, reaches supreme peace without delay."
 }

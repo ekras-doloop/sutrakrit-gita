@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "niścarati",
-      "lemma": "niścar",
+      "lemma": "ni-√ścar",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "nayet",
-      "lemma": "nī",
+      "lemma": "√nī",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -376,7 +376,7 @@
         "sridhara_6.26"
       ],
       "score": 0.5,
-      "english_rendering": "Even when the practitioner is holding the mind, if it slips outward under the power of rajas — toward whatever object it rushes — it must again and again be withdrawn (pratyāhṛtya) and made stable in the Self. Śrīdhara emphasizes the iterative, patient labor: the mind is by nature (svabhāvataḥ) restless, so failure to hold it is not a moral lapse but simply the condition that calls for renewed return."
+      "english_rendering": "Even while being held, the mind — *svabhávataś cañcalam* (restless by nature), *asthiram* (unsteady) — if, under the power of *rajo-guṇa* (*rajogurṇavaśād*), it *pracalet* (breaks loose), then again by *pratyāhāra* (withdrawal, *pratyāhāreṇa vaśīkuryāt*) one must bring it under control. *Yaṃ yaṃ viṣayaṃ prati nirgacchati* — toward whatever object it moves outward — *tatas tataḥ pratyāhṛtya ātmany eva sthiraṃ kuryāt*: from there, withdrawing it, one makes it steady in the Self alone. The going-out is *svabhāva*, not fault; the practice is the patient, repeated return."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,7 +446,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niścarati: niścar -> ni-√ścar",
+          "nayet: nī -> √nī"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says we must expose each sense-distraction as mere appearance (āvabhāsa) to cultivate dispassion — but does constant de-realization of the world risk paralysis in daily life, or is that only a stage?",
@@ -464,5 +475,6 @@
     "śuddhādvaita": "At the start of any focused work, spend two minutes deliberately releasing the saṃkalpas (mental plans and wishes) that will compete for attention — not by suppressing them but by offering them to Kṛṣṇa. Vallabha's nirbīja practice is front-loaded: clear the seeds before the session begins rather than fighting them mid-stream.",
     "bhakti": "Keep a simple count: how many times today did attention wander, and how many times did you actually return? Śrīdhara's emphasis on pratyāhāra as a normalizable skill means the metric is not 'zero wandering' but 'recovery rate.' Lowering the latency of return from minutes to seconds is months of progress.",
     "advaita-bhakti": "Watch for both failure modes during meditation or deep work: restlessness (checking phone, generating plans) and dullness (half-sleep, vague contentment that lacks clarity). Madhusūdana's Gauḍapāda citation prescribes: for dullness, alert the mind; for distraction, calm it; when it arrives at equanimity, do not touch it — do not congratulate yourself or analyze the state, as that itself breaks it."
-  }
+  },
+  "primary_meaning": "Wherever the restless, unsteady mind wanders, bring it back under the Self's control, again and again."
 }

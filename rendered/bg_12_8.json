@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "ādhatsva",
-      "lemma": "ādhā",
+      "lemma": "√ādhā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "niveśaya",
-      "lemma": "niveśay",
+      "lemma": "ni-√veśay",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "nivasiṣyasi",
-      "lemma": "nivas",
+      "lemma": "ni-√vas",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -391,8 +391,9 @@
         "jayatirtha_12.8"
       ],
       "score": 0.5,
-      "english_rendering": "Fix mind and intellect exclusively on Me, Hari, who is eternally distinct from and superior to the jiva — and you will dwell in Me after the body falls. The word 'mayi' (in Me) preserves the eternal ontological distance: the liberated soul abides near Hari in bliss, not merged into Him. NOTE: No direct Madhva bhashya commentary is supplied for this verse in the payload; this rendering is inferred from Dvaita siddhanta principles rather than attested prose.",
-      "divergence_note": "ABSENT — payload reads 'Sri Madhvacharya did not comment on this sloka.' Rendering is siddhanta-based inference only."
+      "english_rendering": "*Mayi eva* — in Me alone, Hari, the *svatantra* (the independently real, self-sufficient) Lord — fix the *manas* (mind) and lodge the *buddhi* (intellect). The doubled *eva* is not rhetorical ornament: it excludes every other object of contemplation, since only Hari is *svatantra* and the *jīva* (the individual self) is irreducibly *paratantra* (eternally dependent). *Nivasiṣyasi mayy eva* — you will dwell in Me, not dissolve into Me. Liberation is real arrival: the released *jīva* abides in Hari's presence in unobstructed bliss, the *bheda* (real distinction) between Lord and soul intact and permanent. *Ata ūrdhvam* — from this body's end onward — marks the transition as irreversible. *Na saṃśayaḥ*: Hari's own word removes all doubt, for His speech is the highest *pramāṇa* (means of valid cognition). *Bhakti* (devotion) here is not sentiment but ontological subordination of the *paratantra jīva* to the *svatantra* Hari, the only relation in which the *jīva* can securely abide.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from *dvaita* *siddhānta*: *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter), *taratamya* (graded ontological hierarchy), and the doctrine that liberation is real arrival, not merger.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -443,14 +444,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अपरा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4",
-        "7.5"
-      ]
-    },
-    {
       "list": "चित्त",
       "role": "supporting",
       "other_verses_in_list": [
@@ -467,16 +460,6 @@
         "16.16",
         "18.57",
         "18.58"
-      ]
-    },
-    {
-      "list": "परा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "7.4",
-        "7.5",
-        "7.6"
       ]
     },
     {
@@ -612,7 +595,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ādhatsva: ādhā -> √ādhā",
+          "niveśaya: niveśay -> ni-√veśay",
+          "nivasiṣyasi: nivas -> ni-√vas"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse commands mental fixation (mano-nivesha) before intellectual conviction (buddhi-nivesha) — does the order matter, and what happens when intellect precedes the heart?",
@@ -629,5 +624,6 @@
     "shuddhadvait": "When you feel distant from what matters most, Vallabha's teaching says: any point of genuine connection is enough — a single sincere impulse toward the beautiful or the good counts. Do not wait for a perfect devotional state; begin with whatever partial contact is available now.",
     "bhakti": "Build a daily practice where both the feeling-mind (sankalpa) and the reasoning-mind (buddhi) are aimed at the same object — a teacher, a text, a quality of presence. Sridhara's 'mat-prasadena' (by grace) reminds us that jnana is received, not produced; the practice creates receptivity, not the outcome.",
     "advaita-bhakti": "When meditation on a personal form feels shallow and conceptual practice feels cold, Madhusudana's synthesis offers a path: begin with the personal image, let it warm the heart, then notice that the warmth is not bounded by the image. The saguna entry-point and the nirguna abode are the same movement at different depths."
-  }
+  },
+  "primary_meaning": "Set your mind on Me alone, and rest your understanding in Me. You will dwell in Me after this life, with no doubt about it."
 }

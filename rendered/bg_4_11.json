@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "prapadyante",
-      "lemma": "prapad",
+      "lemma": "pra-√pad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "bhajāmi",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "anuvartante",
-      "lemma": "anuvṛt",
+      "lemma": "anu-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -503,14 +503,6 @@
       ]
     },
     {
-      "list": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.29",
-        "12.7"
-      ]
-    },
-    {
       "list": "सम्बन्ध",
       "role": "supporting",
       "other_verses_in_list": [
@@ -528,16 +520,6 @@
         "3.27",
         "10.2",
         "13.29"
-      ]
-    },
-    {
-      "list": "सुहृदः सर्वदेहिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.29",
-        "6.9",
-        "12.13",
-        "12.14"
       ]
     }
   ],
@@ -568,7 +550,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prapadyante: prapad -> pra-√pad",
+          "bhajāmi: bhaj -> √bhaj",
+          "anuvartante: anuvṛt -> anu-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa responds to each seeker according to their own orientation, does this verse endorse all spiritual paths as equally efficacious — or does it merely acknowledge that each path yields its own proportional, finite result?",
@@ -586,5 +580,6 @@
     "śuddhādvaita": "Vallabha's kalpa-taru model suggests a practice of deep receptivity in relationships: before responding to someone, actually hear and mirror back what they have expressed before redirecting toward what you think they should want. This is the puṣṭi-mārga relational discipline — meet people in their own register first. In professional feedback contexts, reflect the person's own stated goals back to them before offering a different frame; this is the verse's mirror-principle made practical.",
     "bhakti": "Śrīdhara's point is that even imperfect, desire-laden worship (sākāma-bhajana) is not rejected — the path does not require you to be spiritually advanced before starting. Apply this to daily practice by beginning with whatever genuine motivation is present (health, relief from anxiety, gratitude) rather than waiting until you feel 'pure enough' to pray or meditate. Start where you are; the bhajana-mārga opens regardless of initial motivation.",
     "advaita-bhakti": "Madhusūdana's fourfold taxonomy is a diagnostic tool: identify honestly which of the four modes (ārta, arthārthin, jijñāsu, jñānin) is active in you at this moment in your life. Different seasons call for different practices — the ārta needs consolation, the jijñāsu needs study, the jñānin needs silence. Trying to perform the jñānin's practice when you are genuinely in the ārta condition is a form of spiritual dishonesty; the verse authorizes you to practice from your actual state rather than an aspirational one."
-  }
+  },
+  "primary_meaning": "However you come to me, I meet you in exactly that way; and all people, Arjuna, walk my path in every manner."
 }

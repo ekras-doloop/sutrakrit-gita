@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "vikrāntaḥ",
-      "lemma": "vikram",
+      "lemma": "vi-√kram",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -290,14 +290,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अत्र शूरा महेष्वासा भीमार्जुनसमा युधि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
       "list": "इष्वास",
       "role": "supporting",
       "other_verses_in_list": [
@@ -318,23 +310,7 @@
       ]
     },
     {
-      "list": "काशिराजश्च वीर्यवान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
       "list": "चेकितानः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
-      "list": "द्रुपदश्च महारथः",
       "role": "supporting",
       "other_verses_in_list": [
         "1.4",
@@ -382,14 +358,6 @@
       ]
     },
     {
-      "list": "युधामन्युश्च विक्रान्त उत्तमौजाश्च वीर्यवान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
       "list": "युयुधानः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -399,22 +367,6 @@
     },
     {
       "list": "विराटश्च",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
-      "list": "शैब्यश्च नरपुङ्गवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.4",
-        "1.5"
-      ]
-    },
-    {
-      "list": "सर्व एव महारथाः",
       "role": "supporting",
       "other_verses_in_list": [
         "1.4",
@@ -457,7 +409,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vikrāntaḥ: vikram -> vi-√kram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Duryodhana personally enumerate the enemy's strength to Droṇa rather than ask his general to assess it — what does this self-reporting reveal about the relationship between knowledge, anxiety, and authority?",
@@ -475,5 +437,6 @@
     "śuddhādvaita": "Vallabha's insight: the strengths you encounter in others — the colleague whose talent makes yours look small, the competitor whose product is genuinely better — are forms of Kṛṣṇa's prasāda (grace) flowing through them, not threats to your standing. Duryodhana's grief comes from experiencing this grace as hostile. The practice is to receive a superior's excellence as prasāda: something given, not something taken. Try, once today, to compliment a competitor's genuine strength without the hidden agenda of deflating your own envy.",
     "bhakti": "Śrīdhara's technical move — defining mahāratha precisely before applying it — is a practice of honest calibration. Before claiming someone is 'excellent' or 'a real threat' or 'a natural leader,' ask: by what standard? What is the actual criterion (śastra-śāstra-pravīṇa — proficient in both weapon-practice and weapon-theory)? Most anxiety about other people's competence dissolves or sharpens usefully when you apply a specific, sourced definition rather than a vague superlative. The next time you are intimidated by someone's reputation, write down exactly what they can do that you cannot.",
     "advaita-bhakti": "Madhusūdana's reading: Duryodhana's enumeration is a self-made spiral — each additional great warrior he names deepens his own viṣāda (despondency). This is a recognizable cognitive pattern: the more carefully you enumerate reasons for fear, the more real the fear becomes. The practice is not to suppress the enumeration but to notice when the list has shifted from intelligence-gathering to self-torment. At the moment you realize you are adding names to the catalogue to feel worse, not better, that is the moment to stop counting and ask what action is actually available to you now."
-  }
+  },
+  "primary_meaning": "Yudhāmanyu the brave, Uttamaujā the mighty, Abhimanyu son of Subhadrā, and the five sons of Draupadī, every one of them a warrior who could hold ten thousand archers at bay."
 }

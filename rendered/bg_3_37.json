@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -355,13 +355,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "काम अछत सुख सपनेहुँ नाहीं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.39"
-      ]
-    },
-    {
       "list": "कामना",
       "role": "supporting",
       "other_verses_in_list": [
@@ -476,7 +469,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If krodha (anger) is simply obstructed kāma, does this mean every instance of anger — including righteous fury — traces back to frustrated desire, and how does this affect moral evaluation of anger?",
@@ -494,5 +497,6 @@
     "śuddhādvaita": "Recognize the kāma that arises as Kṛṣṇa's own śakti (power/energy) operating in the jīva — not to indulge it but to see it as misdirected prasāda-energy. Redirect rāga (attachment) toward Kṛṣṇa's svarūpa (divine form) through smaraṇa (remembrance) and sevā (service); transformed rāga becomes bhāva-bhakti, the very vehicle of Puṣṭi-mārga.",
     "bhakti": "Accept that kāma cannot be negotiated with through indulgence (dāna of objects) or reasoning (sāman). The only practical path is the progressive reduction of viṣaya-saṃparka (contact with desire-objects) combined with nāma-smaraṇa (remembrance of the divine name), which Śrīdhara implies when he says 'the method of killing it will be given shortly' — referring to the senses-withdrawal instruction that follows.",
     "advaita-bhakti": "Use the two-stage method Madhusūdana extracts: first, strengthen sattva through regulated sādhanā (practice) — diet, schedule, association, study — which directly diminishes rajas and thereby starves kāma of its fuel. Second, in moments when kāma surges despite discipline, invoke Kṛṣṇa's name as the daṇḍa (the forceful strike) that Madhusūdana says is the only option left when sāma, dāna, and bheda have all failed against this mahāpāpmā."
-  }
+  },
+  "primary_meaning": "Desire is your enemy here, and anger is desire blocked and turned, both born of rajas, both insatiable, both generators of sin. Know this one force as the foe."
 }

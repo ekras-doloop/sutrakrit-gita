@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "bhūtaḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "prasanna",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "śocati",
-      "lemma": "śuc",
+      "lemma": "√śuc",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "kāṅkṣati",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -225,7 +225,7 @@
     },
     {
       "surface_form": "labhate",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -427,8 +427,9 @@
         "jayatirtha_18.54"
       ],
       "score": 0.5,
-      "english_rendering": "Brahma-bhutah means the jiva (individual soul) has realized its own intrinsic purity and distinct nature — not identity with Brahman but the jiva's essential luminosity when freed of taint. Since Madhva left no direct commentary on this verse, the Dvaita reading reconstructs from his broader framework: the jiva who has realized its permanent dependence on (and distinction from) Hari ceases to grieve because grief presupposes misidentification; equanimity toward all beings reflects recognition that all jivas equally bear Hari's imprint (Hari-bimba); and the supreme bhakti attained is the unmediated, continuous relish of Hari's qualities — the very goal that no amount of knowledge alone can reach.",
-      "divergence_note": "ABSENT — Madhva did not comment on this sloka per payload; reconstruction from Dvaita doctrinal framework only"
+      "english_rendering": "*Brahma-bhūtaḥ* here names the *jīva* (individual self) arrived at its own essential luminosity — *paratantra* (eternally dependent) purity, freed of the taints of *saṃsāra*, yet never dissolved into Hari. The *pañca-bheda* (five-fold real distinction) stands intact: the *jīva*'s realized state is not identity with *brahman* but the unclouded recognition of its own *paratantra* nature as a *bimba* (reflected image) of *svatantra* (the independently real, self-sufficient) Hari. Grief (*śoka*) and craving (*kāṅkṣā*) drop away because both presuppose misidentification — the *jīva* grasping at what belongs to Hari alone. Equanimity toward all beings (*samaḥ sarveṣu bhūteṣu*) follows from seeing every *jīva* alike as *Hari-paratantra*, each bearing its own grade within *taratamya* (graded ontological hierarchy), none to be envied or mourned. From this station the *jīva* attains *mad-bhaktim parām* — the supreme *bhakti* (devotion) that is direct, unmediated relish of Hari's infinite qualities, an ontological subordination no *jñāna* alone can produce. *Brahma-bhūta* is therefore not a terminus but the threshold from which *parā bhakti* becomes accessible: purified *paratantra* existence opening fully toward *svatantra* Hari.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. Dvaita siddhānta voiced directly from the mūla: *brahma-bhūta* read as purified *paratantra* realization, not *jīva-brahman* identity; *parā bhakti* as the ontological telos that surpasses even *jñāna-niṣṭhā*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -619,7 +620,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhūtaḥ: bhū -> √bhū",
+          "prasanna: prasad -> pra-√sad",
+          "śocati: śuc -> √śuc",
+          "kāṅkṣati: kāṅkṣ -> √kāṅkṣ",
+          "labhate: labh -> √labh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If brahma-bhutah (becoming brahman) is a prerequisite for attaining supreme bhakti, does this verse teach that jnana and bhakti are sequential stages or two descriptions of the same arrival — and does the answer differ by school?",
@@ -637,5 +652,6 @@
     "śuddhādvaita": "Vallabha's reading is permission-giving: even if you arrive at deep philosophical peace (aksara-brahma-realization), do not stop there — the sweetness of Purushottama-seva (service to the Lord as Purushottama) is still ahead. The everyday application for Pushti-marga practitioners: do not treat meditative quietude as the destination. Let the quiet become the ground from which seva flows with greater freshness, not the reason seva is no longer needed.",
     "bhakti": "Shridhara's 'mad-bhavana-laksana bhakti' is bhakti as a quality of attention rather than a set of rituals. The everyday application: whatever you are doing — cooking, walking, working — practice returning attention to the Lord's presence not as an interruption but as a background tone. The 'raga-dvesha-krita-viksepa' (disturbance created by attraction and aversion) is exactly what fills daily life; the practice is noticing when that disturbance arises and using it as a prompt to return to the background tone of mad-bhavana.",
     "advaita-bhakti": "Madhusudhana's path has a built-in sequence most people skip: shravana (receive teaching), manana (think it through until objections dissolve), THEN nidhidhyasana (let the understanding saturate the mind continuously). The everyday application is not to jump to 'I am brahman' affirmations before the manana is done. Identify one teaching about your own nature that you have heard but not yet thought through fully — one objection still alive — and sit with THAT objection until it dissolves, before moving to contemplation. That is the Advaita-bhakti practice for today."
-  }
+  },
+  "primary_meaning": "Settled in the self, serene, free of grief and craving, you hold all beings with an equal heart, and from that ground supreme devotion to me arises."
 }

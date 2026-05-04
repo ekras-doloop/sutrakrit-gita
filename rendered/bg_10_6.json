@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "jātāḥ",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -475,13 +475,6 @@
       "other_verses_in_list": [
         "11.21"
       ]
-    },
-    {
-      "list": "मानसा जाताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.7"
-      ]
     }
   ],
   "audit_trail": {
@@ -511,7 +504,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jātāḥ: jan -> √jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the sages and Manus derive their being (bhāva) directly from Kṛṣṇa, what does that imply about the authority of the guru-paramparā — is obedience to one's teacher a form of obedience to Kṛṣṇa himself?",
@@ -529,5 +532,6 @@
     "śuddhādvaita": "Treat your most inspired creative or intellectual work as 'icchā-mātra' — arising from pure intention, not grinding effort. When work feels like free overflow rather than extraction, that is the sign that Kṛṣṇa's prabhāva is moving through you; protect that condition rather than forcing output.",
     "bhakti": "Recognise that your teachers, and their teachers' teachers, form an unbroken chain back to a source whose bhāva is the Lord's own prabhāva. Honouring that chain — through study, gratitude, and transmission to the next generation — is not sentiment; it is cosmological participation in the world's continuity.",
     "advaita-bhakti": "Madhusūdana says the seers' birth from pure mental intention (mānasāḥ) rather than from biological necessity makes them 'sarva-prāṇi-śreṣṭhāḥ.' Apply this: work that arises from clear, devoted intention (not anxiety or compulsion) carries a different quality of authority. Cultivate the inner purity from which the work emerges, not only the work itself."
-  }
+  },
+  "primary_meaning": "The seven great seers of old and the four Manus were born from my mind, sharing my nature, and from them all the creatures of this world have come."
 }

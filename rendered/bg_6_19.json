@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "iṅgate",
-      "lemma": "iṅg",
+      "lemma": "√iṅg",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "smṛtā",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "yuñjataḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -460,7 +460,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṅgate: iṅg -> √iṅg",
+          "smṛtā: smṛ -> √smṛ",
+          "yata: yam -> √yam",
+          "yuñjataḥ: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the simile describes the mind in samadhi, does the 'windless place' indicate an external condition to be cultivated (retreat, silence) or an internal condition achievable anywhere — and what does each reading demand of the practitioner?",
@@ -478,5 +491,6 @@
     "suddhadvait": "Vallabha's Pusti-marga reading shifts the burden from technique to receptivity: the windless place is not constructed by the practitioner but granted. The everyday application is cultivating conditions of receptivity — regular seva (service to Krsna), satsanga (company of devotees), and removal of ahankarika effort (ego-effort) — so that the prasada that creates the protected space can operate. One concrete form: deliberately releasing the sense of 'I am meditating' and substituting 'Krsna is giving me this stillness.'",
     "bhakti": "Sridhara's emphasis on the lamp's simultaneous steadiness and radiance points to a practical test: after a period of meditation or prayer, check not only whether the mind was quiet but whether it was clear and illuminating — did it reveal anything, resolve anything, make anything more visible? If the session produced only blankness, Sridhara's reading suggests the practice is incomplete; the goal is niskampa-prakasa (steady luminosity), not mere cessation.",
     "advaita-bhakti": "Madhusudana's synthesis suggests a two-phase everyday practice tracking his samprajnata/asamprajnata distinction: first, concentrate on Krsna as a specific object (samprajnata phase, using image, mantra, or narrative) until the mind becomes genuinely one-pointed; then, allow that object to dissolve into the awareness that was holding it (asamprajnata phase). The bhakti element is not abandoned — it is the fuel that produces the sattvodreaka making nirodha available — so the practitioner who finds formless meditation dry or inaccessible is advised to return to Krsna-smarana as the wind-removing agent."
-  }
+  },
+  "primary_meaning": "A lamp in a windless spot does not flicker; that is the image given for the yogi whose mind is controlled and absorbed in the practice of the Self."
 }

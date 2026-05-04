@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "nibodha",
-      "lemma": "nibudh",
+      "lemma": "ni-√budh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "proktāni",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "accusative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -518,7 +518,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -620,7 +620,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nibodha: nibudh -> ni-√budh",
+          "proktāni: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every action has five causes and the individual self is only one of them, who or what is actually responsible for what I do — and what does that mean for guilt, credit, and accountability?",
@@ -638,5 +649,6 @@
     "shuddhadvaita": "Vallabha's lila-frame transforms repetitive or mundane work. If the antaryamin is the primary agent and you are the tad-amsa (His portion), then even routine action — answering emails, cooking, commuting — is Krsna's lila moving through you. The Pushti-marga practitioner cultivates the felt sense of 'seva rather than karma': the same physical action, reframed as offering, changes its texture without changing its external form.",
     "bhakti": "Sridhara's practical focus is nirahamkara (freedom from ego-claim). In any collaborative work, notice the impulse to establish 'I made this happen.' That impulse is what he calls kartrtva-abhimana — the conceit of authorship. The everyday discipline: at the completion of any task, mentally distribute credit across the five causes (body, instruments, habit, visible effort, the unseen) before speaking in first-person singular. This is not false modesty; it is accurate accounting.",
     "advaita-bhakti": "Madhusudana addresses why well-meaning people cannot simply stop harmful habits: karma is multi-caused, and willpower addresses only one cause. His synthesis suggests that jnana (clear seeing of the five-cause structure) is more effective than volitional suppression. Practically: when caught in a repeated pattern — procrastination, reactivity, craving — instead of doubling down on willpower, ask 'which of the five causes is actually driving this?' Naming the real cause is the beginning of the Advaita-bhakti path toward its dissolution."
-  }
+  },
+  "primary_meaning": "Learn from me, Arjuna, the five causes that *sāṅkhya* names as the roots of every action; once you see them clearly, the claim that you alone are the doer falls away."
 }

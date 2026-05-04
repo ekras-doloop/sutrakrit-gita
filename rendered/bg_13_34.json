@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "prakāśayati",
-      "lemma": "prakāśay",
+      "lemma": "pra-√kāśay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "prakāśayati",
-      "lemma": "prakāśay",
+      "lemma": "pra-√kāśay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -370,9 +370,10 @@
         "jayatirtha_13.34"
       ],
       "score": 0.5,
-      "english_rendering": "The payload notes Madhva did not comment on this verse. Drawing from the established Dvaita framework: the jīvātman (individual self), by Hari's anugraha (grace), illuminates its own kṣetra as an instrument of Paramātman's sovereign light. The sun-analogy points to borrowed luminosity — the jīva shines only as Hari's dependent reflection, never self-subsistent. The eternal distinction between kṣetrajña (jīva) and the supreme Kṣetrajña (Brahman) is the truth this verse seals.",
-      "divergence_note": "No direct Madhva bhāṣya available for this verse; rendering extrapolated from Dvaita doctrinal framework.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Yathā prakāśayaty ekaḥ kṛtsnaṃ lokam imaṃ raviḥ* — as the single sun illumines this entire world — *kṣetrī tathā kṛtsnaṃ kṣetraṃ prakāśayati* — so the *kṣetrajña* illumines the entire *kṣetra* (field). In Dvaita *siddhānta*, the verse names two distinct orders of *kṣetrajña*: the *paratantra* (eternally dependent) *jīva*, whose cognizing light is borrowed and bounded, and the *svatantra* (independently real, self-sufficient) Paramātman, whose light is original and unbounded. The sun-image makes the *bheda* (real distinction) precise: the sun illumines from without, remaining untouched by what it lights. So too the *jīva* illumines its own *kṣetra* through Hari's *anugraha* (grace), never merging with nor equaling the supreme *Kṣetrajña*. *Pañca-bheda* — the five-fold real distinction — holds intact: the Lord's illumining sovereignty is not shared upward by the *jīva*, nor diluted downward into *kṣetra*. The *taratamya* (graded ontological hierarchy) is preserved across all three terms: Paramātman, *jīva*, and *prakṛti* (matter). Dissolution of these distinctions is precisely what the sun-analogy refuses.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse; siddhānta voiced directly from the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -409,7 +410,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -468,7 +469,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prakāśayati: prakāśay -> pra-√kāśay",
+          "prakāśayati: prakāśay -> pra-√kāśay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the jñāna-cakṣu (eye of knowledge) sees the field-knower distinction clearly, what exactly changes in how one experiences pain — is it that pain ceases, or only that its reach stops at a certain boundary?",
@@ -486,5 +498,6 @@
     "śuddhādvaita": "Notice in moments of deep aesthetic pleasure — music, beauty, a sudden kindness — that the caitanya (consciousness) lighting up the experience does not belong to the object. The joy is the self's own nature meeting itself in the world. Vallabha's teaching here: savour fully, attribute the luminosity rightly, and the experience becomes prasāda (grace-gift) rather than craving.",
     "bhakti": "Sridhara's 'spashtarthah' (it is clear) is itself a practice instruction: do not over-complicate the recognition. The sun does not philosophise about not being stained. When you catch yourself being pulled into someone else's panic or anger, the practice is simply to notice — 'illuminating, not absorbing' — and return to steady witnessing. The simplicity is the teaching.",
     "advaita-bhakti": "Madhusudana's synthesis: hold both the Upanishadic image of the sun-as-eye and the Kṛṣṇa-devotee's intimacy with the Lord. The self that is unstained by the world's suffering is not indifferent — it is the eye through which Kṛṣṇa himself sees all beings. Bring this to care-giving or grief: you can be fully present to another's pain without being destroyed by it, because the eye of awareness is not the pain it holds."
-  }
+  },
+  "primary_meaning": "Just as one sun lights the whole world, the single knower of the field lights the entire field, Arjuna, yet is no more stained by it than the sun is stained by what it shines on."
 }

@@ -1,7 +1,7 @@
 {
   "verse_id": "18.76",
   "mūla": {
-    "devanāgarī": "राजन्संस्मृत्य संस्मृत्य संवादमिममद्भुतम् | केशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः",
+    "devanāgarī": "राजन् संस्मृत्य संस्मृत्य संवादमिममद्भुतम् | केशवार्जुनयोः पुण्यं हृष्यामि च मुहुर्मुहुः",
     "iast": "rājansaṃsmṛtya saṃsmṛtya saṃvādamimamadbhutam | keśavārjunayoḥ puṇyaṃ hṛṣyāmi ca muhurmuhuḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 76",
     "speaker": "Krishna",
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "hṛṣyāmi",
-      "lemma": "hṛṣ",
+      "lemma": "√hṛṣ",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -417,7 +417,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "राजन्संस्मृत्य -> राजन् संस्मृत्य"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hṛṣyāmi: hṛṣ -> √hṛṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the text close not with Arjuna's liberation but with Sanjaya's joy — what does it mean that a witness, not a participant, carries the final emotional register of the Gita?",
@@ -435,5 +453,6 @@
     "śuddhādvaita": "Vallabha's pushti-marga says grace precedes effort: Sanjaya did not earn this joy, he received it because he was positioned to receive. Ask yourself where in your life you are in a position to receive — a mentor, a community, a practice — but are too effortful to let the grace land. Today, receive one thing without immediately converting it into a task.",
     "bhakti": "Shridhara notes that romanca — horripilation, the physical thrill of devotional recognition — is a reliable sign that genuine contact has occurred. Most of us have had this experience: a piece of music, a line of poetry, a moment in nature that made the hair rise. Track these moments. They are not aesthetic accidents; they are the body's acknowledgment that something real was encountered. Keep a brief log this week.",
     "advaita-bhakti": "Madhusudan describes sambhrama — sacred agitation, a kind of overwhelm that is not anxiety but the mind's recognition that it is in contact with something larger than its categories. Notice the difference between the overwhelm of stress (contracting, depleting) and the overwhelm of genuine encounter (expanding, galvanizing). Sanjaya's repeated horripilation is the latter. When did you last experience sambhrama, and what produced it?"
-  }
+  },
+  "primary_meaning": "Each time I recall this wondrous and holy exchange between Krishna and Arjuna, O King, I rejoice again and again."
 }

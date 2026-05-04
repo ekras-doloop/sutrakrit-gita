@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "praśānta",
-      "lemma": "praśam",
+      "lemma": "pra-√śam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "vigata",
-      "lemma": "vigam",
+      "lemma": "vi-√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "āsīta",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -555,14 +555,6 @@
       ]
     },
     {
-      "list": "युक्त आसीत मत्परः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "6.15"
-      ]
-    },
-    {
       "list": "युक्तः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -613,7 +605,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "praśānta: praśam -> pra-√śam",
+          "vigata: vigam -> vi-√gam",
+          "sthitaḥ: sthā -> √sthā",
+          "yuktaḥ: yuj -> √yuj",
+          "āsīta: ās -> √ās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse lists four conditions together—praśānta-ātmā, vigata-bhī, brahmacarya-vrata, manaḥ-saṃyama—but which is the cause and which the effect? Does calming produce fearlessness, or does fearlessness enable calming?",
@@ -631,5 +637,6 @@
     "śuddhādvaita": "Cultivate one maitrī practice daily—a genuine moment of goodwill toward someone you find difficult. Vallabha's reading grounds praśānta-ātmā in citta-parikarma (mind-cultivation), not in willpower. The kleśas thin when the heart is actively exercised in friendliness. Over weeks this transforms the texture of mind so that when formal practice begins, the citta is already disposed toward Kṛṣṇa's shape rather than needing to force it.",
     "bhakti": "At the close of the workday, take five minutes to run Śrīdhara's sequence explicitly: (1) check whether the mind is praśānta or agitated—if agitated, pause; (2) locate what fear or urgency is present; (3) recall the brahmacarya principle—energy held, not dissipated; (4) pratyāhāra: close screens, close eyes, draw attention inward; (5) hold one name or form of Bhagavān as the single end (mat-para). This is the verse used as a daily reset protocol.",
     "advaita-bhakti": "When anxiety or grief arises about people you love—children, partner, work—recall Madhusūdana's Bṛhadāraṇyaka Upaniṣad quotation: the ātman is 'dearer than son, dearer than wealth, dearer than all else.' The anxiety reveals how much meaning is invested in those relationships; redirect that very intensity of love toward the source that underlies it. This is not detachment from loved ones but recognition that Kṛṣṇa as ātman is the real ground of your love for them—vigata-bhī arising not from indifference but from deeper understanding."
-  }
+  },
+  "primary_meaning": "With mind stilled and fear gone, established in the vow of self-mastery, draw the mind inward, sit absorbed, your awareness fixed in Me alone."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "uparamet",
-      "lemma": "uparam",
+      "lemma": "upa-√ram",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "gṛhītayā",
-      "lemma": "grah",
+      "lemma": "√grah",
       "grammar": "instrumental feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "cintayet",
-      "lemma": "cintay",
+      "lemma": "√cintay",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -393,7 +393,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -416,16 +416,6 @@
         "15.18",
         "17.10",
         "17.12"
-      ]
-    },
-    {
-      "list": "मैं हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.13",
-        "3.3",
-        "4.3",
-        "4.38"
       ]
     }
   ],
@@ -456,7 +446,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uparamet: uparam -> upa-√ram",
+          "gṛhītayā: grah -> √grah",
+          "cintayet: cintay -> √cintay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If 'gradually' (sanaih sanaih) is the explicit instruction, what is wrong with forcing stillness quickly — and what does forced stillness actually produce?",
@@ -474,5 +476,6 @@
     "suddhadvaita": "Bring into daily life the resolve (niscaya) that this practice will bear fruit — not as optimism but as surrender to Krsna's own promise. Remove the internal bargaining about whether you are 'making progress.' Take up the practice as if Krsna has already guaranteed the outcome, because in Pustimarga, He has.",
     "bhakti": "When old habit-patterns (samskaras) pull the mind away from stillness, do not treat this as failure. Sridhara explicitly anticipates this — use dharana (steady mental holding) each time it happens, patiently, through the sequence of practice. The arising of parama-ananda is not caused by your effort; your effort only removes the obstructions.",
     "advaita-bhakti": "Practise with the guru's specific instruction as your map and Madhusudhana's four-stage sequence as orientation: first bring all scattered speech-activity into the mind; then bring the mind's activity into pure awareness; then release even the personal 'I-sense' into the vast sense of being. Do not rush any stage — the instruction sanaih sanaih (gradually, gradually) is repeated twice for a reason."
-  }
+  },
+  "primary_meaning": "Withdraw the mind step by step, using a patience-steadied discernment, until it rests completely in the self, and then let go of every thought."
 }

@@ -175,7 +175,7 @@
     },
     {
       "surface_form": "manye",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -422,13 +422,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "इन्द्रियाणि प्रमाथीनि हरन्ति प्रसभं मनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.60"
-      ]
-    },
-    {
       "list": "कृष्ण",
       "role": "supporting",
       "other_verses_in_list": [
@@ -486,7 +479,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "manye: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even a post-jñāna sādhu cannot fully restrain the mind while prārabdha persists (Madhusūdana's position), what is the honest goal of meditation practice — cessation or skilled navigation of restlessness?",
@@ -504,5 +507,6 @@
     "śuddhādvaita": "Vallabha's insight is that attempting to bottle the wind is the wrong paradigm. In daily life: stop trying to achieve stillness by brute restraint. Instead, offer the restless mind's activity to Kṛṣṇa as it is — in seva, in kīrtana, in play. When the mind is engaged in His līlā, the churning does not cease but it ceases to be a problem. Prasāda-mārga means the solution arrives from outside the system you are trying to fix.",
     "bhakti": "Śrīdhara's fourfold map is a diagnostic: (1) Is the restlessness structural cañcalatā — use rhythm and routine; (2) Is it pramāthiṃ — sense-organ agitation — use pratyāhāra and diet; (3) Is it balaval — intellectual arguments keeping you stuck — use deliberate inquiry rather than suppression; (4) Is it dṛḍha — vāsanā-reinforced — only long-term re-conditioning (not one retreat) will shift it. Diagnose before prescribing.",
     "advaita-bhakti": "Madhusūdana's key move: Arjuna addresses Kṛṣṇa by name mid-complaint. In daily practice, when you reach the edge of what self-effort can achieve — which is usually sooner than expected — name what is beyond you. Not as defeat but as honest petition. The name Kṛṣṇa (kṛṣ, to draw toward) is itself the practice: invoke the one capable of drawing the mind past what method alone cannot reach."
-  }
+  },
+  "primary_meaning": "The mind is restless, turbulent, powerful, and stubborn, Krishna; I think restraining it is as difficult as restraining the wind."
 }

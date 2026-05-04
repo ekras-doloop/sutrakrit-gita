@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "caratām",
-      "lemma": "car",
+      "lemma": "√car",
       "grammar": "genitive neuter plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "anuvidhīyate",
-      "lemma": "anuvidhā",
+      "lemma": "anu-√vidhā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "harati",
-      "lemma": "hṛ",
+      "lemma": "√hṛ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -381,7 +381,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "caratām: car -> √car",
+          "anuvidhīyate: anuvidhā -> anu-√vidhā",
+          "harati: hṛ -> √hṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even a single indriya followed by the manas is sufficient to destroy prajñā, what does this imply about the cumulative condition of a person who habitually indulges several indriyāṇi simultaneously — is there a threshold below which recovery of viveka becomes practically impossible without external grace?",
@@ -399,5 +411,6 @@
     "śuddhādvaita": "Vallabha's identification of the manas as the kartṛ prabalam ekam (one predominant agent) points to a single daily practice: before the day begins, offer the manas itself to Kṛṣṇa — not a list of tasks, not a plan, but the manas as an instrument placed in His hands as prasāda returned to its source. When the manas later chases a viṣaya, the recollection is not 'I must control this' but 'this manas belongs to Kṛṣṇa — what is it doing outside His service?' That reframe is the Puṣṭi-mārga correction, gentle and immediate.",
     "bhakti": "Śrīdhara's image of the pramatta (heedless) helmsman is the operative warning: the problem is not wind or waves but the helmsman's own heedlessness — avashīkṛtatva (failure to master the indriyāṇi). In practical terms, this means identifying the one indriya that is currently avaśīkṛta (ungoverned) in your life — not all of them at once, but the single weakest link Śrīdhara points to — and applying one specific bhakti-practice (nāma-japa, sevā, or kīrtana) precisely to that point of leakage, rather than a general diffuse effort that leaves the vulnerability untouched.",
     "advaita-bhakti": "Madhusūdana's distinction between manas in cāñcalya (water-like fluidity) and manas in sthairya (land-like stability) maps directly onto the difference between a reactive day and a grounded one. The practical application is to identify what puts the manas on solid ground for you personally — a short dhyāna (meditation), a few verses of bhakti-poetry, a physical grounding gesture — and install it as the first act of the day, before the indriyāṇi engage with their objects. Once the manas is on land, the wind of viṣayāḥ still blows but cannot drag the vessel; the sādhaka remains mobile and functional precisely because the foundation is stable."
-  }
+  },
+  "primary_meaning": "When the mind chases after even one sense roaming among its objects, it carries your wisdom away, as wind sweeps a boat across water."
 }

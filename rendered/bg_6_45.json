@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "yatamānaḥ",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "saṃśuddha",
-      "lemma": "saṃśudh",
+      "lemma": "saṃ-√śudh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "saṃsiddhaḥ",
-      "lemma": "saṃsidh",
+      "lemma": "saṃ-√sidh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -472,7 +472,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatamānaḥ: yat -> √yat",
+          "saṃśuddha: saṃśudh -> saṃ-√śudh",
+          "saṃsiddhaḥ: saṃsidh -> saṃ-√sidh",
+          "yāti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If liberation is guaranteed across many births, does this verse undermine urgency — why strive intensely in this birth when accumulated saṃskāra-s carry the weight regardless?",
@@ -490,5 +503,6 @@
     "śuddhādvaita": "Recognize that sincere inner engagement with Kṛṣṇa — even imperfect, even interrupted — is itself Puṣṭi-mārga grace ripening over time. When formal practice breaks down, return simply to bhakti: a song, a moment of longing, a single name. The verse's two culminating paths (jñāna-vipāka and bhakti-vipāka) mean that whatever form your practice takes, if it is Kṛṣṇa-directed it is accruing toward the same destination.",
     "bhakti": "Use Śrīdhara's rhetorical logic as encouragement: if even the lax practitioner eventually arrives, the earnest one faces no real uncertainty. Convert that certainty not into complacency but into fearless escalation — 'uttarottaram adhikam,' more and more, progressively deeper. Let the removal of past impurity (vidhūta-pāpaḥ) be felt as growing lightness in practice rather than pursued as a goal.",
     "advaita-bhakti": "Madhusūdana's three-stage model offers a practical self-assessment tool: identify honestly which bhūmikā (stage of discrimination, dispassion, or direct meditation) your current practice inhabits. Then direct effort not toward leaping stages but toward thoroughly purifying the present stage. The guarantee of no loss (na hi kalyāṇakṛt, per prior verse) applies: every drop of sincere practice is permanently banked, regardless of what life disrupts in the interim."
-  }
+  },
+  "primary_meaning": "The yogi who strives with growing effort, burning through sin across many lifetimes, reaches the supreme destination."
 }

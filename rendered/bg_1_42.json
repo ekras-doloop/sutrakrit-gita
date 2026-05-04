@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "patanti",
-      "lemma": "pat",
+      "lemma": "√pat",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "lupta",
-      "lemma": "lup",
+      "lemma": "√lup",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -244,7 +244,8 @@
         "anandgiri_1.42"
       ],
       "score": 0.5,
-      "english_rendering": "Arjuna warns that varṇa-saṃkara (caste-mixing, the disorder born of collapsing hereditary order) drives the dynasty-destroyers — and the dynasty itself — into naraka (hell). The pitṛs (ancestral forebears) of these men fall when the piṇḍa-udaka-kriyā (the ritual offering of rice-balls and water) lapses, severing the chain of śrāddha that sustains departed souls. [BHĀṢYA ABSENT: Śaṅkarācārya's commentary begins at 2.10; this rendering draws from the mūla text and Śaṅkara's general Advaita framework in which vaidika-karmas, including pitṛ-yajña, belong to the vyāvahārika (conventional) order whose neglect produces real bondage within saṃsāra even if the paramārthika Self is untouched.]"
+      "english_rendering": "*Saṃkara* (varna-mixing, the disordering of hereditary lines) leads straight to *naraka* (hell) — for the *kula-ghnānāṃ* (dynasty-destroyers) and for the dynasty itself. The *pitaraḥ* (ancestral forebears) of these men fall, their *piṇḍodaka-kriyāḥ* (ritual offerings of rice-balls and water) having lapsed. Śaṅkara's bhāṣya opens at 2.10; Ānandagiri's ṭīkā, however, closes the doctrinal logic of this sequence: the faults (*doṣaiḥ*) catalogued by Arjuna are causes of *varṇasaṃkara*, and through them *jātiprayuktāḥ* (caste-ordained) and *vaṃśaprayuktāḥ* (lineage-ordained) *dharmāḥ sarve samutādyante* — all such duties are wholly uprooted (*samutādyante*). Therefore, Ānandagiri concludes, *kulakṣayakāraṇādyuddhādupiratirevṛ śreyasī* — withdrawal from the battle that causes *kulakṣaya* (clan-destruction) is indeed the better course. Within the advaita reading, these *vaidika-karma*s belong to the *vyāvahārika* (conventional) order; their neglect produces real bondage within *saṃsāra* even though the *paramārthika* Self is untouched by *piṇḍa* or its absence.",
+      "divergence_note": "Śaṅkara's bhāṣya is absent for 1.1–2.9; the advaita reading here draws directly on Ānandagiri's ṭīkā, whose Sanskrit is quoted verbatim: *doṣaiḥ*, *varṇasaṃkarahetubhiḥ*, *jātiprayuktāḥ vaṃśaprayuktāśca dharmāḥ sarve samutādyante*, and the concluding inference that *kulakṣayakāraṇādyuddhāduparatirevṛ śreyasī*. No Śaṅkara-direct quotation is possible for this verse."
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -344,7 +345,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "patanti: pat -> √pat",
+          "lupta: lup -> √lup"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna fears that piṇḍa-udaka-kriyā lapsing will cause pitṛs to fall — does this imply the dead are ontologically dependent on the living, and what does each school say about the nature of that dependency?",
@@ -362,5 +374,6 @@
     "śuddhādvaita": "Puṣṭi-mārga asks whether your anxiety about systemic collapse is itself a form of taking Kṛṣṇa's role — imagining you must hold the structure together by will. The everyday practice is surrender-within-action: perform the piṇḍa-equivalent in your context (the regular check-in, the ritual meal, the weekly call) as offering rather than load-bearing, trusting that the continuity you fear losing is held by prasāda, not by your management.",
     "bhakti": "A bhakti reading of Arjuna's grief-at-saṃkara highlights that devotional community — satsaṅga — is itself a lineage that can be severed. The application: if a community of shared practice (a reading group, a family prayer, a teacher-student bond) is fraying, treat the restoration of its simplest recurring ritual as the first act of bhakti, before any doctrinal or interpersonal repair is attempted.",
     "advaita-bhakti": "Madhusūdana's synthesis — Advaita ontology held within Kṛṣṇa-bhakti — means both the jñāna-insight ('this structure is conventional') and the bhakti-response ('and therefore I tend it with love, not compulsion') are simultaneously valid. The everyday practice: when you feel the pull to either dismiss a family obligation as 'just conventional' or to be crushed by its weight, rest in the middle — fulfill the jāti-dharma and kula-dharma as a form of devotion whose ultimate referent is not the lineage but Kṛṣṇa."
-  }
+  },
+  "primary_meaning": "Varna-mixing drags the clan-destroyers and the clan itself into hell, and their ancestors fall when the offerings of rice and water that once sustained them go unperformed."
 }

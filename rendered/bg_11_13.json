@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "pravibhaktam",
-      "lemma": "pravibhaj",
+      "lemma": "pra-√vibhaj",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -315,7 +315,9 @@
         "jayatirtha_11.13"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment directly on this verse (payload flags absence). Reasoning from Dvaita doctrine: Arjuna — a jīva (individual soul) eternally and irreducibly distinct from Hari — witnessed the entire universe resting within the body of Deva-deva (the God of gods), each entity in its multiplicity preserved and dependent on Hari's independent reality (svatantra). The vision confirms Hari's absolute sovereignty (svarāṭ) over all dependent reals (paratantra), not a fusion of the many into one."
+      "english_rendering": "*Tatraikasthaṃ jagat kṛtsnaṃ pravibhaktam anekadhā* — the entire universe, differentiated into countless modes, abides in one place: the body of *deva-devasya*, the God of gods. *Pāṇḍavas tadā apaśyat* — Arjuna, the *jīva* (individual self) eternally *paratantra* (dependent, never self-sufficient), beheld this. The *pravibhaktam anekadhā* is not dissolved into a featureless unity; each differentiated thing retains its distinct status, precisely because the *pañca-bheda* (five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is real and indestructible. What the vision discloses is not merger but *taratamya* (the graded ontological hierarchy) held intact within *Hari*'s *svātantrya* (absolute self-sufficiency). The universe rests in Hari's body as the totality of *paratantra* reals subsisting in and through the one *svatantra* (independently real, self-sufficient) Lord — their support, not their substrate into which they collapse. Arjuna sees the whole, yet remains himself: the *bheda* (real distinction) between the seeing *jīva* and the seen *deva-deva* is not cancelled by the vision but confirmed by it.",
+      "divergence_note": "Where an advaita reading might treat *ekastham* as pointing toward non-dual identity of universe and Brahman, the dvaita siddhānta holds that *ekastha* (abiding in one locus) names Hari's sovereign containment of all *paratantra* reals without collapsing the *pañca-bheda*. The multiplicity (*anekadhā*) is real, not an appearance to be sublated.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -346,7 +348,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -356,13 +358,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.30"
-      ]
-    },
     {
       "list": "देवदेव",
       "role": "supporting",
@@ -422,7 +417,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravibhaktam: pravibhaj -> pra-√vibhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When the verse says the universe is 'divided in many ways' (pravibhaktam anekathā) yet 'standing in one place' (ekastham), which is more real — the multiplicity or the unity? Does your school's answer change how you live in a world of difference?",
@@ -440,5 +445,6 @@
     "śuddhādvaita": "Vallabha's comparison to Yaśodā's vision flags a counter-intuitive application: sometimes Kṛṣṇa reveals his greatness (aiśvarya) not to produce wonder-then-transcendence, but to strengthen your commitment to shelter (āśraya) in him. If you encounter an overwhelming demonstration of someone's or something's magnificence and it deepens your devotion rather than dissolving your identity — that is the Puṣṭi-mārga signal that you are on the path of regulated love, not yet pure love (śuddha-puṣṭi), and that is exactly where you are supposed to be.",
     "bhakti": "Śrīdhara's framing — that the multiplicity of the world is literally the avayava (limbs) of Deva-deva — offers a concrete bhakti practice: when you serve anyone or anything with genuine care, you are handling a limb of the divine. This is not metaphor for Śrīdhara; it is the direct perceptual content of the vision. Treat each person, each task, and each creature as an actual part of the divine body, and service becomes darśana (beholding).",
     "advaita-bhakti": "Madhusūdana notes that Arjuna had already been told about the cosmic form before he saw it — the instruction preceded the experience (ājñaptam api anubhūtavān). This is the synthesis path in daily life: let philosophical understanding (śravaṇa, manana) prepare the ground, but do not mistake the map for the territory. The anubhava (lived experience) — the moment when something you have intellectually grasped lands in your body and changes how you see — is its own irreplaceable event. Work toward that translation of knowing into beholding."
-  }
+  },
+  "primary_meaning": "There, within the body of the God of gods, Arjuna saw the whole universe gathered in one place, divided into its countless forms."
 }

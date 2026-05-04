@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "hataḥ",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "haniṣye",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -359,8 +359,9 @@
         "jayatirtha_16.14"
       ],
       "score": 0.5,
-      "divergence_note": "The Dvaita school alone emphasizes the constitutive (not merely circumstantial) nature of asuric opposition to Bhagavan — a harder theological position than correction-by-knowledge.",
-      "english_rendering": "Madhva did not comment on this verse directly; the Dvaita reading must be inferred from the surrounding framework. The claims here — 'I am lord, enjoyer, self-accomplished' — are the quintessential marks of tamas-dominated jivas who refuse to acknowledge Hari's complete and eternal sovereignty (sarva-niyantrtva). In Dvaita anthropology, the asura is not merely deluded but is constitutionally oriented away from Vishnu's grace; the boast of self-sufficiency is not correctable by mere reasoning but reflects an inherent virodhitva (opposition to Hari)."
+      "divergence_note": "Dvaita alone reads the *āsura*'s self-proclamation as expressing a constitutive *virodhitva* grounded in *taratamya* — not a correctable confusion about selfhood but a grade-determined antipathy to Hari's sovereignty. Other schools treat the error as epistemic; Dvaita treats it as ontological.",
+      "english_rendering": "*Asau mayā hataḥ śatrur haniṣye cāparān api | īśvaro 'ham ahaṃ bhogī siddho 'haṃ balavān sukhī* — the *āsura* *jīva* proclaims itself lord, enjoyer, self-accomplished, powerful, and happy. Each boast is a direct inversion of the *pañca-bheda* (the five-fold real distinction): the *jīva* arrogates to itself the *svatantra* (independently real, self-sufficient) status that belongs to Hari alone. *Īśvaro 'ham* — 'I am lord' — is the precise negation of Hari's *sarva-niyantṛtva* (absolute sovereign control over all). *Ahaṃ bhogī* denies that enjoyment flows only through Hari's dispensation; *siddho 'ham* refuses the *paratantra* (eternally dependent) constitution of every *jīva* without exception. In the Dvaita *siddhānta*, such self-assertion is not an intellectual error that instruction can dissolve; it expresses a *virodhitva* (constitutional opposition to Hari) native to the *tāmasa* grade of *jīva*. The *taratamya* (graded ontological hierarchy) places these beings at the antipodal extreme from Mukti-yogya souls: their orientation away from *bhakti* as ontological subordination is not circumstantial but fixed in their very *svabhāva* (inherent nature). The verse thus names, in the *āsura*'s own voice, the exact shape of bondage: self-declared *svatantra* where only *paratantra* is real.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -469,7 +470,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hataḥ: han -> √han",
+          "haniṣye: han -> √han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I recite my accomplishments to myself — promotions won, adversaries outmaneuvered, goals achieved — am I describing reality or building the asuric interior monologue this verse catalogs?",
@@ -487,5 +499,6 @@
     "shuddhadvaita": "In Pushti-marga practice, seva (devotional service) is the antidote because it structurally prevents the asuric appropriation this verse describes: when every act is framed as an offering to Shrinathji, the 'I killed, I shall kill, I am lord' monologue has nowhere to land. The practical instruction is to begin the workday with an explicit offering of all anticipated victories to Krishna — not as ritual formality but as a pre-commitment that protects against the lobha-krodha cascade Madhusudan identifies.",
     "bhakti": "Sridhara's key gloss is 'siddha = kritakrtyah' — 'accomplished' in the worldly sense. The bhakti corrective is to ask daily: by whose standard am I siddha? If the answer is purely social — income, status, reputation — the asuric frame has been accepted. Kritakrtyata (true fulfillment) in bhakti means only one thing: has today's living deepened bhagavat-priti (love of Bhagavan)? Make this the only success metric that closes the day.",
     "advaita-bhakti": "Madhusudan's psychological cascade — greed feeds godhood-fantasy feeds violence — suggests a specific intervention point: intercept at the lobha (greed) stage before it escalates to the ishvarata (lord) claim. The Advaita-bhakti practitioner uses Krishna-smarana (remembrance of Krishna) the moment acquisitive desire arises, not after it has generated the full asuric monologue. The bhakti element is the name; the Advaita element is the recognition that the grasping self who wants more is itself a construct on the awareness that needs nothing."
-  }
+  },
+  "primary_meaning": "He counts his kills and promises more, declaring himself lord, enjoyer, perfected, powerful, and happy, all in the same breath."
 }

@@ -167,7 +167,7 @@
     },
     {
       "surface_form": "gṛhṇāti",
-      "lemma": "grah",
+      "lemma": "√grah",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -350,7 +350,7 @@
     },
     {
       "surface_form": "saṃyāti",
-      "lemma": "saṃyā",
+      "lemma": "saṃ-√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -636,29 +636,6 @@
       "other_verses_in_list": [
         "7.19"
       ]
-    },
-    {
-      "list": "येन सर्वमिदं ततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.4",
-        "9.4",
-        "9.5",
-        "12.3",
-        "12.4",
-        "18.46"
-      ]
-    },
-    {
-      "list": "विशेष बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.24",
-        "3.18",
-        "3.21",
-        "3.23",
-        "3.24"
-      ]
     }
   ],
   "audit_trail": {
@@ -688,7 +665,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gṛhṇāti: grah -> √grah",
+          "saṃyāti: saṃyā -> saṃ-√yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says the ātman 'moves to' new bodies — but if the ātman is all-pervading (vibhu) as Advaita holds, what exactly is doing the moving, and is 'movement' even the right category here?",
@@ -706,5 +694,6 @@
     "śuddhādvaita": "Vallabha's application centres on grief-dissolution through recognition of divine abundance. When something you have relied upon as a vehicle of joy — a relationship, a creative project, a community — reaches its natural end, Puṣṭi-mārga's counsel is not stoic detachment but active recognition: Kṛṣṇa's generative will has already been providing new forms of His prasāda throughout your life, as karma required, and will continue to do so. The ending is not impoverishment; it is the moment before the next gift becomes visible.",
     "bhakti": "Śrīdhara's bhakti application is relational: the constancy of the self across body-changes is the ground for trusting that one's relationship with the Lord is equally constant. For the practitioner, this means that loss — of a devotee-friend, of a temple community, of a teacher — does not sever the underlying bond with Bhagavān. The specific form of the sādhana-relationship may change; its root in the self's devotion to the Lord does not. Grief is therefore answerable by remembering that what is dear is still present at the level that matters.",
     "advaita-bhakti": "Madhusūdana's synthesis applies to situations where one is the agent of another's painful transition — the doctor delivering a diagnosis, the leader restructuring an organization, the parent enforcing a necessary boundary. The Advaita-bhakti frame asks: might this difficult act actually be equipping this person with a 'superior instrument' for the next stage of their journey? The question does not justify cruelty, but it dissolves the paralysis of compassion-as-aversion. Acting in full knowledge of the ātman's indestructibility and the Lord's purposive care makes one an instrument of atyanta-upakāra (supreme benefit) rather than a perpetrator of harm."
-  }
+  },
+  "primary_meaning": "Just as a person sheds worn clothes and puts on new ones, the soul leaves worn-out bodies and takes up others."
 }

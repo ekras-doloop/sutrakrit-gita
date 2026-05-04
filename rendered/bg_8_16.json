@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -404,18 +404,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.19",
-        "4.3",
-        "5.17",
-        "7.29",
-        "16.5"
-      ]
-    },
-    {
       "list": "कौन्तेय",
       "role": "supporting",
       "other_verses_in_list": [
@@ -443,13 +431,6 @@
         "18.48",
         "18.50",
         "18.60"
-      ]
-    },
-    {
-      "list": "दैवी संपद्विमोक्षाय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.15"
       ]
     },
     {
@@ -546,7 +527,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even Brahmaloka — the highest created realm — guarantees nothing permanent, what does that imply about any achievement, institution, or civilizational summit we currently treat as a stable endpoint?",
@@ -564,5 +555,6 @@
     "śuddhādvaita": "Vallabha's animitta-dharma point — that even virtuous action without Kṛṣṇa as its motive returns you to the cycle — is a daily diagnostic. Before acting, ask: 'Is this action aimed at a result I will later cling to, or am I doing this as an offering?' The Puṣṭi-mārga application is not to stop acting but to keep releasing the result back to Kṛṣṇa — not as technique but as the natural overflow of seeing everything as His prasāda.",
     "bhakti": "Śrīdhara's krama-mukti teaching implies that partial progress is real but not final — one may reach high states of meditation, clarity, or spiritual insight and still need further transformation. The everyday application: do not mistake peak states (jhāna, samādhi, temporary clarity) for liberation. Stay in the practice through ordinary days, not just peak experiences. Knowledge (samyag-jñāna) must fully ripen — kṛtātmā, the 'completed self' — before the cycle is actually broken.",
     "advaita-bhakti": "Madhusūdana's gloss on the double vocative — Arjuna as svabhāva-śuddhi (innate brightness) and Kaunteya as lineage-purity — suggests that both intellectual clarity and relational rootedness are required for liberation. The everyday application: cultivate both the discriminative mind (can I see what is temporal vs. atemporal?) and the affective ground (am I rooted in a lineage, a community, a practice that goes beyond my individual accumulation?). Neither alone is sufficient; Madhusūdana's synthesis insists on both tracks."
-  }
+  },
+  "primary_meaning": "All worlds, including Brahma's own realm, lead back to rebirth. Reach me, and you are born no more."
 }

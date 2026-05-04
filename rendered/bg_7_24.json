@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "āpannam",
-      "lemma": "āpad",
+      "lemma": "√āpad",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "manyante",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "jānantaḥ",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -449,7 +449,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āpannam: āpad -> √āpad",
+          "manyante: man -> √man",
+          "jānantaḥ: jñā -> √jñā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa's avyaktatva means the nirguṇa Brahman for Advaita but the eternally personal Hari for Madhva, can a single Sanskrit word (avyaktam) legitimately bear both readings, or is one school's reading an imposition on the mūla?",
@@ -467,5 +479,6 @@
     "śuddhādvaita": "Vallabha's application is aesthetic and contemplative: beauty that is concealed (durvibhāvyam) is not absent. When Kṛṣṇa's flute sounds from behind ordinary events — a piece of music, an unexpected kindness, a line of verse that stops you — the Puṣṭimārga practice is to not explain it away as coincidence or personal emotion but to receive it as prasāda from the concealed sovereignty. The abuddhayaḥ explain; the bhakta receives.",
     "bhakti": "Śrīdhara's question is practical: why do we keep choosing faster, smaller returns over the highest one? This verse maps onto every place where we settle for the familiar devatā (the known reward-loop: social approval, transactional success) rather than staying with a longer, less predictable path. The practice Śrīdhara implies is consistency of refuge (āśraya): recognise the finite-fruit structure of your current choices and relocate your trust.",
     "advaita-bhakti": "Madhusūdana's double-ignorance map is the most diagnostically precise for everyday use: you can fail to recognise the ground-of-being dimension of what you are encountering (sopādhika error) and you can also fail to recognise its nirupādhika, unconditional bliss-dimension (nirupādhika error). Most confusion about whether a relationship, a vocation, or a practice is 'the real thing' involves both failures simultaneously. The synthesis practice is to hold both recognitions at once: this person / this work is a kārya-expression of sarva-kāraṇam, and also a point of access to paramānanda-ghana."
-  }
+  },
+  "primary_meaning": "The undiscerning mistake me, who am unmanifest, for one who has merely taken on a visible form, not knowing that my true nature is imperishable and supreme."
 }

@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "yajante",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -545,7 +545,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yajante: yaj -> √yaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Can sincere but unlearned worship (shraddha without shastra) have genuine spiritual value, or is it always a lesser path?",
@@ -563,5 +573,6 @@
     "shuddhadvita": "Vallabha's application is the most accessible: if you feel spontaneous love or gratitude toward Krishna — in a moment of beauty, at a temple, hearing music — treat that impulse as Krishna himself ploughing open your heart. Do not wait until you have studied the scriptures. Act on that shraddha now, offer even a small thing with full feeling. The purification comes through the act of offering, not through preparation for offering.",
     "bhakti": "Shridhara's practical guidance is for those who grew up in a devotional household but never deeply studied why. You are the chapter's primary audience. Do not feel shame about informal faith — it is real and has value. But take one step toward understanding the why: read even one commentary verse on a practice you already do. Moving from inherited custom to understood practice is the chapter's invitation.",
     "advaita-bhakti": "Madhusudana's synthesis offers this: if you find yourself between camps — too devotional for the pure intellectuals, not systematic enough for the strict ritualists — you are exactly the person this chapter addresses. Your shraddha is valid. The question is which guna it is currently serving. Run a quiet audit: what am I actually worshipping, what am I actually seeking, what is the quality of attention I bring? That audit is the chapter's gift."
-  }
+  },
+  "primary_meaning": "Arjuna asks: those who set aside scriptural rules yet worship with genuine faith, Krishna, where do they stand — in sattva, rajas, or tamas?"
 }

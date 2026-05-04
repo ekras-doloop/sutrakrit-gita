@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "syāt",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -222,7 +222,7 @@
     },
     {
       "surface_form": "bhūtam",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -436,23 +436,6 @@
         "10.32",
         "11.50"
       ]
-    },
-    {
-      "list": "अव्यय बीज",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10",
-        "9.16",
-        "9.17",
-        "9.18"
-      ]
-    },
-    {
-      "list": "पुरोधसां च मुख्यं मां विद्धि पार्थ बृहस्पतिम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.24"
-      ]
     }
   ],
   "audit_trail": {
@@ -482,7 +465,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as",
+          "syāt: as -> √as",
+          "bhūtam: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa is the bīja of every being, does that mean every creative act — a poem, a business, a child — participates in divine generativity, or does it flatten all causes into one?",
@@ -500,5 +495,6 @@
     "śuddhādvaita": "Vallabha's mat-prakṛti-dvaya reading means your creative work — art, cooking, parenting, code — is Kṛṣṇa's own śakti expressing itself through your particular upādhi (form). This is not an excuse for passivity but an invitation to work with full energy, knowing the work is already His: the Puṣṭi-mārga practitioner offers the fruit not after the fact but as the very fabric of the doing.",
     "bhakti": "Śrīdhara's clean causal inference — 'I am the bīja because nothing exists without Me' — is a simple meditation for a distracted mind: when overwhelmed by multiplicity, return to the single seed. Everything you are managing, worrying about, or celebrating is a sprout from one root. Hold the root; the sprouts will sort themselves.",
     "advaita-bhakti": "Madhusūdana's synthesis is most useful in the tension between intellectual knowledge and emotional longing: you can know intellectually that Kṛṣṇa is non-dual caitanya (consciousness) and simultaneously ache for the personal Bhagavān who addresses you by name. The verse models that very simultaneity — the abstract seed-claim delivered in the most intimate register ('he Arjuna'). You do not have to choose between understanding and loving."
-  }
+  },
+  "primary_meaning": "I am the seed of every being, Arjuna. Nothing that moves or stands still could exist without me."
 }

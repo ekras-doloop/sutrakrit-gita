@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "pravṛddhaḥ",
-      "lemma": "pravṛdh",
+      "lemma": "pra-√vṛdh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "pravṛttaḥ",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -199,7 +199,7 @@
     },
     {
       "surface_form": "bhaviṣyanti",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -282,7 +282,7 @@
     },
     {
       "surface_form": "avasthitāḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -538,30 +538,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "न योत्स्ये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.46",
-        "2.7",
-        "4.42"
-      ]
-    },
-    {
-      "list": "न हि प्रजानामि तव प्रवृत्तिम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.31"
-      ]
-    },
-    {
-      "list": "मयैवैते निहताः पूर्वमेव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.33",
-        "11.34"
-      ]
-    },
-    {
       "list": "सर्वे",
       "role": "supporting",
       "other_verses_in_list": [
@@ -617,7 +593,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "pravṛddhaḥ: pravṛdh -> pra-√vṛdh",
+          "pravṛttaḥ: pravṛt -> pra-√vṛt",
+          "bhaviṣyanti: bhū -> √bhū",
+          "avasthitāḥ: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the outcome is already determined by kāla acting through divine will, what is the moral weight of Arjuna's personal choice to fight or not fight — and does that weight change depending on whether you read this through Advaita, Dvaita, or Viśiṣṭādvaita?",
@@ -634,5 +624,6 @@
     "śuddhādvaita": "Vallabha's prasāda framing ('those outside Bhagavān's grace will not survive') applies to the question of why some people, relationships, or communities endure and others dissolve despite comparable effort. The Puṣṭi-mārga answer: survival and flourishing are not earned — they are gifts of anugraha. The practice this invites is not passivity but gratitude and surrender: ask to be among those Kṛṣṇa chooses to protect and sustain, rather than calculating what your effort will secure.",
     "bhakti": "Śrīdhara's plain reading — 'seized by me in my form as kāla, they will die in any case' — speaks to caregivers, physicians, and hospice workers who carry the weight of not having 'done enough.' This verse offers a reframe: the one you cared for was already in kāla's grasp before you arrived. Your presence, your effort, your love are real and valid — they are simply not the deciding factor in the timing of dissolution. Release the guilt without releasing the care.",
     "advaita-bhakti": "Madhusūdana's phrase tava vyāpāro 'kiṃcit-karaḥ ('your activity achieves nothing decisive') is at first terrifying, then freeing. For those caught in high-stakes work — executives, activists, parents of seriously ill children — this verse's synthesis says: Kṛṣṇa's sovereign will is the cause; you are the occasion, not the engine. This dissolves the compulsive over-functioning that burns people out while simultaneously calling them to act fully (like Arjuna, who still fights) from love rather than from the delusion that they are holding the world together."
-  }
+  },
+  "primary_meaning": "I am Time, the destroyer of worlds, fully aroused and set in motion to consume these armies. Without you, Arjuna, not one warrior arrayed against you will survive."
 }

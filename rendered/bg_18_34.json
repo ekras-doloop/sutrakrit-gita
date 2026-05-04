@@ -1,8 +1,8 @@
 {
   "verse_id": "18.34",
   "mūla": {
-    "devanāgarī": "यया तु धर्मकामार्थान्धृत्या धारयतेऽर्जुन | प्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी",
-    "iast": "yayā tu dharmakāmārthāndhṛtyā dhārayate'rjuna | prasaṅgena phalākāṅkṣī dhṛtiḥ sā pārtha rājasī",
+    "devanāgarī": "यया तु धर्मकामार्थान् धृत्या धारयतेऽर्जुन | प्रसङ्गेन फलाकाङ्क्षी धृतिः सा पार्थ राजसी",
+    "iast": "yayā tu dharmakāmārthān dhṛtyā dhārayate'rjuna | prasaṅgena phalākāṅkṣī dhṛtiḥ sā pārtha rājasī",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 34",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "dhārayate",
-      "lemma": "dhāray",
+      "lemma": "√dhāray",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -424,8 +424,9 @@
         "jayatirtha_18.34"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this verse. A Dvaita reading consistent with his broader framework: the jiva's dhrti is rajasic when it steadies itself in the independent pursuit of dharma, kama, and artha without referring them upward to Hari as their ultimate enjoyer and lord. The fruit-craving (phalakanksana) manifests the jiva's constitutional error of treating its own enjoyment as the telos, rather than recognizing Hari's absolute sovereignty over all fruits. Rajasic dhrti is the volitional expression of the jiva's forgetting of its own servant-nature.",
-      "divergence_note": "ABSENT — Madhva's commentary on this verse is not in the payload. Rendering is reconstructed from Dvaita doctrinal principles; treat as inferred, not directly attested."
+      "english_rendering": "*Dhṛti* (resolute will) that steadies the *jīva* in the threefold pursuit of *dharma*, *kāma*, and *artha* — yet does so with *prasaṅga* (attachment) and *phalākāṅkṣā* (craving for fruit) — is *rājasī*, rajasic. The *jīva*, being *paratantra* (eternally dependent), holds no sovereign claim over any of these three ends; they belong in their entirety to *svatantra* Hari, who alone is their ground and their lord. When *dhṛti* arrests itself at the level of *dharma-kāma-artha* and treats their fruits as the *jīva*'s own telos, it enacts the *jīva*'s constitutive error: mistaking dependent agency for self-sufficiency. *Phalākāṅkṣā* is not merely a moral failing but an ontological misreading of *bheda* (real distinction) — the *jīva* forgetting its position within *taratamya* (graded ontological hierarchy) and arrogating to itself the enjoyment that belongs to Hari. Such *dhṛti* binds rather than liberates, because the will that does not refer its objects upward to Hari as their supreme enjoyer perpetuates the *jīva*'s servant-nature going unrecognized by the servant himself.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha is extant on this verse. Reading voiced directly from Dvaita *siddhānta*: *paratantra* ontology, *pañca-bheda*, and *taratamya* applied to the mūla's *prasaṅga-phalākāṅkṣā* dyad.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -566,7 +567,43 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "dharmakāmārthāndhṛtyā -> dharmakāmārthānd hṛtyā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "धर्मकामार्थान्धृत्या -> धर्मकामार्थान् धृत्या"
+        ]
+      },
+      {
+        "date": "2026-05-03T23:28:12.447254Z",
+        "scope": "iast_reconstruction_from_word_by_word",
+        "reason": "broken_split_from_e04db6c9_repair"
+      },
+      {
+        "date": "2026-05-03T23:28:56.120958Z",
+        "scope": "iast_canonical_restoration",
+        "reason": "fix_e04db6c9_broken_split_on_long_consonant_clusters"
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhārayate: dhāray -> √dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If rajasic dhrti holds dharma among its objects — is a person with genuine ethical commitment but result-orientation worse off than an amoral person who acts without craving? What does this imply for how we evaluate 'good citizens' vs 'seekers'?",
@@ -584,5 +621,6 @@
     "suddhadvaitа": "Vallabha's 'kartrtva-abhinivesha' names a very specific everyday texture: the feeling that this work is mine, this success is mine, this dharmic project is my achievement. It is subtler than just wanting results — it is the insistence on being the author of the result. Notice it in how you tell stories about your own actions ('I did this,' 'I built that'), in how you feel when credit goes elsewhere, in how performance anxiety arises before acts that 'matter.' In Pushti-marga terms, surrendering this authorship-insistence is the practical entry into prasada — Krsna's grace simply fills the space vacated by kartrtva.",
     "bhakti": "Sridhara's 'pradhanye' — holding dharma, artha, kama with primacy — points at priority-ordering. The everyday question is not whether you pursue these but whether they are primary. A sattvic person may engage fully with ethical obligations, livelihood, and legitimate desires while holding them as secondary to a larger devotional orientation. The rajasic person cannot genuinely subordinate them — they keep reasserting primacy. Practical test: when your dharmic duties and your spiritual development come into scheduling conflict, which one consistently wins? The pattern over time, not any single instance, reveals the dhrti.",
     "advaita-bhakti": "Madhusudana's sharpest observation — 'never even once toward moksha' — maps onto the contemporary experience of people who are genuinely ethical, spiritually curious, and hard-working but for whom liberation or radical self-inquiry never actually makes it onto the agenda. The calendar is full of good things: family, career, community, even meditation as stress-management. But liberation as a live question, as an actual organizing concern? 'Kadacid api na' — not even once. The rajasic dhrti is not lazy or vicious; it is a fully occupied life that has structurally excluded the one question that could disrupt its occupation."
-  }
+  },
+  "primary_meaning": "The resolve that grips dharma, desire, and wealth as perpetual ends, always craving the fruit of each engagement, is rajasic, Arjuna."
 }

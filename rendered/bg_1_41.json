@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "praduṣyanti",
-      "lemma": "praduṣ",
+      "lemma": "pra-√duṣ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "duṣṭāsu",
-      "lemma": "duṣ",
+      "lemma": "√duṣ",
       "grammar": "locative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "jāyate",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -229,7 +229,8 @@
         "anandgiri_1.41"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya did not comment on BG 1.41; his Gītā-bhāṣya begins at 2.10. From Advaita first principles: when adharma (the absence of the ordering principle that sustains cosmic hierarchy) overwhelms a lineage, the women of the family (kula-strīḥ) become corrupted — not through personal fault but because the protective dharmic field has collapsed. The resulting varṇa-saṃkara (mixing of class-functions) destroys the ritual instruments — piṇḍa, udaka, śrāddha — through which the living maintain the chain of causation that keeps the jīvas of the lineage from falling into lower births. Arjuna's anguish, though rooted in empirical attachment, accurately names a real soteriological threat: the destruction of the social matrix that sustains the possibility of jñāna-yoga itself."
+      "english_rendering": "*Adharma* (disorder opposed to the ordering principle of cosmic and social life) overwhelming the lineage (*adharmābhibhavāt*) corrupts the *kula-striyaḥ* — the women who are the generative axis of lineage continuity. From an advaita reading, this corruption is not primarily a moral judgment on individual women but a symptom of *māyā*-driven *adhyāsa* (superimposition of the unreal) displacing the dharmic order that organizes empirical life. When *strīṣu duṣṭāsu* — the women thus vitiated — produce *varṇa-saṃkara* (the intermingling of class-functions), the ritual chain sustaining the ancestors is severed: *piṇḍa* and *udaka* (oblation and water-offering), whose performance depends on sons born within right lineage, go unperformed. The *pitṛs* denied these rites fall — *patan̄ti* — from whatever intermediate station they occupied, descending toward lower births. At the level of *vyāvahārika* (conventional-empirical) truth, the destruction is real and grave: the social conditions that make *jñāna-niṣṭhā* (steady establishment in non-dual knowledge) possible are dismantled. At the *pāramārthika* (ultimate) level, *ātman* is untouched — but Arjuna speaks from within *saṃsāra*, and there the collapse of *varṇāśrama*-dharma forecloses the very path that leads beyond it.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -249,7 +250,8 @@
         "jayatirtha_1.41"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on BG 1.41; his Gītā-bhāṣya and Gītā-tātparya begin at 2.11. From Dvaita first principles: adharma's dominance corrupts the kula-strīḥ because Hari's sustaining will (svātantrya) has been withdrawn from that lineage as a consequence of prior adharma. Varṇa-saṃkara is not merely social disorder but a disruption of the hierarchy of dependent beings (paratantra jīvas) whose ordered differentiation reflects Hari's own infinite qualitative distinctions. The piṭṛ-devas, unable to receive their piṇḍa, fall — a real metaphysical event, not mere social commentary — because the conduit of service between distinct orders of being has been severed."
+      "english_rendering": "*Adharmābhibhavāt* — when *adharma* (disorder contrary to Hari's ordinance) overwhelms, the *kula-striyaḥ* (women of the lineage) are corrupted; and where women are corrupted, *varṇa-saṃkara* (mixing of the ordered grades of *paratantra* *jīvas*) arises. The verse names two cascading violations of Hari's sovereign order. *Svātantrya* belongs to Hari alone; the graded hierarchy of *paratantra* beings — each distinct in nature and function, their differences grounded in *pañca-bheda* — is sustained only so long as *dharma* (Hari's sustaining will made visible in orderly conduct) holds. When *adharma* gains dominance, that sustaining will withdraws from the lineage, and the consequence is not merely social disarray but a real ontological rupture: the distinct orders of being — *jīva* from *jīva*, *jīva* from matter — whose differentiation reflects Hari's own infinite qualitative distinctions, collapse into confusion. The piṭṛ-devas, themselves *paratantra jīvas* in a higher grade, are severed from the *piṇḍa* that constitutes the conduit of *taratamya*-ordered service; their fall is a real event within the hierarchy, not a metaphor. Arjuna, still speaking from grief and *ajñāna*, perceives the social surface of this collapse; the Dvaita reading hears beneath it the breaking of the chain of dependent being that Hari's grace alone can restore.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -357,7 +359,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "praduṣyanti: praduṣ -> pra-√duṣ",
+          "duṣṭāsu: duṣ -> √duṣ",
+          "jāyate: jan -> √jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If adharma is the root cause and varṇa-saṃkara the downstream effect, what practical intervention point does this causal chain suggest — and is that intervention available to Arjuna at this moment?",
@@ -375,5 +389,6 @@
     "śuddhādvaita": "When every human strategy for preventing harm proves inadequate, the Puṣṭi-mārga application is to recognise the stripping-away as grace: you are being emptied of the illusion that you are the sustainer of your family, community, or institution. Let the crisis drive you to śaraṇāgati — complete reliance on Kṛṣṇa's śakti — rather than to paralysis.",
     "bhakti": "When you find yourself cataloguing all that you stand to lose — naming each beloved relationship, role, or institution at risk — let that naming become an act of offering rather than an act of hoarding. Arjuna's detailed lament is proto-bhakti: to name what you love before Bhagavān is to begin the process of releasing it into his keeping.",
     "advaita-bhakti": "Madhusūdana's reading suggests a practical self-audit: trace whether your current actions are severing chains of care and gratitude (the piṇḍa-udaka logic applied to any sustained relationship of reciprocal obligation). The moment you see yourself as a kart ṛ (agent) whose absence would rupture those chains, pause — that visibility is itself the Advaita-bhakti moment before surrender."
-  }
+  },
+  "primary_meaning": "When adharma overtakes a family, its women are corrupted, and from corrupted women comes the mixing of social orders."
 }

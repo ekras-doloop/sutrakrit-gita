@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "nirdhūta",
-      "lemma": "nirdhū",
+      "lemma": "nir-√dhū",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -336,18 +336,6 @@
       ]
     },
     {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.19",
-        "4.3",
-        "7.29",
-        "8.16",
-        "16.5"
-      ]
-    },
-    {
       "list": "गच्छन्ति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -530,7 +518,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nirdhūta: nirdhū -> nir-√dhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If tad-buddhi means 'intellect fully resolved in Brahman,' what distinguishes this from wishful thinking or self-hypnosis — and what does Śaṅkara's jñāna-mārga say about verifying that resolution is genuine?",
@@ -548,5 +546,6 @@
     "śuddhādvaita": "Rather than treating spiritual practice as something you must accomplish, experiment with receiving your daily work as already given — prasāda already arrived. The Vallabha instruction is to shift from effortful striving to receptive acknowledgment: what intelligence, beauty, or flow showed up today that you did not manufacture? Name it. This is the everyday form of tat-prasāda-labdha-jñāna.",
     "bhakti": "Śrīdhara's Īśvara-upāsanā frame suggests building a daily anchor ritual — one act (a simple prayer, a moment of offering before meals, a pause before beginning work) that explicitly re-orients intellect, mind, resolve, and intention toward Īśvara. The four qualifications are not grand attainments; they are the cumulative deposit of small daily re-orientations done with sincerity.",
     "advaita-bhakti": "Madhusūdana's reverse-causation insight becomes practical: begin not with intellectual study but with vairāgya — actively loosening attachment to outcomes in one area of life right now. The sequence is: detachment enables stable vicāra (enquiry), which enables nididhyāsana (absorption), which enables sākṣātkāra. A practitioner who tries to meditate before cultivating detachment will find the meditation shallow. Start with the outer ring."
-  }
+  },
+  "primary_meaning": "Those whose intellect, self, steadiness, and final refuge all rest in That go to non-return, their impurities scoured away by knowledge."
 }

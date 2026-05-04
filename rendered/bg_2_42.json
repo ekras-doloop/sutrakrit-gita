@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "pravadanti",
-      "lemma": "pravad",
+      "lemma": "pra-√vad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "ratāḥ",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -352,7 +352,7 @@
         "vallabha_2.42"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha's reading is the sharpest structural critique: the Jaiminīya school — and by extension the entire Mīmāṃsaka framework — treats the whole Veda, including the jñāna-kāṇḍa, as one continuous karma-instrument (sarva-kāṇḍa-rūpā), making the flowers (svarga, aiśvarya) into the fruit itself; this is the bhrānti (delusion) being named. The speech is puṣpitā but not phalitā — it flowers but never fruits — because Kṛṣṇa's prasāda (grace-gift) is the only real phala, and no amount of kāmya-karma reaches it. Those intoxicated by the fragrance (gandha-lobhita-cetasaḥ) never even look for the fruit.",
+      "english_rendering": "*Avipaścitaḥ* (the undiscerning) — here the Jaiminīyas — declare *yām imāṃ puṣpitāṃ vācam*: all of Vedic speech, *sarvakāṇḍarūpāṃ sarvāṃ puṣpitāṃ*, saturated throughout with the *kartṛ-karma-phala-bhāva* (the agent–act–result triad). They are *veda-vāda-rataḥ* — absorbed in *phala-bodhaka-karma-vādeṣu*, the Veda's pronouncements taken purely as karma-injunctions pointing to results. Their error: they take *puṣpasthānīyeṣu svargādiṣu phalatvam*, treating what is flower — *svarga* and the like — as the fruit itself, *phalatvabud­dhyā ratā bhavanti*. One might object that since the Veda itself declares these rewards, they must be *sat-phala*; Vallabha forecloses this — *arthāntareṇa vedabodhitatvāt*, for the Veda also reveals a different end entirely, as in *yan na duḥkhena sambhinnam* and cognate passages. Therefore *iyaṃ vāk puṣpitā na phalitā* — this speech flowers but bears no fruit. Those caught in it are *gandha-lobhita-cetasaḥ eva te bhrāntā* — minds seduced by the fragrance alone, and thus deluded, never reaching the real *phala* that is Kṛṣṇa's *prasāda*.",
       "commentator": "Vallabhācārya"
     },
     "bhakti": {
@@ -393,13 +393,6 @@
       "other_verses_in_list": [
         "2.43",
         "4.10"
-      ]
-    },
-    {
-      "list": "क्रियाविशेषबहुलां भोगैश्वर्यगतिं प्रति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.43"
       ]
     },
     {
@@ -469,13 +462,6 @@
       ]
     },
     {
-      "list": "यामिमां पुष्पितां वाचं प्रवदन्त्यविपश्चितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.43"
-      ]
-    },
-    {
       "list": "वेदवादरताः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -517,7 +503,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravadanti: pravad -> pra-√vad",
+          "ratāḥ: ram -> √ram",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Is Kṛṣṇa condemning Vedic ritual as such, or only the mental orientation (kāmya-phala-sankalpa) that accompanies it — and does the answer change depending on whether one follows Śaṅkara, Rāmānuja, or Madhva?",
@@ -535,5 +533,6 @@
     "śuddhādvaita": "Vallabha's image of the gandha-lobhita-citta (fragrance-entranced mind) maps precisely onto the attention economy: platforms, feeds, and recommendation engines offer continuous āpātaramaṇīyatā — perpetual flowering without fruit. The Puṣṭi-mārga application is not asceticism but reorientation: the same sensory responsiveness that makes you vulnerable to algorithmic fragrance can become the vehicle of rasa (aesthetic bliss) when its object is Kṛṣṇa's līlā. The question is not whether you are moved by beauty but whether the beauty you are moved by can bear weight.",
     "bhakti": "Śrīdhara's observation that the apahṛta-citta (mind carried off) cannot form a vyavasāyātmikā buddhi speaks directly to how motivational and spiritual rhetoric can function as cognitive capture: a person who has internalised the grammar of 'hustle culture,' 'manifestation,' or even certain devotional communities may find that their very vocabulary for deliberation has been pre-colonised by the system's reward structure. The bhakti practice here is regular examination of the language you use to justify major choices — who supplied that language, and what does it make invisible?",
     "advaita-bhakti": "Madhusūdana's synthesis points to a lived contradiction many practitioners recognise: you can know intellectually that impermanent goods are impermanent and still find your planning horizon dominated entirely by them. The synthesis practice is therefore not another layer of philosophy but a structural one — arranging your life so that at least one domain of action (a daily practice, a relationship, a form of service) is explicitly ungoverned by phala-abhisandhi (outcome-intentionality), as a laboratory for the kind of purification that actually makes jñāna accessible. That ungoverned domain is what Madhusūdana calls, in effect, bhakti."
-  }
+  },
+  "primary_meaning": "Those without discernment, Arjuna, delight in flowery Vedic speech that promises heaven and worldly gain, insisting there is nothing beyond. Their words bloom but bear no fruit."
 }

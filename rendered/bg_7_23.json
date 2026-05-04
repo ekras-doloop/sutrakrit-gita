@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -393,8 +393,9 @@
         "jayatirtha_7.23"
       ],
       "score": 0.5,
-      "english_rendering": "Worshippers of bounded devas receive bounded fruits; they are of limited intelligence (alpa-medhas) because they do not see that Hari is the sole independent reality and all other beings are eternally and absolutely distinct from and dependent on Him. His devotees alone attain Him. The verse insists on the eternal qualitative difference between jīva and Brahman, and between deva-worship and Hari-worship.",
-      "divergence_note": "Madhva did not comment on this verse. Rendering is constructed from Dvaita first principles: the verse's grammar — 'mām api' (me as well, but transcendently) — supports Dvaita's insistence on the supremacy and distinctness of Hari."
+      "english_rendering": "*Alpa-medhasām* (of limited intelligence) — the worshippers of *devā*-s obtain *antavat* (bounded, perishable) fruit, for they approach what is *paratantra* (eternally dependent) while missing the *svatantra* (independently real, self-sufficient) Lord altogether. *Deva-yajo yānti devān*: the deva-worshipper reaches the deva; the deva is real, the fruit is real, but both are finite — bounded by the *taratamya* (graded ontological hierarchy) in which no *paratantra* being holds ultimate standing. *Mad-bhaktā yānti mām api*: Hari's devotees reach Hari Himself, the one *svatantra* reality upon whom all *devā*-s and *jīva*-s depend without exception. The *api* is not casual; it registers the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) — the devotee arrives at Hari and remains genuinely, irreducibly distinct in *bheda* (real distinction), a *paratantra jīva* in eternal *bhakti* (devotion) to the sovereign Lord. Perishable fruit follows perishable allegiance; imperishable arrival follows allegiance to the imperishable.",
+      "divergence_note": "With no extant Madhva or Jayatīrtha commentary on this verse, the reading is drawn directly from *pañca-bheda* and *taratamya* as the operative *dvaita* siddhānta: the verse's *antavat*–*mām api* contrast maps precisely onto the *paratantra*–*svatantra* axis.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -437,15 +438,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "यद्गत्वा न निवर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.3"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -473,7 +466,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū",
+          "yānti: yā -> √yā",
+          "yānti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord himself grants the fruit of deva-worship (as Śrīdhara and Madhusūdana both assert), what exactly constitutes the 'mistake' of the alpa-medhas — is it the object of worship or the quality of understanding brought to it?",
@@ -491,5 +496,6 @@
     "śuddhādvaita": "Vallabha's 'water the root' principle: when overwhelmed by competing obligations (family, work, community, personal practice), identify which one is the mūla-rūpa for this season of your life and devote fully to it. The Puṣṭi-mārga does not demand the abandonment of branches — it demands recognition of which action, when done with full bhāva, nourishes everything else simultaneously.",
     "bhakti": "Śrīdhara's 'paricchinna-dṛṣṭi' (limited vision) is the operative diagnosis. In practical terms: if a relationship, profession, or community consistently returns you to a sense of contraction rather than expansion, the limitation is not in the object but in the frame of vision you bring. Widening the frame — asking 'what is this situation an aspect of?' rather than 'what do I get from this?' — shifts the fruit from antavat to anādy-anta.",
     "advaita-bhakti": "Madhusūdana's 'api' logic: you do not have to give up wanting things in order to move toward the infinite. The path is sequential — pursue your desire with full commitment, but pursue it as a devotee who remains in relationship with the larger ground. The desire itself, when brought into contact with that ground, ripens (parīpāka) into something beyond itself. This is a pedagogy for people who cannot yet renounce: start where you are, but start consciously."
-  }
+  },
+  "primary_meaning": "Those with little wisdom worship the devas and reach the devas, winning fruit that runs out. My devotees reach me, and that does not run out."
 }

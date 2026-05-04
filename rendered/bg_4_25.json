@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "paryupāsate",
-      "lemma": "paryupās",
+      "lemma": "√paryupās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -283,7 +283,7 @@
     },
     {
       "surface_form": "upajuhvati",
-      "lemma": "upahu",
+      "lemma": "upa-√hu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -573,7 +573,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paryupāsate: paryupās -> √paryupās",
+          "upajuhvati: upahu -> upa-√hu"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Śaṅkara is right that daiva-yajña is a lower station useful only for purification, what prevents a practitioner from bypassing ritual entirely — and what does his invocation of the Upaniṣads here tell us about why he does not?",
@@ -591,5 +602,6 @@
     "śuddhādvaita": "Vallabha's 'pravilāpayanti' (dissolution) applied to everyday life means that the Puṣṭi-mārgī practitioner does not try to improve actions by adding devotion to them — rather, every action is already Kṛṣṇa's energy moving through a vessel. The practical instruction is surrender of the improvement-project itself: stop trying to make your cooking or your work 'more spiritual.' Receive the capacity to act as prasāda (grace-gift) and let it flow back into Kṛṣṇa without editing it.",
     "bhakti": "Śrīdhara's śraddhā-emphasis means that the karma-yogin who worships with genuine faith in the Vedic rites is not on a wrong path — the path is valid and will eventually yield jñāna as its fruit. For a practitioner embedded in a tradition of daily pūjā (worship) or community ritual, this is a stabilizing teaching: do not abandon the form because you have not yet seen through it to Brahman. The seeing will come; the form is its vehicle, not its obstacle.",
     "advaita-bhakti": "Madhusūdana's synthesis of jñāna and bhakti suggests a two-register practice for daily life: maintain the analytic thread (who is acting, what is Brahman, what is the pratyag-ātman here?) alongside the devotional thread (this action is offered to Kṛṣṇa). Neither thread cancels the other. When the analysis threatens to become cold abstraction, bhakti warms it; when devotion threatens to become sentimental identification, jñāna clears it. The 'eva' that excludes both pure difference and pure identity is the practical needle-eye between dryness and dissolution."
-  }
+  },
+  "primary_meaning": "Some yogins worship the gods through prescribed rites; others, established in Brahman, offer the very act of sacrifice as oblation into that same Brahman-fire."
 }

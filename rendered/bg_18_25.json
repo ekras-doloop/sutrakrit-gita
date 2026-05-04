@@ -1,8 +1,8 @@
 {
   "verse_id": "18.25",
   "mūla": {
-    "devanāgarī": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम् | मोहादारभ्यते कर्म यत्तत्तामसमुच्यते",
-    "iast": "anubandhaṃ kṣayaṃ hiṃsāmanapekṣya ca pauruṣam | mohādārabhyate karma yattattāmasamucyate",
+    "devanāgarī": "अनुबन्धं क्षयं हिंसामनपेक्ष्य च पौरुषम् | मोहादारभ्यते कर्म यत् तत् तामसमुच्यते",
+    "iast": "anubandhaṃ kṣayaṃ hiṃsāmanapekṣya ca pauruṣam | mohādārabhyate karma yat tat tāmasamucyate",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 25",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "ārabhyate",
-      "lemma": "ārabh",
+      "lemma": "ā-√rabh",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -276,8 +276,9 @@
         "jayatirtha_18.25"
       ],
       "score": 0.5,
-      "divergence_note": "Bhashya absent for this verse; rendering inferred from Madhva's doctrinal framework. Flagged honestly.",
-      "english_rendering": "Action initiated in delusion, ignoring harm to other beings, heedless of consequent bonds and resource-loss, and unmindful of Hari's sovereign will — is tamasic. In the Dvaita reading, the jiva's eternal distinctness from Hari means every act must be referred to Hari's explicit sanction; tamasic action is precisely action that bypasses that referral, asserting false autonomy. The harm to other beings (himsa) is especially diagnostic: it signals that the agent has forgotten the web of Hari-dependent jivas he is injuring."
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse; the reading is voiced directly from dvaita siddhānta applied to the mūla.",
+      "english_rendering": "*Mohāt* (from delusion) an act arises — heedless of *anubandha* (consequent bondage), *kṣaya* (diminution of means), *hiṃsā* (injury to beings), and one's own *pauruṣa* (human capacity). That act is *tāmasa*.\n\nFor the *paratantra* *jīva* (the eternally dependent individual self), delusion is precisely the forgetting of *bheda* (real distinction) — the agent displaces Hari's *svatantra* (independently real, self-sufficient) will with its own counterfeit independence. *Anubandha* and *kṣaya* are disregarded because the *tamasic* agent does not reckon with *taratamya* (graded ontological hierarchy): consequences fall on other *jīvas* who stand in their own ranked relation to Hari. *Hiṃsā* is the sharpest mark of *tāmasa* action — injury inflicted on beings who are themselves *paratantra*, fully owned by Hari as their *antaryāmin*. To wound them without regard is to strike, blindly, at what belongs to the *svatantra* Lord. *Bhakti* (devotion) as ontological subordination admits no such blindness; its absence is the very condition that makes the act *tāmasa*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -286,8 +287,8 @@
         "vallabha_18.25"
       ],
       "score": 0.5,
-      "english_rendering": "Action begun without reflecting on the consequent sorrow (anubandha) it will bring, undertaken purely from delusion — this is called tamasic. For Vallabha, tamas is the soul's forgetting that every action is a potential site of Krishna's lila-prasada; the tamasic agent acts from his own forgetfulness of Krishna's grace, producing sorrow rather than the delight (ananda) that flows from grace-saturated action. There is no question of 'my capacity' — that framing itself is the tamas.",
-      "divergence_note": "Vallabha's compression is deliberate: the prasada-framework makes detailed consequentialist analysis beside the point; tamas is simply Krishna-forgetting."
+      "english_rendering": "*Anubandha* (consequent bondage) is *duḥkha* (sorrow) — *tadavicārya* (without reflecting on that), *mohāt* (from delusion), *yat karma prārabhyate* (whatever action is begun) — *tat tāmasam udāhṛtam* (that is declared *tāmasa*). Vallabha's gloss compresses to this single movement: the agent does not pause to consider that *anubandha* is *duḥkha*, and so *mohāt* the action simply starts. Where *puṣṭi-mārga* (the path of grace) illumines every act as *sevā* (loving service) to Kṛṣṇa, that prior sorrow-laden bondage cannot arise; *tāmasa* action is precisely the inversion — Kṛṣṇa's *prasāda* (grace) forgotten, *pauruṣam* (one's own capacity) also unconsidered, and *kṣaya* (diminution) and *hiṃsā* (harm) left unexamined. The delusion is not incidental but is the root: *mohāt ārabhyate*.",
+      "divergence_note": "The bhāṣya's gloss is extremely compressed — *anubandho duḥkhaṃ tadavicārya mohāt* — voicing only the sorrow-not-reflected axis and omitting separate treatment of *kṣaya*, *hiṃsā*, and *pauruṣam*. The expanded reading of *puṣṭi-mārga* and *sevā* is drawn from Vallabha's broader siddhānta rather than from this specific gloss."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -314,8 +315,9 @@
       "score": 0.5
     },
     "shuddhAdvaita": {
-      "divergence_note": "Vallabha's compression is deliberate: the prasada-framework makes detailed consequentialist analysis beside the point; tamas is simply Krishna-forgetting.",
-      "score": 0.5
+      "divergence_note": "Vallabha's compression is deliberate: detailed consequentialist analysis is beside the point under *puṣṭi-mārga* (the path of grace); *tamas* is simply Krishna-forgetting, and the bhāṣya reflects this by folding all three terms (*kṣaya*, *hiṃsā*, *pauruṣa*) into the single word *duḥkha*, treated as what goes unexamined when *moha* rules.",
+      "score": 0.5,
+      "english_rendering": "*Anubandha* is *duḥkha* (suffering): when action is begun *mohāt* (from delusion) without examining that suffering — *anubandhaṃ duḥkhaṃ tadavicārya mohādyat karma prārabhyate* — that action is declared *tāmasa*. Vallabha reads *kṣayam* and *hiṃsām* as subsumed under *duḥkha*, and *pauruṣam* as equally disregarded when *moha* governs. The verse's triad of unconsidered consequences collapses into a single diagnostic: *tāmasa* karma is whatever arises from delusion without discernment of its own painful fruit."
     }
   },
   "prosodic_information": {
@@ -356,7 +358,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "yattattāmasamucyate -> yat tat tāmasamucyate"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "यत्तत्तामसमुच्यते -> यत् तत् तामसमुच्यते"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ārabhyate: ārabh -> ā-√rabh",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between a mistake made through ignorance and a tamasic act — and does the distinction matter morally or only karmically?",
@@ -374,5 +403,6 @@
     "shuddhAdvaita": "Tamasic action in the Pushti-marga frame is action taken in a state of Krishna-forgetting — when you are 'in your head' and cut off from the delight that flows from grace. The practical test: does this action feel forced, anxious, compulsive? If so, pause and restore connection before acting. Grace-saturated action has a different quality — lighter, clearer, less driven.",
     "bhakti": "Sridhara's precision offers a practical checklist: before starting anything significant, explicitly review (a) what follows afterward — good and bad, (b) what it will cost financially, (c) who might be hurt, (d) whether you actually have the capacity to finish. The tamasic person skips this checklist entirely. Making it a habit — even a 60-second review — is the antidote.",
     "advaita-bhakti": "Madhusudana's Duryodhana example points to a specific pattern: large-scale tamasic action often involves a person of capability who simply refuses to examine consequences because examination might require changing course. If you find yourself avoiding thinking through consequences of a decision you have already emotionally committed to — that is the Duryodhana pattern. The antidote is forced articulation: write out the costs before acting."
-  }
+  },
+  "primary_meaning": "Action started from sheer delusion, with no thought for its consequences, the harm it does, the resources it wastes, or whether you have the capacity to finish it, is declared tamasic."
 }

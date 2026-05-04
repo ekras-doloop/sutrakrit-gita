@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "pratiyotsyāmi",
-      "lemma": "pratiyudh",
+      "lemma": "prati-√yudh",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -328,8 +328,8 @@
         "vallabha_2.4"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha hears in the double address — 'O Madhusūdana, O Arisūdana' — an unconscious appeal: Arjuna names Kṛṣṇa as slayer of enemies and slayer of the demon Madhu in the same breath, then asks 'how can I fight?', not realizing he is calling on the very power that could resolve his dilemma. Vallabha notes the pointed force of 'arīsūdana': 'even you, who have slain enemies, have never acted like this' — a gentle provocation from within Kṛṣṇa's own epithet, suggesting that Arjuna's paralysis is out of phase with the līlā (divine play) already unfolding. The devotee who truly enters the Bhagavān's līlā-prasāda (gracious play) sees that the battle itself is Kṛṣṇa's performance, not Arjuna's dilemma.",
-      "divergence_note": "Śuddhādvaita is alone in treating the specific epithets Kṛṣṇa is addressed by as doctrinally load-bearing. Vallabha reads the names themselves as a teaching — Arjuna calls Kṛṣṇa 'destroyer of foes' while claiming destruction of foes is impossible, revealing that the obstacle is not ethical but a failure to abide in Kṛṣṇa's nature."
+      "english_rendering": "Arjuna — *snehakāruṇyadharmākulaḥ* (agitated by affection, compassion, and a sense of duty) and not truly understanding *bhagavadvākyam* (the Lord's word) — utters *katham* (how?). The epithet *arisūdana* (slayer of enemies) quietly rebukes: *śatrumāraṇe tvayāpi kvacin naivaṃ kṛtam* — 'not even you, when slaying enemies, have ever acted thus.' Arjuna addresses Kṛṣṇa as destroyer of foes while declaring that destroying foes is impossible; the address itself exposes a failure to abide in Kṛṣṇa's own nature. In *puṣṭi-mārga* (the path of grace), the Bhagavān's every epithet carries the force of his *svarūpa* (essential nature), and Arjuna, calling upon that name, unknowingly calls upon the very power whose grace alone can dissolve the paralysis *snehakāruṇyadharma* has produced.",
+      "divergence_note": "Śuddhādvaita alone treats the epithet *arisūdana* as the doctrinal hinge. Vallabha's bhāṣya quotes *śatrumāraṇe tvayāpi kvacin naivaṃ kṛtam* as a gentle challenge embedded in the vocative itself: Arjuna's paralysis is not an ethical impasse but a failure to recognise Kṛṣṇa's *svarūpa* in the very name he pronounces. Other schools attend to the ethical tension; Vallabha attends to the name."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -401,7 +401,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pratiyotsyāmi: pratiyudh -> prati-√yudh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the people I'd have to hurt most to 'win' are the very ones who made me who I am — teachers, mentors, family — does that make the goal wrong, or just painful?",
@@ -419,5 +429,6 @@
     "śuddhādvaita": "Pay attention to the names you reach for when you feel stuck. Vallabha notices Arjuna is calling Kṛṣṇa 'destroyer of enemies' while asking whether enemies can be destroyed — the resources he needs are already on his lips. In daily life: when you feel paralyzed, notice what you are already invoking, already doing, already capable of. The answer is often encoded in the very way you are describing the problem.",
     "bhakti": "Śrīdhara honors Arjuna's moral perception: he is right that there are relationships so foundational they demand a different register of behavior. But moral sensitivity has to be paired with moral clarity about consequences. If refusing to act does not protect the person you revere but instead delivers them — and many others — into greater harm, your sensitivity has become its own kind of damage. True care sometimes requires the hardest moves.",
     "advaita-bhakti": "Madhusūdana's insight about grief breaking cognitive continuity is practically useful: when you are in acute distress, you lose the capacity to connect cause and effect, past and present, action and consequence. The inability to think straight is not a character flaw — it is what acute grief does to the mind. That is precisely when you most need someone outside the situation to speak clearly to you. Seek that clarity before you make the irreversible call."
-  }
+  },
+  "primary_meaning": "Arjuna asks: how can I raise arrows against Bhīṣma and Droṇa, these two who deserve reverence, not battle?"
 }

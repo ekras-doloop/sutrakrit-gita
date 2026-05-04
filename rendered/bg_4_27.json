@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "juhvati",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -199,7 +199,7 @@
     },
     {
       "surface_form": "dīpite",
-      "lemma": "dīpay",
+      "lemma": "√dīpay",
       "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -563,7 +563,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "juhvati: hu -> √hu",
+          "dīpite: dīpay -> √dīpay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the yoga-fire accepts offerings of sensory and vital acts, does the practitioner cease to see, hear, and breathe — or does the offering transform the quality of those acts without stopping them?",
@@ -581,5 +592,6 @@
     "śuddhādvaita": "When engaged in smaraṇa (remembrance) or dhyāna of Kṛṣṇa, recognize that even the capacity to concentrate is prasāda. When distraction arises, do not struggle — simply return to the dhyeya (object of meditation) with the understanding that the return itself is His gift. The middle path here is grateful persistence, not heroic effort.",
     "bhakti": "Cultivate awareness of the ten prāṇas as a contemplative body-scan: notice inhalation (prāṇa), retention, the descending current (apāna), the diffuse circulation (vyāna), the equalizing digestive function (samāna), and the ascending energy (udāna). This is not anatomy for its own sake — it is the inventory of what you are offering. You cannot offer what you cannot name.",
     "advaita-bhakti": "Study one Vedānta mahāvākya (e.g., 'tat tvam asi') carefully enough to hold its meaning in sustained attention during meditation. Madhusūdana's point is that jñāna must do real cognitive work — it must actually sublate the sense of separateness — not merely accompany the sitting. The test is whether the insight interrupts the habitual identification with the 17-fold subtle body even briefly; repeated interruption is the practice."
-  }
+  },
+  "primary_meaning": "Others pour all the acts of the senses and vital breath into the fire of self-restraint, a fire lit by knowledge."
 }

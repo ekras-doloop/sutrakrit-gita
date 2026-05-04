@@ -136,7 +136,7 @@
     },
     {
       "surface_form": "āste",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -267,7 +267,7 @@
     },
     {
       "surface_form": "kurvan",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -300,7 +300,7 @@
     },
     {
       "surface_form": "kārayan",
-      "lemma": "kāray",
+      "lemma": "√kāray",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -540,24 +540,6 @@
       ]
     },
     {
-      "list": "ब्रह्मविद् ब्रह्मणि स्थितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.20"
-      ]
-    },
-    {
-      "list": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.5",
-        "3.6",
-        "4.16",
-        "4.32",
-        "18.15"
-      ]
-    },
-    {
       "list": "सर्वकर्माणि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -599,7 +581,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āste: ās -> √ās",
+          "kurvan: kṛ -> √kṛ",
+          "kārayan: kāray -> √kāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ātman is genuinely the non-acting resident of the nine-gated body, what precisely accounts for the phenomenology of felt effort — the strain of lifting, the fatigue of thinking — and does each school answer this differently?",
@@ -617,5 +611,6 @@
     "śuddhādvaita": "Vallabha's reading permits full engagement: do not withdraw from work, family, or celebration. Instead, when joy arises in action, treat it as Kṛṣṇa's prasāda (grace-gift) flowing through you — 'manasaiva tyāgaḥ,' the surrender is interior. The nine-gated city dances; the resident simply stops taking credit for the choreography.",
     "bhakti": "Śrīdhara's test: after a day's activity, ask whether you experienced the body as 'mine' (ahaṃkāra) or as a dwelling you inhabit (pura). Journaling this nightly — 'where did ownership-feeling arise today?' — trains the śuddha-citta (pure mind) and makes the verse a diagnostic tool rather than an abstract ideal.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests a two-move practice: first, jñāna-move — see the body as a city you are visiting, not owning (pravāsī-bhāva). Second, bhakti-move — offer the city and its nine gates to Kṛṣṇa. The combination dissolves both anxious striving and passive detachment, leaving engaged, loving action without the weight of authorship."
-  }
+  },
+  "primary_meaning": "Surrendering all actions to the mind, the self-controlled one lives at ease in the nine-gated city of the body, neither acting nor causing others to act."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "āsīnaḥ",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "vicālyate",
-      "lemma": "vicālay",
+      "lemma": "vi-√cālay",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "vartante",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "avatiṣṭhati",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "iṅgate",
-      "lemma": "iṅg",
+      "lemma": "√iṅg",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -308,8 +308,9 @@
         "jayatirtha_14.23"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE: The Madhva corpus consulted contains no direct bhashya on this verse ('Sri Madhvacharya did not comment on this sloka'). Drawing from Madhva's established doctrinal positions: the jiva, eternally distinct from Hari (bheda is real and permanent), can never be confused with the gunas of prakrti. Seated without agitation means the dependent jiva rests in its natural condition of subordination to Hari, not claiming independent ownership of any guna-movement. 'Gunas move among gunas' — the jiva witnesses this as an agent wholly dependent on Hari's will, neither appropriating the movement nor denying it.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Udāsīnavad āsīnaḥ* — seated as if indifferent — names the *paratantra* *jīva*'s natural posture when established in its real relation to *svatantra* Hari. The *jīva* is not moved (*na vicālyate*) by *tamas*, *rajas*, or *sattva*, because *bheda* (real distinction) between the *jīva* and *prakṛti*'s *guṇas* is permanent and ontologically fixed; the *jīva* cannot be identical with what moves it. *Guṇā vartanta ity eva* — 'the *guṇas* alone move among themselves' — is recognized precisely from within this *bheda*: the *jīva* witnesses *prakṛti*'s self-contained motion without absorbing it as self-generated, because no *guṇa*-activity belongs to the *jīva* by its own *svabhāva*. To remain unmoved (*neṅgate*) is not indifference born of dissolution into Brahman but the stable subordination of a *paratantra* being whose every inclination is governed by Hari's will. The five-fold *pañca-bheda* — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter — holds intact even when the *jīva* abides in this highest equipoise. *Taratamya* (graded ontological hierarchy) is not collapsed by such abiding; the *jīva* neither rises into Hari nor dissolves into *prakṛti* but rests, unmoved, in its own grade of dependent being.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -399,7 +400,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avatiṣṭhati: avasthā -> ava-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsīnaḥ: ās -> √ās",
+          "vicālyate: vicālay -> vi-√cālay",
+          "vartante: vṛt -> √vṛt",
+          "iṅgate: iṅg -> √iṅg"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the gunas 'move among themselves' without touching the Self, what exactly is doing the observing — and can that observer ever be said to act at all?",
@@ -417,5 +439,6 @@
     "śuddhādvaita": "Vallabha's Pushti-marga adds a note of grace: you do not have to generate this equanimity by force of practice. Ask instead for Krishna's prasada to hold you. When a wave of strong emotion (a guna-surge) hits, the Pushti response is not 'I must become unmoved' but 'let Krishna's grace be the stillness.' That shift from self-effort to surrender is the specific flavor of Shuddhadvaita equanimity.",
     "bhakti": "Sridhara's key phrase is 'there is simply no relation between the gunas and me' — not 'I must suppress the gunas' but 'I recognize they have no jurisdiction over what I am.' Try naming this in the moment: when a mood or craving arises, say inwardly 'this is a guna moving in its own domain.' You are not fighting it; you are accurately classifying it. That classification, consistently applied, is the bhakti practitioner's version of viveka.",
     "advaita-bhakti": "Madhusudana's dream-analogy is a practical tool: when you are in the grip of a strongly pleasant or painful experience, briefly invoke the question 'is this like a dream?' Not to dismiss it as unreal but to loosen its claim that it is the whole of reality. The self-luminous witness (svayamjyotih) is not extinguished by the dream-content. With that recognition held lightly, you can re-engage the situation with less reactivity — which is what 'not stirring' (na inglate) looks like in ordinary life."
-  }
+  },
+  "primary_meaning": "He sits like a bystander, undisturbed by the gunas, knowing that the gunas move only among themselves and have nothing to do with him."
 }

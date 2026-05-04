@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "lubdhaḥ",
-      "lemma": "lubh",
+      "lemma": "√lubh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "parikīrtitaḥ",
-      "lemma": "parikīrtay",
+      "lemma": "pari-√kīrtay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -358,8 +358,9 @@
         "jayatirtha_18.27"
       ],
       "score": 0.5,
-      "english_rendering": "The rajasika agent is bound by craving and violence because he acts as if independent of Hari, the sole self-existent agent. All the defects listed — greed, impurity, oscillating emotion — arise when the jiva mistakes its own will for the source of action rather than recognizing absolute dependence on the Lord. Such an agent cannot offer action as worship; every deed compounds bondage rather than releasing it.",
-      "divergence_note": "Madhva's commentary on this specific verse is absent from the available corpus ('Sri Madhvacharya did not comment on this sloka'). This rendering is extrapolated from Madhva's consistent Dvaita framework as applied to the three-guna kartri typology in surrounding verses. Flagged as INFERRED."
+      "english_rendering": "*Rāgī* (one consumed by attachment), *karmaphalaprepsuḥ* (hungering after the fruits of action), *lubdhaḥ* (greedy), *hiṃsātmakaḥ* (whose very nature is violence), *aśuciḥ* (impure), *harṣaśokānvitaḥ* (swung between elation and grief) — this is the *rājasa* *kartā* (agent of passion-born action). In Dvaita's reading, each quality named in the mūla is a mark of the *jīva* (the individual self) acting under the delusion of *svatantra* (the independently real, self-sufficient) agency, a status that belongs to Hari alone. *Rāga* (passionate attachment) and *lubdhatā* (greed) disclose the *jīva*'s refusal to rest in *paratantra* (eternally dependent) subordination; the grasping after *karmaphala* (fruits of action) compounds this, since fruit-appropriation is the prerogative of the Lord, not the dependent agent. *Hiṃsā* (violence) and *aśauca* (impurity) follow necessarily: when the *jīva* mistakes its conditional agency for unconditional selfhood, its acts tear at the *pañca-bheda* (the five-fold real distinction — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter) that structures all existence. The oscillation between *harṣa* and *śoka* is not incidental; it is the experiential signature of action severed from *bhakti* (devotion as ontological subordination to Hari). The *rājasa kartā* is thus not merely morally deficient but ontologically disordered, locked in bondage proportional to the intensity of the self-arrogating will.",
+      "divergence_note": "Madhva and Jayatīrtha are both silent on this verse. The reading is reconstructed from Dvaita *siddhānta* as applied to the *triguṇa-kartṛ* typology: the *rājasa* agent's defects are re-read through the *paratantra*-*svatantra* asymmetry and the *pañca-bheda* scheme that govern all Dvaita anthropology.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -453,7 +454,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "lubdhaḥ: lubh -> √lubh",
+          "parikīrtitaḥ: parikīrtay -> pari-√kīrtay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Can a person be simultaneously ragi (attached) and apparently disciplined — i.e., is outward renunciation compatible with inner fruit-desire, and what reveals the difference?",
@@ -471,5 +483,6 @@
     "shuddhadvaita": "Vallabha's observation that the rajasika agent does not even get what he ran toward is a practical warning about hedonic forecasting. When you find yourself in a project primarily for the reward at the end, build in the question: 'What am I actually getting from this as I do it?' Consistently arriving at 'nothing yet — I am waiting for the result' is Vallabha's diagnostic signal that the activity will deliver harsha-shoka, not the promised fruit.",
     "bhakti": "Sridhara's ragi-as-putradipritimanah (attached to children and dear ones) reminds us that the most morally respectable attachments — parenting, friendship, mentorship — can become rajasika if they generate the harsha-shoka cycle. The question is not whether to love but whether love has made you reactive: do you rise and fall with the fortunes of the person you love? That reactivity, not the love itself, is the target.",
     "advaita-bhakti": "Madhusudana's interior definition of himsa — asserting your intention in a way that cuts another's proceeding — applies directly to collaborative work. When you push your solution in a meeting by making the alternative feel untenable rather than simply presenting your view, you are performing himsa in Madhusudana's sense. The counter-practice is to present your view in a form that actively preserves the other person's capacity to proceed differently."
-  }
+  },
+  "primary_meaning": "Driven by passion, craving the fruits of his deeds, greedy, violent by nature, impure, and swinging between joy and grief, this doer is called rajasic."
 }

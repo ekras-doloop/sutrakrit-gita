@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "mate",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative feminine dual participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "āvartate",
-      "lemma": "āvṛt",
+      "lemma": "√āvṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -343,8 +343,9 @@
         "jayatirtha_8.26"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya's commentary on this śloka is recorded as absent in the available panel ('Sri Madhvacharya did not comment on this sloka'). A Dvaita reading would emphasize that the jīva's path depends entirely on Hari's anugraha (grace): the bright path leads to Viṣṇu's nitya-dhāma from which no jīva returns independently, while the dark path reflects the jīva's continued entanglement under its own karma — the eternal ontological gap between īśvara and jīva is preserved even in liberation.",
-      "divergence_note": "[Bhāṣya absent for this verse — rendering extrapolated from Madhva's broader dvaita-siddhānta on paths and Hari-grace; flagged as inferred, not direct.]"
+      "english_rendering": "*Śukla-kṛṣṇe gatī* — the bright and dark *gatī*s (paths) — are *śāśvate* (eternal), not contingent constructions. The *jagat* (world of transmigrating beings) is governed by these two paths because *pañca-bheda* (the five-fold real distinction) is never dissolved: *jīva* and *Īśvara* remain ontologically separate in all states. By the bright path, the *jīva* reaches *anāvṛtti* (non-return) — arrival in Viṣṇu's *nitya-dhāma* (eternal abode) — not through any autonomous capacity but through Hari's *anugraha* (grace), which alone breaks the *jīva*'s *paratantra* (eternal dependence on the Lord) loose from *saṃsāra*'s pull. By the dark path, *āvartate punaḥ* (it returns again): *karma* and the absence of *bhakti* as ontological subordination return the *jīva* to rebirth. The two paths are *śāśvata* (eternal and real), not provisional *māyā*-constructs — their eternality reflects the real, graded *taratamya* (ontological hierarchy) that obtains between *svatantra* Hari and all *paratantra* souls.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for this verse; the reading derives directly from core dvaita-siddhānta applied to the mūla — pañca-bheda, taratamya, and Hari-anugraha as the sole basis of anāvṛtti.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -454,7 +455,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mate: man -> √man",
+          "yāti: yā -> √yā",
+          "āvartate: āvṛt -> √āvṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If both paths are śāśvata (eternal), is saṃsāra itself eternal — and what does that imply for the urgency of choosing a path in this birth?",
@@ -472,5 +485,6 @@
     "śuddhādvaita": "Vallabha's insight that śuklā is prakāśamaya means that any act saturated in Kṛṣṇa-bhāva (the feeling-sense of Kṛṣṇa's presence) is itself luminous — cooking, music, conversation. The practical application is to infuse mundane acts with rasa (aesthetic-devotional flavor) rather than treating them as spiritually neutral. The dark path is not wickedness but rasa-śūnyatā (the flatness of acts done without Kṛṣṇa-orientation) — and the antidote is cultivating wonder and beauty in daily life as prasāda.",
     "bhakti": "Śrīdhara's balanced reading suggests that the genuine bhakta should neither be anxious about which path they are on nor complacent. The practical discipline is self-audit: at week's end, assess whether your primary activities were oriented toward nivṛtti (disengagement from compulsive craving) or pravṛtti (unreflective accumulation). This is not renunciation of worldly life but a regular recalibration — asking whether the direction of travel is toward liberation or deeper entanglement.",
     "advaita-bhakti": "Madhusūdana's jñāna-light criterion suggests a two-register audit: intellectual clarity (Am I understanding what is happening in my life, or reacting habitually?) and devotional orientation (Is this action an expression of love for the divine, or is it self-serving?). The synthesis means neither cool detachment nor emotional fervor alone suffices — the bright-path life pairs discernment with bhakti. Practically: pair daily meditation with honest self-inquiry; neither alone clears the path."
-  }
+  },
+  "primary_meaning": "These two paths through the world, bright and dark, are held to be eternal: by one a person goes and does not return; by the other they return again."
 }

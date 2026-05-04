@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -197,7 +197,7 @@
     },
     {
       "surface_form": "yujyate",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -416,8 +416,9 @@
         "jayatirtha_10.7"
       ],
       "score": 0.5,
-      "english_rendering": "The Madhva corpus notes this verse was not directly commented upon. Consistent with Madhva's established position: vibhūti (aishvarya, the Lord's sovereignty) is real and eternally distinct from jīva capacities; tattvatah knowledge means knowing Hari as utterly independent (svatantra) and the jīva as utterly dependent (paratantra). The avikampa-yoga that results is the steadiness of a servant who knows his master's true magnitude — not identity with Brahman, but firm refuge in distinction.",
-      "divergence_note": "BHĀṢYA ABSENT — Madhva did not comment on this śloka per the corpus. Rendering extrapolated from his established svarūpa-bheda framework; flag as inferred."
+      "english_rendering": "*Vibhūti* (the Lord's sovereign self-manifestation) and *yoga* (his power of self-deployment) — *etāṃ vibhūtiṃ yogaṃ ca mama yo vetti tattvataḥ*: whoever knows these *tattvataḥ*, in their true nature, knows Hari as *svatantra* (the independently real, self-sufficient) and the *jīva* as utterly *paratantra* (eternally dependent). The vibhūtis are not figurative excellences or graduated pointers to an impersonal ground; they are real self-expressions of the one *svatantra* Lord, each manifesting the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) rather than dissolving it. *Tattvatah* knowledge is therefore not absorption into Brahman but the *jīva*'s clear recognition of *bheda* (real distinction) at every level of the *taratamya* (graded ontological hierarchy). The fruit — *so 'vikampena yogena yujyate* — is union by *avikampa-yoga* (unswerving, unshaken discipline): the steadiness of a servant who has grasped his master's full magnitude and whose *bhakti* (devotion) is thereby grounded in ontological subordination, never in identity. *Nātra saṃśayaḥ*: no doubt attaches to this, because the ground of such steadiness is the real, permanent distinction between Hari and the *jīva*, not a provisional state to be transcended.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita siddhānta primitives: *svatantra* Hari, *paratantra* jīva, *pañca-bheda*, *taratamya*, *bhakti* as ontological subordination, and real arrival in *avikampa-yoga* rather than dissolution into non-difference.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -462,15 +463,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "पश्य मे योगमैश्वरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.4",
-        "9.5",
-        "11.8"
-      ]
-    },
-    {
       "list": "मत्तः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -479,13 +471,6 @@
         "10.5",
         "10.8",
         "15.15"
-      ]
-    },
-    {
-      "list": "मानसा जाताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.6"
       ]
     },
     {
@@ -532,7 +517,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "yujyate: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between knowing about the Lord's powers intellectually and knowing them tattvatah — and why does only the latter produce avikampa-yoga?",
@@ -550,5 +546,6 @@
     "śuddhādvaita": "Vallabha's everyday application: when you begin recognizing the ordinary events of your day as the Lord's self-disclosure — not metaphorically but structurally — anxiety about outcomes loosens. The wobble in daily life is usually the wobble of treating circumstances as random; recognition of pervading intention is the cure.",
     "bhakti": "Śrīdhara's 'doubt-free' framing applies directly to competence anxiety: in any domain where you have genuinely studied the terrain thoroughly (not skimmed it), decisions become steady. Doubt at the moment of action is almost always a symptom of incomplete knowledge, not moral failure.",
     "advaita-bhakti": "Madhusūdana's samādhi-language suggests a practice: the moments when you are so absorbed in a task or a person that self-consciousness disappears — those are micro-episodes of avikampa. Cultivate the conditions that produce such absorption rather than chasing the state directly."
-  }
+  },
+  "primary_meaning": "Whoever knows my divine powers and the yoga behind them as they truly are becomes yoked to an unwavering discipline, and of this there is no doubt."
 }

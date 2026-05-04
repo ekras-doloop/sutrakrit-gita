@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -276,8 +276,9 @@
         "jayatirtha_10.25"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse (the payload confirms: 'Sri Madhvacharya did not comment on this sloka'). Under dvaita principles the verse is read as Hari's declaration of his eminence (vibhūti) among categories of beings and practices — Bhṛgu the highest sage because Hari's glory is most fully resident in him, Oṃ the highest word because it directly denotes the independent, eternally superior Hari, japa-yajña the highest sacrifice because it keeps the jīva's mind most continuously fixed on Hari's name, and Himālaya the highest of the immovable because its grandeur most purely reflects Hari's aiśvarya. The jīva participates in these vibhūtis only as a dependent (paratantra) vessel of Hari's reflected glory.",
-      "divergence_note": "No direct Madhva bhāṣya available for this verse. Rendering is inferred from dvaita theological constants (Hari's absolute svātantrya, jīva's paratantrya, vibhūti as Hari's own manifest excellence) — flagged accordingly."
+      "english_rendering": "Among the great *ṛṣis* (seers), Hari is most fully manifest in Bhṛgu — of all sages the one in whom *svatantra* (the independently real, self-sufficient) Hari's glory *viśeṣataḥ* resides. Among *girāḥ* (words, utterances), he is *ekam akṣaram* — Oṃ, the syllable that directly and uniquely denotes the *paratantra*-transcending Lord himself; no other word carries that direct denotative weight. Among *yajñas* (sacrifices), he is *japa-yajña* — the sacrifice of repeated divine-name recitation — because it binds the *jīva* (the individual self) most continuously to Hari's name, the very instrument of the *jīva*'s *paratantra* (eternally dependent) orientation toward its sovereign. Among the immovable, he is Himālaya, whose unsurpassed grandeur is not the mountain's own but the full deposit of Hari's *aiśvarya* (lordly power) in a fixed form. Each vibhūti named here is not a mere symbol: Hari's excellence is *tattvataḥ* resident in the preeminent member of each category, and that category-member's eminence is unintelligible apart from him. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not suspended — Bhṛgu, Oṃ's referent-relation, the act of *japa*, and Himālaya remain ontologically distinct from Hari even as they are the sites of his *vibhūti* (divine manifestation). The *jīva* who meditates on these as Hari's own excellences progressively apprehends the *taratamya* (graded ontological hierarchy) that structures all existence under *svatantra* Hari.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is extant for this verse. The reading is drawn directly from dvaita *siddhānta* constants — *svatantra* Hari, *paratantra jīva*, *pañca-bheda*, *taratamya*, and *vibhūti* as Hari's own excellence genuinely resident in preeminent *tattvas* — applied to the mūla without claimed textual attestation.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -427,13 +428,6 @@
         "18.70",
         "18.72"
       ]
-    },
-    {
-      "list": "प्रणवः सर्ववेदेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.8"
-      ]
     }
   ],
   "audit_trail": {
@@ -463,7 +457,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa name japa-yajña as the supreme sacrifice — what is it about silent repetition that ranks above the great śrauta rites requiring fire, priest, and soma?",
@@ -481,5 +486,6 @@
     "śuddhādvaita": "Vallabha's reading says Bhṛgu generates brahma-ānanda in others. Ask: who in your life generates that quality of delight and clarity in you — the sense that reality is more vivid around them? That person is a vibhūti. Let your interactions with them become a form of smaraṇa (remembrance of Kṛṣṇa) rather than mere social contact. And notice: when you generate that quality for others, you are momentarily the vibhūti.",
     "bhakti": "Śrīdhara's teaching is that japa is supreme among śrauta and smārta sacrifices. Begin a 21-day practice of ten minutes of japa before your first screen interaction of the day. The constraint: no phone, no news, no email until the japa is complete. Track not how you feel during japa but whether your first hour of work afterward is qualitatively different — more present, less reactive.",
     "advaita-bhakti": "Madhusūdana's key word is 'atyanta-śodhaka' — japa purifies supremely because it harms nothing. Apply this diagnostic to one decision you are currently deferring: of the available options, which one causes least harm across all parties including yourself? Choosing the least harmful path is not weakness — it is alignment with the japa-principle, the quietly powerful option that accumulates without friction."
-  }
+  },
+  "primary_meaning": "Among the great seers I am Bhṛgu; among words, the one imperishable syllable *Om*; among sacrifices, the quiet repetition of the name; among the unmoving, the Himalayas."
 }

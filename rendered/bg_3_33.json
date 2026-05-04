@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "ceṣṭate",
-      "lemma": "ceṣṭ",
+      "lemma": "√ceṣṭ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -277,7 +277,7 @@
     },
     {
       "surface_form": "kariṣyati",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -497,7 +497,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -507,13 +507,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "करिष्यस्यवशोऽपि तत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.60"
-      ]
-    },
     {
       "list": "चेष्टते",
       "role": "supporting",
@@ -605,13 +598,6 @@
       ]
     },
     {
-      "list": "नष्टान् विद्धि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.32"
-      ]
-    },
-    {
       "list": "प्रकृति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -645,13 +631,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "5.14"
-      ]
-    },
-    {
-      "list": "प्रकृतिस्त्वां नियोक्ष्यति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.59"
       ]
     },
     {
@@ -690,7 +669,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ceṣṭate: ceṣṭ -> √ceṣṭ",
+          "yānti: yā -> √yā",
+          "kariṣyati: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the jñānavān (knower) acts according to prakṛti, does this verse render moral instruction meaningless — or does it reframe what instruction can accomplish?",
@@ -708,5 +699,6 @@
     "śuddhādvaita": "Vallabha's 'grass before wind' image is a precise description of how latent tendencies (vāsanā) operate below conscious choice. The Puṣṭi-mārga application: stop fighting the wind and turn the whole self — tendencies included — toward Kṛṣṇa as an offering. The goal is not to eliminate prakṛti but to have it captured by Kṛṣṇa's līlā (divine play), so the same energy that once fed distraction now feeds bhajana.",
     "bhakti": "Śrīdhara's a-fortiori logic ('if the informed person is bound, the ignorant one certainly is') should produce epistemic humility in any practitioner who has studied dharma without seeing sustained behavioral change. The application is not resignation but realistic sequencing: śāstra-jñāna (scriptural knowledge) alone is insufficient; the saṃskāra layer must be addressed through ritual, satsaṅga (company of the virtuous), and sustained practice — a portfolio approach, not a single intervention.",
     "advaita-bhakti": "Madhusūdana's hardest point — 'even knowing a sin leads to hell, dur-vāsanā (bad latent-tendency) drives you forward' — describes exactly the experience of addiction and compulsive behavior in modern terms. His synthesis suggests a two-track response: jñāna-practice to see through the identification ('I am not this tendency') and bhakti-practice to redirect the affective energy toward Kṛṣṇa, since the vāsanā-force is too strong for cognitive intervention alone."
-  }
+  },
+  "primary_meaning": "Even a person of knowledge acts according to his own nature; all beings follow their nature. What will restraint accomplish?"
 }

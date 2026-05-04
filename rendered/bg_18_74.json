@@ -144,7 +144,7 @@
     },
     {
       "surface_form": "aśrauṣam",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "past indicative s 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -314,9 +314,10 @@
         "jayatirtha_18.74"
       ],
       "score": 0.5,
-      "english_rendering": "Sanjaya, the purified instrument of Vyasa's grace, has heard the wondrous exchange between the supreme independent Lord Vasudeva and the eternally dependent jiva Arjuna. The thrilling of the body (roma-harshana) signals the jiva's recognition of its own absolute otherness from Hari even in the moment of receiving His instruction; hearing is itself an act of dependent worship, not autonomous cognition. [NOTE: Madhva's commentary is recorded as absent for this verse — rendering is inferred from his established doctrinal stance on jiva-Ishvara distinction and the nature of shravanam as seva.]",
-      "divergence_note": "Bhashya absent for this verse per payload. Rendering inferred from Madhva's consistent dvaita framework.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "Sañjaya speaks: *iti* (thus) have I heard this *saṃvāda* (dialogue) — *adbhutam* (wondrous), *romaharṣaṇam* (causing the hair to stand erect) — between *Vāsudeva*, the *svatantra* (independently real, self-sufficient) Lord, and *Pārtha*, the *mahātman*, the *paratantra* (eternally dependent) *jīva*. The *bheda* (real distinction) between speaker and hearer is itself audible in the grammatical structure: *vāsudevasya* and *pārthasya* stand as two irreducibly distinct genitives, Lord and *jīva* never collapsing into one. *Romaharṣaṇa* — the bodily thrill — is not mere sentiment; it is the *paratantra jīva*'s somatic registration of *Hari*'s supremacy, the body bearing witness to *taratamya* (graded ontological hierarchy) even before the mind has formed a judgment. Sañjaya's hearing is itself *śravaṇa* as *sevā* (devotional service), a reception that is possible only because Vyāsa's grace, flowing from *Hari*, opened his *paratantra* ear to a *svatantra* speech.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. Reading voiced directly from dvaita siddhānta primitives applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -449,7 +450,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "aśrauṣam: śru -> √śru"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Sanjaya report his own affective state (thrilling) rather than simply relaying content — what does the tradition signal by making the reporter's body a datum?",
@@ -466,5 +477,6 @@
     "shuddhadvaita": "Vallabha's Pushtimarga reading: Sanjaya received this transmission unasked, through Krishna's unconditional gift. Notice in your own life the moments of grace that arrived without your solicitation — the book that appeared at the right time, the conversation you happened into. Vallabha would say: those are not accidents but lila-prasada; the appropriate response is not analysis but gratitude and receptivity.",
     "bhakti": "Sridhara's 'spastam anyat' — the rest is clear — is a teaching about when commentary helps and when it hinders. In your relationships, when someone shares something sacred to them, resist the impulse to explain or improve it. Sometimes the right response is simply: I heard this, and it moved me. The emotion is its own complete testimony.",
     "advaita-bhakti": "Madhusudan's dual-vikara analysis — mental astonishment (vismaya) and bodily thrilling (romanca) together — teaches that full reception of wisdom involves both cognitive and somatic dimensions. In learning or contemplative practice, if only the intellect is engaged and the body remains unmoved (or vice versa), the transmission has not fully landed. Cultivate the capacity for both registers to respond together."
-  }
+  },
+  "primary_meaning": "Sanjaya says: I have heard this wondrous exchange between Vasudeva and the great-souled Arjuna, and even now my hair stands on end."
 }

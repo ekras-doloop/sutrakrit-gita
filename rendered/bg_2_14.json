@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "titikṣasva",
-      "lemma": "titikṣ",
+      "lemma": "√titikṣ",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -534,7 +534,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "titikṣasva: titikṣ -> √titikṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kṛṣṇa names śīta and uṣṇa (cold and heat) separately from sukha and duḥkha (pleasure and pain) — Śaṅkara says this is because śīta-uṣṇa are aniyata (variable: sometimes pleasant, sometimes painful) while sukha-duḥkha are niyata (invariant in character). What does this parsing imply about the phenomenology of suffering: is there a class of experience whose valence is inherently fixed, and does that fixedness make it harder or easier to practise titikṣā?",
@@ -552,5 +562,6 @@
     "śuddhādvaita": "Vallabha's everyday application is closest to what contemplative traditions call 'being a fair witness': when a dvandva arrives — heat, cold, praise, blame, gain, loss — do not contract away from it or expand toward it, but remain present as a stable vessel. The word sarvāsahana (bearing everything) is key: the practice is not reserved for adversity alone but applies equally to pleasure, which can capsize the sādhaka as readily as pain. In Puṣṭi-mārga terms, this evenness is the precondition for being able to receive Kṛṣṇa's prasāda without gripping it or recoiling from it — participation in līlā requires a steady participant.",
     "bhakti": "Śrīdhara's application is the most emotionally graduated: the verse is heard as permission to acknowledge that unions and separations genuinely produce sukha and duḥkha — this is their nature, as natural as water producing cold. The practice is not to pretend otherwise but to recognise that pāravaśya (enslavement to the affective wave) is distinct from the experience itself. In grief over loss — of a person, a role, a phase of life — one can feel the full weight of viyoga and still not be owned by it. The dhīra (steady one) is not the person who does not feel; it is the person who feels without being swept into action that the feeling, rather than dharma, dictates.",
     "advaita-bhakti": "Madhusūdana's synthesis yields an application that combines discriminative seeing with an affirmative orientation. When distress arises, the first movement is discriminative: this distress belongs to the antaḥkaraṇa — the changeable, cognizable, dṛśya inner organ — and not to the svaprakāśa (self-luminous) ātman that you are. The second movement, which Advaita-bhakti adds to bare Advaita, is the return: after the upekṣā (setting-aside of misidentification), one's attention is free to rest in the jñānānanda-rūpa (knowing-blissful nature) of the ātman, which is also one's relation to Kṛṣṇa. Titikṣā here is not the destination but the clearing that makes the devotional re-orientation possible."
-  }
+  },
+  "primary_meaning": "Sensations of cold, heat, pleasure, and pain come from the body's contact with the world; they rise and pass away, Arjuna, so bear them."
 }

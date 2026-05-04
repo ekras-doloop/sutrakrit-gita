@@ -144,7 +144,7 @@
     },
     {
       "surface_form": "darśayām",
-      "lemma": "darśay",
+      "lemma": "√darśay",
       "grammar": "past indicative peri 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -152,7 +152,7 @@
     },
     {
       "surface_form": "āsa",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -532,7 +532,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "darśayām: darśay -> √darśay",
+          "āsa: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Sañjaya address Dhṛtarāṣṭra here — what is the rhetorical weight of the blind king receiving this report at second hand, and what does that mediation say about who can and cannot see the sovereign form?",
@@ -550,5 +561,6 @@
     "śuddhādvaita": "Vallabha's 'sarvasamarthaḥ' — the all-capable one — shows the form not as response to Arjuna's merit but as overflow of divine capability and delight. The Puṣṭi-mārga application: stop calculating whether you have earned the grace. The showing happens because Kṛṣṇa is all-capable and delights in showing. Your practice today: receive without auditing your worthiness. Something beautiful is being offered — a person, a piece of music, a moment of clarity. Vallabha says: the only appropriate response is to receive it as Pārtha received the form.",
     "bhakti": "Śrīdhara notes that Arjuna, having seen the form, immediately addressed Kṛṣṇa — wonder moved directly into speech, into relationship. The application: when you are genuinely moved by something — art, nature, a teaching, another person's suffering — do not manage the experience intellectually before responding. The bhakti discipline is to let wonder convert immediately to address, to the vocative case. Speak to what moved you. That is the first act of devotion.",
     "advaita-bhakti": "Madhusūdana tells Dhṛtarāṣṭra to 'be steady' (sthiro bhava) for the hearing — as if the report itself requires a prepared receiver. The synthesis application: before encountering difficult or overwhelming content — a medical diagnosis, a friend's grief, a complex text, a piece of news — deliberately stabilize. The steadiness is not detachment; it is the Advaita-frame that allows the bhakti-frame to operate without collapse. Steadiness is not armor; it is the capacity to be moved without being swept away."
-  }
+  },
+  "primary_meaning": "Sanjaya said: with those words spoken, Hari, great lord of yoga, showed Pārtha the supreme sovereign form."
 }

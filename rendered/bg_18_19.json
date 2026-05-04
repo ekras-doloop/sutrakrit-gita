@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "procyate",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -523,7 +523,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "procyate: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If jnana itself is guna-conditioned, how can a seeker trust their own understanding of scripture — does sattvic jnana know itself as sattvic, or does that require a further, unguna-ed witness?",
@@ -541,5 +551,6 @@
     "suddhadvita": "Vallabha's Pusti-marga: when you feel stuck in a low-quality mode — dull reading, mechanical routine, resentful work — do not force a guna-upgrade by willpower. Instead, offer the dullness itself to Krsna ('this tamasic morning is Yours'). The act of surrender, not the upgrade, is the practice. The quality of knowing and acting will shift as grace operates; your task is only to stay in relationship.",
     "bhakti": "Sridhara's key: the 'only' (eva) is liberating, not depressing. When you make an error in judgment or action, the guna-upadhi made that error — not the atman. This is not an excuse for passivity but a precise reason not to build a self-narrative around the mistake. Correct the guna-condition (sleep, food, company, intention) rather than punishing the self that was never the actual agent.",
     "advaita-bhakti": "Madhusudana holds both registers at once: in daily life, use Sankhya-style guna-diagnosis as a practical map (which mode am I in right now?), while in contemplative time, return to the witness that watches the gunas without being one. The art is moving fluidly between the empirical map and the paramarthika ground — not collapsing into only the map (which breeds self-improvement obsession) nor only the ground (which breeds spiritual bypassing)."
-  }
+  },
+  "primary_meaning": "Knowledge, action, and the one who acts are each of three kinds, sorted by the three qualities of nature. Hear how that is so."
 }

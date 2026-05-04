@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "kṛtasya",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "genitive neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -379,7 +379,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -544,7 +544,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kṛtasya: kṛ -> √kṛ",
+          "āhuḥ: ah -> √ah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the fruit of rajasic action is always duhkha even when it initially feels pleasant, how do I identify the guna-quality of an action I am about to take rather than only in retrospect?",
@@ -562,5 +573,6 @@
     "śuddhādvaita": "Vallabha's 'nirmala' — free from the very odour of duhkha and ajnana — points to a quality of action that does not leave an aftertaste. Pusti-marga practice here: after any significant action today, check not just whether it felt good in the moment but whether it left a residue of craving, comparison, or confusion. If it did, it was not sattvic regardless of its external form. The goal is prasada-texture: clean-ending action.",
     "bhakti": "Sridhara's forward pointer to BG 18 is a counsel of humility for bhaktas: do not be too quick to classify your service as 'sattvic' before you have studied the full discriminating marks ('niyatam sangarahitam'). In bhakti practice this means: before deciding your devotional activity is 'pure', ask whether it still carries sangha (social attachment), ego-recognition, or outcome-dependence. The verse is a checkpoint, not a clearance.",
     "advaita-bhakti": "Madhusudana's grammatical note — 'rajas' and 'tamas' stand by upacara (figure) for the actions they produce — is an invitation to a subtle daily audit: when I say 'my nature is rajasic', am I naming a guna or the actions and their fruits I have been generating? The advaita-bhakti synthesis here is practical: self-knowledge ('I am not the guna, I am the witness') and devotion ('I offer the action to Krsna') work together. The figure of speech dissolves ego-identification with the guna while the devotional frame re-consecrates the action."
-  }
+  },
+  "primary_meaning": "Good action yields a pure, luminous fruit; action driven by rajas yields suffering; action driven by tamas yields ignorance."
 }

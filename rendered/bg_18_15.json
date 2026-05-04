@@ -1,8 +1,8 @@
 {
   "verse_id": "18.15",
   "mūla": {
-    "devanāgarī": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः | न्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः",
-    "iast": "śarīravāṅmanobhiryatkarma prārabhate naraḥ | nyāyyaṃ vā viparītaṃ vā pañcaite tasya hetavaḥ",
+    "devanāgarī": "शरीरवाङ्मनोभिर्यत् कर्म प्रारभते नरः | न्याय्यं वा विपरीतं वा पञ्चैते तस्य हेतवः",
+    "iast": "śarīravāṅ manobhiryat karma prārabhate naraḥ | nyāyyaṃ vā viparītaṃ vā pañcaite tasya hetavaḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 15",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "prārabhate",
-      "lemma": "prārabh",
+      "lemma": "√prārabh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -470,7 +470,33 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "śarīravāṅmanobhiryatkarma -> śarīravāṅ manobhiryat karma"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "शरीरवाङ्मनोभिर्यत्कर्म -> शरीरवाङ्मनोभिर्यत् कर्म"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prārabhate: prārabh -> √prārabh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If body, speech, and mind are all instruments of a single causal structure, what does it mean to 'control' one while leaving the others unattended?",
@@ -488,5 +514,6 @@
     "śuddhādvaita": "Vallabha's antaryamin reading means Krishna is not observing your action from outside — he is the interior energy that makes it possible at all. The everyday application in Pushti-marga is to dedicate each of the five causes back to him: 'this body is his, these senses are his instruments, this prana is his breath, and he completes what I begin.' Action becomes seva (service) in its very structure.",
     "bhakti": "Sridhara's plain reading offers a diagnostic tool without metaphysical overhead: when a decision goes wrong, check which of the five causes was underprepared — was the body exhausted (adhishthana), the information incomplete (karana), the intention divided (karta), the execution careless (chesta), or were prior-life patterns (daiva) overriding present intention? Each has a different remedy.",
     "advaita-bhakti": "Madhusudana's synthesis suggests that rigorous causal accounting and devotional surrender are not opposites. Map the five causes clearly — this is the jnana discipline. Then recognize that 'mind' as the leading instrument (per the Nyaya citation) means that where the mind is oriented, the entire causal complex follows. Orienting the mind toward Krishna is therefore not a bypass of karma but its most efficient redeployment."
-  }
+  },
+  "primary_meaning": "Every action a person starts through body, speech, or mind, whether right or wrong, has these five causes behind it."
 }

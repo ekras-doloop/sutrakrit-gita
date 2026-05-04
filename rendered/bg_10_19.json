@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "kathayiṣyāmi",
-      "lemma": "kathay",
+      "lemma": "√kathay",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -378,9 +378,10 @@
         "jayatirtha_10.19"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's direct commentary on BG 10.19 is absent from the transmitted text (the source notes: 'Sri Madhvacharya did not comment on this sloka'). Reading through the Dvaita lens established across adjacent verses: the 'divya ātma-vibhūtayaḥ' (divine self-manifestations) are Hari's own sovereign qualities (svaguṇāḥ), not shared with or derivable from the eternally distinct jīvātman (individual self). Prādhānyataḥ picks out those vibhūtis where Hari's absolute independence (svātantrya) and supremacy over all other beings is most directly visible. The infinity of vibhūtis signals that Hari's greatness has no bound, and no jīva can exhaust or encompass it.",
-      "divergence_note": "Bhāṣya absent for this verse. Reading inferred from Madhva's adjacent commentary and his consistent dvaita framework throughout the vibhūti-yoga chapter.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*hanta* — the word marks Kṛṣṇa's willing, even delighted, acceptance of Arjuna's request. He will speak *divyāḥ ātma-vibhūtayaḥ* (the divine self-manifestations) only *prādhānyataḥ* (by way of what is chief, most prominent), because *nāsty anto vistarasya me* — there is no end to the full extension of His glories. In Dvaita *siddhānta*, these *vibhūtayaḥ* are Hari's own sovereign *svaguṇāḥ* (proper qualities), residing in Him as the sole *svatantra* (independently real, self-sufficient) being. They do not pass over into, or originate from, any *paratantra* *jīva* (the eternally dependent individual self); the *jīva* may reflect a trace of greatness, but that trace is a dependent expression granted by Hari, not shared ownership. The qualifier *prādhānyataḥ* is thus not mere rhetorical economy: it marks that even the selected list will display only the peaks of an inexhaustible *aiśvarya* (lordly power). *pañca-bheda* (the five-fold real distinction) holds firm — Lord and *jīva* remain ontologically separate even as Hari's *vibhūtis* pervade and uphold all existence. The infinity registered in *nāsty antaḥ* is itself the doctrinal point: no *jīva*, and no enumeration by any finite intelligence, can encompass what Hari is.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse; the reading is voiced from Dvaita *siddhānta* applied directly to the *mūla*.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -445,20 +446,6 @@
         "11.11",
         "11.15"
       ]
-    },
-    {
-      "list": "पश्य मे पार्थ रूपाणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.5"
-      ]
-    },
-    {
-      "list": "प्राधान्यतः कुरुश्रेष्ठ नास्त्यन्तो विस्तरस्य मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.2"
-      ]
     }
   ],
   "audit_trail": {
@@ -488,7 +475,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kathayiṣyāmi: kathay -> √kathay",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the Lord admits no exhaustive listing is possible, what does that imply about any tradition that claims to offer a complete map of divine reality?",
@@ -506,5 +504,6 @@
     "śuddhādvaita": "Vallabha's compassionate 'hanta' — the tender address before any teaching begins — is a model for how to enter any difficult conversation. Before you instruct, correct, or inform, offer the other person a signal of anukampā (compassionate regard). The form of address shapes what can be received. Practice: before giving feedback or beginning a hard conversation, find and express one genuine recognition of the other person's humanity.",
     "bhakti": "Śrīdhara's reading frames the Lord's enumeration as a personal gift (divyāḥ vibhūtayaḥ, 'my divine manifestations, for you'). The Bhakti practitioner receives sacred knowledge not as information to be mastered but as darśana — the Lord making himself available to be known. Practice: when studying scripture or sitting with a teacher, shift your internal posture from 'what can I extract' to 'what is being given' — and receive it accordingly.",
     "advaita-bhakti": "Madhusūdana notes the Lord reassures Arjuna (mā vyākulobhūḥ) before beginning to enumerate. For the advaita-bhakti practitioner, this means: the deepest teaching is not the content but the relationship that makes the content receivable. In your own spiritual practice, do not skip past the reassurance to the instruction. If you are inwardly agitated (vyākula), no enumeration of divine glories will land. Practice: before engaging with sacred text or teaching, take time to settle the inner agitation — only then proceed."
-  }
+  },
+  "primary_meaning": "Krishna agrees, and says he will describe his divine self-manifestations by their most prominent examples, best of Kurus, for there is no end to their full extent."
 }

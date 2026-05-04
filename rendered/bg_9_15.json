@@ -86,7 +86,7 @@
     },
     {
       "surface_form": "yajantaḥ",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -102,7 +102,7 @@
     },
     {
       "surface_form": "upāsate",
-      "lemma": "upās",
+      "lemma": "√upās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -551,7 +551,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yajantaḥ: yaj -> √yaj",
+          "upāsate: upās -> √upās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all three modes — ekatva, pṛthaktva, bahudhā — are valid worship of the same Kṛṣṇa, what does this imply about the claims of any single darśana (school of thought) to exclusive soteriological truth?",
@@ -569,5 +580,6 @@
     "śuddhādvaita": "Within Puṣṭi-mārga, the application is receptivity rather than effort: allow Kṛṣṇa's grace (puṣṭi) to determine the mode of your worship rather than choosing a mode strategically. If today's energy is dāso'smi (differentiated devotion) and tomorrow's is identity-absorption, neither is a failure. The practical instruction is to recognize that even informal, scattered devotion — humming a bhajan while working, noticing beauty in small things — is already bahudhā worship of the cosmic-faced one. No posture is too undignified for the Lord's own presence to inhabit.",
     "bhakti": "The Śrīdhara application is recognition: in any encounter with another mind — conversation, reading, encounter with nature — practice seeing vāsudevaḥ sarvam (Vāsudeva is everything) as a living perception, not a doctrinal formula. When you notice the impulse to categorize a person as lesser or irrelevant, the countermovement is sarvātmatva-darśana — seeing them as a face of the all-faced one. The shift is not sentimental but perceptual: it changes what information you attend to and what questions you ask.",
     "advaita-bhakti": "Madhusūdana's graduated ladder offers self-assessment without self-rejection: locate honestly which tier describes your current practice — are you capable of sustained identity-contemplation (uttama), or do you need a concrete divine image or proximate symbol (madhyama), or are you currently navigating life through action and diverse practices (manda)? Then practice at that tier fully rather than pretending to a higher one. The ladder guarantees upward movement (pūrva-bhūmi-lābha) only if you occupy your actual rung; spiritual inflation blocks the climb."
-  }
+  },
+  "primary_meaning": "Others worship Me through the sacrifice of knowledge, some seeing My oneness everywhere, others seeing Me through My many distinct forms, and still others approaching Me through the countless faces I turn toward the world."
 }

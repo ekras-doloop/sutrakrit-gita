@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "kāṅkṣitam",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "avasthitāḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -282,8 +282,9 @@
         "vallabha_1.33"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabhācārya explicitly did not comment on BG 1.31–1.33. Within the Puṣṭi-mārga vision, the verse's pathos — those for whom kingdom and pleasure were desired now stand with prāṇa and dhana already surrendered — is itself Kṛṣṇa's līlā (divine play): Arjuna's grief is the grace-pressure that Śrī Kṛṣṇa applies to empty the vessel of self-will before filling it with bhakti-rasa. The very enumeration of rajya, bhoga, and sukha as objects once desired mirrors the Puṣṭi teaching that puruṣārtha-sādhana (self-effort for ends) must be dissolved in prasāda (grace-gift) before genuine seva is possible.",
-      "divergence_note": "ABSENT — Vallabha bhāṣya explicitly absent for 1.31–1.33; rendering draws on Puṣṭi-mārga framework"
+      "english_rendering": "*Rājya* (sovereignty), *bhoga* (enjoyment), and *sukha* (pleasure) — these Arjuna names as the very ends for which battle was first desired. Now those for whom such ends were sought — teachers, fathers, sons — stand arrayed in the field, their *prāṇa* (life-breath) and *dhana* (wealth) already as good as abandoned. In *śuddhādvaita*, the goods Arjuna catalogues are not illusions born of *māyā* but real manifestations of Kṛṣṇa's own *ānanda* (bliss-nature): *rājya*, *bhoga*, and *sukha* are Brahman's self-expression in the world, non-different from Kṛṣṇa yet genuinely distinct as his gift. Arjuna's anguish is not mere error; it is the *puṣṭi-mārga* (path of grace) at work — the Lord's own pressure emptying the devotee of the posture of independent enjoyment (*bhoktṛtva*) so that *sevā* (loving service) may replace self-directed pursuit. The verse's bitter enumeration — *no rājyaṃ bhogāḥ sukhāni ca* — discloses that Arjuna had held these goods as his own acquisitions. *Puṣṭi* teaching inverts this: *rājya*, *bhoga*, *sukha* belong to Kṛṣṇa alone; the devotee's relation to them is not ownership but *brahma-sambandha* (consecrated relation to Brahman), offering all back to the Lord from whom they flowed. Those standing in the field with lives forfeit are themselves Kṛṣṇa's, and Arjuna's grief over them is the threshold moment in which self-will (*svārtha*) begins to dissolve into *prasāda* (the grace-gift that precedes genuine devotion).",
+      "divergence_note": "Vallabha bhāṣya is silent on 1.33; reading reconstructed from *śuddhādvaita* siddhānta — the non-illusory reality of *rājya*, *bhoga*, and *sukha* as Kṛṣṇa's *ānanda*-manifestation, the *puṣṭi-mārga* logic of grace dissolving *bhoktṛtva*, and *brahma-sambandha* as the correct devotee-relation to worldly goods.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -307,8 +308,9 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "Madhvācārya left no extant bhāṣya text for 1.33 in the supplied corpus. From the Dvaita framework: the jīvas (kith and kin) for whose sake rajya (kingdom) was sought are eternally distinct from Hari and from one another; their willingness to sacrifice prāṇa and dhana in battle reveals that attachment to them as ends-in-themselves is a category error. Arjuna's lamentation discloses the fundamental Dvaita teaching that all jīvas are paratantra (dependent) — neither their lives nor their wealth are truly 'theirs' to be gained or lost; they belong to Hari's sovereign dispensation.",
-      "divergence_note": "ABSENT — Madhva bhāṣya not supplied for 1.33; rendering draws on Dvaita doctrinal framework"
+      "english_rendering": "Arjuna names the very persons — teachers, fathers, sons, grandfathers, uncles — *yeṣām arthe* (for whose sake) the kingdom, enjoyments, and pleasures were desired: *kāṅkṣitaṃ no rājyaṃ bhogāḥ sukhāni ca*. Now those same persons stand arrayed in battle, *prāṇāṃs tyaktvā dhanāni ca* — ready to abandon life and wealth. The grief discloses a category error: Arjuna treated these *jīvas* (individual selves) as ends who could confer or receive sovereign good. But each *jīva* is *paratantra* (eternally dependent on Hari), and no *jīva* holds its *prāṇa* or *dhana* as self-owned property. Life and wealth belong to Hari's sovereign dispensation alone. The kinsmen's willingness to die does not strip them of value; it strips away the illusion that they are *svatantra* (independently real, self-sufficient) beneficiaries capable of grounding Arjuna's *rājya*-desire. *Bheda* (real distinction) between Hari, Arjuna, and these assembled *jīvas* remains absolute — their potential death does not dissolve the ontological *pañca-bheda* (five-fold real distinction) but exposes that Arjuna's attachment misread *paratantra* souls as autonomous ends. The proper relation is *bhakti* (devotion) directed upward to Hari, not lateral clinging to fellow *paratantra* beings as the ground of desire.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on 1.33; the reading voices Dvaita *siddhānta* directly from the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     }
   },
   "prosodic_information": {
@@ -367,7 +369,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kāṅkṣitam: kāṅkṣ -> √kāṅkṣ",
+          "avasthitāḥ: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When the people for whose sake you built something are themselves willing to destroy it, what remains of your original justification?",
@@ -385,5 +398,6 @@
     "śuddhādvaita": "Every project begun 'for the sake of loved ones' that ends in their own self-offering is Kṛṣṇa emptying the vessel. When outcomes invert your intentions this completely, stop planning and receive the inversion as prasāda (grace-pressure). The emptied vessel is the precondition for pure seva.",
     "bhakti": "Use Śrīdhara's inference in your own reasoning: when the intended recipient of your effort has already abandoned the thing you were building for them, complete the syllogism honestly — the effort's justification has dissolved. Do not continue by momentum when purpose has been withdrawn by its own object.",
     "advaita-bhakti": "Following Madhusūdana's distinction: map your attachments as Arjuna's verse maps them — not as one blob called 'caring about loved ones' but as distinct strands (their physical safety, their future financial security, your reputation through them, etc.). Release them as separate threads, not as a single vague letting-go. Precision in renunciation is as important as precision in analysis."
-  }
+  },
+  "primary_meaning": "Those for whose sake we ever wanted a kingdom, enjoyments, and happiness now stand here in battle, ready to give up their lives and wealth."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "manyeta",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "śṛṇvan",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "spṛśan",
-      "lemma": "spṛś",
+      "lemma": "√spṛś",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -147,7 +147,7 @@
     },
     {
       "surface_form": "jighran",
-      "lemma": "ghrā",
+      "lemma": "√ghrā",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -155,7 +155,7 @@
     },
     {
       "surface_form": "aśnan",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -171,7 +171,7 @@
     },
     {
       "surface_form": "svapan",
-      "lemma": "svap",
+      "lemma": "√svap",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -179,7 +179,7 @@
     },
     {
       "surface_form": "śvasan",
-      "lemma": "śvas",
+      "lemma": "√śvas",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -323,8 +323,8 @@
         "jayatirtha_5.8"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva reads this double-verse (5.8–9) as Kṛṣṇa clarifying (spaṣṭayati) the sannyāsa stated earlier: the yukta renounces the arrogation of doership because the jīva is fundamentally dependent (parādhīna) and Hari alone is the true independent agent (svatantra kartā). 'I do nothing' is not a Māyāvāda dissolution of selfhood but the jīva's honest recognition of its bounded, instrument-level function within Bhagavān's sovereign orchestration. Each act of seeing, hearing, moving is Hari's activity flowing through the jīva-instrument; the tattva-vit acknowledges the hierarchy rather than erasing it.",
-      "divergence_note": "Madhva's commentary is sparse on 5.8 — the entire bhāṣya for 5.8–9 is a single line: 'sannyāsaṃ spaṣṭayati punaḥ ślokadvayena' (clarifies renunciation further with two verses). The Dvaita rendering is therefore inferred from Madhva's established doctrinal framework (jīva-Brahman categorical difference, Hari-kartṛtva) rather than direct bhāṣya prose on this verse. Flagged accordingly."
+      "english_rendering": "*Sannyāsaṃ spaṣṭayati punaḥ ślokaḍvayena* — Kṛṣṇa clarifies *sannyāsa* (renunciation) again by means of this pair of verses. Jayatīrtha notes the *punaḥ* (again): the teaching has already been made clear by the terms *jñeyaḥ* and *aviśuddhātmā* in earlier passages, so the reiteration is not redundant but signals the explicit statement of what had remained implicit — the renunciation of *saṅkalpa* (volitional appropriation of action), previously unspoken. *Naiva kiñcit karomīti* names the *tattva-vit*'s settled recognition: the *jīva* (individual self), as *paratantra* (eternally dependent), neither initiates nor owns the seeing, hearing, touching, smelling, eating, moving, sleeping, breathing that stream through it. *Hari* alone is *svatantra kartā* (the independently acting agent); the *jīva* acknowledges its instrument-level function within that sovereignty. This is not a Māyāvāda erasure of selfhood but the honest confession of *bheda* (real distinction) — the *tattva-vit* knows the categorical difference between Lord and *jīva* and therefore cannot arrogate doership.",
+      "divergence_note": "Madhva's bhāṣya on 5.8–9 is a single line: *sannyāsaṃ spaṣṭayati punaḥ ślokaḍvayena*. Jayatīrtha supplies the exegetical moves — *jñeyaḥ*, *aviśuddhātmā*, and the *prāg-anukta-saṅkalpa-tyāga* — that justify the *punaḥ*. The doctrinal elaboration on *Hari-kartṛtva* and *paratantra-jīva* is drawn from these sub-commentary moves and established Dvaita *siddhānta*, not from additional bhāṣya prose on this verse."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -381,13 +381,6 @@
       ]
     },
     {
-      "list": "इन्द्रियाणीन्द्रियार्थेषु वर्तन्त इति धारयन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9"
-      ]
-    },
-    {
       "list": "कूर्म",
       "role": "supporting",
       "other_verses_in_list": [
@@ -412,15 +405,6 @@
       ]
     },
     {
-      "list": "गुणा गुणेषु वर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "5.7",
-        "5.9"
-      ]
-    },
-    {
       "list": "चेष्टते",
       "role": "supporting",
       "other_verses_in_list": [
@@ -440,43 +424,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "3.28",
-        "5.9"
-      ]
-    },
-    {
-      "list": "तत्त्ववित् युक्तः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9"
-      ]
-    },
-    {
-      "list": "नान्यं गुणेभ्यः कर्तारं यदा द्रष्टानुपश्यति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9",
-        "14.19"
-      ]
-    },
-    {
-      "list": "नैव किञ्चित्करोमीति मन्येत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9"
-      ]
-    },
-    {
-      "list": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9",
-        "5.14"
-      ]
-    },
-    {
-      "list": "पश्यञ्शृण्वन्स्पृशन् ৷৷ उन्मिषन्निमिषन्नपि",
-      "role": "supporting",
-      "other_verses_in_list": [
         "5.9"
       ]
     },
@@ -510,23 +457,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "3.27",
-        "5.9"
-      ]
-    },
-    {
-      "list": "मैं कर्ता हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.27",
-        "3.28",
-        "5.9",
-        "5.20"
-      ]
-    },
-    {
-      "list": "मैं सुखी हूँ मैं दुःखी हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
         "5.9"
       ]
     },
@@ -578,13 +508,6 @@
         "18.28",
         "18.51"
       ]
-    },
-    {
-      "list": "श्वसन् उन्मिषन् निमिषन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.9"
-      ]
     }
   ],
   "audit_trail": {
@@ -614,7 +537,31 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jighran: ghrā -> √ghrā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "manyeta: man -> √man",
+          "śṛṇvan: śru -> √śru",
+          "spṛśan: spṛś -> √spṛś",
+          "aśnan: aś -> √aś",
+          "svapan: svap -> √svap",
+          "śvasan: śvas -> √śvas"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the tattva-vit genuinely holds 'I do nothing,' does this preclude moral accountability — and how does each school resolve that tension without collapsing into quietism?",
@@ -632,5 +579,6 @@
     "śuddhādvaita": "When guilt or pride arises mid-action, recall that the senses are operating in their own field — 'na aham.' This is not a license for carelessness; it is a receptivity to Kṛṣṇa's grace (prasāda) actively dissolving the karma-root that makes this action feel self-authored. The Puṣṭi practitioner stays attentive and engaged, but holds the engagement lightly, as something given rather than grabbed.",
     "bhakti": "Run Śrīdhara's anatomical inventory mentally at the end of each day: what did the eye do? what did the feet do? what did the breath do? Each faculty returns to its faculty-column. You, the one reviewing, are not any of these columns. This is a structured vairāgya (dispassion) practice grounded in the verse's own list — not an abstract negation but a precise, organ-by-organ release of false ownership accumulated through the day.",
     "advaita-bhakti": "Madhusūdana's sequential reading is a training curriculum: begin as a karma-yogin (action with non-attachment), allow the antaḥkaraṇa (inner organ) to become progressively cleaner, notice that the fourfold inner apparatus — manas, buddhi, ahaṃkāra, citta — are themselves objects witnessed, not the witnessing subject. Non-doership is not forced; it emerges as a byproduct of that purification. The practical corollary: do not pretend to non-doership before the śuddhi is real — that is spiritual performance, not tattva-knowledge."
-  }
+  },
+  "primary_meaning": "The knower of truth, fully absorbed, says \"I do nothing at all\" while the senses go on seeing, hearing, touching, smelling, eating, walking, sleeping, and breathing."
 }

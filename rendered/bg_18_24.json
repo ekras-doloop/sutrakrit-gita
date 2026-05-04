@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "kriyate",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "surface_form": "udāhṛtam",
-      "lemma": "udāhṛ",
+      "lemma": "ud-√āhṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -368,8 +368,9 @@
         "jayatirtha_18.24"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse; the Dvaita rendering is reconstructed from his broader doctrinal framework. Rajasic action in Madhva's system is action performed under the illusion of independent agency (ahankara) and motivated by personal desire — both of which falsely attribute to the eternally dependent jiva (paratantra-jiva) an autonomy that belongs only to Hari. Bahulaayasa (abundant toil) signals the rajasic agent's misalignment: effort driven by personal ambition rather than Hari-priti (delight of Hari).",
-      "divergence_note": "ABSENT — Madhvacharya did not comment on this verse per the supplied payload. Rendering reconstructed from Dvaita doctrinal principles."
+      "english_rendering": "*Rājasa* (passion-driven) action is named here by three marks: *kāmepsunā* (performed by one who craves desired results), *sāhaṅkāreṇa* (with *ahaṅkāra*, the false sense of independent authorship), and *bahulāyāsaṃ* (accompanied by abundant toil). In the dvaita *siddhānta*, *ahaṅkāra* is not merely a psychological fault but an ontological error — the *paratantra* (eternally dependent) *jīva* misattributes to itself the *svatantra* (self-sufficient, independent) agency that belongs solely to Hari. Desire for fruit (*kāma*) and pride of agency together constitute the rājasic knot: the *jīva* labors under the illusion that it is the ultimate source of its striving. *Bahulāyāsa* — the sheer excess of toil — is the natural consequence of this misdirection: effort cut loose from *hari-prīti* (delight in Hari) spirals into multiplied exertion without liberating fruit. The five-fold real distinction (*pañca-bheda*) stands behind this analysis: Lord and *jīva* remain ontologically distinct, so any action that collapses that *bheda* (real distinction) in the direction of self-sufficiency is rājasic at its root. Such action binds rather than liberates, since it reinforces the *jīva*'s false posture of independence rather than its proper subordination to Hari.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The dvaita reading is voiced directly from school *siddhānta* applied to the mūla: *kāmepsunā*, *sāhaṅkāreṇa*, and *bahulāyāsaṃ* are each mapped onto the *paratantra*-*jīva*'s structural tendency to usurp *svatantra* agency.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,7 +447,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyate: kṛ -> √kṛ",
+          "udāhṛtam: udāhṛ -> ud-√āhṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even 'good effort' spent striving for a worthy goal can be rajasic when driven by ahankara, how does one distinguish genuine dedication from ego-driven ambition in one's own practice?",
@@ -464,5 +476,6 @@
     "shuddhadvaita": "Vallabha's triple-knot test for any striving project: (1) Am I attached to the fruit? (2) Am I claiming authorship? (3) Am I treating my method as the guaranteed cause of the result? If all three are present, the effort is rajasic. The Pushtimarga antidote is not passivity but offering: bring even the desire and the effort to Krishna as prasada before beginning, and the straining quality changes.",
     "bhakti": "Sridhara's 'who equals me among the learned' is the rajasic motive most visible in professional and intellectual life. Every time you measure yourself against a peer — in credentials, recognition, depth of practice — and allow that comparison to fuel your effort, you are in bahulaayasa territory. The tell is fatigue: comparison-driven effort exhausts in a way that offering-driven effort does not.",
     "advaita-bhakti": "Madhusudana's 'yavat-kamanam' (as long as desire lasts) points to the habit-loop: rajasic action is not just a single motivated act but a self-renewing cycle. Each time the desire is acted on, it re-seeds itself. The practice he implies is interruption of the loop at the level of the desire's arising — not suppression, but the bhakta's redirection of the desire toward Krishna before the action is organized around it."
-  }
+  },
+  "primary_meaning": "Action performed by one who craves the fruit, acts with the pride of being the doer, and strains with great toil is called rajasic."
 }

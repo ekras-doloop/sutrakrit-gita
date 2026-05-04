@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "anuṣajjate",
-      "lemma": "anuṣañj",
+      "lemma": "anu-√ṣañj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "ārūḍhaḥ",
-      "lemma": "āruh",
+      "lemma": "√āruh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -323,13 +323,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "न कर्मस्वनुषज्जते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "14.9"
-      ]
-    },
-    {
       "list": "संकल्प",
       "role": "supporting",
       "other_verses_in_list": [
@@ -395,7 +388,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anuṣajjate: anuṣañj -> anu-√ṣañj",
+          "ārūḍhaḥ: āruh -> √āruh",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sarva-saṃkalpa-sannyāsa (renunciation of all volition) is the condition for yogārūḍha, does this mean the practitioner must first cease all ritual obligation — or does the renunciation happen while still acting?",
@@ -413,5 +418,6 @@
     "śuddhādvaita": "Vallabha's 'even one's own proper actions' as potential attachments points to a very concrete modern trap: the identity built around doing one's job well, parenting excellently, or being a 'good practitioner.' The Puṣṭi-mārga application is to let even these roles be Kṛṣṇa's gift rather than self-constructed achievements. Practically: at the end of each day, note one thing you did well and consciously offer it back rather than banking it as self-credit.",
     "bhakti": "Śrīdhara's causal chain — saṃkalpa → attachment → action-binding — suggests that the upstream intervention is at the moment of intention-formation, before action begins. Everyday practice: when a desire arises, sit with the saṃkalpa itself for 30 seconds before acting. This is not suppression; it is the examination Śrīdhara identifies as the yogin's habitual posture. Over time the examination becomes instinctive — which is precisely his definition of śīla (character).",
     "advaita-bhakti": "Madhusūdana's double vision — mithyātva of objects plus ātma-as-pure-bliss — suggests a two-part daily bookend. Morning: recall one moment from the previous day when you mistook a contingent gain or loss for a permanent fact about reality (mithyātva check). Evening: recall one moment of intrinsic well-being that arose independent of circumstances (ānanda-trace). The gap between these two recollections is the practice space Madhusūdana is pointing at."
-  }
+  },
+  "primary_meaning": "When you stop grasping at sense-objects and actions, and renouncing all intention has become your character, you are called established in yoga."
 }

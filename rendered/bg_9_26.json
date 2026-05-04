@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "prayacchati",
-      "lemma": "prayam",
+      "lemma": "pra-√yam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "upahṛtam",
-      "lemma": "upahṛ",
+      "lemma": "upa-√hṛ",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "aśnāmi",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "prayata",
-      "lemma": "prayam",
+      "lemma": "pra-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -459,7 +459,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prayacchati: prayam -> pra-√yam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upahṛtam: upahṛ -> upa-√hṛ",
+          "aśnāmi: aś -> √aś",
+          "prayata: prayam -> pra-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord receives a leaf with the same completeness as an elaborate yajña, what does this imply about the relationship between material value and spiritual efficacy — and where does that leave economies of religious prestige?",
@@ -477,5 +497,6 @@
     "śuddhādvaita": "When you feel inadequate — too poor, too uneducated, too ordinary to approach the Lord — recall Vidura's offering. The Puṣṭi-mārga practice is to make one sincere, trust-filled offering each day, however small, without calculating its worth. The Lord who needs nothing chooses to need your offering.",
     "bhakti": "In congregational or domestic pūjā, prioritize the quality of prīti (loving attention) over the quantity or cost of upacāras (service items). Śrīdhara's gloss 'prītyā gṛhṇāmi' (I receive with love) suggests the evaluative criterion the devotee should internalize: was my attention genuinely loving, or merely habitual?",
     "advaita-bhakti": "Practice the two-step Madhusūdana offers: first, recognize that what you are offering was never fully yours (metaphysical de-possessing); second, offer it anyway with the full weight of your affection. This double movement — relinquishing ownership and deepening love simultaneously — is his synthesis in action."
-  }
+  },
+  "primary_meaning": "Offer Me a leaf, a flower, a fruit, or water with devotion, and I receive it, for what I accept is the love behind the gift, not the gift itself."
 }

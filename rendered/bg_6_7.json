@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "jita",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "praśāntasya",
-      "lemma": "praśam",
+      "lemma": "pra-√śam",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -127,7 +127,7 @@
     },
     {
       "surface_form": "samāhitaḥ",
-      "lemma": "samādhā",
+      "lemma": "sam-√ādhā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -463,13 +463,6 @@
       ]
     },
     {
-      "list": "शीतोष्णसुखदुःखेषु समः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.19"
-      ]
-    },
-    {
       "list": "सुख-दुःख",
       "role": "supporting",
       "other_verses_in_list": [
@@ -509,7 +502,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jita: ji -> √ji",
+          "praśāntasya: praśam -> pra-√śam",
+          "samāhitaḥ: samādhā -> sam-√ādhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says the Paramātman is already present and the conquest of self merely removes obstruction — does this mean effort in yoga is strictly preparatory, and if so, at what point does preparation become superfluous?",
@@ -527,5 +532,6 @@
     "śuddhādvaita": "Vallabha's reading reframes hardship itself: the seasons, the cold and heat, are Kṛṣṇa's own 'kāla-dharma' (temporal nature at play). The equanimity asked is not stoic detachment but a recognition that every condition — comfortable or harsh — is the antaryyāmin's (indwelling Lord's) present expression. The daily practice is to receive honor and dishonor equally as forms of that presence, not as verdicts on your worth — because the prasāda (grace) that establishes you is not contingent on either.",
     "bhakti": "Śrīdhara's dual reading licenses two concurrent practices: outwardly, maintain 'svātma-niṣṭhā' (groundedness in one's own nature) so that reactions to cold-heat or honor-dishonor do not scatter you; inwardly, make space for the Paramātman to become 'hṛdi samāhitaḥ' (established in the heart). These are not sequential stages but simultaneous orientations — the grounding and the receptivity reinforce each other. The criterion for progress is simple: do you need the honor to stay stable, or can the dishonor arrive and leave without leaving a residue?",
     "advaita-bhakti": "Madhusūdana's clinical precision is practically useful: identify which disturbances are 'citta-vikṣepa-kara' (directly scattering the mind — say, physical discomfort) and which are 'citta-vikṣepa-hetu' (causes that generate secondary agitation — say, a snub from someone whose opinion you value). The second category is harder because it runs through desire and identity. The synthesis practice: bring the Advaitic inquiry (who is being honored?) to the moment the bhaktic warmth toward Kṛṣṇa would otherwise curdle into the need for human affirmation."
-  }
+  },
+  "primary_meaning": "For one who has conquered the mind and found inner stillness, the supreme Self stands gathered and present, unshaken by cold or heat, pleasure or pain, honor or dishonor."
 }

@@ -69,7 +69,7 @@
     },
     {
       "surface_form": "prabhavanti",
-      "lemma": "prabhū",
+      "lemma": "pra-√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -127,7 +127,7 @@
     },
     {
       "surface_form": "pralīyante",
-      "lemma": "pralī",
+      "lemma": "pra-√lī",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -455,7 +455,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prabhavanti: prabhū -> pra-√bhū",
+          "pralīyante: pralī -> pra-√lī"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every manifest form — including your body, your relationships, your achievements — is simply Brahmā's dream that dissolves at his nightfall, what in your present life is you clinging to as permanent that this verse asks you to release?",
@@ -473,5 +484,6 @@
     "śuddhādvaita": "When a loved one dies or a cherished form disappears, Vallabha's tirodhāna reading offers a specific reframe: they have not been annihilated but concealed — returned to the akṣara ground by Kṛṣṇa's will. The grief practice is to turn toward Kṛṣṇa (the concealer) rather than the absence, trusting the āvirbhāva-tirobhāva rhythm as his ongoing līlā.",
     "bhakti": "Develop cosmological literacy as a devotional act. Śrīdhara's ahorātravida — the knowing ones — are those who can correctly name whose day and night they are living inside. Practically: study the Purāṇic time-scales not as mythology but as calibration, so that your sense of urgency and your sense of patience are correctly sized to the actual scale of what is at stake.",
     "advaita-bhakti": "Use the verse as a two-step morning practice. Step one: recall that even Brahmaloka dissolves — nothing in the experiential universe, however refined, is the destination. Step two: redirect the freed aspiration toward Kṛṣṇa specifically, not toward a formless void. Madhusūdana's synthesis means vairāgya is not the terminus; it is the clearing that makes bhakti possible."
-  }
+  },
+  "primary_meaning": "At Brahmā's dawn, all beings pour forth from the unmanifest; at his nightfall, they dissolve back into it again."
 }

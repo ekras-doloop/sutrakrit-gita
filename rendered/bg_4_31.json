@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "śiṣṭa",
-      "lemma": "śās",
+      "lemma": "√śās",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -334,8 +334,8 @@
         "jayatirtha_4.31"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on 4.30-4.31 treats the prāṇa-yajña jointly: the controlled-diet practitioner offers the prāṇas into the prāṇas themselves — 'yad asyālpāśanaṃ tena prāṇāḥ prāṇeṣu vai hutāḥ' — and through this disciplined restraint reaches the eternal Brahman. In Dvaita reading, every such offering is an act of dependent surrender to Hari; the jīva (eternally distinct from Brahman) attains Brahman not by identity but by the grace secured through unbroken worship. One who abandons even this minimal discipline of controlled eating has no platform for any world.",
-      "divergence_note": "Madhva's joint gloss (4.30-4.31) cites Kaṭha 3.13 on mind-restraint and adds the independent śruti 'yad asyālpāśanaṃ tena prāṇāḥ prāṇeṣu vai hutāḥ' — sparse eating itself constitutes the prāṇa-offering. NOTE: Madhva does not comment on sanātana-Brahman destination separately in this bhāṣya passage; the above is an inference from his broader Dvaita framework."
+      "english_rendering": "*Yajña-śiṣṭāmṛta-bhujaḥ* (those who eat the nectar-remnant of sacrifice) *yānti brahma sanātanam* (go to the eternal Brahman). One who performs no sacrifice has no footing in this world — *nāyaṃ loko 'sty ayajñasya* — still less in any other, *kuto 'nyaḥ kurusattama*.\n\nMadhva reads 4.30–4.31 jointly. The *niyatāhāra* (regulated-diet) practitioner accomplishes the *prāṇa*-offering through *prāṇaśoṣāt* — the very drying-up, the thinning of the *prāṇa*-streams that results from sparse eating — whereby the motions of the sense-faculties (*indriyavṛttīnām vṛttimattvindriyeṣu saṅkocāt*) are contracted back into those same faculties. The offering is thus internal: *prāṇān prāṇeṣu juhvati*. A second mode, drawn from Kaṭha 3.13, proceeds by speech and mind: *yacchedvāṅmanasī prājñaḥ* — the wise one should restrain speech into mind, then mind into the higher controlling deity. Jayatīrtha specifies that on this reading *niyatāhāra* stands as a *pṛthak yajña* (a separate sacrifice), distinct from the *prāṇa-prāṇa* offering of the preceding verse. A third warrant is cited from an independent śruti: *yad asyālpāśanaṃ tena prāṇāḥ prāṇeṣu vai hutāḥ* — sparse eating itself constitutes the *prāṇa*-oblation. By any of these modes the *paratantra* *jīva* (eternally dependent individual self), distinct by *bheda* (real distinction) from *svatantra* (the independently real) Hari, attains *brahma sanātanam* not through dissolution but through the grace secured by unbroken, disciplined worship. The one who abandons even this minimal restraint has no *loka* here, none elsewhere.",
+      "divergence_note": "The contaminated cell's divergence note flagged that Madhva does not comment on the *sanātana*-Brahman destination separately, attributing the point to inference from his broader doctrinal scheme. The source bhāṣya, however, does ground the destination implicitly in the joint 4.30–4.31 passage: *yānti brahma sanātanam* is the mūla's own conclusion, and Madhva's citation of *yad asyālpāśanaṃ tena prāṇāḥ prāṇeṣu vai hutāḥ* along with Kaṭha 3.13 supplies the sacrificial mechanism leading there. Jayatīrtha further disambiguates the two modes — *niyatāhāra* as *pṛthak yajña* versus the *prāṇa-prāṇa* offering — which the contaminated cell collapsed into one. No supplementary inference beyond the bhāṣya is required."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -432,13 +432,6 @@
       ]
     },
     {
-      "list": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24"
-      ]
-    },
-    {
       "list": "यान्ति ब्रह्म सनातनम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -486,7 +479,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śiṣṭa: śās -> √śās",
+          "yānti: yā -> √yā",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa frame the consequence of neglecting yajña as the loss of 'this world' first — before any higher world — rather than simply threatening the loss of mokṣa? What does this ordering reveal about the verse's intended audience?",
@@ -504,5 +509,6 @@
     "śuddhādvaita": "Vallabha's reading that 'this body of slight bliss' is what is at stake makes the application bodily and immediate: the grace (puṣṭi) that sustains even ordinary physical wellbeing flows through Kṛṣṇa's prasāda-economy. In practice this means receiving all food as Kṛṣṇa's prasāda — not as a metaphor but as a structural fact of the Puṣṭi-mārga — and noticing when eating has slipped into a purely self-referential act. The loss Vallabha names is not abstract: even slight physical flourishing is said to depart where the prasāda-frame is entirely abandoned.",
     "bhakti": "Śrīdhara's closing injunction — 'yajñāḥ sarvathā kartavyāḥ' (sacrifices are to be performed by all means) — is pragmatically universal. The application is to identify what form of 'yajña' is available in your actual life-situation and to perform it without exception. For a gṛhastha (householder), this could be the five mahāyajñas in abbreviated daily form; for a professional, it could be offering the first portion of one's earnings, time, or skill to a communal or devotional purpose. Śrīdhara's 'jñāna-dvāreṇa' note adds that the yajña disciplines eventually become the doorway to understanding — the practice is not a substitute for knowledge but its preparation.",
     "advaita-bhakti": "Madhusūdana's 'sarvanindyatva' — universal censurability of the ayajña — points to the social and relational dimension: a life without any form of offering is censurable not only metaphysically but in the eyes of any community of practice. The synthesis application is to maintain both: an inner non-attachment that does not grasp at results (Advaita) and an outer devotional act that enacts surrender to Kṛṣṇa (bhakti). In contemporary terms, this might mean pairing a daily meditation that loosens identity with action (jñāna-side) with a specific committed service or giving practice that is unconditional (bhakti-side) — neither is dispensable, because Madhusūdana will not let you collapse one into the other."
-  }
+  },
+  "primary_meaning": "Those who eat what remains after sacrifice reach the eternal Brahman; even this world is closed to one who performs no sacrifice, let alone any higher realm."
 }

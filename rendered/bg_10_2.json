@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -421,7 +421,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viduḥ: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even Indra and Bhṛgu — beings of vastly greater knowledge than ordinary humans — cannot know Bhagavān's prabhava, what epistemological stance does a human practitioner realistically take toward divine knowledge?",
@@ -439,5 +449,6 @@
     "śuddhādvaita": "Vallabha's intimacy-frame applies here: you do not know the full depth of the people who shaped you — parents, teachers, the civilization you were born into. That unknowing is not ignorance to be corrected; it is the natural condition of the child before its source. Puṣṭi-mārga practice begins in that acknowledged dependency, not despite it.",
     "bhakti": "Śrīdhara's point that Bhagavān activates buddhi (buddhy-ādi-pravartakatva) means that every moment of clarity, every sudden understanding, every insight you receive arrives as anugraha (grace), not as your own production. Holding that orientation — not as a pious formula but as a live awareness — changes how you relate to your own intelligence.",
     "advaita-bhakti": "Madhusūdana's synthesis: the gods are Bhagavān's modifications and cannot know their cause from within that modification. You are in the same position relative to the ground of your own awareness. The practice is not to escape that position — it is to become increasingly transparent to what is prior to the modification, which is the work both of jñāna (discernment) and bhakti (love)."
-  }
+  },
+  "primary_meaning": "Not even the gods or the great seers know where I come from or what I am, for I am the origin of all of them."
 }

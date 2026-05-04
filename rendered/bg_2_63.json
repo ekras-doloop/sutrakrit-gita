@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "praṇaśyati",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -436,22 +436,6 @@
       ]
     },
     {
-      "list": "क्रोधाद्भवति सम्मोहः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62",
-        "3.40",
-        "9.12"
-      ]
-    },
-    {
-      "list": "ध्यायतो विषयान्पुंसः सङ्गस्तेषूपजायते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62"
-      ]
-    },
-    {
       "list": "बुद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -504,14 +488,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "2.62"
-      ]
-    },
-    {
-      "list": "सङ्गात्संजायते कामः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62",
-        "5.10"
       ]
     },
     {
@@ -572,7 +548,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū",
+          "praṇaśyati: praṇaś -> pra-√ṇaś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The cascade runs ध्यान → आसक्ति → काम → क्रोध → संमोह → स्मृति-भ्रंश → बुद्धि-नाश → प्रणाश across two verses: at which stage does the process become practically irreversible, and what does each school's bhāṣya say about the last recoverable moment?",
@@ -590,5 +577,6 @@
     "śuddhādvaita": "Vallabha's diagnosis targets the mind that meditates on viṣaya even after the senses are formally restrained — the person who is physically present in a bhajana but mentally rehearsing a grievance. The everyday practice is Kṛṣṇa-viṣaya dhyāna as replacement, not mere suppression: redirect the mind toward a specific remembered form, gesture, or name of Kṛṣṇa at the first sign of āsakti forming around a grievance. Āsakti → kāma → krodha is fast; the interruption must happen at the āsakti moment, before kāma consolidates.",
     "bhakti": "Śrīdhara's image — buddhi overcome as life is overcome in a diseased tree — suggests that buddhi-nāśa is visible to observers before it is visible to the one experiencing it. Cultivate relationships with two or three people who have explicit permission to say 'your viveka is not functioning right now' — not as insult but as the Śrīdhara function: an external witness who can name the stage you have entered. The teaching of the ācārya, which is the content of the smṛti that gets lost, should ideally be recoverable through a living relationship, not just memory.",
     "advaita-bhakti": "Madhusūdana's specific target is aikātmyākāra-mano-vṛtti — the mental mode that perceives non-separation. In relationships, anger generates precisely the perception of the other as separate, threatening, and opposed. The synthesis practice is: after anger has passed, deliberately recall a moment of genuine connection with the same person — not to excuse their behavior, but to restore the aikātmya-vṛtti that anger destroyed. This is not sentiment; it is the specific cognitive restoration that Madhusūdana's bhāṣya identifies as what buddhi-nāśa took away."
-  }
+  },
+  "primary_meaning": "Anger breeds confusion, confusion makes you forget what you know, forgetting destroys judgment, and once judgment is gone, you are lost."
 }

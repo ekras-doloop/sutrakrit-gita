@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "āsthitāḥ",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "saṃpaśyan",
-      "lemma": "saṃpaś",
+      "lemma": "saṃ-√dṛś",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -350,25 +350,10 @@
   },
   "theme_list_memberships": [
     {
-      "list": "असक्तो ह्याचरन्कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.19"
-      ]
-    },
-    {
       "list": "उद्देश्य",
       "role": "supporting",
       "other_verses_in_list": [
         "12.12"
-      ]
-    },
-    {
-      "list": "कर्मणा बध्यते जन्तुः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.8",
-        "4.3"
       ]
     },
     {
@@ -407,27 +392,11 @@
       ]
     },
     {
-      "list": "यज्ञार्थ कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.23",
-        "5.2"
-      ]
-    },
-    {
       "list": "लोकसंग्रह",
       "role": "supporting",
       "other_verses_in_list": [
         "3.25",
         "3.26"
-      ]
-    },
-    {
-      "list": "लोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.39",
-        "5.2"
       ]
     },
     {
@@ -499,7 +468,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃpaśyan: saṃpaś -> saṃ-√dṛś"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsthitāḥ: āsthā -> ā-√sthā",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara holds that karma can be either post-jñāna residue or pre-jñāna purification — does this make karma-yoga a provisional path that dissolves once jñāna is attained, or does the verse endorse it as permanently valid for the wise?",
@@ -517,5 +505,6 @@
     "śuddhādvaita": "A craftsperson in the Puṣṭi tradition makes each object — a pot, a garment, a meal — as an offering within Kṛṣṇa's līlā (divine play). The work is not a means to a later spiritual reward; the prasāda of skillful, loving craftsmanship is itself the ripening. There is no gap between the making and the freedom.",
     "bhakti": "A community elder continues participating in local governance, festivals, and neighborhood mediation long after personal ambitions have quieted, knowing that if respected figures withdraw, those around them lose their orientating examples. Her presence in the market and the council hall is itself a form of loka-saṃgraha — keeping the community's dharmic compass steady.",
     "advaita-bhakti": "An entrepreneur who recognizes both the constitutional facts of his life — obligations to employees, family, community — and the inner jijñāsā (desire to know) that drives him does not abandon his company to pursue an ashram. Like Janaka ruling Mithilā while remaining inwardly a jñānī, he governs his organization as both a practical necessity and a site of self-refinement, holding the tension rather than resolving it by flight."
-  }
+  },
+  "primary_meaning": "Janaka and the royal sages reached their highest through action alone; seeing how the world holds together, you too should act."
 }

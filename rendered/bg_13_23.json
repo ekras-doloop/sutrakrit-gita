@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "vartamānaḥ",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "abhijāyate",
-      "lemma": "abhijan",
+      "lemma": "abhi-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -360,7 +360,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -461,7 +461,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "vartamānaḥ: vṛt -> √vṛt",
+          "abhijāyate: abhijan -> abhi-√jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the purusha is upadrastr (proximate witness) and not a remote abstraction, what does it mean that the same awareness which 'watches' your pain is not itself in pain — and can you locate that watching right now?",
@@ -479,5 +491,6 @@
     "śuddhādvaita": "Find one activity today that you do not consume for outcome — walking, breathing, a moment of music — and notice that something in you 'shines' on it without eating it. Vallabha calls this the Parameshvara's mode; you are briefly in his register.",
     "bhakti": "Recite or sit with the shruti formula Sridhara cites: 'sakshi cheta kevalo nirgunah' — pure witness, pure awareness, quality-free. Do this not as metaphysics but as re-cognition: you are reminding the buddhi of what it already knows is looking through it.",
     "advaita-bhakti": "Madhusudana's point is that the purusha is witness by avyavadhaana (zero-gap proximity), not by distance. So: the next time you feel most absorbed in a difficulty, know that the absorbing and the witnessing are happening in the same place. You do not need to 'step back' — you need to see what is already here."
-  }
+  },
+  "primary_meaning": "Know the witness-self and material nature together with her qualities, and however you live out your days, you will not be born again."
 }

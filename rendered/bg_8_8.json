@@ -44,7 +44,7 @@
     },
     {
       "surface_form": "yuktena",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "instrumental neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "surface_form": "anucintayan",
-      "lemma": "anucintay",
+      "lemma": "anu-√cintay",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -562,15 +562,6 @@
         "18.28",
         "18.51"
       ]
-    },
-    {
-      "list": "समत्वं योग उच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "4.42",
-        "6.9"
-      ]
     }
   ],
   "audit_trail": {
@@ -600,7 +591,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktena: yuj -> √yuj",
+          "yāti: yā -> √yā",
+          "anucintayan: anucintay -> anu-√cintay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the destination depends on the final moment of consciousness at death (as BG 8.6 insists), what happens to years of practice when a deathbed distraction arises — is the entire sādhana negated, or is habit structurally protective?",
@@ -618,5 +621,6 @@
     "śuddhādvaita": "The Vallabha reading demands that nothing — not even a noble spiritual object like the Imperishable — be allowed to become a stopping-point. In practice: when a meditation becomes comfortable, when a framework feels complete, when a spiritual identity feels settled — that is precisely the moment to move. Apply this at work: do not let a successful method become a fixed identity. Kṛṣṇa as the cosmogonic 'more subtle than the subtlest' means the target is always one register more refined than the last stable state.",
     "bhakti": "Śrīdhara's 'inner support' framing suggests a layered architecture: external practice (ritual, recitation, schedule) provides the structure, but the actual mechanism is the unbroken interior flow of same-genus awareness. Practically: if you find your outer practice mechanical, the prescription is not more outer practice but investigation of whether the interior flow has broken. Re-establish the interior thread first; the outer practice will re-animate. This applies directly to any sustained skill-building — the inner engagement (sajātīya-pratyaya-pravāha) is the load-bearing element.",
     "advaita-bhakti": "Madhusūdana's key practical contribution is 'nirodhaprayatnaṃ vinā' — the wandering stops without a suppression effort when the samādhi-quality matures. This is actionable feedback for any meditator: if you are still fighting distractions in meditation after years, the issue is not insufficient effort but insufficient samādhi-ripeness. The prescription is not more suppression but deeper immersion in the object itself — devotion as the accelerant of absorption, not as an alternative to it. Bhakti and jñāna converge in the same attentional mechanism."
-  }
+  },
+  "primary_meaning": "With a mind made steady through constant practice, unable to stray to anything else, meditate on the Supreme, radiant Person, and you will reach Him."
 }

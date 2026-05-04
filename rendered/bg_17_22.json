@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "dīyate",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "asatkṛtam",
-      "lemma": "asatkṛ",
+      "lemma": "a-√satkṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "avajñātam",
-      "lemma": "avajñā",
+      "lemma": "ava-√jñā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "udāhṛtam",
-      "lemma": "udāhṛ",
+      "lemma": "ud-√āhṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -308,7 +308,9 @@
         "jayatirtha_17.22"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this sloka; the rendering draws on his established school-framework. In Dvaita terms, tamasic dana is that which, by falling into wrong place, time, and recipient, cannot constitute dependent worship of Hari — the jiva's act is ontologically colored by tamas and therefore does not generate bhagavad-priti. The contempt (avajnana) shown to the recipient directly violates the Vaisnava principle that Hari resides in the worthy devotee, making such giving an act of active denigration of the Lord's presence. [Bhāṣya absent: Madhva recorded no commentary on this verse; rendering is inferred from school-axioms.]"
+      "english_rendering": "Dāna given at *adeśa-kāle* (wrong place and time) and to *apātras* (unworthy recipients), dispensed without honor — *asatkṛtam* — and with *avajñā* (contempt), is declared *tāmasa*. Within the *pañca-bheda* (the five-fold real distinction) that structures all relation, the *jīva*'s giving is ontologically indexed to *taratamya* (graded ontological hierarchy): only dāna directed toward the worthy — those in whom *Hari* dwells as *antaryāmin* — ascends through the hierarchy toward *bhagavad-prīti* (delight in the Lord). Here, the triple failure of place, time, and recipient collapses that ascent. *Asatkṛtam* and *avajñātam* are not mere social lapses; *avajñā* toward a worthy recipient strikes at the *paratantra* (eternally dependent) *jīva*'s residing-place of Hari, converting an act of giving into an act of active opposition to the Lord's presence. Such a deed, saturated with *tamas*, generates no *bhakti* as ontological subordination to *Hari* — it moves the *paratantra jīva* further from *Hari*, the sole *svatantra* (the independently real, self-sufficient) ground of all existence.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for this verse; reading reconstructed from Dvaita siddhānta applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -317,7 +319,9 @@
         "vallabha_17.22"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha did not comment on this sloka; the rendering draws on Pustimarga principles. In Suddhādvaita, all legitimate dana is an offering within Krsna's lila (divine play) — the giver, the gift, and the receiver are each a form of Krsna's prasada (gracious bestowal). Tamasic giving ruptures this lila-circuit: giving in an impure place, at an inauspicious time, to a recipient who cannot reflect Krsna's grace back, with no reverential warmth, places the act outside the circle of Krsna's spontaneous love and therefore outside the path of Pustimarga. [Bhāṣya absent: Vallabha recorded no commentary on this verse; rendering is inferred from school-axioms.]"
+      "english_rendering": "*Dāna* (giving) performed at a wrong place (*adeśa*) and wrong time (*akāla*), to unworthy recipients (*apātrebhyaḥ*), without honor (*asatkṛtam*), and with contempt (*avajñātam*) — this is declared *tāmasa*. In *śuddhādvaita*, the world is no illusion but Kṛṣṇa's own real self-expression; every act of giving, properly oriented, belongs to *puṣṭi-mārga* (the path of divine grace), in which giver, gift, and recipient are each a manifestation of Kṛṣṇa's *prasāda* (gracious bestowal). *Tāmasa* giving ruptures this order: the wrong place and time sever the act from Kṛṣṇa's *līlā* (divine play); the unworthy recipient cannot sustain the flow of *prasāda*; contempt and lack of reverential warmth (*asatkāra*, *avajñā*) deny the act any quality of *sevā* (loving service). Where *puṣṭi-mārga* moves entirely by Kṛṣṇa's own *anugraha* (grace), *tāmasa* giving places itself outside that current — not because the world is *māyā*, which *śuddhādvaita* rejects, but because *brahma-sambandha* (the bond relating all things back to Brahman) is actively dishonored. Such giving cannot circulate Kṛṣṇa's grace; it dissipates it.",
+      "divergence_note": "Śuddhādvaita reads *tāmasa* dāna not through *māyā*-negation (which the school rejects) but through the positive disruption of *puṣṭi-mārga*'s grace-circuit. The world and its givers are real Kṛṣṇa-manifestations; *tāmasa* giving fails by dishonoring *brahma-sambandha*, not by being ontologically unreal.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -339,7 +343,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -386,7 +390,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dīyate: dā -> √dā",
+          "asatkṛtam: asatkṛ -> a-√satkṛ",
+          "avajñātam: avajñā -> ava-√jñā",
+          "udāhṛtam: udāhṛ -> ud-√āhṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same rupee can be sattvic or tamasic depending solely on when, where, and to whom it is given, what does that imply about the moral weight of the giver's situational awareness versus the giver's inner intention?",
@@ -404,5 +421,6 @@
     "śuddhādvaita": "In Pustimarga, the warmth of giving matters as much as the gift itself — the gift should feel like prasada flowing through you, not a transaction. Practically: when you give, make it festive: wrap it, name it, offer it with a gesture of joy. Giving in a sour mood, in a broken-down setting, to someone you resent, breaks the lila-circuit. If you cannot give with warmth today, wait until you can — tamas giving pollutes the relationship it pretends to serve.",
     "bhakti": "Sridhara's concrete naming of vita-nata-nartaka reminds us that 'worthiness' is contextual, not permanent. In practice: assess whether your giving serves the recipient's growth or merely your own relief. Giving money to sustain a destructive habit (even with love) is tamasic; giving the same amount toward education or healing is potentially sattvic. The act of foot-washing (pada-praksalana) as a marker of honor translates today into giving time and presence alongside material help — money without attention is asat-krtam.",
     "advaita-bhakti": "Madhusudana's synthesis of rigor and warmth offers a two-step daily practice: first, discriminate (is this place, time, and recipient genuinely able to receive this gift well?); second, honor (bring kind speech, genuine attention, and reverence to the giving moment). The two steps are not in tension — discrimination without warmth is cold tamas; warmth without discrimination is sentimental tamas. The goal is sattvic giving that carries both the clarity of Advaita and the love of bhakti."
-  }
+  },
+  "primary_meaning": "Giving that goes to the wrong person in the wrong place at the wrong time, without care or respect for the recipient, is tamasic."
 }

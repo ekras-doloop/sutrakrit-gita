@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -344,7 +344,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -485,7 +485,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If both prakrti and purusa are beginningless, what does that imply about the project of tracing suffering to a first cause — is there a first cause to find?",
@@ -503,5 +514,6 @@
     "shuddhadvaita": "Engage with beauty — music, food, a child laughing, the evening light — as the Lord's own nature unfolding for you to receive. Shuddhadvaita does not ask you to renounce; it asks you to stop treating enjoyment as yours by right and start receiving it as prasada. The same sensory world that traps the self-possessive becomes the gift-field of Krsna for the surrendered.",
     "bhakti": "Study systematically — not to accumulate information but to qualify yourself as a recipient. Sridhara's point is that the field, the knowledge, and the knowable form a complete package, but only the person who has already cultivated devotion can receive it whole. Take stock: which of these three is weakest in your understanding, and approach that gap as your current sadhana.",
     "advaita-bhakti": "Find one teacher — a living person, a text, a practice lineage — to whom you can offer your entire intellectual effort without reservation. Madhusudhana's insight is that the compression of the entire Gita into this verse is itself a grace-act aimed at 'those of modest intellect,' meaning all of us who cannot hold the full teaching simultaneously. Surrender the need to have figured it all out, and let the Guru carry the weight of the framework."
-  }
+  },
+  "primary_meaning": "Know that *prakṛti* and *puruṣa* are both without beginning, and that every modification of the field, together with the three *guṇas*, is born of *prakṛti* alone."
 }

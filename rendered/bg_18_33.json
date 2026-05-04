@@ -60,7 +60,7 @@
     },
     {
       "surface_form": "dhārayate",
-      "lemma": "dhāray",
+      "lemma": "√dhāray",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -436,8 +436,9 @@
         "jayatirtha_18.33"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on 18.33 is absent from the transmitted corpus. Drawing from his established dvaita framework: sattviki dhrti is the jiva's dependent resolve — possible only through Hari's anugraha (grace) — that steadies manas, prana, and indriyas in unwavering nistha (station) toward Hari-seva. The jiva cannot originate this resolve; it is sustained entirely by the Lord's supporting will. Avyabhicarini yoga here denotes unbroken loyalty to Hari without swerving toward any other object of refuge.",
-      "divergence_note": "ABSENT — Madhva did not comment on this sloka per the payload. Rendering extrapolated from his documented dvaita framework; flagged accordingly."
+      "english_rendering": "*Dhṛti* (resolve) of the *sāttvika* order is named here: *dhṛtyā yayā dhārayate manaḥprāṇendriyakriyāḥ* — the steadying of *manas* (mind), *prāṇa* (vital breath), and the activities of the *indriya*s (senses) — sustained by *avyabhicāriṇī yoga* (unwavering, unswerving *yoga*). In *dvaita* reading, this *dhṛti* is not self-originating in the *jīva*. The *jīva*, eternally *paratantra* (dependent), holds fast only because *Hari*'s *anugraha* (sustaining grace) supports the holding. *Avyabhicāriṇī* — the quality of not swerving to any secondary object — names precisely the *jīva*'s single-pointed subordination to Hari, the *svatantra* (independently real, self-sufficient) Lord. Mind, breath, and sense-activity that stray enact *bheda* (real distinction) from that support; *sāttvikī dhṛti* is the condition in which they do not stray. The resolve described is thus the *jīva*'s *paratantra* participation in Hari's own ordering will, not an autonomous achievement — *dhṛtiḥ sā pārtha sāttvikī*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this śloka. Reading voiced directly from *dvaita* *siddhānta*: *paratantra* *jīva*, *anugraha*, and *pañca-bheda* applied to the mūla's threefold steadying of *manas*, *prāṇa*, and *indriya*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -632,7 +633,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhārayate: dhāray -> √dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If avyabhicarini dhrti requires samadhi as its ground (Shankara) rather than willpower alone, what does that imply for resolve-building practices that skip contemplative depth?",
@@ -650,5 +661,6 @@
     "suddhAdvaita": "Practice deliberately staying with discomfort in sadhana (early hours, difficult asana, fasting) without exiting early. Vallabha's triduhkha-sahanasHila is built by small, repeated completions of difficult acts — each completion is Krsna's prasada thickening your capacity for the next.",
     "bhakti": "When you notice your attention pulled away from the task at hand toward a different concern, name that pull explicitly ('visayantara') and return without self-blame. Sridhara's dhrti is not iron willpower but the skilled habit of noticing dispersal and returning — a repeatable micro-practice.",
     "advaita-bhakti": "Use the Madhusudana test: if genuine meditative absorption (even brief) arises naturally while you are engaged — in work, prayer, or study — that is confirmation you are in sattviki dhrti. If the activity never produces even a moment of samadhi-quality presence, examine whether the dhrti holding it is truly sattviki or only rajasic persistence."
-  }
+  },
+  "primary_meaning": "The resolve that steadies your mind, breath, and senses through unwavering yoga, keeping them from scattering toward other objects, is *sāttvikī dhṛti*, Arjuna."
 }

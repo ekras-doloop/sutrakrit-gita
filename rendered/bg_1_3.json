@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "vyūḍhām",
-      "lemma": "vyūh",
+      "lemma": "√vyūh",
       "grammar": "accusative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -246,7 +246,9 @@
         "anandgiri_1.3"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya does not comment on BG 1.3 — his bhāṣya opens at 2.10, where the teaching proper begins. From an Advaita standpoint the first chapter is mere pravṛtti-prakaraṇa (preliminary setting), not yet the subject of śāstra. Duryodhana's speech to Droṇa is the mind's habitual movement: cataloguing armies (vikāras of ahaṃkāra), invoking teacher-student bonds (māyā-constructed relationships), and surveying the field of Kurukṣetra — which Śaṅkara elsewhere glosses as the body-field where dharma and adharma play out. Until 2.10 the ācārya withholds his pen; the silence is itself the commentary — these early verses are the fever, not the prescription."
+      "english_rendering": "Duryodhana's address to Droṇa — *paśyaitāṃ pāṇḍu-putrāṇām ācārya mahatīṃ camūm* — belongs to the order of *vyavahāra* (conventional appearance), the theatre of *ahaṃkāra* (ego-identification) and its projections. The great army (*mahatī camū*) is a spectacle of *nāmarūpa* (name and form), differentiated objects arrayed before a mind that takes distinctions as ultimately real. Duryodhana catalogues force, lineage, and the teacher–student bond between Droṇa and Dhṛṣṭadyumna (*tava śiṣyeṇa dhīmatā*) — all *māyā* (the power of appearance that veils non-dual *brahman*)-constructed relations, taken by the *ajñānin* (one in ignorance) to be self-subsistent facts. The field of Kurukṣetra is the *kṣetra* (field of experience), and the armies filling it are *vikāra* (modification) upon *vikāra*, none with ultimate standing. *Brahman* alone is *nirguṇa* (without attributes) and undivided; the vast formations Duryodhana sees are *adhyāsa* (superimposition) of multiplicity upon the one *ātman*. The speech is the fever of *saṃsāra* (conditioned existence), not yet the moment of inquiry — *viveka* (discriminative discernment) has not arisen, and so the ācārya's teaching proper has not begun.",
+      "divergence_note": "Śaṅkara's bhāṣya is silent on 1.3; this reading follows advaita *siddhānta* directly from the mūla, reading Duryodhana's military survey as an instance of *ahaṃkāra*-driven *vyavahāra* and *adhyāsa*, consistent with Śaṅkara's framing of chapter 1 as pre-inquiry context and his identification of Kurukṣetra with the *kṣetra* of experience.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -287,7 +289,8 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "Madhvācārya's bhāṣya for this verse is absent from the supplied payload. The Dvaita reading must be reconstructed from his general hermeneutic: every act of perception ('paśya,' 'look') is itself dependent on Hari, the one independent reality (svatantra). Duryodhana addresses Droṇa as 'ācārya' — a title that for Madhva carries the weight of paramparā, the chain of qualified teachers through whom Viṣṇu's grace flows downward. The camū (army) of the Pāṇḍavas is not merely human; it is the instrument of Hari's will, which no jīva — however skilled — can obstruct. Duryodhana's cataloguing voice expresses the parādhīnatā (dependence) that defines every jīva's nature, yet he mistakes his own volition for autonomous agency — the root error Dvaita diagnoses in all saṃsāra."
+      "english_rendering": "Duryodhana addresses Droṇa as *ācārya* (qualified teacher) — a title marking the chain through which Viṣṇu's will descends into the world of instruction. *Paśya* — 'behold' — is itself an act of dependent cognition: every perceiving *jīva* (the individual self) cognizes only insofar as *svatantra* (the independently real, self-sufficient) Hari sustains that cognition from within. The *camū* (battle array) drawn up by Dhṛṣṭadyumna, *drupada-putreṇa tava śiṣyeṇa dhīmatā* — Drupada's son, that wise pupil of yours — stands as an instrument of Hari's dispensation, not a product of *jīva* autonomy. Duryodhana catalogues Pāṇḍava strength as if his own appraisal were self-grounded; in this he enacts the cardinal error Dvaita diagnoses throughout *saṃsāra*: a *paratantra* (eternally dependent) *jīva* mistaking its conditioned seeing for sovereign agency. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) governs the scene: Droṇa and Duryodhana are ontologically distinct from each other, from the *camū*, and from the Lord who alone arrays and dissolves armies according to his will.",
+      "provenance": "siddhānta_reconstruction"
     }
   },
   "prosodic_information": {
@@ -347,7 +350,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyūḍhām: vyūh -> √vyūh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Duryodhana opens with 'paśya' (behold) — is genuine seeing possible when the one commanding it is driven by fear and political calculation, or does motivated perception always distort what it surveys?",
@@ -365,5 +378,6 @@
     "śuddhādvaita": "Vallabha reads Duryodhana's inward downcast mood as unwitting viraha — the ache of a soul that has not yet recognized the source of its longing. In daily life: when anxiety about a looming challenge produces that hollow, contracted feeling in the chest, do not immediately strategize it away. Sit with it briefly as a Puṣṭi practitioner would — recognizing the ache as prasāda, a sign that the soul is being summoned toward something larger than the immediate contest. Let the discomfort dissolve into bhajana (devotional engagement) rather than tighten into tactical obsession.",
     "bhakti": "Śrīdhara's reading highlights Duryodhana's rhetorical precision: he names Dhṛṣṭadyumna as 'son of Drupada' to activate an old wound in his teacher rather than naming the present military threat clearly. In conversations — especially difficult ones with authority figures or peers — examine whether you are naming the actual issue or the historical grievance behind it. The practice: before delivering difficult feedback or a hard request, ask yourself which name you are using and why. Clarity of naming is itself a form of bhakti (devotion) to truth.",
     "advaita-bhakti": "Madhusūdana's close reading reveals that Duryodhana's speech contains concealed dveṣa (enmity) dressed as counsel — he appears to be informing Droṇa but is actually accusing him. This dynamic appears in every organizational and family system: the advisor who 'just wants you to be aware' of a problem they helped create, the colleague whose concern is really a claim on your loyalty. The advaita-bhakti practice is threefold — hear the surface request, sense the undercurrent of attachment or resentment, and respond to the deeper āśaya (intention) with compassion rather than collusion, just as Kṛṣṇa will respond to Arjuna's deeper question rather than his stated one."
-  }
+  },
+  "primary_meaning": "Duryodhana says: Teacher, look at this great army of the Pandavas, so skillfully arrayed by Drupada's son, your own student."
 }

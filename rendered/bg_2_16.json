@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "sataḥ",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "genitive neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "dṛṣṭaḥ",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -442,27 +442,10 @@
       ]
     },
     {
-      "list": "नासतो विद्यते भावः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.1"
-      ]
-    },
-    {
       "list": "नासतो विद्यते भावो नाभावो विद्यते सतः",
       "role": "supporting",
       "other_verses_in_list": [
         "7.12"
-      ]
-    },
-    {
-      "list": "परा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.4",
-        "7.5",
-        "7.6",
-        "12.8"
       ]
     },
     {
@@ -527,7 +510,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyate: vid -> √vid",
+          "vidyate: vid -> √vid",
+          "sataḥ: as -> √as",
+          "dṛṣṭaḥ: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools agree that asat admits no permanent bhāva — but they radically disagree about whether the deha (body) is unreal in itself (Advaita, Advaita-Bhakti), unreal only as the locus of identity (Viśiṣṭādvaita, Bhakti), or real as a dependent ontological category (Dvaita, Śuddhādvaita): which reading does the mūla text actually support, and can the same śloka bear all six?",
@@ -545,5 +541,6 @@
     "śuddhādvaita": "Vallabha's reading dissolves the hard boundary between the sacred and the mundane: because the body-world is neither pure asat (it was born, it serves) nor pure sat (it will perish), it is precisely the medium of Kṛṣṇa's prasāda (grace). In daily life, this means that physical beauty, sensory delight, artistic creation, and even grief are not obstacles to be transcended but expressions of the saccidānanda svarūpa flowing through finite form. The practice is not renunciation but consecration — meeting every arising experience as a moment of Kṛṣṇa's self-disclosure, which Vallabha calls the puṣṭi-mārga (path of nourishment): the world feeds the bhakta, not the other way around.",
     "bhakti": "Śrīdhara's practical verse-reading offers the simplest daily handle: before allowing a physical discomfort — chronic pain, fatigue, weather, hunger — to generate existential despair, ask whether the discomfort belongs to the ātman or to the anātman. Śīta-uṣṇa (cold and heat) are anātma-dharma (properties of the non-self): they are real as sensations and should be met with care, but they cannot touch the sat-svarūpa of the self that witnesses them. This viveka is not cold philosophy — it is the warm recognition that the one who suffers is not the one who is, and that recognition is itself an act of bhakti toward the self that Kṛṣṇa is pointing at.",
     "advaita-bhakti": "Madhusūdana's synthesis is uniquely useful for intellectuals caught between philosophical rigor and devotional yearning: the three-axis test (kāla / deśa / vastu-pariccheda) can be applied immediately to any source of suffering — a painful memory (kāla-paricchinnam: it was not always there, it will not always be there), a sense of isolation in a room (deśa-paricchinnam: your awareness is not the room), a self-critical identity ('I am a failure,' vastu-paricchinnam: that failure-identity is differentiated, bounded, impermanent). What survives all three tests — the svaprakāśa (self-luminous) witness-presence — is the sat that is Kṛṣṇa. Bhakti then becomes the natural posture of a mind that has seen, through rigorous analysis, that the only thing that cannot be negated is also the face of the Beloved."
-  }
+  },
+  "primary_meaning": "The unreal never comes into being; the real never ceases to be. Those who see clearly have found this to be the nature of both."
 }

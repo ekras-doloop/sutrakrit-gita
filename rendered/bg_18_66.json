@@ -1,8 +1,8 @@
 {
   "verse_id": "18.66",
   "mūla": {
-    "devanāgarī": "सर्वधर्मान्परित्यज्य मामेकं शरणं व्रज | अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः",
-    "iast": "sarvadharmānparityajya māmekaṃ śaraṇaṃ vraja | ahaṃ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ",
+    "devanāgarī": "सर्वधर्मान् परित्यज्य मामेकं शरणं व्रज | अहं त्वा सर्वपापेभ्यो मोक्षयिष्यामि मा शुचः",
+    "iast": "sarvadharmān parityajya māmekaṃ śaraṇaṃ vraja | ahaṃ tvā sarvapāpebhyo mokṣayiṣyāmi mā śucaḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 66",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "vraja",
-      "lemma": "vraj",
+      "lemma": "√vraj",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -192,7 +192,7 @@
     },
     {
       "surface_form": "mokṣayiṣyāmi",
-      "lemma": "mokṣay",
+      "lemma": "√mokṣay",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -242,7 +242,7 @@
     },
     {
       "surface_form": "śucaḥ",
-      "lemma": "śuc",
+      "lemma": "√śuc",
       "grammar": "past jus 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -509,7 +509,35 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "sarvadharmānparityajya -> sarvadharmān parityajya"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "सर्वधर्मान्परित्यज्य -> सर्वधर्मान् परित्यज्य"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vraja: vraj -> √vraj",
+          "mokṣayiṣyāmi: mokṣay -> √mokṣay",
+          "śucaḥ: śuc -> √śuc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse commands abandoning 'all dharmas' — but the Gītā has spent 17 chapters insisting on dharma. Is this a contradiction, a culmination, or a different register of address entirely?",
@@ -527,5 +555,6 @@
     "śuddhādvaita": "When you find yourself performing religious or ethical practices as a kind of barter — doing good to earn grace — notice the exhaustion in that arithmetic. Vallabha's reading: drop the commerce. Let Krsna's own delight (ānanda) be the reason you act. The gopikās had no formal practice; their exclusive attention to Krsna was itself the whole path.",
     "bhakti": "When anxiety about doing the right thing correctly — following every rule — crowds out the devotion itself, Śrīdhara's reading applies: the trust that bhakti alone will take care of it is the point. Perform your duties, but hold them lightly, the way a child holds a parent's hand — not gripping, just present.",
     "advaita-bhakti": "Madhusūdana offers this for the person who cannot renounce and cannot fully surrender: simply turn toward Vāsudeva continuously, like oil flowing without break, even while your duties run. You need not resolve the tension between your obligations and your longing for liberation. The unbroken turning is itself the resolution."
-  }
+  },
+  "primary_meaning": "Drop every last claim on your own moral bookkeeping and come to Me alone for shelter; I will free you from all sin, so do not grieve."
 }

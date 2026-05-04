@@ -130,7 +130,7 @@
     },
     {
       "surface_form": "bhūte",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "accusative feminine dual participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -146,7 +146,7 @@
     },
     {
       "surface_form": "ānināya",
-      "lemma": "ānī",
+      "lemma": "√ānī",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -187,7 +187,7 @@
     },
     {
       "surface_form": "manyase",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -195,7 +195,7 @@
     },
     {
       "surface_form": "yuddhāḥ",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -227,7 +227,7 @@
     },
     {
       "surface_form": "hanyante",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -553,7 +553,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhūte: bhū -> √bhū",
+          "ānināya: ānī -> √ānī",
+          "manyase: man -> √man",
+          "yuddhāḥ: yudh -> √yudh",
+          "hanyante: han -> √han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ātman neither kills nor is killed, what is the precise ontological status of the warrior's action — is it real, apparent, or something between?",
@@ -571,5 +585,6 @@
     "śuddhādvaita": "Vallabha's *sāvayava-śarīra* limitation of *hanti* speaks directly to the grief of those who have outlived a loved one: you did not destroy the person — you witnessed the separation of a composite body from its animating principle, which is Kṛṣṇa's own. The Puṣṭi-mārga application is to surrender the narrative of personal causation — 'I caused this death,' 'I failed to prevent it' — and rest in Kṛṣṇa's ultimate sovereignty over all separations.",
     "bhakti": "Śrīdhara's two-grief structure is a practical diagnostic for moral distress: identify whether your suffering comes from loss (grief 1, addressed by ātman's deathlessness) or from guilt about your own role in harm (grief 2, addressed by ātman's non-agency). Many people conflate these and attempt to solve grief-1 with guilt-reasoning or vice versa; Śrīdhara's reading gives a precise triage: apply the correct teaching to the correct grief, and the path through is shorter.",
     "advaita-bhakti": "Madhusūdana's naming of the *tārkika* and *cārvāka* errors maps onto two modern failure modes: the person who over-philosophizes their agency ('I have free will, therefore I am fully responsible for every consequence, and therefore I am culpable') and the materialist who denies any persisting self ('there is no self, so nothing matters'). Both are forms of not-knowing. The Advaita-bhakti application is to hold both the reality of conventional moral seriousness (act with devotion, not nihilism) and the freedom from metaphysical self-condemnation (ātman is not destroyed by what it does in the body)."
-  }
+  },
+  "primary_meaning": "Whoever thinks this self is a killer, and whoever thinks it can be killed, both are wrong. It neither kills nor is killed."
 }

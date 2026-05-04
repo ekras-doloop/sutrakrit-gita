@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yajante",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "yajante",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -549,7 +549,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yajante: yaj -> √yaj",
+          "yajante: yaj -> √yaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If my sraddha is expressed through what I worship, what does my actual daily attention-allocation — time, money, thought — reveal about my gunic constitution?",
@@ -567,5 +578,6 @@
     "suddhAdvaita": "Vallabha's Bhagavata citation is a social mirror: the people you most naturally serve and emulate share your gunic wavelength. To enter Pustimarga is to consciously choose a different company (satsanga) — beings of a higher register — and let that new association do the transformative work.",
     "bhakti": "Use your natural worship-inclination as a compass rather than a verdict. If you notice you spend your deepest energy on objects of fear, power, or comfort rather than luminosity, that is Sridhara's diagnostic at work — data, not condemnation, pointing toward the next elevation.",
     "advaita-bhakti": "Madhusudana's linga-inference applies practically: audit your life not by stated values but by where energy actually flows without resistance. That spontaneous flow is your current sraddha signature. Once visible, it becomes workable — viveka (discrimination) can redirect it step by step toward Krsna."
-  }
+  },
+  "primary_meaning": "Those of sattva worship the gods; those of rajas worship yakshas and rakshasas; the tamas-bound worship spirits of the dead and troops of elemental beings."
 }

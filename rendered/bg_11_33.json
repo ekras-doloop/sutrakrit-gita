@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "uttiṣṭha",
-      "lemma": "utthā",
+      "lemma": "ut-√sthā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -69,7 +69,7 @@
     },
     {
       "surface_form": "labhasva",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "surface_form": "bhuṅkṣva",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -219,7 +219,7 @@
     },
     {
       "surface_form": "samṛddham",
-      "lemma": "samṛdh",
+      "lemma": "sam-√ṛdh",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -260,7 +260,7 @@
     },
     {
       "surface_form": "nihatāḥ",
-      "lemma": "nihan",
+      "lemma": "ni-√han",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -334,7 +334,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -511,8 +511,9 @@
         "jayatirtha_11.33"
       ],
       "score": 0.5,
-      "divergence_note": "Absent Madhva bhāṣya flagged honestly. Dvaita preserves the jīva's real (though dependent) agency and real enjoyment of reward — neither collapses into Advaita's non-agency nor Rāmānuja's kainkarya-service framing.",
-      "english_rendering": "Madhvācārya did not comment on this verse (the payload notes: 'Śrī Madhvācārya did not comment on this śloka'). From the Dvaita framework, however, the verse's core thrust is unambiguous: Hari alone is the independent doer (svatantra-kartā); Arjuna the jīva is eternally a dependent agent (paratantra). The command 'arise' is Hari's gracious invitation to participate in divine action — the jīva's activity is real but strictly dependent (āśrita), never sovereign. Yaśas (renown) accrues to the jīva as a genuine secondary reward; the kingdom is enjoyed through Hari's dispensation."
+      "divergence_note": "Dvaita reads *nimitta-mātraṃ bhava* as affirming, not erasing, real *jīva*-agency: the *jīva* is a genuine secondary cause, not a mere appearance. Advaita would dissolve the agent into *brahman*; Rāmānuja's *viśiṣṭādvaita* reads Arjuna as *prakāra* (mode) serving as body of the Lord. Dvaita holds the *bheda* firm: two real agents, one *svatantra*, one *paratantra*, acting in irreversible hierarchy.",
+      "english_rendering": "*Tasmāt* — because these warriors are already slain by Hari alone (*mayaiva*) — Arjuna is commanded: *uttiṣṭha*, arise; *yaśo labhasva*, win *yaśas* (renown); *jitvā śatrūn bhuṅkṣva rājyaṃ samṛddham*, having conquered the enemies, enjoy the prosperous kingdom. The decisive phrase is *nimitta-mātraṃ bhava savyasācin*: be only the proximate occasion (*nimitta*), O Savyasācin. Hari is *svatantra* (the independently real, self-sufficient) agent; the *jīva* Arjuna is *paratantra* (eternally dependent), a real but strictly instrumental cause. The verb *bhava* — become, be — does not diminish Arjuna's participation; the *jīva*'s action is ontologically genuine within the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) scheme. *Bheda* (real distinction) between Hari and Arjuna is never collapsed: Arjuna truly fights, truly wins *yaśas*, truly enjoys the kingdom — yet none of this proceeds from any *svatantra* power of his own. *Mayaiva* is absolute: the slaying is Hari's act *pūrvam eva*, already accomplished prior to the battle. Arjuna's *kartṛtva* (agenthood) is real yet wholly derivative — *āśrita*, resting upon Hari's will. The command to arise is itself Hari's grace, drawing the *paratantra jīva* into the stream of divine action, where *taratamya* (graded ontological hierarchy) places Arjuna high among *jīvas* yet infinitely below the *svatantra* Lord.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -602,31 +603,6 @@
         "14.11",
         "17.1"
       ]
-    },
-    {
-      "list": "फले सक्तो निबध्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "4.18",
-        "5.12",
-        "12.12"
-      ]
-    },
-    {
-      "list": "मत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.56"
-      ]
-    },
-    {
-      "list": "मयैवैते निहताः पूर्वमेव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.32",
-        "11.34"
-      ]
     }
   ],
   "audit_trail": {
@@ -656,7 +632,29 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uttiṣṭha: utthā -> ut-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "labhasva: labh -> √labh",
+          "bhuṅkṣva: bhuj -> √bhuj",
+          "samṛddham: samṛdh -> sam-√ṛdh",
+          "nihatāḥ: nihan -> ni-√han",
+          "bhava: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa has already slain the enemies beforehand, in what sense does Arjuna's effort matter at all — is the battle real or theatrical?",
@@ -674,5 +672,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga practitioner approaches a demanding task with the prayer: 'let this action be Yours moving through me.' The quality of effort does not change; the ownership does. Where other schools reason their way to non-attachment, this path surrenders into it — the instrument does not need to understand the music.",
     "bhakti": "Śrīdhara's Kāla-frame offers this: the forces you are about to confront (an illness, a deadline, an adversary) are already running out of time by the nature of impermanence — kālātmanā nihata-prāyāḥ. Your action is the proximate cause, not the ultimate one. This prevents both the grandiosity of 'I alone can fix this' and the cowardice of 'it doesn't matter what I do.'",
     "advaita-bhakti": "Madhusūdana's laukika-vyapadeza insight applies directly to leadership: when a team succeeds, the wise leader allows the team to own the victory publicly — not as false modesty but as the recognition that the real causation was distributed, prior, and larger than any single agent. Claiming authorship is spiritually unnecessary and socially corrosive; gifting it is both gracious and accurate."
-  }
+  },
+  "primary_meaning": "Rise and fight; these enemies are already slain by Me. Win glory, enjoy the kingdom you conquer, and be only the instrument, Savyasācin."
 }

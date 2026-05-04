@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "asatkṛtaḥ",
-      "lemma": "asatkṛ",
+      "lemma": "a-√satkṛ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -196,7 +196,7 @@
     },
     {
       "surface_form": "kṣāmaye",
-      "lemma": "kṣāmay",
+      "lemma": "√kṣāmay",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -469,13 +469,6 @@
       ]
     },
     {
-      "list": "एकोऽथवाप्यच्युत तत्समक्षं तत्क्षामये त्वामहमप्रमेयम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
       "list": "त्वाम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -486,42 +479,7 @@
       ]
     },
     {
-      "list": "बोलनेमें मैंने बिलकुल ही सावधानी नहीं बरती",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
       "list": "भगवान्को",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
-      "list": "यच्चावहासार्थमसत्कृतोऽसि विहारशय्यासनभोजनेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
-      "list": "सखेति मत्वा प्रसभं यदुक्तं हे कृष्ण हे यादव हे सखेति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
-      "list": "हे कृष्ण",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.41"
-      ]
-    },
-    {
-      "list": "हे यादव",
       "role": "supporting",
       "other_verses_in_list": [
         "11.41"
@@ -555,7 +513,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asatkṛtaḥ: asatkṛ -> a-√satkṛ",
+          "asi: as -> √as",
+          "kṣāmaye: kṣāmay -> √kṣāmay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What does it mean to dishonor the sacred through casual familiarity — and is intimacy always a spiritual risk or sometimes a grace?",
@@ -573,5 +543,6 @@
     "śuddhādvaita": "Vallabha's application: when someone you dismissed as limited or ordinary suddenly reveals an unexpected depth — a parent you thought you'd outgrown, a friend whose suffering you underestimated — the sampratam (now, at this moment) is the grace-point. Do not explain the past. Do not negotiate the apology. Receive the revelation, let it transform the relationship forward, and treat what prasāda asks for as what it is: an act of receiving, not performing.",
     "bhakti": "Śrīdhara's double reading of 'eka' is the practical gift: whether your disrespect was private (something only you and the other person know) or public (witnessed by a community), both require the same aparādhajāta offering. Stop calculating which offenses 'count enough' to apologize for. The aggregate is the unit. Name the whole thing, not only the visible part.",
     "advaita-bhakti": "Madhusūdana's synthesis offers the hardest and most freeing daily application: the person you wronged may be, in their deepest nature, nirvikāra (unchanged by your offense) — and yet the full weight of aparādhajāta still demands expression from you. The practice is to hold both simultaneously: do not use their imperviousness as an excuse to skip the apology, and do not use the apology as proof of their woundedness. Offer it fully, knowing it is received by one who needed it less than you needed to give it."
-  }
+  },
+  "primary_meaning": "For teasing you in play, at rest, at meals, and in travel, whether alone or in front of others who laughed along, forgive me, Acyuta, whose greatness I could not fathom."
 }

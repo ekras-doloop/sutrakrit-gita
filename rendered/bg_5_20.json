@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "prahṛṣyet",
-      "lemma": "prahṛṣ",
+      "lemma": "pra-√hṛṣ",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "udvijet",
-      "lemma": "udvij",
+      "lemma": "ud-√vij",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -249,7 +249,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -417,7 +417,8 @@
         "jayatirtha_5.20"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is extremely compressed — he simply notes that saṃnyāsa-yoga-jñāna (renunciation, disciplined practice, and knowledge) are collectively elaborated in the chapter's conclusion; no independent lexical exposition is provided. Working from Dvaita principles: the jīva (individual self), eternally distinct from Hari, encounters pleasant and unpleasant only through its own tamasic misidentification; the brahma-vid here is the one who cognizes the Lord as antaryāmin (inner controller) and thus does not claim pleasant outcomes as personal victories or unpleasant ones as personal wounds. Steadiness is a function of surrender to Hari, not of one's own vairāgya (dispassion) alone. [Note: Madhva bhāṣya on this verse is minimal — one sentence; rendering supplements from established Dvaita siddhānta.]"
+      "english_rendering": "*Na prahṛṣyet priyaṃ prāpya nodvijet prāpya cāpriyam* — the one established in *brahman* neither swells at the pleasant nor shudders at the unpleasant. In Dvaita's scheme, *brahman* here is *svatantra* Hari, and *brahmaṇi sthitaḥ* names the *jīva*'s condition of resting, through *bhakti*, in real ontological subordination to that Lord — not an absorption that dissolves *bheda* (real distinction), but a steadied dependency. The *brahmavid* (the knower of *brahman*) cognizes Hari as *sthira-buddhiḥ* (firm in understanding): pleasant and unpleasant are Hari's dispensations within the *paratantra* (eternally dependent) *jīva*'s life; to claim them as personal victories or personal wounds is the confusion the *asaṃmūḍha* (the undeluded) has shed. *Vairāgya* (dispassion) is real here, but it is grounded in recognition of *pañca-bheda* — the five-fold real distinction — not in any notion that distinctions are ultimately unreal. The *jīva* does not become Hari; it rests in Hari, and from that rest comes the equanimity the verse names. The chapter's remaining verses will elaborate *sannyāsa*, *yoga*, and *jñāna* together, as Madhva notes — *sannnyāsayogajñānāni militvā pracyate* — with this verse's *sannyāsa*-register opening that elaboration.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -458,14 +459,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "गुण ही गुणोंमें बरत रहे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "5.7"
-      ]
-    },
     {
       "list": "बुद्धि",
       "role": "supporting",
@@ -580,16 +573,6 @@
       "other_verses_in_list": [
         "5.13"
       ]
-    },
-    {
-      "list": "मैं कर्ता हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.27",
-        "3.28",
-        "5.8",
-        "5.9"
-      ]
     }
   ],
   "audit_trail": {
@@ -619,7 +602,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prahṛṣyet: prahṛṣ -> pra-√hṛṣ",
+          "udvijet: udvij -> ud-√vij",
+          "sthitaḥ: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If equanimity toward pleasant and unpleasant is a cognitive achievement (Śaṅkara: no second thing exists to disturb) rather than an emotional suppression, what does that imply about the relationship between philosophical insight and psychological health?",
@@ -637,5 +632,6 @@
     "śuddhādvaita": "Vallabha's application is most available in creative work or devotional practice: when a piece of music, a poem, or a prayer arrives with unexpected ease and beauty, the sādhaka of Puṣṭi-mārga receives it as Kṛṣṇa's prasāda (gift) rather than personal accomplishment, preventing the elation that sets up the next disappointment. The inner sukha (delight) is already present; the pleasant event is simply a reminder, not the source.",
     "bhakti": "Śrīdhara's lakṣaṇa lens becomes a daily self-audit: after any emotionally charged event — a difficult conversation, a financial surprise — the practitioner simply notes whether elation or dejection arose sharply. If they did, no shame; that is diagnostic data indicating where brahma-vid knowledge has not yet taken root. The verse becomes a calibration tool rather than a demand for instant equanimity.",
     "advaita-bhakti": "Madhusūdana's three-stage map applies directly to contemplative or therapeutic work: intellectual understanding of impermanence or non-self (śravaṇa-manana-phala) is not enough to prevent reactive patterns (viparīta-bhāvanā); sustained practice — whether structured meditation, journaling, or devotional repetition — is nididhyāsana that gradually clears the residual contrary impressions. The practitioner does not wait to be a jivanmukta before starting; they adopt the jivanmukta's posture through deliberate effort and trust that the practice itself dissolves the gap."
-  }
+  },
+  "primary_meaning": "A knower of Brahman neither swells at good fortune nor shrinks from misfortune, grounded in steady understanding, free from delusion, abiding in Brahman."
 }

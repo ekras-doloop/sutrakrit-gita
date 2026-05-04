@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "vibhaktam",
-      "lemma": "vibhaj",
+      "lemma": "vi-√bhaj",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "sthitam",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -318,7 +318,8 @@
         "jayatirtha_13.16"
       ],
       "score": 0.5,
-      "english_rendering": "[Madhvacarya's commentary on this verse is not preserved in the available corpus. The Dvaita rendering is reconstructed from first principles.] From a Dvaita standpoint the verse announces Hari's absolute independence: the Supreme alone is undivided among all creatures, sustaining, consuming and generating them as their antarayamin (inner controller), while each jiva remains permanently and irreducibly distinct — dependent witnesses, never the sustainer themselves. 'Avibhaktam' points to Brahman's omnipresence; 'vibhaktam iva' acknowledges the real multiplicity of dependent souls, never to be collapsed."
+      "english_rendering": "*Avibhaktaṃ ca bhūteṣu vibhaktam iva ca sthitam* — the *jñeya* (the supreme object of knowledge) stands undivided in all *bhūta*s (creatures) and yet appears divided; it sustains (*bhūta-bhartṛ*), consumes (*grasiṣṇu*), and generates (*prabhaviṣṇu*) all that exists. Dvaita reads every term here as a mark of Hari's absolute *svatantra* (independent, self-sufficient) lordship. His presence in all creatures without division is not an identity with them but omnipresence: the *paratantra* *jīva* is contained within Hari's sustaining grasp, never dissolved into it. *Vibhaktam iva* is not mere appearance for the ignorant — it registers the real *bheda* (distinction) constitutive of *pañca-bheda* (the five-fold real distinction). The *jīva* is genuinely separate, genuinely dependent; Hari alone is *bhūta-bhartṛ*, sustainer of beings, a title no *jīva* can bear. That he is also *grasiṣṇu* and *prabhaviṣṇu* — the power of dissolution and origination both — locates the entire cycle of *saṃsāra* within Hari's *svatantra* will, not in any impersonal principle. *Bhakti* as ontological subordination of the *paratantra* self to this *svatantra* Hari is the only movement that answers the verse's force: the *jñeya* is known not by merging but by recognizing one's permanent station as sustained, not sustainer.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -412,7 +413,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vibhaktam: vibhaj -> vi-√bhaj",
+          "sthitam: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the jneya is genuinely undivided, what exactly is doing the dividing — perception, language, karma, or something else — and can that dividing activity itself be observed?",
@@ -430,5 +442,6 @@
     "śuddhādvaita": "Identify one activity today that you do 'for yourself' and one you do 'as service.' Then ask whether the energy animating both is actually the same energy. Vallabha's point is that when you feel Krsna's prasada in the first one, the distinction between the two dissolves — not by flattening but by recognition.",
     "bhakti": "The Sridhara gold-ornament image is a concentration practice: look at any object — a cup, a screen, a tree — and ask 'what is it made of, and what is that made of?' Follow the chain back until you hit something that cannot be further reduced. That is 'antike' — it was never far.",
     "advaita-bhakti": "Madhusudana's 'nihitam guhayam' (placed in the cave of the heart) is an anchor phrase for anxious moments. When the jneya feels cosmically remote and the mind is overwhelmed, the prescription is not more analysis but a single inward turn — the cave is already there, the presence already placed. Use the phrase as a reset, not a conclusion."
-  }
+  },
+  "primary_meaning": "That which is to be known stands undivided among all beings though it appears divided, sustaining them, consuming them, and bringing them forth again."
 }

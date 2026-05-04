@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "iṣṭān",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "dāsyante",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -127,7 +127,7 @@
     },
     {
       "surface_form": "bhāvitāḥ",
-      "lemma": "bhāvay",
+      "lemma": "√bhāvay",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -143,7 +143,7 @@
     },
     {
       "surface_form": "dattān",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -200,7 +200,7 @@
     },
     {
       "surface_form": "bhuṅkte",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -409,8 +409,9 @@
         "jayatirtha_3.12"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva left no direct commentary on this verse. Extrapolating from Dvaita's governing axioms: jiva (individual soul) is eternally, constitutively dependent on Hari; to consume the devas' gifts without the returning oblation is to assert a false independence — the ontological root-sin in Dvaita. The theft here is not merely ritual but metaphysical: treating as autonomous what is, by nature, svamsah (Vishnu's own part). A Dvaita rendering would insist that proper yajna is worship of Hari through the deva-intermediaries, not reciprocity with semi-independent cosmic powers.",
-      "divergence_note": "Madhva bhashya absent for this verse — payload states 'Sri Madhvacharya did not comment on this sloka.' Rendering inferred from Dvaita structural axioms."
+      "english_rendering": "*Yajña-bhāvitāḥ* (nourished by sacrifice) *devā* grant *iṣṭān bhogān* (desired enjoyments) to the sacrificer; one who consumes what they have given — *tair dattān* — without returning the oblation — *apradāya ebhyaḥ* — is *stena eva*, a thief and nothing else.\n\nIn Dvaita's order, the *devā* are *paratantra* (eternally dependent) instruments of *svatantra* Hari; their bestowal of *bhogān* is Hari's own dispensation flowing through a graded hierarchy — *taratamya* (the graded ontological hierarchy of dependent beings). The *jīva* who receives that flow and hoards it breaks the cosmic circuit of *bheda* (real distinction): it mistakes a dependent gift for a self-generated acquisition, which is the precise structure of *stena*-hood. Theft here is not a juridical label but an ontological one — the *jīva* falsely enacts *svatantra*, the very attribute that belongs to Hari alone.\n\nProper *yajña* is thus *bhakti* enacted as ontological subordination: offering back to Hari through His *deva*-intermediaries what was never the *jīva*'s own. To withhold is to assert an independence that *pañca-bheda* (the five-fold real distinction — Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) makes metaphysically impossible. The thief does not merely break a ritual rule; he positions himself against the very constitution of his being.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading voices Dvaita *siddhānta* — *paratantra jīva*, *taratamya*, *pañca-bheda* — applied directly to the mūla's *stena* indictment.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -525,7 +526,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṣṭān: yaj -> √yaj",
+          "dāsyante: dā -> √dā",
+          "bhāvitāḥ: bhāvay -> √bhāvay",
+          "dattān: dā -> √dā",
+          "bhuṅkte: bhuj -> √bhuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the cosmic economy runs on yajna as reciprocal exchange, what counts as 'yajna' for someone without ritual access — and does sincere offering of attention and service discharge the same debt?",
@@ -543,5 +558,6 @@
     "śuddhādvaita": "In Pushtimarga terms: before any enjoyment — a meal, music, beauty in nature — offer it mentally to Krishna first, then receive it back as his prasada. This single habit converts ordinary consumption into a devotional act and prevents the accumulation of 'unpaid debt' that Vallabha's reading warns against.",
     "bhakti": "Sridhara's five daily sacrifices (panca-yajna — worship of devas, rshis, pitrs, humans, all beings) translate today into: maintaining a spiritual practice, studying wisdom literature, honoring parents and ancestors, extending hospitality, and treating animals and nature with care. Skipping any one is the 'theft' the verse names.",
     "advaita-bhakti": "Madhusudana's synthesis suggests a graduated application: if you are not yet established in inner renunciation, perform visible acts of return — feed someone before yourself, teach before billing, create before consuming. These acts of externalized yajna purify the antahkarana (inner instrument) until devotion becomes effortless and action spontaneously self-offering."
-  }
+  },
+  "primary_meaning": "The gods, nourished by your sacrifices, will grant you the pleasures you seek; whoever enjoys what they give without offering back to them is a thief."
 }

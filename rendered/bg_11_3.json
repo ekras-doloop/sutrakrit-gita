@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "āttha",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -410,14 +410,6 @@
       ]
     },
     {
-      "list": "द्रष्टुमिच्छामि ते रूपम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.46",
-        "11.49"
-      ]
-    },
-    {
       "list": "द्रष्टुम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -535,7 +527,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āttha: ah -> √ah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Arjuna already believes Kṛṣṇa fully (aviśvāso nāsti), what does his request to see add — and is there a difference between trusting a claim and needing to witness it?",
@@ -553,5 +555,6 @@
     "śuddhādvaita": "Vallabha's reading: a longing that arises inside genuine relationship is itself a gift from that relationship. The next time you feel a strong desire to know more about something you already love, treat that desire as already halfway to fulfilment rather than as lack. Ask it: 'what have you already received that makes this longing possible?'",
     "bhakti": "Śrīdhara's kautūhala — reverent wonder — is the emotional key here. There is a quality of attention that already believes and yet can still be astonished; that is different from the sceptic's demand for proof. Cultivate it in small things: read a familiar passage, walk a familiar path, meet a known person, and allow yourself to be surprised by what you did not already possess.",
     "advaita-bhakti": "Madhusūdana's Arjuna wants to 'become fulfilled' (kṛtārthī-bubhūṣayā) even though he already knows and believes. This is the practitioner who continues the practice after understanding has arrived — not from compulsion but from love of the form. Identify one practice you continue not because it is still building something, but because it is itself the dwelling."
-  }
+  },
+  "primary_meaning": "All you have said of yourself is true, O Supreme Lord, yet I long to see your divine form with my own eyes, O Puruṣottama."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "dīptam",
-      "lemma": "dīp",
+      "lemma": "√dīp",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "dīpta",
-      "lemma": "dīp",
+      "lemma": "√dīp",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "pravyathita",
-      "lemma": "pravyathay",
+      "lemma": "√pravyathay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -197,7 +197,7 @@
     },
     {
       "surface_form": "vindāmi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -525,7 +525,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dīptam: dīp -> √dīp",
+          "dīpta: dīp -> √dīp",
+          "pravyathita: pravyathay -> √pravyathay",
+          "vindāmi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When beauty or power exceeds the capacity of the witnessing self, is the collapse of dhṛti and śama a failure of the witness or a disclosure of the limit-nature of individuality itself?",
@@ -542,5 +555,6 @@
     "śuddhādvaita": "You have been coasting on competence, managing life from a position of self-sufficiency. Then something — a diagnosis, a loss, a sudden silence — strips that away entirely. Puṣṭi-mārga reads this as Kṛṣṇa's prasāda (grace-gift): the emptying of self-reliance is not punishment but preparation. What feels like collapse is the khaṇḍana (breaking) that makes room for nourishment that could not enter a closed vessel.",
     "bhakti": "A longtime friend reveals something about themselves you had never suspected — a depth, a wound, a capacity for love you had not seen. Your sakhya-bhāva (friendship-feeling) was real but partial; the raudra-rasa (awe) you now feel does not cancel the friendship. It expands it. Śrīdhara's point: bhakti that has never been undone by the beloved's actual totality is still bhakti in training.",
     "advaita-bhakti": "You are giving a presentation and suddenly, mid-sentence, every face in the room is fully present — their attention, their lives, their separate searches converging on what you are saying. Madhusūdana's compound analysis applies: your deha-indriya-sāmarthya (capacity to hold your body and words together) and your manaḥ-prasāda (inner calm) dissolve at the same instant. This is not stage-fright. It is the double disclosure — jñāna (you see what is actually happening) and bhakti (you are undone by the gift of it). Stay in it; the words that come next will be the truest you have ever spoken."
-  }
+  },
+  "primary_meaning": "Seeing you blazing, sky-high, many-colored, with vast mouths open wide and enormous burning eyes, my inner self shakes, O Viṣṇu. I find no steadiness in me, no peace."
 }

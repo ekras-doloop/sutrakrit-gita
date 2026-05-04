@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -424,8 +424,9 @@
         "jayatirtha_11.15"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse. In the Dvaita doctrinal frame, the cosmic form would be understood as a genuine revelation of Viṣṇu-Hari's supremacy: Brahmā, Śiva, the ṛṣis, and the serpent-lords visible within the divine body are all real, eternally distinct (nitya-bhedā) jīvas and īśvaras ranked in a hierarchy of dependence on Hari. The vision confirms that nothing exists independently of Hari — yet all beings retain their individual ontological status as servants (dāsāḥ).",
-      "divergence_note": "No Madhva bhāṣya available for this verse. Rendering is extrapolated from Dvaita school principles; flagged as inferred."
+      "english_rendering": "Arjuna declares: *paśyāmi devāṃs tava deva dehe* — within Kṛṣṇa's divine body he sees all the *deva*s, the massed hosts of *bhūta-viśeṣa* (the various orders of being), *brahmāṇam īśaṃ kamalāsana-stham* (Brahmā the lord seated on the lotus-throne), all the *ṛṣi*s, and the *divyān uragān* (the luminous serpent-beings). In Dvaita *siddhānta*, every figure witnessed here — Brahmā, Śiva, the *ṛṣi*s, the divine serpents — is a *paratantra* *jīva* (eternally dependent individual self), each real and ontologically distinct from Hari by *pañca-bheda* (the five-fold real distinction). Their presence *within* the divine body does not dissolve them into Hari; it discloses the *śarīra* (body) they constitute under His absolute *svatantra* (self-sufficient) sovereignty. *Taratamya* (graded ontological hierarchy) governs the order of naming: Brahmā stands foremost among *paratantra* beings, then the *ṛṣi*s, then the serpent-lords, each occupying a fixed rank in subordination to the one *svatantra* Hari who is their inner ground, sustainer, and controller. The vision does not collapse these distinctions — it makes them luminously visible.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for this verse. Reading voiced directly from Dvaita *siddhānta* primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -587,7 +588,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paśyāmi: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna sees Brahmā 'seated on the lotus' — what does it mean that the creator is himself contained within the body of the one he was created by? Does the cosmic form collapse the hierarchy of creation?",
@@ -605,5 +616,6 @@
     "śuddhādvaita": "Vallabha reads this vision as prasāda — sheer grace-overflow. A practical corollary: when something beautiful or overwhelming presents itself to you today (a landscape, a piece of music, a sudden act of kindness), resist the reflex to analyze or appropriate it. Receive it as Kṛṣṇa's own self-display, offered to you as a gift. The correct response is not commentary but the wordless joy of acceptance — the response Arjuna himself models across these seventeen verses.",
     "bhakti": "Śrīdhara's double reading of kamala-āsana invites a practice of layered seeing: look at any situation and ask, 'What is the cosmological reading (the institutional hierarchy, the structural logic), and what is the devotional reading (who in this situation is seated on whose lotus, who depends on whose generosity)?' Often the devotional geography reverses the institutional one. The most structurally powerful person in the room may be nourished by someone the org-chart puts below them.",
     "advaita-bhakti": "Madhusūdana begins with wonder at his own fortune before describing what he sees. The application: before beginning any significant perception — a meeting, a difficult conversation, a creative project — pause and acknowledge the gift of the capacity to perceive at all. This is not sentiment but a structural move: grounding perception in gratitude (bhāgya-recognition) prevents the ego from claiming the vision as its own achievement, which is the first step toward both jñāna and bhakti."
-  }
+  },
+  "primary_meaning": "Within your body, O God, I see all the gods and every order of being, Brahmā enthroned on his lotus, all the sages, and the luminous serpents."
 }

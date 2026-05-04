@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "bhajati",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -468,7 +468,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhajati: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If knowing Puruṣottama makes one sarva-vid (all-knowing), what precisely is the 'all' that is known — and what remains unknown?",
@@ -486,5 +496,6 @@
     "śuddhādvaita": "Vallabha's path locates the transformation at the moment of recognition: if Kṛṣṇa is truly seen as the beginningless Puruṣottama and not as one option among many spiritual paths, then nothing in daily life remains outside His lila. The practitioner does not 'dedicate' actions one by one but inhabits a world that is already entirely His.",
     "bhakti": "Shridhara's framing makes settled conviction (niścita-mati) the hinge: vague spiritual sympathy produces partial devotion; precise, unambiguous knowing of who is being worshipped produces whole-being service. The practical implication is that clarity of understanding and depth of devotion reinforce each other — studying bhāṣya is itself a devotional act.",
     "advaita-bhakti": "Madhusudan's synthesis means that the encounter with an extraordinary person, text, or moment of beauty need not be routed through the question 'Is this Brahman or Bhagavan?' — both recognitions converge in the act of loving attention. Prema-lakṣaṇa bhakti is the phenomenology of non-dual knowing when it becomes relational."
-  }
+  },
+  "primary_meaning": "Whoever knows me without confusion as the Highest Person truly knows all there is to know and worships me with their whole being, Arjuna."
 }

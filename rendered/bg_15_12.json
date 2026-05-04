@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "gatam",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "bhāsayate",
-      "lemma": "bhāsay",
+      "lemma": "√bhāsay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -325,8 +325,8 @@
         "jayatirtha_15.12"
       ],
       "score": 0.5,
-      "english_rendering": "The light in the sun, moon, and fire that illuminates all the worlds is Hari's own sovereign tejas, displayed to confirm that all cosmic power belongs exclusively and eternally to Him, never to the jiva. Madhva's terse gloss links this verse directly to his earlier framework: the cosmos-lighting power is the concrete expansion (prpancana) of the teaching that Brahman alone is independent, all else utterly dependent.",
-      "divergence_note": "Madhva: 'purvoktam eva jnanam prpancayati — yad adityagatam ity adina' — Madhva folds 15.12-14 into a single confirmation of svabheda (essential distinction); the jiva can never be the source of tejas."
+      "english_rendering": "*Pūrvoktam eva jñānam* (the very knowledge stated before) is here *prapañcayati* (unfolded in detail) — so Madhva opens his reading of *yad āditya-gataṃ* and the verses following. The *tejo* (luminous power) in sun, moon, and fire that illuminates the whole *jagat* is *māmakam* — Hari's own, belonging solely to the *svatantra* Lord. Jayatīrtha presses the question: since Krishna already declared *na tad bhāsayate* (15.6), why continue? The answer: *adhaś ca mūlāny anusantatāni* (15.2) conveyed the knowledge of *sarvāntaryāmi-svarūpa* (the form as inner-controller of all); the superlative *ūrdhva* registered *sarvoттamatva* (the Lord's all-surpassing excellence); and the remainder of the chapter — beginning with *yad āditya-gatam* — *prapañcayati* that same knowledge. The *pañca-bheda* (the five-fold real distinction) is operative throughout: the *jīva* (the individual self) is never the source of cosmic *tejas*, only the *paratantra* (eternally dependent) recipient of what the *svatantra* Hari alone emits.",
+      "divergence_note": "Madhva: *pūrvoktam eva jñānam prapañcayati — yad āditya-gatam ity ādinā* — treating 15.12–14 as a single unfolding of the *sarvāntaryāmi-svarūpa* established earlier; Jayatīrtha specifies that both the inner-controller knowledge (*adhaś ca mūlāny anusantatāni*) and the Lord's *sarvoттamatva* (signaled by *ūrdhva*) are what these verses extend. The *jīva*'s utter *paratantra* with respect to *tejas* confirms *svabheda* (essential distinction) rather than any shared luminosity."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -442,7 +442,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatam: gam -> √gam",
+          "bhāsayate: bhāsay -> √bhāsay",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the light of the sun is Krsna's own tejas, does the act of seeing — every act of perception — count as a form of darsan (sacred encounter with the divine)?",
@@ -460,5 +472,6 @@
     "suddhadvaitа": "Vallabha points out that even the physical dispersal of darkness — the mundane mechanics of light — is Krsna's vibhuti. This means any moment of literal seeing, any morning when the world becomes visible, is Krsna's lila extended into your optic nerve. Train yourself to receive physical light with the same gratitude as you would receive an explicitly spiritual gift.",
     "bhakti": "Sridhara's reading of these four verses as a single demonstration of Isvara's ananta-saktitva (infinite power) gives the bhakta a contemplative practice: when you see sunlight falling on water, or firelight in a dark room, mentally trace it back — not to a star or to combustion chemistry, but to the one whose infinite power underwrites every photon. Let that recognition trigger a moment of surrender.",
     "advaita-bhakti": "Madhusudana holds both halves of the Mundaka verse simultaneously: the supreme abode needs no sun, and yet the sun's light is that very brahman shining. In daily life this translates as: pursue your work and relationships in the world of light and form (the second half), while holding lightly the knowledge that this entire lit world points back to a source that transcends it (the first half). Neither world-denial nor world-addiction — both lit by the same tejas."
-  }
+  },
+  "primary_meaning": "The radiance that lights the whole world through the sun, through the moon, through fire, know that radiance to be Mine."
 }

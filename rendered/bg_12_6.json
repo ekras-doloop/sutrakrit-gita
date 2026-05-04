@@ -280,7 +280,7 @@
     },
     {
       "surface_form": "dhyāyantaḥ",
-      "lemma": "dhyā",
+      "lemma": "√dhyā",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -288,7 +288,7 @@
     },
     {
       "surface_form": "upāsate",
-      "lemma": "upās",
+      "lemma": "√upās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -645,7 +645,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhyāyantaḥ: dhyā -> √dhyā",
+          "upāsate: upās -> √upās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says 'all actions' (sarvani karmani) — does this mean one must literally stop worldly work, or does it mean something is changed in the orientation toward work? What is the difference between cessation and surrender?",
@@ -663,5 +674,6 @@
     "shuddhadvaita": "Vallabha's Vraja-priya path applies practically as: find one act you do purely for love of the divine — not because it earns merit, not because a teacher assigned it. It could be singing a bhajan in the car alone, or sitting quietly before a lamp. That act done with 'sarva-nirapeksha yoga' (expecting nothing from anyone) is anuvrtti — the unbroken thread Vallabha describes. Protect it from being colonized by utility.",
     "bhakti": "Sridhara's word 'anayasa' (effortlessness) is the practical test: if your spiritual practice consistently feels like an exhausting performance, something in the orientation has slipped from bhakti toward achievement. The grace-structure he identifies means the practice should, over time, become lighter not heavier. When it becomes heavy, ask what you are trying to earn rather than receive.",
     "advaita-bhakti": "Madhusudana's visual dhyana list — flute, lotus hands, Narasimha form, Rama form — is a practical instruction: pick one form and stay with it until the mind loses its other footings. The synthesis point for daily life: you do not need to resolve the saguna/nirguna question intellectually before practicing. Prasada (grace) will do the resolution for you, from inside the practice itself, as Madhusudana promises. Start with the form; trust the formless to emerge."
-  }
+  },
+  "primary_meaning": "Those who surrender all their actions to Me, hold Me as their sole aim, and worship Me through undivided devotion meditate on Me with nothing else as their support."
 }

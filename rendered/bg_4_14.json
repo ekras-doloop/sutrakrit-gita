@@ -77,7 +77,7 @@
     },
     {
       "surface_form": "limpanti",
-      "lemma": "lip",
+      "lemma": "√lip",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -216,7 +216,7 @@
     },
     {
       "surface_form": "abhijānāti",
-      "lemma": "abhijñā",
+      "lemma": "abhi-√jñā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -248,7 +248,7 @@
     },
     {
       "surface_form": "badhyate",
-      "lemma": "bandh",
+      "lemma": "√bandh",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -490,27 +490,6 @@
       ]
     },
     {
-      "list": "इति मां योऽभिजानाति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
-      "list": "और मिले",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
-      "list": "कर्मभिर्न स बध्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
       "list": "कर्माणि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -543,27 +522,6 @@
     },
     {
       "list": "चातुर्वर्ण्यम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
-      "list": "तस्य कर्तारमपि मां विद्ध्यकर्तारमव्ययम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
-      "list": "न मां कर्माणि लिम्पन्ति न मे कर्मफले स्पृहा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.13"
-      ]
-    },
-    {
-      "list": "मया सृष्टं गुणकर्मविभागशः",
       "role": "supporting",
       "other_verses_in_list": [
         "4.13"
@@ -633,7 +591,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijānāti: abhijñā -> abhi-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "limpanti: lip -> √lip",
+          "badhyate: bandh -> √bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord is untouched by actions He initiates, what precisely makes karma 'stick' — ego-claim, fruit-craving, or both simultaneously?",
@@ -651,5 +628,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga terms: when you encounter a person or moment that embodies freedom from agenda, let that recognition change you rather than analyze it. Vallabha's 'mad-dharmā bhavati' — the knower becomes what is known — applies to any encounter with graceful, effortless action; let it be instructive rather than merely admirable.",
     "bhakti": "Śrīdhara's 'śaithilya' (loosening) is a practical program: each time you recognize that the Lord acts without ego-claim and without craving, your own grip on outcomes loosens a little. Build the habit of noticing fruit-craving before acting — not to suppress it but to see it clearly — as the first stage of that loosening.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that devotion and self-knowledge reinforce each other. When Kṛṣṇa-bhakti is at its deepest, there is a moment of recognition that the beloved is also the witnessing ātman behind all action. Let devotional practice reach that point of coincidence: the heart's warmth and the mind's clarity arrive at the same object."
-  }
+  },
+  "primary_meaning": "Actions do not cling to Me, and I have no craving for their fruit. Whoever knows Me this way is not bound by what they do."
 }

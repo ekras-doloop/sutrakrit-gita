@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "uparatam",
-      "lemma": "uparam",
+      "lemma": "upa-√ram",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "maṃsyante",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "yāsyasi",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -350,8 +350,9 @@
         "jayatirtha_2.35"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva does not comment on this verse. The Dvaita reading follows the plain sense of the mūla (root text): the mahārathās will condemn Arjuna as one who has fled the battlefield out of fear, and Arjuna — who had stood as an honored adversary — will acquire lāghava (smallness) in their eyes. From a Dvaita standpoint the deeper point is that the jīva (individual soul) eternally dependent on Hari has no sanctioned ground for withdrawal from the role Hari has assigned; Arjuna's inaction is not dharma-restraint but a failure of dāsya (servanthood), and the world's resulting contempt is the natural fruit of that failure.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "The *mahārathāḥ* (great chariot-warriors) — those very ones before whom Arjuna had stood as a figure of honor — will judge him *bhayād raṇād uparataṃ* (withdrawn from battle out of fear). From *bahumata* (high esteem) he descends to *lāghava* (lightness, smallness): the reversal is total and public. For the *paratantra* *jīva* whose station in battle is assigned by *svatantra* Hari, withdrawal without divine sanction is not restraint but a breach of *dāsya* (servanthood). The *pañca-bheda* order is not suspended by sentiment: Arjuna's distinction from Hari, from the other *jīva*s opposing him, and from the material field of battle are all real, and each *bheda* (real distinction) carries binding obligation. The contempt of the *mahārathāḥ* is the natural, *karmically* appropriate fruit of abandoning the role Hari's providential order has placed upon him. *Lāghava* is not merely social dishonor; it names the ontological diminishment that follows when a *paratantra* being acts against the grain of *taratamya* (the graded hierarchy of being) by refusing the subordinate function *bhakti* would have fulfilled.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -422,7 +423,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uparatam: uparam -> upa-√ram",
+          "maṃsyante: man -> √man",
+          "mataḥ: man -> √man",
+          "yāsyasi: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kṛṣṇa argues that the mahārathās will misread Arjuna's grief as cowardice — but does the fact of misreading matter if Arjuna's inner motive is genuinely compassionate? Is social perception of one's dharma morally binding?",
@@ -440,5 +454,6 @@
     "śuddhādvaita": "You may hold a genuinely noble inner reason for not acting — protecting someone, avoiding harm — but if that reason is wrapped in a deeper layer of fear or attachment, the world will see through to the fear and name it. Vallabha's teaching is that Kṛṣṇa uses the world's scorn as prasāda (grace): the discomfort of being misread is not an injustice to protest but a prompt to go deeper, to discover whether the noble motive is in fact standing on an unexamined fear. Let the sting of misrecognition do its corrective work.",
     "bhakti": "Śrīdhara's reading asks you to sit with a simple arithmetic: the people who most honored your competence, your character, your reliability — those exact people will register your withdrawal most acutely. This is not metaphysics; it is the ordinary texture of trust. If you step back from what you are known for, the fall in their regard will be proportional to the height of their previous esteem. The teaching is to take that social reality seriously, not as shame but as information about what has genuinely been entrusted to you.",
     "advaita-bhakti": "Madhusūdana's insight is most useful when you are secretly consoling yourself: perhaps the people who know me well will understand why I am stepping back; perhaps they will credit me with good motives. The verse closes that escape route. The very people who know you best — who have seen your capacities, who hold the highest estimate of what you can do — are precisely the ones who will register the retreat as a falling-short. Use that discomfort not as shame to suppress but as a Kṛṣṇa-sent corrective: your own most trusted witnesses are telling you that you have not yet arrived at the action your nature calls for."
-  }
+  },
+  "primary_meaning": "The great chariot-warriors who once held you in highest regard will say you left the battle out of fear, and all that esteem will turn to contempt."
 }

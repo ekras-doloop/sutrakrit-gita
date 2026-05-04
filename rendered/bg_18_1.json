@@ -1,8 +1,8 @@
 {
   "verse_id": "18.1",
   "mūla": {
-    "devanāgarī": "संन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम् | त्यागस्य च हृषीकेश पृथक्केशिनिषूदन",
-    "iast": "saṃnyāsasya mahābāho tattvamicchāmi veditum | tyāgasya ca hṛṣīkeśa pṛthakkeśiniṣūdana",
+    "devanāgarī": "संन्यासस्य महाबाहो तत्त्वमिच्छामि वेदितुम् | त्यागस्य च हृषीकेश पृथक् केशिनिषूदन",
+    "iast": "saṃnyāsasya mahābāho tattvamicchāmi veditum | tyāgasya ca hṛṣīkeśa pṛthak keśiniṣūdana",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 1",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -391,7 +391,7 @@
         "jayatirtha_18.1"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhasyaon 18.1 is minimal — he offers only a salutation to the Lord of infinite qualities and the declaration that this chapter summarises and concludes all the sadhana taught earlier. The question itself is therefore framed by Dvaita's axiomatic structure: jiva is eternally dependent on Hari, and any renunciation that does not deepen that dependence is incomplete. Sannyasa and tyaga are to be understood within the framework of Hari-seva; their distinction is real, not merely verbal, because in Dvaita no word is synonymous without remainder. [Bhasyatext for 18.1 is sparse; rendering extrapolated from Madhva's stated purpose for the chapter.]"
+      "english_rendering": "Arjuna addresses Kṛṣṇa by three epithets — *mahābāho* (mighty-armed), *hṛṣīkeśa* (lord of the senses), *keśiniṣūdana* (slayer of Keśin) — and asks to know *pṛthak*, separately and distinctly, the *tattva* (true nature) of *saṃnyāsa* and *tyāga*. Madhva opens with a salutation: *anantaguṇapūrṇāya namaḥ* — homage to the one filled with infinite qualities — marking Kṛṣṇa's *svatantra* (independently real, self-sufficient) fullness as the ground of the entire chapter. The bhāṣya then states the chapter's purpose: *pūrvoktaṃ sādhanam sarvaṃ saṅkṣipyopasaṃharatyanenaddhyāyena* — by this chapter, all the *sādhana* (means of attainment) taught previously is gathered up and brought to conclusion. Jayatīrtha glosses *sādhanam* as *jñānasādhanam* — the means of *jñāna* (knowledge) — and forestalls the objection that repeating what has been stated is pointless: *uktasyoktirvyarthety āśaṅkānirāsāya saṅkṣipyopasaṃharatītyuktam*. The compression is not redundancy but summation. Jayatīrtha adds that the chapter also introduces what has not yet been treated: *anuktaṃ traiguṇyaṃ ca vaktītyapi grāhyam* — the doctrine of the three *guṇas* not previously expounded is likewise to be received here. Arjuna's twofold question — the *bheda* (real distinction) between *saṃnyāsa* and *tyāga* — is thus posed at the threshold of a chapter that, for Dvaita, recapitulates the *paratantra* (eternally dependent) *jīva*'s entire course of *sādhana* under the sovereign fullness of *anantaguṇapūrṇa* Hari."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -543,7 +543,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "pṛthakkeśiniṣūdana -> pṛthak keśiniṣūdana"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "पृथक्केशिनिषूदन -> पृथक् केशिनिषूदन"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sannyasa and tyaga are ultimately the same reality with different names, what does the tradition gain by preserving both words — what does each term protect that the other cannot?",
@@ -561,5 +579,6 @@
     "śuddhādvaita": "Vallabha's reading that even asking is a form of surrender applies when you feel the gap between your theoretical understanding and your lived practice. Rather than resolving the gap by forcing an answer, let the question itself be the form your dependence takes — bring it to the source without demanding it be answered on your timeline. The inquiry held openly is already a practice.",
     "bhakti": "Sridhara resolves the apparent contradiction in prior teaching by appealing to the character of the teacher: an omniscient and compassionate instructor cannot contradict himself, so the apparent conflict is a sign that precision is needed, not that the teaching is flawed. Apply this when two trusted sources in your own learning appear to conflict — assume the conflict is in your reading before assuming it is in the sources.",
     "advaita-bhakti": "Madhusudhana's three-tier classification of renunciation suggests a diagnostic tool: when you renounce something, ask which register you are operating in — have you understood the nature of the thing you are renouncing (post-jnana), are you renouncing in order to understand (jijnasa-driven), or are you simply managing your relationship to action without either? The quality of the renunciation, and its risks of becoming merely tamasic or rajasic, depend on that honest assessment."
-  }
+  },
+  "primary_meaning": "Arjuna asks: Tell me truly, great-armed lord, what renunciation and relinquishment each really are and how the two differ."
 }

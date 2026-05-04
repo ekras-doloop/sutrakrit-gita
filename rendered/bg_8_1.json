@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "proktam",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -380,21 +380,7 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अधिदैवं किमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.2"
-      ]
-    },
-    {
       "list": "अधिभूतं च किं प्रोक्तम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.2"
-      ]
-    },
-    {
-      "list": "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्",
       "role": "supporting",
       "other_verses_in_list": [
         "8.2"
@@ -462,13 +448,6 @@
       ]
     },
     {
-      "list": "पुरुषोत्तम किं तद्ब्रह्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.2"
-      ]
-    },
-    {
       "list": "ब्रह्म",
       "role": "supporting",
       "other_verses_in_list": [
@@ -519,13 +498,6 @@
         "18.53",
         "18.54"
       ]
-    },
-    {
-      "list": "मधुसूदन प्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.2"
-      ]
     }
   ],
   "audit_trail": {
@@ -555,7 +527,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktam: pravac -> pra-√vac",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the chapter open with seven questions rather than one? What does the structure of Arjuna's inquiry reveal about how the Gītā treats the relationship between brahma-jijñāsā (inquiry into Brahman) and practical soteriological action?",
@@ -573,5 +556,6 @@
     "śuddhādvaita": "Approach expertise or grace with acknowledged limitation: 'this is for the wise, not for me as I currently stand.' The sandehā (honest doubt) that Vallabha locates in Arjuna is not weakness — it is the posture that makes genuine learning possible rather than confirming what you already think.",
     "bhakti": "When a teacher plants seeds in a previous session, write them down and return with specific questions. Arjuna's seven questions are the fruit of attentive listening; the disciple's job is to harvest the open ends and bring them back formed.",
     "advaita-bhakti": "When asking a question of someone genuinely more capable than you, name their competence in the address itself ('you who knows this fully') — not as flattery but as a clarifying act that frames the conversation correctly and signals you are prepared to receive a non-partial answer."
-  }
+  },
+  "primary_meaning": "Arjuna asks: what is Brahman, what is *adhyātma*, what is karma, O Puruṣottama, and what are called *adhibhūta* and *adhidaiva*?"
 }

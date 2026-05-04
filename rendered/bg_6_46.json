@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -240,7 +240,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -556,7 +556,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mataḥ: man -> √man",
+          "bhava: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If yoga surpasses tapas, jñāna, and karma severally, does this mean a practitioner need not cultivate the other three at all — or does the verse imply an integrated ascent where yoga subsumes and fulfills them?",
@@ -574,5 +585,6 @@
     "śuddhādvaita": "Vallabha's yoga-as-mano-nirodha-for-prasāda suggests a practical rule: when agitation is high, stop adding more sādhana (reading, chanting, fasting) and instead create emptiness — sit quietly, offer the restless mind to Vāsudeva, and wait. This is the Puṣṭi discipline of receptivity: less self-effort, more inner clearing, so the grace that is always pouring can actually land.",
     "bhakti": "Use Śrīdhara's abhimataḥ (universally esteemed) framing as a reality-check against sectarian pride: the yogī's superiority is not a tribal victory for any one path. If your practice makes you compare yourself favorably to those doing tapas or study or ritual, the practice is feeding ego rather than dissolving it. The practical application is humility audit: regularly note what other practitioners are doing well that you are not.",
     "advaita-bhakti": "Madhusūdana's three-fold completion (tattva-jñāna + mano-nāśa + vāsanā-kṣaya) maps to a practical weekly check: (1) Is my intellectual understanding of non-duality sharpening or stagnating? (2) Is the reactive chattering of the mind getting quieter over time? (3) Are the habitual grooves (vāsanā) that drive reactive behavior actually loosening — or just being suppressed? All three must move together; progress in only one is incomplete yoga."
-  }
+  },
+  "primary_meaning": "The yogī stands above the ascetic, the scholar, and the ritual performer alike, so become a yogī, Arjuna."
 }

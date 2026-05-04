@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "avāpnoti",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "utkrāmati",
-      "lemma": "utkram",
+      "lemma": "ut-√kram",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "saṃyāti",
-      "lemma": "saṃyā",
+      "lemma": "saṃ-√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -412,7 +412,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avāpnoti: avāp -> √avāp",
+          "utkrāmati: utkram -> ut-√kram",
+          "saṃyāti: saṃyā -> saṃ-√yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the jiva carries its senses from life to life as wind carries fragrance, what does this imply about habits, sensory tendencies, and fears that feel inexplicably deep-rooted — are they cargo from a prior body-context?",
@@ -430,5 +442,6 @@
     "shuddhadvaita": "In Pushti-marga the soul's movement through circumstances is Krishna's lila unfolding. When your life takes an unexpected turn, the practice is not resignation but wonder: which strand of the divine play is being woven here, and how can your response be an act of prasada-reception rather than resistance?",
     "bhakti": "Sridhara's 'subtle portions' image invites a simple daily audit: what subtle residue am I carrying from yesterday's interactions into today? The wind does not carry the whole flower — only its finest signature. Identify the finest signature of your best day and consciously carry that forward; leave the gross debris behind.",
     "advaita-bhakti": "Madhusudana's point about samyaati as 'going without return to the prior state' is a practical prompt for transitions: some moves are genuinely irreversible and pretending otherwise keeps one foot in the old house. Identify one current transition in your life that deserves the dignity of real finality — grieve it fully, carry only the subtle, and step forward without the fiction of returning."
-  }
+  },
+  "primary_meaning": "When the soul takes on a new body or leaves an old one, it carries the mind and five senses along with it, the way wind lifts a fragrance from the place where it rests."
 }

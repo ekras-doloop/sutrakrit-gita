@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -594,7 +594,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If a person is constituted by their faith ('shraddha-mayo ayam purusah'), can faith itself be voluntarily changed, or does change require first changing the antahkarana — and what does that imply for the efficacy of exhortation alone?",
@@ -612,5 +622,6 @@
     "shuddhadvaita": "Vallabha's reading licenses radical self-acceptance as a starting point: your faith, however impure it looks, is the vessel Krsna has given you. The Pusti-marga practitioner does not fight the antahkarana but offers its exact contents — desires, attachments, mixed motives — to Krsna as the material of relationship, trusting that prasada will refine what effort cannot.",
     "bhakti": "Sridhara's practical implication is specific: systematic study of shastra is not merely intellectual enrichment — it is the mechanism by which viveka re-tips the guna balance toward sattva and stabilizes faith. For a working person this means treating even twenty minutes of daily scriptural reflection as a direct intervention in the quality of their faith, not as optional enrichment.",
     "advaita-bhakti": "Madhusudana's two-cause analysis is actionable: you cannot directly alter the vasanas from prior lives, but you can work on the antahkarana through shastric discipline right now. The advaita-bhakti synthesis means this disciplining is not merely ethical or cognitive — it is saturated with Krsna-orientation, so the antahkarana is refined by both jnana and bhava (contemplative feeling), each reinforcing the other."
-  }
+  },
+  "primary_meaning": "A person's faith takes the shape of their own inner nature; each person is made of their faith, and whatever they put their faith in, that is what they are."
 }

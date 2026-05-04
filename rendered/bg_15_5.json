@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "jita",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "vinivṛtta",
-      "lemma": "vinivṛt",
+      "lemma": "vi-√nivṛt",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "vimuktāḥ",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -496,7 +496,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jita: ji -> √ji",
+          "vinivṛtta: vinivṛt -> vi-√nivṛt",
+          "vimuktāḥ: vimuc -> vi-√muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse gives five qualifications in a single compound — are they sequential stages or simultaneous marks, and does the answer differ across schools?",
@@ -514,5 +526,6 @@
     "śuddhādvaita": "Vallabha's Pushti-marga reframes the removal of kama (desire) not as suppression but as replacement: when a desire arises, the practice is to ask whether this desire is for Krishna's delight or for one's own, and to redirect the energy rather than extinguish it.",
     "bhakti": "Sridhara names the sanga-dosa specifically as attachment to sons and kin — the relational grip, not abstract desire: the everyday application is to serve your family with full presence while holding the relationship lightly, neither fleeing it nor being swallowed by it.",
     "advaita-bhakti": "Madhusudana's reading of jita-sanga-dosha as freedom from raga-dvesha even within contact — not withdrawal from contact — is the mature synthesis: the practice is to remain fully engaged in work and relationship while the internal polling mechanism (attracted / repelled?) is switched off."
-  }
+  },
+  "primary_meaning": "Free from pride and delusion, their grip on attachment broken, rooted in self-knowledge, desires spent, and the pull of pleasure and pain stilled, the clear-eyed reach that imperishable state."
 }

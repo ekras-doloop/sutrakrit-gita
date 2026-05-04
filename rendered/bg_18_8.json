@@ -1,8 +1,8 @@
 {
   "verse_id": "18.8",
   "mūla": {
-    "devanāgarī": "दुःखमित्येव यत्कर्म कायक्लेशभयात्त्यजेत् | स कृत्वा राजसं त्यागं नैव त्यागफलं लभेत्",
-    "iast": "duḥkhamityeva yatkarma kāyakleśabhayāttyajet | sa kṛtvā rājasaṃ tyāgaṃ naiva tyāgaphalaṃ labhet",
+    "devanāgarī": "दुःखमित्येव यत्कर्म कायक्लेशभयात् त्यजेत् | स कृत्वा राजसं त्यागं नैव त्यागफलं लभेत्",
+    "iast": "duḥkhamityeva yatkarma kāyakleśabhayāt tyajet | sa kṛtvā rājasaṃ tyāgaṃ naiva tyāgaphalaṃ labhet",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 8",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "tyajet",
-      "lemma": "tyaj",
+      "lemma": "√tyaj",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -256,7 +256,7 @@
     },
     {
       "surface_form": "labhet",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -415,7 +415,8 @@
         "jayatirtha_18.8"
       ],
       "score": 0.5,
-      "english_rendering": "The Madhva bhashya for this verse is absent from the panel (the payload records: 'Sri Madhvacharya did not comment on this sloka'). Drawing on the broader Dvaita framework: Madhva consistently holds that prescribed action (niyata-karma) is Hari-seva, service to the Supreme Independent Lord (Svantantra-Brahman). To abandon such service out of personal discomfort is to privilege the jiva's own preference over the Lord's ordinance — a form of rajasic self-assertion incompatible with the jiva's essential dependence (paratantrya). Such abandonment cannot yield liberation, which is always a gift of Hari's anugraha, never earned by avoidance."
+      "english_rendering": "*Duḥkhamityeva* — 'it is painful, therefore I abandon it': this is the rājasa *tyāga* (renunciation of the rajasic kind), and it yields no *tyāga-phala* whatsoever. The *jīva* (individual self), being *paratantra* (eternally dependent), holds no autonomous claim over the pain-pleasure calculus; prescribed action (*niyata-karma*) is *Hari-sevā*, service to *Hari* as the sole *svatantra* (independently real, self-sufficient) Lord, and the *jīva*'s bodily discomfort (*kāyakleśa*) is simply not a valid ground for its suspension. To abandon such action out of fear of *kāyakleśa* is to substitute the *jīva*'s own preference for the Lord's ordinance — a rajasic self-assertion that inverts the proper order of *bheda* (real distinction) between the dependent self and the Supreme. *Naiva tyāga-phalaṃ labhet*: the fruit of true renunciation — which, in Dvaita *siddhānta*, is liberation received as *Hari*'s *anugraha* (grace), never seized by mere avoidance — remains wholly out of reach for one who renounces in this mode. The *pañca-bheda* (the five-fold real distinction) stands: no conflation of the *jīva*'s discomfort with a genuine *Hari*-ordained ground of release can produce the *mokṣa* that only *Hari*'s will bestows.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,7 +447,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -504,7 +505,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "kāyakleśabhayāttyajet -> kāyakleśabhayāt tyajet"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "कायक्लेशभयात्त्यजेत् -> कायक्लेशभयात् त्यजेत्"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tyajet: tyaj -> √tyaj",
+          "labhet: labh -> √labh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes a legitimate pause from a rajasic retreat — how do I know whether I am setting down a burden wisely or simply fleeing discomfort?",
@@ -522,5 +550,6 @@
     "śuddhādvaita": "Vallabha's Pushti-marga application: do not abandon your assigned seva to Krishna — whether that is a daily puja, a community commitment, or a family role — because the logistics are expensive or tiring. The effort is part of the offering. Rajasic renunciation mistakes the vessel for the weight and sets it down before the destination.",
     "bhakti": "Sridhara's key: check whether your stepping back from a duty carries the understanding 'I am not ultimately the doer of this' or whether it carries only the thought 'this is too painful.' The first is potentially sattvic; the second is definitionally rajasic. The daily practice is to notice which internal voice is speaking before you act on it.",
     "advaita-bhakti": "Madhusudana's contribution to everyday life: intellectual clarity about one's path does not by itself grant the right to stop. A person can understand the theory of non-attachment perfectly and still be unripe — still needing the friction of practice to purify the antahkarana (inner instrument). Stopping because it is painful, even with a clear philosophical view, is still rajasic if the inner purification is incomplete."
-  }
+  },
+  "primary_meaning": "Whoever quits a duty just because it hurts, fearing the bodily strain, performs only rajasic renunciation and gains none of its fruit."
 }

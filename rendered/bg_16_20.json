@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "āpannāḥ",
-      "lemma": "āpad",
+      "lemma": "√āpad",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "mūḍhāḥ",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -351,8 +351,9 @@
         "jayatirtha_16.20"
       ],
       "score": 0.5,
-      "english_rendering": "Souls who have entered the demonic order of existence are those in whom the eternal distinction between jiva and Hari has been most thoroughly obscured. Born in such wombs birth after birth, they move progressively away from Hari — the only refuge — never obtaining His grace, and descend to the lowest possible states. The demonic jiva's trajectory is not temporary confusion but a structural expression of the soul's orientation away from dependence on Hari.",
-      "divergence_note": "NOTE: Madhva's commentary on this specific verse is absent from the payload ('Sri Madhvacharya did not comment on this sloka'). This rendering extrapolates from Dvaita first principles — jiva-Brahman eternal distinction, Hari as sole upaya, the reality of gradations of samsara — and should not be cited as Madhva's direct words."
+      "english_rendering": "*Mūḍhā* (the deluded) — *jīvas* (individual selves) who, by their own *paratantra* (eternally dependent) nature turned relentlessly against *svatantra* Hari — take *āsurīṃ yonim* (demonic birth) *janmani janmani*, birth upon birth. *Mām aprāpyaiva*: without ever reaching Hari, who alone is the *upāya* (means) and the *upeya* (end), they descend to *adhamāṃ gatim*, the lowest station in the *taratamya* (graded ontological hierarchy) of *saṃsāra*. *Bheda* (real distinction) between *jīva* and Hari is not obscured here — it is enacted in its most degraded mode: the *paratantra* soul, refusing subordination to Hari, falls ever lower through successive births rather than ascending toward *bhakti* as ontological subordination. The descent is real, not apparent; *adhamāṃ gatim* names an actual position in the ordered gradation of existence, not a provisional ignorance to be dissolved.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha on this verse; the reading is voiced directly from dvaita *siddhānta*: *pañca-bheda*, *taratamya*, Hari as sole *svatantra*, and *bhakti* as the only ascent.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -460,7 +461,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āpannāḥ: āpad -> √āpad",
+          "mūḍhāḥ: muh -> √muh",
+          "yānti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the demonic trajectory is strictly descending with no reversal — as Madhusudhana insists — what does that imply about the irreversibility of habituated patterns of selfishness, cruelty, and self-deception in a single lifetime?",
@@ -478,5 +491,6 @@
     "shuddhadvaita": "Vallabha's point is terrifyingly specific: they cannot even see Krishna, let alone reach Him. In daily life: there are states of consciousness in which you genuinely cannot perceive the beauty, grace, or goodness that is present. This is not about intellectual disagreement — it is about the organ of perception being closed. The Pushti-marga answer is that grace (pushti) must open what effort alone cannot. Actively seek the company (satsanga) and practices that keep the channel of perception open.",
     "bhakti": "Sridhara's 'krmikitadi-yoni' (worm and insect births) is not only cosmic — it describes what happens to consciousness that loses its capacity for relationship, beauty, and reflection. In human terms: a person who has become purely reactive, purely mechanical, purely self-referential has undergone this transformation within a single lifetime. The warning is: do not wait for a future birth to take the virtuous path. The path is the means; missing the means forecloses the goal.",
     "advaita-bhakti": "Madhusudhana's urgency verse is the most practical line in this entire section: 'One who does not treat the disease of hell while here — having gone to the place without medicine, what will the sick one do?' The human birth is the window of treatability. This applies directly: the psychological and spiritual work that is possible now, in conditions of relative clarity and freedom, may not be possible later — under greater suffering, greater rigidity, lesser capacity. Do the work now, with great effort, while you can."
-  }
+  },
+  "primary_meaning": "Birth after birth, these deluded souls take demonic wombs and, never reaching Me, sink to ever lower states."
 }

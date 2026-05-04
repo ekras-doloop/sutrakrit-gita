@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -405,7 +405,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa list himself as Viṣṇu — one of twelve Ādityas — rather than as the sun itself, which is more universally prominent?",
@@ -423,5 +433,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga teaching: every time you encounter something of surpassing beauty — a dawn sky, a piece of music that stops you — receive it as prasāda (grace-gift), not as a fortunate accident. The cascade of cosmic high-points in this verse is Kṛṣṇa offering himself to be seen in the world's most luminous moments.",
     "bhakti": "Śrīdhara notes that even the Vāmana avatāra is listed here for meditation purposes, not for its theological primacy. This teaches a practical discipline: choose the form of the divine that is most accessible to you right now and meditate on it fully, even if it is not the 'highest' form. Completeness of attention matters more than hierarchy of object.",
     "advaita-bhakti": "Madhusūdana's framing is permission: if abstract contemplation of Brahman is too far, start with the most radiant thing you can find — sunlight through a window, the full moon, a fire. These are not approximations to be outgrown but Kṛṣṇa's own self, given as a staircase (bāhyāni dhyānāni) for exactly the stage you are at."
-  }
+  },
+  "primary_meaning": "Among the Adityas I am Vishnu; among lights, the radiant sun; among the Maruts, Marichi; among the constellations, the moon."
 }

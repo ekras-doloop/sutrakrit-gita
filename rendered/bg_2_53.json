@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "vipratipannā",
-      "lemma": "vipratipad",
+      "lemma": "√vipratipad",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "sthāsyati",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "avāpsyasyi",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -431,13 +431,6 @@
       ]
     },
     {
-      "list": "तदा योगमवाप्स्यसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48"
-      ]
-    },
-    {
       "list": "बुद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -547,7 +540,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vipratipannā: vipratipad -> √vipratipad",
+          "sthāsyati: sthā -> √sthā",
+          "avāpsyasyi: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse pairs niścalā and acalā as distinct qualifiers of buddhi — what is the precise phenomenological difference between distraction-movement (vikṣepa) and subtler oscillation (vikalpa/laya), and why does reaching samādhi require both to be stilled?",
@@ -565,5 +570,6 @@
     "śuddhādvaita": "Vallabha's reading locates the daily practice in what might be called prasāda-receptivity: instead of engineering stillness through technique, the practitioner cultivates readiness to receive Kṛṣṇa's grace by progressively reducing the seeking-activity that blocks it. Practically this means ending any sustained effort — a creative project, a difficult conversation, a period of prayer — by explicitly releasing the outcome back to Kṛṣṇa rather than reviewing it for adequacy. Viśoka-dhairya (the composure beyond grief) is not achieved; it descends when self-assessment ceases.",
     "bhakti": "Śrīdhara's double criterion — niścalā (free from distraction-spread) and acalā (free from laya-drift) — gives a concrete diagnostic for meditation and devotional practice: after a period of japa (repetition) or pāṭha (recitation), ask not only 'was I distracted?' but also 'did I drift into mechanical inertness?' Both are failures; the first is too much outer movement, the second too much inner subsidence. The daily sādhana (practice) is calibrated when neither vikṣepa nor laya dominates — when Parameśvara remains present as a living object of attention, not as a habit-groove.",
     "advaita-bhakti": "Madhusūdana's lamp image is directly usable as a body-awareness anchor: before beginning work, notice the quality of attention — is it flickering (vikṣepa, too much input-seeking), or guttering low (laya, too little engagement)? The nirāta-pradīpa state is a felt middle — alert, steady, not effortful. This can be cultivated through the explicit naming of both enemies: before sitting down, ask 'what is the main distraction-pull today?' (a worry, an unfinished message) and separately 'what is the main laya-risk today?' (under-slept, overfed, emotionally flat). Naming both leaves the flame burning steadily — which Madhusūdana equates with being stationed in Paramātman without dissolving into inertness."
-  }
+  },
+  "primary_meaning": "When your intellect, once pulled every direction by scripture's competing promises, grows still and settles unshaken into meditation, you will have attained yoga."
 }

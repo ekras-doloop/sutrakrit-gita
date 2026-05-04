@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "jāne",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -213,7 +213,7 @@
     },
     {
       "surface_form": "labhe",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -262,7 +262,7 @@
     },
     {
       "surface_form": "prasīda",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -552,13 +552,6 @@
         "11.37",
         "11.45"
       ]
-    },
-    {
-      "list": "प्रसीद देवेश जगन्निवास",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.45"
-      ]
     }
   ],
   "audit_trail": {
@@ -588,7 +581,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jāne: jñā -> √jñā",
+          "labhe: labh -> √labh",
+          "prasīda: prasad -> pra-√sad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between being disoriented by something terrible and being disoriented by something overwhelmingly real — and which is happening to Arjuna here?",
@@ -605,5 +610,6 @@
     "śuddhādvaita": "Vallabha's lila-lens reads terror as the stripping of false supports so that only Krsna-love remains. The everyday application: when everything you were relying on — reputation, health, a relationship, a plan — is removed, the Pustimarga practitioner is trained to notice what is still present after the removal. That residue of orientation toward the Beloved, however faint, is what the overwhelming experience was clearing space for.",
     "bhakti": "Sridhara's brevity here teaches something practical: in states of bhaya-avesa (fear-possession), elaborate analysis is not available and is not needed. The bhakta's resource is the reflex — 'prasida,' 'be gracious to me' — directed at whatever is ultimate for that person. Building that reflex in calm times (through japa, prayer, practice) is what makes it available when orientation collapses.",
     "advaita-bhakti": "Madhusudana's observation that even the beloved's form can temporarily block its own joy points to a mature devotional reality: there are moments when the very depth of your love or awe becomes inaccessible to you, blocked by the overwhelming scale of what you love. The practice is not to force the joy but to do exactly what Arjuna does — name the blockage honestly ('I cannot find comfort even in your presence') and ask the relationship itself to restore what the relationship has disrupted."
-  }
+  },
+  "primary_meaning": "Your fang-filled mouths blaze like the fire of dissolution, and at the sight of them I lose all sense of direction and find no comfort. Be gracious, Lord of gods, abode of the world."
 }

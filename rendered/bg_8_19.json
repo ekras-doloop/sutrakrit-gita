@@ -127,7 +127,7 @@
     },
     {
       "surface_form": "pralīyate",
-      "lemma": "pralī",
+      "lemma": "pra-√lī",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -209,7 +209,7 @@
     },
     {
       "surface_form": "prabhavati",
-      "lemma": "prabhū",
+      "lemma": "pra-√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -476,13 +476,6 @@
         "16.9",
         "18.41"
       ]
-    },
-    {
-      "list": "भूतग्रामः स एवायम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.3"
-      ]
     }
   ],
   "audit_trail": {
@@ -512,7 +505,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pralīyate: pralī -> pra-√lī",
+          "prabhavati: prabhū -> pra-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same beings re-arise in each cycle with the same names and forms, what does 'individual identity' actually mean across lives — is the karmic continuant the same self, or merely a recurrent pattern?",
@@ -530,5 +534,6 @@
     "śuddhādvaita": "Vallabha's key distinction — the avśaḥ (karma-bound) versus the mukta (grace-freed) — applies to moments within a single day. Notice when you are acting from habit-momentum (avśatā) versus from genuine receptivity to what the moment is asking. The Puṣṭi-mārga application is not effortful striving but opening: at least once today, pause before a habitual reaction and ask whether this is the same formation arising again. That gap of recognition is where prasāda enters.",
     "bhakti": "Śrīdhara reads the verse as a vairāgya-generator — a tool to produce dispassion precisely by seeing the continuity of the stream. The everyday application is journalling or contemplative review: list three areas where you have exerted great effort over the past year. Now ask honestly: are these genuinely new developments, or is the same pattern arising again? Śrīdhara's 'nānya iti' (it is not another) is a question for your own narrative — the recognition that you are in a stream, not in a linear story, is the beginning of devotion rather than mere strategic self-improvement.",
     "advaita-bhakti": "Madhusūdana pairs precise metaphysics with emotional urgency. The application: when you feel caught in repetitive suffering — the same argument, the same self-doubt, the same disappointment — do not rush to fix the surface instance. Instead, let the recognition of the pattern produce what Madhusūdana calls vairāgyotpatti (the arising of dispassion). Then, from that dispassion, turn deliberately toward bhakti rather than toward the next strategy. The cycle is real; strategy alone will not end it; love for Bhagavān is what changes the orientation rather than merely the contents."
-  }
+  },
+  "primary_meaning": "The same host of beings arises again and again, then dissolves at nightfall without any will of its own, only to emerge once more at dawn."
 }

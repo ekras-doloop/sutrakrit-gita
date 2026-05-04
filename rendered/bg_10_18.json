@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "kathaya",
-      "lemma": "kathay",
+      "lemma": "√kathay",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "śṛṇvataḥ",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -426,7 +426,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kathaya: kathay -> √kathay",
+          "śṛṇvataḥ: śru -> √śru",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between tṛpti (satiation) and tṛṣṇā (craving) when both leave the listener wanting more — and which one characterizes Arjuna's state here?",
@@ -444,5 +456,6 @@
     "śuddhādvaita": "Vallabha's reading: you have been made into a meditator by what you love, not by your own effort. If you find yourself returning again and again to a question, a practice, a creative problem — take it as a sign that the love constituted you for this, not that you are being compulsive. The asking is already the answer's first movement.",
     "bhakti": "Śrīdhara's practical gift: for a distracted mind, vibhūti-lists are not doctrine — they are anchors. When the mind skitters across surfaces during the day, name the Kṛṣṇa-quality in what you see: the excellence in a craftsman's hand, the patience in a teacher's repeat, the abundance in a kitchen. Each naming is a micro-return to tac-cintā.",
     "advaita-bhakti": "Madhusūdana identifies a rhetorical sleight: 'his speech is amṛta' is not a simile but an identity. Test this in your own practice: choose one sentence from a text or teacher you trust deeply, and for one week treat it not as instruction but as sustenance — as something you actually ingest, not merely note. Track whether the relationship to the sentence changes."
-  }
+  },
+  "primary_meaning": "Tell me more, Janārdana, tell me again at length about your yoga and your glory, for I cannot get enough of this nectar you pour."
 }

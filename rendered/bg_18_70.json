@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "adhyeṣyate",
-      "lemma": "adhī",
+      "lemma": "√adhī",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "iṣṭaḥ",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "syām",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -519,7 +519,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhyeṣyate: adhī -> √adhī",
+          "iṣṭaḥ: yaj -> √yaj",
+          "syām: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If mere recitation without comprehension constitutes worship, what does this imply about the relationship between intention and efficacy in Indic ritual theory — is understanding a prerequisite for transformation, or is the text itself the transformative agent?",
@@ -537,5 +549,6 @@
     "suddhadvata": "If you cannot read Sanskrit, cannot grasp philosophy, cannot sit still for long — recite a single verse aloud anyway. Vallabha's point is that the text operates like a name: even clumsy, partial, distracted utterance places you inside Kṛṣṇa's lila. Start there.",
     "bhakti": "When you read or chant the Gita and feel you are not 'getting it,' Sridhara's answer is: Kṛṣṇa is listening and considers himself invoked. The recitation is not for your comprehension — it is a signal sent to him. Trust the signal even when you cannot decode its content.",
     "advaita-bhakti": "Madhusudana's two-tier framework suggests a practical sequence: begin with daily japa of the Gita (even a chapter), then — when the schedule permits — slow down and reflect on meaning. The first purifies; the second liberates. Neither invalidates the other; both are already aimed at the same destination."
-  }
+  },
+  "primary_meaning": "Anyone who studies this dharmic dialogue between us worships me through the sacrifice of knowledge, Krishna says."
 }

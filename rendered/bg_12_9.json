@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "śaknoṣi",
-      "lemma": "śak",
+      "lemma": "√śak",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -311,9 +311,10 @@
         "jayatirtha_12.9"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya did not compose a surviving commentary on this verse. From the Dvaita framework as a whole: the jiva (individual self) is eternally and irreducibly distinct from Hari; 'abhyasa-yoga' is therefore the discipline of the dependent worshipper (paratantra jiva) who, lacking the capacity for direct nidhidhyasana on Vishnu's form, turns repeatedly toward Hari with the understanding that even the effort to remember is itself Hari's grace. The instruction 'desire to attain me' (mam aptum iccha) implies that desire itself is a gift, not a self-generated act.",
-      "divergence_note": "[ABSENT — Madhvacarya did not comment on this sloka per payload; rendering inferred from Dvaita siddhanta]",
-      "commentator": "Madhvacarya"
+      "english_rendering": "*Atha* (now, if) the *citta* (mind) cannot be fixed steadily in Hari — *na śaknoṣi mayi sthiram* — Kṛṣṇa does not abandon the *paratantra* (eternally dependent) *jīva* (the individual self) to incapacity. He prescribes *abhyāsa-yoga* (the discipline of repeated turning): repeated intentional movement of mind toward Hari, done again and again until steadiness accrues. The *pañca-bheda* (the five-fold real distinction) between Lord and *jīva* remains intact throughout — *abhyāsa* does not dissolve the worshipper into the worshipped but trains the dependent self to hold its gaze on *svatantra* (the independently real, self-sufficient) Hari with increasing constancy. *Icchāptuṃ mām* — the very desire to attain Hari — is itself a mode of *bhakti* (devotion), and since even this desire arises only by Hari's grace within the *taratamya* (graded ontological hierarchy), the aspirant who cannot yet achieve direct concentration is not cut off: desiring attainment is itself the first real arrival of the Lord's pull on the *jīva*.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for this verse; the reading is voiced from Dvaita *siddhānta* applied directly to the *mūla*.",
+      "commentator": "Madhvacarya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -437,7 +438,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śaknoṣi: śak -> √śak"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between 'not being able to fix the mind' as a spiritual incapacity and 'not yet having developed the capacity' — and does that distinction change how a practitioner should approach this verse?",
@@ -455,5 +466,6 @@
     "śuddhādvaita": "In Pushti-marga, if you cannot hold Shri Krishna's form in the heart during smarana, you turn to the bahya (external) form — the svarupa (deity form) in the haveli, the seva schedule, the raga of the kirtan. The body, the eye, the ear do the abhyasa when the interior eye is clouded. Grace works through the physical practice until interior vision opens.",
     "bhakti": "Sridhara's pastoral counsel applies directly to any person whose mind scatters from devotion under the pressures of daily life: at any moment you notice the mind has wandered from the Lord, simply bring it back — no self-accusation, no extended analysis of why it wandered. The quality of the practice is in the patience of the retrieval, not the duration of the stay.",
     "advaita-bhakti": "Madhusudana's warrior-image is practically useful for anyone engaged in demanding professional or creative work: the same concentrated energy used to accomplish difficult external tasks (winning arguments, completing projects, managing complexity) can be turned inward. The 'wealth' sought in interior practice is insight (tattva-jnana); the 'enemy' is the habitual movement of mind away from its own ground. Valor in the world and valor in practice are the same faculty aimed differently."
-  }
+  },
+  "primary_meaning": "If you cannot fix your mind on me and hold it there, use the discipline of repeated practice to reach me, Dhanañjaya."
 }

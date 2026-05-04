@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "pavatām",
-      "lemma": "pū",
+      "lemma": "√pū",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -52,7 +52,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -152,7 +152,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -445,7 +445,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pavatām: pū -> √pū",
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa pair wind (a purifier) with a warrior hero (Rāma) and a river (Gaṅgā) — what common structural feature do these three share across their respective domains?",
@@ -463,5 +476,6 @@
     "śuddhādvaita": "Distinguish between forms that are vibhūti (partial manifestation, suitable for enumeration) and forms that are pūrṇa (the whole itself, not reducible to a list item). In daily life this means: do not put the fully present person in a category — meet them as complete. Reserve categorical thinking for domains where it genuinely applies.",
     "bhakti": "Hold open the double-reading (yad vā) as a practice: when you encounter a verse, a person, or a situation that admits two coherent interpretations, resist the rush to closure. Śrīdhara's 'or alternatively' is a spiritual posture — stay in the space of unresolved polysemy long enough to see what each reading reveals.",
     "advaita-bhakti": "Use the great exemplars in your field the way Madhusūdana uses Rāma — as contemplative access-points into the deeper reality, not as personalities to emulate literally. The programmer who sees elegance in a senior colleague's code and follows that thread toward the underlying principle of elegant thought is doing this practice."
-  }
+  },
+  "primary_meaning": "Among purifiers I am wind, among warriors I am Rāma, among sea-creatures I am the *makara*, and among rivers I am the Gaṅgā."
 }

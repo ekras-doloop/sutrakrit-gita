@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "āste",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -158,7 +158,7 @@
     },
     {
       "surface_form": "smaran",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "surface_form": "vimūḍha",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -248,7 +248,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -468,17 +468,6 @@
       ]
     },
     {
-      "list": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.5",
-        "4.16",
-        "4.32",
-        "5.13",
-        "18.15"
-      ]
-    },
-    {
       "list": "संयम्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -516,7 +505,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āste: ās -> √ās",
+          "smaran: smṛ -> √smṛ",
+          "vimūḍha: vimuh -> vi-√muh",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the mind cannot be stilled by outer restraint alone, what is the first inner act that must precede meaningful renunciation?",
@@ -534,5 +536,6 @@
     "śuddhādvaita": "You stop checking social media but spend the same hour thinking about what you are missing. Vallabha: the abstention is vyartha (wasted) because the mental engagement continues. The mārga here is not suppression but redirection — give the mind something it can genuinely delight in, so the craving finds a real object rather than a prohibited one.",
     "bhakti": "You post about your meditation practice while your meditation itself has become a performance for an imagined audience. Śrīdhara names this kapata-ācāra — practice conducted under a pretense (chala). The corrective is to ask: is this sitting for bhagavad-dhyāna or for the image of bhagavad-dhyāna? The answer is felt, not argued.",
     "advaita-bhakti": "You renounce a habit out of pride ('I am someone who doesn't do that') rather than from genuine dispassion. Madhusūdana identifies the mechanism: autsukya-mātra (mere eagerness) without sattva-śuddhi (purity of the inner faculty) produces the self-conceit of the renunciant rather than actual freedom. The test is whether the absence of the habit brings quiet or a need to be noticed for its absence."
-  }
+  },
+  "primary_meaning": "Whoever holds the organs of action still yet sits inwardly rehearsing sense-pleasures with a deluded mind is called a hypocrite."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "kīrtayantaḥ",
-      "lemma": "kīrtay",
+      "lemma": "√kīrtay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "yatantaḥ",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "namasyantaḥ",
-      "lemma": "namasy",
+      "lemma": "√namasy",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "yuktāḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "upāsate",
-      "lemma": "upās",
+      "lemma": "√upās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -299,7 +299,9 @@
         "jayatirtha_9.14"
       ],
       "score": 0.5,
-      "english_rendering": "No direct bhāṣya by Madhvācārya on this śloka is extant in the supplied corpus; the panel entry explicitly records: 'Śrī Madhvācārya did not comment on this śloka.' Doctrinally, however, Dvaita reads the fourfold activity — kīrtana (glorification), yatana (striving), namaskāra (prostration), upāsana (worship) — as the jīva's irreducible dependent service (paratantra-bhakti) to Hari, whose sovereignty (svatantra) is absolute. The distinction between worshipper and worshipped is eternally real; bhakti is not a stage toward merger but the very nature of liberated existence."
+      "english_rendering": "*Satataṃ kīrtayanto māṃ* — the *paratantra* (eternally dependent) *jīva* glorifies the *svatantra* (independently real, self-sufficient) Hari without interruption. *Yatantaś ca dṛḍha-vratāḥ*: the striving is disciplined by firm vow, not casual inclination — effort here is the jīva's essential mode of relating to the Lord across the unbridgeable *bheda* (real distinction) that separates creature from creator. *Namasyantaś ca māṃ bhaktyā*: prostration is not rhetorical gesture but the bodily enactment of ontological subordination, the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) made visible in the bowing form. *Nitya-yuktā upāsate*: they worship as those perpetually yoked — *nitya-yukta* names the condition of one whose very being is ordered toward Hari, not one who adopts worship as a temporary practice. Across all four activities — *kīrtana*, striving, *namaskāra*, *upāsanā* — the worshipper remains irreducibly distinct from the worshipped; *bhakti* is not a stage dissolving into identity but the eternal texture of liberated existence within *taratamya* (graded ontological hierarchy), where the highest station is everlasting service to the sovereign Lord.",
+      "divergence_note": "No extant Madhva or Jayatīrtha bhāṣya on this śloka; reading reconstructed from dvaita siddhānta primitives applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -477,7 +479,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kīrtayantaḥ: kīrtay -> √kīrtay",
+          "yatantaḥ: yat -> √yat",
+          "namasyantaḥ: namasy -> √namasy",
+          "yuktāḥ: yuj -> √yuj",
+          "upāsate: upās -> √upās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kīrtana (glorification) is the first-named activity, what does each school make of the relationship between sound, memory, and presence — is the Name a pointer to Brahman or a direct vehicle of Bhagavān?",
@@ -495,5 +511,6 @@
     "śuddhādvaita": "Vallabha's calendar of dṛḍhavratāḥ — Ekādaśī, Janmāṣṭamī, and the other sacred days — gives the year a rhythm of intensification and release. Everyday application means organizing time around these peaks: not as obligations to discharge but as Kṛṣṇa's own festivals in which one is a participant. On ordinary days, the five limbs of bhajana (kīrtana, śravaṇa, smaraṇa, vandana, dāsya) are distributed through the day's activities — vocal in the morning, attentive listening at midday, remembrance in transition moments, prostration at dusk, service-orientation in all work.",
     "bhakti": "Śrīdhara's practical wisdom is in his distributive reading: not every person must perform all four activities equally. Find your primary mode — some are singers (stotra-mantra), some are ritual worshippers (pūjā), some are given to prostration and pilgrimage — and pursue it with nityayukta-attentiveness, that unhurried wakefulness (anavaratam avahitāḥ) which does not drift even inside familiar practice. Bhaktyā and nityayuktāḥ are the two constants regardless of which mode you lead with; everything else is the form bhakti takes in you.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that intellectual work and devotion are not rivals for the same time. Śravaṇa (deep study with a qualified teacher), manana (sustained reasoning that removes doubt without exception of circumstance — Patañjali's mahāvrata), and nididhyāsana (contemplation flowing without interruption) are themselves forms of worship when the object is Bhagavān recognized as both iṣṭa-devatā and guru. In daily life: keep a regular relationship with a lineage-text and a teacher, hold your ethical commitments as mahāvrata (not situational), and let the resulting śraddhā open into continuous interior prostration — this is nididhyāsana in action."
-  }
+  },
+  "primary_meaning": "Always singing your praises, striving with firm vows, bowing before you with devotion, they remain perpetually absorbed in worship."
 }

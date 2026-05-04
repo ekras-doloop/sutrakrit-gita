@@ -110,7 +110,7 @@
     },
     {
       "surface_form": "prasādaye",
-      "lemma": "prasāday",
+      "lemma": "pra-√sāday",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -375,7 +375,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -545,8 +545,9 @@
         "jayatirtha_11.44"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya's mūla-bhāṣya does not cover this verse (payload note: 'Sri Madhvacharya did not comment on this sloka'). From dvaita structural principles: the eternally distinct jīva Arjuna, having witnessed the cosmic form of Viṣṇu-Hari, prostrates in complete dependence (śaraṇāgati). The three relational similes — father/son, friend/friend, beloved/beloved — underline that even across ontological distance between God and jīva, the Lord's unconditional sovereignty (prabhutva) coexists with his compassion; forgiveness is not an erasure of difference but Hari's free sovereign act of grace toward a dependent servant.",
-      "divergence_note": "Madhva bhāṣya absent for this verse; rendering derived from dvaita siddhānta."
+      "english_rendering": "*Tasmāt praṇamya praṇidhāya kāyam* — Arjuna, the *paratantra* (eternally dependent) *jīva*, prostrates his body entire before *īśam īḍyam*, the Lord who is sovereign and alone worthy of praise. Having witnessed the *viśvarūpa*, he knows the *pañca-bheda* (the five-fold real distinction) not as abstract doctrine but as lived terror and awe: Hari is *svatantra* (the independently real, self-sufficient); Arjuna is not. The three similes — father to son, friend to friend, *priya* to *priyā* — do not collapse the ontological distance but name the registers in which the *svatantra* Lord, across real *bheda* (real distinction), may extend forbearance. A father corrects without destroying; a friend tolerates what a stranger cannot; a beloved bears what mere duty would refuse. Arjuna appeals to all three not to dissolve the distinction between *jīva* and Hari but to invoke the Lord's sovereign compassion from within it. Forgiveness here is no erasure of *bheda*: it is Hari's free act of grace toward a dependent who has transgressed out of the familiarity *bhakti* (devotion) permits. *Arhasi deva soḍhum* — 'O Lord, thou art fit to endure it' — is the petition of one who knows the asymmetry is absolute and precisely therefore throws himself upon it.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse; the reading is voiced directly from dvaita siddhānta off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -659,7 +660,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prasādaye: prasāday -> pra-√sāday",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you have seen something so overwhelming that normal speech fails, what is the honest posture — composed argument or exposed vulnerability? What does Arjuna's daṇḍavat prostration say about how acknowledgment works?",
@@ -677,5 +689,6 @@
     "śuddhādvaita": "Notice where, in an important relationship, the other person is already showing up for you — already in the chariot with you — despite your behavior. Vallabha's reading: the Lord's sārathya (showing up, driving) is the prior grace; our petition only makes conscious what is already operating. In practice: before asking for forgiveness, first name aloud, to yourself, one specific way the other person has already been generous or patient. Let that recognition precede the request; it changes the quality of the asking.",
     "bhakti": "Develop the skill of being a nirupādhi-bandhu — an unconditional companion — to at least one person in your life, and consciously ask for that quality of friendship from at least one person. When you are in conflict, explicitly name the register you are appealing to: 'I am not asking as your subordinate or as a debtor, I am asking as your friend without conditions.' Śrīdhara's gloss reminds us that most human forgiveness-seeking unconsciously mixes in negotiation; naming the unconditional register separates it.",
     "advaita-bhakti": "Madhusūdana's ananya-śaraṇatva is the interior preparation before any outward petition: fully accept, for a moment, that you genuinely have no other option — no workaround, no alternative relationship, no self-rescue. Let that land as fact, not as performance. From that place, the request for forgiveness carries a different weight — it is not strategy but truth. Try this as a brief daily practice: in one difficult situation you are carrying, ask yourself 'what would I say if I truly had no other refuge?' — then say exactly that."
-  }
+  },
+  "primary_meaning": "Prostrating myself, body laid flat before you, I seek your grace, O Lord worthy of all praise. Bear my offense as a father bears a son's, as a friend a friend's, as a beloved the one dear to them."
 }

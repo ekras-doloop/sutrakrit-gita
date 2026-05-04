@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "prajahi",
-      "lemma": "prahā",
+      "lemma": "pra-√han",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -335,8 +335,8 @@
         "vallabha_3.41"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha's commentary on 3.40–41 is terse — he names the senses as the seat (adhiṣṭhāna) of the enemy and calls these two verses the instruction on the means of victory (jaya-upāya). Within Puṣṭi-mārga, this injunction is received as Kṛṣṇa's own prasāda-grace making itself available: the command to restrain is not the aspirant's independent act but Kṛṣṇa's gift of the very capacity to overcome what blocks his līlā from flowing through the jīva. The restraint is thus less a moral effort than a yielding to the Lord who alone destroys the enemy.",
-      "divergence_note": "Vallabha: 'adhunā tasyādhiṣṭhānaṃ vadan jayopāyam āha' — minimal prose; Vallabha identifies adhiṣṭhāna and jayopāya as the twin concepts, leaving elaboration to the tradition's oral pedagogy. Bhāṣya is sparse; rendering draws on Puṣṭi-mārga's characteristic prasāda framework."
+      "english_rendering": "*Indriyāṇi* (the senses) are named here as *tasyādhiṣṭhānam* — the seat of that enemy, *kāma*. With the bhāṣya's own formulation: *adhunā tasyādhiṣṭhānaṃ vadan jayopāyam āha indriyāṇīti dvābhyām* — «now, stating its seat, he teaches the *jayopāya* (means of victory) in these two verses beginning with 'indriyāṇi.'» The twin coordinates are thus *adhiṣṭhāna* and *jayopāya*: identify the seat, then act to conquer. Within *puṣṭi-mārga* (the path of grace), Kṛṣṇa's imperative *niyamya* — «having restrained» the senses at the outset — is not a self-generated discipline but an expression of the Lord's own *prasāda* (grace-gift) making the capacity available. The command *prajahi* (strike it down utterly) falls on *pāpmānaṃ… jñāna-vijñāna-nāśanam*, the sin that destroys both *jñāna* (knowledge) and *vijñāna* (realized discernment). Because Brahman alone is real and the world is his genuine self-expression, this destruction is no abstraction: *kāma* blocks the flow of the Lord's *līlā* through the *jīva* (individual self), and only Kṛṣṇa, not the aspirant's unaided will, ultimately removes it.",
+      "divergence_note": "Vallabha's bhāṣya is minimal — *adhunā tasyādhiṣṭhānaṃ vadan jayopāyam āha indriyāṇīti dvābhyām* — covering 3.40–41 together in a single sentence. The rendering remains anchored to *adhiṣṭhāna* and *jayopāya* as Vallabha's own terms, with *puṣṭi-mārga* coloring drawn from the school's broader siddhānta rather than elaborated prose in the bhāṣya itself."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -580,7 +580,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prajahi: prahā -> pra-√han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāma (desire) is the destroyer of both jñāna and vijñāna, does this verse imply that even a person of great scriptural learning can be functionally ignorant — and what does that say about the sufficiency of intellectual study alone?",
@@ -598,5 +608,6 @@
     "śuddhādvaita": "Vallabha's orientation reframes the effort of restraint as an act of receiving: rather than 'I must conquer desire,' the Puṣṭi-mārga practitioner asks 'what in Kṛṣṇa's love makes this desire irrelevant?' Practically, this means cultivating an activity or relationship that fills the space desire would have occupied — not as substitution but as prasāda (grace received). When a compulsive craving arises, instead of suppressing it, offer it upward — acknowledge it to the one in whom you take refuge — and let the craving's energy be redirected into the offering itself.",
     "bhakti": "Śrīdhara's emphasis on acting 'before delusion (vimoha) sets in' maps directly onto the science of habit interruption: the window for intervention is narrow and early. Once a craving has escalated into full emotional activation (vimoha — confusion of the discriminative faculty), restraint is exponentially harder. The practical instruction is to identify personal precursors — the small environmental cues, the first emotional note, the micro-thought that precedes the full pattern — and intervene there, before the delusion has taken hold. Pre-commitment devices (environmental design, accountability structures, early-stage rules) are the śrāddha equivalent of niyama.",
     "advaita-bhakti": "Madhusūdana's argument that outer-sense restraint automatically disciplines manas and buddhi suggests a counterintuitive productivity principle: when inner clarity is sought, begin with the outer environment, not the inner state. Trying to concentrate while surrounded by distraction-triggers is fighting downstream. The application: design the physical and digital environment first (seat, notifications, objects in view), and let inner focus arise from that outer ordering. This is not willpower but architecture — Madhusūdana's 'restraining the outer senses as the primary act' made practical."
-  }
+  },
+  "primary_meaning": "So first rein in your senses, bull of the Bharatas, then strike down this sinful desire that destroys both knowledge and its living realization."
 }

@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -400,7 +400,9 @@
         "jayatirtha_6.40"
       ],
       "score": 0.5,
-      "english_rendering": "[NOTE: Madhva's commentary on this verse is absent from the panel — the payload reads 'Sri Madhvacharya did not comment on this sloka.' The following rendering is inferred from Dvaita principles consistent with surrounding verses.] Because the jīva is eternally dependent on Hari, no act of genuine kalyāṇa (auspiciousness directed toward Hari) can go unrewarded — Hari's sovereignty (sarvottamatva) guarantees that sincere worship, even interrupted, is retained in the jīva's constitutional nature across births. The failed yogī is not 'lost' because Hari himself holds the trajectory; durgati belongs only to those who act in opposition to Hari, never to those who have turned toward him."
+      "english_rendering": "*Pārtha*, neither here nor hereafter does destruction touch that one — *na hi kalyāṇa-kṛt kaścid durgatiṃ tāta gacchati*, for no doer of good ever meets a bad end. The *jīva*, eternally *paratantra* (dependent) upon *svatantra* (self-sufficient) Hari, cannot be abandoned mid-path: Hari's *sarvottamatva* (supreme sovereignty) secures every sincere turn toward him across the arc of lives. *Kalyāṇa* here is not merely moral merit but specifically the auspicious orientation of a dependent self toward the Lord — once established, it is held within Hari's own will and cannot be effaced by the *jīva*'s incapacity. *Durgati* (ill-faring) belongs exclusively to those who stand in *bheda*-denying opposition to Hari; the interrupted yogī, having moved within the current of *bhakti* as ontological subordination, is repositioned rather than ruined. Hari's control over the *jīva*'s trajectory is itself the guarantee the verse names.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse; reading voiced directly from dvaita *siddhānta* primitives — *paratantra*-*jīva*, *sarvottamatva*, and *bhakti* as ontological subordination — applied to the mūla's double assurance (*na iha*, *na amutra*) and its final *kalyāṇa-kṛt* axiom.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -431,7 +433,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -457,18 +459,6 @@
         "14.19",
         "18.36",
         "18.49"
-      ]
-    },
-    {
-      "list": "नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "3.17",
-        "4.2",
-        "4.3",
-        "4.20",
-        "6.1"
       ]
     },
     {
@@ -551,7 +541,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the fallen yogī is guaranteed no durgati, what distinguishes sincere partial practice from deliberate abandonment — and does Kṛṣṇa's assurance cover both, or only the former?",
@@ -569,5 +569,6 @@
     "śuddhādvaita": "Vallabha's framing is radical for daily life: once one has been drawn into smaraṇa (remembrance) of Kṛṣṇa — even partially, even briefly — one is branded kalyāṇa-kṛt. This removes the entire edifice of performance-anxiety from sādhana. For a practitioner in the Puṣṭi-mārga, the everyday application is that any moment of genuine Kṛṣṇa-smaraṇa is sufficient to constitute the mark — and the marks do not expire between sessions or between lifetimes.",
     "bhakti": "Śrīdhara's identification of pātitya (social outcaste status) as the this-worldly nāśa being negated has a concrete application: the practitioner who abandons a Brahminical or community-expected ritual regimen in favor of bhakti-yoga is not thereby spiritually disqualified, even if social censure follows. The śraddhā with which they engaged practice is itself the auspicious mark Kṛṣṇa is honoring. This reading supports practitioners who transition between practice-forms without institutional permission.",
     "advaita-bhakti": "Madhusūdana's argument that śraddhā plus inner restraint (śama) constitutes the equivalent of elaborate śrauta (Vedic) performance has direct application for practitioners in non-traditional contexts — including urban householders with no access to formal Vedic ritual. The everyday takeaway is that the sincere combination of faith and inner discipline generates the same soteriological trajectory as full ceremonial observance; the 'path of light' (arcir-mārgam) is not gatekept by ritual completion."
-  }
+  },
+  "primary_meaning": "Neither here nor in the next life is there ruin for you, Arjuna. No one who has done good ever comes to a bad end."
 }

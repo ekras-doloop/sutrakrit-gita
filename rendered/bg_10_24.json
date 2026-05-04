@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -531,7 +531,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krsna claim to be the chaplain (purohita) and not the king — what does this reveal about the relationship between wisdom-authority and political power in the Gita's world?",
@@ -549,5 +560,6 @@
     "śuddhādvaita": "Vallabha's still-water gloss offers a daily image for receiving grace: be the deep still reservoir, not the rushing river. In practice, before any high-stakes conversation or decision, pause into stillness. The ocean's supremacy is its depth and settledness, not its turbulence. Prasada enters the vessel that is not agitated.",
     "bhakti": "Sridhara's balanced register suggests a devotional naming-practice: in the morning, identify one 'Brhaspati' in your life — the advisor or teacher who serves the highest — and one 'Skanda' — the protector who guards what is vulnerable. Recognize Bhagavan in those roles and offer your respect to them as vibhuti-bearers, not merely as useful people.",
     "advaita-bhakti": "Madhusudana's double-naming (Skanda-as-Guha, sagara-with-its-story) points to a practice of intimate learning about the names you love. The more precisely and richly you know a name — its etymology, its Puranic story, its epithet — the deeper the jnana-bhakti contact. Study one name of the divine today not to accumulate information but to deepen intimacy."
-  }
+  },
+  "primary_meaning": "Among priests I am Bṛhaspati, among army commanders I am Skanda, and among bodies of water I am the ocean."
 }

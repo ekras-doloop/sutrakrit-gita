@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -294,9 +294,10 @@
         "jayatirtha_14.10"
       ],
       "score": 0.5,
-      "english_rendering": "The rotating dominance of the three guṇas — sattva, rajas, and tamas — demonstrates that prakṛti and the jīva (individual soul) are wholly dependent on Hari's will for every modulation of their condition. No guṇa rises on its own authority; its ascendance is permitted by the sovereign Lord, whose independence (svātantrya) is absolute and whose dependent creation (paratantra) includes every movement of the guṇas. The sincere devotee, knowing this, surrenders every guṇa-state — clarity, agitation, or dullness — as an offering to Viṣṇu rather than claiming it as self-generated.",
-      "divergence_note": "Madhva did not comment on this śloka — rendering extrapolated from his Dvaita siddānta principles (Hari-sarvottamatva, jīva-paratantra, guṇa-viśeṣa) documented in adjacent bhāṣyas",
-      "commentator": "Madhvācārya"
+      "english_rendering": "Sattva arises when it has overpowered *rajas* (the quality of passion) and *tamas* (the quality of inertia); rajas rises when it overpowers sattva and tamas; tamas rises when it overpowers sattva and rajas — so runs the mūla: *rajas tamaś cābhibhūya sattvaṃ bhavati bhārata | rajaḥ sattvaṃ tamaś caiva tamaḥ sattvaṃ rajas tathā*. No *guṇa* (quality of *prakṛti*) ascends by its own authority. The very verb *abhibhūya* — having overpowered — names a permission granted, not a self-sufficient act. *Prakṛti* and the *jīva* (the individual self) stand wholly within the *paratantra* (eternally dependent) order; their every modulation of guṇa-state is encompassed by *Hari*'s *svātantrya* (absolute independence). The *pañca-bheda* (the five-fold real distinction — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter) holds at each moment of guṇa-succession: the rising of sattva no more collapses Lord into *jīva* than the sinking of sattva collapses matter into Lord. *Taratamya* (graded ontological hierarchy) persists through every turn of the cycle; Hari alone is *svatantra* (independently real, self-sufficient) across all three phases. The *jīva* bound in the *guṇa*-cycle finds no resting place within that cycle itself; *bhakti* (devotion as ontological subordination to Hari) is the one disposition that orients each guṇa-state — clarity, agitation, or dullness — toward its sovereign source rather than mistaking it for self-generated movement.",
+      "divergence_note": "Neither Madhva nor Jayatīrtha commented on this verse. The reading is voiced directly from *dvaita* *siddhānta* primitives — *svātantrya*-*paratantra* polarity, *pañca-bheda*, *taratamya* — applied to the guṇa-succession described in the mūla.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -370,7 +371,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every guṇa-state I find myself in — clarity, agitation, or dullness — is the result of prior karma and food rather than present will, what agency do I actually have in managing my own mental states?",
@@ -388,5 +399,6 @@
     "śuddhādvaita": "Vallabha's adṛṣṭa-framing inverts the usual anxiety about guṇa-management: the rising of sattva is not your accomplishment, it is prasāda (grace). When clarity or devotion arrives unexpectedly — a morning of effortless prayer, an afternoon of unusual generosity — receive it with explicit gratitude to Kṛṣṇa rather than attributing it to your own discipline. This acknowledgment sustains the gift longer than claiming it as self-made.",
     "bhakti": "Śrīdhara gives you the diagnostic list. Keep a three-day log: mark each two-hour block as sattva (ease, curiosity, generosity), rajas (urgency, craving, agitation), or tamas (inertia, avoidance, fog). After three days the pattern of suppression and rise becomes visible. Use the pattern to schedule devotional practice (pūjā, smaraṇa, sādhana) in your sattva-windows rather than when you feel you 'should' practice but tamas has already taken hold.",
     "advaita-bhakti": "Madhusūdana's yugapat (simultaneous) suppression means the shift from one guṇa-dominant state to another is not gradual — you will notice an abrupt qualitative change, not a slow fade. Train yourself to recognize these discontinuities as they happen: the moment rajas suddenly drops and sattva clarifies, or the moment tamas falls like a curtain. In that transition instant, before the new guṇa-state fully captures attention, reside as the witness (sākṣi) — that is the advaita-bhakti practice this verse points toward."
-  }
+  },
+  "primary_meaning": "Each of the three strands of nature rises by overpowering the other two: sattva suppresses rajas and tamas, rajas suppresses sattva and tamas, tamas suppresses sattva and rajas."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "viyuktānām",
-      "lemma": "viyuj",
+      "lemma": "vi-√yuj",
       "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "vartate",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "vidita",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -464,7 +464,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viyuktānām: viyuj -> vi-√yuj",
+          "yata: yam -> √yam",
+          "vartate: vṛt -> √vṛt",
+          "vidita: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If brahma-nirvāṇa is already present for the one who has truly relinquished desire and anger, what does it mean to 'seek' liberation — is seeking itself the obstacle?",
@@ -482,5 +495,6 @@
     "śuddhādvaita": "Vallabha's teaching that brahma-ānanda is available right now, in the living body, re-orients daily life: engage with Kṛṣṇa's world — food, music, beauty, relationships — as vehicles of his bliss rather than as temptations to renounce. When desire and anger arise, the Puṣṭi-mārga practitioner redirects them toward Kṛṣṇa rather than suppressing them; the energy itself is not the problem. Practical form: dedicate sensory and creative activities explicitly to Kṛṣṇa before engaging in them.",
     "bhakti": "Śrīdhara's balanced reading suggests a steady, undramatic practice: hold to a daily routine of ātma-vicāra (self-inquiry into 'what am I?') combined with the company of those who keep desire and anger well-checked. He treats 'knowing the truth of ātman' as available through traditional transmission — study of authoritative texts, a qualified teacher, and the patience to let understanding deepen. The everyday form is regular scripture study treated not as information-gathering but as ātma-sākṣātkāra (self-recognition) in progress.",
     "advaita-bhakti": "Madhusūdana's insistence on tad-anutpatti (non-arising of desire and anger) rather than mere endurance points to a practice of attention before reactivity: cultivate the gap between stimulus and response by keeping awareness of the paramātman as background to all activity. In practice, this means short, repeated re-orientation to the Lord's presence throughout the day — not lengthy sittings, but frequent brief returns — so that the soil in which desire and anger germinate is progressively impoverished. Liberation is not earned but revealed when the obscuring habits have been starved of fuel."
-  }
+  },
+  "primary_meaning": "For ascetics who have shed desire and anger, whose minds are held steady and whose own nature is known, the peace of Brahman surrounds them already, on both sides of the boundary between living and dying."
 }

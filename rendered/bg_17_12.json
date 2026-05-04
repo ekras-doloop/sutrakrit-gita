@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "ijyate",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -315,7 +315,8 @@
         "jayatirtha_17.12"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this śloka; no Dvaita bhashya text is available in the panel for 17.12. From the surrounding Dvaita framework: rajasic sacrifice in Dvaita is sacrifice not dedicated to Hari as supreme independent Lord (svatantra), where the jiva's desire for personal fruit asserts a false autonomy — treating the jiva as self-sufficient rather than as paratantra (wholly dependent). The fruit-seeker implicitly denies Hari's sovereignty over all results. [FLAG: rendering inferred from Dvaita doctrinal context, not attested bhashya for this verse.]"
+      "english_rendering": "*abhisaṃdhāya tu phalaṃ dambhārtham api caiva yat | ijyate bharata-śreṣṭha taṃ yajñaṃ viddhi rājasam* — sacrifice performed with eye fixed on personal fruit (*phala*) and for the sake of ostentation (*dambha*) is *rājasa*. In the Dvaita reading, the *jīva* (the individual self) is *paratantra* (eternally dependent), wholly subordinate to *svatantra* Hari, who alone disposes of all fruits. To sacrifice *abhisaṃdhāya phalam* — grasping the result as one's own entitlement — is to assert a false self-sufficiency that directly violates *pañca-bheda* (the five-fold real distinction), specifically the Lord–*jīva* distinction: it positions the *jīva* as an independent agent capable of securing its own reward rather than as one whose every fruit flows from Hari's sovereignty. *Dambha* compounds the error: the sacrifice is directed toward the adulation of other *jīvas*, not toward Hari as the sole proper object of *bhakti* (devotion). A sacrifice thus doubled in misdirection — fruit-seeking and display-seeking — cannot constitute genuine worship of the *svatantra* Lord. Kṛṣṇa's instruction to Arjuna (*bharata-śreṣṭha*) is to recognize (*viddhi*) this as *rājasa* and thereby to understand what true *sāttvika* sacrifice demands: complete subordination of fruit and ego to Hari alone.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -324,7 +325,9 @@
         "vallabha_17.12"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabhacharya did not comment on this śloka; no Shuddhadvaita bhashya text is available in the panel for 17.12. From Pushti-marga principles: rajasic sacrifice represents action conducted within the contracted self (jiva operating on its own power, sva-shakti), accumulating merit or reputation rather than surrendering entirely to Krishna's lila-prasada (grace-play). In Pushti-marga only grace-saturated offering dissolves into Krishna's own joy; fruit-oriented sacrifice remains outside that current. [FLAG: rendering inferred from Pushti-marga framework, not attested bhashya for this verse.]"
+      "english_rendering": "*Abhisaṃdhāya tu phalaṃ dambhārtham api caiva yat | ijyate bharata-śreṣṭha taṃ yajñaṃ viddhi rājasam* — sacrifice performed by fixing the mind on fruit (*phala*) or on display (*dambha*, vainglory) is *rājasa*. In *śuddhādvaita*, Brahman alone is real and the world is His genuine, joy-full self-manifestation — no shadow-doctrine of *māyā* intervenes. Sacrifice belongs within that real world; its quality turns on the disposition of the offering. The *rājasa* yajña is not illusory, but its practitioner orients toward personal yield or social prestige rather than toward Kṛṣṇa's own *ānanda* (bliss). On the *puṣṭi-mārga* (the path of grace), the Lord's grace (*puṣṭi*) alone sustains and elevates action; a sacrifice driven by fruit-desire or ostentation withholds itself from that grace-current. The *jīva* here operates on its own contracted initiative — *sva-śakti* (self-powered striving) — rather than releasing the act as *sevā* (loving service) into the Lord's līlā. *Brahma-sambandha* (the consecrated relationship in which all things are surrendered to Kṛṣṇa as His own) has not been engaged; the offering circles back to the offerer. Thus it is *rājasa* — neither dissolved into Kṛṣṇa's joy nor yet rooted in the pure *sattva* that would prepare the ground for *puṣṭi*.",
+      "divergence_note": "No Vallabhācārya bhāṣya on 17.12 is extant; reading voiced directly from *śuddhādvaita* siddhānta — real-world manifestation, *puṣṭi-mārga*, *sevā*, *brahma-sambandha* — applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -427,7 +430,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ijyate: yaj -> √yaj",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the outward form of a sacrifice is scripturally correct but the inner intent is fame or reward, does the sacrifice produce any purifying effect at all — or does correct form without correct intent simply add more karmic residue?",
@@ -445,5 +459,6 @@
     "śuddhādvaita": "In creative work — art, music, writing — the Pushti-marga lens asks whether the work is an offering flowing from Krishna's own energy moving through you, or a product manufactured by your skill for your portfolio. Rajasic creation in this framework is work where the artist is the subject and the audience is the court of approval. Sattvic creation in Pushti terms is work that surprises even its maker, arriving as prasada rather than output.",
     "bhakti": "Sridhara's 'sva-mahattva-khyapana' — proclaiming one's own greatness — is the diagnostic for rajasic social media use: posting about one's practice, pilgrimage, or generosity primarily to display personal dharmic seriousness. The bhakti practitioner tests each post: does this give something to the reader, or does it mainly accumulate evidence of my virtue? The sacrifice of attention and time is rajasic when the audience is one's own reputation.",
     "advaita-bhakti": "Madhusudana's three-case analysis applies to professional credentialing and achievement: (1) pursuing certification purely for career advancement (otherworldly fruit mode); (2) pursuing it to signal expertise to peers with no underlying interest in mastery (dambha mode); (3) pursuing it for both simultaneously. All three modes, however common and socially rewarded, leave the antahkarana (inner organ) uncleaned because none is organized around understanding itself. The 'tu' particle — the contrast with genuine learning — is the daily self-examination: am I doing this for the thing, or for what the thing makes me look like?"
-  }
+  },
+  "primary_meaning": "Sacrifice performed with an eye on reward, or staged to impress others with your piety, is rajasic, Arjuna."
 }

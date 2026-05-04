@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "āpnuvanti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "gatāḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -520,7 +520,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āpnuvanti: āp -> √āp",
+          "gatāḥ: gam -> √gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If birth is literally a 'dwelling-place of suffering' (duḥkhālaya), what is the relationship between the householder's ordinary joys and the structural claim that saṃsāra is constitutively painful — is every pleasure a masked form of that suffering?",
@@ -538,5 +549,6 @@
     "śuddhādvaita": "Vallabha's sadācāra as vehicle of non-return points toward the craft of daily life as devotional evidence. A Puṣṭi-mārga practitioner asks not 'did I meditate today?' but 'did my conduct bear the signature of someone who has touched the puruṣottama?' — grace expressed through carefulness in speech, preparation of food, and attending to those in the household as extensions of the Lord's antaryāmin presence.",
     "bhakti": "Śrīdhara's balanced synthesis offers a diagnostic tool: the verse defines the great-souled ones as those already described (ukta-lakṣaṇāḥ) — backward-pointing to the qualities listed earlier in the chapter. The everyday practice is to periodically re-read the prior characterization and ask honestly: 'Am I that person, or am I performing that person?' The non-return is not a future event but a present quality of the one who has genuinely arrived at mokṣa as samyak-siddhi.",
     "advaita-bhakti": "Madhusūdana's rajastamomala-rahita antaḥkaraṇa — an inner instrument cleared of rajas and tamas — is not an abstract ideal but a maintenance project. The synthesis practice is to notice when a decision is driven by rajas (agitation, urgency, prestige-seeking) or tamas (avoidance, dullness, inertia) and to deliberately return to sattva before acting. Over time, dṛṣṭa-naṣṭa-prāyam — the 'almost-already-perished' quality of conditioned experience — becomes perceptible, and the taste for the perishable quietly subsides."
-  }
+  },
+  "primary_meaning": "Those great souls who reach Me do not come back to rebirth, which is a home of suffering and nothing lasting."
 }

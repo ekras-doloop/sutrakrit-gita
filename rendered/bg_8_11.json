@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "vadanti",
-      "lemma": "vad",
+      "lemma": "√vad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "viśanti",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "vīta",
-      "lemma": "vī",
+      "lemma": "√vī",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "caranti",
-      "lemma": "car",
+      "lemma": "√car",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "surface_form": "pravakṣye",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -518,13 +518,6 @@
       ]
     },
     {
-      "list": "अक्षरं ब्रह्म परमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.3"
-      ]
-    },
-    {
       "list": "ब्रह्म",
       "role": "supporting",
       "other_verses_in_list": [
@@ -604,7 +597,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vadanti: vad -> √vad",
+          "viśanti: viś -> √viś",
+          "vīta: vī -> √vī",
+          "caranti: car -> √car",
+          "pravakṣye: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools agree akṣara is the supreme goal — but do they agree on what 'entering' it means? (merger vs. proximity vs. service vs. feet-contact)",
@@ -622,5 +629,6 @@
     "śuddhādvaita": "Kṛṣṇa's 'feet' (caraṇam) in this verse is not a metaphor but a live contact point — the place where devotees through history have arrived. Read one episode of the Bhāgavata each morning not as mythology but as a report of what happens when a human intelligence touches that caraṇam. Practice: after reading, sit for two minutes and notice whether any residue of that contact remains in the body.",
     "bhakti": "Śrīdhara's emphasis on brahmacarya-with-a-teacher means the goal requires a living transmission context, not solo study. Find one practice — whether a mantra, a text, a teacher's instruction — and sustain it unbroken for forty days before evaluating its fruit. The Oṃkāra-based core Śrīdhara describes becomes accessible only after the outer layer of scattered practice is stabilized.",
     "advaita-bhakti": "Madhusūdana's synthesis gives permission to hold both paths simultaneously: use Oṃkāra as the daily anchor for meditation (the Śruti-mandated name), while allowing devotion to Kṛṣṇa to supply the emotional traction that pure negation cannot. Practice: morning session opens with three utterances of Oṃ with full attention; the same session closes with a moment of direct address to the personal form — this is the two-tier structure Madhusūdana describes for 'middling' aspirants."
-  }
+  },
+  "primary_meaning": "What the Veda-knowers call the imperishable, what passionless strivers enter, what brahmacharya students spend their lives seeking, that goal I will now tell you in brief."
 }

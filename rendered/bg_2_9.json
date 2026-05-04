@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "yotsye",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "babhūva",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -371,13 +371,6 @@
       ]
     },
     {
-      "list": "मैं युद्ध नहीं करूँगा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.10"
-      ]
-    },
-    {
       "list": "हृषीक",
       "role": "supporting",
       "other_verses_in_list": [
@@ -431,7 +424,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "yotsye: yudh -> √yudh",
+          "babhūva: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna was capable, informed, and morally serious — and he still reached a point where he went completely silent and couldn't act. What does that tell us about the limits of competence as a solution to inner conflict?",
@@ -449,5 +454,6 @@
     "śuddhādvaita": "Vallabha's gloss inserts the word śaraṇāgataḥ — one who has taken shelter — into a verse where Arjuna says nothing except 'I will not fight.' The shelter is not declared; it is enacted by the going-silent itself. Puṣṭi-mārga holds that grace flows into the emptied vessel, not the full one — and the practical implication is specific: the moments when you stop performing competence, stop producing output, stop explaining yourself, and simply become still before something larger than you, those are not failures of agency. They are, in Vallabha's reading, the exact condition in which Govinda — the one who presides over the senses — can actually be received rather than merely addressed.",
     "bhakti": "Śrīdhara calls this verse spaṣṭārthaḥ — self-evident, requiring no gloss. There is a practical discipline in that restraint: not every significant moment requires elaborate interpretation. Sometimes the most honest and useful thing a tradition can do is acknowledge a turning point plainly — Arjuna said he would not fight, and then went silent — and let the weight of that stand without immediately explaining it away. If you are in a moment of genuine transition, the pressure to immediately make sense of it, to frame it for others, to already know what it means, can prevent you from actually inhabiting it. The application is to allow a significant silence to be what it is, rather than rushing to fill it with interpretation before the teaching that belongs to it has had time to arrive.",
     "advaita-bhakti": "Madhusūdana's reading of the three epithets in this verse is a quiet piece of reassurance built into the verse's own grammar: Arjuna is addressed by his nature (jitālasya — conqueror of sloth) at the moment his nature has been temporarily covered; Kṛṣṇa is named as both the inner-controller of the senses that have been paralyzed (Hṛṣīkeśa) and as omniscient (Govinda — finder of Veda-speech). The structure of the verse, for Madhusūdana, implies that the one who has gone silent is not constitutively broken, and the one being addressed has both the knowledge and the capacity to restore what has been covered. The practical application: if you have found yourself in a period of uncharacteristic paralysis — not your nature, but grief or confusion temporarily covering it — the tradition's counsel is that the paralysis is not the truth of you, and that turning toward something genuinely omniscient (a teaching, a practice, a teacher) is not desperation but the structurally correct move."
-  }
+  },
+  "primary_meaning": "Sañjaya said: Having spoken thus to Hṛṣīkeśa, Arjuna, scorcher of enemies, told Govinda he would not fight, and fell silent."
 }

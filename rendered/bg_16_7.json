@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -369,9 +369,10 @@
         "jayatirtha_16.7"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse. From Dvaita principles generally: the asuric jīva (individual soul), eternally distinct from Hari and constitutionally incapable of recognizing His sovereignty, cannot discern pravṛtti or nivṛtti because such discernment requires Hari's anugraha (grace) and the tamas of demonic nature actively obstructs that grace. The three absences — no śauca, no ācāra, no satya — reflect the demonic jīva's categorical incapacity for dependent worship rather than a correctable ignorance.",
-      "divergence_note": "No Madhva bhāṣya present for this verse; rendering draws on Dvaita siddhanta.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Āsurāḥ janāḥ* (demonic persons) do not know *pravṛtti* (the path of right engagement in sanctioned action) or *nivṛtti* (the path of withdrawal from action toward liberation) — *pravṛttiṃ ca nivṛttiṃ ca janā na vidur āsurāḥ*. This ignorance is not accidental. The *āsurika jīva* (demonic individual self), though *paratantra* (eternally dependent) on *svatantra* Hari, actively resists the *anugraha* (grace) by which alone *pravṛtti* and *nivṛtti* are discerned. In the *pañca-bheda* scheme, Lord–*jīva* distinction is real and permanent; the demonic *jīva* does not collapse into Hari nor dissolve, but persists in its ontological subordination while refusing to honor it. From that refusal the three deficiencies follow necessarily: *na śaucam* — no inner or outer purity, because purity is the body's readiness for *bhakti*; *na ācāraḥ* — no right conduct, because *ācāra* (proper observance) is the enacted acknowledgment of Hari's sovereignty; *na satyam* — no truth, because *satya* in its deepest register is alignment with the order Hari sustains. *Teṣu vidyate* is emphatically absent: these qualities do not merely go unpracticed but are constitutively absent, marking the demonic *jīva*'s position in the *taratamya* (graded ontological hierarchy) at its lowest grade, farthest from Hari's light.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for this verse; reading is constructed directly from Dvaita *siddhānta* primitives applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -460,7 +461,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viduḥ: vid -> √vid",
+          "vidyate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the asuric person does not know the distinction between pravṛtti and nivṛtti, is the failure primarily intellectual (not knowing the rules) or dispositional (not caring) — and does it matter which it is for the possibility of correction?",
@@ -478,5 +490,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga application: if there is no ruci (taste, delight, appetite) for the practice — if dharma feels like a burden rather than a gift of Krishna's own design — then the form of practice is present but the prasāda-receptivity is absent. The everyday sign of this is that one follows rules without joy and speaks truth without warmth. Restoring ruci is the practical work, not adding more rules.",
     "bhakti": "Shridhara's clean reading suggests a diagnostic for relationships: the person who cannot tell the difference between what to engage with and what to step back from in a relationship — who neither commits nor withdraws with discernment — will over time display the three symptoms: slovenliness, disregard for relational norms, and habitual imprecision or dishonesty. The verse is a sequence, not a list; pravṛtti-nivṛtti blindness causes the rest.",
     "advaita-bhakti": "Madhusudana's synthesis points to the difference between priya (agreeable), hita (beneficial), and yathārtha (accurate) as three distinct demands on speech. In daily conversation, most failures of satya are failures of integration: one is accurate but not agreeable, or agreeable but not beneficial, or beneficial but not accurate. The asuric absence of satya is not lying per se but the inability to hold all three dimensions at once — a capacity that requires both the inner purity (śauca) and the trained conduct (ācāra) that precede it."
-  }
+  },
+  "primary_meaning": "Demonic people know neither what to pursue nor what to renounce, and you will find no purity, no right conduct, and no truth in them."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "utkrāmantam",
-      "lemma": "utkram",
+      "lemma": "ut-√kram",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "sthitam",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "bhuñjānam",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "vimūḍhāḥ",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "anupaśyanti",
-      "lemma": "anupaś",
+      "lemma": "anu-√dṛś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -281,7 +281,7 @@
         "jayatirtha_15.10"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya on this verse is sparse — only a brief bridging phrase (tarhī kim iti na dṛśyate) is preserved in the panel corpus, so the following is anchored in his established doctrinal framework rather than extended direct quotation. The jīva, entirely dependent on Hari and eternally distinct from him, is bound within the body by the three qualities; the deluded who do not know Hari's sovereignty (svātantrya) cannot perceive the jīva's actual dependent nature as it moves, dwells, or enjoys. Only through Hari's grace (anugraha) does the eye of knowledge (jñāna-cakṣus) open — the jīva's perception of itself is itself a gift of the independent Lord."
+      "english_rendering": "*Tarhī kim iti na dṛśyate* (then why is it not seen?) — this is precisely what the verse answers, beginning with *utkrāmantam* (departing). The objection is weak (*mandāśaṅkā*): if there were no inner controller (*niyāmaka*) beyond the *jīva* in the body, that absence would be the reason for non-perception. But the verse states no such absence. Rather, *vimūḍhā* (the thoroughly deluded) fail to perceive the *jīva* — *guṇānvita* (bound with the three *guṇa*s) — as it departs (*utkrāmantam*), abides (*sthitam*), or enjoys (*bhuñjānam*), precisely because they do not know Hari as *niyāmaka*. *Vimūḍhatva* (the condition of delusion) is the cause of *anupalambha* (non-apprehension); the Lord's absence is not. Only *jñāna-cakṣuṣaḥ* — those whose eye is *jñāna*, opened by Hari's *anugraha* — *paśyanti*, behold the *paratantra* *jīva* in its actual dependent motion."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,7 +446,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anupaśyanti: anupaś -> anu-√dṛś"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "utkrāmantam: utkram -> ut-√kram",
+          "sthitam: sthā -> √sthā",
+          "bhuñjānam: bhuj -> √bhuj",
+          "vimūḍhāḥ: vimuh -> vi-√muh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the self is plainly visible in all three states — departing, residing, enjoying — what exactly does 'seeing' require, and why does ordinary perception so consistently fail to provide it?",
@@ -464,5 +485,6 @@
     "śuddhādvaita": "Treat moments of genuine delight — in music, in a child's laughter, in beauty — as instances of Kṛṣṇa's ānanda made briefly transparent to you. The verse's vivikta-ākāra is not cold abstraction; prasāda arrives as joy that is clearly not 'yours.'",
     "bhakti": "Before acting on a strong impulse — to buy, to judge, to react — pause and ask: is this jīva perceiving, or is this the indriya (sense-faculty) pulling? Śrīdhara's 'indriyādiyukta' reminds us that the self and its instruments are not the same, and that pause is the beginning of viveka.",
     "advaita-bhakti": "Madhusūdana's compassionate Kṛṣṇa sees your blindness without contempt. When you feel shame at how long you have been caught in old patterns, remember the Lord's tone is 'aho kaṣṭam' (what a pity) — grief, not condemnation. Let that warmth be the opening through which the knowledge-eye begins to see."
-  }
+  },
+  "primary_meaning": "The deluded do not see the self as it departs a body, dwells in one, or takes in sense-objects along with the qualities. Those whose eye is knowledge do see it."
 }

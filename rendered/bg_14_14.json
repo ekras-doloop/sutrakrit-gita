@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "pravṛddhe",
-      "lemma": "pravṛdh",
+      "lemma": "pra-√vṛdh",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "pratipadyate",
-      "lemma": "pratipad",
+      "lemma": "prati-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -410,9 +410,10 @@
         "jayatirtha_14.14"
       ],
       "score": 0.5,
-      "english_rendering": "The sattvika soul at death reaches the pristine realms of those who know Uttama — the Supreme Hari himself, who alone is 'uttama' above all. These amala (spotless) worlds are the abodes of Hari's devoted knowers, where the jiva's eternal distinctness from Vishnu is preserved and celebrated, not dissolved. Every gain in sattva is a gain in the capacity to serve, not to merge.",
-      "divergence_note": "Madhva's commentary on this specific verse is noted as absent in the source corpus. This rendering draws on his consistent doctrinal position that uttama refers to Vishnu as Uttamapurusha and that amala loka are Vaishnava abodes of distinct jiva-worship.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Sattva* (the mode of luminosity and clarity) having grown ascendant at the moment of *pralaya* (dissolution of the body), the *deha-bhṛt* (body-bearer, the *jīva*) attains the *amalān lokān* (spotless worlds) of the *uttama-vidāṃ* — those who know the Uttama, the Supreme. In Madhva's *siddhānta*, *uttama* names *Hari* alone, the *svatantra* (independently real, self-sufficient) Lord who stands above all *paratantra* (eternally dependent) *jīvas* and matter. The *amalān lokān* are not absorbed into featureless unity but are the luminous abodes of *Viṣṇu*'s devoted knowers, where the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) persists intact. Increased *sattva* refines the *jīva*'s capacity for *bhakti* (devotion) as ontological subordination to Hari — it does not compress the *bheda* (real distinction) between worshipper and worshipped. Arrival in those spotless worlds is real arrival, not dissolution.",
+      "divergence_note": "The contaminated cell contained a meta-narration sentence explicitly naming the bhāṣya as absent and framing the rendering as a reconstruction; that scaffolding language has been stripped. The doctrinal content is preserved and voiced directly off the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -509,7 +510,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravṛddhe: pravṛdh -> pra-√vṛdh",
+          "yāti: yā -> √yā",
+          "pratipadyate: pratipad -> prati-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the guna dominant at the moment of death determines the next destination, does this make death a kind of examination for which one's entire life is the preparation — and if so, what is actually being tested?",
@@ -527,5 +540,6 @@
     "shuddhadvaita": "Vallabha's reading centers grace: sattva-dominance is itself a gift of Krishna's prasada. Applied: when a day goes unusually well — when clarity comes easily, when relationships feel effortless — receive it as prasada rather than personal achievement. This shifts the locus from ego-performance to grateful receptivity, which is itself a sattvic act.",
     "bhakti": "Sridhara names the destination as 'luminous places of blissful experience.' Applied: use the quality of aliveness in uplifting environments — a beautiful temple, a profound conversation, a moment in nature — as a calibration instrument. Notice what states those environments produce in you, and then deliberately cultivate the inner conditions that allow you to inhabit such luminosity without the external trigger.",
     "advaita-bhakti": "Madhusudana holds both: these realms are genuinely luminous AND still conditioned. Applied: pursue excellence in your work or practice with full commitment (the devotional register) while holding the achievement lightly, knowing it is a station not an arrival (the Advaita register). Burnout often comes from collapsing these two — treating a station as the terminus, or treating the path as trivial because no station is final."
-  }
+  },
+  "primary_meaning": "Die while sattva is full and you reach the bright, unstained worlds of those who know the highest, free from the taints of rajas and tamas."
 }

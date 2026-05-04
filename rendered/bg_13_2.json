@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "matam",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -370,13 +370,6 @@
       ]
     },
     {
-      "list": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.7"
-      ]
-    },
-    {
       "list": "ज्ञान",
       "role": "supporting",
       "other_verses_in_list": [
@@ -514,7 +507,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "matam: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same witness-consciousness (kshetrajna) inhabits every body — from a king to a worm — what does it mean for your sense of personal specialness or personal failure?",
@@ -532,5 +536,6 @@
     "śuddhādvaita": "Every moment of clear seeing — noticing that 'I' is distinct from 'the body in pain' — is itself Krishna's prasada (grace-gift), not your achievement. Celebrate these moments of viveka (discrimination) as lila, and resist making them into spiritual performance or self-improvement.",
     "bhakti": "Use the farmer image practically: audit one domain of your life (career, relationship, health) where you are claiming results as solely 'mine.' Recognize the field you did not create (genetics, teachers, circumstances) and offer the harvest back mentally. This is the Sridhara-bhakti application of kshetra-viveka.",
     "advaita-bhakti": "Madhusudana's synthesis suggests a daily two-beat practice: one beat of clear philosophical witnessing (noticing you are not the body), and one beat of devotional delight (a moment of beauty, gratitude, or Krishna-rupa visualization). Neither cancels the other; together they constitute the advaita-bhakti integration he models in his opening verse."
-  }
+  },
+  "primary_meaning": "Know me as the knower of the field in every body, Arjuna. That knowledge, of field and knower together, is the knowledge I hold to be true."
 }

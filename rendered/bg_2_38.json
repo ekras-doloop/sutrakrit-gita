@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "yujyasva",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present imperative pass 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "avāpsyasi",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -429,7 +429,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -439,13 +439,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.34"
-      ]
-    },
     {
       "list": "अकीर्तिकरम्",
       "role": "supporting",
@@ -465,13 +458,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "2.2"
-      ]
-    },
-    {
-      "list": "त्यक्त्वोत्तिष्ठ परंतप",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.3"
       ]
     },
     {
@@ -514,7 +500,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yujyasva: yuj -> √yuj",
+          "avāpsyasi: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara calls this verse 'incidental instruction' (prāsaṅgika upadeśa) and not the central teaching — so what does it mean that Kṛṣṇa embeds a workaround for Arjuna's grief before the real argument has even begun? Is the equanimity being taught here genuine transformation or a therapeutic bridge?",
@@ -532,5 +529,6 @@
     "śuddhādvaita": "In creative work — writing, music, design — Vallabha's anuddea (non-purposive action) means making the work for the work's sake, as Kṛṣṇa's play, without orienting every choice toward approval or impact. When a piece lands badly with an audience (alābha, apajaya), the practitioner does not revise the internal vision to match external taste, because the success-failure axis belongs to the līlā-field, not to the creator's identity. The everyday practice is: complete the work fully, then release the reception entirely — not as discipline but as recognition that the reception was never yours to hold.",
     "bhakti": "Śrīdhara's three-level samatva has a direct application in health and illness: equanimity at the surface (not weeping at pain) is easy to perform and easy to fake; equanimity at the proximate cause (not investing in recovery as a measure of self-worth) is harder; equanimity at the deepest level (not orienting one's spiritual practice around being healed) is where harṣa-viṣāda-rāhitya actually lives. The Śrīdhara-informed practitioner checks all three levels — am I calm about this result, about the process that produced it, and about the deeper conditions that made that process possible? — before claiming samatva.",
     "advaita-bhakti": "Madhusūdana's Āpastamba citation offers a precise frame for professional life: do excellent work as your dharma, and allow wealth, recognition, and influence to arise as incidental by-products — the shade and fragrance, not the fruit you planted for. The practical move is to keep the quality bar anchored in the dharma of the role (what does this work require?) rather than the incentive structure (what will this work get me?). This is not indifference to results — the mango tree is still planted carefully — but it means that if the fragrance doesn't come, the planting was not a failure."
-  }
+  },
+  "primary_meaning": "Hold pleasure and pain, gain and loss, victory and defeat as equal, then take up the fight. Acting that way, you will not incur sin."
 }

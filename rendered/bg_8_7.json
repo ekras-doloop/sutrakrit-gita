@@ -95,7 +95,7 @@
     },
     {
       "surface_form": "anusmara",
-      "lemma": "anusmṛ",
+      "lemma": "anu-√smṛ",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -120,7 +120,7 @@
     },
     {
       "surface_form": "yudhya",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -177,7 +177,7 @@
     },
     {
       "surface_form": "arpita",
-      "lemma": "arpay",
+      "lemma": "a-√rpay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "eṣyasi",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -575,7 +575,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anusmara: anusmṛ -> anu-√smṛ",
+          "yudhya: yudh -> √yudh",
+          "arpita: arpay -> a-√rpay",
+          "eṣyasi: i -> √i"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the death-moment impression is determined entirely by life-long habit, at what point does a single practice session become too late to matter—and does any school offer a redemptive exception?",
@@ -593,5 +606,6 @@
     "śuddhādvaita": "Before beginning any significant action, say or silently place 'Śrī Kṛṣṇaḥ śaraṇaṁ mama'—Vallabha's reading is that this converts the saṅkalpa (intention) itself into an act of surrender, so even imperfect execution is held within prasāda (grace) rather than condemned by personal failure.",
     "bhakti": "Identify the one recurring duty you perform most mechanically—commuting, cooking, administrative work—and treat it as the citta-śuddhi (mind-purification) instrument Śrīdhara describes; the value is not the task's content but its function as the practical ground on which constant remembrance can build.",
     "advaita-bhakti": "When the inner instrument feels cloudy or scattered, lean on saguṇa practice—nāma (name), rūpa (form), deliberate remembrance; when it grows clear and still, let the attention rest in that clarity without forcing a form—Madhusūdana's synthesis gives explicit permission to move between the two modes as the antaḥkaraṇa (inner instrument) demands, without treating the switch as spiritual regression."
-  }
+  },
+  "primary_meaning": "Keep remembering Me at every hour and fight; with your mind and discernment given over to Me, you will reach Me without doubt."
 }

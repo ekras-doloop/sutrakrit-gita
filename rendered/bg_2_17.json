@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "tatam",
-      "lemma": "tan",
+      "lemma": "√tan",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -240,7 +240,7 @@
     },
     {
       "surface_form": "arhati",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -504,13 +504,6 @@
       ]
     },
     {
-      "list": "विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.30"
-      ]
-    },
-    {
       "list": "सर्वम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -553,7 +546,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "tatam: tan -> √tan",
+          "arhati: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ātman is indestructible and omnipresent, why do I feel so fragile — anxious, grieving, destabilized by loss?",
@@ -570,5 +575,6 @@
     "śuddhādvaita": "Vallabha's reading collapses the sacred-secular split completely: even the apparently perishable borrows its reality from the indestructible. In everyday terms, this means the world you move through — your kitchen, your commute, your most mundane transaction — is not a distraction from Kṛṣṇa's presence but is literally sustained by it. The ordinary mood this produces is not detachment but a kind of cheerful intimacy: you are always already inside something that cannot be destroyed.",
     "bhakti": "Śrīdhara's emphasis on sākṣitva (witness-consciousness) gives modern practitioners a workable tool: when you are swept up in emotion, conflict, or compulsive action, the practice is to locate the witness — not to suppress experience, but to notice that something is watching it. That something is what this verse calls avināśi. Over time, the habit of returning to the witness-stance in ordinary life builds the stability the Gītā is prescribing for Arjuna on the battlefield.",
     "advaita-bhakti": "Madhusūdana's synthesis says that the awareness reading these words right now is the same single Luminosity that illuminates every experience — waking, dream, deep sleep — and that it is not produced by your brain or destroyed by its silence. The practical consequence: even in states of confusion, grief, or near-collapse, the light by which you know you are confused has not gone out. You can trust the witness even when you cannot trust the content of what it is witnessing. This is not consolation; it is a structural fact about consciousness that Madhusūdana argues from first principles."
-  }
+  },
+  "primary_meaning": "Know that as indestructible by which all this is pervaded, for no one can bring about the destruction of what is imperishable."
 }

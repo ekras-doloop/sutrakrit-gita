@@ -389,7 +389,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -684,7 +684,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the perishable world (kṣara) includes even Brahmā, what does that imply about any identity or achievement I treat as permanently mine?",
@@ -702,5 +712,6 @@
     "śuddhādvaita": "Vallabha's insistence that the jīva's kṣaratva is bhagavad-icchā in play gives a non-anxious relationship to impermanence: when a project fails or a phase of life ends, it is Kṛṣṇa withdrawing that particular līlā (divine play) — not a verdict on the self. The daily application is to hold loss lightly, asking 'what new form of seva (service) is Bhagavān opening rather than what is being taken?'",
     "bhakti": "Śrīdhara's image of the kūṭastha caitanya standing like a mountain peak through changing bodies suggests a contemplative anchor available even in high-stress daily contexts. In meetings, conflicts, or health crises, the practice is brief pauses to locate the witness-self — the bhoktā who observes the body's stress responses without being those responses. This is not dissociation but viveka (discernment) between kṣara-body and akṣara-witness.",
     "advaita-bhakti": "Madhusūdana's correction — that both kṣara and akṣara are inert upādhis coloring the Self — applies powerfully to identity politics and group belonging: both 'I am this social body' (kṣara) and 'I am the stable cultural identity beneath it' (akṣara as one commonly reads it) are upādhis obscuring the nirupādhika Self. The synthesis practice is to honor one's cultural and devotional form while refusing to be fully captured by it, holding Kṛṣṇa-bhakti as the only anchor that points beyond both adjuncts."
-  }
+  },
+  "primary_meaning": "Two principles exist in this world: the perishable, which is every creature born and gone, and the imperishable, which stands fixed as their ground."
 }

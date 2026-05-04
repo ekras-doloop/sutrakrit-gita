@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "protam",
-      "lemma": "prave",
+      "lemma": "pra-√ve",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -406,13 +406,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "क्षेत्रज्ञं चापि मां विद्धि सर्वक्षेत्रेषु भारत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "13.2"
-      ]
-    },
-    {
       "list": "मत्तः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -428,43 +421,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "7.12"
-      ]
-    },
-    {
-      "list": "मयि सर्वमिदं प्रोतम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.4"
-      ]
-    },
-    {
-      "list": "यज्ज्ञात्वा नेह भूयोऽन्यज्ज्ञातव्यमवशिष्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.2"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
       ]
     },
     {
@@ -521,7 +477,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as",
+          "protam: prave -> pra-√ve"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If nothing exists higher than Kṛṣṇa and the world is strung on Him as beads on a thread, does the thread perish when the beads break — i.e., does the destruction of the world threaten the reality of Brahman at all?",
@@ -539,5 +506,6 @@
     "śuddhādvaita": "Vallabha's reading that the world is Kṛṣṇa's real svarūpa (not illusion) transforms aesthetic experience into sādhana (practice): the beauty of a rāga heard at dawn, a child's laughter, the texture of good work done — these are not distractions from Kṛṣṇa but disclosures of Him. Puṣṭi-mārga practitioners cultivate this recognition as the primary form of worship: receiving the world as prasāda (gracious gift), not as obstacle.",
     "bhakti": "Śrīdhara's emphasis on sṛṣṭi-saṃhāra-sthiti (creation, dissolution, sustenance) as unified in one cause suggests a practical orientation toward impermanence: beginnings and endings are not opposed events but the same hand moving. When a project ends, a relationship changes, a phase of life closes — the practitioner recognizes this as the one Lord's hand in both the threading and the unthreading. Śrīdhara's 'dṛṣṭāntaḥ spaṣṭaḥ' (the example is clear) counsels against over-intellectualizing: rest in the image itself.",
     "advaita-bhakti": "Madhusūdana's two-level reading (paramārtha and vyavahāra coexisting) maps onto a practice of holding both scales simultaneously: act in the world with full competence and care (vyavahāra — the beads are real, the thread is real, the stringing matters), while the deeper register holds lightly ('none of this is ultimately other than the ground'). The synthesis prevents both quietist withdrawal (collapsing to paramārtha alone) and anxious grasping (collapsing to vyavahāra alone). Each action is done with full presence and released without residue."
-  }
+  },
+  "primary_meaning": "There is nothing higher than Me, Arjuna; all of this is strung in Me as beads on a thread."
 }

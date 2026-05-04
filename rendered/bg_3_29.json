@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "saṃmūḍhāḥ",
-      "lemma": "sammuh",
+      "lemma": "sam-√muh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "sajjante",
-      "lemma": "sañj",
+      "lemma": "√sañj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "vicālayet",
-      "lemma": "vicālay",
+      "lemma": "vi-√cālay",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -416,7 +416,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -427,31 +427,7 @@
   },
   "theme_list_memberships": [
     {
-      "list": "असक्तः विद्वान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.25",
-        "3.26"
-      ]
-    },
-    {
       "list": "जोषयेत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.25",
-        "3.26"
-      ]
-    },
-    {
-      "list": "युक्तः विद्वान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.25",
-        "3.26"
-      ]
-    },
-    {
-      "list": "सक्ताः अविद्वांसः",
       "role": "supporting",
       "other_verses_in_list": [
         "3.25",
@@ -486,7 +462,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃmūḍhāḥ: sammuh -> sam-√muh",
+          "sajjante: sañj -> √sañj",
+          "vicālayet: vicālay -> vi-√cālay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even a fully realised person must continue acting outwardly — and must stay silent about that non-duality — what is the difference between the wise person's action and the deluded person's action from the outside?",
@@ -504,5 +492,6 @@
     "śuddhādvaita": "In the Puṣṭi frame, a parent watching a teenager absorbed in competitive achievement does not intervene to explain the futility of fame. That absorption is Kṛṣṇa's current dispensation for that soul. The parent's role is to remain warm, available, and unmoved — neither feeding the hunger nor triggering a crisis of meaning the teenager is not equipped to metabolise.",
     "bhakti": "Śrīdhara's upasaṃhāra framing suggests this is the closing principle of an entire block of teaching: in a learning community, a senior practitioner concludes a session not by delivering the highest view to everyone uniformly, but by ensuring each person leaves with their own practice intact — not disrupted, not inflated. The teaching withheld is also teaching.",
     "advaita-bhakti": "Madhusūdana's principle — that the pure-minded depart from guṇa-entanglement naturally when viveka (discrimination) matures — suggests that the most useful intervention in another's spiritual development is creating conditions for antaḥkaraṇa-śuddhi (purification of the inner instrument): honest environment, genuine relationship, consistent example. Arguing for non-attachment to someone whose antaḥkaraṇa is not yet clear is like pouring water into a cracked vessel."
-  }
+  },
+  "primary_meaning": "People deluded by nature's qualities cling to the actions those qualities produce, and the one who sees the whole should not unsettle them, for they are not yet ready to know more."
 }

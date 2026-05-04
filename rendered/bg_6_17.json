@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -451,7 +451,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yukta: yuj -> √yuj",
+          "yukta: yuj -> √yuj",
+          "yukta: yuj -> √yuj",
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara and Madhusūdana both use the word 'niyata' (fixed, measured) rather than 'reduced' — what is the difference between disciplined measurement and mere reduction, and why does the distinction matter for yoga practice?",
@@ -469,5 +482,6 @@
     "śuddhādvaita": "When you notice yourself reaching for excess — in food, in screen time, in conversation — treat that noticing as Kṛṣṇa's own prompting (parāvṛtti). The Vallabha application is not self-discipline through effort but receptivity to grace: pause, feel the pull back toward balance, and let that be the practice. Puṣṭi-mārga practitioners frame daily regulation as Kṛṣṇa shaping his instrument.",
     "bhakti": "Build a written daily schedule anchored on niyata (fixed) sleep and wake times, fixed meal windows, and fixed periods of work. Śrīdhara's point is that yoga 'siddha' (accomplishes itself) once the schedule holds — the devotee is not straining toward samādhi but removing the obstacles that prevent its natural arising. The schedule is the practice.",
     "advaita-bhakti": "Apply the classical proportional rule at every meal: fill the stomach half with food, a quarter with water, leave a quarter empty for movement of breath (vāyu-sañcaraṇa). Madhusūdana gives this as the precise āhāra-niyatā. Pair it with his sleep rule: sleep only the middle third of the night, keeping the first and final thirds for practice. These are not ideals — they are the specific technical inputs that produce sādhanā-pāṭava (sharpness of the means), which is the precondition for samādhi."
-  }
+  },
+  "primary_meaning": "Yoga becomes the destroyer of suffering for one whose eating and movement are measured, whose effort in action is proportioned, and whose sleep and waking keep their proper times."
 }

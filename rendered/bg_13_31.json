@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "lipyate",
-      "lemma": "lip",
+      "lemma": "√lip",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -450,7 +450,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "lipyate: lip -> √lip"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the paramatman is nirguṇa (without the three modes of prakriti) and anadi (beginningless), what is the logical connection between these two properties and the conclusion that it 'neither acts nor is stained'?",
@@ -468,5 +478,6 @@
     "śuddhādvaita": "Vallabha's reading of this verse as a fruit of kshetra-kshetrajna knowledge means that recognizing Hari's akshara-shakti in every differentiated form — every person you encounter, every circumstance that seems alien or harsh — is not a philosophical exercise but an experiential opening. The prakasha (luminosity) of that recognition is itself seva (service); no separate devotional act is needed.",
     "bhakti": "Sridhara's framing is practical: see both the dissolution (all differences collapse into prakriti) and the creation (all forms expand from prakriti) as two movements of the same ground. When a relationship ends or a phase of life closes, and when a new one begins, both are vistaara and pravilaya of the same Ishvara-shakti. This removes both grasping and aversion from life's transitions.",
     "advaita-bhakti": "Madhusudhana's synthesis is the most demanding daily application: hold both moves simultaneously — the world's plurality is real as appearance (not dismissed), and it is superimposed on pure being (not ontologically final). In a disagreement with someone, the other person is real as a presence to be honored, and the boundary between self and other is kalpita (a construction). Neither collapse into merger nor harden into separation; abide in the paradox as brahman abides."
-  }
+  },
+  "primary_meaning": "Because it has no beginning and no qualities, the supreme self is imperishable, Arjuna, and though it lives in the body, it neither acts nor is stained."
 }

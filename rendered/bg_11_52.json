@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "dṛṣṭavān",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -335,9 +335,10 @@
         "jayatirtha_11.52"
       ],
       "score": 0.5,
-      "english_rendering": "The cosmic form is absolutely rare, visible only at Hari's sovereign will — no jīva (individual soul), however exalted, can compel or earn this vision. The devas are ever-yearning (darśana-kāṅkṣiṇaḥ) because the distance between jīva and Brahman is eternal (nitya-bheda: eternal difference); even divine beings perpetually depend on Hari's independence (svātantrya) for every moment of access. Arjuna's privilege underscores that grace is entirely Hari's prerogative, not a consequence of any created merit.",
-      "divergence_note": "Madhva's text on this verse is absent from the corpus (the payload records: 'Sri Madhvacharya did not comment on this sloka'). This rendering extrapolates from Madhva's established dvaita principles — svātantrya of Hari, eternal jīva-Brahman distinction, and vision as uncaused grace — applied to the verse's plain statement that even devas do not see this form. Flagged as extrapolation, not direct bhāṣya citation.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Sudurdarśam* (supremely difficult to behold) — this form Arjuna has witnessed is the *viśvarūpa* of *Hari*, the *svatantra* (independently real, self-sufficient) Lord whose sovereign will alone governs every act of divine disclosure. No *jīva* (individual self), however elevated in the *taratamya* (graded ontological hierarchy), commands this vision; the *paratantra* (eternally dependent) nature of even the highest *devās* means their *darśana-kāṅkṣiṇaḥ* — their perpetual, unassuaged yearning — is ontologically necessary, not a contingent lack. *Nitya* here is not incidental: the *devās* desire this sight *always* because the *bheda* (real distinction) between *jīva* and Hari is itself *nitya*, securing that no created being stands level with the Lord or seizes access to what only *svātantrya* can grant. Arjuna's having seen this form is pure, uncaused grace — *anugraha* flowing from Hari's own sovereign initiative, standing outside the ledger of any accumulated merit.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading voices the dvaita *siddhānta* directly from the mūla — *sudurdarśam*, the ever-yearning *devās*, and the *nitya* qualifier — through the pañca-bheda scheme and the doctrine of Hari's *svātantrya* as the sole condition of visionary access.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -453,7 +454,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dṛṣṭavān: dṛś -> √dṛś",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the devas (beings of pure sattva and vast cosmic power) perpetually yearn for this vision without obtaining it, what does that imply about the relationship between spiritual attainment and direct access to the divine — is proximity a function of quality, grace, or something else entirely?",
@@ -471,5 +483,6 @@
     "śuddhādvaita": "Notice how much of what you most want — genuine recognition, deep connection, creative flow — resists being achieved by effort alone. The anugraha-bīja (seed of grace) framing suggests: prepare the ground (sattva, sincerity, openness), but do not confuse ground preparation with controlling the harvest. The gift arrives or it does not.",
     "bhakti": "When someone does something for you that you know you could not have earned or arranged — a teacher who stayed, a friend who showed up at the worst hour — pause and let the rarity register. Śrīdhara's reading of this verse is a model: the Lord himself marks the atidurlabhatva (extreme rarity) of what he gave. Gratitude that names the specific gift, rather than generic thanks, is itself a form of bhakti.",
     "advaita-bhakti": "There are experiences — of nature, of music, of love — that simultaneously overwhelm you with their totality and draw you toward their intimate center. Do not stay at the totality level. The cosmic vision is preliminary; the turn toward the personal (the two-armed form that follows) is where the relationship lives. Let awe become intimacy."
-  }
+  },
+  "primary_meaning": "What you have seen of my form is nearly impossible to behold, and even the gods yearn for this sight without end."
 }

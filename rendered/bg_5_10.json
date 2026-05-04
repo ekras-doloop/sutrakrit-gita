@@ -210,7 +210,7 @@
     },
     {
       "surface_form": "lipyate",
-      "lemma": "lip",
+      "lemma": "√lip",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -654,13 +654,6 @@
       ]
     },
     {
-      "list": "ब्रह्मण्याधाय कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.3"
-      ]
-    },
-    {
       "list": "भगवान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -696,14 +689,6 @@
         "18.6",
         "18.9"
       ]
-    },
-    {
-      "list": "सङ्गात्संजायते कामः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62",
-        "2.63"
-      ]
     }
   ],
   "audit_trail": {
@@ -733,7 +718,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "lipyate: lip -> √lip"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse requires depositing actions 'in Brahman' — but Brahman means prakṛti for Rāmānuja, Īśvara for Śaṅkara and Śrīdhara, Hari as supremely independent for Madhva, and brahma-yajña for Vallabha. Does the deposit itself change in kind when its recipient changes in identity?",
@@ -751,5 +746,6 @@
     "śuddhādvaita": "Vallabha's standard is not renunciation of action but its transformation into brahma-yajña — consecrated play. Make whatever you are doing a dedicated offering: prepare food as if cooking in Kṛṣṇa's kitchen, write as if composing for His delight, converse as if every exchange is prasāda. The test is whether your action retains the feeling of personal investment in the outcome (fala-abhisandhi). When that investment dissolves and only the doing remains, you are in kriyā-advaita-bhāva. The lotus leaf simile: the action touches the world fully and leaves no residue.",
     "bhakti": "Śrīdhara's prescription is for the person caught in the bootstrapping problem: 'My mind is impure; how can I truly surrender?' The answer is to begin with the form of surrender even before the feeling arrives — dedicate the action to Parameśvara at the outset, not as a technique but as a recognition of His actual lordship. The impure mind that attempts genuine surrender is already being purified by that attempt. Over time, the abhimāna ('I am doing this') weakens not through suppression but through repeated honest re-attribution. This is available to anyone, regardless of spiritual attainment.",
     "advaita-bhakti": "Madhusūdana's 'servant for the master' frame is precise and practical: a servant acts with full competence and initiative but does not stake personal identity on the outcome, because the outcome belongs to the master. Apply this to professional life — do the work at the highest standard, but route ownership of success and failure to Bhagavān. The intellectual move is buddhi-śuddhi: each act of offering clarifies the distinction between the actor-as-instrument and the actor-as-ego-claimant. Over months of consistent practice, the lotus-leaf quality becomes habitual — full contact with results, zero adhesion."
-  }
+  },
+  "primary_meaning": "Whoever rests all actions in Brahman and sheds attachment is not stained by sin, as a lotus leaf is not stained by water."
 }

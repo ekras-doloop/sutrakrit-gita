@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "kāṅkṣantaḥ",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "yajantaḥ",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -209,7 +209,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -450,30 +450,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "3.30",
-        "5.11",
-        "6.3"
-      ]
-    },
-    {
-      "list": "कर्म चैव तदर्थीयं सदित्येवाभिधीयते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.12"
-      ]
-    },
-    {
-      "list": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.11"
-      ]
-    },
-    {
       "list": "कर्मयोग",
       "role": "supporting",
       "other_verses_in_list": [
@@ -547,7 +523,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kāṅkṣantaḥ: kāṅkṣ -> √kāṅkṣ",
+          "yajantaḥ: yaj -> √yaj",
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even devatā-worship ultimately serves the Lord (because He is the antarātman of all devas, per Dvaita and Viśiṣṭādvaita), does the verse condemn desire-driven ritual or merely describe its limitation?",
@@ -565,5 +553,6 @@
     "śuddhādvaita": "Vallabha's framing of the Lord's deliberate delay as purification rather than indifference applies directly to any sustained practice — a creative project, a long study, a relationship — whose fruit is slow: the slowness is not absence of grace but the grace of being made fit. The practitioner in Puṣṭi-mārga does not switch to a faster 'deity' (a shortcut, a hack, a lesser goal) when results are slow; the delay itself is the curriculum.",
     "bhakti": "Śrīdhara's plain observation — jñāna-phala is rare because it is difficult (duṣprāpya) and most prefer the quick route — maps onto how we choose between shallow learning (fast, visible credential) and deep understanding (slow, no credential at the end). The verse, read through Śrīdhara, licenses patience: the practitioner who chooses the slow path toward genuine understanding is not making a strategic error, but is simply among the few.",
     "advaita-bhakti": "Madhusūdana's requirement of antaḥkaraṇa-śuddhi before jñāna ripens means that inner clarity is not optional preliminary work but the actual bottleneck. In practice: before seeking a higher-order answer to a hard problem — in work, in relationships, in creative life — the question to ask is not 'what is the answer' but 'is my instrument (attention, intention, emotional clarity) actually clean enough to receive it?' The verse, on this reading, mandates inner preparation as the precondition for any genuine cognitive result."
-  }
+  },
+  "primary_meaning": "People who want quick results from their actions worship the devas here in the human world, and they get those results fast, because in this realm the fruit of action ripens swiftly."
 }

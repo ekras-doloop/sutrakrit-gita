@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "prayātāḥ",
-      "lemma": "prayā",
+      "lemma": "pra-√yā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -583,7 +583,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prayātāḥ: prayā -> pra-√yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If agni, day, and uttarāyaṇa are presiding consciousnesses (abhimāninī devatās) rather than mere astronomical markers, what does that imply about the metaphysical structure of time itself in the Indic framework?",
@@ -601,5 +611,6 @@
     "śuddhādvaita": "For the Puṣṭi-bhakta the archirādi path is a description of what others require; the practitioner's task is to deepen rasa-bhāva so thoroughly that at the moment of departure there is no path to walk — one simply falls into Kṛṣṇa's līlā. Practically this means: invest every auspicious season in smaraṇa and kīrtana of Kṛṣṇa's līlā rather than in careful timing of ritual — the goal is not a good exit but an ongoing presence in Bhagavān.",
     "bhakti": "Read this verse as pastoral assurance: even an upāsaka who cannot claim the full jñāna of the seer has a verified, śruti-mapped route toward Brahman if she departs in these auspicious conditions. The practical corollary is to keep spiritual practice — upāsanā, satsaṅga, bhagavad-sevā — alive throughout life so that the inner orientation at the moment of death can align naturally with the departing corridor, rather than scrambling for deathbed corrections.",
     "advaita-bhakti": "Use the cosmological map Madhusūdana supplies — arci → ahan → pakṣa → uttarāyaṇa → saṃvatsara → deva-loka → vāyu → āditya → candra → vidyut → amānava-puruṣa → kārya-brahman — as a contemplative ladder: each rung is a station of increasingly subtle consciousness, mirroring the meditator's own progressive interiorization in dhyāna. The path is both external cosmology and an internal itinerary of the mind dissolving into ever-subtler levels of awareness, culminating in the recognition that Bhagavān, not cosmic architecture, is the actual conductor."
-  }
+  },
+  "primary_meaning": "Fire, light, day, the bright fortnight, the six months of the northern sun's arc: those who know Brahman and depart by this road reach Brahman."
 }

@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "dṛṣṭaḥ",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "ijyate",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -335,8 +335,9 @@
         "jayatirtha_17.11"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse. Extrapolating from Dvaita first principles: sāttvika yajña is performed purely as dāsya (servitude) to Hari, with no aim of personal reward, because the jīva (individual soul) is eternally dependent on and subordinate to Viṣṇu. The resolve 'yaṣṭavyam eva' reflects the jīva's recognition that worship is its svabhāva (intrinsic nature), not a transaction. Fruit-desire would contaminate worship by treating Hari as instrument; sāttvika yajña honours the ontological asymmetry between the eternally distinct jīva and Brahman.",
-      "divergence_note": "Bhashya absent — Madhvacharya did not comment on this verse; rendering extrapolated from Dvaita ontology."
+      "english_rendering": "*Aphalākāṅkṣibhiḥ* — those who bear no hunger for fruit — perform *yajña* (sacrifice) as enjoined by *vidhi* (scriptural ordinance), settling the mind on the sole resolve *yaṣṭavyam eva* ('this is simply to be performed'): that sacrifice is *sāttvika*. In *dvaita* reading, this resolve is not mere psychological equanimity but an expression of the *jīva*'s *paratantra* (eternally dependent) status before *svatantra* (the independently real, self-sufficient) Hari. The *pañca-bheda* (the five-fold real distinction) between Lord and *jīva* makes fruit-desire an ontological error: to worship Hari in order to secure a private return is to invert the hierarchy, treating the supreme *svatantra* as instrument of *paratantra* ends. *Vidhi-dṛṣṭa* — what is seen through scriptural injunction — names the authoritative *taratamya* (graded ontological hierarchy) by which each order of being has its proper *dharma*; for the *jīva*, worship is not a transaction but its own *svabhāva* (intrinsic nature), the natural posture of subordination to Hari. *Manaḥ samādhāya* — settling or concentrating the mind — is the interior stabilisation in which the *jīva* rests in that subordination, undeflected by desire for *phala* (fruit). Such *yajña* is *sāttvika* because it keeps the ontological order intact: the *paratantra jīva* directing its action entirely toward the *svatantra* Lord, with no competing aim to pull it back toward the self.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse; reading voiced directly from dvaita siddhānta off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -429,7 +430,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dṛṣṭaḥ: dṛś -> √dṛś",
+          "ijyate: yaj -> √yaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the very same ritual act can be sāttvika, rājasika, or tāmasika depending only on the performer's inner resolve, what does that imply about the ontological weight of external form versus internal orientation in any practice?",
@@ -447,5 +459,6 @@
     "śuddhādvaita": "Offer one creative or devotional act today — a drawing, a song, cooking a meal — without any audience in mind, not even yourself as judge. Vallabha's Puṣṭi insight: when the act is Kṛṣṇa's own play, the question of your ownership of its outcome does not arise. Finish, and let it go without evaluation.",
     "bhakti": "Identify one recurring duty you perform with half-attention because you tell yourself 'it does not really matter.' Shridhara's test: is your mind ekāgra (one-pointed) or scattered during this act? Settle the mind before beginning — 'this is to be done, fully, as it is' — and observe whether the quality of attention changes the quality of the work.",
     "advaita-bhakti": "Pick one nityakarma (daily obligation that cannot be avoided without cost — exercise, correspondence, basic self-care) that you have been performing grudgingly or skipping. Madhusudan's frame: perform it today as antaḥkaraṇa-śuddhi (inner-instrument maintenance), not for any downstream reward. Even an imperfect version performed with this resolve is sāttvika; the perfect version performed for praise is not."
-  }
+  },
+  "primary_meaning": "Sacrifice performed exactly as scripture prescribes, by those who want no reward, with the mind settled on one resolve, \"this must be done,\" is sāttvika."
 }

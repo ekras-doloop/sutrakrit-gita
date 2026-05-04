@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "varjitāḥ",
-      "lemma": "varjay",
+      "lemma": "√varjay",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "dagdha",
-      "lemma": "dah",
+      "lemma": "√dah",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -239,7 +239,7 @@
     },
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -624,7 +624,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "varjitāḥ: varjay -> √varjay",
+          "dagdha: dah -> √dah",
+          "āhuḥ: ah -> √ah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the fire of knowledge (jñānāgni) burns both merit and demerit equally, does moral effort toward good action become irrelevant — or does the verse assume that such effort has already built the pure mind that catches fire?",
@@ -642,5 +654,6 @@
     "śuddhādvaita": "Vallabha's paṇḍā (discriminative intelligence alive in the action) asks: at the moment of starting any task, is the intellect actually present, or is the hand moving on autopilot? The Puṣṭi-mārga application is not suppression of enthusiasm but its purification — act with full viveka (discernment) engaged, letting Kṛṣṇa's grace (prasāda) provide the animating energy rather than personal craving. The adhenugovat image is a warning: desire-driven action is generative (seeds future bondage); prasāda-animated action is like the barren cow — abundant in milk of presence, empty of reproductive compulsion.",
     "bhakti": "Śrīdhara's sequential cycle suggests a practical entry-point: you do not need jñāna before beginning. Begin with the action (karma), hold it with attention and without agenda, allow it to purify the mind, and trust that the purified mind will, in time, generate its own fire. The application is perseverance without expectation: show up for the work — meditation, service, craft, relationship-tending — not because you can measure the progress toward ārūḍhāvasthā (the advanced stage) but because the cycle is trustworthy. Śrīdhara's 'śeṣaṃ spaṣṭam' (the rest is clear) is itself a teaching: once the fire is lit, it is self-explanatory.",
     "advaita-bhakti": "Madhusūdana's two precise definitions — kāma as phala-tṛṣṇā (thirst for outcome) and saṅkalpa as kartṛtva-abhimāna (pride of authorship) — offer a two-question audit for any action. First: 'Am I thirsty for a particular result, or am I at peace with whatever emerges?' Second: 'Am I narrating this as my accomplishment, or am I transparent to the action?' Both questions can be run in real time, mid-task. The Brahma-Sūtra citation about karma neither clinging nor being re-enacted provides the metaphysical assurance: past errors need not be rehearsed; the dissolution is structural, not earned by perfect future behavior."
-  }
+  },
+  "primary_meaning": "One whose every undertaking is free of desire and the ego-claim \"I am doing this\" has had all prior karma burned away by the fire of knowledge, and the wise call such a person a true pandit."
 }

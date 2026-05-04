@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "saṃpluta",
-      "lemma": "samplu",
+      "lemma": "sam-√plu",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -291,7 +291,7 @@
     },
     {
       "surface_form": "vijānataḥ",
-      "lemma": "vijñā",
+      "lemma": "vi-√jñā",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -550,7 +550,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃpluta: samplu -> sam-√plu",
+          "vijānataḥ: vijñā -> vi-√jñā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara insists the verse is not a license to abandon karma prematurely — the well still serves its purpose until the adhikāra (qualification) for jñāna-niṣṭhā has matured. What would it look like, in concrete terms, to mistake the pointing-at-the-flood for the arrival of the flood? How does a practitioner distinguish genuine jñāna-readiness from the fantasy of having already arrived?",
@@ -568,5 +579,6 @@
     "śuddhādvaita": "Vallabha's reading applies to the sādhaka who is overwhelmed by the sheer volume of Vedic injunction and feels paralyzed by the impossibility of fulfilling all of it. The verse's teaching is that the vijānataḥ (one who genuinely knows) takes up only what ātma-saṃsiddhi-sādhana (the means to one's own completion in Kṛṣṇa) actually requires in the present moment — not as a license for laziness but as the grammar of a path sustained by prasāda (Kṛṣṇa's unsolicited grace). In Puṣṭi-mārga terms, the question to bring to one's sādhanā each day is not 'have I fulfilled everything the Veda requires?' but 'what is Kṛṣṇa drawing me toward right now?' — the flood is already full; the practitioner's task is to notice what it is offering and draw from it with attention and gratitude, not to attempt to drink all of it at once.",
     "bhakti": "Śrīdhara's reading is addressed to the person who is afraid that turning toward bhakti (devotion) and brahmānanda (the bliss of Brahman) means impoverishing their life — giving up the legitimate joys, accomplishments, and satisfactions that come from engagement with the world and its disciplines. His Taittirīya anchor is meant to dissolve this fear at the root: all the minor bliss-states are already fractions of brahmānanda; turning toward the source does not subtract any genuine joy but reveals that every genuine joy was always drawing on the same source. The practical implication is that bhakti is not a path of deprivation but of depth-discovery: the same relationships, work, and beauty that previously produced kṣudrānanda (minor bliss) become, for the brahma-niṣṭha (one absorbed in Brahman), transparent windows onto the one ānanda that was always underneath them.",
     "advaita-bhakti": "Madhusūdana's synthesis addresses the most philosophically sophisticated form of the anxiety Śrīdhara names: not 'will I lose my small joys?' but 'if all minor joys are only aṃśa (fractions) of brahma-ānanda, are they real in the first place — and if they are not real, what is the point of anything I am presently doing?' His answer reorients the question: the kṣudrānanda are not unreal but upādhi-paricchedita (bounded by limiting superimpositions), and the niṣkāma practice he commends to Arjuna is precisely the process of dissolving those upādhis (limiting conditions) through antaḥkaraṇa-śuddhi (purification of the inner instrument). The everyday application is to approach desireless action not as a joyless renunciation but as a progressive unveiling: each act performed with bhagavad-arpaṇa (dedication to Bhagavān) and without kāmya-attachment is removing one layer of the upadhi-kalpanā (limiting superimposition) that makes the flood look like a collection of disconnected wells."
-  }
+  },
+  "primary_meaning": "When a flood stretches in every direction, a single well adds nothing new; all the Vedas offer nothing beyond what the one who truly knows already holds."
 }

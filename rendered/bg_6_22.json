@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "manyate",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -251,7 +251,7 @@
     },
     {
       "surface_form": "vicālyate",
-      "lemma": "vicālay",
+      "lemma": "vi-√cālay",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -520,7 +520,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "manyate: man -> √man",
+          "sthitaḥ: sthā -> √sthā",
+          "vicālyate: vicālay -> vi-√cālay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ātman's gain is truly 'without superior', why does ordinary human psychology keep seeking further gains even after deep meditative states — is the verse describing a threshold-crossing or a gradual saturation?",
@@ -538,5 +550,6 @@
     "śuddhādvaita": "Vallabha's paradox — yoga as separation from pain-union — reframes every encounter with suffering as an invitation. In Puṣṭi-mārga (path of grace) terms: when something painful arises, the practitioner asks 'is this Kṛṣṇa's prasāda (grace) pointing me toward the viyoga (separation) from this very pain?' The effort called for (sa niścayena) is not grim asceticism but wholehearted engagement with practice as Kṛṣṇa's own movement through the sādhaka.",
     "bhakti": "Śrīdhara's 'heat-cold' example grounds the verse in the most ordinary physical dimension: temperature discomfort, minor irritation, bodily fatigue. The application is calibration of practice: if a practitioner finds that sitting meditation is routinely disrupted by minor physical discomfort, Śrīdhara's reading suggests this is a gauge of how far the ātma-sukha has taken hold — not a reason for self-criticism but a diagnostic of practice depth.",
     "advaita-bhakti": "Madhusūdana's double-threat analysis — vāsanā (latent desire) and external assault — maps directly onto the two commonest disruptions in contemporary sustained practice: internal restlessness (the scroll, the next project, the unresolved ambition) and external shock (bad news, physical pain, sudden loss). His a-fortiori logic is usable as a personal benchmark: 'if the yogin is unmoved by weapon-blow, surely I can be unmoved by this notification.' The smṛti he cites — 'the done is done, the obtainable is obtained' — is a practical mantra for the moment when acquisition-logic reasserts itself."
-  }
+  },
+  "primary_meaning": "Gaining this, you think no other gain greater; standing here, no sorrow, however heavy, can move you."
 }

@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "matam",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "āsthitaḥ",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -380,7 +380,8 @@
         "jayatirtha_7.18"
       ],
       "score": 0.5,
-      "english_rendering": "The Dvaita bhāṣya for this verse is not extant in the supplied corpus (the payload records 'Sri Madhvacharya did not comment on this sloka'). Madhva's broader framework, however, would construe 'ātmaiva me matam' as hyperbolic praise of the devotee's closeness rather than any erosion of eternal jīva-Brahman distinction: the jñānī is supremely dear as a wholly dependent worshipper of Hari, his superiority grounded in vivid cognition of Hari as utterly independent (svatantra) and himself as utterly dependent (paratantra). The anuttamā gati is Viṣṇu-sāyujya understood as eternal loving proximity, not identity."
+      "english_rendering": "*Udārāḥ sarva evaite* — all four classes of devotees named in the preceding verses are noble, for each has turned toward *Hari* (the *svatantra*, independently real Lord) rather than away from Him. Yet the *jñānī* stands apart: *ātmaiva me matam*, Krishna declares him His very *ātman* — not that any *bheda* (real distinction) between Lord and *jīva* dissolves, but that the *jñānī*'s cognition of *pañca-bheda* (the five-fold real distinction) is itself so vivid and complete that his *bhakti* (devotion) constitutes pure ontological subordination with no admixture of ulterior desire. He alone grasps Hari as wholly *svatantra* and himself as wholly *paratantra* (eternally dependent), and that cognition makes his very being a transparent reflection of the Lord's will. *Āsthitaḥ sa hi yuktātmā mām evānuttamāṃ gatim* — steadied in *yuktātmā* (mind wholly united with Hari), he has taken refuge in Krishna alone as *anuttamā gati*, the unsurpassed goal. That goal is *Viṣṇu-sāyujya* read through *taratamya* (graded ontological hierarchy): eternal loving proximity to Hari, the *jīva* arriving at its highest station without ceasing to be *paratantra*, distinct, and forever subordinate.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -520,13 +521,6 @@
       ]
     },
     {
-      "list": "ज्ञानी त्वात्मैव मे मतम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.16"
-      ]
-    },
-    {
       "list": "युक्त",
       "role": "supporting",
       "other_verses_in_list": [
@@ -603,7 +597,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "matam: man -> √man",
+          "āsthitaḥ: āsthā -> ā-√sthā",
+          "yukta: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord declares the jñānī to be 'ātmaiva' — his very self — does that make the jñānī's realization a precondition for the Lord's own completeness, or merely a recognition of what was always structurally true?",
@@ -621,5 +627,6 @@
     "śuddhādvaita": "Vallabha's 'yathākathañcit' principle — 'by whatever means, if your action is connected to the Lord, it is sufficient' — has a liberating everyday implication: even imperfect, mixed-motive engagement with what is genuinely good (a craft, a relationship, a service) carries the agent toward transformation. You do not need to wait until your motives are pure before beginning. Begin with what you actually care about and let the bhajana refine the care.",
     "bhakti": "Śrīdhara's answer to 'do the first three remain in saṃsāra?' is a flat no — all four are mokṣa-bhāja. The practical implication is that wherever you currently are on the spectrum (seeking relief, seeking knowledge, seeking prosperity, or seeking the Lord for his own sake), the trajectory is not disqualifying. The corrective is not to force yourself prematurely to the fourth stage but to keep the connection live at whatever stage you are in, trusting that the connection itself is the conveyor.",
     "advaita-bhakti": "Madhusūdana's reciprocity principle — that the Lord's love mirrors the devotee's undividedness — suggests a practical experiment: in any relationship where you feel undervalued, examine how much of your attention in that relationship is actually undivided versus divided among other concerns and comparisons. The verse implies the return is proportional not to the intensity of your affection but to its exclusivity. Reducing the number of competing loyalties in one important relationship — rather than amplifying emotion — is the structural move."
-  }
+  },
+  "primary_meaning": "All four are noble, but Krishna calls the *jñānī* his very Self, for that devotee's mind rests in him alone, with no second love, and takes him as the only goal worth reaching."
 }

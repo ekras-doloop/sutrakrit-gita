@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "samprakīrtitaḥ",
-      "lemma": "samprakīrtay",
+      "lemma": "√samprakīrtay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -458,7 +458,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samprakīrtitaḥ: samprakīrtay -> √samprakīrtay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If tyaga has three qualities (tamasic/rajasic/sattvic), what does this imply about the popular assumption that 'renunciation is renunciation' — is all simplification of complex categories spiritually dangerous?",
@@ -476,5 +486,6 @@
     "shuddhadvaitya": "Vallabha's Pushti-marga application: when you act in service — cooking, teaching, coding, parenting — explicitly transfer the sense of kartritva to the divine. The practical form is: 'I act under a power not my own; the capacity to act is prasada.' This is not passivity but a deliberate shift of the seat of agency, practiced moment-to-moment.",
     "bhakti": "Shridhara's durbodha warning applies directly to organizational or personal 'letting go' rhetoric: do not assume you understand renunciation because it sounds familiar. Before deciding what to relinquish, spend time with someone who has genuinely mastered it — the very difficulty of tyaga is why living examples (sat-sanga) matter more than doctrinal summaries.",
     "advaita-bhakti": "Madhusudana's vividiisha/vidvat distinction maps onto career transitions: are you leaving a role as a seeker (renouncing to make space for what wants to emerge) or as someone who has genuinely completed it (renouncing because it is truly done)? The first requires discipline and structure to protect the space; the second requires nothing — it is simply finished. Misidentifying which you are leads either to premature abandonment or prolonged attachment."
-  }
+  },
+  "primary_meaning": "Hear my settled conclusion on renunciation, Arjuna: renunciation, O tiger among men, has been declared to be of three kinds."
 }

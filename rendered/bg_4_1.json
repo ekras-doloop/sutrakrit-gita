@@ -44,7 +44,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -127,7 +127,7 @@
     },
     {
       "surface_form": "proktavān",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -269,7 +269,7 @@
     },
     {
       "surface_form": "prāha",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -335,7 +335,7 @@
     },
     {
       "surface_form": "abravīt",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -525,18 +525,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.13",
-        "3.17",
-        "3.31",
-        "12.3"
-      ]
-    },
-    {
       "list": "अव्यय",
       "role": "supporting",
       "other_verses_in_list": [
@@ -669,7 +657,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "proktavān: pravac -> pra-√vac",
+          "prāha: prāh -> √prāh",
+          "abravīt: brū -> √brū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa declares this same yoga was taught at the beginning of creation, what does that imply about whether dharma is invented by humans or disclosed by a higher principle?",
@@ -687,5 +688,6 @@
     "śuddhādvaita": "Let every act of teaching or skill-sharing you perform be offered as brahma-arpaṇa (offering into the divine): you are a conduit of Kṛṣṇa's prasāda, not its author. This frees you from both pride in transmission and grief at its interruption — the yoga is avyaya even when the lineage appears broken.",
     "bhakti": "When you feel that a wisdom-tradition you love has grown diluted or nearly lost, take heart from this verse: Hari himself praises and re-inaugurates it from within the tradition. Your practice of bhakti (devotion) is itself the vehicle of restoration — you are enacting the āvirbhāva (manifestation) the verse announces.",
     "advaita-bhakti": "Hold both jñāna and karma together in your daily life: act fully in the world (karma-yoga) while keeping sight of the non-dual ground (jñāna-yoga). The two are one in fruit; the succession from Vivasvān to Ikṣvāku shows that this integration is not a private insight but a tested, transmitted inheritance — live it as lineage, not as personal discovery."
-  }
+  },
+  "primary_meaning": "I taught this imperishable yoga to Vivasvān at the dawn of creation; Vivasvān passed it to Manu, and Manu spoke it to Ikṣvāku."
 }

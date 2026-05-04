@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "iṣṭāḥ",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -336,8 +336,8 @@
         "madhusudan_17.9"
       ],
       "score": 0.5,
-      "divergence_note": "Madhusudana uniquely converts the verse into a discriminative practice rule for the sattvic aspirant: recognize the rajasic by their food, and as a sattvic practitioner, leave those foods alone — yoking Advaita diagnosis to bhakti-informed behavioral guidance.",
-      "english_rendering": "Madhusudana aligns closely with Sridhara on the concrete examples but adds a doctrinal conclusion absent in the others: 'etair lingair rajasa jneyah sattvaiash ca ete upekshaniyah iti arthah' — by these food-markers rajasic persons are to be identified, and by sattvic persons they are to be disregarded. This moves the verse from pure description to a discriminative practice-instruction: the jnani-bhakta uses guna-theory diagnostically to calibrate association and non-association. The three harms (duhkha-shoka-amaya) operate through 'dhatu-vaishamya' — constitutional elemental imbalance — adding Ayurvedic physiological grounding to the Advaita-jnana framework.",
+      "divergence_note": "Madhusūdana's distinctive move is the closing inference — *etair liṅgair rājasā jñeyāḥ sāttvikaiś ca ete upekṣaṇīyā iti arthaḥ* — converting description into discriminative practice-instruction for the sattvic aspirant. The Āyurvedic grounding (*dhātu-vaiṣamya-dvārā*) and the enumeration of extremes (*nimbādi*, *marīcādi*, *rājikādi*) are shared with Śrīdhara, but the explicit identification-and-disregard rule is Madhusūdana's own addition, yoking advaita diagnosis to *bhakti*-informed behavioral guidance.",
+      "english_rendering": "The *ati* (the prefix of excess) is to be applied across all seven qualities named — *kaṭu-amla-lavaṇa-atyuṣṇa-tīkṣṇa-rūkṣa-vidāhinaḥ*. *Kaṭu* (pungent) is already covered by *tīkṣṇa*, so *ati-kaṭu* points to extremes like neem (*nimbādi*); *aty-amla*, *ati-lavaṇa*, *aty-uṣṇa* are well-known; *ati-tīkṣṇa* is pepper and the like (*marīcādi*); *ati-rūkṣa* is the fat-free (*sneha-śūnya*), coarse grains such as *kaṅgu* and *kodrava*; *ati-vidāhī* — that which produces burning — is mustard-seed (*rājikādi*). These foods give *duḥkham* (immediate bodily pain), *śokam* (subsequent mental distress), and *āmayam* (disease), and they do so *dhātu-vaiṣamya-dvārā* — through the door of constitutional elemental imbalance. Such foods are what the *rājasasya* (the rajasic person) loves (*iṣṭāḥ*). The verse thus carries a further implication: *etair liṅgair rājasā jñeyāḥ sāttvikaiś ca ete upekṣaṇīyā iti arthaḥ* — by these food-markers the rajasic are to be recognized, and by the sattvic they are to be disregarded. For the *jñāni-bhakta* who has resolved the three *guṇa*-s through non-dual *jñāna* yet moves with *paramā prīti* (highest love) toward Kṛṣṇa, *guṇa*-theory becomes a living diagnostic: identify the *rājasa* by what enters the mouth, and let the *sāttvika* leave those foods — and those associations — well alone.",
       "commentator": "Madhusudan Sarasvati"
     }
   },
@@ -379,7 +379,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṣṭāḥ: iṣ -> √iṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If food-preference is a reliable guna-marker, what does it reveal about the quality of attention a person brings to any endeavor — work, conversation, study, worship?",
@@ -397,5 +407,6 @@
     "śuddhādvaita": "In Pushti-marga practice, the answer to rajasic food-craving is not suppression but substitution: offer the meal to Shrinathji first as prasada. When the food has passed through Krishna's delight and returned as prasada, its guna-character is transformed. The practical instruction is to make offering a consistent habit so that prasada becomes the default mode of eating, displacing the rajasic craving at its root.",
     "bhakti": "Sridhara's concrete examples (neem, pepper, mustard in excess) give a practical checklist. Review your weekly diet for habitual excess in any of the seven dimensions — are you routinely reaching for very spicy, very sour, or very rough foods? Map which of the three harms (immediate burning, next-day dejection, chronic inflammation) you experience, and use that temporal trail to identify your specific excess. Adjust one category at a time.",
     "advaita-bhakti": "Madhusudana's instruction to 'identify the rajasic by these markers and avoid them' applies beyond food to environments and media. A practical reading: audit the daily 'diet' of stimulation — spicy news feeds, inflaming social media, sour interpersonal loops. Apply the same 'ati' (excess) threshold: the issue is not engagement but chronic excess. The sattvic practitioner uses guna-literacy to regulate informational intake as rigorously as dietary intake."
-  }
+  },
+  "primary_meaning": "Foods that are excessively bitter, sour, salty, scalding, sharp, dry, and burning are what the rajasic person loves, and they bring pain, sorrow, and disease."
 }

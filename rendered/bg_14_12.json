@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "jāyante",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -274,7 +274,7 @@
     },
     {
       "surface_form": "vivṛddhe",
-      "lemma": "vivṛdh",
+      "lemma": "vi-√vṛdh",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -449,7 +449,8 @@
         "jayatirtha_14.12"
       ],
       "score": 0.5,
-      "english_rendering": "[Madhvacarya's commentary on BG 14.12 is absent from the transmitted panel; the payload explicitly notes 'Sri Madhvacharya did not comment on this sloka.' The following rendering is reconstructed from Dvaita doctrinal principles.] In Dvaita, the jiva is eternally and essentially distinct from Hari; rajas is a guna of prakrti that veils the jiva's natural mode of dependent worship. Lobha, pravrtti, arambha, asama, and sprha are the five operational faces of rajasic veil: they each express the jiva's misdirected energy — energy that, properly directed, belongs entirely to Hari-seva. When these five signs appear, the aspirant must recognise them as evidence that prakrti, not Hari's anugraha (grace), is driving action."
+      "english_rendering": "*Lobha* (greed), *pravṛtti* (activity), *ārambhaḥ* (undertaking of actions), *aśamaḥ* (absence of inner stillness), and *spṛhā* (craving) — these arise, O best of the Bharatas, when *rajas* (the quality of agitation and drive) grows dominant. Each sign marks the *paratantra* *jīva* (the eternally dependent individual self) falling under the sway of *prakṛti* rather than resting in its natural condition of subordination to *svatantra* Hari (the independently real Lord). *Rajas* is a *guṇa* of *prakṛti*, real and distinct from the *jīva* and from Hari — *pañca-bheda* (the five-fold real distinction) is not suspended when the *guṇas* operate; it is precisely what makes their operation on the *jīva* intelligible. When *rajas* is *vivṛddhe* (swollen, increased), these five surge outward: greed redirects the *jīva*'s longing away from Hari; restless activity and repeated undertakings substitute *karma* born of desire for *karma* offered in *bhakti* (devotion as ontological subordination to the Lord); the loss of *śama* (inner quietude) scatters the *jīva*'s dependent being into *prakṛti*'s momentum; *spṛhā* anchors the self to the objects of the lower order rather than to Hari's *anugraha* (grace). Recognition of these five in oneself is not cause for despair but for redirection: the *taratamya* (graded ontological hierarchy) remains in place, and Hari's sovereignty over *prakṛti* and *jīva* alike is uncompromised even when *rajas* holds sway.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -561,7 +562,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jāyante: jan -> √jan",
+          "vivṛddhe: vivṛdh -> vi-√vṛdh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the verse says lobha (greed) and sprha (craving) are both rajasic signs, what is the difference between them — and does the tradition give any method for distinguishing which is operating in a given moment?",
@@ -579,5 +591,6 @@
     "śuddhādvaita": "Vallabha's application: when rajasic pravrtti (purposeless restless motion) arises, do not fight it — offer the energy directly to Krsna. Transform the momentum of lobha and sprha into the momentum of seva. The Pustimarga discipline does not first stop activity and then redirect it; it redirects without stopping, keeping the flow moving toward the beloved.",
     "bhakti": "Sridhara's linga-list is a practical checklist: at the end of each day, review whether lobha (craving grew despite gains), pravrtti (compulsive busyness), arambha (new large projects started impulsively), asama (mind churning with plans), or sprha (grasping at things seen) were dominant. Naming them without self-criticism is itself a bhakti-practice — it brings them before Bhagavan's gaze rather than keeping them in the shadow of self-justification.",
     "advaita-bhakti": "Madhusudan's synthesis: use the precision of Advaita to name which of the five signs is present (do not blend them — each has a distinct texture), then use the bhakti response to redirect. Lobha and sprha point to the object-seeking quality of the heart; offer that seeking to Krsna. Pravrtti and arambha point to rajasic energy in motion; let Krsna's seva absorb the momentum. Asama points to the sankalpa-stream; replace the next sankalpa with a bhakti intention rather than suppressing the stream entirely."
-  }
+  },
+  "primary_meaning": "When rajas grows strong, five signs appear: greed, restless activity, compulsive new undertakings, loss of inner quiet, and craving."
 }

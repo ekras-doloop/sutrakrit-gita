@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "niyata",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -168,7 +168,7 @@
     },
     {
       "surface_form": "juhvati",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -274,7 +274,7 @@
     },
     {
       "surface_form": "kṣapita",
-      "lemma": "kṣapay",
+      "lemma": "√kṣapay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -415,8 +415,8 @@
         "vedantadeshika_4.30"
       ],
       "score": 0.5,
-      "english_rendering": "Other karma-yogins take up steady practice in prāṇāyāma: pūraka (inhalation as offering apāna into prāṇa), recaka (exhalation as offering prāṇa into apāna), and kumbhaka (restraint, offering all prāṇas into prāṇas). For all of these — from material sacrifice through prāṇāyāma — the qualifier 'regulated eating' applies. Performing the mahā-yajña enjoined in Gītā 3.10, they are knowers of sacrifice, and through that very performance their impurity is dissolved.",
-      "divergence_note": "Rāmānuja carefully maps the three varieties of prāṇāyāma onto pūraka, recaka, kumbhaka, and anchors the verse in his larger karma-yoga framework: all forms of yajña from dravya-yajña to prāṇāyāma constitute the nityanaimittikakarma enjoined by Bhagavān in Gītā 3.10."
+      "english_rendering": "Other *karma-yogins* (*karmayoginaḥ*) maintain *niṣṭhā* (steadfast absorption) in *prāṇāyāma*. These are of three kinds by the division of *pūraka*, *recaka*, and *kumbhaka*: *apāne juhvati prāṇam* — offering *prāṇa* into *apāna* is *pūraka*; *prāṇe apānam* — offering *apāna* into *prāṇa* is *recaka*; *prāṇāpānagatī ruddhvā prāṇān prāṇeṣu juhvati* — having restrained both movements, offering all *prāṇas* into *prāṇas*, is *kumbhaka*. To all three engaged in *prāṇāyāma* the qualification *niyatāhārāḥ* (regulated eating) applies equally. Among the distinctions of *karmayoga* extending from *dravyayajña* through *prāṇāyāma*, each practitioner is established in his own chosen form (*svasamīhiteṣu pravṛttāḥ*). All of them are knowers of *yajña* of the form *nityanaimittikakarma* preceded by the *mahāyajña* declared in *sahayajñaiḥ prajāḥ sṛṣṭvā* (Gītā 3.10) — *tannniṣṭhāḥ tata eva kṣapitakalmaṣāḥ*: established in that very practice, their impurity dissolved by it alone. Vedānta Deśika adds that since the fruit is undifferentiated across these forms (*aviśiṣṭaphalatayā vikalpe nyāyye*), it is one's own capacity and inclination (*svasvāmarthyādyanusāriṇī svecchā*) that determines the particular discipline. Those grounded even in *prāṇāyāma* must still perform *yajña* as *nityakarma*; and the body is sustained by *yajñaśiṣṭāmṛtena śarīradhāraṇaṃ kurvanta eva* — consuming the remnant of *yajña* as *amṛta*, a sustenance that, far from obstructing *ātmāvalokana* (vision of the self), is its proper support.",
+      "divergence_note": "The contaminated cell projected 'Gītā 3.10 mahā-yajña' loosely; Rāmānuja's bhāṣya specifies *sahayajñaiḥ prajāḥ sṛṣṭvā* as the precise anchor and names the karma-yoga distinctions as *nityanaimittikakarma* preceded by that injunction. Vedānta Deśika's addition — that *prāṇāyāma-niṣṭhā* practitioners are not exempt from *yajña* as *nityakarma*, and that *yajñaśiṣṭāmṛta*-based body-maintenance is compatible with, not opposed to, *ātmāvalokana* — was absent from the contaminated cell."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -479,35 +479,7 @@
       ]
     },
     {
-      "list": "अपाने जुह्वति ৷৷ प्राणायामपरायणाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
-    },
-    {
-      "list": "करनेका वेग",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
-    },
-    {
       "list": "कुम्भक",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
-    },
-    {
-      "list": "गतागतं कामकामा लभन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
-    },
-    {
-      "list": "पानेकी कामना",
       "role": "supporting",
       "other_verses_in_list": [
         "4.29"
@@ -573,20 +545,6 @@
       "other_verses_in_list": [
         "4.29"
       ]
-    },
-    {
-      "list": "सर्वेऽप्येते यज्ञविदो यज्ञक्षपितकल्मषाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
-    },
-    {
-      "list": "स्तम्भवृत्ति प्राणायाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.29"
-      ]
     }
   ],
   "audit_trail": {
@@ -616,7 +574,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niyata: niyam -> ni-√yam",
+          "juhvati: hu -> √hu",
+          "kṣapita: kṣapay -> √kṣapay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prāṇa offered into prāṇa is merely the body's physiology, why does the Gītā treat it as a sacrificial act equivalent to fire-oblation or scriptural study?",
@@ -634,5 +604,6 @@
     "śuddhādvaita": "At the family dinner table, pause before eating and internally dedicate the meal to Kṛṣṇa's sustaining of this body for his purposes — this is the Puṣṭi-mārga domestication of niyata-āhāra. The remainder eaten after the dedication becomes yajña-śiṣṭa; the meal is prasāda. The regulation needed for yoga arises naturally from this orientation rather than from calorie-counting.",
     "bhakti": "During any moment of transition — waking, finishing a task, beginning prayer — bring attention to the natural breath and listen for the so-ham rhythm Śrīdhara describes. The inhale sounds 'so,' the exhale sounds 'ham.' This is the ajapā-japa, the prayer that repeats without effort. Recognizing it transforms ordinary breathing into the prāṇa-yajña of this verse without requiring formal seated practice.",
     "advaita-bhakti": "After completing any sustained effort — a project, a difficult conversation, a day of work — consciously eat a small, unhurried meal and recognize it as the yajña-śiṣṭa-amṛta (the immortal remainder of sacrifice), as Madhusūdana names it. This reframes rest and nourishment as the earned fruit of completed sacrifice rather than as reward or indulgence, supporting the sattva-śuddhi (purification of clarity) that Madhusūdana places at the heart of the verse."
-  }
+  },
+  "primary_meaning": "Others, keeping their eating regulated, offer the vital breaths into the vital breaths themselves. All these are knowers of sacrifice, and by their sacrifice their faults are burned away."
 }

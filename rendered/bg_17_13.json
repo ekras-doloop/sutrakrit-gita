@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "hīnam",
-      "lemma": "hā",
+      "lemma": "√hā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "sṛṣṭa",
-      "lemma": "sṛj",
+      "lemma": "√sṛj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "hīnam",
-      "lemma": "hā",
+      "lemma": "√hā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "paricakṣate",
-      "lemma": "paricakṣ",
+      "lemma": "pari-√cakṣ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -294,9 +294,10 @@
         "jayatirtha_17.13"
       ],
       "score": 0.5,
-      "english_rendering": "No direct commentary from Madhvacharya on this verse is extant in the transmitted corpus. From Madhva's general framework: a sacrifice lacking the five defect-free elements would fail as worship of Hari because the jiva's dependent nature requires perfectly prescribed action to be a valid upachara (offering) to the Lord. A tamas-born rite cannot constitute any step in the hierarchy of Vishnu-seva.",
-      "divergence_note": "ABSENT — payload records 'Sri Madhvacharya did not comment on this sloka.' Rendering is inferred from Dvaita general principles; not anchored in direct bhashya prose.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Vidhi-hīnam* (devoid of Vedic injunction), *asṛṣṭānnam* (without distribution of food), *mantra-hīnam* (lacking proper mantra-recitation), *adakṣiṇam* (without sacrificial honorarium), and *śraddhā-virahitam* (bereft of *śraddhā*, faith) — a sacrifice carrying all five deficiencies is declared *tāmasa*. From the dvaita reading, each of these five elements is not merely formal but ontologically required: the *paratantra* *jīva* has no independent capacity to generate valid worship; prescribed *vidhi*, mantra, *dakṣiṇā*, anna-distribution, and *śraddhā* together constitute the structure through which *bhakti* as ontological subordination actually reaches *svatantra* Hari. Strip any one, and the rite falls outside *Viṣṇu-sevā* altogether. Strip all five, and the act is not a degraded sacrifice — it is no sacrifice at all, a *tāmasa* counterfeit that reinforces *bheda*-blindness rather than realizing the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva–jīva*, *jīva*–matter, matter–matter) in its proper devotional order. *Taratamya* (graded ontological hierarchy) demands that offerings ascend through exact prescription; a *tāmasa* rite, performed without these qualifications, cannot occupy any position in that ascent.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha is extant on this verse. The reading is voiced directly from dvaita siddhānta applied to the mūla's five named deficiencies.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -305,9 +306,10 @@
         "vallabha_17.13"
       ],
       "score": 0.5,
-      "english_rendering": "No direct commentary from Vallabhacharya on this verse is transmitted. In Pushti-marga terms, a rite that is vidhi-hina and shraddha-virahita has no rasika quality — it cannot become prasada-nimittа because Shri Krishna's grace (pushti) does not descend through mechanical or loveless action. The five named defects are essentially failures of prema.",
-      "divergence_note": "ABSENT — payload records 'Sri Vallabhacharya did not comment on this sloka.' Rendering is inferred from Shuddhadvaita general principles; not anchored in direct bhashya prose.",
-      "commentator": "Vallabhacharya"
+      "english_rendering": "*Vidhi-hīna* (devoid of injunctive order), *asṛṣṭānna* (with no food distributed), *mantra-hīna* (stripped of sacred utterance), *adakṣiṇam* (without honorific gift), and *śraddhā-virahita* (emptied of faith) — such a *yajña* (sacrifice) is declared *tāmasa* (of the nature of *tamas*). In *śuddhādvaita*, Brahman alone is real and the world is Brahman's own self-manifestation (*svābhāvika* expression), not a māyā-conjured shadow. Sacrifice therefore belongs to this real world as a genuine act of *sevā* (loving service) before Śrī Kṛṣṇa. A rite meeting none of these five conditions is not merely procedurally deficient; it is wholly severed from the current of *puṣṭi* (Kṛṣṇa's sustaining grace). *Puṣṭi-mārga* (the path of grace) holds that Kṛṣṇa's descent of grace requires a vessel — an act offered with *śraddhā* (faith-filled earnestness), proper *vidhi* (injunctive form), *mantra*, *dakṣiṇā*, and shared *anna* (food). When all five are absent, the act carries no *brahma-sambandha* (binding relation to Brahman); the one who performs it is, in effect, acting for himself alone, which is the mark of *tamas*. The *rasa* (devotional-aesthetic flavor) that transforms rite into *prasāda*-occasion requires at minimum the *śraddhā* that opens the jīva to *puṣṭi*; without it, Kṛṣṇa's grace finds no opening, and what remains is mechanical motion devoid of *prema* (love).",
+      "divergence_note": "No bhāṣya from Vallabhācārya on this verse is transmitted. The reading is voiced directly from *śuddhādvaita* siddhānta — the real-world-as-Brahman-manifestation doctrine, *puṣṭi-mārga*, *brahma-sambandha*, and *sevā* — applied to the five defects named in the mūla.",
+      "commentator": "Vallabhacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -391,7 +393,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hīnam: hā -> √hā",
+          "sṛṣṭa: sṛj -> √sṛj",
+          "hīnam: hā -> √hā",
+          "paricakṣate: paricakṣ -> pari-√cakṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If shraddha (faith, reverential intent) is the final disqualifier listed, does the verse imply that sincere intent can partially redeem procedural defects — or is each defect independently sufficient to render the rite tamasic?",
@@ -409,5 +424,6 @@
     "shuddhadvaita": "Vallabha's Pushti-marga locates the flaw in lovelessness. The practical test: are you giving something of yourself (anna-equivalent) to the people involved, or extracting? A meeting where you distribute nothing — no attention, no generosity, no genuine acknowledgment of others — is tamasic regardless of how formally correct it looks on the calendar.",
     "bhakti": "Sridhara's checklist is practical: before any collective undertaking (a team ritual, a family ceremony, a community event), explicitly verify the five elements. Is the procedure understood by all participants (vidhi)? Is something given to those who serve (anna)? Are the right words used in the right way (mantra)? Is fair recognition given (dakshina)? Is everyone genuinely invested (shraddha)? Checking five boxes is not bureaucracy — it is what distinguishes a real event from an empty performance.",
     "advaita-bhakti": "Madhusudana's observation that rtvij-dvesha (resentment toward co-participants) generates the shraddha-defect is the most directly actionable insight: if you find yourself resentful of colleagues or collaborators while performing a shared obligation, the inner quality of the work has already gone tamasic, regardless of external form. The corrective is to address the relational friction first — not to perfect the procedure while the animosity persists."
-  }
+  },
+  "primary_meaning": "A sacrifice is called tamasic when it ignores scriptural rules, distributes no food, lacks proper mantras, gives no honorarium, and is performed without faith."
 }

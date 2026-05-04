@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "yakṣye",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "dāsyāmi",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "surface_form": "modiṣye",
-      "lemma": "mud",
+      "lemma": "√mud",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "vimohitāḥ",
-      "lemma": "vimohay",
+      "lemma": "vi-√mohay",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -352,8 +352,9 @@
         "jayatirtha_16.15"
       ],
       "score": 0.5,
-      "divergence_note": "Dvaita's distinctive term is paratantryata (dependence on Hari) — the asura's error is claiming svatantryata (independence).",
-      "english_rendering": "Madhva does not comment on this verse (bhashya absent in the corpus). From Dvaita first principles: the asura's 'aham adhyah' ('I am wealthy') is tamasic self-assertion by a jiva eternally distinct from Hari. In Dvaita theology every act of yajna (sacrifice) and dana (giving) draws its fruit from Hari's will alone; to claim 'I shall sacrifice, I shall give' as autonomous agents is to deny the jiva's utter dependence (paratinantrya). The asura thus epitomizes the tamasic jiva who inverts the proper Dvaita order: instead of 'Hari is the kartrin (agent), I am the instrument,' the asura proclaims 'I am the kartrin.'"
+      "divergence_note": "The *āsura*'s error is the claim of *svatantratā* (self-sufficiency) in *kartṛtva* (agenthood): *yakṣye dāsyāmi modiṣye* presents the *jīva* as self-moved agent in sacrifice and generosity, directly contradicting *paratantra*-hood. Dvaita names this the deepest *tamasic* inversion, since the *jīva* not only ignores Hari but usurps Hari's position as the sole *svatantra* *kartṛ*.",
+      "english_rendering": "The *āsura* (demoniac) *jīva* (the individual self) here declaims: *āḍhyo 'bhijanavān asmi ko 'nyo 'sti sadṛśo mayā* — 'I am wealthy, I am well-born; who else is equal to me?' — and then asserts, 'I shall sacrifice (*yakṣye*), I shall give (*dāsyāmi*), I shall rejoice (*modiṣye*).' Each of these first-person assertions is *ajñāna-vimohita* (deluded by ignorance): the *jīva* mistakes itself for a *svatantra* (independently real, self-sufficient) agent, when in Dvaita *siddhānta* every *jīva* is irreducibly *paratantra* (eternally dependent) on *Hari*. Wealth, birth-lineage, the capacity to sacrifice and give — all are held under Hari's absolute sovereignty; nothing accrues to the *jīva* except by Hari's will. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is precisely what the *āsura* collapses into a false unity centered on the self: 'none is equal to me' erases the unbridgeable ontological gap between *Hari* and *jīva*. The act of *yajña* (sacrifice), properly understood, belongs to Hari as its real *kartṛ* (agent); *dāna* (giving) is a conduit of Hari's bounty, not an autonomous human bestowal. To say 'I shall sacrifice, I shall give' as if from self-generated capacity is to invert *taratamya* (the graded ontological hierarchy) entirely, placing the dependent *jīva* where only *Hari* rightfully stands. *Ajñāna* here is not merely ignorance of fact but the deep confounding (*vimoha*) that makes the *paratantra* *jīva* assert *svatantratā* — and this inversion is the defining mark of the *āsura* endowment catalogued throughout this chapter.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -549,7 +550,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asti: as -> √as",
+          "yakṣye: yaj -> √yaj",
+          "dāsyāmi: dā -> √dā",
+          "modiṣye: mud -> √mud",
+          "vimohitāḥ: vimohay -> vi-√mohay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I feel most self-sufficient — in competence, status, or generosity — is that confidence grounded in something real, or is it the asura's 'adhyo'ham' replaying in modern dress?",
@@ -567,5 +583,6 @@
     "suddhadvita": "Vallabha's insight is that the asura's pleasures (modisye) are real pleasures — the same bliss Krishna pours into lila. The Pushti-marga application: do not suppress joy or achievement, but receive it as prasada rather than claiming it as conquest. When you feel genuine delight in your work, in a meal, in music — can you hold it as gift rather than trophy? That shift from bhoga to prasada is the Shuddhadvaita move.",
     "bhakti": "Sridhara names the specific trap: performing religious or professional 'sacrifice' (yajna) for prestige among one's peer group (pratishtham among dikshitantarebhyah). Check your spiritual and professional communities: are you presenting, donating, or volunteering in ways calibrated to social standing? The Bhakti corrective is simple but uncomfortable — do something significant that no one in your community will ever know about.",
     "advaita-bhakti": "Madhusudana's 'vibhrama-parampara' (cascade of delusions) is recognizable as the modern anxiety spiral: I need to succeed → to be seen succeeding → to outperform peers → to give publicly → to be praised → to feel secure enough to enjoy. Each step is defensible; the chain is imprisoning. The Advaita-Bhakti intervention is to find the ONE link in that chain you can snap today — not fix the whole spiral, just refuse one reinforcing move — and see what happens."
-  }
+  },
+  "primary_meaning": "Blinded by ignorance, they say: I am wealthy, I am well-born, who equals me? I will sacrifice, I will give, I will rejoice, and each boast deepens the delusion."
 }

@@ -158,7 +158,7 @@
     },
     {
       "surface_form": "pravartante",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -431,7 +431,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravartante: pravṛt -> pra-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kama is described as dushpura — inherently unfillable. What does it mean that the Gita diagnoses insatiability as a structural feature of misdirected desire rather than a contingent failure of willpower?",
@@ -449,5 +459,6 @@
     "shuddhadvaita": "Ideological capture — becoming a partisan of a school, movement, or influencer with a tenacity that overrides evidence — is Vallabha's asad-agraha at work. The person does not merely hold a wrong view; they have staked their identity on it ('asad agraha agrahas yeshu') and will propagate it actively. The Pushti-marga corrective is not argument but prasada: only Krishna's grace loosens what ego has cemented.",
     "bhakti": "The wellness-industry promise — 'follow this protocol, use this supplement, practice this technique, and you will secure health, wealth, and attraction' — is Sridhara's asat-graha in modern dress: a duragraha (perverse fixation) that feels like a reasonable bet but is accepted through moha alone, with no real discriminative testing. The ashuchi quality is not the practice itself but the magical-coercive relationship to the divine it assumes.",
     "advaita-bhakti": "The person who performs dharmic identity (public charity, conspicuous spirituality, claims of humility) while privately holding contempt for others is living Madhusudana's triple deception: dambha projects virtue, mana projects worthiness of honor, mada projects superiority. The Advaita-Bhakti reading says all three collapse the moment genuine bhava (heart-orientation toward Krishna) displaces the performance — because the performance requires an audience and bhava needs none."
-  }
+  },
+  "primary_meaning": "Clinging to desire that nothing can satisfy, and armed with vanity, arrogance, and pride, they seize on false convictions through sheer delusion and carry out their impure observances."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "vivarjitam",
-      "lemma": "vivarjay",
+      "lemma": "vi-√varjay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -329,13 +329,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.28"
-      ]
-    },
-    {
       "list": "पुरुष",
       "role": "supporting",
       "other_verses_in_list": [
@@ -404,7 +397,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vivarjitam: vivarjay -> vi-√varjay",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa claims only the kāma-rāga-free strength, what happens to the strength I use while driven by desire — is it simply absent of Kṛṣṇa, or is it something else entirely?",
@@ -422,5 +426,6 @@
     "śuddhādvaita": "Desire itself — when it is dharma-anukūla (aligned with one's proper role) — is not the obstacle; the rājasa-tāmasa coloring is. In Puṣṭi-mārga practice this means embracing the energy of devotion fully, with joy, without the guilt that treats all wanting as contamination. Let strength be kriyāśakti (action-power) in service of Kṛṣṇa's delight (prīti), not a neutral instrument you must keep sanitized. The test is not 'am I desiring?' but 'is this desire Kṛṣṇa's own movement through me, or is it the rajasa-tāmasa pattern pulling me away from Him?'",
     "bhakti": "Map your dominant desires onto the guṇa-schema Śrīdhara supplies: kāma as rājasika (chasing the unattained), rāga as tāmasika (clinging after attainment, always wanting more). Most chronic dissatisfaction is rāga, not kāma — the mind that already has what it wanted but cannot stop reaching. Identifying which guṇa is driving a specific craving gives you a practical handle: rājasika kāma responds to redirection toward svadharma; tāmasika rāga requires a more fundamental inquiry into why retention feels necessary.",
     "advaita-bhakti": "Madhusūdana's citta-vṛtti analysis yields a concrete contemplative exercise: catch the exact moment when the mind generates either the 'let me obtain what I lack' vṛtti (kāma-mode) or the 'let me not lose what I have' vṛtti (rāga-mode). Neither vṛtti is you — both are modifications. Strength that is free of both is available right now, not as an attainment but as the natural state of a mind turned away from saṃsāra (saṃsāra-parāṅmukha). The synthesis: see that residual sāttvika strength as Kṛṣṇa himself threading through you, and let action arise from there."
-  }
+  },
+  "primary_meaning": "Krishna says: I am the strength in the strong, stripped of craving and clinging, and I am the desire in beings that does not run against dharma."
 }

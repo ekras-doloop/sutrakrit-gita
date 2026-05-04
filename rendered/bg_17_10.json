@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yāta",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "gata",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "ucchiṣṭam",
-      "lemma": "ucchiṣ",
+      "lemma": "√ucchiṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -308,8 +308,9 @@
         "jayatirtha_17.10"
       ],
       "score": 0.5,
-      "english_rendering": "Stale, putrid, leftover, and sacrificially unfit food is the preference of the tamasic person, in whom tamas-guna dominates and obstructs the devoted worship of Hari that alone constitutes the jiva's proper activity. Tamas in food reinforces the jiva's constitutional dependence on lower modes, making genuine bhagavad-bhakti impossible. The eternal distinction between Hari and jiva demands that the jiva, as perpetually dependent (paratantra), take care that even ahara supports rather than opposes the mode of sattva befitting Hari's devotee.",
-      "divergence_note": "No Madhva bhashya on this verse; rendering constructed from Dvaita doctrinal framework applied to the mula."
+      "english_rendering": "*Yāta-yāma* (food whose time has passed), *gata-rasa* (food drained of taste and vitality), *pūti* (putrid), *paryuṣita* (stale from overnight storage), *ucchiṣṭa* (leavings from another's meal), and *amedhya* (ritually impure) — such food is *tāmasa-priya*, the preference of the *tāmasika* *jīva*. *Tamas* binds the *paratantra* *jīva* most heavily, pulling it away from the *sattva* required for steady *bhakti* to the *svatantra* Hari. The *pañca-bheda* between Hari and *jīva*, and between *jīva* and matter, is not suspended by a degraded *āhāra* (food-regimen); rather, the *jīva*'s constitutional dependence on Hari becomes practically inoperative when *tamas* is fed and thickened. Food that is *pūti* and *amedhya* does not merely displease the senses — it consolidates the *jīva*'s gravitational pull toward *adho-gati* (downward movement), making *bhagavad-bhakti* inaccessible rather than merely difficult. The *taratamya* among *jīva*s is expressed partly through the mode of food they choose: the lowest *jīva*s, most deeply enmeshed in *tamas*, incline by nature to *yāta-yāma* and *ucchiṣṭa*, confirming the graded ontological hierarchy the Lord names here.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse; the rendering voices Dvaita *siddhānta* — *paratantra* *jīva*, *pañca-bheda*, *taratamya* — directly off the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -396,7 +397,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yāta: yā -> √yā",
+          "gata: gam -> √gam",
+          "ucchiṣṭam: ucchiṣ -> √ucchiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes food that 'has lost rasa' from food merely perceived as unpleasant — is rasa-loss an objective physical quality or a relational one (e.g., prasada vs. ordinary food)?",
@@ -414,5 +427,6 @@
     "śuddhādvaita": "In the Pushti household, food is received as prasada — the grace-overflow of Krsna's own abundance. Stale, odorous, leftover food that was never offered cannot carry that grace; eating it is not a neutral act but an absence of the divine rasa that Krsna alone bestows. The practical implication: cook fresh, offer before eating, and understand that maha-prasada (Krsna's own ucchishta) is not the same category as the ucchishta condemned here — one is rasa received, the other is rasa abandoned.",
     "bhakti": "Sridhara's precise, philological naming — cold cooked rice past a prahara, pressed-out ingredients, yesterday's cooking, forbidden-category foods like kalanja — gives practitioners a concrete checklist rather than a vague principle. Apply it: when planning meals, ask whether the food was cooked freshly, whether its natural essence is still present, and whether it belongs to a category your tradition marks as amedhya. The bhakti application is not asceticism but attentiveness: fresh food prepared with care is itself a form of reverence.",
     "advaita-bhakti": "Madhusudan's insight that the tamasic food group carries both seen (drshta) harm — physical illness, heaviness, mental dullness — and unseen (adrshta) harm — obstruction of the subtle channels through which jnana and bhakti flow — means the stakes are higher than mere health. His inclusion of vaidyaka-shastra (medical science) via api-ca suggests that modern nutritional awareness and the Gita's classification are not competitors but parallel witnesses to the same reality. Eat as if both your physician and your acharya are watching: freshness, purity, and the absence of intoxicants are the common ground."
-  }
+  },
+  "primary_meaning": "Food that is stale, putrid, left over from another's plate, or unfit for offering is what the tamasic person craves."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "mucyante",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "bhuñjate",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "pacanti",
-      "lemma": "pac",
+      "lemma": "√pac",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -358,8 +358,9 @@
         "jayatirtha_3.13"
       ],
       "score": 0.5,
-      "english_rendering": "The Dvaita bhāṣya for this verse is absent from the supplied corpus — the payload notes 'Sri Madhvacharya did not comment on this sloka.' Rendering is therefore constructed from the Dvaita doctrinal framework without direct bhāṣya support. Those who offer to Hari and consume only prasāda (grace-gift) are freed, because all kilbiṣa (sin) is at root a form of forgetfulness of the jīva's (soul's) permanent subordination (pāratantrya) to Viṣṇu. Cooking and eating for oneself, as though autonomous, enacts the root-avidyā (ignorance) of Dvaita: the illusion that the jīva is self-sufficient. Agha here is not merely ritual impurity but the metaphysical error of treating dependent being as independent.",
-      "divergence_note": "FLAG: No Madhva bhāṣya supplied for BG 3.13. Rendering is doctrinal extrapolation only; treat as inferred, not direct commentary evidence."
+      "english_rendering": "*Yajña-śiṣṭāśinaḥ* (those who eat the remnant of sacrifice) — *santo mucyante sarva-kilbiṣaiḥ*: the *santo* (the virtuous) are freed from all *kilbiṣa* (sin-accumulation). Those who cook solely *ātma-kāraṇāt* (for their own sake) *bhuñjate agham* — they eat transgression itself. The distinction is ontological, not merely ritual. The *jīva* is irreducibly *paratantra* (eternally dependent) on *svatantra* Hari; every act of eating, cooking, and offering either enacts or violates that dependence. To offer to Viṣṇu first and receive back *prasāda* is to perform *bheda* (real distinction) correctly: the Lord gives, the *jīva* receives, the hierarchy of *taratamya* (graded hierarchy) is affirmed in the very act of swallowing. To eat without offering is to behave as though the *jīva* were self-originating — the precise inversion of *pañca-bheda* (the five-fold real distinction). *Agha* here is not merely impurity but the enacted assertion of false *svatantratā* in a being constitutionally incapable of it. The freed *santa* does not dissolve into Hari; he arrives, purified, at right relation — subordinate, real, distinct.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is extant for BG 3.13. Reading voiced directly from Dvaita siddhānta off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -368,8 +369,8 @@
         "vallabha_3.13"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha's bhāṣya is terse but decisive: the pañca-vidha-yajña (fivefold sacrifice) is itself the svarūpa (essential form) of Bhagavān — not a rite directed toward Him from outside, but Kṛṣṇa Himself appearing as the sacrificial act. Eating the śiṣṭa of such a yajña is therefore consuming prasāda of the Lord's own body; all gṛhastha (householders) who do so are freed. There is no question of merit or cosmic obligation — this is the logic of puṣṭi (grace): the Lord provides, the devotee receives, and kilbiṣa dissolves not by the devotee's effort but by direct contact with the divine remainder.",
-      "divergence_note": "Vallabha's phrase 'pañca-vidha-yajño bhagavat-svarūpas' (the fivefold sacrifice is the Lord's own form) is the load-bearing move; it collapses the distance between ritual and darśana (vision) entirely, which Śaṅkara and Rāmānuja maintain."
+      "english_rendering": "*Pañca-vidha-yajño bhagavat-svarūpas* (the fivefold sacrifice is the Lord's own form): those who eat of its *śiṣṭa* (remainder) — *tac-chiṣṭāśinaḥ* — are freed, *sarve 'pi mucyante gṛhiṇaḥ*, all householders without exception. The *śiṣṭa* is not an offering returned from outside but the Lord's own form received back as *prasāda*; *kilbiṣa* dissolves by that direct contact, not by the eater's exertion. Those who cook only for themselves, *ātma-kāraṇāt*, take on *agha* (sin) — they have bypassed the Lord's form entirely and so receive only bondage. In *puṣṭi-mārga*, the whole logic turns on identity: *yajña* is *bhagavat-svarūpa*, eating its remainder is *sevā*, and liberation is the fruit of that contact.",
+      "divergence_note": "The phrase *pañca-vidha-yajño bhagavat-svarūpaḥ* is the central move; it collapses the distance between ritual act and *darśana* (vision of the Lord) that Śaṅkara and Rāmānuja maintain. For Vallabha there is no *māyā* interposing between the rite and Brahman — the sacrifice *is* Kṛṣṇa's body, making *śiṣṭa-bhojana* a direct reception of the divine, not a symbolic or mediated one."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -403,25 +404,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.17",
-        "3.31",
-        "4.1",
-        "12.3"
-      ]
-    },
-    {
-      "list": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.50"
-      ]
-    },
     {
       "list": "स्वयं",
       "role": "supporting",
@@ -472,7 +454,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mucyante: muc -> √muc",
+          "bhuñjate: bhuj -> √bhuj",
+          "pacanti: pac -> √pac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the household grinding-stone and cooking-fire generate unavoidable kilbiṣa (sin), what does this say about whether there is any 'clean' life possible outside ritual reframing of ordinary acts?",
@@ -490,5 +484,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga households, food is first offered to Śrī Kṛṣṇa (offered in sevā to the svarūpa) before anyone eats — this is not an extra ritual atop ordinary eating but the recognition that eating prasāda is the only real eating. The everyday application is to make this offering genuinely, not mechanically: set aside a portion, offer it with attention, then eat what returns. The kilbiṣa dissolves not through your effort but through the contact with what is already the Lord's form.",
     "bhakti": "Śrīdhara's application is the most concrete: the householder is structurally implicated in violence through cooking (the pañca-sūnā). The remedy is structural too — build the vaiśvadeva offering into the cooking sequence itself, not as optional piety but as the act that transforms unavoidable harm into completed obligation. For a contemporary householder: at minimum, acknowledge the living things harmed in producing the meal, and make that acknowledgment a consistent practice rather than an occasional sentiment.",
     "advaita-bhakti": "Madhusūdana's double-sin analysis has a pointed practical implication: omitting a regular practice you have committed to is more accumulating than occasional lapses — the omission itself adds a layer. The contemporary application is the discipline of consistency in whatever daily practice (meditation, offering, study) one has adopted: irregular practice does not merely fail to help, it actively compounds the very thing it was meant to dissolve. Regularity is not perfectionism; it is the structural requirement for the rite's logic to function."
-  }
+  },
+  "primary_meaning": "Those who eat what remains after sacrifice are freed from all sin, but those who cook only for themselves eat transgression itself."
 }

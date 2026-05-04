@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -401,7 +401,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the verse locates mental austerity in five components — serenity, gentleness, silence-as-reflection, self-governance, and purity of intention — which of the five is foundational, and which are derivative consequences of getting the foundational one right?",
@@ -419,5 +429,6 @@
     "suddhadvaitabhakti": "In the Pustimarga spirit, bhava-samshuddhi is an organic process, not a self-improvement project. The practice is to notice when the mind's 'weather' is stormy and ask: what lila-smarana (remembrance of the Lord's play) am I neglecting? Returning to remembrance is the purification — not analysis of impurity.",
     "bhakti": "Shridhara's pratyahara reading of atma-vinigraha names a concrete yogic technique: withdrawal of the mind's energy from the sense-channels. The everyday equivalent is deliberate sensory rest — a period of no screens, no inputs, no stimulation — not as deprivation but as the mind recovering its own ground before re-engaging the world.",
     "advaitabhakti": "Madhusudan's double gloss on saumyatva — wishing well to all AND not dwelling on what is prohibited — names a single discipline with two faces. The everyday practice: when a harsh thought about another person arises, replace it not with suppression but with a genuine wish for their flourishing. This is not sentimental but structural: the mind cannot simultaneously hold cruelty and clarity."
-  }
+  },
+  "primary_meaning": "Serenity of mind, gentleness, silence, self-restraint, and purity of intention — these five together are called mental austerity."
 }

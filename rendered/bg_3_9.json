@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "manyase",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -310,7 +310,7 @@
     },
     {
       "surface_form": "mukta",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -335,7 +335,7 @@
     },
     {
       "surface_form": "samācara",
-      "lemma": "samācar",
+      "lemma": "sam-√ācar",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -548,25 +548,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अज्ञानं तमसः फलम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "14.16"
-      ]
-    },
-    {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.13",
-        "3.17",
-        "3.31",
-        "4.1",
-        "12.3"
-      ]
-    },
-    {
       "list": "कर्तव्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -617,23 +598,6 @@
       ]
     },
     {
-      "list": "मेरे लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.21",
-        "3.40",
-        "6.5"
-      ]
-    },
-    {
-      "list": "मैं वही हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.13"
-      ]
-    },
-    {
       "list": "समाचर",
       "role": "supporting",
       "other_verses_in_list": [
@@ -641,13 +605,6 @@
         "3.23",
         "3.24",
         "3.26"
-      ]
-    },
-    {
-      "list": "सात्त्विक त्याग",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.2"
       ]
     }
   ],
@@ -678,7 +635,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "manyase: man -> √man",
+          "mukta: muc -> √muc",
+          "samācara: samācar -> sam-√ācar"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If yajña = Viṣṇu (all schools cite the same Śruti), why do the schools reach such different conclusions about what actions qualify as 'yajñārtha' — must it be a Vedic rite, or can earning a livelihood count?",
@@ -696,5 +665,6 @@
     "śuddhādvaita": "Cultivate the understanding that your skill, your effort, and the result are all Kṛṣṇa's own svarūpa-śakti (innate power) in motion — you are the instrument of Bhagavān's self-expression, not its author. When you catch yourself calculating whether an effort will be 'worth it', that is the moment of para-dharma or kāmya-karma creeping in. In prema-bhakti, even the smallest act — cooking, cleaning, writing — is offered as prasāda-seva (service of the offering), and Kṛṣṇa receives it. The daily practice is to shift from 'I made this' to 'this happened through me as Bhagavān's līlā.'",
     "bhakti": "Keep it simple: before beginning any recurring duty, silently dedicate it to Viṣṇu's prīti (pleasure). This does not require elaborate internal architecture — Śrīdhara's voice is spare and devotional. The practice is niṣkāmatā (desirelessness) paired with Viṣṇu-smaraṇa (remembrance of Viṣṇu). Over time, the habit of Viṣṇu-smaraṇa at the opening and closing of each activity becomes a continuous thread that transforms ordinary karma into yajñārtha-karma without disrupting external form or profession.",
     "advaita-bhakti": "Bring śraddhā (trust, conviction) into the act itself — not merely detachment from results but a warm belief that the Lord receives the work. Madhusūdana's added layer means mechanical niṣkāmatā without śraddhā is incomplete; the work must be done 'śraddhā-ādi-puraḥsaram' (led by faith and related qualities). Practically: at moments of doubt, anxiety, or fatigue during a task, invoke Kṛṣṇa's presence as parameśvara before resuming — this is not superstition but the Advaita-grounded recognition that the substrate of the work is Brahman, and the bhakti adds the relational warmth that keeps the practice sustainable."
-  }
+  },
+  "primary_meaning": "Work done as an offering to the Lord does not bind you, but any other action chains you to this world, so act for that purpose alone, free from attachment."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "astu",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present imperative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -155,7 +155,7 @@
     },
     {
       "surface_form": "samāpnoṣi",
-      "lemma": "samāp",
+      "lemma": "sam-√āp",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -196,7 +196,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -454,7 +454,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "astu: as -> √as",
+          "samāpnoṣi: samāp -> sam-√āp",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If obeisance in every direction is logically required because the Lord is sarva (All), does the verse implicitly render directional or sectarian worship — worship facing a single altar or a single form — philosophically incomplete?",
@@ -472,5 +484,6 @@
     "śuddhādvaita": "Vallabha's ānanda-śakti reading suggests an aesthetic practice: cultivate the ability to experience ordinary beauty — a good meal, a piece of music, a moment of sunlight — as Kṛṣṇa's prapañca, his world-display offered to himself through your senses. The shift is not from enjoyment to renunciation but from unconscious consumption to conscious reception of prasāda (grace-gift). Every pleasure becomes a form of the Lord's ananta-vīrya touching you.",
     "bhakti": "Śrīdhara's suvarṇa-kaṭaka simile has an immediate application to relationships: the people who irritate or confuse you are the same gold in a different ornament-shape. The devotional practice is to pause before a difficult interaction and consciously invoke the underlying material — 'this person, like me, is a form of the sarva-rūpa Lord.' This is not a technique for suppressing conflict but for locating the relationship inside a larger frame that makes the conflict workable.",
     "advaita-bhakti": "Madhusūdana's distinction between vīrya (raw power) and vikrama (skilled application) is directly applicable to professional learning. Most people either accumulate capacity without developing disciplined technique, or over-index on technique without building genuine underlying strength. His reading of the verse as Arjuna deliberately contrasting the Lord with Bhīma and Duryodhana becomes a diagnostic: which side of that imbalance do you currently live on, and what is the one practice that addresses the deficit?"
-  }
+  },
+  "primary_meaning": "Arjuna prostrates before you, behind you, on every side. With infinite power and immeasurable reach, you pervade everything, and so you are everything."
 }

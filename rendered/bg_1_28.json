@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "āviṣṭaḥ",
-      "lemma": "āviś",
+      "lemma": "√āviś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "viṣīdan",
-      "lemma": "viṣad",
+      "lemma": "vi-√ṣad",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "abravīt",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "samupasthitam",
-      "lemma": "samupasthā",
+      "lemma": "samup-√asthā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -347,27 +347,11 @@
       ]
     },
     {
-      "list": "दृष्ट्वा तु पाण्डवानीकम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.29",
-        "1.30"
-      ]
-    },
-    {
       "list": "दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
       "role": "supporting",
       "other_verses_in_list": [
         "1.29",
         "1.30"
-      ]
-    },
-    {
-      "list": "दृष्ट्वेमं स्वजनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.29",
-        "2.11"
       ]
     },
     {
@@ -442,35 +426,9 @@
       ]
     },
     {
-      "list": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.29",
-        "1.30",
-        "18.78"
-      ]
-    },
-    {
       "list": "युयुत्सुं समुपस्थितम्",
       "role": "supporting",
       "other_verses_in_list": [
-        "1.29",
-        "1.30"
-      ]
-    },
-    {
-      "list": "व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.29",
-        "1.30"
-      ]
-    },
-    {
-      "list": "समवेता युयुत्सवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.1",
         "1.29",
         "1.30"
       ]
@@ -480,14 +438,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "2.2"
-      ]
-    },
-    {
-      "list": "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.29",
-        "1.30"
       ]
     },
     {
@@ -528,7 +478,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āviṣṭaḥ: āviś -> √āviś",
+          "viṣīdan: viṣad -> vi-√ṣad",
+          "abravīt: brū -> √brū",
+          "samupasthitam: samupasthā -> samup-√asthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Is kṛpā (compassion) ever a spiritual obstacle, or does its problem lie entirely in its object — and who gets to decide when love has gone astray?",
@@ -546,5 +509,6 @@
     "śuddhādvaita": "Vallabha's reading suggests that moments of collapse — when the body sweats, when the world feels impossible — are Kṛṣṇa withdrawing His yogamāyā to create space for prasāda (grace). The Puṣṭi-mārga application is receptivity practice during difficulty: instead of fighting the collapse, recognize it as the lower swing whose upper arc is ānanda (bliss). Concretely: when a situation produces the 'limbs dissolving' sensation, pause and ask 'what is Bhagavān making room for here?' before reaching for the conventional fix.",
     "bhakti": "Śrīdhara's philological attention to pari-śuṣyati — 'dried on all sides, thoroughly' — offers a somatic vocabulary for devotional crisis: there are states of grief where every surface is parched, not just one. The bhakti application is honest naming: when you are in full pari-śuṣyati, name it as such rather than pretending partial dryness. Bhakti traditions value detailed interiority — daśa-bhāva, aṣṭa-sāttvika-vikāra (the eight spontaneous body-states of bhakti) — and Śrīdhara's close reading models the same precision for everyday emotional life: describe the symptom fully before prescribing the remedy.",
     "advaita-bhakti": "Madhusūdana's synthesis yields the most actionable frame: viṣāda is simultaneously a spiritual diagnosis and a devotional opening — it tells you exactly where your anātma-vid (non-self-knowledge) is lodged, which is also exactly where Bhagavān's teaching will arrive. The daily practice is two-step: (1) when grief arises, name the specific ātmīya-abhimāna (sense of 'mine') that is being threatened — which body, which relationship, which role; (2) hold that named thing as an offering, neither suppressing the feeling nor acting from it. The grief becomes a precise pointer, and the pointing is itself a form of bhakti."
-  }
+  },
+  "primary_meaning": "Flooded with compassion, Arjuna spoke in grief to Krishna: seeing his own people arrayed there, hungry to fight."
 }

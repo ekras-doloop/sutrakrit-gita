@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -175,7 +175,7 @@
     },
     {
       "surface_form": "upadekṣyanti",
-      "lemma": "upadiś",
+      "lemma": "upa-√diś",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -601,7 +601,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "upadekṣyanti: upadiś -> upa-√diś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools require both intellectual questioning (paripraśna) and embodied submission (praṇipāta) — what does it mean that knowledge cannot be transmitted by intellect alone, and why does the tradition insist on the bodily act?",
@@ -619,5 +630,6 @@
     "śuddhādvaita": "Vallabha's three-part sequence is a daily practice: begin with a physical act of lowering yourself (amānitva — releasing arrogance); then bring one sincere question spoken aloud; then offer one concrete act of service to someone on the path. The sequence done daily is the Puṣṭi-mārga discipline of mahat-sevā.",
     "bhakti": "Identify the precise soteriological question pressing on you right now — Śrīdhara's 'kuto'yaṃ mama saṃsāraḥ' — and write it out. Then find someone with both śāstra-knowledge AND lived experience (aparokṣānubhava) of what you are asking about. The combination of both is the qualification; do not accept one without the other.",
     "advaita-bhakti": "Madhusūdana's 'sarvabhāvena' (with one's entire being) means the approach to a teacher is not transactional. Before a meeting with any wisdom figure, spend time clearing the residue of ego-agenda — the desire to impress, to test, to extract. Arrive as pure receiving capacity. The guru's sākṣātkāra flows only into a vessel that is genuinely open."
-  }
+  },
+  "primary_meaning": "Go to teachers who have not just studied the truth but seen it directly, approaching with full prostration, sincere questioning, and willing service, and they will give you this knowledge."
 }

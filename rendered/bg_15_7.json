@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "bhūtaḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "karṣati",
-      "lemma": "kṛṣ",
+      "lemma": "√kṛṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -331,7 +331,8 @@
         "jayatirtha_15.7"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya's commentary on BG 15.7 is not attested in the source corpus supplied. From Dvaita's doctrinal architecture: 'My very portion' (mamaivasho) establishes the jiva as eternally, ontologically distinct from Hari — an amsha not as fragment of a composite but as a genuine dependent entity existing by Hari's svatantra-sankalpa (sovereign will). The jiva is sanatanam (eternal) and never ceases to be jiva, even in liberation; liberation is the bliss of the jiva's full dependence on Hari, not merger. The senses drawn by the jiva are drawn in servitude to karma — and behind all that servitude stands Hari as antaryamin, the real mover."
+      "english_rendering": "*Mamaivaṃśo jīva-loke jīva-bhūtaḥ sanātanaḥ* — the *jīva* (individual self) is Hari's own *aṃśa* (portion), yet not a fragment broken off from a composite whole. *Aṃśa* here names a genuinely *paratantra* (eternally dependent) entity whose very being is held in existence by Hari's *svatantra* (self-sufficient, sovereign) will. The term *sanātanaḥ* forecloses any reading in which the *jīva* is dissolved back into its source: it is eternally *jīva*, distinct in liberation no less than in bondage. *Pañca-bheda* — the five-fold real distinction — is not suspended at any point; Lord–*jīva* *bheda* (real distinction) is constitutive of the *jīva*'s nature, not an adventitious condition. Drawing the *manaḥ-ṣaṣṭhāni indriyāṇi* (the six — mind and five senses) *prakṛti-sthāni* (situated in *prakṛti*), the *jīva* acts under the load of *karma*, yet Hari remains the inner mover behind every such drawing. *Bhakti* is the *jīva*'s proper response to this ontological subordination: not a path toward identity with Hari, but the full flowering of dependence recognized as such.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -362,7 +363,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -469,7 +470,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhūtaḥ: bhū -> √bhū",
+          "karṣati: kṛṣ -> √kṛṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the jiva is 'My very portion' regardless of school — Advaita's reflection, Ramanuja's mode, Madhva's dependent, Vallabha's ananda-amsha — what concrete difference does each account make to how a practitioner understands their own grief or elation?",
@@ -487,5 +499,6 @@
     "shuddhadvita": "The joy you feel at the most ordinary moment — a child's laugh, rain on dry earth — is not sentiment; it is the ananda-amsha briefly visible through the veil. Vallabha's application: do not seek liberation away from this world, seek the veil's thinning within it. Practice: treat each moment of delight as a data point proving the ananda-svarupa is present and pushing through, not as distraction from serious sadhana.",
     "bhakti": "Shridhara's distinction between sleep and death on one side, and genuine liberation on the other, has a daily correlate: how much of your 'rest' actually refreshes versus merely suspending the same anxieties that revive with the alarm? The practitioner's question is not whether to merge but whether the samskara-load comes with you into the mergence. Practice: bring one degree of viveka (discernment) into the transition to sleep — even that is moving from sa-prakrtika toward shudha laya.",
     "advaita-bhakti": "Madhusudana's two-register reading licenses a life lived simultaneously in the world and beyond it: you are fully Brahman (nothing to achieve) and fully a practitioner (much to dissolve). When the tension between those two feels like contradiction, that is precisely the antahkarana's avidya-load asserting itself. Practice: hold Krsna-bhakti as the bhavana that loosens the avidya without requiring you to first resolve the metaphysics — the devotion is itself the epistemology."
-  }
+  },
+  "primary_meaning": "An eternal portion of Me dwells as an individual self in the world of the living, drawing to itself the mind and five senses that rest in nature."
 }

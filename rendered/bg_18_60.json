@@ -2,7 +2,7 @@
   "verse_id": "18.60",
   "mūla": {
     "devanāgarī": "स्वभावजेन कौन्तेय निबद्धः स्वेन कर्मणा | कर्तुं नेच्छसि यन्मोहात्करिष्यस्यवशोऽपि तत्",
-    "iast": "svabhāvajena kaunteya nibaddhaḥ svena karmaṇā | kartuṃ necchasi yanmohātkariṣyasyavaśo'pi tat",
+    "iast": "svabhāvajena kaunteya nibaddhaḥ svena karmaṇā | kartuṃ necchasi yanmohāt kariṣyasyavaśo'pi tat",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 60",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "nibaddhaḥ",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -202,7 +202,7 @@
     },
     {
       "surface_form": "kariṣyasi",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -494,7 +494,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "yanmohātkariṣyasyavaśo'pi -> yanmohāt kariṣyasyavaśo'pi"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nibaddhaḥ: nibandh -> ni-√bandh",
+          "kariṣyasi: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If a person is already bound to act by their svabhava (innate nature), what is the point of deliberating about action at all — does deliberation itself belong to svabhava?",
@@ -512,5 +531,6 @@
     "shuddhadvaita": "In creative or spiritual practice, there are days when you cannot make yourself do the work despite every intention. Vallabha's Pushtimarga reading: your inability is itself a moment of Krishna's lila — he is withholding his energy so you feel the ground of helplessness that precedes grace. The application: instead of forcing, pause and ask for prasada; the next action that arises from that pause is more likely to flow from the Lord's will than from ego's push.",
     "bhakti": "When a recurring pattern in your relationships — say, always taking on others' burdens — feels impossible to break, Sridhara would identify it as purva-karma samskara (deep conditioning) running through you. The bhakti application is not to erase the pattern by willpower but to remain inwardly surrendered to Krishna while the pattern plays out, so that the samskara gradually loses its compulsive charge. Each recurrence becomes an occasion for renewed offering rather than self-reproach.",
     "advaita-bhakti": "When you catch yourself believing 'I will just decide differently this time' and then doing the same thing again, Madhusudana's synthesis names the root error: svAtantrya-bhrama, the delusion of self-sovereign will. The dual application: use Advaita inquiry to see that the independent decider is a constructed overlay on an already-moving process (jnana dissolves the bhrama); simultaneously, use bhakti to consciously re-dedicate the natural-born action to Krishna so that what was compulsion becomes offering. Both moves are needed — inquiry without devotion stays cold; devotion without inquiry stays naive."
-  }
+  },
+  "primary_meaning": "Your nature-born action has already bound you, son of Kunti; what you now refuse in your delusion, you will perform helplessly."
 }

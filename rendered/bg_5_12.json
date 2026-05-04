@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -137,7 +137,7 @@
     },
     {
       "surface_form": "āpnoti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -178,7 +178,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -245,7 +245,7 @@
     },
     {
       "surface_form": "saktaḥ",
-      "lemma": "sañj",
+      "lemma": "√sañj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -253,7 +253,7 @@
     },
     {
       "surface_form": "nibadhyate",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -414,8 +414,8 @@
         "jayatirtha_5.12"
       ],
       "score": 0.5,
-      "english_rendering": "The yukt is yoga-yukt — properly yoked to Hari — and the distinction between yukt and ayukt establishes the niyama (regulative principle) that explains why the same action frees one jīva and binds another: proximity to Hari's will versus distance from it. Action performed in conscious dependence on Bhagavān dissolves bondage; action performed in autonomous self-assertion tightens it. The bhāṣya here is brief — Madhva's characteristic restraint signals that the verse's logic is regarded as self-evident from the dvaitika standpoint: jīva is always other than Brahman, always dependent, and only right-relationship (yukti) to Hari constitutes freedom.",
-      "divergence_note": "Madhva's bhāṣya is terse: 'yoga-yukt' and 'to establish the regulative rule about the results of the yukt and ayukt.' Rendering expands only on the established dvaitika framework, not beyond the bhāṣya scope."
+      "english_rendering": "*Yuktaḥ karma-phalaṃ tyaktvā śāntim āpnoti naiṣṭhikīm | ayuktaḥ kāma-kāreṇa phale sakto nibadhyate.* The verse is taken up *punar yuktyādi-niyamanārtham* — to establish again the rule (*niyama*) governing *yukta* and *ayukta* and their results. Madhva reads *yuktaḥ* as *yoga-yuktaḥ*: the one yoked to Bhagavān in the full sense. Jayatīrtha presses the logic further: *yuktiḥ yogaḥ*, and the *ādi-pada* in *yuktyādi* takes in *sannyāsa* as well — so *yukta-ayukta* is *upalakṣaṇa* (a representative pair) that also covers *sannyāsī* and *asannyāsī*. The governing *niyama* declared here is twofold. Earlier in the chapter, *sannyāsa* and *yoga* were shown to produce their fruit only in combination — *na anyatara-parityāgena anyataraḥ*, not either one alone when the other is abandoned — and that rule (*niyama-jñāpana*) was stated there. Now the present verse states a further rule: *tau eva mokṣa-sādhanam*, those two together are the means to liberation, *na tu tad-ubhaya-tyāgena anyat* — not some third path obtained by abandoning both. Hence the verse declares the fruits for the one who possesses *yoga-sannyāsa* and for the one who lacks both (*tad-ubhayābhāvavataḥ*): liberation (*mukti*) versus *saṃsāra-vistāra* (expansion of bondage). The *paratantra* *jīva* (eternally dependent individual self) who remains in conscious subordination to Hari attains *naiṣṭhikī śānti* — peace that is final; the *ayuktaḥ*, driven by *kāma-kāreṇa* (autonomous desire-impulse), clings to fruit and is bound.",
+      "divergence_note": "Re-anchored to Madhva's *punar yuktyādi-niyamanārtham* and Jayatīrtha's extended niyama-analysis: *yuktiḥ yogaḥ*, *ādi-padena sannyāsaḥ*, *na anyatara-parityāgena anyataraḥ*, *tau eva mokṣa-sādhanam*, *na tad-ubhaya-tyāgena anyat*, and *mukti-saṃsāra-vistāra-lakṣaṇaṃ phalam*. Prior rendering summarized without quoting these moves."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -595,7 +595,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "āpnoti: āp -> √āp",
+          "yuktaḥ: yuj -> √yuj",
+          "saktaḥ: sañj -> √sañj",
+          "nibadhyate: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If two people perform identical actions — same duty, same effort — and one is liberated while the other is further bound, what exactly is the operative variable? Is it internal intention alone, or does the quality of the action itself carry moral weight?",
@@ -613,5 +627,6 @@
     "śuddhādvaita": "Puṣṭi-mārga practice here is saturation: every act of the day — waking, eating, working, resting — is offered as seva (loving service) in Kṛṣṇa's līlā. The contrast Vallabha compresses into one line (śānti vs bandha) maps onto lived experience: acts offered in this spirit carry a quality of ease and rest; acts performed with anxious fruit-attachment carry a quality of tightness and depletion. The practice is to notice this difference and let it be the self-correcting signal.",
     "bhakti": "Śrīdhara's parameśvara-eka-niṣṭha (single-pointed orientation toward the Lord) translates into a practice of maintaining a background orientation throughout the day — not a constant explicit thought but a settled reference point. In conflict or difficulty, bahirmukha (outward-turning) means scanning the external situation obsessively for a fix; parameśvara-niṣṭha means returning to the inner anchor before responding. The difference is not in what you do but in where you stand when you do it.",
     "advaita-bhakti": "Madhusūdana's key variable is abhiprāya — operative intention. The everyday practice is to cultivate a clear, prior intention before acting: 'This is for Kṛṣṇa's purposes, not for the fruit I am imagining.' This is not self-deception about wanting outcomes but a reorientation of what the action is fundamentally for. Over time this repeated abhiprāya-setting produces sattva-śuddhi (clarification of being) and begins to generate the viveka (discernment) that Advaita needs — bhakti here is the engine that runs the jñāna process from the inside."
-  }
+  },
+  "primary_meaning": "The disciplined person renounces the fruits of action and reaches lasting peace; the undisciplined one, driven by desire and clinging to results, only tightens the knot."
 }

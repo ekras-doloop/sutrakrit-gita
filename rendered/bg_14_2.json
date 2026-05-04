@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "āgatāḥ",
-      "lemma": "āgam",
+      "lemma": "√āgam",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -144,7 +144,7 @@
     },
     {
       "surface_form": "upajāyante",
-      "lemma": "upajan",
+      "lemma": "upa-√jan",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -201,7 +201,7 @@
     },
     {
       "surface_form": "vyathanti",
-      "lemma": "vyath",
+      "lemma": "√vyath",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -598,7 +598,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āgatāḥ: āgam -> √āgam",
+          "upajāyante: upajan -> upa-√jan",
+          "vyathanti: vyath -> √vyath"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the relationship between 'knowledge as means' (jnana-sadhanam) and 'attaining the Lord's nature' (sadharmatam) — is the knowledge a cause, a condition, or an identity-statement?",
@@ -616,5 +628,6 @@
     "suddhadvata": "At the end of a difficult day, instead of seeking escape (pralaya from stress), seek proximity to what you love most — a practice, a person, a quality of attention. Vallabha's 'nityam samipe tisthanti' (they remain always near) is a daily posture: liberation is not elsewhere, it is staying close. Choose to be near the source rather than running from the cycle.",
     "bhakti": "When a crisis comes and you feel you might not survive it intact, recall that the knowledge Sridhara points to is not information but a practiced understanding that you are not the one who goes through dissolution. 'Pralaye duhkhani na anubhavanti' — at your personal pralaya (burnout, grief, failure), the one who has practiced this does not experience it as suffering in the same way. The practice is: stay with the teaching until it is lived, not merely known.",
     "advaita-bhakti": "Madhusudana's synthesis suggests that the deepest immunity — 'na ca liyante,' not even dissolved — comes when jnana and bhakti are both operating. In daily life: when you face something that feels like it will annihilate you, bring both clarity (you are awareness) and love (this is Krsna's world) simultaneously. Neither detachment alone nor devotion alone gives the full immunity the verse promises — both together close the loop."
-  }
+  },
+  "primary_meaning": "Those who take refuge in this knowledge reach my own nature, and at creation they are not born again into the world's cycles, nor do they tremble when it dissolves."
 }

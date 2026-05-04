@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -331,7 +331,8 @@
         "jayatirtha_18.57"
       ],
       "score": 0.5,
-      "english_rendering": "[BHĀṢYA ABSENT — Madhvācārya did not comment on this verse per available sources.] Rendering derived from Dvaita siddhānta: Madhva would insist that 'chetasā' signals the jīva's dependent cognition, always ontologically distinct from Hari. 'Sarvakarmāṇi mayi sannyasya' is not a merger but a servant depositing every act into the hands of the independent Lord (svatantra Brahman). 'Mat-paraḥ' affirms the eternal hierarchy: Hari as svāmin (master), jīva as dāsa (servant), never identical. 'Buddhi-yoga' is the correct understanding (tattva-jñāna) of this very distinction, and steady-mindedness (mat-cittaḥ) is sustained precisely because the jīva knows it is fully dependent — liberation is Viṣṇu's prasāda, not self-effort."
+      "english_rendering": "*Cetasā* — with the *jīva*'s cognition, itself *paratantra* (eternally dependent), never self-originating — Kṛṣṇa commands: deposit all *sarvakarmāṇi* (every act, without remainder) into *mayi*, into the *svatantra* (independently real, self-sufficient) Lord alone. *Saṃnyasya* here is not dissolution of the agent but a deliberate transfer: the *dāsa* (servant) lays each action at the feet of the *svāmin* (master), the *bheda* (real distinction) between them remaining wholly intact. *Matparaḥ* — having Hari as the supreme — names the permanent ontological subordination that *taratamya* (graded hierarchy) secures: Hari above, the *jīva* always below, never identical. *Buddhiyogam upāśritya* is the practice of *tattva-jñāna* (knowledge of the real distinctions), specifically the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) that constitutes correct cognition; no *buddhi-yoga* is possible that elides the Lord's independence from the *jīva*'s dependence. *Maccittaḥ satataṃ bhava* — be perpetually minded toward Me — is not a counsel of absorption but the continuous orientation of *paratantra* consciousness toward its *svatantra* ground: the mind fixed on Viṣṇu because it knows, without wavering, that it belongs to Him. Liberation arrives as Viṣṇu's *prasāda* (grace), a real arrival of the *jīva* into His proximity, not a return of identity.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -531,7 +532,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhava: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What exactly is being renounced — the action, its fruit, the sense of ownership, or all three — and do the schools agree?",
@@ -549,5 +560,6 @@
     "śuddhādvaita": "Vallabha's instruction in daily life is: drop the claim of kartṛtva (authorship), not the action itself. A parent caring for a child can do so fully — every nappy-change, every school pickup — while internally releasing 'I am making this happen.' The rapture (āhlāda) that Puṣṭi-mārga points to is the lightness that comes when the burden of being the responsible agent lifts: Kṛṣṇa is doing this through me, I am the delighted instrument.",
     "bhakti": "Śrīdhara's 'brahma-arpaṇam' principle applied to professional life: each deliverable — a document, a design, a meal cooked — is offered as an oblation (haviḥ) into the fire of work that is itself Brahman (brahma). The 'mat-cittaḥ satatam' is maintained not by withdrawing from work but by a quick interior return to the single-pointed goal (mat-paraḥ) between every task. Consistent practice makes this return faster until it becomes the default orientation.",
     "advaita-bhakti": "Madhusūdana's synthesis is particularly useful for intellectuals who oscillate between philosophical inquiry and devotional longing. The practice is to let Vāsudeva be 'priyatama' (most beloved) — not a concept held at arm's length but an actual relationship of love. When the mind drifts to the 'rajanī or kāminī' (the project, the recognition, the relationship that currently holds most emotional charge), the instruction is a clean redirection: 'Return to the one address.' Both the jñāna and the bhakti are present — the viveka that renounces, and the love that draws the mind back."
-  }
+  },
+  "primary_meaning": "With your mind, lay every action at my feet, hold me as your only aim, take shelter in the yoga of discernment, and keep your thoughts on me without interruption."
 }

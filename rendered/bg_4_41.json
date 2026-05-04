@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "saṃnyasta",
-      "lemma": "saṃnyas",
+      "lemma": "saṃ-√nyas",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "saṃchinna",
-      "lemma": "saṃchid",
+      "lemma": "saṃ-√chid",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "nibadhnanti",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -302,8 +302,9 @@
         "jayatirtha_4.41"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya left no direct commentary on this verse. Drawing on Dvaita principles: the jīva (individual soul), eternally distinct from Hari, who offers all action as dependent worship and whose doubt regarding Hari's supremacy is severed by śāstra-jñāna (scriptural knowledge), is not bound by karma. The ātman here is 'self-possessing' only in the derivative sense — sustained by Hari's independent will — and thus freed from karmic binding solely through Hari's grace, not through any autonomous knowledge-event.",
-      "divergence_note": "Bhāṣya absent — Madhva's panel entry explicitly states no commentary on this verse. Rendering is inference from Dvaita siddhānta (established doctrine)."
+      "english_rendering": "The *paratantra* (eternally dependent) *jīva* who has surrendered all action through *yoga* — *yoga-saṃnyasta-karmāṇam* — and whose doubt (*saṃśaya*) regarding Hari's absolute *svatantra* (independently real, self-sufficient) supremacy has been severed by *jñāna* — *jñāna-saṃchinna-saṃśayam* — is not bound (*na nibadhnanti*) by *karma*. The *ātmavantam* here names not self-sufficiency but possession of right orientation toward the *ātman* as Hari's dependent: the *jīva* who knows its own *paratantra* nature stands freed from karmic bondage. *Pañca-bheda* (the five-fold real distinction) is not dissolved in this liberation; the *bheda* (real distinction) between Lord and *jīva* remains fully intact. Freedom from *karma* is not an autonomous achievement of the *jīva* but follows solely from Hari's grace operating through the *jīva*'s *bhakti* (devotion) — an ontological subordination, not an independent knowledge-event. *Saṃśaya* regarding Hari's *taratamya* (graded ontological hierarchy) at the apex is the root of bondage; *jñāna* that severs it is itself *Hari-prabhā*, illumination granted by Hari, not self-generated. Thus *karma* binds only those who assert a false independence the *jīva* never possessed.",
+      "divergence_note": "Mādhva and Jayatīrtha are silent on this verse; the reading draws directly from Dvaita *siddhānta*: *paratantra* *jīva*, grace-dependent liberation, and the permanence of *bheda* even in the freed state.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -505,7 +506,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃnyasta: saṃnyas -> saṃ-√nyas",
+          "saṃchinna: saṃchid -> saṃ-√chid",
+          "nibadhnanti: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma binds only through doubt and identification, what exactly is 'doubt' here — epistemological uncertainty or existential self-misidentification?",
@@ -523,5 +536,6 @@
     "śuddhādvaita": "Vallabha's dhīra is outwardly ordinary — engaged, capable, responsive — but inwardly antaḥkaraṇa-śūnya (empty of inner-organ possession). In practice: bring full energy to what is in front of you, but catch the moment when you begin identifying with the role ('I am the one who solved this'). That identification is anātmābhimāna (misidentification with non-self). Return to the bare fact of awareness — that is Kṛṣṇa's prasāda (grace-gift) operating as you.",
     "bhakti": "Śrīdhara's apramādin (the vigilant one) is the practical key. Maintain a quality of alert sincerity in action — not anxious monitoring, but the attentiveness of genuine care. Dedicate the action to Parameśvara at the outset; let deha-abhimāna (body-identification) be the doubt you watch dissolve rather than suppress. Even routine, lokasaṃgraha (world-sustaining) work — meetings, errands, caregiving — is included: none of it binds the vigilant devotee.",
     "advaita-bhakti": "Madhusūdana's emphasis on apramāditva (perpetual wakefulness) is actionable as a daily discipline: remove the conditions that produce viṣaya-paravaśatva (captivity to distraction) — not by avoidance, but by maintaining the samata-buddhi (equanimous awareness) that converts engagement into worship. The synthesis he offers means you need not choose between jñāna and bhakti orientations: sustained attention itself is the Bhagavad-ārādhana (offering to the Lord), and it simultaneously clears the ground for ātma-niścaya (settled self-knowledge)."
-  }
+  },
+  "primary_meaning": "When you have surrendered action through yoga, cut doubt with knowledge, and stand possessed of yourself, Dhanañjaya, no karma can bind you."
 }

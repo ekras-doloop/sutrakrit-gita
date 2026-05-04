@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "tatam",
-      "lemma": "tan",
+      "lemma": "√tan",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -147,7 +147,7 @@
     },
     {
       "surface_form": "avasthitaḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -356,97 +356,6 @@
       ]
     },
     {
-      "list": "न च मत्स्थानि भूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5"
-      ]
-    },
-    {
-      "list": "न चाहं तेष्ववस्थितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5"
-      ]
-    },
-    {
-      "list": "पश्य मे योगमैश्वरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5",
-        "10.7",
-        "11.8"
-      ]
-    },
-    {
-      "list": "बहु स्यां प्रजायेय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10",
-        "9.5",
-        "9.7",
-        "9.8",
-        "9.24"
-      ]
-    },
-    {
-      "list": "भूतभृन्न च भूतस्थो ममात्मा भूतभावनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5"
-      ]
-    },
-    {
-      "list": "मतस्थानि सर्वभूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5"
-      ]
-    },
-    {
-      "list": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.5",
-        "9.29"
-      ]
-    },
-    {
-      "list": "येन सर्वमिदं ततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "8.4",
-        "9.5",
-        "12.3",
-        "12.4",
-        "18.46"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
       "list": "स्थान",
       "role": "supporting",
       "other_verses_in_list": [
@@ -492,7 +401,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tatam: tan -> √tan",
+          "avasthitaḥ: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Brahman pervades everything yet is conditioned by nothing, what practical difference does it make whether I frame my daily actions as 'done in Brahman' or 'done for Brahman' — and does that framing shift my psychology in ways that matter?",
@@ -510,5 +430,6 @@
     "śuddhādvaita": "Vallabha's prasāda-frame makes ordinary enjoyment — a meal, a piece of music, a beautiful view — available as direct contact with Kṛṣṇa's svecchā rather than a distraction from it. The practice: receive each pleasure as an uninstructed gift (not earned, not caused by you) and let the unreasonable generosity of it register before you consume or move on. This is puṣṭi-sādhanā (nourishment-discipline) in real time.",
     "bhakti": "Śrīdhara's kāraṇa-bhūta framing supports a contemplative exercise in causation: for any situation or object in your life today, trace it back one causal layer, then another — not as intellectual analysis but as a felt sense that 'everything I see is an effect that has never fully left its cause.' The purpose is not to reach a terminus but to loosen the assumption that the present moment is self-sufficient and self-explanatory.",
     "advaita-bhakti": "Madhusūdana's rope-serpent analogy can be used when fear or anxiety reaches a physical level: the anxiety is real as appearance and should not be bypassed, but the substratum on which it appears — your capacity for consciousness itself — is not harmed by it. In practice: stay with the somatic reality of the anxiety (do not sublimate) while simultaneously noticing that the space in which the sensation arises is not itself contracted. This is advaya-caitanya (non-dual awareness) as a daily regulation tool, not a bypass."
-  }
+  },
+  "primary_meaning": "All of this universe is pervaded by Me in My unmanifest form; all beings abide in Me, yet I do not abide in them."
 }

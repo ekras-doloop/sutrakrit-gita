@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "samavetān",
-      "lemma": "samave",
+      "lemma": "sam-√ave",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -263,8 +263,9 @@
         "anandgiri_1.25"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya left no commentary on this verse; his bhāṣya of the Gītā opens at 2.10, treating chapters one and the opening of two as narrative scaffolding beneath the level of philosophic commentary. The verse itself records the external act: Kṛṣṇa, having positioned the chariot between the armies as requested, addressed Arjuna as 'Pārtha' and said, 'Behold these assembled Kurus.' From an Advaita reading-direction the moment is pregnant — the epithet 'Pārtha' (son of Pṛthā) quietly marks Arjuna by his mātr̥-lineage, the dimension of embodied limitation, just as the drama of saṃsāra (the round of becoming) is about to unfold through his avidyā (ignorance). No direct Śaṅkara text available; reading is reconstructed from his broader Gītā-hermeneutic.",
-      "divergence_note": "ABSENT — Śaṅkara's bhāṣya does not cover BG 1.25. This rendering is inferred from his stated hermeneutic principle that Gītā 1–2.9 is arthavāda (contextual narrative), not the subject of philosophical upadeśa (instruction)."
+      "english_rendering": "Kṛṣṇa stations the chariot before Bhīṣma, Droṇa, and all the assembled kings — *mahīkṣitām* (lords of the earth) — and calls out: *pārtha paśyaitān samavetān kurūn* — 'Pārtha, behold these gathered Kurus.' The address 'Pārtha,' son of Pṛthā, binds Arjuna to *mātr̥*-lineage and embodied identity, the very station from which *avidyā* (nescience) will erupt into *viṣāda* (despondency). The scene is *arthavāda* — narrative ground, not yet *upadeśa* (philosophical instruction). *Saṃsāra* (the round of conditioned becoming) stages itself here: the armies arrayed, the teacher present, the student still lost in the identification of *ātman* (the self) with body, clan, and the prospect of their destruction. What follows in Arjuna's collapse is the lived exhibition of *adhyāsa* (superimposition) — the confusion of the non-self with the self — which makes the entire *upadeśa* of chapters two onward both possible and necessary. Kṛṣṇa's command to 'behold' is not yet liberating *darśana* (vision); it is the precipitating look that deepens *moha* (delusion) before *jñāna* (knowledge) can dissolve it.",
+      "divergence_note": "Śaṅkara's bhāṣya opens at 2.10; BG 1 is treated as *arthavāda*, contextual narrative below the threshold of philosophical *upadeśa*. The advaita reading here is reconstructed from his stated hermeneutic — specifically his *adhyāsa-bhāṣya* and the framing verses of his Gītā introduction — applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -333,21 +334,7 @@
       ]
     },
     {
-      "list": "इनको मैं देख लूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
-      ]
-    },
-    {
       "list": "एवमुक्तः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
-      ]
-    },
-    {
-      "list": "कुरुन् पश्य",
       "role": "supporting",
       "other_verses_in_list": [
         "1.24"
@@ -382,13 +369,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "1.22",
-        "1.24"
-      ]
-    },
-    {
-      "list": "पश्यैतान् धार्तराष्ट्रान् समानिति",
-      "role": "supporting",
-      "other_verses_in_list": [
         "1.24"
       ]
     },
@@ -445,27 +425,6 @@
       ]
     },
     {
-      "list": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
-      ]
-    },
-    {
-      "list": "यह मेरा ही है",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
-      ]
-    },
-    {
-      "list": "ये मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
-      ]
-    },
-    {
       "list": "सर्वे",
       "role": "supporting",
       "other_verses_in_list": [
@@ -491,13 +450,6 @@
         "14.1",
         "18.21",
         "18.54"
-      ]
-    },
-    {
-      "list": "सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.24"
       ]
     },
     {
@@ -562,7 +514,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "samavetān: samave -> sam-√ave"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa comply with Arjuna's request immediately and exactly — and what does instantaneous obedience from the Lord tell us about the theology of service across these six schools?",
@@ -580,5 +543,6 @@
     "śuddhādvaita": "Vallabha's reading says: Kṛṣṇa arranged exactly the vision that would crack Arjuna open so that the teaching could enter. When life places you before a scene that breaks your composure — family, loss, conflict — consider that the scene itself may be prasāda (grace-gift): not punishment, but the precise arrangement needed for your next opening. The Puṣṭi-mārga application is to receive crisis as choreography rather than as accident, and to ask what Kṛṣṇa is making possible through the discomfort rather than how to escape it.",
     "bhakti": "Śrīdhara's 'pramukhataḥ' (directly in front of, face-to-face) instructs a posture: when something difficult must be confronted — a difficult conversation, a hard truth, a feared encounter — place yourself directly before it, not at an angle, not through intermediaries. The chariot is not parked to the side; it faces the assembly. Bhakti in its most grounded form is the willingness to stand face-to-face with what you are afraid to see, trusting that the Lord who positioned you there will not abandon you in the looking.",
     "advaita-bhakti": "Madhusūdana notes that Kṛṣṇa, as Hṛṣīkeśa (master of the senses), already knows your hidden intentions — 'nigūḍhābhiprāyajña.' The practical teaching: stop managing your inner life for an audience, including a divine one. Your grief, your confusion, your attachment — they are already seen, already known, already accounted for in how the situation has been arranged. The synthesizing application is to bring your full inner state into prayer without concealment, the way Arjuna's grief is about to spill out entirely — because Kṛṣṇa both foresaw it and welcomed it as the necessary opening of the dialogue."
-  }
+  },
+  "primary_meaning": "Krishna drove the chariot between the armies, positioned it before Bhīṣma, Droṇa, and all the assembled kings, and said: \"Pārtha, behold these Kurus gathered here."
 }

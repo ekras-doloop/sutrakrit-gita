@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "smaran",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "prayāti",
-      "lemma": "prayā",
+      "lemma": "pra-√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -232,7 +232,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -437,8 +437,8 @@
         "sridhara_8.5"
       ],
       "score": 0.5,
-      "divergence_note": "Śrīdhara's arcirādi-mārga reference situates mad-bhāva in the devatā-progression framework of the Upaniṣads rather than in direct nirguna-Brahman identity.",
-      "english_rendering": "Śrīdhara reads the verse as answering two simultaneous questions — the means (upāya) and the fruit (phala) of anta-kāla awareness. The upāya is smaraṇa (remembrance) of the antaryāmi-rūpa (inner-controller form) of paramēśvara; the phala is mad-rūpatā (assuming Bhagavān's own form) via the arcirādi-mārga (the luminous path). Departure along this bright way is not available to all — it is earned by a lifetime of meditation on the antarātman (the self within all selves). The verse thus affirms both bhakti-yoga as the śāstra-prescribed sādhana and liberation as its natural terminus."
+      "divergence_note": "Śrīdhara's *arcirādi-mārga* reference situates *mad-bhāva* in the devatā-progression of the Upaniṣads rather than in direct dissolution into *nirguṇa*-Brahman; *mad-rūpatā* is real arrival in the Lord's form, consistent with a devotional rather than non-dual terminus.",
+      "english_rendering": "The verse answers what was asked by *prayāṇa-kāle ca kathaṃ jñeyosi* — it shows the *antakāla-jñānopāya* (the means of awareness at the final hour) and its *tat-phala* (fruit). *Mām eva* indicates *uktalaḳṣaṇam antaryāmi-rūpaṃ parameśvaram* — Paramēśvara in the *antaryāmi* form as already described. One who departs *smaran* that Parameśvara, having relinquished the body, goes *prakarṣeṇa arcirādi-mārgena* — by the luminous ascending path — and attains *mad-bhāvaṃ mad-rūpatām*. *Smaraṇaṃ jñānopāyo mad-bhāvāpattiś ca phalam* — remembrance is the means of knowledge, and the attainment of the Lord's own form is the fruit. *Atra saṃśayo nāsti* — here there is no doubt."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -461,31 +461,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -513,7 +489,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "smaran: smṛ -> √smṛ",
+          "prayāti: prayā -> pra-√yā",
+          "yāti: yā -> √yā",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If mad-bhāva at death depends on anta-kāla smaraṇa, what prevents a life of adharma (non-virtue) capped by a death-bed prayer from yielding liberation — and how does each school's bhāṣya handle this loophole?",
@@ -531,5 +520,6 @@
     "śuddhādvaita": "Vallabha's 'anyavyavaccheda' (excluding all else) points to the practice of single-pointed anusandhāna (tracing) of Kṛṣṇa during transitions — waking up, ending a meeting, finishing a meal. Each transition is a micro-prāyāṇa (mini departure); using the 'eva' principle at these moments conditions the mind to hold nothing but Kṛṣṇa when the final transition comes.",
     "bhakti": "Śrīdhara names smaraṇa (remembrance) as jñāna-upāya (the means of discernment): build a short daily smaraṇa-schedule (five minutes at dawn, at noon, at dusk) of the antaryāmi (inner controller) in whatever form feels real. The goal is that remembrance becomes structural — not an emergency practice but the default mode the mind returns to when undirected.",
     "advaita-bhakti": "Madhusūdana's dual-path reading suggests that the same life can be lived at two levels simultaneously: externally serve Bhagavān with saguṇa-upāsanā (qualified devotion), and internally rest in the recognition that the one who serves and the one served share a single Brahman-substrate. Practice noticing, once daily, the silence behind the form of the deity you worship — this is the nirguṇa current running beneath the saguṇa practice."
-  }
+  },
+  "primary_meaning": "Whoever remembers Me at the moment of death and leaves the body reaches My state, of this there is no doubt."
 }

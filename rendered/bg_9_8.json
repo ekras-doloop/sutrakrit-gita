@@ -60,7 +60,7 @@
     },
     {
       "surface_form": "visṛjāmi",
-      "lemma": "visṛj",
+      "lemma": "vi-√sṛj",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -354,7 +354,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -392,17 +392,6 @@
         "18.40",
         "18.59"
       ]
-    },
-    {
-      "list": "बहु स्यां प्रजायेय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10",
-        "9.4",
-        "9.5",
-        "9.7",
-        "9.24"
-      ]
     }
   ],
   "audit_trail": {
@@ -432,7 +421,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "visṛjāmi: visṛj -> vi-√sṛj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all beings are avasha (without independent will), driven by the force of prakṛti and prior karma, in what sense is individual moral agency real — and does each school give a different answer?",
@@ -450,5 +449,6 @@
     "śuddhādvaita": "Vallabha's reading makes creation an act of Kṛṣṇa's intimate joy. If the cosmos is Kṛṣṇa's own world-play conducted with the delight of a sovereign-beloved, then your creative acts — raising a family, building a business, making art — participate in that same structure. The practice is to bring the quality of play and willing embrace (not anxious compulsion) to your daily making. Ask each morning: am I creating from delight or from fear? Puṣṭi-mārga begins where the answer starts shifting.",
     "bhakti": "Śrīdhara's emphasis on karma as the proximate driver of each creature's situation offers a practical check on blame: this person's difficulty, or yours, is the current-phase output of a long causal chain you did not fully author. The practice is to respond to adversity — your own or another's — with proportionate effort to change conditions, rather than moralistic condemnation. Bhakti's contribution is that Bhagavān superintends this chain; your role is to act well within it, not to resent its shape.",
     "advaita-bhakti": "Madhusūdana's dreamer-analogy is a contemplative tool for reducing the stickiness of both good fortune and catastrophe. When events feel unbearably weighty, recall the dreamer who, within the dream, fights and grieves — but from whose own light the whole drama is projected. This is not escapism; the dreamer still acts within the dream. The practice is to hold apparent urgency lightly enough that compassionate action becomes possible without being driven by existential terror."
-  }
+  },
+  "primary_meaning": "Seizing hold of my own nature, I send forth this entire multitude of beings again and again; they are helpless, swept along by the force of that nature itself."
 }

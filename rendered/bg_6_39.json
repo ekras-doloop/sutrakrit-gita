@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "upapadyate",
-      "lemma": "upapad",
+      "lemma": "upa-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -441,14 +441,6 @@
         "18.75",
         "18.78"
       ]
-    },
-    {
-      "list": "युञ्जान योगी",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.5",
-        "7.26"
-      ]
     }
   ],
   "audit_trail": {
@@ -478,7 +470,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "arhasi: arh -> √arh",
+          "upapadyate: upapad -> upa-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I stand at an impasse that reasoning cannot resolve, am I actually approaching the one source whose knowledge is direct and complete — or am I cycling through opinions from those who are themselves uncertain?",
@@ -496,5 +499,6 @@
     "śuddhādvaita": "Vallabha's logic: the one who created the situation is the one whose word dissolves the anxiety about it. If a mentor, parent, or leader created an expectation that now causes you doubt about your standing, only their explicit reassurance carries weight. Don't seek substitutes. The doubt is personal; only a personal, direct response cuts it.",
     "bhakti": "Śrīdhara's 'sarvajña' framing: before investing in an authority, honestly ask whether they have comprehensive knowledge of the domain. This is not cynicism — it is the same epistemic care Arjuna demonstrates. Partial experts can give partial answers; for questions about trajectory and destination (career, vocation, long-term practice), the source needs sarvajñatā in that domain, not just local expertise.",
     "advaita-bhakti": "Madhusūdana's synthesis points toward the spiritual director or master teacher who combines knowledge, compassion, and sovereignty in their domain. In practical terms: when you bring a real doubt to someone, notice whether they address only the symptom (give a reassuring answer) or the root (diagnose the underlying false assumption driving the fear). Only the latter constitutes genuine cheda (cutting). Seek advisors who operate at the level of roots."
-  }
+  },
+  "primary_meaning": "Cut this doubt of mine to the root, Krishna, every last thread of it, because no one else is capable of doing it."
 }

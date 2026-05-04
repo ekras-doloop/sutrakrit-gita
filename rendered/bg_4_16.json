@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "viśeṣitena",
-      "lemma": "viśeṣay",
+      "lemma": "vi-√śeṣay",
       "grammar": "instrumental masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "kṛtam",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -315,7 +315,7 @@
     },
     {
       "surface_form": "akarma",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "past indicative root 1st person plural verb",
       "senses_attested_in_panel": [
         {
@@ -569,13 +569,6 @@
       ]
     },
     {
-      "list": "एवं ज्ञात्वा विमोक्ष्यसे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.32"
-      ]
-    },
-    {
       "list": "कर्तव्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -634,40 +627,6 @@
         "13.12",
         "14.1"
       ]
-    },
-    {
-      "list": "यज्ज्ञात्वा मोक्ष्यसेऽशुभात्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.1"
-      ]
-    },
-    {
-      "list": "योगः कर्मसु कौशलम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.50"
-      ]
-    },
-    {
-      "list": "योगस्थः कुरु कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "3.4",
-        "4.18"
-      ]
-    },
-    {
-      "list": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.5",
-        "3.6",
-        "4.32",
-        "5.13",
-        "18.15"
-      ]
     }
   ],
   "audit_trail": {
@@ -697,7 +656,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viśeṣitena: viśeṣay -> vi-√śeṣay",
+          "kṛtam: kṛ -> √kṛ",
+          "ucyate: vac -> √vac",
+          "akarma: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the wise (kavayo) are confused about action and non-action, what makes most people think their conventional judgments about 'right action' are reliable — and what kind of inquiry does Kṛṣṇa's verse implicitly demand before action?",
@@ -715,5 +687,6 @@
     "śuddhādvaita": "Vallabha's triadic lens (karma / akarma / vikarma) applied daily: before any significant act, mentally sort it — is this prescribed and constructive, is it a genuine withdrawal, or does it risk vikarma (the aśubha third)? The Puṣṭi-mārga emphasis on Kṛṣṇa's prasāda (grace) also suggests: when you are genuinely unsure which category an action falls in, choose the path that keeps you in relationship with what you love, rather than the path that maximizes self-protection or social approval.",
     "bhakti": "Śrīdhara's stress on jñātvā anuṣṭhāya (knowing and then enacting) as the joint condition for liberation translates to a learning discipline: never stop at understanding, never act without understanding. A practical routine: for any new responsibility, commit to both a learning phase (reading, asking, listening — śṛṇu) and an enactment phase, and treat skipping either as a form of the same confusion the kavayo fall into. Understanding without action is incomplete; action without understanding is conventionalism (loka-paramparā-mātra).",
     "advaita-bhakti": "Madhusūdana's boat analogy points to a specific cognitive discipline: when you are confident you know who is acting and who is not — especially in conflict situations ('I did the work, they just sat there') — treat that confidence itself as the signal to slow down. The illusion is most convincing precisely when it feels most obvious. Applied: in any dispute about contribution, responsibility, or credit, deliberately construct the 'other observer's frame' before speaking. What would the reality look like from the apparently-still shore, to someone who is themselves in motion?"
-  }
+  },
+  "primary_meaning": "Even the wise are confused about what action truly is and what non-action is, so Krishna says: I will explain this to you, and knowing it, you will be freed from harm."
 }

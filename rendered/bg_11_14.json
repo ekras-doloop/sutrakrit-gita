@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "āviṣṭaḥ",
-      "lemma": "āviś",
+      "lemma": "√āviś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "hṛṣṭa",
-      "lemma": "hṛṣ",
+      "lemma": "√hṛṣ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "abhāṣata",
-      "lemma": "bhāṣ",
+      "lemma": "√bhāṣ",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [
         {
@@ -342,8 +342,9 @@
         "jayatirtha_11.14"
       ],
       "score": 0.5,
-      "english_rendering": "Arjuna, fully distinct from Hari as every jīva (individual soul) eternally is, was seized by wonder appropriate to a finite being confronting the infinite Lord face to face. His hair rose, he prostrated with head and joined palms — acts of dependent worship that express the jīva's irreducible subordination to Bhagavān, not a dissolution into him. He then spoke, beginning the great declaration of the Lord's supremacy that follows. NOTE: Madhva left no direct bhāṣya on this specific verse; this rendering extrapolates from Dvaita's doctrinal framework and adjacent commentary.",
-      "divergence_note": "ABSENT — Madhva commentator explicitly noted: 'Sri Madhvacharya did not comment on this sloka.' Rendering extrapolated from Dvaita doctrine."
+      "english_rendering": "*Vismayāviṣṭaḥ* (seized by wonder) — the word names Arjuna's condition with precision: the *paratantra* *jīva* Dhanaṃjaya, wholly distinct from the *svatantra* (independently real, self-sufficient) Lord by *pañca-bheda* (the five-fold real distinction), confronts the *deva* in his cosmic form and is overwhelmed. *Hṛṣṭa-romā* — the hair standing on end registers the finitude of the *jīva* before the infinite. *Praṇamya śirasā* and *kṛtāñjaliḥ* — prostration of the head and the joining of palms — are not incidental gestures; they enact the *jīva*'s ontological subordination to Hari, the *bhakti* that is not a merging but an acknowledgment of irreversible *bheda* (real distinction). Arjuna does not dissolve; he bows, and from that bowed position he *abhāṣata* — spoke. *Taratamya* (graded ontological hierarchy) is visible here: the finite dependent self worships from below, addressing the self-sufficient Lord above. The verse establishes the posture of the speech to follow.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from Dvaita *siddhānta* applied to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -377,7 +378,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -414,7 +415,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āviṣṭaḥ: āviś -> √āviś",
+          "hṛṣṭa: hṛṣ -> √hṛṣ",
+          "abhāṣata: bhāṣ -> √bhāṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When confronted with something genuinely beyond comprehension — a vision, a loss, a birth — what is the difference between the person who flees, the person who freezes, and the person who remains present enough to speak? What makes that difference?",
@@ -432,5 +445,6 @@
     "śuddhādvaita": "Vallabha: the body registers grace before the mind can. Pay attention to moments when your body moves toward something — leans in, stills, softens — before you have decided to. That movement is prasāda (grace) arriving. Do not override it with strategy.",
     "bhakti": "Śrīdhara's careful parsing asks: what exactly happened? — viṣmayena āviṣṭaḥ, vyāptaḥ. When something moves you, it is worth slowing down to ask precisely: was it wonder, or was it fear? Was it joy, or was it relief? The distinction matters — not as intellectual exercise but as honest self-knowledge that lets the right response arise.",
     "advaita-bhakti": "Madhusūdana's dhīratva (steadiness under extreme conditions) is earned, not inherited. It comes from having already done hard things — having won the battles, kept the practice, shown up when it was costly. The application: invest now in the actions that will make you someone who does not flee when the vision arrives. Steadiness in the extraordinary is built in the ordinary."
-  }
+  },
+  "primary_meaning": "Seized by wonder, his hair standing on end, Arjuna bowed his head to the ground, pressed his palms together, and spoke to the Lord."
 }

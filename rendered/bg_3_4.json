@@ -60,7 +60,7 @@
     },
     {
       "surface_form": "aśnute",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "samadhigacchati",
-      "lemma": "samadhigam",
+      "lemma": "saṃ-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -285,7 +285,7 @@
         "sridhara_3.4"
       ],
       "score": 0.5,
-      "english_rendering": "Śrīdhara Svāmī's bhāṣya anchors the verse directly in the citta-śuddhi (mind-purification) framework: varṇāśrama-ucita-karma (action proper to one's station and stage) must be performed sampyak (correctly and fully) up to the point where jñāna arises, because without the sattva-śuddhi that karma produces, jñāna has no substrate in which to emerge — karmāṇām anārambhād ananūṣṭhānān naiṣkarmyaṃ jñānaṃ nāśnute nāpnoti. The second hemistich addresses the śruti-passage that might seem to license immediate saṃnyāsa (evam eva pravrājino lokam īpsantaḥ pravrajanti): Śrīdhara replies that saṃnyāsa absent citta-śuddhi — jñāna-śūnya (empty of knowledge) renunciation — cannot deliver mokṣa as siddhi, because saṃnyāsa is not a mechanical bypass of inner preparation but precisely its fruition; the renunciation that actually liberates is the renunciation that emerges from a purified antaḥkaraṇa, not one performed prematurely in its absence."
+      "english_rendering": "*Citta-śuddhi* (mind-purification) is the governing purpose behind *karma*: *varṇāśramocitāni karmāṇi kartavyāni* — actions proper to one's station and stage must be performed until *jñāna* arises — *sampyak citta-śuddhyarthaṃ jñānot-patter yantam*. Without this, *citta-śuddhi* is absent, and *jñāna* simply does not arise. The mūla's first hemistich states the case directly: *karmaṇām anārambhād ananūṣṭhānān naiṣkarmyaṃ jñānaṃ nāśnute nāpnoti* — by non-commencement, by non-performance of *karma*, a person does not attain *naiṣkarmya*. Then Śrīdhara pre-empts the objection drawn from the śruti passage *evam eva pravrajino lokam īpsantaḥ pravrajanti*, which might seem to license immediate *saṃnyāsa* as an independent path to *mokṣa*. His reply: *na ca citta-śuddhiṃ vinā kṛtāt saṃnyasanād eva jñāna-śūnyāt siddhiṃ mokṣaṃ samadhigacchati prāpnoti* — renunciation performed without *citta-śuddhi*, empty of *jñāna*, cannot deliver *siddhi*. *Saṃnyāsa* that liberates is not a mechanical bypass of inner preparation; it is precisely the *saṃnyāsa* that emerges from a purified *antaḥkaraṇa*."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -307,25 +307,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "मार्मिक बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.18"
-      ]
-    },
-    {
-      "list": "योगस्थः कुरु कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "4.16",
-        "4.18"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -353,7 +335,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B (substrate architecture and feature definitions)",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samadhigacchati: samadhigam -> saṃ-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "aśnute: aś -> √aś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Every school anchors naiṣkarmya in citta-śuddhi rather than behavioural cessation — but they name different mechanisms (Śaṅkara: vicāra after purification; Rāmānuja: Bhagavān-ārādhana-karma; Madhva: Hari's anugraha following desireless action; Vallabha: Kṛṣṇa's prasāda; Śrīdhara: karma up to jñāna; Madhusūdana: karma + bhakti together). Are these genuinely different paths or different descriptions of a single interior movement?",
@@ -371,5 +371,6 @@
     "śuddhādvaita": "Vallabha's reading removes the strategic mind from the equation: when you find yourself calculating whether action or non-action will more efficiently advance your liberation, the Puṣṭi-mārga response is to recognise that calculation itself as the obstacle. Neither action nor its cessation is within your productive power to convert into mokṣa — that is Kṛṣṇa's prasāda alone. The everyday instruction is to act fully within the given structure of your life as a form of receiving what Kṛṣṇa has already arranged — keeping the quality of the action bright and full — while releasing the meta-project of managing your own liberation through strategic choice between doing and not-doing.",
     "bhakti": "Śrīdhara's dual warning maps onto a recognisable pattern: the person who, having encountered teachings on non-attachment, uses them as permission to disengage from responsibilities (calling it vairāgya while practising avoidance), and the person who adopts a formal spiritual identity — meditator, renunciant, practitioner — without the antaḥkaraṇa-śuddhi that alone gives it substance. The application from the bhāṣya is diagnostic: assess the inner instrument honestly; if agitation, attachment, and reactivity persist, the prescribed path is varṇāśrama-ucita-karma performed with as much śuddhi (purity) as one can manage — not the premature adoption of the outer forms of the next stage.",
     "advaita-bhakti": "Madhusūdana's synthesis identifies the single operative test: not outer activity-level but inner orientation. If you are acting with bhagavad-arpaṇa-buddhi (genuine offering of action and fruit to Bhagavān — not as a technique but as a real relinquishment of outcome), then karma is performing its citta-śuddhi function regardless of how intense the outer engagement is. If you are sitting still without that orientation, the stillness produces nothing. The everyday instruction is therefore to establish the offering-orientation first and adjust outer activity-level only secondarily — and only when karma-janita-citta-śuddhi has genuinely matured, not when mere preference for less effort suggests it has."
-  }
+  },
+  "primary_meaning": "A person does not reach the actionless state by simply refusing to act, nor does mere renunciation bring fulfillment, because the inner purification that makes knowledge possible comes only through right action first."
 }

@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "abhidhīyate",
-      "lemma": "abhidhā",
+      "lemma": "abhi-√dhā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "prāhuḥ",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -429,7 +429,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhidhīyate: abhidhā -> abhi-√dhā",
+          "vetti: vid -> √vid",
+          "prāhuḥ: prāh -> √prāh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the body is merely a 'field' — an object known — then who or what is the 'I' that says 'my body hurts' or 'I am tired'? What changes in your daily experience when you sit with that question?",
@@ -447,5 +459,6 @@
     "śuddhādvaita": "Choose one routine bodily act today — eating, walking, bathing — and perform it as if it is Kṛṣṇa's own field being tended. The Puṣṭi-mārga application is not to despise the body but to sanctify the field: every act of care for this body is seva (service) to the site of the Lord's play.",
     "bhakti": "When distraction or dullness makes prayer feel hollow, recall the bhakti-application: 'I am the kṣetrajña — the knower — and this distracted mind is the field, not me.' Redirect from the field's noise to the simple fact of your awareness, and offer that awareness as the real act of devotion — not the words alone, but the undistracted knowing behind them.",
     "advaita-bhakti": "In a moment of loneliness or longing, sit with Madhusūdana's synthesis: the love you feel for Kṛṣṇa is the kṣetrajña recognizing the ultimate Kṣetrajña — Consciousness recognizing itself through the form of the Beloved. Let the longing itself become the proof that the Knower in you is already oriented toward its source; do not try to resolve the longing, but let it deepen into presence."
-  }
+  },
+  "primary_meaning": "This body is called the field, Arjuna, and the one who knows it the knowers call the field-knower."
 }

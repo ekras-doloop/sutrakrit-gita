@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "pravartitam",
-      "lemma": "pravartay",
+      "lemma": "pra-√vartay",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "anuvartayati",
-      "lemma": "anuvartay",
+      "lemma": "anu-√vartay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "jīvati",
-      "lemma": "jīv",
+      "lemma": "√jīv",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -411,13 +411,6 @@
       "other_verses_in_list": [
         "3.18"
       ]
-    },
-    {
-      "list": "स्तेन एव सः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.12"
-      ]
     }
   ],
   "audit_trail": {
@@ -447,7 +440,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravartitam: pravartay -> pra-√vartay",
+          "anuvartayati: anuvartay -> anu-√vartay",
+          "jīvati: jīv -> √jīv"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the cosmic wheel sustains all life, what exactly is the individual's minimum contribution — is any conscientious action sufficient, or is only yajña-intended action (sacrifice-oriented action) valid?",
@@ -465,5 +470,6 @@
     "śuddhādvaita": "Receive every task — including tedious, repetitive, or thankless work — as prasāda (grace-gift) flowing from Kṛṣṇa's līlā rather than as burden or obligation. Vallabha's frame reorients motivation entirely: you are not grinding through karma to escape it, you are participating in Bhagavān's own unfolding delight. The indriyārāma who opts out is not resting — he is simply ungrateful.",
     "bhakti": "Use Śrīdhara's diagnostic in everyday decision-making: ask, 'does this action terminate at my senses, or does it point toward Īśvara?' A project pursued purely for personal pleasure or status fits the indriyārāma profile regardless of how virtuous it looks from outside. Reorienting even small daily actions — conversation, cooking, exercise — as Īśvara-ārādhana (worship through action) converts routine into the wheel-turning the verse demands.",
     "advaita-bhakti": "When you notice yourself stuck in a spiral of sense-gratification — binge consumption, endless distraction, hedonic treadmill — take Madhusūdana's stark claim seriously: such a life is worth less than the reset of death. This is not morbid counsel but a calibration tool: if you would not trade your current pattern for rebirth into a life of dharma-practice, something is structurally wrong. Identify one structural change — schedule, environment, relationship — that reinstates dharma-momentum."
-  }
+  },
+  "primary_meaning": "Whoever will not keep this wheel turning lives in sin, Arjuna; gratifying only the senses, his life is wasted."
 }

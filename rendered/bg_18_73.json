@@ -2,7 +2,7 @@
   "verse_id": "18.73",
   "mūla": {
     "devanāgarī": "नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत | स्थितोऽस्मि गतसन्देहः करिष्ये वचनं तव",
-    "iast": "naṣṭo mohaḥ smṛtirlabdhā tvatprasādānmayācyuta | sthito'smi gatasandehaḥ kariṣye vacanaṃ tava",
+    "iast": "naṣṭo mohaḥ smṛtirlabdhā tvat prasādān mayācyuta | sthito'smi gatasandehaḥ kariṣye vacanaṃ tava",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 73",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "naṣṭaḥ",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -60,7 +60,7 @@
     },
     {
       "surface_form": "labdhā",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "gata",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "kariṣye",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -465,7 +465,30 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "tvatprasādānmayācyuta -> tvat prasādān mayācyuta"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "naṣṭaḥ: naś -> √naś",
+          "labdhā: labh -> √labh",
+          "sthitaḥ: sthā -> √sthā",
+          "asmi: as -> √as",
+          "gata: gam -> √gam",
+          "kariṣye: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between intellectual agreement with a teaching and the actual dissolution of moha — and how would you know which one you have experienced?",
@@ -483,5 +506,6 @@
     "suddhAdvaita": "Vallabha's reading is useful when you are caught between knowing what you should do and being unable to feel it. The three-part analysis — Sankhya clears the conceptual confusion, Yoga restores functional clarity, and bhakti-prasada alone makes the shift real — maps onto this: sometimes information and technique are not sufficient and something has to be given, not earned. Recognising when you are in a prasada-gap, rather than a technique-gap, is a practical reorientation.",
     "bhakti": "Shridhara's 'ayam aham asmi' — the renewed recognition 'this is what I am' — has a direct correlate in moments when you return to a capacity or an orientation that felt lost. You did not learn something new; you remembered something true. Tracking these moments of svarupa-anusandhana (return to one's own nature) more carefully than moments of acquisition is the practical discipline this reading suggests.",
     "advaita-bhakti": "Madhusudana's lifespan framing — 'yavaj-jivam karisye vacanam tava' — converts a single battle-decision into a life-orientation. The practical application is the difference between 'I will do this hard thing' and 'I am the kind of person who does this kind of thing.' The latter is a smriti-level commitment, not a task-level one, and it reshapes the quality of all subsequent decisions without requiring renegotiation at each junction."
-  }
+  },
+  "primary_meaning": "My delusion is gone and my memory restored by your grace, O Acyuta. I stand here, doubt dissolved, and I will do as you say."
 }

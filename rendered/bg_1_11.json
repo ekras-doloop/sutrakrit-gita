@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "avasthitāḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "abhirakṣantu",
-      "lemma": "abhirakṣ",
+      "lemma": "abhi-√rakṣ",
       "grammar": "present imperative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -391,7 +391,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avasthitāḥ: avasthā -> ava-√sthā",
+          "abhirakṣantu: abhirakṣ -> abhi-√rakṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Duryodhana has already diagnosed his army as insufficient (1.10) — so why does he still issue tactical commands as if competent leadership can close the gap? What does this reveal about the relationship between clear-eyed assessment and compulsive action?",
@@ -409,5 +420,6 @@
     "śuddhādvaita": "Vallabha names Duryodhana's inner collapse (viṣṇṇa) not as failure but as the hinge-point of the entire narrative. The application: when you find yourself deflated before a task — having clearly seen the gap between what you have and what is needed — resist the reflex to paper over it with action. The deflation is real information. Sit with it long enough to ask what grace, not strategy, might provide. Kṛṣṇa enters exactly the space that Duryodhana's confidence vacates.",
     "bhakti": "Śrīdhara's tactical reading yields an organizational principle: 'bhīṣmabalenaivāsmākaṃ jīvitam' — our life depends on Bhīṣma's strength. Identify the one person or function in your project whose capacity everything else multiplies — and build explicit protection around them. That means shielding them from interruption, bureaucratic overhead, and piecemeal demands so they can do the work only they can do. This is not favoritism; it is structural clarity about load-bearing.",
     "advaita-bhakti": "Madhusūdana's reading closes with the word prasāda — grace flowing from the protected general to the whole army. The application is relational: when you invest in protecting and enabling your most capable colleague or leader rather than competing with them, the return is not just tactical advantage but a kind of organizational grace — a rising tide that lifts everyone's work. Madhusūdana would call this bhakti expressed through professional structure; you can call it the compound interest of genuine support."
-  }
+  },
+  "primary_meaning": "Duryodhana orders each commander to hold his assigned position in the formation and guard Bhīṣma from every side, for if the general stands, the army stands."
 }

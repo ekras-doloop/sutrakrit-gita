@@ -1,8 +1,8 @@
 {
   "verse_id": "18.31",
   "mūla": {
-    "devanāgarī": "यया धर्ममधर्मं च कार्यं चाकार्यमेव च | अयथावत्प्रजानाति बुद्धिः सा पार्थ राजसी",
-    "iast": "yayā dharmamadharmaṃ ca kāryaṃ cākāryameva ca | ayathāvatprajānāti buddhiḥ sā pārtha rājasī",
+    "devanāgarī": "यया धर्ममधर्मं च कार्यं चाकार्यमेव च | अयथावत् प्रजानाति बुद्धिः सा पार्थ राजसी",
+    "iast": "yayā dharmamadharmaṃ ca kāryaṃ cākāryameva ca | ayathāvat prajānāti buddhiḥ sā pārtha rājasī",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 31",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "prajānāti",
-      "lemma": "prajñā",
+      "lemma": "pra-√jñā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -582,7 +582,33 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "ayathāvatprajānāti -> ayathāvat prajānāti"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prajānāti: prajñā -> pra-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "अयथावत्प्रजानाति -> अयथावत् प्रजानाति"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If rajasic buddhi produces doubt and approximate judgment rather than outright error, how would I distinguish a rajasic intellectual habit from healthy epistemic humility in my own thinking?",
@@ -600,5 +626,6 @@
     "shuddhadvaita": "Vallabha's diagnosis is that rajasic buddhi treats ethical categories as objects to be figured out rather than as gifts of grace to be received. When you find yourself grinding at a moral problem — analyzing, rehearsing, second-guessing — try stopping the analysis and simply asking what a loving response to Krishna's presence in this situation would feel like. This is not anti-intellectual; it is the recognition that prasada (grace-illumined knowing) has a texture that ordinary deliberation cannot replicate.",
     "bhakti": "Sridhara's sandehaspada — the zone of doubt — is not solved by acquiring more information. Notice the specific moral questions you keep revisiting without resolution: they are not information-problems, they are orientation-problems. The bhakti corrective is to bring those questions into prayer and devotional practice — not to get an answer delivered, but to let the attachment to a particular outcome dissolve so that the Lord's direction can become audible.",
     "advaita-bhakti": "Madhusudana's two-domain split is practically useful: separate your questions about 'what will this produce visibly?' (drishta: career, relationship, health) from 'what does this do to the unseen fabric of my life?' (adrishta: samskara, karma-binding). Rajasic buddhi collapses these and either over-weighs visible consequences or dismisses them. His grammatical point — buddhi as instrument, not agent — can be a centering reminder: when confused, recall that the deeper intelligence you are trying to access is not manufactured by you; your job is to quiet the instrument enough to let it function."
-  }
+  },
+  "primary_meaning": "The intellect is rajasic, Arjuna, when it sees dharma and adharma, what must be done and what must not, yet cannot tell them apart correctly."
 }

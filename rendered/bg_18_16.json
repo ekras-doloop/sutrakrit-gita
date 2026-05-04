@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "sati",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "locative neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -408,7 +408,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -508,7 +508,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sati: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ātman is not the real agent and all action flows from five co-causes, what exactly is the moral status of intention — does it belong to the agent or to the causal network?",
@@ -526,5 +536,6 @@
     "śuddhādvaita": "Vallabha's instruction shows up most clearly in creative or caregiving work. When you have done something well — raised a child through a hard day, finished a beautiful piece of writing, resolved a conflict skillfully — sit with the question of whether Krsna's grace was moving through you in that moment. Not as a rhetorical move but as an actual inquiry: was there a quality of flow, of rightness, of something larger than your planning? That recognition is the antidote to the sole-agency error.",
     "bhakti": "Sridhara's emphasis on sastra and acarya instruction translates directly: no spiritual or ethical development happens in isolation from lineage and teaching. When you find yourself making confident moral or spiritual pronouncements without having submitted those views to rigorous examination by teachers or texts, that is the akrtabuddhi pattern in action. Cultivate the habit of checking your conclusions against the tradition before acting on them.",
     "advaita-bhakti": "Madhusudana's rope-snake analogy applies to everyday self-talk: the 'I' that says 'I am anxious,' 'I succeeded,' 'I am not enough' is a superimposition on the witness-awareness that is simply present. Practice for one day treating every first-person claim as a tentative attribution rather than a fact — 'there is anxiety here' rather than 'I am anxious.' This is not dissociation; it is the beginning of the discriminative inquiry (viveka) that the verse identifies as the cure for durmati."
-  }
+  },
+  "primary_meaning": "Given all this, whoever still sees only himself as the doer has an unformed intellect, and that confused person does not truly see."
 }

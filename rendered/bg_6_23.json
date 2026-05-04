@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "vidyāt",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -402,7 +402,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyāt: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If yoga is defined by what it removes (contact with suffering) rather than by what it produces, what does this tell us about whether yogic states can be directly pursued or only indirectly cultivated?",
@@ -420,5 +430,6 @@
     "śuddhādvaita": "When a practice or discipline seems paradoxical—you must exert effort but the fruit is grace; you must try but trying alone cannot produce it—receive that paradox as a sign you are near something real, not a signal to stop. Vallabha's viruddha-lakṣaṇā suggests that Kṛṣṇa's domain is precisely where ordinary cause-and-effect language breaks down. Sustained yatnā (loving effort) done without grasping at outcome is itself the form of surrender.",
     "bhakti": "Śrīdhara's identification of nirvedaḥ as 'slackening of effort born of the perception that practice is painful' is directly actionable: whenever you notice yourself labelling meditation or prayer as effortful or burdensome, pause and identify that label as the obstacle—not as accurate reporting on the practice. The instruction anirviṇṇa-cetasā is less about generating enthusiasm and more about refusing to entertain the narrative that practice is a cost.",
     "advaita-bhakti": "Madhusūdana's bird-and-ocean story is a direct antidote to the discouragement that comes from measuring progress. Take the longest reasonable timeframe you can honestly hold—year, decade, lifetime—and set that as the evaluation window. Within that window, each session is one beak-drop. The bird was not wrong to persist; it was right, and external help arrived. Practise as if your effort is correct and the missing variable is time plus grace, not more technique."
-  }
+  },
+  "primary_meaning": "Know this state, called yoga, as the complete breaking of all contact with suffering, and practise it with firm resolve and a mind that never gives way to despair."
 }

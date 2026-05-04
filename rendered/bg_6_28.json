@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yuñjan",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "vigata",
-      "lemma": "vigam",
+      "lemma": "vi-√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -210,7 +210,7 @@
     },
     {
       "surface_form": "aśnute",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -371,8 +371,8 @@
         "jayatirtha_6.28"
       ],
       "score": 0.5,
-      "divergence_note": "FLAG: Madhva's bhāṣya for this verse is a single-sentence cross-reference with no independent commentary. The Dvaita rendering above draws from established Madhva doctrine to avoid fabrication; readers should weight it accordingly.",
-      "english_rendering": "Madhva's comment on this verse is minimal — he states only that it elaborates (prapañcayati) what was said in the previous verse. Within his broader framework, the yogī who disciplines the self (ātmānaṃ yuñjan) and becomes free of blemish attains brahma-saṃsparśa, which Dvaita reads as proximity-bliss (sāmīpya) in the presence of Hari — never fusion, because the jīva is eternally distinct (nitya-bhinna) from Brahman. The ease (sukhena) of attainment reflects Hari's anugraha (grace) for the dependent worshipper."
+      "divergence_note": "Madhva's bhāṣya is a single-sentence cross-reference (*pūrvaślokoktaṃ prapañcayati*); Jayatīrtha's sub-commentary supplies the motivating question. Doctrinal elaboration of *brahma-saṃsparśa* as proximity rather than fusion is drawn from established Madhva *siddhānta*, not from an independent bhāṣya expansion on this verse.",
+      "english_rendering": "Madhva notes that this verse simply *prapañcayati* (unfolds, elaborates) what was stated in the preceding verse — *pūrvaślokoktaṃ prapañcayati evaṃ yuñjann iti*. Jayatīrtha presses the question: why restate what was already said of the *praśānta-manasa* (the one whose mind is stilled)? The answer is that the restatement extends and fills out (*prapañcayati*) that prior characterization. The *yogī vigata-kalmaṣaḥ* — blemish (*kalmaṣa*) fully shed — who thus disciplines the *ātman* (*evaṃ yuñjan*) attains *brahma-saṃsparśa* (contact with Brahman), an *atyantaṃ sukham* (extreme, unexcelled bliss) reached with ease (*sukhena*). In Madhva's *siddhānta*, *brahma-saṃsparśa* is real contact with *svatantra* Hari, not absorption: the *jīva* (*paratantra*, eternally dependent) arrives in the presence of Brahman while remaining ontologically distinct — *pañca-bheda* (the five-fold real distinction) holds even in beatitude. The ease named by *sukhena* reflects Hari's *anugraha* (grace) sustaining the dependent *yogī*."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -416,20 +416,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अत्यन्त सुख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.32"
-      ]
-    },
-    {
-      "list": "आत्यन्तिक सुख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.21"
-      ]
-    },
     {
       "list": "नियतमानसः",
       "role": "supporting",
@@ -536,7 +522,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuñjan: yuj -> √yuj",
+          "vigata: vigam -> vi-√gam",
+          "aśnute: aś -> √aś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara uses 'vyāpnoti' (pervades) rather than 'prāpnoti' (reaches) — does this grammatical choice signal that the yogī does not travel toward bliss but recognizes an identity that was always already the case?",
@@ -554,5 +552,6 @@
     "śuddhādvaita": "Vallabha's lokottara (world-transcending) bliss and jīvan-mukti reading suggests an unusual daily practice: treat ordinary sensory pleasure as a pointer rather than an endpoint. When you taste something excellent, notice the quality of wholeness briefly accessible there — and then notice how quickly it forecloses. Vallabha's brahma-saṃsparśa is the contact where that foreclosure does not happen. The everyday application is a kind of comparative phenomenology: use small pleasures as calibration instruments for recognizing what boundless (aparimita) actually means.",
     "bhakti": "Śrīdhara's identification of brahma-saṃsparśa with avidyā-removal points to the place where bhakti and inquiry meet. Practically: in conversations where you find yourself defending a fixed self-image, Śrīdhara's reading asks whether that defense is the very avidyā being named. The yogī's manas yuñjan ('yoking the mind') is not suppression but steady noticing. Each time the story of 'who I am' is questioned and survived, a layer of kalmaṣa goes. Fulfilment (kṛtārthatā) in this framework is not an event but an accumulating transparency.",
     "advaita-bhakti": "Madhusūdana's nine-obstacle taxonomy is directly practical: before blaming distraction on external conditions, run through the list — is today's difficulty vyādhi (physical imbalance), styāna (inertia), avirati (craving for a specific sense-object), or anavasthitatva (inability to stay even when the state is reached)? The diagnosis changes the remedy. More importantly, his prescription — īśvara-praṇidhāna (surrender-to-the-Lord) as the master antidote to all nine — translates to: when the obstacle is correctly identified but feels immovable, release the agenda of fixing it and refer the whole situation to something larger than personal will."
-  }
+  },
+  "primary_meaning": "The yogī who keeps disciplining the self this way, purified of all impurity, easily reaches the touch of Brahman and tastes a bliss without limit."
 }

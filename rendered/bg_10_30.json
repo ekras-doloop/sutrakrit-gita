@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "kalayatām",
-      "lemma": "kalay",
+      "lemma": "√kalay",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -265,8 +265,8 @@
         "vedantadeshika_10.30"
       ],
       "score": 0.5,
-      "english_rendering": "Among those who reckon with a view to gain or loss — those driven by desire (anarthaprepsutayā gaNayatām) — I am Kāla, Death itself, the sovereign reckoner who brings every account to its final close. This identification locates Bhagavān as the inner controller (antaryāmin) who ultimately terminates all self-seeking calculation; Prahlāda, the lion, and Garuḍa stand as vibhūtis — glorious manifestations of the Lord's sovereignty within the created order.",
-      "divergence_note": "Rāmānuja bhāṣya present but partial; kāla gloss anchored directly, remainder inferred from Viśiṣṭādvaita framework."
+      "english_rendering": "Among the Daityas, I am Prahlāda — whose excellence is declared by *upamānam aśeṣāṇāṃ sādhūnāṃ yaḥ sadābhavat* (Viṣṇu Purāṇa 1.15.155: 'he who was ever the exemplar of all the virtuous'). Among those who reckon *anarthaprepsutayā gaNayatām* — reckoning with a view to ill-gotten gain — I am *kālaḥ mṛtyuḥ*: not the eternal *kāla-tattva* spoken of later (*aham evākṣayaḥ kālaḥ*, 10.33), nor Yama already named earlier, but a distinct *puruṣa-viśeṣa* (*kālaśabdena vivakṣitaḥ*). An insentient *kāla* cannot itself reckon; and if *kalayatām* referred only to knowers in general, singling out *kāla* among them would be unmotivated — so Veṅkaṭanātha reads the compound as bearing a specific sense: *anarthaprepsutayā gaNayatām*, for *na hi maraṇātiriktaḥ anarthaḥ* — no calamity exceeds death itself. Among *mṛga*, I am *mṛgendra*: the word *mṛgendra* itself establishes the lion's pre-eminence. Among birds, I am *Vainateya* — Garuḍa — whose supremacy rests on *vegātiśaya* (surpassing swiftness) and on *vedamayatva* (his constitution as the embodiment of the Vedas) and other such excellences.",
+      "divergence_note": "Re-anchored to Rāmānuja's *anarthaprepsutayā gaNayatām* gloss and Veṅkaṭanātha's extended reasoning: *kāla* here is a *puruṣa-viśeṣa*, not the eternal *kāla-tattva* (10.33) nor Yama; the *na hi maraṇātiriktaḥ anarthaḥ* inference drives the *mṛtyu* identification. Garuḍa's eminence grounded in *vedamayatva* per Veṅkaṭanātha, not generic sovereignty."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -276,8 +276,9 @@
         "jayatirtha_10.30"
       ],
       "score": 0.5,
-      "english_rendering": "Prahlāda, foremost among the daityas, stands as the supreme vibhūti precisely because his entire being was absorbed in dependent worship of Hari — the very model of jīva's eternal subordination (pāratantrya) to Bhagavān. Kāla, the lion, and Garuḍa likewise manifest Hari's sovereignty: each peak exemplar in its class is an expression of the Lord's will and power, with the jīva utterly distinct from and dependent upon that source.",
-      "divergence_note": "ABSENT — Madhva bhāṣya explicitly not present. Rendering inferred from Dvaita framework only."
+      "english_rendering": "Among the *daityas* (titans), Hari is *Prahlāda* — the *paratantra* *jīva* whose entire being exemplifies *bhakti* as ontological subordination, unmoved even amid demonic birth. *Kāla* (*kalayatām* — of those who reckon, calculate, or govern through time) is Hari himself, the *svatantra* (independently real, self-sufficient) lord behind all temporal ordering. Among *mṛgāṇāṃ* (animals), he is *mṛgendra*, the lion — peak of creaturely power, yet itself a dependent expression of Hari's will. Among *pakṣiṇāṃ* (birds), he is *Vainateyaḥ*, Garuḍa — whose very existence is *pāratantrya* (eternal dependence) made visible, the perpetual vehicle of *Bhagavān*. Each summit-being in its class is not an autonomous excellence but a site where *svatantra* Hari shines through *paratantra* existence; the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) holds intact even at these peaks of *vibhūti* (divine manifestation).",
+      "divergence_note": "Neither Madhva nor Jayatīrtha left extant commentary on this śloka; the reading is voiced from Dvaita *siddhānta* primitives directly off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -320,15 +321,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "कालः कलयतामहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.33"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -356,7 +349,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "kalayatām: kalay -> √kalay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa identify himself with Prahlāda among daityas rather than among devas — what does it mean that the highest divine vibhūti in the asura lineage is the one who refused to be defined by his lineage?",
@@ -374,5 +378,6 @@
     "śuddhādvaita": "Vallabha's reading of Nṛsiṃha and Varāha as avatāras invoked in sevā (service) suggests that the 'lion' and 'eagle' in your life — your fiercest protector and your highest aspiration — are themselves Bhagavān's forms taking shape for your protection and play. Recognize the people and capacities that carry you as vāhanas of the divine, not as your own achievements.",
     "bhakti": "Śrīdhara's philological care — holding both 'those who control' and 'those who count' as valid readings of kalayatām — models a practice of semantic attentiveness in daily life: before acting on a text, a message, or a situation, ask which reading you are assuming and whether another valid reading changes what the right response is.",
     "advaita-bhakti": "Madhusūdana's etymology of Prahlāda as 'he who causes supreme ānanda in all by his sāttvika nature' is a character prescription: to be the Prahlāda of your own lineage — your family, your profession, your community — is to be the one whose baseline inner state is so stable and luminous that it generates joy in those around you without effort or performance. This is not optimism; it is sāttvika ground."
-  }
+  },
+  "primary_meaning": "Among the daityas I am Prahlāda; among those who count, I am Time; among beasts, the lion; among birds, Garuda."
 }

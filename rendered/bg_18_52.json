@@ -2,7 +2,7 @@
   "verse_id": "18.52",
   "mūla": {
     "devanāgarī": "विविक्तसेवी लघ्वाशी यतवाक्कायमानसः | ध्यानयोगपरो नित्यं वैराग्यं समुपाश्रितः",
-    "iast": "viviktasevī laghvāśī yatavākkāyamānasaḥ | dhyānayogaparo nityaṃ vairāgyaṃ samupāśritaḥ",
+    "iast": "viviktasevī laghvāśī yatavāk kāyamānasaḥ | dhyānayogaparo nityaṃ vairāgyaṃ samupāśritaḥ",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 52",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "samupāśritaḥ",
-      "lemma": "samupāśri",
+      "lemma": "samup-√āśri",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -290,7 +290,8 @@
         "jayatirtha_18.52"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE: Madhvacarya did not comment on this sloka per the panel source. Rendering constructed from Dvaita siddhanta principles and Madhva's comments on adjacent verses. In Dvaita reading, the disciplines listed here — vivikta-seva, laghu-asana, yata-vak-kaya-manasa — are not autonomous purifications but acts of surrender to Hari as their inner controller (antaryamin). Dhyana-yoga-para nityam means constant meditation whose only valid object is Visnu, the wholly independent (svatantra) Lord; dispassion (vairagya) is possible only by Hari's grace, since the jiva's will is never self-sufficient. The verse thus describes the jiva in its mode of dependent worship — every restraint a form of kainkarya (service) — never collapsing the distinction between the finite meditator and the infinite object of meditation."
+      "english_rendering": "*Vivikta-sevī* (one who frequents solitary places), *laghv-āśī* (eating little), *yata-vāk-kāya-mānasaḥ* (with speech, body, and mind restrained), *dhyāna-yoga-para* (fully devoted to meditative union), *nityam* (constantly), *vairāgyaṃ samupāśritaḥ* (having taken full refuge in dispassion) — each epithet names a mode of the *jīva*'s *paratantra* (eternally dependent) nature in action. The solitude sought is not flight from world but the *jīva*'s turning away from *acit* (inert matter) toward Hari, the sole *svatantra* (independently real, self-sufficient) Lord who alone fills solitary contemplation with content. Eating little and restraining speech, body, and mind are not self-produced purifications; the *jīva* possesses no autonomous power of restraint — every such discipline proceeds from Hari's *antaryāmin* (inner controller) governance, Hari directing the *jīva*'s instruments from within. *Dhyāna-yoga-para nityam*: the meditation enjoined is constant and has a single valid object, Viṣṇu; to rest the mind on any other locus is to mistake a *paratantra* entity for the *svatantra*. *Vairāgya* (dispassion) arises not from the *jīva*'s will alone but by Hari's grace loosening the *jīva*'s grip on *acit*; the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) between meditator and object of meditation remains wholly intact throughout. The verse thus delineates the *jīva* in its highest discipline — every restraint a form of *kaiṅkarya* (service) — without collapsing the *bheda* (real distinction) between the finite practitioner and the infinite Lord.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -416,7 +417,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "yatavākkāyamānasaḥ -> yatavāk kāyamānasaḥ"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yata: yam -> √yam",
+          "samupāśritaḥ: samupāśri -> samup-√āśri"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Sankara insists 'nityam' means all other duties are superseded — does that leave room for any engaged life, or is this verse describing an exit from the world entirely?",
@@ -434,5 +454,6 @@
     "śuddhādvaita": "Track the moments in your day when aham-mamata (the I-mine complex) flares — 'my idea was dismissed,' 'my time was wasted' — and use each flare as Vallabha's concrete signal: dispassion practice is needed precisely here, not in abstract meditation.",
     "bhakti": "Sridhara's 'punah punah drdhara' (repeated firm taking-up of dispassion) reframes relapse not as failure but as the structure of the practice — each time you notice engagement slipping back into craving, you are not starting over but doing the exercise.",
     "advaita-bhakti": "Madhusudana's insight that 'nityam' excludes secondary occupations applies directly to creative or intellectual work: identify the one mode of attention your best work actually requires, then audit how much of your day is spent in mantra-japa equivalents — necessary-feeling routines that crowd out the real work."
-  }
+  },
+  "primary_meaning": "Seeking solitude, eating little, holding speech, body, and mind in check, given wholly to meditation without break, resting in dispassion."
 }

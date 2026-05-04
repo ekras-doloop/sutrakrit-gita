@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "vimūḍha",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -199,7 +199,7 @@
     },
     {
       "surface_form": "vyapeta",
-      "lemma": "vyape",
+      "lemma": "√vyape",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "prīta",
-      "lemma": "prī",
+      "lemma": "√prī",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -296,7 +296,7 @@
     },
     {
       "surface_form": "prapaśya",
-      "lemma": "prapaś",
+      "lemma": "pra-√dṛś",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -455,7 +455,9 @@
         "jayatirtha_11.49"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary is explicitly absent for this verse (the bhāṣya source notes 'Sri Madhvacharya did not comment on this sloka'). Drawing carefully from Dvaita principles operative in surrounding verses: Bhagavān's command to see 'this very form' signals that the viśva-rūpa (cosmic form) and the four-armed form are both real manifestations of Hari, who is independently real (svatantra) and whose forms are controlled by his own will (svātantrya). Jīvas (individual souls) are eternally distinct and subordinate; their terror before the cosmic form is appropriate, and Bhagavān's mercy in withdrawing it confirms that his grace (anugraha) responds to the jīva's capacity. The instruction to return to the catur-bhuja (four-armed) form is a practical act of divine compassion for a jīva in distress."
+      "english_rendering": "*Bhagavān* addresses Arjuna with *mā te vyathā* — 'let there be no distress in you' — and *mā ca vimūḍha-bhāvaḥ* — 'let there be no bewilderment' — both negative imperatives that function as direct *anugraha* (grace). The *ghora* (terrible) *rūpa* (form) beheld is entirely real: in Dvaita *siddhānta*, all of Hari's forms are genuine manifestations of his *svātantrya* (sovereign independence), not māyā-projections. The *viśvarūpa* and the benign four-armed *catur-bhuja* form are equally *satya* (real), each a distinct but wholly authentic self-disclosure of the *svatantra* Lord. The *jīva* Arjuna is *paratantra* (eternally dependent), structurally incapable of bearing the full cosmic disclosure without divine support; his terror is neither error nor weakness but the natural response of a finite *paratantra* being to the totality of *Hari*'s infinite reality. *Vyapeta-bhīḥ prīta-manāḥ* — 'with fear departed and mind gladdened' — names the state Arjuna must enter before vision is restored: freedom from dread and a devotional readiness of the *citta*. The command *punas tvaṃ tad eva me rūpam idaṃ prapaśya* — 'you, again, see precisely this form of mine' — restores the *saumya* form not because the *ghora* form was less real, but because Hari's *anugraha* calibrates what the *jīva* receives according to the *jīva*'s capacity. *Pañca-bheda* remains fully operative: the Lord and the *jīva* are, and remain, ontologically distinct, and the Lord's mercy is precisely the act of a *svatantra* sovereign choosing to be apprehensible to a *paratantra* devotee. *Bhakti* as ontological subordination finds its expression here in Arjuna's very inability to sustain the vision, and Hari's grace in withdrawing it is the concrete signature of that hierarchy.",
+      "divergence_note": "No bhāṣya by Madhva or Jayatīrtha is extant for this verse. The reading voices Dvaita *siddhānta* directly from *mā te vyathā mā ca vimūḍha-bhāvaḥ… punas tvaṃ tad eva me rūpam idaṃ prapaśya*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -497,13 +499,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "दिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.8"
-      ]
-    },
-    {
       "list": "दृष्ट्वा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -520,32 +515,10 @@
       ]
     },
     {
-      "list": "दृष्ट्वा हि त्वां प्रव्यथितान्तरात्मा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.24"
-      ]
-    },
-    {
-      "list": "द्रष्टुमिच्छामि ते रूपम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.3",
-        "11.46"
-      ]
-    },
-    {
       "list": "प्रव्यथितान्तरात्मा",
       "role": "supporting",
       "other_verses_in_list": [
         "11.24"
-      ]
-    },
-    {
-      "list": "भयेन च प्रव्यथितं मनो मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.45"
       ]
     },
     {
@@ -602,7 +575,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prapaśya: prapaś -> pra-√dṛś"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vimūḍha: vimuh -> vi-√muh",
+          "vyapeta: vyape -> √vyape",
+          "prīta: prī -> √prī"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If terror is the appropriate response to seeing ultimate reality, what does it mean that the tradition also prescribes joy (prīti) as the condition for full vision — are fear and love sequential stages or simultaneous registers?",
@@ -620,5 +613,6 @@
     "śuddhādvaita": "When a creative project, a teaching relationship, or a devotional practice shifts from nourishing (puṣṭi) to depleting — when the work starts tasting of kāla-rūpa rather than prasāda — Vallabha's doctrine suggests this is a signal from the practice itself, not a personal failure. The appropriate move is to step back into the form of the work that previously gave joy, even if that form feels smaller or simpler than the expanded version you were attempting. Simplicity in Puṣṭi-mārga is not retreat; it is the form grace takes for this practitioner at this moment.",
     "bhakti": "Before attempting to understand or explain something difficult — a conversation, a text, a relationship — Śrīdhara's bhāṣya suggests checking the two conditions: has fear genuinely left (vyapagata-bhayaḥ), and is there some genuine warmth or affection present (prīta-manāḥ)? If either is missing, the instruction to 'see fully' (prakarṣeṇa paśya) cannot yet be followed. The emotional preparation is not a luxury before the real cognitive work; it is part of the cognitive work. Postpone analysis until both conditions are met.",
     "advaita-bhakti": "Madhusūdana's two-part diagnosis — fear-pain and bewildered confusion — maps onto two different failure modes in high-stakes work. The first (fear) is addressed by reassurance and reduction of scale. The second (bewilderment even in the presence of something good) is addressed by finding the specific form of the good thing you can actually love: not the abstract principle but the concrete person, the particular practice, the exact text. Madhusūdana's synthesis: jñāna and bhakti meet in the moment when you find the precise form of the truth you can hold with both fearlessness and delight simultaneously."
-  }
+  },
+  "primary_meaning": "Don't be distressed or bewildered by what you saw. With fear gone and heart at ease, look again at this form of mine."
 }

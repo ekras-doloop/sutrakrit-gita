@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -294,9 +294,10 @@
         "jayatirtha_10.23"
       ],
       "score": 0.5,
-      "english_rendering": "Among the Rudras I am Śaṅkara, greatest in vaiṣṇava-tapas; among Yakṣas and Rākṣasas the sovereign Kubera; among Vasus the purifying Pāvaka who carries oblations to Hari; among peaked mountains Meru, the axis of this manifest cosmos. Each named being is real and distinct, yet each depends entirely upon Hari's anugraha (grace) for its excellence — the vibhūti is not Hari Himself but is the highest of Hari-dependent-existents in that class, recognizable only by the bhakta who sees dependent-reality clearly.",
-      "divergence_note": "FLAG: Madhva's commentary on this śloka is explicitly absent from the supplied bhāṣya panel ('Sri Madhvacharya did not comment on this sloka'). This rendering is constructed from Dvaita's established doctrinal framework applied to the verse; it is inferred-Dvaita, not attested-Madhva. Treat accordingly.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "Among the Rudras, *Śaṅkara* (the auspicious Rudra) — not *Rudra* generically but the most *paratantra* (eternally dependent) and *bhakti*-saturated among them, highest in Hari-proximity within that class. Among Yakṣas and Rākṣasas, *Vitteśa* Kubera, whose lordship over wealth holds only by Hari's *anugraha* (grace). Among the eight Vasus, *Pāvaka* (fire), whose purifying power conveys oblations to Hari and is thus the Vasu whose function is most directly Hari-facing. Among *śikhariṇām* (peaked mountains), Meru — its axial eminence real, not illusory, yet ontologically dependent. In each case the *vibhūti* (divine manifestation) is the highest *paratantra* existent within its class: *rudrāṇāṃ śaṃkaraś cāsmi vitteśo yakṣa-rakṣasām | vasūnāṃ pāvakaścāsmi meruḥ śikhariṇām aham*. The named being possesses its excellence not as *svatantra* (independently real, self-sufficient) but as granted and sustained by Hari alone. *Pañca-bheda* (the five-fold real distinction) stands intact: Hari is not Śaṅkara, not Kubera, not Pāvaka, not Meru — each is genuinely distinct yet entirely Hari-dependent. The *taratamya* (graded ontological hierarchy) orders even these eminent beings beneath Hari, and recognition of each *vibhūti* as such is itself an act of *bhakti* directed toward the sole *svatantra*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this śloka. The reading voices Dvaita *siddhānta* — *pañca-bheda*, *taratamya*, *paratantra* dependency, the non-identity of *vibhūti* and Hari — directly off the mūla without attributing specific moves to either commentator.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -379,7 +380,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa choose Śaṅkara — the very deity most often contrasted with Viṣṇu — as his Rudra-vibhūti, and what does this tell us about the theology of divine supremacy in the Gītā?",
@@ -397,5 +409,6 @@
     "śuddhādvaita": "Bring the quality of a treasury official (koṣādhikārī) to whatever resources pass through your hands — money, time, information, influence. You did not create these; you hold them in administration for Kṛṣṇa's household. This re-frames scarcity anxiety: you are not the owner running short, you are the steward doing your job.",
     "bhakti": "When you encounter people from groups usually feared or marginalised — Śrīdhara's point is that even the Rākṣasas fall under Bhagavān's vibhūti. Letting this perception soften habitual aversion is a devotional practice: the refusal to exempt any human being from divine immanence.",
     "advaita-bhakti": "In moments of aesthetic overwhelm — standing before a mountain range, listening to music of extraordinary power, or meeting a teacher whose depth humbles you — allow the beauty to be a two-channel experience simultaneously: the rasa (flavour, emotional resonance) AND the recognition that this intensity is Consciousness meeting itself. Neither suppress the feeling into philosophy nor lose the philosophy in the feeling."
-  }
+  },
+  "primary_meaning": "Among the Rudras I am Śaṅkara, among Yakṣas and Rākṣasas I am Kubera, among the Vasus I am Agni, and among peaked mountains I am Meru."
 }

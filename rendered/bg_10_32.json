@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "pravadatām",
-      "lemma": "pravad",
+      "lemma": "pra-√vad",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -334,8 +334,9 @@
         "jayatirtha_10.32"
       ],
       "score": 0.5,
-      "english_rendering": "Hari, eternally distinct from all jīvas and the world, is the sole ground (ādi), the sustaining reality (madhya), and the final absorber (anta) of all creation — not as transformation but as independent, transcendent cause. Adhyātma-vidyā, the direct knowledge of Hari as paramātman utterly distinct from jīva, is the apex of all vidyās because it alone yields mukti without merger. Vāda, pursued by the sincere seeker to establish correct tattva, is Hari's vibhūti because truth-determination is itself worship of the Lord who IS truth.",
-      "divergence_note": "NOTE: Madhvācārya's commentary on this śloka is absent from the supplied payload ('Sri Madhvacharya did not comment on this sloka'). This rendering is inferred from Madhva's established doctrine — the eternal distinction of jīva-jagat-Īśvara, adhyātma-vidyā as Hari-jñāna — and should be treated as inferred, not attested."
+      "english_rendering": "*Sargāṇām ādir antaś ca madhyaṃ caivāham* — Hari alone is the *ādi* (originating cause), *madhya* (sustaining ground), and *anta* (final resolution) of all *sarga* (creation), not by transformation into effect but as the sole *svatantra* (independently real, self-sufficient) cause, ever distinct from *paratantra* *jīva* (the eternally dependent individual self) and *jaḍa* (inert matter). The *pañca-bheda* (five-fold real distinction) holds at every phase of creation: origination does not collapse Lord into world, nor dissolution merge jīva into Hari. *Adhyātma-vidyā* (direct knowledge of Hari as *paramātman*, the supreme self) stands supreme among all *vidyā*s (branches of knowledge) because it alone discloses the *taratamya* (graded ontological hierarchy) in full — the absolute sovereignty of Hari, the dependent reality of jīvas graded among themselves, and the subordination of all matter. No other discipline reaches this disclosure. *Vādaḥ pravadatām aham* — among those who speak to establish *tattva* (truth, real distinctions), Hari is *vāda* (reasoned, truth-seeking debate), for the determination of *bheda* (real distinction) is itself an act of *bhakti* (devotion) directed toward the Lord who is truth's very source and sovereign.",
+      "divergence_note": "Madhvācārya and Jayatīrtha are silent on this verse. The reading is voiced directly from Madhva's *siddhānta*: *svatantra* Hari as transcendent cause, *pañca-bheda* persisting through all cosmological phases, *adhyātma-vidyā* as the summit of knowledge precisely because it discloses *taratamya*, and *vāda* as truth-worship.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -422,7 +423,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravadatām: pravad -> pra-√vad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān is the ādi-madhya-anta of all sarga, does this claim dissolve the reality of temporal sequence — or does it reframe sequence as structured within the divine?",
@@ -440,5 +451,6 @@
     "śuddhādvaita": "Vallabha's three streams (puṣṭi-pravāha, maryādā, and their middle) suggest that every person and institution operates in one of these registers — grace-given abundance, rule-governed order, or their integration. The everyday practice: identify which stream you are currently in, and stop forcing the wrong mode on a situation that belongs to a different stream.",
     "bhakti": "Śrīdhara's specific instruction — meditate on creation-cycles as vibhūti, not merely know them as facts — reframes the news cycle, the seasons, and even your own aging as material for bhakti-meditation. The practice: once daily, take one observable change in the world and hold it as Bhagavān's vibhūti rather than as background noise.",
     "advaita-bhakti": "Madhusūdana's thorn-and-seedling image for how competitive debate protects genuine truth-seeking: in any intellectual or professional community, recognize that some adversarial challenge (jalpa, vitaṇḍā) is structurally necessary to protect the space where real understanding (vāda) can occur. Do not collapse the distinction — but do not mistake the thorns for the seedling."
-  }
+  },
+  "primary_meaning": "Of all creation I am the beginning, middle, and end; among fields of knowledge I am the knowledge of the Self; among forms of debate I am honest inquiry aimed at truth."
 }

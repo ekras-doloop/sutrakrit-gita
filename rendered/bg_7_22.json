@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "īhate",
-      "lemma": "īh",
+      "lemma": "√īh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "labhate",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "vihitān",
-      "lemma": "vidhā",
+      "lemma": "vi-√dhā",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -542,7 +542,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "īhate: īh -> √īh",
+          "labhate: labh -> √labh",
+          "vihitān: vidhā -> vi-√dhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān ordains the very śraddhā that draws a worshipper to a lesser deva, does the worshipper bear full moral agency for stopping there — or is that detour itself divinely choreographed?",
@@ -560,5 +573,6 @@
     "śuddhādvaita": "Every delight in a created thing — a piece of music, a child's laugh, a fine meal — is prasāda flowing through an aṃga of Kṛṣṇa back to you. Vallabha's application: receive pleasures without grasping and without guilt, recognizing them as the aṃgin's self-gift. The practice is not renunciation of kāmāḥ but their transparent enjoyment: water the branch, water the root, and let the delight itself become an act of recognition.",
     "bhakti": "When you pray to any form — an ishta-devatā (chosen deity), a saint, a sacred site — and the prayer is answered, Śrīdhara's application is to trace the grace back through the antaryāmin: the answering was never from the stone or the name alone, but from the inner controller whose mūrtihood that form participates in. This corrects both superstition (the idol itself did it) and dismissiveness (idols do nothing) in a single move.",
     "advaita-bhakti": "Hold both registers simultaneously: pursue your goals with full-hearted devotion (bhakti register) while holding lightly that Bhagavān, as sarvajña (omniscient) antaryāmin, is already calibrating what you receive to what you actually need — including sometimes granting what appears beneficial but is not. Madhusūdana's synthesis: neither dismiss desire (Advaita's austerity) nor indulge it uncritically (naive bhakti), but offer the desire upward and receive the result as teaching."
-  }
+  },
+  "primary_meaning": "Armed with that faith, he worships the chosen deity and wins the desires he sought, but I alone ordained those fruits."
 }

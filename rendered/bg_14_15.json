@@ -110,7 +110,7 @@
     },
     {
       "surface_form": "jāyate",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -168,7 +168,7 @@
     },
     {
       "surface_form": "pralīnaḥ",
-      "lemma": "pralī",
+      "lemma": "pra-√lī",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "mūḍha",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "jāyate",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -417,7 +417,8 @@
         "jayatirtha_14.15"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya is explicitly absent for this verse ('Sri Madhvacharya did not comment on this sloka'). By consistent Dvaita principle: rajas at death binds the jiva to action-saturated human births in which Hari-smaraṇa (remembrance of Hari) remains possible but is crowded out; tamas at death drives the jiva into the lowest births, where svātantrika-doṣa (the defect of imagined independence) is reinforced rather than dissolved. All rebirth is governed by Hari's sovereign will, not by impersonal guna mechanics."
+      "english_rendering": "*Rajasi pralayaṃ gatvā karma-saṅgiṣu jāyate* — the *jīva* (individual self) whose death occurs under the dominance of *rajas* (the quality of passion and restless activity) is reborn among those bound to *karma*, action-saturated human births where *bhakti* (devotion) remains structurally possible yet perpetually crowded by craving and motion. *Tathā pralīnas tamasi mūḍha-yoniṣu jāyate* — the *jīva* whose dissolution occurs under *tamas* (the quality of inertia and obscuration) descends into *mūḍha-yoni*, the births of the deluded — animal and sub-human orders — where *jñāna* (knowledge) of *svatantra* (the independently real, self-sufficient) Hari is most deeply occluded. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not dissolved by either descent: the *jīva* remains *paratantra* (eternally dependent) through every birth. These births are not the mechanical output of impersonal *guṇa*-momentum; Hari's sovereign will governs which *yoni* receives which *jīva*, the *guṇas* being instruments of that dispensation, not its ground. *Taratamya* (graded ontological hierarchy) obtains even here: births in *rajas* retain greater proximity to *bhakti* than births deep in *tamas*, yet neither proximity nor distance alters the *jīva*'s essential *paratantra* nature.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -500,7 +501,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jāyate: jan -> √jan",
+          "pralīnaḥ: pralī -> pra-√lī",
+          "mūḍha: muh -> √muh",
+          "jāyate: jan -> √jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the guna dominant at death determines the next birth, what does this say about the adequacy of deathbed intention versus lifelong habituation — is a last-moment shift of guna possible, or does it merely reveal what was already dominant?",
@@ -518,5 +532,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga reading liberates from mechanical guna-fatalism: Kṛṣṇa's sweetness (mādhurya) can interrupt any birth-trajectory from inside. The daily application is to cultivate rasa-consciousness — actively noticing beauty, tenderness, and delight as Kṛṣṇa's self-disclosure through the world — so that the self is oriented toward His prasāda rather than toward guna-momentum.",
     "bhakti": "Śrīdhara's balanced voice points to the precondition problem: buddhi (intelligence) in an animal birth is below the threshold of inquiry. This makes the current human birth with active buddhi irreplaceable and unrepeatable in the near term. The everyday application is urgency without anxiety: use available discriminative capacity now, not because death is imminent, but because mūḍha-yoni is a real cost of deferral.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that the karmāsakta human born under rajas is still within the domain where both jñāna and bhakti can work. The practical implication: if you find yourself in a strongly action-and-result-oriented season of life, do not wait for a quieter season to begin the dual cultivation of knowledge and love. Rajas-dominated busyness is not an obstacle to practice — it is the very terrain on which the guna-dissolving work of integrated jñāna-bhakti is done."
-  }
+  },
+  "primary_meaning": "Die in rajas and you are reborn among people swept up in restless, fruit-seeking action; die in tamas and you descend into the dull births of animal life."
 }

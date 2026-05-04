@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "bhavanti",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -241,7 +241,7 @@
     },
     {
       "surface_form": "abhijātasya",
-      "lemma": "abhijan",
+      "lemma": "abhi-√jan",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -513,7 +513,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavanti: bhū -> √bhū",
+          "abhijātasya: abhijan -> abhi-√jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara draws a sharp line between kṣamā (change not arising) and akrodha (change subsiding) — does this distinction matter practically, or is the outcome the same for action?",
@@ -531,5 +542,6 @@
     "śuddhādvaita": "Vallabha's framing as prasāda suggests that when you notice yourself already acting with teja or kṣamā, the first response should be gratitude to Kṛṣṇa rather than pride in personal achievement — the Puṣṭi-mārga daily practice turns every virtuous act into a recognition of grace already present.",
     "bhakti": "Śrīdhara's dhṛti (steadying a mind sinking under sorrow) is immediately practical in any prolonged difficulty — identify the specific antaḥkaraṇa-vṛtti that counteracts collapse (a mantra, a task, a person who steadies you) and cultivate that prop deliberately, knowing the BG names it as daivī sampat, not mere coping.",
     "advaita-bhakti": "Madhusūdana's insistence that śauca here is the absence of māyā and deception in transactions (artha-prayoga) means that financial or contractual honesty is not merely secular ethics but a sattva-vāsanā practice — in every deal or negotiation, the question 'is there māyā here?' is a form of inner purity cultivation that the bhāṣya explicitly authorises."
-  }
+  },
+  "primary_meaning": "Boldness, forbearance, steadiness, purity, freedom from malice, and absence of self-conceit, Arjuna: these belong to one born into divine endowment."
 }

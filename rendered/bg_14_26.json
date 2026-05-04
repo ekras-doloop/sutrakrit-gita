@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "sevate",
-      "lemma": "sev",
+      "lemma": "√sev",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "kalpate",
-      "lemma": "kṛp",
+      "lemma": "√kṛp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -544,7 +544,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sevate: sev -> √sev",
+          "kalpate: kṛp -> √kṛp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If avyabhicharena (without deviation) is the condition, what counts as deviation — distraction of mind, mixed motivation, or lapse into sense-identification — and how does each school diagnose the failure mode differently?",
@@ -561,5 +572,6 @@
     "suddhadvait": "Vallabha's sneha-yoga means the entry point is affection, not technique. If formal sadhana (practice) feels dry, go back to what you actually love about Krsna — a story, a name, a moment of beauty in his lila. Avyabhicharena (without deviation) is not enforced through discipline alone but through the natural constancy of genuine love: you do not need to remind yourself to think of someone you love. Cultivate that quality of caring until the guna-fabric loses its grip.",
     "bhakti": "Sridhara's balanced reading permits a practical integration: bring your daily irritations (tamas-drag, rajas-urgency, sattva-pride) directly into the devotional frame rather than waiting to be free of them first. The crossing is not a precondition for service but the result of it. Serve Sri Narayana with the mind and emotions you have today, ekanta (single-pointed) in intention even when scattered in feeling, and let the samyag-atikramya (complete crossing) be the arc rather than the starting point.",
     "advaita-bhakti": "Madhusudana's synthesis licenses a double move in contemplative life: use the bhakti of Chapter 12 — paramaprem-alaksana, supreme love — as the daily felt-current, and let Advaita insight (that the beloved Vasudeva is also the antaryamin within you) dissolve the subtle grasping that even devotion can generate. The 'constant meditation' he recommends is not repetition of a formula but a continuous softening of the dvaitadarsana (sense of separation) that love itself performs when it deepens."
-  }
+  },
+  "primary_meaning": "Serve Krishna with unfaltering devotion and you cross beyond all three gunas, becoming fit for Brahman."
 }

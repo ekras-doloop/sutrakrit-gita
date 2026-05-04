@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "viyuktaiḥ",
-      "lemma": "viyuj",
+      "lemma": "vi-√yuj",
       "grammar": "instrumental neuter plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "caran",
-      "lemma": "car",
+      "lemma": "√car",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -357,13 +357,6 @@
       ]
     },
     {
-      "list": "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
       "list": "गच्छति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -402,28 +395,7 @@
       ]
     },
     {
-      "list": "पाँचवें अध्यायके तीसरे श्लोकमें भगवान्ने कहा है कि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
-      "list": "प्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
       "list": "प्रसादमधिगच्छति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
-      "list": "प्रसादे सर्वदुःखानां हानिरस्योपजायते",
       "role": "supporting",
       "other_verses_in_list": [
         "2.65"
@@ -484,20 +456,6 @@
       "other_verses_in_list": [
         "2.65"
       ]
-    },
-    {
-      "list": "विषयान् चरन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
-    },
-    {
-      "list": "सर्वदुःखानां हानिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.65"
-      ]
     }
   ],
   "audit_trail": {
@@ -527,7 +485,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viyuktaiḥ: viyuj -> vi-√yuj",
+          "caran: car -> √car"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What exactly is the causal structure here — does absence of rāga-dveṣa produce prasāda, or does surrender to the Self produce both the freed indriya and the prasāda simultaneously?",
@@ -545,5 +522,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga, the rāga-dveṣa-free encounter with objects is understood as Kṛṣṇa enjoying his own world through you. The everyday application is to treat each sensory encounter — a meal, a piece of music, a walk — as something you are receiving on his behalf rather than consuming for yourself. Vallabha's vaśyātmā does not control the senses by force; she relaxes into the recognition that this very moment is his prasāda-gift, and that recognition is what dissolves the grasping quality of rāga before it forms. The evidence that the practice is working is śānti — not blankness, but a warmth beneath engagement.",
     "bhakti": "Śrīdhara's answer to 'how does the bhakta move through the world?' is: with svādhīna indriya, organs that belong to the practitioner rather than to craving or aversion. In daily life, this translates to noticing the difference between choosing to engage with something and being pulled into it. The rāga-dveṣa test is simple: if you could walk past it without a second thought, you are free to engage; if the engagement is accompanied by a subtle compulsion or a subtle recoil, the organ is not yet svādhīna. Returning the organ to svādhīnatā — not by force but by the bhakta's steady practice of prasāda-acknowledgment — is the daily work.",
     "advaita-bhakti": "Madhusūdana's highest application of this verse is what he calls cittasya svacchatā — the transparency of mind that makes paramātma-sākṣātkāra possible. In practice: the aim of each day's discipline is not to feel good or to avoid feeling bad, but to keep the inner lens clear enough that the Self can be seen through it. This means catching the moments when rāga or dveṣa begins to coat the lens — a preference hardening into attachment, a discomfort hardening into aversion — and gently returning the indriya to the state of mano-dhīnatā, mind-governedness, before the coating thickens. Madhusūdana's synthesis adds the Kṛṣṇa-bhakta's tool: the name or form of Kṛṣṇa as the fastest solvent of lens-coating, dissolving rāga-dveṣa not by suppression but by filling the citta with a superior object."
-  }
+  },
+  "primary_meaning": "Moving through unavoidable sense-objects with organs freed from attraction and repulsion, and with the self held obedient to its own deeper will, a person reaches inner clarity."
 }

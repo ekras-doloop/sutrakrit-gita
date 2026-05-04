@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "gatam",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "upalipyate",
-      "lemma": "upalip",
+      "lemma": "upa-√lip",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "avasthitaḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "upalipyate",
-      "lemma": "upalip",
+      "lemma": "upa-√lip",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -370,7 +370,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatam: gam -> √gam",
+          "upalipyate: upalip -> upa-√lip",
+          "avasthitaḥ: avasthā -> ava-√sthā",
+          "upalipyate: upalip -> upa-√lip"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Self is truly untouched by action and its fruits, what does that mean for personal moral responsibility — does untaintability erase accountability?",
@@ -387,5 +400,6 @@
     "shuddhadvita": "When you feel crushed by a role — parent, employee, patient — notice that the role is adhyasa (superimposition). You have not become that role; Bhagavan's will placed you there. Act fully within it, but rest in the knowledge that your core is alipta (untainted) before, during, and after.",
     "bhakti": "Before a hard conversation or decision, pause and acknowledge: 'the paramatman in both of us is nirguna (quality-free) and avikari (without modification).' This is not avoidance of difficulty but a ground from which to engage without the contractions of fear and craving distorting your response.",
     "advaita-bhakti": "When you notice the mind moving between clarity and confusion, between inspired action and dull obligation, remember that both states are vikara (modification) of the body-mind, not of you. The sun does not flicker when the pool's surface does. Use the moments of clarity fully; do not mourn the moments of cloudedness as a spiritual failure."
-  }
+  },
+  "primary_meaning": "Just as space fills everything yet is stained by nothing, the Self, though dwelling in every body, is never touched by what the body does or suffers."
 }

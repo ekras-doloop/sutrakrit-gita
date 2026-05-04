@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "samācara",
-      "lemma": "samācar",
+      "lemma": "sam-√ācar",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -216,7 +216,7 @@
     },
     {
       "surface_form": "ācaran",
-      "lemma": "ācar",
+      "lemma": "√ācar",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -281,7 +281,7 @@
     },
     {
       "surface_form": "āpnoti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -522,13 +522,6 @@
       ]
     },
     {
-      "list": "असक्तो ह्याचरन्कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.20"
-      ]
-    },
-    {
       "list": "आसक्ति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -544,18 +537,6 @@
         "3.22",
         "4.16",
         "18.6"
-      ]
-    },
-    {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "4.3",
-        "5.17",
-        "7.29",
-        "8.16",
-        "16.5"
       ]
     },
     {
@@ -599,13 +580,6 @@
         "8.27",
         "11.33",
         "11.44"
-      ]
-    },
-    {
-      "list": "धर्म तें बिरति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.35"
       ]
     },
     {
@@ -678,7 +652,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samācara: samācar -> sam-√ācar",
+          "ācaran: ācar -> √ācar",
+          "āpnoti: āp -> √āp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same act (nityа-naimittika karma) leads Śaṅkara to jñāna via śuddhi and Rāmānuja to ātma-prāpti via kainkarya, does asakti name one discipline with two interpretations or two genuinely different inner postures?",
@@ -696,5 +682,6 @@
     "śuddhādvaita": "Vallabha's application is affective reorientation: audit every motivating desire and redirect the energy toward Kṛṣṇa's service rather than extinguishing desire entirely. A Puṣṭi-mārga practitioner transforms career ambition, creative longing, or relational investment into streams of prasāda-offering — the kāma is not suppressed but re-aimed, so that all of one's wanting becomes wanting Kṛṣṇa.",
     "bhakti": "Śrīdhara's application is disciplinary: draw up your nityа obligations (daily practice, family duties, professional commitments) and naimittika obligations (festival, lifecycle, community responsibilities) as a list, then perform each item without tracking what personal advantage accrues. The practice is not indifference but deliberate non-registration of fruit — citta-śuddhi accrues precisely through that non-registration.",
     "advaita-bhakti": "Madhusūdana's synthesis calls for holding Śruti's injunction and devotional orientation simultaneously in practice. Practically: when you act, do so because the śāstra (scripture, conscience, institutional dharma) requires it (not because of personal outcome) and because you are offering that act to Īśvara. If the devotional charge fades, the śāstra-obligation still holds; if the śāstra feels mechanical, the devotional charge reanimates it — neither collapses alone."
-  }
+  },
+  "primary_meaning": "Keep acting without clinging to results, and that freedom from attachment itself carries you to the highest."
 }

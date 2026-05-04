@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "smarati",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -240,7 +240,7 @@
     },
     {
       "surface_form": "yuktasya",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -571,15 +571,6 @@
       ]
     },
     {
-      "list": "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.5",
-        "9.29",
-        "9.30"
-      ]
-    },
-    {
       "list": "युक्त",
       "role": "supporting",
       "other_verses_in_list": [
@@ -675,7 +666,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "smarati: smṛ -> √smṛ",
+          "yuktasya: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara insists that satatam (without interruption) and nityaśaḥ (across a lifetime) are two distinct qualifications — does this mean any break in remembrance disqualifies the practitioner, or is there a threshold of continuity that suffices?",
@@ -693,5 +695,6 @@
     "śuddhādvaita": "Vallabha's exclusion of 'son, spouse, and even the formless Akṣara' as acceptable objects points to an everyday audit: which objects currently compete with the Līlā-Puruṣottama (the Supreme Person of divine play) for the ground-state of your attention? The Puṣṭi-mārga discipline is not renunciation of those objects but their re-liturgification — encountering them as sites where Kṛṣṇa's līlā (divine play) is already present. A parent's attention to a child, re-routed through this lens, becomes a form of smaraṇa (remembrance) rather than competing with it.",
     "bhakti": "Śrīdhara's causal claim — 'death-hour attainment arises from lifelong practice, not from anyone else's' — implies that the death-hour is not a separate spiritual problem to be solved at the end. The practical translation: every daily remembrance-session is preventive infrastructure for that moment. Design your practice regimen with the death-hour in mind as its audit event: would the quality of today's smaraṇa (remembrance), maintained consistently, produce the absorption Śrīdhara describes? If not, adjust the depth, not just the duration.",
     "advaita-bhakti": "Madhusūdana's rescue of the 'involuntary' dier — the one who cannot perform the prescribed prāṇa-technique at death but has maintained satatam-nityaśaḥ throughout life — is profoundly practical for householders who cannot guarantee their circumstances of death. The application: do not defer spiritual seriousness to a planned retirement of contemplation. The Pātañjala triad embedded here (duration, continuity, reverence in practice) is achievable in a working life with children and obligations; the yogic exit-technique at the crown is a specialist path, but this verse explicitly operates below that threshold, catching those who fall through its requirements."
-  }
+  },
+  "primary_meaning": "For the yogi whose mind never strays to another and who remembers Me without break, I am easy to reach, Arjuna."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "uktaḥ",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -302,21 +302,7 @@
       ]
     },
     {
-      "list": "इनको मैं देख लूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
       "list": "एवमुक्तः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
-      "list": "कुरुन् पश्य",
       "role": "supporting",
       "other_verses_in_list": [
         "1.25"
@@ -351,41 +337,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "1.22",
-        "1.25"
-      ]
-    },
-    {
-      "list": "पश्यैतान् धार्तराष्ट्रान् समानिति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
-      "list": "भीष्मद्रोणप्रमुखतः सर्वेषां च महीक्षिताम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
-      "list": "यह मेरा ही है",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
-      "list": "ये मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.25"
-      ]
-    },
-    {
-      "list": "सेनयोरुभयोर्मध्ये स्थापयित्वा रथोत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
         "1.25"
       ]
     },
@@ -451,7 +402,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktaḥ: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa comply instantly without protest — is instant obedience here a model of ahiṃsā (non-harm), of bhakti, or of omniscient strategy?",
@@ -469,5 +430,6 @@
     "śuddhādvaita": "Vallabha's emphasis on yathoktaṃ darśayan — causing the field to be seen as commanded — is an invitation to treat every moment of 'showing up' as an act of prasāda (grace freely given). When you arrive somewhere because someone asked you to come — a meeting, a family gathering, a commitment — bring the fullness of your presence as though the arrival itself is the gift. Do not minimize your showing up by being half-present. The chariot placed in full view of all the great ones is not quietly parked in a corner; it is placed where it can be seen. Let your presence be that complete.",
     "bhakti": "Śrīdhara's gloss on Guḍākeśa — the one who has conquered sleep, who is fully awake — points to a gap between being technically alert and being truly free from the subtler sleep of habitual reaction. You may be awake, skilled, sharp in your requests — and still carry the sorrow that comes from seeing the people you love on both sides of a conflict. The practical application is not to suppress that grief when it comes (as it will), but to have already cultivated the habit of bringing your sharpest attention precisely to the moments of impending overwhelm: the grief will come; the question is whether your Guḍākeśa-quality of wakefulness can hold it long enough to hear what it teaches.",
     "advaita-bhakti": "Madhusūdana observes that Bhagavān, assigned the role of charioteer — a role below his station — na akupyat (did not become angry). This non-reactivity in the face of apparent diminishment is a practice available right now: when you are asked to do something that feels beneath you, or when you are not acknowledged for the full weight of what you bring, experiment with na akupyat. Not suppression of the response, but a genuine non-arising. Madhusūdana's deeper reading is that Bhagavān could not be diminished by the role because he was sarveṣāṃ nigūḍhābhiprājñaḥ — the knower of all hidden intentions. Knowing the full picture, no surface-level role assignment could shrink him. The application: the more clearly you see the whole situation, the less any single role within it can diminish you."
-  }
+  },
+  "primary_meaning": "Addressed by Arjuna, Krishna drove the finest chariot to the open ground between both armies and held it there."
 }

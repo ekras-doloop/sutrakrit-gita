@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -232,7 +232,7 @@
     },
     {
       "surface_form": "pramucyate",
-      "lemma": "pramuc",
+      "lemma": "pra-√muc",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -473,7 +473,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "pramucyate: pramuc -> pra-√muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between knowing God as 'unborn' (aja) and merely believing He is eternal — and why does Kṛṣṇa insist on this distinction at the opening of the vibhūti chapter?",
@@ -491,5 +502,6 @@
     "śuddhādvaita": "Vallabha's vijātīya-vilakṣaṇa framing — Kṛṣṇa as distinct-in-kind, not just degree — suggests that encounters with genuine beauty, generosity, or grace in the world are not self-sufficient; they point toward, but are not, the source. Recognizing this prevents both dismissal of the world and idolatry of it.",
     "bhakti": "Śrīdhara's clean derivation — causality → beginninglessness → birthlessness — is a practical heuristic for moments of overwhelm: ask 'what is the cause of this cause?' and keep tracing back. The practice isn't philosophy for its own sake; it trains the mind to locate the uncaused ground beneath every cascade of events, which is itself a form of freedom from reactive panic.",
     "advaita-bhakti": "Madhusūdana's kāraṇa-uccheda — root-cause extirpation rather than sin-suppression — describes something recognizable in sustained practice: a pattern that once reliably triggered a harmful response simply stops arising, not because you suppress it each time but because the ground from which it grew has been dissolved. This is what makes bhakti with jñāna different from willpower: it aims at structural change, not repeated override."
-  }
+  },
+  "primary_meaning": "Whoever knows Me as unborn, without beginning, and sovereign over all worlds stands undeluded among mortals and is freed from every sin."
 }

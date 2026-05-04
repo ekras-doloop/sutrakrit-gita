@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "prasṛtāḥ",
-      "lemma": "prasṛ",
+      "lemma": "pra-√sṛ",
       "grammar": "nominative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "pravṛddhāḥ",
-      "lemma": "pravṛdh",
+      "lemma": "pra-√vṛdh",
       "grammar": "nominative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "anusaṃtatāni",
-      "lemma": "anusaṃtan",
+      "lemma": "anu-√saṃtan",
       "grammar": "nominative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -471,7 +471,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prasṛtāḥ: prasṛ -> pra-√sṛ",
+          "pravṛddhāḥ: pravṛdh -> pra-√vṛdh",
+          "anusaṃtatāni: anusaṃtan -> anu-√saṃtan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the human world is the unique site of karma-adhikara — the only realm where one can actually alter the direction of the tree's growth — what does that mean for how seriously I take ordinary daily choices?",
@@ -489,5 +501,6 @@
     "śuddhādvaita": "Practice recognizing the gunas in your daily schedule: which activities are sattva-nourished (clarity), which are rajas-nourished (restless expansion), which are tamas-nourished (avoidance). This is not self-criticism but lila-awareness — seeing Krishna's play in your own energy-patterns.",
     "bhakti": "Sridhara's key point is that vasana (latent impressions from past enjoyment) automatically impel karma of the same character. Audit one habitual action this week — not to condemn it, but to ask: is this fresh choice or vasana replay? Naming it is the first step toward karma-adhikara becoming real rather than theoretical.",
     "advaita-bhakti": "Madhusudana holds that both the ascending (sukritinah) and descending (duskritinah) trajectories branch from the same root. When you encounter someone whose life choices seem radically different from yours, hold the Advaita-bhakti recognition: same tree, different branch, same root — and let that soften the judgment while sharpening your own attention to which guna is feeding your own growth right now."
-  }
+  },
+  "primary_meaning": "Its branches spread upward and downward, fed by the three gunas, with sense-objects as their tender shoots; and below, in the human world, secondary roots take hold, tangled in karma, driving birth after birth."
 }

@@ -1,8 +1,8 @@
 {
   "verse_id": "18.23",
   "mūla": {
-    "devanāgarī": "नियतं सङ्गरहितमरागद्वेषतः कृतम् | अफलप्रेप्सुना कर्म यत्तत्सात्त्विकमुच्यते",
-    "iast": "niyataṃ saṅgarahitamarāgadveṣataḥ kṛtam | aphalaprepsunā karma yattatsāttvikamucyate",
+    "devanāgarī": "नियतं सङ्गरहितमरागद्वेषतः कृतम् | अफलप्रेप्सुना कर्म यत् तत् सात्त्विकमुच्यते",
+    "iast": "niyataṃ saṅgarahitamarāgadveṣataḥ kṛtam | aphalaprepsunā karma yat tat sāttvikamucyate",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 23",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "niyatam",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "kṛtam",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -334,8 +334,9 @@
         "jayatirtha_18.23"
       ],
       "score": 0.5,
-      "divergence_note": "Dvaita's key divergence: even the 'detached' agent is not empty of motivation but filled with Hari-directed motivation — detachment from personal fruit is positive dedication to Vishnu's will, not mere negation.",
-      "english_rendering": "Madhva's commentary is absent from the transmitted record for this verse. From Dvaita first principles: the niyata karma is Hari-arpita (offered to Hari as supreme independent reality); the jiva acts as an eternal dependent agent, never the autonomous doer. Sattva quality arises because the action honours the ontological hierarchy — jiva serves Hari — rather than collapsing it through the illusion of self-authorship."
+      "divergence_note": "Dvaita insists that *aphalaprepsutā* is not mere negation of desire but the positive redirection of action toward Hari's will; detachment from personal fruit and dedication to Viṣṇu are the same movement. The *sāttvika* tag therefore carries ontological weight — it marks action consonant with *bheda* (real distinction) correctly honoured, not dissolved.",
+      "english_rendering": "*Niyatam* (enjoined, obligatory) karma performed *saṅgarahitam* (free of attachment) and *arāgadveṣataḥ* (without passion or aversion), by one who is *aphalaprepsū* (desiring no fruit) — such action is called *sāttvika*. In Dvaita reading, the *niyata* character of the act is grounded in scriptural injunction proceeding ultimately from *svatantra* (the independently real, self-sufficient) Hari, whose will structures the entire order of duty. The *jīva* (the individual self), as *paratantra* (eternally dependent), acts without seizing fruit precisely because fruit belongs to Hari's dispensation, not to the agent's own sovereignty. *Saṅgarahita* does not signal motivational emptiness; it signals the removal of *jīva*-centered appropriation. *Arāgadveṣataḥ* names the extinction of personal passion and aversion that would otherwise bind action to *saṃsāra* through the *jīva*–matter axis of *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter). What remains after that extinction is positive subordination — *bhakti* (devotion) as ontological orientation toward Hari. *Sāttvikatva* (the quality of being sāttvika) here is not a psychological grade alone but registers the *jīva*'s proper station in *taratamya* (graded ontological hierarchy): acting within one's enjoined sphere, without usurping the fruit that belongs to the Lord.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -377,7 +378,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -456,7 +457,35 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "yattatsāttvikamucyate -> yat tat sāttvikamucyate"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "यत्तत्सात्त्विकमुच्यते -> यत् तत् सात्त्विकमुच्यते"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niyatam: niyam -> ni-√yam",
+          "kṛtam: kṛ -> √kṛ",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools agree the act must be 'niyata' — but who or what establishes what is prescribed? Is it Veda, social order, Bhagavan's will, or one's own deepest nature?",
@@ -474,5 +503,6 @@
     "shuddhadvata": "Release both the hunger for praise and the flinch from criticism before the meeting begins. Vallabha's mamata-parityaga means: do not treat the outcome as yours to possess. If grace brings reward, receive it; if not, the action is complete in itself.",
     "bhakti": "Notice whether you are doing something to maintain a relationship (raga for family approval) or to settle a grievance (dvesha toward a rival). Sridhara's test: if either of those is the engine, the action belongs to a lower register. Shift the engine to duty before proceeding.",
     "advaita-bhakti": "Madhusudana's distinction is surgical: there is a legitimate sense of 'I am the one doing this work' that need not be dissolved before action, and a social-vanity layer ('I am the one who did the great thing') that corrupts it. Keep the first, drop the second — and offer the whole act inwardly to Krsna."
-  }
+  },
+  "primary_meaning": "Action done as prescribed duty, free from attachment, without craving or aversion, and with no eye on the fruit — that is called sattvic."
 }

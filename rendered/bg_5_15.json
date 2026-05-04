@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "ādatte",
-      "lemma": "ādā",
+      "lemma": "√ādā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "āvṛtam",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "muhyanti",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -370,7 +370,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -555,7 +555,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ādatte: ādā -> √ādā",
+          "āvṛtam: āvṛ -> √āvṛ",
+          "muhyanti: muh -> √muh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord neither punishes nor rewards, why does Śrīdhara insist that punishment is itself a form of grace — and what does that imply about how we understand suffering?",
@@ -573,5 +585,6 @@
     "śuddhādvaita": "Vallabha's pañca-parvā (five-layer) avidyā maps onto how a single bad mood can cascade — first a vague unease, then body-identification, then sense-craving, then mental narrative, then a full identity crisis. Recognizing the layers is itself partial freedom. The Puṣṭi-mārga response: rather than dismantling the layers by force, offer each layer — body, breath, mind — back to Kṛṣṇa, because they are already His śaktis.",
     "bhakti": "Śrīdhara's āptakāma gloss — the Lord as one who wants nothing — is a mirror for a concrete life-skill: when you notice yourself 'keeping score' in a relationship (who owes whom, who hurt whom), that score-keeping is ajñāna in real time. The one who needs nothing from the exchange can act most freely. Practice finding a single daily interaction where you respond from fullness rather than deficit.",
     "advaita-bhakti": "Madhusūdana's nine-fold saṃsāra (knower/known/knowledge; doer/deed/instrument; enjoyer/enjoyed/enjoyment) provides a checklist for sticky mental states. When you loop on a past event, identify which of the nine roles you are replaying most intensely. That identification does not dissolve the loop instantly, but it moves the problem from the personal ('why did this happen to me?') to the structural ('this is vikṣepa doing its job') — which is the first step toward the Advaita-bhakti resolution: rest the whole structure in Kṛṣṇa."
-  }
+  },
+  "primary_meaning": "The all-pervading Lord takes on no one's sin or merit; ignorance covers knowledge, and by that covering creatures fall into confusion."
 }

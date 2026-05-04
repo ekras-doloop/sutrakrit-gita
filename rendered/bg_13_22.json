@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "uktaḥ",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -350,7 +350,9 @@
         "jayatirtha_13.22"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE: The supplied corpus records that Madhvacharya did not comment on this shloka. Consistent with Dvaita doctrine established in adjacent verses: the five epithets — upadrastr, anumantA, bhartA, bhoktA, maheshvAra — designate Hari exclusively in his independent, absolute sovereignty; the jIva is a perpetually dependent (paratantra) witness who borrows the appearance of witnessing only through Hari's sanction. BhoktA is not shared between jIva and Ishvara on equal terms; the jIva 'experiences' only insofar as Hari wills it, which preserves the categorical distinction (bheda) between the two. The label 'paramAtman' confirms that this is the Supreme Person, ontologically distinct from all jIvas who are anAtman in the sense of being non-independent."
+      "english_rendering": "*Upadraṣṭā* (the supreme witness), *anumantā* (the sanctioner), *bhartā* (the sustainer), *bhoktā* (the true enjoyer), *maheśvaraḥ* (the great Lord), *paramātmā* (the Supreme Self) — these six epithets name one *puruṣa paraḥ* (the transcendent Person) dwelling in this body, and that Person is Hari alone, the *svatantra* (independently real, self-sufficient) ground of all.\n\nEach epithet marks an exclusive divine function. As *upadraṣṭā* Hari witnesses the field not from within *prakṛti*'s transformations but from absolute sovereign distance; as *anumantā* he sanctions every modification of the *jīva*'s experience — the *jīva* does not witness or sanction by any inherent capacity but solely by Hari's permission. As *bhartā* he bears and upholds the entire field; as *bhoktā* the ultimate enjoyment belongs to him, not jointly to *jīva* and Īśvara on equal terms. The *jīva* is *paratantra* (eternally dependent) throughout: it undergoes experience precisely as Hari wills, and no more.\n\nThe title *paramātmā* seals the *pañca-bheda* (the five-fold real distinction): this *puruṣa paraḥ* is categorically other than every *jīva*, other than *kṣetra* in all its forms, and the distinction is not softened by co-residence in the body. That *upadraṣṭānumantā ca bhartā bhoktā maheśvaraḥ* are all predicated of a single *paraḥ puruṣa* — not distributed across levels of *taratamya* (graded ontological hierarchy) — confirms that sovereignty is undivided and belongs to Hari without remainder. The *jīva* dwelling in the same *deha* (body) is a *paratantra* co-resident whose apparent witnessing is borrowed light, never an independent *bheda*-dissolving identity with this *puruṣa paraḥ*.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for this verse; the reading is projected directly from *pañca-bheda* and *svatantra*/*paratantra* siddhānta as applied to the six epithets of the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -462,7 +464,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktaḥ: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If paramAtman is the 'upadrastr' (witness-seer) of all experience within this body, what does it mean for my sense that 'I am the one who is suffering or enjoying' — who exactly is the experiencer?",
@@ -480,5 +492,6 @@
     "śuddhādvaita": "Vallabha's bhAShya points to guNa-sanga as the engine of rebirth. Identify one sensory attachment — a flavor, a sound, a status signal — that is driving repeated behavior you say you want to change. That attachment is not who you are; it is the jIva's mistaken identification with a guNa-instrument. Bring it as an offering (nivedana) rather than fighting it: in PuShTi-mArga, the offering itself invites Ishvara's prasAda which dissolves the binding.",
     "bhakti": "Sridhara's verse is a diagnostic: your suffering and enjoyment trace to tAdAtmya with the body-complex. A simple daily practice in his spirit: at the end of the day, briefly list what you called 'mine' — my success, my frustration, my body's pain. Then ask which of these the paramAtman-within was witnessing all along. The list becomes a pointer toward the birthless witness rather than an indictment of your failures.",
     "advaita-bhakti": "Madhusudana maps your daily mental texture onto sat/asat/sat-asat yonis. Tonight, notice whether your dominant mode of the day was iShTa-phala (peace, clarity — sattva), aniShTa-phala (confusion, reactivity — tamas), or mixed (driven, ambitious — rajas). This is not judgment but cartography — it tells you which guNa-sanga is active and therefore which practice (shama, viveka, or bhakti's surrender) is most needed right now."
-  }
+  },
+  "primary_meaning": "The highest Person dwelling in this body is the witness, the permitter, the sustainer, the true enjoyer, and the great Lord, called the Supreme Self."
 }

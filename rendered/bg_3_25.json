@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "saktāḥ",
-      "lemma": "sañj",
+      "lemma": "√sañj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "vidvāṃsaḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "nominative masculine plural past participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "kurvanti",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "kuryāt",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "vidvān",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "nominative masculine singular past participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -341,8 +341,9 @@
         "jayatirtha_3.25"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is absent from the transmitted corpus (his gitā-bhāṣya is silent at 3.25). From Dvaita first principles: the avidvān acts with baddha-bhāva (bondage-consciousness) seeking results for the jīva; the vidvān, knowing the jīva's eternal dependence (pāratantrya) on Hari, acts as Hari's instrument without any claim of independent agency. Loka-saṅgraha in Dvaita framing would be the act of keeping other jīvas oriented toward Hari-sevā rather than worldly attachment — a distinctly theological rather than social reading.",
-      "divergence_note": "Bhāṣya absent — Madhva did not comment on this śloka per the payload; rendering derived from Dvaita siddhānta principles."
+      "english_rendering": "The *avidvān* (one without discriminative knowledge) acts *saktaḥ* — bound by attachment, driven by the fiction of independent agency, treating the fruits of action as belonging to the *jīva* (the individual self). The *vidvān*, knowing the *jīva*'s *pāratantrya* (eternal ontological dependence on Hari), acts *tathāsaktaḥ* — in the same outward manner, yet without any claim of *svatantra* (independently real, self-sufficient) authorship. His action is Hari's action flowing through an instrument. *Loka-saṃgraham* — the holding-together of the world — is no mere social cohesion; it is the work of keeping other *paratantra* *jīvas* from deepening bondage and orienting them toward *Hari-sevā* (service to Hari). The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is never dissolved in this action: the *vidvān* does not merge into Hari by acting without attachment but remains a distinct, dependent instrument. *Taratamya* (graded ontological hierarchy) is preserved — the *vidvān*'s superior station is precisely this conscious subordination, his action a form of *bhakti* (devotion) as ontological subordination to the *svatantra* Lord.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha is transmitted for this verse. The reading voices Dvaita *siddhānta* directly from the mūla: *pāratantrya*, *pañca-bheda*, *taratamya*, and *Hari-sevā* as the doctrinal coordinates that distinguish the *vidvān*'s detached action from the *avidvān*'s bound action.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -394,22 +395,7 @@
       ]
     },
     {
-      "list": "असक्तः विद्वान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26",
-        "3.29"
-      ]
-    },
-    {
       "list": "आदर्श",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "कर्मसङ्गिनाम् अज्ञानम्",
       "role": "supporting",
       "other_verses_in_list": [
         "3.26"
@@ -431,68 +417,10 @@
       ]
     },
     {
-      "list": "न बुद्धिभेदं ৷৷ विद्वानयुक्तः समाचरन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "मनुवाँ तो चहुँ दिसि फिरै यह तो सुमिरन नाहिं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "मैं लोगसंग्रह कर रहा हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "युक्तः विद्वान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26",
-        "3.29"
-      ]
-    },
-    {
       "list": "लोकसंग्रह",
       "role": "supporting",
       "other_verses_in_list": [
         "3.20",
-        "3.26"
-      ]
-    },
-    {
-      "list": "लोकसंग्रहं चिकीर्षुः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "लोकसंग्रहमेवापि संपश्यन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26"
-      ]
-    },
-    {
-      "list": "सक्ताः अविद्वांसः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.26",
-        "3.29"
-      ]
-    },
-    {
-      "list": "सक्ताः कर्मण्यविद्वांसो तथा कुर्वन्ति भारत",
-      "role": "supporting",
-      "other_verses_in_list": [
         "3.26"
       ]
     },
@@ -538,7 +466,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saktāḥ: sañj -> √sañj",
+          "vidvāṃsaḥ: vid -> √vid",
+          "kurvanti: kṛ -> √kṛ",
+          "kuryāt: kṛ -> √kṛ",
+          "vidvān: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the external action of the wise and unwise is identical, how does the student discriminate a genuine ātmavit-teacher from a merely skilled actor — and does the tradition's answer (inner asakti visible through crisis-response) survive scrutiny?",
@@ -556,5 +498,6 @@
     "śuddhādvaita": "A musician devoted to Kṛṣṇa-bhakti performs concert after concert — not to grow an audience or earn fees, but because the music flows through her as Kṛṣṇa's own prasāda. If asked why she still performs publicly when she needs nothing, Vallabha's answer is 'tat-kṛpayā' — it is Kṛṣṇa's grace moving through her for the uplift of those who hear. The performance is not her project; it is Kṛṣṇa's līlā requiring a tuned instrument.",
     "bhakti": "A retired teacher continues tutoring struggling students in her neighborhood without charging fees, not because she is building merit (puṇya-saṅcaya) but because she sees the confusion (ajñāna-abhiniveśa) of young people without guides and feels the pull of compassionate action. Śrīdhara's 'tat-kṛpayā' reads here as the teacher's compassion being itself a gift flowing from Bhagavān — she is the channel; the students receive loka-saṅgraha without knowing its source.",
     "advaita-bhakti": "A meditator who has done genuine inner work takes on a demanding administrative role at an ashram — not to prove himself or accumulate status, but because an experienced elder asked and the institution needs stability. Madhusūdana's test: does he feel the weight of doership ('I am building this') or does he function with kartṛtva-abhimāna dissolved — the work simply moves through him? If the latter, his engagement is the verse's prescription; if the former, he should note the contamination honestly and correct it."
-  }
+  },
+  "primary_meaning": "As the ignorant act bound by desire, so the wise should act without attachment, to hold the world together."
 }

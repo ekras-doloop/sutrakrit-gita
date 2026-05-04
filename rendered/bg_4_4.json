@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "vijānīyām",
-      "lemma": "vijñā",
+      "lemma": "vi-√jñā",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "proktavān",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -448,7 +448,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vijānīyām: vijñā -> vi-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktavān: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Arjuna ask about this now — after three chapters of ethical and metaphysical instruction — rather than at the outset?",
@@ -466,5 +484,6 @@
     "śuddhādvaita": "Vallabha's Arjuna uses an 'impossible' situation as a pretext to invite the beloved to speak. In relationships, sometimes the most generative thing you can offer is a question you already half-know the answer to — a question whose real function is to create the space for the other to be fully, joyfully themselves. The 'pretext question' is an act of grace.",
     "bhakti": "Śrīdhara's Arjuna confesses epistemic limitation plainly: 'how could I be capable of knowing?' (jñātum śaknuyām). This is the appropriate posture before a teacher whose knowledge exceeds our category of time. Cultivate the habit of stating your confusion as a specific incapacity rather than a general scepticism — not 'I don't believe you' but 'I cannot yet see how this fits together; please show me.'",
     "advaita-bhakti": "Madhusūdana identifies two compounding errors: thinking the teacher is bound by time (anityatva) and therefore forgetful (asarvajñatva). In modern terms: we discount advice from someone older or younger than ourselves on the grounds that 'they can't know what my world is like.' But wisdom that has survived multiple contexts is precisely the wisdom least bound by any one context. Test your dismissals: are they tracking a real limitation in the teacher, or projecting a limitation you assume time imposes?"
-  }
+  },
+  "primary_meaning": "Arjuna asks: your birth came after Vivasvat's, so how can I understand that you taught him at the beginning of creation?"
 }

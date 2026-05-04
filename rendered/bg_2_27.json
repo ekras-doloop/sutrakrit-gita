@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "jātasya",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "mṛtasya",
-      "lemma": "mṛ",
+      "lemma": "√mṛ",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -222,7 +222,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -458,7 +458,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jātasya: jan -> √jan",
+          "mṛtasya: mṛ -> √mṛ",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If death is certain for the born and birth certain for the dead, what makes Arjuna's grief a category error rather than a natural emotional response — and does each school answer this differently?",
@@ -475,5 +487,6 @@
     "śuddhādvaita": "Vallabha's *prasāda*-reading translates into a practice around endings in devotional community: when a beloved teacher passes, when a *satsaṅga* (community gathering) disperses, the practitioner is trained to receive the ending as Kṛṣṇa's own choreography — not to rush past grief but to recognise in it the mark of real love (*prīti*), which is itself Kṛṣṇa's gift. The bittersweet quality of inevitable parting is a rasa (aesthetic-spiritual flavor), not a malfunction.",
     "bhakti": "Śrīdhara's karma-mechanics reading has a grounding practical use in caregiving contexts: when a dying person's condition is clearly in the final stage of *svārambhaka-karma* exhaustion, the practitioner who understands this does not demand futile medical interventions but shifts to *antyeṣṭi-karma* (last-rite preparation) and *nāma-smaraṇa* (remembrance of the divine name) — responding to what is actually happening rather than fighting the *aparihārya* with misplaced effort.",
     "advaita-bhakti": "Madhusūdana's synthesis is directly applicable to the practitioner facing a duty that will cause harm — a difficult termination, a necessary legal confrontation, a relationship boundary that will wound the other. The practice is to ask: is this my *niyata-karma* in this situation? Is refraining an option, or does refraining simply defer the harm and compound it? If the action is *aparihārya* and *vidhita* (enjoined by one's role), Madhusūdana's reading authorises clean execution over hand-wringing — act without grief, because grief over the *aparihārya* doubles the cost without reducing it."
-  }
+  },
+  "primary_meaning": "Death is certain for whatever is born, and birth is certain for whatever dies, so you should not grieve over what cannot be avoided."
 }

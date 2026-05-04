@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "niyatasya",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "upapadyate",
-      "lemma": "upapad",
+      "lemma": "upa-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "parikīrtitaḥ",
-      "lemma": "parikīrtay",
+      "lemma": "pari-√kīrtay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -504,7 +504,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niyatasya: niyam -> ni-√yam",
+          "upapadyate: upapad -> upa-√pad",
+          "parikīrtitaḥ: parikīrtay -> pari-√kīrtay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes an 'obligatory' duty from one I have merely habituated myself to — and how do I tell which category my current responsibilities fall into?",
@@ -522,5 +534,6 @@
     "shuddhadvaita": "Vallabha warns against the 'rational' voice that constructs a theological argument for abandoning what is simply inconvenient. If you find yourself building an elaborate justification for why a longstanding obligation no longer applies to you, treat the elaborateness itself as a signal: pramada (heedlessness) is at work. The simpler the real reason, the more honest the examination.",
     "bhakti": "Sridhara's practical rule: distinguish between duties you perform with desire for reward (which may be examined for release) and duties that purify character regardless of reward — mentorship, craft practice, family care. The second category is not negotiable until the sattva-shuddhi it produces has made renunciation genuinely appropriate, not merely convenient.",
     "advaita-bhakti": "Madhusudan's move is to refuse the 'this causes harm' escape hatch when the harm is incidental to a larger purifying function. Apply this: before concluding that an obligation is harmful and must be dropped, investigate whether the 'harm' is kratu-anga (inherent to the function) or genuinely anartha-hetu (producing net ruin). Most discomfort we label 'harmful' is the former. The test is whether removing the action destroys the purifying purpose or merely removes the discomfort."
-  }
+  },
+  "primary_meaning": "Renouncing your prescribed duties is never justified; abandoning them out of confusion is tamasic renunciation."
 }

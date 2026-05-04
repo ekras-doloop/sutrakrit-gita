@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -500,7 +500,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If creation arises from the Lord deliberately conjoining conscious souls with an unconscious field, what does that imply about the dignity — or the entrapment — of embodied existence?",
@@ -518,5 +528,6 @@
     "shuddhadvaita": "Vallabha's frame — jivas as portions of Krsna's own caitanya (consciousness), deposited into prakriti through his lila — makes the ordinary texture of daily life a site of the Lord's play. The mundane task, the difficult conversation, the unexpected delight: each is the aksharatma (imperishable self) meeting itself through the veil of a body. The practice is to notice when an experience feels 'too much' — too beautiful, too painful — and recognize that charge as the divine caitanya briefly recognizing itself.",
     "bhakti": "Sridhara's description of the jiva as having been 'dissolved in the Lord at pralaya carrying latent karma' means you arrive in this life already shaped by a long history you cannot consciously remember. The bhakti practice this suggests is not self-reinvention but surrender to the current field: the people and circumstances you find yourself in are precisely the bhogya (experience-field) into which your specific karmic residue has been placed. Devotion is meeting that field with acceptance rather than resistance.",
     "advaita-bhakti": "Madhusudan's father-seed analogy — the Lord placing cidabhasa (reflected consciousness) into maya so the soul can acquire a body — implies that the self you identify with is a 'reflection,' not the original light. In moments of crisis, when the reflected-self feels overwhelmed, the practice is to look for the source of the reflection rather than trying to fix the image. Inquiry into who is experiencing the overwhelm is simultaneously a Vedantic act (jnana) and a devotional one (acknowledging the original light belongs to the Lord)."
-  }
+  },
+  "primary_meaning": "The great Brahman is my womb; into it I place the seed, and from that union all beings come forth, Arjuna."
 }

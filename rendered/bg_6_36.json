@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "yatatā",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "instrumental masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -422,7 +422,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatatā: yat -> √yat"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If abhyāsa (practice) and vairāgya (dispassion) are the two instruments named across multiple bhāṣyas, what is their precise sequence — must one cultivate vairāgya before abhyāsa, or do they develop concurrently, and does the answer vary by school?",
@@ -440,5 +450,6 @@
     "śuddhādvaita": "Stop performing yoga as self-improvement. Instead, show up for your practice with the attitude of a child entering a room where Kṛṣṇa is already present — no agenda, no metric, no self-monitoring. Vallabha's 'spaṣṭam etat' means the mechanism is not complicated: when you stop trying to engineer the result and simply remain receptive, the vśyatā of mind arrives as prasāda, not as achievement.",
     "bhakti": "Use the two-instrument frame as a practical checklist at the end of each week: (1) Did I practice consistently this week — same time, same method, without skipping? (2) Did I notice, and not act on, at least one strong pull toward a distracting object or story? If both answers are yes, the citta is moving toward vaśavartin (obedience). If one is missing, that is the single thing to address next week — not both simultaneously.",
     "advaita-bhakti": "If you have had genuine moments of clarity or insight about the nature of mind or reality, do not assume they have 'fixed' you. Madhusūdana's aparam-yogin warning applies: insights without sustained practice leave the vāsanā-stream running. Redirect that stream through deliberate śubha-vāsanā cultivation — choose one repeating habit (daily reading, physical discipline, a service commitment) that builds momentum in the auspicious direction, and maintain it even when insight makes it feel redundant."
-  }
+  },
+  "primary_meaning": "Yoga is hard to attain for one whose mind is uncontrolled, that is my view; but one who strives with a disciplined mind, using the right method, can reach it."
 }

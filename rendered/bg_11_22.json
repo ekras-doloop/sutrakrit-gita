@@ -155,7 +155,7 @@
     },
     {
       "surface_form": "vīkṣante",
-      "lemma": "vīkṣ",
+      "lemma": "√vīkṣ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -188,7 +188,7 @@
     },
     {
       "surface_form": "vismitāḥ",
-      "lemma": "vismi",
+      "lemma": "vi-√smi",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -506,7 +506,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vīkṣante: vīkṣ -> √vīkṣ",
+          "vismitāḥ: vismi -> vi-√smi"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Arjuna enumerate these specific cosmic groups — Rudras, Ādityas, Vasus, Sādhyas, Viśvedevas, Aśvins, Maruts, Ūṣmapas, gandharvas, yakṣas, asuras, siddhas — rather than simply saying 'all beings'? What does the taxonomy reveal about the verse's cosmological intent?",
@@ -524,5 +535,6 @@
     "śuddhādvaita": "Notice moments when beauty or grace arrives without your having earned it — a piece of music that dissolves anxiety, a stranger's unexpected kindness, a sunset that stops your thoughts. The Vallabha reading names these as prasāda (grace): not rewards for effort but Kṛṣṇa's self-delight overflowing into your life. The cosmic hosts are not surprised despite their merit; they are surprised because grace exceeds all merit-calculation.",
     "bhakti": "Śrīdhara's philological precision — naming each class of beings with their technical śruti-backed identity — is itself a devotional act: it insists that the Lord's glory is witnessed by real beings with specific natures, not by an undifferentiated mass. In your own practice, precision is devotion: naming what you are grateful for exactly, not in generic abstractions, deepens the relational reality of bhakti.",
     "advaita-bhakti": "Madhusūdana's camatkāra (aesthetic shock) is available in ordinary life: the moment when something — a poem, a child's laugh, a mathematical proof, an act of courage — hits you with a force that exceeds its apparent scale. Do not rush past that stunned pause to analysis or action. The viśvarūpa was not given as a problem to be solved; it was given to be stood in. Let the astonishment complete itself."
-  }
+  },
+  "primary_meaning": "Every tier of being, from the Rudras and Ādityas down through gandharvas, yakṣas, asuras, and siddhas, gazes at you in astonishment."
 }

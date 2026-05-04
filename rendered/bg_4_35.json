@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "yāsyasi",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "surface_form": "drakṣyasi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -458,20 +458,6 @@
         "14.22",
         "16.5"
       ]
-    },
-    {
-      "list": "श्रुत्वाप्येनं वेद न चैव कश्चित्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.29"
-      ]
-    },
-    {
-      "list": "सर्वभूतानि चात्मनि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.29"
-      ]
     }
   ],
   "audit_trail": {
@@ -501,7 +487,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yāsyasi: yā -> √yā",
+          "drakṣyasi: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools agree that this knowledge ends moha — but they disagree sharply on what the vision of 'beings in ātman and in Me' actually means (non-difference, svarūpa-sāmya, dependent residence, cid-aṃśa, avidyā-dissolution, or adhisthāna-recognition). Which of these accounts can survive contact with the actual phenomenology of grief — and which are purely doctrinal constructions?",
@@ -519,5 +516,6 @@
     "śuddhādvaita": "Vallabha's 'aśeṣeṇa' — the vision extends to the body and material products — means the practitioner is not to dismiss physical suffering or material need as māyā to be transcended. The body is cid-aṃśa seen from one vantage, Kṛṣṇa-substance seen from another. In caregiving or service work, this reading yields a specific disposition: the person you serve is not a soul trapped in an inconvenient body but an integrated expression of Parabrahman. The application is to bring the same quality of attention to the physical dimension of care as to the emotional.",
     "bhakti": "Śrīdhara's phrase 'svāvidyā-racitāni' — beings as constructions of one's own avidyā — offers a daily diagnostics for projection. When a person irritates you disproportionately, the Śrīdhara-informed practice asks: what am I manufacturing here? The kin that cause grief (bandhu-vadha, in the verse's context) are partly self-constructed narratives. The first stage — seeing them in ātman — begins with recognizing the narrative layer you have built around them. The second stage — ātman in Paramātman — arrives naturally when the narrative loosens.",
     "advaita-bhakti": "Madhusūdana's 'adhisthāna' frame is directly useful in creative or professional work where output feels fragile or contingent on external validation. The objects of your work — projects, relationships, reputation — appear on a ground (adhisthāna) that is Bhagavān Vāsudeva. Recognizing that ground does not make the objects unimportant; it makes them legible as appearances that do not threaten the ground. The application: before a high-stakes presentation or conversation, briefly locate the adhisthāna — the awareness in which the situation appears — rather than drilling into the situation itself."
-  }
+  },
+  "primary_meaning": "Once you have this knowledge, you will never be deluded like this again, for you will see all beings without exception first in yourself, then in me."
 }

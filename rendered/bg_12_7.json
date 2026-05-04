@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "bhavāmi",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "āveśita",
-      "lemma": "āveśay",
+      "lemma": "ā-√veśay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -449,14 +449,6 @@
       ]
     },
     {
-      "list": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.11",
-        "9.29"
-      ]
-    },
-    {
       "list": "संसार",
       "role": "supporting",
       "other_verses_in_list": [
@@ -466,13 +458,6 @@
         "9.3",
         "12.8",
         "16.19"
-      ]
-    },
-    {
-      "list": "समोऽहं सर्वभूतेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.29"
       ]
     }
   ],
@@ -503,7 +488,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavāmi: bhū -> √bhū",
+          "āveśita: āveśay -> ā-√veśay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Krishna says He will lift 'acirena' (quickly, not after long) — what determines the speed? Is it intensity of surrender, purity of citta, or purely Krishna's sovereign will?",
@@ -521,5 +517,6 @@
     "shuddhadvaita": "Vallabha's 'kevala bhavena' (bare bhava) teaching challenges the idea that technique precedes access to the Real. A child's total absorption in play, a craftsperson's complete immersion in making — these illustrate states where desire has become 'nirbija' (seedless) because it is fully present. The invitation is to notice when you are already in such a state, rather than always deferring to a future disciplined practice.",
     "bhakti": "Sridhara's compact gloss — citta absorbed in Krishna, uplift swift and complete — suggests a simple daily practice: at the beginning of any demanding period (a difficult meeting, a creative session, a hard conversation), briefly but genuinely lodge your attention in the source you trust. The verse's promise is that even partial, sincere absorption changes the quality of what follows.",
     "advaita-bhakti": "Madhusudan's synthesis addresses the practitioner who loves devotion but fears they are 'not intellectual enough' for jnana (knowledge), or loves inquiry but fears they are 'not devoted enough' for bhakti. His reading of this verse says the path of sincere saguna bhakti (devotion to the personal form) carries its own grace-mechanism that eventually delivers the same fruit — so commit fully to whichever mode is genuine for you rather than splitting energy trying to hedge both."
-  }
+  },
+  "primary_meaning": "Fix your mind on Me, and I will swiftly lift you out of the ocean of death and rebirth."
 }

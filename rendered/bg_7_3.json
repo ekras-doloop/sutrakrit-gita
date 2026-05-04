@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "yatati",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "surface_form": "yatatām",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -442,20 +442,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कश्चिन्मां वेत्ति तत्त्वतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.29"
-      ]
-    },
-    {
-      "list": "तथैव चान्यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.29"
-      ]
-    },
-    {
       "list": "मनुष्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -535,7 +521,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatati: yat -> √yat",
+          "yatatām: yat -> √yat",
+          "vetti: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If true tattva-jñāna (essential knowledge) is this rare, does the verse counsel effort or surrender — and can those two even be separated?",
@@ -553,5 +551,6 @@
     "śuddhādvaita": "Stop auditing your qualification. The Puṣṭi-mārga reading is that Kṛṣṇa himself will give the jñāna that bridges ātman to Bhagavān — your part is to remain in sevā-bhāva (service-disposition) and receive. In daily life: replace effortful self-improvement spirals with līlā-sevā (joyful service acts) — cook for the deity, sing, offer — trusting the prasāda to transmit the knowledge no amount of self-analysis can manufacture.",
     "bhakti": "Recognize where you stand on the four-rung ladder without self-flattery. The first rung (entering the frame of śreyas) is already rare — most people never seriously ask the primary question. If you are asking it, you have prakṛṣṭa-puṇya (accumulated merit); honour that by not wasting it on subsidiary goals. Progress on the ladder requires bhakti as the lubricant at every transition; where momentum stalls, add devotional practice rather than adding intellectual study.",
     "advaita-bhakti": "Treat jñāna-sādhana (knowledge-practice) and bhakti-sādhana (devotion-practice) as co-dependent accelerators, not alternatives. Madhusūdana's reading implies that viveka-vairāgya (discrimination-dispassion) clears the channel, while the Lord's anugraha completes the transmission — so a daily practice that alternates śravaṇa-manana (study-reflection) with Kṛṣṇa-bhakti is structurally sound. The verse's rarity claim sets a high bar without making effort pointless: it predicts that the combination is rare, not impossible."
-  }
+  },
+  "primary_meaning": "Among thousands who strive for liberation, barely one finds it; among those rare achievers, still fewer truly know Me as I am."
 }

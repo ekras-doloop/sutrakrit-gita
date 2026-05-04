@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -356,7 +356,9 @@
         "jayatirtha_17.7"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya offered no direct commentary on this verse (payload confirms: 'Sri Madhvacharya did not comment on this sloka'). From the established Dvaita framework: food, sacrifice, austerity, and gift are each triply conditioned by guna, and since the jiva is eternally distinct from and dependent on Hari (svatantra-paratantra), the quality of one's ahara shapes the quality of one's worship. Sattvic food sustains a jiva fit to receive Hari's anugraha (grace); rajasic and tamasic food reinforce bondage. [Bhashya absent — inference from Dvaita siddhanta only.]"
+      "english_rendering": "*Āhāra* (food) for every being is of three kinds according to what is dear to each; so too *yajña* (sacrifice), *tapas* (austerity), and *dāna* (gift). Krishna commands Arjuna: *teṣāṃ bhedam imaṃ śṛṇu* — hear now the *bheda* (real distinction) among them. In the dvaita reading, *bheda* here is not merely categorical but ontological: the threefold division of each practice reflects the *taratamya* (graded ontological hierarchy) of *jīvas* (individual selves) in their degree of fitness for *bhakti* (devotion) toward *Hari*, the sole *svatantra* (independently real, self-sufficient) Lord. Every *jīva* is *paratantra* (eternally dependent), and the character of one's *āhāra* — sāttvic, rājasic, or tāmasic — shapes the inner instrument through which that dependence is either acknowledged or obscured. Sāttvic *āhāra* purifies the *jīva* and opens it to *Hari*'s *anugraha* (grace); rājasic and tāmasic *āhāra* reinforce *saṃsāra* and deepen bondage. The same tripartite logic extends without remainder to *yajña*, *tapas*, and *dāna*: each can either orient the *paratantra* *jīva* toward its proper subordination to *Hari* or draw it further into the lower grades of *taratamya*. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is preserved throughout: the food one consumes is real matter, the *jīva* who consumes it is really distinct from it, and both are really distinct from and governed by *Hari*.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse; the reading is reconstructed from dvaita *siddhānta* applied directly to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,7 +448,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If food shapes guna and guna shapes shraddha (17.3), does what I eat determine the quality of what I can sincerely believe or commit to — and is that a scary thought or a liberating one?",
@@ -464,5 +476,6 @@
     "shuddhadvaita": "In the Pushti-marga, even food is a site of divine reception: sattvic food offered and received as Krishna's prasada transforms the act of eating into participation in his lila. The classification is not a rule-system to follow anxiously but a map for recognizing which foods carry the quality of offering and which do not.",
     "bhakti": "Sridhara's practical pedagogy: identify one rajasic or tamasic pattern in your daily eating (eating too fast, eating stimulants late at night, eating while distracted and agitated) and replace it with a sattvic alternative for thirty days. Observe whether your capacity for prayer, study, or sustained attention changes. The experiment is the teaching.",
     "advaita-bhakti": "Madhusudana's synthesis asks you to hold both the exact and the devotional simultaneously: be precise about what guna your food, your rituals, your disciplines, and your generosity actually belong to (not what you wish they were) — and then offer the sattvic forms to Krishna with full bhakti. Precision without devotion is pedantry; devotion without precision is sentiment. 17.7 asks for both."
-  }
+  },
+  "primary_meaning": "Food comes in three kinds for every person, depending on what they love, and so do sacrifice, austerity, and giving. Hear now how they differ."
 }

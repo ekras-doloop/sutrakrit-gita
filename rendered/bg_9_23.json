@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "yajante",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "yajanti",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -479,7 +479,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yajante: yaj -> √yaj",
+          "yajanti: yaj -> √yaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sincere worship of any deity reaches Kṛṣṇa anyway, what exactly is the practitioner losing by not knowing this — and is that loss a matter of doctrine, psychology, or practical result?",
@@ -497,5 +508,6 @@
     "śuddhādvaita": "Vallabha's root-versus-branch image applies to any system of priorities: identify what is foundational in your life (health, core relationships, primary vocation) and check whether your daily energy is going to the branches (notifications, secondary tasks, appearances) while the root is unwatered. Redirect even small amounts of attention to the source.",
     "bhakti": "Śrīdhara's point is practical: sincerity is necessary but not sufficient — the orientation of that sincerity determines where it leads. In any long-term pursuit (a craft, a relationship, a practice), ask not only 'am I trying hard?' but 'is the direction of this effort oriented toward what I actually want to become?' Recalibrate the aim, not just the effort.",
     "advaita-bhakti": "Madhusūdana's insight applies to how we relate to people we find difficult: we often posit genuine separateness — they are categorically other. The practice is to hold the relationship without collapsing the difference (they are real, their perspective is real) while also not reifying the separation as final. This is the everyday form of ananyā — not dissolving the other, but not making them an alien object either."
-  }
+  },
+  "primary_meaning": "Those who worship other gods with sincere faith do worship Me, but without knowing it, and so the fruit they gain falls short."
 }

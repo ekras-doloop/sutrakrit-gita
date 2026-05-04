@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "dadhmau",
-      "lemma": "dham",
+      "lemma": "√dham",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -331,7 +331,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dadhmau: dham -> √dham"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa is 'Hṛṣīkeśa' (lord of all senses) before the battle even begins, what does that imply about who is truly the agent of every action that follows in the Gītā?",
@@ -349,5 +359,6 @@
     "śuddhādvaita": "Vallabha's reading ends with the sound splitting hearts — bibheda, pierced. The Puṣṭi teaching is that Kṛṣṇa's overflowing joy (ānanda-pravāha) reaches you even through disruption, fear, and loss. The everyday application: when something 'splits your heart' today — grief, sudden beauty, unexpected failure — do not immediately reach for the fix. Stay with the splitting. Puṣṭi practice reads that crack as the entry-point of prasāda. Journal one heart-splitting moment from the past week and ask: what was trying to enter?",
     "bhakti": "Śrīdhara's bhāṣya is a naming exercise: he carefully derives 'Vṛkodara' (wolf-belly), 'Bhīma-karma' (fearsome deeds), insisting that each name carries the dharma of the named. The everyday application is attention to how you name yourself and others. The names we use — in introductions, in self-talk, in how we introduce colleagues — are not neutral. They invoke specific qualities and responsibilities. Today: choose one name or title you use for yourself and trace what dharma (obligation, quality, role) it actually carries. Does how you act match the name?",
     "advaita-bhakti": "Madhusūdana's key observation is asymmetry: the Pāṇḍava conches have famous names, the Kaurava conches do not. He reads this as dharmic sanction made visible in a small detail. The everyday application is attention to the unnamed in your own life and work — the tools, the practices, the relationships that carry no prestige but without which nothing would hold together. Madhusūdana's synthesis teaches that jñāna (discernment) and bhakti (love) both require you to see what others overlook. Today: identify one unnamed, unrecognized thing in your life that is doing essential work, and give it its name."
-  }
+  },
+  "primary_meaning": "Krishna sounded his conch Pāñcajanya, Arjuna sounded Devadatta, and the mighty Bhīma sounded the great conch Pauṇḍra."
 }

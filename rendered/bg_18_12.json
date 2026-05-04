@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "iṣṭam",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -333,7 +333,7 @@
         "jayatirtha_18.12"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's comment is extremely terse — 'He praises tyaga: anistam iti' — indicating he reads this verse as a straightforward eulogy of renunciation without requiring extended gloss. From Madhva's broader framework: the three-fold fruit binds only those who act without surrendering both fruit and sense of independent agency to Hari; the jiva (soul) is eternally distinct from and dependent on Vishnu, so any action not referred to Hari as supreme controller generates bondage. The sannyasi who recognizes Hari's absolute sovereignty (svatantrya) is not touched by fruit.",
+      "english_rendering": "Madhva glosses this verse as *tyāgaṃ stauti* — a praise of renunciation — marking the verse's function with *aniṣṭam iti* as the opening signal. The three-fold fruit of action — *aniṣṭam* (the unwanted), *iṣṭam* (the wanted), and *miśram* (the mixed) — accrues *pretya* (after death) to *atyāginām* (those who do not renounce), never to the *saṃnyāsin*. Jayatīrtha presses the question: if *karmafalābhāva* (the absence of karmic fruit) is simply *saṃsāranivṛtti* (cessation of rebirth), how is that spoken of as the *tyāgaphala* (fruit of renunciation)? He resolves this by cross-reference: *upapaditam etat tyāgāc chāntiḥ* [12.12] — it has already been established there. The *jīva* (the individual self), eternally *paratantra* (dependent) on Hari, generates bondage through any act not surrendered to the *svatantra* (independently real, self-sufficient) Lord; the *saṃnyāsin* who has relinquished the fruit and the conceit of independent agency is untouched by this three-fold result, *kvacit* — in no circumstance whatsoever.",
       "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
@@ -459,7 +459,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṣṭam: iṣ -> √iṣ",
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same outward action — giving to charity, doing one's job — can bind or liberate depending solely on the inner stance of the actor, what does this imply about the primacy of interiority over externally observable virtue?",
@@ -477,5 +488,6 @@
     "suddhAdvaita": "Find one daily routine action — cooking, commuting, parenting — and perform it as if it were part of Krishna's lila (play) unfolding through you. Vallabha's invitation is not to suppress enjoyment but to locate its source correctly: the pleasure is prasada (grace given), not property acquired.",
     "bhakti": "Sridhara's broadened 'sannyasi' means you don't need a monastery. If you can do your day's duties — parenting, earning, caregiving — while mentally offering their fruits to Ishvara (the Lord), you qualify. The practical test: can you perform the same action on a day when no one will know, no praise will come? That equanimity is the marker.",
     "advaita-bhakti": "Madhusudana's synthesis suggests a graded practice: begin with karma-phala-tyaga (releasing attachment to outcomes) as a daily habit, understanding this clears sattva (purity) toward jnana (knowledge). Do not pretend to have arrived at full Self-knowledge prematurely — that is spiritual bypassing. Stay honest about where on the continuum you are, and let bhakti (devotion) carry you forward."
-  }
+  },
+  "primary_meaning": "After death, action brings three kinds of fruit to those who have not renounced: the unwanted, the wanted, and the mixed. For true renunciants, none of these arise, ever."
 }

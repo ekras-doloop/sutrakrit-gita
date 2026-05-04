@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "śritāḥ",
-      "lemma": "śri",
+      "lemma": "√śri",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -344,7 +344,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -355,27 +355,11 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कर्म चैव तदर्थीयं सदित्येवाभिधीयते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.12"
-      ]
-    },
-    {
       "list": "कामात्क्रोधोऽभिजायते",
       "role": "supporting",
       "other_verses_in_list": [
         "2.62",
         "2.63"
-      ]
-    },
-    {
-      "list": "क्रोधाद्भवति सम्मोहः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62",
-        "2.63",
-        "3.40"
       ]
     },
     {
@@ -488,13 +472,6 @@
         "18.40",
         "18.59"
       ]
-    },
-    {
-      "list": "राक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.34"
-      ]
     }
   ],
   "audit_trail": {
@@ -524,7 +501,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śritāḥ: śri -> √śri"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If aspiration (āśā), action (karma), and knowledge (jñāna) can all become mogha from a single misaligned orientation, which of the three is the most tractable point of intervention for a sincere practitioner who suspects self-deception?",
@@ -542,5 +529,6 @@
     "śuddhādvaita": "Vallabha's 'sealed vessel' insight applies directly to creative and professional life: if your capacity to receive inspiration, collaboration, or timely opportunity seems blocked despite sustained effort, the Puṣṭi-mārga diagnosis is not inadequate technique but a constricted svabhāva (nature) oriented entirely toward outcome (śabda-ādi viṣaya). The corrective is not more effort but an offering of the effort itself to Kṛṣṇa as līlā — shifting the inner orientation so that the prasāda that is always falling can actually land.",
     "bhakti": "Śrīdhara's diagnosis of nānā-kutarka (various sophistical arguments) as the source of mogha-jñāna speaks directly to intellectual life: when one's reading, scholarship, or theological study is animated primarily by the desire to win arguments or demolish opponents, knowledge becomes scattered and self-defeating. The bhakti corrective is to enter study as a devotional act — reading with the question 'how does this text show me the Lord?' rather than 'how does this text support my position?' — which structurally aligns jñāna with its proper fruit.",
     "advaita-bhakti": "Madhusūdana's point that contempt generates mahā-durita that literally obstructs buddhi has a clean cognitive application: the moments when you most harshly dismiss another person's view ('this is obviously nonsense') are precisely the moments when your own discriminative faculty (viveka-vijñāna) is most impaired. The practice is to notice contempt as a signal — not of the other's error but of your own buddhi being 'pratibaddha' (blocked) — and to pause, invoke Bhagavān, and re-engage from a cleared centre before drawing conclusions."
-  }
+  },
+  "primary_meaning": "Those who despise Krishna in human form find every wish, every deed, and every claim to wisdom hollow, having taken refuge in the demonic and demoniac natures that cloud all discernment."
 }

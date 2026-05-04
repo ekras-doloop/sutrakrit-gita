@@ -1,8 +1,8 @@
 {
   "verse_id": "18.61",
   "mūla": {
-    "devanāgarī": "ईश्वरः सर्वभूतानां हृद्देशेऽर्जुन तिष्ठति | भ्रामयन्सर्वभूतानि यन्त्रारूढानि मायया",
-    "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati | bhrāmayansarvabhūtāni yantrārūḍhāni māyayā",
+    "devanāgarī": "ईश्वरः सर्वभूतानां हृद् देशेऽर्जुन तिष्ठति | भ्रामयन् सर्वभूतानि यन्त्रारूढानि मायया",
+    "iast": "īśvaraḥ sarvabhūtānāṃ hṛddeśe'rjuna tiṣṭhati | bhrāmayan sarvabhūtāni yantrārūḍhāni māyayā",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 61",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "tiṣṭhati",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "bhrāmayan",
-      "lemma": "bhrāmay",
+      "lemma": "√bhrāmay",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "surface_form": "ārūḍhāni",
-      "lemma": "āruh",
+      "lemma": "√āruh",
       "grammar": "accusative neuter plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -416,7 +416,8 @@
         "jayatirtha_18.61"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya left no extant bhasyya on this sloka. Reading reconstructed from Dvaita principles: Hari alone is svatantra (self-dependent); jivas are paratantra (other-dependent) by constitution. The yantra-image confirms eternal ontological dependence — the machine does not will its own spinning. Maya here is Visnu's own inconceivable power, not a shared metaphysical fog; beings are moved 'guna-anugunya' according to karma that Hari adjudicates justly. The hrdaya-sthana is Hari's own real presence inside the jiva, never merging with it. [NOTE: Madhva bhasyya absent from payload; this rendering is inferred from Dvaita siddhanta.]"
+      "english_rendering": "*Īśvara* (the Lord, *svatantra* by nature) stands in the *hṛddeśa* — the heart-seat — of *sarvabhūtānāni*, every being. He is not merely present there as a witness at a distance; he is the real, distinct, inner controller whose presence is ontologically prior to the *jīva* that houses him. The *pañca-bheda* holds without collapse: Lord and *jīva* remain genuinely distinct even in this innermost intimacy.\n\nThe *yantrārūḍhāni* image is exact for Dvaita: beings are mounted on a machine (*yantra*) they did not build and cannot drive. The machine spins by *māyā* — here Viṣṇu's own sovereign power, not an impersonal screen, not a shared metaphysical confusion, but the Lord's *acintya-śakti* (inconceivable power) by which he adjudicates *karma* and moves each *jīva* according to *taratamya* (graded ontological hierarchy). The *jīva*'s *paratantra* constitution is confirmed structurally: *bhrāmayan* names Hari as the sole mover; the *jīva* is moved, never self-moved.\n\nThe *hṛddeśa*-station is Hari's real presence inside the *jīva*, not a metaphor for an undifferentiated ground. He does not dissolve into the *jīva*, nor the *jīva* into him. *Bhakti* as ontological subordination begins precisely here: recognizing that the one who moves you from within is *svatantra* Hari, the *jīva*'s only refuge.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -501,7 +502,43 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "bhrāmayansarvabhūtāni -> bhrāmayan sarvabhūtāni"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhati: sthā -> √sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "हृद्देशेऽर्जुन -> हृद् देशेऽर्जुन",
+          "भ्रामयन्सर्वभूतानि -> भ्रामयन् सर्वभूतानि"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhrāmayan: bhrāmay -> √bhrāmay",
+          "ārūḍhāni: āruh -> √āruh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Isvara already stands in my heart spinning me like a puppet, what is the status of my sense that I am choosing — is that sense itself part of the spinning?",
@@ -519,5 +556,6 @@
     "suddhadvaita": "Vallabha reads the spinning as Krsna's own lila coursing through you. The everyday application is aesthetic rather than ethical: when work feels mechanical or joyless, it is because you have forgotten the player behind the machine. The Pustimarga response is not to work harder but to restore the awareness that this very routine is his sport.",
     "bhakti": "Sridhara's sutradharah (puppeteer) image is the most concrete in the panel. Practically: when a situation feels completely out of your control — a medical diagnosis, a relationship rupture, a professional collapse — the verse does not promise resolution but it does name the one holding the strings. Bhakti is turning toward that one rather than fighting the strings.",
     "advaita-bhakti": "Madhusudana's synthesis offers a two-register practice. Philosophically, recognize that what you call 'my will' is already the Lord's movement. Devotionally, love that mover — not as submission to a tyrant but as gratitude to the one whose standing in your heart is what makes your heart a heart at all."
-  }
+  },
+  "primary_meaning": "God stands in the heart of every creature, Arjuna, and by his power spins them all like figures mounted on a wheel."
 }

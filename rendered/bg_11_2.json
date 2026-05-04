@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "śrutau",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "nominative masculine dual participle noun",
       "senses_attested_in_panel": [
         {
@@ -336,9 +336,10 @@
         "jayatirtha_11.2"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse. From the Dvaita standpoint, Arjuna's statement that the birth and dissolution of beings have been heard from Kṛṣṇa alone affirms the foundational Dvaita axiom: jīvas are eternally and essentially distinct (bhinna) from Hari; their very arising and ceasing belong entirely to Hari's sovereign will and never to any capacity intrinsic to the jīva. The avyaya māhātmya points to Hari's perfection as utterly independent (svatantra) — no created movement adds to or subtracts from it.",
-      "divergence_note": "No Madhva bhāṣya available for this verse. Rendering extrapolated from Dvaita siddhānta; clearly flagged as inference.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Bhavāpyayau* (arising and dissolution) of all *bhūtāni* (beings) have been heard in full from Kṛṣṇa, *kamala-patrākṣa* (lotus-petal-eyed one) — and his *avyaya māhātmya* (imperishable greatness) likewise. That Arjuna has heard both together is doctrinally precise: the coming-into-being and passing-away of *jīvas* belong wholly to Hari's *svatantra* (independently real, self-sufficient) will, never to any capacity residing in the *jīva* itself. The *jīva* is *paratantra* (eternally dependent) in its very arising; it neither originates itself nor dissolves by its own power. *Avyaya* applied to Hari's *māhātmya* names the asymmetry at the center of *pañca-bheda* (the five-fold real distinction): the Lord's greatness is self-complete, untouched by the birth-and-death cycles that belong entirely to the dependent order. No movement of *bhūtāni* adds to or diminishes what is *avyaya*; the very capacity to hear that greatness is itself a gift from the *svatantra* Hari.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha exists for this verse. The reading is voiced directly from Dvaita *siddhānta* primitives — *svatantra*/*paratantra* asymmetry, *pañca-bheda*, and the *avyaya* character of Hari's sovereignty — as applied to the mūla.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -462,7 +463,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śrutau: śru -> √śru"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna says he has heard the teaching 'in detail' (vistaraśaḥ) — what does it mean to truly hear (śravaṇa) rather than merely receive words, and why does he still need to see?",
@@ -480,5 +491,6 @@
     "śuddhādvaita": "Vallabha reads creation itself as the vibhūti (radiant self-expression) of Kṛṣṇa — not a task performed but a glory manifested. Applied practically: approach your work not as production of something external but as the expression of what is already alive in you. The world you make or shape is the form your inner life takes in the world. Creation and dissolution are both part of that self-expression.",
     "bhakti": "Śrīdhara's conclusion — that hearing the teaching removed the moha of 'I am the doer' — points to a practical threshold. When teaching genuinely lands, the insistence on personal authorship relaxes. Notice when you are clinging to credit or blame for outcomes; this is the moha still operating. The antidote is not suppression but genuine hearing of how causation actually works.",
     "advaita-bhakti": "Madhusūdana notes that Arjuna's address kamalapatrākṣa is premātiśayāt — an overflow of love, not a formal epithet. In your own relationships, watch for the moment when a name or a face carries more than information — when addressing someone is itself an act of feeling. Madhusūdana is pointing out that this overflow is not distraction from the serious request that follows; it is the ground that makes the request sincere."
-  }
+  },
+  "primary_meaning": "Arjuna says: I have heard in full, lotus-eyed one, how all beings arise and dissolve from you, and how your greatness is without end."
 }

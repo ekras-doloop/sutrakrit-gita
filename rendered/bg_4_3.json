@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "proktaḥ",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -426,67 +426,11 @@
       ]
     },
     {
-      "list": "कर्मणा बध्यते जन्तुः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.8",
-        "3.20"
-      ]
-    },
-    {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.19",
-        "5.17",
-        "7.29",
-        "8.16",
-        "16.5"
-      ]
-    },
-    {
-      "list": "नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "3.17",
-        "4.2",
-        "4.20",
-        "6.1",
-        "6.40"
-      ]
-    },
-    {
       "list": "पुरातनः",
       "role": "supporting",
       "other_verses_in_list": [
         "3.10",
         "3.11"
-      ]
-    },
-    {
-      "list": "भक्तोऽसि मे सखा चेति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.31"
-      ]
-    },
-    {
-      "list": "मैं हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.13",
-        "3.3",
-        "4.38",
-        "6.25"
-      ]
-    },
-    {
-      "list": "रहस्यं ह्येतदुत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.1"
       ]
     },
     {
@@ -546,7 +490,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktaḥ: pravac -> pra-√vac",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If this yoga is 'ancient' (purātana) and was first spoken to the Sun, why does it require re-disclosure — what is the structural account of how authoritative knowledge decays within traditions?",
@@ -564,5 +519,6 @@
     "śuddhādvaita": "Vallabha's insistence on sampradāya — that what is given is given through a lineage, not invented — applies to any craft, art, or practice carried forward. Before you adapt or innovate a received method, name and honour its lineage explicitly. The prasāda-frame does not prohibit development; it prevents the amnesia that makes development look like origination and thereby severs the living chain.",
     "bhakti": "Śrīdhara's 'vicchinne sampradāye' — the broken tradition — names a condition that recurs in any organisation, family, or practice community. When a discipline has lapsed, the re-introduction is not just logistical restoration but a relational act requiring a recipient who combines devotion (committed interest) and intimacy (genuine relationship). Before re-transmitting anything of value, ask whether the relationship has those two conditions.",
     "advaita-bhakti": "Madhusūdana's precision about sakhā — same-generation, warm, constant companion — identifies the specific relational form that makes the transmission of the highest things possible. The application is to recognise that certain conversations require a peer-relationship, not a hierarchical one, and to be patient about building the companionship that makes such exchange possible rather than forcing depth before the relationship supports it."
-  }
+  },
+  "primary_meaning": "That same ancient yoga, lost over time, I am telling you again today, because you are both devoted to me and my friend, and this is the highest secret."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "utsanna",
-      "lemma": "utsad",
+      "lemma": "ut-√sad",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "anuśuśruma",
-      "lemma": "anuśru",
+      "lemma": "anu-√śru",
       "grammar": "past indicative root 1st person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -321,7 +321,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "utsanna: utsad -> ut-√sad",
+          "bhavati: bhū -> √bhū",
+          "anuśuśruma: anuśru -> anu-√śru"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna cites anūśuśruma — 'we have heard' — rather than personal reasoning; what does this reveal about how transmitted dharmic authority functions when individual judgment fails?",
@@ -339,5 +351,6 @@
     "śuddhādvaita": "Puṣṭi-mārga asks: what if the 'hell' Arjuna fears is simply separation from Kṛṣṇa — the only naraka that ultimately matters? When transmitted warnings about social consequences (family disgrace, professional ruin, community censure) paralyze you, test whether the real fear beneath them is the fear of being cut off from the joy of Kṛṣṇa's presence.",
     "bhakti": "Arjuna's anūśuśruma — 'we have heard' — is a reminder that some of our deepest motivators are inherited, not examined. In everyday life, take time to distinguish between convictions you have tested and rules you have merely received. Bhakti does not discard tradition, but it insists that love for Bhagavān illuminates which inherited norms carry genuine dharmic weight.",
     "advaita-bhakti": "Madhusūdana's key word is aviмṛśya-kāritā — acting (or refusing to act) without genuine reflection. In contemporary practice: before citing authority, precedent, or 'what we have always done' to justify inaction, ask whether you have actually deliberated or whether you are using śāstric vocabulary to dress up emotional avoidance. The synthesis of jñāna and bhakti requires that both the head's reasoning and the heart's devotion be fully engaged — not one used to silence the other."
-  }
+  },
+  "primary_meaning": "When family duties are destroyed, men are condemned to hell, so we have always been taught."
 }

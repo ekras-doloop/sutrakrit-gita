@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "tapāmi",
-      "lemma": "tap",
+      "lemma": "√tap",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "nigṛhṇāmi",
-      "lemma": "nigrah",
+      "lemma": "ni-√grah",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "utsṛjāmi",
-      "lemma": "utsṛj",
+      "lemma": "ut-√sṛj",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "sat",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -377,29 +377,6 @@
         "10.39",
         "11.50"
       ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
     }
   ],
   "audit_trail": {
@@ -429,7 +406,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tapāmi: tap -> √tap",
+          "nigṛhṇāmi: nigrah -> ni-√grah",
+          "utsṛjāmi: utsṛj -> ut-√sṛj",
+          "sat: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān is both amṛta (immortality) and mṛtyu (death), what does it mean to pray for healing or long life—are you praying to the same source that withholds?",
@@ -447,5 +437,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga, the cycle of seasons is Kṛṣṇa's own play (līlā). The practitioner's everyday application is to receive each season—dry summer, flooding monsoon, cold winter—as a different mood of Kṛṣṇa's self-expression, and to arrange their devotional life (seva, offerings, song) in tune with the season's rasa rather than imposing uniformity year-round.",
     "bhakti": "Śrīdhara's reading invites the devotee to see every visible thing (the sun, the rain, the body) as sthūla (gross) forms of Bhagavān, and every invisible thing (breath, memory, love) as sūkṣma (subtle) forms. The everyday application is a continuous re-attribution of agency: 'this warmth is Him, this grief is Him, this recovery is Him'—a discipline that gradually dissolves the habit of treating natural and emotional events as self-generated.",
     "advaita-bhakti": "Madhusūdana's synthesis supports a pluralistic household: family members at different stages of life worship differently (pūjā, jñāna-vicāra, service, meditation), and the verse grounds why this is not incoherence but adhikāra-based appropriateness. The everyday application is to stop measuring one's own practice against others' and to engage fully in whatever mode one's current clarity and inclination sustain."
-  }
+  },
+  "primary_meaning": "I give heat, I hold back rain and I release it; I am both immortality and death, Arjuna, both what exists and what does not."
 }

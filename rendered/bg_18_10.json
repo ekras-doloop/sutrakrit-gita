@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "dveṣṭi",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "anuṣajjate",
-      "lemma": "anuṣañj",
+      "lemma": "anu-√ṣañj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "samāviṣṭaḥ",
-      "lemma": "samāviś",
+      "lemma": "sam-√āviś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "chinna",
-      "lemma": "chid",
+      "lemma": "√chid",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -368,8 +368,10 @@
         "jayatirtha_18.10"
       ],
       "score": 0.5,
-      "english_rendering": "The jivatman (individual soul), eternally distinct from Hari and wholly dependent on His will, has no autonomous relationship to auspicious or inauspicious karma. The sattvika-tyagi does not hate akushala karma because hatred itself is a self-asserting reaction that presupposes independent agency; the Dvaita framework insists all karma belongs within Hari's governance (Hari-tantrata). Likewise clinging to kushala karma as personally productive would be the error of forgetting that the jiva's every good action is Hari's prasada (grace-gift), not the jiva's own achievement. The medhavi who has cut doubt knows the jiva's sole function is dependent worship.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Na dveṣṭyakuśalaṃ karma kuśale nānuṣajjate* — the genuine *tyāgī* neither recoils from inauspicious action nor clings to the auspicious. For the *paratantra* *jīva* (the eternally dependent individual self), such recoiling or clinging would be the assertion of a *svatantra* (independently real, self-sufficient) agency that no *jīva* possesses. Hatred of *akuśala* karma presumes that the *jīva* stands apart from Hari's governance and can condemn what Hari has assigned; attachment to *kuśala* karma presumes that the *jīva* owns its fruits rather than receiving them as Hari's gift. Both errors dissolve under *pañca-bheda* (the five-fold real distinction): Lord and *jīva* are irreducibly distinct, and no action of the *jīva* falls outside *Hari-tantratā*. *Sattva-samāviṣṭa* names the *jīva* whose cognition is suffused with *sattva* precisely because *sattva* in its purity inclines the dependent self toward transparent acknowledgment of Hari's sovereignty. *Medhāvī chinnasaṃśayaḥ* — the wisdom that severs doubt is not speculative equipoise but the settled recognition of the *jīva*'s ontological subordination, leaving no residue of self-attribution in either aversion or desire. *Bhakti* as ontological subordination is thus not an added virtue but the very structure of *tyāga* proper to a *paratantra* being.",
+      "commentator": "Madhvacharya",
+      "divergence_note": "Bucket changed from B to C: neither Madhva nor Jayatīrtha left a bhāṣya on this verse; reading is voiced directly from Dvaita siddhānta off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -505,7 +507,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dveṣṭi: dviṣ -> √dviṣ",
+          "anuṣajjate: anuṣañj -> anu-√ṣañj",
+          "samāviṣṭaḥ: samāviś -> sam-√āviś",
+          "chinna: chid -> √chid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes the sattvika-tyagi who acts without aversion or attachment from mere emotional numbness or suppression of feeling?",
@@ -523,5 +538,6 @@
     "shuddhadvaita": "Vallabha's frame applied to creative work: produce it as if it were Krishna's lila-prasada channeled through you, and release the result without tracking approval or readership. The renunciation is not of creating but of the mamata (mine-ness) attached to what is created.",
     "bhakti": "Use Shridhara's proportioning move in physical discomfort or minor social friction: 'compared to what I have chosen to endure for what matters most, this is negligible.' This is not suppression — it is intelligent scaling. The medhavi does not deny the cold; they hold it in proportion.",
     "advaita-bhakti": "Madhusudana's synthesis applied to daily sadhana (practice): begin with devoted, dedicated action (offering your work to Bhagavan), let that clean the mirror of the mind, and then notice the moments of sthita-prajna — equanimity that is not achieved by effort but discovered when the mirror is clear. Neither the devotion nor the clarity is the whole; track both."
-  }
+  },
+  "primary_meaning": "A true renunciant, intelligent and steeped in sattva, neither shrinks from unwelcome duty nor chases after pleasant reward, and has cut every doubt clean through."
 }

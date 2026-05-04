@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "anvaśocaḥ",
-      "lemma": "anuśuc",
+      "lemma": "anu-√śuc",
       "grammar": "impf indicative 2nd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "bhāṣase",
-      "lemma": "bhāṣ",
+      "lemma": "√bhāṣ",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "anuśocanti",
-      "lemma": "anuśuc",
+      "lemma": "anu-√śuc",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -449,14 +449,6 @@
       ]
     },
     {
-      "list": "दृष्ट्वेमं स्वजनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
       "list": "भगवान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -468,21 +460,6 @@
         "5.10",
         "12.8",
         "15.1"
-      ]
-    },
-    {
-      "list": "मा शुचः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "16.5",
-        "18.66"
-      ]
-    },
-    {
-      "list": "स्वजनं हि कथं हत्वा सुखिनः स्याम माधव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.37"
       ]
     }
   ],
@@ -513,7 +490,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "anvaśocaḥ: anuśuc -> anu-√śuc",
+          "bhāṣase: bhāṣ -> √bhāṣ",
+          "anuśocanti: anuśuc -> anu-√śuc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Krishna says Arjuna is speaking wisely but not being wise — is that a problem I recognize in myself, where I can articulate a principle but consistently fail to live by it?",
@@ -531,5 +521,6 @@
     "shuddhadvaita": "Vallabha's instruction that even one path held with dridhata (firmness) is sufficient translates practically: you do not need a complete philosophical system to begin. Pick the one thing — a daily prayer, an act of service, a practice of offering your work — and hold it without yielding when it is inconvenient. Ahamta-mamata (I-ness and mine-ness) dissolves not through argument but through the sustained practice of giving what you are most tempted to claim.",
     "bhakti": "Shridhara's reading invites you to notice that Arjuna's collapse is not a failure but a turning point — the moment he stopped performing and started listening. In your own life, when you reach a point of genuine exhaustion with your own positions and arguments, that is not weakness; that is the bhakta arriving at the threshold. The practical move is to stop trying to solve it, and to put the question to the Bhagavan-principle — teacher, practice, or text — with the same completeness Arjuna does two verses later.",
     "advaita-bhakti": "Madhusudana's rope-snake analogy has a direct modern application: emotional residue from grief, anxiety, or shame often persists long after you have understood the situation intellectually, because understanding at the propositional level has not penetrated the upadhi (conditioning layer) that generated the emotion. His point is that the remedy must go to the root — the identification with the limited self — not to the symptom. In practice this means self-inquiry (asking to whom does this grief appear?) is not a bypass of feeling but the only thing that actually removes the cause."
-  }
+  },
+  "primary_meaning": "You grieve people who need no grieving, and speak the words of the wise, yet the truly wise grieve neither the dead nor the living."
 }

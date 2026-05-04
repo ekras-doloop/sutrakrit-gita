@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "paryupāsate",
-      "lemma": "paryupās",
+      "lemma": "√paryupās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -373,20 +373,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "-- दो उपसर्गोंसे युक्त",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
-      "list": "-- यहाँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
       "list": "अक्षर",
       "role": "supporting",
       "other_verses_in_list": [
@@ -430,18 +416,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "12.4"
-      ]
-    },
-    {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.13",
-        "3.17",
-        "3.31",
-        "4.1"
       ]
     },
     {
@@ -526,13 +500,6 @@
       ]
     },
     {
-      "list": "ते प्राप्नुवन्ति मामेव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
       "list": "ध्रुव",
       "role": "supporting",
       "other_verses_in_list": [
@@ -559,27 +526,6 @@
         "12.1",
         "12.4",
         "12.20"
-      ]
-    },
-    {
-      "list": "मया ततमिदं सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.4",
-        "9.5",
-        "12.4"
-      ]
-    },
-    {
-      "list": "येन सर्वमिदं ततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "8.4",
-        "9.4",
-        "9.5",
-        "12.4",
-        "18.46"
       ]
     },
     {
@@ -611,13 +557,6 @@
       ]
     },
     {
-      "list": "सर्वगतः अचलः अव्यक्तः अचिन्त्यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
       "list": "सर्वत्र",
       "role": "supporting",
       "other_verses_in_list": [
@@ -633,34 +572,10 @@
       ]
     },
     {
-      "list": "सर्वत्र समबुद्धयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
       "list": "सर्वत्रगम्",
       "role": "supporting",
       "other_verses_in_list": [
         "12.4"
-      ]
-    },
-    {
-      "list": "सर्वत्रगम् कूटस्थम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.4"
-      ]
-    },
-    {
-      "list": "सर्वभूतहिते रताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.25",
-        "6.32",
-        "12.4",
-        "16.2"
       ]
     }
   ],
@@ -691,7 +606,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paryupāsate: paryupās -> √paryupās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krsna present the aksara-upasaka path at all if he has just declared the saguna-bhakta to be 'most integrated' (yuktatama)? What does the comparative structure of 12.2 vs 12.3-4 reveal about the Gita's view of multiple legitimate paths?",
@@ -709,5 +634,6 @@
     "śuddhādvaita": "Vallabha's contrast is a rebuke to impersonal spirituality. If your meditation practice leaves you feeling vast but untouched — spacious but unmoved by anyone's particular face — that may be aksara-worship, not Krsna-worship. Pusti-marga asks: does your practice make you more available to the specific, the personal, the playful? The aksara never moves; the Lord dances. Adjust your practice accordingly.",
     "bhakti": "Sridhara's practical note is the hardest: this path reaches the goal, but it is more difficult (kleshah adhikataras). Before choosing a maximally abstract spiritual practice — pure awareness, formless meditation, non-dual investigation — honestly assess whether the difficulty serves depth or is a way of avoiding the vulnerability of loving something specific. Both paths are real; choose with open eyes.",
     "advaita-bhakti": "Madhusudana's seven-step analysis of why aksara cannot be named (no genus, no quality, no action) is also a map for how to listen without projection. In any difficult conversation, before you label what someone is — 'she is defensive,' 'he is insecure' — ask whether your category even fits. The awareness that precedes all labeling is itself anirdesya. Renunciation (abhayam sarvabhutebhyo datva) begins with giving others the freedom not to be your concept of them."
-  }
+  },
+  "primary_meaning": "Those who worship the imperishable — unspecifiable, unmanifest, all-pervading, unthinkable, the changeless and eternal ground of all — they too reach Me, though by a harder road."
 }

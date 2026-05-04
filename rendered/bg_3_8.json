@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "niyatam",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -257,7 +257,7 @@
     },
     {
       "surface_form": "prasidhyet",
-      "lemma": "prasidh",
+      "lemma": "pra-√sidh",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -415,7 +415,7 @@
         "vedantadeshika_3.8"
       ],
       "score": 0.5,
-      "english_rendering": "Rāmānuja reads niyata as pervading (vyāpta) — action is woven into the very grain of prakṛti-conditioned existence by beginningless disposition (anādi-vāsanā), so renouncing it for jñāna-niṣṭhā is premature and precarious. Even the aspirant to jñāna must observe mahāyajña and nityanaimittikas to sustain the body through sādhanā; moreover, karma-yoga already contains ātman's akartṛtva (non-doership) as an interior recognition. Karma-yoga is therefore not inferior to jñāna-yoga but is its more reliable and complete vehicle for the qualified practitioner."
+      "english_rendering": "*Niyatam* here means *vyāptam* — pervaded: *prākṛtisaṃsṛṣṭena hi vyāptaṃ karma*, action pervades the one who is mixed with *prakṛti*, and that admixture is rooted in *anādivāsanā*, beginningless disposition. Because it is *niyata*, karma-yoga is *suśaka* (readily practicable) and *asaṃbhāvitapramāda* (free from likely error); *jñānaniṣṭhā*, by contrast, being *anabhyastapūrvatayā* (never before practised), is *duḥśaka* (difficult to execute) and *sapramāda* (prone to lapse). Hence *karma eva jyāyaḥ*, action itself is superior — and *akarma* here, in line with the context established by *naiṣkarmyaṃ puruṣo'śnute* (BG 3.4), means *jñānaniṣṭhā*, not bare inaction: *akarmaśabdena jñānaniṣṭhā eva ucyate*. A further reason for karma-yoga's superiority: *karmaṇi kriyamāṇe ca ātmayāthātmyajñānena ātmanaḥ akartṛtvānusandhānam* — while action is being performed, interior recognition of the ātman's non-doership through knowledge of its true nature is itself incorporated within karma-yoga, so *ātmajñānasya api karmayogāntargatvāt sa eva jyāyān*. Turning to the second half: if, while qualified for *jñānaniṣṭhā*, one abandons all action, then *akartṛṇas te jñānaniṣṭhasya jñānaniṣṭhopakāriṇī śarīrayātrā api na setsyati* — even bodily subsistence, which supports *jñānaniṣṭhā* itself, will not succeed. Body must be maintained until *sādhanasampatti*; that maintenance demands *nyāyārjitadhanena mahāyajñādikaṃ kṛtvā tacchiṣṭāśanena eva śarīradhāraṇam* — sustaining the body solely on remnants of the great sacrifices performed with legitimately earned wealth — as the śruti confirms: *āhāraśuddhau sattvaśuddhiḥ sattvaśuddhau dhruvā smṛtiḥ*. One who abandons all karma yet is still *dhṛyamāṇaśarīra* (while yet bearing a body) must still perform *mahāyajñādini tyanaimittikam karma*. The compound reasoning: *karmayoge api ātmanaḥ akartṛtva-bhāvanayā ātmayāthātmyānusandhānam antarbhūtam*, and karma-yoga for one *prākṛtisaṃsṛṣṭa* is *suśaka* and *apramāda* — therefore even one qualified for *jñānaniṣṭhā* should practice *karmayoga eva*: *tasmāt tvaṃ karmayogam eva kuru*."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -482,42 +482,10 @@
       ]
     },
     {
-      "list": "कर्मणा बध्यते जन्तुः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.20",
-        "4.3"
-      ]
-    },
-    {
       "list": "ज्यायसी",
       "role": "supporting",
       "other_verses_in_list": [
         "3.1"
-      ]
-    },
-    {
-      "list": "मा ते सङ्गोऽस्त्वकर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.23",
-        "3.24",
-        "12.11"
-      ]
-    },
-    {
-      "list": "सहजं कर्म कौन्तेय सदोषमपि न त्यजेत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.48"
-      ]
-    },
-    {
-      "list": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.31"
       ]
     }
   ],
@@ -548,7 +516,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niyatam: niyam -> ni-√yam",
+          "prasidhyet: prasidh -> pra-√sidh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If niyata karma is station-specific duty, who determines one's station in a post-varṇāśrama social order — and does the verse's logic survive that determination shifting?",
@@ -566,5 +545,6 @@
     "śuddhādvaita": "When a task feels tedious or beneath aspiration, recognize that resistance as attachment to a preferred self-image. Vallabha's asaktatā means releasing the proprietor — the one who decides which tasks are worthy — and letting Kṛṣṇa act through the doing. Begin the task before the resistance resolves.",
     "bhakti": "Re-establish broken daily rhythms: the prayer you stopped, the practice you deferred, the small recurring commitments you let lapse. Śrīdhara's sandhyopāsanā logic says the devotional life is held in place by nitya (daily, recurring) discipline; one irregular day compounds. Restore the rhythm before adding anything new.",
     "advaita-bhakti": "When you are unsettled or unclear about the larger direction, return to the work that is unambiguously yours by role and that directly purifies the inner instrument — the craft practice, the professional competence, the bodily discipline. Madhusūdana's point is that clarity follows purification, not the reverse; doing precedes seeing."
-  }
+  },
+  "primary_meaning": "Do your prescribed duty — action is better than inaction, for without it you cannot even keep your body alive."
 }

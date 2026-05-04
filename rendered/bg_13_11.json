@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "proktam",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -516,7 +516,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktam: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ajnana is defined structurally as whatever departs from this orientation — not as wrong beliefs but as scattered attention — what does this imply about how practitioners should evaluate their own state of practice?",
@@ -533,5 +543,6 @@
     "suddhadvata": "Stop treating bhakti as the reward you earn after getting the other items on the jnana list right. Vallabha's point is that the causeless love is already present as the heart's native form — hrdaya-rupa. The practical application: when you feel the warmth of genuine delight in Krsna's presence, recognize that as jnana itself, not a preparation for it. Let that recognition dissolve self-monitoring.",
     "bhakti": "Sridhara's 'sarvātma-drstya' — seeing the Lord as the self of all — is a perceptual practice, not a belief. In ordinary encounters with people, places, and difficulties, experiment with the question: where is the Paramesvara in this? This is not a rhetorical question but a genuine reorientation of vision. Distaste for 'prakrta assembly' in this frame means distaste for interactions that make this vision impossible, not distaste for people.",
     "advaita-bhakti": "Madhusudan's 'santa-sango hi bhesajam' — the company of the genuine is medicine — gives the practical positive form of what the verse prohibits. The application is to actively seek even one person whose company reinforces tattva-orientation and to treat that relationship as a health practice. Simultaneously, his endorsement of knowledge-preceded love (sarvotkarstatva-jnana-purvika) suggests: let your devotion be informed — know who Vasudeva is before you love him, and let that knowing deepen rather than replace the love."
-  }
+  },
+  "primary_meaning": "Steady attention to the self, kept as a way of life, and seeing what tattva-knowledge is actually for, that is knowledge. Whatever departs from this is ignorance."
 }

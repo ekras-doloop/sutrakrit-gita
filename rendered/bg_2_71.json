@@ -119,7 +119,7 @@
     },
     {
       "surface_form": "carati",
-      "lemma": "car",
+      "lemma": "√car",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -251,7 +251,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -544,13 +544,6 @@
       ]
     },
     {
-      "list": "स शान्तिमधिगच्छति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55"
-      ]
-    },
-    {
       "list": "सर्वान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -590,7 +583,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "carati: car -> √car"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāmāḥ (desires) must be abandoned wholesale, does the verse imply that even the desire for liberation (mumukṣutva) must eventually be released — and what would it mean to move through life with no remainder of wanting?",
@@ -608,5 +619,6 @@
     "śuddhādvaita": "Vallabha's practitioner does not aim at austerity but at a specific discernment: is this impulse arising from prākṛta-kāmā (desire rooted in māyā-conditioned nature) or from the ānanda-current that is Kṛṣṇa's svarūpa-śakti expressing through the jīva? The former is released by redirecting attention to seva (devotional service) and the beauty of Kṛṣṇa's forms; the latter is not renounced but celebrated as prasāda (grace). In everyday terms, joy in music, beauty, or loving relationship is not a sign of spiritual failure but a potential doorway, provided it flows through the channel of puṣṭi (nourishment-by-grace) rather than through prākṛta ownership.",
     "bhakti": "Śrīdhara's emphasis on antardṛṣṭi (inward gaze) makes the application concrete and psychological: one does not need to change circumstances but to change the direction of attention while circumstances unfold. Received experience — a windfall, a loss, an encounter — is consumed as prārabdha (what has matured) without being tagged as 'mine to repeat' or 'mine to prevent.' The practitioner who develops this habit notices over time that new vāsanā (subliminal impressions) are not accumulating, and the subtle background hum of craving quiets — not by forcing it silent but by simply not feeding it.",
     "advaita-bhakti": "Madhusūdana's three-tier taxonomy gives a diagnostically precise tool: one can ask at any moment which layer of kāmā is active — is this a bāhya (outer) craving for an object, an āntara (inner) fantasy being rehearsed, or a vāsanāmātra (trace-impression) so faint it is barely noticeable? The Advaita-bhakti practitioner applies jñāna-bala (the force of discernment) at whichever layer is currently operative, while simultaneously holding Kṛṣṇa as the source of śāntiḥ — so the work is not grim self-erasure but a warm re-anchoring in the ground of being that is both pure consciousness and pure ānanda."
-  }
+  },
+  "primary_meaning": "Whoever gives up all desires and moves through the world free of craving, possessiveness, and ego attains peace."
 }

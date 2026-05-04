@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "utsīdeyuḥ",
-      "lemma": "utsad",
+      "lemma": "ut-√sad",
       "grammar": "present optative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "kuryām",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "syām",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "upahanyām",
-      "lemma": "upahan",
+      "lemma": "upa-√han",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -393,8 +393,9 @@
         "jayatirtha_3.24"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva does not comment on this verse (the payload records 'Sri Madhvacharya did not comment on this sloka'). From Dvaita first principles, however, the verse would be read as Kṛṣṇa asserting the ontological dependence of all jīvas on Hari's sustaining activity: withdrawal of divine karma-sphūrti would cause the realms to sink (utsīdeyuḥ) because jīvas possess only borrowed agency; varṇa-saṅkara signals the cosmic dissolution that follows severance from Hari's ordaining will. [Bhāṣya absent; reasoning extrapolated from Dvaita first principles — flagged as inferred, not direct.)",
-      "divergence_note": "No direct Madhva bhāṣya on 3.24 available in this panel."
+      "english_rendering": "*Utsīdeyur ime lokā na kuryāṃ karma ced aham* — were Hari to withhold his sustaining *karma* (action), these worlds (*lokāḥ*) would sink (*utsīdeyuḥ*), for every *jīva* (individual self) is *paratantra* (eternally dependent), possessing no agency except what Hari's will upholds moment to moment. *Saṃkara* (the disorder of varṇa-intermixture) names not merely a social disruption but the cosmic unraveling that attends any rupture from Hari's ordaining power. Kṛṣṇa speaks here not as a teacher reasoning from social utility but as *svatantra* (the independently real, self-sufficient) Lord disclosing the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) in motion: the worlds are sustained precisely because their Lord acts; their dependence is ontological, not contingent. *Upahanyām imāḥ prajāḥ* — the destruction of these beings would follow, because *paratantra* jīvas cannot sustain themselves when severed from the Lord's *karma-sphūrti* (the impulsion of divine activity). The verse thus registers the *taratamya* (graded ontological hierarchy) at the cosmological scale: Hari's action is not analogous to a king's duty but is the causal ground without which *paratantra* existence itself dissolves.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on BG 3.24 is extant; reading is voiced directly from Dvaita *siddhānta* primitives off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -446,22 +447,6 @@
       ]
     },
     {
-      "list": "अधो गच्छन्ति तामसाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.23",
-        "14.18"
-      ]
-    },
-    {
-      "list": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.23"
-      ]
-    },
-    {
       "list": "प्रजा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -480,57 +465,6 @@
         "3.10",
         "3.11",
         "10.6"
-      ]
-    },
-    {
-      "list": "मम वर्त्मानुवर्तन्ते मनुष्याः पार्थ सर्वशः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.23",
-        "4.11"
-      ]
-    },
-    {
-      "list": "मा ते सङ्गोऽस्त्वकर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.8",
-        "3.23",
-        "12.11"
-      ]
-    },
-    {
-      "list": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.23"
-      ]
-    },
-    {
-      "list": "वर्त एव च कर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.22",
-        "3.23"
-      ]
-    },
-    {
-      "list": "विशेष बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "2.24",
-        "3.18",
-        "3.21",
-        "3.23"
-      ]
-    },
-    {
-      "list": "संकरस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.23"
       ]
     },
     {
@@ -571,7 +505,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "utsīdeyuḥ: utsad -> ut-√sad",
+          "kuryām: kṛ -> √kṛ",
+          "syām: as -> √as",
+          "upahanyām: upahan -> upa-√han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the verse's logic is that leadership-action prevents social chaos, does it obligate every capable person to remain publicly active — or only those whom others actually observe and imitate?",
@@ -588,5 +535,6 @@
     "śuddhādvaita": "Participate in the shared rituals and routines of your household or community as an act of devotional presence, not as mere duty. When action is received as grace rather than performed as obligation, the burden of outcome dissolves and the act itself becomes worship.",
     "bhakti": "Take seriously that opting out of your role — whether in family, civic life, or professional community — corrupts (malinī-karoti) the fabric that others rely on. Śrīdhara's gloss 'defile' is deliberately strong: abdication is not neutral withdrawal; it actively degrades what it leaves.",
     "advaita-bhakti": "Find an exemplar whose conduct you can consciously model, and then embody that standard without private reservation — not because the rule demands it, but because you recognize the living continuity between your action and theirs. This is Madhusūdana's mimetic bond made practical: tradition transmits through deliberate imitation."
-  }
+  },
+  "primary_meaning": "If I stopped acting, these worlds would collapse, disorder would overtake them, and I would be the one who destroyed all these people."
 }

@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "nāśitam",
-      "lemma": "nāśay",
+      "lemma": "√nāśay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -167,7 +167,7 @@
     },
     {
       "surface_form": "prakāśayati",
-      "lemma": "prakāśay",
+      "lemma": "pra-√kāśay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -587,7 +587,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nāśitam: nāśay -> √nāśay",
+          "prakāśayati: prakāśay -> pra-√kāśay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ajñāna is a positive entity (bhāva-rūpa) as Madhusūdana argues, rather than a mere absence, does that mean ignorance must be actively confronted — not just displaced by accumulating knowledge?",
@@ -605,5 +616,6 @@
     "śuddhādvaita": "Rather than approaching clarity as something you produce through discipline, practice receiving — spend time in the specific disposition of prasāda-buddhi (receptive-grace orientation) before study, worship, or creative work. If insight arrives, recognize its source as bhagavat-pradatta (Bhagavān-bestowed) rather than self-generated; this single reorientation dissolves the subtle pride that re-seeds the very ignorance it sought to remove.",
     "bhakti": "When you encounter apparent injustice or inequality in the world, investigate whether your reaction is rooted in vaiṣamya-upalambhaka-dṛṣṭi (a lens that takes surface inequalities as the deepest truth). The practice is not to deny what is real but to ask what a fuller perception of the Lord's svarūpa (essential nature) would reveal about the situation — letting devotional knowledge gradually displace reactive judgment.",
     "advaita-bhakti": "Distinguish two kinds of doubt in your practice: the first — 'does Brahman or Bhagavān exist at all?' — dissolves through serious study of Vedānta (parokṣa-jñāna is sufficient). The second — 'I know intellectually, but it doesn't feel real' — is the abhāna-āvaraṇa (the veil of non-manifestation) and requires the sustained, daily practice of śravaṇa-manana-nididhyāsana until nirvikalpaka insight arises. Knowing which veil you are dealing with lets you apply the right medicine rather than endlessly circling."
-  }
+  },
+  "primary_meaning": "For those whose ignorance of the self has been destroyed by knowledge, that knowledge illumines the supreme like the sun lighting up the world."
 }

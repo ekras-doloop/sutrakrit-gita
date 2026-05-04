@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "āpūryamāṇam",
-      "lemma": "āp￞",
+      "lemma": "√āp￞",
       "grammar": "accusative masculine singular present participle pass verb",
       "senses_attested_in_panel": [
         {
@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "pratiṣṭham",
-      "lemma": "pratiṣṭhā",
+      "lemma": "pra-√sthā",
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "praviśanti",
-      "lemma": "praviś",
+      "lemma": "pra-√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -175,7 +175,7 @@
     },
     {
       "surface_form": "praviśanti",
-      "lemma": "praviś",
+      "lemma": "pra-√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -290,7 +290,7 @@
     },
     {
       "surface_form": "āpnoti",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -581,7 +581,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pratiṣṭham: pratiṣṭhā -> pra-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āpūryamāṇam: āp￞ -> √āp￞",
+          "praviśanti: praviś -> pra-√viś",
+          "praviśanti: praviś -> pra-√viś",
+          "āpnoti: āp -> √āp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ocean's stability does not depend on whether rivers arrive or stay absent, what exactly is the inner structure that the verse claims the sthitaprajña shares with it — is it the absence of need, the prior fullness, or the impossibility of being made smaller?",
@@ -599,5 +620,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga application is paradoxical in the best way: rather than withdrawing from beauty and pleasure, deepen your immersion in Kṛṣṇa's svarūpa until your own svarūpa is so saturated that additional pleasures simply add more of what is already complete. Concretely: when a beautiful object, a satisfying meal, a moving piece of music arrives, let the first movement be gratitude to Kṛṣṇa as the source rather than grasping at the object. The practice converts the kāma-current from a pull that empties to a wave that confirms the ocean's depth. Vallabha's ocean is kṣubdha on the surface — waves are fine; what is not fine is forgetting the ground.",
     "bhakti": "Śrīdhara's prārabdha-karma framing offers a distinctly practical application: you will not be able to prevent many objects and situations from arriving — your past actions have already dispatched them. The discipline is therefore not about the arrivals but about cultivating antarḍṛṣṭi (inner sight) strong enough that when they arrive they find someone who is watching, not someone who is waiting. In daily practice: before a known trigger (a news feed, a person who irritates, a recurring temptation), set the intention as a muni would — 'I am the one who sees; what is about to appear will appear, and I will not become it.' The ocean does not prevent the rivers.",
     "advaita-bhakti": "Madhusūdana's synthesis yields what might be called the dual-front practice: on the surface, notice when laukika agitation (the churn of ordinary life — deadlines, social dynamics, physical discomfort) arises, and use inquiry to let it settle; at a deeper register, use moments of Kṛṣṇa-bhakti — a verse, a name, a mental image — to maintain the jñāna-bala (strength of knowing) that is the ocean floor. The synthesis means neither retreating from world nor being pulled along by it: when you are grounded in Kṛṣṇa-knowledge, the arrival of viṣayas produced by prārabdha simply reveals how deep the floor is. Check after any agitating event: 'Did the floor shift, or only the surface?' That question is the practice."
-  }
+  },
+  "primary_meaning": "As rivers pour into the ocean that is always filling yet stays unmoved, so desires pour into the wise, and that person finds peace, not the one who keeps craving them."
 }

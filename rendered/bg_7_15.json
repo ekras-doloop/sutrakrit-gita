@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "mūḍhāḥ",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "prapadyante",
-      "lemma": "prapad",
+      "lemma": "pra-√pad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "apahṛta",
-      "lemma": "apahṛ",
+      "lemma": "a-√pahṛ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "āśritāḥ",
-      "lemma": "āśri",
+      "lemma": "√āśri",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -405,7 +405,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -415,13 +415,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अपि चेत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.30"
-      ]
-    },
     {
       "list": "कामना",
       "role": "supporting",
@@ -567,7 +560,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mūḍhāḥ: muh -> √muh",
+          "prapadyante: prapad -> pra-√pad",
+          "apahṛta: apahṛ -> a-√pahṛ",
+          "āśritāḥ: āśri -> √āśri"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six commentators agree that māyā 'steals' knowledge — but they differ on what māyā steals: is it discrimination between self and non-self (Advaita), recognition of Bhagavān's personal sovereignty (Viśiṣṭādvaita), the jīva's intrinsic jñāna (Dvaita), certainty of Kṛṣṇa's mūrti (Śuddhādvaita), scripture-teacher-instilled knowledge (Śrīdhara), or the power of viveka itself (Madhusūdana)? What does each school's specific object of theft reveal about its metaphysics?",
@@ -585,5 +591,6 @@
     "śuddhādvaita": "Vallabha's inclusion of Māyāvāda adherence as āsura-bhāva is a warning about conceptual frameworks, not only conduct: any system of thought that systematically dismisses Bhagavān's personal form as lesser or illusory is, in this reading, a form of theft of viveka. The everyday application is vigilance about which philosophical frameworks one habitually uses — not to close inquiry, but to notice whether one's preferred conceptual vocabulary quietly forecloses encounter with the personal, relational, mūrti-present Kṛṣṇa.",
     "bhakti": "Śrīdhara's causal chain — sin → delusion → expulsion of learned knowledge → demonic disposition — maps a recognisable psychological arc: the person who once had genuine religious instruction and has drifted is not merely uninformed but has had something removed. The practical implication is that returning to the teacher (ācārya) and scripture (śāstra) is not merely adding new information but recovering a specific type of discriminative capacity that was previously active. Re-establishing contact with the śāstrācārya is the reversal of the theft.",
     "advaita-bhakti": "Madhusūdana's identification of māyā's mechanism as body-sense-aggregate identification (śarīra-indriya-saṅghāta-tādātmya-bhrānti) points to a specific daily practice: notice the moments when one is so fused with physical sensation, social role, or emotional state that the question 'who is aware of this?' does not arise. That fusion is the machinery by which viveka-sāmarthya (the power of discrimination) is blocked. His synthesis adds: the affective response to recognising this in oneself or others is compassion ('what misfortune!') — not condemnation — because the trapped person cannot see their own trap."
-  }
+  },
+  "primary_meaning": "Evil-doers, the deluded, the lowest of humanity, their knowledge stolen by *māyā*, do not take refuge in Me; they cling instead to a demonic nature."
 }

@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "nibadhnanti",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -234,7 +234,7 @@
     },
     {
       "surface_form": "āsīnam",
-      "lemma": "ās",
+      "lemma": "√ās",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -568,7 +568,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nibadhnanti: nibandh -> ni-√bandh",
+          "āsīnam: ās -> √ās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord acts without being bound, does that mean action itself is inherently binding only for those who identify as doers — and if so, what exactly constitutes that identification?",
@@ -586,5 +597,6 @@
     "śuddhādvaita": "Perform your daily work as an act of Kṛṣṇa's own expression through you — not as your service to him from a distance, but as his līlā unfolding through this particular form. The freedom from bondage comes not from detachment as withdrawal but from recognizing that the actor behind your action is already free.",
     "bhakti": "Audit your motivations before acting: are you acting from want (seeking something you lack) or from fullness (expressing something you already are)? Śrīdhara's āptakāmatva principle applied: the more your action arises from a sense of completeness rather than lack, the lighter the karmic residue it leaves.",
     "advaita-bhakti": "When you are pulled into a conflict between two people or two factions, practice what Madhusūdana calls the udāsīna quality: be fully present and operationally engaged without letting either party's victory or defeat destabilize your inner composure. This is not indifference — you act — but action from a place of unbroken witnessing."
-  }
+  },
+  "primary_meaning": "Yet those acts do not bind me, Dhananjaya, for I sit among them like one who has no stake in the outcome, unattached to any of it."
 }

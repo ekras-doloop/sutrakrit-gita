@@ -143,7 +143,7 @@
     },
     {
       "surface_form": "hutam",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -498,20 +498,6 @@
       ]
     },
     {
-      "list": "अहं हुतम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.16"
-      ]
-    },
-    {
-      "list": "कर्ममें अकर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.23"
-      ]
-    },
-    {
       "list": "कर्मयोग",
       "role": "supporting",
       "other_verses_in_list": [
@@ -581,54 +567,6 @@
       ]
     },
     {
-      "list": "ममैवांशो जीवलोके",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30",
-        "4.40",
-        "5.22",
-        "8.3"
-      ]
-    },
-    {
-      "list": "यज्ञशिष्टामृतभुजो यान्ति ब्रह्म सनातनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.31"
-      ]
-    },
-    {
-      "list": "यज्ञायाचरतः कर्म समग्रं प्रविलीयते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.23",
-        "4.29"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
       "list": "समाधि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -664,7 +602,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hutam: hu -> √hu"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the distinction between agent, act, and fruit is entirely sublated in Brahman-vision, what prevents this from becoming a justification for ethical quietism — 'everything is Brahman, so consequences don't matter'?",
@@ -682,5 +630,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga sādhaka treats beauty — in music, in a meal prepared for Kṛṣṇa, in a well-executed piece of work — as a direct āvirbhāva (manifestation) of the Lord's sat-cid-ānanda, not as a projection. The everyday practice is seva (service) offered with this understanding: the hand that cooks, the food that is cooked, the fire on the stove, and the delight of the recipient are all Kṛṣṇa's own nature in different modes. The practitioner's task is simply to not obscure that recognition with the veil of mere utility.",
     "bhakti": "The bhakta practitioner takes any seva or service-activity — professional work, community care, family duties — and consciously strips the phala-abhisandhi (attachment to a specific outcome) from it without losing the quality of the action. The result is still aimed at, still executed well, but the inner posture treats the outcome as Bhagavān's domain. Citta-ekāgryam (one-pointed mind on Brahman as substance of the act) is cultivated by returning, at each step of a task, to the sense that the activity itself is worship.",
     "advaita-bhakti": "In complex coordinated work — a project with many roles, instruments, dependencies, and stakeholders — the Madhusūdana practitioner mentally maps each kāraka (agent, tool, recipient, locus) onto Brahman before beginning, not as a pious formality but as a recognition that the entire kāraka-web is Brahman-projected and therefore not capable of producing a binding result. The action proceeds with full technical competence; the freedom comes from knowing that even if the 'cloth is burnt' the structure of action will produce no karmic residue, because the underlying rope was never absent."
-  }
+  },
+  "primary_meaning": "The oblation is Brahman, the fire is Brahman, the ladle and the one who pours are Brahman; one absorbed in Brahman through action reaches Brahman alone."
 }

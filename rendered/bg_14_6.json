@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "badhnāti",
-      "lemma": "bandh",
+      "lemma": "√bandh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -325,7 +325,9 @@
         "jayatirtha_14.6"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya did not comment on this sloka; this rendering extrapolates from his established Dvaita framework. Sattva, though Prakrti's finest mode, remains inert material nature entirely distinct from the jiva and infinitely more so from Hari. Its binding through sukha-sanga and jnana-sanga simply demonstrates that even sattvic refinement belongs to the realm of dependent, finite existence; the jiva's sole liberation lies not in cultivating sattva but in recognising its utter dependence on Hari, whose independent svabhava no guna can capture. [NOTE: Dvaita bhashya absent from payload; rendering inferred from school principles.]"
+      "english_rendering": "*Sattva* (the luminous quality), being *nirmala* (stainless, free of turbidity), is *prakāśaka* (illuminating) and *anāmaya* (free from affliction) — yet it binds. Even this finest mode of *prakṛti* (material nature) remains *paratantra* (eternally dependent), wholly distinct from the *jīva* and infinitely more so from *svatantra* Hari. The verse *tatra sattvaṃ nirmalatvāt prakāśakam anāmayam | sukha-saṅgena badhnāti jñāna-saṅgena cānagha* names the binding mechanism precisely: attachment to *sukha* (happiness) and *jñāna* (knowledge) as sattvic objects catches the *jīva* in a subtler but no less real bondage. *Pañca-bheda* (the five-fold real distinction) holds: Lord, *jīva*, and *guṇa*-constituted *prakṛti* are never collapsed into one another. Sattva's luminosity is real but derivative — it cannot illuminate Hari, who is self-luminous and beyond all *guṇa*. The *jīva* bound by sattvic *saṅga* (attachment) mistakes a dependent, finite radiance for the sovereign light of *svatantra* Hari. True release requires *bhakti* as ontological subordination to Hari alone, not the cultivation of sattva, however refined.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for this verse; the reading is voiced directly from dvaita *siddhānta* — *pañca-bheda*, *paratantra* *jīva*, *taratamya* (graded ontological hierarchy), and *bhakti* as the sole path beyond *guṇa*-bondage.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -483,7 +485,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "badhnāti: bandh -> √bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even clarity and knowledge bind when we cling to them as 'mine,' what would it mean to enjoy understanding without claiming the understander?",
@@ -501,5 +513,6 @@
     "śuddhādvaita": "When you feel at peace or intellectually sharp, pause before labelling it 'I am calm' or 'I am wise.' Vallabha's point is that this labelling is exactly the laukika sanga that keeps you in Prakrti's orbit. Instead, offer the moment back to Krsna as an upasthana (presentation) — 'this clarity is yours, let it be your seeing through me.'",
     "bhakti": "Use sattva's gifts of peace and discernment in service of the Lord's devotees rather than as personal ornaments. Sridhara's teaching implies that the bhakta who remains 'anagha' does so precisely by not claiming the mano-dharma (mind-qualities) as self-defining; the quiet mind becomes a clean mirror for Bhagavan rather than a trophy of spiritual practice.",
     "advaita-bhakti": "Madhusudana's synthesis suggests a dual practice: intellectually, see sukha and jnana as antahkarana-parinama (modifications, not the real self); devotionally, offer those modifications to Krsna as puja. The Advaita move cuts identification; the bhakti move gives the released energy somewhere to go. Neither step alone is sufficient — the two run simultaneously in the mature practitioner."
-  }
+  },
+  "primary_meaning": "Of the three, sattva is the purest, luminous and free from affliction, yet it still binds you, Arjuna, through attachment to happiness and to knowledge."
 }

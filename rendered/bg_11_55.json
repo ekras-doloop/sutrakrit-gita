@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "varjitaḥ",
-      "lemma": "varjay",
+      "lemma": "√varjay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -155,7 +155,7 @@
     },
     {
       "surface_form": "eti",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -324,8 +324,9 @@
         "jayatirtha_11.55"
       ],
       "score": 0.5,
-      "english_rendering": "The one who performs action as dependent service to Hari (mat-karma-kṛt), who holds the Lord as the supreme reality distinct from and utterly superior to the jīva (mat-paramaḥ), who is a devotee of the Lord with the awareness of that eternal distinction (mad-bhaktaḥ), who is free of attachment and enmity in the knowledge that all beings are distinct but equally dependent on Hari — that one attains the Lord, never merging into Him but dwelling in His presence in the fullness of his individuality.",
-      "divergence_note": "ABSENT — the payload records: 'Śrī Madhvācārya did not comment on this śloka.' This rendering is inferred from Madhva's documented doctrinal positions on jīva-Brahman eternal distinction (bheda), kainkarya as dependent action, and the Dvaita understanding of liberation as sāyujya without identity-collapse."
+      "english_rendering": "*Mat-karma-kṛt* (one who performs all action as service to Me alone), *mat-paramaḥ* (one who holds Me as the supreme, the *svatantra* (the independently real, self-sufficient) Lord utterly beyond all *paratantra* (eternally dependent) *jīva*s), *mad-bhaktaḥ* (one whose *bhakti* (devotion) is rooted in the knowledge of *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter)), *saṅga-varjitaḥ* (free of attachment to anything other than Hari) — such a one is also *nirvairaḥ sarva-bhūteṣu* (without enmity toward any being), recognizing that every *jīva* stands in the same *paratantra* relation to Hari, differentiated only by *taratamya* (graded ontological hierarchy). That one — *sa mām eti* — arrives at Me, attaining *mukti* not as dissolution of his distinct self but as real presence before Hari, the *bheda* between worshipper and Lord abiding forever, the *jīva* complete in its own grade of the *taratamya* order.",
+      "divergence_note": "Madhva and Jayatīrtha are both silent on this verse. The reading is voiced directly from Dvaita *siddhānta*: *mat-karma-kṛt* as *kainkarya* (dependent service), *mat-paramaḥ* as recognition of Hari's *svatantra* supremacy, and *mām eti* as real arrival without identity-collapse — *bheda* between *jīva* and Brahman persisting in liberation.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -469,7 +470,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "varjitaḥ: varjay -> √varjay",
+          "eti: i -> √i"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara calls this verse the teaching he 'wished to give' — why does the Gītā place the five-mark summary at the close of Chapter 11 (the cosmic-vision chapter) rather than at the end of Chapter 18?",
@@ -487,5 +499,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga application is about releasing the burden of self-generated spiritual effort. If even the resolve to practice is the Lord's gift, then on days when the resolve is absent, the Vallabha practitioner does not spiral into self-blame — the absence is also within the Lord's dispensation. Practically: establish the simplest daily forms of service (smaraṇa, kīrtana, a small offering), and trust that the grace will supply what your own will cannot. The action is the container; the Lord fills it.",
     "bhakti": "Śrīdhara's framing — this is the 'essence of all scripture' — invites a consolidation practice. Instead of maintaining an elaborate multi-track sādhana, ask: among all my practices, which ones actually embody these five marks? Prune to those. If an activity does not serve the Lord (mat-karma), does not orient toward the highest goal (mat-paramaḥ), does not deepen devotion (mad-bhaktaḥ), or feeds attachment or enmity — it may not belong in the essential core, whatever its cultural or social value.",
     "advaita-bhakti": "Madhusūdana's dialectical method — posing each obstacle as a counter-question, then negating it — is a usable inner practice. Before any significant action, run the five tests: Is there a desire for external outcome that makes this not mat-karma? Is the ultimate goal something other than the highest (svarga, prestige, security)? Is this action in the register of bhajana or of self-aggrandizement? Is there a hidden attachment making this conditional? Is there even a trace of enmity toward anyone involved? The five tests are a pre-action diagnostic, not a checklist to perform once."
-  }
+  },
+  "primary_meaning": "Act for Me, hold Me as your highest aim, devote yourself to Me, drop all attachment, and carry no enmity toward any living being; that one, Arjuna, comes to Me."
 }

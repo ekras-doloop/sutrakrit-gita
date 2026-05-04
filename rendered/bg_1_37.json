@@ -122,7 +122,7 @@
     },
     {
       "surface_form": "syāma",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 1st person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -281,7 +281,8 @@
         "vallabha_1.37"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabhācārya does not comment on this verse (the bhāṣya covers 1.34–1.37 as a group and explicitly notes no comment). From the Puṣṭi-mārga standpoint, the entire Kurukṣetra scene is Kṛṣṇa's own līlā-prasāda — Arjuna's collapse is not merely a human failing but the necessary darkness before the divine disclosure. His anguish over 'sva-bāndhavān' (kinsmen as the beloved) is a mirror of the ātman that has not yet understood Kṛṣṇa as the one through whom all bonds exist and are redeemed."
+      "english_rendering": "Arjuna addresses Kṛṣṇa as *Mādhava* — the lord of *Śrī*, the very source of *puṣṭi* (divine grace) — even while pleading that slaying the *dhārtarāṣṭrān sva-bāndhavān* (the sons of Dhṛtarāṣṭra, one's own kinsmen) cannot yield happiness: *svajanaṃ hi kathaṃ hatvā sukhinaḥ syāma mādhava*. In *śuddhādvaita*, Brahman alone is real and the world is Brahman's own real manifestation, not an illusion to be dissolved. The bonds Arjuna names — *svajana*, kinsmen — are not *māyā*-projections but genuine expressions of Kṛṣṇa's own self-disclosure in the diversity of *līlā*. Yet precisely here lies Arjuna's error: he locates *sukha* (happiness) in the preservation of worldly relations rather than in *sevā* (loving service) to Kṛṣṇa himself. On the *puṣṭi-mārga*, every bond of kinship subsists within Kṛṣṇa, sustained by his unearned grace; the *jīva* who clings to those bonds as independently happiness-giving has not yet undergone *brahma-sambandha* (consecration of the self and all possessions entirely to Kṛṣṇa). Arjuna's anguish is real — his love for his kinsmen is a real movement of a real soul in Kṛṣṇa's real world — but it remains *puṣṭi* withheld, grace not yet received. Mādhava alone can convert that grief into the instrument of disclosure.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -348,7 +349,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "syāma: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When two parties in a conflict share the same formal sin (vadha-doṣa), on what basis can one party claim moral standing that the other has forfeited — and is that basis accessible to both parties or only to the one who still sees clearly?",
@@ -366,5 +377,6 @@
     "śuddhādvaita": "Puṣṭi-mārga sees Arjuna's collapse not as a problem to solve but as part of Kṛṣṇa's design: the darkness before disclosure is built into the līlā. The everyday application is to resist the impulse to resolve anguish by force of will alone. Sometimes the fact that you are stuck — that all your relationships feel like obligations that pull against one another — is the exact configuration Kṛṣṇa uses to bring you to a listening posture. Sit with the collapse long enough to hear what comes next.",
     "bhakti": "Śrīdhara's specific discipline: when someone else is doing the thing you believe is wrong, and doing it without apparent guilt, do not take their ease as evidence that it is permitted. Their ease may be the product of 'lobhopahata-viveka' — greed-damaged discernment. Clarity of vision is not a reason to follow the comfortable majority; it is a reason to hold a different line. The person who still sees the doṣa has a greater obligation, not a lesser one, to refrain.",
     "advaita-bhakti": "Madhusūdana's 'hetudaśanācca' maxim has a direct professional and ethical application: when precedent is cited to justify an action, ask what motivated the precedent-setter. If the answer is greed, fear, or self-interest, the precedent carries no normative weight regardless of how senior the person was. 'Bhīṣma did it' is only a valid argument if Bhīṣma's reason was untainted. The discipline is to trace the root cause, not just the surface behavior, before deciding whether an example is worth following."
-  }
+  },
+  "primary_meaning": "We have no right to kill the sons of Dhritarashtra, who are our own kin. How could we ever be happy, Madhava, having slain our own people?"
 }

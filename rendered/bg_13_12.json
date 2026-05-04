@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "pravakṣyāmi",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "aśnute",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "sat",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -446,7 +446,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravakṣyāmi: pravac -> pra-√vac",
+          "aśnute: aś -> √aś",
+          "sat: as -> √as",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Brahman is 'neither sat nor asat,' what cognitive act is actually happening when someone claims to 'know' it — and can that act be distinguished from confusion?",
@@ -464,5 +477,6 @@
     "śuddhādvaita": "Vallabha's vidya-karya / avidya-karya binary is diagnostic. At the end of any day, sort your actions into those that arose from clarity (vidya) and those from habitual reactivity (avidya). The point is not guilt but calibration — seeing how much of your day Krsna is already operating through, and how much is residual noise.",
     "bhakti": "Sridhara's list of ajnana-markers — manitvam (pride), dambhitvam (pretence), himsam (harm) — are not abstract vices. They show up in specific micro-moments: taking credit that belongs to a team, performing concern you do not feel, letting irritation leak into speech. Catching one of these per day, naming it ajnana, and releasing it is the practice.",
     "advaita-bhakti": "Madhusudana's framing suggests that study of Vedanta-vakya (Upanisadic sentences) without the prior ripening of amanitvam and friends produces only intellectual scaffolding, not the tasting (asnute) that the verse promises. A practical heuristic: if reading or hearing 'aham brahmasmi' produces pride rather than silence, the disciplines have not yet ripened — return to them."
-  }
+  },
+  "primary_meaning": "Let me declare what is worth knowing, knowing which you taste immortality: the beginningless supreme Brahman, called neither existent nor non-existent."
 }

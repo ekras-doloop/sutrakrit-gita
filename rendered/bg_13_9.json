@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "iṣṭa",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -256,7 +256,8 @@
         "jayatirtha_13.9"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this verse; no Dvaita bhāṣya is available for direct anchoring. Rendering proceeds from Dvaita structural commitments: non-attachment and non-clinging are marks of the jiva's recognition that nothing in samsara belongs to it, since the jiva is eternally dependent on Hari (svatantra-para-tantra distinction). Equanimity at istaanista outcomes reflects surrender to Hari's will, not indifference — the jiva neither grasps what Hari gives nor recoils from what Hari withholds."
+      "english_rendering": "*Asakti* (non-attachment) and *anabhiṣvaṅga* (non-clinging) toward sons, wives, home, and the rest, together with *sama-cittatva* (equanimity of mind) at the arrival of the desired and the undesired — these are named among the constituents of *jñāna*.\n\nFor the *paratantra* *jīva* (the eternally dependent individual self), sons, wife, and household belong to the *svatantra* (the independently real, self-sufficient) Lord's dispensation alone; the *jīva* holds no proprietary claim over them. *Asakti* is not mere affective flatness but the *jīva*'s recognition that *bheda* (real distinction) between itself and the objects of *saṃsāra* is not dissolved by proximity. *Anabhiṣvaṅga* — the absence of deep entanglement — follows from that same *bheda*: the *jīva* cannot fuse with what is ontologically other.\n\n*Sama-cittatva* at *iṣṭa-aniṣṭa-upapatti* (the arrival of the desired and the undesired) is not indifference but *taratamya*-ordered submission: what Hari ordains in the *pañca-bheda* (the five-fold real distinction among Lord, *jīva*, and matter) scheme cannot be deflected by the *jīva*'s preference. Grasping what Hari grants or recoiling from what Hari withholds would be the *jīva*'s false assertion of *svatantra* — a negation of *paratantra* existence. *Sama-cittatva* is therefore the behavioral expression of correct ontological self-knowledge: the *jīva* stands in *bhakti* (devotion) as ontological subordination, receiving both *iṣṭa* and *aniṣṭa* as the Lord's own ordering of a dependent being's condition.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -400,7 +401,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṣṭa: iṣ -> √iṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Sankara distinguishes asakti (vairagya toward sensory objects) from anabhisvanga (deeper enmeshment with family and home) — what is the difference between detachment from a thing and detachment from a relationship with a thing?",
@@ -418,5 +429,6 @@
     "śuddhādvaita": "Hold possessions — car, phone, home — with the lightness of a museum curator: you care for them, present them well, but they belong to the collection, not to you. When one is damaged or lost, the first question is 'what does Krishna want with this?' not 'what have I lost?'",
     "bhakti": "Once a week, spend five quiet minutes running through the arc: birth, aging, disease, death — not morbidly, but as a calibration. Sridhara's punah-punar-alocana is a scheduled practice, not a spontaneous mood. It produces the baseline from which genuine equanimity at good and bad news becomes possible.",
     "advaita-bhakti": "When praise or criticism arrives, notice the first movement of mind before you respond. Madhusudana names that movement precisely: aham sarvotkrista — 'I am the most excellent.' The practice is not to argue with the thought but to watch it arise and pass, recognizing it as ahankara, not as information about who you are."
-  }
+  },
+  "primary_meaning": "Hold lightly to sons, wives, and home, with no deep entanglement in them, and keep a steady mind when good fortune and bad arrive."
 }

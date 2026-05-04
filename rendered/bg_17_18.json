@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "kriyate",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "proktam",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -368,8 +368,9 @@
         "jayatirtha_17.18"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse; rendering is inferred from his general Dvaita framework. Tapas done for satkara, mana, and puja is rajasic because the jiva (eternally distinct from Hari) is misusing its limited independence: instead of directing all action as worship of Hari, it directs action toward self-aggrandizement. Dambha (ostentation) is the deepest fault — it replaces Hari as the telos of action with the ego's desire for recognition. Such tapas is chala because it rests on the unstable approval of other jivas rather than on Hari's unchanging grace, and adhruva because any fruit not rooted in Hari-seva dissolves.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Satkāra* (honor), *māna* (respect), and *pūjā* (worship-reception) as ends — *tapas* performed with *dambha* (ostentation) for these is *rājasa*, *cala* (unstable), *adhruva* (transient). The *jīva*, *paratantra* (eternally dependent) upon *svatantra* Hari, possesses a limited derivative agency; when that agency is turned toward self-display rather than *Hari-sevā*, it inverts the proper *bheda*-order established in the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter). *Dambha* installs the ego where Hari alone stands as *telos*: the *jīva* solicits recognition from other *jīvas* — themselves *paratantra* and thus shifting — rather than resting in Hari's immutable will. The *cala*-nature of such *tapas* follows directly: what is grounded in the approval of finite, ontologically subordinate beings cannot hold. Its *adhruva*-nature follows equally: any fruit not rooted in *Hari-bhakti* as ontological subordination dissolves, since Hari's *sankalpā* alone confers lasting result. The verse's threefold characterization — *rājasaṃ calam adhruvam* — maps precisely onto the *taratamya* (graded ontological hierarchy): rajasic motivation, unstable support, perishable fruit, all flowing from the *jīva*'s failure to order its agency toward the *svatantra* Lord.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -378,8 +379,9 @@
         "vallabha_17.18"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabhacharya did not comment on this verse; rendering is inferred from Pushtimarga principles. In the Pushtimarga, tapas that seeks satkara, mana, or puja turns the self into a mirror for others' praise rather than a vessel for Krishna's prasada (grace-gift). Dambha (hypocrisy) is the antithesis of seva — where seva is pure receptivity to Krishna's lila, dambha is an assertion of one's own austerity-merit before others. Such tapas is chala and adhruva because Krishna's lila alone is the stable ground; anything performed for worldly acclaim has no purchase in that ground and evaporates when the audience withdraws.",
-      "commentator": "Vallabhacharya"
+      "english_rendering": "*Tapaḥ* (austerity) performed *satkāra-māna-pūjārtham* — for the sake of honor, respect, and worship from others — and performed *dambhena* (with ostentation) is *rājasam*, *calam* (unstable), and *adhruvam* (impermanent). In *puṣṭi-mārga* (the path of grace), the entire rationale of such *tapaḥ* is already corrupted at its root: its energy flows outward toward an audience rather than inward toward *sevā* (loving service) of Kṛṣṇa. *Dambha* is precisely the inversion of *sevā* — where *sevā* is self-emptying receptivity before Kṛṣṇa's *līlā* (divine play), *dambha* is self-display before human witnesses. Because Kṛṣṇa himself is the one stable reality — Brahman manifesting in *līlā* without illusion — any *tapaḥ* oriented toward creaturely applause carries no *prasāda* (grace-gift) and collapses the moment the applause ceases. *Calam* and *adhruvam* are not merely psychological instabilities; they name the ontological vacancy of an act that substitutes human regard for *brahma-sambandha* (the bond that relates all things to Kṛṣṇa as their real owner and ground). Such *tapaḥ* is rājasic because its fruit is exhausted in the phenomenal order of exchange, touching nothing of the joy — *ānanda* — that Kṛṣṇa freely bestows through *puṣṭi* (nourishing grace) on those whose austerity is surrendered entirely to him.",
+      "commentator": "Vallabhacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -459,7 +461,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyate: kṛ -> √kṛ",
+          "proktam: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I practice discipline (sadhana, tapas) — fasting, waking early, sustained study — am I doing it to become someone others admire, or is there a different interior ground for it?",
@@ -477,5 +490,6 @@
     "śuddhādvaita": "Identify one practice you maintain partly because it makes you legible to your community as a serious person — the early rising, the dietary discipline, the visible reading. For one week, make that practice invisible: do not mention it, do not post it, let no one witness it. Notice what remains of the motivation when the audience is removed. What survives is closer to seva; what collapses was dambha.",
     "bhakti": "Sridhara's gloss 'aniyatam kshaniakam' — unsteady and momentary — describes any practice whose engine is social praise. Map your current disciplines: which ones feel solid on days when no one notices, and which feel hollow or pointless? Redirect energy from the hollow ones toward the solid ones. The hollow practices are not producing purification of the heart, only occasional bursts of satisfaction that collapse when the praise stops.",
     "advaita-bhakti": "Madhusudana's 'phalajanakataniyamashunya' — lacking a reliable causal connection to fruit — describes practices whose outcomes depend more on audience reception than on the practice itself. In professional life: identify one discipline you perform for status rather than competence. The status-driven version is structurally unreliable because its returns depend on others' perception, which you do not control. Rebuild the practice on internal standards whose fruit you can actually measure."
-  }
+  },
+  "primary_meaning": "Austerity done to win praise, respect, and honor, performed with ostentation, is rajasic: its fruit is fleeting and unreliable."
 }

@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "tyajet",
-      "lemma": "tyaj",
+      "lemma": "√tyaj",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -265,7 +265,7 @@
     },
     {
       "surface_form": "āvṛtāḥ",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -409,8 +409,9 @@
         "jayatirtha_18.48"
       ],
       "score": 0.5,
-      "english_rendering": "Bhagavan commands that the jiva (individual soul), eternally dependent on Hari, must not renounce the sahaja-karma assigned by one's own svabhava, even when that karma bears adhyaropa-dosa (attributed defect), for all action in this world is inherently conditioned by the three gunas — as fire cannot be fully separated from its smoke in the bound state. The jiva's duty is not to manufacture defect-free action but to offer trigunatmaka karma to Hari in a spirit of sesha-vritti (being-the-servant), surrendering the fruit while fulfilling the assigned role. Note: Madhvacharya did not compose a specific commentary on this sloka; this rendering is inferred from his established doctrinal framework on svadharma and jiva-Hari dependence.",
-      "divergence_note": "ABSENT — Madhva commentary explicitly absent from panel ('Sri Madhvacharya did not comment on this sloka'); rendering is a doctrinal projection, flagged as inferred."
+      "english_rendering": "*Sahaja-karma* (action born of one's own nature) must not be abandoned, *kaunteya*, even when marked by *doṣa* (defect) — for all *ārambhāḥ* (undertakings) are covered by defect as fire is covered by smoke: *sarvārambhā hi doṣeṇa dhūmenāgnirivāvṛtāḥ*. The *jīva*, *paratantra* (eternally dependent) on *svatantra* Hari, does not choose its *svabhāva*; that nature is assigned by Hari in strict accordance with *taratamya* (graded ontological hierarchy). To abandon the *karma* native to that assigned nature is to rupture the ontological subordination — *śeṣa-vṛtti* (the mode of being-the-remainder, the servant-relation) — that defines the *jīva*'s real standing before Hari. *Pañca-bheda* (the five-fold real distinction) remains intact: Lord and *jīva* are never collapsed, and the *jīva*'s defect-tinged action, offered without fruit-desire to Hari, does not dissolve the *bheda* (real distinction) but discharges the *jīva*'s station within it. Just as smoke does not negate fire's nature as fire, *doṣa* does not negate the binding reality of *sahaja-karma* nor the *jīva*'s obligation to fulfill it.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta*: *paratantra* *jīva*, *taratamya*, *pañca-bheda*, and *śeṣa-vṛtti* as the doctrinal coordinates that determine how *sahaja-karma* and its inherent *doṣa* are to be understood.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -526,7 +527,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tyajet: tyaj -> √tyaj",
+          "āvṛtāḥ: āvṛ -> √āvṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all action is inherently defective by virtue of being trigunatmaka, what is the difference between accepting one's own defective action and accepting someone else's — and why does the Gita insist the distinction is not trivial?",
@@ -544,5 +556,6 @@
     "śuddhādvaita": "Vallabha's reading suggests that the duhkha at the beginning of any serious undertaking — the smoke before the fire catches — is not a signal to stop but a structural feature of creation itself; Krsna built the smoke into the work as part of its lila. Persisting through the initial difficulty is the devotional act.",
     "bhakti": "Sridhara's simile offers a practical discrimination: identify the 'heat' portion of your work (what it genuinely accomplishes toward sattva-shuddhi) and the 'smoke' portion (the unavoidable side-effects and impurities), and learn to use the former without being paralyzed by the latter. This is not rationalization; it is the proper use of fire.",
     "advaita-bhakti": "Madhusudana's two-population insight is sobering: most of us have not yet achieved the antahkarana-shuddhi that would qualify us to renounce action cleanly. Abandoning our native work without that qualification leaves us in a third state — neither acting skillfully nor genuinely renounced — which is worse than the smoke-accompanied fire we already have."
-  }
+  },
+  "primary_meaning": "Don't abandon the work born of your own nature, Arjuna, even when it carries fault, for every undertaking is touched by defect as fire is wrapped in smoke."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "vimuktaḥ",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "ācarati",
-      "lemma": "ācar",
+      "lemma": "√ācar",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "yāti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -344,9 +344,10 @@
         "jayatirtha_16.22"
       ],
       "score": 0.5,
-      "divergence_note": "FLAG — Madhva bhashya absent. Rendering is a principled Dvaita inference from the school's established positions, not from attested commentary. Treat as extrapolation, not bhashya-anchored.",
-      "english_rendering": "No bhashya by Madhvacharya on this sloka is available in the supplied corpus ('Sri Madhvacharya did not comment on this sloka'). By strict Dvaita logic consistent with adjacent verses: freedom from kama-krodha-lobha removes the primary obstacles to Hari-smarana (remembrance of Hari); the jiva (eternally distinct from Brahman) then performs karma as dependent worship, and Hari's anugraha (grace) alone grants parama gati. The jiva cannot reach liberation by its own power.",
-      "commentator": "Madhvacharya"
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from Dvaita *siddhānta* off the *mūla*, grounding *parā gati* in *anugraha* and *paratantra* dependence rather than any autonomous *jīva*-capacity.",
+      "english_rendering": "*Etair vimuktaḥ* — freed from these three *tamo-dvārāḥ* (gates of darkness): *kāma* (desire), *krodha* (rage), *lobha* (greed) — the *nara* (human being) is no longer occluded from *Hari-smaraṇa* (remembrance of Hari). The *jīva*, eternally *paratantra* (dependent on the Lord), now *ācaraty ātmanaḥ śreyas*: it acts toward its own *śreyas* (highest good) as dependent worship, not as self-sufficient striving. The *pañca-bheda* (five-fold real distinction) between Lord and *jīva* is never dissolved — *parā gati* (the supreme destination) is real arrival in Hari's presence, not absorption into undifferentiated being. *Tato yāti parāṃ gatim*: that destination is reached solely through Hari's *anugraha* (grace), since the *jīva* possesses no autonomous power of liberation. Removal of the three *tamas*-gates clears the *jīva*'s obstruction so that *bhakti* (devotion) as ontological subordination may operate — but Hari's grace is the efficient cause of *mukti* (liberation), not the *jīva*'s own effort.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -478,7 +479,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vimuktaḥ: vimuc -> vi-√muc",
+          "ācarati: ācar -> √ācar",
+          "yāti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kama (desire), krodha (anger), and lobha (greed) are specifically called 'gates to tamas' rather than just vices, what structural logic makes these three — and not pride or envy — the primary entrances to darkness?",
@@ -496,5 +509,6 @@
     "śuddhādvaita": "Vallabha's lens: treating relationships as opportunities for lobha (extracting advantage) or krodha (protecting ego) closes the aperture through which Krsna's prasada (grace) flows. The practical inversion: in a relationship that has become transactional or adversarial, experiment with one act of offering — time, attention, acknowledgment — without agenda. This is not naive; it is the Pushti-marga method of creating the conditions for prasada to move. The 'special fruit' Vallabha names is precisely this: relationships that become channels of grace rather than sites of transaction.",
     "bhakti": "Sridhara's graduated path — tapas-yoga and related karma as sadhana (means) of sreyas — maps directly onto building structured daily practice after recognizing the three gates. The application: identify one recurring situation where lobha (greed for recognition) hijacks your behavior. Assign a specific counter-practice: one week of crediting others publicly, one week of volunteering for the task no one will notice. This is 'tapoyogadi karma' in modern form — friction-bearing practice that reshapes the habit-pattern over time.",
     "advaita-bhakti": "Madhusudana's unique contribution is the explicit description of the bound state: practicing asreyas (harmful acts) and avoiding sreyas. The self-assessment tool embedded here: at the end of a difficult day, ask not 'did I succeed?' but 'did I practice asreyas today — avoided a hard conversation, extracted instead of contributed, reacted instead of responded?' Madhusudana's samyag-dhi (correct understanding) is built incrementally by honest daily accounting, not a sudden switch. The ihika-sukha (worldly well-being) he names is a real stage: stabilizing day-to-day integrity first, then the deeper movement toward parama gati (the supreme destination) becomes available."
-  }
+  },
+  "primary_meaning": "Free from these three gates of darkness, desire, anger, and greed, you can pursue what is truly good for yourself and so reach the highest destination."
 }

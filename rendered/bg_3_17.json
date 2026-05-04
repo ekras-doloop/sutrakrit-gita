@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "syāt",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "tṛptaḥ",
-      "lemma": "tṛp",
+      "lemma": "√tṛp",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "saṃtuṣṭaḥ",
-      "lemma": "saṃtuṣ",
+      "lemma": "saṃ-√tuṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -400,26 +400,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.13",
-        "3.31",
-        "4.1",
-        "12.3"
-      ]
-    },
-    {
-      "list": "कर्मयोगस्तु कामिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "3.38"
-      ]
-    },
-    {
       "list": "कार्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -443,18 +423,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "3.21"
-      ]
-    },
-    {
-      "list": "नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "4.2",
-        "4.3",
-        "4.20",
-        "6.1",
-        "6.40"
       ]
     },
     {
@@ -507,7 +475,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "syāt: as -> √as",
+          "tṛptaḥ: tṛp -> √tṛp",
+          "saṃtuṣṭaḥ: saṃtuṣ -> saṃ-√tuṣ",
+          "vidyate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the jñānin has no kartavya (duty) remaining, does this verse sanction quietism — and how do Madhva's and Rāmānuja's readings resist that reading while Śaṅkara's appears to accept it?",
@@ -524,5 +505,6 @@
     "śuddhādvaita": "Vallabha's grammatical 'tu' teaches that self-knowledge and devotional action are not stages on the same path but parallel tracks suited to different adhikāris (qualified practitioners). The everyday application for the Puṣṭi-mārga devotee is liberating: one need not aspire to the detached ātma-rati of the jñānin to be on a valid path — Kṛṣṇa's 'but' explicitly carves out that this verse is about a different type of person, freeing the bhakta to remain in active, love-saturated service without self-judgment.",
     "bhakti": "Śrīdhara's restrained reading offers a diagnostic tool: the question is not 'have I attained ātma-rati?' but 'is my antaḥkaraṇa (inner instrument) sufficiently purified that external enjoyments no longer carry imperative force?' The practitioner uses this verse as a self-assessment: when bhoga-apekṣā (the expectation of enjoyment) quietly drops from a decision — not because it was suppressed but because it simply did not arise — that is the edge Śrīdhara is pointing at.",
     "advaita-bhakti": "Madhusūdana's upacāra (figurative) reading rescues contemplatives from the trap of hunting for a felt experience of 'ātman-as-object' — since technically no such experience exists in non-dual realization. In practice this means: do not evaluate your meditative depth by whether you 'feel bliss in the self'; instead, notice whether the compulsive pull of sensory alternatives has lost its gravity. The absence of dvaita-darśana (the compulsion to see a gap between self and world) is the signal, not a positive inner glow named ātma-rati."
-  }
+  },
+  "primary_meaning": "One who finds joy, fullness, and contentment in the self alone has no duty left to perform."
 }

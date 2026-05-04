@@ -249,7 +249,7 @@
     },
     {
       "surface_form": "praṇaśyāmi",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -323,7 +323,7 @@
     },
     {
       "surface_form": "praṇaśyati",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -540,20 +540,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "तत्रैकस्थं जगत्कृत्स्नं प्रविभक्तमनेकधा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.13"
-      ]
-    },
-    {
-      "list": "नाहं प्रकाशः सर्वस्य",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.25"
-      ]
-    },
-    {
       "list": "पश्यति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -610,7 +596,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "praṇaśyāmi: praṇaś -> pra-√ṇaś",
+          "praṇaśyati: praṇaś -> pra-√ṇaś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Śaṅkara's reading is correct — that mutual non-disappearance is a logical consequence of ātman-identity — then what role, if any, does sādhana (practice) play once identity is already the metaphysical fact? What must be 'achieved' if nothing can be lost?",
@@ -628,5 +625,6 @@
     "śuddhādvaita": "Vallabha's kṛpā-dṛṣṭi theology means that the practitioner's role is primarily receptivity — opening to the Lord's grace-gaze rather than engineering a state of samādhi. In daily life this translates to cultivating smaraṇa (remembrance) and sevā (service) not as causes that compel grace but as the channels through which it flows. When darśana seems absent, the Puṣṭi-mārga practitioner asks not 'what did I fail to do?' but 'am I facing toward the Light?'",
     "bhakti": "Śrīdhara's framing places upāsanā as the mukhya kāraṇa — the principal cause that generates ātmajñāna, not the other way around. The practical implication: do not wait until you feel spiritually prepared to begin devoted worship; structured, consistent upāsanā of Parameśvara in every being is itself the path by which the vision the verse describes comes into being. Treat your morning worship not as a warm-up exercise but as the actual practice.",
     "advaita-bhakti": "Madhusūdana's two-tier aparokṣa model has a liberating implication for practitioners who know Advaita intellectually but have not yet had the yoga-born direct perception: the intellectual understanding is genuine but incomplete — and that incompleteness calls not for more reading but for consistent yogic sādhana. In everyday terms: the person who 'knows' non-duality conceptually but still reacts with fear or possessiveness has testimony-knowledge, not yoga-knowledge. The gap is closed by practice, not by further study."
-  }
+  },
+  "primary_meaning": "Whoever sees Me in all things and sees all things in Me, I will never be hidden from that one, and that one will never be hidden from Me."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "prasannena",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "instrumental masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "darśitam",
-      "lemma": "darśay",
+      "lemma": "√darśay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -270,7 +270,7 @@
     },
     {
       "surface_form": "dṛṣṭa",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -422,8 +422,9 @@
         "jayatirtha_11.47"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva left no commentary on this śloka (source payload: \"Sri Madhvacharya did not comment on this sloka\"). From within the dvaita framework the verse aligns with the eternal ontological distinction (bheda) between Hari and the jīva: the vision is an act of independent divine sovereign will (svātantrya), bestowed rather than earned, confirming that the jīva's seeing is always and only a gift from a categorically separate Bhagavān whose form no dependent being could perceive without that specific grace.",
-      "divergence_note": "No Madhva bhāṣya available for this verse. Rendering extrapolated from dvaita doctrinal constants; flagged accordingly."
+      "english_rendering": "*Prasanna* (gracious, freely delighted) — the word governs the entire disclosure. Bhagavān Kṛṣṇa speaks: *mayā prasannena tava arjuna idaṃ rūpaṃ paraṃ darśitam ātma-yogāt* — by Me, graciously disposed, this supreme form has been shown to you, Arjuna, through My own *ātma-yoga* (sovereign self-power). The showing is an act of *svātantra* (absolute independent will), originating entirely in the Lord who is *svatantra* (self-sufficient, owing nothing to any secondary cause). No *karma*, no *tapas*, no meditative attainment of the *jīva* (individual self) occasions it; the *prasāda* (grace) is the sole operative cause.\n\nThe form itself is *tejo-mayam* (constituted of pure radiance), *viśvam* (all-encompassing), *anantam* (without limit), *ādyam* (primordial, without prior cause) — each epithet marking the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) from the other side: a form whose attributes are categorically beyond any *paratantra* (eternally dependent) being's own nature. The closing clause *tvad-anyena na dṛṣṭa-pūrvam* — never before seen by any other than you — does not dissolve *bheda* (real distinction) but deepens it: Arjuna's reception is itself a graded privilege within *taratamya* (the ontological hierarchy of dependent beings), singular in this cycle of time yet not erasing the absolute asymmetry between the *darśin* (seer) and the *darśita* (one who grants sight). The *jīva* receives; Hari alone bestows.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya exists for this verse. Reading drawn directly from dvaita siddhānta constants applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -519,7 +520,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prasannena: prasad -> pra-√sad",
+          "darśitam: darśay -> √darśay",
+          "dṛṣṭa: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the viśva-rūpa was unprecedented (na dṛṣṭa-pūrvam) and required Kṛṣṇa's own sovereign capacity to display it, what does this imply about the limits of any human-initiated spiritual practice — can sādhana prepare the vessel but not produce the vision?",
@@ -537,5 +550,6 @@
     "śuddhādvaita": "Vallabha's mūla-rūpa principle has a concrete analog: the most powerful presentations are not the most elaborate ones. The two-armed Kṛṣṇa (intimate, accessible) is the ground from which the cosmic display is generated and to which it returns. If your most overwhelming project, performance, or output cannot be traced back to a simple, personal original impulse, it will exhaust the audience without feeding them.",
     "bhakti": "Śrīdhara's consolation frame — \"do not be afraid; this was shown by grace, not as ordeal\" — applies directly to any moment when an experience of scale (a sudden promotion, a creative breakthrough, an unexpected recognition) produces terror rather than joy. The right response is not to minimize the experience but to locate the grace in it: you were shown something unprecedented because you were qualified to receive it.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that the most effective leaders and teachers operate from two simultaneous registers: extraordinary personal competence (asādhāraṇa-sāmarthya) and exceptional attentiveness to the specific person in front of them (tvad-viṣaya-kṛpā-atiśaya). Neither alone is sufficient — impersonal competence without directed compassion produces awe without trust; directed compassion without grounded competence produces warmth without transformation."
-  }
+  },
+  "primary_meaning": "By my own grace and sovereign power, Arjuna, I showed you this supreme form, radiant, boundless, and without beginning, never seen by any other."
 }

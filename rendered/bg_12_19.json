@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "saṃtuṣṭaḥ",
-      "lemma": "saṃtuṣ",
+      "lemma": "saṃ-√tuṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -350,8 +350,9 @@
         "jayatirtha_12.19"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not compose a commentary on this verse. [BHĀṢYA ABSENT — rendering is a doctrinal projection from Dvaita principles.] In Dvaita, 'tulya-nindā-stutiḥ' reflects the jīva's recognition that praise and blame accrue to the body-mind complex, not to the eternal jīva who is wholly dependent on Hari's will. Silence (mauna) and contentment with whatever arrives express the jīva's fundamental inadequacy as independent agent: only Hari acts; the devotee receives. 'Sthira-matiḥ' in Dvaita specifically means intellect fixed on Viṣṇu's absolute supremacy, not on an undifferentiated Brahman.",
-      "divergence_note": "Bhāṣya absent (payload states: 'Sri Madhvacharya did not comment on this sloka'); rendering is doctrinal projection only"
+      "english_rendering": "*Tulya-nindā-stutiḥ* (one for whom blame and praise are equal) — the *paratantra* *jīva* is not the true locus of either censure or honor; both belong to the body-mind complex sustained moment to moment by *svatantra* Hari's will alone. The *jīva* who has grasped *pañca-bheda* knows that no word of praise augments it and no blame diminishes it: it is what Hari makes it, nothing more. *Maunī* — the one who keeps silence — does so not from indifference but from recognition that speech, like all agency, proceeds from Hari; the *paratantra* self has nothing of its own to assert. *Saṃtuṣṭo yena kenacit*: contentment with whatever arrives, because whatever arrives is Hari's sovereign dispensation within the *taratamya* (graded ontological hierarchy) that orders all *jīvas* according to their dependence. *Aniketaḥ* — without fixed abode — names the *jīva*'s detachment from any station it might falsely claim as its own. *Sthira-matiḥ*: intellect made stable in the unwavering recognition of Viṣṇu's absolute supremacy and the *jīva*'s permanent subordination to him — not steadiness in an undifferentiated absorption, but fixity in *bheda* (real distinction). *Bhaktimān me priyo naraḥ*: the person who embodies these qualities through *bhakti* as ontological subordination — not as an optional ornament but as the very structure of the *paratantra* self's relation to *svatantra* Hari — is dear to Kṛṣṇa. The dearness is real, not figurative: *bheda* persists, and the Lord's love for such a devotee is a fact within that real distinction.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha; reading voiced directly from Dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -433,40 +434,6 @@
       ]
     },
     {
-      "list": "तथा मानापमानयोः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.7",
-        "12.18"
-      ]
-    },
-    {
-      "list": "न काङ्क्षति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.3",
-        "12.17",
-        "18.54"
-      ]
-    },
-    {
-      "list": "न द्वेष्टि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.57",
-        "5.3",
-        "12.17",
-        "14.22"
-      ]
-    },
-    {
-      "list": "न हृष्यति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.17"
-      ]
-    },
-    {
       "list": "निर्ममः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -474,13 +441,6 @@
         "12.13",
         "12.14",
         "18.53"
-      ]
-    },
-    {
-      "list": "परं दृष्ट्वा निवर्तते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.59"
       ]
     },
     {
@@ -505,43 +465,12 @@
       ]
     },
     {
-      "list": "मे प्रियः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.14",
-        "12.15",
-        "12.16",
-        "12.17"
-      ]
-    },
-    {
-      "list": "यः स च मे प्रियः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.15"
-      ]
-    },
-    {
-      "list": "यो मद्भक्तः स मे प्रियः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.16"
-      ]
-    },
-    {
       "list": "शीतोष्ण",
       "role": "supporting",
       "other_verses_in_list": [
         "2.14",
         "6.7",
         "12.18"
-      ]
-    },
-    {
-      "list": "शीतोष्णसुखदुःखेषु समः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.7"
       ]
     },
     {
@@ -558,13 +487,6 @@
       "other_verses_in_list": [
         "12.13",
         "12.14"
-      ]
-    },
-    {
-      "list": "समः शत्रौ च मित्रे च",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.18"
       ]
     },
     {
@@ -603,7 +525,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃtuṣṭaḥ: saṃtuṣ -> saṃ-√tuṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If 'sthira-matiḥ' (steady understanding) is what makes censure and praise equal, does equanimity follow from insight rather than effort — and what does that imply for practices that train equanimity directly?",
@@ -621,5 +553,6 @@
     "śuddhādvaita": "Vallabha's warning that a fixed household can be 'destructive' for a deeply devotional person is not a call to abandon home but to ensure the home is saturated with Bhagavān's presence. Practically: install one point in your living space — an image, a dedicated seat, a particular corner — that functions as your 'Viṣṇu's abode' and make returning to it the first act of the day and the last.",
     "bhakti": "Śrīdhara's gloss 'niyata-vāsa-śūnyaḥ' (devoid of fixed residence) applies to mental real estate as much as physical: notice how much cognitive energy goes into defending your habitual viewpoint, preferred narrative, or established opinion. Practice, once a day, holding your strongest current conviction lightly — not abandoning it but not needing it to remain exactly as it is.",
     "advaita-bhakti": "Madhusūdana's reading of 'santushṭaḥ yena kenacit' (satisfied by whatever prārabdha brings) does not counsel passivity about future choices but equanimity toward present circumstances. When you find yourself cycling through dissatisfaction with what you have while planning for what you want, take one deliberate pause: name three things currently present that are sufficient — not optimal, sufficient. This is the practice of prārabdha-acceptance that does not collapse into fatalism."
-  }
+  },
+  "primary_meaning": "Treat blame and praise alike, speak only when needed, content with whatever comes, without a fixed home, steady in mind, full of devotion: such a person is dear to me."
 }

@@ -246,7 +246,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -390,8 +390,8 @@
         "jayatirtha_6.32"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's comment is a single line: he notes that this verse describes sāmya (equanimity) via a different modality (prakārāntara). In Dvaita, ātmaupamya cannot dissolve the eternal distinction between jīva and Brahman, so equanimity here means that the devotee recognises that every jīva is equally dependent on Hari and equally capable of being an instrument of His worship. One's own suffering and another's suffering are equal signals of the one Lord's sovereign will, demanding service not indifference.",
-      "divergence_note": "Madhva's bhāṣya is sparse: 'sāmyaṃ prakārāntareṇa vyācaṣṭe ātmaupamyeneti.' Fuller interpretation inferred from Dvaita framework — flagged as constructed, not directly attested."
+      "english_rendering": "Madhva glosses the verse with a single move: *sāmyaṃ prakārāntareṇa vyācaṣṭe ātmaupamyeneti* — he reads *ātmaupamya* (comparison with oneself) as delivering *sāmya* (equanimity) by a different modality than the *samadaśana* already treated at 5.29. Jayatīrtha presses the point: *sarvatra samadaśanaḥ* (5.29) could be misconstrued, as if sameness of vision meant the homogenising perception of a cow or a horse (*goṇavayādivad*), or as if it required the position of absolute oneness (*ekatvam āsthita*), which the text itself then has to explain away — *svayam eva vyākhyātam*. That advaitic reading is rejected as *anyathāvyākhyānam*, a mis-reading. Instead the verse is now glossed *bhagavadanuvartiviṣayatayā api* — the equanimity is read in terms of every object (*viṣaya*) being a follower (*anuvartin*) of the Lord. Seeing another's *sukha* (pleasure) and *duḥkha* (pain) as one sees one's own is not the dissolution of *bheda* (real distinction) between *jīva*s; it is the recognition that every *jīva*, equally *paratantra* (eternally dependent) on Hari, stands in identical subordination to His sovereign will. The *yogī paramo*, the supreme yogin, holds this vision steadily — not by collapsing the *pañca-bheda* (the five-fold real distinction), but by perceiving all *jīva*s as equally ordered to the Lord's worship.",
+      "divergence_note": "The bhāṣya's *bhagavadanuvartiviṣayatayā api* is the pivot of the Dvaita reading; the fuller doctrinal expansion of *paratantra* and *pañca-bheda* is drawn from Madhva's siddhānta to unpack what Jayatīrtha's gloss implies but does not spell out sentence by sentence."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -436,20 +436,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अत्यन्त सुख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.28"
-      ]
-    },
-    {
-      "list": "ते मे युक्ततमा मताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.2"
-      ]
-    },
-    {
       "list": "पश्यति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -472,14 +458,6 @@
       ]
     },
     {
-      "list": "स मे युक्ततमो मतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.47",
-        "12.2"
-      ]
-    },
-    {
       "list": "सर्वत्र",
       "role": "supporting",
       "other_verses_in_list": [
@@ -495,28 +473,11 @@
       ]
     },
     {
-      "list": "सर्वभूतहिते रताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.25",
-        "12.3",
-        "12.4",
-        "16.2"
-      ]
-    },
-    {
       "list": "सर्वभूतात्मभूतात्मा",
       "role": "supporting",
       "other_verses_in_list": [
         "4.22",
         "5.7"
-      ]
-    },
-    {
-      "list": "स्वकर्मणा तमभ्यर्च्य",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.46"
       ]
     }
   ],
@@ -547,7 +508,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mataḥ: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Does ātmaupamya (analogy of the self) require that I first know my own suffering clearly before I can see another's — and what does that imply for the sequence of inner work?",
@@ -565,5 +536,6 @@
     "śuddhādvaita": "Vallabha's sva-sādṛśya suggests a practice of imaginative identification: when encountering another's joy or pain, ask 'How does Kṛṣṇa see this moment?' — since the supreme yogin's vision replicates the Lord's own gaze of universal affection. In daily life this translates to consciously receiving another's delight as something Kṛṣṇa also delights in, and another's grief as something Kṛṣṇa also tenderly holds. The practice is looking through the Lord's eyes, not merely calculating equal treatment.",
     "bhakti": "Śrīdhara's active anukampā (compassion-in-action) translates directly: make a habit of asking 'What would actually help this person?' rather than simply noticing their pain with equanimity. The verse's ethical benchmark is not just perceiving others' suffering as equal to your own, but actively wishing their joy (sukhām eva sarveṣāṃ vāñchati). In practice, this means converting the perception of another's pain into a concrete, if small, act of support rather than leaving it at sympathetic awareness.",
     "advaita-bhakti": "Madhusūdana's insight that rāga-śūnyatva and dveṣa-śūnyatva (absence of attraction and aversion) are both required suggests a daily audit: notice not only when you are pulled toward someone's success (rāga) but also when you quietly engineer another's difficulty (dveṣa) by withholding help you could give. The 'supreme yogin' actively provides another's good (pareṣyāṃ iṣṭaṃ saṃpādayati) not from duty but from the settled absence of contraction — a calibration to check at the end of each day."
-  }
+  },
+  "primary_meaning": "The yogi who sees his own joy and sorrow reflected in every living being, and measures all pleasure and pain by that same standard, Krishna calls the highest."
 }

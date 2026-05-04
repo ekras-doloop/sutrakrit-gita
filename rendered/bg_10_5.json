@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "bhavanti",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -511,13 +511,6 @@
       ]
     },
     {
-      "list": "दमः शमः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
-      ]
-    },
-    {
       "list": "दानम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -549,21 +542,6 @@
       ]
     },
     {
-      "list": "भयं चाभयमेव च",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
-      ]
-    },
-    {
-      "list": "भवन्ति भावा भूतानां मत्त एव पृथग्विधाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.12",
-        "10.4"
-      ]
-    },
-    {
       "list": "भवोऽभावः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -589,13 +567,6 @@
       ]
     },
     {
-      "list": "मत्तः एव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
-      ]
-    },
-    {
       "list": "यशोऽयशः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -609,27 +580,6 @@
         "10.4",
         "16.2",
         "16.8"
-      ]
-    },
-    {
-      "list": "सुखं दुःखम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
-      ]
-    },
-    {
-      "list": "है और इन सबके लीन होनेका नाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
-      ]
-    },
-    {
-      "list": "है और मनको सांसारिक भोगोंके चिन्तनसे हटानेका नाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4"
       ]
     }
   ],
@@ -660,7 +610,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavanti: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If virtues such as ahiṃsā and tapas arise from Kṛṣṇa — not from personal effort alone — what does that imply about the pride a practitioner takes in their ethical achievements? Does the verse undercut moral self-congratulation, and if so, how?",
@@ -678,5 +638,6 @@
     "śuddhādvaita": "The days when you feel most alive — creative flow, unexpected kindness toward a stranger, a moment of courage — are moments of Kṛṣṇa's prasāda (grace) arriving through you as a specific instrument fitted to a specific mārga (path). Rather than analyzing why those states arose or how to engineer them again, receive them as you would a gift: with recognition, not with a formula for replication.",
     "bhakti": "When someone wrongs you, the verse's claim that ayaśas (infamy) and harmful conduct also arise from the one source does not excuse the wrong — but it does free you from the obligation to narrate the event as a story about a uniquely evil person. The other person is also an instrument. This is Śrīdhara's balance: Kṛṣṇa authors both sides of every moral ledger, which is the ground for genuine forgiveness rather than manufactured tolerance.",
     "advaita-bhakti": "In your daily work, dāna (giving) need not mean large donations. Madhusūdana's gloss specifies deśa (place), kāla (time), śraddhā (faith), and yathāśakti (according to capacity). A small act of giving executed with all four conditions present is more fully dāna than a large gift given from social pressure or guilt. The Parameśvara's lokamaheśvaratva (world-lordship) is expressed through the quality of the offering, not its quantity."
-  }
+  },
+  "primary_meaning": "All the varied dispositions of living beings, non-harming, equanimity, contentment, austerity, generosity, fame and disgrace, arise from Me alone."
 }

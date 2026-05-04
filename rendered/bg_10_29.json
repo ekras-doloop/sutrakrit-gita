@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "saṃyamatām",
-      "lemma": "saṃyam",
+      "lemma": "saṃ-√yam",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -373,7 +373,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "saṃyamatām: saṃyam -> saṃ-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gītā include Yama — the lord of death — as a vibhūti (glorious manifestation) of Kṛṣṇa? What does it imply about the relationship between dharma, punishment, and the divine?",
@@ -391,5 +403,6 @@
     "śuddhādvaita": "Perform every śrāddha (ancestral offering) or any act of feeding others as a direct offering to Kṛṣṇa who is present in every pitṛ (ancestral figure). Vallabha's insight: the feast table is prasāda-space. The one who eats is Bhagavān; the one who offers is Bhagavān's instrument. Let cooking and feeding become śrāddha-level devotion.",
     "bhakti": "When you swim, sail, or encounter bodies of water, recall that Varuṇa — Kṛṣṇa in the domain of waters — governs the deep. Use natural transitions (entering water, crossing a river, rain) as bhāvana (contemplative recognition) moments: this domain too belongs to the Lord. Let geography become devotional occasion.",
     "advaita-bhakti": "When you must discipline yourself or another — correct a child, set a boundary, enforce a consequence — do so knowing you are briefly inhabiting Yama's function as Kṛṣṇa's instrument. Madhusūdana's frame: anugraha (grace) and nigraha (restraint) are both love. Correction given without ego and received without resentment is yoga."
-  }
+  },
+  "primary_meaning": "Among serpents I am Ananta, among water-dwellers Varuna, among the ancestors Aryama, and among those who enforce order I am Yama."
 }

@@ -168,7 +168,7 @@
     },
     {
       "surface_form": "prahṛṣyati",
-      "lemma": "prahṛṣ",
+      "lemma": "pra-√hṛṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "anurajyate",
-      "lemma": "anurañj",
+      "lemma": "anu-√rañj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -251,7 +251,7 @@
     },
     {
       "surface_form": "bhītāni",
-      "lemma": "bhī",
+      "lemma": "√bhī",
       "grammar": "nominative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -300,7 +300,7 @@
     },
     {
       "surface_form": "dravanti",
-      "lemma": "dru",
+      "lemma": "√dru",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -358,7 +358,7 @@
     },
     {
       "surface_form": "namasyanti",
-      "lemma": "namasy",
+      "lemma": "√namasy",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -605,14 +605,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.23",
-        "11.45"
-      ]
-    },
-    {
       "list": "सर्वे",
       "role": "supporting",
       "other_verses_in_list": [
@@ -741,7 +733,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prahṛṣyati: prahṛṣ -> pra-√hṛṣ",
+          "anurajyate: anurañj -> anu-√rañj",
+          "bhītāni: bhī -> √bhī",
+          "dravanti: dru -> √dru",
+          "namasyanti: namasy -> √namasy"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you encounter something genuinely great — a person, a work, a landscape — what is the difference between the joy that arises in you and the anurāga (loving attachment) Arjuna describes? Are they the same movement or two stages?",
@@ -759,5 +765,6 @@
     "śuddhādvaita": "Vallabha's reading of this verse as rakṣo-ghna (demon-dispelling) suggests that speaking genuine praise aloud — naming what is truly great — has a protective function in the world. Identify one person or work in your life that deserves unreserved acknowledgment and say it plainly, without hedging. Notice whether the act of utterance changes something in the room.",
     "bhakti": "Śrīdhara's refrain — 'fitting, and no wonder' — is a practice of non-astonishment at greatness. Most of us are trained to be impressed rather than to recognize. Try applying na citram (no wonder) to something you usually marvel at: this is what reality looks like when the veil is thin. Does that shift the quality of your attention?",
     "advaita-bhakti": "Madhusūdana holds both the jñāna (knowledge) frame (the Lord sets all senses in motion) and the bhakti (devotion) frame (the Lord is tender toward devotees) simultaneously. In your own engagement with work you love, practice holding both: the disciplined understanding of how it works AND the felt warmth of caring about it. Notice which one you default to dropping when you are under pressure."
-  }
+  },
+  "primary_meaning": "Rightly does the world rejoice and fill with love at your glory, O Hṛṣīkeśa; the demons scatter in all directions while the hosts of perfected ones bow before you."
 }

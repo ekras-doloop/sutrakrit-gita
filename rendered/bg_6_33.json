@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "proktaḥ",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -536,7 +536,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktaḥ: pravac -> pra-√vac",
+          "paśyāmi: dṛś -> √dṛś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna's objection is explicitly about structural impossibility, not motivational failure — what does that distinction between 'I won't' and 'I can't see how' open up doctrinally?",
@@ -554,5 +565,6 @@
     "śuddhādvaita": "Vallabha's ākāśa-vāyu (sky-wind) image applies directly to attempts to stop habitual thinking through willpower alone — trying to cage wind in open sky. The Puṣṭi-mārga practitioner stops trying to restrain the citta through technique and instead turns entirely toward Kṛṣṇa's nāma (name) or rūpa (form), allowing devotional absorption to do what restraint cannot. The failure of effortful control is the signal to shift from abhyāsa (practice) to prasāda (reception of grace).",
     "bhakti": "Śrīdhara's laya-vikṣepa framework gives a practitioner two distinct diagnostics for a sitting that went wrong: if the mind went dull or sleepy, that is laya; if it ran toward plans, memories, or sensory pulls, that is vikṣepa. Naming which failure occurred is not self-indulgence — it directs the next corrective. Ātmākāra-avasthāna (resting as the form of the Self) is the target; knowing which obstacle arose makes the next session intelligible rather than discouraging.",
     "advaita-bhakti": "Madhusūdana's framing — rāga-dveṣa as the viṣama-dṛṣṭi-hetavaḥ, the causes of unequal seeing — gives an everyday practice: before any interaction, briefly scan for active attachment (rāga) or aversion (dveṣa) toward the person or task. That scan is the minimal prerequisite for the equal vision Kṛṣṇa describes. Arjuna's difficulty is that he cannot yet see how to sustain that scan under pressure; Madhusūdana's answer (which arrives in 6.35) is that incremental abhyāsa (practice) and vairāgya (detachment) together build the capacity that no single effort can produce."
-  }
+  },
+  "primary_meaning": "Arjuna says: This yoga of equal-seeing you've described, Madhusūdana, I cannot see how it could hold steady, given the mind's restlessness."
 }

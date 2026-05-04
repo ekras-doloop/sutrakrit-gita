@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "śakyase",
-      "lemma": "śak",
+      "lemma": "√śak",
       "grammar": "present indicative pass 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -547,13 +547,6 @@
       ]
     },
     {
-      "list": "दिव्यं ददामि ते चक्षुः पश्य मे योगमैश्वरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.49"
-      ]
-    },
-    {
       "list": "द्रष्टुम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -562,15 +555,6 @@
         "11.7",
         "11.46",
         "11.54"
-      ]
-    },
-    {
-      "list": "पश्य मे योगमैश्वरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.4",
-        "9.5",
-        "10.7"
       ]
     },
     {
@@ -615,7 +599,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śakyase: śak -> √śak"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa assert that the limitation is in Arjuna's faculty — the prākṛta cakṣus — rather than in any withholding on Kṛṣṇa's side? What does this say about the architecture of perception in the Gītā's epistemology?",
@@ -633,5 +627,6 @@
     "śuddhādvaita": "Kṛṣṇa's gift of the divine eye is prasāda — grace that precedes merit, that does not wait for you to become worthy. In daily life, the Puṣṭi-mārga analog is: stop trying to earn the insight. Sit with the limitation (prākṛta cakṣus acknowledged honestly), place yourself in the flow of His līlā, and receive what He chooses to show. The akṣara-aiśvarya-rūpa is not a reward; it is what you see when you stop blocking it.",
     "bhakti": "Śrīdhara's aghaṭita-ghaṭanā-sāmarthya — the power to accomplish the impossible — is not esoteric. It surfaces in everyday life as the moment when a situation that was knotted becomes simple, when a relationship that seemed broken finds a word that heals it, when a problem you could not solve resolves as if from outside. The Bhakti practice is to recognize these moments as yogam aiśvaram: not coincidence, not your cleverness, but Bhagavān's extraordinary practical sovereignty showing through.",
     "advaita-bhakti": "Madhusūdana holds two registers simultaneously: the svabhāva-siddha eye is constitutively limited (Advaita diagnosis), yet Kṛṣṇa's grace is a specific, personal, devotional act (Bhakti response). In daily life, this synthesis means: hold your cognitive limitations honestly — know that your habituated perception is structurally limited — and stay open to the moments when Kṛṣṇa's asādhāraṇa yoga rearranges what you see. Neither self-reliance nor passive waiting: clear-eyed surrender."
-  }
+  },
+  "primary_meaning": "Your ordinary eyes cannot see what I am about to show you, so I give you a divine eye. Look now upon my sovereign power."
 }

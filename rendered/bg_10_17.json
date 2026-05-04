@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "vidyām",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "paricintayan",
-      "lemma": "paricintay",
+      "lemma": "pari-√cintay",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -235,7 +235,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -467,7 +467,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyām: vid -> √vid",
+          "paricintayan: paricintay -> pari-√cintay",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you approach a teacher or a tradition seeking to 'know' it, are you asking for a list of its expressions (vibhūtis) or for the knowing-act (vidyā) that would let you recognize it in unlisted ones?",
@@ -485,5 +497,6 @@
     "śuddhādvaita": "When a mentor says you are now a practitioner of their method, ask to see not only the method's outputs but the method's own inner workings. The initiated student has earned the right to ask 'how does your yoga itself work?' — not merely 'what results will it give me?'",
     "bhakti": "Distinguish, in any practice or study, between the instrument of knowing and the field of application. Knowing how to contemplate Kṛṣṇa through vibhūtis is different from knowing which vibhūtis to use. Make both questions explicit; confusing them leaves the practice incomplete.",
     "advaita-bhakti": "When you feel cognitively overwhelmed by something vast — a loss, a vision, a teaching — name the limitation plainly ('I am too stout-minded for this unaided') rather than papering over it with effort. That honest naming is itself the first move of the dual-register approach: jñāna-humility opening the channel for bhakti-reception."
-  }
+  },
+  "primary_meaning": "How can I know you, always meditating on you, and in which objects should I contemplate you, O Bhagavān?"
 }

@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "tiṣṭhanti",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -454,7 +454,9 @@
         "jayatirtha_14.18"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE — the payload states 'Sri Madhvacharya did not comment on this sloka.' No bhashya prose is available for this school. Based on Madhva's established framework: sattva-sthitas ascend toward Vishnu's realm in accordance with their svabhava (innate nature), the rajasic remain in the middle realm of mixed karma-fruit, and the tamasic descend — with the descent being permanent for those whose tamas is constitutive of their jiva-nature. For Madhva, the three trajectories are not merely conditional but reflect the eternal hierarchical ordering of jivas under Hari's sovereign will; no soul moves outside this providential assignment."
+      "english_rendering": "*Ūrdhvaṃ gacchanti sattva-sthāḥ* — those established in *sattva* (the quality of luminosity and clarity) ascend. *Madhye tiṣṭhanti rājasāḥ* — the *rājasāḥ* (those governed by passion and activity) remain in the middle. *Jaghanya-guṇa-vṛtta-sthā adho gacchanti tāmasāḥ* — those fixed in the conduct of the lowest *guṇa* (quality), *tamas* (darkness and inertia), descend downward. These three trajectories are not conditional outcomes of a soul's momentary choices alone but express the *taratamya* (graded ontological hierarchy) in which each *jīva* (individual self) stands as *paratantra* (eternally dependent) under *Hari's* sovereign will. The ascending *sattva-sthita* moves toward Viṣṇu's domain — the highest station within the *taratamya* — while the *tāmasa* descends into lower births, a descent that, for those in whom *tamas* is constitutive of the *jīva*'s very nature, admits no reversal. *Bheda* (real distinction) between *jīva* and *jīva*, and between each *jīva* and Hari, is preserved across all three movements: no ascent dissolves the *paratantra* *jīva* into the *svatantra* (independently real, self-sufficient) Lord, and no descent abolishes *bheda*. The verse thus maps the *pañca-bheda* (the five-fold real distinction) onto cosmic movement itself — ascent, stasis, and descent each occur within an order of irreducible ontological differences governed entirely by Hari.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives on this verse; the reading is voiced directly from dvaita siddhānta applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -546,7 +548,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhanti: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the three trajectories (upward, middle, downward) are determined by which guna dominates at the time of action, can a single lifetime contain all three — and what determines which trajectory 'counts' at the decisive moment?",
@@ -564,5 +576,6 @@
     "shuddhadvaita": "Vallabha's reading of lobha (greed) as the signature of the rajasic middle-world invites a daily audit: which of today's decisions were driven by not-enough-yet? Each identified lobha-moment is a direct reading of your current guna-station — not to shame, but to see clearly where you are in Krsna's lila.",
     "bhakti": "Sridhara's hundredfold-bliss progression through gandharva and deva worlds is not mythology — it is a map of what sustained sattva-practice actually feels like from the inside. Each layer of craving (trishna) dropped is an experienced upward step; staying trapped in craving is choosing to remain in the rajasic middle by default.",
     "advaita-bhakti": "Madhusudana's vrtta-distinction — the tamasic are always tamas-dominant, while others only occasionally fall into tamas-conduct — is clinically useful: ask not 'which guna am I?' but 'which guna do I return to after disruption?' The default-return pattern, not the peak moments, is your actual vrtta and your actual trajectory."
-  }
+  },
+  "primary_meaning": "Those grounded in sattva rise upward, the rajasic stay in the middle, and the tamasic, fixed in the conduct of the lowest guna, sink down."
 }

@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "sṛjati",
-      "lemma": "sṛj",
+      "lemma": "√sṛj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -274,7 +274,7 @@
     },
     {
       "surface_form": "pravartate",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -522,21 +522,6 @@
       ]
     },
     {
-      "list": "नैव किञ्चित्करोमीति युक्तो मन्येत तत्त्ववित्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.8",
-        "5.9"
-      ]
-    },
-    {
-      "list": "प्रकृतिं यान्ति भूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.33"
-      ]
-    },
-    {
       "list": "प्रभु",
       "role": "supporting",
       "other_verses_in_list": [
@@ -553,13 +538,6 @@
       "other_verses_in_list": [
         "5.15",
         "9.18"
-      ]
-    },
-    {
-      "list": "मा कर्मफलहेतुर्भूः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47"
       ]
     },
     {
@@ -609,7 +587,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sṛjati: sṛj -> √sṛj",
+          "pravartate: pravṛt -> pra-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If no school assigns ultimate agenthood to the ātman, what exactly is held responsible when someone causes harm — and how does each school's answer shape its ethics of accountability?",
@@ -627,5 +616,6 @@
     "śuddhādvaita": "Stop auditing your own motives for purity before acting. The ego that watches itself act, judging whether it is being selfless enough, is itself the ahaṃkāra (ego-sense) that the verse is dissolving. Offer the action to Kṛṣṇa before, not after: the offering changes the action's metabolism, not its external form.",
     "bhakti": "When you feel compelled by habit, appetite, or social pressure to act against your better judgment, do not immediately blame yourself or Providence. The verse names this precisely: svabhāva — your own accumulated nature — is what moves you. The task is not to erase svabhāva in one willful stroke but to bring it consciously into relationship with discernment (viveka), gradually loosening its autonomous hold.",
     "advaita-bhakti": "Distinguish three distinct moments of ownership you attach to action: 'I directed this' (inducer), 'I produced this' (maker), 'I deserve this result' (enjoyer). Drop each separately. You need not wait until all three dissolve at once — even loosening one creates interior space. The śruti promise is that the witness-self, the ātman that 'seems to meditate, seems to tremble' (dhyāyatīva lelāyatīva), is already free; practice is simply stopping the re-narration."
-  }
+  },
+  "primary_meaning": "The inner sovereign neither creates agenthood in the world nor actions nor their bond to fruit. Nature alone moves."
 }

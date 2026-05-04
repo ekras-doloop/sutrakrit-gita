@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "anuṣṭhitāt",
-      "lemma": "anuṣṭhā",
+      "lemma": "anu-√ṣṭhā",
       "grammar": "ablative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -351,8 +351,8 @@
         "jayatirtha_3.35"
       ],
       "score": 0.5,
-      "english_rendering": "The verse confirms that even the fierce, grief-laden duty of battle is svadharma for a kṣatriya (warrior), and the Bhagavān's command is its sole justification; a jīva (individual soul) has no standing to substitute another's apparently gentler path. Dvaita reads svadharma as Hari's assignment — to abandon it for a seemingly superior practice would be to override divine ordination with personal preference, which is the true source of bhaya. Madhva's commentary here is a single transitional sentence and does not elaborate; the full Dvaita argument is carried by his broader framework of svabhāva (innate constitution) as Hari's will.",
-      "divergence_note": "Madhva: 'tathāpy ugraṃ yuddhakarma ity ata āha śreyān iti' — one sentence only"
+      "english_rendering": "*Śreyān sva-dharmo viguṇaḥ para-dharmāt svanuṣṭhitāt* — even an imperfectly executed *sva-dharma* (one's own duty) excels another's duty well performed; *sva-dharme nidhanaṃ śreyaḥ, para-dharmo bhayāvahaḥ*. Madhva's transitional sentence — *tathāpy ugraṃ yuddhakarma ity ata āha śreyān iti* — locates the verse within the running dialogue: Arjuna's second objection, lodged when he asked *jyāyasī cet* (3.1), was deferred; now, after *yudhyasva vigatajvaraḥ* (3.30) and *tayor na vaśam āgacchet* (3.34) have recalled it, Kṛṣṇa resolves it here. Jayatīrtha's gloss makes the internal logic explicit: *yady api karma kartavyaṃ, tathāpi ugram avarjanīya-rāga-dveṣaṃ na kuryām iti śeṣaḥ* — the unstated completion of the objection is 'yet I should not perform action that carries unavoidable *rāga-dveṣa* (attraction-aversion).' The verse closes that gap: the *jīva* (individual self) is assigned *sva-dharma* by Hari, and *sva-dharma* for the *kṣatriya* is battle, however *ugraṃ* (fierce). To exchange it for *para-dharma* — another's apparently calmer duty — is *bhayāvahaḥ*: it generates the very dread it sought to escape, because it departs from *Hari*'s ordination of each *jīva*'s station.",
+      "divergence_note": "Madhva's own bhāṣya is a single connector: *tathāpy ugraṃ yuddhakarma ity ata āha śreyān iti*. The doctrinal elaboration is Jayatīrtha's, whose *Nyāya-sudhā* supplies both the two-objection structure (*dvāv ākṣepāv arjunena kṛtau*) and the unexpressed completion of Arjuna's fear (*ugram avarjanīya-rāga-dveṣaṃ na kuryām*). Both levels are needed for the full dvaita reading."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -396,13 +396,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "धर्म तें बिरति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.19"
-      ]
-    },
     {
       "list": "परधर्म",
       "role": "supporting",
@@ -488,7 +481,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anuṣṭhitāt: anuṣṭhā -> anu-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If paradharma is universally forbidden, how does the tradition account for āpad-dharma (emergency duty) — cases where circumstances appear to require acting outside one's own dharma?",
@@ -506,5 +509,6 @@
     "śuddhādvaita": "A Puṣṭi-mārga sādhaka who finds her own form of seva (service to Kṛṣṇa) plain and unglamorous compared to the ecstatic kīrtana of another devotional community should continue her assigned seva with whatever quality she can muster, rather than imitating practices not given to her by the guru. Vallabha's reading: it is precisely saṅga (attachment to visible results and external forms) that makes paradharma seductive — true Puṣṭi surrender releases that comparison entirely.",
     "bhakti": "Śrīdhara's eschatological reading gives a direct practical test: before abandoning svadharma for a seemingly superior practice, ask whether one's own duty leads to liberation-or-merit in this station, and whether the alternative is actually prescribed for this person. For a teacher who is constitutionally a gṛhastha (householder), leaving family to take up monastic instruction because it seems spiritually richer is a move from aṅgahīna-svadharma (imperfect own-duty) to a prohibited path — the outcome is loss, not gain.",
     "advaita-bhakti": "Madhusūdana's insistence that dharma must have Vedic sanction — not merely inferred moral plausibility — translates to a contemporary test: before substituting a spiritually appealing practice for one's assigned path, verify it has a genuine pramāṇa (valid source of knowledge) for your position, not just a compelling argument. The bhikṣāśana example is exact: choosing the easier, apparently virtuous path because it avoids pain is a failure of adhikāra-discernment, and the two-world consequences (infamy here, naraka hereafter) follow precisely from that category error."
-  }
+  },
+  "primary_meaning": "Your own duty, even done poorly, is better than another's duty done well. Better to die in your own calling than to take another's path, for that path brings danger."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "vinaśyati",
-      "lemma": "vinaś",
+      "lemma": "vi-√naś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -308,8 +308,9 @@
         "jayatirtha_4.40"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse (the payload records: 'Sri Madhvacharya did not comment on this sloka'). Within the Dvaita framework, however, the verse's logic is consistent with Madhva's insistence that the jīva's distinct identity from Hari is eternal and knowable: the one who doubts the very knowability of Hari (svarūpa-jñāna) severs himself from both this world and liberation, since dependent worship requires the certainty that the object of worship really exists and is really other than oneself.",
-      "divergence_note": "No direct Madhva bhāṣya for 4.40. Reading extrapolated from Dvaita first principles; flag as inferred."
+      "english_rendering": "*Ajñaḥ* (one without *jñāna*, knowledge of *tattva*), *aśraddadhānaḥ* (one without *śraddhā*, the faith that *Hari* is the sole *svatantra*, the independently real), and *saṃśayātmā* (the one whose self is split by doubt) — these three *vinaśyati*, perish. *Nāyaṃ lokaḥ* (not this world), *na paraḥ* (not the higher world), *na sukham* (not even transient happiness) belongs to the *saṃśayātmā*. In the Dvaita reading, *saṃśaya* is not mere intellectual hesitation but the refusal to settle the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) as real and eternal. The *ajñaḥ* has not attained *svarūpa-jñāna*, the direct cognition of Hari's own nature as *niratiśaya-sat* (unsurpassably real). The *aśraddadhānaḥ* lacks the stable *bhakti*-orientation that follows from that cognition. The *saṃśayātmā*, worst of the three, doubts whether the *jīva*'s *paratantra* (eternally dependent) relation to Hari is genuine — and so cannot surrender, cannot worship, and forfeits every domain of happiness. Because *bheda* is real and the *jīva*'s dependence is a fact of *svarūpa*, not a convention, this doubt does not merely confuse the mind; it severs the *jīva* from the very *taratamya* (graded ontological hierarchy) by which liberation through *bhakti* is secured. No *loka* — present or future — admits the one who will not know Hari as he is.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for 4.40. Reading voiced directly from Dvaita *siddhānta* primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -354,34 +355,11 @@
   },
   "theme_list_memberships": [
     {
-      "list": "ममैवांशो जीवलोके",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30",
-        "4.24",
-        "5.22",
-        "8.3"
-      ]
-    },
-    {
       "list": "सिद्धान्त",
       "role": "supporting",
       "other_verses_in_list": [
         "3.31",
         "3.33"
-      ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.29",
-        "6.9",
-        "7.21",
-        "8.6",
-        "9.29",
-        "12.13",
-        "12.14"
       ]
     }
   ],
@@ -412,7 +390,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vinaśyati: vinaś -> vi-√naś",
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the precise difference between ajñatā (ignorance), aśraddhā (faithlessness), and saṃśaya (doubt) — and why does Kṛṣṇa treat them as three distinct disqualifications rather than one?",
@@ -430,5 +419,6 @@
     "śuddhādvaita": "Puṣṭi-mārga moves by prasāda (grace), not by effort; but even grace requires a vessel that can receive it. The devotee who sings Kṛṣṇa's līlā while thinking 'I don't know if this is real or just poetry' has plugged the channel. In daily sādhana this means: the moment doubt arises about the literal reality of Kṛṣṇa's presence in the image (mūrti), the daily sevā becomes empty ritual. Vallabha's corrective is not argument but affirmation — return to the bhāva (devotional mood) that accepts the Lord's presence before lifting the lamp.",
     "bhakti": "Śrīdhara's triple register (this world, other world, sukha) maps directly onto a practitioner's life: unresolved doubt about the path's efficacy destroys professional focus (this-world artha fails), prevents the accumulation of merit (other-world dharma fails), and poisons present enjoyment (no meal, no conversation, no beauty is fully received when the mind is split). The practical resolution is not forced certainty but completing one stage fully before the next: hear the teaching, sit with one specific doubt until it resolves, then proceed — do not carry a convoy of unresolved doubts into action.",
     "advaita-bhakti": "Madhusūdana identifies aśraddhā as specifically a viparyaya-buddhi (inverted cognition) — not mere absence of faith but an active counter-belief that this teaching will not work. In contemporary terms: a student who says 'I'll try meditation but I suspect it's self-delusion' has already inserted the counter-signal. Madhusūdana's synthesis prescription is to use Advaita's intellectual tools to dissolve the counter-belief first, then allow bhakti's emotional momentum to carry the resolved mind forward. The sequence matters: argument before surrender, not argument instead of surrender."
-  }
+  },
+  "primary_meaning": "The ignorant, the faithless, and the one whose very self is doubt all come to ruin; for the doubter, neither this world nor the next holds any place, and no happiness reaches him."
 }

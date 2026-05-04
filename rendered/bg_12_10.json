@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "kurvan",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -192,7 +192,7 @@
     },
     {
       "surface_form": "avāpsyasi",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -336,8 +336,9 @@
         "jayatirtha_12.10"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya does not comment on this verse in the extant corpus. [ABSENT BHASYA — rendering inferred from Dvaita principles] If steady abhyasa is beyond your capacity, let mat-karma (action wholly oriented to Hari) become your supreme refuge, for the jiva (individual self) is eternally distinct from and dependent on Vishnu. Even karma performed for My sake without full meditative absorption will purify the instrument of devotion, and siddhi — the grace of Hari — will be granted in accordance with the jiva's inherent readiness.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Abhyāsa* (disciplined, repeated meditation on Hari) may exceed your present capacity — then let *mat-karma-parama* (having action for Hari as supreme) be your standing. The *jīva*, *paratantra* (eternally dependent) on *svatantra* Hari, cannot achieve *siddhi* (the fruit of liberation, understood in dvaita as eternal loving proximity to Viṣṇu) through autonomous striving. Yet *karmāṇi mad-artham* — every act redirected toward Hari — purifies the *jīva*'s instrument by real *bheda* (real distinction) preserved and honored: the doer remains genuinely other than the Lord, and that very otherness is the ground on which Hari's grace operates. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not dissolved by devotional action but confirmed through it — each deed offered to Hari re-enacts the *jīva*'s *paratantra* status. *Siddhim avāpsyasi*: success accrues not through the jīva's own adequacy but through Hari's sovereign pleasure, granted in accord with *taratamya* (graded ontological hierarchy), each *jīva* receiving precisely the grade of liberation proportionate to its intrinsic rank.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -514,7 +515,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asi: as -> √as",
+          "bhava: bhū -> √bhū",
+          "kurvan: kṛ -> √kṛ",
+          "avāpsyasi: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse offers a descending ladder of practice — abhyasa, then mat-karma, then mere action for My sake. What does it mean that Krishna provides three rungs rather than one, and who exactly is being addressed at each level?",
@@ -532,5 +546,6 @@
     "shuddhadvaita": "Vallabha's instruction is minimal by design: seva (service) first, then action. In daily life this means beginning every task with a brief, genuine act of offering to Krishna — a flower, a word of the Name, a moment of attention — before proceeding. No elaborate technique is required. The simplicity is the point: pushti (nourishment) flows from the Lord's side, not from the complexity of the practitioner's effort.",
     "bhakti": "Sridhara names three practices available to everyone: fasting on ekadashi (the eleventh lunar day), keeping a vrata (vow-observance) that structures devotional time, and nama-sankirtana (chanting of the Name) regularly. Even if interior contemplation is inaccessible, these external observances create a devotional rhythm that shapes the inner instrument over time. Start with the one that is least effortful and let it stabilize before adding another.",
     "advaita-bhakti": "Madhusudana's synthesis offers a practical entry point: shravana (listening to sacred texts read aloud or sung) and kirtana (singing or chanting) are simultaneously devotional acts and purifying practices. Make one of these a daily non-negotiable, held as bhagavata-dharma (your primary discipline). Over time, Madhusudana promises, the sattva-shuddhi (purification) accumulates and jnana (knowledge) arises from within — the Advaita destination reached by the bhakti road."
-  }
+  },
+  "primary_meaning": "If steady practice is still beyond you, make all your actions an offering to Me, and by working for My sake alone you will reach the goal."
 }

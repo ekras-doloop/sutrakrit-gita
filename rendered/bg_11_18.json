@@ -325,7 +325,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -477,8 +477,9 @@
         "jayatirtha_11.18"
       ],
       "score": 0.5,
-      "english_rendering": "You, O Hari, are the imperishable supreme reality, eternally distinct from and infinitely superior to all finite souls (jīvas) — the One who can never be reduced to the experiencing subject or its object. As the supreme repository (para nidhāna), every jīva and every material element is perpetually dependent on you, never absorbed into you. You are the immutable, eternal guardian of dharma, acting by your own sovereignty, and the ancient Person whose existence precedes and grounds all time — this I affirm as my settled conviction.",
-      "divergence_note": "Madhva's commentary is listed absent for this verse (the payload notes: 'Sri Madhvacharya did not comment on this sloka'). This rendering is projected from Madhva's established doctrinal commitments — eternal distinction of jīva and Brahman, Hari's absolute independence (svātantrya), and the unreduced plurality of the dependent real — applied to the terms Arjuna uses."
+      "english_rendering": "*Akṣara* (the imperishable) and *paramaṃ veditavyam* (the supreme object of knowledge) — both names declare *Hari* alone as *svatantra* (the independently real, self-sufficient), the one whose essence cannot be exhausted by knowing. *Asya viśvasya paraṃ nidhānam*: the entire universe — every *jīva* (individual self), every material element — rests in you as its supreme repository, yet none is absorbed into you; *bheda* (real distinction) between the Lord and the *paratantra* (eternally dependent) order persists without erosion. *Avyayaḥ* names the utter absence of diminution in that sovereignty. *Śāśvata-dharma-goptā* (guardian of eternal *dharma*) points to Hari's active, uncoerced protection of the moral and cosmic order — protection that flows from *svātantrya* (absolute independence), not from any external compulsion. *Sanātanaḥ puruṣaḥ*: the ancient Person who precedes all time, grounding *taratamya* (the graded ontological hierarchy) from above. Arjuna's concluding *mato me* is not poetic deference but settled doctrinal conviction — the vision of the Viśvarūpa has confirmed what *pramāṇa* already established: that Hari is the one *svatantra* and all else is irreducibly, eternally *paratantra*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from Dvaita *siddhānta* applied to the mūla: *pañca-bheda* (the five-fold real distinction) remains intact across the verse's epithets; no term licenses dissolution or identity of *jīva* with *Hari*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -558,13 +559,6 @@
         "15.1",
         "15.5",
         "15.17"
-      ]
-    },
-    {
-      "list": "त्वमस्य विश्वस्य परं निधानम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.38"
       ]
     },
     {
@@ -690,7 +684,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mataḥ: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna addresses the terrifying cosmic form yet reaches for epithets drawn from the Upaniṣads — what does it mean that the most intimate scriptural vocabulary appears precisely at the moment of maximum overwhelm?",
@@ -708,5 +712,6 @@
     "śuddhādvaita": "Vallabha's insistence on the personal, masculine ground means the application is direct, intimate relationship — not with an abstraction but with Kṛṣṇa as a specific person who is inexhaustibly himself. In everyday terms: resist flattening the divine into a concept you manage. When you pray or sit in silence, address someone, not something. The grammatical specificity Vallabha defends has a devotional payoff: you cannot be embraced by a neuter principle.",
     "bhakti": "Śrīdhara's framing — 'because your aiśvarya is atarkya (beyond reasoning), therefore…' — offers a practice for encounters with what refuses to be explained: illness, injustice, grief that cannot be argued with. The move is not to reason through the unexplainable but to recognize it as a disclosure of the ground that holds everything. Arjuna's affirmation of Kṛṣṇa as 'excellent refuge' (prakṛṣṭa-āśraya) is also available to anyone who has exhausted rational resources and still needs somewhere to rest.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that rigorous study and felt devotion are not competing tracks but two phases of one movement. The everyday application: when you are intellectually convinced of something important (a principle, a commitment, a person's value) but it has not yet moved you — keep going. Vedānta-śravaṇa (disciplined listening/study) is not complete until it becomes the kind of knowing Arjuna has here: 'I now know who you are.' The inference and the surrender arrive together."
-  }
+  },
+  "primary_meaning": "You are the imperishable, the supreme one to be known, the foundation of this whole universe, immutable, the eternal guardian of dharma, the ancient Person, so I hold you to be."
 }

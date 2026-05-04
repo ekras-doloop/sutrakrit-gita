@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "bhuṅkte",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "sat",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "compound present participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -354,7 +354,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -462,7 +462,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhuṅkte: bhuj -> √bhuj",
+          "sat: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the gunas arise from prakrti and not from the self, who or what is actually responsible when I act out of greed or fear — and does that change how I assign blame?",
@@ -480,5 +491,6 @@
     "śuddhādvaita": "Vallabha's lila frame applies concretely to parenting, caregiving, or any repetitive labor: the kshetra produces the weariness and frustration (these are real guna-products of the field), but the purusha's role is to preside, not to be consumed. Practice: at the end of a demanding day, name aloud three events as scenes in a play you were superintending rather than a performance you were judged on. This is not denial — Vallabha is emphatic that bondage and liberation are real stakes — but a reorientation of identity from actor to witness-within-Krsna's-play.",
     "bhakti": "Sridhara's proximity model suggests a body-based practice: when pleasure or pain arises, locate it physically (where in the body does this sensation live?) before naming it emotionally. The identification of sensation-location interrupts the reflex by which consciousness fuses with the modification. Over time the practitioner develops what Sridhara calls the bhava-viveka (discrimination of states): the capacity to say 'anger is burning in the chest' rather than 'I am angry,' which is the functional equivalent of his theological point that chetana is the witness, not the substance, of the modification.",
     "advaita-bhakti": "Madhusudana's vrtti-uparakta-upalambha (awareness coloured by mental modes) is experientially accessible through the gap between stimulus and reaction: that half-second before you respond to a provocation is the gap between pure awareness and the coloured modification. Bhakti application: train that gap by naming, silently, 'Krsna is here' in the half-second before you reply to an irritating message. This is not a mantra used as distraction; it is a pointer to purushottama as the ground who holds both the coloured awareness and its object, dissolving the illusion that the coloured reaction is the self."
-  }
+  },
+  "primary_meaning": "Dwelling in nature, the self experiences the qualities that nature produces; clinging to those qualities is what drives it into birth after birth, high and low."
 }

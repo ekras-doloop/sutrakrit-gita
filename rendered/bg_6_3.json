@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "ārūḍhasya",
-      "lemma": "āruh",
+      "lemma": "√āruh",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -193,7 +193,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -392,18 +392,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "3.30",
-        "4.12",
-        "5.11"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -431,7 +420,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac",
+          "ārūḍhasya: āruh -> √āruh",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma and śama belong to different stages, how does a practitioner know when the threshold has been crossed — what internal signal marks the move from ārurukṣu to ārūḍha?",
@@ -449,5 +450,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga practice: perform your nityakarma and sevā as Kṛṣṇa's own play-activity (līlā), not as a ladder to climb. Once the mood of Kṛṣṇa's presence is stable — not manufactured but given (prasāda) — the relinquishing of personal volition (saṅkalpa-parityāga) is itself the joy, not a sacrifice.",
     "bhakti": "Track your inner instrument (antaḥkaraṇa): is it clearer, less reactive, less scattered than a year ago? Karma-yoga is functioning correctly if yes. If your contemplative sittings still feel like white-knuckled concentration rather than natural settling, your antaḥkaraṇa needs more action-based purification — more selfless work, not more meditation hours.",
     "advaita-bhakti": "Offer each task explicitly to Kṛṣṇa before beginning — this converts routine work into yoga without changing the external form. Watch for the moment when this offering becomes effortless and the sense of personal doer-ship feels thin; at that crossing, withdraw from unnecessary obligations and deepen interior silence. The Bhakti current and the Jñāna current meet at this crossing-point."
-  }
+  },
+  "primary_meaning": "For the seeker still climbing, action is the means; for the one who has reached the summit, stillness is."
 }

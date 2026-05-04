@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "saṃvṛttaḥ",
-      "lemma": "saṃvṛt",
+      "lemma": "saṃ-√vṛt",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "gataḥ",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -318,8 +318,9 @@
         "jayatirtha_11.51"
       ],
       "score": 0.5,
-      "english_rendering": "Arjuna, the jīva eternally distinct from Hari, confesses: having seen this gentle human form of the Supreme Lord, I am restored to my own natural condition. The viśvarūpa demonstrated Hari's absolute supremacy (sarvottamatva); the return to the two-armed form confirms that the same Lord now mercifully condescends to the finite jīva's station. Restoration of cetas is Hari's gift, not Arjuna's achievement.",
-      "divergence_note": "Madhva did not comment on this verse (payload confirms: 'Sri Madhvacharya did not comment on this sloka'). Rendering constructed from Dvaita doctrinal position: jīva-Hari eternal distinction, restoration as Hari's prasāda."
+      "english_rendering": "Beholding this gentle human form of Yours, O *Janārdana* (Stirrer of men) — *dṛṣṭvedaṃ mānuṣaṃ rūpaṃ tava saumyaṃ* — the *jīva* (the individual self), *paratantra* (eternally dependent) by nature, is restored: *idānīm asmi saṃvṛttaḥ sa-cetāḥ prakṛtiṃ gataḥ*, now I am gathered back, mind returned to its own station. The *viśvarūpa* disclosed *sarvottamatva*, the absolute supremacy of *svatantra* (the independently real, self-sufficient) Hari over all *paratantra* existents; the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not annulled by that theophany but confirmed. The return to the *saumya* (gentle, gracious) two-armed form is Hari's own act of condescension — *prasāda* granted to the *paratantra jīva* whose *cetas* (mind-faculty) had been overwhelmed. Restoration of *sa-cetās* (one's faculties intact) is not Arjuna's self-recovery; it is received, marking *bhakti* (devotion) as ontological subordination, not mere sentiment. The *taratamya* (graded ontological hierarchy) stands: Hari supreme, Arjuna real and distinct, never dissolved into the Lord, now returned to his own *prakṛti* (nature, natural condition) to serve.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. Reading voiced directly from dvaita siddhānta: jīva–Hari eternal bheda, sarvottamatva disclosed by viśvarūpa, restoration as prasāda.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -353,7 +354,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -449,7 +450,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "saṃvṛttaḥ: saṃvṛt -> saṃ-√vṛt",
+          "gataḥ: gam -> √gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the viśvarūpa was the 'truer' form of the Divine, why does restoration of the ordinary human form count as spiritual recovery rather than spiritual loss?",
@@ -467,5 +480,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga reading for daily life: the beautiful, tactile, present form of the Divine — in a child's face, a monsoon breaking, a meal offered with care — is not a lesser encounter than the overwhelming one. Niravadhikātiśaya-saundarya (unending beauty) is available in the small and proximate. Let the restoration of sacetāḥ happen through delight, not just through endurance.",
     "bhakti": "Śrīdhara's minimal gloss points to something practitioners recognize: after genuine fear or grief, the return of prasannacittaḥ is itself a form of grace. The practice is simply to notice it — to register 'I am restored' — without immediately filling the recovered space with analysis. Śeṣaṃ spaṣṭam: sometimes the work is obvious; let it be.",
     "advaita-bhakti": "Madhusūdana's synthesis speaks to anyone managing high-stakes responsibility: fear produces two harms simultaneously — cognitive disorder (vyāmoha) and somatic distress (vyathā). The beautiful form of Kṛṣṇa addresses both at once. In practice: when overwhelmed, seek what is both true and beautiful — not just technically correct but genuinely lovely — because only that dissolves fear at both the mind's and the body's level."
-  }
+  },
+  "primary_meaning": "Seeing your gentle human form again, Janārdana, I am myself once more, my mind restored to its natural state."
 }

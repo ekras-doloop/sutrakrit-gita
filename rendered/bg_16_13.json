@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "labdham",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "prāpsye",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "bhaviṣyati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -343,8 +343,9 @@
         "jayatirtha_16.13"
       ],
       "score": 0.5,
-      "divergence_note": "FLAG: Madhva bhashya absent for this verse. Rendering is doctrinal projection only, not anchored in attested commentary.",
-      "english_rendering": "Madhvacharya's Gita commentary does not include a direct bhashya on this sloka (the payload confirms 'Sri Madhvacharya did not comment on this sloka'). Reasoning from established Dvaita principles: the asuric voice here exemplifies svabhava-viruddha conduct — acting as if the jiva were svayam-prabhu (self-sovereign), which Madhva holds to be metaphysically impossible since the jiva is eternally parabhava (Hari-dependent). The boast 'idam maya labdham' is thus not merely moral pride but an ontological category-error: the jiva claiming authorship of what Hari alone bestows."
+      "divergence_note": "No bhāṣya by Madhva or Jayatīrtha is attested for this verse. The reading applies dvaita *siddhānta* directly to the mūla.",
+      "english_rendering": "*Idam adya mayā labdham idam prāpsye manoratham* — 'This I have gained today; this desire I shall fulfil; this is mine, and this wealth too shall come again to me.' The *āsura* (demonic) speaker rehearses a chain of possessions past and anticipated, each framed by *mayā* (by me), as though the *jīva* (the individual self) were *svayam-prabhu*, self-originating cause of its own acquisitions. Within dvaita's *pañca-bheda* (the five-fold real distinction), this is an ontological inversion: the *jīva* is irreducibly *paratantra* (eternally dependent), every gain traceable to *svatantra* Hari's will alone. To say *mayā labdham* — 'obtained by me' — without acknowledging Hari as the sole bestower is not merely moral pride but a violation of *bheda* (real distinction): the *jīva* usurping the causal status that belongs only to the Lord. The three-fold repetition of *idam* (this... this... this) mirrors the *āsura*'s bondage: *taratamya* (graded ontological hierarchy) is collapsed into a flat self-referential inventory, Hari nowhere acknowledged. *Bhakti* as ontological subordination is precisely what this speech refuses; the speaker's every utterance is its antithesis.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -423,7 +424,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "labdham: labh -> √labh",
+          "prāpsye: prāp -> √prāp",
+          "asti: as -> √as",
+          "bhaviṣyati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I mentally catalogue what I have, what I am about to get, and what I expect next year — am I engaging in legitimate planning or asuric mano-rajya (mind-kingdom fantasy)?",
@@ -440,5 +454,6 @@
     "shuddhadvaita": "Vallabha's terseness points to a direct practice: if you find yourself in the asuric catalogue-loop (got this, will get that, already have this, will have more), it is a signal that you are running on empty — prasada (grace, delight) has not touched that domain of life. The corrective is not willpower but seeking contact with the beautiful, the devotional, the lila-saturated. Restock the grace account.",
     "bhakti": "Sridhara's structural point is practically useful: our asuric wishes rarely travel alone. Identify the 'fourth verse' in your own sequence — the consequence that trails your craving-cycles. Not to generate guilt, but to see the full syntactic unit of your behavior before you are living inside the consequence verse.",
     "advaita-bhakti": "Madhusudana's 'upaya' (method) detail is the sharpest modern mirror: we are not just acquisitive but strategically acquisitive — optimizing methods, A/B testing approaches, building systems to maximize gain. The question he raises is whether dhana-trsna has colonized your planning apparatus. One practical check: review your last quarterly goals. How many were about receiving versus giving, building versus releasing?"
-  }
+  },
+  "primary_meaning": "Today I gained this, tomorrow I will get what I want, this wealth is already mine, and still more will come."
 }

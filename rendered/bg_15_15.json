@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "saṃniviṣṭaḥ",
-      "lemma": "saṃniviś",
+      "lemma": "saṃ-√niviś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -681,7 +681,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃniviṣṭaḥ: saṃniviś -> saṃ-√niviś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord is the source of both memory and its loss (apohana / forgetting), what does that imply about the moral status of forgetting — is ignorance a punishment, a protection, or a mercy?",
@@ -699,5 +709,6 @@
     "shuddhadvaita": "Vallabha's insistence that the removal of knowledge is jiva-kalpita (the jiva's own superimposition) points to a distinctly Pushtimarga application: do not attribute your spiritual forgetfulness to God's will or to karma's impersonal mechanics. The obstruction is your own contracted self-sense. The remedy is seva (devotional service) as an act of self-dissolution, not as earning divine favor.",
     "bhakti": "Sridhara's balanced reading — the Lord as guru who bestows and withholds understanding — maps cleanly onto the traditional teacher-student relationship. The everyday implication: seek a teacher not merely as a conveyor of information but as a living node in the same antaryamin circuit. The right guru does not add knowledge so much as remove the obstruction that prevents the knowledge already lodged in you from surfacing.",
     "advaita-bhakti": "Madhusudana's detail that yogins recover past-life memories from this source suggests a gradient of access rather than a binary know-or-forget. In contemporary terms: contemplative practice (dhyana / meditation) is not building new cognitive capacity so much as thinning the veil between the Atman's total memory and the jiva's current access window. Consistency of practice expands the window; emotional agitation (kama, krodha, shoka) contracts it."
-  }
+  },
+  "primary_meaning": "I am seated in the heart of every being; from me alone come memory, knowledge, and their loss. All the Vedas point to me, I am the author of Vedanta, and I alone truly know what the Veda means."
 }

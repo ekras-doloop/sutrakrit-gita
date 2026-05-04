@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "vihitam",
-      "lemma": "vidhā",
+      "lemma": "vi-√dhā",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "tapyante",
-      "lemma": "tap",
+      "lemma": "√tap",
       "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "saṃyuktāḥ",
-      "lemma": "saṃyuj",
+      "lemma": "saṃ-√yuj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -449,7 +449,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vihitam: vidhā -> vi-√dhā",
+          "tapyante: tap -> √tap",
+          "saṃyuktāḥ: saṃyuj -> saṃ-√yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between intense scriptural tapas that is also physically painful and the 'ghora' tapas condemned here — where exactly does the boundary lie?",
@@ -467,5 +479,6 @@
     "shuddhadvaita": "Vallabha's Pushti-marga asks: is this practice one that Krishna called you to, or one you invented to feel spiritual? Self-invented austerity — juice cleanses framed as purification, social media fasts announced for likes — is kamakarata wearing spiritual clothing. The distinction is not the act but whether grace preceded the impulse.",
     "bhakti": "Sridhara's sociological lens warns about the contagion of bad company: when a peer group normalizes extreme behavior under a spiritual banner — punishing group challenges, performance-spirituality cultures, cult-adjacent communities — the pakhandha-sanga effect is active. The diagnostic is simple: does the group encourage you to check your motivations honestly, or does it demand you perform intensity?",
     "advaita-bhakti": "Madhusudana's synthesis offers a two-register check for any intense practice: (1) Is it shastra-authorized — does it have a verified lineage and a living teacher who can contextualize it? (2) Does it serve the antaryamin — does it create inner spaciousness, or does it feed the narrative 'I am the one who endures'? Both questions must be answered yes; either alone is insufficient."
-  }
+  },
+  "primary_meaning": "People who inflict fierce austerities not ordained by scripture, driven by vanity, ego, desire, and attachment, torment both themselves and the divine presence within."
 }

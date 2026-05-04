@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "abhinandati",
-      "lemma": "abhinand",
+      "lemma": "abhi-√nand",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "dveṣṭi",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -272,7 +272,7 @@
     },
     {
       "surface_form": "pratiṣṭhitā",
-      "lemma": "pratiṣṭhā",
+      "lemma": "prati-√ṣṭhā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -554,7 +554,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhinandati: abhinand -> abhi-√nand",
+          "dveṣṭi: dviṣ -> √dviṣ",
+          "pratiṣṭhitā: pratiṣṭhā -> prati-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara insists anabhisneha is the signature of jñāna already achieved, not a practice to be adopted — but Arjuna is still in grief on the battlefield; can this verse function as a description for him at this stage, or is Kṛṣṇa narrating a destination to ignite recognition?",
@@ -572,5 +584,6 @@
     "śuddhādvaita": "Vallabha's insight that the sage stops speaking in the language of rāga-dveṣa (craving-aversion) before he stops feeling it points to a speech practice: for one week, notice every time you narrate a recent event to a friend in terms of 'how good' or 'how bad' it was, and experiment with narrating it instead as scene description — what happened, who was present, what came next. This is Vallabha's udāsīna speech: not nihilistic flatness but the grammar of one who has tasted Kṛṣṇa's prasāda (grace-gift) and no longer needs the world's outcomes to ratify his joy.",
     "bhakti": "Śrīdhara's extension to putrādi (sons and intimates) names the hardest test: the people we love most are precisely where snehā (attachment) buries its deepest roots. His bādhitānuvṛtti frame suggests that ordinary parental anxiety (will my child be okay?) is structurally a post-cancellation illusion — the child is already held by a larger order, and the anxiety persists only because the habit of grasping predates the recognition of that order. A concrete practice: when parental worry arises, complete the sentence 'I am afraid because I believe I am responsible for ___' and examine whether that belief is viveka (discrimination) or superimposition.",
     "advaita-bhakti": "Madhusūdana's distinction between tāmasa snehā (inertia-bound attachment that borrows another person's scorecard) and Brahman-directed love reframes what looks like emotional numbing as precision of love. The everyday move: when you find yourself excessively elated at a colleague's recognition or quietly resentful of their success, locate the tāmasa projection — you are treating their outcome as data about your own worth. The re-direction is not to care less but to care correctly: invest the freed attention in Paramātman-oriented practice, which in Madhusūdana's synthesis includes both sādhana (discipline) and Kṛṣṇa-bhakti, so that the heart's capacity for love is not diminished but re-rooted."
-  }
+  },
+  "primary_meaning": "The one who clings to nothing, and meets good or bad fortune without exulting or recoiling, has wisdom that stands firm."
 }

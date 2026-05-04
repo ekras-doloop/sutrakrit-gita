@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "mokṣyase",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "vimuktaḥ",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -167,7 +167,7 @@
     },
     {
       "surface_form": "upaiṣyasi",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -328,8 +328,9 @@
         "jayatirtha_9.28"
       ],
       "score": 0.5,
-      "english_rendering": "NOTE — Madhvācārya did not comment on this śloka in the available corpus. The rendering below draws on Dvaita's consistent doctrinal positions. The jīva is eternally and essentially distinct from Hari (tattva-bheda); no karma of a devotee who performs every act as dependent worship of Hari can bind that jīva, because Hari's grace (anugraha) is the sole liberating cause. Freed from karma-bandha, the jīva attains Hari's presence — not identity — which is the proper limit (maryādā) of liberation for a permanently distinct, permanently subordinate self.",
-      "divergence_note": "ABSENT — Madhva did not comment on 9.28 per the supplied corpus. Rendering is inferred from Dvaita siddhānta; flag this as doctrinal projection, not attested bhāṣya."
+      "english_rendering": "*Śubhāśubha-phalaiḥ* (fruits that are auspicious and inauspicious) — the double yield of *karma* (action) that constitutes *karma-bandhana* (the bondage of action) — lose their binding force entirely for the *jīva* whose selfhood is gathered into *saṃnyāsa-yoga* (the discipline of complete offering to Hari). *Śubhāśubha-phalair evaṃ mokṣyase karma-bandhanaiḥ*: liberation from this double bondage is not the *jīva*'s own achievement but the direct effect of Hari's *anugraha* (grace), for the *jīva* is *paratantra* (eternally dependent) at every ontological level and can never be the independent cause of its own release. The *pañca-bheda* (the five-fold real distinction) — above all the Lord–*jīva* *bheda* (real distinction) — remains intact through and beyond liberation; *vimuktaḥ* names the freed *jīva* as arriving at Hari's presence, not dissolving into Hari. *Mām upaiṣyasi* is arrival in the strict sense: the *paratantra jīva* reaches the *svatantra* (independently real, self-sufficient) Lord and abides in *taratamya* (graded ontological hierarchy), subordinate, distinct, and in *bhakti* (devotion) that is itself ontological subordination. No *karma*, whether meritorious or demeritorious, can reassert its claim over a *jīva* whose every act has been performed as dependent worship within the *śarīra* (body) of Hari's will.",
+      "divergence_note": "No attested bhāṣya from Madhva or Jayatīrtha on 9.28. Reading voiced directly from Dvaita *siddhānta*: *paratantra jīva*, *pañca-bheda*, *anugraha* as liberating cause, and *mām upaiṣyasi* as real arrival rather than dissolution.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -373,21 +374,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "तत्कुरुष्व मदर्पणम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.27"
-      ]
-    },
-    {
-      "list": "मयि संन्यस्य",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.6",
-        "18.57"
-      ]
-    },
     {
       "list": "युक्त",
       "role": "supporting",
@@ -485,7 +471,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mokṣyase: muc -> √muc",
+          "yukta: yuj -> √yuj",
+          "vimuktaḥ: vimuc -> vi-√muc",
+          "upaiṣyasi: upe -> √upe"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma-bondage is dissolved by the act of offering rather than by renouncing action, what is the operational difference between a saṃnyāsī who quits acts and a householder who offers them — and does this verse collapse that distinction?",
@@ -503,5 +502,6 @@
     "śuddhādvaita": "When tending a relationship that demands continual giving — a parent with a difficult child, a teacher with a struggling student — notice the difference between service-as-depletion and service-as-sevā. Vallabha's frame says the devotee reaches Puruṣottama in a sevā-fit form: the capacity to serve is itself the form liberation takes; sustained caregiving is not a detour from freedom but its shape.",
     "bhakti": "In a high-stakes negotiation, make your best offer and then release your grip on the outcome by naming — even silently — to whom the result belongs. Śrīdhara's logic: once the act is genuinely transferred, tava tat-phala-sambandha becomes anapatti (impossible). The negotiation proceeds the same way; your nervous system does not.",
     "advaita-bhakti": "When a long-held identity — professional, relational, ideological — begins to dissolve under life's pressure, Madhusūdana's two-stage map applies: first the antaḥkaraṇa is purified (you see more clearly), then the upādhi (limiting role) falls away entirely. Do not rush the second stage by forcing renunciation; let the purification complete. The verse promises that completion."
-  }
+  },
+  "primary_meaning": "Surrender every act to Me through *saṃnyāsa-yoga*, and karma's bonds will release you from both their pleasant and their painful fruits, and you will come to Me."
 }

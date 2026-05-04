@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "āśritaḥ",
-      "lemma": "āśri",
+      "lemma": "√āśri",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -325,8 +325,9 @@
         "jayatirtha_12.11"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva left no direct commentary on this verse. From the Dvaita perspective the verse is read as Hari prescribing the final accessible rung for the most dependent jiva: where direct service and meditation both exceed present capacity, surrender every fruit of action to Hari as sovereign Lord, since no fruit ever belonged to the jiva in the first place. The 'yata-atman' (self-restrained soul) here signals acknowledgment of complete dependence — the jiva's effort is valid only as an offering, never as independent agency. Phala-tyaga is not quietism; it is the structural admission of the jiva's 'paratantrya' (radical-dependence) which Hari then honors with grace.",
-      "divergence_note": "ABSENT — Madhva's corpus has no commentary on BG 12.11; rendering reconstructed from Dvaita structural principles."
+      "english_rendering": "Where even *mad-yoga* (meditative practice fixed on Hari) exceeds the *jīva*'s present capacity, Kṛṣṇa prescribes *sarva-karma-phala-tyāga* (relinquishment of the fruits of all action) as the accessible station — *athaitad apy aśakto 'si kartuṃ mad-yogam āśritaḥ | sarva-karma-phala-tyāgaṃ tataḥ kuru yatātmavān*. The descending sequence — direct *bhakti*, then *abhyāsa*, then *mat-karmakṛt*, and now *phala-tyāga* — maps the graduated accessibility of approaches to Hari, each rung preserving the *paratantra* (eternally dependent) status of the *jīva* relative to *svatantra* (the independently real, self-sufficient) Hari. No fruit of action belongs to the *jīva* by its own right; *phala* accrues only by Hari's dispensation, and *pañca-bheda* (the five-fold real distinction) between Lord and *jīva* is never dissolved in this relinquishment. *Yatātmavān* — the self-restrained *jīva* — names one who has ceased asserting independent agency and whose very effort is an acknowledgment of *paratantrya* (radical dependence). *Phala-tyāga* at this level is not mere non-attachment in the Śāṅkara sense; it is a positive *bheda*-affirming act: offering what was never one's own back to its sovereign owner. Hari, as *taratamya* (graded ontological hierarchy) demands, honors this admission with grace proportionate to the *jīva*'s station in the hierarchy.",
+      "divergence_note": "No commentary by Madhva or Jayatīrtha on BG 12.11 is extant; the reading is voiced from Dvaita *siddhānta* directly off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -377,13 +378,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.12"
-      ]
-    },
-    {
       "list": "कर्मयोग",
       "role": "supporting",
       "other_verses_in_list": [
@@ -430,16 +424,6 @@
       ]
     },
     {
-      "list": "मा ते सङ्गोऽस्त्वकर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.8",
-        "3.23",
-        "3.24"
-      ]
-    },
-    {
       "list": "योगम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -476,13 +460,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "18.2"
-      ]
-    },
-    {
-      "list": "सर्वकर्मफलत्यागं ततः कुरु यतात्मवान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.8"
       ]
     },
     {
@@ -534,7 +511,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asi: as -> √as",
+          "āśritaḥ: āśri -> √āśri",
+          "yata: yam -> √yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse presents a descending ladder of practice — what does it reveal about how Krishna thinks about human capacity and the ethics of meeting people where they are rather than where they should be?",
@@ -552,5 +541,6 @@
     "shuddhadvaita": "On days when Krsna-smarana (remembrance-of-Krsna) is sparse, Vallabha's instruction is practical: before beginning any significant task, verbally or mentally place the result in Krsna's hands as a formal act, then work without tracking the scoreboard. The 'burden on Me' is not metaphor — it is a daily transaction that keeps the Pushti-marga householder functional without requiring continuous ecstatic states.",
     "bhakti": "Sridhara's version is the most institutional: fulfill your obligatory duties — work commitments, family rites, community obligations — with full effort, but treat the outcome as the Lord's domain. The fruit-surrender is not about indifference to results; it is about correctly locating who owns them. The practical shift is from 'I need this to work out' to 'I have done what was asked of me.'",
     "advaita-bhakti": "Madhusudana's dual requirement — senses restrained AND discriminative intellect active — translates practically as: before undertaking any significant action, briefly check that you are not acting from compulsion (sense-pull) or from confused stakes (unclear about what matters). Those two checks together constitute 'yata-atman plus viveka'. You do not need a perfect meditative state; you need those two gates cleared before you begin."
-  }
+  },
+  "primary_meaning": "If even that is beyond you, take refuge in Me and surrender the fruits of every action, keeping your mind restrained."
 }

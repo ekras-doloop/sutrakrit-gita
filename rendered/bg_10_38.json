@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "damayatām",
-      "lemma": "damay",
+      "lemma": "√damay",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "jigīṣatām",
-      "lemma": "jigīṣ",
+      "lemma": "√jigīṣ",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -492,7 +492,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "damayatām: damay -> √damay",
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "jigīṣatām: jigīṣ -> √jigīṣ",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the rod of punishment (daṇḍa) is itself a divine vibhūti, does that mean coercive discipline — in parenting, governance, or institutional life — can be a form of sacred action rather than a failure of compassion?",
@@ -510,5 +524,6 @@
     "śuddhādvaita": "Call to mind a concrete moment when a painful rebuke or a hard rule changed you for the better. Vallabha's lens: that specific event of daṇḍa was Kṛṣṇa's own touch in your life, not merely a human instrument. Return gratitude there, not only to an abstraction.",
     "bhakti": "Before entering any sensitive conversation, ask: is my silence here the 'avacana' Śrīdhara names — the kind that protects what should not be said — or is it avoidance dressed as restraint? Real mauna has a specific object it guards; undifferentiated silence is merely fear.",
     "advaita-bhakti": "Madhusūdana's double reading of mauna — as speech-restraint and as sustained inner attention on the Self — suggests a daily practice: treat periods of literal silence (commute, early morning, between meetings) as potential nididhyāsana, not merely as absence of noise. The gap is the vibhūti."
-  }
+  },
+  "primary_meaning": "Among those who discipline, I am the rod of correction; among those who seek victory, I am statecraft. I am the silence that guards secrets, and the knowledge that lives in those who truly know."
 }

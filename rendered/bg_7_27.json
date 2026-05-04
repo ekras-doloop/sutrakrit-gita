@@ -202,7 +202,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -446,13 +446,6 @@
       ]
     },
     {
-      "list": "निर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.38"
-      ]
-    },
-    {
       "list": "सर्गे यान्ति",
       "role": "supporting",
       "other_verses_in_list": [
@@ -487,7 +480,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yānti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If saṃmoha is installed at the moment of birth itself — not built up gradually — does any effort made within ordinary waking consciousness ever truly reach the root, or does it only rearrange the furniture of delusion?",
@@ -505,5 +508,6 @@
     "śuddhādvaita": "Vallabha's cosmological reading releases the practitioner from the burden of self-extraction: since dvandva-moha is woven into sṛṣṭi by Īśvara, no personal effort can dissolve it from the inside. The everyday implication: stop treating your reactive desires and aversions as enemies to be conquered, and start treating them as evidence of your kṣara-nature, which precisely needs prasāda. The practice becomes one of open acknowledgment — 'I am caught in the pairs, I cannot free myself, I ask' — rather than effortful cultivation. The threshold posture is surrender, not discipline.",
     "bhakti": "Śrīdhara's viveka-bhraṃśa points to a concrete and recoverable cognitive moment: the instant you say or think 'I am the one who was wronged' or 'I am the one who succeeded' — the aham-sukhī / aham-duḥkhī move — discrimination has already collapsed. The application is: catch that sentence. Not the emotion underneath it, not its justification, but the grammatical move of placing 'I' as the subject of the pleasure or pain. Bhakti practice, in this reading, is repeated re-attribution: 'This pleasure, this pain — Kṛṣṇa is the ground; I am not its seat.' The reattribution does not eliminate experience; it relocates its apparent ownership.",
     "advaita-bhakti": "Madhusūdana's reading of the dual vocative offers a relational anchor: the person being addressed by Kṛṣṇa directly — as 'Bhārata' (lineage-holder) and 'Paraṃtapa' (scorcher of foes) — is being reminded of capacities that dvandva-moha cannot extinguish. In everyday terms: when the pairs have closed in and you feel viveka-ayogya (incapable of discernment), the instruction is to recall what Kṛṣṇa has specifically named in you — your actual capabilities and commitments, not abstract identity. The Bhagavān-facing relationship itself carries exemption from complete moha-capture; the synthesis implies that regular direct address to Kṛṣṇa maintains the very channel that moha would otherwise close."
-  }
+  },
+  "primary_meaning": "Born into this world, all beings fall into delusion, swept up by desire and aversion into the confusion of opposites."
 }

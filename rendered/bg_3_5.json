@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "tiṣṭhati",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "kāryate",
-      "lemma": "kāray",
+      "lemma": "√kāray",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -495,7 +495,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -583,17 +583,6 @@
         "18.40",
         "18.59"
       ]
-    },
-    {
-      "list": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.6",
-        "4.16",
-        "4.32",
-        "5.13",
-        "18.15"
-      ]
     }
   ],
   "audit_trail": {
@@ -623,7 +612,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhati: sthā -> √sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kāryate: kāray -> √kāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the guṇas (qualities) are always driving action, what exactly does 'free will' mean in this framework — is there any freedom at all, or only freedom about the orientation of action?",
@@ -641,5 +648,6 @@
     "śuddhādvaita": "In the Puṣṭi-mārga household, the daily tide of chores, obligations, and interruptions is itself the substance of bhakti. When you are driven to cook, to speak, to move, to respond — consecrate the compulsion by mentally placing each act at Kṛṣṇa's feet before doing it. The verse's 'avaśaḥ' (helplessly) is reread not as bondage but as Kṛṣṇa's own playful pull; the devotee surfs it rather than fighting it.",
     "bhakti": "Before beginning any task you did not consciously choose — a reflex response, a social obligation, a habit — pause for one breath and name the attachment (rāga) or aversion (dveṣa) driving it. Śrīdhara's application: you cannot stop the act, but you can catch the hook. That one breath of noticing is the beginning of non-attachment (anāsakti), which is the only form of karma-sannyāsa available to an embodied being.",
     "advaita-bhakti": "When spiritual practice feels dry, effortful, or joyless — when you are going through the motions of japa, puja, or study without inner resonance — take it as Madhusūdana's diagnostic signal: chitta-śuddhi is incomplete. The application is to re-enter karma-yoga not as a demotion but as repair work: honest, humble, Kṛṣṇa-surrendered action in ordinary life, performed until the antaḥkaraṇa becomes a clear enough vessel for genuine bhakti and eventually jñāna to arise naturally."
-  }
+  },
+  "primary_meaning": "No one stands still even for a moment; every creature is driven helplessly to act by the qualities of nature, sattva, rajas, and tamas."
 }

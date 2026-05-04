@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "vimuñcati",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -346,8 +346,10 @@
         "jayatirtha_18.35"
       ],
       "score": 0.5,
-      "english_rendering": "The tamasic resolve clings to svapna (sleep, inertia), bhaya (fear), shoka (grief), vishada (dejection), and mada (pride) — all of which are precisely the qualities that obstruct the jiva's recognition of its eternal dependence (paratanatrata) on Hari and its surrender to Him. Though Madhva's direct commentary on this verse is absent from the corpus, the dvaita framework requires reading durmedhas (corrupt intelligence) as the mind that refuses to discriminate between the eternal Hari (svatantra) and the eternally subordinate jiva (paratantra), instead holding these tamasic vrttis as its natural home.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Dhṛti* (resolve) of the *tāmasī* (darkened) kind holds fast to *svapna* (sleep, torpor), *bhaya* (fear), *śoka* (grief), *viṣāda* (dejection), and *mada* (intoxicated pride) — and does not relinquish them. The one so bound is *durmedhā* (corrupt-minded): the intelligence that cannot discriminate between *svatantra* (the independently real, self-sufficient) Hari and the *paratantra* (eternally dependent) *jīva* remains fastened to these *tāmasic* states as though they were its rightful possession. Where *sāttvikī dhṛti* orients the *jīva* toward Hari through *bhakti* (devotion) and clear acknowledgment of *bheda* (real distinction), *tāmasī dhṛti* inverts this: it is the *jīva*'s refusal of its own *paratantra* nature, expressed as torpor, fear, grief, and pride. *Mada* is named last and most sharply — the swelling of self-regard that is the direct inversion of ontological subordination to the *svatantra* Lord. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) remains what it is; *tāmasī dhṛti* neither dissolves nor transcends it, but produces a *durmedhā* who is bound within *taratamya* (graded ontological hierarchy) at its lowest register.",
+      "commentator": "Madhvacharya",
+      "divergence_note": "Bucket changed from B to C: both Madhva and Jayatīrtha are silent on this śloka. The reading is voiced directly from dvaita *siddhānta* off the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -500,7 +502,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vimuñcati: vimuc -> vi-√muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If tamasic dhrti holds sleep, fear, and grief as quasi-duties, what does it look like when a person mistakes their depression or anxiety for a stable identity they must protect?",
@@ -518,5 +530,6 @@
     "shuddhadvata": "In the pushti-marga reading, tamasic dhrti is the soul clinging to its own weight instead of floating in Krishna's lila-prasada (grace-play). The practical form: when you notice you are 'enjoying' your own heaviness — nursing a grievance, staying in bed past usefulness, savoring self-pity — recognize this as the opposite of seva-nishtha, and redirect even one small act toward an offering.",
     "bhakti": "Sridhara's key word is aviveka (non-discrimination): the tamasic person cannot tell the difference between their passing mood and their permanent nature. The bhakti antidote is satsanga — proximity to those whose viveka is intact. You do not dissolve tamasic dhrti alone; you dissolve it by letting the discriminating attention of the sangha reflect back what you cannot see in yourself.",
     "advaita-bhakti": "Madhusudhana names vishada as indriyavasada — the collapse of the senses, not merely sadness. The synthesis: when the senses collapse into heaviness, the Krishnaprema that Madhusudhana extols cannot find entry — not because it is absent but because the channel is clogged with kartavya-tamas (obligatory torpor). The advaita-bhakti practice is double: first the jnana-scalpel of viveka to name what is happening, then the bhakti-surrender to let it go rather than hold it as self."
-  }
+  },
+  "primary_meaning": "That resolve which holds tight to sleep, fear, grief, dejection, and conceit and never lets any of them go, gripped by a dull mind that mistakes its darkness for stability, is the resolve of tamas, O Pārtha."
 }

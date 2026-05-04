@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "upasevate",
-      "lemma": "upasev",
+      "lemma": "upa-√sev",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -420,7 +420,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upasevate: upasev -> upa-√sev"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If manas (mind) is the sixth sense alongside the five external organs, what does it mean to 'hear' a thought rather than merely think it — and does meditation on this distinction loosen the grip of mental noise?",
@@ -438,5 +448,6 @@
     "shuddhadvaita": "Vallabha's application: when a sensation arrives as pleasant, resist calling it 'mine.' Say inwardly: 'This was taken from the svashakti (self-power) of Krishna and is being returned to me as prasada (grace-gift).' Over repeated practice the ahankara-knot loosens because the ownership-claim is repeatedly declined.",
     "bhakti": "Shridhara's balance suggests an accessible bhakti-practice: at the end of each day, name one thing heard, one seen, one tasted, and ask whether that sensory moment drew you toward or away from the Divine. The practice is not suppression but redirection — the antahkarana (inner organ) learning to orient its intake.",
     "advaita-bhakti": "Madhusudana adds prana (vital force) and the karmendriyas (action-organs) to the list — so the application widens: not just what you perceive but what you do and how you breathe is included in the 'sensory bundle' that travels with the jiva. A Madhusudana-inflected sadhana (practice) is to bracket one full sensory-motor sequence (a walk, a conversation) and hold the question: 'Is this bundle being used as avidya (ignorance) or as bhakti (devotion)?'"
-  }
+  },
+  "primary_meaning": "Presiding over hearing, sight, touch, taste, and smell, with mind as the sixth, the embodied self moves through and enjoys the objects of the senses."
 }

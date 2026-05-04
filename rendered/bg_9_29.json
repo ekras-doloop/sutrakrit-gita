@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "bhajanti",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -541,51 +541,6 @@
         "11.54",
         "18.55"
       ]
-    },
-    {
-      "list": "मया ततमिदं सर्वं जगदव्यक्तमूर्तिना",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.4",
-        "9.5"
-      ]
-    },
-    {
-      "list": "मैं भगवान्का हूँ और भगवान् मेरे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.5",
-        "8.14",
-        "9.30"
-      ]
-    },
-    {
-      "list": "ये यथा मां प्रपद्यन्ते तांस्तथैव भजाम्यहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.11",
-        "12.7"
-      ]
-    },
-    {
-      "list": "समोऽहं सर्वभूतेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.7"
-      ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.40",
-        "5.29",
-        "6.9",
-        "7.21",
-        "8.6",
-        "12.13",
-        "12.14"
-      ]
     }
   ],
   "audit_trail": {
@@ -615,7 +570,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as",
+          "bhajanti: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord is genuinely sama (equal) toward all beings, what exactly does bhakti (devotion) add — does it change the Lord or change the worshipper?",
@@ -633,5 +599,6 @@
     "śuddhādvaita": "Vallabha's kalpavṛkṣa (wish-tree) image reframes entitlement: the tree withholds nothing — you simply have not sat beneath it. If you are not receiving what you need from a relationship, a practice, or a community, the Puṣṭi-mārga question is not 'are they withholding?' but 'have I actually approached?' Approach does not mean proximity in space — it means surrender of the transaction-mind.",
     "bhakti": "Śrīdhara's balance of the fire and wish-tree says: do not confuse God's impartiality with indifference. The same fire that warms the one who approaches simply does not reach the one who stays away — no hostility, no love-minus-justice, just physics. When you feel overlooked by a system, a teacher, or an institution that you know is fundamentally fair, Śrīdhara asks: have you moved closer?",
     "advaita-bhakti": "Madhusūdana's mirror-metaphor is directly actionable: the antaḥkaraṇa (inner instrument) becomes svaccha (pellucid) through niṣkāma-karma — action offered without attachment to outcome. Pick one recurring task today that you always perform with some agenda (recognition, reciprocity, safety) and do it once as pure offering. Notice whether the quality of your perception — of others, of the situation — shifts. That shift is the mirror clearing."
-  }
+  },
+  "primary_meaning": "I am the same in all beings, I have no enemy and no favorite, yet those who worship me with devotion abide in me, and I in them."
 }

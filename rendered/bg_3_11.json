@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "bhāvayata",
-      "lemma": "bhāvay",
+      "lemma": "√bhāvay",
       "grammar": "present imperative 2nd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "bhāvayantu",
-      "lemma": "bhāvay",
+      "lemma": "√bhāvay",
       "grammar": "present imperative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "bhāvayantaḥ",
-      "lemma": "bhāvay",
+      "lemma": "√bhāvay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "avāpsyatha",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "future indicative 2nd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -390,21 +390,7 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.10"
-      ]
-    },
-    {
       "list": "इष्टकाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.10"
-      ]
-    },
-    {
-      "list": "एहि तन कर फल बिषय न भाई",
       "role": "supporting",
       "other_verses_in_list": [
         "3.10"
@@ -455,20 +441,6 @@
         "3.10",
         "11.39"
       ]
-    },
-    {
-      "list": "श्रेयः परमवाप्स्यथ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.10"
-      ]
-    },
-    {
-      "list": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.10"
-      ]
     }
   ],
   "audit_trail": {
@@ -498,7 +470,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhāvayata: bhāvay -> √bhāvay",
+          "bhāvayantu: bhāvay -> √bhāvay",
+          "bhāvayantaḥ: bhāvay -> √bhāvay",
+          "avāpsyatha: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Śaṅkara treats yajña as merely preparatory for jñāna, does performing it with full attention already constitute jñāna in action — or does the ladder metaphor imply yajña is dispensable once jñāna dawns?",
@@ -516,5 +501,6 @@
     "śuddhādvaita": "Perform your household duties — cooking, earning, child-rearing — as prasāda (grace-offering) rather than as transactions. Vallabha's point: the ordained tasks of your station are already the path; no separate spiritual practice is required. The ātyantikaṃ śreyas (absolute good) is available inside the ordinary, not beyond it.",
     "bhakti": "Śrīdhara's reciprocity is practical: whatever you receive — a meal, a salary, a sunny day — was produced by someone else's labor or grace. Build reciprocity into daily life explicitly: acknowledge it, return it, pass it forward. The devotional coloring is gratitude as a living posture, not a one-time transaction.",
     "advaita-bhakti": "Madhusūdana's two-register reading suggests you can hold both pragmatic and transcendent frames simultaneously. Attend fully to the practical exchange — do your work well, honor your obligations — while inwardly orienting toward the larger aim. The svarga (immediate flourishing) and mokṣa (liberation) are not competing goals but nested ones: excel at the near, hold the far."
-  }
+  },
+  "primary_meaning": "Nourish the gods through sacrifice, and they will nourish you in return; by sustaining each other this way, you will reach the highest good."
 }

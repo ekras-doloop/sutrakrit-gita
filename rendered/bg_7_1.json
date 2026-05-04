@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "āsakta",
-      "lemma": "āsañj",
+      "lemma": "ā-√sañj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "yuñjan",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "jñāsyasi",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -381,13 +381,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "ज्ञायाचरतः कर्म समग्रं प्रविलीयते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.23"
-      ]
-    },
-    {
       "list": "पार्थ",
       "role": "supporting",
       "other_verses_in_list": [
@@ -484,13 +477,6 @@
       ]
     },
     {
-      "list": "श्रद्धावान् भजते यो मां स मे युक्ततमो मतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.47"
-      ]
-    },
-    {
       "list": "समग्र",
       "role": "supporting",
       "other_verses_in_list": [
@@ -526,7 +512,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsakta: āsañj -> ā-√sañj",
+          "yuñjan: yuj -> √yuj",
+          "jñāsyasi: jñā -> √jñā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Does mad-āśrayaḥ require a prior complete renunciation of all other sādhanas, or can subsidiary practices coexist until attachment to Kṛṣṇa matures on its own?",
@@ -544,5 +542,6 @@
     "śuddhādvaita": "Vallabha says bhakti without mahimā-jñāna is insufficiently grounded and will not produce mukti. The Puṣṭi-mārga application is to precede any kirtan or pūjā with a brief deliberate reflection on one specific attribute of Kṛṣṇa's greatness — not generic praise, but a concrete quality (His infinite compassion, His aloukika-līlā) — so that the affection that arises is rooted in knowledge rather than sentiment alone.",
     "bhakti": "Śrīdhara's ananya-śaraṇa (\"no other shelter\") is not a dramatic gesture of renunciation but a daily orientation check: Is my mind, at this moment, locating its ultimate safety in Bhagavān or in a contingent circumstance? The practice is to notice each time a circumstance (approval, health, money) functions as the primary refuge — and to gently relocate that structural dependence toward Kṛṣṇa through repeated smaraṇa until the reorientation stabilises.",
     "advaita-bhakti": "Madhusūdana's mад-eka-śaraṇa applied daily means refusing to split the contemplative and active registers: the mind that is sarvadā niviṣṭa (perpetually lodged) in Kṛṣṇa as the ground of all worlds does not exit that ground when it enters a meeting or a difficult conversation. The synthesising practice is to hold the recognition \"this situation arises within Kṛṣṇa as sakala-jagad-āyatana\" even in the middle of worldly engagement — not as a mantra overlay but as a background ontological fact."
-  }
+  },
+  "primary_meaning": "Listen, Pārtha: with your mind fixed on Me, taking Me as your only shelter, and practicing yoga, you will know Me fully and without doubt."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "matā",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -315,7 +315,7 @@
     },
     {
       "surface_form": "niyojayasi",
-      "lemma": "niyojay",
+      "lemma": "ni-√yojay",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -523,7 +523,7 @@
         "jayatirtha_3.1"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva foregrounds the prior chapter's explicit statement 'dūreṇa hy avaraṃ karma' (BG 2.49 — karma is far inferior) as the evidentiary anchor: the Lord himself ranked jñāna as attyuttama (supremely excellent) relative to karma. Arjuna's question is thus a legitimate citation of the Lord's own words — if karma is inherently avara (lower), the command to perform yuddha (war, the ghora-karma par excellence) requires fresh justification. In Dvaita's framework the question also implies a structural point: jīva (individual soul) in dependent relationship to Hari acts; yet if Hari has said knowledge transcends action, the dependent agent needs Hari's own authorisation to override that ranking."
+      "english_rendering": "Madhva opens by marking the subject-matter of the preceding chapter: *ātmasvarūpaṃ jñānasādhanaṃ coktaṃ pūrvatra* — the nature of the *ātman* and the means of *jñāna* were stated in Chapter Two. Chapter Three now takes up *karma*, treating inaction (*akarma*) as blameworthy by way of contrast and prescribing action as obligatory: *jñānasādhanatvena akarma vinindya karma vidhīyate*. The Lord's own words in 2.49 — *dūreṇa hy avaraṃ karma* — had ranked *karma* as far inferior and established *jñāna* as *atyuttama* (supremely excellent): *karmaṇo jñānam atyuttamam ity abhihitaṃ bhagavatā*. Arjuna's question presses on exactly this: *tat tarhi kiṃ karmaṇi ghore yuddha-ākhye niyojayasi* — if so, why do you then engage me in the terrible act called war? Jayatīrtha notes that *karmaṇi ghore* and *kiṃ niyojayasi* are in fact two distinct questions within the one verse. The *karma* in both halves of the verse denotes *kāmya-karma* (desire-motivated action), and war (*yuddha*) belongs to that *kāmya* category, as confirmed by the fruit announced in 2.37: *hato vā prāpsyasi svargam*. Against it stand the *nivṛtta-dharmāḥ* — *niṣkāma-dharmāḥ* proper to the *yati*-order, *śamadamādīni*, which are *akāmya* and directed toward *jñāna*, untainted by *rāgadveṣādi* (*ghore rāgadveṣādy-upete*). Since those calmer disciplines are available and feasible, engaging the *paratantra* *jīva* in the impossible-to-perform-without-passion act of war requires fresh justification from Hari himself. *Buddhi* here is *ātmajñānam*; *jyāyasī* is *praśasta-tarā* — the more commendable. The question is thus Arjuna citing Kṛṣṇa's own ranking back at him: *kṛpaṇāḥ phalahetavaḥ* (2.49) and all that follows."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -599,14 +599,6 @@
         "4.16",
         "8.1",
         "8.2"
-      ]
-    },
-    {
-      "list": "कुरु कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "3.2"
       ]
     },
     {
@@ -711,28 +703,6 @@
       ]
     },
     {
-      "list": "ज्यायसी चेत्कर्मणस्ते ৷৷ नियोजयसि केशव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.2"
-      ]
-    },
-    {
-      "list": "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.2",
-        "5.1"
-      ]
-    },
-    {
-      "list": "तू इन कुरुवंशियोंको देख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.2"
-      ]
-    },
-    {
       "list": "बुद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -803,38 +773,6 @@
       ]
     },
     {
-      "list": "बुद्धौ शरणमन्विच्छ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.49",
-        "3.2"
-      ]
-    },
-    {
-      "list": "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "3.2",
-        "5.1",
-        "16.5"
-      ]
-    },
-    {
-      "list": "व्यामिश्रेणेव वाक्येन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.2"
-      ]
-    },
-    {
-      "list": "व्यामिश्रेणेव वाक्येन बुद्धिं मोहयसीव मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.2"
-      ]
-    },
-    {
       "list": "समबुद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -870,7 +808,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "matā: man -> √man",
+          "niyojayasi: niyojay -> ni-√yojay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When a teacher gives two instructions that seem to rank one path above another, is the student obligated to choose the higher — or does the teacher have authority to assign the lower for developmental reasons?",
@@ -888,5 +838,6 @@
     "śuddhādvaita": "In creative or devotional practice, there is a moment when intellectual deliberation about the 'right path' must be surrendered to the practitioner's direct relationship with the work or the beloved. Vallabha's reading says Arjuna is still in the deliberative stage — not yet grasped by grace. The everyday application is recognising when strategic thinking has become a substitute for surrender: the question 'which path is better?' can itself be the obstacle when the answer is 'whichever one Kṛṣṇa is handing you right now'.",
     "bhakti": "When a teacher's guidance feels internally contradictory, the devotional response is neither silent compliance nor adversarial debate, but honest articulation — bringing the confusion into the relationship rather than suppressing or weaponising it. Śrīdhara's Arjuna models vulnerable inquiry: he trusts the teacher enough to voice his bewilderment. The practice is cultivating the quality of relationship in which confusion can be named without being a sign of disloyalty.",
     "advaita-bhakti": "Madhusūdana's five-stage architecture suggests that most human confusion about 'what I should be doing' arises from collapsing a developmental sequence into a single simultaneous choice. When you feel torn between a purifying discipline (exercise, study, service) and a deeper contemplative practice, the question is rarely 'which is better' — it is 'where am I in the sequence?' The everyday practice is honest self-assessment of developmental stage rather than comparison of path-superiority in the abstract."
-  }
+  },
+  "primary_meaning": "Arjuna asks: if you hold wisdom higher than action, Krishna, why do you drive me into this terrible fight?"
 }

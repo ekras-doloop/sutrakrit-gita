@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "bhavitā",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "future indicative peri 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -406,7 +406,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -457,7 +457,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavitā: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What does it mean that Krishna rates transmission of His teaching above all other acts — including heroism in battle — as the measure of being beloved?",
@@ -474,5 +484,6 @@
     "shuddhadvaita": "Vallabha's Pushti-marga reads every act of transmission as Krishna's own lila flowing through a chosen vessel. Practically: when you feel moved to share something transformative with someone, treat that impulse as prasada (grace) rather than personal initiative — it reduces ego-inflation in teaching roles.",
     "bhakti": "Sridhara ties the highest bhakti to explanation and exposition, not only to emotional devotion. This means that careful, honest explanation of what a teaching actually says — correcting misreadings, providing context — is itself a devotional act, as much as any puja or kirtan.",
     "advaita-bhakti": "Madhusudana's synthesis suggests that intellectual precision (Advaita) and heart-engagement (bhakti) are not rivals in the act of teaching. In practice: when explaining a difficult concept, do not choose between rigour and warmth — the fullest transmission honours both, and that is what makes it most priya (beloved) to Krishna."
-  }
+  },
+  "primary_meaning": "No one among all human beings is more beloved to me than the one who teaches this, nor will any other ever be dearer on this earth."
 }

@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "śaṃsasi",
-      "lemma": "śaṃs",
+      "lemma": "√śaṃs",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "brūhi",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -402,31 +402,6 @@
       ]
     },
     {
-      "list": "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.1",
-        "3.2"
-      ]
-    },
-    {
-      "list": "यच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "16.5"
-      ]
-    },
-    {
-      "list": "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "3.1",
-        "3.2",
-        "16.5"
-      ]
-    },
-    {
       "list": "संन्यास",
       "role": "supporting",
       "other_verses_in_list": [
@@ -474,7 +449,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śaṃsasi: śaṃs -> √śaṃs",
+          "brūhi: brū -> √brū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When a teacher gives two instructions that cannot both be followed at once, is the student obligated to resolve the contradiction themselves or to ask for hierarchical clarification — and what does it reveal about a tradition that its scripture enacts this very moment?",
@@ -492,5 +478,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga reading suggests that the confusion between 'renounce action' and 'perform action' often dissolves when you locate whose action it is. When you are unclear whether to step back or step forward in a creative or relational situation, ask whether you are acting from personal agenda or from love for the person or project in front of you; the second orientation resolves the apparent choice.",
     "bhakti": "Śrīdhara's precise framing — mutual exclusion (viruddha-svarūpa) means both cannot operate simultaneously — is directly applicable to any situation where two virtues genuinely conflict (honesty vs. kindness, loyalty vs. fairness). The mature response is not to pretend the conflict doesn't exist but to name it clearly and ask the person you trust most for the one that is most settled (suniścita) for this situation.",
     "advaita-bhakti": "Madhusūdana's sequential model — purify first, then renounce, then enquire — maps cleanly onto personal transformation arcs: acting skillfully (karma-yoga phase) to clarify your own values and capacity, then voluntarily reducing external commitments (saṃnyāsa phase) to create unobstructed space for deep inquiry. Trying to compress or skip stages produces the very confusion Arjuna is expressing; the right question is 'which stage am I actually in?', not 'which path is better in the abstract?'"
-  }
+  },
+  "primary_meaning": "You praise renunciation of action and then action itself, Arjuna tells Krishna. Which of the two leads more surely to the good? Tell me that one, with no ambiguity left."
 }

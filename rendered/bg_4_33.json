@@ -226,7 +226,7 @@
     },
     {
       "surface_form": "parisamāpyate",
-      "lemma": "parisamāp",
+      "lemma": "pari-√samāp",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -684,7 +684,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "parisamāpyate: parisamāp -> pari-√samāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all karma ultimately 'ends' in jñāna, does this verse render ritual action optional or merely preliminary — and do the six schools actually agree on the answer?",
@@ -702,5 +712,6 @@
     "śuddhādvaita": "When frustration arises because an act 'didn't work,' recall Vallabha's frame: you are already inside Kṛṣṇa's svarūpa; the frustration itself, the effort itself, the outcome itself are all forms of His being. This is not consolation — it is the cognitive shift that constitutes brahma-ātmakatva-jñāna in the middle of the difficulty.",
     "bhakti": "Notice which of your daily acts arise from anātma-vyāpāra (ego-machinery running on habit) versus those moments when ātman seems to look through the act itself. Śrīdhara's criterion is phenomenological: in the second case there is a quality of self-evidence (svayam-prakāśa) that no amount of effort produces — you can cultivate conditions for it, but not manufacture it.",
     "advaita-bhakti": "Use Madhusūdana's pratibandhaka-kṣaya model practically: identify one specific pratibandhaka (obstacle) — pride, distraction, a particular craving — and pick one karma-yoga practice to dissolve it. The practice is not the goal; the cleared space is where brahma-ātma-aikya-sākṣātkāra becomes possible. Keep the endpoint luminous while working the obstacle."
-  }
+  },
+  "primary_meaning": "The sacrifice of knowledge surpasses any sacrifice of material things, Arjuna; all action, without remainder, finds its completion in knowledge."
 }

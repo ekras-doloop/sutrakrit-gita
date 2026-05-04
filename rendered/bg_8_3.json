@@ -78,7 +78,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -301,13 +301,6 @@
       ]
     },
     {
-      "list": "अक्षरं ब्रह्म परमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.11"
-      ]
-    },
-    {
       "list": "ब्रह्म",
       "role": "supporting",
       "other_verses_in_list": [
@@ -358,23 +351,6 @@
         "18.53",
         "18.54"
       ]
-    },
-    {
-      "list": "भूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.7"
-      ]
-    },
-    {
-      "list": "ममैवांशो जीवलोके",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30",
-        "4.24",
-        "4.40",
-        "5.22"
-      ]
     }
   ],
   "audit_trail": {
@@ -404,7 +380,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If akṣara means 'imperishable Brahman' for Śaṅkara but 'collective liberated jīva' for Rāmānuja, do these schools actually disagree about reality or only about which layer of reality Kṛṣṇa is pointing at in this verse?",
@@ -422,5 +408,6 @@
     "śuddhādvaita": "Vallabha's visarga is Kṛṣṇa's own creative bliss pouring through the pañcāgni chain — the child born, the meal cooked, the rain fallen are all offerings completing themselves. The Puṣṭi-mārga application: treat one ordinary creation event today (a meal prepared, a sentence written, a plant watered) as a received gift from Kṛṣṇa's creative act rather than your own production. The shift is from 'I made this' to 'this arose through me as part of Kṛṣṇa's sarga.'",
     "bhakti": "Śrīdhara's karma is the dravya-tyāga — the concrete giving-away of material goods toward a dedicatee — and he makes it clear this is synecdoche for all action. The everyday rule: every significant action should have a named dedicatee (a cause, a person, a deity) rather than being done in a vacuum. Before beginning work each morning, state aloud or silently: 'This work goes to ___.' The specification is the visarga; the act becomes karma in Kṛṣṇa's sense.",
     "advaita-bhakti": "Madhusūdana's synthesis holds that the nirguṇa Brahman-as-witness and the Kṛṣṇa of devoted action are not competing — the yajna-dāna-homa triad sustains the entire causal ecology. In practice: bring the triad into one workday — yajna (one focused offering of skill without distraction), dāna (one deliberate transfer of resource or knowledge to another), homa (one thing consciously released, not carried forward). These are not metaphors; they are the three structural moves that, per Madhusūdana's reading, keep the world cycling and the self from calcifying."
-  }
+  },
+  "primary_meaning": "The imperishable is the supreme Brahman; its own nature as it dwells within the body is called *adhyātman*; and the offering that brings forth the existence and growth of all beings is what is named *karma*."
 }

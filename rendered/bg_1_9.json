@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "tyakta",
-      "lemma": "tyaj",
+      "lemma": "√tyaj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -390,7 +390,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tyakta: tyaj -> √tyaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Duryodhana says these warriors are 'mad-arthe' — 'for my sake.' Every tradition finds this phrase troubling. What is the difference between fighting 'for my sake' and fighting 'for dharma's sake,' and can an army ever truly know which it is doing?",
@@ -408,5 +418,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga perspective invites you to see every member of your team — even the ones who seem to be here only for salary or status — as placed in their role by Kṛṣṇa's sankalpa (will). Their presence is not accidental; their tyāga-capacity is a form of Kṛṣṇa's śakti (energy) moving through the organization. The practice is gratitude and wonder: you did not assemble this team; you were given it. The invitation is to treat each 'anye ca bahavaḥ' — each unnamed many — as a recipient of and vehicle for prasāda (grace), not merely a headcount.",
     "bhakti": "Śrīdhara's philological precision points to the four-quality cluster — loyalty, readiness-to-sacrifice, diverse competence, battlefield expertise — as a practical checklist for any meaningful commitment. The bhakti application is discernment in choosing your cause: before you give these four qualities to a project, a leader, or an institution, ask whether the cause merits the 'mad-arthe' — whether it is worthy of your life's energy. Bhakti is not indiscriminate devotion; it is the discipline of directing complete commitment toward the genuinely worthy.",
     "advaita-bhakti": "Madhusūdana's psychological reading suggests that whenever you find yourself cataloging your strengths most insistently — listing credentials, naming allies, enumerating resources — you may be doing what Duryodhana does here: performing confidence to mask an underlying viṣāda (despondency) you have not yet acknowledged. The Advaita-bhakti practice is to let the list stop, turn toward Kṛṣṇa (or toward whatever you hold as the ground of being), and ask: what am I actually afraid of? The unnamed warriors are real; the fear is also real; honesty about both is where practice begins."
-  }
+  },
+  "primary_meaning": "Many other heroes stand ready to give their lives for my cause, armed with every manner of weapon, all skilled in battle."
 }

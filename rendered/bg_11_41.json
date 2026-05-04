@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -231,7 +231,7 @@
     },
     {
       "surface_form": "jānatā",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "instrumental masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -473,8 +473,9 @@
         "jayatirtha_11.41"
       ],
       "score": 0.5,
-      "english_rendering": "The Dvaita bhāṣya of Madhvācārya is not extant for this śloka; the supplied commentary note confirms: 'Sri Madhvacharya did not comment on this sloka.' Drawing on the Dvaita doctrinal frame: Arjuna, the jīva eternally and essentially dependent upon Hari (paratantra), confesses that his casual address of the Supreme Lord arose from ignorance of the absolute, unbridgeable distinction (bheda) between the finite self and the infinite Bhagavān; even prāṇaya (affectionate ease) does not dissolve the ontological distance, and the very act of seeking forgiveness (kṣamāpana) confirms the jīva's permanent subordination to Viṣṇu's will.",
-      "divergence_note": "No Madhva bhāṣya extant for 11.41; rendering constructed from Dvaita doctrinal axioms."
+      "english_rendering": "Arjuna confesses: addressing the Lord as *sakhā* (friend) — calling out *he kṛṣṇa*, *he yādava*, *he sakhe* — was spoken *prasabham* (with presumptuous familiarity), driven by *pramāda* (heedlessness) or *praṇaya* (affectionate ease), and in *ajānatā* (ignorance) of *tava mahimā* (Your greatness). In *dvaita* reading, this confession registers the *pañca-bheda* (the five-fold real distinction) at its sharpest: the *paratantra* *jīva*, however intimate with the Lord in devotional life, remains categorically other than the *svatantra* Hari. *Praṇaya* does not dissolve *bheda*; it presupposes it — one can presume upon a friend only where two genuinely distinct persons stand. The very need for *kṣamā* (forgiveness) confirms what the vision has forced Arjuna to see: *bhakti* as ontological subordination is not a pious overlay but the constitutive fact of the *jīva*'s being. Casual address was possible precisely because *taratamya* (the graded hierarchy of being) had been momentarily veiled; the Viśvarūpa tore that veil away.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for 11.41; rendering voiced from dvaita siddhānta primitives — pañca-bheda, paratantra jīva, taratamya — applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -519,13 +520,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "एकोऽथवाप्यच्युत तत्समक्षं तत्क्षामये त्वामहमप्रमेयम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.42"
-      ]
-    },
-    {
       "list": "कृष्ण",
       "role": "supporting",
       "other_verses_in_list": [
@@ -562,13 +556,6 @@
       ]
     },
     {
-      "list": "बोलनेमें मैंने बिलकुल ही सावधानी नहीं बरती",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.42"
-      ]
-    },
-    {
       "list": "भगवान्को",
       "role": "supporting",
       "other_verses_in_list": [
@@ -582,20 +569,6 @@
         "3.28",
         "10.8",
         "13.15"
-      ]
-    },
-    {
-      "list": "यच्चावहासार्थमसत्कृतोऽसि विहारशय्यासनभोजनेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.42"
-      ]
-    },
-    {
-      "list": "सखेति मत्वा प्रसभं यदुक्तं हे कृष्ण हे यादव हे सखेति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.42"
       ]
     },
     {
@@ -640,7 +613,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktam: vac -> √vac",
+          "jānatā: jñā -> √jñā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When intimacy with someone extraordinary gradually blinds you to their depth — and you catch yourself treating genius, holiness, or greatness as ordinary — what is the right internal response: shame, gratitude for the closeness, or both?",
@@ -658,5 +642,6 @@
     "śuddhādvaita": "Vallabha's reading invites you to see even your mistakes within a larger graceful process. When you realise you have taken someone's extraordinary gift for granted, the puṣṭi-mārga response is not self-flagellation but a return to wonder: let the renewed perception of their quality become the bhakti. The error, properly received, becomes the opening.",
     "bhakti": "Śrīdhara's philological precision surfaces a practical lesson: distinguish pramāda (the distraction that makes you careless) from prāṇaya (the affection that makes you too comfortable). The first calls for structural correction — create conditions where attention is protected. The second calls for a recalibration of intimacy: closeness should deepen reverence, not replace it.",
     "advaita-bhakti": "Madhusūdana's synthesis applies to any relationship where you must simultaneously hold two registers — peer and student, friend and disciple, colleague and someone far ahead of you. The advaita layer says: recognise that the greatness you overlooked was always there; the bhakti layer says: let the recognition become a prostration that actually moves you. The test is whether your contrition changes your behaviour or merely satisfies your conscience."
-  }
+  },
+  "primary_meaning": "Not knowing your true greatness, I called out to you as \"Krishna, Yadava, friend\" with careless familiarity, whether from distraction or the ease of affection."
 }

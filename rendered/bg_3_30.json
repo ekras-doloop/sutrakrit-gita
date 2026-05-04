@@ -234,7 +234,7 @@
     },
     {
       "surface_form": "yudhyasva",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -259,7 +259,7 @@
     },
     {
       "surface_form": "vigata",
-      "lemma": "vigam",
+      "lemma": "vi-√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -464,16 +464,6 @@
       ]
     },
     {
-      "list": "आरुरुक्षोर्मुनेर्योगं कर्म कारणमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "4.12",
-        "5.11",
-        "6.3"
-      ]
-    },
-    {
       "list": "कर्माणि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -514,30 +504,6 @@
         "7.16",
         "10.1",
         "12.10"
-      ]
-    },
-    {
-      "list": "कृपणाः फलहेतवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.49"
-      ]
-    },
-    {
-      "list": "फलं त्यक्त्वा मनीषिणः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.51"
-      ]
-    },
-    {
-      "list": "ममैवांशो जीवलोके",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "4.40",
-        "5.22",
-        "8.3"
       ]
     },
     {
@@ -605,7 +571,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yudhyasva: yudh -> √yudh",
+          "vigata: vigam -> vi-√gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Madhva holds that the jīva's doership was always false (adhyāropita), does 3.30's command to 'surrender' presuppose a volitional act that the metaphysics disallows — or is the command itself only Bhagavān speaking through His instrument?",
@@ -623,5 +600,6 @@
     "śuddhādvaita": "At the close of each action — a conversation, a meal prepared, a task completed — explicitly offer it: 'This is Yours, Kṛṣṇa.' Vallabha's arpaṇa is not a ceremony but a moment of conscious re-attribution. The threefold check: Did I want a specific result (phala-āsakti)? Did I treat this as mine (mamā)? Did I see myself as the cause (kartṛtva)? Each 'yes' is a practice opportunity, not a failure.",
     "bhakti": "For the practitioner who knows they are not yet fully established in truth, Śrīdhara's framing is honest and practical: do not wait for enlightenment before acting rightly. Act with the antaryāmin orientation — 'I am governed' — and let that orientation gradually erode the grief (śoka) that comes from treating outcomes as personal verdicts. The verse is permission to act, not a demand for perfection first.",
     "advaita-bhakti": "Madhusūdana's scope distinction applies directly: while cooking or working, keep the universal practice — offer the action, hold no result, desire nothing. But when specifically in conflict or competition (the 'battle'), the additional practice of nirmama toward those involved (not treating the adversary's victory as a personal loss) and vigata-jvaraḥ (releasing the fear of disgrace) come into play. Two levels, same root."
-  }
+  },
+  "primary_meaning": "Lay all your actions at My feet, with your mind fixed on the Self; free of craving, free of mine-ness, shed the fever of grief and fight."
 }

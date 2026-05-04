@@ -2,7 +2,7 @@
   "verse_id": "18.58",
   "mūla": {
     "devanāgarī": "मच्चित्तः सर्वदुर्गाणि मत्प्रसादात्तरिष्यसि | अथ चेत्त्वमहङ्कारान्न श्रोष्यसि विनङ्क्ष्यसि",
-    "iast": "maccittaḥ sarvadurgāṇi matprasādāttariṣyasi | atha cettvamahaṅkārānna śroṣyasi vinaṅkṣyasi",
+    "iast": "maccittaḥ sarvadurgāṇi matprasādāt tariṣyasi | atha cettvamahaṅkārānna śroṣyasi vinaṅkṣyasi",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 58",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "tariṣyasi",
-      "lemma": "tṛ",
+      "lemma": "√tṛ",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "śroṣyasi",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "vinaṅkṣyasi",
-      "lemma": "vinaś",
+      "lemma": "vi-√naś",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -478,7 +478,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "matprasādāttariṣyasi -> matprasādāt tariṣyasi"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tariṣyasi: tṛ -> √tṛ",
+          "śroṣyasi: śru -> √śru",
+          "vinaṅkṣyasi: vinaś -> vi-√naś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Sankara argues that mat-prasadat operates only when ahankara is surrendered — but if the grace is conditional on ego-dissolution, in what sense is it grace rather than attainment? How do the schools resolve this tension?",
@@ -496,5 +516,6 @@
     "śuddhādvaita": "The Pusti-marga application is in spiritual community: the devotee who, out of personal aesthetic or intellectual preference, stops engaging with the community's collectively held form of worship has slipped into the 'natural' (prakrta) condition Vallabha warns against. Prasada flows through participation; withdrawal from the sangha is withdrawal from the channel.",
     "bhakti": "Sridhara's knower-conceit (jnatrtvabhimana) appears in daily life whenever someone reads a text, forms a confident interpretation, and stops listening — to teachers, to co-practitioners, to the text itself on re-reading. The bhakti practice is holding one's understanding lightly enough that Krsna's word, mediated through tradition, can still change it.",
     "advaita-bhakti": "Madhusudana's 'without one's own exertion' (sva-vyaparam antarena) points at the difference between striving to be free of kama-krodha through discipline versus the grace-state where those forces simply lose their grip because the mind has found its ground in Krsna. The everyday application is noticing when spiritual practice has become another performance of the 'accomplished self' — and redirecting toward surrender rather than achievement."
-  }
+  },
+  "primary_meaning": "Keep your mind on Me and you will cross every hard passage by My grace; if pride makes you refuse My word, you will fall."
 }

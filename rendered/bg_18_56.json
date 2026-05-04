@@ -1,8 +1,8 @@
 {
   "verse_id": "18.56",
   "mūla": {
-    "devanāgarī": "सर्वकर्माण्यपि सदा कुर्वाणो मद्|ह्व्यपाश्रयः | मत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम्",
-    "iast": "sarvakarmāṇyapi sadā kurvāṇo mad|hvyapāśrayaḥ | matprasādādavāpnoti śāśvataṃ padamavyayam",
+    "devanāgarī": "सर्वकर्माण्यपि सदा कुर्वाणो मद्व्यपाश्रयः | मत्प्रसादादवाप्नोति शाश्वतं पदमव्ययम्",
+    "iast": "sarvakarmāṇyapi sadā kurvāṇo madvyapāśrayaḥ | matprasādādavāpnoti śāśvataṃ padamavyayam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 56",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "kurvāṇaḥ",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "avāpnoti",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -370,7 +370,24 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "danda-in-word-mid-conjunct corruption (|h removal)",
+        "scope": "mūla.iast + mūla.devanāgarī + matching word_by_word tokens",
+        "follow_up": "word_by_word still contains split tokens (e.g. 'bud'/'dhyā'); rejoin pending — display layer reads mūla.iast/devanāgarī directly so verse text is correct"
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kurvāṇaḥ: kṛ -> √kṛ",
+          "avāpnoti: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even forbidden actions performed in complete surrender are covered by grace, what distinguishes surrender from rationalization of moral laziness?",
@@ -388,5 +405,6 @@
     "shuddhadvaita": "Vallabha's Pushti-marga application: treat every mundane action — cooking, cleaning, professional work — as lit from within by Krishna's impulsion. The question 'did I do this well enough?' is replaced by 'was I open enough to his prompting?' Grace descends; the posture is receptivity.",
     "bhakti": "Shridhara's application: before beginning any obligatory task — morning routine, work deadlines, family duties — explicitly re-orient the intention: 'This is Parameshvara-aradhana (worship of the Supreme Lord), not a means to any conditional fruit.' The action is unchanged; the motivational structure is inverted.",
     "advaita-bhakti": "Madhusudan's synthesis is for people caught in genuine double-binds: the professional who cannot quit an ethically imperfect role, the parent who cannot escape conflicting duties. Sole-refuge (Bhagavad-eka-sharana) is not a permission slip but a posture that transforms the binding weight of the action — the question shifts from 'how do I get out of this?' to 'how do I carry this as an offering?'"
-  }
+  },
+  "primary_meaning": "Always performing all your actions, take refuge in me alone. By my grace you will reach the eternal, imperishable station."
 }

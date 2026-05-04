@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "gṛhyate",
-      "lemma": "grah",
+      "lemma": "√grah",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -276,8 +276,8 @@
         "jayatirtha_6.35"
       ],
       "score": 0.5,
-      "divergence_note": "Dvaita uniquely insists that even the capacity for abhyāsa is Hari-given; no school is further from Advaita's self-sufficient citta-engineering model.",
-      "english_rendering": "No direct bhāṣya by Madhvācārya on this verse is available in the panel corpus. From Madhva's broader framework: the mind (manas), as an inert instrument of the bound jīva, is inherently dependent; its restraint through abhyāsa and vairāgya is itself Hari's anugraha (grace) operating through the sādhaka's willed effort — effort being the jīva's mode of surrender, not its autonomous achievement. The certainty Kṛṣṇa expresses (asaṃśayam) is the Lord's own guarantee."
+      "divergence_note": "The B-cell now quotes Jayatīrtha's Sanskrit verbatim — matta-mātaṅga, na ca iti, śubhecchā, mukti-bījatvāt — and follows his specific argumentative move (dismissing the objection that the saṃyata-verse is redundant). The prior rendering was a generic Dvaita projection with no bhāṣya anchoring.",
+      "english_rendering": "*Asaṃśayam* (without doubt), O *mahābāho* — the mind is *durṇigrahaṃ calam*, difficult to restrain and unsteady. Yet by *abhyāsena* (repeated practice) and *vairāgyeṇa* (dispassion) it is *gṛhyate*, caught and held. Jayatīrtha, glossing 6.35–36 together, heads off the objection that the verse on *saṃyata* (restraint) is superfluous — *na ca iti* marking that the mind does not simply settle on its own, the way a *matta-mātaṅga* (rutting elephant), exhausted, grows calm of itself. A mind satisfied by sense-objects might occasionally seem self-restrained, but this is no real *niyama*. The rejoinder: *śubhā* — it is the auspicious disposition (*śubhecchā* and its sequence) that is indicated here, linked by *sada* to what precedes. Because mind-regulation is *mukti-bījatvāt* — the seed of liberation — Kṛṣṇa names its fruit as *mukti*. For the *paratantra* *jīva*, even the capacity to take up *abhyāsa* is no self-sufficient achievement; the *bheda* between the Lord who guarantees and the *jīva* who strives remains real throughout."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -388,29 +388,6 @@
       ]
     },
     {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
       "list": "वैराग्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -449,7 +426,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gṛhyate: grah -> √grah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If abhyāsa requires repetition and vairāgya requires dispassion, which comes first — must one reduce desire before practice becomes effective, or does practice itself generate dispassion?",
@@ -467,5 +454,6 @@
     "śuddhādvaita": "Curate your sensory diet around Kṛṣṇa-rasa: music, narrative, images, company that make His presence palpable. Vallabha's vairāgya is not achieved by avoiding pleasure but by replacing it with a pleasure so much richer that the older tastes become insipid on their own. Abhyāsa is the daily rehearsal of that richer taste — through kīrtana, kathā, smaraṇa — until the mind finds its own way back to it even mid-distraction.",
     "bhakti": "Diagnose your mind each morning: is today's enemy laya (dullness, inertia, wanting to postpone practice) or vikṣepa (agitation, overcommitment, too many inputs)? Śrīdhara's framework says the remedy differs: laya needs abhyāsa — increase the frequency and vividness of your Paramātman-directed attention. Vikṣepa needs vairāgya — reduce the number of objects the mind is chasing. Apply the correct tool to the correct obstacle rather than defaulting to more effort when the problem is too many inputs.",
     "advaita-bhakti": "Madhusūdana's two-seed model (prāṇa-spanda and vāsanā) gives a practical protocol: when the mind is physically agitated — restless body, racing breath — address prāṇa first through slow exhalation, walking, or prāṇāyāma before attempting subtle practice. When the mind is calm but pulled by memory and habit-patterns, address vāsanā through viveka-reflection (examining whether the desired object actually delivers what it promises) and sādhusaṅga (time with people whose desires have genuinely quieted). Match the tool to the seed that is currently active."
-  }
+  },
+  "primary_meaning": "Yes, the mind is restless and hard to hold, Krishna says, but practice and dispassion together can catch it."
 }

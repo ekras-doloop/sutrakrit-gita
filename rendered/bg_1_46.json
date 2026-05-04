@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "hanyuḥ",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "present optative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "bhavet",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -291,27 +291,11 @@
   },
   "theme_list_memberships": [
     {
-      "list": "करिष्ये वचनं तव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.73"
-      ]
-    },
-    {
       "list": "क्षेम",
       "role": "supporting",
       "other_verses_in_list": [
         "2.45",
         "9.22"
-      ]
-    },
-    {
-      "list": "न योत्स्ये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "4.42",
-        "11.32"
       ]
     }
   ],
@@ -342,7 +326,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hanyuḥ: han -> √han",
+          "bhavet: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When we declare that being harmed without retaliation is 'better for us' (kṣemataram), are we expressing genuine non-violence, theological confusion, or emotional collapse — and how do we tell the difference from inside the experience?",
@@ -360,5 +355,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga, the moment of breaking down — when you cannot proceed and declare 'let them do what they will with me' — is not a failure but a gift, the precise moment when self-will exhausts itself and prasāda (grace) can enter. The practical application is to stop trying to engineer your way out of the collapse: sit in it, let Kṛṣṇa's presence be the only thing in the room, and notice what shifts not through your effort but through His.",
     "bhakti": "The word kṣemataram invites a daily audit: are you measuring your choices by what is kṣema — genuinely conducive to your deepest welfare — or by what is merely comfortable, socially acceptable, or emotionally satisfying? Śrīdhara's philological care with words translates into a practice of slowing down before major decisions to ask: 'Is this truly the safer path for my soul, or am I using the language of surrender to avoid a hard obligation?'",
     "advaita-bhakti": "Madhusūdana's image of Arjuna sitting down with his bow discarded (saśaraṃ cāpaṃ visṛjya, rathopasthe upāviśat) is a precise picture of what it looks like when capacity and willingness both collapse together. The practical teaching is that this posture — fully sat down, instruments released, mind overwhelmed — is the form that readiness for teaching takes. When you reach this state in your own life, Madhusūdana's counsel is: do not stand back up and pretend. Stay seated. Kṛṣṇa will speak."
-  }
+  },
+  "primary_meaning": "If the sons of Dhṛtarāṣṭra slay me here, unarmed and unresisting, that would be the greater good for me."
 }

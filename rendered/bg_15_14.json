@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "āśritaḥ",
-      "lemma": "āśri",
+      "lemma": "√āśri",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "samāyuktaḥ",
-      "lemma": "samāyuj",
+      "lemma": "sam-√āyuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -159,7 +159,7 @@
     },
     {
       "surface_form": "pacāmi",
-      "lemma": "pac",
+      "lemma": "√pac",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -477,7 +477,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āśritaḥ: āśri -> √āśri",
+          "samāyuktaḥ: samāyuj -> sam-√āyuj",
+          "pacāmi: pac -> √pac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord is the fire that digests food, who bears karmic responsibility for what is eaten — the jiva, the food, or the fire itself?",
@@ -494,5 +506,6 @@
     "suddhAdvaita": "Every meal is prasada — Krishna is the fire eating inside you. Remove the overlay of 'my appetite' and 'my digestion' and taste the food as his lila in your body. This is not piety as a practice; it is recognising the fact of what is already happening.",
     "bhakti": "Learn the names and forms of the fourfold food not as culinary trivia but as a devotional map: bhaksya, bhojya, lehya, cosya each describe a mode in which the Lord within engages with the material world. Careful, grateful eating — understanding what you place before his inner fire — is a form of worship.",
     "advaita-bhakti": "Hold both in one glance: the inner fire is Krishna (so love it, thank it, worship it) and is Brahman (so see through the individuality of 'my body digesting'). When illness or hunger strips the romance from eating, the jnana-anchor holds; when the philosophy feels dry, the bhakti-anchor warms it back."
-  }
+  },
+  "primary_meaning": "Entering every body as the digestive fire, kindled by breath, I cook all four kinds of food that living creatures eat."
 }

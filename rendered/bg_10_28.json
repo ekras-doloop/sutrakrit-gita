@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -360,8 +360,9 @@
         "jayatirtha_10.28"
       ],
       "score": 0.5,
-      "english_rendering": "Among weapons I am the vajra; among wish-granting cows I am the kāmadhuk; among generative forces I am Kandarpa; among serpents I am Vāsuki — in each domain, Hari alone is sovereign, and each creature or object draws its excellence entirely from Hari's independent will. The jīva (individual soul) holds none of this power inherently; it participates only as a dependent instrument of the Lord's absolute sovereignty.",
-      "divergence_note": "ABSENT: Madhvācārya did not comment on this śloka (payload explicitly notes 'Sri Madhvacharya did not comment on this sloka'). This rendering extrapolates strictly from Dvaita's cardinal principles — Hari-sārvatantryavāda (Hari's absolute independence) and jīva-paratantratā (the soul's complete dependence) — which govern every vibhūti statement in BG 10."
+      "english_rendering": "*Vajra* (the thunderbolt) among weapons, *kāma-dhuk* (the wish-fulfilling cow) among cows, *Kandarpa* (the force of generation) among procreative powers, *Vāsuki* among serpents — in each case the named entity is a *vibhūti* (divine manifestation) of *svatantra* (the independently real, self-sufficient) Hari. The *pañca-bheda* (the five-fold real distinction) holds in full: Lord and *jīva*, Lord and matter, remain genuinely and permanently distinct. The thunderbolt's shattering force, the cow's inexhaustible bounty, Kandarpa's generative potency, Vāsuki's sovereign power among serpents — none is self-originating. Each excellence is real, not illusory, yet wholly *paratantra* (eternally dependent) on Hari's will. The *jīva* that wields a vajra or embodies generative power does so only as an instrument subordinated within *taratamya* (graded ontological hierarchy); the power behind the excellence is Hari's alone. Kṛṣṇa's declaration *ahaṃ* in each compound — *āyudhānām ahaṃ vajram*, *prajanaś cāsmi kandarpaḥ* — is not identity-dissolution but *bheda*-preserving lordship: Hari is supremely present in each *vibhūti* without becoming, or being exhausted by, the thing named.",
+      "divergence_note": "Madhvācārya and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta*: *hari-sārvatantryavāda* (Hari's absolute independence), *jīva-paratantratā*, and the *pañca-bheda* scheme that governs all *vibhūti* statements in BG 10.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -421,13 +422,6 @@
         "11.51",
         "16.15"
       ]
-    },
-    {
-      "list": "धर्माविरुद्धो भूतेषु कामोऽस्मि भरतर्षभ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.11"
-      ]
     }
   ],
   "audit_trail": {
@@ -457,7 +451,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Kṛṣṇa claims Kandarpa (erotic desire) as his vibhūti — but immediately Śrīdhara and Madhusūdana restrict this to procreative, dharmic desire. What does this tell us about how the tradition negotiates the sacred and the dangerous within the same divine claim?",
@@ -475,5 +481,6 @@
     "śuddhādvaita": "Vallabha's gloss on the kāmadhuk — 'she is worthy of worship because she serves Bhagavān' — offers a template for how to relate to abundance. Any resource in your life that can be channelled into Bhagavān's service becomes sacred. The question for each day: which of my capacities is fit for prasāda (grace-offering) right now?",
     "bhakti": "Śrīdhara's warning — that merely pleasure-driven desire is not Bhagavān's vibhūti — is a practical diagnostic. When desire arises, ask: is this kāma generative and dharmic, pointed toward something lasting, or is it saṃbhogapradhāna (primarily pleasure-seeking)? The vibhūti test re-frames ethical discernment as a devotional practice.",
     "advaita-bhakti": "Madhusūdana's careful particle-work ('ca' excludes ratimatrāhetu) shows that even the most integrative school maintains precision about which desires are divine. In daily life: hold both the warmth of devotional love and the clarity of Advaita discrimination. Let your affections be ardent; let your analysis of those affections be exact. Neither abandon devotion for philosophy nor dissolve philosophy in sentiment."
-  }
+  },
+  "primary_meaning": "Among weapons I am the thunderbolt, among cows the wish-fulfilling Surabhi, among causes of offspring I am Kandarpa, and among serpents Vāsuki."
 }

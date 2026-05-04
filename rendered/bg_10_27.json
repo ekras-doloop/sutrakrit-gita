@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -386,7 +386,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gītā list kings, horses, and elephants rather than purely spiritual beings as vibhūtis — what does the inclusion of royal-political categories reveal about the text's theory of sovereignty?",
@@ -404,5 +414,6 @@
     "śuddhādvaita": "Contemplate Kṛṣṇa's delight in excellence. When you see a thoroughbred horse, a majestic elephant, a just ruler — these are Kṛṣṇa's own play-instruments (krīḍopayogitā). Let admiration of the excellent become a doorway into the joy Kṛṣṇa takes in his own creation. This is Puṣṭi-mārga's gift: wonder at the world as Kṛṣṇa's līlā.",
     "bhakti": "Build the habit of tracing excellence back to its cosmic origin. Uccaiḥśravas did not emerge from random chance — he was born at the great churning, as was Airāvata, as was nectar itself. When you encounter something magnificent, ask: what churning produced this? What long labor, what convergence of conditions? This is the bhakta's historiography of beauty.",
     "advaita-bhakti": "Sit with the paradox that the very best in any domain — the finest horse, the sovereign king — is simultaneously a finite, replaceable being AND a window into the infinite. Madhusūdana's synthesis asks you to hold both without collapsing either. Practice this in relationships: honor the person fully (Kṛṣṇa-bhakti), and simultaneously see beyond the person to the non-dual ground (Advaita). Neither dissolve the person nor cling to them."
-  }
+  },
+  "primary_meaning": "Among horses I am Uccaiḥśravas, born of the nectar-churning; among elephant lords, Airāvata; among humans, the king."
 }

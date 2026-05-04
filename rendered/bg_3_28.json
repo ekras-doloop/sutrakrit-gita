@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "vartante",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "sajjate",
-      "lemma": "sañj",
+      "lemma": "√sañj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -437,13 +437,6 @@
       ]
     },
     {
-      "list": "कर्ताहमिति मन्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.27"
-      ]
-    },
-    {
       "list": "कर्मयोग",
       "role": "supporting",
       "other_verses_in_list": [
@@ -458,31 +451,6 @@
         "5.5",
         "6.5",
         "12.11"
-      ]
-    },
-    {
-      "list": "कर्मयोगस्तु कामिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.17",
-        "3.38"
-      ]
-    },
-    {
-      "list": "गुण ही गुणोंमें बरत रहे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.7",
-        "5.20"
-      ]
-    },
-    {
-      "list": "गुणा गुणेषु वर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.7",
-        "5.8",
-        "5.9"
       ]
     },
     {
@@ -509,13 +477,6 @@
       "other_verses_in_list": [
         "1.1",
         "9.26"
-      ]
-    },
-    {
-      "list": "पुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "16.5"
       ]
     },
     {
@@ -574,23 +535,6 @@
       ]
     },
     {
-      "list": "मैं कर्ता हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.27",
-        "5.8",
-        "5.9",
-        "5.20"
-      ]
-    },
-    {
-      "list": "मैं सुखी हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.21"
-      ]
-    },
-    {
       "list": "स्वयं",
       "role": "supporting",
       "other_verses_in_list": [
@@ -640,7 +584,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vartante: vṛt -> √vṛt",
+          "sajjate: sañj -> √sañj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If guṇas are always moving among guṇas, what is the practical criterion that distinguishes a tattva-vit acting in the world from someone merely claiming non-attachment while still driven by ego?",
@@ -658,5 +613,6 @@
     "śuddhādvaita": "In moments of creative flow — music, writing, cooking — notice how the action happens through you rather than by you. Vallabha's lotus-leaf image (prayojakam Kṛṣṇa) turns this from a philosophical point into a felt experience: the creative energy is prasāda (grace-gift) moving through indriya-guṇas. Receive the flow gratefully rather than hoarding it as personal talent.",
     "bhakti": "When strong emotion (anger, desire, grief) arises, apply Śrīdhara's two-fold viveka: 'This emotion is a guṇa-movement, not my essence; this action it is pushing me toward is not mine to claim.' The double separation — from the quality and from its corresponding action — creates a moment of freedom inside the emotional wave, making skillful response possible without suppression.",
     "advaita-bhakti": "Madhusūdana's bhāsaka/bhāsya frame is useful in relationships: you are the witnessing awareness that illumines the interaction; your words, reactions, and role-identities are bhāsya (the illumined). When you catch yourself fusing with a role (parent, boss, student) to the point of reactivity, recall the lamp-metaphor — the lamp does not become what it lights. This neither licenses emotional distance nor excuses disengagement; it clarifies where you actually stand."
-  }
+  },
+  "primary_meaning": "Knowing the true division between qualities and actions, the wise see that the senses move among their objects, and do not cling."
 }

@@ -36,7 +36,7 @@
     },
     {
       "surface_form": "saṃjanayan",
-      "lemma": "saṃjanay",
+      "lemma": "saṃ-√janay",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "dadhmau",
-      "lemma": "dham",
+      "lemma": "√dham",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -391,7 +391,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃjanayan: saṃjanay -> saṃ-√janay",
+          "dadhmau: dham -> √dham"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the verse specify that Bhīṣma's intention was to generate Duryodhana's harṣa (gladness) — what does it reveal about the function of noise, spectacle, and performance in the management of collective morale on the eve of war?",
@@ -409,5 +420,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga application: look for the places in your day where you are Bhīṣma — an apparently ordinary actor who, without knowing it, is composing a phrase in the Lord's larger music. The voice that reassures a frightened child, the presence that steadies a panicking colleague — treat these as prasāda (grace given through you), not as achievements. Receive the gratitude gently; it belongs to the composer, not the instrument.",
     "bhakti": "Śrīdhara's key word saṃjanayan (actively causing to arise) is the everyday instruction: do not merely create the conditions for someone's recovery and wait — take full responsibility for it. When you see someone's morale collapsing, respond with largeness: the full voice, the unhesitating presence, the unapologetic confidence that says 'I have you.' Calibrated, careful reassurance is sometimes condescension in disguise; the grandfatherly roar is not.",
     "advaita-bhakti": "Madhusūdana's contrast between Droṇa's words-only response and Bhīṣma's full-bodied roar-plus-conch is a practical diagnostic: when you are supporting someone in genuine fear, ask yourself whether you are offering vāṅmātra — the technically correct acknowledgment that keeps you safely behind glass — or whether you are willing to produce the siṃhanāda: a response that costs you something, that is loud enough to reach the frightened person across the distance their fear has created, and that generates not just surface comfort but buddhi-gata ullāsa — gladness that reorganizes their understanding of the situation."
-  }
+  },
+  "primary_meaning": "Bhīṣma, the aged grandsire of the Kurus, roared like a lion and blew his conch at full voice to lift Duryodhana's spirits."
 }

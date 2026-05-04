@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "chalayatām",
-      "lemma": "chalay",
+      "lemma": "√chalay",
       "grammar": "genitive masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -310,8 +310,9 @@
         "jayatirtha_10.36"
       ],
       "score": 0.5,
-      "english_rendering": "No bhāṣya by Madhvācārya survives for this verse. From Madhva's broader doctrinal framework one may infer: every vibhūti named here is the transcendent Hari's own śakti made manifest in the jīva's activity; the jīva who wins, who strives, who possesses sattva does so only by the dependent grace (parādhīna-śakti) of Hari — the sattva of the sāttvika is not their own but Hari's sattva lent to them. Victory (jaya) belongs irreducibly to Hari; human victory is a participation, not a possession.",
-      "divergence_note": "BHĀṢYA ABSENT — source payload records 'Sri Madhvacharya did not comment on this sloka.' Rendering is a doctrinal extrapolation from Madhva's Gītā-Bhāṣya principles; not from a verse-level text."
+      "english_rendering": "*Dyūtam* (gambling) among the deceitful, *tejas* (brilliance) among the brilliant, *jaya* (victory), *vyavasāya* (determined resolve), and *sattva* (the quality of clarity and strength) among those who possess it — Kṛṣṇa declares himself to be each of these. In the dvaita reading, every vibhūti enumerated here is *Hari's* own *śakti* (power) operating through *paratantra* *jīvas* (eternally dependent individual selves). The *jīva* who wins does not possess victory; *jaya* is Hari's alone, and the *jīva* participates in it only by *parādhīna-śakti* (power contingent on the Lord). The sattva of the *sattvavatām* is not the *jīva*'s native quality but Hari's *sattva* communicated downward through the *taratamya* (graded ontological hierarchy). Even *dyūtam chalayatām* — gambling among cheaters — names Hari as the *antarātman* (inner self) of that activity: no domain of action, however morally ambiguous, falls outside *Hari-sārvabhauma* (Hari's universal lordship). The *pañca-bheda* (five-fold real distinction) between Lord, *jīva*, and matter is not dissolved in this identification; rather, Hari's *vibhūti* pervades the *paratantra* order while remaining utterly *svatantra* (self-sufficient, independently real). *Vyavasāya* — the resolute striving of an agent — belongs to Hari as its source and sustainer; the striving *jīva* is an instrument, not an originator.",
+      "divergence_note": "No verse-level bhāṣya from Madhvācārya or Jayatīrtha is extant for BG 10.36. The reading is voiced directly from dvaita siddhānta primitives — *svatantra*/*paratantra*, *pañca-bheda*, *taratamya*, *parādhīna-śakti* — applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -407,7 +408,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "chalayatām: chalay -> √chalay",
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa claim dyūta (gambling — a morally contested activity) as a vibhūti alongside sattva? What does the inclusion of morally ambiguous excellences say about the nature of divine immanence?",
@@ -425,5 +439,6 @@
     "śuddhādvaita": "Even your competitive and playful impulses — your love of games, your desire to win, your ego-fire — are Kṛṣṇa's own līlā-rasa moving through you. Rather than suppressing them, redirect them: play the game as dharma-dyūta (righteous play), where the stakes are service to Kṛṣṇa rather than private gain. Balarāma's satya-vāk is the model: speak truly even in the heat of competition, and your jaya becomes Kṛṣṇa's jaya.",
     "bhakti": "Vyavasāya as udyama — energetic, sustained industry — is the divine quality most available to an ordinary working person. When you bring full effort to your craft, when you do not slack off mid-project, you are manifesting a vibhūti of Kṛṣṇa. This elevates daily professional effort into something spiritually significant without requiring elaborate ritual: the effort itself is the presence.",
     "advaita-bhakti": "Madhusūdana's fourfold sattva-kārya — dharma, jñāna, vairāgya, aiśvarya — is a checklist for mature human functioning. When you notice these four operating together in your life (ethical clarity, genuine understanding, freedom from compulsion, capacity to act effectively), you are seeing Kṛṣṇa's sattva at work in you. Cultivate all four as a unit: any one in isolation becomes a parody — dharma without vairāgya becomes rigidity, jñāna without dharma becomes cleverness."
-  }
+  },
+  "primary_meaning": "Among cheaters I am the game of dice; among the radiant I am their brilliance; among the victorious I am victory, among the resolute I am resolve, and among the pure I am their purity."
 }

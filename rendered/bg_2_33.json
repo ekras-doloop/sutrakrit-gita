@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "kariṣyasi",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "avāpsyasi",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -449,7 +449,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kariṣyasi: kṛ -> √kṛ",
+          "avāpsyasi: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What precisely makes this battle dharmyam — is it the identity of the combatants, the cause being fought for, Kṛṣṇa's presence, or the conformity of the conduct to Manu's code — and does the answer change across the six schools?",
@@ -467,5 +478,6 @@
     "śuddhādvaita": "Vallabha's pratyavāya — the sin of omission — captures a modern blind spot: we tend to assign moral weight only to things we actively do wrong, not to the grace we refuse to receive or the offering we decline to make. In Puṣṭi-mārga terms, when circumstances have conspired — through Kṛṣṇa's arrangement — to place a meaningful action precisely within your reach, turning away from it is a refusal of prasāda. The laukika (worldly) and vaidika (sacred) dimensions are lost together: you become smaller in the world and emptier in your inner life simultaneously.",
     "bhakti": "Śrīdhara's balanced framing — 'here is the fault in the contrary case' — is itself a practice instruction: before any significant refusal, simply name what you are forfeiting. Not to dramatise it, but to see clearly. The devotional reading adds that righteous action is a channel of closeness to Bhagavān; when we shrink from difficulty in the name of non-harm or non-involvement, we may also be closing a channel through which bhakti would have flowed. The fault in the contrary case is not only consequential — it is relational.",
     "advaita_bhakti": "Madhusūdana's karma-exchange argument has a pointed everyday form: the person who withdraws from a fight they were equipped and obligated to take on does not escape the moral field — they transfer their merit to whoever carries the burden in their place and absorb whatever consequences follow from the vacuum they created. Leaders who decline hard decisions, professionals who hand off crises they could resolve, colleagues who stay silent while another person is treated unjustly — all participate in a real exchange. The synthesis point is that jñāna does not exempt you from this calculus while you are still acting in the world; it only becomes available as a genuine liberation when action has been fully performed."
-  }
+  },
+  "primary_meaning": "Refuse this righteous battle and you throw away both your duty and your honor, earning only sin in their place."
 }

@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "hriyate",
-      "lemma": "hṛ",
+      "lemma": "√hṛ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -222,7 +222,7 @@
     },
     {
       "surface_form": "ativartate",
-      "lemma": "ativṛt",
+      "lemma": "ati-√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -517,7 +517,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hriyate: hṛ -> √hṛ",
+          "ativartate: ativṛt -> ati-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prior-birth yoga-saṃskāra can override present-life obstacles and re-orient a soul without its consent, what does this imply about the relationship between individual effort (puruṣārtha) and accumulated momentum — is volition primary, or secondary?",
@@ -535,5 +546,6 @@
     "śuddhādvaita": "Vallabha's paramahaṃsa framing inverts the usual hierarchy: the mere inquirer into yoga is to be honored as a great renunciant, because Kṛṣṇa's prasāda has already touched them. In communal and teaching contexts, this means treating early-stage spiritual curiosity — even in someone who appears worldly or distracted — with the reverence owed to a realized saint. The practical application is a mode of reception: receive the curious person as if they are already arrived.",
     "bhakti": "Śrīdhara's kaimutya-nyāya (ascending argument) offers a cognitive frame for assessing spiritual progress: if even a fallen aspirant who merely inquired once already surpasses the full fruit of Vedic ritual observance, then any present engagement with genuine inquiry ranks above ritual compliance performed without understanding. The practical move is to prioritize depth of engagement over breadth of religious form — less rote ritual, more genuine jijñāsā (inquiry) into what is actually being practiced.",
     "advaita-bhakti": "Madhusūdana's royal-lineage argument speaks directly to high-achieving people embedded in demanding worldly roles — executives, politicians, artists — who believe their circumstances disqualify them from serious spiritual life. His reading says: the depth of prior saṃskāra overrides circumstantial disqualification. The practical application is to look for the moment when worldly activity becomes inexplicably oriented toward meaning — that pivot is not coincidence but the thief-saṃskāra at work, and it deserves to be recognized and followed rather than explained away as a midlife phase."
-  }
+  },
+  "primary_meaning": "Even without willing it, prior-birth practice seizes the fallen yogī and pulls him back; and one who merely longs to understand yoga already outstrips the domain of Vedic ritual."
 }

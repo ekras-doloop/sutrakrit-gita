@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "gatena",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "instrumental masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "bhajate",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "mataḥ",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -323,7 +323,8 @@
         "jayatirtha_6.47"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya is absent for this verse; the payload states he did not comment on it. On Dvaita principles drawn from adjacent commentary: the jīva (individual soul) is eternally distinct from Hari and can never merge with Him; 'yuktatama' (most integrated) names the jīva whose entire dependent existence is surrendered in worship of Hari as svātantra (fully independent Lord). The śraddhā required is not mere credence but tattva-jñāna-yukta-bhakti (devotion informed by correct metaphysical knowledge of the jīva-Brahman distinction). Note: this rendering is inferred from Madhva's broader doctrinal framework, not from a direct bhāṣya on 6.47."
+      "english_rendering": "*Yoginām api sarveṣāṃ* — even among all yogins — the one whose *antarātman* (inner self) has gone wholly toward Me (*mad-gatena*), who worships Me with *śraddhā* (steady, truth-grounded faith): that one is held by Me to be *yuktatama* (most yoked, supremely integrated in devotion). The *yuktatama* is not merely the best technician of concentration but the *paratantra* *jīva* whose entire dependent being is directed, without remainder, to *svatantra* Hari. *Bhajate* names the act of *bhakti* as ontological subordination — the *jīva* occupying its proper place within the *pañca-bheda* (the five-fold real distinction between Lord, souls, and matter) by orienting the *antarātman* exclusively toward the Lord. *Śraddhā* here is not credence alone; it is the faith that arises from *taratamya*-consonant knowledge — knowing Hari as the summit of the graded hierarchy and oneself as *paratantra* throughout. The yogin who merely stills the mind falls below this; the *bhakta* whose inner self has migrated wholly to Hari (*mad-gatena antarātmanā*) stands at the apex.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -505,7 +506,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatena: gam -> √gam",
+          "bhajate: bhaj -> √bhaj",
+          "mataḥ: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa declares the bhakti-yogī supreme over all meditators and ascetics at the close of Chapter 6 — which has been about dhyāna-yoga — does this retroactively reframe the entire chapter's dhyāna instruction as preliminary scaffolding for bhakti rather than an end in itself?",
@@ -523,5 +536,6 @@
     "śuddhādvaita": "Vallabha's path removes self-effort as the primary lever: the antaḥkaraṇa is drawn in by Kṛṣṇa's līlā, not forced in by tapas (austerity). The everyday implication is to arrange one's environment — music, imagery, company, daily rhythm — so that Kṛṣṇa's līlā becomes continuously present, lowering the resistance to spontaneous absorption rather than generating willpower to sustain it.",
     "bhakti": "Śrīdhara's reading rehabilitates āsakti (attachment): ordinary life is full of attachments that drain energy; re-anchor the same attachment mechanism to Parameśvara. Practically, identify one domain where you already have strong natural attachment and ask how that attachment's structure — urgency, memory, desire to return — can be redirected toward Bhagavān rather than suppressed.",
     "advaita-bhakti": "Madhusūdana's dual emphasis on puṇya-paripāka (ripened merit) and sādhu-saṅga (good company) points to two levers: long-term cultivation through ethical consistency (which conditions future readiness) and immediate environment (which conditions present receptivity). Rather than debating saguṇa vs. nirguṇa worship, simply ensure that the company you keep is systematically removing the bhrama (error) of treating the Divine as a transactional vending machine."
-  }
+  },
+  "primary_meaning": "Among all yogīs, the one whose inner being is wholly absorbed in Me and who worships Me with *śraddhā* is, in My view, the most deeply integrated."
 }

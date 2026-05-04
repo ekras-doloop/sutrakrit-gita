@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "kṣīṇe",
-      "lemma": "kṣi",
+      "lemma": "√kṣi",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "viśanti",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -263,7 +263,7 @@
     },
     {
       "surface_form": "anuprapannāḥ",
-      "lemma": "anuprapad",
+      "lemma": "anu-√prapad",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -271,7 +271,7 @@
     },
     {
       "surface_form": "gata",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -279,7 +279,7 @@
     },
     {
       "surface_form": "āgatam",
-      "lemma": "āgam",
+      "lemma": "√āgam",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -303,7 +303,7 @@
     },
     {
       "surface_form": "labhante",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -561,7 +561,22 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kṣīṇe: kṣi -> √kṣi",
+          "viśanti: viś -> √viś",
+          "anuprapannāḥ: anuprapad -> anu-√prapad",
+          "gata: gam -> √gam",
+          "āgatam: āgam -> √āgam",
+          "labhante: labh -> √labh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even legitimate Vedic ritual (trayī-dharma) leads only to cyclical return, what distinguishes it from worldly action — and why does Kṛṣṇa preserve it rather than simply abolish it?",
@@ -579,5 +594,6 @@
     "śuddhādvaita": "Vallabha's three-guṇa map of outcomes invites a concrete inventory: which of my current pursuits are sāttvika (refining), rājasika (activating), or tāmasika (binding) — and do I understand which world I am building toward? The Puṣṭi-mārga application is not to optimize guṇa-composition but to see clearly enough that you can recognize the guṇa-pravāha-mārga for what it is — and then surrender it to Kṛṣṇa's prasāda rather than managing it yourself.",
     "bhakti": "The returning traveler who lands back home after a long trip abroad — slightly disoriented, slightly diminished — is Śrīdhara's implicit image for re-entry into the mortal world. The bhakti application is relational: cultivate a relationship with Kṛṣṇa that outlasts any destination you reach, so that when the merit runs out and the experience ends, there is a thread still held.",
     "advaita-bhakti": "Madhusūdana names the cost the other schools leave implicit: garbhavāsa, the torment of re-embodiment. The application is not horror at rebirth but honest accounting. Before committing significant life-energy to any kāmya project — a credential, a status move, a relationship structured around what you will get — ask: when this merit exhausts itself and the body it built falls away, what do I carry forward? That question is not morbid; it is the beginning of investing in what compounds across lifetimes."
-  }
+  },
+  "primary_meaning": "Having enjoyed that vast heaven, they return to the mortal world once their merit runs dry. Those who follow the three-Veda ritual path, driven by desire, win only the endless back-and-forth."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "vibhrāntāḥ",
-      "lemma": "vibhram",
+      "lemma": "vi-√bhram",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "samāvṛtāḥ",
-      "lemma": "samāvṛ",
+      "lemma": "sam-√āvṛ",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "prasaktāḥ",
-      "lemma": "prasañj",
+      "lemma": "pra-√sañj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "patanti",
-      "lemma": "pat",
+      "lemma": "√pat",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -449,7 +449,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vibhrāntāḥ: vibhram -> vi-√bhram",
+          "samāvṛtāḥ: samāvṛ -> sam-√āvṛ",
+          "prasaktāḥ: prasañj -> pra-√sañj",
+          "patanti: pat -> √pat"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between having many interests and being 'many-minded' (aneka-citta) in the verse's sense — where does productive complexity become scattered delusion?",
@@ -467,5 +480,6 @@
     "suddhadvaitа": "Vallabha's warning targets the spiritual practitioner specifically: the person who has read enough to speak confidently about liberation but has not yet been softened by Krsna's prasada. The everyday application is to distrust one's own confident spiritual conclusions and remain open to the lila-prasada that arrives unexpectedly, not as a product of one's own effort.",
     "bhakti": "Sridhara's fish image offers a daily contemplative probe: in any activity dominated by wanting — scrolling, purchasing, planning — ask whether you can see the net or only the water. The string-net (sutra-maya-jala) is invisible from inside desire. A moment of genuine questioning ('what is this desire actually in service of?') is the first act of getting outside the net.",
     "advaita-bhakti": "Madhusudana's definition of moha as 'incapacity to discriminate between beneficial and harmful' is a practical cognitive description, not only a metaphysical one. The everyday application: when facing a choice that feels urgent, check whether the urgency itself is evidence of hita-ahita-viveka-asamarthya — the inability to tell what actually serves you versus what serves the desire. Slowness and stillness before deciding are the practical antidote."
-  }
+  },
+  "primary_meaning": "Scattered across countless desires and wrapped in delusion's net, they cling to sensual pleasure and fall into foul hell."
 }

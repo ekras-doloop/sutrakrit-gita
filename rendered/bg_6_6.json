@@ -143,7 +143,7 @@
     },
     {
       "surface_form": "jitaḥ",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -208,7 +208,7 @@
     },
     {
       "surface_form": "varteta",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -515,7 +515,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jitaḥ: ji -> √ji",
+          "varteta: vṛt -> √vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the ātman is simultaneously the potential bandhu and potential śatru, what does that imply about the stability of spiritual progress — can a previously conquered mind regress into enmity?",
@@ -533,5 +544,6 @@
     "śuddhādvaita": "Vallabha's vivikta-dhī (clear, unentangled intelligence) is the capacity to see what you actually are versus what you are identified with. One practice: sit with a current identification ('I am the person who does X') and ask whether it belongs to the kārya-karaṇa-saṅghāta or to the real ātman. No violence, no suppression — just discernment. The ego-identification does not need to be destroyed; it needs to be seen through.",
     "bhakti": "Śrīdhara's formulation — is your inner machinery working for you or against you? — is a daily audit question. At day's end, identify one instance where internal apparatus (reactivity, craving, habitual narrative) caused you harm from within (apakāra from the ajita-manas). No judgment, just honest accounting. This is what svādhyāya looks like applied to the micro-scale of a single day.",
     "advaita-bhakti": "Madhusūdana's key move: the weapon is viveka-yukta manas — the mind sharpened by discernment — not willpower alone. In practice: when facing uncontrolled inner momentum (ucchr̥ṅkhala-pravr̥tti), do not use brute suppression. Instead deploy the question: 'what is the actual shape of what is happening right now?' That act of precise naming is both the jñāna-move Advaita prescribes and an act of surrender to the clarity that bhakti makes available."
-  }
+  },
+  "primary_meaning": "The self is your ally when you have mastered it, and your enemy when you have not."
 }

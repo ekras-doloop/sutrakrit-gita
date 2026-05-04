@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "ārabhate",
-      "lemma": "ārabh",
+      "lemma": "ā-√rabh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -264,7 +264,7 @@
     },
     {
       "surface_form": "viśiṣyate",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -457,18 +457,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अपने लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.9",
-        "3.13",
-        "3.17",
-        "3.31",
-        "4.1",
-        "12.3"
-      ]
-    },
-    {
       "list": "अर्जुन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -528,16 +516,6 @@
       ]
     },
     {
-      "list": "मेरे लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.9",
-        "3.21",
-        "3.40",
-        "6.5"
-      ]
-    },
-    {
       "list": "योगम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -589,7 +567,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ārabhate: ārabh -> ā-√rabh",
+          "viśiṣyate: viśiṣ -> vi-√śiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If manas (mind) must 'restrain' the sense-organs before action begins, what is restraining the manas itself — and does the answer differ across the six schools?",
@@ -607,5 +596,6 @@
     "śuddhādvaita": "Notice that the Puṣṭi-mārga reading reframes the ordinary frustration of 'I keep being pulled back to my desires even when I resolve to act cleanly.' Vallabha's word 'duṣṭāni' (corrupt sense-organs) says: the problem is not weak willpower but that the sense-faculties themselves are already oriented wrongly and cannot self-correct. The practical implication is to stop trying harder through will and instead cultivate the conditions for grace — satsaṅga (association with Bhagavān's devotees), nāma (the name), darśana — and allow the yogaśuddhi of the mind to emerge as gift rather than achievement.",
     "bhakti": "Śrīdhara's phrase 'having turned the sense-organs toward Īśvara' (īśvarapravāṇāni kṛtvā) suggests a concrete practice: before using a faculty — before reading, speaking, or working — briefly consecrate its use to Īśvara. This is not ceremonial; it is a micro-reorientation that changes what the sense-organ is serving. Over time this converts routine perception and action into a form of pūjā. The fruit is cittaśuddhi (inner-organ purification), which Śrīdhara identifies as the mechanism that makes jñāna available — not as a separate attainment but as the natural consequence of sustained, Īśvara-directed karma-yoga.",
     "advaita-bhakti": "Madhusūdana's contrast between the two practitioners maps onto a common modern failure: the person who quits social media, simplifies their life, stops doing — and yet becomes more self-absorbed, more anxious, less effective. That is the restraint of the action-organs while the knowledge-organs are left free to ruminate. The corrective is the inverse: restrain the knowledge-organs (reduce input, speculation, comparison, commentary) and fully engage the action-organs in work prescribed by śāstra — which in a contemporary frame means work that actually serves others, as specified by role and circumstance. Madhusūdana's vivekī (discerning person) is not the quietest practitioner but the most accurately engaged one."
-  }
+  },
+  "primary_meaning": "The one who reins in the senses with the mind and then acts through the organs of action, without clinging to results, is better than the one who merely sits still."
 }

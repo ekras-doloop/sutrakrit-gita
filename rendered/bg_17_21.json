@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "dīyate",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "parikliṣṭam",
-      "lemma": "parikliś",
+      "lemma": "pari-√kliś",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "smṛtam",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -316,8 +316,9 @@
         "jayatirtha_17.21"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse. The rendering below is inferred from Dvaita structural principles, not from bhashya text. In Madhva's framework, rajasic dana is dana severed from Hari-priti (delight of Hari) as its sole ground; any expectation of praty-upakara reveals the jiva's false equation of itself with the agent of giving, which is an assertion of svatantrya (independence) belonging only to Hari. The parikliShta (distress) signals that tamas has infiltrated the rajas: the giver both expects return and resents the outlay, doubly confirming that Hari is absent as motivation.",
-      "divergence_note": "ABSENT — Madhvacharya did not comment on BG 17.21. Rendering is structural inference only."
+      "english_rendering": "*Dāna* (giving) driven by *pratyupakāra* (expectation of return) or by desire for *phala* (fruit), and given with *parikliṣṭa* (strain, reluctance), is declared *rājasa*. In the dvaita reading, the very structure of *pratyupakārārtham* — giving so that something comes back — betrays the *jīva*'s assertion of *svatantrya* (self-sufficient agency), a claim that belongs to Hari alone. The giver who calculates return has displaced *Hari-prīti* as the sole *kāraṇa* (cause) of the act and substituted the *jīva*'s own appetite. *Parikliṣṭa* deepens the indictment: the giver resents the outlay even while expecting reward, so the act is doubly severed from the Lord — neither offered to Him nor motivated by delight in Him. *Pañca-bheda* (the five-fold real distinction) holds firm: the *jīva* is *paratantra* (eternally dependent), and any giving that obscures this dependence by treating the *jīva* as self-moved proprietor falls into *rājas*. *Taratamya* (graded ontological hierarchy) applies even within *rājasa-dāna*: expectation of honour is less binding than expectation of wealth, but neither uproots the root-error of imagined *svatantrya*. Scripture's verdict — *smṛtam*, 'it is so declared' — closes the classification with the authority of *śāstra*, which for Madhva is itself *Hari-vākya* (the word of Hari).",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha on BG 17.21 is extant. Reading derived directly from dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -326,8 +327,9 @@
         "vallabha_17.21"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabhacharya did not comment on this verse. The rendering below is inferred from Pushti-marga structural principles, not from bhashya text. In Pushti-marga, rajasic dana is incapable of becoming seva because it is not offered as prasada-return to Krishna; the giver retains the fruit in imagination and thereby withholds the very act from the flow of Krishna's lila. The parikliShta quality — the grudging or anguished giving — reveals that the jiva has not entered the disposition of tadiya-bhava (belonging-to-Him), without which no external act can participate in the joy of seva.",
-      "divergence_note": "ABSENT — Vallabhacharya did not comment on BG 17.21. Rendering is structural inference only."
+      "english_rendering": "*Dāna* (giving) given grudgingly — *parikliṣṭam* — or with expectation of return (*pratyupakārārtham*) or with an eye fixed on fruit (*phalam uddiśya*) is *rājasa*. In *puṣṭi-mārga* (the path of grace), the mark of *rājasa* dāna is precisely this retention of the ego's claim: the giver holds the act in his own hand, expecting reciprocity or result, and so the giving never becomes *sevā* (loving service to Kṛṣṇa). Brahman alone is real, and the world is Brahman's own real manifestation — every act belongs already to the Lord. When the *jīva* (the individual self) gives with a calculative disposition, clinging to *phala* (fruit), it contracts away from *brahma-sambandha* (the bond of belonging to Brahman) and moves in the orbit of *rajas*. The *parikliṣṭa* quality — the anguish or reluctance in the giving — discloses an inner withholding: the *jīva* has not surrendered the act into the flow of Kṛṣṇa's own abundance, without which no external gift participates in the joy that *puṣṭi* alone bestows. Such dāna is *rājasam smṛtam* — traditionally reckoned *rājasa* — and stands at a remove from the disposition of *tadīya-bhāva* (the stance of belonging wholly to Him), which alone transforms giving into a real movement within the Lord's grace.",
+      "divergence_note": "No Vallabha bhāṣya extant on this verse; the reading is voiced directly from śuddhādvaita siddhānta — puṣṭi-mārga doctrine of sevā, brahma-sambandha, and the non-illusory real manifestation — applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -394,7 +396,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dīyate: dā -> √dā",
+          "parikliṣṭam: parikliś -> pari-√kliś",
+          "smṛtam: smṛ -> √smṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When I give — to family, colleagues, causes — am I giving with an embedded gaze (kataksha) of expected return, even one I do not admit to myself?",
@@ -412,5 +426,6 @@
     "shuddhadvaita": "Vallabha's structural point (inferred): rajasic dana cannot become seva because it retains a 'mine' — my investment, my expected return. The Pushti practice is to mentally release ownership of the gift at the moment of giving, not by suppressing the expectation but by recognizing that what you give was already Krishna's. The parikliShta quality dissolves when there is nothing left to lose.",
     "bhakti": "Sridhara's temporal framing is practically exact: 'he will repay me later.' Audit your giving for time-stamped expectations — the gift to a friend that you expect will be matched at your next need, the favor to a colleague that you track. Citta-klesha arises precisely when the repayment does not come on schedule; the practice is to release the timestamp at the moment of giving.",
     "advaita-bhakti": "Madhusudan's paschattapa (post-gift regret) identifies a pattern visible in everyday life: the gift that felt right in the moment but is later resented — 'I gave so much and look what I got.' This is the rajasic signature most people will recognize. The practice is to make the decision before giving: 'If I receive nothing in return and feel nothing was wasted, I may give. If I cannot hold that, I should wait until I can, or give less with full heart rather than more with regret.'"
-  }
+  },
+  "primary_meaning": "Giving done to get something back, or aimed at future reward, and given grudgingly, is called rajasic."
 }

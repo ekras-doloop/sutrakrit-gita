@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "bhūḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "past jus 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "astu",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present imperative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -452,15 +452,6 @@
       ]
     },
     {
-      "list": "अधो गच्छन्ति तामसाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.23",
-        "3.24",
-        "14.18"
-      ]
-    },
-    {
       "list": "कर्मणि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -474,64 +465,10 @@
       ]
     },
     {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.19",
-        "4.3",
-        "5.17",
-        "7.29",
-        "8.16",
-        "16.5"
-      ]
-    },
-    {
       "list": "केवलैः",
       "role": "supporting",
       "other_verses_in_list": [
         "5.11"
-      ]
-    },
-    {
-      "list": "निद्रालस्यप्रमादोत्थं तत्तामसमुदाहृतम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.39"
-      ]
-    },
-    {
-      "list": "फले सक्तो निबध्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.18",
-        "5.12",
-        "11.33",
-        "12.12"
-      ]
-    },
-    {
-      "list": "मा कर्मफलहेतुर्भूः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.14"
-      ]
-    },
-    {
-      "list": "मा ते सङ्गोऽस्त्वकर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.8",
-        "3.23",
-        "3.24",
-        "12.11"
-      ]
-    },
-    {
-      "list": "मार्मिक बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.4",
-        "3.18"
       ]
     }
   ],
@@ -562,7 +499,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhūḥ: bhū -> √bhū",
+          "astu: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If I have no claim on the outcome, why should I put full effort in? What prevents the teaching from collapsing into half-hearted work or strategic laziness?",
@@ -580,5 +528,6 @@
     "śuddhādvaita": "Vallabha's verse is structurally about what is upādēya — what is worth receiving from life. The Puṣṭi-mārga answer is: action itself, as prasāda from Kṛṣṇa, is the gift. In everyday terms this means treating each task as something Kṛṣṇa has already given you to do, not as something you are generating toward a future payoff. The rapturous quality of this school's voice carries a practical instruction: bring full, even joyful engagement to the action, while remaining utterly indifferent to whether the world registers it — because the registration that matters is the one at the source, not the one at the receiving end.",
     "bhakti": "Śrīdhara's technical distinction between kāmita (consciously desired) and akāmita (unclaimed) fruit has a precise everyday use: when working toward a goal, track whether you have converted the outcome into a willed personal possession in your inner narration. Salary earned through agreed work is not 'fruit-craving' in the bondage-producing sense; the anxious mental act of rehearsing the salary while performing the work is. The practice is to execute the action's full technical quality — do the work as well as it can be done — without simultaneously running the internal audit of 'and here is what I will claim from this.'",
     "advaita-bhakti": "Madhusūdana's composite position offers the most diagnostically useful everyday frame: ask first whether your inner instrument is currently fit for contemplation. If the mind is agitated, restless, or desire-saturated, the direct path of Vedāntic inquiry will not work — and the disciplined response is to engage action precisely as the purification method, not to escape into pseudo-renunciation. Offering the action to Bhagavān (bhagavad-arpaṇa-buddhi) is the specific practice that neutralizes the fruit-generating mechanism: it is not a pious gesture but a structural operation that changes what the action does to the actor."
-  }
+  },
+  "primary_meaning": "You have the right to act, never to the fruits of action. Never let the fruit be your motive, and never let inaction be your refuge."
 }

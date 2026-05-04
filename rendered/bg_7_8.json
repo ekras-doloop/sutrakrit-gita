@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -486,13 +486,6 @@
       ]
     },
     {
-      "list": "प्रणवः सर्ववेदेषु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.25"
-      ]
-    },
-    {
       "list": "प्रभा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -529,7 +522,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān is rasa in water, does tasting water with attention become a form of upāsanā — and if so, what disciplines the practitioner's attention so that tasting does not collapse into mere sensation?",
@@ -547,5 +550,6 @@
     "śuddhādvaita": "Bhoga (enjoyment) of the world is not the problem; it is the medium. Vallabha's insistence that Kṛṣṇa's kāraṇatva is mukhya (full, not diminished) means that every rasa — the sweetness of fruit, the radiance of a lamp at āratī — is Kṛṣṇa's svarūpa fully present. The sādhaka of Puṣṭi-mārga is invited to receive each such rasa as prasāda (gift from Kṛṣṇa), converting consumption into communion without requiring ascetic refusal.",
     "bhakti": "Śrīdhara's tanmātra frame offers a Sāṃkhya-literate practitioner a concrete bridge: the five verse-loci correspond to five of the classical tanmātras (rasa, rūpa, śabda, and by implication sparśa-ghandha in the broader series). Recognising Bhagavān in each tanmātra is therefore structurally identical to Sāṃkhya's cosmological ascent — except the floor is Bhagavān's vibhūti rather than inert prakṛti. The practitioner can use this mapping to re-enchant Sāṃkhya study as an act of devotion.",
     "advaita-bhakti": "The warning 'nātīvābhiniveṣṭavyam' (do not over-invest) is itself the application. A practitioner on the bhakti ramp uses vibhūti-meditation — seeing Bhagavān in sunlight, in water, in the sacred syllable — as a beginner's focussing device. But the Madhusūdana lineage safeguards against fetishizing the device: when the practitioner's attention has grown steady, the vibhūti images are released and the sāmānya-rūpa (universal ground) is met directly. This creates a pedagogical sequence: start with rasa, end without images."
-  }
+  },
+  "primary_meaning": "I am the taste in water, the light of the sun and moon, the syllable *Om* in all the Vedas, sound in space, and the vitality in men."
 }

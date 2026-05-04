@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "dravanti",
-      "lemma": "dru",
+      "lemma": "√dru",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "viśanti",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "abhivijvalanti",
-      "lemma": "abhivijval",
+      "lemma": "abhi-√vijval",
       "grammar": "accusative neuter plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -382,7 +382,8 @@
         "jayatirtha_11.28"
       ],
       "score": 0.5,
-      "english_rendering": "The Dvaita bhāṣya is absent for this verse — the payload records explicitly that Madhvācārya did not comment on this śloka. From Dvaita first principles, however, the river-to-ocean simile would underscore the absolute ontological gap between jīva and Īśvara: the rivers do not become the ocean but enter and are subsumed within it, just as distinct souls (jīvāḥ), always separate from Hari, meet their end fully dependent on His sovereign will (svātantrya). No doctrinal specifics can be imputed beyond what Madhva actually wrote."
+      "english_rendering": "As the many *ambu-vegāḥ* (water-currents) of rivers race headlong toward the ocean — *samudram evābhimukhā dravanti* — so these *nara-loka-vīrā* (heroes of the human world) pour into Your blazing mouths. The simile holds a precise ontological boundary: the rivers do not become the ocean; they enter it and are received by it, their current spent, their independence dissolved. So too the *jīva* (individual self), always *paratantra* (eternally dependent), never *svatantra* (the independently real, self-sufficient) — reaches Hari not as merger but as total submission to His sovereign will. The *pañca-bheda* (the five-fold real distinction) stands even here in the cosmic conflagration: Lord and *jīva* remain distinct, the distinction between *Īśvara* and soul no more erased by entry into those *abhivijvalanti* (blazing) mouths than the river loses its name by flowing into the sea within the Lord's own body. The warriors rush in not by their own resolve but because *Hari* alone is *svatantra*, directing each *paratantra* stream by His sovereign decree — *taratamya* (graded ontological hierarchy) preserved even in annihilation.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -450,7 +451,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dravanti: dru -> √dru",
+          "viśanti: viś -> √viś",
+          "abhivijvalanti: abhivijval -> abhi-√vijval"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What does it mean that the warriors rush into destruction of their own momentum (svayam eva tvaramāṇāḥ), without being pushed — and what does this imply about the role of past choices in shaping present fate?",
@@ -468,5 +481,6 @@
     "śuddhādvaita": "Vallabha's compression of the image into a single flowing motion toward Kṛṣṇa applies to grief-work: when someone you love dies or departs, the Puṣṭi-mārga sensibility reframes dissolution as return — not as annihilation but as the final movement of all grace back to its source, which can convert mourning into something closer to release.",
     "bhakti": "Śrīdhara's sarvataḥ ('on all sides') is a useful frame for situations of total exposure — when a crisis arrives from multiple directions simultaneously. The bhakti-philological reading says: name the totality clearly first (dṛṣṭānta-sthāpana), don't minimize it, and then act. The comparison makes the overwhelming real before asking you to move through it.",
     "advaita-bhakti": "Madhusūdana's care with the variant reading (abhivijvalanti versus the alternative) models intellectual integrity in synthesis-work: when holding two frameworks at once (Advaita and bhakti, or any two demanding lenses), the discipline is to note where the textual record is genuinely uncertain rather than flattening ambiguity into false clarity — and to let that uncertainty itself be generative rather than destabilizing."
-  }
+  },
+  "primary_meaning": "Like rivers rushing headlong to the sea, the warriors of this world are pouring into your blazing mouths from every side."
 }

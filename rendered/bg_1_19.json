@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "vyadārayat",
-      "lemma": "vidāray",
+      "lemma": "vi-√dāray",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [
         {
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "vyanunādayan",
-      "lemma": "vyanunāday",
+      "lemma": "√vyanunāday",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -343,7 +343,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyadārayat: vidāray -> vi-√dāray",
+          "vyanunādayan: vyanunāday -> √vyanunāday"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the same sound shatter one side's heart and leave the other unperturbed — and what does that asymmetry reveal about the inner condition of each army?",
@@ -361,5 +372,6 @@
     "śuddhādvaita": "Vallabha sees the shattering of Dhārtarāṣṭra hearts as Kṛṣṇa's grace emptying a vessel before filling it. When something you built or believed in is suddenly broken apart, resist the reflex to immediately rebuild. Sit with the emptiness as a form of prasāda (divine grace-gift) — the clearing may be the preparation for a deeper capacity you could not have received while the old structure was still standing.",
     "bhakti": "Śrīdhara's pointed use of 'your men' (tvadīyānām) reminds us that Dhṛtarāṣṭra's anguish is inseparable from his possessive identification with his sons. Notice in your own conflicts where the word 'mine' inflates the stakes — the people or outcomes you label as 'your side' are precisely what make every setback feel like a personal annihilation.",
     "advaita-bhakti": "Madhusūdana's asymmetry — same sound, opposite effects — points to inner alignment as the decisive variable. Before entering a high-stakes conversation or negotiation, do the inner work to align with what is actually true and just; a mind grounded in dharma (right order) will not be shaken by the noise the opposition generates, while a mind whose foundation is self-deception will be split apart by the very sounds it helped create."
-  }
+  },
+  "primary_meaning": "That uproar filled the sky and earth with thunder and split open the hearts of Dhritarashtra's men."
 }

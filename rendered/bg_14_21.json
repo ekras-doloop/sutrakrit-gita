@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "atītaḥ",
-      "lemma": "atī",
+      "lemma": "√atī",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -299,7 +299,7 @@
     },
     {
       "surface_form": "ativartate",
-      "lemma": "ativṛt",
+      "lemma": "ati-√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -454,9 +454,10 @@
         "jayatirtha_14.21"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary is recorded as absent for this verse. From Madhva's broader Dvaita framework the question is read as Arjuna inquiring about the jiva who, by Hari's grace (anugraha), has been lifted beyond the gunas — a condition that is not the jiva's own achievement but a mark of Hari's sovereignty. The three gunas are Hari's instruments; crossing them is crossing into Hari's own domain. The conduct-question anticipates the answer that such a jiva acts as pure nimitta (instrument) of Hari without any trace of independent kartrtva (agency).",
-      "divergence_note": "[Bhashya absent — Madhvacharya did not comment on this verse per source corpus. Dvaita reading is inferred from Madhva's established interpretive framework across adjacent verses.]",
-      "commentator": "Madhvacharya"
+      "english_rendering": "Arjuna's question — *kair liṅgais* (by what marks), *kim-ācāraḥ* (what is his conduct), *kathaṃ ca ativartate* (and how does he cross beyond) — is threefold, pressing for signs, behaviour, and the very mechanics of transcendence. In *dvaita* the answer turns on *svatantra* (the independently real, self-sufficient) Hari and the *paratantra* (eternally dependent) *jīva* (the individual self). The three *guṇas* are Hari's own instruments of cosmic administration; the *jīva* does not exit them by its own power but is drawn beyond them by Hari's *anugraha* (grace), which alone breaks the *guṇa*-bind. The one who has crossed — *atīto bhavati* — bears recognisable *liṅgas* (marks): absence of self-attributed *kartṛtva* (agency), unbroken orientation toward Hari, and conduct that is pure *nimitta* (instrument) of the Lord's will. *Bheda* (real distinction) between *jīva* and Hari is never dissolved in this crossing; the *jīva* does not merge into Hari but arrives at a state of total ontological subordination, the apex of *bhakti* (devotion) as the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) remains real throughout. Arjuna's question thus anticipates an answer that names both the signs of *guṇātīta* status and the irreplaceable role of Hari's sovereignty in producing it.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from *dvaita* *siddhānta* primitives applied to the *mūla*: *svatantra*/*paratantra* asymmetry, *anugraha* as the operative cause of *guṇa*-transcendence, and the persistence of *pañca-bheda* even in the *guṇātīta* state.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -544,7 +545,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "atītaḥ: atī -> √atī",
+          "bhavati: bhū -> √bhū",
+          "ativartate: ativṛt -> ati-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the gunatita can be identified by external marks (lingaih), does that mean gunatita-state is observable from outside — or are the marks only visible to one who shares the same inner space?",
@@ -561,5 +574,6 @@
     "shuddhadvaita": "Vallabha's 'heturupena' — the means is grace (pushti), not striving. Today's application: identify one area where you have been pushing hard and getting diminishing returns. Vallabha would say the gunatita's 'crossing' happens when the efforting-mind steps aside and Krishna's prasada becomes the operative force. What would it look like to stop pushing in that area for one day?",
     "bhakti": "Shridhara asks: what marks arise within (atmany utpannais cihnaih)? Before a difficult interaction today, check your interior weather. Are you entering from contraction (fear, agenda, need to win) or from expansion? The bhakti reading of gunatita marks is that expansion becomes the default interior weather — not permanent bliss, but a stable openness. Track that interior weather today as your laksana-practice.",
     "advaita-bhakti": "Madhusudhana's second prashna is the sharpest practical question: is the gunatita's conduct self-directed (yathesta-cestah) or regulated (niyantritah)? Most people assume the answer is 'regulated' — more rules, more discipline. But Madhusudhana's synthesis suggests the answer is neither: the gunatita acts from sahaja (natural spontaneity) that is neither willful nor rule-bound. Today: notice one moment where you acted well without consulting a rule or suppressing an impulse. That spontaneous rightness is what this prashna is pointing at."
-  }
+  },
+  "primary_meaning": "Arjuna asks: by what marks is a person who has gone beyond the three *guṇas* recognized, O Lord, and what is his conduct, and how does he cross them?"
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "yujyasva",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present imperative pass 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -427,7 +427,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -483,13 +483,6 @@
         "18.37",
         "18.49",
         "18.57"
-      ]
-    },
-    {
-      "list": "बुद्धियुक्तो जहातीह उभे सुकृतदुष्कृते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.13"
       ]
     },
     {
@@ -576,7 +569,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "yujyasva: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kauśalam (skill) means samatva-buddhi (equanimity-intelligence) rather than technique, what distinguishes a skilled teacher from one who merely knows the subject — and can that distinction be observed from the outside?",
@@ -594,5 +598,6 @@
     "śuddhādvaita": "Vallabha's nirbandhnatā (non-binding condition) is not quietism — it is the discovery that Kṛṣṇa's own energy is already moving through the practitioner's hands. A musician who stops calculating whether a performance will be received well and simply plays as an offering into Kṛṣṇa's space enters the Puṣṭi-mārga understanding of kauśalam: the skill is in removing the obstruction of the self-monitoring ego so the guṇa-āviṣkaraṇa (manifestation of Kṛṣṇa's qualities) can happen unimpeded. The practice is not effort but surrender to the current already running.",
     "bhakti": "Śrīdhara's cāturya (adroitness) in converting binding karma into a vehicle for liberation has a direct everyday expression: begin and end each task with a brief, honest dedication to the Lord — not as a superstition but as a structural act that changes the action's frame from self-referential to offering. A parent raising a child who remembers, even occasionally, that this work is īśvara-ārādhana (worship of the Lord) is exercising bhakti-kauśalam: the same acts of patience and sacrifice that would otherwise generate pride and resentment are transmuted into the very substance of devotion.",
     "advaita-bhakti": "Madhusūdana's mahā-kauśalam — the capacity to destroy duṣṭa-karma (corrupted karma) while still acting — manifests in those rare practitioners who engage fully in the world without accumulating the residue of that engagement. The test Madhusūdana implies is functional, not philosophical: does extended, difficult action in the world leave a person more contracted and defended, or more open? If more open, arpita-cetasā (mind surrendered to Kṛṣṇa) is operational. The synthesis asks us to hold jñāna (knowledge) and bhakti (devotion) simultaneously: to see clearly that there is no independent doer, while directing every act of that transparent selfhood toward Kṛṣṇa."
-  }
+  },
+  "primary_meaning": "Joined to steady wisdom, a person sheds both merit and sin in this very life; so commit to yoga, for yoga is skill in action."
 }

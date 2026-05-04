@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "nāśayāmi",
-      "lemma": "nāśay",
+      "lemma": "√nāśay",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -333,8 +333,9 @@
         "jayatirtha_10.11"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is not attested in the available corpus (the payload records: 'Sri Madhvacharya did not comment on this sloka'). A doctrinal projection consistent with his system: Hari, eternally distinct from the dependent jīva, removes the specific quality of ignorance covering that jīva — not by merging into it, but by His independent, unobstructed grace (svātantrya) acting upon a vessel whose eligibility (adhikāra) has been established through exclusive surrender. The darkness removed is real (not mere superimposition); its removal is a real act of Hari on a real jīva.",
-      "divergence_note": "ABSENT — no Madhva bhāṣya on this verse in corpus. Rendering is a first-principles doctrinal projection from Dvaita axioms; flagged as such."
+      "english_rendering": "*Hari* (*svatantra*, the independently real, self-sufficient Lord), abiding within the *ātma-bhāva* (the seat of the self) of His devotees, wields the blazing *jñāna-dīpa* (lamp of knowledge) to destroy the *ajñāna-ja* (ignorance-born) darkness — *teṣām evānukampārtham aham ajñāna-jaṃ tamaḥ | nāśayāmy ātma-bhāva-stho jñāna-dīpena bhāsvatā*. The compassion (*anukampā*) here is not a contingent sentiment but the unconditioned will of the *svatantra* Lord acting upon the *paratantra* *jīva* (eternally dependent individual self). The darkness dispelled is real ignorance veiling a real *jīva* — no superimposition, no dissolution of distinction. *Bheda* (real distinction) between Hari and the *jīva* persists before, during, and after the act of illumination; what changes is the *jīva*'s epistemic condition, not its ontological status. Hari's indwelling as *ātma-bhāva-sthaḥ* is the expression of *antaryāmitva* within a *pañca-bheda* (the five-fold real distinction) scheme: Lord and *jīva* remain categorically distinct even as He dwells within. The *jīva*'s prior cultivation through *bhakti* (devotion as ontological subordination) establishes the *adhikāra* (eligibility) that occasions this sovereign grace — yet the removal itself is Hari's unobstructed act alone.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is attested on this verse. Reading is voiced directly from Dvaita *siddhānta* primitives: *svatantra* Hari, *paratantra* *jīva*, *pañca-bheda*, and the reality of both ignorance and its removal as distinct events in a non-illusory ontology.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -567,7 +568,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nāśayāmi: nāśay -> √nāśay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord destroys ignorance from within the devotee's own mental mode (ātma-bhāva-sthaḥ), what does this imply about where the seeker should look for the source of illumination — outward toward instruction, or inward toward the one who already inhabits the buddhi?",
@@ -585,5 +596,6 @@
     "śuddhādvaita": "Vallabha's 'yoga and kṣema — none other' is a promise of total care: if you have genuinely entered the Lord's own (bhagavadīya), your spiritual welfare is His responsibility, not yours alone. The everyday implication is that anxiety about one's spiritual status — 'am I progressing, am I worthy?' — is itself a residue of the darkness the verse describes. Puṣṭi practice is surrender of that anxiety: you show up for seva, kirtan, smaraṇa, and let the jñāna-darpaṇa do its work from the inside out.",
     "bhakti": "Śrīdhara frames this verse as the completion arc: buddhi-yoga given, then sustained until anubhava (direct experience) is reached. The practitioner's application is patience within commitment: the gift of a clear intellect oriented toward the divine is the beginning, not the end. If you have received genuine discriminative capacity through practice — the ability to distinguish the real from the unreal, the lasting from the transient — trust that the same Lord who gave that gift will accompany it all the way to its fruition. Do not abandon the practice at the point of initial clarity.",
     "advaita-bhakti": "Madhusūdana's synthesis is especially useful for practitioners who love Kṛṣṇa and also take non-duality seriously: the devotion is not compromised by the recognition that the one you love is the same self-luminous consciousness that illumines your love of Him. In daily life this means: let moments of genuine prayer or bhajana open into the recognition that the warmth of that experience is itself the cidābhāsa — the reflection of pure consciousness — described in the verse. Neither collapse the distinction (he is not 'just' awareness) nor cling to it as absolute; hold both registers simultaneously."
-  }
+  },
+  "primary_meaning": "Out of compassion alone, I dwell within them and, with a blazing lamp of knowledge, destroy the darkness that ignorance has made."
 }

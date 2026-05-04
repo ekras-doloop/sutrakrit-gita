@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "āvṛtam",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -342,13 +342,6 @@
       ]
     },
     {
-      "list": "काम अछत सुख सपनेहुँ नाहीं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.37"
-      ]
-    },
-    {
       "list": "कामना",
       "role": "supporting",
       "other_verses_in_list": [
@@ -582,7 +575,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āvṛtam: āvṛ -> √āvṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāma is the perpetual enemy only of the jñānin (Śaṅkara), does the fool suffer less — or merely suffer without understanding? What does that imply for moral education?",
@@ -600,5 +603,6 @@
     "śuddhādvaita": "Vallabha points to kāma's burning quality — śoka-santāpa (grief and scorching). When a craving turns into anxiety, restlessness, or resentment after it is not met, that burning is the signal Vallabha names. The Puṣṭi practice is not self-analysis but surrender: bring the burning itself to Kṛṣṇa's feet as an offering, trusting that his prasāda — given unconditionally, not earned — is the only thing that can actually cool what no achievement reaches.",
     "bhakti": "Śrīdhara's distinction — ignorant person discovers kāma's enmity only after the fact, discerning person sees it immediately — has a practical translation: build the habit of the pre-mortem. Before acting on a strong craving, run the question 'where does this end?' even briefly. You do not need to answer it fully; the habit of asking is what converts retrospective regret into prospective discrimination (viveka), which is exactly the knowledge kāma was veiling.",
     "advaita-bhakti": "Madhusūdana's key practical move is viṣaya-doṣa-dṛṣṭi — seeing the fault in the object itself, not just resolving to resist it. When a recurring craving returns despite previous resolution, the antidote is not stronger willpower (which merely suppresses and re-ignites) but a careful, honest look at what the object actually delivered the last time. This shifts the internal action from suppression to genuine disenchantment, which is both the Advaita vairāgya path and the bhakta's natural turn toward Kṛṣṇa when finite objects are seen clearly for what they are."
-  }
+  },
+  "primary_meaning": "Desire veils knowledge like smoke conceals fire, Krishna tells Arjuna; it is your eternal enemy, insatiable and ever-burning."
 }

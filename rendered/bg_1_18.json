@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "dadhmuḥ",
-      "lemma": "dham",
+      "lemma": "√dham",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -378,7 +378,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dadhmuḥ: dham -> √dham"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the text insist on pṛthak pṛthak (each separately) — what would be lost if it simply said 'they all blew their conches together'?",
@@ -396,5 +406,6 @@
     "śuddhādvaita": "When facing a daunting moment — a public performance, a difficult conversation, an exam — the Puṣṭi-mārga practitioner remembers: 'I am not the one blowing the conch; Kṛṣṇa's grace is sounding through me.' This is not passivity but a specific quality of surrender that allows full engagement without the anxiety of ego-ownership. The result — whether the 'heart of the opponent is split' or not — is received as prasāda, not claimed as personal victory.",
     "bhakti": "In pastoral or teaching work — guiding students, counselling individuals, building community — the bhakti-philological practitioner names people. Not 'the group,' not 'everyone,' but Drupada, the Draupadīyas, Saubhadra. The act of calling someone by name — separately, specifically — is the small ritual of recognition that the tradition encodes in pṛthak pṛthak. Each person's particular role in the shared endeavour is honoured; no one is absorbed into a collective without being first acknowledged as an individual.",
     "advaita-bhakti": "In competitive or adversarial situations, Madhusūdana's reading offers a specific diagnostic: whose instruments are 'named by their own glory' and whose are anonymous? This is not mere vanity-tracking — it is a question about which enterprise has accumulated genuine legitimacy (svīya-nāma-prasiddhi) versus which relies only on institutional weight. The practitioner applies this in professional life: build work whose tools are famous for quality, not merely for association with power — and locate the hṛṣīkeśa (the animating intelligence) within rather than performing action from the surface of the ego."
-  }
+  },
+  "primary_meaning": "Then Drupada, the sons of Draupadī, and the mighty-armed Abhimanyu each sounded his own conch separately, O lord of the earth."
 }

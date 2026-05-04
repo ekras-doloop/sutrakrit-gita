@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "vidmaḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 1st person plural verb",
       "senses_attested_in_panel": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "jayema",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "present optative 1st person plural verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "jayeyuḥ",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "present optative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "jijīviṣāmaḥ",
-      "lemma": "jijīviṣ",
+      "lemma": "√jijīviṣ",
       "grammar": "present indicative 1st person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "avasthitāḥ",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -392,8 +392,9 @@
         "jayatirtha_2.6"
       ],
       "score": 0.5,
-      "english_rendering": "Arjuna's uncertainty here — not knowing whether victory or defeat would be the greater harm — reveals the creature's irreducible dependence on Hari's will, for jīvas (individual souls), eternally distinct from Brahman, cannot discern the good by their own reckoning alone. The Dhārtarāṣṭras arrayed before him are not merely opponents but tests of that dependence: would Arjuna act from his own will, or surrender the outcome to the Lord? To kill those without whom one refuses to live is not a tactical problem but a theological one — it is the creature trying to be the author of its own sufficiency.",
-      "divergence_note": "Madhva did not comment on this śloka directly (commentary begins at 2.11); the Dvaita rendering derives from his consistent doctrinal insistence on jīva-Brahman-bheda (eternal distinction) and dependent-worship of Hari as the only resolution of moral deadlock."
+      "english_rendering": "*Na caitad vidmaḥ* — Arjuna confesses that he does not know which is greater (*garīyas*): victory or defeat, life or death in this war. In Dvaita's reading, the confession is not rhetorical. The *jīva* is *paratantra* (eternally dependent), and that dependence is nowhere more naked than in the moment when even the most basic calculation of good and harm collapses. Arjuna cannot weigh the outcomes because no *paratantra* being possesses *svatantra* (the independently real, self-sufficient) discernment; correct knowledge of what is truly *garīyas* belongs to Hari alone, the one *svatantra* reality. The Dhārtarāṣṭras arrayed before him — *te 'vasthitāḥ pramukhe* — intensify the deadlock: those whose deaths he cannot will are the very men he must face. *Yān eva hatvā na jijīviṣāmaḥ* names the sharpest edge of *paratantra* existence — the *jīva* finds itself bound by loves and griefs it did not author and cannot dissolve by its own reckoning. The five-fold real distinction (*pañca-bheda*) is not suspended by Arjuna's anguish; the *bheda* between Lord and *jīva* is precisely why the *jīva*'s confusion requires the Lord's instruction. Arjuna's admission of not-knowing is the threshold at which *taratamya* (graded ontological hierarchy) becomes existentially felt: the dependent self, unable to determine its own course, stands ready — however unwillingly — to receive the *svatantra* Hari's directive.",
+      "divergence_note": "Madhva did not comment on this śloka directly (commentary begins at 2.11); the Dvaita rendering derives from his consistent doctrinal insistence on jīva-Brahman-bheda (eternal distinction) and dependent-worship of Hari as the only resolution of moral deadlock.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -464,7 +465,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidmaḥ: vid -> √vid",
+          "jayema: ji -> √ji",
+          "jayeyuḥ: ji -> √ji",
+          "jijīviṣāmaḥ: jijīviṣ -> √jijīviṣ",
+          "avasthitāḥ: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When every available path feels like a form of loss, how do I make a decision at all — and does the paralysis itself tell me something I need to hear?",
@@ -482,5 +497,6 @@
     "śuddhādvaita": "Puṣṭi-mārga would recognize this moment — when you genuinely cannot calculate your way to the right answer — as a potential opening rather than a failure. The confusion is not a bug; it is what happens when the self-managed life hits its natural limit and something else becomes possible. The practical implication is: instead of redoubling the analysis, notice the exhaustion of the analytical mode itself, and see whether there is something in you that already knows what to do if you stop insisting on being the one who figures it out.",
     "bhakti": "Śrīdhara's Arjuna names something most people feel but rarely say aloud: even success in this situation would be a defeat, because what would be lost in achieving it cannot be replaced by anything the achievement brings. This is a genuinely useful diagnosis for situations where you have been pushing hard toward a goal and something keeps feeling wrong. The question is not 'can I win?' but 'what do I actually lose if I do?' — and whether the thing lost is, in fact, the point. Naming that honestly, as Arjuna does here, is the beginning of an honest choice.",
     "advaita-bhakti": "Madhusūdana reads Arjuna's crisis as containing, in compressed form, all the ingredients for genuine renunciation: he is already detached from earthly fruits, already disgusted by the ordinary calculus of winning, already sensing that there is a self beneath the social identity that has been running the show. If you find yourself in a situation where neither the professional move nor the personal preference resolves anything, and the conventional rewards on offer feel hollow, Madhusūdana would say: do not rush past that moment. It is not depression — it is the ground being prepared for a different kind of understanding, and it is worth sitting with rather than diagnosing away."
-  }
+  },
+  "primary_meaning": "We do not know which would be worse, defeating them or being defeated; the very men we could not wish to survive are the ones standing before us, the sons of Dhṛtarāṣṭra."
 }

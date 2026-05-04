@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "tyajet",
-      "lemma": "tyaj",
+      "lemma": "√tyaj",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -383,8 +383,9 @@
         "jayatirtha_16.21"
       ],
       "score": 0.5,
-      "english_rendering": "[Madhva did not comment on this verse.] From Madhva's broader framework: kama, krodha, lobha sever the jiva's dependent (paratantra) orientation toward Hari, binding it instead to self-assertion (svatantra-abhimana) which is the root delusion. Abandoning these three is the condition for the jiva's return to its proper station of worship.",
-      "divergence_note": "Source bhashya absent for this verse. Rendering inferred from Madhva's Dvaita framework."
+      "english_rendering": "*Kāma* (desire), *krodha* (anger), and *lobha* (greed) — these three are the triple gate of *naraka* (hell), the destruction of the *ātman*. Therefore all three are to be abandoned.\n\nEach of the three is a mode of *svatantra-abhimāna* (the delusion of independent selfhood): *kāma* posits the *jīva* as a self-originating enjoyer; *krodha* asserts it as a sovereign power thwarted; *lobha* treats Hari's dispensation as something the *jīva* may seize on its own terms. All three thus sever the *paratantra* (eternally dependent) *jīva* from its proper subordination to *svatantra* Hari. The verse's *nāśanam ātmanaḥ* — destruction of the self — names not annihilation but the *jīva*'s fall from its ordained rank within *taratamya* (the graded ontological hierarchy), binding it to repeated descent rather than ascent toward *bhakti* (devotion as ontological subordination to Hari). *Tyajet* — let him abandon — is an injunction addressed to the *paratantra* will that retains the capacity to orient itself toward or away from Hari; the abandonment is itself made possible only by Hari's grace, consistent with *pañca-bheda* (the five-fold real distinction between Lord, *jīva*, and matter). The triple abandonment is the threshold condition for re-entering the *daivī* (divine) mode catalogued across the preceding verses.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse survives or is recorded. The reading is voiced directly from Dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -495,7 +496,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tyajet: tyaj -> √tyaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kama, krodha, and lobha are called 'gates' (dvara) rather than chains or prisons, what does the architectural metaphor imply about the agent's role in entering — or staying outside?",
@@ -513,5 +524,6 @@
     "shuddhadvaita": "Sridhara's insight that these three are root-causes has a practical corollary: when you find yourself in a pattern of reactive behavior — snapping at family, over-consuming, obsessing over what you lack — do not catalogue the individual behaviors. Go upstream to the root. Ask which of the three is running in the background. One diagnosis, not a hundred symptoms to treat.",
     "bhakti": "In devotional practice, Sridhara's 'sarva-atmana tyajet' — abandon in every way — applies to the subtle forms of the triad, not just the gross. Subtle kama is needing the kirtan to feel a certain way. Subtle krodha is spiritual impatience with those who are not on the path. Subtle lobha is hoarding teachings. The gate is also entered subtly.",
     "advaita-bhakti": "Madhusudana's two-stage model is a concrete daily practice: Stage 1 — when kama or krodha arises, use viveka to interrupt the downstream action (do not send the message, make the purchase, speak the cutting word). Stage 2 — over time, notice whether the impulse itself is losing force. Stage 1 is accessible immediately; Stage 2 comes from sustained Stage 1. Do not skip to Stage 2 prematurely by claiming the impulse is already gone."
-  }
+  },
+  "primary_meaning": "Desire, anger, and greed are the three gates of hell, destroyers of the self. Abandon all three."
 }

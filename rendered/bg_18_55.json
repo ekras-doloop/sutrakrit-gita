@@ -1,7 +1,7 @@
 {
   "verse_id": "18.55",
   "mūla": {
-    "devanāgarī": "भक्त्या मामभिजानाति यावान्यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम्",
+    "devanāgarī": "भक्त्या मामभिजानाति यावान् यश्चास्मि तत्त्वतः | ततो मां तत्त्वतो ज्ञात्वा विशते तदनन्तरम्",
     "iast": "bhaktyā māmabhijānāti yāvānyaścāsmi tattvataḥ | tato māṃ tattvato jñātvā viśate tadanantaram",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 55",
     "speaker": "Krishna",
@@ -69,7 +69,7 @@
     },
     {
       "surface_form": "abhijānāti",
-      "lemma": "abhijñā",
+      "lemma": "abhi-√jñā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -260,7 +260,7 @@
     },
     {
       "surface_form": "viśate",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -460,7 +460,8 @@
         "jayatirtha_18.55"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacaryah did not comment on this sloka. Drawing from Dvaita's established doctrine: the jiva (jiva, individual soul) eternally distinct from Hari knows the Lord tattvatah (tattvatah, in His true nature as supremely independent svantantra — svantantra) only through para-bhakti (para-bhakti, supreme dependent devotion) granted by Hari's own grace. Knowledge here is not dissolution into Brahman but clear recognition of the Lord's absolute independence and the jiva's absolute dependence; vishate (vishate, entering) denotes the jiva's attainment of Hari's proximity while remaining irrevocably distinct. [NOTE: Madhva bhashya absent from payload; rendering is school-constructed, not bhashya-anchored.]"
+      "english_rendering": "*Bhakti* (devotion) alone gives *abhijñāna* — full, direct cognition — of the Lord: *yāvān yaś cāsmi tattvataḥ*, 'how great and what I am in truth.' This knowing is not an absorption that dissolves the knower; it is the *paratantra* (eternally dependent) *jīva*'s clear apprehension of *Hari* as *svatantra* (the independently real, self-sufficient), the sole *sva-tantra-tattva* whose nature cannot be reached by inference or textual study unaided. *Tattvato jñātvā* — having known in truth — the *jīva* then *viśate*: enters into proximity with Hari, attaining *sāyujya* not as merger but as the highest grade of *taratamya* (graded ontological hierarchy), wherein distinction between Lord and *jīva* persists absolutely. *Pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not cancelled at liberation; it is confirmed and fulfilled in it. The *bhakti* that makes this cognition possible is itself Hari's gift: grace descends prior to the *jīva*'s knowing, since the dependent cannot of itself reach the independent. *Tadanantaram* — immediately thereafter — marks real arrival, not dissolution.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -541,7 +542,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijānāti: abhijñā -> abhi-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "यावान्यश्चास्मि -> यावान् यश्चास्मि"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "viśate: viś -> √viś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Shankara reads bhakti here as jnana-nistha itself, what does that do to the standard jnana-vs-bhakti opposition — is the opposition a pedagogical scaffold that this verse dismantles?",
@@ -559,5 +587,6 @@
     "śuddhādvaita": "The Pushti-marga reading says entry into the Lord includes being drawn into His lila. Applied: when work stops feeling like obligation and starts feeling like play you were made for — when you are 'avishta,' pervaded by something larger than your own agenda — that is the signal Vallabha is pointing at. Cultivate conditions where that can happen rather than grinding through duty alone.",
     "bhakti": "Sridhara's reading ends with 'even knowledge subsides; one becomes ananda itself.' The everyday pointer: there are moments — in music, in prayer, in nature, in grief — where analysis stops and something simply is. That cessation of commentary is not ignorance; it is the far shore of knowing. Do not rush back to concepts when you reach it.",
     "advaita-bhakti": "Madhusudan's jivanmukti frame says: the ajnana is destroyed now, but the body continues until prarabdha runs out. Applied: resolution of a deep confusion or grief does not immediately reshape your circumstances — the old patterns persist for a while by momentum. The practice is to distinguish 'the ignorance is gone' from 'the consequences are gone' and not mistake lingering consequences for evidence that nothing has changed."
-  }
+  },
+  "primary_meaning": "Through devotion you come to know Me as I truly am, in full, and knowing Me that way, you enter Me."
 }

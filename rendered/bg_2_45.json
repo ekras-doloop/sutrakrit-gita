@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -396,7 +396,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhava: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Vedas were composed specifically for guṇa-bound minds, does following Vedic ritual faithfully entrench one in traiguṇya rather than dissolving it — and how do the schools answer that charge differently?",
@@ -414,5 +424,6 @@
     "śuddhādvaita": "Vallabha's gūḍhābhiprāya ('hidden intention') asks you to discover the place in your daily work where you are already not the doer — the moments when something moves through you rather than from you. Puṣṭi-mārga treats these as prasāda (grace-gift), not accident. Collect them, name them, and let them expand: the expansion of those moments is what nistraiguṇya actually feels like before it becomes a permanent condition.",
     "bhakti": "Śrīdhara's fourfold discipline is portable: (1) identify today's recurring dvandva (the comfort you flee toward or the discomfort you flee from), (2) sit with it one minute longer than usual, (3) note what quality of attention becomes available in that extra minute — that quality is nityasattva in its early form. Spiritual progress is measured not by the absence of dvandva but by the steadily lengthening interval before the flight-reflex fires.",
     "advaita-bhakti": "Madhusūdana's key: Vedic fruit tracks desire, not effort — which means effort without kāmanā is genuinely liberated action even while still being action. Today, choose one task and perform it with full technical care and zero attachment to its outcome, then observe what happens to your energy after the task completes: the absence of the usual depletion or elation is the empirical signature of nistraiguṇya, accessible before any metaphysical resolution of the jñāna-bhakti question."
-  }
+  },
+  "primary_meaning": "The Vedas speak to the world of the three qualities; rise above them, Arjuna. Bear pleasure and pain without flinching, stay grounded in steady clarity, and drop the anxiety of getting and keeping."
 }

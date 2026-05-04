@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "yotsye",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "manyase",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -147,7 +147,7 @@
     },
     {
       "surface_form": "niyokṣyati",
-      "lemma": "niyuj",
+      "lemma": "ni-√yuj",
       "grammar": "future indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -324,8 +324,9 @@
         "jayatirtha_18.59"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is absent from the available corpus; no direct bhashya text is supplied for the Dvaita school on 18.59. Drawing on the Dvaita doctrinal frame: the jiva is eternally and essentially distinct from Hari, perpetually dependent (paratantra). Ahankara that presumes the jiva can override Hari's will is the root of bondage. Prakrti, as Hari's sakti (power), will compel action; the jiva's resistance is as futile as a puppet resisting the hand that moves it.",
-      "divergence_note": "[ABSENT — Madhva bhashya on 18.59 not available in supplied corpus. Rendering is extrapolated from established Dvaita doctrinal positions.]"
+      "english_rendering": "*Ahaṅkāra* (the false identificatory ego) is precisely what Krishna names as the obstacle: *yad ahaṅkāram āśritya na yotsya iti manyase* — 'resting on ahaṅkāra, you think: I will not fight.' The *jīva* (the individual self) is *paratantra* (eternally dependent), wholly subordinate to *svatantra* Hari. Any resolve that presumes the *jīva* can override Hari's will is *mithyā* — *mithyaiṣa vyavasāyas te*, 'this determination of yours is false.' The *bheda* (real distinction) between Lord and *jīva* is not dissolved by stubborn inaction; it is rather confirmed in the starkest way: *prakṛtis tvāṃ niyokṣyati*, 'prakṛti will yoke you.' *Prakṛti* here is Hari's *śakti*, operating within the *pañca-bheda* (the five-fold real distinction) scheme — it is not the *jīva*'s possession but the Lord's instrument. The *jīva* who mistakes its own ego-resistance for autonomous freedom misreads its own ontological status. *Taratamya* (graded ontological hierarchy) is not suspended by refusal; the hierarchy simply acts through compulsion when *bhakti* (devotion as ontological subordination) is withheld. Real freedom for the *paratantra* *jīva* is not resistance to Hari's will but willing alignment with it.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is extant on this verse; reading is voiced directly from dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -359,7 +360,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -443,7 +444,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yotsye: yudh -> √yudh",
+          "manyase: man -> √man",
+          "niyokṣyati: niyuj -> ni-√yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between genuine non-attachment (vairagya) and ego-driven refusal disguised as ethics — and how does this verse mark that boundary?",
@@ -461,5 +474,6 @@
     "śuddhādvaita": "Vallabha's read applies to creative and devotional work: when you withhold effort citing scruple or fatigue, and the work demands to be done anyway and you find yourself doing it, that is Krsna's bahiranga-sakti routing around your resistance. The more fruitful posture is to offer the action before it is extracted from you.",
     "bhakti": "Sridhara's corrective is practical: when you are about to refuse something hard by citing moral principle, check whether you have actually heard the full counsel available to you, or whether you are 'relying on ahankara alone, disregarding what has been said.' The refusal may be less righteous than it feels.",
     "advaita-bhakti": "Madhusudana names the subtlest trap: the moment you think 'I am too principled to do this,' you have swapped cowardice-ahankara for dharma-ahankara — but both are ahankara. The integrated reading suggests the only clean exit is surrender that is neither self-righteous nor self-abnegating: acting from dharma without the claim that you are the one upholding it."
-  }
+  },
+  "primary_meaning": "If you think \"I will not fight\" and lean on your sense of self to back that up, that resolve is hollow. Your own nature will drive you to battle."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -520,7 +520,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yānti: yā -> √yā",
+          "yānti: yā -> √yā",
+          "yānti: yā -> √yā",
+          "yānti: yā -> √yā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What does it mean that the destination (gati) is determined by the object of one's resolve (saṅkalpa / vrata) rather than the sincerity of ritual effort — and what does this imply about where most of one's attention quietly rests?",
@@ -538,5 +551,6 @@
     "śuddhādvaita": "Vallabha's guṇa-mapping of worshippers suggests a diagnostic: examine the emotional quality of your motivation — is it genuinely sāttvika (luminous, clear-hearted) or rājasa (driven by status anxiety) or tāmasa (driven by fear and appeasement)? The Puṣṭi-mārga application is: before any significant act, notice the bhāva-quality animating it. If it is not viśuddha-sattva, do not try to force it — instead, offer the very impurity to Kṛṣṇa as the starting material for His prasāda to transform.",
     "bhakti": "Śrīdhara's word akṣaya (inexhaustible) is the practical test: look at which of your sources of meaning or joy are anta-vant (finite, subject to exhaustion) and which are akṣaya. Relationships, achievements, and pleasures are anta-vant by nature. The practice Śrīdhara points toward is building a daily bhajan or smaraṇa habit — not because it is morally superior but because it is the one practice whose fruit does not diminish with time and does not require the external condition to remain intact.",
     "advaita-bhakti": "Madhusūdana's closing line — 'aho durddaiva-vaibhavam ajñānam' — is the most immediately applicable: sit with the recognition that the same hours you spend in finite pursuits could, at zero additional cost, be oriented toward the Infinite. The lament is not self-flagellation; it is a shock of recognition meant to generate urgency. The application: identify one recurring daily activity (a commute, a meal, a routine task) and explicitly redirect its inner orientation toward Bhagavān — not by changing the activity but by changing the saṅkalpa that precedes it."
-  }
+  },
+  "primary_meaning": "Worshippers of the gods reach the gods; worshippers of the ancestors reach the ancestors; worshippers of spirits reach the spirits; but those who sacrifice to Me reach Me."
 }

@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "nameran",
-      "lemma": "nam",
+      "lemma": "√nam",
       "grammar": "present optative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -313,7 +313,7 @@
     },
     {
       "surface_form": "sat",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "nominative neuter singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -699,7 +699,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nameran: nam -> √nam",
+          "sat: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even Brahman (hiraṇyagarbha) requires a cause prior to itself, what does that imply about the adequacy of any created intelligence — human or artificial — as the final arbiter of meaning?",
@@ -717,5 +728,6 @@
     "śuddhādvaita": "Vallabha's niratiśaya-aiśvarya (supremacy without limit) holding all distinct attributes (sarvavibhinna-dharmāśraya) points to a leadership style: the person or institution that can hold radically different values simultaneously without flattening them into a single metric is operating with puṣṭi (nourishing grace) rather than control. Nurture the diversity; do not resolve it prematurely.",
     "bhakti": "Śrīdhara's nine-reason structure is a template for any serious decision. Before acting on a single compelling argument, enumerate all independent grounds — ethical, practical, relational, systemic — and check whether any single one would be sufficient on its own. If nine independent reasons converge, proceed with confidence. If only one does, slow down.",
     "advaita-bhakti": "Madhusūdana's formula 'tvad-bhinnam kim api nāsti' (nothing exists apart from you) can be applied in conflict: when you meet genuine opposition, ask whether the opposing view is pointing at something real you have not yet included in your picture. Universal obeisance begins with the recognition that what resists you may be a dimension of the same ground you are standing on."
-  }
+  },
+  "primary_meaning": "Why would they not bow to you, O infinite lord, shelter of all worlds? You are greater than Brahman and its first cause, the imperishable that is manifest, unmanifest, and beyond both."
 }

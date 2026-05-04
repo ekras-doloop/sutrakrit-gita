@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "kriyamāṇāni",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "accusative neuter plural present participle pass verb",
       "senses_attested_in_panel": [
         {
@@ -290,7 +290,7 @@
         "vedantadeshika_13.29"
       ],
       "score": 0.5,
-      "english_rendering": "Ramanuja reads the verse within the framework he established at 13.20: prakrti is the instrumental and material cause of all karya-karana (effect-cause) activity, while the atman — a jnana-akara (knowledge-form) — remains inherently akarta. One who sees this also sees that the atman's apparent entanglement in prakrti, its experience of pleasure and pain, is the product of karma-rupa-ajnana (action-shaped ignorance), not its natural state. Seeing the atman 'as it truly abides' is seeing it as a qualifier (visesana) of Bhagavan, not as an independent agent."
+      "english_rendering": "*Prakṛtyaiva* (by *prakṛti* alone) all actions are performed in every mode — *sarvāṇi karmāṇi kāryakāraṇakartṛtve hetuḥ prakṛtiḥ* (prakṛti is the cause of all effect-cause-agency), as stated at 13.20. One who sees *kriyamāṇāni* (the actions as being performed) by *prakṛti* in this *pūrvokta-rīti* (manner set out earlier), and who also sees *ātmānam akartāraṃ jñānākāraṃ ca* (the self as non-agent and of the nature of knowledge), that one sees further that *prakṛti-saṃyogaḥ tad-adhiṣṭhānaṃ taj-janyu-sukha-duḥkhānubhavaḥ ca karma-rūpājñāna-kṛtāni* — the self's conjunction with *prakṛti*, its being governed by it, and its experience of *prakṛti*-born pleasure and pain, are all the work of *karma-rūpājñāna* (ignorance taking the form of action). Such a one sees *ātmānaṃ yathāvad avasthitam* (the self as it truly abides): as *viśeṣaṇa* (qualifier) of the Lord who is *bhartā bhoktā maheśvaraḥ* (sustainer, enjoyer, supreme ruler, 13.23), residing in each body with the specific standing that accrues from *tat-tat-śeṣitvena* (being ordered to the respective Lord as its *śeṣin*). Veṅkaṭanātha notes that *sama-vasthitam* carries a force beyond mere presence — the *upasarga* (prefix) marks a *sthiti-vaiśeṣya* (special mode of abiding) defined by *śeṣitva* and *niyantṛtva* (lordship and inner control). The *sama*-word here negates the *vaiṣamya* (differentiation) that arises from *dehātmābhimāna* (the misconception of body as self) — not the *jīva*'s real ontological distinctness, which stands. One who sees thus does not wound the self through *āṭmani vaiṣamya-darśana* (seeing differentiation within the self), and is thereby kept from *bhava-jaladhi* (the ocean of *saṃsāra*), attaining *parā gatiḥ* in the sense proper to the *jīva*-context of this chapter."
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -300,7 +300,9 @@
         "jayatirtha_13.29"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacarya did not comment on this sloka directly; the rendering is inferred from Dvaita principles. The jiva is eternally distinct from Hari and is never the primary karta (agent); all action belongs ultimately to Hari's sankalpa (will). Seeing the Self as akarta means recognising that the jiva acts only as a dependent instrument — its 'non-agency' is not Advaitic identity with Brahman but humble acknowledgment that Hari is the real doer. Para gati is Vaikuntha, attained through this discriminative surrender."
+      "english_rendering": "*Prakṛti* (primordial matter, the field) performs all actions *sarvaśaḥ* (in every respect, entirely); the *jīva* who sees the *ātman* as *akartā* (non-agent) — sees truly. In the dvaita reading, this *akartṛtva* (non-agenthood) of the *jīva* does not dissolve the *jīva* into *brahman*: the *pañca-bheda* (the five-fold real distinction) stands unreduced. The *jīva* is *paratantra* (eternally dependent), and all genuine causal initiative belongs to *svatantra* Hari whose *saṅkalpa* (sovereign will) moves *prakṛti* at every point. What the seeing named here strips away is the *jīva*'s false claim to independent authorship — *kartṛtva* seized as though the *jīva* were *svatantra*. That false seizure is bondage; relinquishing it is not non-dual absorption but the *jīva*'s right recognition of its place in the *taratamya* (graded ontological hierarchy): real, distinct, and wholly instrument to Hari's will. *Prakṛtyaiva ca karmāṇi kriyamāṇāni sarvaśaḥ* — *prakṛti* acts; Hari moves *prakṛti*; the *jīva* undergoes and witnesses. Seeing this clearly is the discriminative vision (*darśana*) that turns toward *bhakti* as ontological subordination and, at maturation, toward the real arrival of the liberated *jīva* in Vaikuṇṭha — distinct, *paratantra*, and forever in Hari's proximity.",
+      "divergence_note": "Advaita reads *akartāraṃ* as pointing to the *ātman*'s identity with *nirguṇa brahman*, for whom agency is *adhyāsa* (superimposition). Dvaita refuses this: the *jīva* remains a real, graded, distinct existent; its non-agency is relational subordination to Hari, not ontological collapse.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -331,7 +333,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -420,7 +422,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyamāṇāni: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prakrti performs all actions, what exactly is 'my' contribution to anything I do today — and does that change my relationship to credit and blame?",
@@ -437,5 +449,6 @@
     "suddhadvita": "Vallabha's application is devotional immediacy: when you catch yourself performing a role — colleague, parent, expert — ask whether the role is obscuring the sat-cid-ananda that is actually present. The 'correct seeing' he describes is not a conceptual correction; it is a felt recognition. Cultivate it through nama-smarana (name-remembrance) while performing the role.",
     "bhakti": "Sridhara's contrast class is practical: the dehatmadarsi injures himself. Identify one recurring way you treat your body or mind as the totality of who you are — overwork, harsh self-talk, compulsive image-management. This is the avidya that 'destroys the Self.' Choose one concrete boundary that protects the deeper Self this week.",
     "advaita-bhakti": "Madhusudana says the jnanin uses sastra-drishti — scriptural vision — as the instrument of correct seeing. This is not mere study; it is using a proven description of reality as a lens in live situations. When a conflict or failure arises today, apply the lens: 'The one who acted is a formation of prakrti; the witness is untouched.' Report to yourself whether the sting lessens."
-  }
+  },
+  "primary_meaning": "All actions are carried out entirely by *prakṛti*; whoever sees the self as the one who does not act sees truly."
 }

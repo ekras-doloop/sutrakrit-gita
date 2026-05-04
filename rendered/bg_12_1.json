@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "yuktāḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "paryupāsate",
-      "lemma": "paryupās",
+      "lemma": "√paryupās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -449,13 +449,6 @@
       ]
     },
     {
-      "list": "मैं भगवान्का ही हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "15.4"
-      ]
-    },
-    {
       "list": "युक्त",
       "role": "supporting",
       "other_verses_in_list": [
@@ -532,7 +525,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktāḥ: yuj -> √yuj",
+          "paryupāsate: paryupās -> √paryupās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When we feel pulled between worshipping a personal, beloved form and dissolving into formless awareness — are these genuinely different paths, or different entry gates to the same destination?",
@@ -550,5 +554,6 @@
     "shuddhadvaita": "Vallabha's student asks not 'which path is philosophically superior' but 'which path does Bhagavan himself want me on?' The question shifts from self-optimisation to relational responsiveness — what is being asked of me by the one I love?",
     "bhakti": "Sridhara's framing is useful for any practitioner: when two legitimate teachers praise different methods, the mature response is not to dismiss one but to formulate the comparison as a precise question and bring it directly to the source. Arjuna models intellectual honesty in spiritual inquiry.",
     "advaita-bhakti": "Madhusudana's contribution for daily life: before asking which path is better in general, ask which path matches your current adhikara (qualification and temperament). Self-knowledge about where you actually stand is prior to path-selection — Arjuna's question is as much about self-assessment as theology."
-  }
+  },
+  "primary_meaning": "Arjuna asks: of the always-devoted who worship you, and those who meditate on the imperishable and unmanifest, which group knows yoga most deeply?"
 }

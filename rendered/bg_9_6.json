@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -238,7 +238,7 @@
     },
     {
       "surface_form": "upadhāraya",
-      "lemma": "upadhāray",
+      "lemma": "upa-√dhāray",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -429,8 +429,8 @@
         "madhusudan_9.6"
       ],
       "score": 0.5,
-      "english_rendering": "Space is by nature unattached (asaṅgasvabhāva); wind, which by nature is ever-moving (sarvadā calanavabhāva), fills all directions, and yet across creation, sustenance, and dissolution it never merges with the sky it moves through. Madhusūdana then maps the terms precisely: even the great elements, which are vast (mahān) and omnipresent (sarvatra-gaḥ), abide in Me who am likewise asaṅgasvabhāva — without contact and without mixture. The double symmetry (asaṅga-space : asaṅga-Kṛṣṇa; ever-moving wind : ever-arising beings) is deliberate: Advaita's witness-consciousness and bhakti's personal Lord are read as the same referent seen from different angles of the devotee's maturing understanding.",
-      "divergence_note": "Madhusūdana's bhāṣya explicitly parallels the adjectives of wind and beings ('mahān, sarvatra-gaḥ') with the adjectives of the Lord and space ('asaṅgasvabhāva'), making the symmetry load-bearing rather than ornamental."
+      "english_rendering": "*Asaṅgasvabhāva* (contact-free by nature) space is the *ādhāra* (support); in it stands wind — *sarvadā calanavabhāva* (ever-moving by nature), and therefore *sarvatra-gaḥ* (going everywhere), *mahān* (vast in measure) — persisting through *utpatti-sthiti-saṃhāra-kāleṣu* (the times of creation, sustenance, and dissolution) without ever being conjoined with that space: *na kadāpy ākāśena saha saṃsṛjyate*. This *dṛṣṭānta* (illustrative analogy) maps directly: in Me, likewise *asaṅgasvabhāva*, all beings — *ākāśādīni mahānti sarvatra-gāṇi ca* (great and omnipresent, beginning with space itself) — stand *saṃśleṣam antarenaiva* (without contact, without admixture). *Upadhāraya*: weigh this with *vimṛśya* (reflective discernment), not mere hearing. The Lord who is *ādhāra* without *saṃśleṣa* is precisely the non-dual witness-consciousness that *bhakti* addresses as the personal Kṛṣṇa — one referent, not two.",
+      "divergence_note": "Madhusūdana's bhāṣya makes *asaṅgasvabhāva* the shared descriptor of both space and the Lord, with *mahān* and *sarvatra-gaḥ* applied symmetrically to wind and to the great elements (*ākāśādīni*); the prior rendering's final sentence projecting a developmental arc of 'maturing understanding' is not present in the bhāṣya and has been removed."
     }
   },
   "prosodic_information": {
@@ -547,7 +547,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sthitaḥ: sthā -> √sthā",
+          "upadhāraya: upadhāray -> upa-√dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all beings already rest in the Lord without His being stained by them — as wind rests in space — what does that imply about the ontological status of the suffering and evil we observe in the world?",
@@ -565,5 +576,6 @@
     "śuddhādvaita": "The Puṣṭi path asks for surrender not as passivity but as recognition: the ground on which you stand is Kṛṣṇa's akṣaramūrti. When you feel groundless — in grief, in failure — the practice is not to construct a new support but to feel the one already there. Even the space in which fear moves is held by the same imperishable form.",
     "bhakti": "The ādhāra–ādheya (support–supported) relation is the devotee's practical map: Bhagavān is not an idea you hold; you are something He holds. Morning practice, prayer, study — these are not you reaching toward the Lord but you becoming aware of an embrace that was already present. The wind does not generate space; it discovers it was always there.",
     "advaita-bhakti": "You can hold both the impersonal witness and the personal beloved in a single posture: when the mind is turbulent (sarvatra-gaḥ, moving everywhere), know that it moves within a space that is both unattached and loving. The meditator and the devotee are not competing stances — they are sequential depth charges in the same understanding, and this verse is a hinge between them."
-  }
+  },
+  "primary_meaning": "As the great wind moves through all of space yet never blends with it, so all beings rest in Me. Hold that understanding firmly."
 }

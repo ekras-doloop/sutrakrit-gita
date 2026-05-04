@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "saṃbhāvitāḥ",
-      "lemma": "sambhāvay",
+      "lemma": "sam-√bhāvay",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "stabdhāḥ",
-      "lemma": "stambh",
+      "lemma": "√stambh",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "yajante",
-      "lemma": "yaj",
+      "lemma": "√yaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -350,8 +350,10 @@
         "jayatirtha_16.17"
       ],
       "score": 0.5,
-      "english_rendering": "[NOTE: Madhvacharya did not comment on this verse per the transmitted corpus. Rendering constructed from Dvaita doctrinal principles.] Those who inflate their own worth apart from Hari's grace stand in direct opposition to the jiva's (individual soul's) essential dependence on the supreme Lord. Name-only sacrifices performed without genuine submission to Hari are categorically void — the jiva that worships itself rather than the eternally distinct Brahman (Vishnu) has inverted the cosmic order and can produce only bondage, not liberation.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Ātma-saṃbhāvitāḥ* (self-conceited, those who esteem themselves as self-sufficient) — the very term names the demonic inversion: the *jīva* arrogating to itself the *svatantra* (independently real, self-sufficient) status that belongs to Hari alone. *Stabdhā* (rigid, unyielding) and *dhana-māna-madānvitāḥ* (possessed by the intoxication of wealth and honor) — these mark the *jīva* that has refused its *paratantra* (eternally dependent) nature and substituted the ego for the Lord. Such a one performs *nāma-yajñaiḥ* (sacrifices in name only), outwardly enacting ritual while the *bheda* (real distinction) between the worshipper and Viṣṇu is denied in practice: the worshipper in effect installs himself where Hari should stand. *Dambhena* (by ostentation) and *avidhi-pūrvakam* (contrary to injunction) — both terms converge on a single defect: without genuine *bhakti* as ontological subordination to *svatantra* Hari, no sacrifice reaches its telos. The *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) is not a doctrine that can be set aside in the ritual moment; sacrifice performed in violation of Lord–*jīva* *bheda* is no sacrifice at all, producing only further bondage within *saṃsāra*. The *taratamya* (graded ontological hierarchy) that places Hari at the apex and every *jīva* in irreversible dependence is the very standard by which *yajante* here is exposed as empty form.",
+      "commentator": "Madhvacharya",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha is transmitted for this verse. The reading voices Dvaita *siddhānta* directly from the *mūla*, applying *pañca-bheda*, *taratamya*, and the *svatantra*/*paratantra* axis to the verse's key compounds.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -428,7 +430,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃbhāvitāḥ: sambhāvay -> sam-√bhāvay",
+          "stabdhāḥ: stambh -> √stambh",
+          "yajante: yaj -> √yaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When is self-confidence a virtue and when does it become atma-sambhavita — self-inflation that blocks genuine learning and correction?",
@@ -446,5 +460,6 @@
     "suddhadvaita": "Vallabha's brevity is pointed: even the name-only act is done incorrectly (avidhipurvakam). In creative or professional work, half-done things offered for appearance — the report filed but not thought through, the conversation had but not meant — carry this signature. The Pusti-marga corrective is to bring the quality of prasada-offering to the smallest task: do it fully or disclose that it is incomplete.",
     "bhakti": "Sridhara's emphasis on shraddha (faith, wholehearted engagement) as the distinguishing factor applies directly to relationships. A conversation held while checking notifications, a birthday acknowledged with a template message, a mentorship relationship maintained for resume value — all are nama-yajna. Ask: 'Would I do this differently if no one were watching and no reputation were at stake?'",
     "advaita-bhakti": "Madhusudana's sharpest point is the double inflation: mana is excessive honor toward oneself; mada is the paired contempt for others, especially those who should be teachers. In learning situations — a class, a feedback conversation, an appraisal — check whether you are listening to update yourself or listening to confirm you already know. The one who cannot be taught by anyone has made themselves into the poorest kind of guru."
-  }
+  },
+  "primary_meaning": "Self-congratulating, rigid, drunk on wealth and pride, they perform sacrifices that are sacrifices in name only, done for show and without following the prescribed rites."
 }

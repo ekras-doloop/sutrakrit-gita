@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "stabdhaḥ",
-      "lemma": "stambh",
+      "lemma": "√stambh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -273,7 +273,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -477,7 +477,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -584,7 +584,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "stabdhaḥ: stambh -> √stambh",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse lists eight attributes of the tamasic agent — but Madhva re-reads 'dirghasutri' as an informer rather than a procrastinator. Does that philological divergence imply that the same vice can manifest as either paralysis or malicious action? What does that say about the unity of tamas?",
@@ -602,5 +613,6 @@
     "shuddhadvaita": "Vallabha's addition of 'duhkhi' (the suffering one) opens pastoral space: if you find yourself chronically afflicted — not motivated by pleasure or pain but just weighed down — Pushti-marga reads this as absence of prasada, not moral failure. The response is not self-correction but surrender: make oneself available to Bhagavan's grace by performing even small acts of bhakti without requiring them to 'work.'",
     "bhakti": "Shridhara's 'vivekashunya' (devoid of discrimination) as the core of 'prakrita' has a direct application in decision-making: when you cannot tell which of two options aligns with dharma — not because both are unclear but because you have stopped asking — you are operating in tamasic prakrita mode. The bhakti correction is to pause and offer the decision to Bhagavan before acting, restoring the discriminative gap that tamas closes.",
     "advaita-bhakti": "Madhusudhana's thousand-doubts portrait of 'dirghasutri' maps precisely onto the modern experience of analysis paralysis: the inner faculty is not empty but overfull — each possible step spawns three objections. His synthesis points toward the Advaita correction (recognize the doubts as objects in awareness, not as awareness itself) held together with the bhakti correction (dedicate the very act of beginning to Krsna, bypassing the need for certainty before starting)."
-  }
+  },
+  "primary_meaning": "The tamasic doer is inattentive, crude, stubborn, deceitful, spiteful, lazy, given to despair, and forever stretching today's work into next month."
 }

@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "niścitam",
-      "lemma": "niści",
+      "lemma": "ni-√ści",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -372,7 +372,8 @@
         "jayatirtha_18.6"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is not extant in the supplied panel; the bhāṣya entry records 'Sri Madhvacharya did not comment on this sloka.' From the Dvaita doctrinal logic established elsewhere, the verse would read as follows: yajna, dana, tapas are the jiva's obligatory service to Hari, never self-generated in their merit; sanga is the error of treating the jiva as independent agent, and its removal reveals the jiva's essential paratantra (dependence). Even these acts remain kartavya (to be done) because Hari's sovereign will sustains them, and their fruit belongs entirely to Him. [Bhāṣya absent — doctrinal extrapolation flagged.]"
+      "english_rendering": "*Etānyapi tu karmāṇi saṅgaṃ tyaktvā phalāni ca | kartavyānīti me pārtha niścitaṃ matamuttamam* — even these acts of yajña, dāna, and tapas are to be performed without *saṅga* (attachment to agency) and without *phala-āsakti* (clinging to result): this is Kṛṣṇa's *uttama mata* (highest declared position).\n\nThe *jīva* (the individual self) is *paratantra* (eternally dependent); its agency is always derivative, subordinate to the *svatantra* (self-sufficient, independently real) sovereignty of Hari. *Saṅga* is not merely a psychological flaw but an ontological error: it misattributes the authorship of action to the *jīva* as if it were *svatantra*, violating the *bheda* (real distinction) between Lord and bound self. To relinquish *saṅga* is to restore that *bheda* to its proper recognition.\n\nThe acts themselves remain *kartavya* (obligatory) because Hari's will sustains them and their fruit belongs entirely to Him. Renunciation is never renunciation of the acts but of the twin errors of independent agency and proprietary claim over result. *Bhakti* (devotion) as ontological subordination is thus not opposed to *karma* but is its innermost form: action performed in full acknowledgment of the *jīva*'s dependence on Hari is itself devotional *sevā*. Kṛṣṇa's verdict — *niścitaṃ matamuttamam*, the settled supreme opinion — closes any space for either quietist abandonment or self-assertive action; both deviate from the *paratantra* truth of the *jīva*'s constitution.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -381,7 +382,7 @@
         "vallabha_18.6"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha reads the verse in the voice of the brahma-vadins (those affirming Brahman-doctrine) who have already established kartavyatva (bindingness of action): even granting their framework, sanga — specifically sva-kartrtva-abhinivesa (insistence on one's own agency) — and the guna-maya-rocana (pleasing fruits woven from the three gunas) must both be abandoned. What remains is action as the Pusti-marga's vicarana-sammata (considered, discerning) mode: action offered into Krishna's lila without the small self's claim. This is Vallabha's certified, supreme matam, declared best across all schools."
+      "english_rendering": "Even where *kartavyatva* (the bindingness of action) has been established among the *brahma-vādins* — *evaṃ brahma-vādinām kartavyatve prāpte'pi tu* — the teaching presses further: *saṅgam*, that is, *sva-kartṛtva-abhiniveśa* (insistence on one's own agency), and *guṇamaya-rocanārthāni phalāni* (fruits whose appeal is woven from the three guṇas), both must be relinquished. Action persisting after that relinquishment — *tyaktvā kartavyānīti* — is what Krishna names his *niścitaṃ matam*: the *vicakṣaṇābhimata* (considered, discerning) conclusion. And it is *uttamam*, highest across all views — *uttamaṃ caitatsa rvamate ṣvityāha uttamamiti* — Kṛṣṇa's certified, supreme *matam* standing above every competing position."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -538,7 +539,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "niścitam: niści -> ni-√ści"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even sacred rites become binding when done with attachment, what distinguishes a liberating act from an enslaving one — is it the act itself, or the interior posture with which it is undertaken?",
@@ -556,5 +567,6 @@
     "śuddhādvaita": "Vallabha's release of guna-maya-rocana (the attractive shimmer of outcomes) is practically the practice of acting from sufficiency rather than scarcity: doing your work because the work itself is Krishna's lila-space, not because the reward will finally complete you.",
     "bhakti": "Sridhara's kevalam Isvara-aradhana suggests treating any obligatory duty — filing taxes, caring for a sick parent, meeting a deadline — as an act of worship: not by adding ritual overlay, but by removing the ego-ownership and the reward-calculation, leaving only the act offered to the Lord.",
     "advaita-bhakti": "Madhusudana's distinction between bhoga-purification and jnana-purification invites a diagnostic question before each major effort: 'Is this improving my outer situation, or is this clearing my inner instrument?' Both are valid, but confusing them — expecting circumstances to produce clarity — is precisely the sanga that blocks liberation."
-  }
+  },
+  "primary_meaning": "Even these acts of sacrifice, giving, and austerity should be performed, Arjuna, dropping all attachment to agency and to their fruits. This is my settled, supreme view."
 }

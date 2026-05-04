@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "hatān",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -155,7 +155,7 @@
     },
     {
       "surface_form": "vyathiṣṭhāḥ",
-      "lemma": "vyath",
+      "lemma": "√vyath",
       "grammar": "past jus 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -163,7 +163,7 @@
     },
     {
       "surface_form": "yudhyasva",
-      "lemma": "yudh",
+      "lemma": "√yudh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -196,7 +196,7 @@
     },
     {
       "surface_form": "jetāsi",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "future indicative peri 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -477,21 +477,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "मया हतांस्त्वं जहि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.35"
-      ]
-    },
-    {
-      "list": "मयैवैते निहताः पूर्वमेव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.32",
-        "11.33"
-      ]
-    },
-    {
       "list": "युध्यस्व",
       "role": "supporting",
       "other_verses_in_list": [
@@ -527,7 +512,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hatān: han -> √han",
+          "vyathiṣṭhāḥ: vyath -> √vyath",
+          "yudhyasva: yudh -> √yudh",
+          "jetāsi: ji -> √ji"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you hesitate before a necessary action because the opponent seems too formidable — Droṇa-class, Bhīṣma-class — what would it mean to discover that the outcome is already 'decided by a force larger than your effort'?",
@@ -545,5 +543,6 @@
     "śuddhādvaita": "When a project or initiative you have been resisting feels like it has prārabdha-momentum — the team is already moving, the conditions have already aligned, the 'kāla' (time) is already doing the work — Vallabha's frame says: step in, do your dharma in this moment, and let the stream carry the outcome. The Puṣṭi-mārga application is: pick up the instrument (keyboard, phone, pen) and let your hands do what they know, without requiring yourself to will it into existence.",
     "bhakti": "When you receive a direct assurance from someone you deeply trust — 'I've already handled it, just do your part' — Śrīdhara's reading asks: can you actually receive that assurance without re-litigating the risk? The bhakti everyday-application is the practice of letting the Lord's word land. In secular translation: when a trustworthy collaborator says 'the path is clear,' can you move without spending the next hour checking their work?",
     "advaita-bhakti": "Madhusūdana's exhaustive enumeration of each warrior's specific powers before dissolving them suggests a method: when paralyzed by a multi-front challenge, name every specific threat fully and precisely (not vaguely as 'it's hard') — write them down as Madhusūdana writes them out — and only then apply the dissolving frame. The sequence matters: acknowledgment of real difficulty first, then 'hatānāṃ hanane ko vā pariśramaḥ' (what effort does it cost to defeat the already-defeated?). Skipping the enumeration produces false reassurance; doing it produces genuine release."
-  }
+  },
+  "primary_meaning": "These men are already slain by Me, Droṇa and Bhīṣma, Jayadratha and Karṇa and the rest. Be the instrument, strike, and do not tremble. Fight, and you will conquer."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "namaskuru",
-      "lemma": "namaskṛ",
+      "lemma": "ni-√kṛ",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "eṣyasi",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "pratijāne",
-      "lemma": "pratijñā",
+      "lemma": "prati-√jñā",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -213,7 +213,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -365,8 +365,9 @@
         "jayatirtha_18.65"
       ],
       "score": 0.5,
-      "english_rendering": "[BHASHYA ABSENT] The Dvaita panel commentary notes Madhvacharya did not comment on this verse. Doctrinal reconstruction from Dvaita framework: The jiva (individual soul) is eternally distinct from and dependent on Hari. 'Fixing the mind on Me' means the jiva's total ontological orientation toward Hari as the independent reality (svatantra). The fourfold injunction — mind, devotion, worship, prostration — maps the entire scope of the jiva's dependent existence (paratantra) onto service of Hari. The promise is Hari's sovereign will, not conditioned by any cosmic mechanism; the jiva's dearness to Him is a fact of Hari's svatantra grace.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Manmanā bhava* — let the *jīva*'s mind be wholly fixed on Hari, the *svatantra* (the independently real, self-sufficient) Lord. *Madbhakto* names *bhakti* (devotion) as the *jīva*'s ontological subordination to Hari, not mere sentiment. *Madyājī* — worship directed to Him alone, since *paratantra* (eternally dependent) existence finds its proper expression only in Hari's service. *Māṃ namaskuru* — prostration enacts the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) bodily: the *jīva* bows before the one who is categorically other and categorically supreme. *Māmevaiṣyasi* — the *jīva* arrives at Hari as a distinct, real person, not dissolved into identity; *satyam* marks the promise as Hari's *svatantra* will, unconditioned by any external necessity. *Priyo'si me* — the *jīva*'s dearness to Hari is a fact of *taratamya* (graded ontological hierarchy): Arjuna stands high in that hierarchy, and Hari's *svatantra* grace is the ground of that standing.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -468,7 +469,28 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "namaskuru: namaskṛ -> ni-√kṛ"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhava: bhū -> √bhū",
+          "eṣyasi: i -> √i",
+          "pratijāne: pratijñā -> prati-√jñā",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Krsna promises 'you will reach Me' only to Arjuna because 'you are dear to Me' — is this a universal promise or a personal one, and what does that mean for practitioners who are not Arjuna?",
@@ -486,5 +508,6 @@
     "śuddhādvaita": "Choose one relationship or responsibility today and bring your full, undivided attention to it — no parallel tracking, no split loyalty. This 'eva' (exclusivity) applied to a single hour is Vallabha's pushti-marga made concrete and portable.",
     "bhakti": "When you feel doubt about whether your practice is 'working,' return to Sridhara's frame: the promise is not conditional on visible progress but on the Lord's prasada (grace). Your part is to remain oriented; the knowledge will come through the Lord's mercy, not through your measurement.",
     "advaita-bhakti": "Examine whether your attention to a person, idea, or goal you are 'devoted to' today is prema-yukta (love-informed) or dwesa-yukta (anxiety-driven). Madhusudana's distinction: both can generate obsessive focus, but only one qualifies as bhakti — what is the texture of your attention?"
-  }
+  },
+  "primary_meaning": "Fix your mind on Me, be devoted to Me, worship Me, bow to Me, and you will come to Me. I promise you truly: you are dear to Me."
 }

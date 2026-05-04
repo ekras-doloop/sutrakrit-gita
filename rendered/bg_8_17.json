@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -470,7 +470,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viduḥ: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even Brahmaloka — the summit of human aspiration across lifetimes — is dissolved at the end of Brahmā's night, what soteriological goal is worth sustained effort?",
@@ -488,5 +498,6 @@
     "śuddhādvaita": "Treat creative sprints and fallow periods as Kṛṣṇa's prasāda-extension and prasāda-withdrawal respectively — not as your productivity succeeding or failing. The equal length of Brahmā's day and night means neither productivity nor rest is more 'real.' Enter each pause as a mini-pralaya: let the prior form dissolve cleanly so the next sṛṣṭi (creation) can emerge from Kṛṣṇa's fresh will rather than your carried-over anxiety.",
     "bhakti": "Śrīdhara's distinction between alpa-darśin (narrow-vision) and true aho-rātra-vid maps onto intellectual humility: before dismissing a difficulty as 'taking too long,' ask whether you are tracking candra-arka time (surface deadlines) or the deeper rhythm of how understanding actually matures. Extend patience to yourself and students by calibrating expectations to the real temporal scale of the work.",
     "advaita-bhakti": "Madhusūdana's synthesis: use cosmological scale as a svalpa-darśitva (narrow-vision) detector in daily decisions. When urgency or fear contract your perspective to the next hour or quarter, consciously zoom to Brahmā's day — 4.32 billion years — then zoom back. The contrast does not produce paralysis; it produces the equanimity of the yogin who acts fully in the moment precisely because he is not over-invested in its permanence."
-  }
+  },
+  "primary_meaning": "A thousand yugas make Brahmā's single day; a thousand more make his night. Those who know this measure of time are the true knowers of day and night."
 }

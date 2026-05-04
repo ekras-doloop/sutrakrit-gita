@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "vyathayanti",
-      "lemma": "vyathay",
+      "lemma": "√vyathay",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -130,7 +130,7 @@
     },
     {
       "surface_form": "kalpate",
-      "lemma": "kṛp",
+      "lemma": "√kṛp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -412,7 +412,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyathayanti: vyathay -> √vyathay",
+          "kalpate: kṛp -> √kṛp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara and Rāmānuja both conclude the verse points toward amṛtatva, yet Śaṅkara routes it through nityātmadarśana (vision of the eternal Self) while Rāmānuja routes it through niṣkāma-karma (action without desire for fruit): can these be genuinely the same path, or does calling them both 'preparation for liberation' conceal a deep disagreement about what liberation means?",
@@ -430,5 +441,6 @@
     "śuddhādvaita": "A period of physical illness or exhaustion that cannot be quickly resolved: Vallabha's application is to receive the suffering as a specific texture of Kṛṣṇa's līlā (divine play), not as an interruption of life but as life itself in this moment. Sahana (endurance) here is not gritted-teeth resignation but an open-palmed receptivity — if this is what Kṛṣṇa's prasāda (grace) looks like today, then today's practice is to remain the vessel without plugging the opening. The smallness of the effort required (Vallabha's commentary is three lines) matches the simplicity of the instruction.",
     "bhakti": "In relationships — parenting, partnership, friendship — there will be stretches of sustained difficulty that yield no resolution if attacked directly. Śrīdhara's application is to stop attempting to eliminate the source of friction and instead build the capacity to remain present within it. The mahāphala (great fruit) he names is not that the friction disappears but that the person who bears it without being overthrown by it becomes dharma-jñāna-saṃpanna (endowed with right conduct and insight) in a way that no smooth passage could produce.",
     "advaita-bhakti": "When a contemplative practice — meditation, prayer, chanting — feels dry, mechanical, or even suffocating rather than liberating, Madhusūdana's application is to distinguish between the antaḥkaraṇa (inner instrument) that is reporting dryness and the svaprakāśa (self-luminous) witness that is registering the report. The practice is not failing; the antaḥkaraṇa is in a particular configuration. Remaining as the dhī-sākṣin (witness of the intellect) during the dry stretch — neither forcing a feeling nor abandoning the form — is the same move as the verse's sama-duḥkha-sukhatva (equanimity in pain and pleasure), applied to the interior life of sādhana (spiritual practice) itself."
-  }
+  },
+  "primary_meaning": "The person whom sorrow and joy cannot shake, who bears both steadily, becomes fit for immortality."
 }

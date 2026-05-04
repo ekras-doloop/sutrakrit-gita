@@ -223,7 +223,7 @@
     },
     {
       "surface_form": "proktaḥ",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -433,8 +433,9 @@
         "jayatirtha_16.6"
       ],
       "score": 0.5,
-      "english_rendering": "Two kinds of birth traverse this world: the daiva (divine), whose nature aligns with Hari's sovereign will, and the āsura (demonic), whose nature opposes it — for the jīva (individual soul) is eternally distinct from Brahman and its disposition at birth reflects its dependent standing before Hari. The daiva has been described; now hear the āsura so that its path may be avoided.",
-      "divergence_note": "Madhva offered no direct commentary on this verse (noted in the payload: 'Sri Madhvacharya did not comment on this sloka'). Rendering is constructed from Dvaita siddhānta (eternal jīva-Brahman distinction, Hari as sovereign) consistent with Madhva's commentary on surrounding verses."
+      "english_rendering": "*Dvau bhūta-sargau loke 'smin daiva āsura eva ca* — two creations of beings stand in this world: the *daiva* (divine) and the *āsura* (demonic). The distinction is not merely moral but ontological: each *jīva* (individual self), as *paratantra* (eternally dependent) upon *svatantra* (the independently real, self-sufficient) Hari, bears a graded standing within *taratamya* (graded ontological hierarchy). The divine creation moves in alignment with Hari's sovereign will; the demonic opposes it. Both classes are real, both are distinct from one another and from the Lord — *pañca-bheda* (the five-fold real distinction) admits no collapse of these categories. The *daiva* disposition has been set out at length; Arjuna is now directed to hear the *āsura*. The instruction is not academic: knowing the demonic thoroughly, the *jīva* who aspires to *bhakti* (devotion) as ontological subordination to Hari can recognize and renounce it.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading proceeds from Dvaita *siddhānta*: real *jīva*–Īśvara *bheda*, *taratamya* among *jīvas*, and *bhakti* as the proper expression of *paratantra* dependence.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -558,7 +559,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "proktaḥ: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If birth itself is already coded daiva or āsura by prior karma (Rāmānuja), what room is there for moral effort — and why does Kṛṣṇa bother telling Arjuna to listen?",
@@ -576,5 +587,6 @@
     "śuddhādvaita": "Vallabha's warning is urgent: even within devotional life, āsura currents can rise — spiritual pride, comparison with others on the path, using Kṛṣṇa's name as social currency. Notice where your bhakti has become performance rather than reception of grace, and return to the simplicity of unconditional surrender.",
     "bhakti": "When you observe in yourself a pattern that seems to belong to both rashness and self-seeking simultaneously, do not let the category confusion become an excuse for inaction. Śrīdhara's point is practical: rākṣasī violence and āsura self-aggrandizement share the same root — address the root, not the symptom-category.",
     "advaita-bhakti": "Run Madhusūdana's three-part test at the end of each day: Was I tameable today (dama) — did I restrain impulses that would have harmed relationships? Was I giving (dāna) — did I extend resources without calculating return? Was I compassionate (dayā) — did I feel with others rather than past them? Any 'no' marks the spot where āsura tendency currently lives in you."
-  }
+  },
+  "primary_meaning": "Two kinds of beings inhabit this world, Arjuna: the divine and the demonic. The divine has been described at length; now hear from me about the demonic."
 }

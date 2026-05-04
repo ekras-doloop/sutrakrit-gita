@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "vadati",
-      "lemma": "vad",
+      "lemma": "√vad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -223,7 +223,7 @@
     },
     {
       "surface_form": "śṛṇoti",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -542,13 +542,6 @@
       ]
     },
     {
-      "list": "कश्चिन्मां वेत्ति तत्त्वतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.3"
-      ]
-    },
-    {
       "list": "तथैव चान्यः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -579,13 +572,6 @@
         "13.13",
         "13.25"
       ]
-    },
-    {
-      "list": "श्रुत्वाप्येनं वेद न चैव कश्चित्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.35"
-      ]
     }
   ],
   "audit_trail": {
@@ -615,7 +601,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vadati: vad -> √vad",
+          "śṛṇoti: śru -> √śru",
+          "veda: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even those who hear and speak correctly still do not know — what exactly is the gap between śravaṇa (hearing) and jñāna (knowing), and can that gap be closed by more śravaṇa, or by something else entirely?",
@@ -633,5 +631,6 @@
     "śuddhādvaita": "Vallabha's avitarkya (beyond logical reach) is not a counsel of passivity but a dissolution of spiritual self-effort as the mechanism of vision. In Puṣṭi-mārga praxis, the devotee does not pursue the ātman by rigorous inquiry but holds themselves available — keeping the inner space clear of the noise of personal strategy so that Kṛṣṇa's prasāda (gift) can disclose itself without obstruction. The everyday form is surrender of the itinerary: releasing the demand to arrive at any particular understanding by any particular effort.",
     "bhakti": "Śrīdhara's indrajālin (conjurer) image has a direct pedagogical application: when teaching or being taught something about the self or consciousness, expect the vipariīta-bhāvanā (contrary impression) to reassert within hours of the session. The practice is not to be discouraged by this but to treat repeated exposure to the teaching — not as redundancy but as the necessary condition for the contrary impression to gradually lose its grip. Śrīdhara's ca-śabda (the particle 'and') implies a gentleness toward the transmission gap: the teacher is not failing, the student is not deficient; the ātman is simply alaukika (not of this world), and alaukika things require alaukika persistence.",
     "advaita-bhakti": "Madhusūdana's three-āścaryā frame — the ātman is wonder, jñāna of it is wonder, the jñānin who holds it is wonder — suggests that genuine encounter with someone who truly knows is itself a rare event deserving the same attentiveness as a text or a teaching. The practice is an upgrade in attention when in the presence of someone whose understanding appears real: rather than extracting propositions, remain in the field of their knowing and let the śabdaśakti (power of their speech) do its acintya (inconceivable) work — the same process Madhusūdana attributes to mahāvākya transmission, which lands not by argument but by direct ignition."
-  }
+  },
+  "primary_meaning": "One person sees it as a wonder, another speaks of it as a wonder, still another hears of it as a wonder. Yet even after hearing, no one truly knows it."
 }

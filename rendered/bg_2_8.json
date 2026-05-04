@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "prapaśyāmi",
-      "lemma": "prapaś",
+      "lemma": "pra-√paś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "apanudyāt",
-      "lemma": "apanud",
+      "lemma": "a-√panud",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "ṛddham",
-      "lemma": "ṛdh",
+      "lemma": "√ṛdh",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -342,8 +342,8 @@
         "madhusudan_2.8"
       ],
       "score": 0.5,
-      "divergence_note": "Madhusūdana alone uses this verse to establish the adhikāra framework: Arjuna's grief is the pedagogical trigger that reveals the seeker's qualification — exhaustion of finite solutions.",
-      "english_rendering": "Neither the pleasures of this world nor the rewards of the next can remove this grief — and the reason is not merely that they are insufficient in scale, but that they are themselves generators of grief. The śruti confirms it: 'the world built by action is exhausted just as the world built by merit is exhausted.' What is produced cannot be permanent; what is impermanent cannot end suffering rooted in the longing for permanence. Sovereignty over earth and heaven alike are forms of bondage to enjoyment — they depend on external conditions and vanish, and in their vanishing they add grief to grief. This recognition — that both worldly desire and heavenly ambition are forms of vairāgya's opposite — is itself the qualifying mark of a genuine seeker.",
+      "divergence_note": "Madhusūdana's bhāṣya makes the verse's logical structure explicit in a way other commentators do not: the move from grief's incurability by finite means (*kṛtakam* = *anityam*) to the formal criterion of *ihemutrabhogavirāga* as *adhikāriviśeṣaṇa* is Madhusūdana's own pedagogical architecture, integrating śruti citation (*karmacito lokaḥ kṣīyate*) and inference (*yat kṛtakaṃ tad anityam*) with the non-dual-bhakti reading that only surrender to the Lord can dissolve what no acquired object can.",
+      "english_rendering": "Arjuna pre-empts the objection that he should deliberate independently — *śrutasaṃpanna* (furnished with scriptural learning) as he is — by declaring: *yac chreyas prāptaṃ sat kartṛ mama śokam apanudyāt*, whatever, once obtained, would remove this grief, *tan na paśyāmi* — that I do not see. The grief is not incidental; it is *indriyāṇām ucchoṣaṇam*, the desiccator of the senses, a constant burning. Against the objection that battle itself will end grief — by victory yielding kingdom, or by death yielding heaven, as dharmaśāstra promises with *dvāv etau puruṣau loke* — Madhusūdana presses: even *asapatnam ṛddhaṃ rājyam*, a prosperous kingdom cleared of enemies, even *surāṇām ādhipatyam* extending to the sovereignty of Hiraṇyagarbha himself, cannot remove this grief. The śruti establishes why: *tad yathā karmacito lokaḥ kṣīyate, evam evāmutra puṇyacito lokaḥ kṣīyate* — the world built by action is exhausted, and so too the world built by merit is exhausted. *Yat kṛtakaṃ tad anityam*: what is produced is impermanent. Sense-perception confirms the destruction of all worldly things. Neither *naihika* nor *āmutrika* enjoyment removes grief; on the contrary, *bhogapāratantryādinā* — through dependence on enjoyment even while it lasts — and through *vicchedāc chokajana eva*, the anguish of severance when it ends, both orders of enjoyment generate grief. Battle is therefore not to be undertaken for the removal of sorrow. By this demonstration, *ihemutrabhogavirāga*, dispassion toward enjoyment in this life and the next, is established as *adhikāriviśeṣaṇatva* — the distinguishing mark of the qualified seeker. In the Madhusūdana-reading, Arjuna's helplessness is not weakness but the index of *bhakti*'s door: the *jīva* (individual self), finding no finite relief sufficient, turns wholly to the Lord.",
       "commentator": "Madhusūdana Sarasvatī"
     }
   },
@@ -401,7 +401,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prapaśyāmi: prapaś -> pra-√paś",
+          "apanudyāt: apanud -> a-√panud",
+          "ṛddham: ṛdh -> √ṛdh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even getting everything I want wouldn't end my suffering, what does that tell me about what I'm actually suffering from?",
@@ -419,5 +431,6 @@
     "śuddhādvaita": "Vallabha's tradition reads Arjuna's stated helplessness not as a problem Kṛṣṇa will fix but as the condition that makes grace flow. If you have ever felt that a period of genuine incapacity — illness, loss, failure — paradoxically opened something in you that years of striving had kept closed, this is the experiential register Puṣṭi-mārga is pointing at. The application is not to manufacture helplessness, but to stop treating your low moments as exclusively things to overcome and start noticing what they make available — the receptivity that arrives when the usual strategies have run out.",
     "bhakti": "Śrīdhara's plain rendering of this verse does one useful thing: it takes grief seriously on its own terms rather than rushing to reframe it. If you are in a situation where well-meaning people keep offering you solutions that don't touch the actual pain, this verse offers validation — sometimes the honest statement is 'I see no remedy here, no matter what scenario I run.' That honesty is not despair; it is the accurate diagnosis that precedes asking the right question. The application is to resist the social pressure to perform recovery before you have actually located the problem.",
     "advaita-bhakti": "Madhusūdana identifies a specific shift in the verse that has a clear parallel in modern life: the moment when you stop asking 'what do I need to get?' and start asking 'why does getting things keep failing to deliver?' That shift — from strategic thinking to questioning the strategy itself — is what he calls the arising of vairāgya (dispassion), and he treats it as an eligibility condition, not a dysfunction. In practice, if you find that career success, financial security, and relationship stability are all present but the underlying unease persists, Madhusūdana would say you have arrived at the right question — and the Gītā's teaching begins precisely there."
-  }
+  },
+  "primary_meaning": "I cannot see anything that would carry away this grief scorching my senses dry, not an uncontested kingdom on earth, not even lordship over the gods."
 }

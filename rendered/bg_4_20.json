@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "tṛptaḥ",
-      "lemma": "tṛp",
+      "lemma": "√tṛp",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -159,7 +159,7 @@
     },
     {
       "surface_form": "abhipravṛttaḥ",
-      "lemma": "abhipravṛt",
+      "lemma": "abhi-√pravṛt",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -423,25 +423,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "त्यक्त्वा कर्मफलासङ्गम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.17"
-      ]
-    },
-    {
-      "list": "नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "3.17",
-        "4.2",
-        "4.3",
-        "6.1",
-        "6.40"
-      ]
-    },
-    {
       "list": "नित्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -503,7 +484,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tṛptaḥ: tṛp -> √tṛp",
+          "abhipravṛttaḥ: abhipravṛt -> abhi-√pravṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the doer acts but is not the doer, what exactly bears moral responsibility — the body, the prārabdha, or the witnessing awareness? How do the six schools distribute blame and credit?",
@@ -521,5 +513,6 @@
     "śuddhādvaita": "Offer each action as prasāda-returned: receive the capacity to act as Kṛṣṇa's gift (puṣṭi), perform it in the spirit of nitya-ānanda, then return the fruit to Him without craving for natural (prākṛta) reward. Vallabha's framing makes even ordinary household ritual — cooking, cleaning, earning — a site of līlā-participation when the prākṛta ego-claim is removed. The test: does the act feel like play or like a demand?",
     "bhakti": "Cultivate self-sufficiency (nitya-nijānanda) through daily contemplative practice so that you enter professional and relational life without a hidden need to extract security from outcomes. Śrīdhara's nirāśraya — having no one to lean on for welfare — is not stoicism but rootedness in inner sufficiency. Practically: identify the one relationship or role you are currently using as your primary āśraya for security, and begin resting that weight back on your own center.",
     "advaita-bhakti": "When prārabdha karma forces you into circumstances you did not choose — an illness, a role, a difficult relationship — Madhusūdana's jīvanmukta model offers a two-level reading: at the level others see, you show up and act with full engagement; at the level you know yourself, there is no anxiety about the arc of the situation because you are not the one it is happening to. Cultivating this double-vision is the everyday practice: act with complete presence, hold identity lightly."
-  }
+  },
+  "primary_meaning": "Freed from clinging to results, content in himself, needing nothing, he moves fully through action yet does nothing at all."
 }

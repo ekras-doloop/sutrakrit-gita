@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "mohayasi",
-      "lemma": "mohay",
+      "lemma": "√mohay",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "vada",
-      "lemma": "vad",
+      "lemma": "√vad",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "āpnuyām",
-      "lemma": "āp",
+      "lemma": "√āp",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -319,9 +319,10 @@
         "jayatirtha_3.2"
       ],
       "score": 0.5,
-      "english_rendering": "Your speech — praising knowledge here, action there — blends what should be kept distinct, and my understanding wavers. Tell me the single path by which I, forever separate from Brahman yet dependent on Hari's grace, may reach the highest good.",
-      "divergence_note": "FLAG: Madhvācārya left no commentary on this śloka ('Sri Madhvacharya did not comment on this sloka'). This rendering is constructed from Dvaita first principles — jīva-Brahman eternal distinction, all action as Hari-worship — applied to the verse's plain meaning. No bhāṣya anchor is available for this school.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "Your speech — now praising *jñāna* (knowledge), now action — blurs what should remain distinct, and my *buddhi* (discerning faculty) wavers. Declare one thing with certainty, that single path by which I may attain *śreyas* (the highest good). The confusion Arjuna names is real: where *bheda* (real distinction) between the *jīva* and *Īśvara* stands firm, no blending of paths is tolerable — each *jīva*, wholly *paratantra* (eternally dependent), must receive from *svatantra* Hari a clear directive. Mixed counsel obscures that dependence and leaves the *paratantra* self without a sure footing. Speak decisively, so that this dependent self may move toward *śreyas* under Hari's unambiguous ordinance.",
+      "divergence_note": "Madhvācārya and Jayatīrtha are silent on this verse. The reading proceeds from *pañca-bheda* and *taratamya*: Arjuna's complaint about mixed speech is sharpest where ontological distinctions are absolute — a *paratantra* *jīva* cannot afford doctrinal ambiguity, for its every act must be directed *Hari-prītyartham* (for Hari's satisfaction). The demand for one clear path (*tad ekaṃ vada niścitya*) maps onto the dvaita insistence that *jñāna* and *karma* are not rivals but are both valid only as forms of *bhakti*-subordination to Hari.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -368,14 +369,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "कुरु कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "3.1"
-      ]
-    },
     {
       "list": "जनार्दन",
       "role": "supporting",
@@ -471,28 +464,6 @@
       ]
     },
     {
-      "list": "ज्यायसी चेत्कर्मणस्ते ৷৷ नियोजयसि केशव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.1"
-      ]
-    },
-    {
-      "list": "तदेकं वद निश्चित्य येन श्रेयोऽहमाप्नुयाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.1",
-        "5.1"
-      ]
-    },
-    {
-      "list": "तू इन कुरुवंशियोंको देख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.1"
-      ]
-    },
-    {
       "list": "बुद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -571,24 +542,6 @@
       ]
     },
     {
-      "list": "बुद्धौ शरणमन्विच्छ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.49",
-        "3.1"
-      ]
-    },
-    {
-      "list": "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "3.1",
-        "5.1",
-        "16.5"
-      ]
-    },
-    {
       "list": "व्यामिश्रेणेव वाक्येन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -638,7 +591,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mohayasi: mohay -> √mohay",
+          "vada: vad -> √vad",
+          "āpnuyām: āp -> √āp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When a teacher gives you two apparently contradictory instructions, how do you distinguish genuine ambiguity from a teaching that requires you to first determine your own eligibility (adhikāra) before the instruction resolves?",
@@ -656,5 +621,6 @@
     "śuddhādvaita": "Vallabha would say the mixing of praise-for-action and praise-for-renunciation in daily life resolves when you stop treating them as strategic options and start treating every action as Kṛṣṇa's līlā-prasāda flowing through you. The question 'which path is mine?' dissolves when you recognize you did not choose the path — Kṛṣṇa chose you for it.",
     "bhakti": "Śrīdhara's compassion note is directly applicable: when you are genuinely confused by a teacher's oscillating messages, assume benevolence first (the teacher is not trying to confuse you) and then ask with the explicit goal of being able to practice. Confusion named in a spirit of seeking practice — not debate — gets answered differently than confusion named as a complaint.",
     "advaita-bhakti": "Madhusūdana's two-stage insight applies directly to career and study decisions: if you are still building foundational skills and habits (aśuddha antaḥkaraṇa, in his terms), commit to the active, structured, karma-yoga track — courses, accountability, output. Do not aspire to the contemplative or 'pure insight' mode before the foundations are clean. The synthesis is sequential, not simultaneous."
-  }
+  },
+  "primary_meaning": "Your words mix praise of knowledge with a command to act, and my mind cannot find its footing. Tell me clearly which one path leads to the highest good."
 }

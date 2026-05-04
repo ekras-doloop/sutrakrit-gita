@@ -214,7 +214,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -436,14 +436,6 @@
       ]
     },
     {
-      "list": "द्रष्टुमिच्छामि ते रूपम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.3",
-        "11.49"
-      ]
-    },
-    {
       "list": "द्रष्टुम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -482,7 +474,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhava: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When we have glimpsed something overwhelming — a person's full complexity, a system's true scale, a grief's real depth — why do we instinctively reach back for the manageable, recognisable face of it rather than sustaining the flood?",
@@ -500,5 +502,6 @@
     "śuddhādvaita": "Vallabha's verse embedded in the commentary warns that those not grounded in a direct source of sustaining śakti (grace, tradition, community) will find fearless delight unavailable to them. Before you ask for the overwhelming vision, ensure you have the support structure — the 'puṣṭi' — to absorb what you see without shutting down.",
     "bhakti": "Śrīdhara's resolution: what you truly perceive of someone is not contradicted by the fact that they sometimes show you more. The crowns and emblems you've always known in a teacher, a beloved, a practice — these are not less real for having been momentarily eclipsed by their full dimensionality. Trust your continuous perception.",
     "advaita-bhakti": "Madhusūdana's synthesis: the 'four-armed form' you return to after an overwhelming encounter is not a lesser version of what you saw — it is the form your devotional sight has always held as substrate. The cosmic episode does not revise your relationship; it brackets within it. Come back to the practice, the person, the form that carries your continuity."
-  }
+  },
+  "primary_meaning": "Show me the form I have always known, crowned and holding your mace and discus, your four arms, not this thousand-armed immensity."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -402,13 +402,6 @@
       ]
     },
     {
-      "list": "कालः कलयतामहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.30"
-      ]
-    },
-    {
       "list": "कालोऽस्मि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -443,7 +436,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa choose akāra and dvandva specifically as his cosmic signatures — what do they share structurally that makes them emblematic of Brahman or Bhagavān?",
@@ -461,5 +464,6 @@
     "śuddhādvaita": "Let the daily recitation of paired sacred names — 'Rāma-Kṛṣṇa', or any name-pair cherished in your tradition — become a conscious dvandva practice: holding both presences equally, neither collapsed into the other. This is not merely linguistic exercise; Vallabha's reading says that dvandva-structure is the grammatical form of love, where two remain two and yet are inseparable. Let the mantra teach the heart's right relationship to the beloved.",
     "bhakti": "Distinguish between two kinds of time in your daily life: the dwindling, anxious time of deadlines, aging, and accomplishment (āyuḥ-kāla) and the inexhaustible flowing stream of presence that underlies it (pravāha-kāla). Bhakti practice — particularly remembrance (smaraṇa) and song (kīrtana) — is a training in inhabiting streaming time rather than countdown time. Notice which mode you are in, and practice the shift.",
     "advaita-bhakti": "Madhusūdana's insight about compound-types has a direct contemplative application: most of our habitual mental structures are tatpuruṣa or bahuvrīhi — they privilege one element and suppress another. Dvandva-mind holds opposites with equal presence: work and rest, self and other, form and emptiness. Train yourself to hold paired realities without immediately resolving them into hierarchy. This is a grammatical form of non-dual awareness that does not require abandoning concrete love."
-  }
+  },
+  "primary_meaning": "Among letters I am the letter *a*, among compound words I am the joining compound, I am endless time itself, and I am the Creator who faces every direction."
 }

@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -396,7 +396,8 @@
         "jayatirtha_18.30"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this śloka; no Dvaita bhāṣya text is available in the panel. The rendering offered here is inferred from Madhva's broader doctrinal framework: the sattvika buddhi is the intellect that correctly perceives Hari's ordinances — pravṛtti and nivṛtti as externally decreed by Bhagavān for jīvas who are eternally distinct from Him. Bhaya is the dread of violating Hari's command; abhaya is the confidence of dependent worship (āśrita-bhāva). Bondage is the condition of the jīva who mistakes itself for independent; mokṣa is liberation into Hari's eternal presence, never identity with Him."
+      "english_rendering": "*Sāttvikī* (of the quality of *sattva*) *buddhi* (discriminative intellect) is that which correctly knows *pravṛtti* (engagement in ordained action) and *nivṛtti* (withdrawal from prohibited action), *kārya* and *akārya* (what must and must not be done), *bhaya* and *abhaya* (the dread proper to a *paratantra* (eternally dependent) *jīva* who violates Hari's decree, and the steadiness of one who abides within it), and *bandha* (bondage) and *mokṣa* (liberation). In the Dvaita reading, each paired term is not a merely cognitive category but an objective order set by *svatantra* (the independently real, self-sufficient) Hari for *paratantra* *jīvas*. *Pravṛtti* and *nivṛtti* are Bhagavān's own decree — what He authorizes and what He forbids — so the *sāttvikī buddhi* is precisely the intellect that tracks Hari's will without distortion. *Bhaya* is not anxiety born of error but the ontologically correct posture of the *jīva* before the Lord's command; *abhaya* is the confidence that belongs to *āśrita-bhāva* (the stance of taking refuge), not to any claimed self-sufficiency. *Bandha* is the *jīva*'s condition when its *paratantra* nature is obscured and it operates as though *svatantra*; *mokṣa* is arrival at Hari's eternal presence, preserving *bheda* (real distinction) across the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) — never dissolution into identity. The *sāttvikī buddhi* thus discerns all six terms as they truly obtain within Hari's sovereign order.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -634,7 +635,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the minimal cognitive equipment a person needs before she can distinguish 'the right action for this situation' from mere habit, preference, or social pressure — and can that equipment be cultivated?",
@@ -652,5 +663,6 @@
     "śuddhādvaita": "A devotee who feels pulled between a demanding seva commitment and personal exhaustion is navigating the very territory Vallabha marks. Sattvika buddhi here is not willpower forcing compliance — it is the open-handed recognition that Kṛṣṇa's will is already present in the situation, and that the instrument (buddhi) need only align rather than strain. The knowing is received, not manufactured.",
     "bhakti": "A student who knows that copying an assignment is wrong but fears failing is in the grip of rājasika buddhi — the bhaya and kārya-akārya registers are inverted. Śrīdhara's framing clarifies: the sattvika student fears the wrong action itself (because of its consequence in dharma and character), not the external penalty. The reorientation of what one is actually afraid of is the practical site of sattvika discernment.",
     "advaita-bhakti": "Madhusūdana's cascade (pravṛtti-path fear = garbhavāsa suffering; nivṛtti-path security = its absence) maps cleanly onto the person who has tried the achievement treadmill and found it produces anxiety not satisfaction. Sattvika buddhi names this: the fear built into engagement-for-its-own-sake (garbhavāsādi-duḥkha) is structural, not accidental. Recognizing that — not as an idea but as a lived datum — is the first move of the sattvika intellect toward the renunciate path."
-  }
+  },
+  "primary_meaning": "The intellect that knows when to act and when to withdraw, what is right and what is wrong, what brings fear and what brings freedom, what is bondage and what is liberation, that intellect is *sāttvika*, Arjuna."
 }

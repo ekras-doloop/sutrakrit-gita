@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "smaran",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "tyajati",
-      "lemma": "tyaj",
+      "lemma": "√tyaj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "eti",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "bhāvitaḥ",
-      "lemma": "bhāvay",
+      "lemma": "√bhāvay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -434,19 +434,6 @@
         "18.50",
         "18.60"
       ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.40",
-        "5.29",
-        "6.9",
-        "7.21",
-        "9.29",
-        "12.13",
-        "12.14"
-      ]
     }
   ],
   "audit_trail": {
@@ -476,7 +463,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "smaran: smṛ -> √smṛ",
+          "tyajati: tyaj -> √tyaj",
+          "eti: i -> √i",
+          "bhāvitaḥ: bhāvay -> √bhāvay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ante-kāla smṛti is determined by lifelong bhāvanā and not by a last-moment decision, what does that imply about the common deathbed-conversion or last-rites ritual — can an external ceremony override an internal vāsanā pattern?",
@@ -494,5 +494,6 @@
     "śuddhādvaita": "Vallabha's Bharata-warning makes the application urgent for householders with legitimate worldly loves (family, profession, art): periodically audit what you would think of involuntarily if startled awake at 3 AM — that is your current bhāva-default. If it is not Kṛṣṇa, that is not self-condemnation but diagnostic data. The Puṣṭi-mārga prescription is more rasa (relational sweetness) with Kṛṣṇa until his form crowds out competitors — through kīrtana, seva, and sakhya-bhāva (friendship-relationship) rather than through ascetic suppression.",
     "bhakti": "The verse's universality (any bhāva, any deity) is pedagogically useful for practitioners who love deeply but imperfectly: whatever you love most consistently, you tend toward. Take inventory of what you spend sustained, unguarded attention on — not what you aspire to love, but what the mind actually returns to. Śrīdhara's balanced reading suggests: do not condemn partial or mixed devotion, but gradually weight the bhāvanā-time toward the highest object, trusting that sadā-practice (continuous cultivation) is cumulative.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests a two-tier practice for the modern practitioner: primary layer — maintain Kṛṣṇa-smṛti through daily upāsanā (worship), accepting that this bhāva, though still a bhāva, is the highest available object and will produce the best possible rebirth or liberation; secondary layer — investigate the smṛti itself through Advaita-style self-inquiry, so that even Kṛṣṇa as object eventually dissolves into the awareness in which all bhāvas arise. The Kaunteya-gloss (excess of affection) reminds the practitioner that Kṛṣṇa reveals this hard universality out of love, not to discourage but to redirect aspiration to its deepest source."
-  }
+  },
+  "primary_meaning": "Whatever state of being one holds in mind at death, that alone one attains, shaped by what the mind has practiced through life."
 }

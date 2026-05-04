@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "saṃtuṣṭaḥ",
-      "lemma": "saṃtuṣ",
+      "lemma": "saṃ-√tuṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "arpita",
-      "lemma": "arpay",
+      "lemma": "a-√rpay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -388,7 +388,8 @@
         "jayatirtha_12.14"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not compose a verse-level comment on BG 12.14 (payload confirms 'Sri Madhvacharya did not comment on this sloka'). The Dvaita rendering is therefore reconstructed from Madhva's systemic positions: the jiva's eternal distinctness from Hari means contentment (santushtah) is not ontological equanimity but the jiva's acceptance of its utterly dependent station (paratantratva). Drdhanishchaya is the firm cognition that Hari alone is svatantra and the jiva's intellect and mind belong to him as an inherent possession — placing (arpita) them in Krishna is restoring what was never truly one's own."
+      "english_rendering": "*Saṃtuṣṭaḥ satatam* — contentment that is constant, not the equanimity of one who has dissolved distinction, but the settled acceptance of *paratantratva* (eternal ontological dependence) proper to every *jīva* (individual self). The *yogī* here is one whose inner discipline (*yatātmā*) is grounded in the recognition that Hari alone is *svatantra* (the independently real, self-sufficient); all the jīva's striving is therefore an expression of subordination, not self-sufficiency. *Dṛḍha-niścayaḥ* (firm conviction) names the unwavering cognition that Lord Kṛṣṇa is the one *antarātman* whose independence the jīva can never share or rival. *Mayi arpita-mano-buddhiḥ* — mind and intellect placed in Kṛṣṇa — is not a voluntary gift from a self-possessing agent; within the *pañca-bheda* (the five-fold real distinction between Lord, jīva, and matter), mind and intellect belong constitutively to Hari's sovereign order, and *arpaṇa* is the jīva's recognition of what was never independently its own. The *bhakta* (devotee) who abides in this recognition — constant, disciplined, firm in the *bheda* (real distinction) between self and Lord — is *priyaḥ*, dear to Kṛṣṇa, not by sentimental proximity but because such a *jīva* enacts the *taratamya* (graded ontological hierarchy) that constitutes right relation to *svatantra* Hari. *Bhakti* here is ontological subordination made continuous.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -436,33 +437,12 @@
   },
   "theme_list_memberships": [
     {
-      "list": "- परमात्मा- के होनेके कारण ही ये गुण",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
       "list": "अद्वेष्टा",
       "role": "supporting",
       "other_verses_in_list": [
         "12.6",
         "12.13",
         "12.19"
-      ]
-    },
-    {
-      "list": "अद्वेष्टा सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
-      "list": "का भाव तथा दुःखियों और पापात्माओंके प्रति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
       ]
     },
     {
@@ -555,13 +535,6 @@
       ]
     },
     {
-      "list": "तात्पर्य यह है कि सिद्ध भक्तका सुखियों और पुण्यात्माओंके प्रति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
       "list": "दृढनिश्चयः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -584,13 +557,6 @@
         "12.13",
         "12.19",
         "18.53"
-      ]
-    },
-    {
-      "list": "परन्तु भगवान्ने इन चारों हेतुओँको दोमें विभक्त कर दिया है --",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
       ]
     },
     {
@@ -671,20 +637,6 @@
       ]
     },
     {
-      "list": "मैत्रः करुण एव च",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
-      "list": "यः मद्भक्तः स मे प्रियः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
       "list": "यतात्मा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -713,13 +665,6 @@
       ]
     },
     {
-      "list": "संतुष्टः सततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
       "list": "सततम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -729,41 +674,11 @@
       ]
     },
     {
-      "list": "सतां हि संदेहपदेषु वस्तुषु प्रमाणमन्तःकरणप्रवृत्तयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.13"
-      ]
-    },
-    {
       "list": "समदुःखसुखः",
       "role": "supporting",
       "other_verses_in_list": [
         "12.13",
         "12.19"
-      ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.40",
-        "5.29",
-        "6.9",
-        "7.21",
-        "8.6",
-        "9.29",
-        "12.13"
-      ]
-    },
-    {
-      "list": "सुहृदः सर्वदेहिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.11",
-        "5.29",
-        "6.9",
-        "12.13"
       ]
     },
     {
@@ -816,7 +731,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃtuṣṭaḥ: saṃtuṣ -> saṃ-√tuṣ",
+          "yata: yam -> √yam",
+          "arpita: arpay -> a-√rpay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If contentment is defined as 'the enough-cognition arising' (as Shankara has it) rather than as emotional positivity, what would a daily practice of noticing alampratyaya — the moment sufficiency registers — actually look like?",
@@ -834,5 +761,6 @@
     "shuddhadvita": "Vallabha's insistence that bhakti is nirhetuka — beyond merit-accumulation — can free a practitioner from the exhausting calculus of 'am I devoted enough yet?' The everyday application is to show up to devotional practice (puja, kirtan, service) without tracking a score, trusting that the Pushti is Bhagavan's movement toward the jiva, not the jiva's achievement.",
     "bhakti": "Sridhara's prasannachittah — cheerful mind through gain and loss — is trainable as a morning commitment: before checking outcomes (messages, results, finances), briefly stabilise the inner orientation toward Krishna first, so that the news (good or bad) lands on a mind already in its correct posture.",
     "advaita-bhakti": "Madhusudana's synthesis suggests that when a colleague or critic aggressively challenges your position, the Atman-fortress response is not defensive rigidity but the calm that comes from knowing your ground is not the opinion under attack. Engage the argument fully; the drdhanishchaya is underneath the debate, not in winning it."
-  }
+  },
+  "primary_meaning": "Always content, self-controlled, and firm in conviction, the devotee who places both mind and intellect in Krishna is dear to him."
 }

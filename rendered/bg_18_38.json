@@ -2,7 +2,7 @@
   "verse_id": "18.38",
   "mūla": {
     "devanāgarī": "विषयेन्द्रियसंयोगाद्यत्तदग्रेऽमृतोपमम् | परिणामे विषमिव तत्सुखं राजसं स्मृतम्",
-    "iast": "viṣayendriyasaṃyogādyattadagre'mṛtopamam | pariṇāme viṣamiva tatsukhaṃ rājasaṃ smṛtam",
+    "iast": "viṣayendriyasaṃyogād yat tadagre'mṛtopamam | pariṇāme viṣamiva tatsukhaṃ rājasaṃ smṛtam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 38",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "smṛtam",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -316,8 +316,9 @@
         "jayatirtha_18.38"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse; the following is inferred from his Dvaita framework. Pleasure arising from the contact of sense organs with sense objects appears initially like nectar to the jiva (individual soul), which is eternally distinct from Hari. But in its fruition it is like poison — binding the jiva further to prakriti (nature) and distancing it from Hari's grace. The rajasic soul, mistaking this temporary sweetness for real joy, remains caught in the cycle of dependent existence apart from Hari. [NOTE: Madhva bhashya absent for this verse; rendering is school-inferred.]",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Viṣayendriyasaṃyoga* (contact of sense-objects with the sense-organs) generates a pleasure that, at its arising, resembles nectar — *agre amṛtopamam* — yet in its *pariṇāma* (ripening, final issue) is *viṣam iva*, like poison. The *jīva* (the individual self), eternally *paratantra* (dependent) upon *svatantra* (the independently real, self-sufficient) Hari, is drawn by *rājasic* pleasure into ever-tighter bondage to *prakṛti*. The sweetness at first contact is not false in the sense of mere illusion — the *pañca-bheda* (five-fold real distinction) between Lord, *jīva*, and matter remains fully real throughout — but the pleasure's trajectory is corrupted: what presents itself as nourishing ultimately poisons. The *rājasic* *jīva*, seduced by the initial savour, fails to register the *taratamya* (graded ontological hierarchy) that places Hari's *ānanda* incomparably above any object-sense delight. Remaining bound in this way, the *jīva* drifts from *bhakti* (devotion as ontological subordination to Hari), which alone constitutes its proper mode of being. The verse is thus a warning against the *viṣayendriyasaṃyoga*-born pleasure that, however nectar-like at first, ends in poison and prolongs the *jīva*'s dependent wandering far from Hari.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -413,7 +414,35 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "viṣayendriyasaṃyogādyattadagre'mṛtopamam -> viṣayendriyasaṃyogādy att adagre'mṛtopamam"
+        ]
+      },
+      {
+        "date": "2026-05-03T23:28:12.447997Z",
+        "scope": "iast_reconstruction_from_word_by_word",
+        "reason": "broken_split_from_e04db6c9_repair"
+      },
+      {
+        "date": "2026-05-03T23:28:56.121735Z",
+        "scope": "iast_canonical_restoration",
+        "reason": "fix_e04db6c9_broken_split_on_long_consonant_clusters"
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "smṛtam: smṛ -> √smṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does pleasure that feels like nectar at first become poison in its maturity — is the problem the pleasure itself or the attachment that makes it seem like nectar?",
@@ -431,5 +460,6 @@
     "shuddhadvaita": "Vallabha's Pushti-marga tradition teaches that the sweetness of Krishna's prasada (grace-gift) never reverses — it deepens. Whenever you notice a pleasure that has begun its inversion from nectar to bitterness, use that moment not as guilt but as a pointer: this is the boundary marker showing you where Krishna's lila begins and rajasic grasping ends.",
     "bhakti": "Sridhara's 'iha and amutra' (here and hereafter) framing is practical: rajasic pleasures carry their cost both immediately and over time. Before a significant decision — a relationship, a commitment, an indulgence — trace both time horizons. What does this look like six months from now, not just tonight? The bhakta trains this dual-vision until it becomes natural.",
     "advaita-bhakti": "Madhusudhana's key phrase is 'not from atma-buddhi-prasada' — pleasure that comes from genuine inner clarity versus pleasure that fills a gap in self-knowledge. Practically: notice whether you are drawn to something because you are settled and joyful, or because you are restless and seeking. The same activity (music, food, company) can arise from either source; only the cognitive ground differs — and so does the arc."
-  }
+  },
+  "primary_meaning": "Pleasure born of sense meeting object tastes like nectar at first, but ripens into poison; such pleasure is called rajasic."
 }

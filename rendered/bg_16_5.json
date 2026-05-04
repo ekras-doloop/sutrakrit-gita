@@ -143,7 +143,7 @@
     },
     {
       "surface_form": "matā",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -159,7 +159,7 @@
     },
     {
       "surface_form": "śucaḥ",
-      "lemma": "śuc",
+      "lemma": "√śuc",
       "grammar": "past jus 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "abhijātaḥ",
-      "lemma": "abhijan",
+      "lemma": "abhi-√jan",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -225,7 +225,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -454,25 +454,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.19",
-        "4.3",
-        "5.17",
-        "7.29",
-        "8.16"
-      ]
-    },
-    {
-      "list": "नष्टो मोहः स्मृतिर्लब्धा त्वत्प्रसादान्मयाच्युत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.73"
-      ]
-    },
-    {
       "list": "पाण्डव",
       "role": "supporting",
       "other_verses_in_list": [
@@ -541,35 +522,11 @@
       ]
     },
     {
-      "list": "पुरुषः सुखदुःखानां भोक्तृत्वे हेतुरुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28"
-      ]
-    },
-    {
       "list": "मा शुचः",
       "role": "supporting",
       "other_verses_in_list": [
         "2.11",
         "18.66"
-      ]
-    },
-    {
-      "list": "यच्छ्रेय एतयोरेकं तन्मे ब्रूहि सुनिश्चितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.1"
-      ]
-    },
-    {
-      "list": "यच्छ्रेयः स्यान्निश्चितं ब्रूहि तन्मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.7",
-        "3.1",
-        "3.2",
-        "5.1"
       ]
     }
   ],
@@ -600,7 +557,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "matā: man -> √man",
+          "śucaḥ: śuc -> √śuc",
+          "abhijātaḥ: abhijan -> abhi-√jan",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the daivi sampad is inherited through lineage (as both Ramanuja and Vallabha suggest via Pandu's nature), what role does individual effort actually play in cultivating it — is it earned or revealed?",
@@ -618,5 +588,6 @@
     "shuddhadvaita": "Vallabha's pushti-maryada split is visible in daily life: sometimes we follow duty mechanically (maryada) and sometimes something breaks open and service feels effortless, even joyful (pushti). Do not force the second, but do not block it either when it arrives.",
     "bhakti": "Sridhara's adhikara frame applies to learning and professional contexts: not everyone is ready for every teaching at every moment. When you feel unqualified or out of your depth, check whether the question is really about competence or about anxiety — they require different responses.",
     "advaita-bhakti": "Madhusudana's prag-arjita-kalyana (previously accumulated merit) is the recognition that your current capacity is not only what you built today but what prior effort and grace have deposited. When discouraged, recall the sedimented good you are building on — and then act from that foundation rather than from the anxiety."
-  }
+  },
+  "primary_meaning": "The divine endowment leads to liberation, the demonic to bondage. Grieve not, Arjuna, you were born into the divine."
 }

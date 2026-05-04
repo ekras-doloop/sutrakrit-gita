@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "tatam",
-      "lemma": "tan",
+      "lemma": "√tan",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "vindati",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -320,9 +320,10 @@
         "jayatirtha_18.46"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's Gita-bhashya does not record a direct comment on this verse. From his broader doctrine: that Hari alone is the independent source (yatah pravrttih) of all beings, that the cosmos is pervaded by His reality, and that jiva-karma has no efficacy except as dependent worship (ashraya) of Hari. Siddhi is attained only by His anugraha (favour), not by any inherent power of the act. The jiva's distinction from Brahman is permanent; sva-karma's function is to orient the jiva's dependence correctly, not to merge it.",
-      "divergence_note": "ABSENT: Sri Madhvacharya did not comment on this verse per the corpus. Rendering extrapolated from his Gita-bhashya doctrine on karma, ashraya, and anugraha.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Yataḥ pravṛttir bhūtānāṃ* — from whom alone proceeds the activity of all beings — names *Hari* as the sole *svatantra* (independently real, self-sufficient) source. The cosmic pervading indicated by *yena sarvam idaṃ tatam* is Hari's own inherent omnipresence, not a diffusion of impersonal being; the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) remains intact even within that pervasion. *Svakarmaṇā tam abhyarcya*: *svakarmā* — one's own duty-bound action performed according to *varṇa* and *āśrama* — is valid only insofar as it is directed toward Hari as explicit worship; the *jīva*, being wholly *paratantra* (eternally dependent), possesses no autonomous efficacy in the act. *Siddhiṃ vindati mānavaḥ*: the *siddhi* (highest attainment) reached here is not dissolution of the *jīva* into Brahman but a real arrival at Hari's grace — *anugraha* — which alone converts *svakarmā* into a vehicle of liberation. The *taratamya* (graded ontological hierarchy) of *jīvas* is preserved throughout: no *jīva*'s *svakarma* carries intrinsic soteriological weight; it orients the *jīva*'s dependence rightly, securing *bhakti* as ontological subordination to the *svatantra* Lord.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse survives in the corpus; the reading is voiced directly from dvaita siddhānta applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -465,7 +466,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tatam: tan -> √tan",
+          "vindati: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If every prescribed duty (sva-karma) is already a form of worship when aimed at the source of all activity, does the quality of inner orientation transform the act, or does the act transform regardless of orientation?",
@@ -483,5 +495,6 @@
     "shuddhadvaita": "A musician in Pushti-marga tradition performs only for Krishna's delight, refusing commissions for concerts dedicated to other purposes. The performance is seva, not professional output. The moment attention drifts from Krishna as sole receiver, the rasa collapses; when it holds, even a single raga becomes an act of mukti-in-motion.",
     "bhakti": "A parent raising a child with full care and attentiveness treats each decision — school choice, discipline, tenderness, boundary — as an offering to the Parameshvara who is the antarayamin within that child. The child is not a project to be optimised but a site of worship. This reframe does not reduce practical effort; it prevents burnout by grounding love in something larger than result.",
     "advaita-bhakti": "A writer who experiences creative work as simultaneously an expression of Bhagavan's sphurana (self-luminosity) and a purification of her own antahkarana lives the synthesis Madhusudhana describes. The writing is not separate from sadhana; it is sadhana. As the inner faculty clarifies through consistent dedicated work, glimpses of aikatmya (non-dual recognition) become available not in meditation only but in the act of composition itself."
-  }
+  },
+  "primary_meaning": "From the one source from whom all beings arise and by whom all this is pervaded, a person attains fulfillment by worshipping that source through their own proper work."
 }

@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "kathayiṣyanti",
-      "lemma": "kathay",
+      "lemma": "√kathay",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "saṃbhāvitasya",
-      "lemma": "sambhāvay",
+      "lemma": "sam-√bhāvay",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "atiricyate",
-      "lemma": "atiric",
+      "lemma": "ati-√ric",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -343,8 +343,9 @@
         "jayatirtha_2.34"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse directly; the Dvaita position must be inferred from the school's broader frame. The jīva (individual self) is eternally and completely distinct from Hari; its dharma-kārya (duty-action) is a form of dependent worship ordered by Hari's will. Akīrti arising from abandoning righteous battle would be an offense not merely to the social order but to the hierarchy of being itself — a jīva shirking the role Hari assigned to it — and thus akīrti here carries an ontological weight beyond reputation.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Akīrti* (undying infamy) — *akīrtiṃ cāpi bhūtāni kathayiṣyanti te 'vyayām* — is not merely a social wound. For the *paratantra* *jīva* (the eternally dependent individual self), whose very station in *taratamya* (the graded ontological hierarchy) is assigned by *svatantra* Hari, flight from righteous battle is a dereliction of the specific role Hari has ordained. The *pañca-bheda* (the five-fold real distinction) is not abstract: Lord and *jīva* are genuinely and permanently distinct, and that distinction entails fixed obligation. *Saṃbhāvitasya cākīrtir maraṇād atiricyate* — for the honoured warrior, infamy exceeds death — because death leaves the *jīva*'s relation to Hari intact, whereas dishonour signals a *jīva* that has refused its dependent subordination, resisting the will of the one on whom it wholly depends. *Akīrti* thus registers a failure at the level of being: the *jīva* has acted as though it were *svatantra*, arrogating to itself a choice that belongs to Hari's governance alone.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -387,15 +388,7 @@
       "following_response": ""
     }
   },
-  "theme_list_memberships": [
-    {
-      "list": "अकीर्तिं चापि भूतानि कथयिष्यन्ति तेऽव्ययाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.38"
-      ]
-    }
-  ],
+  "theme_list_memberships": [],
   "audit_trail": {
     "substrate_version": "v2.6-frozen",
     "fitted_weights": {
@@ -423,7 +416,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kathayiṣyanti: kathay -> √kathay",
+          "saṃbhāvitasya: sambhāvay -> sam-√bhāvay",
+          "atiricyate: atiric -> ati-√ric"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara and Madhusūdana both call akīrti 'avyayā' (imperishable) — does social memory actually outlast the body, or is this a rhetorical device Kṛṣṇa uses to destabilize Arjuna's fear of physical death by substituting a worse fear?",
@@ -441,5 +446,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga teaches that we are sustained by Kṛṣṇa's prasāda (grace) alone, and that the highest response to grace is joyful, wholehearted action in the role in which grace has placed us. The person who has been given exceptional gifts — talent, position, opportunity — and who then shrinks from using them is, in Puṣṭi terms, refusing the prasāda. The akīrti they receive is not punishment but natural consequence: others perceive the withdrawal of participation from one who was chosen, and their memory of it is permanent. The everyday application is to treat one's gifts as invitations to play (līlā) rather than burdens to shed.",
     "bhakti": "Śrīdhara's emphasis on bahumānita (the greatly honored one) points to a practical truth in devotional communities: the person who has been publicly recognized — praised, trusted, given responsibility — carries a heavier burden of akīrti if they fail. Reputation is not merely ego; in bhakti communities it is relational currency that enables others to practice trust and surrender through the model of the honored person. When such a person abandons their role, śāśvatī (eternal) infamy follows because the community's memory of their promise outlasts their exit. The application: honor received in a community is a covenant, not a trophy.",
     "advaita-bhakti": "Madhusūdana's distinction between deferred karmic suffering and the immediate, atyasahya (utterly unbearable) pain of śiṣṭa-garhā (reproach by the virtuous) maps precisely onto lived experience: abstract consequences of wrong action can be rationalized away, but the specific, named disapproval of people whose judgment you respect is unbearable in the present moment. His synthesis — jñāna (knowledge) held together with bhakti (devotion) — suggests that a person of integrated practice is especially vulnerable to this immediate suffering precisely because they care deeply about both truth and relationship. The application: use the anticipation of that specific, present, relational pain as a compass when abstract duty feels remote."
-  }
+  },
+  "primary_meaning": "Every creature alive will speak your infamy forever, and for a man held in such honor, that disgrace is a heavier burden than death."
 }

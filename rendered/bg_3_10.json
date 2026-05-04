@@ -118,7 +118,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -194,7 +194,7 @@
     },
     {
       "surface_form": "prasaviṣyadhvam",
-      "lemma": "prasū",
+      "lemma": "pra-√sū",
       "grammar": "future cond 2nd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -228,7 +228,7 @@
     },
     {
       "surface_form": "astu",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present imperative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -236,7 +236,7 @@
     },
     {
       "surface_form": "iṣṭa",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -442,42 +442,7 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अनेन प्रसविष्यध्वमेष वोऽस्त्विष्टकामधुक्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
       "list": "इष्टकाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
-      "list": "एहि तन कर फल बिषय न भाई",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
-      "list": "ते देवा भावयन्तु वः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
-      "list": "देवान् भावयतानेन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
-      "list": "परस्परं भावयन्तः",
       "role": "supporting",
       "other_verses_in_list": [
         "3.11"
@@ -533,20 +498,6 @@
       "other_verses_in_list": [
         "4.28"
       ]
-    },
-    {
-      "list": "श्रेयः परमवाप्स्यथ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
-    },
-    {
-      "list": "सहयज्ञाः प्रजाः सृष्ट्वा पुरोवाच प्रजापतिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.11"
-      ]
     }
   ],
   "audit_trail": {
@@ -576,7 +527,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "prasaviṣyadhvam: prasū -> pra-√sū",
+          "astu: as -> √as",
+          "iṣṭa: iṣ -> √iṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Prajāpati ordained yajña at creation as the universal mechanism of thriving, does every act of reciprocal exchange — taxation, gift, trade, ritual — participate in a cosmic economy rather than being merely human convention?",
@@ -594,5 +558,6 @@
     "śuddhādvaita": "Every vocation — teaching, healing, building, parenting — contains within it a complete path to the highest good (paraṃ śreyas), provided it is performed with full energy and offered to Kṛṣṇa. Do not wait for a separate spiritual practice to begin after work ends. The desk, the kitchen, the workshop floor: these are the yajña-kunda (fire-altar) of Puṣṭi-mārga.",
     "bhakti": "Distinguish between what you are obligated to do (āvaśyaka-karma) and what you merely want to do (kāmya-karma). Śrīdhara's practical teaching: build your day around the irreducible obligations first — those are your yajña. The 'desired fruits' will arise incidentally, like shade from a tree you planted for its fruit; engineering them directly is the lesser use of your energy.",
     "advaita-bhakti": "When good things arrive as by-products of doing your duty well — recognition, money, connection — receive them as Āpastamba's shade-and-fragrance, not as proof that you calculated correctly. Madhusūdana's distinction is actionable: notice whether you are adjusting your behavior to maximize incidental fruit (that is kāmya-karma by another name) or continuing with the prescribed action regardless (that is nityakarma). The difference is interior, invisible to observers, and entirely yours to maintain."
-  }
+  },
+  "primary_meaning": "In the beginning, the Lord of Creatures brought forth humanity together with sacrifice and said: \"Grow and thrive through this, for it is your wish-granting cow."
 }

@@ -163,7 +163,7 @@
     },
     {
       "surface_form": "bhūtaḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -171,7 +171,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -444,13 +444,6 @@
       "other_verses_in_list": [
         "2.72"
       ]
-    },
-    {
-      "list": "ब्रह्मैव सन् ब्रह्माप्येति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.32"
-      ]
     }
   ],
   "audit_trail": {
@@ -480,7 +473,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhūtaḥ: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If brahma-nirvāṇa is attained 'here and now' (iha jīvann eva per Śaṅkara), what distinguishes the jīvanmukta's continued phenomenal life from anyone else's — and how would we recognize it from outside?",
@@ -498,5 +509,6 @@
     "śuddhādvaita": "Take something beautiful in the world — a piece of music, a child's laughter, the colour of late-afternoon light — and instead of analyzing it or trying to possess the feeling, simply let it arrive as prasāda (grace-given). Vallabha's insight is that the world's prapañca is never the problem; clinging to it as self-owned is. The same object that was a bondage becomes a gift the moment it is received as Kṛṣṇa's gift rather than ego's acquisition. The antar-ānanda (inner joy) is experienced through the world, not despite it.",
     "bhakti": "Śrīdhara's three negations are a practical audit: at the end of each day ask where today's energy went — towards viṣaya-sukha (pleasures located in objects), towards social performance and display (na bahiḥ), or towards something whose locus you cannot quite point at externally. The audit is not moralistic; it is cartographic — mapping where your centre of gravity actually lives versus where you assume it lives. Honest surveying over weeks shows the drift, and the noticing itself begins to correct it.",
     "advaita-bhakti": "Madhusūdana's example of the unsought sensory pleasure — the sudden scent of flowers, the unexpected moonrise — is a precise practice target: when something beautiful ambushes you, watch whether it hooks into a chain of wanting (more of this, keep this, return to this) or simply is received and passes. The measure of antar-jyotiḥ is not the absence of beautiful experience but the absence of the chain. Training this requires neither renunciation of beauty nor indulgence — only the clean recognition that awareness was already present before the moonrise arrived."
-  }
+  },
+  "primary_meaning": "The yogi whose joy, delight, and light are all turned inward, that person, already one with Brahman, reaches the peace of Brahman here and now."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "santariṣyasi",
-      "lemma": "saṃtṛ",
+      "lemma": "saṃ-√tṛ",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -292,7 +292,8 @@
         "jayatirtha_4.36"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya on this verse is minimal — he notes only that jñāna is being praised across three consecutive ślokas — but his doctrinal position is determinate: the jīva is eternally distinct from Hari, and sin belongs to the jīva's own tamas. The raft of jñāna is effective only insofar as it produces clear recognition of Hari's absolute independence (svatantra) and the jīva's complete dependence (paratantra); without that recognition, 'jñāna' is merely information and crosses nothing. NOTE: Madhva's panel commentary for this verse is a single-sentence structural note with no verse-specific elaboration; this rendering extrapolates from his established doctrinal framework."
+      "english_rendering": "Madhva's *bhāṣya* opens: *karāṇabhūtaṃ jñānaṃ stauti punaḥ ślokatrayeṇa* — 'he praises again, across three ślokas, *jñāna* as the operative instrument (*karaṇabhūta*).' Jayatīrtha presses further: the word *yena* in 4.35 establishes *jñānasyaiva nirdeśa* — the reference is to *jñāna* alone in the capacity of *karaṇa* (instrument), *yena karaṇatayā nirdiṣṭam*. The verse's boast — *api ced asi pāpebhyaḥ sarvebhyaḥ pāpa-kṛttamaḥ | sarvaṃ jñāna-plavenaiva vṛjinaṃ santariṣyasi* — is thus read as a fresh intensification: *punar iti* signals that the praise of *jñāna* here goes beyond even the *śreyān* declaration at 4.33. The *jīva* (the individual self), however sinful, is *paratantra* (eternally dependent) upon *Hari* who is *svatantra* (the independently real); the raft of *jñāna* (*jñāna-plava*) crosses the mass of sin (*vṛjina*) precisely because it is the instrument by which the *jīva* recognizes that dependence — *jñāna* as *karaṇa*, not as autonomous liberator.",
+      "divergence_note": "Contaminated cell foregrounded doctrinal extrapolation and disclosed its own pipeline logic ('this rendering extrapolates'). Repaired cell anchors directly to Madhva's *karāṇabhūtaṃ jñānaṃ stauti* and Jayatīrtha's *yena karaṇatayā nirdiṣṭam* / *jñānasyaiva nirdeśa* / *punar iti*, dropping the meta-commentary."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -323,7 +324,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -502,7 +503,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asi: as -> √as",
+          "santariṣyasi: saṃtṛ -> saṃ-√tṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If jñāna alone crosses even the worst sin, what prevents the verse from being read as a license for antinomian conduct — and how does each school's reading of 'vṛjina' (sin vs. all karma vs. saṃsāra-phala) close or leave open that loophole?",
@@ -520,5 +532,6 @@
     "śuddhādvaita": "In moments of deep shame or moral failure, Vallabha's silence-as-teaching points to this: stop analyzing the sin. Turn toward Kṛṣṇa directly — through name, form, remembrance — and allow the crossing to happen as prasāda. The instrument is not your understanding; the instrument is His grace flowing into a heart that has stopped defending itself.",
     "bhakti": "Śrīdhara's 'samyag-anāyāsena' (with full ease) is a pastoral reassurance for anyone who feels their burden of accumulated wrong is simply too heavy for any spiritual practice to shift. The everyday application is: begin. The boat is large enough and the crossing genuinely effortless — the obstacle is not the weight of the sin but the refusal to board.",
     "advaita-bhakti": "Madhusūdana's framing of the verse as a hypothetical concession — 'even granting the impossible worst case' — means the promise is structured to dissolve the objection 'but my situation is different, my sins are too specific, too many.' In practical terms: the very argument you are constructing for why jñāna cannot apply to you is the vṛjina the verse is addressing. See the argument, not just its content."
-  }
+  },
+  "primary_meaning": "Even if you are the worst sinner alive, you will cross the entire ocean of sin by the boat of knowledge alone."
 }

@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "jitaḥ",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "sthitam",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "sthitāḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -427,9 +427,10 @@
         "jayatirtha_5.19"
       ],
       "score": 0.5,
-      "divergence_note": "BHĀṢYA FLAG: Madhva's commentary on this verse is a single summary sentence ('tadaiva stauti ihaiveti') with no independent elaboration. This rendering is the complete extent of his textual witness; no further doctrinal expansion is warranted from the supplied bhāṣya.",
-      "english_rendering": "At that very moment — here, in embodied life — the verse praises those who see with equality: the man of equanimity has conquered creation (sarga) while still living, which the Lord now extols.",
-      "commentator": "Madhvācārya"
+      "divergence_note": "The bhāṣya witness is minimal — Madhva's comment is the single phrase *tadaiva stauti ihaiveti* ('he now praises with ihaiva'). Jayatīrtha supplies the doctrinal substance, resolving the *ihaiva*-versus-rebirth tension via *adhikokti* and confirming the *aparokṣa-jñāna* reading. The dvaita *pañca-bheda* and *paratantra* status of the *jīva* are drawn from school *siddhānta* applied to the mūla.",
+      "english_rendering": "*Sarga* (conditioned existence, the stream of birth and death) is conquered — here, in this very life — by those whose minds rest in *sāmya* (equanimity, the equal vision that sees *brahman* as identical in all). *Brahman* is *nirdoṣa* (free from all defect) and *sama* (undifferentiated in its pure nature); therefore those whose minds abide in that *sāmya* are declared to stand in *brahman* itself. In the dvaita reading, *brahman* here names the Supreme Lord Hari, the sole *svatantra* (independently real, self-sufficient) reality: the *sāmya* praised is not ontological collapse of the *jīva* (individual self) into the Lord, but the equanimity born of *aparokṣa-jñāna* (direct, non-mediate knowledge) of Hari as the single ground sustaining all *paratantra* (eternally dependent) selves. Jayatīrtha resolves the apparent tension — how can *mukti* be declared *ihaiva* (here and now) while the knower may yet take further births — by noting that the praise employs *adhikokti* (laudatory hyperbole): the certainty of liberation is so complete for one of true *sāmya* that the Lord extols it as already accomplished. The five-fold *bheda* (real distinction) between Lord, *jīva*, and matter is not dissolved by this equanimity; rather, the *jīva* abides securely in *brahman* while remaining irreducibly *paratantra* — distinct, subordinate, and sustained by Hari's will.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -482,13 +483,6 @@
       "other_verses_in_list": [
         "5.15",
         "5.23"
-      ]
-    },
-    {
-      "list": "निर्दोषं हि समं ब्रह्म तस्माद्ब्रह्मणि ते स्थिताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48"
       ]
     },
     {
@@ -579,7 +573,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jitaḥ: ji -> √ji",
+          "sthitam: sthā -> √sthā",
+          "sthitāḥ: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sarga (rebirth / world-projection) is conquered here in life by equanimity alone, what work remains for post-mortem liberation — and do the six schools agree on the answer?",
@@ -597,5 +603,6 @@
     "śuddhādvaita": "Vallabha's tādātmya reading means that when your mind genuinely settles into stillness — no grasping, no aversion — that stillness is not a pointer toward Brahman, it is Brahman manifesting through Kṛṣṇa's prasāda. So the Puṣṭi-mārga practice is not to manufacture equanimity through effort but to receive it: surrender the turbulence, let Kṛṣṇa's grace produce the sāmya, and recognize in those quiet moments that you are already tādātmya — identical through grace.",
     "bhakti": "Śrīdhara's key move is chronological: the dharma-rules about differential treatment apply before brahma-bhāva is won, not after. This has a practical corollary — do not use 'I see everyone as equal' as a license to skip the hard work of honest discernment in early stages of practice. Genuine equanimity is an arrival, not a starting posture. Until then, do the work of recognizing quality differences while cultivating the underlying brahma-seeing that will eventually make those distinctions spiritually irrelevant.",
     "advaita-bhakti": "Madhusūdana's double-exoneration — Brahman is immune both to external contact-pollution and internal desire-pollution — suggests a practice of discernment about what layer in you is actually being affected by events. When someone's difficult behaviour leaves you disturbed, ask: is this a real pollution of my awareness, or is the disturbance in the antaḥkaraṇa (inner organ) rather than in the ātman? Then bring bhakti into the gap: the ātman, like the sun lighting all eyes without being soiled by what they see, is already free. Rest there while still engaging the world with love."
-  }
+  },
+  "primary_meaning": "Those whose minds are settled in equanimity have conquered birth and becoming right here in this life, for Brahman is faultless and the same in all, and they already stand in it."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "paryāptam",
-      "lemma": "paryāp",
+      "lemma": "√paryāp",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "abhirakṣitam",
-      "lemma": "abhirakṣ",
+      "lemma": "abhi-√rakṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "paryāptam",
-      "lemma": "paryāp",
+      "lemma": "√paryāp",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "abhirakṣitam",
-      "lemma": "abhirakṣ",
+      "lemma": "abhi-√rakṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -236,8 +236,9 @@
         "anandgiri_1.10"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya offers no commentary on BG 1.10; his bhāṣya begins at 2.10, treating chapters one and two's opening verses as contextual framing (upodghāta) rather than objects of philosophical analysis. From the Advaita standpoint, Duryodhana's strategic anxiety about the relative strength of the two armies (bala) belongs entirely to the realm of vyavahāra (conventional transaction) — the plane where distinctions of 'our side' and 'their side,' more and less, protected and unprotected, are operationally real but ultimately superimposed on the one undivided Brahman. The verse therefore stands as an exhibit of avidyā-generated perception: the mind that sees two armies sees two where there is only one Ātman arrayed against itself.",
-      "divergence_note": "Absent — Śaṅkarācārya's bhāṣya explicitly begins at 2.10. Rendering is principled inference from Advaita ontology."
+      "english_rendering": "Duryodhana's anxious arithmetic — *aparyāptam* (immeasurable, inexhaustible) our force guarded by Bhīṣma, *paryāptam* (limited, exhaustible) theirs guarded by Bhīma — operates entirely within *vyavahāra* (conventional transactional appearance), the domain where *avidyā* (ignorance) projects multiplicity onto the one undivided *ātman*. The two armies, the two commanders, the asymmetry of strength: all are *adhyāsa* (superimposition), distinctions held in place by the same ignorance that makes Duryodhana count *asmākam* (ours) against *eteṣām* (theirs). From the standpoint of *paramārtha* (ultimate reality), there is no Bhīṣma-protected force and no Bhīma-protected force; there is only *brahman*, appearing as this battlefield pageant through *māyā*. The verse is thus itself a compressed exhibit of *saṃsāric* cognition: the calculating mind that sees two sides, measures them, and fears — a mind that has not yet heard *tat tvam asi*.",
+      "divergence_note": "The verse admits two readings of *aparyāptam* / *paryāptam* — 'immeasurable / limited' (Duryodhana boasting) or 'insufficient / sufficient' (Duryodhana expressing anxiety). The advaita reading is indifferent to which Duryodhana means, since both readings keep the discourse wholly within *vyavahāra*; either way, the cognition of opposing, quantifiable *bala* (force) is *māyā*-generated multiplicity.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -324,7 +325,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paryāptam: paryāp -> √paryāp",
+          "abhirakṣitam: abhirakṣ -> abhi-√rakṣ",
+          "paryāptam: paryāp -> √paryāp",
+          "abhirakṣitam: abhirakṣ -> abhi-√rakṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Duryodhana perceives his own general Bhīṣma as a source of strategic weakness precisely because Bhīṣma's loyalties are divided — what does this tell us about the relationship between wholeness of commitment and effective action, and where in our own lives do we appoint 'Bhīṣmas' to guard what matters most?",
@@ -342,5 +356,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga asks: what if your current sense of inadequacy — your 'aparyāptatā' — is itself the Lord's gift, the withdrawal of the illusion of self-sufficiency so that you might surrender more completely? The everyday practice: when you notice the feeling 'I do not have enough, I am not enough,' treat it not as a problem to solve but as prasāda (grace) to receive. Sit with it for sixty seconds before reaching for a solution. Let the insufficiency point you toward the only source that is actually paryāpta — complete.",
     "bhakti": "Śrīdhara's insight about ekapakṣapāta (single-sided partisanship) as the decisive variable has a direct application in any form of care, mentorship, or guardianship: the person who protects your project, relationship, or creative work with undivided commitment is more valuable than a more powerful ally whose loyalty is hedged. Before accepting support, ask honestly whether your 'Bhīṣma' is fully present or partially elsewhere — and before offering support to others, examine whether you yourself are showing up with ekapakṣapāta or with divided attention.",
     "advaita-bhakti": "Madhusūdana's two-reading gambit models a practice of holding competing self-assessments simultaneously rather than collapsing to one. When you find yourself oscillating between 'I have more than enough to handle this' and 'I am nowhere near sufficient for this challenge,' Madhusūdana's synthesis suggests that both are grammatically valid readings of the same inner text — and that neither is final. The advaita-bhakti practice is to bring both readings to Kṛṣṇa (or whatever name you use for the ground of your being), and ask not 'which reading is true?' but 'what action is called for from the one who holds both?'"
-  }
+  },
+  "primary_meaning": "Our force, guarded by Bhīṣma, is boundless; theirs, guarded by Bhīma, is limited, or so Duryodhana claims. The same words read the other way say his army falls short and theirs will suffice."
 }

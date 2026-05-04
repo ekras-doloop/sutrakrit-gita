@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "pravadanti",
-      "lemma": "pravad",
+      "lemma": "pra-√vad",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -184,7 +184,7 @@
     },
     {
       "surface_form": "āsthitaḥ",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -225,7 +225,7 @@
     },
     {
       "surface_form": "vindate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -503,7 +503,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravadanti: pravad -> pra-√vad",
+          "āsthitaḥ: āsthā -> ā-√sthā",
+          "vindate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sāṅkhya and yoga both lead to the same liberation, what practical criterion should a seeker use to choose between them — capacity, temperament, or stage of life?",
@@ -521,5 +533,6 @@
     "śuddhādvaita": "Vallabha's application is the daily practice of dvandva-sannyāsa — consciously releasing the pull of preference (heat/cold, praise/blame, success/failure) before and during action, not after. This is not ascetic withdrawal but a quality of inner gesture that can accompany any activity. The practitioner does not need to leave household life; they need to act within it without being gripped by its opposites.",
     "bhakti": "Śrīdhara's framing offers a sequence for ordinary seekers: begin with karma-yoga (disciplined action, duty without hoarding results), allow it to purify the citta, and trust that jñāna will arise from that purification rather than needing to be separately cultivated. The practical corollary: asking 'am I a karma-yogī or a jñānī?' is itself a symptom of the bāla-mind. Keep acting with purity; the question resolves itself.",
     "advaita-bhakti": "Madhusūdana's synthesis speaks to practitioners who feel genuinely split between intellectual study (vedānta-vicāra) and devotional practice (bhakti-sādhana). His point: both function as antaraṅga-sādhana for the arising of jñāna, which is the actual proximate cause of liberation. The everyday instruction is to stop experiencing the split as a problem of identity and instead ask: which of these, right now, is more honestly attuned to your adhikāra? That sincerity is samyag āsthitaḥ."
-  }
+  },
+  "primary_meaning": "Only the unlearned call Sāṃkhya and yoga separate paths; the wise know that one who practices either fully wins the fruit of both."
 }

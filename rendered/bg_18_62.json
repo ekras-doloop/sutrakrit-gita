@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "prāpsyasi",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -352,8 +352,8 @@
         "jayatirtha_18.62"
       ],
       "score": 0.5,
-      "divergence_note": "Dvaita bhashya here is extremely sparse — a single line. Rendering reconstructed from Madhva's doctrinal framework. Flagged: this is an inferred rendering, not directly extracted from rich commentary prose.",
-      "english_rendering": "This verse speaks in the third person of the Lord — as Bhima's words were addressed to Drona — pointing Arjuna to take shelter in Hari who stands eternally apart from all jivas (individual souls). The eternal station is real and distinct: a place of liberated service to the sovereign Lord, not a merging.",
+      "divergence_note": "Contamination was twofold: a scaffolding reference to 'Bhima's words addressed to Drona' was voiced as bare plot citation rather than as the technical parallel Madhva names — *parокṣavacanaṃ tu droṇaṃ prati bhīmavacanavat* — and Jayatīrtha's refutation of the *anīśvaratva* inference was absent. Both bhāṣya moves are now restored and quoted verbatim.",
+      "english_rendering": "The third-person address — *tameva śaraṇaṃ gaccha tatprasādāt* and the like — might seem to distance Kṛṣṇa from Īśvara. Madhva pre-empts this: *parокṣavacanaṃ tu droṇaṃ prati bhīmavacanavat* — the third-person construction is deliberate, like Bhīma's speech addressed to Droṇa, where indirect address carries *niścitārthābhiprāya* (the intent of a settled, unambiguous meaning). Jayatīrtha names the objection directly: *parокṣavachanāt kṛṣṇasyānīśvaratvaṃ pratīyate* — one might infer from the oblique mode that Kṛṣṇa is not himself the Īśvara being named. The reply is that the indirect mode is *anyathāsiddham* — otherwise established, resolved by the doctrinal context, not by any diminishment of Kṛṣṇa's sovereignty. *Sarvabhāvena* names total *paratantra* (eternally dependent) subordination of the *jīva* (the individual self) to *svatantra* (the independently real, self-sufficient) Hari. *Tatprasādāt* — by Hari's grace alone — the *jīva* reaches *parāṃ śāntiṃ sthānaṃ śāśvatam*: the supreme peace and the eternal station, a real and distinct locus of liberated *bhakti* (devotion), not absorption into an undifferentiated whole. *Pañca-bheda* (the five-fold real distinction) holds even in liberation.",
       "commentator": "Madhvacarya"
     },
     "śuddhādvaita": {
@@ -492,7 +492,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāpsyasi: prāp -> √prāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What makes 'sarva-bhavena' (with all of oneself) different from a partial or conditional surrender — and can a person even know when surrender is total?",
@@ -510,5 +520,6 @@
     "shuddhadvaita": "Pusti-marga's application: when you catch yourself planning how to earn grace — through ritual, effort, or virtue accumulation — notice that Vallabha says grace is not earned, only received. The practice is to stop the earning-logic entirely and act from delight in the Lord's will, as a child acts in a parent's house without calculating rent.",
     "bhakti": "In daily relationships, ego-abandonment (ahankara-parityaga) means not needing the last word, not needing credit, not needing the relationship to validate your worth. Sridhara's teaching: the peace you are seeking in the relationship is available only after you stop making the relationship about the self. Refuge in Ishvara is what makes loving another person sustainably possible.",
     "advaita-bhakti": "Madhusudana's synthesis applies when you are pulled between action and contemplation — between the demands of work and the longing for stillness. Neither pure activism nor pure withdrawal is the answer. Grace produces the arising of clarity (tattva-jnana); that clarity dissolves the conflict. The practice is to stay close to devotion until clarity arises on its own, not to force either pole."
-  }
+  },
+  "primary_meaning": "Go to him alone for shelter, Arjuna, with your whole being; by his grace you will reach the highest peace and the eternal place."
 }

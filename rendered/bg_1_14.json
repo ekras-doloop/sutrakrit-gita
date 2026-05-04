@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "yukte",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "sthitau",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine dual participle noun",
       "senses_attested_in_panel": [
         {
@@ -226,7 +226,7 @@
     },
     {
       "surface_form": "pradadhmatuḥ",
-      "lemma": "pradham",
+      "lemma": "pra-√dham",
       "grammar": "past indicative 3rd person dual verb",
       "senses_attested_in_panel": [
         {
@@ -389,8 +389,8 @@
         "sridhara_1.14"
       ],
       "score": 0.5,
-      "divergence_note": "Śrīdhara reads the scene from a structural-literary angle as well as a devotional one — the 'five verses' framework signals his concern with textual architecture, while prakarṣeṇa ('with full intensity') elevates the conch-blast from signal to sacred utterance.",
-      "english_rendering": "Next the five verses beginning with 'tataḥ' describe the festive martial rejoicing (yuddhotsava) that arose in the Pāṇḍava army. After the clamor of the Kaurava instruments had subsided, Kṛṣṇa and Arjuna — standing on their chariot (syandane sthitau santau) — resoundingly (prakarṣeṇa) blew their divine conches. The emphasis is philological-devotional: Śrīdhara names the entire next quintet of verses (1.14–18) as a unit celebrating the Pāṇḍava warriors' joy-of-battle; this is not despair but a festival of righteousness, and the divine conches are its first liturgical sound."
+      "divergence_note": "The contaminated cell front-loaded 'philological-devotional' meta-description and spoke of a 'textual architecture' concern without anchoring to Śrīdhara's own Sanskrit phrases. The repair restores *tata iti pañcabhiḥ*, *pāṇḍava-sainye pravṛttaṃ yuddhotsavam āha*, *kaurava-sainya-vādya-kolāhalānantaraṃ*, *syandane rathe sthitau santau*, and *prakarṣeṇa* verbatim from the bhāṣya, letting the bhāṣya's own structure carry the reading.",
+      "english_rendering": "*Tata iti pañcabhiḥ* — Śrīdhara opens a quintet of verses (1.14–18) under the heading *pāṇḍava-sainye pravṛttaṃ yuddhotsavam āha*, announcing the *yuddhotsava* (joy-of-battle) that arose in the Pāṇḍava army. The occasion is precise: *kaurava-sainya-vādya-kolāhalānantaraṃ* — after the clamor of Kaurava instruments had ended — *syandane rathe sthitau santau* Kṛṣṇa and Arjuna, standing on their great chariot yoked with white horses, blew their *divyau śaṅkhau* (divine conches) *prakarṣeṇa*, with full intensity. *Dध्मतुर् vādayāmāsatuḥ*: the verb is doubled to mark the completeness of the sacred sound. The scene is not martial noise but devotional proclamation — the conches of *Mādhava* and *Pāṇḍava* answer Kaurava tumult with the liturgical first note of righteous war."
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -452,13 +452,6 @@
         "11.55",
         "14.22",
         "16.5"
-      ]
-    },
-    {
-      "list": "पाण्डवानां धनञ्जयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.37"
       ]
     },
     {
@@ -546,7 +539,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yukte: yuj -> √yuj",
+          "sthitau: sthā -> √sthā",
+          "pradadhmatuḥ: pradham -> pra-√dham"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa — described as the inner controller of every faculty (sarvāntaryāmī, Madhusūdana) — is already present as Arjuna's charioteer before a word of teaching is spoken, what does that imply about the relationship between grace and the conditions that make teaching possible?",
@@ -564,5 +569,6 @@
     "śuddhādvaita": "When the moment asks you to act, act with full physical presence — viśvaṃ kampayantau, 'shaking the world.' Vallabha's reading forbids the half-hearted gesture. Grace does not trickle; it floods. Whatever you have been given to do (a creative project, a speech, a meal for someone you love), do it as if the three worlds are listening. The conch that shakes the cosmos is the same breath you have right now.",
     "bhakti": "Approach the challenges ahead as yuddhotsava — a festival, not merely a fight. Śrīdhara's structural reading reminds us that the sequence of events has a literary architecture: the warriors' joyful conch-sounding is a five-verse unit of celebration before Arjuna's crisis. Frame your own preparation similarly — identify the 'quintet' of joyful readiness before entering difficulty, so that when the crisis arrives you know it arrived after the festival, not instead of it.",
     "advaita-bhakti": "Name your instruments. Madhusūdana's observation — that each Pāṇḍava conch has a personal name while the Kaurava conches are anonymous — is a practical principle: tools that have been given names, histories, and dedicated purposes (a specific notebook, a recurring practice, a named method) carry more force than generic substitutes. The antaryāmin works through particulars. Give your tools proper names and the inner controller has something specific to inhabit."
-  }
+  },
+  "primary_meaning": "Then Mādhava and Arjuna, standing on that great chariot drawn by white horses, raised their divine conches and blew them in answer."
 }

@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "sthitam",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "bhajati",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "āsthitaḥ",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "vartamānaḥ",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "vartate",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -457,36 +457,6 @@
         "14.11",
         "17.1"
       ]
-    },
-    {
-      "list": "ययेदं धार्यते जगत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
     }
   ],
   "audit_trail": {
@@ -516,7 +486,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sthitam: sthā -> √sthā",
+          "bhajati: bhaj -> √bhaj",
+          "āsthitaḥ: āsthā -> ā-√sthā",
+          "vartamānaḥ: vṛt -> √vṛt",
+          "vartate: vṛt -> √vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Śaṅkara grants that 'sarvathā vartamāna' (conduct in any manner) does not obstruct liberation for the samyagdarśin, what distinguishes this from moral antinomianism — and how do the Dvaita and bhakti readings contain that risk?",
@@ -534,5 +518,6 @@
     "śuddhādvaita": "Vallabha's mat-pravaṇa cetaḥ (mind flowing toward Kṛṣṇa) is a texture of attention, not a schedule of practices. The application: choose one domain of daily life — cooking, driving, a repetitive work task — and treat it as sevā (service) rather than obligation. The Śuka-Uddhava paradigm means full absorption is available even in householder circumstances; the entry point is any act done with the inner current flowing toward the Lord rather than the outcome.",
     "bhakti": "Śrīdhara's 'na bhraśyate' (does not fall away) is the everyday anchor: once genuine abheda-dṛṣṭi (non-dual vision) has been tasted — even briefly — the tradition assures it cannot be entirely lost. The practical implication is that a single authentic moment of seeing-Me-in-all is worth more than sustained performance of ritual compliance. Track the moments of genuine recognition rather than the ritual score.",
     "advaita-bhakti": "Madhusūdana names Janaka as a valid post-realization model for active householders. The application: do not wait for a specific life-form (renunciate, monastic, retired) to begin treating understanding as the operative fact. Whatever role prārabdha has assigned — organizational leader, parent, professional — exercise it with the background recognition that the role is the upādhi and you are the mahā-ākāśa. The action is not compromised by the knowledge; the knowledge is not compromised by the action."
-  }
+  },
+  "primary_meaning": "The yogi who worships Me as one self dwelling in all beings, however he moves through the world, lives in Me."
 }

@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "yuñjīta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -161,7 +161,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -245,7 +245,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -444,7 +444,8 @@
         "jayatirtha_6.10"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva reads this verse as an injunction to establish the mind (manaḥ) in samādhi-yoga — the concentrated worship of Hari who is eternally distinct from every jīva. The practice of restraint here is not self-sufficiency but dependence: the yogin collects a scattered mind precisely because that mind is the instrument of Hari's service, and any dispersal of it is a failure of dāsya (servanthood). NOTE: Madhva's bhāṣya for this verse is brief (two lines bridging verses 10–11), so the doctrinal extension draws from his established framework of jīva-Brahman eternal distinction."
+      "english_rendering": "*Yogī yuñjīta satatam ātmānam* — Madhva's bhāṣya opens with *samādhiyoga-prakāram āha*, announcing that what follows specifies the *prakāra* (mode or manner) of *samādhi*-yoga. The verb *yuñjīta* is read as *samādhiyogayuktaṃ kuryāt* — one should render the mind (*ātmānam*, i.e., *manaḥ*) concentrated in *samādhi*-yoga. Jayatīrtha presses the necessity of a fresh injunction: since *uddharet* (6.5) already ordained yoga in general, why is *yuñjīta* re-stated here? His answer — *prakāra-kathanāya vidhyanuvāda* — the re-statement (*anuvāda*) of the injunction is for the sake of specifying the *prakāra*, the exact form the practice takes. Against the objection that *yuñjīta* names only *yoga-mātra* (yoga in general) and so cannot mean *samādhi* in particular, Jayatīrtha replies: *sāmānya-śabdo 'pi prakaraṇād viśeṣe avatiṣṭhate* — even a general term, by force of context (*prakaraṇa*), settles into its specific sense. The *ātman* here is explicitly glossed as *manaḥ*: the *jīva* (individual self), irreducibly *paratantra* (eternally dependent) in relation to *svatantra* Hari, collects the mind not as an autonomous act but as an act of subordination — *samādhi* is the instrument of Hari's service, and the discipline of *ekākī yata-cittātmā nirāśīr aparigrahaḥ* (solitude, restrained mind-and-self, desirelessness, non-possession) removes what scatters it from that service.",
+      "divergence_note": "Contaminated rendering imported a meta-note acknowledging Madhva's bhāṣya brevity and projecting a 'doctrinal extension' from general Dvaita tenets without grounding the reading in the bhāṣya's own Sanskrit moves. Repaired rendering anchors to *samādhiyoga-prakāram āha*, *samādhiyogayuktaṃ kuryāt*, *prakāra-kathanāya vidhyanuvāda*, *sāmānya-śabdo 'pi prakaraṇād viśeṣe avatiṣṭhate*, and the explicit gloss *ātmānam = manaḥ*, all drawn verbatim from Madhva and Jayatīrtha."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -593,7 +594,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuñjīta: yuj -> √yuj",
+          "sthitaḥ: sthā -> √sthā",
+          "yata: yam -> √yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Śaṅkara insist that the two qualifiers 'solitary' and 'in a secluded place' together specifically signal full renunciation (saṃnyāsa) rather than merely recommending a quiet room — and what does that demand of householders who take this verse as a guide?",
@@ -611,5 +624,6 @@
     "śuddhādvaita": "When you sit to practice, begin by explicitly acknowledging that any stillness you achieve is Kṛṣṇa's gift, not your technique. If the session is restless, do not redouble effort — instead soften and ask what Kṛṣṇa is showing you through the restlessness. Vallabha's insight: straining to be alone and pure can itself become an obstacle; the posture of grace-receptivity (prasāda-apekṣā) is the real practice under verse 6.10.",
     "bhakti": "At the end of each day, run a brief audit across the verse's four conditions: Was the mind collected (samāhita) at any point, or entirely reactive? Was there even one hour free of social noise? Did any craving go unexamined? Was any object accumulated that was not needed? Śrīdhara's sequential list (mind → solitude → body restraint → desirelessness → non-possession) implies a diagnostic, not just an aspiration — use it as a daily calibration rather than an impossible standard.",
     "advaita-bhakti": "Diagnose which of Madhusūdana's three obstructed states (kṣipta — agitated, mūḍha — dull, vikṣipta — partially settled) describes your mind before sitting, then choose your environment accordingly: a genuinely quiet space removes the yoga-pratibandha (obstruction) that even permitted stimuli create. The synthesis move: do not bypass devotion to pursue pure stillness, and do not bypass stillness to perform devotion — the verse demands both, and 'sa yogī paramo mataḥ' (that yogin is supreme) is the reward only when both are present."
-  }
+  },
+  "primary_meaning": "The yogi should dwell in solitude, continuously collect the mind, and hold no craving and no possessions."
 }

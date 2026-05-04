@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "calati",
-      "lemma": "cal",
+      "lemma": "√cal",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -513,7 +513,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "sthitaḥ: sthā -> √sthā",
+          "calati: cal -> √cal"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ātyantikaṃ sukha (absolute happiness) is apprehensible only by buddhi — not by sense-contact — what does this imply about every happiness that depends on an external object or event?",
@@ -531,5 +543,6 @@
     "śuddhādvaita": "Vallabha's reading that the ātman and bliss are the same thing — not knower and known — translates into a Puṣṭi-mārga practice of recognizing delight itself as Kṛṣṇa's presence rather than as your own achievement. Everyday application: when genuine joy arises — in beauty, in music, in a child's laughter — do not annotate it as 'I am happy.' Simply rest in it as Kṛṣṇa's self-luminous nature appearing in this moment. The noting-as-yours is what collapses the sukha into ordinary pleasure.",
     "bhakti": "Śrīdhara's 'niratiśayam nityam sukham' — happiness without superior and without end — is a diagnostic tool for everyday life. The application: whenever you secure a source of happiness (relationship, achievement, state of health), ask whether it is niratiśaya — whether anything could surpass or remove it. When you find the honest answer is no, that is the direction of practice. This is not nihilism about ordinary goods; it is a calibration that keeps ordinary goods from masquerading as the absolute.",
     "advaita-bhakti": "Madhusūdana's three-term analysis (exclude sense-pleasure, exclude deep-sleep, affirm samādhi-buddhi) gives a working map for contemplative life. The everyday application is to become fluent in the difference between rest (which looks like peace but involves buddhi dissolving), distraction (sense-contact pleasure), and genuine stillness (buddhi present, luminous, not grabbing any content). Gauḍapāda's injunction — 'do not savor even this happiness as an object' — is the most demanding application: notice when you convert a moment of genuine clarity into a self-congratulatory story, and stop."
-  }
+  },
+  "primary_meaning": "That absolute happiness, beyond the senses and known only through the intellect, is where the steady one rests without wavering from what is real."
 }

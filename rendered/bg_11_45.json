@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "hṛṣitaḥ",
-      "lemma": "hṛṣ",
+      "lemma": "√hṛṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "pravyathitam",
-      "lemma": "pravyathay",
+      "lemma": "√pravyathay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "darśaya",
-      "lemma": "darśay",
+      "lemma": "√darśay",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "prasīda",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -473,8 +473,9 @@
         "jayatirtha_11.45"
       ],
       "score": 0.5,
-      "english_rendering": "The Madhva panel_commentary records explicitly that Śrī Madhvācārya did not comment on this śloka. A dvaita reading must therefore be reconstructed from first principles of his system: Arjuna's terror is not an epistemological confusion but a creature's (jīva's) appropriate response to the unbounded aiśvarya (sovereign power) of an utterly distinct Hari. The return-plea for the familiar form is entirely proper — the jīva is by nature paratantra (wholly dependent) and cannot sustain direct darśana of viśva-rūpa without divine anugraha (grace); requesting the gentle form is itself an act of surrender (śaraṇāgati). The verse thus encodes the permanent ontological gap between jīva and Brahman that Madhva regards as the defining truth.",
-      "divergence_note": "ABSENT — Madhva bhāṣya not extant on this śloka; reconstruction from Dvaita siddhānta principles only."
+      "english_rendering": "Seeing what no eye has seen before — *adṛṣṭa-pūrvaṃ* — Arjuna's mind splits: exhilaration at the vision of *aiśvarya* (sovereign power) and terror before it simultaneously. Both responses are proper for the *jīva* (the individual self), who is *paratantra* (eternally dependent) by constitution. The *pañca-bheda* (five-fold real distinction) stands absolute: no amount of *darśana* dissolves the ontological gap between the sovereign Hari and the creature. Arjuna cannot sustain the *viśva-rūpa* without *anugraha* (divine grace) — the vision overwhelms because the *bheda* (real distinction) between Lord and *jīva* is not a veil to be lifted but a permanent, constitutive fact. The plea *tad eva me darśaya deva rūpaṃ* — 'show me that very form, O Lord' — is not regression but right *bhakti* (devotion as ontological subordination): the *jīva* acknowledges its own limits and returns to the form in which *sevā* (service) is possible. *Prasīda deveśa jagan-nivāsa* — 'be gracious, Lord of the gods, abode of the universe' — names Hari as the one in whom all worlds inhere, whose appeasement is the *jīva*'s only refuge. Terror and joy together are the *paratantra* self's honest report of contact with *svatantra* (the independently real, self-sufficient) being.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha survives on this verse; the reading is voiced directly from Dvaita *siddhānta* primitives.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -518,14 +519,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अदृष्टपूर्वं हृषितोऽस्मि दृष्ट्वा भयेन च प्रव्यथितं मनो मे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.23",
-        "11.36"
-      ]
-    },
     {
       "list": "तेनैव",
       "role": "supporting",
@@ -577,13 +570,6 @@
       ]
     },
     {
-      "list": "प्रसीद देवेश जगन्निवास",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "11.25"
-      ]
-    },
-    {
       "list": "भयेन च प्रव्यथितं मनो मे",
       "role": "supporting",
       "other_verses_in_list": [
@@ -618,7 +604,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hṛṣitaḥ: hṛṣ -> √hṛṣ",
+          "asmi: as -> √as",
+          "pravyathitam: pravyathay -> √pravyathay",
+          "darśaya: darśay -> √darśay",
+          "prasīda: prasad -> pra-√sad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When we encounter something simultaneously thrilling and terrifying — a true magnitude-event — do we stay with the double affect or collapse it prematurely into one by explaining the fear away?",
@@ -636,5 +636,6 @@
     "śuddhādvaita": "Vallabha's application is hierarchical discernment: not every overwhelming vision deserves equal time in your practice. The infinite is real but the bounded, śuddha-sattva form — the clear, peaceable, workable version of any problem — is the upāsanā-worthy one. Today, take one situation that has expanded into an overwhelming philosophical or existential question and deliberately re-frame it as its most practical, peace-oriented, four-armed version.",
     "bhakti": "Śrīdhara's application is emotional honesty in petition: you are allowed to be both joyful and shaken at the same time and to say so clearly to whoever has the power to grant you relief. Suppressing one affect to perform coherence before asking for help delays the help. Practice: when you next ask someone for something, state both what moved you and what disturbed you before making the request. Let the double affect be the introduction.",
     "advaita-bhakti": "Madhusūdana's application is the recovery of the beloved-face after cognitive or emotional overwhelm. When someone's full reality — their capacity for harm, their mortality, their complexity — has briefly eclipsed their familiar warmth, the work is not to integrate the overwhelming knowledge abstractly but to ask, tenderly and specifically, for the return of the version of them in which love can circulate. This is not naivety; Madhusūdana calls it prasāda — grace as re-appearance of the face."
-  }
+  },
+  "primary_meaning": "I am thrilled to see what no eye has seen before, yet my mind shakes with fear. Show me that form of yours again, O Lord of gods, refuge of the world, and be gracious to me."
 }

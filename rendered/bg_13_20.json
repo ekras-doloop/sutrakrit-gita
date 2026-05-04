@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -322,7 +322,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -454,7 +454,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prakrti is the real cause of action (kartrtva) and purusa only the witness-experiencer, who exactly bears moral responsibility for what the body does — and does the answer differ across these six schools?",
@@ -472,5 +483,6 @@
     "śuddhādvaita": "Vallabha's lila-lens transforms the 'trap' into a play-space: the desires, irritations, and delights of an ordinary day are Bhagavan's own enchantment playing itself out through your field. Practice: once a day, name one recurring vikara (habitual desire or aversion) and ask whether you can hold it as the Lord's lila moving through you rather than as your personal failing. This is not permission to indulge but a shift in the owner of the experience.",
     "bhakti": "Sridhara's bhakti-philological stance yields a practical check: before acting on an impulse, ask which of two columns it belongs to — prakrti-sambhava vikara (the mechanical gunas doing their work) or a genuinely chosen orientation toward Bhagavan. This is not guilt but discernment (viveka). The field runs its course; the question is whether you are identified with the field or turning toward the knower of the field.",
     "advaita-bhakti": "Madhusudana's synthesis: carry both registers simultaneously. When suffering arrives, use Advaita's jnana-eye to see it as guna-parinamana arising from beginningless prakrti — real but not ultimately yours. Simultaneously use Bhakti's heart to bring that very duhkha to Krsna as an offering, trusting the karmic architecture (dharma-adharma-pruyukta) to be just. The two moves do not cancel; they are the full breath of spiritual life."
-  }
+  },
+  "primary_meaning": "*Prakṛti* is the cause of the body, the senses, and the capacity for action; *puruṣa* is the cause of the experiencing of pleasure and pain."
 }

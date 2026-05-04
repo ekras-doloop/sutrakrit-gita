@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -604,7 +604,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If shraddha is svabhava-born and svabhava is the residue of past karma, can a person actually change the guna-type of their shraddha through deliberate practice — or does practice itself require the sattvika shraddha that some people lack from the start?",
@@ -622,5 +632,6 @@
     "suddhadvaitah": "When you find yourself in a mode of action that feels low or dull (tamasa), Vallabha's reading offers this: do not denounce the state as outside Krsna's purview. Offer it directly — 'this dullness is also yours.' The Pusti-marga application is that prasada flows toward the offered state; transformation begins from acceptance, not self-rejection.",
     "bhakti": "Sridhara's distinction between shastra-driven and convention-driven people applies directly to professional life: check whether your professional loyalty (shraddha in a company, methodology, or leader) is built on examined discernment or inherited convention. If the latter, it will fracture under pressure into the three types — and you will not know which one is operating until the crisis arrives.",
     "advaita-bhakti": "Madhusudana's synthesis offers a practical diagnostic before any major decision: ask, 'What am I trusting right now — clear discernment (sattvika), desire for recognition (rajasa), or inertia (tamasa)?' That question does not require metaphysical knowledge; it requires honest self-observation. The deva-asura distinction is not about who you are but about which mode of shraddha is active in this action."
-  }
+  },
+  "primary_meaning": "The faith of every embodied being is shaped by its own nature and comes in three kinds — born of *sattva*, *rajas*, or *tamas*."
 }

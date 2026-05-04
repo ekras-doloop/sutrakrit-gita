@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "mohitam",
-      "lemma": "mohay",
+      "lemma": "√mohay",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "abhijānāti",
-      "lemma": "abhijñā",
+      "lemma": "abhi-√jñā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -459,7 +459,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijānāti: abhijñā -> abhi-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "mohitam: mohay -> √mohay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the gunas are Kṛṣṇa's own māyā, why does He describe them as causing non-recognition of Himself — is delusion something the Lord actively maintains or merely permits?",
@@ -477,5 +495,6 @@
     "śuddhādvaita": "Abandon the attempt to work your way out of māyā through accumulated effort or knowledge. Instead, take full refuge (prapatti) in Kṛṣṇa by surrendering every day's first act to Him — literally the first choice of the morning, before the gunas have fully mobilized. This is Vallabha's 'viśvāsaṃ sarvatas tyaktvā': drop reliance on all other supports before your feet hit the floor.",
     "bhakti": "Notice which guna-modification is currently dominant — desire (kāma), greed (lobha), or confusion (moha) — and name it plainly, without drama. Śrīdhara's key: the Lord is niyantā, the regulator behind the very force pulling at you. Addressing the Lord directly in that moment ('You are behind this; I see it') is itself a bhakti-act, turning the veil into a window.",
     "advaita-bhakti": "When a situation triggers strong guna-force, let Madhusūdana's image arise: the Lord as ānanda-ghana (dense bliss) and ātma-prakāśa (self-luminous awareness), immediate and not separated from you by even a hair's breadth, yet entirely unmodified by what the gunas are doing. Rest there for one breath. This simultaneous recognition of the Lord's immanence and transcendence is the advaita-bhakti practice in miniature."
-  }
+  },
+  "primary_meaning": "Deluded by the three qualities that shape all phenomena, the world does not know Me, who stand beyond them, unchanging."
 }

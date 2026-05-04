@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "āha",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "jñāte",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -196,7 +196,7 @@
     },
     {
       "surface_form": "śakyate",
-      "lemma": "śak",
+      "lemma": "√śak",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -485,15 +485,6 @@
       ]
     },
     {
-      "list": "क्रोधाद्भवति सम्मोहः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.62",
-        "2.63",
-        "9.12"
-      ]
-    },
-    {
       "list": "ज्ञान",
       "role": "supporting",
       "other_verses_in_list": [
@@ -643,16 +634,6 @@
       ]
     },
     {
-      "list": "मेरे लिये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.7",
-        "3.9",
-        "3.21",
-        "6.5"
-      ]
-    },
-    {
       "list": "सर्वस्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -695,7 +676,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āha: ah -> √ah",
+          "jñāte: jñā -> √jñā",
+          "śakyate: śak -> √śak"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāma inhabits buddhi (intellect) as well as the senses, can purely intellectual study of Vedānta itself become a site of subtle kāma — the desire for the prestige of knowing?",
@@ -713,5 +706,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga practice, the householder performs smaraṇa (remembrance) of Kṛṣṇa's līlā precisely through the sense-faculties kāma would otherwise occupy: hearing the śṛṅgāra (beauty) of Kṛṣṇa's form through kīrtana, tasting prasāda, seeing the decorated mūrti. The faculties do not need to be emptied; they need to be gifted back to the one who lent them.",
     "bhakti": "Śrīdhara's three-threshold model gives a concrete rule: catch desire at viṣaya-darśana (the moment of seeing/hearing the object) before it becomes saṃkalpa (volition), and catch saṃkalpa before it hardens into adhyavasāya (resolve). The practical application is a three-second pause between perception and intention in any high-craving situation — a gap just wide enough for viveka-jñāna to arise.",
     "advaita-bhakti": "Madhusūdana's ten-faculty map makes it possible to track which indriya is most colonized on a given day — the speech-organ in competitive conversation, the hands in acquisitive behavior, the eye in comparison and envy. The synthesis practice: name the faculty, offer it explicitly to Kṛṣṇa as the one who can purify it, then re-engage the activity. This is neither pure suppression (Advaita alone) nor pure redirection (bhakti alone), but consecrated action."
-  }
+  },
+  "primary_meaning": "The senses, mind, and intellect are said to be desire's seat; through these it covers knowledge and deludes the one who lives in a body."
 }

@@ -245,7 +245,7 @@
     },
     {
       "surface_form": "āsthitaḥ",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -451,20 +451,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "आस्थितो योगधारणाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.13"
-      ]
-    },
-    {
-      "list": "ओमित्येकाक्षरं ब्रह्म व्याहरन्मामनुस्मरन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.13"
-      ]
-    },
-    {
       "list": "प्राण",
       "role": "supporting",
       "other_verses_in_list": [
@@ -489,20 +475,6 @@
       ]
     },
     {
-      "list": "मूर्ध्न्याधायात्मनः प्राणम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.13"
-      ]
-    },
-    {
-      "list": "यः प्रयाति त्यजन्देहं स याति परमां गतिम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.13"
-      ]
-    },
-    {
       "list": "संयम्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -510,13 +482,6 @@
         "3.6",
         "3.7",
         "6.14"
-      ]
-    },
-    {
-      "list": "सर्वद्वाराणि संयम्य",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.13"
       ]
     }
   ],
@@ -547,7 +512,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsthitaḥ: āsthā -> ā-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the verse insist on restraining all sense-gates before the prāṇa's ascent — what happens if a single gate remains open at the moment of departure?",
@@ -565,5 +540,6 @@
     "śuddhādvaita": "Vallabha's prasāda framing: when a practice or discipline produces results, attribute the outcome to Kṛṣṇa's name-energy flowing through the form of the practice — not to personal technique. Concretely: after completing a creative work or reaching a difficult goal, pause before self-congratulation and recall the Puṣṭi-mārga axiom that 'all names and forms are His'; this breaks the accumulation of ego-credit that obscures future receptivity.",
     "bhakti": "Śrīdhara's sthairya (steadiness) as the content of yoga-dhāraṇā suggests that the goal of practice is not a dramatic peak-state but a stable, unremarkable settledness. Apply this by measuring meditation or study sessions not by insight-events but by the quality of quiet persistence (sthairya) — the number of minutes of uninterrupted engagement — treating steadiness itself as the deliverable.",
     "advaita-bhakti": "Madhusūdana's two-layer restraint (external: viṣaya-doṣa-darśana; internal: abhyāsa-vairāgya) maps onto a two-stage preparation for any demanding cognitive work. First, deliberately notice the deficiencies of the distracting objects (viṣaya-doṣa) — why the social feed, the snack, the side-project are less valuable than the current task. Then apply the Chapter 6 pair: repeated re-engagement (abhyāsa) combined with decreasing energetic investment in the alternatives (vairāgya). Only after both moves are complete does Madhusūdana say the upward movement (mūrdhn-ādhāna) becomes possible — meaning deep concentration opens only after both layers are addressed."
-  }
+  },
+  "primary_meaning": "Seal all the sense-gates, still the mind in the heart, draw the life-breath up to the crown, and stand firm in yogic concentration."
 }

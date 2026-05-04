@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "vadiṣyanti",
-      "lemma": "vad",
+      "lemma": "√vad",
       "grammar": "future indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "nindantaḥ",
-      "lemma": "nind",
+      "lemma": "√nind",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -364,7 +364,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vadiṣyanti: vad -> √vad",
+          "nindantaḥ: nind -> √nind"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the verse's logic is that infamy is the worst of all pains, does Kṛṣṇa's argument here depend on Arjuna still being bound by lokamaryādā (social honor) — and if so, does the entire appeal become inapplicable once Arjuna transcends that attachment?",
@@ -382,5 +393,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi frame applies when life arranges circumstances that seem designed to embarrass or expose — a public failure, a taunt, a moment of witnessed weakness. The śuddhādvaita practitioner recognizes these as Kṛṣṇa's own stage-direction in the līlā (divine play), not accidents to be avoided. The application is not to perform bravado but to remain in one's assigned role with full attention, trusting that Kṛṣṇa's prasāda (grace) moves through exactly the situation that looks most difficult — the taunt of the enemy is itself the invitation to keep playing.",
     "bhakti": "Śrīdhara's bhakti frame applies when someone has a relationship of trust — with a student, a patient, a community — and the words of critics or detractors begin to feel more real than the relationship itself. Śrīdhara's insight is that avācya (unspeakable) words say more about their speakers than their target; the bhakta's job is not to be paralyzed by them but to continue the service that the words are trying to interrupt. The pain of the insult is real, but the bhakti path treats it as information about where the need is greatest, not as a reason to withdraw.",
     "advaita-bhakti": "Madhusūdana's synthesis applies when someone tries to avoid a hard action by reasoning that the cost of acting is too high — killing the relationship, damaging the reputation, risking the outcome. Madhusūdana's structural inversion is the practical key: compute the pain of not acting, and you will almost always find it exceeds the pain of acting with full commitment. The advaita-bhakti practitioner does this calculation not to optimize outcomes but to dissolve the illusion that inaction is safe — holding one's loka-prasiddha (world-known) capacity in reserve while being publicly mocked for cowardice is a worse duḥkha (pain) than the feared act itself."
-  }
+  },
+  "primary_meaning": "Your enemies will say things about you that should never be said, mocking your famous strength, and no pain cuts deeper than that."
 }

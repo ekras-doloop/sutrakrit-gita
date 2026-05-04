@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "upadhāraya",
-      "lemma": "upadhāray",
+      "lemma": "upa-√dhāray",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -461,7 +461,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -562,16 +562,6 @@
       ]
     },
     {
-      "list": "परा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "7.4",
-        "7.5",
-        "12.8"
-      ]
-    },
-    {
       "list": "प्रभव",
       "role": "supporting",
       "other_verses_in_list": [
@@ -656,7 +646,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upadhāraya: upadhāray -> upa-√dhāray"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If both the material world and the conscious self originate from the same Kṛṣṇa, what remains of the usual opposition between 'inner life' and 'outer world' — and what does that do to how we locate the sacred?",
@@ -674,5 +674,6 @@
     "śuddhādvaita": "Vallabha's understanding that the jīva is Kṛṣṇa's own aṃśa held in bodies by vyāmoha (beguiling power) does not counsel detachment but rather rasika (aesthetic-devotional) immersion: the delusion is His līlā, and the practitioner's task is to feel the beauty of the entanglement while recognizing its source. Everyday correlate: instead of treating the pleasures of family, food, or music as distractions from the divine, the Puṣṭi-mārga practitioner consciously offers each sensory experience back to Kṛṣṇa as prasāda, transforming ordinary life into continuous participation in His play.",
     "bhakti": "Śrīdhara's reading that the cit-prakṛti (conscious nature) enters bodies and sustains them through svakarma (one's own action) holds each person accountable for the quality of their inner life — not through guilt but through the recognition that one's karma is literally the sustaining mechanism of one's embodiment. Applied: the practitioner reviews her recurring patterns (anger, avoidance, craving) not as character flaws but as the actual structural content of the cit sustaining this particular body, and uses that recognition as the starting point for śravaṇa (listening to śāstra) and manana (reflection).",
     "advaita-bhakti": "Madhusūdana's dream-analogy teaches that the world's lack of ultimate reality does not make relationships and responsibilities unreal in the present moment — the dreamer still feels pain until waking. The synthesis practitioner holds both registers simultaneously: full engagement with persons and obligations (the dream is vivid and its logic holds) alongside a background knowing that the entire field — including one's own reactions — is grounded in the witnessing awareness that is Kṛṣṇa. Practically: complete your commitments fully; do not use Advaita as an exit from responsibility, but let the bhakti-register (Kṛṣṇa as the dreamer and dreamed) keep the engagement from calcifying into possessiveness."
-  }
+  },
+  "primary_meaning": "Know that all beings arise from these two natures of mine, and that I am the source and the dissolution of the entire world."
 }

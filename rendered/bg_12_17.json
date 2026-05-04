@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "hṛṣyati",
-      "lemma": "hṛṣ",
+      "lemma": "√hṛṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "dveṣṭi",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "śocati",
-      "lemma": "śuc",
+      "lemma": "√śuc",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "kāṅkṣati",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -458,9 +458,10 @@
         "jayatirtha_12.17"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya left no direct commentary on this verse (the payload records 'Sri Madhvacharya did not comment on this sloka'). From the wider Dvaita hermeneutic: the jiva is eternally and essentially distinct from Hari; its rejoicing or grieving is a symptom of the false sense of independent agency. The bhakta described here has surrendered that sense entirely to Hari's sovereignty — neither hrishyati nor dveshti because he knows every event to be Hari's independent dispensation (svatantra-iccha). Shubha-ashubha-parityaga does not dissolve the jiva's distinction from Brahman but perfects its dependent worship (para-tantra-bhakti). Flagging: this rendering is inferred from Dvaita principles, not attested Madhva bhashya.",
-      "divergence_note": "ABSENT — Madhva bhashya not present in payload; rendering is a doctrinal projection from Dvaita first principles, not anchored in attested prose.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Yo na hṛṣyati na dveṣṭi na śocati na kāṅkṣati | śubhāśubha-parityāgī bhaktimān yaḥ sa me priyaḥ* — the *bhakta* (devotee) who neither exults nor hates, neither grieves nor craves, and who has relinquished attachment to the auspicious and inauspicious alike, is dear to Kṛṣṇa. In the dvaita reading, exultation (*hṛṣyati*) and hatred (*dveṣṭi*) arise when the *jīva* (individual self) mistakes its own will for an independent cause of outcomes. The *jīva* is *paratantra* (eternally dependent), never *svatantra* (independently real, self-sufficient) — that status belongs to Hari alone. Every event, auspicious or inauspicious, flows from Hari's sovereign will; to grieve or crave any of it is to forget *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) and imagine a symmetry between the *jīva*'s agency and Hari's. *Śubhāśubha-parityāga* (relinquishment of the auspicious and inauspicious) does not collapse the *jīva* into Brahman; it perfects the *jīva*'s *paratantra* station. What is abandoned is the grasping rooted in false independence, not the *jīva*'s own distinct being. *Bhakti* (devotion) here is ontological subordination — the *jīva* resting fully in its graded position within *taratamya* (the hierarchical order of dependent being), moved neither by fortune nor loss because both are Hari's dispensation alone. Such a *bhakta* is *me priyaḥ* — dear to the Lord — because the *jīva*'s dependence is now transparent and complete.",
+      "divergence_note": "No attested Madhva or Jayatīrtha bhāṣya on this verse; reading voiced directly from dvaita siddhānta applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -672,7 +673,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "hṛṣyati: hṛṣ -> √hṛṣ",
+          "dveṣṭi: dviṣ -> √dviṣ",
+          "śocati: śuc -> √śuc",
+          "kāṅkṣati: kāṅkṣ -> √kāṅkṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between the equanimity described here and the numbness of someone who has suppressed their emotional responses through conditioning or trauma — how would a bhakta tell the two apart in themselves?",
@@ -690,5 +704,6 @@
     "shuddhadvaita": "A person managing a financial loss practices Vallabha's Pushti-bhakti by recalling that the Lord as prabhuh has already arranged what is needed — the prayer is not petition (na prarthayate) but gratitude in advance, replacing the anxiety-loop with the quiet of a child who trusts the household will be provided for.",
     "bhakti": "In a relationship where a loved one withdraws affection, Sridhara's devotee does not suppress the ache but redirects the psychological anchoring: the ache reveals where the heart was moored outside of the Lord. The practice is not to stop loving but to re-route the love toward its source (mad-bhaktiman), so that the beloved's shifting moods lose their power to destabilize.",
     "advaita-bhakti": "Madhusudana's synthesis applies in creative work: the artist who neither elates at praise (ishta-prapti) nor despairs at rejection (anishta-prapti), neither grieves the loss of an earlier inspired state (prapta-ishta-viyoga) nor grasps for its return (aprapta-ishta-samyoga) — this four-fold freedom is the condition under which genuine creative receptivity becomes possible, and it is sustained not by discipline alone but by devotion to the work as offering."
-  }
+  },
+  "primary_meaning": "One who neither rejoices nor resents, neither grieves nor craves, who has left behind both the good and the bad, that devotee is dear to me."
 }

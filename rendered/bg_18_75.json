@@ -1,8 +1,8 @@
 {
   "verse_id": "18.75",
   "mūla": {
-    "devanāgarī": "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम् | योगं योगेश्वरात्कृष्णात्साक्षात्कथयतः स्वयम्",
-    "iast": "vyāsaprasādācchrutavānetadguhyamahaṃ param | yogaṃ yogeśvarātkṛṣṇātsākṣātkathayataḥ svayam",
+    "devanāgarī": "व्यासप्रसादाच्छ्रुतवानेतद्गुह्यमहं परम् | योगं योगेश्वरात् कृष्णात् साक्षात् कथयतः स्वयम्",
+    "iast": "vyāsaprasādācchrutavānetadguhyamahaṃ param | yogaṃ yogeśvarāt kṛṣṇāt sākṣāt kathayataḥ svayam",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 75",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "śrutavān",
-      "lemma": "śru",
+      "lemma": "√śru",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "kathayataḥ",
-      "lemma": "kathay",
+      "lemma": "√kathay",
       "grammar": "ablative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -345,8 +345,9 @@
         "jayatirtha_18.75"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya left no commentary on this verse. A Dvaita reading inferred from his wider framework: Sanjaya's hearing through Vyasa's grace exemplifies the eternal distinction between the jiva and Ishvara — the divine eye is not the jiva's own capacity but a gift entirely dependent on the Lord's will. Krishna speaks as svayam Bhagavan, eternally distinct from both Sanjaya (the hearing jiva) and Vyasa (the mediating grace-giver); the jiva can only receive, never generate, such knowledge.",
-      "divergence_note": "ABSENT — Madhva did not comment on this verse. Rendering is inferred from Dvaita first principles (jiva-Ishvara nitya-bheda); treat as projected, not attested."
+      "english_rendering": "*Vyāsa-prasāda* (the grace of Vyāsa) here names the *paratantra* channel through which Sañjaya, a finite *jīva*, receives *param guhyam* (the supreme secret) — what no *jīva* could generate from within itself. *Yogeśvara* Kṛṣṇa speaks *sākṣāt svayam* (directly, in his own person), not mediated by any secondary agent: Vyāsa's grace is itself subordinate to Kṛṣṇa's will, a link in the *taratamya* (the graded ontological hierarchy) in which *prasāda* flows downward from the *svatantra* Lord through Vyāsa to Sañjaya. The *pañca-bheda* holds across all three: Kṛṣṇa and Sañjaya are distinct (*jīva-Īśvara-bheda*), Kṛṣṇa and Vyāsa are distinct, and Vyāsa and Sañjaya are distinct (*jīva-jīva-bheda*). That Kṛṣṇa *kathayataḥ svayam* — speaks himself, in his own voice — marks him as the sole *svatantra* source; the *yogam* disclosed is received, never possessed, by the *paratantra* hearer.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha on this verse. Reading derived directly from the mūla through dvaita siddhānta: *paratantra* jīva, *taratamya*, *pañca-bheda*, and *svayam*-Bhagavān doctrine.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -464,7 +465,34 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "yogeśvarātkṛṣṇātsākṣātkathayataḥ -> yogeśvarāt kṛṣṇāt sākṣāt kathayataḥ"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "योगेश्वरात्कृष्णात्साक्षात्कथयतः -> योगेश्वरात् कृष्णात् साक्षात् कथयतः"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śrutavān: śru -> √śru",
+          "kathayataḥ: kathay -> √kathay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What makes a transmission 'direct' (sakshad) in a tradition that also honors paramparya (lineage)? When does lineage transmit, and when does it dilute?",
@@ -481,5 +509,6 @@
     "shuddhadvata": "Vallabha's Pushtimarga insists that the Gita is literally Krishna's own speech flowing to you. When you read or hear it, you are not accessing a historical document — you are in contact with ongoing prasada. Treat each encounter with the text as fresh reception, not review of stored information. The text does not become stale; your reception of it can.",
     "bhakti": "Shridhara emphasizes that Sanjaya first establishes his credibility before offering his testimony. In any teaching relationship — as student or teacher — the question of witness-qualification matters. Before passing on what you have received, ask honestly: did I hear this directly, or did I hear it through layers of interpretation? Transmit only what you can personally warrant.",
     "advaita-bhakti": "Madhusudan's 'svabhagyam abhinandati' — celebrating one's own good fortune — is a practice instruction. When you encounter teaching, lineage, or community that genuinely illuminates your life, pause to register the fortune involved rather than moving immediately to the next acquisition. Wonder and gratitude at what you have already received is itself a spiritual posture, bridging jnana and bhakti."
-  }
+  },
+  "primary_meaning": "Through Vyasa's grace I heard this supreme secret yoga directly from Krishna, lord of yoga, speaking it himself."
 }

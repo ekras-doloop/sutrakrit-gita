@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "bhajasva",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -366,8 +366,9 @@
         "jayatirtha_9.33"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya left no direct commentary on this verse. In the Dvaita framework the verse is read through the principle of jīva-paratantrya (total dependence of the soul on Hari): the question 'how much more then?' underscores that even those of highest natural qualification — brāhmaṇas of pure birth, kṣatriyas refined by tapas — require Hari's anugraha (grace) to attain the supreme goal, since the jīva's eligibility is never self-sufficient. The impermanence of the world (anitya) signals not a mere exhortation to hurry but the metaphysical priority of Hari-bhakti over all other pursuits.",
-      "divergence_note": "FLAG: No Madhva bhāṣya on 9.33 in the supplied corpus. Rendering constructed from Dvaita siddhānta principles."
+      "english_rendering": "*Kiṃ punar brāhmaṇāḥ puṇyāḥ* — how much more, then, for *brāhmaṇas* of meritorious birth and *bhaktā rājarṣayaḥ*, royal sages consecrated by *tapas*? The rhetorical ascent is complete: if women, *vaiśyas*, and *śūdras*, beings of restricted *adhikāra* (eligibility), attain the supreme goal through *bhajasva mām*, those of higher natural qualification have even less reason to seek any other refuge. Yet the Dvaita reading does not let high birth be mistaken for self-sufficiency. Every *jīva* is *paratantra* (eternally dependent), its *adhikāra* itself a gift of Hari's *anugraha* (grace); the *pañca-bheda* (the five-fold real distinction) between Lord and *jīva* stands unbreached regardless of the *jīva*'s birth-order in *taratamya* (the graded ontological hierarchy). *Anityam asukhaṃ lokam imaṃ prāpya* — having attained this world, impermanent and devoid of real happiness — the imperative *bhajasva mām* is not a hurried counsel born of world-weariness alone but the metaphysical claim that *bhakti* (devotion) as ontological subordination to *svatantra* (the independently real, self-sufficient) Hari is the only pursuit commensurate with what the *jīva* actually is. The *anitya* quality of *saṃsāra* discloses the positive priority of Hari-*bhakti*, not merely the negative defect of the world.",
+      "divergence_note": "Neither Madhva nor Jayatīrtha left a direct *bhāṣya* on this verse; the reading is voiced from core Dvaita *siddhānta* — *paratantra jīva*, *pañca-bheda*, *taratamya*, and *bhakti* as ontological subordination — applied directly to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -505,7 +506,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhajasva: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even those of the highest natural qualification (dvija birth, royal-sage discipline) still need the imperative push of 'bhajasva', what does that imply about the adequacy of qualification alone without active orientation toward the ultimate?",
@@ -523,5 +534,6 @@
     "śuddhādvaita": "Vallabha's ācārya-vākya ('yo yadaṃśaḥ sa taṃ bhajet — whoever is whose fragment, that fragment must worship its source') re-describes all daily activity: if you are Kṛṣṇa's own portion, then your svadharma at every moment is bhajana — not as one item on the day's agenda but as the substrate in which all other items occur. The world's impermanence (imaṃ lokam anitya) is not a reason for anxiety but for single-pointedness.",
     "bhakti": "Śrīdhara's double argument — do not delay because of impermanence, do not chase pleasure because the world is genuinely without lasting enjoyment — functions as a daily orientation check. When you notice yourself either deferring practice ('later, when I have time') or redirecting energy toward an object that promises but does not deliver satisfaction, the verse is directly addressing that moment.",
     "advaita-bhakti": "Madhusūdana's most pointed phrase — 'anyathā etādṛśaṃ janma niṣphalam eva te syāt' (otherwise this very birth becomes fruitless) — is not a threat but a diagnostic: fruitlessness is not a future punishment but a present condition when the life's central capacity (the faculty of śaraṇāgati, taking refuge) is left unexercised. The everyday application is to notice where one is already equipped for the essential act but has not yet performed it."
-  }
+  },
+  "primary_meaning": "How much more certain the path for those already blessed with pious birth and royal-sage discipline. You have landed in this rare, fleeting, joyless world, Arjuna — worship me."
 }

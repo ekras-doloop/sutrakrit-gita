@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "astu",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present imperative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -467,7 +467,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "astu: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When Arjuna names Vāyu, Yama, Agni, Varuṇa, and the moon in a single breath, what does this catalogue of apparently competing divine authorities reveal about how the Gītā conceives the relationship between specialized cosmic function and unified sovereignty?",
@@ -485,5 +495,6 @@
     "śuddhādvaita": "Vallabha's sabhaya prostration — fearful wonder at inexhaustible aiśvarya — suggests an attitude toward creative work: approach your craft with awe at the inexhaustible source rather than self-congratulation at output. The thousand-fold bow is the artist's posture of remaining perpetually a student of the source that flows through them, never declaring the well dry or the discipline mastered.",
     "bhakti": "Śrīdhara's 'tṛptim anadhigacchan' (finding no satiation) is the antidote to transactional spiritual practice — checking a box, completing a retreat, finishing a course and moving on. The devotional life Śrīdhara describes has no completion state; gratitude and reverence, once genuinely kindled, do not arrive at an endpoint but become a sustained orientation. In everyday terms: cultivate practices you return to not because they are unfinished but because they are inexhaustible.",
     "advaita-bhakti": "Madhusūdana's 'varākasya' (for this wretch too) models the integration of intellectual humility with devotional courage: you need not resolve your sense of unworthiness before approaching the infinite — indeed, the very sense of smallness before vastness is the correct posture. In professional and creative life, the 'alaṃ-pratyaya-abhāva' (absence of the sense of enough) that Madhusūdana identifies as the mark of bhakti is equally the mark of mastery: the expert who never stops learning not from anxiety but from genuine wonder."
-  }
+  },
+  "primary_meaning": "You are Vāyu, Yama, Agni, Varuṇa, the moon, Prajāpati, and the great-grandfather of all. I bow to you a thousand times, and a thousand times again, for there is no end to bowing."
 }

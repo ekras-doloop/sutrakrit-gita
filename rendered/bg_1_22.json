@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "nirīkṣe",
-      "lemma": "nirīkṣ",
+      "lemma": "nir-√īkṣ",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "avasthitān",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -316,13 +316,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.21"
-      ]
-    },
-    {
       "list": "अस्मि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -354,13 +347,6 @@
       "other_verses_in_list": [
         "1.24",
         "1.25"
-      ]
-    },
-    {
-      "list": "यावदेतान्निरीक्षेऽहं ৷৷ रणसमुद्यमे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.21"
       ]
     },
     {
@@ -405,7 +391,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nirīkṣe: nirīkṣ -> nir-√īkṣ",
+          "avasthitān: avasthā -> ava-√sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna asks to survey before acting — is this prudence, avoidance, or the beginning of viveka (discrimination)? How do we tell the difference in our own pauses before difficult action?",
@@ -423,5 +420,6 @@
     "śuddhādvaita": "Vallabha's Arjuna turns toward Hṛṣīkeśa — the one who delights in nourishing those who depend on him — and asks simply to be positioned well. The everyday application: when you face a situation you cannot fully see, turn toward the source of your sustenance (a relationship, a practice, a community) and ask only to be placed where you can see clearly. You do not need to solve it alone. The request itself, made to the right recipient, is already an act of participation in something larger.",
     "bhakti": "Śrīdhara's verse draws a sharp line: a fighter who pauses to look is not a spectator — the look is part of the fight, if its purpose is to answer 'with whom must I actually engage?' In everyday terms: when you feel the pull to observe a situation rather than act in it, test the quality of your observation. Is it purposive — aimed at clarifying your specific obligation — or is it a way of deferring the discomfort of engagement? Purposive observation is action; deferral disguised as observation is avoidance.",
     "advaita-bhakti": "Madhusūdana calls Arjuna's curiosity 'mahad idam kautukam' — a great curiosity — and identifies it as the seed of jñāna. The everyday practice: treat your genuine questions about what you are actually facing — not rhetorical questions, not anxiety loops, but real inquiry into who and what you are up against — as a form of knowledge-work. The curiosity that asks 'who exactly must I engage with here?' is not weakness; it is the first movement of intelligence. Honour it by letting it be thorough before you act."
-  }
+  },
+  "primary_meaning": "Place my chariot where I can see all those who stand ready to fight, and let me know who I must face in this battle."
 }

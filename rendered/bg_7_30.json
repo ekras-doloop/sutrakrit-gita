@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -342,8 +342,9 @@
         "jayatirtha_7.30"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's bhāṣya is absent for this verse ('Sri Madhvacharya did not comment on this sloka'). From Dvaita first principles: the jīva eternally distinct from Hari knows Him as the inner regulator of adhibhūta, adhidaiva, and adhiyajña without any ontological merger — the knower and the known remain permanently separate (bheda is real, not apparent). At prayāṇa-kāle the yukta-cetasa (yoked mind) of the devoted jīva, dependent entirely on Hari's will, retains that knowledge through grace alone, not through jñāna-sāmarthya (cognitive capacity) of its own.",
-      "divergence_note": "NOTE: Madhva bhāṣya absent for 7.30. Rendering extrapolated from Dvaita siddhānta — flag this as inferred, not bhāṣya-anchored."
+      "english_rendering": "*Sādhibhūtādhidaivaṃ māṃ sādhiyajñaṃ ca ye viduḥ* — those *jīva*s (individual selves) who know Hari as the *svatantra* (independently real, self-sufficient) lord pervading *adhibhūta* (the perishable elemental order), *adhidaiva* (the divine governing powers), and *adhiyajña* (the sacrificial principle) know Him as He truly is: wholly distinct from them, never absorbed into them, the sole *paratantra*-transcending reality on whom all dependent beings rest. The *pañca-bheda* (five-fold real distinction) holds at every register — the Lord is not merely functionally differentiated from the *jīva* and from matter; the distinction is ontologically irreducible. At *prayāṇa-kāle* (the moment of death), the *yukta-cetasaḥ* — those whose minds are yoked to Hari through *bhakti* (devotion) as ontological subordination — retain this cognition. That retention is not a feat of the *jīva*'s own cognitive power; it is secured by Hari's *anugraha* (grace), consistent with *taratamya* (graded ontological hierarchy), in which the *jīva* is always *paratantra* (eternally dependent) and the Lord alone is *svatantra*. Knowledge of Hari at death thus consummates *bhakti*: the knower arrives at Hari, distinct, real, subordinate — never dissolved.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for 7.30; reading voiced directly from Dvaita *siddhānta* primitives applied to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -464,7 +465,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viduḥ: vid -> √vid",
+          "viduḥ: vid -> √vid",
+          "yukta: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa introduce adhibhūta/adhidaiva/adhiyajña in the very last verse of Chapter 7 rather than explaining them there — and what does that structural deferral tell us about how the Gītā uses chapter-boundaries as teaching devices?",
@@ -482,5 +495,6 @@
     "śuddhādvaita": "Vallabha's 'yuktacetasaḥ as sign of grace received' reorients everyday spiritual effort: do not evaluate your practice by how much concentration you have manufactured. Instead, watch for moments of spontaneous integration — when body, sense, and intention align effortlessly in an act of service or beauty. Vallabha's framework names these as evidence of prasāda already working, not milestones to achieve. Inquiry (jijñāsā) itself, sustained without agenda, is the puṣṭi-path in daily life.",
     "bhakti": "Śrīdhara's guarantee against yoga-bhraṃśa is immediately practical for anyone whose devotional practice is inconsistent: the verse promises that mayi āsakta-manaḥ (a mind attached to the Lord) will not collapse even under the extremest pressure. The application is to keep re-attaching the mind not by force of will but by keeping the object of devotion concretely present — a name, an image, a specific quality of Kṛṣṇa you genuinely love. Consistency at low intensity beats heroic effort at high intensity that cannot be sustained to the moment of crisis.",
     "advaita-bhakti": "Madhusūdana's saṃskāra-pāṭava (sharpness of devotional impressions) points to a practical discipline: every deliberate act of remembrance, however brief, deposits a trace that compounds over time — the mind builds a groove so deep that at prayāṇa-kāle it falls into that groove automatically, by mat-kṛpayā (His grace), not by effortful concentration. In daily terms: the quality and intentionality of each individual moment of practice matters more than its duration. Depth over breadth; genuine over performed."
-  }
+  },
+  "primary_meaning": "Those who know Me as the ground of matter, of the cosmic powers, and of sacrifice keep that knowing steady even at the moment of death, their minds held firm."
 }

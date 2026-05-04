@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "atītaḥ",
-      "lemma": "atī",
+      "lemma": "√atī",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -389,7 +389,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "atītaḥ: atī -> √atī",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When does equanimity toward friend and foe become spiritual bypassing — a refusal of legitimate moral discernment — and how does the Gita's insistence on sarvarambha-parityaga address that worry?",
@@ -407,5 +418,6 @@
     "suddhadvait": "In Pustimarga the test is not whether you have given up striving but whether your striving has been offered as seva (service) to Krsna before it begins. A parent raising children, an artist completing a work, an entrepreneur building a company — all are sarvarambha-parityaga if the first motion of each day is 'this is yours, not mine'; the outer activity continues but the ownership does not.",
     "bhakti": "Sridhara's reading of udyama — striving for unseen fruits (adrsta-artha) — points to the anxiety-driven projects we undertake to secure our standing in the afterlife of reputation: the hedge against being forgotten, the curated legacy. The bhakta-philological practice is to notice which of one's projects are secretly adrsta-artha — building something for a future self that may never arrive — and to release those first.",
     "advaita-bhakti": "Madhusudana's temporal frame — sadhana before jnana, laksana after — offers a compassionate diagnostic: if equanimity toward honor and dishonor still requires effort today, that is not failure but sadhana; the practitioner can take Madhusudana's map literally and track, over years, whether the effort gradually becomes effortless signature. The convergence of bhakti-sadhana and jnana-phala means both paths are always already walking toward the same country."
-  }
+  },
+  "primary_meaning": "He is called beyond the gunas who is the same toward honor and contempt, toward friend and foe alike, and who has given up all self-initiated action."
 }

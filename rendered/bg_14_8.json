@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "nibadhnāti",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -520,7 +520,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "nibadhnāti: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If tamas is 'born of ignorance' and simultaneously 'the cause of ignorance,' is this a vicious circle — and how does each school propose to break it without assuming the very clarity tamas prevents?",
@@ -538,5 +549,6 @@
     "śuddhādvaita": "Vallabha's prasada-withdrawal reading transforms the experience of spiritual dryness, creative block, or motivational collapse: these are not evidence of personal failure but of a temporary recession of Krsna's sustaining grace. The Pustimarga application is to respond to tamas not with effortful discipline (which presupposes grace already present) but with surrender and longing — specifically, smarana (remembrance) of Krsna's names and forms, which re-invites the prasada rather than trying to generate clarity independently.",
     "bhakti": "Sridhara's characterization of nidra as citta-avasada (the subsidence of mind) points to a practical diagnostic: when your mind loses its springiness — when you find yourself unable to care about things you normally care about, unable to initiate prayer or study — that is tamasic laya setting in, not ordinary tiredness. The bhakti application is to treat this state as a signal to return to nama-smarana (repetition of the divine name) rather than waiting to feel better first, because the veiling power of tamas is precisely what creates the feeling that nothing matters.",
     "advaita-bhakti": "Madhusudana's precise triad — pramada as anti-sattva, alasya as anti-rajas, nidra as anti-both — offers a diagnostic grid: if you are losing clarity (pramada), increase sattva practices (study, simplicity, early rising); if you are losing initiative (alasya), examine where rajas has been misdirected and redirect it; if you are losing the capacity for either (nidra-like laya), recognize that you are in the grip of tamas itself and that Krsna-bhakti — specifically the emotional intensity of devotion — is the one force that operates against tamas on its own terms."
-  }
+  },
+  "primary_meaning": "Know that tamas, born of ignorance, deludes every embodied being and binds it through heedlessness, inertia, and sleep."
 }

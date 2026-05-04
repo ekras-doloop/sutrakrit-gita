@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -142,7 +142,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -184,7 +184,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -465,7 +465,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa declares himself to be manas among the indriyas, what does that imply about the spiritual status of mental resolve (saṃkalpa) — is the mind itself a site of the sacred, or merely the most powerful obstacle?",
@@ -483,5 +496,6 @@
     "śuddhādvaita": "When you encounter music, chant, or sound that moves you — the gāna-mādhurya (melodic sweetness) that bypasses argument and reaches the heart — receive it as direct prasāda, Kṛṣṇa's own vibhūti arriving through the Sāma-veda register. Let aesthetic delight be a legitimate form of darśana.",
     "bhakti": "Recognize that your jñāna-śakti (the capacity to know and understand anything at all) is itself Kṛṣṇa. When you grasp a truth — in study, in conversation, in a moment of honest self-seeing — that understanding is not merely yours. Offer the clarity itself in bhakti, as you would offer a flower.",
     "advaita-bhakti": "In contemplative practice, when the buddhi momentarily becomes transparent — when a thought clears and pure awareness (cit) shines through — that is cidabhivyañjikā, consciousness disclosing itself. Do not skip past it. Rest there. This is Kṛṣṇa as cetanā, and Madhusūdana says it is supremely beautiful (atirama ṇīya), worth lingering in."
-  }
+  },
+  "primary_meaning": "Among the Vedas I am the Sāma-veda, among gods Indra, among the senses the mind, and in all beings the spark of awareness."
 }

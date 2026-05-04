@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "saṃbhavanti",
-      "lemma": "sambhū",
+      "lemma": "sam-√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -386,8 +386,9 @@
         "jayatirtha_14.4"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is recorded as absent in the transmitted panel. From his established doctrinal principles: in all wombs whatever forms arise, their proximate material cause is the great prakriti; yet the supreme Hari alone is the ultimate father and seed-giver, the jivas remaining eternally distinct from and utterly dependent on Him — births across species are expressions of divine will over dependent souls, not any fusion of jiva with Brahman.",
-      "divergence_note": "FLAG: No Madhva bhashya supplied for BG 14.4. Rendering is constructed from Madhva's documented dvaita principles applied to the verse's grammar, not from a transmitted commentary passage."
+      "english_rendering": "*Mahad-brahma* (the great *prakṛti*, material nature) is the womb, the proximate receptacle into which *Kṛṣṇa* casts the seed — *ahaṃ bīja-pradaḥ pitā*, 'I am the seed-giving father.' Across *sarva-yoniṣu* (all species of birth), whatever *mūrtayaḥ* (embodied forms) arise, their material matrix is *prakṛti*; yet the efficient and ultimately real cause is *svatantra* (the independently real, self-sufficient) Hari alone. The *paratantra* (eternally dependent) *jīva* (the individual self) does not dissolve into either *prakṛti* or the Lord at birth or death; *bheda* (real distinction) between Lord, *jīva*, and *prakṛti* persists across every birth-cycle, sustained by the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter). The father-seed image marks Hari as the sole *svatantra* origin: *prakṛti* receives, but cannot initiate. Each embodiment across species is a direct expression of the Lord's sovereign will over wholly *paratantra* souls — no birth dissolves the *bheda*, and no birth occurs without Hari's direct agency as *bīja-pradaḥ*.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is transmitted for BG 14.4. Reading voiced directly from *dvaita* *siddhānta* applied to the *mūla*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -548,7 +549,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃbhavanti: sambhū -> sam-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prakriti is the universal mother and the Lord is the universal father, what does it mean for any human parent to call a child 'mine' — and how does this verse reframe the experience of parenthood?",
@@ -566,5 +577,6 @@
     "śuddhādvaita": "Vallabha's lila-srishti reading: every child born, every seed germinating, every cell dividing is Krishna's play of self-disclosure. The household — kitchen, children, the mess of domesticity — is not a lower domain to be transcended but the very field of the Lord's self-expression. Receive it as prasada.",
     "bhakti": "Sridhara's 'sarvada' (always) teaching: the cosmic parenthood is not ancient history but the present-tense ground of your breath right now. A simple practice — pause before eating, before speaking, before beginning work — and locate yourself as the form that arose from this ever-active womb. It interrupts automatic appropriation of experience as self-made.",
     "advaita-bhakti": "Madhusudana resolves apparent plurality into states of one Brahman: when you feel pulled in many directions by competing demands — family, career, spiritual aspiration — this verse offers a reframe. Each 'separate cause' pressing on you is a modal state of one ground. The practice is to find, beneath the multiplicity of pressures, the single movement that unifies them, and respond from there."
-  }
+  },
+  "primary_meaning": "In every womb, Arjuna, whatever form is born, great Nature is the mother and I am the father who plants the seed."
 }

@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "upapadyate",
-      "lemma": "upapad",
+      "lemma": "upa-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -446,7 +446,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktam: vac -> √vac",
+          "upapadyate: upapad -> upa-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the knowable Brahman (jneya) is already seated in every heart, what is the practitioner actually doing when they study — uncovering presence or constructing understanding?",
@@ -464,5 +475,6 @@
     "śuddhādvaita": "Vallabha's antaryami reading has a direct application: before any action, especially creative or relational work, pause and locate the underlying jyotis — not as a technique but as recognition that Krishna is already there as the animating light, not waiting to be invited in. The sadhana is not construction but unveiling; the everyday discipline is to stop treating your own awareness as your own production.",
     "bhakti": "Sridhara's balanced reading suggests that the sruti-passages he cites — 'tasya bhasa sarvam idam vibhati' — are not ornamental but diagnostic: they tell you what kind of thing the jneya is (the illuminator, not the illuminated). Everyday application: when you are confused or in darkness, the question is not 'where is the light?' but 'what is seeing this darkness?' — that seeing faculty is itself the jneya abiding in your hrdaya.",
     "advaita-bhakti": "Madhusudhana's synthesis means the devotional and the investigative paths need not alternate — they can run together. In practice: bring the question 'who is aware right now?' into your bhakti practice (puja, japa, kirtan), not as a distraction from devotion but as the deepest form of it. The burning-lens of bhakti and the mirror of jnana both receive the same sun; you do not have to choose which surface to be."
-  }
+  },
+  "primary_meaning": "That is the field, the knowledge, and the knowable, briefly told; my devotee who truly grasps all three reaches my own nature."
 }

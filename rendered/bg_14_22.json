@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "dveṣṭi",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "saṃpravṛttāni",
-      "lemma": "saṃpravṛt",
+      "lemma": "saṃ-√pravṛt",
       "grammar": "accusative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "nivṛttāni",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "accusative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -231,7 +231,7 @@
     },
     {
       "surface_form": "kāṅkṣati",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -557,7 +557,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dveṣṭi: dviṣ -> √dviṣ",
+          "saṃpravṛttāni: saṃpravṛt -> saṃ-√pravṛt",
+          "nivṛttāni: nivṛt -> ni-√vṛt",
+          "kāṅkṣati: kāṅkṣ -> √kāṅkṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the gunatita neither hates the gunas when they arise nor craves them when absent, does this describe a transformed relationship to experience or the absence of a self who experiences — and which tradition would accept which answer?",
@@ -575,5 +588,6 @@
     "śuddhādvaita": "Vallabha's dual-anvaya suggests: stop resisting the messy, effortful days (pravritti, moha) as spiritually inferior, and stop clutching the luminous days (prakasha) as signs you are doing it right. In Pushti-marga, Krsna sends both as forms of prasada. A practical heuristic: treat a confused, unproductive afternoon with the same lightness you treat a focused, creative morning — both are Krsna's lila playing through you.",
     "bhakti": "Sridhara's framing as a lakshana-shloka (sign-verse) reorients the practitioner: instead of asking 'how do I achieve non-reaction?', ask 'what would I notice if non-reaction were already present?' This diagnostic posture — looking for the sign rather than engineering the state — can itself loosen the habitual grip of aversion and craving, because it interrupts the loop of self-monitoring that sustains them.",
     "advaita-bhakti": "Madhusudana's svapnavat mithyatva: when a difficult emotion (anger, grief, craving) lands hard, the Advaita-bhakti practice is not suppression but a moment of pausing to ask — 'is this absolutely real, the way Brahman is real, or is it real the way last night's dream was real?' The question does not eliminate the emotion; it softens the compulsion to act from it immediately. Over time, the dream-like quality of transient guna-states becomes a lived recognition, not just a philosophical claim."
-  }
+  },
+  "primary_meaning": "The one gone beyond the *guṇas*, Arjuna, does not hate brightness, restlessness, or confusion when they arise, nor crave them when they pass."
 }

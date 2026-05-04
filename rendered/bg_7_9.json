@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "asmi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -422,7 +422,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asmi: as -> √as",
+          "asmi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Krsna is the pure fragrance in earth and not the corrupted smell, what does this imply about whether sensory beauty is spiritually reliable or spiritually suspect?",
@@ -440,5 +451,6 @@
     "śuddhādvaita": "Train the senses to receive rather than grasp. In Pushtimarga, every good sensory quality — the smell of tulasi, the light of a ghee lamp, the taste of prasada — is Krsna's prasada (self-gift). The practice is to receive each without the consumer-impulse of wanting more or the aversion of wanting less. Spashta (self-evident) means: stop explaining and start tasting.",
     "bhakti": "Expand your understanding of Bhagavan's vibhuti (glorious forms) to include the tanmatras — the subtle essences underlying each sense. When you train attention in meditation, practice contacting the tanmatra level of each element: not this specific smell but smell-as-such, not this specific warmth but heat-as-such. Shridhara's bhakti-philological reading suggests this is the level at which the ordinary becomes the divine.",
     "advaita-bhakti": "Cultivate both outer and inner tapas as a unified practice. Madhusudan's final ca collects body-endurance (heat, cold, hunger) and mind-endurance (citta-ekagrata, sense-restraint) into one tapas. Do not let your spiritual practice split into body-neglecting intellectualism or mind-neglecting asceticism. Krsna-Brahman is present equally in the body that endures and the mind that focuses — honor both registers daily."
-  }
+  },
+  "primary_meaning": "I am the pure fragrance of earth, the brightness in fire, the life in every creature, and the discipline in those who practice austerity."
 }

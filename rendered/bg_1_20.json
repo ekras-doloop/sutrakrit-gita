@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "vyavasthitān",
-      "lemma": "vyavasthā",
+      "lemma": "√vyavasthā",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "pravṛtte",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -292,8 +292,10 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "From Madhva's framework, the kapi-dhvaja title is freighted with Dvaita theology: Hanumān on the banner is not decoration but a sign that Hari's supreme independent will (svatantra-tattva) sustains Arjuna from above. The jīva (Arjuna) acts — raises the bow, surveys the enemy — but every movement is parasattā (dependent being) enacting what Hari has already ordained. The Dhārtarāṣṭras, arrayed for battle, are vyavasthita (positioned) only within the bounds that Hari permits; their destruction is already inscribed in Bhagavān's sovereignty.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Kapi-dhvajaḥ* — Arjuna bearing Hanumān on his banner — names the *paratantra* *jīva* visibly marked by the presence of *Hari*'s *svatantra* (independently real, self-sufficient) sovereignty. Hanumān, himself a *paratantra* being of the highest grade in *taratamya* (the graded ontological hierarchy), adorns the standard not as ornament but as living sign: what supports Arjuna's arm is Hari's unconditioned will. The *dhārtarāṣṭrān vyavasthitān* — the Dhārtarāṣṭras arrayed and positioned — stand within limits Bhagavān has already fixed; their station in that array is not self-secured but permitted. *Dhanur udyamya* — the lifting of the bow — is *paratantra* action: the *pāṇḍavaḥ* moves, yet the motion is wholly sustained by *svatantra* Hari. The five-fold *pañca-bheda* (real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) holds at every point of this scene — Arjuna, Hanumān, the bow, the opposing host, and the Lord who ordains are each irreducibly distinct, none collapsing into another.",
+      "commentator": "Madhvācārya",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya prose is extant for this verse; the reading is voiced directly from Dvaita *siddhānta* applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     }
   },
   "prosodic_information": {
@@ -377,7 +379,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyavasthitān: vyavasthā -> √vyavasthā",
+          "pravṛtte: pravṛt -> pra-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Madhusūdana says Bhagavān executes the bhakta's command — but does Arjuna know he is commanding the Lord, or does he merely think he is speaking to his charioteer? What does that ambiguity reveal about the structure of bhakti?",
@@ -395,5 +408,6 @@
     "śuddhādvaita": "When the scale of a challenge overwhelms you, do what Arjuna does: turn toward the one who stands as your sārathi (charioteer, inner guide) before strategizing. In practice, this means orienting — through prayer, through stillness, through a moment of remembrance — before deploying any plan. Vallabha's point is that the āśrita (one who has taken refuge) does not act alone; every movement of the chariot is Kṛṣṇa's own service to the devotee's vision.",
     "bhakti": "Śrīdhara's yuddhodyogena sthitān (positioned with battle-readiness) distinguishes between physical presence and inner readiness. In daily life, show up for difficulty with that second kind of positioning: not merely present but already internally marshaled. The verse's caturbhiḥ structure (four verses as one unit) suggests that real preparation is not a single act but an unfolding sequence — Arjuna speaks to Kṛṣṇa across four verses before the armies clash. Allow the full sequence; do not abbreviate the orientation.",
     "advaita-bhakti": "Madhusūdana's insight is that bhayaśūnyatva (fearlessness) is not produced by courage alone but by the presence of something — Hanumān, grace, an inner mahāvīra — that is already on your banner. Identify what that is for you: a practice, a lineage, a person, a vow. Then, when you address the Hṛṣīkeśa (the one who knows every inner state) within your situation, do so as a devotee-commander — not pleading, not demanding, but from the authority that comes from having already placed yourself under real protection."
-  }
+  },
+  "primary_meaning": "As battle was about to break, Arjuna, his banner flying the ape, saw the Dhārtarāṣṭras arrayed and raised his bow."
 }

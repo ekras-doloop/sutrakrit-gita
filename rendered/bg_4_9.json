@@ -170,7 +170,7 @@
     },
     {
       "surface_form": "vetti",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -354,7 +354,7 @@
     },
     {
       "surface_form": "eti",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -370,7 +370,7 @@
     },
     {
       "surface_form": "eti",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -636,7 +636,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vetti: vid -> √vid",
+          "eti: i -> √i",
+          "eti: i -> √i"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Does 'knowing tattvatah' require scriptural study alone, or does it also require a transformative inner event — and how do the schools draw that line differently?",
@@ -654,5 +666,6 @@
     "śuddhādvaita": "When you encounter beauty — a child's face, music, a landscape — receive it as a fragment of Kṛṣṇa's prākaṭya (manifestation), not a stimulus to be processed. Vallabha's teaching is that the world is a medium of Kṛṣṇa's self-disclosure; train perception to remain at the register of delight (ānanda) rather than utility.",
     "bhakti": "Identify one recurring area where dehābhimāna (body-identification) drives reactive behavior — self-protection, status anxiety, pleasure-seeking. Choose one week to act in that area as if the real subject were Bhagavān's instrument, not the body's advocate. Śrīdhara's minimum condition for liberation is exactly this single shift.",
     "advaita-bhakti": "Use the verse as a morning contemplation: 'The error I carry is treating the limited as ultimate. What is actually present is saccidānanda.' Then, without collapsing into abstraction, name the personal form you love — Vāsudeva, Rāma, Devī — and let the contemplation land there. Madhusūdana's synthesis is precisely this: clear away the superimposition, meet the beloved face-to-face."
-  }
+  },
+  "primary_meaning": "Whoever truly knows my birth and actions to be divine leaves the body without returning to another birth and comes to me, Arjuna."
 }

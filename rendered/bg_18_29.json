@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "procyamānam",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "accusative masculine singular present participle pass verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -287,9 +287,10 @@
         "jayatirtha_18.29"
       ],
       "score": 0.5,
-      "english_rendering": "No bhashya by Madhvacharya is available for this verse; the payload explicitly records 'Sri Madhvacharya did not comment on this sloka.' A Dvaita rendering is therefore constructed from the doctrinal frame: the threefold division of buddhi and dhrti reflects the irreducible hierarchy of jivas (individual souls) — tamasic buddhi belongs to those permanently excluded from liberation, rajasic to those entangled in samsara, sattvic to the devotee of Hari who acts in complete dependence (paratantrya). Hearing these distinctions is itself an act of worship, not merely cognition.",
-      "divergence_note": "BHASHYA ABSENT — Madhva did not comment on BG 18.29; rendering is derived from Dvaita doctrinal principles.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Buddhi* (discerning intelligence) and *dhṛti* (resolute holding) each split into three grades according to *guṇa* (the three strands of *prakṛti*: luminosity, passion, inertia) — so Kṛṣṇa instructs Arjuna: *śṛṇu*, hear them declared fully and separately. Within the Dvaita order, this tripartite division is not merely psychological; it maps onto *taratamya* (graded ontological hierarchy) among *jīvas*. The *tāmasika* *buddhi* belongs to those bound in the deepest *paratantra* (eternally dependent) dependence on *tamas*, incapable of discriminating *dharma* from *adharma*; the *rājasika* *buddhi* belongs to those whose *jīva*-nature is entangled in action-for-fruit; the *sāttvika* *buddhi* belongs to the *jīva* who correctly perceives *pravṛtti* and *nivṛtti*, binding itself to Hari through *bhakti* (devotion) as ontological subordination to *svatantra* (the independently real, self-sufficient) Hari. *Dhṛti* follows the same grading: *sāttvika* *dhṛti* is the steadfast holding that the *jīva* maintains not by its own independence but because *Hari* sustains it from within — the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) remaining unbreached even in the highest *sāttvika* state. Hearing these distinctions — *aśeṣeṇa pṛthaktvena* — is itself an act of *bhakti*-cognition, the *jīva* receiving from the *svatantra* Lord the capacity to distinguish.",
+      "divergence_note": "No bhāṣya by Madhva or Jayatīrtha survives for this verse; the reading is voiced directly from Dvaita *siddhānta* applied to the *mūla*.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -380,7 +381,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "procyamānam: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krishna announce the trividhya of buddhi and dhrti separately, after having already classified jnana, karma, and karta — what new explanatory work do these two categories do?",
@@ -398,5 +409,6 @@
     "shuddhadvaita": "Vallabha's frame treats the very willingness to hear these distinctions as prasada. The practical application: engage with discriminative study (shravana of scripture-categories) not as self-improvement work but as a response to grace already given. The right inner posture is receptivity, not striving — let the classification land as a gift, not a task.",
     "bhakti": "Sridhara's minimal 'spashta-arthah' is itself instructive: not every teaching requires elaborate commentary; some truths are plain and simply need to be received. In daily life, cultivate the discipline of direct perception — when something is clear, do not manufacture complexity. Shraddha (faith-attention) sometimes means trusting the obvious reading.",
     "advaita-bhakti": "Madhusudana's distinction between vrtti-matra and vrtti-mad-antahkarana has a practical corollary: in any moment of confusion, separate the passing mental mode (vrtti — 'I feel afraid') from the witness-instrument (antahkarana — the capacity to observe that fear). This two-step — name the vrtti, locate its instrument — is the micro-practice his bhashya encodes for daily navigation of inner states."
-  }
+  },
+  "primary_meaning": "Hear the threefold difference of intellect and resolve according to their gunas, Dhananjaya. I will declare each one fully and without conflation."
 }

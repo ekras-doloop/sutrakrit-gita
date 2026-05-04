@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "sraṃsate",
-      "lemma": "sraṃs",
+      "lemma": "√sraṃs",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "paridahyate",
-      "lemma": "paridah",
+      "lemma": "pari-√dah",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "śaknomi",
-      "lemma": "śak",
+      "lemma": "√śak",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "bhramati",
-      "lemma": "bhram",
+      "lemma": "√bhram",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -252,7 +252,9 @@
         "anandgiri_1.30"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkara does not comment here. From his framework applied retrospectively: Arjuna's trembling hand, burning skin, and spinning mind (bhramaṇa) are symptoms of avidyā-driven ahaṅkāra — the false equation of the Self with the body-mind complex. The Gāṇḍīva (bow) slips precisely because the hand that holds it has been mistaken for the ātman. Until the enquiry into 'who is the knower?' begins — which Kṛṣṇa will force open in 2.11 — these bodily signals are the uproar of saṃsāra speaking through an unrealised jīva."
+      "english_rendering": "The Gāṇḍīva (*gāṇḍīvaṃ sraṃsate hastāt* — the bow slips from the hand) and the burning of the skin (*tvak caiva paridahyate*) are already signs that *adhairya* (loss of steadiness) has taken hold — *kiṃ ca adhairyam api saṃvṛttam*, as Ānandagiri marks. The spinning of the mind — *bhramatīva ca me manaḥ* — is *moha* (delusion), and a great one at that: *moho 'pi mahān bhavatīti*. Deepening the diagnosis, the omen-reading itself has gone inverted — *vipariīta-nimitta-pratīteḥ* — for Arjuna now reads the twitching of the left eye and such signs (*vāma-netra-sphuranādīni*) as portents of calamity, when their proper valence belongs to victory. From the advaita standpoint, this *moha* is the uproar of *avidyā* (ignorance) speaking through the body-mind: the hand that cannot hold the bow, the skin that burns, the mind that whirls — each is *adhyāsa* (superimposition) of body upon *ātman* experienced as personal catastrophe. The enquiry that will dissolve it opens only at 2.11.",
+      "divergence_note": "Śaṅkara's own bhāṣya begins at 2.10 and is absent here. The advaita reading rests on Ānandagiri's sub-commentary, which names *adhairya*, *moha*, and *vipariīta-nimitta-pratīti* as the operative terms for this verse. The advaita frame — *avidyā*, *adhyāsa* — is siddhānta drawn forward from that commentary, not attributed to a Śaṅkara bhāṣya on this śloka.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -346,22 +348,6 @@
       ]
     },
     {
-      "list": "दृष्ट्वा तु पाण्डवानीकम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
-      "list": "दृष्ट्वेमं स्वजनं कृष्ण युयुत्सुं समुपस्थितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
       "list": "पाण्डवाः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -433,48 +419,6 @@
       ]
     },
     {
-      "list": "यत्र योगेश्वरः कृष्णो यत्र पार्थो धनुर्धरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29",
-        "18.78"
-      ]
-    },
-    {
-      "list": "युयुत्सुं समुपस्थितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
-      "list": "व्यवस्थितान्दृष्ट्वा धार्तराष्ट्रान्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
-      "list": "समवेता युयुत्सवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.1",
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
-      "list": "सीदन्ति मम गात्राणि ৷৷ भ्रमतीव च मे मनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.28",
-        "1.29"
-      ]
-    },
-    {
       "list": "स्वजनम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -512,7 +456,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "sraṃsate: sraṃs -> √sraṃs",
+          "paridahyate: paridah -> pari-√dah",
+          "śaknomi: śak -> √śak",
+          "bhramati: bhram -> √bhram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When the body speaks first — hands trembling, skin burning — and the mind rationalises afterward, which should you trust as the truer signal of what is happening inside you?",
@@ -530,5 +487,6 @@
     "śuddhādvaita": "Vallabha says self-disclosure as āśraya — admitting you have no ground of your own — is not weakness but the condition for prasāda to arrive. In any relationship where you are performing capability you do not have, try the single act of saying: 'I am not managing this; I need something from outside myself.' That statement, in Puṣṭi-mārga logic, is the opening, not the defeat.",
     "bhakti": "Śrīdhara reads Arjuna's body as prophetic: the skin knows before the mind does. This week, when your body registers alarm — a tightening, a flush, a sudden fatigue — treat it as śakuna rather than symptom to be suppressed. Ask: what is this pointing toward that my rational mind has not yet been willing to look at directly? Keep a three-day log of physical signals and the events that follow.",
     "advaita-bhakti": "Madhusūdana observes that Arjuna invokes Kṛṣṇa and Keśava in the middle of his breakdown — not as theological statement but as involuntary utterance, the first movement of surrender. In your own crisis moments, notice what name or frame your mind reaches for without deliberation: that involuntary reach is diagnostic. Whatever it is — a person, a practice, a belief — it is where your actual theology lives, and therefore where your work of deepening attention belongs."
-  }
+  },
+  "primary_meaning": "The Gāṇḍīva slips from my hand, my skin burns, I cannot hold myself steady, and my mind keeps spinning."
 }

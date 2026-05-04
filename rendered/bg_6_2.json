@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "prāhuḥ",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -222,7 +222,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -578,13 +578,6 @@
         "6.1",
         "6.4"
       ]
-    },
-    {
-      "list": "सात्त्विक त्याग",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.9"
-      ]
     }
   ],
   "audit_trail": {
@@ -614,7 +607,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāhuḥ: prāh -> √prāh",
+          "viddhi: vid -> √vid",
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma-yoga and sannyāsa are functionally identical at the level of inner relinquishment, why does the Gītā maintain two separate vocabularies throughout — is the distinction pedagogical, ontological, or audience-indexed?",
@@ -632,5 +637,6 @@
     "śuddhādvaita": "Vallabha dissolves the tension between doing and not-doing: you need not become a renunciant to live the sannyāsa-principle. In family life, professional life, or creative work, the single operative practice is this — complete the action fully and joyfully, then release the result as Kṛṣṇa's to dispose of. The joy in the doing is Kṛṣṇa's prasāda (grace-gift); the anxiety about outcome is your own superimposition on it.",
     "bhakti": "Śrīdhara's reading gives devotional practitioners a practical litmus: check whether phala-saṅkalpa has been genuinely surrendered or merely suppressed. If you still feel the background hum of 'and this will get me closer to liberation / Kṛṣṇa's grace / community recognition,' the surrender is incomplete. Authentic bhakti-karma-yoga means the action is offered whole, with full energy and skill, but the fruit line on the ledger is already Bhagavān's.",
     "advaita-bhakti": "Madhusūdana's synthesis makes this verse useful for practitioners who combine intellectual work with devotion: treat each fruit-desire that arises as a vṛtti to be named and released rather than acted upon or suppressed. The practice is not a blunt suppression (which would be a different kind of vṛtti) but a precise noticing — 'this is rāga appearing as professional ambition' — followed by a gentle redirect toward the action itself. Over time, the habit of vṛtti-identification becomes the yoga."
-  }
+  },
+  "primary_meaning": "What people call renunciation, Arjuna, know that to be yoga itself, for no one becomes a true yogin while still harboring desire for results."
 }

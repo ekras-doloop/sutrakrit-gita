@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "paś",
+      "lemma": "√paś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "anupaśyāmi",
-      "lemma": "anupaś",
+      "lemma": "anu-√paś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -362,7 +362,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paśyāmi: paś -> √paś",
+          "anupaśyāmi: anupaś -> anu-√paś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna sees 'viparīta-nimitta' (reversed omens) before he can articulate a philosophical argument — what is the relationship between embodied premonition and reasoned moral judgment, and which should carry more weight?",
@@ -380,5 +391,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga application is strikingly practical: if you are in a situation where every option looks wrong and no 'śreyas' is visible anywhere, that is not a problem to be solved by thinking harder. It is the condition Kṛṣṇa's grace specifically addresses — the moment you have exhausted self-effort is the moment 'prasāda' (divine gift) becomes available. Sit with the helplessness; name the one you trust; wait.",
     "bhakti": "Śrīdhara's terse, precise reading counsels moral clarity before emotional resolution: before seeking comfort, name the ethical stakes exactly as Arjuna does — 'by doing X, I see no good outcome.' This act of articulate moral inventory, without self-deception or premature resolution, is itself a form of 'sattva' (clarity) that keeps the practitioner honest about what is actually at risk.",
     "advaita-bhakti": "Madhusūdana's synthesis offers a two-move practice: first, address the situation by the name of its remedy — as Arjuna says 'Keśava,' the demon-slayer, at the very moment he needs obstacles removed. Then, name the grief fully and precisely, as Arjuna does, because the completeness of the naming is what allows 'tattva-jñāna' (knowledge of reality) to enter. The address and the honest complaint together constitute the beginning of transformation."
-  }
+  },
+  "primary_meaning": "Arjuna says: I see only bad omens, Keśava, and I can find no good in killing my own people in this battle."
 }

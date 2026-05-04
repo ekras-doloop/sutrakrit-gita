@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "nivartante",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -351,8 +351,9 @@
         "jayatirtha_9.3"
       ],
       "score": 0.5,
-      "english_rendering": "The commentator Madhvācārya did not record a bhāṣya (commentary) on this verse. Drawing from Dvaita's governing principles: those without śraddhā in this dharma — understood as surrender to Hari as eternally distinct Lord — fail to reach Him and remain bound in saṃsāra. The jīva's (individual soul's) distinctness from Brahman is eternal; without bhakti rooted in that recognition of complete dependence (pāratiṃtrya), no liberation is possible. They traverse the mṛtyu-saṃsāra-vartman through the consequences of their own karma.",
-      "divergence_note": "ABSENT — Madhva's bhāṣya not available for this verse. Rendering extrapolated from Dvaita theological framework; flag as inferred, not directly anchored."
+      "english_rendering": "*Aśraddadhānāḥ puruṣāḥ* — those who lack *śraddhā* (faith) in *dharmasya asya*, this *dharma* of direct *bhakti* to the *svatantra* (independently real, self-sufficient) Lord Hari — *aprāpya māṃ nivartante*: without reaching Him, they turn back. They return to *mṛtyu-saṃsāra-vartmani*, the path of death and rebirth. The *paratantra* (eternally dependent) *jīva* who does not recognize its own utter dependence (*pāratantryā*) on Hari, and who therefore does not take up *bhakti* as ontological subordination to Him, cannot attain His *prāpti* (arrival at Him). Arrival is real, not dissolution — the *jīva* remains distinct from the Lord even in liberation, and *bheda* (real distinction) between Lord and *jīva* is never annulled. Without *śraddhā* grounded in that recognition of *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter), the *jīva* gains nothing and revolves in *saṃsāra* by its own accumulated *karma*.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is extant on this verse. The reading is voiced directly from Dvaita *siddhānta* as applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -445,39 +446,11 @@
       ]
     },
     {
-      "list": "भूतग्रामः स एवायम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.19"
-      ]
-    },
-    {
       "list": "मृत्युसंसारवर्त्मनि",
       "role": "supporting",
       "other_verses_in_list": [
         "8.15",
         "9.34"
-      ]
-    },
-    {
-      "list": "यं प्राप्य न निवर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.21"
-      ]
-    },
-    {
-      "list": "यद्गत्वा न निवर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.23"
-      ]
-    },
-    {
-      "list": "यस्मिन्गता न निवर्तन्ति भूयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "15.4"
       ]
     },
     {
@@ -527,7 +500,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nivartante: nivṛt -> ni-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If this dharma is described as 'easy' (svasukara) and yet most people miss it, what exactly constitutes śraddhā (faith) — is it volitional, dispositional, or the result of prior karmic fitness (adhikāra)?",
@@ -545,5 +528,6 @@
     "śuddhādvaita": "Vallabha's co-constitution of jñāna and bhajana means that knowledge pursued without love, and love pursued without clarity, both miss the mark. In daily terms: a study session without genuine longing for Kṛṣṇa becomes mere scholarship; a devotional hour performed without understanding what you are offering becomes ritual sentiment. The practice Vallabha implies is checking whether knowledge is warming into love — whether understanding Kṛṣṇa's nature generates desire to be near him, not just accurate propositions about him.",
     "bhakti": "Śrīdhara's upāyāntara clause is the most practically diagnostic: identify any 'other means' you are relying on to reach what matters most — productivity systems instead of presence, therapy instead of surrender, philosophical clarity instead of practice. His point is not that these are worthless but that without āstikya (the conviction that this dharma is the actual path), they become substitutes. The daily exercise: each week, name the one substitute you are most heavily running, and ask whether you have genuinely accepted this path or are still negotiating.",
     "advaita-bhakti": "Madhusūdana's antaḥkaraṇa-corruption frame is the most actionable: epistemic hygiene matters. When clever reasoning leads you away from the practice — when you find yourself concluding that your current state is fine, the teaching doesn't really apply to you, or the tradition is historically conditioned — treat this as the Veda-opposing kuhetudaśana (bad-logic vision) he describes. The practice: each time you reason your way out of the practice, pause and ask whether the reasoning is serving clarity or serving avoidance. One honest answer per day is enough."
-  }
+  },
+  "primary_meaning": "Those who have no faith in this teaching never reach Me, and keep turning on the road of death and rebirth."
 }

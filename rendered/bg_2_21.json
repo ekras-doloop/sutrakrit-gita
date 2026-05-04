@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "ghātayati",
-      "lemma": "ghātay",
+      "lemma": "√ghātay",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "hanti",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -612,7 +612,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "veda: vid -> √vid",
+          "ghātayati: ghātay -> √ghātay",
+          "hanti: han -> √han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara's ākṣepa reading of 'katham' — treating the rhetorical question as an absolute negation rather than a sincere inquiry — determines his entire conclusion that the jñānin must renounce all karma: does the grammar of the mūla actually require this reading, or is Śaṅkara importing a doctrinal conclusion into the syntax?",
@@ -630,5 +642,6 @@
     "śuddhādvaita": "Vallabha's insistence that the dissolution of agency is Kṛṣṇa's prasāda (grace) rather than the practitioner's attainment addresses a specific spiritual exhaustion: the person who has tried, through effort and analysis, to stop identifying as a doer — and keeps failing. The Puṣṭi-mārga teaching here is that nirvikāra-ātma-jñāna (knowledge of the changeless self) is not a cognitive achievement to be muscled into place but a gift that descends when the jīva's will relaxes into Kṛṣṇa's līlā (divine play). In everyday terms this means: when you feel responsible for an outcome that you cannot control or undo, the move is not harder self-analysis but a direct surrender — 'this weight is not mine to carry because the one who carries weight does not exist in the way I imagine' — trusting that the ātman's indestructibility is Kṛṣṇa's business, not yours.",
     "bhakti": "Śrīdhara's devotionally inflected reading offers a corrective to a specific emotional pattern: blaming those who set events in motion — the manager who gave the order, the parent who set the trajectory, Kṛṣṇa who 'made me do this.' His reading says that once the ātman's indestructibility is genuinely known, the search for a prayojaka (instigator to blame) loses its ground: if no killing has ultimately occurred at the ātman level, then the causal chain of blame dissolves at the same stroke. In practice this means releasing the compulsive audit of 'who started it' — whether in family conflict, institutional responsibility, or spiritual doubt — and turning instead toward the knowledge itself as an act of bhakti: to know that no soul has been permanently harmed is, for Śrīdhara, to see Kṛṣṇa in the very fact that reality is structured this way.",
     "advaita-bhakti": "Madhusūdana's identification of Arjuna's double error — superimposing kartṛtva (doer-hood) on himself and kārayitṛtva (causer-hood) on Kṛṣṇa — maps precisely onto the common experience of blaming both oneself and God simultaneously after a painful outcome: 'I should have known better, and God should have protected me.' His synthesis of Advaita-jñāna with Kṛṣṇa-bhakti dissolves both arms of this double bind at once: the avidyā-constructed 'I' that failed is not the real ātman (sarva-vikāra-śūnya, free from all modification), and the Kṛṣṇa being blamed is not an external agent who could have intervened but the very consciousness that is the ātman's own light. The daily practice Madhusūdana implies is contemplative re-attribution — when guilt and resentment co-arise, recognize both as products of the same avidyā-dream, and let bhakti (devotion as clear seeing) dissolve both rather than resolving them into a verdict."
-  }
+  },
+  "primary_meaning": "Knowing this self as eternal, unborn, and imperishable, how can a person slay anyone, or cause anyone to be slain?"
 }

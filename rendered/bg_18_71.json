@@ -1,8 +1,8 @@
 {
   "verse_id": "18.71",
   "mūla": {
-    "devanāgarī": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः | सोऽपि मुक्तः शुभा~ल्लोकान्प्राप्नुयात्पुण्यकर्मणाम्",
-    "iast": "śraddhāvānanasūyaśca śṛṇuyādapi yo naraḥ | so'pi muktaḥ śubhā~llokānprāpnuyātpuṇyakarmaṇām",
+    "devanāgarī": "श्रद्धावाननसूयश्च शृणुयादपि यो नरः | सोऽपि मुक्तः शुभाँल्लोकान् प्राप्नुयात् पुण्यकर्मणाम्",
+    "iast": "śraddhāvānanasūyaśca śṛṇuyādapi yo naraḥ | so'pi muktaḥ śubhāṁllokān prāpnuyāt puṇyakarmaṇām",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 71",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "muktaḥ",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -181,7 +181,7 @@
     },
     {
       "surface_form": "prāpnuyāt",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -356,7 +356,9 @@
         "jayatirtha_18.71"
       ],
       "score": 0.5,
-      "english_rendering": "[Madhvacharya did not comment on this verse; no Dvaita bhashya is available in the panel payload.] Drawing from Madhva's consistent teaching elsewhere: even incidental hearing of the Lord's teaching by a jiva who holds faith without envy accrues the merit of the highest yajnas, for the jiva's dependence on Hari is expressed through receptive surrender, and Hari freely grants the fruit according to His own will."
+      "english_rendering": "*Śraddhā* (faith) and *anasūyā* (absence of envy) are the two *paratantra* qualities that open the *jīva* to Hari's teaching. The mūla states: *śraddhāvānanasūyaś ca śṛṇuyād api yo naraḥ / so'pi muktaḥ śubhāl lokān prāpnuyāt puṇyakarmaṇām* — even such a one who merely *hears* attains liberation and the auspicious *lokāḥ* (spheres) of those who have performed meritorious deeds. In *dvaita* reading, *mukta* here does not name dissolution into Brahman but real arrival at the *śubha-lokāḥ* appropriate to the *jīva*'s grade within *taratamya* (the graded ontological hierarchy of liberated souls). The hearing itself is not self-generated; it is Hari's *svatantra* (independently real, self-sufficient) will that draws the *jīva* receptively into the transmission of the Gītā-śāstra. *Anasūyā* is the *pañca-bheda* (five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) correctly acknowledged — no resentment at the Lord's absolute supremacy, no leveling of the distinction between *svatantra* Hari and *paratantra jīva*. Where that *bheda* is accepted and *śraddhā* is present, even passive audition of the Gītā accrues the *puṇya* of the highest *karma*, and *mukti* follows by Hari's free conferral, not by the *jīva*'s autonomous effort.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading draws *mukta* away from any advaitic dissolution-reading toward the dvaita doctrine of differentiated liberation: the liberated *jīva* retains its distinct identity and attains graded *śubha-lokāḥ* within *taratamya*, not merger with *brahman*.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -447,7 +449,44 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word.surface_form as source of truth",
+        "loci": [
+          "śubhāṁllokānprāpnuyātpuṇyakarmaṇām -> śubhāṁ llokā nprāpnuyā tpuṇyakarmaṇām"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.devanāgarī — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "शुभाँल्लोकान्प्राप्नुयात्पुण्यकर्मणाम् -> शुभाँल्लोकान् प्राप्नुयात् पुण्यकर्मणाम्"
+        ]
+      },
+      {
+        "date": "2026-05-03T23:28:12.446293Z",
+        "scope": "iast_reconstruction_from_word_by_word",
+        "reason": "broken_split_from_e04db6c9_repair"
+      },
+      {
+        "date": "2026-05-03T23:28:56.119949Z",
+        "scope": "iast_canonical_restoration",
+        "reason": "fix_e04db6c9_broken_split_on_long_consonant_clusters"
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "muktaḥ: muc -> √muc",
+          "prāpnuyāt: prāp -> √prāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krsna specify 'without envy' (anasuya) as a separate condition alongside faith — what does envy toward a teaching do to its reception?",
@@ -465,5 +504,6 @@
     "śuddhādvaita": "Treat moments of encountering Krsna's teaching — a verse heard at a gathering, a line read by chance — as prasada arriving unsought. Receive them with the simplicity of a child accepting a gift, without analysis of whether you 'deserve' or 'understand' them.",
     "bhakti": "Before listening to any teaching, internally release the fault-finding reflex: the voice is too loud, the speaker is imperfect, the timing inconvenient. Shridhara's bystander attains the fruit not despite the incidental quality of the hearing but because the heart is free of carping.",
     "advaita-bhakti": "Even incomplete engagement with a sacred text — reading a page before sleep, overhearing a recitation, catching a verse on a screen — carries benefit if the orientation is one of quiet trust rather than skeptical appraisal. Begin wherever you are; the tradition does not require mastery as an entry fee."
-  }
+  },
+  "primary_meaning": "Even a person who only hears this teaching with faith and without envy will be freed and reach the auspicious worlds of those who have done good."
 }

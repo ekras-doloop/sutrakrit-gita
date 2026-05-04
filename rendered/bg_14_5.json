@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "nibadhnanti",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -425,7 +425,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -535,7 +535,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nibadhnanti: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the dehin is truly avyaya (imperishable) and unstained, why does Bhagavan bother warning Arjuna about gunas binding him at all — what is the practical force of a binding that is 'merely apparent'?",
@@ -552,5 +562,6 @@
     "shuddhadvaita": "If the gunas' binding is Bhagavan's own lila expressed through your body, then the path is not grim renunciation but joyful participation with awareness. Notice where tamas (dullness) or rajas (frenetic activity) arise in your daily routine — not as enemies to destroy, but as features of the lila to offer back to Krsna. Pushtimargiya bhakti asks you to bring even habitual patterns into the field of prasada (gracious offering), releasing the knot through love rather than aversion.",
     "bhakti": "Sridhara names the binding instruments directly: sukha (pleasure), duhkha (pain), and moha (delusion). Map your week against these three: which decisions were driven by chasing sukha, which by fleeing duhkha, which by simple moha (not knowing what you actually wanted)? This exercise is bhakti's version of discriminative study — seeing clearly how the gunas moved you is the first act of non-attachment, and naming them with Bhagavan's vocabulary is itself a form of smarana (remembrance).",
     "advaita-bhakti": "Madhusudhana's image of sunlight shaking in a trembling vessel is immediately recognizable: your awareness does not actually agitate when rajas agitates your mind, any more than the sun shakes when its reflection does. In a moment of emotional turbulence, try this: locate the awareness that is registering the turbulence — it is still. Then, from that stillness, direct an act of bhakti (a brief prayer, a moment of gratitude) toward Bhagavan. This two-step — locate the unshaking witness, then offer from it — is the daily form of the Advaita-bhakti synthesis."
-  }
+  },
+  "primary_meaning": "Sattva, rajas, and tamas arise from nature and bind the imperishable self within the body."
 }

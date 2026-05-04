@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -90,7 +90,7 @@
     },
     {
       "surface_form": "proktaḥ",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -288,8 +288,8 @@
         "madhusudan_10.40"
       ],
       "score": 0.5,
-      "divergence_note": "Madhusūdana's synthesis: the Advaita framework (sat-mātra as the scope of all knowledge) does not cancel the devotional intimacy of 'tvāṃ prati' — the partial disclosure is personally addressed to Arjuna, blending jñāna's epistemology with bhakti's relationship.",
-      "english_rendering": "O scorcher of enemies (paraṃtapa) — you who burn the internal foes (kāma, krodha, lobha) — my divine vibhūtis have no finite measure (iyattā nāsti); even omniscience (sarvajñatā), which has sat (pure Being) as its sole domain, cannot grasp or declare the full extent. What I have spoken to you (tvāṃ prati) is a single portion (ekadeśa), a gift of partial disclosure that the heart can hold."
+      "divergence_note": "Restored from Madhusūdana's own phrasing: *iyattā nāsti*, *sarvajñenāpi sā śakyate jñātuṃ vaktuṃ vā*, *san-mātra-viṣayatvāt sarvajñatāyāḥ*, *tvāṃ praty uddeśata ekadeśena prokto vibhūter vistāraḥ*. The prior cell paraphrased these moves without quoting them; the devotional reading of *tvāṃ prati* is retained as Madhusūdana's own, not a projected supplement.",
+      "english_rendering": "O *parantapa* — you who generate torment (*tāpa*) in outer enemies, the *kāma-krodha-lobha-ādī* (*kāma*, desire; *krodha*, anger; *lobha*, greed, and the rest — here named as the true adversaries — *mama divyānāṃ vibhūtīnām antaḥ iyattā nāsti*: my divine *vibhūti*s have no finite measure, no countable limit. Consequently, *sarvajñenāpi sā śakyate jñātuṃ vaktuṃ vā* — even by the omniscient one, those *vibhūti*s cannot be fully known or declared. The reason: *sarvajñatā* has *san-mātra* (pure Being alone) as its domain (*san-mātra-viṣayatvāt sarvajñatāyāḥ*), and what is infinite within Being exceeds even that scope. *Eṣa tu tvāṃ praty uddeśataḥ ekadeśena prokto vibhūter vistāro mayā* — what I have disclosed is directed specifically toward you (*tvāṃ prati*), set forth by way of indication (*uddeśataḥ*), one portion (*ekadeśa*) of the full expanse. The *paramā prīti* (highest love) of *bhakti* is not dissolved by this admission of inexhaustibility; rather, the personal address *tvāṃ prati* makes the partial gift an act of *rasa*, devotional intimacy within the *jñāna* of non-dual Being."
     }
   },
   "prosodic_information": {
@@ -366,7 +366,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as",
+          "proktaḥ: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even a comprehensive catalogue of Kṛṣṇa's vibhūtis is only a fragment (uddeśataḥ), what epistemic posture should the student bring to any systematic theology or philosophical system that claims completeness?",
@@ -384,5 +395,6 @@
     "śuddhādvaita": "In the Puṣṭi-mārga spirit: make a practice of naming what you are grateful for not as a cognitive inventory but as a form of kīrtana — say the names aloud, slowly, knowing that the naming itself is participation in what is named. Vallabha's application is that speech about the good is never merely descriptive; it is always also an offering.",
     "bhakti": "When you feel overwhelmed by complexity — too many facts, too many demands, too many paths — Śrīdhara's reading offers a practical anchor: a partial but reliable summary (saṃkṣepa) is enough to begin. The inability to hold everything at once is not a defect; it is the condition under which bhakti is designed to operate. Start with what you have been given.",
     "advaita-bhakti": "Madhusūdana's 'tvāṃ prati' — the teaching is addressed to you specifically — offers a daily practice: receive general wisdom (scriptural, philosophical, from teachers) as if it were personally sent. The Advaita-bhakti integration dissolves the split between impersonal truth and intimate relationship; any fragment of the infinite that reaches you has been proportioned to your capacity."
-  }
+  },
+  "primary_meaning": "There is no end to my divine manifestations, scorcher of enemies. What I have declared here is a summary only, one region of a glory that no speech can fully compass."
 }

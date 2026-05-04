@@ -123,7 +123,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -351,9 +351,10 @@
         "jayatirtha_16.24"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is explicitly absent from the available corpus ('Sri Madhvacharya did not comment on this sloka'). From the Dvaita doctrinal posture: since jiva (soul) is eternally and fundamentally distinct from Hari, action is never autonomous self-expression — it is always dependent worship of Vishnu-Hari. Shastra is pramana because Hari alone is svatantra (independent); all jivas are paratantra (dependent), and the Vedic injunction is the formal channel through which Hari's sovereign will reaches the bound soul. Obedience to shastra is not legalism but the ontological acknowledgment of dependence.",
-      "divergence_note": "Bhashya absent — rendering extrapolated from documented Dvaita metaphysical commitments.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Tasmāc chāstraṃ pramāṇaṃ te kāryākārya-vyavasthitau* — therefore *śāstra* (scripture) is your *pramāṇa* (valid epistemic authority) in determining what is to be done and what is to be left undone. *Jñātvā śāstra-vidhānoktaṃ karma kartum ihārhasi* — having known what the scriptural injunction prescribes, you are fit to act accordingly here.\n\nŚāstra is *pramāṇa* because Hari alone is *svatantra* (the independently real, self-sufficient). Every *jīva* (individual self) is *paratantra* (eternally dependent), incapable of determining right action from within itself. The *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) is not merely categorical — it is ontologically operative in every act. Action whose scope and form the *jīva* sets by private judgment alone oversteps the *bheda* (real distinction) and collapses into the asuric posture this chapter has catalogued. Vedic injunction is the formal channel through which Hari's sovereign will reaches the bound soul. Obedience to *śāstra* is therefore not legalism but *paratantra*'s proper acknowledgment: the *jīva* acting within the order Hari has disclosed. *Bhakti* (devotion) toward Hari and adherence to *śāstra-vidhāna* are not separable; the injunction structures the very acts through which ontological subordination is expressed and confirmed.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. Reading voiced directly from dvaita siddhānta primitives applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -461,7 +462,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktam: vac -> √vac",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When personal intuition and shastra conflict — in a moral dilemma your tradition has not explicitly addressed — which Shankara's framework would call 'kama-driven svabhava' and which it would recognize as cultivated viveka (discernment)?",
@@ -479,5 +491,6 @@
     "shuddhadvaita": "Identify one recurring duty you perform correctly but joylessly — a work obligation, a relational responsibility, a daily discipline. Vallabha's application is precise: add 'datta-chitta' (mind-given) as a single interior gesture before performing it. The action does not change; the kartri (agent) does. Track over two weeks whether the quality of the action itself shifts.",
     "bhakti": "Use Shridhara's causal chain as a diagnostic: map backward from where you feel spiritually stalled to its probable cause. If samyag-jnana (right understanding) feels absent, trace it to sattva-shuddhi (purity of being). If sattva-shuddhi is elusive, identify one shastra-prescribed action you are currently avoiding or one shastra-prohibited action you are currently rationalizing. Address that specific bottleneck, not the stalling itself.",
     "advaita-bhakti": "Madhusudana's practical instruction is surgical: identify one nisiddha (prohibited) action you are still carrying and one vihita (prescribed) action appropriate to your actual adhikara that you are postponing. Remove the first; begin the second. This is not moralism — it is Madhusudana's precise sequence: sattva-shuddhi first, Advaita-jnana second, bhakti's unobstructed flame third. The sequence cannot be reversed."
-  }
+  },
+  "primary_meaning": "Let scripture be your guide on what to do and what to leave undone; knowing what it prescribes, act accordingly."
 }

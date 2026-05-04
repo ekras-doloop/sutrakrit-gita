@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "praṇaśyanti",
-      "lemma": "praṇaś",
+      "lemma": "pra-√ṇaś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "naṣṭe",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "locative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "abhibhavati",
-      "lemma": "abhibhū",
+      "lemma": "abhi-√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -248,7 +248,9 @@
         "jayatirtha_1.40"
       ],
       "score": 0.5,
-      "english_rendering": "Kula-kṣaya destroys the sanātana kula-dharmāḥ; adharma then floods the whole kula. The Dvaitin framework would read Arjuna's speech as grounded in a correct empirical observation about worldly consequence, but fatally divorced from the recognition that Hari-smaraṇa (remembrance of Hari) is itself the highest sanātana dharma. Adharma for Madhva is ultimately any action or omission that violates one's dependence on Viṣṇu; a family that loses its kula-dharma has lost its link to Hari's ordering will. Arjuna's error is not in the sociological analysis but in thinking that his refusal to fight upholds rather than severs that link."
+      "english_rendering": "*Kula-kṣaye* (destruction of the lineage) causes the *sanātana* (eternal, time-honoured) *kula-dharmāḥ* (family observances) to perish; when *dharma* is destroyed, *adharma* overwhelms the entire *kula* (family line). Arjuna's observation registers a real causal chain in the *paratantra* (eternally dependent) order: lineages, their *dharma*-structures, and the souls within them are all *paratantra* — subordinate to Hari's sovereign will. The *sanātana kula-dharmāḥ* derive their binding force precisely from their grounding in Viṣṇu's ordinance; their collapse is therefore not merely a social loss but a severing of the *kula*'s ordered dependence on *Hari*. *Adharma* in the Dvaita reading is any state in which a *jīva* (individual self) or a community of *jīvas* acts or is positioned contrary to its essential *paratantra* nature — against the *bheda* (real distinction) that permanently places it beneath *Hari*. Arjuna correctly names the downstream devastation but misidentifies its remedy: *yuddha* (battle) here is the *svadharma* aligned with Hari's will, not its violation, and refusal to fight is itself the adharmic rupture he fears.",
+      "divergence_note": "Bucket changed from B to C: Madhva and Jayatīrtha are silent from BG 1.1–2.10; the reading is reconstructed from core Dvaita *siddhānta* (*paratantra*, *pañca-bheda*, *taratamya*, and the identification of *adharma* as deviation from Hari-ordered subordination) applied directly to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -274,7 +276,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -325,7 +327,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "praṇaśyanti: praṇaś -> pra-√ṇaś",
+          "naṣṭe: naś -> √naś",
+          "abhibhavati: abhibhū -> abhi-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Arjuna's sociological analysis of kula-kṣaya is empirically correct, at what point does accurate observation become moha — and how do we distinguish the two in our own grief?",
@@ -343,5 +357,6 @@
     "śuddhādvaita": "When you cling to a ritual, a family custom, or a devotional form because you are afraid of what disappears if it goes — the Puṣṭi-mārga application is to distinguish between the form as prasāda (gift given, to be held lightly) and the form as possession (grasped, causing the very loss you fear). Kṛṣṇa restores what He wills to restore; your job is participation, not preservation.",
     "bhakti": "When the devotional infrastructure of your life — the community, the lineage, the regular practices — is under threat, the bhakti-philological application is to identify which elements are genuinely sanātana (carrying the transmission) and which are cultural accretion. Protect the former with energy; grieve the latter without despair. The difference matters: rebuilding a real kula-dharma is possible; trying to rebuild cultural form stripped of devotional substance produces hollow repetition.",
     "advaita-bhakti": "When your own reasoning about a difficult decision feels compassionate and dharmic, apply Madhusūdana's kutatarka test: is this argument being constructed by a mind already clouded by attachment to a particular outcome? The practical move is to surface the conclusion you are defending before you examine the premises — if you find yourself arguing toward what you already emotionally need, the reasoning is likely kutatarka. Surrender to Kṛṣṇa in this context means suspending the constructed argument long enough to ask what action actually serves, not what argument justifies staying still."
-  }
+  },
+  "primary_meaning": "When the family line is destroyed, its ancient customs perish with it; and once dharma is lost, lawlessness overtakes the whole clan."
 }

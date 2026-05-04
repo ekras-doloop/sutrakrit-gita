@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "taptam",
-      "lemma": "tap",
+      "lemma": "√tap",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "yuktaiḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "instrumental masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "paricakṣate",
-      "lemma": "paricakṣ",
+      "lemma": "pari-√cakṣ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -500,7 +500,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "taptam: tap -> √tap",
+          "yuktaiḥ: yuj -> √yuj",
+          "paricakṣate: paricakṣ -> pari-√cakṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If shraddha (faith) must be 'supreme' for tapas to be sattvika, what contaminates ordinary faith — doubt about scripture, doubt about the method, or desire for the fruit?",
@@ -517,5 +529,6 @@
     "suddhadvaita": "Notice whether your strongest devotional or creative states feel self-generated or received. Vallabha's pushti-marga asks practitioners to distinguish effortful shraddha from the spontaneous shraddha that arises when grace is present — the latter feels like remembering rather than constructing. Treat periods of dry, effortful practice as diagnostic: they may signal a mismatch between what you are offering and what Krishna is actually calling you toward.",
     "bhakti": "Sridhara's ekagra-chitta (single-pointed mind) test for yukta: during your primary practice, count how many times the mind produces a fruit-image (what this will lead to, how others will perceive it, what you will gain). Even a single fruit-image is evidence that the chitta is not yet ekagra. The discipline is not suppression of those images but returning without drama each time — the returning IS the tapas.",
     "advaita-bhakti": "Madhusudana's 'unmoved by success or failure' criterion applies directly to creative and professional work. After completing a significant effort, observe the internal weather at the moment of receiving feedback — elation at praise, deflation at criticism. Both are phala-abhisandhi (fruit-clinging) made visible. The sattvika practitioner's internal weather at outcome-receipt looks identical to the weather during the work itself: steady, quiet, unspectacular."
-  }
+  },
+  "primary_meaning": "Austerity practiced with supreme faith, by those who want no reward and keep the mind steady, is called sattvika."
 }

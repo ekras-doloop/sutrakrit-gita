@@ -284,7 +284,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -548,13 +548,6 @@
       ]
     },
     {
-      "list": "विनाशमव्ययस्यास्य न कश्चित्कर्तुमर्हति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.17"
-      ]
-    },
-    {
       "list": "सर्वस्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -605,7 +598,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says that from the standpoint of paramārtha-tattva (ultimate truth), grief and delusion are structurally impossible — yet here we are, grieving. Does that mean grief is only a problem at the vyavahāra (conventional) level? Does the Gītā give us any tools at that level too?",
@@ -623,5 +626,6 @@
     "śuddhādvaita": "Vallabha's anekāvidha (many-formed) framing collapses the hierarchy of beings: Kṛṣṇa's śakti is present in every form without gradation. The Puṣṭi-mārga application is attentiveness to the ordinary: the multiplicity of forms around you — people, animals, objects — are each a site of Kṛṣṇa's own living presence. Grief for any of them mistakes the temporary form for the permanent reality; joy in any of them, taken as Kṛṣṇa's own display, becomes a mode of bhakti (loving devotion). The practice is to move through the day with the eye that sees the anekāvidha as a single continuous prasāda.",
     "bhakti": "Śrīdhara's framing of this verse as upasaṃhāra — conclusion — means that the injunction 'do not grieve' is not a command to suppress emotion but the logical endpoint of a teaching arc. In practice this suggests a contemplative approach to grief: when it arises, trace the reasoning backward through the teaching rather than trying to stop the grief directly. Each prior verse in the sequence established a premise; this verse draws the conclusion. Following the argument inwardly, verse by verse, is itself the practice — a form of manana (reflective inquiry) that Śrīdhara regards as the bhakta's form of jñāna-yoga.",
     "advaita-bhakti": "Madhusūdana's three-tier dissolution — gross body, subtle body, ātman — is useful precisely because grief tends to be layered. We grieve the physical absence of someone (sthūla-deha), and also the loss of their personality, memories, and relationship-arc (liṅga-deha), and also some dimly felt sense that the person 'is gone' entirely. His argument addresses each tier: the gross body's loss is unavoidable and therefore not a proper object of śoka; the subtle body is avaddhya in its own register; the ātman is absolutely avaddhya. The practice is to identify which layer the grief is actually targeting in a given moment and to apply the corresponding insight — not as suppression, but as a precise philosophical correction delivered to the exact point of pain."
-  }
+  },
+  "primary_meaning": "The self inside every body, from god to stone, is eternal and cannot be killed; you have no cause to grieve for any being."
 }

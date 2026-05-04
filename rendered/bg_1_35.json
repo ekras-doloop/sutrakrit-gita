@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "ghnataḥ",
-      "lemma": "han",
+      "lemma": "√han",
       "grammar": "accusative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -285,11 +285,13 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "From Dvaita's axiomatic framework — where the jīva is eternally, essentially distinct (paricchinna) from Hari and wholly dependent on Him — Arjuna's declaration here reads as a moment of the jīva mistaking sva-dharma (duty as Hari's instrument) for personal preference. 'Icchāmi' (I wish) and 'na hantum' (not to kill) place the agent's will at the centre; Madhva's school would locate the tension precisely here: a devotee who says 'I do not wish' has momentarily displaced Hari's will with his own. The hyperbolic scale — trailokya-rājya down to mahī — amplifies how deep the aversion runs, and thus how far Arjuna has drifted from dāsya (servant-hood). Madhva's own commentary is not available for this verse; this reading is extrapolated from Dvaita principles."
+      "english_rendering": "*Etān na hantum icchāmi ghnato 'pi madhusūdana | api trailokya-rājyasya hetoḥ kiṃ nu mahī-kṛte* — Arjuna addresses Kṛṣṇa as *Madhusūdana* (slayer of Madhu), the very name marking the Lord's supremacy as *svatantra* (the independently real, self-sufficient), yet in the same breath voices *icchāmi* — his own *I will* — as the governing force. The *paratantra* (eternally dependent) *jīva* (the individual self) possesses no will that stands independently of Hari's; when Arjuna says *na hantum icchāmi*, 'I do not wish to kill', even under attack (*ghnato 'pi*), he places his private aversion above the function Hari has assigned him. The ascending scale — *trailokya-rājyasya* (sovereignty of the three worlds) down to *mahī-kṛte* (for the sake of mere earth) — does not ennoble the refusal; it measures the depth to which personal *icchā* has displaced *dāsya* (servanthood). *Bheda* (real distinction) between Lord and *jīva* is not negated by *bhakti* (devotion); it is the very ground on which *bhakti* as ontological subordination stands. A servant's will that overrides the master's command is not renunciation but a subtler self-assertion, and the hyperbole of the verse exposes exactly that: no prize, however vast, can justify the refusal — but neither can any personal repugnance.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya is extant for this verse; the reading proceeds directly from Dvaita *siddhānta* — *svatantra*/*paratantra* ontology, *pañca-bheda*, and *dāsya*-centred *bhakti*.",
+      "provenance": "siddhānta_reconstruction"
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -301,13 +303,6 @@
   "theme_list_memberships": [
     {
       "list": "आचार्याः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.34"
-      ]
-    },
-    {
-      "list": "आचार्याः पितरः৷৷ किं नु महीकृते",
       "role": "supporting",
       "other_verses_in_list": [
         "1.34"
@@ -408,13 +403,6 @@
       "other_verses_in_list": [
         "1.34"
       ]
-    },
-    {
-      "list": "है और सुखभोगकी इच्छाका नाम",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.34"
-      ]
     }
   ],
   "audit_trail": {
@@ -444,7 +432,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ghnataḥ: han -> √han"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna says the renunciation holds 'even for trailokya-rājya' — is this moral clarity or is it still a form of attachment, the ego protecting what it loves by dressing refusal as virtue?",
@@ -462,5 +460,6 @@
     "śuddhādvaita": "Puṣṭi-mārga would recognise those moments when you are so overwhelmed by love for someone — a child, a friend, a community — that you cannot bring yourself to act in ways that might cause them discomfort, even when that discomfort is necessary for their flourishing. The teaching is not to harden yourself but to offer the incapacity to Kṛṣṇa directly: 'I am unable; let Your prasāda move through me.' The paralysis becomes the prayer.",
     "bhakti": "Śrīdhara's practical gloss is the most immediately useful: when someone close to you is acting destructively and the realpolitik voice says 'act first before they harm you more,' Arjuna's answer is to name the actual stake. Ask: what is the largest conceivable gain that would make this harm worth it? Then check whether the gain being offered — the mahī, the mere earth of this situation — clears that bar. Usually it does not. The a fortiori argument is a daily ethical tool.",
     "advaita-bhakti": "Madhusūdana's hierarchical reading — dharma-śāstra outranks artha-śāstra when they conflict — translates directly: when an efficiency argument ('it's rational to do X') collides with a values argument ('X causes harm'), do not resolve the conflict by pretending both sides are equal. Identify which framework sits higher in your own hierarchy of commitments, and name it explicitly. Madhusūdana's Arjuna does this publicly, in front of Kṛṣṇa. The practice is to do the same — articulate the hierarchy before acting, not after."
-  }
+  },
+  "primary_meaning": "I would not kill these men even if they come to kill me, Madhusūdana. Not for sovereignty over all three worlds, let alone this earth."
 }

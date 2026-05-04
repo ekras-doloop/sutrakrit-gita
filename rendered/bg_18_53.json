@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "śāntaḥ",
-      "lemma": "śam",
+      "lemma": "√śam",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "kalpate",
-      "lemma": "kṛp",
+      "lemma": "√kṛp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -524,7 +524,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śāntaḥ: śam -> √śam",
+          "kalpate: kṛp -> √kṛp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ahankara (ego-sense) in this verse includes spiritual pride — pride in one's renunciation, lineage, or attainment — does the most advanced practitioner face the subtlest form of the obstacle?",
@@ -542,5 +553,6 @@
     "śuddhādvaita": "When you find yourself stuck in a cycle of self-improvement effort that goes nowhere, Vallabha's framing offers a reframe: brahma-bhuya is not won by accumulation of practice but by Krsna's own bliss-portion manifesting when obstacles thin. The practical upshot is to release the pressure of spiritual achievement and treat each moment of joy or clarity as prasada (grace given), not earned output.",
     "bhakti": "Test your renunciation not when you have nothing, but when something desirable arrives through no effort of your own — an unexpected compliment, a windfall, recognition. Sridhara's prarabdha-vasa insight says that prarabdha will deliver objects to you regardless; kama and krodha are the response patterns, and those alone are what the verse asks you to release.",
     "advaita-bhakti": "Madhusudan's list of pride-forms is a diagnostic: run it on yourself periodically. Am I proud of my teacher, my lineage, my level of detachment, my consistency? Each of these is ahankara in refined dress. The practice is not to eliminate excellence but to stop storing it as a self-concept — do the work, release the credential, repeat."
-  }
+  },
+  "primary_meaning": "Let go of ego, stubborn willfulness, arrogance, desire, anger, and the grip of possessiveness. Free of \"mine,\" at peace, you become fit for Brahman."
 }

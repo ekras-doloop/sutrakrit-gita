@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "ukta",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -171,7 +171,7 @@
     },
     {
       "surface_form": "saṃjāta",
-      "lemma": "saṃjan",
+      "lemma": "saṃ-√jan",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -203,7 +203,7 @@
     },
     {
       "surface_form": "dṛṣṭa",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -219,7 +219,7 @@
     },
     {
       "surface_form": "iṣṭa",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -243,7 +243,7 @@
     },
     {
       "surface_form": "vivarjita",
-      "lemma": "vivarjay",
+      "lemma": "vi-√varjay",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -663,13 +663,6 @@
         "6.24",
         "11.15"
       ]
-    },
-    {
-      "list": "सर्वारम्भा हि दोषेण धूमेनाग्निरिवावृताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.48"
-      ]
     }
   ],
   "audit_trail": {
@@ -699,7 +692,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ukta: vac -> √vac",
+          "saṃjāta: saṃjan -> saṃ-√jan",
+          "dṛṣṭa: dṛś -> √dṛś",
+          "iṣṭa: iṣ -> √iṣ",
+          "vivarjita: vivarjay -> vi-√varjay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even dharma (meritorious action) is called kilbiṣa for the mumukṣu, does the Gītā's ethics collapse into pure antinomianism — or is there a principled distinction between acting-for-liberation and acting-from-liberation?",
@@ -717,5 +724,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga practice: while cooking, cleaning, or working, hold the sense that these hands are Kṛṣṇa's own instruments moving in His own household. Do not manufacture detachment from the activity. The activity itself is His prasāda — what you release is only the proprietary claim, not the joy of the doing.",
     "bhakti": "The yoga-ārūḍha application Śrīdhara points to: when you are fully established in practice, you are not accumulating new karmic debt even through actions that would ordinarily carry obligatory-rite implications. The practical instruction is to fulfill bodily necessities honestly and simply, without either anxiety about omitted duties or ambition for future states.",
     "advaita-bhakti": "Madhusūdana's kaimutya principle applied: if the big-ticket actions (ambitious projects, public roles, visible production) can be rendered agent-less by the knower, then certainly the small-ticket actions of daily life — conversation, hygiene, rest — carry no binding weight at all. Begin with the small. Let the verbal and mental actions of an ordinary hour be conducted without any self-promotional inner narration; the jyotiṣṭoma can wait."
-  }
+  },
+  "primary_meaning": "Free from desire, with mind and body held in check, having released all possessiveness, doing only what the body requires, you incur no stain."
 }

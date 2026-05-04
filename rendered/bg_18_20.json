@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "īkṣate",
-      "lemma": "īkṣ",
+      "lemma": "√īkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "vibhakteṣu",
-      "lemma": "vibhaj",
+      "lemma": "vi-√bhaj",
       "grammar": "locative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -566,7 +566,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "īkṣate: īkṣ -> √īkṣ",
+          "vibhakteṣu: vibhaj -> vi-√bhaj",
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you look at a colleague, a stranger, or an adversary, what exactly do you see — their role and differentiating qualities, or the one imperishable ground underneath? What would change in how you act if you genuinely saw the latter?",
@@ -584,5 +596,6 @@
     "shuddhAdvaita": "Vallabha's emphasis on the jiva as atomic yet imperishable suggests a practice: when you feel small, diminished, or erased by circumstances, recognize that the subtle self (sukshma) is not touched. Smallness is not damage. The Bhagavatam's 'sarva-ashrayah' — support of all — is present in the tiny as in the vast.",
     "bhakti": "Sridhara's image of 'anusyuta' (threaded through) is a contemplative anchor. When navigating a crowd, a family gathering, or a city, silently name the thread rather than the beads — the paramatma-tattva running through every differentiated form. This shifts perception from inventory to recognition.",
     "advaita-bhakti": "Madhusudana says this vision is the cause of the complete destruction of all samsara (sarva-samsara-uchchhitti-karanam). That is a large claim for daily life: it means that every moment you re-contact non-dual vision, even briefly through Vedantic inquiry, you are not merely calmer — you are loosening the root of compulsive cycling. Treat five minutes of serious Vedanta-vakya-vichara as structural maintenance, not optional enrichment."
-  }
+  },
+  "primary_meaning": "That knowledge is sattvic which sees one imperishable reality, undivided, threaded through all beings however differentiated they appear."
 }

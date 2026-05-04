@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -148,7 +148,7 @@
     },
     {
       "surface_form": "niyata",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -346,20 +346,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अधिदैवं किमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.1"
-      ]
-    },
-    {
-      "list": "अधिभूतं च किं प्रोक्तम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.1"
-      ]
-    },
-    {
       "list": "अधियज्ञः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -367,30 +353,7 @@
       ]
     },
     {
-      "list": "अधियज्ञः कथं कोऽत्र देहेऽस्मिन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.1"
-      ]
-    },
-    {
-      "list": "किं कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.1",
-        "4.16",
-        "8.1"
-      ]
-    },
-    {
       "list": "किमध्यात्मम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.1"
-      ]
-    },
-    {
-      "list": "पुरुषोत्तम किं तद्ब्रह्म",
       "role": "supporting",
       "other_verses_in_list": [
         "8.1"
@@ -404,13 +367,6 @@
         "2.1",
         "2.4",
         "6.33"
-      ]
-    },
-    {
-      "list": "मधुसूदन प्रयाणकाले च कथं ज्ञेयोऽसि नियतात्मभिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.1"
       ]
     },
     {
@@ -451,7 +407,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asi: as -> √as",
+          "niyata: niyam -> ni-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If adhiyajña is already present in every act of embodied life as its presiding lord (per Śrīdhara: adhiṣṭhātā, prayojaka, phala-dātā), what changes in my relationship to my daily work when I recognize that presence rather than treating myself as the sole agent?",
@@ -469,5 +436,6 @@
     "śuddhādvaita": "When a project concludes — a meeting ends, a creative piece is finished, a relationship conversation closes — resist the impulse to immediately evaluate your performance as agent. Instead, hold the outcome for a moment as Kṛṣṇa's prasāda: the yajña in the body is His līlā, and the fruit is His gift. This one-second reframe, practiced consistently, is Vallabha's niyatātman discipline made habitual.",
     "bhakti": "Apply Śrīdhara's three-role analysis (adhiṣṭhātā / prayojaka / phala-dātā) to a recurring responsibility in your life — your role at work, in a family, in a community. Ask: who or what is the actual presiding intelligence behind this activity (not you), what sets it in motion, and who ultimately distributes its fruits? This triple inquiry, done honestly about one domain, restructures your sense of ownership across all domains.",
     "advaita-bhakti": "When you feel overwhelmed — senses scattered, mind unable to collect itself — invoke the Madhusūdana epithet as Arjuna does: not as ritual but as recognition that there is a function in reality that removes the obstacles you cannot remove yourself. This is not passive resignation; it is Madhusūdana Sarasvatī's point that samāhita-citta at impossible moments (prāyaṇa-kāla or its daily equivalent) requires surrendering the assumption that you must generate the collectedness alone."
-  }
+  },
+  "primary_meaning": "Arjuna asks: who is the lord of sacrifice, and how does he dwell in this body, and how do those of steady mind come to know you at the hour of death, O Madhusudana?"
 }

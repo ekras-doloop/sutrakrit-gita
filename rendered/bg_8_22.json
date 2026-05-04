@@ -307,7 +307,7 @@
     },
     {
       "surface_form": "tatam",
-      "lemma": "tan",
+      "lemma": "√tan",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -451,8 +451,8 @@
         "jayatirtha_8.22"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on 8.22 is extremely terse — 'paramasādhanam āha — puruṣa iti' — he names this the instruction on the supreme means (paramasādhana) and stops there. Within Dvaita metaphysics the verse declares Hari alone as the uttara puruṣa (highest Person), eternally and ontologically distinct from all jīvas; the jīva's ananyā bhakti is possible only through Hari's own grace since the jīva is dependent (paratantra) by nature. Bhakti here is exclusively worship of a wholly-other Lord, never a dissolution into identity.",
-      "divergence_note": "Madhva: 'paramasādhanam āha — puruṣa iti' — the entire doctrinal weight is implied rather than expanded; the bhāṣya is sparse; interpretation is filled from Madhva's broader Tattvavāda framework."
+      "english_rendering": "*Paramasādhanam āha — puruṣa iti*: Madhva names 8.22 the instruction on the supreme means and closes. Jayatīrtha unpacks why: *bhaktyā yuktaḥ* (8.10) had already named *bhakti* as the means to *bhagavat-prāpti* (*bhagavat-prāptisādhanatvasyoktatvāt*), so the verse appears redundant (*punarukta*). The answer is that *bhakti* had been named alongside other means (*anyaiḥ sādhanaiḥ sahoktavāt*), leaving open the suspicion of parity (*tatsāmyaśaṅkā*) among them. This verse dispels that suspicion: *sādhanāṃ bhakteḥ paramatvamanenaāha* — by restating *bhakti* alone here, its supremacy (*paramatva*) over all other means is disclosed, and *punarvacanenaiva dyotyam* — the very repetition is the signal. The *puruṣaḥ sa paraḥ* is *Hari*, the *svatantra* (independently real, self-sufficient) Lord whose *antaḥsthāni bhūtāni* — all beings dwelling within Him — remain wholly *paratantra* (eternally dependent). The *ananyā* of *ananyayā bhakti* registers a complete *bheda* (real distinction) between worshipper and worshipped: no dissolution, only the *paratantra jīva*'s irreversible arrival at the *svatantra* Hari.",
+      "divergence_note": "Re-anchored to Jayatīrtha's *Nyāyasudhā* move: the apparent redundancy (*punarukti*) is the doctrinal crux, and *punarvacanenaiva dyotyam* is his explicit resolution. The contaminated cell buried this under paraphrase and conflated it with generic Tattvavāda siddhānta; the bhāṣya's own argument-structure — *tatsāmyaśaṅkā* dissolved by *paramatva* through repetition — is now foregrounded."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -667,7 +667,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tatam: tan -> √tan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ananyā (undivided) bhakti is the sole means, does any practice — karma, jñāna, aṣṭāṅga-yoga — have instrumental value, or does it only matter to the degree it reduces 'anyā' (other-directedness)?",
@@ -685,5 +695,6 @@
     "śuddhādvaita": "Vallabha's nirhetuka (causeless) bhakti means the starting point is not your effort but Kṛṣṇa's grace already extended. The everyday implication: do not wait to feel worthy or prepared before approaching Bhagavān. Show up in whatever state — distracted, impure, uncertain — because Puṣṭi-mārga teaches that the relationship is initiated by the Lord's own ānanda, not earned by the devotee's qualification. The daily act is simply showing up.",
     "bhakti": "Śrīdhara's gloss — 'no other as refuge' — is a diagnostic: notice throughout the day how many implicit refuges you hold (reputation, savings, relationships, health). Ananyā bhakti does not require abandoning these but requires that none of them is treated as ultimate shelter. The practice is honesty: when afraid, trace exactly what refuge you actually reached for first, and gradually relocate that trust toward the source that pervades all the secondary shelters.",
     "advaita-bhakti": "Madhusūdana's prema-lakṣaṇā bhakti operates through delight rather than duty. The application is aesthetic: cultivate moments of genuine beauty-recognition — in nature, music, a person's kindness — and consciously experience them as encountering the Paramātman who 'stands pervading inside and outside' (antarbahiś ca tat sarvaṃ). This is not sentimentality; it is a rigorous redirection of the faculty of appreciation toward the one source from which all loveliness derives."
-  }
+  },
+  "primary_meaning": "That supreme Person, O Pārtha, within whom all beings rest and by whom all this is pervaded, is won by undivided devotion and nothing else."
 }

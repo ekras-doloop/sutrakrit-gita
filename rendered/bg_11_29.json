@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "pradīptam",
-      "lemma": "pradīp",
+      "lemma": "pra-√dīp",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "viśanti",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "samṛddha",
-      "lemma": "samṛdh",
+      "lemma": "sam-√ṛdh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "viśanti",
-      "lemma": "viś",
+      "lemma": "√viś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -295,7 +295,7 @@
     },
     {
       "surface_form": "samṛddha",
-      "lemma": "samṛdh",
+      "lemma": "sam-√ṛdh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -445,7 +445,9 @@
         "jayatirtha_11.29"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva left no direct commentary on this śloka. From the Dvaita framework: the verse exhibits Bhagavān Hari's svarūpa as the ultimate niyantā (controller) — the jīvas' rush into the cosmic mouth is not random but reflects their karma-phala ordained by Hari's unobstructed sovereignty (svatantra). The moth does not choose its death; the jīva does not choose its dissolution — both are precisely governed by the Lord whose will is absolute. The contrast with Advaita is sharp: dissolution here does not mean ontological return to a monistic substratum but rather the Lord's exercise of his eternal, independent power over eternally-distinct (nitya-bhinna) jīvas."
+      "english_rendering": "*Pataṅgāḥ* (moths), *samṛddha-vegāḥ* (with swollen momentum), plunge into *pradīptaṃ jvalanam* (the blazing fire) for their own *nāśa* (destruction). So too do the *lokāḥ* (worlds, the living multitudes), with that same swollen momentum, rush into Bhagavān's *vaktrāṇi* (mouths) for destruction — *tathaiva nāśāya viśanti tava vaktrāṇi samṛddha-vegāḥ*. The moth does not deliberate its end; the *jīva* does not elect dissolution. Both move under the absolute, unobstructed will of *svatantra* Hari, whose *niyantṛtva* (lordship of control) admits no gap. The *pañca-bheda* (the five-fold real distinction between Lord, *jīva*, and matter) stands intact even in this annihilating rush: the *jīvas* enter the cosmic mouth as *paratantra* (eternally dependent) reals, not as waves collapsing back into a featureless ocean. Their *karma-phala* is itself Hari's ordination — *taratamya* (graded hierarchy) governs who perishes when and how swiftly. The image of the flame is the mūla's own vehicle for *svatantra*-sovereignty made visible: irresistible, self-luminous, drawing all dependent existents to the end He has decreed.",
+      "divergence_note": "Bucket changed from B to C: both Madhva and Jayatīrtha are silent on this śloka; the reading is voiced directly from Dvaita *siddhānta* applied to the mūla, not from a recovered bhāṣya.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -513,7 +515,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pradīptam: pradīp -> pra-√dīp",
+          "viśanti: viś -> √viś",
+          "samṛddha: samṛdh -> sam-√ṛdh",
+          "viśanti: viś -> √viś",
+          "samṛddha: samṛdh -> sam-√ṛdh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śrīdhara draws a sharp distinction between involuntary momentum (river into ocean) and deliberate momentum (moth into flame) — what does it mean when our own rationalizing intelligence accelerates us toward self-destructive outcomes rather than checking them?",
@@ -531,5 +547,6 @@
     "śuddhādvaita": "Vallabha's frame asks: what is the quality of your abhimukhatā — your face-ward orientation? Are you rushing toward Kṛṣṇa's mukha (presence, beauty, joy) or toward the flame of approval, status, or outcome? The nara-loka-vīrāḥ were heroes — excellence and courage do not insulate against wrong orientation. Redirect the vega, not suppress it.",
     "bhakti": "Śrīdhara's buddhipūrvaka-praveśa is the hardest case: not the person swept away by circumstance but the person who thinks clearly, sees the danger, and rushes in anyway because the momentum of their ambition or ideology has become self-justifying. Honest examination — am I the river or the moth right now? — is the daily bhakti practice this verse demands.",
     "advaita-bhakti": "Madhusūdana's anāyatyā — without surrender — names the one thing that changes the outcome. In any domain where you sense samṛddha-vega building (a project, a conflict, a creative obsession), the question is not whether to engage but whether you are engaging with or without anāyatya (submission to something larger than your own momentum). Surrender is not passivity; it is the one velocity-correction available."
-  }
+  },
+  "primary_meaning": "As moths rush headlong into a blazing fire and are destroyed, so all these people rush into your mouths with the same fierce momentum, to the same end."
 }

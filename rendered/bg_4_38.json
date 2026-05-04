@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "saṃsiddhaḥ",
-      "lemma": "saṃsidh",
+      "lemma": "saṃ-√sidh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -224,7 +224,7 @@
     },
     {
       "surface_form": "vindati",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -521,53 +521,6 @@
       ]
     },
     {
-      "list": "तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.6"
-      ]
-    },
-    {
-      "list": "न हि ज्ञानेन सदृशं पवित्रमिह विद्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.2"
-      ]
-    },
-    {
-      "list": "निर्द्वन्द्वो हि महाबाहो सुखं बन्धात्प्रमुच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.27"
-      ]
-    },
-    {
-      "list": "पवित्राणां पवित्रम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.16"
-      ]
-    },
-    {
-      "list": "मैं सेवक हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.21",
-        "4.23",
-        "5.2"
-      ]
-    },
-    {
-      "list": "मैं हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.13",
-        "3.3",
-        "4.3",
-        "6.25"
-      ]
-    },
-    {
       "list": "योगारूढः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -674,7 +627,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vidyate: vid -> √vid",
+          "saṃsiddhaḥ: saṃsidh -> saṃ-√sidh",
+          "vindati: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If jñāna is the supreme purifier, does this verse imply that moral self-improvement, ritual purity, or even bhakti-practice are ultimately insufficient without the cognitive breakthrough of self-knowledge?",
@@ -692,5 +657,6 @@
     "śuddhādvaita": "Vallabha's reading removes striving as the primary mechanism: brahma-jñāna arrives through Kṛṣṇa's anugraha, not through the practitioner's accumulation of merit. The everyday application is a particular quality of availability — maintaining what Puṣṭi-mārga calls sevā-bhāva (disposition of service) as an open receptive field rather than a transaction. This means releasing the scorecard of spiritual accomplishment and cultivating genuine delight in Kṛṣṇa's presence through kīrtana (singing), rūpa-dhyāna (form-contemplation), and prasāda (receiving whatever is offered). The purification happens through surrender of the calculative stance itself.",
     "bhakti": "Śrīdhara's practical insight is that yogyatā (fitness for jñāna) is a real threshold — not everyone is currently positioned to receive ātma-jñāna, and pretending otherwise wastes the actual preparatory years. The honest everyday application is an accurate self-placement question: 'What does my actual behavior reveal about my readiness?' Rather than pursuing jñāna prematurely, the practitioner who recognizes insufficient yogyatā doubles down on karma-yoga — regularity, honesty in relationships, non-grasping action — trusting that when fitness is real, the knowledge arrives anāyāsena (without strain), unrequested.",
     "advaita-bhakti": "Madhusūdana's philosophical refinement has a sharp practical implication: because no one can receive another person's niṣṭhā (established orientation) as their own, spiritual borrowing — adopting a teacher's vocabulary, posture, or reported experience without the underlying transformation — is not purification but its simulation. The application is honest interiority: regularly checking whether your spiritual framework is genuinely operative in how you respond to loss, insult, and desire, or whether it is conceptual overlay. Where the gap is real, Madhusūdana's reading prescribes returning to karma-yoga as the actual anvil — not repackaging the concept."
-  }
+  },
+  "primary_meaning": "Nothing in this world purifies like knowledge of the Self, and one who is ripened through yoga finds it arising in time, within oneself."
 }

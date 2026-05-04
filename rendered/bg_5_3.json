@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "dveṣṭi",
-      "lemma": "dviṣ",
+      "lemma": "√dviṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "kāṅkṣati",
-      "lemma": "kāṅkṣ",
+      "lemma": "√kāṅkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -263,7 +263,7 @@
     },
     {
       "surface_form": "pramucyate",
-      "lemma": "pramuc",
+      "lemma": "pra-√muc",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -516,13 +516,6 @@
       ]
     },
     {
-      "list": "न तु संन्यासिनां क्वचित्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.12"
-      ]
-    },
-    {
       "list": "न द्वेष्टि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -640,7 +633,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dveṣṭi: dviṣ -> √dviṣ",
+          "kāṅkṣati: kāṅkṣ -> √kāṅkṣ",
+          "pramucyate: pramuc -> pra-√muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If nirdvandva (freedom from the pairs of opposites) is the operative criterion for being a nitya-sannyāsī, does the formal life-order of sannyāsa add anything beyond the inner posture — or is it redundant for the person who has already dropped rāga-dveṣa?",
@@ -658,5 +663,6 @@
     "śuddhādvaita": "Vallabha's application is immediate and aesthetic: perform each action as if it were already an offering placed before Kṛṣṇa — not a future offering contingent on success, but the act itself as prasāda (gift of grace) in the moment of its performance. Gain and loss, praise and blame, become irrelevant not because you are suppressing preference but because the action has already found its recipient. This can be practiced with any repeatable daily action.",
     "bhakti": "Śrīdhara's application is purification as infrastructure: identify one recurring action in daily life that is contaminated by rāga (craving) or dveṣa (aversion) — a conversation you dread, a task you perform only for praise. Reroute that action consciously toward Parameśvara rather than toward the feared or craved outcome. Over time, the śuddha-citta (purified mind) that Śrīdhara describes is not a spiritual achievement but the accumulated residue of these small reroutes.",
     "advaita-bhakti": "Madhusūdana's application is two-stage: first, offer the action to Bhagavān before performing it (this is bhagavad-arpaṇa-buddhi at the moment of intention). Second, after the action, practice nityānityavastu-viveka (discrimination between what is permanent and what is transient) regarding the result. The first stage purifies the antaḥkaraṇa; the second stage lets jñāna function through the now-cleaner instrument. Neither stage requires dramatic renunciation — both are executable inside an ordinary day."
-  }
+  },
+  "primary_meaning": "The person who neither hates nor craves, free from opposing pulls, is a perpetual renunciant in all but name, and is easily released from bondage."
 }

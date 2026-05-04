@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "āvriyate",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "āvṛtaḥ",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "āvṛtam",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -374,14 +374,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कर्मयोगस्तु कामिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.17",
-        "3.28"
-      ]
-    },
-    {
       "list": "मनुष्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -422,7 +414,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āvriyate: āvṛ -> √āvṛ",
+          "āvṛtaḥ: āvṛ -> √āvṛ",
+          "āvṛtam: āvṛ -> √āvṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāma (desire) is connatural to fire — saha-ja, born with it — does this mean desire is inseparable from embodied life, and what does that imply for whether total desirelessness is possible while alive?",
@@ -440,5 +444,6 @@
     "śuddhādvaita": "Vallabha's āgantuka / saha-ja distinction is directly actionable: for desires that feel recent and identifiable — āgantuka, adventitious — ordinary resolve and redirected attention work. For desires that feel constitutive of who you are — saha-ja, born with you — Vallabha's counsel is to stop fighting and instead offer them directly to Kṛṣṇa, letting prasāda (grace) do the transformation from the inside. The practical test: if effort makes a desire stronger, it is saha-ja; if effort loosens it, it is āgantuka.",
     "bhakti": "Śrīdhara's prakāra-traya (three-mode) reading suggests that a single sādhanā strategy rarely addresses all layers simultaneously. In daily practice: use japa (repetition) for the surface mala-type covering — adventitious craving for objects. Use satsaṅga (community of practitioners) for the smoke-type covering — the ambient desire-fog that comes with living in the world. For the ulba-type covering — deep structural patterns of want baked in since childhood — only sustained, patient practice over years can gradually loosen the wrapping.",
     "advaita-bhakti": "Madhusūdana's diagnostic is clinically useful for catching kāma early: notice the moment a desire first arises as a mild preference (sūkṣma, subtle — smoke-stage). If you engage it repeatedly in thought without acting, it densifies (sthūla, gross — mirror-stage) and self-knowledge starts to cloud. If you then habitually act on it, it reaches atyanta-udreka (extreme intensification — ulba-stage) and you are effectively in the dark. The intervention point is the smoke-stage — the moment of first noticing — because that is when the fire still burns clearly and redirection costs least."
-  }
+  },
+  "primary_meaning": "Just as smoke covers fire, dust covers a mirror, and the womb encases the embryo, so desire covers this."
 }

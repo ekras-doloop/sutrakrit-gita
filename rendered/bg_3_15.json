@@ -102,7 +102,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -201,7 +201,7 @@
     },
     {
       "surface_form": "gatam",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -318,7 +318,7 @@
     },
     {
       "surface_form": "pratiṣṭhitam",
-      "lemma": "pratiṣṭhā",
+      "lemma": "prati-√ṣṭhā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -533,21 +533,7 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अन्नाद्भवन्ति भूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
-      ]
-    },
-    {
       "list": "कर्म ब्रह्मोद्भवं विद्धि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
-      ]
-    },
-    {
-      "list": "का अर्थ",
       "role": "supporting",
       "other_verses_in_list": [
         "3.14"
@@ -568,13 +554,6 @@
         "8.27",
         "11.33",
         "11.44"
-      ]
-    },
-    {
-      "list": "तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
       ]
     },
     {
@@ -678,29 +657,6 @@
       ]
     },
     {
-      "list": "यज्ञः कर्मसमुद्भवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
-      ]
-    },
-    {
-      "list": "यज्ञाद्भवति पर्जन्यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
-      ]
-    },
-    {
-      "list": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14",
-        "3.21",
-        "6.9"
-      ]
-    },
-    {
       "list": "विद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -734,13 +690,6 @@
       "other_verses_in_list": [
         "3.14"
       ]
-    },
-    {
-      "list": "स्वकर्मणा तमभ्यच्र्य सिद्धिं विन्दति मानवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14"
-      ]
     }
   ],
   "audit_trail": {
@@ -770,7 +719,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "gatam: gam -> √gam",
+          "pratiṣṭhitam: pratiṣṭhā -> prati-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma (action) is born of the Veda and the Veda from the akṣara (imperishable), does an action performed outside Vedic injunction carry any moral weight at all — or does it simply dissolve without effect?",
@@ -788,5 +749,6 @@
     "śuddhādvaita": "Every act of worship — even the smallest domestic ritual — participates in the cosmic yajña that is Viṣṇu's own body. For the Puṣṭi-mārga devotee, lighting a lamp, preparing prasāda, or singing a pada is not symbolic action pointing to something else; it is a literal fragment of the sacrifice that constitutes Kṛṣṇa's form. The everyday application: treat domestic seva (service) as cosmologically serious. The Praṇava (Oṃ) is embedded in every utterance of Kṛṣṇa's name — chant it as if you are touching the akṣara-root of all karma.",
     "bhakti": "Śrīdhara's dual reading offers a practical principle: use yajña (selfless action, pūjā, service) as the upāya (means) toward para-brahman, just as consistent effort is the ground on which Lakṣmī abides. Do not perform ritual for its own sake alone, nor skip it in favor of 'direct' devotion — the Veda's tātparya (ultimate purpose) is established in yajña, meaning the text and the act together constitute the path. In contemporary terms: maintain a regular practice (japa, pūjā, seva) as the discipline through which the goal becomes accessible, not as a substitute for it.",
     "advaita-bhakti": "Madhusūdana's anti-pāṣaṇḍa emphasis translates into a practical discernment discipline: regularly audit the sources that authorize your behavior — teachers, communities, texts, platforms. If a practice cannot be traced to a lineage that emerges from the apauruṣeya (trans-personal) rather than from individual charisma or market demand, treat it with epistemic caution. This is not orthodoxy for its own sake; it is the Advaitin-bhakta's way of protecting the mind from being colonized by 'karma' that is merely desire dressed as dharma."
-  }
+  },
+  "primary_meaning": "Know that action arises from the Veda, and the Veda from the imperishable; therefore the all-pervading brahma is forever grounded in sacrifice."
 }

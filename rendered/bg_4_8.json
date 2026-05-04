@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "saṃbhavāmi",
-      "lemma": "sambhū",
+      "lemma": "sam-√bhū",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -516,7 +516,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃbhavāmi: sambhū -> sam-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If avatāra is māyā-mediated (Advaita) rather than a real birth, what moral weight does its protective-destructive function carry — can an unreal agent truly protect or destroy?",
@@ -534,5 +544,6 @@
     "śuddhādvaita": "In a community or family role, trust that corrective action — even firm, uncomfortable correction — is not a betrayal of love if it flows from the niyantṛ (governing) function. The mother who disciplines is not cruel. Vallabha's frame: the sign of authentic care is that both the lālana (nurturing) and the tāḍana (correction) come from the same undivided intention.",
     "bhakti": "Recognize that your interventions — in an organization, a neighborhood, a family system — become dharma-saṃsthāpana only when protection of the good and removal of the harmful are coordinated, not pursued separately. Śrīdhara's reading: neither sādhu-rakṣaṇa alone nor duṣṭa-vadha alone establishes dharma — both must be present, occasion-responsive, and proportionate.",
     "advaita-bhakti": "When entering a situation of visible decay — an institution losing its dharma, a community fraying — adopt Madhusūdana's therapeutic completeness: diagnose what is threatened (sādhus), identify what is actively corrosive (duṣkṛtas), and focus your energy on restoring the underlying structure (veda-mārga, the generative principle). Partial interventions that protect without removing the corrosive element, or remove without restoring the structure, are incomplete descents."
-  }
+  },
+  "primary_meaning": "I come into being age after age to protect the righteous, destroy evildoers, and set *dharma* firmly back on its feet."
 }

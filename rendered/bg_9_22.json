@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "cintayantaḥ",
-      "lemma": "cintay",
+      "lemma": "√cintay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "paryupāsate",
-      "lemma": "paryupās",
+      "lemma": "√paryupās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "abhiyuktānām",
-      "lemma": "abhiyuj",
+      "lemma": "abhi-√yuj",
       "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -150,7 +150,7 @@
     },
     {
       "surface_form": "vahāmi",
-      "lemma": "vah",
+      "lemma": "√vah",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -497,7 +497,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "cintayantaḥ: cintay -> √cintay",
+          "paryupāsate: paryupās -> √paryupās",
+          "abhiyuktānām: abhiyuj -> abhi-√yuj",
+          "vahāmi: vah -> √vah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When the Lord says 'I bear their yogakṣema,' what does this imply about the relationship between human effort and divine provision — is effort rendered unnecessary, or is it transformed into something else?",
@@ -515,5 +528,6 @@
     "śuddhādvaita": "Vallabha's puṣṭi-mārga practitioner keeps a simple test: am I doing this to earn Kṛṣṇa's favor, or because Kṛṣṇa's favor has already moved me to do it? The first orientation puts you back in maryādā-mārga (effort-path); the second is the puṣṭi experience. In household life this means receiving good fortune — a raise, a healing, an unexpected kindness — as Kṛṣṇa's līlā-prasāda already flowing, not as evidence that your sādhana worked.",
     "bhakti": "Śrīdhara's tair aprārthitam api ('even without their asking') suggests a practice of releasing petitionary prayer: rather than listing what you want Bhagavān to provide, simply remain in the posture of the ananyāḥ — 'there is no other object of longing for me.' Sit with that posture for ten minutes each morning. What arrives unasked in the following days is the verse's promise made experiential.",
     "advaita-bhakti": "Madhusūdana's synthesis is most useful for those who oscillate between intellectual practice and devotional hunger: you do not have to choose. The jñāna-niṣṭhā (steadiness in non-dual knowledge) and the Kṛṣṇa-bhakti are not competing orientations — the former removes the agent who would 'do' the latter, and what remains is spontaneous remembrance of Vāsudeva, which is exactly what nityābhiyukta means in practice."
-  }
+  },
+  "primary_meaning": "Those who think of Me alone and worship Me without turning elsewhere, I carry what they need and preserve what they have."
 }

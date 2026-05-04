@@ -27,7 +27,7 @@
     },
     {
       "surface_form": "saṃjāyate",
-      "lemma": "saṃjan",
+      "lemma": "saṃ-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "bhavataḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person dual verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -473,7 +473,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃjāyate: saṃjan -> saṃ-√jan",
+          "bhavataḥ: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sattva is the guna that produces jnana, what does it mean for a practitioner to 'cultivate sattva' in daily life — is it a matter of food, association, attention, or something more fundamental?",
@@ -491,5 +502,6 @@
     "śuddhādvaita": "Vallabha's reading releases the anxiety of guna-management: the gunas are Krsna's own shakti, and surrender to his prasada is the real mechanism of liberation, not guna-optimization by effort. Practically: when you find yourself locked in a cycle of craving (lobha) that effort only intensifies, try the Pushti-marga's response — offer the craving itself to Krsna and rest in what remains.",
     "bhakti": "Sridhara's 'yuktam eva' is a teaching on self-honesty: the quality of your present experience is an honest readout of the guna-register you have been feeding. Before blaming circumstances for confusion or suffering, ask which guna you have been cultivating through the choices of the last week — food, conversation, media, sleep — and let the fruit be a diagnostic.",
     "advaita-bhakti": "Madhusudana's analysis of lobha as structurally insatiable is a practical tool: the next time a craving is satisfied and immediately reconstitutes itself at a higher threshold, recognize that this is not a problem of insufficient acquisition but of the guna-architecture of rajas itself. The recognition, held clearly, is the beginning of the movement toward sattva — and ultimately toward the jnana that stands beyond all three gunas."
-  }
+  },
+  "primary_meaning": "Sattva brings knowledge, rajas brings greed, and tamas brings carelessness, delusion, and ignorance."
 }

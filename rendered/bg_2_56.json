@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "vigata",
-      "lemma": "vigam",
+      "lemma": "vi-√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -91,7 +91,7 @@
     },
     {
       "surface_form": "vīta",
-      "lemma": "vī",
+      "lemma": "√vī",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "sthita",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -164,7 +164,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -413,13 +413,6 @@
       ]
     },
     {
-      "list": "किं प्रभाषेत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.54"
-      ]
-    },
-    {
       "list": "क्रोध",
       "role": "supporting",
       "other_verses_in_list": [
@@ -483,7 +476,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vigata: vigam -> vi-√gam",
+          "vīta: vī -> √vī",
+          "sthita: sthā -> √sthā",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara claims that distress at sorrow is not the sorrow itself but a secondary bhramarūpa reaction rooted in avidyā — if that is so, does eliminating the secondary reaction require first eliminating avidyā entirely, or can partial viveka begin dismantling it incrementally?",
@@ -501,5 +507,6 @@
     "śuddhādvaita": "Vallabha's teaching that anudvigna-manas and vigata-spṛhā are svābhāvika (natural gifts of Kṛṣṇa's grace) rather than achievable by striving reframes the practitioner's relationship to inner turbulence: when rāga or krodha arises, the Puṣṭi-mārga response is not shame or redoubled effort but honest confession to Kṛṣṇa that the prasāda-flower has not yet fully bloomed here. The sādhana is therefore primarily one of surrender and transparency — offering both the turbulence and the longing for peace to Śrī Kṛṣṇa, trusting that the stillness described in this verse will descend as an act of divine grace rather than being constructed from below. Daily life becomes a series of small offerings: 'This irritation is yours, this craving is yours, this grief is yours' — until the practitioner begins to sense that even the offering itself is Kṛṣṇa's līlā moving through them.",
     "bhakti": "Śrīdhara's gloss emphasises that rāga is prīti — affective attachment — the most intimate and therefore most difficult of the three passions to recognise as a problem. His everyday application is a discipline of honest self-watching: notice not the dramatic eruptions of fear or anger but the quieter, warmer web of prīti — the special pleasure taken in a particular colleague's praise, the disproportionate weight given to one relationship's approval — and ask whether these preferences are clouding the mind's capacity to meet whatever arrives with equanimity. The bhakti-philological approach does not counsel emotional flatness but a loving vigilance toward one's own attachments, offered back to Bhagavān as part of the devotional practice, so that the inner landscape gradually clears not through suppression but through honest seeing and repeated surrender.",
     "advaita-bhakti": "Madhusūdana's careful parsing — raw duḥkha from prārabdha persists, but the secondary tāmasa reaction does not — teaches the practitioner to stop evaluating spiritual progress by whether life is smooth, and instead to watch the gap between event and reaction. In daily life this means: when a painful event lands, note the bare sensation (prārabdha's delivery), then observe whether the second-order collapse follows — the self-accusation, the catastrophising, the vain wish that the past were different. Narrowing that gap is the concrete experiential work of what Madhusūdana calls the dissolution of viparīta. Because he frames this dissolution as simultaneously a Kṛṣṇa-bhakti realisation, the practitioner can hold both the Advaitic inquiry ('who is reacting?') and the bhakti orientation ('Lord, I offer this reaction to you') not as competing disciplines but as two voices in the same inner movement toward the unobstructed clarity he calls the sthita-prajña state."
-  }
+  },
+  "primary_meaning": "Whose mind stays untroubled in sorrow, free of craving in joy, and clear of attachment, fear, and anger, that steady-minded sage is called *sthita-dhī*."
 }

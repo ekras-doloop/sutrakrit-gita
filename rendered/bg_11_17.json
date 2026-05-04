@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "paśyāmi",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "dīpta",
-      "lemma": "dīp",
+      "lemma": "√dīp",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -396,7 +396,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paśyāmi: dṛś -> √dṛś",
+          "dīpta: dīp -> √dīp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna possesses the divine eye (divya-cakṣu) and still calls the form durnirīkṣya — what does it mean to see something that defeats your capacity to look at it, and what kind of knowing is operating in that moment?",
@@ -414,5 +425,6 @@
     "śuddhādvaita": "Vallabha's reading of multiplied ornaments as multiplied arenas of sovereign grace invites you to meet overwhelming abundance — a feast, a landscape, a person of many gifts — without flattening it to a single category. Each dimension is its own complete station (pārameṣṭhya-pada). When something or someone offers you more than you expected, receive each offering as a separate fullness, not as variations on a single theme.",
     "bhakti": "Śrīdhara's devotional-philological move is to secure iconographic identity first (mukuṭavān, gadāvān, cakravān) and then let the radiance overwhelm it. In your own devotional or contemplative practice, begin with the concrete — a specific image, a specific name, a specific verse — and let familiarity with the concrete form be the ground from which the immeasurable can be encountered without disorientation.",
     "advaita-bhakti": "Madhusūdana's adhikāri-bheda insight applies directly to disagreements in spiritual community: two people can make opposite-sounding statements about the same reality because they are accessing it from different levels of qualifiedness. Before concluding that someone's account of an experience is wrong, ask whether you are operating in different adhikāra (qualified standpoints). This is not relativism — it is precision about access conditions."
-  }
+  },
+  "primary_meaning": "I see you on all sides, crowned, bearing mace and discus, a blazing mass of light bright as fire and sun together, dazzling beyond measure, impossible to look at straight."
 }

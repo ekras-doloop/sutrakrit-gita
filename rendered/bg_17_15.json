@@ -130,7 +130,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -281,7 +281,9 @@
         "jayatirtha_17.15"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya's commentary on this verse is not extant in the transmitted panel. The Dvaita reading is reconstructed from his broader framework: verbal austerity means speech fully dependent on Hari's sovereignty — every word that is true and beneficial reflects the jiva's irreducible distinction from and dependence upon Vishnu. Speech that causes agitation (udvega) expresses the jiva's false autonomy; truthful, non-agitating speech expresses correct subordination. Flagged: bhashya absent for this verse; rendering is a principled Dvaita projection."
+      "english_rendering": "*Vāṅ-maya tapa* (austerity of speech) is speech that neither agitates nor misleads — *anudvega-karaṃ vākyaṃ satyaṃ priya-hitaṃ ca yat*. For the *paratantra* *jīva* (the eternally dependent individual self), every utterance is either an expression of correct subordination to *svatantra* (the independently real, self-sufficient) Hari or a deviation from it. Speech that causes *udvega* (agitation) in others proceeds from the *jīva*'s disordered self-assertion; truthful speech that is also gentle and beneficial (*priya-hitam*) reflects the *jīva*'s proper position within *pañca-bheda* (the five-fold real distinction). *Svādhyāya* (Vedic self-study) and its *abhyasana* (repeated practice) complete this discipline — the tongue occupied with sacred recitation is a tongue anchored in *bhakti* (devotion) as ontological subordination to Viṣṇu. Truth told without these conditions — without gentleness, without benefit to the hearer, without devotional recitation — does not constitute *vāṅ-maya tapa*. All four qualities converge: non-agitation, truth, pleasing manner, genuine benefit, and scriptural repetition, each condition real and distinct, none collapsible into the others.",
+      "divergence_note": "Bhāṣya absent for this verse; reading drawn directly from dvaita siddhānta primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -355,7 +357,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Shankara requires all four marks simultaneously — what does it reveal about your habitual speech that you most often satisfy only two or three of them?",
@@ -373,5 +385,6 @@
     "shuddhadvaita": "Choose one conversation today and preface it internally with 'Krishnaarpanam' (offered to Krishna). Notice whether that single act of dedication changes what you say, how you say it, or what you choose not to say.",
     "bhakti": "Sridhara's pariname sukhakaram (that which produces happiness upon maturation) is a long-horizon standard. Before a hard conversation, ask: 'Will this person, a year from now, be grateful I said this?' If yes, say it — gently, truly, without agitation.",
     "advaita-bhakti": "Madhusudana's pramanamulam standard for satyam: before stating something as fact, ask what your actual means of knowledge (pramanam) is. Direct perception, inference, or reliable testimony? If none of these, flag it as belief or hypothesis — that discipline is itself vedabhyasa (scriptural study) applied to daily speech."
-  }
+  },
+  "primary_meaning": "Speech is verbal austerity when it neither distresses nor deceives, is pleasing to hear, and serves the listener's real good, along with the regular recitation of scripture."
 }

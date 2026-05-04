@@ -180,7 +180,7 @@
     },
     {
       "surface_form": "vivarjitaḥ",
-      "lemma": "vivarjay",
+      "lemma": "vi-√varjay",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -354,8 +354,8 @@
         "madhusudan_12.18"
       ],
       "score": 0.5,
-      "english_rendering": "Madhusudana treats the verse as a continuation (purvasya eva prapa ncah — 'expansion of what came before') and focuses his gloss on sanga-vivarjita, which he reads as: free from the superimposition (adhyasa) of 'beautiful' or 'pleasing' qualities on cetana (sentient) and acetana (insentient) objects alike. This is the Advaita register: all attraction is misidentification. Yet the result he names is 'sarvatha harsha-vishada-shunya' — wholly free from elation and grief — which in Madhusudana's larger framework is precisely the condition in which Krishna-bhakti, being purely of the nature of ananda (bliss), can operate without the interference of the ego's pushes and pulls.",
-      "divergence_note": "Madhusudana writes 'cetanacetana-sarva-vishaya-shobhana-adhyasa-rahita' as his gloss on sanga-vivarjita and closes 'sarvatha harsha-vishada-shunya ity arthah' — the phrasing deliberately echoes Advaita sublation language."
+      "english_rendering": "*samaḥ śatrau ca mitre ca* — equal toward enemy and friend; *tathā mānāpamānayoḥ* — likewise in honor and dishonor; *śītoṣṇa-sukha-duḥkheṣu samaḥ* — equal in cold and heat, pleasure and pain. Madhusūdana marks this verse as *pūrvasya eva prapañcaḥ* — an expansion of what immediately preceded. His entire gloss on *saṅga-vivarjitaḥ* reads: *cetanācetana-sarva-viṣaya-śobhana-adhyāsa-rahitaḥ* — free from the superimposition (*adhyāsa*) of 'beautiful' or 'pleasing' qualities on every object, sentient (*cetana*) and insentient (*acetana*) alike. All attraction toward any object is, at root, *adhyāsa*; *saṅga* arises only where that superimposition is not seen through. The payoff he states in his closing phrase: *sarvathā harṣa-viṣāda-śūnya ity arthaḥ* — 'the meaning is: wholly devoid of elation and grief in every mode.' That zero-point of *harṣa-viṣāda* is not mere indifference but the open ground in which *kṛṣṇa-bhakti*, being of the pure nature of *ānanda* (bliss), moves without the ego's alternating push and pull. *Jñāna* clears the superimpositions; *bhakti* as *paramā prīti* (highest love) then operates unobstructed. The rest, he notes — *sphaṭam anyat* — is self-evident.",
+      "divergence_note": "Madhusūdana's Sanskrit is precise: *cetanācetana-sarva-viṣaya-śobhana-adhyāsa-rahitaḥ* glosses *saṅga-vivarjitaḥ*, and *sarvathā harṣa-viṣāda-śūnya ity arthaḥ* closes the verse. The *adhyāsa* register is Advaita sublation language applied directly to devotional equanimity; the phrase *pūrvasya eva prapañcaḥ* ties the verse structurally to the preceding sequence rather than treating it as a fresh enumeration."
     },
     "visistadvaita": {
       "score": 0.5
@@ -439,7 +439,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vivarjitaḥ: vivarjay -> vi-√varjay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Can equanimity toward a person who has actively harmed you be cultivated, or does it require a prior metaphysical shift in how you understand who that person is?",
@@ -457,5 +467,6 @@
     "shuddhadvaita": "Vallabha's distinction is immediately practical: with the people around you, be even-tempered and un-possessive. But with whatever you designate as your seva to Krishna — a daily practice, a creative discipline, a relationship held as sacred — be fully attentive and responsive, treating every variation in its condition as an invitation to serve more precisely.",
     "bhakti": "Shridhara's 'kvacid api anasakta' — unattached in any respect whatsoever — is a high bar for ordinary life. A workable translation: notice the moment you begin rehearsing how to hold onto something (a position, a relationship, an outcome) and treat that noticing as the practice itself. The noticing, repeated, loosens the grip without requiring you to manufacture indifference.",
     "advaita-bhakti": "Madhusudana's 'superimposition of beauty' points to a specific trap: the moment you begin to need a person or place to remain beautiful — to keep providing what you have come to expect from it — you have overlaid your projection onto reality. The practice is to enjoy fully while holding lightly: full presence, zero demand that the experience continue."
-  }
+  },
+  "primary_meaning": "Equal toward enemy and friend, unmoved by honor or dishonor, cold or heat, pleasure or pain, free from all attachment."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "yuñjan",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "niyata",
-      "lemma": "niyam",
+      "lemma": "ni-√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -382,26 +382,11 @@
       ]
     },
     {
-      "list": "युक्त आसीत मत्परः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55",
-        "6.14"
-      ]
-    },
-    {
       "list": "युञ्जन्",
       "role": "supporting",
       "other_verses_in_list": [
         "6.28",
         "7.1"
-      ]
-    },
-    {
-      "list": "योगी युञ्जीत सततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.10"
       ]
     },
     {
@@ -446,7 +431,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuñjan: yuj -> √yuj",
+          "niyata: niyam -> ni-√yam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If mat-saṃsthā means 'dependent on Me' (Śaṅkara) versus 'residing in Me' (Rāmānuja) versus 'entry into Me' (Vallabha), does the verse itself (mūla alone) permit all three readings, and what syntactic feature carries the disambiguation?",
@@ -464,5 +468,6 @@
     "śuddhādvaita": "Vallabha's paramam praveśam as prasāda (grace-gift) means the yogin cannot engineer the summit by effort alone — the highest entry is given by Kṛṣṇa's own will. The everyday implication: practice sincerely (yuñjan sada), but hold results loosely, recognizing that the deepest peace is a gift from Kṛṣṇa's līlā, not a personal achievement. This dissolves the performance-anxiety that can covertly enter dedicated spiritual practice.",
     "bhakti": "Śrīdhara's framing of the verse as yogābhyāsa-phalam (fruit of yoga-practice) suggests tracking practice by its fruit: is there less reactive wandering (saṃsāra-uparati) over the weeks? Not every sit yields stillness, but the arc should show increasing intervals between being swept by circumstance. The positive indicator — mat-rūpeṇa-avasthiti, resting in the form of the Lord — can be felt as those moments in the day when action flows from a settled center rather than from anxiety.",
     "advaita-bhakti": "Madhusūdana's explicit warning — worldly powers and attainments that emerge from samādhi are upasarga (obstacles), not goals — maps directly onto professional and creative life: states of peak focus, insight, or flow are tools, not trophies. The moment flow becomes a thing to pursue or display, it converts from praśānta-vāhitā (the unbroken current of stillness) into an aiśvarya (a glamour) that blocks the deeper mat-saṃsthā. Continue practicing; do not commodify the states."
-  }
+  },
+  "primary_meaning": "The yogi who practices this way without cease, mind held steady and controlled, reaches the supreme peace of *nirvāṇa*, which rests in Me."
 }

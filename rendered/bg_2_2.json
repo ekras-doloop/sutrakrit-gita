@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "samupasthitam",
-      "lemma": "samupasthā",
+      "lemma": "samup-√asthā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "juṣṭam",
-      "lemma": "juṣ",
+      "lemma": "√juṣ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -441,7 +441,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samupasthitam: samupasthā -> samup-√asthā",
+          "juṣṭam: juṣ -> √juṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "I'm a founder mid-crisis — my co-founder just quit, funding is uncertain, the team is watching me. I feel frozen. Is there a difference between legitimate grief and the kind of collapse this verse is diagnosing?",
@@ -459,5 +470,6 @@
     "śuddhādvaita": "Vallabha addresses Arjuna as 'śuddha-svarūpa' — pure in nature — meaning the defilement is not constitutive, it is a temporary occupation of space that belongs to Kṛṣṇa's grace (prasāda). In everyday terms: you are not broken, you have been interrupted. The Puṣṭi-mārga (path of nourishment) practice is to return your attention to the source of nourishment rather than to the disruption. When you are flooded by panic or grief, the move is not discipline but return — re-orient toward what feeds you, and the kaśmala clears on its own.",
     "bhakti": "Śrīdhara's four-fold diagnosis gives a practical checklist: is what I am doing right now something that (a) a person I respect would do, (b) produces a good I actually want in my life, (c) leads toward the better version of this situation, and (d) builds rather than destroys what I want to be known for? If no to all four, the behavior is kaśmala — not a moral failure but a functional one. The correction is not self-flagellation but the same question Kṛṣṇa asks: where did this come from, and does it belong here?",
     "advaita-bhakti": "Madhusūdana's triple-fault structure (fails the mokṣa-seeker, fails the svarga-seeker, fails the kīrti-seeker) means your paralysis is indefensible from any goal you might actually hold. This is the synthesizing move: you don't need a philosophical position to see that the collapse doesn't serve. In a workplace context — a manager going soft in a performance review, a teacher passing a student who hasn't earned it — the 'kindness' that is actually avoidance fails every standard simultaneously: it doesn't serve the person's growth, it doesn't serve the team's functioning, and it doesn't build the leader's credibility. Madhusūdana's point is that the excuse collapses under its own weight."
-  }
+  },
+  "primary_meaning": "Where did this fog come from, Arjuna, overtaking you here of all places? It is not the way of the honorable, it shuts the door to heaven, and it will cost you everything you have earned as a warrior."
 }

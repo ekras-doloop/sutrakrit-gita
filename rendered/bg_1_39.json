@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "kṛtam",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "prapaśyadbhiḥ",
-      "lemma": "prapaś",
+      "lemma": "pra-√dṛś",
       "grammar": "instrumental masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -274,7 +274,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -285,13 +285,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "कथं न ज्ञेयमस्माभिः ৷৷৷৷ प्रपश्यद्भिर्जनार्दन",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.38"
-      ]
-    },
-    {
       "list": "जनार्दन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -301,13 +294,6 @@
         "3.2",
         "10.18",
         "11.51"
-      ]
-    },
-    {
-      "list": "यद्यप्येते न पश्यन्ति ৷৷ मित्रद्रोहे च पातकम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.38"
       ]
     }
   ],
@@ -338,7 +324,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prapaśyadbhiḥ: prapaś -> pra-√dṛś"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kṛtam: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Arjuna says 'we who clearly see' (prapaśyadbhiḥ) — does ethical clarity by itself constitute a sufficient reason not to act, or does it merely reframe what kind of action is required?",
@@ -356,5 +360,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga suggests that when an action feels like it will damage something you love — a relationship, a tradition, a family structure — and yet it keeps being placed in front of you, consider the possibility that what looks like destruction from your vantage point is being woven into something by a larger will. This is not passive fatalism; it is the discipline of holding grief and trust simultaneously rather than letting grief alone decide.",
     "bhakti": "Śrīdhara's philological instinct applied practically: before deciding that a situation is beyond repair, name exactly what is being destroyed and by whom. Arjuna is precise — it is kula-kṣaya (lineage-destruction), and it is the kul-dharmas (specific inherited duties) that will have no one left to perform them. The practice is specificity: vague dread is not the same as named harm. Naming the harm clearly is the first act of honest discernment.",
     "advaita-bhakti": "Madhusūdana's insight about adharma swallowing even those who survive — bāla-ādi (children and others) — maps directly onto organizational or family life: when a community's core practitioners are eliminated or demoralized, the damage does not stay contained to them. It propagates to the inexperienced, the young, the unprotected. The application is structural: protect the carriers of practice, not just the practice in the abstract, because the living transmission is what holds the whole."
-  }
+  },
+  "primary_meaning": "Arjuna asks: O Janārdana, how could we not know to turn from sin, when we can see right before us the evil that comes from destroying a family line?"
 }

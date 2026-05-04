@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "prāhuḥ",
-      "lemma": "prāh",
+      "lemma": "√prāh",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -256,7 +256,7 @@
     },
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -272,7 +272,7 @@
     },
     {
       "surface_form": "veda",
-      "lemma": "veda",
+      "lemma": "√vid",
       "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -562,7 +562,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "prāhuḥ: prāh -> √prāh",
+          "veda: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the tree's root is upward — in the divine ground — does that mean the very source of samsara is sacred? When we are entangled, are we entangled in something holy or something merely mechanical?",
@@ -580,5 +592,6 @@
     "shudhadvaita": "When you encounter beauty — in a child, in music, in nature — do not immediately try to possess or repeat it. It is a leaf on Krsna's own tree, given as prasada. Enjoy it fully, knowing it will fall. The tree is not diminished by falling leaves; Krsna's abundance is inexhaustible. Gratitude without grasping is the Pushti-marga daily practice.",
     "bhakti": "Before making a major commitment — career, relationship, home — sit with the asvattha teaching for five minutes. Name three ways this thing will be unrecognizable in ten years. Then, from that sober ground, choose. Sridhara's vairagya is not pessimism; it is the prerequisite for choosing what actually lasts because it is rooted in Narayana rather than in favorable conditions.",
     "advaita-bhakti": "When overwhelmed by complexity — too many obligations, too many inputs — remember the inverted tree: all of it grows from one root. You do not need to manage every branch. Go to the root in whatever way opens for you today: sit quietly, recite a name, read a verse. From the root, the branches sort themselves. The sword of 'aham brahmasmi' does not have to be swung dramatically; sometimes it simply clarifies which branch you are actually standing on."
-  }
+  },
+  "primary_meaning": "The sages speak of an eternal sacred fig rooted above and branching downward, its leaves the Vedic hymns; whoever knows this tree knows all the Vedas."
 }

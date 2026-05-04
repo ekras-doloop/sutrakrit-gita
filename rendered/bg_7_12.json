@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -427,28 +427,6 @@
       ]
     },
     {
-      "list": "न त्वहं तेषु ते मयि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.34"
-      ]
-    },
-    {
-      "list": "नासतो विद्यते भावो नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16"
-      ]
-    },
-    {
-      "list": "भवन्ति भावा भूतानां मत्त एव पृथग्विधाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "10.4",
-        "10.5"
-      ]
-    },
-    {
       "list": "मत्त एव",
       "role": "supporting",
       "other_verses_in_list": [
@@ -456,40 +434,10 @@
       ]
     },
     {
-      "list": "मत्तः परतरं नान्यत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.7"
-      ]
-    },
-    {
       "list": "मानना",
       "role": "supporting",
       "other_verses_in_list": [
         "3.3"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
       ]
     },
     {
@@ -525,13 +473,6 @@
       "role": "supporting",
       "other_verses_in_list": [
         "10.20"
-      ]
-    },
-    {
-      "list": "सदसत्तत्परं यत्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.4"
       ]
     },
     {
@@ -583,7 +524,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all three guṇas — including the tāmasa states of grief and delusion — originate from the Lord, does that make the Lord the author of ignorance (avidyā)? How do the schools resolve this without making liberation meaningless?",
@@ -601,5 +552,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga, even the 'bad day' — lethargy, irritation, desire — is Kṛṣṇa's sat-prakṛti in motion. The practitioner's response is not to fight the guṇa but to offer it back: 'this agitation is Your doing; I return it to You.' Vallabha's mūla-kartā (root-agent) framing removes the guilt architecture entirely. The practice is arpana (surrender of the state itself), not suppression of it.",
     "bhakti": "Śrīdhara's reading is the most practically direct: sāttvika states (śama, dama — composure, restraint) are from the Lord; so are rājasa states (pride, aversion) and tāmasa states (grief, delusion). This demolishes the tendency to take pride in sāttvika moods ('I am calm today — I am progressing') and despair over tāmasa ones. All three are equally His. The bhakta's job is not to manufacture sattva but to keep referring every state back to its source, which is Bhagavān.",
     "advaita-bhakti": "Madhusūdana's rope-snake image is directly usable in daily life: the fear, elation, or heaviness you experience is real as experience — the serpent is genuinely frightening — but it has no substance apart from the rope (Brahman). The practical move is two-stage: first, feel it fully without suppression (bhakti — the serpent is real to the devotee); then see through it to the rope (jñāna — it was Brahman all along). Neither step alone is complete. This is why Madhusūdana's synthesis is not compromise but a sequential path within a single verse."
-  }
+  },
+  "primary_meaning": "Know that every state in the world, whether clear, agitated, or dull, comes from Me alone, yet I am not in them; they rest in Me."
 }

@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "bhavanti",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -433,34 +433,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अन्नाद्भवन्ति भूतानि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "कर्म ब्रह्मोद्भवं विद्धि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "का अर्थ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "तस्मात्सर्वगतं ब्रह्म नित्यं यज्ञे प्रतिष्ठितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
       "list": "पर्जन्यादन्नसम्भवः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -537,29 +509,6 @@
       ]
     },
     {
-      "list": "यज्ञः कर्मसमुद्भवः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "यज्ञाद्भवति पर्जन्यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15",
-        "3.21",
-        "6.9"
-      ]
-    },
-    {
       "list": "शङ्का",
       "role": "supporting",
       "other_verses_in_list": [
@@ -568,13 +517,6 @@
     },
     {
       "list": "सर्वगत",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.15"
-      ]
-    },
-    {
-      "list": "स्वकर्मणा तमभ्यच्र्य सिद्धिं विन्दति मानवः",
       "role": "supporting",
       "other_verses_in_list": [
         "3.15"
@@ -608,7 +550,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavanti: bhū -> √bhū",
+          "bhavati: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the food-rain-yajna-karma chain is cosmologically real, does opting out of yajna (in any form — ritual, professional, relational) actually degrade the conditions that sustain life, or is that a pre-modern cosmology that modern readers must translate?",
@@ -626,5 +579,6 @@
     "śuddhādvaita": "When a creative project, a day's work, or a meal comes together well, resist claiming it as your production. Vallabha's reading says the chain is Krishna's lila, sustained by prasada. Receive the outcome as gift, offer the effort as play. This is not passivity — Vallabha's 'avasyakata' (necessity) is real — but the emotional register shifts from striving to gratitude, and that shift is itself the spiritual practice.",
     "bhakti": "Map your daily responsibilities onto the world-wheel argument: what does your work actually sustain? Śrīdhara's frame is ecological before it is theological — the chain from food to life to rain to yajna to action is a real interdependence. Accepting your place in that web — as parent, professional, citizen — and executing it with the completeness Śrīdhara requires (samyan-nispadyate, 'properly accomplished') is the minimum devotional act the verse demands.",
     "advaita-bhakti": "Use the cosmological argument as a meditation anchor: before starting any significant work, consciously locate it in the jagac-cakra (world-wheel). Then, mid-action, let the awareness of Krishna's sovereignty dissolve the weight of personal outcome. Madhusūdana's synthesis means you can hold both moves simultaneously — rigorous competence at your link in the chain (the jnana-discipline of seeing the chain clearly) and devotional release of the result (bhakti's gift). The two are not sequential stages but concurrent textures of the same act."
-  }
+  },
+  "primary_meaning": "Living beings arise from food, food arises from rain, rain arises from ritual offering, and ritual offering arises from action."
 }

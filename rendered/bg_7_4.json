@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "bhinnā",
-      "lemma": "bhid",
+      "lemma": "√bhid",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -370,7 +370,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -380,14 +380,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अपरा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5",
-        "12.8"
-      ]
-    },
     {
       "list": "अहं-अहं",
       "role": "supporting",
@@ -403,13 +395,6 @@
         "7.5",
         "13.5",
         "16.18"
-      ]
-    },
-    {
-      "list": "अहंकारं ৷৷ विमुच्य निर्ममः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
       ]
     },
     {
@@ -431,37 +416,10 @@
       ]
     },
     {
-      "list": "इदं शरीरम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
       "list": "जीवभूताम्",
       "role": "supporting",
       "other_verses_in_list": [
         "7.5"
-      ]
-    },
-    {
-      "list": "निर्ममो निरहंकारः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.71",
-        "3.21",
-        "7.5",
-        "12.13"
-      ]
-    },
-    {
-      "list": "परा प्रकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "7.5",
-        "7.6",
-        "12.8"
       ]
     },
     {
@@ -495,13 +453,6 @@
     },
     {
       "list": "प्रकृति-विकृति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
-      "list": "प्रकृतिरष्टधा अपरेयम्",
       "role": "supporting",
       "other_verses_in_list": [
         "7.5"
@@ -556,13 +507,6 @@
       ]
     },
     {
-      "list": "भूमिरापोऽनलो वायुः ৷৷ विद्धि मे पराम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
       "list": "महाबाहो",
       "role": "supporting",
       "other_verses_in_list": [
@@ -580,44 +524,7 @@
       ]
     },
     {
-      "list": "मैं सोया था अब जाग्रत् हुआ हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
       "list": "व्यष्टि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
-      "list": "व्यष्टि अपरा प्रकृति",
       "role": "supporting",
       "other_verses_in_list": [
         "7.5"
@@ -632,20 +539,6 @@
         "8.4",
         "9.23",
         "11.54"
-      ]
-    },
-    {
-      "list": "सन्तने उससे कहा कि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
-      ]
-    },
-    {
-      "list": "सम्बन्धकी सत्ता",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.5"
       ]
     }
   ],
@@ -676,7 +569,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhinnā: bhid -> √bhid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prakṛti is 'Mine' (Bhagavān's), and I am made of these eight constituents, what does it mean to claim ownership over my body, mind, or intelligence?",
@@ -694,5 +597,6 @@
     "śuddhādvaita": "Vallabha's reading makes every arising — emotion, appetite, sensory delight — a gift of Kṛṣṇa's svecchā (sovereign will) rather than a personal failing or indulgence. The daily application is to receive each experience, however mundane, as prasāda: unsolicited grace. The body's hunger for food is Aniruddha; the heart's longing is Pradyumna; the intellect's clarity is Saṅkarṣaṇa. Puṣṭi-mārga practice is learning to recognise the deity inside each constituent.",
     "bhakti": "Śrīdhara's two-reading approach is itself the application: when you encounter a difficult text, a difficult person, or a difficult situation, hold more than one valid mapping simultaneously before collapsing to a single interpretation. The twenty-four tattvas are always present, folded into eight for practical navigation. Likewise in conflict: resist the urge to flatten the other person into one label — they too have twenty-four layers, and bhakti begins in that recognition.",
     "advaita-bhakti": "Madhusūdana's synthesis is a map for the practitioner who meditates and also loves: in formal meditation, treat the eight constituents as māyā to be transcended (Advaita discipline); in daily devotion to Kṛṣṇa, treat them as the very fabric through which His beauty is perceived. The secondary-signification move he performs on manas — reading past the surface to the deeper cause — is a practice: in every encounter ask what is the deeper cause behind the apparent motive, and let that question dissolve the surface conflict."
-  }
+  },
+  "primary_meaning": "Earth, water, fire, air, space, mind, intellect, and ego-sense: these eight are My nature, divided."
 }

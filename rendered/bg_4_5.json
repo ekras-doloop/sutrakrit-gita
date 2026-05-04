@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "vyatītāni",
-      "lemma": "vyatī",
+      "lemma": "√vyatī",
       "grammar": "nominative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative red 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -255,7 +255,7 @@
     },
     {
       "surface_form": "vettha",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -416,8 +416,8 @@
         "jayatirtha_4.5"
       ],
       "score": 0.5,
-      "english_rendering": "Krsna's sovereign omniscience (sarvajna) stands over against the jiva's structural ignorance: the Lord knows every birth of both because he is the independent reality (svatantra) who undergirds all existence, while Arjuna as a dependent jiva (paratantra) simply cannot access that register. The radical dependence of the jiva on Hari is the operative theological point — not a solvable cognitive problem, but an ontological marker distinguishing Hari's svabhava from the jiva's svabhava permanently.",
-      "divergence_note": "Madhva did not comment on this verse directly. Rendering is constructed from Dvaita's foundational sthantraya (svatantra/paratantra distinction) and Madhva's broader framework applied to the avatara-context."
+      "english_rendering": "*Bahūni me vyatītāni janmāni tava cārjuna* — many births of mine have passed, and of yours too, Arjuna; *tāny ahaṃ veda sarvāṇi na tvaṃ vettha parantapa* — all of these I know; you do not. Jayatīrtha marks the governing logic: the Lord is *jñātāśayaḥ* (one who knows the inner intention), and it is precisely for this reason — *ata eva* — that Kṛṣṇa preempts the objection latent in Arjuna's silence: *tava ca na tvaṃ vetsi* — 'you, however, do not know.' Without this distinction the preceding teaching would be *anupayuktam* (inapplicable, without purpose) and should not have been stated at all: *tan na vaktavyam eva*. The asymmetry is not incidental. *Sarvajna* (omniscience) belongs to the *svatantra* (the independently real) Hari as *svabhāva* (inherent nature); the *jīva*'s not-knowing registers the permanent *paratantra* (eternally dependent) condition. The *pañca-bheda* (the five-fold real distinction) holds: Lord and *jīva* are really distinct, and that distinction shows itself here in the differential grasp of births — total in Hari, absent in the *jīva* — not as a cognitive deficiency to be remedied by instruction alone, but as an ontological mark of what each essentially is.",
+      "divergence_note": "Madhva left no direct commentary on 4.5. Jayatīrtha's Nyāya-Dīpikā supplies the operative bhāṣya move — ata eva jñātāśayaḥ / tava ca na tvaṃ vetsi / anupayuktam tan na vaktavyam eva — and the rendering is anchored there, with Dvaita siddhānta primitives filling the doctrinal register Madhva's silence leaves open."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -489,14 +489,6 @@
         "6.10",
         "18.53"
       ]
-    },
-    {
-      "list": "युञ्जान योगी",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.39",
-        "7.26"
-      ]
     }
   ],
   "audit_trail": {
@@ -526,7 +518,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyatītāni: vyatī -> √vyatī",
+          "veda: vid -> √vid",
+          "vettha: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Krsna knows every birth of every jiva across all time, does that omniscience imply determinism — or can the jiva's free choice still be real?",
@@ -544,5 +548,6 @@
     "suddhadvata": "Krsna's births are sarva-amsha-paripurna — each one fully complete, not a fragment of divinity. Apply this to your own moments of genuine love or joy: these are not partial experiences waiting to be more complete. Vallabha's teaching invites you to receive each moment of real presence as whole in itself, not as a stepping-stone to something better.",
     "bhakti": "Shridhara's alupata-vidya-shakti (undimmed knowledge-power) in the Lord means that what you have done — including the kindnesses no one else witnessed, the effort spent in private — is not lost. The practical discipline: stop keeping score with yourself about what was seen and what was not. Bhakti is performed into total witness, not into partial human memory.",
     "advaita-bhakti": "Madhusudana's two-vocative reading maps directly onto the two most common inner obstacles: avarana (the veil — 'I simply cannot see clearly, I am confused') and vikshepa (misdirection — 'I am fighting the wrong battle, attacking the wrong enemy'). When you feel stuck, ask which arm of ajnana is operating. If the problem is avarana, the practice is stillness and enquiry. If the problem is vikshepa, the practice is reorienting attention toward what actually matters."
-  }
+  },
+  "primary_meaning": "Many births of mine and yours have gone by, Arjuna; I know them all, but you do not, O scorcher of foes."
 }

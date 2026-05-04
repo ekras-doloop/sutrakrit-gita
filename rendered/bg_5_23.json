@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "śaknoti",
-      "lemma": "śak",
+      "lemma": "√śak",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -529,7 +529,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śaknoti: śak -> √śak",
+          "yuktaḥ: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the surge of kāma and krodhа is most powerful and most available for conquest in the human body specifically (Madhva's point), what does that imply about how we should regard ordinary daily provocations — as obstacles or as the actual training ground?",
@@ -547,5 +558,6 @@
     "śuddhādvaita": "Vallabha's emphasis on not abandoning the means (sādhanā) even while under the pressure of vega suggests a practical rule: whatever your chosen practice is — japa, seva, kirtan — maintain it on the difficult days especially. The measure of the practice is whether it holds under pressure; performing it only when calm tests nothing.",
     "bhakti": "Śrīdhara's image of the corpse held by weeping mourners is a daily thought-experiment: before responding to someone's anger or seduction, ask 'what would the response look like if I had no stake in the outcome?' That imagined distance is not indifference — it is the quality he calls yukta (composed, fit). Run the thought-experiment before hitting send.",
     "advaita-bhakti": "Madhusūdana's flood metaphor points to a specific intervention window: the vega must be stopped before it 'spills outward into action' — meaning the inner flame has already risen but the limbs have not yet moved. That gap between feeling and action is the only space that is actually workable. Training attention on that gap — through breath, body-scan, or a single deliberate pause — is what he means by vairāgya born of seeing faults in the sense-object."
-  }
+  },
+  "primary_meaning": "Whoever can endure the surge of desire and anger while still alive and embodied is a true yogi, and that person alone is happy."
 }

@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "labhante",
-      "lemma": "labh",
+      "lemma": "√labh",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "kṣīṇa",
-      "lemma": "kṣi",
+      "lemma": "√kṣi",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "chinna",
-      "lemma": "chid",
+      "lemma": "√chid",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "yata",
-      "lemma": "yam",
+      "lemma": "√yam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "ratāḥ",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -479,16 +479,6 @@
         "2.32",
         "9.21"
       ]
-    },
-    {
-      "list": "सर्वभूतहिते रताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.32",
-        "12.3",
-        "12.4",
-        "16.2"
-      ]
     }
   ],
   "audit_trail": {
@@ -518,7 +508,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "labhante: labh -> √labh",
+          "kṣīṇa: kṣi -> √kṣi",
+          "chinna: chid -> √chid",
+          "yata: yam -> √yam",
+          "ratāḥ: ram -> √ram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If brahma-nirvāṇa (brahma-nirvāṇa = extinction in Brahman) is the fruit for seers who are already kṣīṇa-kalmaṣa (sin-exhausted), does the verse describe a goal to pursue or merely certify a state already arrived at — and how does your school adjudicate that difference?",
@@ -536,5 +540,6 @@
     "śuddhādvaita": "Vallabha's mantra-draṣṭā framing suggests that any moment of spontaneous creative seeing — a child's drawing, a musician's improvisation, an engineer's sudden solution — carries the quality of ṛṣi-vision when offered back to Kṛṣṇa rather than claimed. The Puṣṭi practice here is to annotate one creative act per day with the phrase 'tava prasāda' (your grace) as a literal training in seeing all vision as received, not produced.",
     "bhakti": "Śrīdhara's single added word kṛpāluḥ (compassionate) reframes the entire verse as an ethics of feeling, not just action. The everyday application is to notice the difference between performing a kind act and actually feeling the other's situation. One practical method: before any helping interaction (customer, colleague, family), take three breaths oriented toward 'what is it like to be them right now' — this is the inner posture that makes sarva-bhūta-hita (welfare of all beings) a lived quality rather than a moral rule.",
     "advaita-bhakti": "Madhusūdana's four-stage ladder maps onto modern learning design: coarse-level habit change (yajña-analogues like diet, sleep, digital hygiene) precedes subtle discrimination, which precedes consistent śravaṇa of wisdom sources, which precedes nididhyāsana (deep integration). The practical implication is sequencing: people who skip to contemplation without the antaḥkaraṇa-śuddhi (inner-organ purification) stages will find their practice volatile. Audit which stage is actually load-bearing for you right now and work there before escalating."
-  }
+  },
+  "primary_meaning": "Seers who have burned away sin, cut through doubt, restrained the mind, and live for the good of all beings attain liberation in Brahman."
 }

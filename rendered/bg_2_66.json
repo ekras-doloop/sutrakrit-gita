@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -524,7 +524,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "asti: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse presents a four-link negative chain (no yukti → no buddhi → no bhāvanā → no śānti → no sukha): is this sequence strictly necessary in both directions, or can any link be bypassed — e.g., can śānti arrive without bhāvanā via sudden grace (prasāda)?",
@@ -542,5 +552,6 @@
     "śuddhādvaita": "In the Puṣṭi framework, nirodha-yoga (restraint-practice) is not primary — Kṛṣṇa's flowing grace is. When the mind is scattered, the practical response is not to tighten discipline but to increase exposure to Kṛṣṇa's svarūpa: attend kīrtana, serve the mūrti, listen to kathā. The verse's logic runs backwards for the puṣṭi-jīva: buddhi and bhāvanā and śānti are all downstream of grace; therefore the everyday application is to create the conditions for grace's arrival, not to manufacture calm by force.",
     "bhakti": "Śrīdhara's reading identifies the buddhi at stake as specifically śāstra-ācārya-janita — born of scripture-study and teacher-instruction. The practical application: if your meditation is drifting or you feel spiritually stuck, return to the source text and a qualified teacher rather than inventing new techniques. The pratiṣṭhā (stable anchoring) of buddhi in the ātman requires both channels — śāstra and ācārya — and daily life should include regular exposure to both: a brief daily text-reading and periodic engagement with one's teacher or their recorded teaching.",
     "advaita-bhakti": "Madhusūdana's precision about nididhyāsana — unbroken same-class cognition — offers a diagnostic for daily practice: moments of genuine non-dual awareness are often present but fragmented by vijātīya-pratyaya (intrusive object-consciousness). The everyday application is to notice the gap between moments of clarity and to shorten it, not by suppressing the intrusions (which reinforces the very dual posture you are trying to dissolve) but by extending the moments of ātma-pratyaya through bhakti toward Kṛṣṇa, treating Kṛṣṇa-awareness as the same-class cognition that bridges Advaita-jñāna and devotional warmth."
-  }
+  },
+  "primary_meaning": "The undisciplined have no wisdom and no power to contemplate; without contemplation there is no peace, and without peace, how can there be happiness?"
 }

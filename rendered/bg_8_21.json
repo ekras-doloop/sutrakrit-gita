@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "uktaḥ",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "nivartante",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -438,13 +438,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अक्षरं ब्रह्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.3"
-      ]
-    },
-    {
       "list": "अधियज्ञः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -511,7 +504,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktaḥ: vac -> √vac",
+          "āhuḥ: ah -> √ah",
+          "nivartante: nivṛt -> ni-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If avyakta and akṣara name the same referent in this verse, what does that collapse do to the Sāṃkhya hierarchy where avyakta (prakṛti) and akṣara (puruṣa) are distinct — and which schools feel that tension most sharply?",
@@ -529,5 +534,6 @@
     "śuddhādvaita": "Stop treating your spiritual practice as an instrument for earning access to grace. Vallabha's ahaitukaī bhakti — uncaused, non-transactional devotion — means that the dhāma is available to you not because you climbed the jñāna-ladder but because the Lord's prasāda (grace) is already extended. Let one action today be done purely for delight in Kṛṣṇa, with no accounting.",
     "bhakti": "When someone asks 'what is your goal?' stop naming the goal as separate from yourself. Śrīdhara's rāhoḥ-śiraḥ move says the destination and the Lord are not two things — and by extension, the fully devoted practitioner and their goal converge. Live from the assumption that your deepest direction and your deepest nature are already the same thing.",
     "advaita-bhakti": "When grief or fear of ending arises, Madhusūdana's description — utpatti-vināśa-śūnya svaprakāśa paramānanda — is not a metaphysical proposition to believe but a quality of attention to inhabit. For one minute, notice the awareness in which the fear is appearing; that awareness has no birth-moment in this session. The paramānanda is not added to experience — it is the texture of unobstructed awareness itself."
-  }
+  },
+  "primary_meaning": "Reach that unmanifest, imperishable state and you do not return; that supreme abode is mine."
 }

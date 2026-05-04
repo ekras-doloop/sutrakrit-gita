@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "prīyamāṇāya",
-      "lemma": "prī",
+      "lemma": "√prī",
       "grammar": "dative masculine singular present participle pass verb",
       "senses_attested_in_panel": [
         {
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "vakṣyāmi",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -410,24 +410,10 @@
       ]
     },
     {
-      "list": "परं भूयः प्रवक्ष्यामि ज्ञानानां ज्ञानमुत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "14.1"
-      ]
-    },
-    {
       "list": "परमं वचः",
       "role": "supporting",
       "other_verses_in_list": [
         "18.64"
-      ]
-    },
-    {
-      "list": "रहस्यं ह्येतदुत्तमम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.3"
       ]
     }
   ],
@@ -458,7 +444,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prīyamāṇāya: prī -> √prī",
+          "vakṣyāmi: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa speak 'again' (bhūyaḥ) without being asked — what does voluntary re-teaching reveal about the relationship between teacher and disciple in the Gītā's dramaturgy?",
@@ -476,5 +473,6 @@
     "śuddhādvaita": "Vallabha's key word is anupṛṣṭaḥ — unasked. Think of the last time someone gave you exactly what you needed without your having found words for it. That gift structure — spontaneous, unrequested, overflowing — is what Vallabha sees as the signature of grace. Practice receiving it without converting it immediately into obligation or debt.",
     "bhakti": "Śrīdhara's frame is sarvatra-īśvara-dṛṣṭi — the vision of the Lord everywhere. Choose one domain this week — your commute, your kitchen, a difficult colleague — and practice finding one point of excellence or beauty in it each day. The Tenth Chapter exists precisely to train that vision until it becomes natural rather than effortful.",
     "advaita-bhakti": "Madhusūdana teaches that the same reality is available both through a form you can meditate on and through a formless truth you can know directly — and that most people need both at different seasons of their life. Notice which mode you are in right now: do you need a vivid image to anchor your attention, or does the image feel like a cage? Neither answer is permanent; the chapter is large enough for both."
-  }
+  },
+  "primary_meaning": "Krishna says: Listen once more, mighty-armed Arjuna, to this highest word of mine, which I speak again out of love for your good."
 }

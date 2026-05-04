@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "upāviśat",
-      "lemma": "upaviś",
+      "lemma": "upa-√viś",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [
         {
@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "saṃvigna",
-      "lemma": "saṃvij",
+      "lemma": "saṃ-√vij",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -255,8 +255,9 @@
         "shankara_1.47"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkara is silent on this verse; his commentary opens only when the teaching proper begins. What the verse depicts — Arjuna's śoka (grief) and viṣāda (despondency) — Śaṅkara will anatomize in his 2.1 introduction as the cardinal symptoms of ajñāna (non-discrimination between ātman and deha). The dropped bow is not a dramatic gesture but the outward sign that the unreflective mind (manas) has been overwhelmed by the false identification of the self with kinsmen who, on the Advaita reading, were never truly 'other' at all.",
-      "commentator": "Śaṅkarācārya"
+      "english_rendering": "*Śoka-saṃvigna-mānasaḥ* — the mind convulsed by grief: this is the condition named at the close of the first chapter. Arjuna, *evam uktvā*, having spoken thus, *visṛjya saśaraṃ cāpam*, casts down the arrow-laden bow and sinks (*upāviśat*) onto the chariot floor. On the Advaita reading, the convulsion (*saṃvega*) is the presenting symptom of *adhyāsa* (superimposition) — the beginningless habit of taking the body-mind complex for the *ātman* (the self) and taking kinsmen for genuinely distinct others. Because *ātman* is one and undivided, the very category of 'loss of loved ones' is built on *avidyā* (nescience); grief of this kind has no footing in the real. The dropped bow externalizes what has already collapsed inwardly: the *manas* (mind), unsteady in *viveka* (discrimination between the real and the apparent), has surrendered to *moha* (delusion). This *viṣāda* (despondency) is not a spiritual opening in itself but the knot that the teaching must cut. The verse thus marks the precise threshold where *saṃsāra*'s bondage — sustained by *ahaṃkāra* (false ego-sense) and *mamakāra* (the sense of 'mine') — stands naked, and where the enquiry into *brahman*, the sole non-dual reality, becomes urgent.",
+      "commentator": "Śaṅkarācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -338,7 +339,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upāviśat: upaviś -> upa-√viś",
+          "saṃvigna: saṃvij -> saṃ-√vij"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Is viṣāda (Arjuna's collapse) a defect to be overcome or a necessary precondition for genuine spiritual instruction — and does the answer differ across schools?",
@@ -356,5 +368,6 @@
     "śuddhādvaita": "Vallabha's ārtatvam points toward a specific devotional posture: when you have genuinely exhausted yourself in service — for a child, a cause, a community — and find yourself sarvatoduhkhena nirviṇṇa ('utterly disheartened on every side'), Puṣṭi-mārga says that is not the time for fresh strategies but for receiving. Put down the instrument (the plan, the project, the argument) and open to grace. The affliction itself is the credential for receiving Kṛṣṇa's unconditional prasāda.",
     "bhakti": "In Śrīdhara's devotional reading, the first requirement for learning is emptiness — the teacher can only fill a vessel that has been set down. Practically: before entering a difficult conversation, a mentoring session, or a retreat, there is value in a deliberate act of 'setting down the bow' — disarming the prepared arguments and the defended identity — so that genuine exchange can begin. Viṣāda as voluntary preparation rather than involuntary collapse.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests that the deepest grief and the deepest love arrive at the same threshold. In practice: when confusion about 'what is really true' (Advaita inquiry) and grief over what you are about to lose (bhakti longing) coincide, that intersection is not pathological — it is the optimal entry-point for transformation. Do not resolve the paradox prematurely into either pure detachment or pure emotional surrender; hold both, as Arjuna holds the chariot-seat between the two armies."
-  }
+  },
+  "primary_meaning": "Having said this on the battlefield, Arjuna sank into the chariot seat, let fall his bow and arrows, and sat there with his mind shaken by grief."
 }

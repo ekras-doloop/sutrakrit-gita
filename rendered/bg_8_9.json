@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "anusmaret",
-      "lemma": "anusmṛ",
+      "lemma": "anu-√smṛ",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -520,7 +520,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "anusmaret: anusmṛ -> anu-√smṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Brahman / Bhagavān is literally acintya-rūpa (inconceivable form), what is the meditator actually doing — is a genuine mental act possible, or is the verse teaching the mind to reach its own limit?",
@@ -538,5 +548,6 @@
     "śuddhādvaita": "Vallabha's verse is about entering Kṛṣṇa's svaprakāśa (self-luminous) space as prasāda, not as achievement. In everyday terms: when something unexpectedly delights you — beauty, music, a child's laugh — recognise it as a momentary opening into that self-luminous dimension rather than as a random pleasant event. The Puṣṭi-mārga practitioner is trained to receive these as grace-fragments of Kṛṣṇa's own radiance breaking through the ordinary.",
     "bhakti": "Śrīdhara's enumeration — omniscient, beginningless, subtler than space and time, nourisher, beyond impure mind — is a contemplative map for devotional practice. Choose one epithet per week as a daily mantra-anchor: if this week is 'nourisher of all' (sarvasyā dhātā), notice throughout the day what is being sustained and by what — food, attention, relationships, ecosystems. The practice does not require silence; it embeds bhakti in perceptual attention.",
     "advaita-bhakti": "Madhusūdana's deliberate ambiguity is itself the practice: hold both the jñāna reading (the meditator dissolves into the light) and the bhakti reading (the meditator arrives before the Divine Person) without forcing resolution. In daily life this means tolerating the productive tension between 'I am awareness itself' and 'I am in relationship with something greater' — rather than collapsing prematurely into either identity. The synthesis is not a midpoint but a more capacious stance."
-  }
+  },
+  "primary_meaning": "Meditate on the one who is all-knowing, ancient, the inner ruler, subtler than the subtlest, the sustainer of all, beyond conception, sun-bright, and utterly beyond darkness."
 }

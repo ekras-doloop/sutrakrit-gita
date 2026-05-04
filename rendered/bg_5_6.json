@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -384,13 +384,6 @@
       ]
     },
     {
-      "list": "तत्स्वयं योगसंसिद्धः कालेनात्मनि विन्दति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.38"
-      ]
-    },
-    {
       "list": "त्यागाच्छान्तिरनन्तरम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -571,7 +564,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma-yoga and jñāna-yoga ultimately lead to the same Brahman, what does it mean that one path is described as causing 'suffering' — is the suffering epistemic (confusion), motivational (effort without grace), or ontological (falling between two stools)?",
@@ -589,5 +600,6 @@
     "śuddhādvaita": "Vallabha's principle — you cannot renounce what you have not yet fully done — applies directly to half-finished projects, unresolved conversations, and commitments left in limbo. Dropping them prematurely is not detachment; it is incompleteness. Bring samatva (equanimity) into the doing itself; the natural endpoint of completed action is genuine release, not the anxious pseudo-release of walking away mid-stream.",
     "bhakti": "Śrīdhara's Vārtika warning about renunciants who remain 'outward-minded and quarrelsome' is a mirror for anyone who has adopted an identity of withdrawal — spiritual, professional, or personal — without the inner work. The test is not the label but the citta: is the mind actually quieter and clearer, or is it still reactive and outward-seeking under a new costume? Use service as the honest diagnostic before claiming the renunciant posture.",
     "advaita-bhakti": "Madhusūdana names the double fall explicitly: forced renunciation disqualifies you from both karma (action) and Brahman (knowledge), leaving you stranded. In practical terms, this is the person who quits their structured discipline without having built the inner clarity that makes unstructured practice fruitful — and then finds they can neither return to the discipline nor advance without it. Honor the sequence: purify through engaged action first, and the transition to a quieter life will be stable rather than a crisis."
-  }
+  },
+  "primary_meaning": "Renunciation without yoga is hard to achieve and brings only suffering, but the muni who is yoked through disciplined action reaches Brahman swiftly."
 }

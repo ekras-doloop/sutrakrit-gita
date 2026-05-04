@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "vitatāḥ",
-      "lemma": "vitan",
+      "lemma": "vi-√tan",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -134,7 +134,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -266,7 +266,7 @@
     },
     {
       "surface_form": "vimokṣyase",
-      "lemma": "vimuc",
+      "lemma": "vi-√muc",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -556,13 +556,6 @@
       ]
     },
     {
-      "list": "यान्ति ब्रह्म सनातनम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.31"
-      ]
-    },
-    {
       "list": "विद्धि",
       "role": "supporting",
       "other_verses_in_list": [
@@ -588,17 +581,6 @@
         "17.12",
         "18.20",
         "18.21"
-      ]
-    },
-    {
-      "list": "शरीरवाङ्मनोभिर्यत्कर्म प्रारभते नरः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.5",
-        "3.6",
-        "4.16",
-        "5.13",
-        "18.15"
       ]
     },
     {
@@ -641,7 +623,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vitatāḥ: vitan -> vi-√tan",
+          "viddhi: vid -> √vid",
+          "vimokṣyase: vimuc -> vi-√muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all yajñas are karma-ja (born of body, speech, and mind) and the ātman is nirvy āpāra (utterly actionless), does performing any yajña at all move one closer to liberation — or is the knowledge of that actionlessness itself the only liberating act?",
@@ -659,5 +653,6 @@
     "śuddhādvaita": "Bring the dimension of joy — not merely the removal of pain — into each act of devotion or service. The Vedic creation-yajña was performed in delight; your participation in daily ritual, family care, or creative work is a continuation of that primordial celebratory action. Mokṣa is not escape from life but life's joy fulfilled.",
     "bhakti": "When you feel overwhelmed by the multiplicity of religious duties and practices competing for your attention, recognize that the verse itself performs a deliberate recapitulation — gathering the many into one summary before pointing beyond all of them. Likewise, periodically gather and review your own practices to see which ones are training your jñāna-niṣṭhā (steady knowledge) and which are mere accumulation.",
     "advaita-bhakti": "When someone challenges your spiritual framework with 'that's just your speculation,' respond not by defending the framework but by pointing to the lineage of authoritative transmission behind it. Madhusūdana insists the Veda's gateway is the warrant, not the speaker's opinion. Build practices that are grounded in verified tradition rather than personal conjecture, so the foundation survives scrutiny — and so you can explain why without it collapsing into 'because I feel it is true.'"
-  }
+  },
+  "primary_meaning": "All these many sacrifices are spread through the Veda's teaching; know them as born of action, and knowing that, you will be free."
 }

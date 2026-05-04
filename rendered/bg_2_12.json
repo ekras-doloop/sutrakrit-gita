@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "āsam",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "impf indicative 1st person singular",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -261,7 +261,7 @@
     },
     {
       "surface_form": "bhaviṣyāmaḥ",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "future indicative 1st person plural verb",
       "senses_attested_in_panel": [
         {
@@ -613,7 +613,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsam: as -> √as",
+          "bhaviṣyāmaḥ: bhū -> √bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If I — and everyone who has ever hurt me or lost me — have always existed and will always exist, what exactly is grief grieving for?",
@@ -631,5 +642,6 @@
     "śuddhādvaita": "Vallabha's reading invites you to stop treating your own spiritual life as a project of self-improvement and start treating it as participation in Kṛṣṇa's ongoing līlā (play). The reason you were never born and will never die is not a metaphysical theorem you need to prove to yourself — it is a gift Bhagavān is speaking directly to you in this verse. Receive it as prasāda (grace received), not as doctrine to be grasped.",
     "bhakti": "Śrīdhara's gloss — that the souls are eternal because they are portions of the eternal Lord — gives a devotional framework for how to hold other people. The people in your life who exhaust you, wound you, or disappoint you are also madaṃśa (portions of the Lord), each carrying the same indestructible nature. Grief over them — or contempt for them — becomes harder to maintain once you see their origin clearly.",
     "advaita-bhakti": "Madhusūdana's technical argument has a surprisingly direct application: the self you are is not 'becoming' — it is not on its way to something. It has no prior absence and no posterior absence. This means every moment you spend waiting to become the person you're supposed to be is a moment of mistaken ontology. The grief Arjuna feels is structurally the grief of treating a permanent thing as though it were temporary — and the cure is not consolation but clear seeing."
-  }
+  },
+  "primary_meaning": "There was never a time when I did not exist, nor you, nor these kings, and there will be no time when we cease to exist."
 }

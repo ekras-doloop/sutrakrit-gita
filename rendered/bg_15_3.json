@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "upalabhyate",
-      "lemma": "upalabh",
+      "lemma": "upa-√labh",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "virūḍha",
-      "lemma": "viruh",
+      "lemma": "vi-√ruh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -591,7 +591,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upalabhyate: upalabh -> upa-√labh",
+          "virūḍha: viruh -> vi-√ruh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the samsara-tree has no perceptible beginning, middle, or end, what does it mean to 'cut' something whose boundaries cannot be located — and can that act be deliberate at all?",
@@ -609,5 +620,6 @@
     "shuddhadvaitta": "Distinguish, in your daily life, between what you engage with as adorable (worthy of full presence) and what you engage with out of compulsion or habit. The sword is not withdrawal from the world but selective non-engagement with the compulsive layer — leaving the adorable world of Bhagavan's lila intact.",
     "bhakti": "Identify one domain — work, money, reputation, a relationship — where you genuinely cannot see its beginning or where it will end. Let that opacity be the signal: this is a root of the samsara-tree. Cultivate samyag-vichara (honest inquiry) specifically about that domain rather than applying generic renunciation.",
     "advaita-bhakti": "Combine two daily practices: one moment of viveka (asking 'is this permanent?') and one moment of autsukya (yearning — touching the desire to know the Supreme rather than suppressing desire altogether). Madhusudhana's synthesis says the sword needs both the edge of discrimination and the heat of longing to cut through beginningless avidya."
-  }
+  },
+  "primary_meaning": "The form of this tree cannot be grasped here; no end, no beginning, no ground beneath it can be found. Cut it, deep-rooted as it is, with the firm sword of non-attachment."
 }

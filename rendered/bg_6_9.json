@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "viśiṣyate",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -347,8 +347,8 @@
         "madhusudan_6.9"
       ],
       "score": 0.5,
-      "english_rendering": "Madhusūdana Sarasvatī sharpens every category: suhṛt helps without expecting return (prati-upakāra-nirapekṣya); mitra helps through affection; ari harms by natural cruelty (svabhāva-krauryeṇa) without regard for the harm received; dveṣya harms in proportion to harm received — a morally loaded distinction absent in other bhāṣyas. The sama-buddhi who sees all these types is kim-karma ity avyāpṛta-buddhi — 'whose mind is uninvolved in the question of what action accrues' — echoing Śaṅkara's exact phrase while embedding it in a devotional framework: this equal-sightedness is itself the condition of being sarvataḥ utkṛṣṭa (excellent in every direction), the crowning expression of the yoga-mārga that Kṛṣṇa has been describing.",
-      "divergence_note": "Madhusūdana: 'rāgadveṣaśūnyo viśiṣyate sarvata utkṛṣṭo bhavati / vimucyate iti vā pāṭhaḥ'; dveṣya distinction (svakṛtāpakāram apekṣya vs svabhāva-krauryeṇa) not present in Śaṅkara or Śrīdhara"
+      "english_rendering": "*Suhṛt* (the well-wisher) is *prati-upakāram anapekṣya* (without expecting a return benefit) and *pūrva-snehaṃ sambandhaṃ ca vinā* (even without prior affection or kinship), one who benefits another. *Mitra* is *snehena upakārakaḥ* — the helper moved by affection. *Ariḥ* is *svakṛtāpakāram anapekṣya svabhāva-krauryeṇa apakartā* — the one who harms by innate cruelty, without regard for harm first done to him. *Udāsīna* remains indifferent to both parties in a dispute; *madhyastha* wishes well to both disputants. *Dveṣya*, by contrast, is *svakṛtāpakāram apekṣya apakartā* — the harmer who acts in proportion to harm received, a morally charged distinction that separates him from the *ari*. *Bandhu* benefits through kinship alone. Among all these — among the virtuous, *śāstravidhita-kāriṣu* (those who act as scripture enjoins), and even among the sinful, *śāstra-pratiṣiddha-kāriṣu* (those who do what scripture forbids), and by the *ca* among all others besides — the one who is *sama-buddhiḥ* is *kiṃ karma ity avyāpṛta-buddhiḥ*, whose mind is uninvolved in the question 'what is this action?', and who is *sarvatra rāga-dveṣa-śūnyaḥ* — empty of attraction and aversion everywhere. Such a one *viśiṣyate sarvataḥ utkṛṣṭo bhavati*: excels, is preeminent in every direction. The alternate reading *vimucyate* — 'is liberated' — carries the same force. This *sama-buddhi* is the crown of the yoga path Kṛṣṇa has been unfolding, and for Madhusūdana it is inseparable from *rāga-dveṣa-śūnyatā* as the inner ground of *bhakti*.",
+      "divergence_note": "Madhusūdana: 'rāgadveṣaśūnyo viśiṣyate sarvata utkṛṣṭo bhavati / vimucyate iti vā pāṭhaḥ'; the ari/dveṣya distinction — *svakṛtāpakāram anapekṣya svabhāva-krauryeṇa* vs *svakṛtāpakāram apekṣya apakartā* — is Madhusūdana's own fine-grained parsing, absent in Śaṅkara and Śrīdhara."
     }
   },
   "prosodic_information": {
@@ -462,47 +462,6 @@
       ]
     },
     {
-      "list": "यद्यदाचरति श्रेष्ठस्तत्तदेवेतरो जनः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.14",
-        "3.15",
-        "3.21"
-      ]
-    },
-    {
-      "list": "समत्वं योग उच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "4.42",
-        "8.8"
-      ]
-    },
-    {
-      "list": "सुहृदं सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.40",
-        "5.29",
-        "7.21",
-        "8.6",
-        "9.29",
-        "12.13",
-        "12.14"
-      ]
-    },
-    {
-      "list": "सुहृदः सर्वदेहिनाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.11",
-        "5.29",
-        "12.13",
-        "12.14"
-      ]
-    },
-    {
       "list": "सुहृद्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -539,7 +498,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viśiṣyate: viśiṣ -> vi-√śiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Does Kṛṣṇa's praise of sama-buddhi require erasing moral distinctions between sādhu and pāpa, or does Madhva's reading — equal intrinsic vision, differentiated worship — resolve the tension?",
@@ -557,5 +526,6 @@
     "śuddhādvaita": "Cultivate sama-buddhi not by practising detachment toward difficult people but by deepening your direct experience (vijñāna) of Kṛṣṇa's presence; as that saturation grows, the field of friend and foe loses its power to disturb without any separate effort to become equanimous.",
     "bhakti": "Examine whether your internal response to a person is distorted by rāga (you need them) or dveṣa (you resent them); Śrīdhara's definition of viśiṣṭa is the mind empty of both distortions — use each interaction as a diagnostic of which distortion is active, then gently dismantle it.",
     "advaita-bhakti": "Distinguish clearly between the person who wrongs you from natural cruelty (Madhusūdana's ari — svabhāva-krauryeṇa) and the person who wrongs you in proportion to a wrong you first did them (dveṣya); hold equal interior regard toward both while allowing your outer response to track the actual moral difference — this is the integration of jñāna and bhakti in daily ethics."
-  }
+  },
+  "primary_meaning": "The one whose mind holds equal ground toward well-wisher, friend, foe, bystander, mediator, the hateful, kinsman, the virtuous, and the sinful is distinguished above all."
 }

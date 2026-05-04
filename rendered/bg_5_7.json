@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "viśuddha",
-      "lemma": "viśudh",
+      "lemma": "vi-√śudh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "vijita",
-      "lemma": "viji",
+      "lemma": "√viji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "jita",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "bhūta",
-      "lemma": "bhūta",
+      "lemma": "√bhū",
       "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "bhūta",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "kurvan",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "lipyate",
-      "lemma": "lip",
+      "lemma": "√lip",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -383,23 +383,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "गुण ही गुणोंमें बरत रहे हैं",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "5.20"
-      ]
-    },
-    {
-      "list": "गुणा गुणेषु वर्तन्ते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "5.8",
-        "5.9"
-      ]
-    },
-    {
       "list": "जितात्मा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -506,7 +489,23 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "viśuddha: viśudh -> vi-√śudh",
+          "vijita: viji -> √viji",
+          "jita: ji -> √ji",
+          "bhūta: bhū -> √bhū",
+          "kurvan: kṛ -> √kṛ",
+          "lipyate: lip -> √lip"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If na lipyate (non-binding) requires the ātman-of-all-beings vision, is this verse a description of a saint or a prescription for a practitioner — and does it matter which?",
@@ -524,5 +523,6 @@
     "śuddhādvaita": "Vallabha's reading inverts the usual self-improvement frame entirely: you do not conquer the guṇas by discipline, Kṛṣṇa's prasāda removes them. The practical implication is to stop treating non-attachment as a project you manage. Instead, show up, offer the action, and let go of the outcome — not as a technique but as an act of trust in what has already been given.",
     "bhakti": "Śrīdhara's graduated chain — yoga → viśuddha-citta → vijitātmā → jitēndriya → sarva-bhūtātmā vision → na lipyate — reads as a natural causal sequence. The practical entry-point is the first link: identify one practice (japa, seva, prāṇāyāma, sustained study) and stabilise it. Śrīdhara implies that the rest of the sequence follows without needing to be separately engineered.",
     "advaita-bhakti": "Madhusūdana's tridaṇḍī frame — discipline of speech, mind, and body as a single integrated practice — maps onto any professional context where you manage communication, attention, and behavior under pressure. His key move: the three are not independent habits but one discipline appearing in three domains. Find the place where your speech, mind, and action are most misaligned, and treat that as the whole practice, not a partial one."
-  }
+  },
+  "primary_meaning": "Yoked to yoga, pure in mind, master of body and sense, seeing one's own self in all beings, a person acts and yet is not stained."
 }

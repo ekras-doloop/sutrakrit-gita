@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "viniyatam",
-      "lemma": "viniyam",
+      "lemma": "vi-√niyam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "avatiṣṭhate",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -436,7 +436,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "avatiṣṭhate: avasthā -> ava-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viniyatam: viniyam -> vi-√niyam",
+          "yuktaḥ: yuj -> √yuj",
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara insists niḥspṛhatā must cover both dṛṣṭa (visible) and adṛṣṭa (invisible / afterlife) objects — what does it mean, practically, to lose appetite for future-life rewards, not just sensory pleasures?",
@@ -454,5 +474,6 @@
     "śuddhādvaita": "Watch for the moment when a skill or competence you have worked hard to develop starts to feel like an identity you must protect — the yogic siddhi-trap in modern dress. Vallabha's prescription: hold even your strengths and achievements loosely, as prasāda received, not property owned. Niḥspṛhatā must include pride in one's practice.",
     "bhakti": "Śrīdhara's ihika / āmuṣmika pairing maps onto: present-tense pleasures (social approval, sensory comfort) and future-tense rewards (career advancement, legacy, even spiritual merit). Audit your motivations for a practice or project against both columns — the yoga is niṣpanna only when neither column exerts pull.",
     "advaita-bhakti": "Madhusūdana's sarvam-śūnya (total void of objectivity) sounds extreme but has an accessible form: the rare moments in deep work or prayer when you are not tracking yourself — not observing how well you are doing or how the audience is receiving you. That self-monitoring cessation is a taste of vṛtti-nirodha. Cultivate activities that reliably produce it, and study what enables the transition."
-  }
+  },
+  "primary_meaning": "When the mind, fully reined in, rests in the self alone and all craving for every desire has gone, that person is called integrated in yoga."
 }

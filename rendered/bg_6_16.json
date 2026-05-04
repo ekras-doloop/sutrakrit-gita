@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "atyaśnataḥ",
-      "lemma": "atyaś",
+      "lemma": "a-√tyaś",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "asti",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -82,7 +82,7 @@
     },
     {
       "surface_form": "aśnataḥ",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -130,7 +130,7 @@
     },
     {
       "surface_form": "jāgrataḥ",
-      "lemma": "jāgṛ",
+      "lemma": "√jāgṛ",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -382,7 +382,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "atyaśnataḥ: atyaś -> a-√tyaś",
+          "asti: as -> √as",
+          "aśnataḥ: aś -> √aś",
+          "jāgrataḥ: jāgṛ -> √jāgṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If yoga requires ātma-saṃmita (body-commensurate) intake, does the verse implicitly validate individualized dietary norms — and how do the schools resolve the tension between prescriptive rules and individual physiology?",
@@ -400,5 +413,6 @@
     "śuddhādvaita": "A Puṣṭi-mārga sādhaka treats every meal as prasāda-reception: portions are sized by what Kṛṣṇa himself would be offered — neither the renunciant's symbolic morsel nor the householder's feast — and eating is preceded by brief remembrance of Kṛṣṇa's own āhāra in Vraja, so that yukta-āhāra becomes a moment of līlā-connection rather than a rule to obey.",
     "bhakti": "A practitioner following Śrīdhara's plain reading audits four variables each evening — did I eat excessively, fast completely, sleep too long, or stay awake too long? — and scores them simply as yogābhyāsa-anukūla (favorable to practice) or pratikūla (unfavorable); the next session's duration is adjusted accordingly, without moral self-judgment but with the same practicality one applies to equipment maintenance.",
     "advaita-bhakti": "A Madhusūdana-informed practitioner adds environmental conditions to the daily audit: sitting for dhyāna in extreme cold without adequate covering, or in a noisy wind-exposed location, is treated as structurally equivalent to overeating — an obstacle to kārya-kṣamatā (functional capacity) that the practitioner arranges the environment to remove, because Kṛṣṇa-bhakti's contemplative quality depends as much on outer conditions as on inner restraint."
-  }
+  },
+  "primary_meaning": "Yoga is not for one who eats too much or fasts completely, Arjuna, nor for one given to too much sleep or too much waking."
 }

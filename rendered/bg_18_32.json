@@ -2,7 +2,7 @@
   "verse_id": "18.32",
   "mūla": {
     "devanāgarī": "अधर्मं धर्ममिति या मन्यते तमसावृता | सर्वार्थान्विपरीतांश्च बुद्धिः सा पार्थ तामसी",
-    "iast": "adharmaṃ dharmamiti yā manyate tamasāvṛtā | sarvārthānviparītāṃśca buddhiḥ sā pārtha tāmasī",
+    "iast": "adharmaṃ dharmamiti yā manyate tamasāvṛtā | sarvārthān viparītāṃśca buddhiḥ sā pārtha tāmasī",
     "chapter_position": "Chapter 18 (Mokṣa-Sannyāsa-Yoga (The Yoga of Liberation by Renunciation)), verse 32",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "manyate",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "āvṛtā",
-      "lemma": "āvṛ",
+      "lemma": "√āvṛ",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -355,9 +355,10 @@
         "jayatirtha_18.32"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this shloka (payload flags: 'Sri Madhvacharya did not comment on this sloka'). From Dvaita first principles: the tamsī buddhi represents the most complete form of avidya — it inverts not just moral categories but the eternal hierarchy between Hari (Paramatman), jiva, and jagat. In Dvaita, where the distinction between the dependent jiva and independent Hari is ontologically absolute, such a buddhi cannot even correctly perceive its own subordinate status, rendering all dutiful worship of Hari impossible.",
-      "divergence_note": "[Madhva bhashya absent for this verse — rendering inferred from Dvaita siddhanta principles; flagged as inferred, not attested.]",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Tāmasī buddhi* (the intellect enveloped by *tamas*) inverts every category of discernment: *adharma* (the unrighteous) is taken for *dharma* (the righteous), and *sarvārthān viparītāṃś ca* — all objects and ends — are grasped in their contrary form. In the dvaita reading, this inversion is not merely an epistemic error but an ontological catastrophe: the *jīva*, whose *paratantra* (eternally dependent) nature is constitutive, fails to perceive its subordination to *svatantra* Hari. The *pañca-bheda* — the five-fold real distinction — remains objectively real, yet the *tāmasī buddhi* cannot register even one of its poles correctly. Lord–*jīva* distinction, *jīva*–*jagat* distinction, the *taratamya* (graded ontological hierarchy) running from Hari down through the orders of dependent beings: all stand inverted. A *buddhi* so occluded cannot orient the *jīva* toward *bhakti* as ontological subordination, for it cannot even identify Hari as the sole *svatantra* nor itself as wholly *paratantra*. *Tamasāvṛtā* — covered over by *tamas* — names a bondage prior to all moral failure: without *buddhi* capable of *bheda*-recognition, no *dharma* is possible, and the *jīva* spirals deeper into *saṃsāra*.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha on this verse; reading derived from dvaita siddhānta as applied to the mūla.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -564,7 +565,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "dropped-space-at-consonant-consonant-joint corruption",
+        "scope": "mūla.iast — spaces reinserted using word_by_word surface fields as source of truth",
+        "loci": [
+          "sarvārthānviparītāṃśca -> sarvārthān viparītāṃśca"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "manyate: man -> √man",
+          "āvṛtā: āvṛ -> √āvṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the faculty of discernment (buddhi) can be inverted — reliably producing the opposite of what is real — what confidence can one have in any moral or epistemic judgment made from an unexamined state of mind?",
@@ -582,5 +602,6 @@
     "suddhAdvaita": "In Pushti-marga terms: when an opportunity for grace — an unexpected kindness, a moment of beauty, an invitation to rest — arrives and you dismiss it as a distraction or even a trap, that dismissal may be ajnana inverting prasada into threat. The practice is to receive small offerings fully before filtering them.",
     "bhakti": "Shridhara's upalaksana framing suggests a daily audit practice: 'Where today did I experience fear where there was safety, or safety where there was actual risk? Where did I feel aversion toward what was genuinely good for me?' The triple inversion (iccha-dvesha, dharma-adharma, bhaya-abhaya) gives three concrete domains to check each evening.",
     "advaita-bhakti": "Madhusudhana's 'opposition to discernment of distinctions' points to a specific cognitive trap in modern life: treating nuanced situations as binary. When you find yourself insisting a complex situation is simply good or bad, right or wrong, friend or enemy, that flattening may be the vishesadarshanavirodhina defect active. The cure is to name at least two genuine distinctions before acting."
-  }
+  },
+  "primary_meaning": "The intellect shrouded in *tamas*, Arjuna, calls wrong right and perceives all things as their opposites. That is *tāmasī buddhi*."
 }

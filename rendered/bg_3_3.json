@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -241,7 +241,7 @@
     },
     {
       "surface_form": "proktā",
-      "lemma": "pravac",
+      "lemma": "pra-√vac",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -755,13 +755,6 @@
       ]
     },
     {
-      "list": "ब्रह्मण्याधाय कर्माणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.10"
-      ]
-    },
-    {
       "list": "भगवान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -776,34 +769,10 @@
       ]
     },
     {
-      "list": "भोक्तारं यज्ञतपसाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.29"
-      ]
-    },
-    {
-      "list": "मयि सर्वाणि कर्माणि संन्यस्य",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30"
-      ]
-    },
-    {
       "list": "मानना",
       "role": "supporting",
       "other_verses_in_list": [
         "7.12"
-      ]
-    },
-    {
-      "list": "मैं हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.13",
-        "4.3",
-        "4.38",
-        "6.25"
       ]
     },
     {
@@ -844,7 +813,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "proktā: pravac -> pra-√vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If karma-yoga and jñāna-yoga are sequential stages of a single path (Śaṅkara, Śrīdhara, Madhusūdana), what observable signal tells a practitioner they have completed the first stage and may enter the second — and who adjudicates that transition?",
@@ -862,5 +842,6 @@
     "śuddhādvaita": "Vallabha's grace-distribution reading removes the anxious self-audit that Śaṅkara's sequential model can generate. The practitioner need not constantly measure whether they have completed karma-yoga and may now 'advance' to jñāna-yoga. Kṛṣṇa's prasāda places each person on the appropriate path; the task is wholehearted engagement with the path one finds oneself on, not restless migration between them.",
     "bhakti": "Śrīdhara's one-niṣṭhā-two-modes reading cures a common confusion: people who have begun contemplative practice and find it interrupted by life-duties interpret the interruption as spiritual failure. Śrīdhara says the duties ARE the practice at that stage — antaḥkaraṇa-śuddhi is the work, not a detour from the work. The sign of completion is not a dramatic breakthrough but a steady, natural disinclination toward sense-objects.",
     "advaita-bhakti": "Madhusūdana's grammatical argument — one niṣṭhā, two stages — carries a practical corollary: the practitioner should hold both stages in a single vision rather than treating them as alien regimes. Karma-yoga is not abandoned at the jñāna stage; its form changes. The executive who reaches equanimity does not stop making decisions — they make them from a different ground. The grammar of singular niṣṭhā is the grammar of continuous practice."
-  }
+  },
+  "primary_meaning": "Long ago I declared two paths in this world: knowledge-yoga for those who have renounced, and action-yoga for those still engaged in work."
 }

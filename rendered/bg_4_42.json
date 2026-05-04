@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "saṃbhūtam",
-      "lemma": "sambhū",
+      "lemma": "sam-√bhū",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "ātiṣṭha",
-      "lemma": "āsthā",
+      "lemma": "ā-√sthā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "uttiṣṭha",
-      "lemma": "utthā",
+      "lemma": "ut-√sthā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -480,15 +480,6 @@
       ]
     },
     {
-      "list": "न योत्स्ये",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.46",
-        "2.7",
-        "11.32"
-      ]
-    },
-    {
       "list": "योगम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -500,15 +491,6 @@
         "9.5",
         "11.8",
         "12.11"
-      ]
-    },
-    {
-      "list": "समत्वं योग उच्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48",
-        "6.9",
-        "8.8"
       ]
     }
   ],
@@ -539,7 +521,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ātiṣṭha: āsthā -> ā-√sthā",
+          "uttiṣṭha: utthā -> ut-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "saṃbhūtam: sambhū -> sam-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Kṛṣṇa name the sword jñāna-asi (jñāna-sword) rather than simply saying 'know the truth' — what does the sword metaphor add to the epistemology of doubt-removal?",
@@ -557,5 +558,6 @@
     "śuddhādvaita": "In creative work or any domain where the inner critic (the Sāṅkhya-intellect cataloguing what 'you' are capable of) blocks forward motion: Vallabha's point is that the doubt belongs to the non-self. Cut it not by arguing with it but by recognising it as the wrong subject's concern. Then act — not because you are ready, but because Kṛṣṇa's anugraha (grace-push) is already moving through you when you stop blocking it.",
     "bhakti": "When grief or anxiety has generated a secondary layer of confusion ('I don't know what to do'), Śrīdhara's structural reading is practically useful: the grief-cause and the doubt are sequential — address the viveka (discriminate body from self) first, and the doubt that feeds on the grief loses its ground. Then take up the next dharmic act (the 'battle' specific to your constitution). The address 'Bhārata' is the reminder: your svadharma is already encoded in who you are.",
     "advaita-bhakti": "Madhusūdana's insight that the doubt lives in the buddhi as 'an enemy in one's own fortress, easily slain' is directly applicable to inner conflict about spiritual practice itself — the doubt about whether one is doing it right, whether bhakti is real, whether jñāna is accessible. His answer: the enemy is inside and therefore exposed. Bring niścaya (certainty, not false confidence) about the ātman to bear — even a moment of genuine śraddhā is the sword entering the fortress. Then act."
-  }
+  },
+  "primary_meaning": "Cut the doubt born of ignorance that lives in your own heart, using the sword of Self-knowledge, then take up your yoga and rise to fight, Arjuna."
 }

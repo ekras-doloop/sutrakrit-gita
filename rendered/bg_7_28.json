@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "gatam",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "nirmuktāḥ",
-      "lemma": "nirmuc",
+      "lemma": "nir-√muc",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -106,7 +106,7 @@
     },
     {
       "surface_form": "bhajante",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -308,8 +308,8 @@
         "jayatirtha_7.28"
       ],
       "score": 0.5,
-      "divergence_note": "Bhāṣya is extremely sparse; rendering is anchored in Madhva's documented doctrinal framework rather than elaborate commentary prose. Flagged as thin bhāṣya basis.",
-      "english_rendering": "Contrasting those who remain in moha, Madhva tersely marks this verse as describing those who are 'viparīta' — the contrary type, ones whose pāpa has been burned off precisely because they are constituted for devotion to Hari. In Dvaita's schema the jīva is eternally distinct from Brahman; sin here is not merely cognitive but ontological — a real obstruction whose removal reveals the jīva's intrinsic dependence. Worship (bhajana) is not a means to knowledge but the very mode of the finite self's existence before its infinite Lord."
+      "divergence_note": "Re-anchored to Madhva's *viparītāś ca* gloss and Jayatīrtha's resolution of the *gatārtha* objection and the *māyā-karaṇa-akāraṇatva / sva-doṣa* dilemma. Sanskrit phrases quoted verbatim from the bhāṣya.",
+      "english_rendering": "*Viparītāś ca kecit santi* — there are also those of the contrary kind: this is what the verse announces. Madhva's gloss is a single move: having named four types of devotees at 7.16, the following verse (*uttaraṃ vākyam*) might seem redundant (*gatārtha*); Jayatīrtha answers that it is not, for a fresh doubt requires resolution. If *sarva-bhūtāni sammohaṃ yānti* — all beings fall into delusion — then the path of liberation (*mukti-mārgaḥ*) would seem foreclosed. The verse counters: *dvandva-moha-rahitāś ca kecit santi* — some indeed exist who are free of *dvandva-moha* (the delusion born of the pairs of opposites). These are the *puṇya-karmaṇaḥ* whose *pāpa* has reached its end (*anta-gataṃ pāpam*). A second question is also settled: does the *jīva* fail to seek Hari because *māyā* has no cause in Hari (*tvat-prapatter māyā-karaṇa-akāraṇatvāt*), or because of the *jīva*'s own fault (*sva-doṣāt*)? The verse answers that the obstruction is real and belongs to the *jīva* — *pañca-bheda* intact, the *paratantra jīva* distinct from *svatantra* Hari. When that real obstruction is gone, *bhajante māṃ dṛḍha-vratāḥ*: they worship with firm resolve, *bhakti* being the *jīva*'s own proper mode before its Lord."
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -354,14 +354,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "क्षिप्रं भवति धर्मात्मा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.30",
-        "9.31"
-      ]
-    },
-    {
       "list": "मदाश्रयः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -374,13 +366,6 @@
       "other_verses_in_list": [
         "7.1",
         "9.34"
-      ]
-    },
-    {
-      "list": "योगं युञ्जन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.1"
       ]
     }
   ],
@@ -411,7 +396,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gatam: gam -> √gam",
+          "nirmuktāḥ: nirmuc -> nir-√muc",
+          "bhajante: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If meritorious action across many births is the precondition for freedom from dvandva-moha, what does this say about the role of incremental virtue — does it accumulate like capital, or does some threshold-crossing moment exhaust the obstruction?",
@@ -429,5 +426,6 @@
     "śuddhādvaita": "Vallabha's teaching removes the burden of self-construction from the spiritual life. The everyday application is not 'I must accumulate merit' but 'What is obstructing the grace that is already flowing?' When you notice the absence of delight, spontaneity, or openness in your practice or work, the question is: what pratibandhaka (blocker) is present? Name it specifically — resentment, comparison, exhaustion — and remove it. The worship then resumes on its own.",
     "bhakti": "Śrīdhara's ekāntin points at the quality of undivided attention. In daily practice this means choosing one thread of engagement — a relationship, a craft, a form of service — and following it without hedging. The habitual splitting of attention between competing loyalties is itself a form of dvandva. Becoming an ekāntin in any domain — fully present without one eye on alternatives — is the embodied form of dṛḍha-vrata.",
     "advaita-bhakti": "Madhusūdana's framing — pāpa as blocking knowledge, not merely conduct — makes the everyday application epistemic: notice where your reasoning is structurally biased by desire or fear. A business decision made under pressure of loss, a relationship assessment distorted by hope for approval — these are jñāna-pratibandhaka pāpa in action. The practice is to pause before conclusions arrived at in agitated states, wait for the instrument to clear, and then assess. Pramāṇa-janitā vijñānā (certainty born of valid means of knowledge) is available, but only after the distortion is removed."
-  }
+  },
+  "primary_meaning": "Those whose sins have run their course, purified by lives of good action, are free from the confusion of opposites and worship Me with unshaken resolve."
 }

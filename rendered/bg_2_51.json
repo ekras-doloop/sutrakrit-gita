@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "yuktāḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "vinirmuktāḥ",
-      "lemma": "vinirmuc",
+      "lemma": "vi-√nirmuc",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -533,7 +533,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktāḥ: yuj -> √yuj",
+          "vinirmuktāḥ: vinirmuc -> vi-√nirmuc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the precise difference between Śaṅkara's 'janmaiva bandhaḥ' (birth itself as bondage) and the more common reading that birth is merely the consequence of bondage — and does the distinction change what liberation practice looks like?",
@@ -551,5 +562,6 @@
     "śuddhādvaita": "Vallabha's reading suggests that the ordinary anxious pursuit of outcomes — career security, parental approval, relationship outcomes — is not neutral striving but the specific mechanism that conceals one's akṣara-svarūpa (one's essential nature as a spark of Kṛṣṇa's joy). The daily application is to treat each moment of fruit-release not as loss but as the lifting of a veil: when you stop insisting on the outcome, what remains is not emptiness but the ānanda (bliss) that was already present and obscured. In Puṣṭi-mārga terms, this is not achieved through effortful renunciation — effort itself can re-install svārtha (self-interest) — but through the continuing reception of Kṛṣṇa's prasāda, cultivated by remembrance and satsaṅga (company of the devoted).",
     "bhakti": "Śrīdhara's formulation 'kevalam Īśvarārādhana-artham eva karma kurvāṇāḥ' (performing action solely as worship of Īśvara) is a practical criterion for every action: ask, before acting, whether you are performing this for Īśvara's worship or for some other end, and be honest about the answer. In practice, few actions pass this test cleanly — most are mixed — and Śrīdhara's framework implies that the percentage that passes is precisely the measure of one's spiritual maturation. The movement from 'mostly self-serving with pious overlay' to 'genuinely offered' is the gradual purification that makes one, in Śrīdhara's terms, a true maniṣin (person of wisdom), and wisdom here is not intellectual mastery but the stable capacity to act without ownership.",
     "advaita-bhakti": "Madhusūdana's path requires holding two movements simultaneously in daily life: the bhakti movement of offering action to Kṛṣṇa (Īśvarārādhana), and the jñāna movement of recognizing through mahāvākya-s such as 'tat tvam asi' that the ātman performing those actions is non-different from Brahman. In practice, this means neither collapsing into pure devotional emotion (which can bypass the hard cognitive work of ātma-maniṣā) nor retreating into dry intellectual non-attachment (which can bypass the warming, stabilizing power of bhakti). When an action succeeds or fails, Madhusūdana's practitioner neither attributes it to personal agency nor dismisses it as illusory — they offer the outcome as Kṛṣṇa's, rest in the antaḥkaraṇa-śuddhi (purified inner instrument) that the offering produces, and let that purity be the soil in which ātma-tattva recognizes itself."
-  }
+  },
+  "primary_meaning": "Those who act with steady understanding, giving up the fruits that action breeds, break free from the bondage of rebirth and reach a state untouched by sorrow."
 }

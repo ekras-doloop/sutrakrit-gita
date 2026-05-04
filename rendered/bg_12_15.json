@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "udvijate",
-      "lemma": "udvij",
+      "lemma": "ud-√vij",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "udvijate",
-      "lemma": "udvij",
+      "lemma": "ud-√vij",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -114,7 +114,7 @@
     },
     {
       "surface_form": "muktaḥ",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -296,7 +296,8 @@
         "jayatirtha_12.15"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya's commentary on this verse is not attested in the available corpus (the payload records: 'Sri Madhvacharya did not comment on this sloka'). Drawing on the broader Dvaita framework: the jiva (individual soul) who is eternally distinct from Hari, and who acts solely as dependent worshipper (dasya-bhava), causes no disturbance to the world because his agency is entirely surrendered to Hari's will; equally, the world's actions cannot disturb him because his refuge is in Hari alone — harsha, amarsha, bhaya, and udvega presuppose a self-reliant jiva, and in true dasya that self-reliance has been relinquished. Such a devotee is dear to the Lord."
+      "english_rendering": "*Yasmān nodvijate lokaḥ*: the world does not recoil from him. *Lokān nodvijate ca yaḥ*: he does not recoil from the world. The *jīva* (individual self) who is *paratantra* (eternally dependent) on *svatantra* (independently real, self-sufficient) Hari has no self-generated agency from which *harṣa* (elation), *amarṣa* (resentment), *bhaya* (fear), or *udvega* (agitation) could arise. These four disturbances presuppose a *jīva* treating itself as self-sufficient — which, in *pañca-bheda* (the five-fold real distinction between Lord, *jīva*, and matter), is the defining error of *saṃsāra*. The *bhakta* established in *dāsya* (the station of servant) recognizes Hari as the sole *svatantra* agent; his own acts flow from and return to that dependence, and so produce no turbulence in others, nor do others' acts penetrate his equanimity. The *bheda* (real distinction) between Lord and *jīva* is not dissolved here — the *jīva* remains irreducibly distinct — but his *paratantra* nature is fully realized in action. *Sa ca me priyaḥ*: such a one is dear to the Lord. Proximity to Hari, within the *taratamya* (graded ontological hierarchy), increases with the completeness of that *paratantra* recognition.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -344,13 +345,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "दैवी संपद्विमोक्षाय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.16"
-      ]
-    },
-    {
       "list": "भक्तः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -385,29 +379,6 @@
       "other_verses_in_list": [
         "12.19"
       ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "9.34",
-        "10.20",
-        "11.54"
-      ]
     }
   ],
   "audit_trail": {
@@ -437,7 +408,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "udvijate: udvij -> ud-√vij",
+          "udvijate: udvij -> ud-√vij",
+          "muktaḥ: muc -> √muc"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between not causing disturbance and causing no occasion for disturbance — and why does BG 12.15 insist on both directions simultaneously?",
@@ -455,5 +438,6 @@
     "shuddhadvaita": "Vallabha's maitri framing offers a specific application: when correcting someone — a child, a student, a report — ask whether the correction arises from maitri (care for their growth) or from amarsha (intolerance of their imperfection). The world does not recoil from maitri-correction; it recoils from correction that is actually disguised amarsha. This distinction is actionable in every feedback conversation.",
     "bhakti": "Sridhara's precise definition of udvega — anxious agitation caused by threats — maps onto the modern experience of anticipatory anxiety: the mind running ahead to imagine dangers that have not arrived. The bhakti practice is to return to the present seva (service or task at hand), which is always concrete and bounded, rather than the imagined future, which is always unbounded and therefore terrifying.",
     "advaita-bhakti": "Madhusudana's observation that the liberated one is 'unfit' for these four vrttis — that they leave him rather than being driven out — points to a long-term developmental framing: the goal is not to fight harsha, amarsha, bhaya, and udvega each time they arise, but to build the Advaita-darshana and the bhakti that make one progressively less fertile ground for these vrttis. Each genuine recognition of non-difference reduces their frequency and intensity without a single act of suppression."
-  }
+  },
+  "primary_meaning": "The one from whom the world shrinks not, and who shrinks not from the world, free from elation, resentment, fear, and anxious agitation, is dear to me."
 }

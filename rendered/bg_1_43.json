@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "utsādyante",
-      "lemma": "utsāday",
+      "lemma": "ut-√sāday",
       "grammar": "present indicative pass 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -258,8 +258,9 @@
         "jayatirtha_1.43"
       ],
       "score": 0.5,
-      "english_rendering": "The uprooting of jāti-dharmas and kula-dharmas through the faults of family-destroyers is, in Madhva's framework, a real disorder in the world of dependent beings (paratantra jīvas). Every varṇa-dharma is ultimately Hari's ordinance; to subvert it through war-driven varṇa-saṃkara is to act against His command. Arjuna's grief here is theologically significant — it is not mere sentimentality but a correct perception that svadharma matters — yet he errs in applying it as a reason for inaction, since Hari's explicit command supersedes every conventional dharma-consideration.",
-      "divergence_note": "ABSENT — Madhvācārya's commentary begins at 2.11; this rendering extrapolates from Madhva's consistent paratantra-jīva and Hari-ordains-dharma theology."
+      "english_rendering": "*Doṣaiḥ* (faults) wrought by *kula-ghnānāḥ* (family-destroyers) produce *varṇa-saṃkara* (caste-mixture), and thereby *utsādyante* — are uprooted — the *jāti-dharmāḥ* (duties proper to birth-communities) and the *kula-dharmāḥ* (ancestral family-duties) that are *śāśvatāḥ* (eternal). For Madhva's *siddhānta*, every *dharma* of *varṇa* and *jāti* is Hari's own ordinance, imposed on *paratantra* *jīvas* whose very being is dependence on Him. *Varṇa-saṃkara* is not merely a social ill; it is a real ontological disorder among dependent creatures, a violation of the graded order — *taratamya* — through which Hari governs the *jīva*-world. Arjuna perceives something true: *kula-dharma* and *jāti-dharma* are not conventional fictions but real structures within the *pañca-bheda* order, and their subversion constitutes genuine transgression against Hari's command. Yet his perception is incomplete, for he does not yet see that Hari's direct injunction to fight must supersede every particular *dharma*-consideration, and that the *paratantra jīva*'s sole rectitude is unconditional subordination to *svatantra* Hari's will.",
+      "divergence_note": "Madhvācārya and Jayatīrtha are silent on BG 1.1–2.10; the reading is voiced directly from Madhva's *paratantra*-*jīva*, *taratamya*, and Hari-ordains-*dharma* *siddhānta* applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -268,8 +269,9 @@
         "vallabha_1.43"
       ],
       "score": 0.5,
-      "english_rendering": "In the Puṣṭi-mārga reading, even Arjuna's anguish about uprooted kula-dharmas is held within Kṛṣṇa's līlā (divine play). The destruction of jāti-dharmas is not a tragedy outside the Lord's orchestration — it is the precise condition that will make Arjuna a fit vessel for the Gītā's gift of grace (prasāda). Arjuna's cataloguing of social collapse is itself part of the drama Kṛṣṇa has arranged so that knowledge-as-grace may be given, not earned.",
-      "divergence_note": "ABSENT — Vallabhācārya explicitly did not comment on 1.43-1.44; this rendering draws on his Puṣṭi-mārga theology of prasāda and līlā as applied to the chapter's arc."
+      "english_rendering": "*Doṣaiḥ* (the faults) of the *kula-ghna* (destroyers of the family line), which produce *varṇa-saṃkara* (intermixture of social orders), uproot the *jāti-dharmāḥ* (birth-ordained duties) and the *kula-dharmāś ca śāśvatāḥ* (eternal clan-duties). In *śuddhādvaita*, the world in which these *dharma*-structures stand is no illusion: it is Brahman's own real manifestation, a living expression of *puṣṭi* (sustaining grace). The *kula-dharma* is therefore genuinely sacred — not a provisional social arrangement to be dissolved by *jñāna*, but a real order sustained by the Lord's own power. Arjuna's grief at its destruction is proportionate to its reality. Yet the same *puṣṭi-mārga* (path of grace) that consecrates these structures also moves entirely by Kṛṣṇa's free *anugraha* (grace): what the Lord gives, the Lord may also reorder. Arjuna, still bound by self-reliant *sva-dharma* reckoning, has not yet surrendered through *brahma-sambandha* (consecrated relation to Brahman) into the Lord's will. His cataloguing of social ruin is the speech of one who measures loss by his own account. The *puṣṭi* response is not to deny the weight of *kula-dharma*, but to place both its integrity and its dissolution entirely in Kṛṣṇa's hands — *sevā* (loving service) rather than grief as the fitting posture before whatever the Lord ordains.",
+      "divergence_note": "Vallabhācārya is silent on this verse. The reading applies śuddhādvaita siddhānta directly to the mūla: the reality of kula-dharma as Brahman's manifestation, the absence of māyā-doctrine, and the puṣṭi-mārga move from self-reckoning grief toward anugraha-surrender.",
+      "provenance": "siddhānta_reconstruction"
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -342,7 +344,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "utsādyante: utsāday -> ut-√sāday"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When Arjuna says 'eternal kula-dharmas are uprooted' — is he defending sacred order or rationalizing avoidance of a hard duty? How does the text distinguish between the two?",
@@ -360,5 +372,6 @@
     "śuddhādvaita": "The Puṣṭi-mārga reading invites you to reframe your worst social or institutional losses — the collapse of a tradition, a community fracture — as part of a larger orchestration you cannot yet see. This is not passive resignation; it is the practice of seeing disruption as the cleared ground where grace (prasāda) can arrive, unrequested and unearned.",
     "bhakti": "Arjuna's argument is a model of reverence for received wisdom: he does not invent a private ethics but appeals to what lineage-keepers have always known about pindas, ancestors, and ritual continuity. In daily life, before discarding a family or community practice as outdated, the bhakti-philological instinct asks: what chain of care does this practice sustain, and who loses pindas if it stops?",
     "advaita-bhakti": "Madhusūdana's key move is epistemic humility: 'we have heard this from teachers, we did not reason it ourselves.' In your own life, when you are making a high-stakes argument about consequences — moral, social, professional — ask whether you are drawing on transmitted wisdom or on your own inference. Citing the paramparā honestly ('my tradition teaches X') is stronger and more honest than presenting inherited knowledge as private discovery."
-  }
+  },
+  "primary_meaning": "These faults of the family-destroyers, which cause the mixing of social orders, uproot the duties of birth-communities and the eternal duties of the clan."
 }

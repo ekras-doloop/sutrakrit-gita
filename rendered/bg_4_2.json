@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "prāptam",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -192,7 +192,7 @@
     },
     {
       "surface_form": "naṣṭaḥ",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -449,18 +449,6 @@
       ]
     },
     {
-      "list": "नाभावो विद्यते सतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.16",
-        "3.17",
-        "4.3",
-        "4.20",
-        "6.1",
-        "6.40"
-      ]
-    },
-    {
       "list": "प्राप्त",
       "role": "supporting",
       "other_verses_in_list": [
@@ -498,7 +486,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāptam: prāp -> √prāp",
+          "viduḥ: vid -> √vid",
+          "naṣṭaḥ: naś -> √naś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If an unbroken paramparā (lineage) is the necessary vehicle for yoga's preservation, what is the epistemic status of practice received outside any recognized lineage — is it yoga at all, or merely its approximation?",
@@ -516,5 +516,6 @@
     "śuddhādvaita": "Vallabha's avyaya-phalatvāt (imperishable fruit) means that grace-infused practice cannot ultimately be lost, even through historical rupture. The application is radical trust: when a devotional practice feels hollow or historically broken, treat the hollowness as invitation rather than evidence of failure. Kṛṣṇa as the yoga's own speaker is always already present; the transmission gap is in your reception, not in the source.",
     "bhakti": "Śrīdhara's concrete, unadorned reading invites a simple audit: from whom did you actually receive what you practice, and can you name the chain back at least two or three links? Nimi received from Ikṣvāku's sons — transmission was person-to-person, not abstract. If you cannot name your receivers, spend time this week identifying the living or historical figures whose hands your practice passed through.",
     "advaita-bhakti": "Madhusūdana's triple anādi (beginningless Veda-root, infinite fruit, eternal lineage) is an antidote to the modern suspicion that received wisdom is 'merely cultural.' When self-doubt or cynicism frames your inherited practices as arbitrary constructions, apply his test: does this practice have veda-mūlatva (rootedness beyond any single cultural moment), ananta-phala (fruit that exceeds any single life), and guru-paraṃparā (a verifiable chain of transmission)? If yes, Bhagavān's grief at its loss is your signal that it is worth recovering."
-  }
+  },
+  "primary_meaning": "The royal sages received this yoga through an unbroken lineage, but over the long passage of time it was lost, Arjuna."
 }

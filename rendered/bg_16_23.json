@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "vartate",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "avāpnoti",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -359,8 +359,9 @@
         "jayatirtha_16.23"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this verse (payload flags: 'Sri Madhvacharya did not comment on this sloka'). The Dvaita rendering is therefore a doctrinal projection from Madhva's established positions rather than a direct bhashya reading. In Dvaita, jiva is eternally and absolutely distinct from Hari; all action that has Hari as its prayojana (ultimate purpose) and is grounded in Vedic vidhi constitutes legitimate worship. Abandoning shastra-vidhi is therefore abandonment of the very channel through which Hari's grace flows to the dependent jiva; the triple privation — no siddhi, no sukha, no para gati — follows necessarily because the jiva has cut itself off from the only source of all three.",
-      "divergence_note": "No direct Madhva bhashya available for this verse. Projection based on Madhva's consistent position across BG 3.35, 16.1-3 that Vedic vidhi is Hari's binding ordinance and its transgression severs the jiva's access to prasada."
+      "english_rendering": "*Śāstra-vidhi* (the binding scriptural ordinance) is Hari's own will made accessible to the *paratantra* *jīva* (eternally dependent individual self). The one who, driven by *kāma-kārataḥ* (self-willed desire, acting from one's own impulse alone), abandons that ordinance — *utsṛjya* — has severed the very conduit through which *svatantra* (the independently real, self-sufficient) Hari extends *prasāda* downward through the *taratamya* (graded ontological hierarchy). The triple privation the verse names is not arbitrary: *siddhi* (spiritual accomplishment), *sukha* (genuine happiness), and *parā gatiḥ* (the highest destination) are each wholly dependent on Hari's will, and none accrues to the *jīva* through its own autonomous exertion. The *pañca-bheda* (the five-fold real distinction) between Lord, *jīva*, and matter is not dissolved by transgression — the *jīva* remains what it is — but *bhakti* as ontological subordination to Hari requires the *śāstra* as its outer form; without that form, the *jīva* wanders, dependent still, yet cut off from the source of all three goods it seeks.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya extant for this verse. Reading reconstructed from Madhva's consistent dvaita siddhānta: śāstra-vidhi is Hari's ordinance binding on all paratantra jīvas, and its transgression through kāma-kārata interrupts the prasāda-channel established across BG 3.35 and 16.1–3.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -467,7 +468,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vartate: vṛt -> √vṛt",
+          "avāpnoti: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If shastra-vidhi is the sole means of obtaining tattva-jnana, what happens to the sincere seeker who inherits no living shastra tradition — does the verse diagnose a structural deprivation or only a volitional transgression?",
@@ -485,5 +497,6 @@
     "shuddhadvaita": "Krsna's grace in Pushti-marga arrives through the specific forms Krsna has ordained — the seva-krama, the liturgical order. Improvising your own devotional form because it 'feels more authentic' bypasses the very channel through which Krsna chooses to give himself. Authenticity here means fidelity to the ordained form, not innovation.",
     "bhakti": "The triple loss Sridhara identifies — knowledge, inner quiet, liberation — maps onto three registers you can observe in daily life: a person who consistently acts from impulse rather than reflective discipline tends to understand less over time, feels more agitated not less, and drifts further from what they most deeply want. The verse is a phenomenological description, not only a prescription.",
     "advaita-bhakti": "Madhusudana's double scope of shastra — both the injunction-track and the Brahman-revelation-track — suggests that abandoning rigorous study (the Upanishadic shastra) and abandoning ethical discipline (the vidhi-nishedha shastra) are the same failure at different registers. The person who says 'I am spiritual but not religious' may be abandoning both simultaneously: the purifying discipline and the cognitive access to what is real."
-  }
+  },
+  "primary_meaning": "Whoever discards the rule of scripture and lives by desire alone gains no fulfillment, no happiness, and no highest destination."
 }

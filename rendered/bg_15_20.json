@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "syāt",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -198,7 +198,7 @@
     },
     {
       "surface_form": "kṛta",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -399,8 +399,9 @@
         "jayatirtha_15.20"
       ],
       "score": 0.5,
-      "english_rendering": "The most secret of all shastras — the teaching of Purushottama's absolute supremacy over both the perishable (kshara) and the imperishable (akshara) — has been declared by Me. One who grasps this becomes truly wise, knowing that the jiva (individual soul) is eternally dependent on and distinct from Hari, and that all obligatory duty finds its completion only in dependent worship of the Lord.",
-      "divergence_note": "ABSENT — the payload records 'Sri Madhvacharya did not comment on this sloka.' Rendering is extrapolated from Madhva's documented Dvaita framework for BG 15 as a whole (jiva-Brahman eternal distinction, Hari-sarvottamatva as the chapter's thesis)."
+      "english_rendering": "*iti guhyatamaṃ śāstram idam uktaṃ mayānagha* — Kṛṣṇa seals Chapter 15 by naming its teaching the most secret of all scriptures: that He, *Puruṣottama*, stands absolutely above *kṣara* (the perishable) and *akṣara* (the imperishable), and that this supremacy is not a speculative inference but a revealed *śāstra*-truth directly disclosed. *etad buddhvā buddhimān syāt* — to grasp this is itself the mark of true *buddhi*; the one who understands that the *jīva* is irrevocably *paratantra* (eternally dependent) on the *svatantra* (the independently real, self-sufficient) Hari, and that Lord–*jīva* *bheda* (real distinction) is not dissolved but confirmed at the chapter's summit, becomes *buddhimān*. *kṛta-kṛtyaś ca* — such a one is *kṛta-kṛtya*, all obligation fulfilled: because *bhakti* (devotion) as ontological subordination to Hari is the terminus of every prescribed duty. The *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) persists even after liberation; knowing Hari's *sarvottamatva* does not dissolve the knower into the known but secures the *jīva*'s eternal dependence as its very perfection. The address *anagha* (O sinless one) is not ornamental: only the *jīva* purified of *doṣa* can receive and hold the weight of this most secret disclosure.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on BG 15.20. The rendering draws the school's siddhānta from Madhva's bhāṣya on BG 15.16–18 (the three-fold *puruṣa* doctrine and *Puruṣottama-sarvottamatva*) and the consistent dvaita insistence that *kṛta-kṛtya* means completion-in-*bhakti*, not liberation-as-dissolution.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -440,7 +441,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -526,7 +527,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktam: vac -> √vac",
+          "syāt: as -> √as",
+          "kṛta: kṛ -> √kṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If knowing this teaching makes one krita-kritya ('one who has done all that is to be done'), what is the relationship between knowledge and action — does understanding replace the need to act, or transform how one acts?",
@@ -544,5 +557,6 @@
     "shuddhadvaita": "Vallabha's 'kim u vaktavyam' — 'what more need be said?' — is a posture, not just a rhetorical flourish. The Pushti-marga application: learn to recognize when grace has already landed and you are still waiting for it. Today, identify one area of life where the gift has been given and you have not yet received it — not because you lack it, but because you have not stopped asking for it.",
     "bhakti": "Sridhara's 'yo'pi ko'pi' ('whosoever, any person at all') is the most democratizing phrase in the colophon. The bhakti application: the most secret teaching is available to anyone sinless enough to receive it — and sinlessness here is defined as 'anagha,' free from vice, which is a quality of attention and intention, not of birth. Today, carry the assumption that the person in front of you is qualified for depth.",
     "advaita-bhakti": "Madhusudana closes with a verse: 'I do not know any reality higher than Krishna.' The synthesis application is not to force a resolution between knowledge and love, but to let them converge at the point of completion. When you find yourself needing to choose between understanding something and loving it — pause. The colophon suggests that the deepest understanding and the fullest love point at the same thing."
-  }
+  },
+  "primary_meaning": "This most secret scripture I have now spoken in full, O sinless one; understand it and you become truly wise, with every duty fulfilled."
 }

@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "nivartate",
-      "lemma": "nivṛt",
+      "lemma": "ni-√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -416,7 +416,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "nivartate: nivṛt -> ni-√vṛt"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gītā list cosmological waypoints (smoke, night, dark fortnight, dakṣiṇāyana) rather than simply saying 'those who act for reward return'? What work does the mythological geography do that a bare doctrinal statement cannot?",
@@ -434,5 +444,6 @@
     "śuddhādvaita": "Vallabha's three-tier model (sātvikī/rājasī/tāmasī) is a diagnostic tool. At day's end, review your significant actions and classify each: was it kāmya (desired outcome), niṣiddha (prohibited), niṣkāma with Bhagavad-arpaṇa, or kṣudra (trivial habit)? The classification is not for guilt but for honest self-knowledge about which corridor you are actually building. Puṣṭi-mārga practice then redirects the rājasī impulses through joyful Kṛṣṇa-smaran (remembrance) rather than suppression.",
     "bhakti": "Śrīdhara's graduated soteriology makes the verse a planning framework: the quality of your liberation depends on the quality of your action now. The practical instruction is to pair any charitable or ritual act (iṣṭa-pūrta) with an act of upāsanā (contemplative practice), because iṣṭa-pūrta alone yields only temporary svarga. Even fifteen minutes of daily bhakti-oriented contemplation after external service shifts the trajectory from āvṛtti toward krama-mukti.",
     "advaita-bhakti": "Madhusūdana's rhetorical purpose — foil-to-glorify — suggests a meditative practice: whenever you feel the weight of cyclical effort (working hard, getting results, losing them, starting over), use that fatigue as a pointer. The exhaustion is sampāta — the karma depleting. Rather than doubling down on the effort, let the depletion become a doorway to Kṛṣṇa-bhakti, which Madhusūdana positions as the anāvṛtti path that ends the cycle. Weariness with return is itself a form of viveka (discernment)."
-  }
+  },
+  "primary_meaning": "Traveling by the path of smoke, night, the dark fortnight, and the six southern months, the soul reaches the lunar world, enjoys its merit there, and returns."
 }

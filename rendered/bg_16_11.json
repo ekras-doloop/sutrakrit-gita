@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "upāśritāḥ",
-      "lemma": "upāśri",
+      "lemma": "√upāśri",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "niścitāḥ",
-      "lemma": "niści",
+      "lemma": "ni-√ści",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -378,7 +378,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upāśritāḥ: upāśri -> √upāśri",
+          "niścitāḥ: niści -> ni-√ści"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between healthy planning and the 'boundless anxiety' (chinta aparimeya) the verse diagnoses — where does one shade into the other?",
@@ -396,5 +407,6 @@
     "śuddhādvaita": "Vallabha's Pushti frame reframes burnout: exhaustion that ends only at death is the signature of someone extracting rather than receiving. The corrective is not to want less but to shift from extracting bhoga to receiving it as Krishna's prasada — the same food, the same work, but held differently.",
     "bhakti": "Sridhara names the Charvaka formula most people silently operate by: 'I am desire plus consciousness, and desire-satisfaction is the only real goal.' The devotional practice he implies is to consciously name that formula when it arises — 'kama evaikah purusharthah is running me right now' — because named, it loses some of its automatic grip.",
     "advaita-bhakti": "Madhusudana's 'yoga-kshema strategizing' maps precisely onto the modern experience of constant financial anxiety and status maintenance. His synthesis suggests the exit is not ascetic withdrawal but the 9.22 move: hand the yoga-kshema calculus to Krishna explicitly, which frees attention for jnana and bhakti rather than perpetual logistical management of the self."
-  }
+  },
+  "primary_meaning": "Bound to anxious scheming that lasts until death, they are settled in their conviction that sensory pleasure is the only aim worth having."
 }

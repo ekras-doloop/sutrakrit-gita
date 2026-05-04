@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "pravartate",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -176,7 +176,7 @@
     },
     {
       "surface_form": "bhajante",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -542,7 +542,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravartate: pravṛt -> pra-√vṛt",
+          "bhajante: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa is the prabhava (source) of all, does that make individual effort (puruṣārtha) illusory, or does it reframe effort as participation in the source's own activity?",
@@ -560,5 +571,6 @@
     "śuddhādvaita": "Choose one ordinary daily act — making tea, setting a table, sending a routine email — and perform it as sevā (service) to Kṛṣṇa rather than as a task to complete. Vallabha's Puṣṭi-mārga insists bhajana is not reserved for the prayer room; brahma-sambandha means the entire day is a field of offering. The test: does the act feel lighter or heavier? Lightness is the sign that the dedicatory frame has taken hold.",
     "bhakti": "When you encounter a person of extraordinary capacity — an artist, a scientist, a teacher — rather than envy or mere admiration, practice Śrīdhara's recognition: this specific excellence is Kṛṣṇa's vibhūti flowing through a particular channel. Bhṛgvādirūpa-vibhūti-dvāreṇa means greatness is always a transparency. Let that recognition convert the envy into prīti (loving delight in the manifestation), which is the bhāva Śrīdhara identifies.",
     "advaita-bhakti": "In moments of creative absorption — writing, designing, cooking, playing music — notice when the sense of a separate doer drops and the work moves through you. Madhusūdana's antaryāmin frame names this: the inner controller driving all motion within proper bounds. Do not explain it away as flow-state psychology; sit with it as a direct encounter with the source-verse's claim, and let the recognition deepen into the prema that he insists is inseparable from correct understanding."
-  }
+  },
+  "primary_meaning": "I am the origin of everything, and from me alone all of it flows. Knowing this, the wise worship me with devotion."
 }

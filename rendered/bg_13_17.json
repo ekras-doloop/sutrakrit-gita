@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "viṣṭhitam",
-      "lemma": "viṣṭhā",
+      "lemma": "vi-√ṣṭhā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -493,7 +493,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac",
+          "viṣṭhitam: viṣṭhā -> vi-√ṣṭhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the light by which I perceive everything is itself imperceptible to ordinary perception, what would it mean to 'know' it — and who would be doing the knowing?",
@@ -511,5 +522,6 @@
     "shuddhadvaita": "Notice any creative act today — a conversation, a decision, a small making. Vallabha's reading says that act is Krishna's 'bahu syam' playing through you: the many-from-one movement. Receive the act as prasada (gift already given) rather than as your production, and the iccha (will) behind it as His lila rather than your effort.",
     "bhakti": "Sridhara's ocean-foam image is practical: the next time you feel estranged from what you love or from your own goodness, remember that the foam never actually left the ocean. The heart that houses the jneya is the same heart currently feeling estranged. Let that recognition — not a technique — be the return.",
     "advaita-bhakti": "Madhusudana's synthesis is a daily koan: the same Bhagavan who is cause of all arising and dissolution is seated right here. Use this in moments of anxiety about outcomes: what is fearing loss is a jar-shaped appearing of space; what is actually here is the light that outshines all lights. Hold both the devotional warmth and the non-dual clarity — let neither erase the other."
-  }
+  },
+  "primary_meaning": "That light of lights, declared beyond darkness, is itself knowledge, the knowable, and what knowledge reaches, seated in the heart of every being."
 }

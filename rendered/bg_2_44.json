@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "prasaktānām",
-      "lemma": "prasañj",
+      "lemma": "pra-√sañj",
       "grammar": "genitive masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "apahṛta",
-      "lemma": "apahṛ",
+      "lemma": "a-√pahṛ",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -172,7 +172,7 @@
     },
     {
       "surface_form": "vidhīyate",
-      "lemma": "vidhā",
+      "lemma": "vi-√dhā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -510,7 +510,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prasaktānām: prasañj -> pra-√sañj",
+          "apahṛta: apahṛ -> a-√pahṛ",
+          "vidhīyate: vidhā -> vi-√dhā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the very Vedic speech that should orient the student toward liberation can itself become the instrument of bondage, what distinguishes a transformative Vedic teaching from one that merely cements samsāric desire?",
@@ -528,5 +540,6 @@
     "śuddhādvaita": "Vallabha's reading — the heart as the space where Kṛṣṇa's prasāda either can or cannot settle — suggests a concrete Puṣṭi-mārga practice for daily life: guard the hṛdaya as a physical site. When the day fills with desire for status, comfort, or recognition, the practitioner understands that this is not a moral failure requiring guilt but a spatial problem requiring clearing. The sevā (service) practice of the Puṣṭi path — arranging Kṛṣṇa's space, preparing his food, singing his names — functions precisely as this clearing, vacating the heart's occupancy so that Kṛṣṇa's own gift (puṣṭi, grace-nourishment) can enter without impediment.",
     "bhakti": "Śrīdhara's gloss — samādhi as parameśvara-aikāgrya-abhimukhatva (one-pointedness directed toward the Lord) — means that every loss of focus is a devotional re-direction problem, not merely an attentional one. In everyday bhakti practice, this reframes distraction: when your attention is seized by media, gossip, or ambition, you are not failing at concentration, you are orienting your citta away from its natural devotional vector. The corrective practice Śrīdhara implies is nāma-smaraṇa (remembrance of the divine name) precisely because it is the fastest instrument for repointing the citta's vector without requiring elaborate ritual preparation.",
     "advaita-bhakti": "Madhusūdana's distinction between bhoga-anugata śuddhi and jñāna-upayoginī śuddhi has a sharp practical implication: not all self-improvement is the same. Physical discipline, career excellence, social contribution, and even many spiritual practices can produce a real purification — but one that is fitted to more sophisticated enjoyment, not to liberating knowledge. The Madhusūdana discipline asks: is the clarity I am cultivating increasing my capacity for non-dual recognition (ahaṃ brahmeti avasthānam), or is it making me a more capable enjoyer of subtle pleasures? Performing the same act — meditation, seva, study — with phala-abhisandhi removed is not a small adjustment but a categorical shift in the kind of purification the act produces."
-  }
+  },
+  "primary_meaning": "Those whose minds are stolen away by craving for pleasure and lordship find that resolute understanding never settles into stillness."
 }

@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "dṛṣṭavān",
-      "lemma": "dṛś",
+      "lemma": "√dṛś",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -309,8 +309,9 @@
         "jayatirtha_11.53"
       ],
       "score": 0.5,
-      "english_rendering": "The verse establishes that Hari's sovereign form (viśvarūpa) is beyond all finite instruments of access — Vedic study, tapas, dāna, and yajña are instruments wielded by jīvas (souls eternally distinct from Brahman), and their inherent limitation reflects the irreducible ontological gap between jīva and Paramātman. No accumulation of meritorious action (puṇya) bridges this gap; only Hari's own grace (anugraha) extended through the jīva's dependent worship is sufficient. Arjuna saw what he saw not by his own merit but because Kṛṣṇa willed the disclosure. This is consistent with Madhva's broader insistence that mokṣa and darśana alike are Hari's unilateral gift, never earned.",
-      "divergence_note": "Madhva's commentary is absent for this verse ('Sri Madhvacharya did not comment on this sloka'). This rendering is inferred from Madhva's established dvaita framework applied to the verse's plain sense — flagged accordingly."
+      "english_rendering": "*Nāhaṃ vedair na tapasā na dānena na cejyayā* — by Vedas, by austerity, by gift, by sacrifice: none of these yields *evaṃ-vidha* (the form of this kind) *draṣṭum* (to be seen) as Arjuna has just seen. The instruments named are precisely the *paratantra* *jīva*'s highest reaches of self-exertion — Vedic recitation, *tapas*, *dāna*, *ijyā* — and the verse drives each to zero by the fourfold *na*. What the *jīva* accumulates by these means is *puṇya* of finite magnitude; what stands before Arjuna is *svatantra* Hari in sovereign self-disclosure. No sum of finite *puṇya* crosses the *bheda* (real distinction) between *paratantra* and *svatantra*, because the gap is not a distance to be covered but an ontological order — *pañca-bheda* is not a barrier erected by ignorance but the permanent structure of reality. *Dṛṣṭavān asi māṃ yathā*: Arjuna's seeing was not the fruit of his own instruments; it was Hari's *anugraha* (unilateral grace) moving through Arjuna's *bhakti* (devotion as ontological subordination). *Darśana* here is Hari's gift, not the *jīva*'s achievement, and this is consistent with *taratamya* (graded ontological hierarchy): even among *jīvas* of supreme *bhakti*, none reaches this *draṣṭum* except as Hari wills the disclosure.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta* — *pañca-bheda*, *taratamya*, and the doctrine that *mokṣa* and *darśana* alike are Hari's unilateral *anugraha*, never the *jīva*'s earned fruit.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -381,7 +382,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dṛṣṭavān: dṛś -> √dṛś",
+          "asi: as -> √as"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If four complete Vedas, extreme austerity, generous dāna, and elaborate sacrifice are all insufficient — what does 'insufficient' mean here: that they are wrong, or that they are in a different category from what is being sought?",
@@ -399,5 +411,6 @@
     "śuddhādvaita": "Vallabha's varaṇa (being chosen) points to the experience of calling or vocation: no amount of credential-building substitutes for the moment when something — a craft, a cause, a community — claims you. The Puṣṭi-mārga application is to stay open to being chosen rather than only cultivating the conditions for choice.",
     "bhakti": "Śrīdhara's spaṣṭārthaḥ (it is self-evident) is itself a practice: sometimes the clearest response to a situation is to stop explaining and let the thing speak for itself. In conversation, in teaching, in leadership — the bhakti-philological move is to trust that the truth, when properly presented, does not need footnotes.",
     "advaita-bhakti": "Madhusūdana's insight about paramadurlabhatva (supreme rarity) suggests that what is most real in a human life is also most rarely encountered — and that when it appears, no technique summoned it. The synthesis practice is to remain informed and prepared (the Advaita side: study, discern) while staying awake to the unrepeatable encounter that arrives without announcement (the bhakti side: presence, recognition)."
-  }
+  },
+  "primary_meaning": "Not through the Vedas, not through austerity, not through gifts, not through sacrifice can I be seen as you have seen me."
 }

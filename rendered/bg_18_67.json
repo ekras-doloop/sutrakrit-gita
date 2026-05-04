@@ -156,7 +156,7 @@
     },
     {
       "surface_form": "abhyasūyati",
-      "lemma": "abhyasūy",
+      "lemma": "√abhyasūy",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -298,7 +298,8 @@
         "jayatirtha_18.67"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary on this verse is not attested in the received corpus. Rendering constructed from Dvaita siddhanta: This teaching of Hari's absolute supremacy (svatantrya) must be withheld from the atapaska, who lacks the discipline of self-surrender, and from the abhakta, who does not recognize the eternal ontological distinction between jiva and Ishvara. The one who envies Bhagavan — refusing to acknowledge his unqualified paratva — is not merely unfit but actively opposed to the teaching's content; giving it to him would be to arm his error. Adhikara (qualification) here is not a social gate but an ontological one: only the jiva who has recognized his own paratantrata is capable of receiving the knowledge of Hari's svatantrya."
+      "english_rendering": "*Idaṃ* — this teaching of *Bhagavān*'s absolute *svatantra* (self-sufficient, independently real) lordship — is never to be spoken (*na vācyam*) to the *atapaska*, one who has not taken up the discipline of *tapas* (austerity) that purifies the *jīva* (individual self) for reception of *tattva*-knowledge; nor to the *abhakta*, one who withholds the ontological subordination of *bhakti* (devotion) that alone constitutes the *jīva*'s proper relation to Hari; nor to one who is *aśuśrūṣu*, who refuses the obedient hearing through which *paratantra* existence is acknowledged; nor to the one who bears *abhyasūyā* (envy, spite) toward *māṃ*, toward the *Bhagavān* himself. Each disqualification names a specific failure to recognize the *pañca-bheda* (the five-fold real distinction — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter) that structures all existence. The envious one does not merely misunderstand; he actively resists the *bheda* between his own *paratantra* status and Hari's *svatantra* supremacy — making him not merely unfit but opposed in the very orientation of his will. *Adhikāra* (qualification for instruction) is thus grounded in ontology: the *jīva* who has not accepted his own dependence cannot receive the knowledge of what Hari independently is.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -372,7 +373,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhyasūyati: abhyasūy -> √abhyasūy"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the teaching is restricted to the qualified, what is the teacher's responsibility when a student presents only partial qualification — bhakti present, shushrusha absent? Does partial qualification demand partial teaching, or silence?",
@@ -390,5 +401,6 @@
     "shuddhadvaita": "The deepest knowledge you carry — about your own experience, about what has brought you to where you are — is a prasada. It cannot be transferred by will alone; it flows when there is a prepared vessel. Spend time cultivating the vessel in those you mentor: create conditions of trust, discipline, and genuine care before offering what is most precious.",
     "bhakti": "Sridhara's svadharma-anushthana criterion offers a practical screen: is this person showing up consistently to the ordinary obligations of their life? A student who seeks the elevated teaching while neglecting the foundational duties is not ready for either. Help them first with what is in front of them.",
     "advaita-bhakti": "Madhusudana's triad — shushrusha (willingness to serve and listen), guru-bhakti (trust in the teacher-relationship), bhagavad-anurakti (love for what the teaching points toward) — offers a checklist for your own readiness as a student. Before seeking the next level of teaching, assess honestly whether all three are present in you, not just the most comfortable one."
-  }
+  },
+  "primary_meaning": "Do not speak this to one without austerity, without devotion, unwilling to listen, or who finds fault in me."
 }

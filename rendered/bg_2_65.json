@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "upajāyate",
-      "lemma": "upajan",
+      "lemma": "upa-√jan",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "prasanna",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -189,7 +189,7 @@
     },
     {
       "surface_form": "paryavatiṣṭhate",
-      "lemma": "paryavasthā",
+      "lemma": "pari-√sthā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -412,35 +412,7 @@
       ]
     },
     {
-      "list": "आत्मवश्यैः रागद्वेषवियुक्तैः इन्द्रियैः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
-    },
-    {
-      "list": "पाँचवें अध्यायके तीसरे श्लोकमें भगवान्ने कहा है कि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
-    },
-    {
-      "list": "प्रसन्नचेतसो ह्याशु बुद्धिः पर्यवतिष्ठते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
-    },
-    {
       "list": "प्रसादमधिगच्छति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
-    },
-    {
-      "list": "प्रसादे सर्वदुःखानां हानिरस्योपजायते",
       "role": "supporting",
       "other_verses_in_list": [
         "2.64"
@@ -522,20 +494,6 @@
       "other_verses_in_list": [
         "2.64"
       ]
-    },
-    {
-      "list": "विषयान् चरन्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
-    },
-    {
-      "list": "सर्वदुःखानां हानिः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.64"
-      ]
     }
   ],
   "audit_trail": {
@@ -565,7 +523,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "paryavatiṣṭhate: paryavasthā -> pari-√sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upajāyate: upajan -> upa-√jan",
+          "prasanna: prasad -> pra-√sad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Prasāda is the pivot: all schools agree it causes both duḥkha-hāni and buddhi-sthairya, yet they disagree on its source — is prasāda self-generated (Advaita), ātmāvalokana-enabled (Viśiṣṭādvaita), Hari-given (Dvaita), Kṛṣṇa's own śakti (Śuddhādvaita), or bhakti-catalyzed (Advaita-bhakti)? What is at stake in this disagreement about agency?",
@@ -583,5 +560,6 @@
     "śuddhādvaita": "Vallabha's reading removes the guilt from engagement with the world: the verse explicitly places prasāda within reach of one who still moves among viṣayas. The everyday application is to engage with full presence — food, work, music, relationship — but to engage as a channel of Kṛṣṇa's own līlā rather than as a consumer. When rāga and dveṣa are absent not through suppression but through recognition that Kṛṣṇa is the actual enjoyer, praśānti arises inside the engagement, not after it ends. Prājña-pratiṣṭhā (the stability of wisdom) is then not a future state to be won but the texture of the present action.",
     "bhakti": "Śrīdhara's sequential logic — prasāda → duḥkha-kṣaya → buddhi-sthairya — gives a reliable diagnostic: if buddhi feels unstable and you cannot tell why, trace backward. Is duḥkha still present? Then prasāda has not fully arrived. Is prasāda absent? Then the bhagavat-smaraṇa (remembrance of Bhagavān) that generates it has been displaced by distraction. The everyday practice is to restore smaraṇa first — a short japa, a conscious invocation, even a moment of nāmasmaraṇa — and observe whether prasāda follows, duḥkha loosens, and buddhi re-steadies. The verse functions as a self-diagnostic tool, not merely an inspirational statement.",
     "advaita-bhakti": "Madhusūdana's cascade (prasāda → buddhi-paryavasthāna → avidyā-nivṛtti → duḥkha-hāni) suggests that the most effective intervention in chronic suffering is not cognitive reframing but the cultivation of citta-prasāda through bhakti-rasa (the flavor of devotion). The luminosity that bhakti adds to what might otherwise be dry Advaita praxis — the difference between ākāśa as blank void and ākāśa as radiant with Kṛṣṇa's presence — is not a sentimental addition but, Madhusūdana argues, the very quality that makes the buddhi's settling stable rather than episodic. In daily terms: if clarity keeps slipping away, ask whether the clarity you are seeking is warm or cold — Madhusūdana's clinical finding is that cold clarity (knowledge without bhakti) loses its grip; warm clarity (jñāna suffused with bhakti-rasa) holds."
-  }
+  },
+  "primary_meaning": "In serenity, all suffering falls away, and for the one whose mind is at peace, wisdom quickly finds its footing."
 }

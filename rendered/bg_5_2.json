@@ -139,7 +139,7 @@
     },
     {
       "surface_form": "viśiṣyate",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -379,42 +379,10 @@
       ]
     },
     {
-      "list": "कर्मयोगो विशिष्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.12"
-      ]
-    },
-    {
       "list": "कर्मसंन्यास",
       "role": "supporting",
       "other_verses_in_list": [
         "5.4"
-      ]
-    },
-    {
-      "list": "मैं सेवक हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.21",
-        "4.23",
-        "4.38"
-      ]
-    },
-    {
-      "list": "यज्ञार्थ कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.20",
-        "4.23"
-      ]
-    },
-    {
-      "list": "लोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.39",
-        "3.20"
       ]
     },
     {
@@ -479,7 +447,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viśiṣyate: viśiṣ -> vi-√śiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If both paths genuinely lead to liberation, why does Kṛṣṇa bother ranking them — is the superiority of karma-yoga absolute or only contextual to Arjuna's adhikāra (qualification)?",
@@ -497,5 +475,6 @@
     "śuddhādvaita": "Vallabha's manasaiva-tyāgaḥ principle means you can remain fully engaged in worldly life — parenting, work, community — while holding those activities lightly in the mind. The outward form of karma-yoga is participation; the inward form is non-grasping. For someone in the householder phase this is not a compromise but the authoritative prescription: engage fully, possess nothing mentally.",
     "bhakti": "Śrīdhara's reading offers a diagnostic: if you are experiencing grief, confusion, or identity-crisis (deha-ātma-abhimāna), do not attempt to resolve it by stepping back from action. Enter karma-yoga instead — the discipline of purposeful, non-attached action systematically cuts the confusion that meditation alone, without a purified citta, cannot touch. Clarity follows purification; do not wait for clarity before acting.",
     "advaita-bhakti": "Madhusūdana's adhikāra-sampādakatva framing is a practical self-assessment tool: if sustained meditation or formal renunciation feels forced or produces aridity, that is a signal of missing adhikāra (qualification), not a signal to push harder into saṃnyāsa. Return to karma-yoga — consistent action offered without personal agenda — until the qualification for higher practices ripens organically. The path is self-revealing if you match practice to actual capacity."
-  }
+  },
+  "primary_meaning": "Both paths lead to the highest good, but karma-yoga surpasses mere renunciation of action for one not yet ready to relinquish it cleanly."
 }

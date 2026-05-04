@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "dhyāyataḥ",
-      "lemma": "dhyā",
+      "lemma": "√dhyā",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -205,7 +205,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -546,7 +546,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhyāyataḥ: dhyā -> √dhyā",
+          "uktam: vac -> √vac",
+          "uvāca: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If kāma compels even the unwilling, does moral responsibility survive? How do the schools differ in preserving or dissolving the agent's culpability?",
@@ -564,5 +576,6 @@
     "śuddhādvaita": "If you have tried repeatedly to change a behavior and cannot, Vallabha's disease-frame is compassionately accurate: straining harder will not cure what requires grace. The application is not passivity but a different kind of action — seek Kṛṣṇa's proximity (satsaṅga, kīrtana, sevā) rather than doubling down on self-discipline. Prasāda (grace received through proximity) dissolves what personal effort cannot.",
     "bhakti": "Śrīdhara's empirical observation is a useful diagnostic tool: if you have practiced restraint (viveka, discrimination) and still find the same pāpa-pravṛtti (pull toward harmful action) returning, do not conclude that your practice was wrong. Conclude, as Arjuna does, that there is a root not yet addressed. Treat the persistence of the pattern as information, not failure. Then take the question deeper — what compels this, beneath the surface habit?",
     "advaita-bhakti": "Madhusūdana's strategic logic applies to personal change: before designing an intervention, determine whether you are facing a multi-causal situation (requiring many parallel interventions) or a single-root situation (where one targeted change produces cascade improvement). Most people treat life problems as multi-causal when they are actually single-root. The vārṣṇeya address reminds us: invoke relationship, not just technique — bring the question to someone who has genuine affection for you, not merely expertise."
-  }
+  },
+  "primary_meaning": "Arjuna asks: what drives a person to sin even against his own will, O Krishna, as if compelled by force?"
 }

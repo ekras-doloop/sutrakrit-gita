@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "manye",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "vadasi",
-      "lemma": "vad",
+      "lemma": "√vad",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -248,7 +248,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -521,7 +521,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "manye: man -> √man",
+          "vadasi: vad -> √vad",
+          "viduḥ: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When you affirm something as true — in a conversation, a decision, a belief — is your affirmation grounded in the authority of the source, or in your own verification? What is the difference, and when does each matter?",
@@ -539,5 +551,6 @@
     "śuddhādvaita": "Vallabha's reading of Kṛṣṇa's self-disclosure within the circle of his own applies to the relational dimension of learning: certain knowledge is transmitted only within a relationship of trust and love. In practice: choose mentors and communities where you are genuinely known, not just evaluated; transformation happens inside the relationship, not from the outside.",
     "bhakti": "Śrīdhara's anugraha/nigraha reading invites a practical question about your orientation to any situation: are you positioned to receive what is being offered as gift, or are you approaching it as threat? The same meeting, the same feedback, the same constraint can operate as either — your orientation is not neutral.",
     "advaita-bhakti": "Madhusūdana's Keśava-etymology — Kṛṣṇa as the one who pervades even Brahmā and Rudra with compassion — is a daily reminder that the framework you inhabit is itself held within something larger. In practice: hold your own expertise lightly; even your best model of reality is encompassed by what you have not yet seen."
-  }
+  },
+  "primary_meaning": "All of this that you tell me, Keśava, I hold as truth, and neither the gods nor the demons know the manner of your arising, O Lord."
 }

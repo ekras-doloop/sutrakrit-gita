@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "āha",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -98,7 +98,7 @@
     },
     {
       "surface_form": "sthāpaya",
-      "lemma": "sthāpay",
+      "lemma": "√sthāpay",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -307,20 +307,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अच्युत सेनयोरुभयोर्मध्ये रथं स्थापय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.22"
-      ]
-    },
-    {
-      "list": "यावदेतान्निरीक्षेऽहं ৷৷ रणसमुद्यमे",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "1.22"
-      ]
-    },
-    {
       "list": "योद्धुकामान्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -395,7 +381,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āha: ah -> √ah",
+          "sthāpaya: sthāpay -> √sthāpay"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Arjuna use two divine epithets — Hṛṣīkeśa and Acyuta — in a single practical request to stop a chariot? What do these names signal about the nature of the action being asked for?",
@@ -413,5 +410,6 @@
     "śuddhādvaita": "Vallabha's bhāṣya reads Kṛṣṇa's sārathya as itself a form of līlā-prasāda — divine play in the shape of service. The Puṣṭi-mārga application is radical: whatever role you have accepted in another person's life (parent, colleague, teacher, friend), inhabit it as Kṛṣṇa inhabits the charioteer role — completely, joyfully, without diminishment of your own fullness. The moment you enter sārathya (stewardship for another) in this spirit, the relationship becomes prasāda-field rather than obligation-field.",
     "bhakti": "Śrīdhara's philological observation — that the two epithets Hṛṣīkeśa and Acyuta bracket the request — suggests a practice of intentional naming before asking for help. When you approach someone for assistance, address them by their actual strength, not merely by their role. Arjuna does not say 'charioteer, stop here' — he names the indriya-lord and the immovable one. In everyday terms: when you ask for help, lead with genuine recognition of what the other person actually is; that naming changes the quality of both the request and the response.",
     "advaita-bhakti": "Madhusūdana shows Arjuna pre-empting doubt by naming Acyuta at the close of the request: 'who could dislodge you?' In practice, this maps onto a method for sustaining commitment under pressure. When you are about to take a position in a difficult situation — professional, relational, ethical — identify your Acyuta anchor: the one value or relationship or understanding that cannot be dislodged in deśa (place), kāla (time), or vastu (circumstance). Name it explicitly before you act. Madhusūdana calls this removing the ābhāṣaka (shadow of doubt) before it can arise — a cognitive-devotional discipline, not merely an emotional reassurance."
-  }
+  },
+  "primary_meaning": "Arjuna said to Krishna: drive my chariot out between the two armies and hold it there, Acyuta."
 }

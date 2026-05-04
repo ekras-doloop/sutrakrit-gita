@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "yānti",
-      "lemma": "yā",
+      "lemma": "√yā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "visṛjāmi",
-      "lemma": "visṛj",
+      "lemma": "vi-√sṛj",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -398,7 +398,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -408,13 +408,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "अहं बीजप्रदः पिता",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10"
-      ]
-    },
     {
       "list": "कौन्तेय",
       "role": "supporting",
@@ -480,24 +473,6 @@
         "18.40",
         "18.59"
       ]
-    },
-    {
-      "list": "बहु स्यां प्रजायेय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10",
-        "9.4",
-        "9.5",
-        "9.8",
-        "9.24"
-      ]
-    },
-    {
-      "list": "भूतभावोद्भवकरो विसर्गः कर्मसंज्ञितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.3"
-      ]
     }
   ],
   "audit_trail": {
@@ -527,7 +502,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yānti: yā -> √yā",
+          "visṛjāmi: visṛj -> vi-√sṛj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all beings dissolve into prakriti at pralaya and are re-emitted unchanged in their essential ignorance, what is the soteriological point — is liberation (moksha) therefore possible only within a cycle, never at its end?",
@@ -545,5 +531,6 @@
     "shuddhadvaita": "Vallabha's kriya-shakti framing recasts the body and world not as obstacles to the divine but as the Lord's own activity-shadow. Practical upshot: stop treating the physical and material as spiritually inferior. In Pushtimarga, the daily routine — eating, working, resting — is itself seva if offered consciously. This week, choose one routine act and perform it as if it were the Lord's own prakriti playing through your hands, requiring no modification, only awareness.",
     "bhakti": "Shridhara's spare gloss points to detachment from cosmic drama rather than absorption in it. The bhakta's application: when the news cycle, organisational politics, or family dynamics cycle through creation-and-dissolution patterns, do not mistake the loop for the story. Practice: notice one recurring conflict or recurring enthusiasm in your life that has dissolved and re-emerged multiple times. Name it. Then ask what it would mean to serve through it rather than be carried by it.",
     "advaita-bhakti": "Madhusudana's synthesis — omniscient Ishvara distinguishing the undifferentiated at each new dawn — offers a frame for creative work. Every blank page, empty canvas, or new project is a kalpa-adi moment: undifferentiated potential (avibhaga) awaiting the discriminating act (vyanjana). Practice: before beginning any creative or analytical task, hold ten seconds of silence for the 'unmanifest phase,' then proceed as the instrument of the same power that re-emits worlds — not to inflate the ego, but to locate effort within something larger."
-  }
+  },
+  "primary_meaning": "At the end of each cosmic cycle, all beings dissolve back into my nature; at the start of the next, I send them forth again."
 }

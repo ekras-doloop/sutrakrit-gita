@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "udāhṛtaḥ",
-      "lemma": "udāhṛ",
+      "lemma": "ud-√āhṛ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -519,7 +519,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "udāhṛtaḥ: udāhṛ -> ud-√āhṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Purusottama is atyanata-vilaksana from both ksara and aksara, what does it mean in practice to 'relate' to him — can a finite being actually have a relationship with what is categorically beyond both bound and free?",
@@ -537,5 +547,6 @@
     "suddhadvaitabhakti": "When you catch yourself labelling an experience as 'bondage' or 'freedom', pause and ask whether those labels are describing reality or your current vantage point inside maya. Vallabha's point: even the map of bound-and-free is drawn in Krsna's hand. This can loosen the grip of spiritual self-judgment without dissolving motivation.",
     "bhakti": "Use the two-fold distinction as a diagnostics tool in daily life: when you feel driven by unconscious habit (ksara-mode) and when you feel you are the free observer standing apart (aksara-mode). Neither is the ultimate address. The one who notices both modes without residing in either — that noticing is the gesture toward Paramatman the verse describes.",
     "advaita-bhakti": "In contemplative practice, the instruction from Madhusudan is: go past all five layers of self-experience (body, breath, mind, intellect, bliss) without stopping at any of them, because Purusottama is beyond all five kosas. This is not a negation of experience but a refusal to mistake any experiential layer for the final ground. Hold each layer lightly, keep moving."
-  }
+  },
+  "primary_meaning": "But there is a third, the highest Person, called *Paramātman*, who enters and sustains all three worlds while remaining inexhaustible, the eternal Lord."
 }

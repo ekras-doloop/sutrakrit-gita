@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "abhihitā",
-      "lemma": "abhidhā",
+      "lemma": "abhi-√dhā",
       "grammar": "nominative feminine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -223,7 +223,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -289,7 +289,7 @@
     },
     {
       "surface_form": "prahāsyasi",
-      "lemma": "prahā",
+      "lemma": "pra-√hā",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -645,14 +645,6 @@
       ]
     },
     {
-      "list": "लोकसंग्रहमेवापि संपश्यन्कर्तुमर्हसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.20",
-        "5.2"
-      ]
-    },
-    {
       "list": "सांख्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -690,7 +682,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhihitā: abhidhā -> abhi-√dhā",
+          "yuktaḥ: yuj -> √yuj",
+          "prahāsyasi: prahā -> pra-√hā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sāṅkhya-buddhi (discriminative insight into ātma-tattva) is the higher knowledge, why does Kṛṣṇa not stop there — what does the pivot to yoga-buddhi reveal about the relationship between knowing and acting?",
@@ -708,5 +712,6 @@
     "śuddhādvaita": "When manas (mind) is agitated before a difficult conversation or performance, Vallabha's frame names what is needed: mano-nirodha (restraint of mental proliferation) is not suppression but re-anchoring in īśvara-ālambana (refuge in the Lord). Practically: before entering the situation, briefly place the outcome in Kṛṣṇa's hands — not as abdication of effort but as a shift from ego-driven achievement to participation in his līlā (play). The twofold karma-bandha (puṇya-pāpa) dissolves because the act is no longer authored by the ego's ledger.",
     "bhakti": "When study or practice feels dry and intellectual — producing knowledge without transformation — Śrīdhara's progression applies: sāṅkhya-buddhi (theoretical understanding of the self) may be correctly grasped and yet not aparokṣa (directly realized). The practical move is to shift from the mode of acquiring information to the mode of offering action: take whatever study or work is at hand, perform it as parameśvara-arpaṇa (offering to the Lord), and allow the antaḥkaraṇa-śuddhi (purification of the inner faculty) that results to open the ground for direct recognition that intellectual effort alone cannot force.",
     "advaita-bhakti": "When you find yourself oscillating between philosophical clarity (knowing what is right) and behavioral inertia (not acting on it), Madhusūdana names the actual obstruction: āśaya-aśuddhi (impurity at the level of deep motivational disposition) — not ignorance of doctrine but motivational sedimentation that blocks jñāna from operating. The practical prescription is to treat each day's ordinary karma (work, relationships, obligations) as the outer means of removing that sedimentation — not by adding a separate spiritual practice but by bringing phalābhisandhi-tyāga (relinquishment of attachment to results) to whatever is already required of you."
-  }
+  },
+  "primary_meaning": "That was the sāṃkhya wisdom; now hear the yoga wisdom, Pārtha, armed with which you will break free of the bonds that action creates."
 }

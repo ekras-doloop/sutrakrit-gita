@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "viśiṣyate",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -679,7 +679,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "viśiṣyate: viśiṣ -> vi-√śiṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Bhagavān ranks the four kinds of devotees, does this mean approaching Him with a personal need is spiritually inferior — or is need-based devotion a legitimate entry point that can mature into jñāna?",
@@ -697,5 +708,6 @@
     "śuddhādvaita": "Choose one creative or professional project and work on it today with zero thought of how it will be received — no imagined audience, no mental rehearsal of praise. Vallabha's nirapekkṣā bhakti applied to work means acting because Kṛṣṇa's prāṇaśakti (life-energy) is moving through you right now, not because an outcome awaits. Notice how the quality of attention shifts.",
     "bhakti": "Each morning, before checking messages, spend five minutes in a single-pointed practice of your choosing — mantra, breath, or silent sitting — with the explicit aim of reducing citta-vikṣepa (mental distraction). Śrīdhara's logic is that ekānta-bhakti becomes structurally possible only as vikṣepa decreases; the morning five minutes is the hygiene that enables the rest of the day's devotion.",
     "advaita-bhakti": "Identify one area where you are still secretly transactional in your spiritual life — praying for health, status, or relationship outcomes. Madhusūdana's synthesis invites you to notice the desire, set it aside as kāma that limits prema, and reframe your practice for one week as purely expressive rather than petitionary. Observe whether the quality of love in the practice changes when expectation is removed."
-  }
+  },
+  "primary_meaning": "Of these four, the knower of truth stands highest, always united and devoted to nothing else. I am beyond measure dear to that knower, and that knower is beyond measure dear to me."
 }

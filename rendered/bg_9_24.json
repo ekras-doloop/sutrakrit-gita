@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "abhijānanti",
-      "lemma": "abhijñā",
+      "lemma": "abhi-√jñā",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -206,7 +206,7 @@
     },
     {
       "surface_form": "cyavanti",
-      "lemma": "cyu",
+      "lemma": "√cyu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -520,17 +520,6 @@
         "9.18",
         "11.4"
       ]
-    },
-    {
-      "list": "बहु स्यां प्रजायेय",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.10",
-        "9.4",
-        "9.5",
-        "9.7",
-        "9.8"
-      ]
     }
   ],
   "audit_trail": {
@@ -560,7 +549,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijānanti: abhijñā -> abhi-√jñā",
+          "cyavanti: cyu -> √cyu"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa alone is the true bhoktā and prabhu of every sacrifice, what exactly is the error of the worshipper who addresses Indra or Agni as independent lords — is it a metaphysical mistake, a moral one, or simply a failure of attention?",
@@ -578,5 +578,6 @@
     "śuddhādvaita": "Vallabha's reading is that inner disposition (bhāva) — not theological precision alone — determines whether you stay afloat or fall. Notice whether your engagements at work or at home are animated by possession-logic (I want the fruit for my account) or by love-logic (I act because this is where I find Kṛṣṇa today). The shift from one to the other is not a single decision but a steady reorientation of bhāva.",
     "bhakti": "Śrīdhara says those who see the inner witness (antaryāmin) present within every deity do not return to the cycle. Practically: when you interact with a person you find difficult, try briefly locating the same awareness in them that you recognise in yourself. This is not a performance of niceness — it is the exact recognition the verse recommends as the exit from the cycle of return.",
     "advaita-bhakti": "Madhusūdana distinguishes two paths after death by the quality of understanding during life — the smoke-path (dhūmādi-mārga) for those whose devotion was mixed with self-interest, the light-path (arcirādi-mārga) for those in whom right vision arose. The everyday application is sequential: first establish the philosophical recognition (Vāsudeva as antaryāmin), then align your ritual or contemplative practice with it, so that your understanding deepens into samyag-darśana (full vision) before the end of the present opportunity."
-  }
+  },
+  "primary_meaning": "I am the enjoyer and lord of all sacrifices, but worshippers of other deities do not know me as that ground, and so they fall."
 }

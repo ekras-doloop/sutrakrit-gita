@@ -67,7 +67,7 @@
     },
     {
       "surface_form": "yatanti",
-      "lemma": "yat",
+      "lemma": "√yat",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -182,7 +182,7 @@
     },
     {
       "surface_form": "viduḥ",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -467,7 +467,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -477,18 +477,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "कारणं गुणसङ्गोऽस्य सदसद्योनिजन्मसु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.19",
-        "4.3",
-        "5.17",
-        "8.16",
-        "16.5"
-      ]
-    },
     {
       "list": "ब्रह्म",
       "role": "supporting",
@@ -569,7 +557,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yatanti: yat -> √yat",
+          "viduḥ: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools agree that taking refuge in the Lord is the entry condition — but do they agree on what 'refuge' means: surrender of action, surrender of fruit, surrender of the ego-self, or surrender of the distinction between seeker and sought?",
@@ -587,5 +586,6 @@
     "śuddhādvaita": "Vallabha's application is patient continuity: if you entered the path as an aarta (someone in distress) or arthi (someone wanting something), that is fine — stay. The distress that drove you to the Lord is already grace (prasada). Trust the continuity of the path; the mumukshu's aspiration will ripen on its own.",
     "bhakti": "Sridhara's application is honest self-inventory: do you actually know the self as distinct from the body? Do you know what karma really accomplishes, including its concealed purpose? These are not rhetorical questions; they are the practitioner's checklist. If the answer is no, the verse identifies exactly what study and practice need to supply.",
     "advaita-bhakti": "Madhusudana's application is sequential: do not try to leap directly to nirguna contemplation. Take the saguna (personal, qualified) form seriously, offer all action to it, find a qualified guru, undertake shravana-manana-nididhyasana (hearing, reflection, sustained meditation) as a complete course of training — and trust that the purification it produces is the very mechanism by which the personal resolves into the infinite."
-  }
+  },
+  "primary_meaning": "Those who take shelter in me, striving to break free from old age and death, come to know Brahman completely, the nature of the self, and the full scope of action."
 }

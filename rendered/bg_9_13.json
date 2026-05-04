@@ -76,7 +76,7 @@
     },
     {
       "surface_form": "āśritāḥ",
-      "lemma": "āśri",
+      "lemma": "√āśri",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "bhajanti",
-      "lemma": "bhaj",
+      "lemma": "√bhaj",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -382,7 +382,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -566,7 +566,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āśritāḥ: āśri -> √āśri",
+          "bhajanti: bhaj -> √bhaj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the operative difference between daivī prakṛti (divine natural disposition) and mere good behavior — is it dispositional, ontological, or both?",
@@ -584,5 +595,6 @@
     "śuddhādvaita": "In Puṣṭi-mārga practice: when the mind drifts to 'spiritual achievement' or to an abstract absolute, bring it back to the specific svarūpa (personal form) of Kṛṣṇa presented by your ācārya. Vallabha's exclusion of Akṣara is not philosophical hair-splitting — it is an instruction about where to place the image in the mind during sevā.",
     "bhakti": "Whenever something or someone outside of your study or practice absorbs your attention persistently, ask: is this kāma (desire) or is this a genuine calling? Śrīdhara's frame is precise — the mahātmā is not one who has no attractions, but one whose citta is not 'overpowered' (anabhibhūta) by them. The practice is building the muscle of noticing the overpowering, not eliminating the attraction.",
     "advaita-bhakti": "Before engaging in any knowledge-practice (reading, listening, study), spend thirty seconds explicitly recalling who or what you are studying for — and whether that framing points toward or away from Bhagavān. Madhusūdana's foil is the one whose śāstric knowledge yields nothing because it is bhagavad-vimukha. The everyday application is a brief orientation check at the start of each learning session."
-  }
+  },
+  "primary_meaning": "The great-souled ones, sheltered in divine nature, worship me with undivided minds, knowing me as the imperishable source of all beings."
 }

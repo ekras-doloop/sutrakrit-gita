@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "jita",
-      "lemma": "ji",
+      "lemma": "√ji",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -84,7 +84,7 @@
     },
     {
       "surface_form": "vigata",
-      "lemma": "vigam",
+      "lemma": "vi-√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -165,7 +165,7 @@
     },
     {
       "surface_form": "adhigacchati",
-      "lemma": "adhigam",
+      "lemma": "adhi-√gam",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -541,7 +541,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "adhigacchati: adhigam -> adhi-√gam"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jita: ji -> √ji",
+          "vigata: vigam -> vi-√gam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If naishkarmya (actionlessness) is the supreme goal, why does Krsna not simply command Arjuna to stop fighting? What work is the word 'sanyasena' (through renunciation) doing that 'karma-tyagena' (through abandoning action) does not?",
@@ -559,5 +578,6 @@
     "suddhadvita": "Vallabha's application turns on what you are craving for instead of Krsna. Audit one relationship or ambition where sprha (craving) is live: does the craving belong to Krsna's lila-space (alive, playful, offered back to Him) or is it a private possession you are protecting? The Pushti-marga move is to reclassify: not 'I must not want this' but 'I offer this wanting itself to Krsna.' The transformation is in the ownership, not the suppression.",
     "bhakti": "Sridhara's application is operational for householders: you do not need to stop working; you need to remove two specific things from how you work — attachment (sakti) and fruit-claiming (phala-sprha). Concretely: do the next task at full professional quality, but before submitting it, consciously set down the mental tab you have open tracking 'what this gets me.' This is the sattva-shuddhi Sridhara means — not purity of substance but purity of motivational structure.",
     "advaita-bhakti": "Madhusudana identifies this verse as the gateway to serious Vedanta inquiry. The everyday application is a diagnostic: if you find Vedantic texts dry, abstract, or unmotivating, Madhusudana would say your karma-yoga practice is incomplete — the inner organ has not yet been purified sufficiently to feel the urgency of the brahma-jijnasa question. The prescription is not 'study harder' but 'serve more cleanly, want less from your service, and notice when the existential question becomes live on its own.'"
-  }
+  },
+  "primary_meaning": "One whose mind is detached everywhere, whose self is mastered, and whose cravings have gone still reaches, through renunciation, the highest perfection of actionlessness."
 }

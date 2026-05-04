@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "udāhṛtam",
-      "lemma": "udāhṛ",
+      "lemma": "ud-√āhṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -284,7 +284,9 @@
         "jayatirtha_13.6"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya's commentary on this śloka is not extant in the available corpus; the payload records 'Sri Madhvacharya did not comment on this sloka.' From the established Dvaita framework: icchā and dveṣa are real attributes of the bounded jīva, sharply distinct from Hari who is nirviṣaya (without object-conditioned desire). The saṃghāta is a genuine composite structure, and cetanā in the jīva reflects a partial but real cit-nature granted by Hari — not illusory, not identical with Brahman. Flagged: this rendering draws on Dvaita siddhānta rather than direct bhāṣya prose for BG 13.6."
+      "english_rendering": "*Icchā* (desire), *dveṣa* (aversion), *sukha* (pleasure), *duḥkha* (pain), *saṃghāta* (the composite body-sense aggregate), *cetanā* (sentient awareness), and *dhṛti* (steadiness) — these, together with their *vikāra*s (modifications), constitute the *kṣetra* (field) in brief. Each item in this enumeration belongs irreducibly to the *paratantra* (eternally dependent) order. *Icchā* and *dveṣa* are real affections of the bounded *jīva* (individual self), not superimpositions on a featureless substrate; they mark the *jīva*'s ontological finitude against Hari, who is *nirviṣaya* — free from object-conditioned desire — and who alone is *svatantra* (the independently real, self-sufficient). The *saṃghāta* is a genuine composite, not an appearance conjured by *māyā*; *bheda* (real distinction) between *jīva*, matter, and the Lord runs through the very structure of the field. *Cetanā* in the *jīva* reflects a real but partial *cit*-nature, entirely derivative and sustained by Hari's will, never self-luminous in the manner of the Lord's consciousness. *Etat kṣetraṃ samāsena sa-vikāram udāhṛtam* — the field, stated briefly, is that which undergoes modification; the *kṣetrajña* who never undergoes modification stands wholly apart, and within the *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter), the field enumerates precisely those realities that are neither the Lord nor the knowing *jīva* in its pure witness-aspect.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse; the reading applies Dvaita *siddhānta* directly to the mūla, maintaining *pañca-bheda*, real *vikāra*, and the *paratantra* status of all field-constituents.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -410,7 +412,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "udāhṛtam: udāhṛ -> ud-√āhṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If icchā (desire) and dveṣa (aversion) are listed as kṣetra-modifications rather than ātman-properties, what does it mean that I experience them as 'mine'?",
@@ -428,5 +440,6 @@
     "śuddhādvaita": "In Puṣṭimārga, the entire field of experience — your longings, your resistances, your everyday steadiness (dhṛti) — is already the Lord's prasāda (gift). The application is not renunciation but receptivity: receive your own emotional life as you would receive prasāda at a temple, with gratitude and without the compulsion to hoard or discard. Let even dveṣa be acknowledged as the Lord's teaching arriving in a difficult wrapping.",
     "bhakti": "Śrīdhara's reading suggests a devotional inventory: at the end of each day, run through the field-categories — what did I desire, what did I avoid, what brought me sukha, what brought duḥkha, what held me together? Offer each item by name to the Beloved. This is not spiritual accounting but a practice of intimacy: the Beloved receives the whole person, not a curated version.",
     "advaita-bhakti": "Madhusūdana's synthesis opens a double-barreled practice. Intellectually, trace any strong emotion back through its causal chain (ahaṃkāra → buddhi → avyakta) until you reach the māyā-root — this is jñāna-work that de-personalizes the charge. Then, from that de-personalized space, offer the emotion to Kṛṣṇa in bhakti. Neither jñāna alone (which can become cold) nor bhakti alone (which can become confused) but both, in that sequence, in a single act."
-  }
+  },
+  "primary_meaning": "Desire, aversion, pleasure, pain, the body's composite mass, awareness, and steadiness, together with their transformations, Krishna says, are the field described in brief."
 }

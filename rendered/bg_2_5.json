@@ -247,7 +247,7 @@
     },
     {
       "surface_form": "bhuñjīya",
-      "lemma": "bhuj",
+      "lemma": "√bhuj",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -305,7 +305,7 @@
     },
     {
       "surface_form": "pradigdhān",
-      "lemma": "pradih",
+      "lemma": "pra-√dih",
       "grammar": "accusative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -536,7 +536,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhuñjīya: bhuj -> √bhuj",
+          "pradigdhān: pradih -> pra-√dih"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When the people I learned from are now clearly on the wrong side, am I still bound to them as a student?",
@@ -554,5 +565,6 @@
     "śuddhādvaita": "Vallabha's reading suggests that the right response to an impossible human dilemma is not clever problem-solving but a kind of transparent helplessness before Kṛṣṇa. When you lay out every reason why both paths are untenable — as Arjuna does — and still cannot move, that very laying-out is the beginning of surrender. The Puṣṭi-mārga practitioner learns to hold the 'blood-smeared pleasure' image not as a reason for paralysis but as a vivid reminder that no worldly option delivers the ānanda (bliss) that only relationship with Kṛṣṇa provides.",
     "bhakti": "Śrīdhara's Bhīṣma citation is practically useful: when someone you respect is trapped inside a corrupt institution and cannot leave, their moral compromise does not eliminate your obligation to them — but it does change what that obligation looks like. You can honour what they taught you without following them into the trap that holds them. In everyday terms: the mentor who is 'bound by wealth' to a system that harms you still deserves your respect; they do not deserve your compliance. The two are separable, and separating them is what this verse makes possible.",
     "advaita-bhakti": "Madhusūdana's layered reading offers a practical test: when you are tempted to strip someone of their authority over you on the grounds of their moral failure, ask whether you are doing so to protect your dharma or to escape the difficulty of honouring someone who complicates your life. If the latter, you are using their failure to serve your convenience. If the former, proceed — but expect that acting rightly in such a situation will still feel like loss, because 'blood-smeared pleasures' remain blood-smeared even when the killing was justified."
-  }
+  },
+  "primary_meaning": "Arjuna says: better to beg for food in this world than to kill these great teachers and enjoy pleasures smeared with their blood."
 }

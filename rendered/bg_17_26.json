@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "prayujyate",
-      "lemma": "prayuj",
+      "lemma": "pra-√yuj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -124,7 +124,7 @@
     },
     {
       "surface_form": "praśaste",
-      "lemma": "praśaṃs",
+      "lemma": "pra-√śaṃs",
       "grammar": "locative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -256,7 +256,7 @@
     },
     {
       "surface_form": "yujyate",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -565,7 +565,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prayujyate: prayuj -> pra-√yuj",
+          "praśaste: praśaṃs -> pra-√śaṃs",
+          "yujyate: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What work is a single syllable doing when it simultaneously names Brahman, asserts existence, and consecrates a ritual — and can a single English word ever carry that load?",
@@ -583,5 +595,6 @@
     "śuddhādvaita": "Vallabha's point is that every visible thing (vastu) is a site where Brahman has become manifest (avirbhutam). Calling ordinary daily objects or acts 'sat' is not loose usage — it is recognition that Brahman's self-disclosure is already present there, awaiting acknowledgment.",
     "bhakti": "Sridhara's three registers offer a practical discipline: before using the word 'good' about any act, check which register you mean — does it exist? is it excellent? is it auspicious? Conflating the three (as casual usage does) collapses distinctions that the tradition maintained for good reason.",
     "advaita-bhakti": "Madhusudana's double assurance reframes anxiety about outcomes: calling your act 'sat' is a claim that no hidden defect (vaigunya) will obstruct it AND that its fruit is real. The discipline is to mean both — to act with enough integrity and enough non-dual grounding that both claims are true simultaneously."
-  }
+  },
+  "primary_meaning": "The word *sat* names both existence and goodness, and it applies equally to auspicious acts like marriage, Arjuna, because any deed worthy of the name shares in both."
 }

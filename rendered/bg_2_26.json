@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "jātam",
-      "lemma": "jan",
+      "lemma": "√jan",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "manyase",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -107,7 +107,7 @@
     },
     {
       "surface_form": "mṛtam",
-      "lemma": "mṛ",
+      "lemma": "√mṛ",
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -179,7 +179,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -466,7 +466,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jātam: jan -> √jan",
+          "manyase: man -> √man",
+          "mṛtam: mṛ -> √mṛ",
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If even the weakest metaphysical position — that the self is simply born and dies with the body — still does not license grief, what conditions, if any, would make grief a rational response to loss?",
@@ -484,5 +497,6 @@
     "śuddhādvaita": "Vallabha's pakṣāntara logic has a direct application: even when a person operates entirely within a secular, materialist frame — no ātmā, no rebirth, life as pure biochemistry — grief over mortality is still self-undermining, because on that frame the griever is part of the same impermanent stream as the one grieved for, and has no stable platform from which to issue complaints. The Puṣṭi-mārga supplement is that recognizing the absurdity of grief on even the weakest hypothesis opens a crack through which Kṛṣṇa's prasāda (grace) can enter — the very confusion that brings a person low is, in Vallabha's vision, the beginning of surrender.",
     "bhakti": "Śrīdhara's karma-as-phala reading has clear traction in caregiving contexts: a parent who has done everything medically possible for a dying child, a hospice worker attending a patient's last weeks, a teacher watching a talented student take a wrong turn — in each case, the situation has its own karma-shaped trajectory that the caregiver's grief cannot redirect. The bhakti move is not detachment-as-indifference but a recognition that one's own dharmic action (the care given) is complete; continuing to grieve over the outcome conflates one's karmic responsibility with a control one never had.",
     "advaita-bhakti": "Madhusūdana's multi-school survey models an intellectual practice directly transferable to any domain: when a situation is painful, canvass every framework available — psychological, philosophical, scientific, spiritual — and notice that on each one, the specific form of suffering currently being entertained lacks a stable ground. This is not relativism but a kind of adversarial pressure-testing: if grief cannot survive scrutiny on the Buddhist, materialist, Naiyāyika, or Vedāntic hypothesis, the remaining emotional force is more likely habitual than reasoned. The Kṛṣṇa-bhakti layer that Madhusūdana adds is that this intellectual dissolving of grief's grounds is itself a form of surrender — the mahābāho (mighty-armed one) is being gently invited to use his weapons of discernment on his own confusion first."
-  }
+  },
+  "primary_meaning": "But even if you believe this self is born and dies with every body, O mighty-armed one, you still have no cause to grieve, for death is simply what embodied existence does."
 }

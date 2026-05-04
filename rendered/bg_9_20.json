@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "pūta",
-      "lemma": "pū",
+      "lemma": "√pū",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "prārthayante",
-      "lemma": "prārthay",
+      "lemma": "√prārthay",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -223,7 +223,7 @@
     },
     {
       "surface_form": "aśnanti",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -574,7 +574,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pūta: pū -> √pū",
+          "prārthayante: prārthay -> √prārthay",
+          "aśnanti: aś -> √aś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all Vedic yajña secretly worships Me regardless of the worshipper's theological awareness, what does 'knowing Me' (mad-jñāna) actually add — and why does it change the result so radically?",
@@ -592,5 +604,6 @@
     "śuddhādvaita": "Vallabha's cosmological grid maps to modern life: sāttvika effort (learning, creation, service) generates sāttvika results (clarity, expanded capability, community); rājasa effort (competition, status-seeking) generates rājasa results (temporary dominance, then volatility). You naturally inhabit one of these streams at any moment. The application is not to force yourself into the sāttvika stream by will — that is still guṇa-level strategy — but to seek the prasāda (grace-gift) of Kṛṣṇa that lifts you out of the guṇa-matrix entirely.",
     "bhakti": "Śrīdhara's pastoral point: many people perform 'ritual' in the modern sense — regular practices, ethical disciplines, charitable acts — without directing them toward Parameśvara. The stream of birth-and-death (janma-mṛtyu-pravāha) that Śrīdhara calls 'irresistible' for non-devotees maps to the modern experience of achieving goals and finding the goalpost moved. The application is simple: redirect the same effort toward the one Vāsudeva by naming Him explicitly as the recipient of your action.",
     "advaita-bhakti": "Madhusūdana's psychological precision applies to any goal-setting practice: if the desire-structure is intact, even excellent execution produces only the desired result — and then the cycle continues. The modern application is to examine whether your spiritual or self-improvement practice has an implicit KPI (desired outcome), because that KPI is exactly what prevents the sattva-śuddhi (mental clarity) that would make the practice transformative. The practice is not to abandon goals but to place them in Kṛṣṇa's hands before you begin, not after you succeed or fail."
-  }
+  },
+  "primary_meaning": "Those who know the three Vedas worship Me through sacrifice and soma-rites, praying for heaven; they reach Indra's world and enjoy its divine pleasures."
 }

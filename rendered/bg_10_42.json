@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "jñātena",
-      "lemma": "jñā",
+      "lemma": "√jñā",
       "grammar": "instrumental neuter singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -196,7 +196,7 @@
     },
     {
       "surface_form": "sthitaḥ",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -377,7 +377,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -414,7 +414,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jñātena: jñā -> √jñā",
+          "sthitaḥ: sthā -> √sthā"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the entire cosmos is sustained by one fragment (ekāṃśa) of Bhagavān, what is the status of the cosmos itself — is it real, partial, or a projection of surplus infinity?",
@@ -432,5 +443,6 @@
     "śuddhādvaita": "Vallabha's puṣṭi-reading says the whole cosmos is Kṛṣṇa's play-body sustained by his own delight. In daily life, this translates to a radical reframing of burden: the weight you carry is not yours to carry alone — it is already held by the one whose fragment-power sustains galaxies. Receive each moment as prasāda (gift-of-grace), not as task-to-be-managed. The exhaustion of self-reliance is itself the invitation into this recognition.",
     "bhakti": "Śrīdhara's practical pivot — 'cultivate equal vision everywhere' — is the most directly applicable. When you are stuck in sectarian, competitive, or comparative seeing (this person is better, this situation is worse), the ekāṃśa-teaching offers a reset: the same one fragment is the substrate of the person you fear, the work you avoid, the pleasure you chase. Equal vision is not indifference — it is recognition of the common ground beneath all difference.",
     "advaita-bhakti": "Madhusūdana's synthesis closes the chapter not with a philosophical proposition but with a devotee's intoxication. The everyday application is this: intellectual closure of a question (Arjuna has now received the complete vibhūti-yoga) need not produce satisfaction — it can produce wonder. Let understanding ripen into longing. The honey-drop verse at the end is not decoration; it models the only response adequate to having understood that the whole cosmos is held by a fragment."
-  }
+  },
+  "primary_meaning": "But why dwell on all these details, Arjuna? With just a fragment of myself I stand here, pervading and sustaining the entire universe."
 }

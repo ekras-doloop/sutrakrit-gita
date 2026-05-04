@@ -100,7 +100,7 @@
     },
     {
       "surface_form": "dhārayāmi",
-      "lemma": "dhāray",
+      "lemma": "√dhāray",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -157,7 +157,7 @@
     },
     {
       "surface_form": "puṣṇāmi",
-      "lemma": "puṣ",
+      "lemma": "√puṣ",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -499,7 +499,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dhārayāmi: dhāray -> √dhāray",
+          "puṣṇāmi: puṣ -> √puṣ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the same Paramātman who upholds the earth also nourishes the grain, what remains of 'natural causation' as an independent category — and does collapsing that category liberate or merely confuse?",
@@ -517,5 +528,6 @@
     "śuddhādvaita": "Vallabha's Soma is the flavour of life itself as Kṛṣṇa's delight. Practise finding in the taste of food, in the colour of a fruit, in the smell of rain-on-earth, not sensory data but Kṛṣṇa's rasa pressing outward into your experience.",
     "bhakti": "Śrīdhara's 'aham eva saṃvardhayāmi' — 'I alone cause to flourish' — reframes all growth, every recovery from illness, every harvest after drought, as Bhagavān's personal act of nurturing. Gratitude, then, is not sentiment but accuracy.",
     "advaita-bhakti": "Madhusūdana's earth-crumbling image is a contemplative exercise: for one minute, vividly imagine the ground beneath you without the divine ojas — it disintegrates. Then feel it cohere again. The stability you take for granted is moment-to-moment grace; walk accordingly."
-  }
+  },
+  "primary_meaning": "I enter the earth and hold all beings together by my power; becoming Soma, the essence of taste, I nourish every plant and herb."
 }

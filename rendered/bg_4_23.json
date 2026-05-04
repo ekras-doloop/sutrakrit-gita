@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "gata",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "muktasya",
-      "lemma": "muc",
+      "lemma": "√muc",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -77,7 +77,7 @@
     },
     {
       "surface_form": "avasthita",
-      "lemma": "avasthā",
+      "lemma": "ava-√sthā",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -126,7 +126,7 @@
     },
     {
       "surface_form": "ācarataḥ",
-      "lemma": "ācar",
+      "lemma": "√ācar",
       "grammar": "genitive masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -191,7 +191,7 @@
     },
     {
       "surface_form": "pravilīyate",
-      "lemma": "pravilī",
+      "lemma": "pra-√vilī",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -449,13 +449,6 @@
       ]
     },
     {
-      "list": "कर्ममें अकर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24"
-      ]
-    },
-    {
       "list": "कामना",
       "role": "supporting",
       "other_verses_in_list": [
@@ -564,28 +557,11 @@
       ]
     },
     {
-      "list": "मैं सेवक हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.21",
-        "4.38",
-        "5.2"
-      ]
-    },
-    {
       "list": "यज्ञायाचरतः कर्म समग्रं प्रविलीयते",
       "role": "supporting",
       "other_verses_in_list": [
         "4.24",
         "4.29"
-      ]
-    },
-    {
-      "list": "यज्ञार्थ कर्म",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.20",
-        "5.2"
       ]
     },
     {
@@ -632,7 +608,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gata: gam -> √gam",
+          "muktasya: muc -> √muc",
+          "avasthita: avasthā -> ava-√sthā",
+          "ācarataḥ: ācar -> √ācar",
+          "pravilīyate: pravilī -> pra-√vilī"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "All six schools read 'yajñāya' differently — as sacrifice, as service to Hari, as offering to Brahman, as world-preservation — yet all say the karma dissolves. Is dissolution a function of the act's object, or the actor's interiority, or both?",
@@ -650,5 +640,6 @@
     "śuddhādvaita": "Vallabha's reading implies that aesthetic delight in work — cooking a meal, making music, caring for a child — can itself be the yajna when the act is offered as Kṛṣṇa's own līlā (play) manifesting through you. The application is not grim duty but joyful surrender: do the work with full craft and skill, then release it as an offering that returns to its source. The residue of 'I made this' is what dissolves.",
     "bhakti": "Śrīdhara's loka-saṃgraha limb applies directly to any role involving institutional responsibility — teacher, parent, manager. Perform the structural act (curriculum, household, team meeting) not for personal legacy but for the preservation of the order itself. The vāsanā-dissolving limb applies in private: notice when you avoid an act because it won't be seen or rewarded. That avoidance is a vāsanā (latent impression); performing the unseen act cleanly erases it.",
     "advaita-bhakti": "Madhusūdana's causal chain — gnosis → absence of superimposition → detachment — suggests that the fastest route to genuine non-attachment is not willpower but direct investigation: spend five minutes each day inquiring 'who is the one doing this?' not as a rhetorical move but as an honest phenomenological question. When the superimposition (kartṛtva-adhyāsa) is seen clearly even once, detachment follows naturally rather than being forced. Act from that seeing, and the Gītā's dissolution is already in motion."
-  }
+  },
+  "primary_meaning": "When a person acts without attachment, free from possessiveness, with the mind fixed in knowledge and every act offered as sacrifice, the whole of that karma dissolves without remainder."
 }

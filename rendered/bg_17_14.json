@@ -151,7 +151,7 @@
     },
     {
       "surface_form": "ucyate",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -304,8 +304,9 @@
         "jayatirtha_17.14"
       ],
       "score": 0.5,
-      "english_rendering": "The verse identifies the five constituents of sharira tapas: worship of the devas and dvijas and gurus and prajna, alongside shauca, arjava, brahmacharya, and ahimsa. In the Dvaita framework, each element is an act of dependent worship — the jiva's body is Hari's instrument, and its disciplining is surrender to His sovereignty rather than self-cultivation. The body's austerity thus points always back to Vishnu as its ground.",
-      "divergence_note": "Madhva's commentary is absent for this verse (noted honestly: 'Sri Madhvacharya did not comment on this sloka'). This rendering extrapolates from Dvaita's general doctrine of jiva-Ishvara bheda (eternal distinction) applied to tapas."
+      "english_rendering": "*Deva-dvija-guru-prājña-pūjanaṃ śaucam ārjavam | brahmacaryam ahiṃsā ca śārīraṃ tapa ucyate.* Bodily *tapas* (austerity) is constituted by worship of the devas, the twice-born *dvija*s, the *guru*, and the wise *prājña*; by *śauca* (purity, internal and external); by *ārjava* (straightness of conduct); by *brahmacarya* (continence); and by *ahiṃsā* (non-injury). Each member of this list falls under *paratantra* (eternally dependent) discipline: the *jīva* disciplines the body it does not own, since the body belongs to *svatantra* (the independently real, self-sufficient) Hari as His *paratantra* possession. Worship of devas and *dvija*s is not polytheistic deference but veneration of Viṣṇu's *taratamya* (graded ontological hierarchy) — devas and *guru*s occupy their stations by His will, and to honor them in their rank is to honor Him. *Śauca* and *ārjava* purify the instrument Hari inhabits; *brahmacarya* conserves energy He has lent; *ahiṃsā* respects the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) by refusing violence against any *jīva* or material body that is equally His possession. Bodily austerity thus is not self-cultivation but an enacted acknowledgment of *bheda* (real distinction) — the body's discipline is *bhakti* as ontological subordination, the *jīva* returning Hari's instrument to its proper use.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced from dvaita *siddhānta* directly off the *mūla*, without bhāṣya support.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -460,7 +461,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ucyate: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the Gita open its tapas classification with social veneration (worship of gods, teachers, wise ones) rather than solitary bodily practices like fasting or celibacy? What is the relationship between interpersonal piety and personal austerity?",
@@ -478,5 +489,6 @@
     "shuddhadvaita": "Do not treat brahmacharya or dietary restraint as achievements. In the Pushti-marga view, Krishna grants the capacity for discipline as prasada; your part is only to receive it with gratitude and remain open, not to hoard the austerity as personal credit.",
     "bhakti": "Expand your circle of veneration beyond your own guru to include the prajna — those who know truth from any lineage. Make a practice of seeking out one person each week whose learning you do not yet have and offering them genuine respect; this is sharira tapas in modern life.",
     "advaita-bhakti": "Madhusudana's inclusion of asteya and aparigraha points to an integrated daily practice: track not only what you do not take physically, but what mental territory you claim without right — credit for others' ideas, emotional space that belongs to someone else. Arjava at the bodily level means your outer life matches your inner commitments, with no gap between stated value and enacted choice."
-  }
+  },
+  "primary_meaning": "Worship of the gods, the twice-born, teachers, and the wise, together with purity, straightforwardness, continence, and non-injury, is called bodily austerity."
 }

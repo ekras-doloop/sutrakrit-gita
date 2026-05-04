@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "yuktaḥ",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -298,7 +298,7 @@
     },
     {
       "surface_form": "upaiti",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -665,7 +665,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "yuktaḥ: yuj -> √yuj",
+          "upaiti: upe -> √upe"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If yogabala (the accumulated force of meditative saṃskāra) is what actually moves the prāṇa at death — and not a last-moment effort of will — what does this imply about the relationship between a lifetime of daily practice and the quality of one's dying?",
@@ -683,5 +694,6 @@
     "śuddhādvaita": "Vallabha's samākāra — taking on the form of the beloved — suggests a practice of imaginative saturation: let the form of Kṛṣṇa occupy the inner space so thoroughly that it becomes the default shape of the mind. In everyday terms: devotional image, name, story, and svarūpa (essential form) are not ornaments added to a neutral life — they are the medium in which the mind is trained to rest.",
     "bhakti": "Śrīdhara's emphasis on vikṣepa-rahita manas — a mind from which scattering has been removed — makes stillness the central discipline. The everyday application is noticing and reducing the sources of mental scatter (vikṣepa): not by suppression but by building the contrary positive — a single, recurring object of attention that grows habitual. The bhakti and the yogabala are not separate tracks; the bhakti is what removes the vikṣepa.",
     "advaita-bhakti": "Madhusūdana's insight that yogabala actively opposes the ordinary saṃskāras of outward life (vyutthāna-saṃskāra-virodhin) frames practice as a counter-force to the default drift of the mind. In everyday terms: every sit, every period of recollection, is depositing a counter-weight against the momentum of distraction. The goal is not to fight the deathbed — it is to have already won that fight through accumulated counter-pressure. Both the guru's structural guidance and the personal bhakti-fire are necessary; neither alone suffices."
-  }
+  },
+  "primary_meaning": "At the hour of death, with mind made still by devotion and the accumulated force of yoga, fixing the breath between the eyebrows, one reaches that supreme and luminous Person."
 }

@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "santuṣṭaḥ",
-      "lemma": "saṃtuṣ",
+      "lemma": "saṃ-√tuṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "atītaḥ",
-      "lemma": "atī",
+      "lemma": "√atī",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -200,7 +200,7 @@
     },
     {
       "surface_form": "nibadhyate",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -405,7 +405,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -415,13 +415,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "समः सिद्धावसिद्धौ च",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.17"
-      ]
-    },
     {
       "list": "सर्वभूतात्मभूतात्मा",
       "role": "supporting",
@@ -458,13 +451,6 @@
         "18.49",
         "18.50"
       ]
-    },
-    {
-      "list": "सिद्ध्यसिद्ध्योः समो भूत्वा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.48"
-      ]
     }
   ],
   "audit_trail": {
@@ -494,7 +480,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "santuṣṭaḥ: saṃtuṣ -> saṃ-√tuṣ",
+          "atītaḥ: atī -> √atī",
+          "nibadhyate: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara says the jñānī is 'never really acting' even while begging — does this make non-bondage a metaphysical given for the knower regardless of conduct, or does it still require the specific posture described in this verse?",
@@ -512,5 +510,6 @@
     "śuddhādvaita": "In creative work, notice the moment inspiration arrives without effort — Vallabha would call this the yādṛcchā-lābha of the artist. Do not chase the next instance by technique alone; instead, prepare the channel (practice, attention, offering) and let Kṛṣṇa's prasāda arrive when it will. The practitioner's task is clearing obstacles to that flow, not manufacturing the flow itself.",
     "bhakti": "Śrīdhara's 'tatsahanaśīla' (capable of bearing the pairs) is a modest, practical standard. In daily discomfort — a delayed flight, a cold office, a thankless task — practice treating the irritant as a dvandva (pair) to be borne without narrative elaboration. The discipline is not suppression but the reduction of reactive commentary. Over days, track whether the gap between sensation and resentment is widening.",
     "advaita-bhakti": "Madhusūdana's detailed list of forbidden solicitations for the renunciant maps onto any role where one holds influence: do not use your position to solicit indirectly (through hints, public display of need, or leveraging relationships). Accept only what the role-norm (śāstra) legitimately brings. When hunger or exhaustion threatens equanimity, Madhusūdana's counsel is not to suppress but to re-anchor in the experience of the non-dual depth beneath the sensation — a five-minute stillness practice before responding to the discomfort."
-  }
+  },
+  "primary_meaning": "Content with whatever comes on its own, free from envy, unmoved by success or failure, such a person acts and is not bound."
 }

@@ -173,7 +173,7 @@
     },
     {
       "surface_form": "ramate",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -445,16 +445,6 @@
       ]
     },
     {
-      "list": "ममैवांशो जीवलोके",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.30",
-        "4.24",
-        "4.40",
-        "8.3"
-      ]
-    },
-    {
       "list": "स्पर्श",
       "role": "supporting",
       "other_verses_in_list": [
@@ -493,7 +483,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ramate: ram -> √ram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If all sense-pleasures are duhkha-yoni by structure (not merely by excess), does moderation solve anything -- or does Shankara's impermanence argument make every dose of pleasure an unresolved debt?",
@@ -511,5 +511,6 @@
     "shuddhadvaita": "Each time prakriti-born pleasure ends -- a meal, a film, a compliment -- consciously note the adyantavat structure (it began; it ended). Then turn affirmatively toward one moment of brahma-ananda: a mantra, a name of Krsna, a beauty in nature received as prasada. The practice is not negation but substitution with something that has no built-in ending.",
     "bhakti": "In social and professional life, watch for the spardha-suya complex -- rivalry, jealousy, envy -- that activates the moment you or another gains a pleasure. That activation is the real-time signature of duhkha-yonitva. Use it as a sensor: when the rivalry-reflex fires, recognize it as evidence that the pleasure-object is already doing its work as a sorrow-source, without waiting for separation or loss.",
     "advaita-bhakti": "Keep Madhusudana's three-register audit as a decision-making tool. For any anticipated pleasure ask: (1) parinama -- how will this transform as circumstances shift? (2) tapa -- what will I protect or resent to sustain it? (3) samskara -- what impression will this leave that pulls me back for more? If all three are non-trivial, the akshi-patra standard applies: the vivekin declines not because the pleasure is grossly wrong but because the composite cost exceeds the yield."
-  }
+  },
+  "primary_meaning": "Pleasures born of sense-contact are wombs of sorrow, Arjuna, bounded by a beginning and an end; a wise person finds no delight in them."
 }

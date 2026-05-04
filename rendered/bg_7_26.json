@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative red 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "samatītāni",
-      "lemma": "samatī",
+      "lemma": "sam-√atī",
       "grammar": "accusative neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "vartamānāni",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "accusative neuter plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -215,7 +215,7 @@
     },
     {
       "surface_form": "veda",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -456,13 +456,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अहं वेद",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.5"
-      ]
-    },
-    {
       "list": "कश्चन",
       "role": "supporting",
       "other_verses_in_list": [
@@ -470,14 +463,6 @@
         "5.15",
         "6.2",
         "8.27"
-      ]
-    },
-    {
-      "list": "युञ्जान योगी",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.5",
-        "6.39"
       ]
     }
   ],
@@ -508,7 +493,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "veda: vid -> √vid",
+          "samatītāni: samatī -> sam-√atī",
+          "vartamānāni: vṛt -> √vṛt",
+          "veda: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa knows all three-time-standing beings but no being knows Him, what does that asymmetry imply about the direction in which liberation must move — is it a movement of the jīva toward Brahman, or a movement of grace toward the jīva?",
@@ -526,5 +524,6 @@
     "śuddhādvaita": "Vallabha's insistence that the rare jñānī is one upon whom grace descends, not one who earned it, reframes achievement itself. When something unexpectedly goes well — a conversation, a project, a relationship — resist the reflex to attribute it entirely to your own skill. Practice naming one element in each success that was genuinely not in your control; this is not false modesty but training in recognizing prasāda (grace) as a real category distinct from earned outcomes.",
     "bhakti": "Śrīdhara's principle — that māyā never deludes its own āśraya — points toward a concrete test: what are you currently the āśraya (ground) of? The projects, relationships, and identities you hold as foundations are not objects of your confusion but sources of it. Holding something as a foundation makes it invisible to examination. The practice is periodically surfacing your own unexamined āśrayas and asking whether they are genuinely load-bearing or merely habitual.",
     "advaita-bhakti": "Madhusūdana's tu — the grammatical marker of 'radical obstruction' — points to the moments in daily life where understanding is blocked not by lack of information but by something structural. When you find yourself saying 'I know all the facts but I still can't see clearly,' that tu-moment is the signal: the obstruction is not cognitive but relational. The synthesis prescription is to actively seek the one person or practice that functions as mad-bhakta-exemption in your life — the relationship or discipline that has historically dissolved your persistent blind spots."
-  }
+  },
+  "primary_meaning": "Krishna says: I know every being across past, present, and future, but not one of them knows Me, because my own māyā holds them in delusion."
 }

@@ -94,7 +94,7 @@
     },
     {
       "surface_form": "prapadyate",
-      "lemma": "prapad",
+      "lemma": "pra-√pad",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -616,7 +616,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prapadyate: prapad -> pra-√pad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If vāsudevaḥ sarvam iti is the culminating recognition after many births, what does it mean for a practitioner who has not yet reached that recognition — is the path primarily one of accumulation or one of sudden insight?",
@@ -634,5 +644,6 @@
     "śuddhādvaita": "Since the final recognition is the Lord's gift, the everyday stance is one of receptive readiness: create the conditions for grace (sevā, smaraṇa, association with devotees) without grasping at the fruit. When unexpected joy or clarity arrives unprompted — in music, in a child's laughter, in sudden stillness — receive it as the Lord's svajñāna arriving as prasāda, not as your achievement.",
     "bhakti": "Cultivate sarvātma-dṛṣṭi (the vision of universal selfhood) incrementally: once a day, look at something you normally find annoying or neutral — a difficult colleague, traffic, a withered plant — and consciously hold 'this moving, this unmoving, is Vāsudeva.' The practice does not require metaphysical conviction at first; Śrīdhara's gradual-accumulation model means the vision deepens through repetition over time.",
     "advaita-bhakti": "Notice the loves already present in your life — love for a child, for beauty, for justice, for truth — and rather than treating them as competing allegiances, practice seeing them as streams flowing toward one ocean. Madhusūdana's key move is that sarva-premṇāṃ paryavasāyitvat (all loves converging) is already happening; the jñānavān simply sees it. The everyday application is to stop treating love-for-God and love-for-world as rivals and start mapping how one already expresses the other."
-  }
+  },
+  "primary_meaning": "After many births, the one in whom knowledge has fully ripened surrenders to me, knowing that Vāsudeva is all. Such a great soul is exceedingly rare."
 }

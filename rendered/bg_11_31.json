@@ -10,7 +10,7 @@
   "word_by_word": [
     {
       "surface_form": "ākhyāhi",
-      "lemma": "ākhyā",
+      "lemma": "ā-√khyā",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -109,7 +109,7 @@
     },
     {
       "surface_form": "astu",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present imperative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -141,7 +141,7 @@
     },
     {
       "surface_form": "prasīda",
-      "lemma": "prasad",
+      "lemma": "pra-√sad",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -257,7 +257,7 @@
     },
     {
       "surface_form": "prajānāmi",
-      "lemma": "prajñā",
+      "lemma": "pra-√jñā",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -556,7 +556,27 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prajānāmi: prajñā -> pra-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "ākhyāhi: ākhyā -> ā-√khyā",
+          "astu: as -> √as",
+          "prasīda: prasad -> pra-√sad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "When a force much larger than you is already in motion — and you did not set it in motion — what is the proper response: to demand explanation first, or to act within the movement and understand later?",
@@ -574,5 +594,6 @@
     "śuddhādvaita": "When a beloved relationship changes into something frightening — grief, illness, estrangement — the Vallabha practice is to recognize the same person in the new form (ādi-puruṣa beneath the ugra-rūpa) and to keep asking for the familiar sweetness to return through sustained devotion, not through denial of the difficulty.",
     "bhakti": "When you genuinely do not understand what is happening around you — in a project, a family, a community — the Śrīdhara counsel is to state that incomprehension plainly and completely: 'I don't know your purpose AND I don't even know the basic facts of what you are doing.' Naming the full depth of not-knowing is the beginning of real inquiry, not a confession of failure.",
     "advaita-bhakti": "In a crisis where someone with authority over your life is acting in ways you cannot comprehend, Madhusūdana's counsel is to locate yourself as 'atyanta-anugrāhya' — wholly dependent, wholly a recipient — before asking for explanation. This is not self-erasure but an accurate perception of your position; it opens the channel through which the explanation can actually reach you, rather than being deflected by defensiveness."
-  }
+  },
+  "primary_meaning": "Tell me who you are in this terrible form, O greatest of gods; I bow to you, be gracious. I wish to know you as the Primal One, for I do not understand what you are doing."
 }

@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "gītam",
-      "lemma": "gā",
+      "lemma": "√gā",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "viniścitaiḥ",
-      "lemma": "viniści",
+      "lemma": "vi-√niści",
       "grammar": "instrumental neuter plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -405,7 +405,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gītam: gā -> √gā",
+          "viniścitaiḥ: viniści -> vi-√niści"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krishna invoke the seers, Vedic meters, and Brahma-sutras all at once — what does the layered appeal to authority accomplish here that a single citation would not?",
@@ -423,5 +434,6 @@
     "śuddhādvaita": "Vallabha's framing turns the verse into an invitation: all the complexity of what you are — your drives, your resistances, your body's particular history — is not an obstacle to knowing Krishna but the very substance He is about to illuminate through His own disclosure. Bring all of it, not a sanitized version.",
     "bhakti": "Sridhara's enumeration — jada nature, desire-qualities, sense-modifications, causal origin, differentiation into kinds of beings — is a checklist for honest self-observation. When you notice an emotional reaction, can you identify which layer it comes from: a sense-modification, a body-state, a habitual pattern? Naming the layer is the beginning of the viveka (discernment) the verse presupposes.",
     "advaita-bhakti": "Madhusudhana's synthesis suggests that the same awareness that is svaprakasha (self-luminous) in its essential nature also appears through the adjunct-powers as personality, preference, and feeling. Living from that view, you do not need to suppress personality to be aware — awareness shows up as and through personality, not behind it."
-  }
+  },
+  "primary_meaning": "The sages have sung of this truth in many ways and through many Vedic hymns, and the Brahma-sūtra has settled it with precise, reasoned arguments."
 }

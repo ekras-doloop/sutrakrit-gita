@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "viddhi",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "nibadhnāti",
-      "lemma": "nibandh",
+      "lemma": "ni-√bandh",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -441,7 +441,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viddhi: vid -> √vid",
+          "nibadhnāti: nibandh -> ni-√bandh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If rajas binds through karma-sanga, can action itself ever be a path to liberation — or does liberation require abandoning action entirely?",
@@ -458,5 +469,6 @@
     "shuddhadvata": "Bring attention to the pleasure in a chosen activity — music, cooking, creative work. Vallabha's point is that the ranjana (the colouring-delight) is not the problem; its object is. Experiment with deliberately offering the same aesthetic pleasure to Krishna as you experience it. The capacity for delight is grace; its redirection is sadhana.",
     "bhakti": "Sridhara's double definition — trishna for the absent, sanga for the present — maps the whole field of ordinary desire. Take one area of life and audit it: what am I chasing that I do not have, and what am I clutching that I already hold? Name both clearly. The naming, the Sridhara way, precedes the releasing.",
     "advaita-bhakti": "Catch the internal sentence 'I am doing this and I will get that result.' Madhusudhana calls this abhinivedha-vishesha — the specific conviction of agency and enjoyership. It need not be destroyed through force; observe it arising and ask whether the 'I' that claims the action is the same one that was present before the action began. This Advaita-inflected questioning weakens the adhesive without requiring renunciation of the act itself."
-  }
+  },
+  "primary_meaning": "Know rajas as passion-natured, born of craving for what you lack and clinging to what you have; through that hunger for results, it binds the embodied soul to action."
 }

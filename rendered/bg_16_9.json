@@ -69,7 +69,7 @@
     },
     {
       "surface_form": "naṣṭa",
-      "lemma": "naś",
+      "lemma": "√naś",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -101,7 +101,7 @@
     },
     {
       "surface_form": "prabhavanti",
-      "lemma": "prabhū",
+      "lemma": "pra-√bhū",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -327,8 +327,9 @@
         "jayatirtha_16.9"
       ],
       "score": 0.5,
-      "english_rendering": "In Dvaita the eternal distinction between jīva (individual self), jagat (world), and Hari (the Lord) is the very structure reality refuses to collapse. Those who deny this threefold distinction — holding all to be one undifferentiated matter — become naṣṭātmānaḥ (those whose self is annihilated in error) and, acting from ugra-karma (fierce deeds) rooted in that denial, bring destruction upon a world that is Hari's own body of sovereignty. No specific verse-commentary by Madhva survives for 16.9; this rendering extrapolates from Madhva's consistent polemical framing of the nāstika (denier) as the archetype of adharma (disorder).",
-      "divergence_note": "NOTE: Madhva's commentary on BG 16.9 is absent from the panel ('Sri Madhvacharya did not comment on this sloka'). Rendering extrapolated from Madhva's documented position on nāstika philosophy and jīva-Brahman nitya-bheda (eternal difference)."
+      "english_rendering": "*Etāṃ dṛṣṭim avaṣṭabhya* — seizing this view, that there is no *jagat*-sustaining Hari, no *ātman* distinct from matter, no moral order rooted in *svatantra* (the independently real, self-sufficient) being — the *naṣṭātmānaḥ* (those whose *ātman* is lost to them) arise. Their loss is not metaphor: *ātman* as *paratantra* (eternally dependent) reality remains real and distinct whether acknowledged or not; denial of the *pañca-bheda* (the five-fold real distinction: Lord–*jīva*, Lord–matter, *jīva*–*jīva*, *jīva*–matter, matter–matter) does not dissolve those distinctions but destroys the one who denies them. *Alpa-buddhayaḥ* — their intelligence is small precisely because it refuses the *taratamya* (graded ontological hierarchy) that structures all existence: they flatten Hari's sovereign order into undifferentiated matter or void. From that flattening comes *ugra-karma* (fierce, violent action) — deeds stripped of the *bhakti* (devotion) and accountability that flow from knowing oneself as dependent on the Lord. The *jagat* they assail is not inert: it is pervaded and governed by Hari as *antaryāmin*, so that violence against the world is violence against his domain. *Kṣayāya jagataḥ* — for the destruction of the world — names the terminus of a life organized around the denial of *bheda* (real distinction). The *ahitāḥ*, those who are enemies of the good, are precisely those for whom Hari's *svatantra* lordship registers as nothing.",
+      "divergence_note": "No Madhva or Jayatīrtha bhāṣya survives for this verse. The reading is drawn directly from the mūla, voiced through Madhva's documented *pañca-bheda* and *taratamya* siddhānta and his consistent identification of *nāstika* denial as the root of *asura* conduct.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -417,7 +418,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "naṣṭa: naś -> √naś",
+          "prabhavanti: prabhū -> pra-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the naṣṭātmā (self-lost person) has lost access to their own essential nature, what remains as the site of their action — and who or what bears moral responsibility for ugra-karma (fierce deeds) done from that site?",
@@ -435,5 +447,6 @@
     "śuddhādvaita": "Vallabha's insight is that grace (prasāda) is the primary protection against naṣṭātmatā (self-lostness) — not effort alone. The everyday application in Puṣṭi-mārga terms: begin each day with the acknowledgment that Kṛṣṇa's svarūpa (intrinsic form) is already present in your own nature, not waiting to be earned. Actions taken from that ground — even mundane ones — become expressions of līlā (divine play) rather than instruments of kṣaya (decay).",
     "bhakti": "Śrīdhara's malinacitta (defiled mind) is not a moral judgment but a technical description: a citta clogged by dṛṣṭārtha-mātra (only visible ends) cannot register the presence of Bhagavān in what it encounters. The bhakti application is a daily citta-śodhana (mind-purification) practice — not elaborate ritual, but the deliberate cultivation of śraddhā (faith in the unseen) as a counterweight to the transactional reflex. Even one genuine moment of 'this matters beyond its use to me' is that śodhana.",
     "advaita-bhakti": "Madhusūdana's sharpest warning is that this view (lokāyatika-dṛṣṭi) disguises itself as wisdom — it can sound like scientific rigor, pragmatic clarity, or even non-attachment. The advaita-bhakti application is discernment of the difference between vairāgya (dispassion born of seeing the Whole) and the materialist's flat rejection of the unseen. Ask: does this 'letting go' leave more space for Kṛṣṇa, or does it simply contract the world to what is measurable? That question is Madhusūdana's daily compass."
-  }
+  },
+  "primary_meaning": "Gripping this view, the self-ruined and small-minded arise in the world bent on its destruction, violent in deed and hostile to all."
 }

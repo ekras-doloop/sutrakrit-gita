@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "saṃbhūtam",
-      "lemma": "sambhū",
+      "lemma": "sam-√bhū",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -359,7 +359,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āhuḥ: ah -> √ah",
+          "saṃbhūtam: sambhū -> sam-√bhū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the demoniac view reduces all causation to kama (desire), what is left of the concept of personal responsibility — and how does each school's metaphysics ground accountability differently?",
@@ -377,5 +388,6 @@
     "shuddhadvaita": "Vallabha's warning is concrete: if you treat the world as ultimately unreal or meaningless, your sadhana — your practice, your relationships, your creative work — becomes sky-flowers. Engage the world as Krishna's lila, fully real, fully prasada; the demonic error is not too much engagement but wrong attribution of its source.",
     "bhakti": "Shridhara shows that the demoniac first attack pramana — the reliability of received wisdom. In daily life, when you find yourself dismissing a teaching, a tradition, or a wise elder without actually examining their argument, ask: am I refusing epistemic authority because I have genuinely tested it, or because it constrains my kama?",
     "advaita-bhakti": "Madhusudana's epistemological point applies directly to information environments: denying pramanatva (the authority of a source) while still living as if your own preferences are self-justifying is the modern Lokayata move. Practice distinguishing 'I have examined this and found it inadequate' from 'I find this inconvenient and therefore invalid.'"
-  }
+  },
+  "primary_meaning": "They say: the world has no truth, no foundation, no God, born only from the lust of man and woman, nothing more."
 }

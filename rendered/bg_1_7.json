@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "viśiṣṭāḥ",
-      "lemma": "viśiṣ",
+      "lemma": "vi-√śiṣ",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "nibodha",
-      "lemma": "nibudh",
+      "lemma": "ni-√budh",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -132,7 +132,7 @@
     },
     {
       "surface_form": "bravīmi",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -368,7 +368,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "viśiṣṭāḥ: viśiṣ -> vi-√śiṣ",
+          "nibodha: nibudh -> ni-√budh",
+          "bravīmi: brū -> √brū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Duryodhana opens his catalogue with 'on our side' (asmākam tu) — what does the structure of self/other enumeration at the moment of battle reveal about how leaders construct identity and justify war?",
@@ -386,5 +398,6 @@
     "śuddhādvaita": "Vallabha reads even Duryodhana's anxious mustering as part of Kṛṣṇa's drama. When you find yourself in a stressful briefing — listing resources, identifying gaps, naming who can be counted on — experiment with holding the entire scene as prasāda (grace in motion): the anxiety is real, the preparation is real, and yet the outcome is held by something beyond your catalogue. This is not passivity; it is the difference between planning as grasping and planning as offering.",
     "bhakti": "Śrīdhara's gloss is a precision instrument: nibodha = budhyasva means 'genuinely attend, hold it as known.' Before your next important communication — a briefing, a handoff, a conversation about roles — ask: am I creating samyagjñāna (complete, accurate knowledge) or a partial picture? Śrīdhara's standard is that the listener should come away with an unambiguous map, not a strategic impression. Draft your key points, then test: could a smart outsider reconstruct the full situation from what I said?",
     "advaita-bhakti": "Madhusūdana reads Duryodhana's bold catalogue as concealment of fear (antarotpannam api bhayam tirodhānam). The practice he implies: when you catch yourself performing confidence in a briefing or presentation, stop and ask whether the bravado is serving clarity or suppressing an important signal. The healthier move — which Duryodhana could not make but Arjuna eventually does — is to name the fear explicitly to the right person (your Droṇa, your trusted advisor), rather than encoding it as flattery and strategic numbering."
-  }
+  },
+  "primary_meaning": "Know them well, O best among the twice-born: I name the outstanding commanders of my army so you have a clear picture of our forces."
 }

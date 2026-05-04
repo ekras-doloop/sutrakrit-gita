@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "āsakta",
-      "lemma": "āsañj",
+      "lemma": "ā-√sañj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -125,7 +125,7 @@
     },
     {
       "surface_form": "avāpyate",
-      "lemma": "avāp",
+      "lemma": "√avāp",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -453,7 +453,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āsakta: āsañj -> ā-√sañj",
+          "avāpyate: avāp -> √avāp"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the unmanifest Brahman and the personal God are ultimately the same reality, why does the path of worshipping form produce less suffering — is the difference in the goal or in the worshipper?",
@@ -471,5 +482,6 @@
     "shuddhadvaita": "Vallabha's application is immediate and sensory: if your spiritual life feels like labor rather than joy, that is diagnostic information. Krishna-bhakti was designed to yield ananda at every stage, not only at liberation. Check whether your practice preserves the taste (rasa) of the personal relationship with Krishna — if it has become abstract or effortful, something has been subtracted that needs to be restored.",
     "bhakti": "Sridhara's application is accessible and non-hierarchical: if you are struggling to hold formless awareness in meditation, this is not a personal failure but a structural feature of embodied cognition. Redirect toward a form, a name, a quality of the divine that your mind can naturally hold — and trust that this redirection is not a concession but the appropriate starting point for a being with a body.",
     "advaita-bhakti": "Madhusudana's application is integrative: the goal is not to abandon Vedantic understanding but to let bhakti serve as the vehicle that makes that understanding available without the grinding effort of nirguna meditation alone. Engage with the personal form of the divine as a doorway through which the formless becomes accessible — the easier road and the harder road arrive at the same place; take the road your shraddha (faith) can actually sustain."
-  }
+  },
+  "primary_meaning": "Those who fix their minds on the formless unmanifest carry a heavier burden, for the unmanifest is hard ground to reach when you live inside a body."
 }

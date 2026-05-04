@@ -93,7 +93,7 @@
     },
     {
       "surface_form": "jāgarti",
-      "lemma": "jāgṛ",
+      "lemma": "√jāgṛ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "surface_form": "jāgrati",
-      "lemma": "jāgṛ",
+      "lemma": "√jāgṛ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -613,13 +613,6 @@
       ]
     },
     {
-      "list": "या निशा सर्वभूतानाम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.55"
-      ]
-    },
-    {
       "list": "सा निशा पश्यतो मुनेः",
       "role": "supporting",
       "other_verses_in_list": [
@@ -654,7 +647,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "jāgarti: jāgṛ -> √jāgṛ",
+          "jāgrati: jāgṛ -> √jāgṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the saṃyamī is awake in what others call night, what does that imply about using social consensus — 'everyone agrees this is real' — as a reliable guide to truth?",
@@ -672,5 +676,6 @@
     "śuddhādvaita": "Vallabha's school holds that the ātma-niṣṭhā (inner absorption) cannot be manufactured — it is prasāda (grace). The practical application is therefore to remove the obstacles: each day, notice one moment when you are consumed by śabdādi-viṣaya (chasing sound, sight, taste, or touch as ends in themselves) and simply name it — 'this is the timira (darkness) over the eye that Kṛṣṇa could open.' The naming is not renunciation; it is an act of prārthanā (prayer), turning the recognition itself into an offering.",
     "bhakti": "Śrīdhara's owl-simile is directly actionable: find one domain in your life where you are the owl — where you see clearly what others miss, perhaps because you have spent years in study or devotion — and one domain where you are the crow, blind at night. Map your actual perceptual strengths and gaps onto this verse. Then let the crow-domains become areas of explicit humility and student-posture, and let the owl-domains become areas where you trust and act, without waiting for social confirmation that is meaningless because others cannot see what you see.",
     "advaita-bhakti": "Madhusūdana's synthesis points at the moment when deliberate practice becomes spontaneous — the transition from sādhana-yoga to svataḥ-siddha indriya-saṃyama (effortless restraint). Watch for small signatures of this shift in your own life: a moment when you noticed you had stopped reaching for a habitual distraction not because you resisted it but because the pull was simply gone. Madhusūdana would call this a foretaste of brahma-vidyā. Mark these moments — write them in a personal anubhava-patrā (record of experience) — not to celebrate the self but to build confidence that the wakefulness Kṛṣṇa describes is not mythological."
-  }
+  },
+  "primary_meaning": "What is night for all creatures, the disciplined sage stays awake in; what all creatures are awake to is night for the sage who sees."
 }

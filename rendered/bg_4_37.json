@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "samiddhaḥ",
-      "lemma": "samindh",
+      "lemma": "sam-√indh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -318,7 +318,9 @@
         "jayatirtha_4.37"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya left no direct commentary on this verse. From the Dvaita framework: jñānāgni is not autonomous — it is Hari's own luminosity operating through the qualified jīva's intellect, since the jīva is eternally dependent (parādhīna). The burning of karma is therefore Hari's act witnessed through the devotee; the distinction between Hari as fire and jīva as the kindled wood is never erased. The verse is read as underscoring jīva's radical dependence: no karma-destruction occurs except through Hari's sovereign will."
+      "english_rendering": "*Jñānāgni* (the fire of knowledge) reduces *sarva-karmāṇi* (all accumulated karmas) to ash just as a well-kindled fire (*samiddho 'gniḥ*) reduces fuel (*edhāṃsi*) to ash — *bhasmasāt kurute tathā*. In the Dvaita reading, this fire is not self-igniting in the *jīva*: *jñāna* itself is *paratantra* (eternally dependent), a luminosity whose source is *svatantra* Hari alone. The *jīva* is the kindling; Hari is the fire. *Bheda* (real distinction) between the two is never dissolved in the burning — the wood does not become the flame, it is consumed by it. Karma's destruction is therefore Hari's sovereign act, not the *jīva*'s own accomplishment. The *pañca-bheda* (the five-fold real distinction) stands intact even after all karma is gone: the liberated *jīva* arrives at Hari's feet as a distinct, perfected subordinate, not as an identity. *Taratamya* (graded ontological hierarchy) is preserved through and after the burning.",
+      "divergence_note": "Both Madhva and Jayatīrtha are silent on this verse; the reading is reconstructed directly from Dvaita *siddhānta* applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -493,7 +495,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samiddhaḥ: samindh -> sam-√indh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If prārabdha karma is immune to jñānāgni, what is the relationship between genuine Self-knowledge and ongoing suffering in the life of the jñānin — is their suffering meaningless or purposive?",
@@ -511,5 +523,6 @@
     "śuddhādvaita": "When something in life is clearly already in motion — a consequence already set in train, a health matter with its own trajectory — Puṣṭi-mārga instructs the devotee not to fight it with jñāna's fire, since prārabdha does not burn. Instead, they receive it as Kṛṣṇa's prasāda, opening within it rather than escaping it. For everything that is not yet in motion, the fire of Kṛṣṇa-smaraṇa (remembrance) is applied immediately and completely.",
     "bhakti": "A devotee carrying guilt about past actions — years of unconscious or harmful living before turning to Bhagavān — is reassured by this verse: the fire is not merely symbolic absolution; it is ontological destruction of the karma's generative capacity. The practical counsel is to stop rehearsing old wrongs as though they still have power, because the fire has already consumed their seed.",
     "advaita-bhakti": "Madhusūdana's synthesis is most useful for practitioners who combine meditation and devotion: when grief or guilt arises even within established sādhana, the instruction is to trace it to its source — is it prārabdha (in which case, experience it cleanly and let it exhaust), or is it anārabdha (in which case, the fire of jñāna-bhakti has already annihilated its seed and the arising is a memory with no fuel)? The discernment itself becomes practice."
-  }
+  },
+  "primary_meaning": "As a blazing fire turns wood to ash, the fire of knowledge burns all your accumulated karma to nothing."
 }

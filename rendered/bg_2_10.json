@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -52,7 +52,7 @@
     },
     {
       "surface_form": "prahasan",
-      "lemma": "prahas",
+      "lemma": "pra-√has",
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
@@ -135,7 +135,7 @@
     },
     {
       "surface_form": "viṣīdantam",
-      "lemma": "viṣad",
+      "lemma": "vi-√ṣad",
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -297,9 +297,10 @@
         "jayatirtha_2.10"
       ],
       "score": 0.5,
-      "english_rendering": "[BHĀṢYA ABSENT — Madhva's commentary begins at 2.11, not 2.10. The Dvaita rendering below is therefore a school-voice reconstruction anchored in Madhva's documented method, not a direct bhāṣya citation.] Hṛṣīkeśa — the independent (svatantra) Lord, controller of all senses — addresses the grief-bound jīva Arjuna. That Hari alone can remove moha is the Dvaita axiom; Arjuna's dependency (pāratantrya) is laid bare by his paralysis, and the smile of Kṛṣṇa signals the sovereign ease of the one who is never subject to grief. What follows is not instruction between equals but the grace of the independent Brahman spoken to an eternally distinct, eternally dependent soul.",
-      "divergence_note": "FLAG: Madhva has no commentary on this śloka (payload states: 'Sri Madhvacharya did not comment on this sloka. The commentary starts from 2.11.'). School-voice reconstruction draws on Madhva's established theological axioms (svatantra Hari, pāratantra jīva) as documented across his Gītā-bhāṣya and Anuvyākhyāna.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Hṛṣīkeśaḥ* (the Lord who governs all senses) spoke to him — *viṣīdantam* (to the one sunk in grief) between both armies — smiling, as it were, O Bhārata, these words. The slight smile (*prahasan iva*) is no casual detail: *Hṛṣīkeśa*, the *svatantra* (independently real, self-sufficient) Brahman, stands wholly untouched by the *viṣāda* that has seized Arjuna. That very contrast names the *bheda* (real distinction) at the heart of this exchange — the eternally *paratantra* (eternally dependent) *jīva* collapses under grief that the *svatantra* Lord cannot know from within. Kṛṣṇa's smile is the composure of one for whom *moha* (delusion) is ontologically impossible; Arjuna's paralysis is the exposed *pāratantrya* of the dependent self. The *senayor ubhayor madhye* (between both armies) is the setting in which the *paratantra jīva*'s need for Hari becomes absolute: surrounded by the world of *saṃsāra*'s consequences, no resource of the dependent self suffices. What now follows is the *svatantra* Lord's sovereign address to an eternally distinct, eternally subordinate soul — not counsel between peers, but the descent of grace into *viṣāda*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on 2.10; their bhāṣya opens at 2.11. The reading is reconstructed from Madhva's *pañca-bheda* and *taratamya* siddhānta, with *Hṛṣīkeśa*'s sovereignty and Arjuna's *pāratantrya* as the governing doctrinal poles.",
+      "commentator": "Madhvācārya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -346,20 +347,6 @@
     }
   },
   "theme_list_memberships": [
-    {
-      "list": "मैं युद्ध नहीं करूँगा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.9"
-      ]
-    },
-    {
-      "list": "यथेच्छसि तथा कुरु",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "18.63"
-      ]
-    },
     {
       "list": "हृषीक",
       "role": "supporting",
@@ -422,7 +409,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "prahasan: prahas -> pra-√has",
+          "viṣīdantam: viṣad -> vi-√ṣad"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the text specify that Kṛṣṇa smiled 'as if' (prahasan iva) rather than simply 'smiled' — what is the literary and philosophical load carried by the particle iva here, and how does each school resolve it differently?",
@@ -440,5 +439,6 @@
     "śuddhādvaita": "Vallabha's lens reframes moments of breakdown: if you are dharmiṣṭha — genuinely trying to live well — your collapse is not a failure but an opening. Kṛṣṇa's smile in the Puṣṭi reading means grace is already present in the difficulty, waiting for the moment of honest surrender. The daily application is to stop managing the image of competence when you are genuinely lost, and to let the exposure itself be the beginning of receiving.",
     "bhakti": "Śrīdhara's prasanna-mukha (serene face) points to what a genuine teacher's presence communicates before a single word is spoken. In practice: when someone comes to you in confusion, the quality of your receptivity — steady, un-alarmed, gently present — is already half the teaching. The smile that precedes the instruction is not incidental to the instruction; it is the condition that makes the instruction receivable.",
     "advaita-bhakti": "Madhusūdana's distinction between shame as byproduct versus shame as goal has direct application in any teaching relationship or self-inquiry. When you see your own anucita conduct clearly — a choice that was inconsistent with your stated values, or a moment of cowardice — the discriminating question is: does this recognition produce viveka (clarity about what to do next) or does it produce self-flagellation that circles back to ego? The former is the gauṇa prahāsa Kṛṣṇa employs; the latter is the trap the iva was designed to mark."
-  }
+  },
+  "primary_meaning": "Krishna smiled, or seemed to smile, and there between the two armies spoke to Arjuna, who stood lost in grief."
 }

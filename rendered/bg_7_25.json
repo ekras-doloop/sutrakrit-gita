@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "samāvṛtaḥ",
-      "lemma": "samāvṛ",
+      "lemma": "sam-√āvṛ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
@@ -216,7 +216,7 @@
     },
     {
       "surface_form": "mūḍhaḥ",
-      "lemma": "muh",
+      "lemma": "√muh",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -240,7 +240,7 @@
     },
     {
       "surface_form": "abhijānāti",
-      "lemma": "abhijñā",
+      "lemma": "abhi-√jñā",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -542,13 +542,6 @@
         "17.3",
         "17.7"
       ]
-    },
-    {
-      "list": "सोइ जानइ जेहि देहु जनाई",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.6"
-      ]
     }
   ],
   "audit_trail": {
@@ -578,7 +571,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijānāti: abhijñā -> abhi-√jñā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "samāvṛtaḥ: samāvṛ -> sam-√āvṛ",
+          "mūḍhaḥ: muh -> √muh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the Lord deliberately conceals himself from non-devotees via yoga-māyā, what does that imply about the role of grace versus effort in any genuine spiritual recognition — and does the answer differ between Dvaita, Viśiṣṭādvaita, and Advaita readings?",
@@ -596,5 +608,6 @@
     "śuddhādvaita": "Vallabha's yoga-māyā as the very fabric of becoming means that every layer of daily life — routine, distraction, desire — is not incidentally covering the Lord; it is structurally doing so. The Puṣṭi-mārga response is not heroic effort to strip the layers but loving surrender to Kṛṣṇa such that he chooses to lift the veil. Translated: stop trying to see through the busyness by willpower; offer the busyness itself.",
     "bhakti": "Śrīdhara's 'aghaṭamānaghāṭanācāturya' — the skill of bringing the impossible to pass — means that wherever you encounter something that should not work yet does, or a meeting that should never have happened yet did, you are glimpsing yoga-māyā from the bhakta's side. Cultivate the practice of noticing those impossible conjunctions and receiving them as signals of grace rather than coincidence.",
     "advaita-bhakti": "Madhusūdana's synthesis: the same concealment that blocks the indifferent seeker is the very mystery that pulls the sincere one deeper. In practice, when your spiritual life hits a wall — prayer feels dry, insight has stalled, the text refuses to open — take that opacity not as failure but as the Lord's saṅkalpa asking you to move from surface recognition to the place where Advaita dissolution and bhakti-surrender converge. The wall is the teaching."
-  }
+  },
+  "primary_meaning": "Hidden by my own *yoga-māyā*, I do not shine out to the whole world, and the deluded fail to know me as unborn and undying."
 }

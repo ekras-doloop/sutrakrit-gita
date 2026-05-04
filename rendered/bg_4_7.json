@@ -85,7 +85,7 @@
     },
     {
       "surface_form": "bhavati",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -194,7 +194,7 @@
     },
     {
       "surface_form": "sṛjāmi",
-      "lemma": "sṛj",
+      "lemma": "√sṛj",
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -346,8 +346,9 @@
         "jayatirtha_4.7"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse in the available bhāṣya corpus (the payload records: 'Sri Madhvacharya did not comment on this sloka'). From established Dvaita doctrine, however, the verse confirms Hari's svātantrya (absolute independence): the Lord descends not because cosmic law compels Him but because His own will (icchā) is primary, jīvas being eternally, ontologically distinct and wholly dependent. The avatāra is a real divine body, not māyā-projection, and its purpose is dharma-samsthāpana (re-establishment of right order) on behalf of devotees who cannot accomplish it independently.",
-      "divergence_note": "ABSENT — no direct Madhva bhāṣya available; doctrinal reconstruction from Dvaita first principles, flagged accordingly."
+      "english_rendering": "*yadā yadā hi dharmasya glānir bhavati bhārata | abhyutthānam adharmasya tadātmānaṃ sṛjāmy aham* — Kṛṣṇa, the *svatantra* (independently real, self-sufficient) Lord, declares that whenever *dharma* (right order, the law sustaining creation) declines and *adharma* rises, He freely projects (*sṛjāmy*) His own self into manifestation. The verb *sṛjāmi* in its first-person singular is read in Dvaita as the decisive mark of *svātantrya*: no external law, no cosmic compulsion, no accumulated *karma* of *jīvas* (individual selves) constrains this descent — the Lord's *icchā* (sovereign will) is the sole sufficient cause. The *avatāra* is a real, non-illusory divine body, wholly distinct in kind from the bound *jīva*'s birth; it is the Lord's free self-manifestation, not a concession to *māyā*. The *pañca-bheda* (five-fold real distinction — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter) remains fully intact throughout: the descended form is *svatantra* Hari, and the *jīvas* for whose protection He descends remain *paratantra* (eternally dependent), incapable of dharma-restoration on their own. *Dharmasya glāniḥ* (the waning of *dharma*) is thus not the cause of descent in any compulsory sense; it is the occasion that the self-willed Lord freely takes up, out of His own *kāruṇya* (compassion) and in conformity with His own *saṅkalpa* (resolve). Real arrival, real protection, real *bheda* (distinction) — these are what the verse affirms.",
+      "divergence_note": "No direct Madhva or Jayatīrtha bhāṣya is extant on this verse; the reading voices Dvaita *siddhānta* directly from the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -418,7 +419,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhavati: bhū -> √bhū",
+          "sṛjāmi: sṛj -> √sṛj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa says 'whenever' (yadā yadā) rather than naming a fixed schedule, what does that imply about divine intervention — is it responsive, or is the decline itself pre-known and pre-ordained?",
@@ -436,5 +448,6 @@
     "śuddhādvaita": "Vallabha's mother-analogy is the key: Kṛṣṇa's corrective appearances are not punitive interruptions of ordinary life but expressions of overflowing grace (puṣṭi). In daily life, when you must both protect what is right and confront what is harmful, do so without inner cruelty or sentimental attachment — model the avatāra's own equipoise. Receive every difficulty as a form of Kṛṣṇa's līlā-presence rather than cosmic malfunction.",
     "bhakti": "Train yourself to read the two-part diagnostic: glāni (hāni of what should be present) and abhyutthāna (ādhikya of what should be absent). In any community or relationship, apply this dyad before acting: have both conditions genuinely obtained, or is only one present? Śrīdhara's minimalist gloss counsels restraint — do not invoke the language of dharma-crisis for every friction; the verse requires the full dyad before the response is warranted.",
     "advaita-bhakti": "Madhusūdana's double gloss on 'Bhārata' — lineage or one who delights in knowledge — is the invitation: cultivate the second meaning actively. Become the one who cannot bear the loss of clarity and dharma in their environment, not out of anxious moralism but because your nature is rasa (delight in truth). When you see nānāvidha-duḥkha (manifold suffering) multiplying around you, let that be the trigger that sends you to the text, the teacher, the practice — trusting that the eternally-perfected form is already present, waiting to be seen."
-  }
+  },
+  "primary_meaning": "Whenever righteousness withers and lawlessness rises, Arjuna, I bring myself forth."
 }

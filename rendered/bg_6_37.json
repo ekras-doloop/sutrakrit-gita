@@ -43,7 +43,7 @@
     },
     {
       "surface_form": "upetaḥ",
-      "lemma": "upe",
+      "lemma": "√upe",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "calita",
-      "lemma": "cal",
+      "lemma": "√cal",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -480,7 +480,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "upetaḥ: upe -> √upe",
+          "calita: cal -> √cal"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Does incomplete spiritual effort accumulate across deaths, or does each life start from zero — and what does the answer imply for how urgently we should practice today?",
@@ -498,5 +509,6 @@
     "śuddhādvaita": "Vallabha's 'karṣaka' vocative suggests the Puṣṭi-mārga practitioner's daily stance: you do not practice to earn a destination; you practice because you have already been pulled into Kṛṣṇa's field. Everyday application: on days when formal practice is poor, the practitioner recalls that the draw ('karṣaṇa') is Kṛṣṇa's act, not yours — your task is to not resist it, not to generate it. This converts the anxiety of 6.37 into a question of receptivity.",
     "bhakti": "Śrīdhara's portrait of the honest beginner-who-slackened speaks directly to anyone in a bhakti community who started with intensity and found routine eroding 'vairāgya' (dispassion). The practical instruction: do not abandon the path because your vairāgya has weakened; Śrīdhara's aspirant's only real fault was stopping. The everyday application is continuity over intensity — keep showing up with whatever śraddhā remains.",
     "advaita-bhakti": "Madhusūdana's analysis of 'āyuṣaḥ alpatva' (brevity of life) as the structural problem rather than deficiency of qualification reframes the urgency of practice for the householder who has sādhana-catuṣṭaya (the fourfold qualification) but limited time. The everyday application: since the obstacle may be time rather than capacity, the Madhusūdana-practitioner prioritizes depth over breadth — one complete cycle of śravaṇa-manana-nididhyāsana done in whatever window is available, rather than extensive but shallow exposure."
-  }
+  },
+  "primary_meaning": "Arjuna asks: what becomes of the sincere seeker who started yoga with real faith, but whose effort slackened and who died before the practice bore fruit?"
 }

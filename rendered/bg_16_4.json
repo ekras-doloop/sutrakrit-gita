@@ -115,7 +115,7 @@
     },
     {
       "surface_form": "abhijātasya",
-      "lemma": "abhijan",
+      "lemma": "abhi-√jan",
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -318,8 +318,9 @@
         "jayatirtha_16.4"
       ],
       "score": 0.5,
-      "english_rendering": "Dambha, darpa, atimana, krodha, parusya, and ajnana constitute the asuri-sampad — the endowment of those who are by nature opposed to Hari and incapable of his worship. In Madhva's framework, jivas are of three eternal kinds: mukti-yogya (fit for liberation), nitya-samsarin (eternally bound), and tamo-laya (bound for eternal darkness). The asuri-sampad names the svabhava of the third class — not circumstantial vice but ontological constitution. No remediation through karma or jnana is available to those whose individual essence is constitutively tamasic.",
-      "divergence_note": "Madhva's bhashya is absent for this verse ('Sri Madhvacharya did not comment on this sloka'). This rendering extrapolates from Madhva's established tripartite jiva-classification (mukti-yogya / nitya-samsarin / tamo-laya) and his doctrine of svabhava-niyama, which governs the dvaita reading of all asuri passages."
+      "english_rendering": "*Dambha* (hypocrisy, the show of virtue without its substance), *darpa* (arrogance born of worldly intoxication), *atimāna* (excessive self-inflation), *krodha* (wrath), *pāruṣya* (harshness of speech and act), and *ajñāna* (ignorance of the Lord's supremacy) — these six constitute the *āsurī-sampad* (demonic endowment) of those born into it. In the dvaita *siddhānta*, the *āsurī-sampad* is not an acquired disposition that *jñāna* or *karma* can dissolve. It names the *svabhāva* (essential nature) fixed in the *jīva* from eternity by the *svatantra* (independently real, self-sufficient) will of Hari. The *pañca-bheda* (the five-fold real distinction) between Lord, *jīva*, and *jaḍa* (inert matter) holds absolutely: no *jīva* crosses from one ontological class to another. Those whose nature is constitutively *tāmasic* — the *tamo-laya* class destined for eternal bondage and darkness — display precisely this *sampad* as their characteristic mark. *Dambha* and *darpa* invert *bhakti* (devotion as ontological subordination to Hari) by directing the *jīva*'s energy back onto itself; *ajñāna* is the root, the ignorance of *bheda* (real distinction) between the *paratantra* (eternally dependent) *jīva* and the *svatantra* Lord. The verse does not prescribe correction: it identifies the constitution of those for whom correction is not possible.",
+      "divergence_note": "Madhva and Jayatīrtha are both silent on this verse. The reading is voiced directly from dvaita *siddhānta*: the tripartite *jīva*-classification (*mukti-yogya* / *nitya-saṃsārin* / *tamo-laya*) and *svabhāva-niyama* (the doctrine that each *jīva*'s essential nature is eternally fixed by Hari's will), applied to the *āsurī-sampad* as ontological constitution rather than remediable moral failing. The contaminated cell's meta-narration ('this rendering extrapolates from') has been stripped; the siddhānta is voiced directly off the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -564,7 +565,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "abhijātasya: abhijan -> abhi-√jan"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does the verse list dambha (pretense) first rather than krodha (anger) — what does the ordering imply about which vice is most dangerous or most foundational to the asuri orientation?",
@@ -582,5 +593,6 @@
     "śuddhādvaita": "Vallabha's framing: the asuri-sampad is not merely bad habit but the state of a soul not yet touched by Krsna's undeserved grace. The practical implication is humility about one's own moral progress — your improvement is not your achievement. When you notice a reduction in dambha or darpa in yourself, treat it as a sign of pusthi (divine nourishment), not personal virtue, lest the self-congratulation on reduced pride generate a finer pride.",
     "bhakti": "Sridhara's upalaksana reading: the six named defects are markers pointing to a broader field of asuri-svabhava. In workplace terms, ask which of your habitual responses to friction — defensiveness, sarcasm, credit-claiming, contempt for less-skilled colleagues — belong to this field even if they do not bear the exact labels dambha or parusya. The upalaksana invites an honest audit beyond the named items.",
     "advaita-bhakti": "Madhusudana's 'Partha' address is a tool: he reminds Arjuna of his mother's purity to signal that the asuri-sampad is alien to him. In practice — when you are sliding toward harsh speech (parusya) or self-inflation (atimana) — recall your own lineage of teachers, parents, and exemplars who did not live this way. Memory of a pure line of transmission is itself a corrective to the asuri drift."
-  }
+  },
+  "primary_meaning": "Hypocrisy, arrogance, excessive pride, anger, harshness of speech, and ignorance of what should and should not be done, O Arjuna, are the marks of one born into the demonic endowment."
 }

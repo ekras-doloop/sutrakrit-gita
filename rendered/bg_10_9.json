@@ -34,7 +34,7 @@
     },
     {
       "surface_form": "gata",
-      "lemma": "gam",
+      "lemma": "√gam",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -50,7 +50,7 @@
     },
     {
       "surface_form": "bodhayantaḥ",
-      "lemma": "bodhay",
+      "lemma": "√bodhay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "kathayantaḥ",
-      "lemma": "kathay",
+      "lemma": "√kathay",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "tuṣyanti",
-      "lemma": "tuṣ",
+      "lemma": "√tuṣ",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -190,7 +190,7 @@
     },
     {
       "surface_form": "ramanti",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -527,7 +527,21 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "gata: gam -> √gam",
+          "bodhayantaḥ: bodhay -> √bodhay",
+          "kathayantaḥ: kathay -> √kathay",
+          "tuṣyanti: tuṣ -> √tuṣ",
+          "ramanti: ram -> √ram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What distinguishes maci-citta (mind deposited in Me) from ordinary concentration — and why does Kṛṣṇa pair it immediately with mad-gata-prāṇa (life-breath gone to Me), as though the body must follow the mind's surrender?",
@@ -545,5 +559,6 @@
     "śuddhādvaita": "Vallabha's 'na pūjā-ḍambarena' — not through ritual pomp — is a daily audit: are the forms of your practice pointing toward the person (Kṛṣṇa, or whatever you serve), or have they become the point themselves? Sevā is intimate and undramatic; ḍambara is performance.",
     "bhakti": "Śrīdhara's anumodana (mutual rejoicing in another's realization) is a specific and learnable act: when someone in your community articulates something true, say so — publicly and with reasons. The verbal ratification is itself the mechanism of collective tuṣṭi, not merely social encouragement.",
     "advaita-bhakti": "Madhusūdana's four surrenders suggest a diagnostic: you can give your mind to a purpose without giving your senses, give your senses without making it your livelihood, do all three without transmitting it to anyone else. Each layer closes a gap between belief and integration — locate which layer is your current frontier."
-  }
+  },
+  "primary_meaning": "With minds absorbed in me and lives given over to me, my devotees enlighten one another, speak of me without ceasing, and in that sharing find deep contentment and delight."
 }

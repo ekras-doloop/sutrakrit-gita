@@ -42,7 +42,7 @@
     },
     {
       "surface_form": "varteyam",
-      "lemma": "vṛt",
+      "lemma": "√vṛt",
       "grammar": "present optative 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "anuvartante",
-      "lemma": "anuvṛt",
+      "lemma": "anu-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -409,22 +409,6 @@
       ]
     },
     {
-      "list": "अधो गच्छन्ति तामसाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.24",
-        "14.18"
-      ]
-    },
-    {
-      "list": "उत्सीदेयुरिमे लोका न कुर्यां कर्म चेदहम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.24"
-      ]
-    },
-    {
       "list": "पार्थ",
       "role": "supporting",
       "other_verses_in_list": [
@@ -505,49 +489,6 @@
       ]
     },
     {
-      "list": "मा ते सङ्गोऽस्त्वकर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.47",
-        "3.8",
-        "3.24",
-        "12.11"
-      ]
-    },
-    {
-      "list": "यदि ह्यहं न वर्तेयं जातु कर्मण्यतन्द्रितः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.24"
-      ]
-    },
-    {
-      "list": "वर्त एव च कर्मणि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.22",
-        "3.24"
-      ]
-    },
-    {
-      "list": "विशेष बात",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "2.24",
-        "3.18",
-        "3.21",
-        "3.24"
-      ]
-    },
-    {
-      "list": "संकरस्य च कर्ता स्यामुपहन्यामिमाः प्रजाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.24"
-      ]
-    },
-    {
       "list": "समाचर",
       "role": "supporting",
       "other_verses_in_list": [
@@ -598,6 +539,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
-  }
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "varteyam: vṛt -> √vṛt",
+          "anuvartante: anuvṛt -> anu-√vṛt"
+        ]
+      }
+    ]
+  },
+  "primary_meaning": "If I ever stopped working with full attention, all people would follow my example and do the same."
 }

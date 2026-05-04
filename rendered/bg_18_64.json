@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "iṣṭaḥ",
-      "lemma": "iṣ",
+      "lemma": "√iṣ",
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "asi",
-      "lemma": "as",
+      "lemma": "√as",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -140,7 +140,7 @@
     },
     {
       "surface_form": "vakṣyāmi",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
@@ -327,9 +327,10 @@
         "jayatirtha_18.64"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment directly on this verse. From his framework: the most secret teaching (sarva-guhyatama) is the eternal dependence (paratantrya) of the jiva on Hari; Krishna's partiality (ishto 'si me) is not a sentimental emotion but Bhagavan's sovereign prerogative to bestow grace on the qualified devotee. The supreme word about to follow is welfare (hitam) precisely because it discloses this ontological relationship with full clarity.",
-      "divergence_note": "[Bhashya absent — Madhva did not comment on this sloka; rendering extrapolated from his established doctrinal positions on jiva-paratantrya and Hari-grace]",
-      "commentator": "Madhvacharya"
+      "english_rendering": "*Sarvaguhyatama* (the most secret of all) — Kṛṣṇa names what follows as *paramaṃ vacaḥ* (the supreme word), a disclosure exceeding every prior teaching of the Gītā. The ground of that secrecy is the *bheda* (real distinction) between *svatantra* Hari and the *paratantra* *jīva*: full apprehension of this distinction is not available through inference or scripture-study alone but only through the Lord's own act of speech to the beloved. *Iṣṭo'si me dṛḍham* — 'you are firmly dear to me' — is not sentiment; it is Kṛṣṇa's sovereign declaration of *anugraha* (grace) directed to a specific *jīva* within the *taratamya* (graded hierarchy of souls). That Arjuna stands dear *dṛḍham* (firmly, unwaveringly) marks a real ontological relation between a particular *paratantra* soul and the *svatantra* Lord — a relation *bhakti* does not create but discloses. Because the *jīva*'s dependence is total and eternal, *hitam* (welfare, benefit) can only come from Kṛṣṇa's free disclosure; nothing the *jīva* could independently secure would constitute genuine *hitam*. The verse thus prepares for the *carama-śloka* by naming both the condition of receipt — *iṣṭatā* (being-beloved) — and the agent of its conferral: Bhagavān speaking out of his own sovereign love.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading is voiced directly from dvaita *siddhānta* — *pañca-bheda*, *paratantrya*, *taratamya*, and the doctrine that *anugraha* is Hari's sovereign prerogative — applied to the mūla without bhāṣya mediation.",
+      "commentator": "Madhvacharya",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -424,7 +425,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "iṣṭaḥ: iṣ -> √iṣ",
+          "asi: as -> √as",
+          "vakṣyāmi: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Krishna cite his own love as the reason for repeating himself — what does motivation-disclosure add to a spiritual teaching that content alone cannot?",
@@ -441,5 +454,6 @@
     "shuddhadvaita": "When you are tempted to abstract a teaching — to point at some impersonal principle beyond the living person in front of you — Vallabha's reading is corrective: the Purushottama who is the ground of everything is also the one sitting across from you. Receive advice and affection as lila-prasada (grace-gift) rather than as transaction.",
     "bhakti": "Sridhara's note that some manuscripts read 'dridhmatih' (firm intellect) suggests a practical criterion: bring a steady, settled attention to what matters most. In conversation or study, return to the core question until it is genuinely received, not merely heard. Kripaya (compassion) from the teacher requires dridhmatih (firmness of mind) from the student.",
     "advaita-bhakti": "Madhusudana's synthesis: the welfare that matters most (paramam shreyah) cannot be delivered on demand — it requires a teacher willing to speak without being asked (aprishtopi san). In your own relationships, identify one person whose genuine good you could serve today without waiting to be asked, moved only by deep care rather than by occasion."
-  }
+  },
+  "primary_meaning": "Listen once more to my highest word, the most secret of all: you are firmly dear to me, and so I will tell you what is good for you."
 }

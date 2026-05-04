@@ -92,7 +92,7 @@
     },
     {
       "surface_form": "prāpnuvanti",
-      "lemma": "prāp",
+      "lemma": "√prāp",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -174,7 +174,7 @@
     },
     {
       "surface_form": "ratāḥ",
-      "lemma": "ram",
+      "lemma": "√ram",
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
@@ -382,20 +382,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "-- दो उपसर्गोंसे युक्त",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
-      "list": "-- यहाँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
       "list": "अक्षरम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -488,13 +474,6 @@
       ]
     },
     {
-      "list": "ते प्राप्नुवन्ति मामेव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
       "list": "ध्रुव",
       "role": "supporting",
       "other_verses_in_list": [
@@ -535,27 +514,6 @@
       ]
     },
     {
-      "list": "मया ततमिदं सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "8.4",
-        "9.5",
-        "12.3"
-      ]
-    },
-    {
-      "list": "येन सर्वमिदं ततम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "2.22",
-        "8.4",
-        "9.4",
-        "9.5",
-        "12.3",
-        "18.46"
-      ]
-    },
-    {
       "list": "संनियम्येन्द्रियग्रामम्",
       "role": "supporting",
       "other_verses_in_list": [
@@ -592,13 +550,6 @@
       ]
     },
     {
-      "list": "सर्वगतः अचलः अव्यक्तः अचिन्त्यः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
       "list": "सर्वत्र",
       "role": "supporting",
       "other_verses_in_list": [
@@ -614,34 +565,10 @@
       ]
     },
     {
-      "list": "सर्वत्र समबुद्धयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
       "list": "सर्वत्रगम्",
       "role": "supporting",
       "other_verses_in_list": [
         "12.3"
-      ]
-    },
-    {
-      "list": "सर्वत्रगम् कूटस्थम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "12.3"
-      ]
-    },
-    {
-      "list": "सर्वभूतहिते रताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "5.25",
-        "6.32",
-        "12.3",
-        "16.2"
       ]
     }
   ],
@@ -672,7 +599,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "prāpnuvanti: prāp -> √prāp",
+          "ratāḥ: ram -> √ram"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If sama-buddhi (equanimity) is described here as the gateway to reaching the Divine, does that mean equanimity is itself a form of worship — even without ritual, prayer, or mantra?",
@@ -690,5 +628,6 @@
     "śuddhādvaita": "Vallabha's contrast between the 'steady aksara' and the 'moving, playful Krishna' is an invitation to ask: is your spiritual life characterized by rigid discipline and still, impersonal practice, or by a relationship that has warmth, surprise, and delight? The Pushti-marga teaching is that Krishna's accessibility is a gift — sva-iccha (His own sweet will) — not something earned by sanniyama. Receive that gift rather than only earning the impersonal ground.",
     "bhakti": "Sridhara's 'spastham' — 'it is self-evident' — is itself a teaching. Not every verse needs a commentary. Sometimes the instruction is precisely what it says: restrain the senses, hold equanimity, care for all beings. The devotional practice here is to take the verse at face value and ask: of these three qualities — sanniyama, sama-buddhi, sarva-bhuta-hite rati — which one is your actual daily practice, and which one are you merely claiming?",
     "advaita-bhakti": "Madhusudhana's sequence gives a practical protocol for a difficult day: (1) Withdraw — pull the senses back from the reactive loop (sanniyamya indriya-gramam). (2) Equalize — notice that the frustration, the praise, the insult are all equal in their ultimate status (sama-buddhi). (3) Bless — end by wishing genuine welfare for everyone in the situation, including the one who provoked you (sarva-bhuta-hite ratah). This is not sentimental. It is the three-stage movement the verse itself prescribes — and according to Madhusudhana, completing it consistently is what 'reaching Brahman' actually looks like in lived experience."
-  }
+  },
+  "primary_meaning": "Restrain your senses fully, hold a steady mind toward all things, delight in the welfare of every being, and you reach Me."
 }

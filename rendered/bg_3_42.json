@@ -59,7 +59,7 @@
     },
     {
       "surface_form": "āhuḥ",
-      "lemma": "ah",
+      "lemma": "√ah",
       "grammar": "past indicative 3rd person plural verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -385,8 +385,8 @@
         "vallabha_3.42"
       ],
       "score": 0.5,
-      "english_rendering": "Vallabha's gloss is deliberately compressed: 'para' in each step signals not merely subtlety but forceful opposition (balavatp-ratīpatva) — each level actively resists the soul's turn toward Kṛṣṇa. 'Saḥ' beyond buddhi is Kāma understood as the most powerful obstruction, the one that survives even when intellect is nominally aligned. In Puṣṭi-mārga the remedy is not disciplined ascent but Kṛṣṇa's anugraha (prasāda) which dissolves Kāma by saturation with divine sweetness (mādhurya), not by the devotee's own effort at each hierarchical rung.",
-      "divergence_note": "Vallabha: 'yo kāmo buddheḥ parataḥ sarvaiḥ' and 'paraśabdo balavatpratīpatvasūcakaḥ' — the word 'para' signals aggressive obstruction, not mere ontological hierarchy. Bhāṣya is sparse; doctrinal inference from Puṣṭi framework fills the gap and is flagged as such."
+      "english_rendering": "*Indriyāṇi parāṇy āhur indriyebhyaḥ paraṃ manaḥ* — among those that obstruct *jñāna* (knowledge), Kṛṣṇa here names the principal one, *ज्ञानविरोधिषु प्रधानत्वेन निर्दिशन्* ('designating with primacy among the opponents of knowledge'). The word *para* at each step does not merely mark ontological subtlety: *अत्र परशब्दो बलवत्प्रतीपत्वसूचकः* — 'here the word *para* indicates forceful opposition (*balavatpratīpatva*).' Each ascending term — *indriyāṇi*, *manas*, *buddhi* — is *para* in the sense of actively resisting the soul's orientation toward Kṛṣṇa. Beyond *buddhi* stands *saḥ*: *यः कामो बुद्धेः परतः सर्वैः* — 'that *kāma* (desire) which is beyond *buddhi* for all.' *Kāma* is thus the deepest obstruction, one that persists even when the intellect is nominally composed. In *puṣṭi-mārga* (the path of grace), dissolution of *kāma* comes not from the aspirant's graduated self-discipline through these rungs but from Kṛṣṇa's *anugraha* (grace), whose *mādhurya* (divine sweetness) saturates and displaces desire at its root.",
+      "divergence_note": "Vallabha's bhāṣya centers on *ज्ञानविरोधिषु प्रधानत्वेन* and *परशब्दो बलवत्प्रतीपत्वसूचकः*: the hierarchy is a hierarchy of obstruction, not of ontological refinement. *Saḥ* is identified as *यः कामो बुद्धेः परतः सर्वैः*. The *puṣṭi-mārga* remedy via *anugraha* and *mādhurya* extends the bhāṣya's sparse doctrinal direction; the bhāṣya itself does not elaborate the remedy."
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -515,7 +515,17 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "āhuḥ: ah -> √ah"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If manas activates the senses and buddhi governs manas, why does disciplining the senses (prāṇāyāma, āsana) feel more tractable in practice than quieting manas — what does the hierarchy predict about the order of difficulty?",
@@ -533,5 +543,6 @@
     "śuddhādvaita": "Vallabha's 'para as forceful obstruction' reframes every setback in sādhana: the reason discipline keeps failing is not weakness of will but the structural ferocity of Kāma at the buddhi-level, which outguns willpower by design. The Puṣṭi solution is not to fight harder but to flood the system with Kṛṣṇa's beauty — kirtan, smaraṇa, sevā — until Kāma is crowded out rather than suppressed. The everyday application: when you relapse, don't double the discipline; add more sweetness.",
     "bhakti": "Śrīdhara's viśleṣa (discrimination) practice is a morning or pre-action inquiry: 'What is asking to act right now — the body's sensation, the mind's habit-loop, the intellect's justification, or the witness that is none of these?' The point is not to suppress lower levels but to correctly identify their source, because misidentification (Kāma posing as Ātman, desire posing as insight) is the core confusion the verse diagnoses. The practice generates clean action by clarifying the actor.",
     "advaita-bhakti": "Madhusūdana's synthesis speaks to practitioners who find pure jñāna-mārga cold and pure bhakti psychologically unstable: the cosmological extension of 'saḥ' (from individual witness all the way to paramātman beyond avyakta) means that the beloved Kṛṣṇa encountered in devotion is not a smaller reality than the impersonal Brahman — he is the same Para compressed into a personal form. The everyday application: in moments of devotional dryness, recall that the witness watching your dry practice is the same 'saḥ' the Kaṭha calls the ultimate goal. Devotion and self-inquiry converge at the top rung."
-  }
+  },
+  "primary_meaning": "The senses are subtler than the body, the mind subtler than the senses, the intellect subtler than the mind — and subtler still is that which stands beyond the intellect."
 }

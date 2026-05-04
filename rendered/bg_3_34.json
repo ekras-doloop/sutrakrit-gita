@@ -68,7 +68,7 @@
     },
     {
       "surface_form": "vyavasthitau",
-      "lemma": "vyavasthā",
+      "lemma": "√vyavasthā",
       "grammar": "nominative masculine dual participle noun",
       "senses_attested_in_panel": [
         {
@@ -117,7 +117,7 @@
     },
     {
       "surface_form": "āgacchet",
-      "lemma": "āgam",
+      "lemma": "√āgam",
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -414,13 +414,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "तौ ह्यस्य परिपन्थिनौ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.32"
-      ]
-    },
-    {
       "list": "द्वेष",
       "role": "supporting",
       "other_verses_in_list": [
@@ -438,13 +431,6 @@
         "18.10",
         "18.23",
         "18.51"
-      ]
-    },
-    {
-      "list": "पर दुख दुख सुख सुख देखे पर",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "16.2"
       ]
     },
     {
@@ -483,7 +469,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vyavasthitau: vyavasthā -> √vyavasthā",
+          "āgacchet: āgam -> √āgam"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If rāga (attraction) and dveṣa (aversion) are inevitable deposits in every sense-organ, what exactly constitutes 'coming under their power' as opposed to merely noticing them?",
@@ -501,5 +498,6 @@
     "śuddhādvaita": "Vallabha's framing makes this verse a message for the middle-range practitioner — someone who is neither fully liberated nor hopelessly ignorant. If you still taste and enjoy the sensory world, this verse is addressed to you specifically. The application is discernment of authorship: ask whether your attraction or aversion right now arises from your own discerning judgment or from an automatic pattern. In Puṣṭi-mārga terms, surrender the saṃskāras to Kṛṣṇa as an offering — not through suppression but through offering the very desire as prasāda.",
     "bhakti": "Śrīdhara's boat-metaphor gives the most actionable guidance: intervene before the current takes you, not while you are already being swept. In practical terms, this means establishing worship (parameśvara-bhajana) as the first act of each day, before exposure to the sensory stream. Meditation, prayer, or a moment of dedicated intention at the start of the day functions as boarding the boat. Once the day's current of stimulus and reaction begins, you are already in the vessel. The failure mode is postponing the spiritual act until later — by then the current has you.",
     "advaita-bhakti": "Madhusūdana's causal-condition analysis points to intellectual work as a spiritual practice: systematically build genuine knowledge of the real consequences of prohibited actions and the real benefits of enjoined ones. This is not moralizing but cognitive renovation — when you viscerally understand (not merely believe) that a habitual indulgence carries hidden harm, the rāga loses its grip not through willpower but through knowledge. The daily application is ruthless honest inquiry: 'Do I actually know what this drive is leading toward, or am I operating on inherited assumption?'"
-  }
+  },
+  "primary_meaning": "Attraction and aversion are seated in every sense and its objects; do not fall under their power, for they are robbers on your road."
 }

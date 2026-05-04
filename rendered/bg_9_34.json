@@ -26,7 +26,7 @@
     },
     {
       "surface_form": "bhava",
-      "lemma": "bhū",
+      "lemma": "√bhū",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -74,7 +74,7 @@
     },
     {
       "surface_form": "namaskuru",
-      "lemma": "namaskṛ",
+      "lemma": "ni-√kṛ",
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -131,7 +131,7 @@
     },
     {
       "surface_form": "eṣyasi",
-      "lemma": "i",
+      "lemma": "√i",
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -324,8 +324,9 @@
         "jayatirtha_9.34"
       ],
       "score": 0.5,
-      "english_rendering": "Direct the mind exclusively to Hari, the independently real Lord ('svatantra'), of whose infinite auspicious qualities the jīva is eternally a dependent reflection ('paratantra'). Become his devoted servant ('mad-bhakta'), his worshipper ('mad-yājī'), and bow to him — not as a spiritual technique but as acknowledgment of the eternal ontological subordination of the jīva. Having yoked the self in full dependence ('mat-parāyaṇa'), you will attain Hari — a real arrival at a real, eternally distinct Lord, not a dissolution.",
-      "divergence_note": "FLAG: The payload records 'Sri Madhvacharya did not comment on this sloka.' This rendering is reconstructed from Dvaita siddhānta applied to the verse's grammar — the jīva-Brahman bheda (distinction) is the organizing principle. Not directly bhāṣya-anchored."
+      "english_rendering": "*Man-manā bhava* — fix the mind on Hari alone, the *svatantra* (the independently real, self-sufficient) Lord whose *svarūpa* is infinite auspicious qualities. *Mad-bhaktaḥ* — let *bhakti* (devotion) be the constitutive posture of the *jīva* (the individual self), who is *paratantra* (eternally dependent) and can have no ground of its own apart from Hari. *Mad-yājī* — worship him as the sole *yajña*-recipient, sovereign over all *pañca-bheda* (the five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter). *Māṃ namaskuru* — prostration is not ritual courtesy but the enacted acknowledgment of the jīva's eternal ontological subordination. *Yuktvaivam ātmānaṃ mat-parāyaṇaḥ* — the self yoked entirely in *mat-parāyaṇa* (supreme refuge in Hari) arrives at *mām eva*, Hari himself: a real arrival at a real, eternally distinct Lord, not dissolution into undifferentiated identity. *Taratamya* (graded ontological hierarchy) is preserved even in liberation — the released jīva attains proximity and direct experience of Hari while remaining irreducibly *paratantra*.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. The reading draws the *pañca-bheda* and *taratamya* siddhānta directly onto the mūla imperatives: *man-manā*, *mad-bhaktaḥ*, *mad-yājī*, *namaskuru*, and *mat-parāyaṇaḥ* each map onto a distinct aspect of the jīva's constitutive dependence on *svatantra* Hari.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -370,13 +371,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "अवजानन्ति मां मूढा मानुषीं तनुमाश्रितम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.11"
-      ]
-    },
-    {
       "list": "आत्मा",
       "role": "supporting",
       "other_verses_in_list": [
@@ -388,34 +382,6 @@
         "10.20",
         "11.3",
         "13.24"
-      ]
-    },
-    {
-      "list": "ज्ञानं तेऽहं सविज्ञानमिदं वक्ष्याम्यशेषतः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.2"
-      ]
-    },
-    {
-      "list": "न त्वहं तेषु ते मयि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.12"
-      ]
-    },
-    {
-      "list": "न मां दुष्कृतिनो मूढाः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.15"
-      ]
-    },
-    {
-      "list": "प्रभवः प्रलयः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.18"
       ]
     },
     {
@@ -431,14 +397,6 @@
       "list": "मद्याजी",
       "role": "supporting",
       "other_verses_in_list": [
-        "18.65"
-      ]
-    },
-    {
-      "list": "मन्मना भव",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.1",
         "18.65"
       ]
     },
@@ -520,43 +478,6 @@
         "18.28",
         "18.51"
       ]
-    },
-    {
-      "list": "राक्षसीमासुरीं चैव प्रकृतिं मोहिनीं श्रिताः",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.12"
-      ]
-    },
-    {
-      "list": "वासुदेवः सर्वम्",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.24",
-        "6.31",
-        "6.35",
-        "7.2",
-        "7.4",
-        "7.5",
-        "7.7",
-        "7.12",
-        "7.19",
-        "8.4",
-        "8.5",
-        "9.4",
-        "9.5",
-        "9.19",
-        "10.20",
-        "11.54",
-        "12.15"
-      ]
-    },
-    {
-      "list": "सर्गे यान्ति",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "7.27"
-      ]
     }
   ],
   "audit_trail": {
@@ -586,7 +507,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "namaskuru: namaskṛ -> ni-√kṛ"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "bhava: bhū -> √bhū",
+          "eṣyasi: i -> √i"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "9.34 is the second occurrence of this verse (it first appears at 18.65) — what does its placement as the closing injunction of the 'rāja-guhya' chapter signal about the relationship between secret knowledge and practice?",
@@ -604,5 +544,6 @@
     "śuddhādvaita": "Identify one relationship or practice in your life where Vallabha's 'tadīya' (belonging-to-him) logic applies — where you do what you do not as self-expression but as stewardship of something entrusted. Practice surrendering the outcome of that domain for one week.",
     "bhakti": "Śrīdhara's integration: take one ordinary task today (a meal prepared, a message sent, an object cleaned) and do it as one of the four — 'man-manā' (minded toward the sacred), 'mad-bhakta' (as service), 'mad-yājī' (as offering), or 'namaskuru' (as prostration). The verse is a liturgy for ordinary action, not a prescription for retreat.",
     "advaita-bhakti": "Madhusūdana's diagnostic — are you 'tan-manā' without being 'tad-bhakta'? Apply this to your work: you can be mentally absorbed in a project while remaining emotionally defended, self-protective, un-given. Notice where absorption has not yet become surrender. That gap is the practice."
-  }
+  },
+  "primary_meaning": "Fix your mind on me, be devoted to me, worship me, bow to me, and with your whole self anchored in me as your supreme refuge, you will come to me."
 }

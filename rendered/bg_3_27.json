@@ -44,7 +44,7 @@
     },
     {
       "surface_form": "kriyamāṇāni",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "accusative neuter plural present participle pass verb",
       "senses_attested_in_panel": [
         {
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "vimūḍha",
-      "lemma": "vimuh",
+      "lemma": "vi-√muh",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [
         {
@@ -217,7 +217,7 @@
     },
     {
       "surface_form": "kartāham",
-      "lemma": "kṛ",
+      "lemma": "√kṛ",
       "grammar": "future indicative peri 1st person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -233,7 +233,7 @@
     },
     {
       "surface_form": "manyate",
-      "lemma": "man",
+      "lemma": "√man",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -447,7 +447,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -469,13 +469,6 @@
     },
     {
       "list": "अहंकारविमूढात्मा",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28"
-      ]
-    },
-    {
-      "list": "कर्ताहमिति मन्यते",
       "role": "supporting",
       "other_verses_in_list": [
         "3.28"
@@ -522,16 +515,6 @@
       "other_verses_in_list": [
         "5.8",
         "5.9"
-      ]
-    },
-    {
-      "list": "मैं कर्ता हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28",
-        "5.8",
-        "5.9",
-        "5.20"
       ]
     },
     {
@@ -597,7 +580,20 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "kriyamāṇāni: kṛ -> √kṛ",
+          "vimūḍha: vimuh -> vi-√muh",
+          "kartāham: kṛ -> √kṛ",
+          "manyate: man -> √man"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If the guṇas perform all action and the ātman is akartā (non-agent), what grounds moral responsibility — and does that ground differ between Advaita, Viśiṣṭādvaita, and Dvaita?",
@@ -615,5 +611,6 @@
     "śuddhādvaita": "Vallabha's Puṣṭi-mārga application: treat skill, talent, and creative output as Kṛṣṇa's own prasāda-play flowing through the jīva — the lotus-leaf analogy (puṣkara-palāśa-vat) means full engagement with no residue of possessiveness. When a performance goes brilliantly, the practitioner's response is gratitude rather than pride; when it fails, equanimity rather than shame.",
     "bhakti": "Śrīdhara's philological precision yields a practical diagnostic: notice the exact moment when 'the action is being done' (kriyamāṇa — present passive) flips in your mind to 'I am doing it' (kartā aham). That flip is the adhyāsa (superimposition) he identifies. Catching that precise transition — not generally 'reducing ego' — is the concrete daily practice.",
     "advaita-bhakti": "Madhusūdana's synthesis offers a two-stage application for the practitioner who has both a meditation practice and a devotional one: (1) jñāna-sādhana: at the end of each day, identify one instance where māyā's kārya-kāraṇa (the body-mind complex) acted and the antaḥkaraṇa claimed ownership; (2) bhakti-sādhana: bring that instance into Kṛṣṇa's presence through prayer, surrendering the false kartṛtva rather than merely analyzing it intellectually."
-  }
+  },
+  "primary_meaning": "Nature's three qualities do all the work in every action, but the soul tangled in ego mistakes itself for the doer."
 }

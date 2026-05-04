@@ -18,7 +18,7 @@
     },
     {
       "surface_form": "uvāca",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "past indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -102,7 +102,7 @@
     },
     {
       "surface_form": "vyūḍham",
-      "lemma": "vyūh",
+      "lemma": "√vyūh",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -175,7 +175,7 @@
     },
     {
       "surface_form": "abravīt",
-      "lemma": "brū",
+      "lemma": "√brū",
       "grammar": "impf indicative 3rd person singular",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -297,8 +297,9 @@
         "anandgiri_1.2"
       ],
       "score": 0.5,
-      "english_rendering": "Śaṅkarācārya offers no commentary on BG 1.2; his bhāṣya begins at 2.10, treating the first chapter as sthitaprajña-context requiring no independent explication. The verse reports Sañjaya's narration: Duryodhana, seeing the Pāṇḍava vyūha (battle-array) arranged on the field, approached his ācārya (teacher) and spoke. From a jñāna-mārga reading, the entire battlefield drama is nāmarūpa (name-and-form) superimposed on the undivided Ātman — Duryodhana's frantic counsel-seeking prefigures the avidyā (ignorance) that generates all saṃsāric action.",
-      "divergence_note": "ABSENT — Śaṅkara's bhāṣya explicitly begins at 2.10; reading extrapolated from Advaita framework only."
+      "english_rendering": "Sañjaya's reply to Dhṛtarāṣṭra's anxious question: Ānandagiri reads the *tu*-śabda (*tu*, the particle 'but') as signaling that no fear (*bhayaprasaṅga*) belonged to the Pāṇḍavas — *pāṇḍavānāṃ bhayaprasaṅgo nāstīti etat tu-śabdena dyotyate*. The fear was Duryodhana's alone, and it was great: *pratyuta duryodhanasyaiva rājño bhayaṃ prabhūtaṃ prādurbabhūva*. Seeing the Pāṇḍava forces — *pāṇḍavānāṃ pāṇḍusutānāṃ yudhiṣṭhirādīnām anīkaṃ*, the battle-array (*vyūha*) occupied by commanders bold as Dhṛṣṭadyumna — his heart was seized by dread (*trasta-hṛdayo duryodhano rājā*). He then approached Droṇa, his *ācārya* — his teacher and protector (*ātmanaḥ śikṣitāraṃ rakṣitāraṃ ca*) — with deference, *vinayena prāpya*, and though his heart was agitated by fear (*bhayodvigna-hṛdayatve'pi*), by sheer force of character (*tejasvitvaad eva*) he spoke words that were coherent and substantive: *vacanam artha-sahitaṃ vākyam uktavān*. Śaṅkara's bhāṣya begins at 2.10; this reading follows Ānandagiri's gloss on the mūla.",
+      "divergence_note": "Bucket is B+C: Śaṅkara himself is silent on 1.2; the advaita reading here is anchored to Ānandagiri's sub-commentary (*ṭīkā*) prose rather than a primary bhāṣya. No jñāna-mārga overlay is projected beyond what Ānandagiri's gloss actually contains.",
+      "provenance": "siddhānta_reconstruction"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -444,7 +445,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uvāca: vac -> √vac",
+          "vyūḍham: vyūh -> √vyūh",
+          "abravīt: brū -> √brū"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Sañjaya begin his narration with Duryodhana's anxiety rather than the battle-formations — what does this tell us about the Gītā's actual subject?",
@@ -462,5 +475,6 @@
     "śuddhādvaita": "Vallabha reads Duryodhana's inner dejection as a thread in Kṛṣṇa's līlā. When you find yourself in a position of apparent strategic disadvantage — feeling outmatched, outresourced, outmaneuvered — Puṣṭi-mārga invites you to receive even that sinking feeling as prasāda (grace). The dejection itself is Kṛṣṇa preparing the ground. Do not immediately reach for the motivational override; sit briefly in the inadequacy and ask what it is being prepared for.",
     "bhakti": "Śrīdhara's reading foregrounds the act of approaching the ācārya — a physical movement of respect even under duress. In everyday terms: when crisis arrives, go to your teacher or mentor rather than broadcasting the problem to peers. Duryodhana walks to Droṇa; he does not send a messenger. The quality of how you seek guidance — in person, with attention, with the vyūha (complexity) fully named — shapes the quality of counsel you receive.",
     "advaita-bhakti": "Madhusūdana's sharpest gift here is naming rājanīti-kuśalatā — the political skill of hiding fear behind the mask of respect. Most of us do this daily: we frame anxious requests as professional consultations, we disguise insecurity as due diligence. The advaita-bhakti practice is to catch this concealment in yourself before it calcifies into a habitual persona. When you notice you are performing calm or performing deference, name it internally — bhaya (fear) dressed as gaurava (reverence) — and bring the actual fear forward, at least in your own awareness."
-  }
+  },
+  "primary_meaning": "Sañjaya said: seeing the Pāṇḍava forces drawn up in battle formation, King Duryodhana went to his teacher Droṇa and spoke."
 }

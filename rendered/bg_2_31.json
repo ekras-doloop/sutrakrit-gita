@@ -75,7 +75,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -166,7 +166,7 @@
     },
     {
       "surface_form": "vidyate",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -335,8 +335,10 @@
         "jayatirtha_2.31"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva's commentary is not extant for this verse; the rendering below is anchored in his documented Dvaita framework applied to 2.31's vocabulary. Because jīva (individual soul) is eternally distinct from and dependent on Hari, svadharma (one's own dharma) is not a self-generated identity but an assigned station of worship. The kṣatriya's yuddha is thus an act of pāratantrya (dependent service) — to waver before it is not personal cowardice but disobedience to Hari's svabhāva-kṛta vyavasthā (nature-constituted order). Dvaita reads na vidate śreyas (no higher good exists) as an ontological claim: for a being whose very essence is subordinate to Bhagavān, abandoning one's assigned function is a greater adharma than any harm the battle entails.",
-      "commentator": "Madhvācārya"
+      "english_rendering": "*Sva-dharma* (one's own assigned station) is not self-authored: for the *paratantra* *jīva* (the eternally dependent individual self), it is Hari's *svabhāva-kṛta vyavasthā* (nature-constituted ordering) that fixes the *kṣatriya*'s function as warfare. *Vikampitum* — to waver — is therefore not mere timidity but a refusal of the station Bhagavān has assigned according to *taratamya* (graded ontological hierarchy). The mūla's declaration — *dharmyād dhi yuddhāc chreyo 'nyat kṣatriyasya na vidyate* — carries full ontological weight: because the *jīva*'s very being is *paratantra*, there is genuinely no higher good available to it outside the function allotted by Hari. To abandon *yuddha* is not a private moral failure but a rupture in the *pañca-bheda* (the five-fold real distinction) order, a refusal of *bhakti* expressed through action. *Sva-dharma*, rightly seen, is the *kṣatriya jīva*'s mode of ontological subordination to *svatantra* Hari.",
+      "commentator": "Madhvācārya",
+      "divergence_note": "Bucket changed from B to C: no Madhva or Jayatīrtha bhāṣya prose exists for this verse. The reading is voiced directly from Dvaita *siddhānta* applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -394,20 +396,6 @@
         "17.10",
         "17.12"
       ]
-    },
-    {
-      "list": "धर्म्याद्धि युद्धाच्छ्रेयोऽन्यत्क्षत्रियस्य न विद्यते",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "9.2"
-      ]
-    },
-    {
-      "list": "स्वधर्ममपि चावेक्ष्य न विकम्पितुमर्हसि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.8"
-      ]
     }
   ],
   "audit_trail": {
@@ -437,7 +425,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "arhasi: arh -> √arh",
+          "vidyate: vid -> √vid"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "Śaṅkara frames svadharma as ātmasvābhāvya (aligned with the ātman's own nature). Does this make varṇa-dharma contingent on self-knowledge, such that a kṣatriya who has achieved jñāna is released from the obligation to fight — or does the obligation persist as niṣkāma-karma regardless?",
@@ -454,5 +453,6 @@
     "śuddhādvaita": "Vallabha's prasāda lens: when you face a duty that frightens you, the dharmaniṣṭha (one grounded in dharma) does not argue themselves into it by logic — they ask for grace to be the instrument. The vikampana (trembling) Arjuna displayed was not sensitivity but a failure to surrender the action back to Kṛṣṇa. The practice is to perform the difficult act as an offering, expecting neither external validation nor internal peace as its fruit, but the quiet that comes from having placed the action in Bhagavān's hands.",
     "bhakti": "Śrīdhara's double-valence of śreyas points to a practical heuristic: when you cannot see any good outcome from the right action, ask whether your inability to see it is a problem of vision or a problem of the action. The Gītā's grammar of the comparative (śreyas — better than any alternative) implies that the best available path may still look terrible from inside the grief-state. Bhakti's answer is to act from relationship — to Bhagavān, to the people the action protects — rather than from consequentialist calculus.",
     "advaita-bhakti": "Madhusūdana's two-tiered bhrama-correction has a direct practical corollary: universal suffering (the sādhāraṇa-bhrama of identifying with a perishable body) calls for meditation and self-inquiry; but the asādhāraṇa-bhrama specific to your situation — the fear that doing your job makes you a wrongdoer — calls for svadharma-viveka (discrimination of your own function). When jñāna and svadharma converge, as they do here, the action that seemed most dangerous becomes the one most aligned with both liberation and care."
-  }
+  },
+  "primary_meaning": "Look at your own dharma and do not tremble, for a warrior has no higher good than a battle that is righteous."
 }

@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "īkṣate",
-      "lemma": "īkṣ",
+      "lemma": "√īkṣ",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -116,7 +116,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -465,13 +465,6 @@
         "13.32",
         "18.49"
       ]
-    },
-    {
-      "list": "सर्वभूतानि चात्मनि",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "4.35"
-      ]
     }
   ],
   "audit_trail": {
@@ -501,7 +494,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "īkṣate: īkṣ -> √īkṣ",
+          "yukta: yuj -> √yuj"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Śaṅkara's vision of 'sarva-bhūta-stham ātmānam' dissolves all hierarchy into nirviśeṣa Brahman, how does that vision coexist with the continued perception of the yogi's own body and actions in the world — does the simultaneous-seeing require total withdrawal from vyavahāra (conventional usage)?",
@@ -519,5 +523,6 @@
     "śuddhādvaita": "Vallabha's application hinges on ānanda (bliss) as the signal: when a moment of genuine beauty, connection, or creativity arises and you feel an expansive sense that boundaries have softened, recognize that as the akṣara-Brahman register of the verse opening. Do not stop there — offer the experience back to Kṛṣṇa (as prasāda offered in return), and watch whether Kṛṣṇa's personal presence becomes subtly visible within that expansion. The practice is to complete the two-grade movement every time, not to stabilize at the impersonal plateau.",
     "bhakti": "Śrīdhara's application is the classic bhakti audit: when you catch yourself treating another person as fundamentally other (dismissing them, comparing yourself favorably, seeing their suffering as separate from yours), recognize that as avidyā-kṛta-pariccheda — the delimiting illusion doing its work. The practice is brief but sincere: see the other's body-mind complex as an upādhi just as arbitrary as your own, and let the common ātman beneath it register for a moment. This is not a feeling to manufacture; it is a recognition to allow.",
     "advaita-bhakti": "Madhusūdana's synthesis suggests a two-track daily practice: a period of nirodha (sitting in stillness, watching the witness that persists through the arising and passing of thoughts — the sākṣin) alternated with periods of vicāra (sharp inquiry — 'is this reaction arising from the witness or from a kalpita, a superimposed construct?'). The verse is realized not at the end of a formal sitting but in the instant when you catch yourself treating a mental image of a person as the person themselves — and recognize that superimposition for what it is."
-  }
+  },
+  "primary_meaning": "The yogi whose mind is absorbed in practice sees the self dwelling in all beings and all beings dwelling in the self, and so sees the same reality everywhere."
 }

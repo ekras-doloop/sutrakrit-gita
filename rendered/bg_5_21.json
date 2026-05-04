@@ -51,7 +51,7 @@
     },
     {
       "surface_form": "vindati",
-      "lemma": "vid",
+      "lemma": "√vid",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -133,7 +133,7 @@
     },
     {
       "surface_form": "yukta",
-      "lemma": "yuj",
+      "lemma": "√yuj",
       "grammar": "compound participle (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -183,7 +183,7 @@
     },
     {
       "surface_form": "aśnute",
-      "lemma": "aś",
+      "lemma": "√aś",
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -382,13 +382,6 @@
   },
   "theme_list_memberships": [
     {
-      "list": "आत्यन्तिक सुख",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "6.28"
-      ]
-    },
-    {
       "list": "बाह्य",
       "role": "supporting",
       "other_verses_in_list": [
@@ -446,13 +439,6 @@
         "18.50",
         "18.53",
         "18.54"
-      ]
-    },
-    {
-      "list": "मैं सुखी हूँ",
-      "role": "supporting",
-      "other_verses_in_list": [
-        "3.28"
       ]
     },
     {
@@ -543,7 +529,19 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "vindati: vid -> √vid",
+          "yukta: yuj -> √yuj",
+          "aśnute: aś -> √aś"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If ātma-sukha is already present within, what exactly is the practitioner doing when meditating — discovering something or removing something?",
@@ -561,5 +559,6 @@
     "śuddhādvaita": "In the Puṣṭi-mārga spirit, cultivate the recognition that any genuine moment of inner quietude — however brief — is Kṛṣṇa's prasāda already flowing in. Do not treat these moments as your achievement; receive them as gifts. This receptivity (rather than aggressive striving) is the Vallabha application: open the vessel by shedding saṃmoha, and the akṣaya-sukha pours in of its own.",
     "bhakti": "Śrīdhara's practical arc: when the mind is agitated by outer stimuli, consciously withdraw attention to the upaśama (quietude) available within — not a blank void but a gentle sāttvika stillness. Use this as a daily transition practice between tasks. Over time, this upaśama becomes the stable platform from which samādhi becomes possible, exactly as the verse sequences the two stages.",
     "advaita-bhakti": "Madhusūdana's application addresses the person who knows Brahman intellectually but still finds sense-pleasure more compelling. The practice: honestly audit where tṛṣṇā (thirst) lives — in the body, in social media, in approval-seeking — and apply precise vairāgya (dispassion) there, not in the abstract. As the tṛṣṇā-śūnyatā (desire-voidness) grows, the nirmalasattva-vṛtti (pure-sattva mental mode) naturally surfaces the upaśama-sukha that is the pratyag-ātman's own nature. Bhakti accelerates this: Kṛṣṇa-love is the fastest solvent of competing desires."
-  }
+  },
+  "primary_meaning": "Whoever turns away from outer sense-pleasures finds joy within; yoked to Brahman through yoga, that person tastes happiness that never runs out."
 }

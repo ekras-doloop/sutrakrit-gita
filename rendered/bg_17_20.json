@@ -52,7 +52,7 @@
     },
     {
       "surface_form": "dīyate",
-      "lemma": "dā",
+      "lemma": "√dā",
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -266,7 +266,7 @@
     },
     {
       "surface_form": "smṛtam",
-      "lemma": "smṛ",
+      "lemma": "√smṛ",
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -410,8 +410,9 @@
         "jayatirtha_17.20"
       ],
       "score": 0.5,
-      "english_rendering": "Madhva did not comment on this verse. Inferring from the Dvaita framework: sattvik dana is an act of worship to Hari, given to a deserving Vaishnava or Brahmin as Hari's representative. The giver is a dependent jiva; the gift flows through the jiva to Hari. The conditions — proper desha, kala, patra — are not merely ritual but mark the jiva's discriminative surrender to Hari's order.",
-      "divergence_note": "Bhashya absent — payload states 'Sri Madhvacharya did not comment on this sloka.' Rendering is extrapolated from Dvaita siddhanta; mark as inferred."
+      "english_rendering": "*Dāna* (giving) is *sāttvika* when it flows from the recognition that giving is simply what *must* be done — *dātavyam iti* — not from expectation of return. The *paratantra* *jīva* holds nothing as its own; all wealth belongs to *svatantra* Hari, and its proper distribution is an expression of *bhakti* as ontological subordination. The three conditions named in the mūla — *deśe kāle ca pātre ca* (in the right place, at the right time, to the right recipient) — are not incidental: *deśa* (sacred place, Vaiṣṇava *tīrtha*) and *kāla* (auspicious time aligned with Hari's dispensation) fix the act within Hari's order, while *pātra* (the worthy vessel) names the Vaiṣṇava or *satpātra* Brahmin who stands as Hari's representative. Giving to the *anupakārin* — one from whom no return benefit is expected — dissolves the transactional ego that would assert the *jīva*'s self-sufficiency. The *pañca-bheda* order is implicitly honored: the *jīva* who gives is real and distinct from Hari, distinct from other *jīvas*, and distinct from the material gift — yet the act, rightly performed in *deśa*, *kāla*, and to the proper *pātra*, draws the *jīva* into alignment with Hari's sovereign will. *Tad dānaṃ sāttvikaṃ smṛtam* — such giving is declared *sāttvika* because it proceeds from *jñāna* of one's dependent status and terminates in the glorification of Hari alone.",
+      "divergence_note": "Madhva and Jayatīrtha are silent on this verse. Reading voiced directly from Dvaita *siddhānta* applied to the mūla: *paratantra*-*jīva* as conduit, *pañca-bheda* implicitly honored in the structure of giver–gift–recipient, and the three conditions read as markers of Hari's sovereign order rather than bare ritual prescriptions.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -510,7 +511,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "dīyate: dā -> √dā",
+          "smṛtam: smṛ -> √smṛ"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If 'datavyam' (it must be given) is the decisive mental gesture, how does one cultivate that resolve without it becoming a performance of duty rather than an actual release of the gift?",
@@ -528,5 +540,6 @@
     "shuddhadvaiita": "Let the gift arise from fullness, not from calculation. On the Pushti-marga reading, sattvik giving is natural to a soul touched by grace — forced giving is rajasik even when formally correct. Cultivate bhava (devotional feeling) first; right giving follows. Practically: give something you genuinely love, not just surplus.",
     "bhakti": "Take Sridhara's 'patra as protector' seriously: choose recipients who will use the gift wisely and thereby protect your intent. Indiscriminate giving is not sattvik; it is tamasik (17.22). Do some inquiry into whether the recipient has the tapas and shruta to steward what you give — this is not elitism but respect for the conditions that make giving whole.",
     "advaita-bhakti": "Use Madhusudana's shastra-chodana anchor in secular form: make a prior written commitment to give a fixed share of income before you see the money (auto-transfer at paycheck). The scriptural injunction becomes a pre-committed rule that removes the in-the-moment negotiation. The dana-yajna burns the attachment before it can form."
-  }
+  },
+  "primary_meaning": "Giving because it must be given, to someone who cannot repay you, in the right place and at the right time and to a worthy recipient, that is *sāttvika* giving."
 }

@@ -108,7 +108,7 @@
     },
     {
       "surface_form": "pravartante",
-      "lemma": "pravṛt",
+      "lemma": "pra-√vṛt",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -149,7 +149,7 @@
     },
     {
       "surface_form": "uktāḥ",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "nominative feminine plural participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -315,7 +315,8 @@
         "jayatirtha_17.24"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvacharya did not comment on this verse (payload confirms: 'Sri Madhvacharya did not comment on this sloka'). Extrapolating from Madhva's consistent Dvaita position: the jiva, eternally distinct from and dependent upon Hari, must prefix every God-directed act with Om because Om names Hari as the sarva-tantra-swatantra (the fully independent Lord on whom all depend). The brahma-vadins here are the qualified worshippers whose svadhyaya and karma are prasada-seeking, not self-aggrandizing. [NOTE: Madhva bhashya absent for this verse; rendering is inferential from established Dvaita doctrine.]"
+      "english_rendering": "*Om* is the sonic body of *Viṣṇu*-*Hari*, the one *svatantra* (independently real, self-sufficient) Lord on whom all *paratantra* (eternally dependent) *jīva*s and matter rest. *Tasmāt*—because of this real ontological subordination—the *brahma-vādinaḥ*, those who speak of Brahman as *Hari* alone, prefix every act of *yajña* (sacrifice), *dāna* (gift), and *tapas* (austerity) with *om ity udāhṛtya*: the utterance is not a ritual formality but an explicit acknowledgment of *bheda* (real distinction) between the worshipper and the worshipped. The *vidhānoktāḥ kriyāḥ*—acts enjoined by scriptural prescription—acquire their validity only when initiated under *Om*, because it is *Om* that orients the action toward *Hari* as its sole proper recipient and fruit-giver. Karma performed without this prefix lacks the directedness that transforms *paratantra* action into *bhakti* (devotion as ontological subordination). The *satatam*—'always', 'without intermission'—registers that *taratamya* (graded ontological hierarchy) governs every moment of the qualified agent's practice: no act exits the *pañca-bheda* (five-fold real distinction: Lord–jīva, Lord–matter, jīva–jīva, jīva–matter, matter–matter) order, and *Om* names that order's apex at the start of each rite.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -452,7 +453,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "pravartante: pravṛt -> pra-√vṛt",
+          "uktāḥ: vac -> √vac"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If Om precedes every Vedic act to make it non-defective, what happens to acts done without such an invocation — are they null, merely lesser, or actively harmful?",
@@ -470,5 +482,6 @@
     "śuddhādvaita": "Vallabha's frame suggests: treat the opening of any creative or devotional act as Krishna's invitation rather than your initiative. Before painting, playing music, or preparing a meal with love — receive the impulse as prasada (grace already given), then respond. The Om is the moment you stop originating and start responding.",
     "bhakti": "Shridhara's assurance that Om completes an incomplete rite is practically liberating: when you cannot do a practice fully — compressed time, imperfect conditions, partial attention — begin it anyway with a sincere invocation. The incompleteness is absorbed. This counters perfectionism-paralysis: begin imperfectly with the right orientation rather than waiting for ideal conditions.",
     "advaita-bhakti": "Madhusudan's point that even one syllable of Om removes defect applies directly to contemplative practice: on days when full meditation is impossible, even a single moment of genuine Om-invocation — consciously touching both the silence of nirguna Brahman and the warmth of personal devotion — is not a lesser substitute but a complete act. Quality of contact, not duration, is the operative variable."
-  }
+  },
+  "primary_meaning": "Those who speak of Brahman always begin their acts of sacrifice, giving, and austerity by uttering *Om*, as the scriptures prescribe."
 }

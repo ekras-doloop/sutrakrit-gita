@@ -58,7 +58,7 @@
     },
     {
       "surface_form": "uktam",
-      "lemma": "vac",
+      "lemma": "√vac",
       "grammar": "accusative neuter singular participle noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -66,7 +66,7 @@
     },
     {
       "surface_form": "paryupāsate",
-      "lemma": "paryupās",
+      "lemma": "√paryupās",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -83,7 +83,7 @@
     },
     {
       "surface_form": "śraddadhānāḥ",
-      "lemma": "śraddhā",
+      "lemma": "śrad-√dhā",
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -399,7 +399,26 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "śraddadhānāḥ: śraddhā -> śrad-√dhā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "uktam: vac -> √vac",
+          "paryupāsate: paryupās -> √paryupās"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "The verse says this dharmic-nectar is 'yathoktam' (as stated) — what exactly was 'stated'? Is it the qualities from 12.13-19, the bhakti-yoga of 12.2-12, or the entire teaching of the chapter? How does the antecedent shape what 'practicing' means?",
@@ -416,5 +435,6 @@
     "shuddhadvaita": "Vallabha's distinction between the duty-path and the delight-path is practical: notice when your spiritual practice feels like a burden you are managing vs. a pleasure you are drawn into. If it is consistently burdensome, you may be on the maryada track by temperament but treating it as pushti. Adjust accordingly — and do not confuse rigorous discipline with joyless striving.",
     "bhakti": "Shridhara's philological care — attending to textual variants, not collapsing ambiguity too fast — translates into daily life as the discipline of not resolving a hard question prematurely. When a relationship, decision, or text seems to have two incompatible readings, hold both with shraddha rather than forcing the one that is easier to act on.",
     "advaita-bhakti": "Madhusudana's point that the qualities of adveshtaa (non-hatred) and so on are natural marks of the self-knower — not practices to be effortfully produced — suggests a diagnostic: if these virtues feel like strain, they are still sadhana; if they feel like the texture of ordinary awareness, that is the real signal. Use the strain as information, not as failure."
-  }
+  },
+  "primary_meaning": "Those who follow this path of devoted living, exactly as taught, keeping you as their highest aim, are dearest to you of all."
 }

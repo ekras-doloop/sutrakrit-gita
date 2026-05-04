@@ -99,7 +99,7 @@
     },
     {
       "surface_form": "juhvati",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -246,7 +246,7 @@
     },
     {
       "surface_form": "juhvati",
-      "lemma": "hu",
+      "lemma": "√hu",
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
@@ -415,8 +415,9 @@
         "jayatirtha_4.26"
       ],
       "score": 0.5,
-      "english_rendering": "Madhvācārya did not comment on this verse. In the spirit of Dvaita, however, the verse depicts dependent jīvas (individual souls) offering their bounded faculties into the fire of discipline—an act possible only by Hari's sustaining grace, never by the jīva's autonomous power. The restraint is real, the doer is not self-sufficient.",
-      "divergence_note": "Bhāṣya absent — payload records 'Sri Madhvacharya did not comment on this sloka.' Rendering extrapolated from Dvaita first principles; flagged as inferred."
+      "english_rendering": "*Śrotrādīni indriyāṇi* (the sense faculties beginning with hearing) — some *paratantra* (eternally dependent) *jīvas* offer these into the fires of *saṃyama* (restraint); others offer the sense-objects, *śabdādīn viṣayān* (sound and the rest), into the fires of the *indriyas* themselves. In both cases the offering is real: real faculties, real objects, real discipline. Yet the *jīva*'s capacity to perform either mode of sacrifice is itself *paratantra* — it holds no *svatantra* (self-sufficient, independently real) power. Hari alone sustains the restraining faculty and the offered object alike; the *pañca-bheda* (the five-fold real distinction — Lord from *jīva*, Lord from matter, *jīva* from *jīva*, *jīva* from matter, matter from matter) perdures through the act of offering. The sacrifice does not dissolve the distinctions; it enacts them, placing the *paratantra jīva* in its proper subordinate relation to the *svatantra* Lord. *Bhakti* as ontological subordination is what animates even this austerity of the senses.",
+      "divergence_note": "No bhāṣya from Madhva or Jayatīrtha survives for this verse. Reading voiced directly from Dvaita *siddhānta* primitives applied to the mūla.",
+      "provenance": "siddhānta_reconstruction"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -487,7 +488,18 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "juhvati: hu -> √hu",
+          "juhvati: hu -> √hu"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "If both the ascetic who blocks all sensation and the householder who savors sensation non-graspingly are performing the same sacrifice, what distinguishes genuine non-attachment from mere self-justifying indulgence?",
@@ -505,5 +517,6 @@
     "śuddhādvaita": "A householder can practice Vallabha's offering by fully attending to whatever sense-experience is present—the taste, the sound—without accumulating it as 'mine.' Full presence without ownership dissolves the sense-object into the fire of the sense-faculty. Each ordinary moment of engaged awareness becomes an act of Puṣṭi (nourishment) returned to Kṛṣṇa.",
     "bhakti": "Śrīdhara's two-path structure suggests a diagnostic: identify which mode is natural today—are you in a period of life calling for withdrawal (naiṣṭhika mode) or engagement (gṛhastha mode)? Forcing the wrong mode creates friction that is not tapas but mere conflict. Matching practice to life-phase is itself skillful discernment (viveka).",
     "advaita-bhakti": "Use Madhusūdana's map to audit a meditation sitting: which of the four limbs—pratyāhāra (withdrawal), dhāraṇā (fixation), dhyāna (flow), samādhi (absorption)—was actually reached today? Naming the limb honestly prevents the common inflation of restless sitting into 'deep meditation,' and shows which specific fire still needs feeding."
-  }
+  },
+  "primary_meaning": "Some offer the sense faculties into the fires of self-restraint; others offer sound and the rest of the sense-objects into the fires of the senses themselves."
 }

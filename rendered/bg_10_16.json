@@ -35,7 +35,7 @@
     },
     {
       "surface_form": "arhasi",
-      "lemma": "arh",
+      "lemma": "√arh",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [],
       "theme_lists": [],
@@ -224,7 +224,7 @@
     },
     {
       "surface_form": "tiṣṭhasi",
-      "lemma": "sthā",
+      "lemma": "√sthā",
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
@@ -494,7 +494,25 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (sandhi'd compound → prefix-√root canonical)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "tiṣṭhasi: sthā -> √sthā"
+        ]
+      },
+      {
+        "date": "2026-05-03",
+        "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
+        "scope": "word_by_word[].lemma",
+        "loci": [
+          "arhasi: arh -> √arh"
+        ]
+      }
+    ]
   },
   "so_what_questions": [
     "What is the difference between knowing about Kṛṣṇa's vibhūtis through scripture and receiving that knowledge directly from the source — and why does Arjuna insist on the latter here?",
@@ -512,5 +530,6 @@
     "śuddhādvaita": "Vallabha sees the vibhūtis as Kṛṣṇa's self-expression in the world. Practically: when you encounter beauty, skill, or unexpected grace — in art, in a child's laughter, in an elegant solution — do not merely note it. Receive it as a direct communication from Kṛṣṇa's ānanda, which is always already present and always prasāda.",
     "bhakti": "Śrīdhara's point is that Kṛṣṇa alone is qualified (yogyaḥ) to describe His own glory. Translate this: when you need guidance on a matter only a specific person can truly know, do not substitute second-hand accounts. Seek the primary source. Bhakti here is not sentiment but epistemic humility — going to the one who actually knows.",
     "advaita-bhakti": "Madhusūdana's double bind — must-know, cannot-know by own effort — describes many life situations: grief that must be processed but cannot be forced, creativity that must come but cannot be manufactured, insight that is necessary but cannot be willed. The response is neither passive nor frantic: it is receptive preparation. Create the conditions; do not claim ownership of the arrival."
-  }
+  },
+  "primary_meaning": "Tell me fully of your divine self-manifestations, by which you pervade and sustain these worlds, for only you know the measure of your own glory."
 }
