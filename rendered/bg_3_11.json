@@ -1,8 +1,8 @@
 {
   "verse_id": "3.11",
   "mūla": {
-    "devanāgarī": "कथम् ? देवान् भावयतानेन ते देवा भावयन्तु वः | परस्परं भावयन्तः श्रेयः परम् अवाप्स्यथ",
-    "iast": "katham ? devān bhāvayatānena te devā bhāvayantu vaḥ | parasparaṃ bhāvayantaḥ śreyaḥ param avāpsyatha",
+    "devanāgarī": "देवान्भावयतानेन ते देवा भावयन्तु वः । परस्परं भावयन्तः श्रेयः परमवाप्स्यथ",
+    "iast": "devānbhāvayatānena te devā bhāvayantu vaḥ | parasparaṃ bhāvayantaḥ śreyaḥ paramavāpsyatha",
     "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 11",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -379,7 +379,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -482,6 +482,28 @@
           "bhāvayantaḥ: bhāvay -> √bhāvay",
           "avāpsyatha: avāp -> √avāp"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "mula_avataranika_contamination_strip",
+        "scope": "mula.iast, mula.devanagari",
+        "old_iast_head": "katham ? devān bhāvayatānena te devā bhāvayantu vaḥ | parasparaṃ bhāvayantaḥ śreyaḥ param avāpsyatha",
+        "new_iast": "devānbhāvayatānena te devā bhāvayantu vaḥ | parasparaṃ bhāvayantaḥ śreyaḥ paramavāpsyatha",
+        "source": "sd_bgnew.itx (sanskritdocs.org BG mula, ITRANS) via indic_transliteration",
+        "reason": "parser fallback path concatenated commentator avataranika prose into mula; manifested as stray '?' or ',' in canonical text; first detected during bandha-matrix render audit",
+        "open_followups": [
+          "word_by_word may carry avataranika tokens; needs separate sandhi-aware reconciliation pass against cleaned mula",
+          "audit_trail.corpus_provenance claims Belvalkar/Ambuda but parser fallback used commentary; provenance is mis-stated for affected verses"
+        ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

@@ -1,8 +1,8 @@
 {
   "verse_id": "2.37",
   "mūla": {
-    "devanāgarī": "युरा पुनः क्रियमाणे कर्णादिभिः- हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् | तस्माद् उत्तिष्ठ कौन्तेय युद्धाय कृत-निश्चयः",
-    "iast": "yurā punaḥ kriyamāṇe karṇādibhiḥ- hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm | tasmād uttiṣṭha kaunteya yuddhāya kṛta-niścayaḥ",
+    "devanāgarī": "हतो वा प्राप्स्यसि स्वर्गं जित्वा वा भोक्ष्यसे महीम् । तस्मादुत्तिष्ठ कौन्तेय युद्धाय कृतनिश्चयः",
+    "iast": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm | tasmāduttiṣṭha kaunteya yuddhāya kṛtaniścayaḥ",
     "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 37",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -556,6 +556,15 @@
           "bhokṣyase: bhuj -> √bhuj",
           "kṛta: kṛ -> √kṛ"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "mula_avataranika_contamination_strip",
+        "scope": "mula.iast, mula.devanagari",
+        "old_iast_head": "yurā punaḥ kriyamāṇe karṇādibhiḥ- hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm | tasmād uttiṣṭha kaunteya yuddhāya",
+        "new_iast": "hato vā prāpsyasi svargaṃ jitvā vā bhokṣyase mahīm | tasmāduttiṣṭha kaunteya yuddhāya kṛtaniścayaḥ",
+        "source": "sd_bgnew.itx (sanskritdocs.org BG mula, ITRANS) via indic_transliteration",
+        "reason": "parser fallback path concatenated commentator avataranika prose into mula; surfaced by prosodic-caesura subagent (no '?' or ',' marker, missed by v2 detector)"
       }
     ]
   },

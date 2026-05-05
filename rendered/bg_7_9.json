@@ -385,7 +385,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -432,6 +432,15 @@
           "asmi: as -> √as",
           "asmi: as -> √as"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

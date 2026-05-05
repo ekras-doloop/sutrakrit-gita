@@ -1,8 +1,8 @@
 {
   "verse_id": "2.54",
   "mūla": {
-    "devanāgarī": "प्रश्नबीजं प्रतिलभ्य अर्जुन उवाचलब्धसमाधिप्रज्ञस्य लक्षणबुभुत्सया --- अर्जुन उवाच- अर्जुन उवाच स्थित-प्रज्ञस्य का भाषा समाधि-स्थस्य केशव | स्थित-धीः किं प्रभाषेत किम् आसीत व्रजेत किम्",
-    "iast": "praśnabījaṃ pratilabhya arjuna uvācalabdhasamādhiprajñasya lakṣaṇabubhutsayā --- arjuna uvāca- arjuna uvāca sthita-prajñasya kā bhāṣā samādhi-sthasya keśava | sthita-dhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim",
+    "devanāgarī": "स्थित-प्रज्ञस्य का भाषा समाधि-स्थस्य केशव | स्थित-धीः किं प्रभाषेत किम् आसीत व्रजेत किम्",
+    "iast": "sthita-prajñasya kā bhāṣā samādhi-sthasya keśava | sthita-dhīḥ kiṃ prabhāṣeta kim āsīta vrajeta kim",
     "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 54",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -575,7 +575,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -667,6 +667,15 @@
           "sthita: sthā -> √sthā",
           "prabhāṣeta: prabhāṣ -> pra-√bhāṣ"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

@@ -1,8 +1,8 @@
 {
   "verse_id": "3.8",
   "mūla": {
-    "devanāgarī": "यतः एवम् अतः- नियतं कुरु कर्म त्वं कर्म ज्यायो ह्य् अकर्मणः | शरीरयात्रापि च ते न प्रसिध्येद् अकर्मणः",
-    "iast": "yataḥ evam ataḥ- niyataṃ kuru karma tvaṃ karma jyāyo hy akarmaṇaḥ | śarīrayātrāpi ca te na prasidhyed akarmaṇaḥ",
+    "devanāgarī": "नियतं कुरु कर्म त्वं कर्म ज्यायो ह्यकर्मणः । शरीरयात्रापि च ते न प्रसिद्ध्येदकर्मणः",
+    "iast": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ | śarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ",
     "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 8",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -526,6 +526,15 @@
           "niyatam: niyam -> ni-√yam",
           "prasidhyet: prasidh -> pra-√sidh"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "mula_avataranika_contamination_strip",
+        "scope": "mula.iast, mula.devanagari",
+        "old_iast_head": "yataḥ evam ataḥ- niyataṃ kuru karma tvaṃ karma jyāyo hy akarmaṇaḥ | śarīrayātrāpi ca te na prasidhyed akarmaṇaḥ",
+        "new_iast": "niyataṃ kuru karma tvaṃ karma jyāyo hyakarmaṇaḥ | śarīrayātrāpi ca te na prasiddhyedakarmaṇaḥ",
+        "source": "sd_bgnew.itx (sanskritdocs.org BG mula, ITRANS) via indic_transliteration",
+        "reason": "parser fallback path concatenated commentator avataranika prose into mula; surfaced by prosodic-caesura subagent (no '?' or ',' marker, missed by v2 detector)"
       }
     ]
   },

@@ -1,8 +1,8 @@
 {
   "verse_id": "4.21",
   "mūla": {
-    "devanāgarī": "यः पुनः पूर्वोक्त-विपरीतः प्राग् एव कर्माम्भाद् ब्रह्मणि सर्वान्तरे प्रत्यग्-आत्मनि निष्क्रिये संजातात्म-दर्शनः, स दृष्टादृष्टेष्ट-विषयाशीर् विवर्जिततया दृष्टादृष्टार्थे कर्मणि प्रयोजनम् अप्यश्यन् स-साधनं कर्म संन्यस्य शरीर-यात्रा-मात्र-चेष्टो यतिर् ज्ञान-निष्ठो मुच्यत इति | एतद् अर्थं दर्शयितुम् आह- निराशीर् यत-चित्तात्मा त्यक्त-सर्व-परिग्रहः | शारीरं केवलं कर्म कुर्वन् नाप्नोति किल्बिषम्",
-    "iast": "yaḥ punaḥ pūrvokta-viparītaḥ prāg eva karmāmbhād brahmaṇi sarvāntare pratyag-ātmani niṣkriye saṃjātātma-darśanaḥ, sa dṛṣṭādṛṣṭeṣṭa-viṣayāśīr vivarjitatayā dṛṣṭādṛṣṭārthe karmaṇi prayojanam apyaśyan sa-sādhanaṃ karma saṃnyasya śarīra-yātrā-mātra-ceṣṭo yatir jñāna-niṣṭho mucyata iti | etad arthaṃ darśayitum āha- nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ | śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam",
+    "devanāgarī": "निराशीर् यत-चित्तात्मा त्यक्त-सर्व-परिग्रहः | शारीरं केवलं कर्म कुर्वन् नाप्नोति किल्बिषम्",
+    "iast": "nirāśīr yata-cittātmā tyakta-sarva-parigrahaḥ | śārīraṃ kevalaṃ karma kurvan nāpnoti kilbiṣam",
     "chapter_position": "Chapter 4 (Jñāna-Karma-Sannyāsa-Yoga (The Yoga of Renunciation of Action in Knowledge)), verse 21",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -430,7 +430,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": false,
     "pragmatic_context": {
@@ -705,6 +705,15 @@
           "iṣṭa: iṣ -> √iṣ",
           "vivarjita: vivarjay -> vi-√varjay"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

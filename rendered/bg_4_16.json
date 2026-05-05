@@ -1,8 +1,8 @@
 {
   "verse_id": "4.16",
   "mūla": {
-    "devanāgarī": "तत्र कर्म चेत् कर्तव्यं त्वद्-वचनाद् एव करोम्य् अहम् | किं विशेषितेन ? पूर्वैः पूर्वतरं कृतम् [गीता ४।१५] इति | उच्यते -- यस्मान् महद् वैषम्यं कर्मणि | कथम् ? किं कर्म किम् अकर्मेति कवयो ऽप्य् अत्र मोहिताः | तत् ते कर्म प्रवक्ष्यामि यज् ज्ञात्वा मोक्ष्यसे ऽशुभात्",
-    "iast": "tatra karma cet kartavyaṃ tvad-vacanād eva karomy aham | kiṃ viśeṣitena ? pūrvaiḥ pūrvataraṃ kṛtam [gītā 4.15] iti | ucyate -- yasmān mahad vaiṣamyaṃ karmaṇi | katham ? kiṃ karma kim akarmeti kavayo 'py atra mohitāḥ | tat te karma pravakṣyāmi yaj jñātvā mokṣyase 'śubhāt",
+    "devanāgarī": "किं कर्म किम् अकर्मेति कवयो ऽप्य् अत्र मोहिताः | तत् ते कर्म प्रवक्ष्यामि यज् ज्ञात्वा मोक्ष्यसे ऽशुभात्",
+    "iast": "kiṃ karma kim akarmeti kavayo 'py atra mohitāḥ | tat te karma pravakṣyāmi yaj jñātvā mokṣyase 'śubhāt",
     "chapter_position": "Chapter 4 (Jñāna-Karma-Sannyāsa-Yoga (The Yoga of Renunciation of Action in Knowledge)), verse 16",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -543,7 +543,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": false,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -668,6 +668,15 @@
           "ucyate: vac -> √vac",
           "akarma: kṛ -> √kṛ"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

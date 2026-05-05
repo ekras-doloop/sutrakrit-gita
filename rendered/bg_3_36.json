@@ -1,8 +1,8 @@
 {
   "verse_id": "3.36",
   "mūla": {
-    "devanāgarī": "यद्यपि अनर्थ-मूलम् ध्यायतो विषयान् पुंस [गीता २।६२] इति राग-द्वेषौ ह्य् अस्य परिपन्थिनौ [गीता ३।३४] इति चोक्तम् | विक्षिप्तम् अनवधारितं च तद् उक्तम् | तत् संक्षिप्तं निश्चितं च इदम् एवेति ज्ञातुम् इच्छन् अर्जुन उवाच ज्ञाते हि तस्मिन् तद्-उच्छेदाय यत्नं कुर्याम् इति अर्जुन उवाच- अथ केन प्रयुक्तो ऽयं पापं चरति पूरुषः | अनिच्छन्न् अपि वार्ष्णेय बलाद् इव नियोजितः",
-    "iast": "yadyapi anartha-mūlam dhyāyato viṣayān puṃsa [gītā 2.62] iti rāga-dveṣau hy asya paripanthinau [gītā 3.34] iti coktam | vikṣiptam anavadhāritaṃ ca tad uktam | tat saṃkṣiptaṃ niścitaṃ ca idam eveti jñātum icchan arjuna uvāca jñāte hi tasmin tad-ucchedāya yatnaṃ kuryām iti arjuna uvāca- atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ | anicchann api vārṣṇeya balād iva niyojitaḥ",
+    "devanāgarī": "अथ केन प्रयुक्तो ऽयं पापं चरति पूरुषः | अनिच्छन्न् अपि वार्ष्णेय बलाद् इव नियोजितः",
+    "iast": "atha kena prayukto 'yaṃ pāpaṃ carati pūruṣaḥ | anicchann api vārṣṇeya balād iva niyojitaḥ",
     "chapter_position": "Chapter 3 (Karma-Yoga (The Yoga of Action)), verse 36",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -409,7 +409,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -557,6 +557,15 @@
           "uktam: vac -> √vac",
           "uvāca: vac -> √vac"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },

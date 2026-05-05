@@ -1,8 +1,8 @@
 {
   "verse_id": "2.19",
   "mūla": {
-    "devanāgarī": "शोक-मोहादि-संसार-कारण-निवृत्त्य्-अर्थं गीता-शास्त्रम्, न प्रवर्तकम् इत्य् एतस्यार्थस्य साक्षि-भूते ऋचौ आनिनाय भगवान् | यत् तु मन्यसे युद्धा भीष्मादयो मया हन्यन्ते अहम् एव तेषां हन्ता इति, एषा बुद्धिर् मृषैव ते | कथम् ? य एनं वेत्ति हन्तारं यश् चैनं मन्यते हतम् | उभौ तौ न विजानीतो नायं हन्ति न हन्यते",
-    "iast": "śoka-mohādi-saṃsāra-kāraṇa-nivṛtty-arthaṃ gītā-śāstram, na pravartakam ity etasyārthasya sākṣi-bhūte ṛcau ānināya bhagavān | yat tu manyase yuddhā bhīṣmādayo mayā hanyante aham eva teṣāṃ hantā iti, eṣā buddhir mṛṣaiva te | katham ? ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam | ubhau tau na vijānīto nāyaṃ hanti na hanyate",
+    "devanāgarī": "य एनं वेत्ति हन्तारं यश् चैनं मन्यते हतम् | उभौ तौ न विजानीतो नायं हन्ति न हन्यते",
+    "iast": "ya enaṃ vetti hantāraṃ yaś cainaṃ manyate hatam | ubhau tau na vijānīto nāyaṃ hanti na hanyate",
     "chapter_position": "Chapter 2 (Sāṅkhya-Yoga (The Yoga of Knowledge)), verse 19",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
@@ -420,7 +420,7 @@
     }
   },
   "prosodic_information": {
-    "meter": "other",
+    "meter": "anuṣṭubh",
     "meter_shift_from_previous": true,
     "meter_shift_to_next": true,
     "pragmatic_context": {
@@ -566,6 +566,15 @@
           "yuddhāḥ: yudh -> √yudh",
           "hanyante: han -> √han"
         ]
+      },
+      {
+        "date": "2026-05-05",
+        "fix": "meter_relabel",
+        "scope": "prosodic_information.meter",
+        "from": "other",
+        "to": "anuṣṭubh",
+        "source": "syllabification analysis by prosodic-caesura subagent (Macdonell §504-520, Apte App I)",
+        "reason": "originally labeled 'other'; verse scans as anuṣṭubh (4 pādas × 8 syllables)"
       }
     ]
   },
