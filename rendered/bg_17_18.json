@@ -14,7 +14,7 @@
       "grammar": "compound (compound member)",
       "senses_attested_in_panel": [
         {
-          "sense": "इति। सत्कारः साधुकारः साधुरयमिति तापस इत्यादि वाक्पूजा? मानः प्रत्युत्थानाभिवादनादिः दैहिकीपूजाऽर्थलाभादिः? एतदर्थं दम्",
+          "sense": "इति। सत्कारः साधुकारः साधुरयमिति तापस इत्यादि वाक्पूजा, मानः प्रत्युत्थानाभिवादनादिः दैहिकीपूजाऽर्थलाभादिः, एतदर्थं दम्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -471,6 +471,13 @@
           "kriyate: kṛ -> √kṛ",
           "proktam: pravac -> pra-√vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.525209Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

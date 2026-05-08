@@ -55,7 +55,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "न त्याज्यं न त्यक्तव्यम्? कार्यं करणीयम्",
+          "sense": "न त्याज्यं न त्यक्तव्यम्, कार्यं करणीयम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "sense": "न त्याज्यं मुमुक्षुणाऽपि? अपित्वाप्रायणादन्वहं कार्यमेव वेदोक्तत्वादपि कर्त्तव्यं एकांशेऽपि वेदस्यापरित्यागनियमात्",
+          "sense": "न त्याज्यं मुमुक्षुणाऽपि, अपित्वाप्रायणादन्वहं कार्यमेव वेदोक्तत्वादपि कर्त्तव्यं एकांशेऽपि वेदस्यापरित्यागनियमात्",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -472,7 +472,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.575034Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If renunciation of action is elsewhere praised, why does Krsna carve out yajna, dana, and tapas as non-renounceable — what distinguishes these three from other karma?",

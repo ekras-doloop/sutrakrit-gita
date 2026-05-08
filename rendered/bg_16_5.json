@@ -14,7 +14,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "संपत् या? सा विमोक्षाय संसारबन्धनात्",
+          "sense": "संपत् या, सा विमोक्षाय संसारबन्धनात्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "sense": "भवति? अधोगतिप्राप्तये भवति इत्यर्थः",
+          "sense": "भवति, अधोगतिप्राप्तये भवति इत्यर्थः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -171,7 +171,7 @@
           ]
         },
         {
-          "sense": "इति वचनं न शास्त्रोपक्रमप्रकान्ताशोच्यविषयशोकप्रतिषेधार्थम्?",
+          "sense": "इति वचनं न शास्त्रोपक्रमप्रकान्ताशोच्यविषयशोकप्रतिषेधार्थम्,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -204,7 +204,7 @@
       "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अभिजातः असि अभिलक्ष्य जातोऽसि? भाविकल्याणः त्वम् असि इत्यर्थः?",
+          "sense": "अभिजातः असि अभिलक्ष्य जातोऽसि, भाविकल्याणः त्वम् असि इत्यर्थः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "sense": "? मा शुचः शोकं मा कार्षीः",
+          "sense": ", मा शुचः शोकं मा कार्षीः",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -253,7 +253,7 @@
           ]
         },
         {
-          "sense": "? पण्डुपुत्रेष्वन्येष्वपि दैवी संपत्प्रसिद्धा किं पुनस्त्वयीति भावः",
+          "sense": ", पण्डुपुत्रेष्वन्येष्वपि दैवी संपत्प्रसिद्धा किं पुनस्त्वयीति भावः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -569,6 +569,13 @@
           "abhijātaḥ: abhijan -> abhi-√jan",
           "asi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.516333Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

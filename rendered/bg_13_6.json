@@ -14,7 +14,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "द्वेषः सुखं दुःखम् इति क्षेत्रकार्याणि क्षेत्रविकाराः उच्यन्ते यद्यपि इच्छाद्वेषसुखदुःखानि आत्मधर्मभूतानि? तथापि आत्मनः",
+          "sense": "द्वेषः सुखं दुःखम् इति क्षेत्रकार्याणि क्षेत्रविकाराः उच्यन्ते यद्यपि इच्छाद्वेषसुखदुःखानि आत्मधर्मभूतानि, तथापि आत्मनः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -31,7 +31,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सुखं दुःखम् इति क्षेत्रकार्याणि क्षेत्रविकाराः उच्यन्ते यद्यपि इच्छाद्वेषसुखदुःखानि आत्मधर्मभूतानि? तथापि आत्मनः क्षेत्",
+          "sense": "सुखं दुःखम् इति क्षेत्रकार्याणि क्षेत्रविकाराः उच्यन्ते यद्यपि इच्छाद्वेषसुखदुःखानि आत्मधर्मभूतानि, तथापि आत्मनः क्षेत्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -421,6 +421,13 @@
         "loci": [
           "udāhṛtam: udāhṛ -> ud-√āhṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.466100Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

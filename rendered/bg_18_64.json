@@ -103,7 +103,7 @@
       "grammar": "",
       "senses_attested_in_panel": [
         {
-          "sense": "अव्यभिचारेण इति कृत्वा ततः तेन कारणेन वक्ष्यामि कथयिष्यामि ते तव हितं परमं ज्ञानप्राप्तिसाधनम्? तद्धि सर्वहितानां हिततम",
+          "sense": "अव्यभिचारेण इति कृत्वा ततः तेन कारणेन वक्ष्यामि कथयिष्यामि ते तव हितं परमं ज्ञानप्राप्तिसाधनम्, तद्धि सर्वहितानां हिततम",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -144,7 +144,7 @@
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कथयिष्यामि ते तव हितं परमं ज्ञानप्राप्तिसाधनम्? तद्धि सर्वहितानां हिततमम्",
+          "sense": "कथयिष्यामि ते तव हितं परमं ज्ञानप्राप्तिसाधनम्, तद्धि सर्वहितानां हिततमम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -436,6 +436,13 @@
           "asi: as -> √as",
           "vakṣyāmi: vac -> √vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.586333Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

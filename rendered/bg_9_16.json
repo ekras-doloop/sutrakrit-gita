@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "स्मार्तो वैश्वदेवादिर्महायज्ञत्वेन श्रुतिस्मृतिप्रसिद्धः? स्वधान्नं पितृभ्यो दीयमानं? औषधं ओषधिप्रभवमन्नं सर्वैः प्राणि",
+          "sense": "स्मार्तो वैश्वदेवादिर्महायज्ञत्वेन श्रुतिस्मृतिप्रसिद्धः, स्वधान्नं पितृभ्यो दीयमानं, औषधं ओषधिप्रभवमन्नं सर्वैः प्राणि",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अन्नम् अहम्? पितृभ्यो",
+          "sense": "अन्नम् अहम्, पितृभ्यो",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "sense": "पित्रर्थे श्राद्धादिः? औषधमोषधिप्रभवमन्नं भेषजं वा? मन्त्रो याज्यापुरोनुवाक्यादिः? आज्यं होमादिसाधनम्? अग्निराहवनीयादिः",
+          "sense": "पित्रर्थे श्राद्धादिः, औषधमोषधिप्रभवमन्नं भेषजं वा, मन्त्रो याज्यापुरोनुवाक्यादिः, आज्यं होमादिसाधनम्, अग्निराहवनीयादिः",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -666,7 +666,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.646268Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If Kṛṣṇa is both the fire and the oblation poured into it, what is the epistemological status of the priest who pours — is the agent also subsumed in the list, and where does Kṛṣṇa say so?",

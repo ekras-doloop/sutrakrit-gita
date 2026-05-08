@@ -30,7 +30,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सोमं पिबन्तीति सोमपाः? तेनैव सोमपानेन पूतपापाः शुद्धकिल्बिषाः? यज्ञैः अग्निष्टोमादिभिः इष्ट्वा पूजयित्वा स्वर्गतिं स्वर",
+          "sense": "सोमं पिबन्तीति सोमपाः, तेनैव सोमपानेन पूतपापाः शुद्धकिल्बिषाः, यज्ञैः अग्निष्टोमादिभिः इष्ट्वा पूजयित्वा स्वर्गतिं स्वर",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "पूजयित्वा स्वर्गतिं स्वर्गगमनं स्वरेव गतिः स्वर्गतिः ताम्? प्रार्थयन्ते",
+          "sense": "पूजयित्वा स्वर्गतिं स्वर्गगमनं स्वरेव गतिः स्वर्गतिः ताम्, प्रार्थयन्ते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "sense": "भुञ्जते? अनुभवन्तीत्यर्थः",
+          "sense": "भुञ्जते, अनुभवन्तीत्यर्थः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -585,6 +585,13 @@
           "prārthayante: prārthay -> √prārthay",
           "aśnanti: aś -> √aś"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.650720Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

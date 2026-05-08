@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "। प्रकृतिरित्यर्थः। तन्महद्ब्रह्म मम परमेश्वरस्य योनिर्गर्भाधानस्थानं? तस्मिन्नहं गर्भं जगद्विस्तारहेतुं चिदाभासं दधामि",
+          "sense": "। प्रकृतिरित्यर्थः। तन्महद्ब्रह्म मम परमेश्वरस्य योनिर्गर्भाधानस्थानं, तस्मिन्नहं गर्भं जगद्विस्तारहेतुं चिदाभासं दधामि",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -186,7 +186,7 @@
           ]
         },
         {
-          "sense": "? किन्त्वियमन्यैव",
+          "sense": ", किन्त्वियमन्यैव",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -194,7 +194,7 @@
           ]
         },
         {
-          "sense": "तदेव बीजमित्युच्यते तत्सम्मृष्टपुरुषो विराट्? तत्संसृष्टा उभयस्वरूपाश्चेतना अणवो व्युञ्चरिता जायायामिवात्मा वै जायते इत",
+          "sense": "तदेव बीजमित्युच्यते तत्सम्मृष्टपुरुषो विराट्, तत्संसृष्टा उभयस्वरूपाश्चेतना अणवो व्युञ्चरिता जायायामिवात्मा वै जायते इत",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "sense": "हे भारत? नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
+          "sense": "हे भारत, नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
+          "sense": ", नत्वीश्वरकृतगर्भाधानं विनेत्यर्थः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -509,6 +509,13 @@
         "loci": [
           "bhavati: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.482069Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

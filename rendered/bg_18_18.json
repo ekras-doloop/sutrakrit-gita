@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "एवंविधकर्मज्ञः? इति त्रिविधः कर्मविधिरुच्यते",
+          "sense": "एवंविधकर्मज्ञः, इति त्रिविधः कर्मविधिरुच्यते",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "compound (compound member)",
       "senses_attested_in_panel": [
         {
-          "sense": "? परिज्ञाता",
+          "sense": ", परिज्ञाता",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -202,7 +202,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? परिज्ञाता",
+          "sense": ", परिज्ञाता",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -243,7 +243,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "त्रिप्रकारः कर्मसंग्रहः? संगृह्यते अस्मिन्निति संग्रहः? कर्मणः संग्रहः कर्मसंग्रहः? कर्म एषु हि त्रिषु समवैति? तेन अयं",
+          "sense": "त्रिप्रकारः कर्मसंग्रहः, संगृह्यते अस्मिन्निति संग्रहः, कर्मणः संग्रहः कर्मसंग्रहः, कर्म एषु हि त्रिषु समवैति, तेन अयं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -276,7 +276,7 @@
       "grammar": "compound (compound member)",
       "senses_attested_in_panel": [
         {
-          "sense": "? परिज्ञाता",
+          "sense": ", परिज्ञाता",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -309,7 +309,7 @@
           ]
         },
         {
-          "sense": "तत्र कारकान्तर्भावस्यैवौचित्यात्? कर्मेति पृथग्ग्रहणाच्च",
+          "sense": "तत्र कारकान्तर्भावस्यैवौचित्यात्, कर्मेति पृथग्ग्रहणाच्च",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -607,7 +607,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.547119Z",
+        "patches": 9,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If every impulse to act (jnana, jneya, parijnata) is itself constituted by the gunas, can the decision to renounce action be any less guna-determined — or does the verse quietly dissolve the agent who would renounce?",

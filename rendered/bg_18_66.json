@@ -97,7 +97,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? न मत्तः अन्यत् अस्ति इति अवधारय इत्यर्थः",
+          "sense": ", न मत्तः अन्यत् अस्ति इति अवधारय इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "sense": "मोक्षयिष्यामि सर्वपापेभ्यस्त्वं? मा शुचः इति चोपक्रमोपसंहारौ न स्याताम्",
+          "sense": "मोक्षयिष्यामि सर्वपापेभ्यस्त्वं, मा शुचः इति चोपक्रमोपसंहारौ न स्याताम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -221,7 +221,7 @@
           ]
         },
         {
-          "sense": "सर्वपापेभ्यस्त्वं? मा शुचः इति चोपक्रमोपसंहारौ न स्याताम्",
+          "sense": "सर्वपापेभ्यस्त्वं, मा शुचः इति चोपक्रमोपसंहारौ न स्याताम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -536,6 +536,13 @@
           "mokṣayiṣyāmi: mokṣay -> √mokṣay",
           "śucaḥ: śuc -> √śuc"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.587766Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

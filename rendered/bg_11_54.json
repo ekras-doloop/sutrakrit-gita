@@ -14,7 +14,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "तु किंविशिष्टया इति आह -- अनन्यया अपृथग्भूतया? भगवतः अन्यत्र पृथक् न कदाचिदपि या भवति सा त्वनन्या भक्तिः",
+          "sense": "तु किंविशिष्टया इति आह -- अनन्यया अपृथग्भूतया, भगवतः अन्यत्र पृथक् न कदाचिदपि या भवति सा त्वनन्या भक्तिः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अपृथग्भूतया? भगवतः अन्यत्र पृथक् न कदाचिदपि या भवति सा त्वनन्या भक्तिः",
+          "sense": "अपृथग्भूतया, भगवतः अन्यत्र पृथक् न कदाचिदपि या भवति सा त्वनन्या भक्तिः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -170,7 +170,7 @@
       "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "तत्त्वतः? प्रवेष्टुं",
+          "sense": "तत्त्वतः, प्रवेष्टुं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -511,7 +511,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.431707Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "What exactly does 'ananya' rule out — is it merely not worshipping other deities, or does it mean all cognitive acts are redirected toward the Lord?",

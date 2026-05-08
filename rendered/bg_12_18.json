@@ -22,7 +22,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च मित्रे च? तथा मानापमानयोः पूजापरिभवयोः? शीतोष्णसुखदुःखेषु समः? सर्वत्र",
+          "sense": "च मित्रे च, तथा मानापमानयोः पूजापरिभवयोः, शीतोष्णसुखदुःखेषु समः, सर्वत्र",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च? तथा मानापमानयोः पूजापरिभवयोः? शीतोष्णसुखदुःखेषु समः? सर्वत्र",
+          "sense": "च, तथा मानापमानयोः पूजापरिभवयोः, शीतोष्णसुखदुःखेषु समः, सर्वत्र",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "sense": "च सम एकरूपः? मानापमानयोरपि तथा सम एव",
+          "sense": "च सम एकरूपः, मानापमानयोरपि तथा सम एव",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -448,6 +448,13 @@
         "loci": [
           "vivarjitaḥ: vivarjay -> vi-√varjay"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.442194Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -138,7 +138,7 @@
       "grammar": "nominative singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अस्य जगतः पिता? पूज्यश्च पूजार्हः? यतः गुरुः गरीयान् गुरुतरः",
+          "sense": "अस्य जगतः पिता, पूज्यश्च पूजार्हः, यतः गुरुः गरीयान् गुरुतरः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -163,7 +163,7 @@
       "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "जगतः पिता? पूज्यश्च पूजार्हः? यतः गुरुः गरीयान् गुरुतरः",
+          "sense": "जगतः पिता, पूज्यश्च पूजार्हः, यतः गुरुः गरीयान् गुरुतरः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -285,7 +285,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "स्यात् लोकत्रयेऽपि सर्वस्मिन् अप्रतिमप्रभाव प्रतिमीयते यया सा प्रतिमा? न विद्यते प्रतिमा यस्य तव प्रभावस्य सः त्वम् अप्",
+          "sense": "स्यात् लोकत्रयेऽपि सर्वस्मिन् अप्रतिमप्रभाव प्रतिमीयते यया सा प्रतिमा, न विद्यते प्रतिमा यस्य तव प्रभावस्य सः त्वम् अप्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -613,6 +613,13 @@
           "asi: as -> √as",
           "asti: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.422222Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

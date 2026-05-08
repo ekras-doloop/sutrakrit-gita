@@ -46,7 +46,7 @@
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "असि यत् मम? देवाः अपि अस्य मम रूपस्य नित्यं सर्वदा दर्शनकाङ्क्षिणः दर्शनेप्सवोऽपि न त्वमिव दृष्टवन्तः? न द्रक्ष्यन्ति च",
+          "sense": "असि यत् मम, देवाः अपि अस्य मम रूपस्य नित्यं सर्वदा दर्शनकाङ्क्षिणः दर्शनेप्सवोऽपि न त्वमिव दृष्टवन्तः, न द्रक्ष्यन्ति च",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "असि? तत् सुदुर्दर्शं न केन अपि द्रष्टुं शक्यम् अस्य रूपस्य देवा अपि नित्यं दर्शनकाङ्क्षिणः? न तु दृष्टवन्तः।कुतः इत्यत्",
+          "sense": "असि, तत् सुदुर्दर्शं न केन अपि द्रष्टुं शक्यम् अस्य रूपस्य देवा अपि नित्यं दर्शनकाङ्क्षिणः, न तु दृष्टवन्तः।कुतः इत्यत्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -111,7 +111,7 @@
       "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इति सुदुर्दर्शम्? इदं रूपं दृष्टवान् असि",
+          "sense": "इति सुदुर्दर्शम्, इदं रूपं दृष्टवान् असि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "नित्यं सर्वदा दर्शनकाङ्क्षिणः दर्शनेप्सवोऽपि न त्वमिव दृष्टवन्तः? न द्रक्ष्यन्ति",
+          "sense": "नित्यं सर्वदा दर्शनकाङ्क्षिणः दर्शनेप्सवोऽपि न त्वमिव दृष्टवन्तः, न द्रक्ष्यन्ति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "sense": "देवा अपि नित्यं दर्शनकाङ्क्षिणः? न तु दृष्टवन्तः।कुतः इत्यत्र आह --",
+          "sense": "देवा अपि नित्यं दर्शनकाङ्क्षिणः, न तु दृष्टवन्तः।कुतः इत्यत्र आह --",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -464,6 +464,13 @@
           "dṛṣṭavān: dṛś -> √dṛś",
           "asi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.430412Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

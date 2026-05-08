@@ -79,7 +79,7 @@
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "। ज्ञानवतो ध्यानात् अपि कर्मफलत्यागः? विशिष्यते इति अनुषज्यते। एवं कर्मफलत्यागात् पूर्वविशेषणवतः शान्तिः उपशमः सहेतुकस्य",
+          "sense": "। ज्ञानवतो ध्यानात् अपि कर्मफलत्यागः, विशिष्यते इति अनुषज्यते। एवं कर्मफलत्यागात् पूर्वविशेषणवतः शान्तिः उपशमः सहेतुकस्य",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
           ]
         },
         {
-          "sense": "। शान्तिर्हि लाभेऽलाभे जये़ऽजये च मनस उपशमस्वरूपा? ततश्च कृतार्थतेत्यर्थसिद्धम्।",
+          "sense": "। शान्तिर्हि लाभेऽलाभे जये़ऽजये च मनस उपशमस्वरूपा, ततश्च कृतार्थतेत्यर्थसिद्धम्।",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -534,6 +534,13 @@
         "loci": [
           "viśiṣyate: viśiṣ -> vi-√śiṣ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.438088Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

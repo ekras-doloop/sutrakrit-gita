@@ -235,7 +235,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? युज्यते प्रयुज्यते इत्येतत्",
+          "sense": ", युज्यते प्रयुज्यते इत्येतत्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -243,7 +243,7 @@
           ]
         },
         {
-          "sense": "?,युज्यते प्रयुज्यते तस्मादप्रतिबन्धेनाशु फलजनकत्वं वैगुण्यपरिहारेण यज्ञादेः समर्थमेतन्नामेति,प्रशस्ततरमेतदित्यर्थः",
+          "sense": ",,युज्यते प्रयुज्यते तस्मादप्रतिबन्धेनाशु फलजनकत्वं वैगुण्यपरिहारेण यज्ञादेः समर्थमेतन्नामेति,प्रशस्ततरमेतदित्यर्थः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -576,6 +576,13 @@
           "praśaste: praśaṃs -> pra-√śaṃs",
           "yujyate: yuj -> √yuj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.532115Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

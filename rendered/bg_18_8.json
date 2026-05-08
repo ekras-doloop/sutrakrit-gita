@@ -14,7 +14,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इति एव यत् कर्म कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य",
+          "sense": "इति एव यत् कर्म कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्, सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य",
+          "sense": "कायक्लेशभयात् शरीरदुःखभयात् त्यजेत्, सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -129,7 +129,7 @@
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य फलं मोक्षाख्यं न लभेत् नैव लभेत",
+          "sense": ", सः कृत्वा राजसं रजोनिर्वर्त्यं त्यागं नैव त्यागफलं ज्ञानपूर्वकस्य सर्वकर्मत्यागस्य फलं मोक्षाख्यं न लभेत् नैव लभेत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -531,6 +531,13 @@
           "tyajet: tyaj -> √tyaj",
           "labhet: labh -> √labh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.596581Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

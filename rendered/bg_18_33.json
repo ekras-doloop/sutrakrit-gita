@@ -14,7 +14,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यया -- अव्यभिचारिण्या इति व्यवहितेन संबन्धः? धारयते किम् मनःप्राणेन्द्रियक्रियाः मनश्च प्राणाश्च इन्द्रियाणि",
+          "sense": "यया -- अव्यभिचारिण्या इति व्यवहितेन संबन्धः, धारयते किम् मनःप्राणेन्द्रियक्रियाः मनश्च प्राणाश्च इन्द्रियाणि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -129,7 +129,7 @@
       "grammar": "accusative feminine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "चेष्टाः? ताः उच्छास्त्रमार्गप्रवृत्तेः धारयते धारयति -- धृत्या हि धार्यमाणाः उच्छास्त्रमार्गविषयाः न भवन्ति -- योगेन सम",
+          "sense": "चेष्टाः, ताः उच्छास्त्रमार्गप्रवृत्तेः धारयते धारयति -- धृत्या हि धार्यमाणाः उच्छास्त्रमार्गविषयाः न भवन्ति -- योगेन सम",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -154,7 +154,7 @@
       "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "समाधिना? अव्यभिचारिण्या? नित्यसमाध्यनुगतया इत्यर्थः",
+          "sense": "समाधिना, अव्यभिचारिण्या, नित्यसमाध्यनुगतया इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -205,7 +205,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? सा पार्थ? सात्त्विकी",
+          "sense": ", सा पार्थ, सात्त्विकी",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -229,7 +229,7 @@
           ]
         },
         {
-          "sense": "सा पार्थ? सात्त्विकी",
+          "sense": "सा पार्थ, सात्त्विकी",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -254,7 +254,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? सात्त्विकी",
+          "sense": ", सात्त्विकी",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -262,7 +262,7 @@
           ]
         },
         {
-          "sense": "? सात्त्विकी",
+          "sense": ", सात्त्विकी",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -642,6 +642,13 @@
         "loci": [
           "dhārayate: dhāray -> √dhāray"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.560463Z",
+        "patches": 9,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

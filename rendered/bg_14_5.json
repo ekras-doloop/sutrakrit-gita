@@ -46,7 +46,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इति पारिभाषिकः शब्दः? न रूपादिवत् द्रव्याश्रिताः गुणाः",
+          "sense": "इति पारिभाषिकः शब्दः, न रूपादिवत् द्रव्याश्रिताः गुणाः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "sense": "? अपितु प्रकृतेरुक्ताः प्रकृतिसम्भवा इति सम्भूतं चेतनं तत्तद्देहे गुणा",
+          "sense": ", अपितु प्रकृतेरुक्ताः प्रकृतिसम्भवा इति सम्भूतं चेतनं तत्तद्देहे गुणा",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -177,7 +177,7 @@
       "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "शरीरे देहिनं देहवन्तम् अव्ययम्? अव्ययत्वं",
+          "sense": "शरीरे देहिनं देहवन्तम् अव्ययम्, अव्ययत्वं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -235,7 +235,7 @@
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? अव्ययत्वं",
+          "sense": ", अव्ययत्वं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -544,6 +544,13 @@
         "loci": [
           "nibadhnanti: nibandh -> ni-√bandh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.484031Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

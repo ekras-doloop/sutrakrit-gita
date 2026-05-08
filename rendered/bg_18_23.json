@@ -62,7 +62,7 @@
       "grammar": "nominative neuter singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? अदम्भेन कृतम् इत्यर्थः अफलप्रेप्सुना अफलाभिसन्धिना कार्यम् इति",
+          "sense": ", अदम्भेन कृतम् इत्यर्थः अफलप्रेप्सुना अफलाभिसन्धिना कार्यम् इति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यत्? तत् सात्त्विकम् उच्यते ।।",
+          "sense": "यत्, तत् सात्त्विकम् उच्यते ।।",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -484,6 +484,13 @@
           "kṛtam: kṛ -> √kṛ",
           "ucyate: vac -> √vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.551831Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

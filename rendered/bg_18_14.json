@@ -30,7 +30,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "उपाधिलक्षणः भोक्ता? करणं",
+          "sense": "उपाधिलक्षणः भोक्ता, करणं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "sense": "चिज्जडग्रन्थिरहंकारः? पृथग्विधमनेकप्रकारं करणं,चक्षुःश्रोत्रादि? विविधाश्च कार्यतः स्वरूपतश्च पृथग्भूताश्चेष्टाः प्राणा",
+          "sense": "चिज्जडग्रन्थिरहंकारः, पृथग्विधमनेकप्रकारं करणं,चक्षुःश्रोत्रादि, विविधाश्च कार्यतः स्वरूपतश्च पृथग्भूताश्चेष्टाः प्राणा",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -105,7 +105,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "वाक्पाणिपादादिपञ्चकं समनस्कं कर्मेन्द्रियम्? पृथग्विधं कर्मनिष्पत्तौ पृथग्व्यापारम्",
+          "sense": "वाक्पाणिपादादिपञ्चकं समनस्कं कर्मेन्द्रियम्, पृथग्विधं कर्मनिष्पत्तौ पृथग्व्यापारम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -138,7 +138,7 @@
       "grammar": "",
       "senses_attested_in_panel": [
         {
-          "sense": "चेष्टाः -- चेष्टाशब्देन पञ्चात्मा वायुः अभिधीयते? तद्वृत्तिवाचिना? शरीरेन्द्रियधारकस्य प्राणापानादिभेदभिन्नस्य वायोः पञ",
+          "sense": "चेष्टाः -- चेष्टाशब्देन पञ्चात्मा वायुः अभिधीयते, तद्वृत्तिवाचिना, शरीरेन्द्रियधारकस्य प्राणापानादिभेदभिन्नस्य वायोः पञ",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -203,7 +203,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? अत्र कर्म",
+          "sense": ", अत्र कर्म",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -431,7 +431,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.543878Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If the Paramatma's sanction (as Ramanuja insists) is the indispensable fifth cause, what does that imply for how we attribute praise or blame to a person who acts well or badly?",

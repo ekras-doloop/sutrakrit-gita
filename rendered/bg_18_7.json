@@ -14,7 +14,7 @@
       "grammar": "genitive masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "तु नित्यस्य संन्यासः परित्यागः कर्मणः न उपपद्यते? अज्ञस्य पावनत्वस्य इष्टत्वात्",
+          "sense": "तु नित्यस्य संन्यासः परित्यागः कर्मणः न उपपद्यते, अज्ञस्य पावनत्वस्य इष्टत्वात्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -30,7 +30,7 @@
           ]
         },
         {
-          "sense": "तु नित्यस्य पुनः कर्मणः संन्यासस्त्यागो नोपपद्यते? सत्त्वशुद्धिद्वारा मोक्षहेतुत्वात्",
+          "sense": "तु नित्यस्य पुनः कर्मणः संन्यासस्त्यागो नोपपद्यते, सत्त्वशुद्धिद्वारा मोक्षहेतुत्वात्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "परित्यागः कर्मणः न उपपद्यते? अज्ञस्य पावनत्वस्य इष्टत्वात्",
+          "sense": "परित्यागः कर्मणः न उपपद्यते, अज्ञस्य पावनत्वस्य इष्टत्वात्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "sense": "। तमोमूलः त्यागः तामसः? तमःकार्याज्ञानमूलत्वेन त्यागस्थ तमोमूलत्वम्। तमो हि अज्ञानस्य मूलम्प्रमादमोहौ तमसो भवतोऽज्ञानमेव",
+          "sense": "। तमोमूलः त्यागः तामसः, तमःकार्याज्ञानमूलत्वेन त्यागस्थ तमोमूलत्वम्। तमो हि अज्ञानस्य मूलम्प्रमादमोहौ तमसो भवतोऽज्ञानमेव",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "sense": "? तमःकार्यभूतेन मोहेन जायमानत्वात्प्रमादमोहौ तमसो भवतः [14",
+          "sense": ", तमःकार्यभूतेन मोहेन जायमानत्वात्प्रमादमोहौ तमसो भवतः [14",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -515,6 +515,13 @@
           "upapadyate: upapad -> upa-√pad",
           "parikīrtitaḥ: parikīrtay -> pari-√kīrtay"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.589518Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

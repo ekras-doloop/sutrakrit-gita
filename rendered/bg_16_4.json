@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "प्रसिद्धः? पारुष्यं निष्ठुरत्वम्? अज्ञानमविवेकः? आसुरीमित्युपलक्षणम्",
+          "sense": "प्रसिद्धः, पारुष्यं निष्ठुरत्वम्, अज्ञानमविवेकः, आसुरीमित्युपलक्षणम्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -127,7 +127,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। किम् अभिजातस्येति? आह -- संपदम् आसुरीम् असुराणां संपत् आसुरी ताम् अभिजातस्य इत्यर्थः।।अनयोः संपदोः कार्यम् उच्यते --,",
+          "sense": "। किम् अभिजातस्येति, आह -- संपदम् आसुरीम् असुराणां संपत् आसुरी ताम् अभिजातस्य इत्यर्थः।।अनयोः संपदोः कार्यम् उच्यते --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -574,6 +574,13 @@
         "loci": [
           "abhijātasya: abhijan -> abhi-√jan"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.515668Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -56,7 +56,7 @@
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "अनुपकारिणे प्रत्युपकारासमर्थाय? समर्थायापि निरपेक्षं दीयते? देशे पुण्ये कुरुक्षेत्रादौ? काले संक्रान्त्यादौ? पात्रे",
+          "sense": "अनुपकारिणे प्रत्युपकारासमर्थाय, समर्थायापि निरपेक्षं दीयते, देशे पुण्ये कुरुक्षेत्रादौ, काले संक्रान्त्यादौ, पात्रे",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -73,7 +73,7 @@
           ]
         },
         {
-          "sense": "? अनुपकारिणे,प्रत्युपकारासमर्थाय",
+          "sense": ", अनुपकारिणे,प्रत्युपकारासमर्थाय",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "sense": "अनुपकारिणे,प्रत्युपकाराजनकाय? देशे पुण्ये कुरुक्षेत्रादौ? काले",
+          "sense": "अनुपकारिणे,प्रत्युपकाराजनकाय, देशे पुण्ये कुरुक्षेत्रादौ, काले",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -106,7 +106,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पुण्ये कुरुक्षेत्रादौ? काले संक्रान्त्यादौ? पात्रे",
+          "sense": "पुण्ये कुरुक्षेत्रादौ, काले संक्रान्त्यादौ, पात्रे",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -122,7 +122,7 @@
           ]
         },
         {
-          "sense": "कुरुक्षेत्रादौ? काले ग्रहणादौ? पात्रे चेति देशकालादिसाहचर्यात्सप्तमी प्रयुक्ता",
+          "sense": "कुरुक्षेत्रादौ, काले ग्रहणादौ, पात्रे चेति देशकालादिसाहचर्यात्सप्तमी प्रयुक्ता",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -130,7 +130,7 @@
           ]
         },
         {
-          "sense": "पुण्ये कुरुक्षेत्रादौ? काले",
+          "sense": "पुण्ये कुरुक्षेत्रादौ, काले",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -147,7 +147,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "संक्रान्त्यादौ? पात्रे",
+          "sense": "संक्रान्त्यादौ, पात्रे",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -163,7 +163,7 @@
           ]
         },
         {
-          "sense": "ग्रहणादौ? पात्रे चेति देशकालादिसाहचर्यात्सप्तमी प्रयुक्ता",
+          "sense": "ग्रहणादौ, पात्रे चेति देशकालादिसाहचर्यात्सप्तमी प्रयुक्ता",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -171,7 +171,7 @@
           ]
         },
         {
-          "sense": "च पुण्ये सूर्योपरागादौ? पात्रे चेति चतुर्थ्यर्थे सप्तमी",
+          "sense": "च पुण्ये सूर्योपरागादौ, पात्रे चेति चतुर्थ्यर्थे सप्तमी",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -196,7 +196,7 @@
       "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च षडङ्गविद्वेदपारग इत्यादौ?",
+          "sense": "च षडङ्गविद्वेदपारग इत्यादौ,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -521,6 +521,13 @@
           "dīyate: dā -> √dā",
           "smṛtam: smṛ -> √smṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.528011Z",
+        "patches": 16,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

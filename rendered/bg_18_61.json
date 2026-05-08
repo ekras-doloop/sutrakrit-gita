@@ -153,7 +153,7 @@
           ]
         },
         {
-          "sense": "भवति। भ्रामणं हि प्रेरणं? यन्त्रं च स्वनिर्मितं देहेन्द्रियादिरूपं? तत्रारूढांश्चेतनांस्तद्गुणानुगुण्येन प्रवर्त्तयंस्त",
+          "sense": "भवति। भ्रामणं हि प्रेरणं, यन्त्रं च स्वनिर्मितं देहेन्द्रियादिरूपं, तत्रारूढांश्चेतनांस्तद्गुणानुगुण्येन प्रवर्त्तयंस्त",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -537,6 +537,13 @@
           "bhrāmayan: bhrāmay -> √bhrāmay",
           "ārūḍhāni: āruh -> √āruh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.583769Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -22,7 +22,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अस्य इह यथा उपवर्णितं तथा नैव उपलभ्यते? स्वप्नमरीच्युदकमायागन्धर्वनगरसमत्वात् दृष्टनष्टस्वरूपो हि स इति अत",
+          "sense": "अस्य इह यथा उपवर्णितं तथा नैव उपलभ्यते, स्वप्नमरीच्युदकमायागन्धर्वनगरसमत्वात् दृष्टनष्टस्वरूपो हि स इति अत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -39,7 +39,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इह यथा उपवर्णितं तथा नैव उपलभ्यते? स्वप्नमरीच्युदकमायागन्धर्वनगरसमत्वात् दृष्टनष्टस्वरूपो हि स इति अत",
+          "sense": "इह यथा उपवर्णितं तथा नैव उपलभ्यते, स्वप्नमरीच्युदकमायागन्धर्वनगरसमत्वात् दृष्टनष्टस्वरूपो हि स इति अत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "sense": "रूपं नोपलभ्यत इत्युक्ते प्रमाणबाधः? अत उक्तम् -- तथे ति",
+          "sense": "रूपं नोपलभ्यत इत्युक्ते प्रमाणबाधः, अत उक्तम् -- तथे ति",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -186,7 +186,7 @@
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "एनं यथोक्तं सुविरूढमूलं सुष्ठु विरूढानि विरोहं गतानि सुदृढानि मूलानि यस्य तम् एनं सुविरूढमूलम्? असङ्गशस्त्रे ण असङ्गः प",
+          "sense": "एनं यथोक्तं सुविरूढमूलं सुष्ठु विरूढानि विरोहं गतानि सुदृढानि मूलानि यस्य तम् एनं सुविरूढमूलम्, असङ्गशस्त्रे ण असङ्गः प",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -601,6 +601,13 @@
           "upalabhyate: upalabh -> upa-√labh",
           "virūḍha: viruh -> vi-√ruh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.497340Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -14,7 +14,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "अवज्ञां परिभवं कुर्वन्ति मां मूढाः अविवेकिनः मानुषीं मनुष्यसंबन्धिनीं तनुं देहम् आश्रितम्? मनुष्यदेहेन व्यवहरन्तमित्येत",
+          "sense": "अवज्ञां परिभवं कुर्वन्ति मां मूढाः अविवेकिनः मानुषीं मनुष्यसंबन्धिनीं तनुं देहम् आश्रितम्, मनुष्यदेहेन व्यवहरन्तमित्येत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? मनुष्यदेहेन व्यवहरन्तमित्येतत्? परं प्रकृष्टं भावं परमात्मतत्त्वम् आकाशकल्पम् आकाशादपि अन्तरतमम् अजानन्तो मम भूतमहेश्व",
+          "sense": ", मनुष्यदेहेन व्यवहरन्तमित्येतत्, परं प्रकृष्टं भावं परमात्मतत्त्वम् आकाशकल्पम् आकाशादपि अन्तरतमम् अजानन्तो मम भूतमहेश्व",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -388,6 +388,13 @@
           "āśritam: āśri -> √āśri",
           "jānantaḥ: jñā -> √jñā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.643026Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

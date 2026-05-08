@@ -22,7 +22,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अन्तःकरणं यस्य सः असक्तबुद्धिः सर्वत्र पुत्रदारादिषु आसक्तिनिमित्तेषु? जितात्मा जितः वशीकृतः आत्मा अन्तःकरणं यस्य सः जि",
+          "sense": "अन्तःकरणं यस्य सः असक्तबुद्धिः सर्वत्र पुत्रदारादिषु आसक्तिनिमित्तेषु, जितात्मा जितः वशीकृतः आत्मा अन्तःकरणं यस्य सः जि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -39,7 +39,7 @@
       "grammar": "",
       "senses_attested_in_panel": [
         {
-          "sense": "पुत्रदारादिषु आसक्तिनिमित्तेषु? जितात्मा जितः वशीकृतः आत्मा अन्तःकरणं यस्य सः जितात्मा? विगतस्पृहः विगता स्पृहा तृष्णा",
+          "sense": "पुत्रदारादिषु आसक्तिनिमित्तेषु, जितात्मा जितः वशीकृतः आत्मा अन्तःकरणं यस्य सः जितात्मा, विगतस्पृहः विगता स्पृहा तृष्णा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -559,6 +559,13 @@
           "jita: ji -> √ji",
           "vigata: vigam -> vi-√gam"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.574190Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

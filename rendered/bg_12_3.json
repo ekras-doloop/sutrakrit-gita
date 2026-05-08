@@ -30,7 +30,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अनिर्देश्यम्? अव्यक्तत्वात् अशब्दगोचर इति न निर्देष्टुं शक्यते? अतः अनिर्देश्यम्? अव्यक्तं न केनापि प्रमाणेन व्यज्यत इत",
+          "sense": "अनिर्देश्यम्, अव्यक्तत्वात् अशब्दगोचर इति न निर्देष्टुं शक्यते, अतः अनिर्देश्यम्, अव्यक्तं न केनापि प्रमाणेन व्यज्यत इत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? अव्यक्तत्वात् अशब्दगोचर इति न निर्देष्टुं शक्यते? अतः अनिर्देश्यम्? अव्यक्तं न केनापि प्रमाणेन व्यज्यत इत्यव्यक्तं पर्",
+          "sense": ", अव्यक्तत्वात् अशब्दगोचर इति न निर्देष्टुं शक्यते, अतः अनिर्देश्यम्, अव्यक्तं न केनापि प्रमाणेन व्यज्यत इत्यव्यक्तं पर्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "sense": "। स्वष्ट एव भेदः। अक्षरोऽव्यक्तः? अहं तु व्यक्तः। सोऽनिर्देश्यः? अहं तु स्वेच्छयाऽलौकिकनिर्देशार्हः। स सर्वत्रगः? अहं तु",
+          "sense": "। स्वष्ट एव भेदः। अक्षरोऽव्यक्तः, अहं तु व्यक्तः। सोऽनिर्देश्यः, अहं तु स्वेच्छयाऽलौकिकनिर्देशार्हः। स सर्वत्रगः, अहं तु",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -153,7 +153,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। अत एव अचलम्। यस्मात् अचलम्? तस्मात् ध्रुवम्? नित्यमित्यर्थः।।",
+          "sense": "। अत एव अचलम्। यस्मात् अचलम्, तस्मात् ध्रुवम्, नित्यमित्यर्थः।।",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -178,7 +178,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? नित्यमित्यर्थः",
+          "sense": ", नित्यमित्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -615,6 +615,13 @@
         "loci": [
           "paryupāsate: paryupās -> √paryupās"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.445169Z",
+        "patches": 12,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

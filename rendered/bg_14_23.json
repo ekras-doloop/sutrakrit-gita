@@ -70,7 +70,7 @@
           ]
         },
         {
-          "sense": "? गुणाः स्वेषु कार्येषु प्रकाशादिषु वर्तन्ते इति अनुसंधाय",
+          "sense": ", गुणाः स्वेषु कार्येषु प्रकाशादिषु वर्तन्ते इति अनुसंधाय",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "sense": "? किन्तु स्वकार्येषु प्रकाशादिषु गुणा वर्त्तन्त इति तिष्ठति न गुणानुगुणं स्वात्मना चेष्टते",
+          "sense": ", किन्तु स्वकार्येषु प्रकाशादिषु गुणा वर्त्तन्त इति तिष्ठति न गुणानुगुणं स्वात्मना चेष्टते",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -420,6 +420,13 @@
           "vartante: vṛt -> √vṛt",
           "iṅgate: iṅg -> √iṅg"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.479261Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

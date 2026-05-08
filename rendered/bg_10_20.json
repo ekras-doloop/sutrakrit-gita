@@ -22,7 +22,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "प्रत्यगात्मा गुडाकेश? गुडाका निद्रा तस्याः ईशः गुडाकेशः? जितनिद्रः इत्यर्थः घनकेश इति वा",
+          "sense": "प्रत्यगात्मा गुडाकेश, गुडाका निद्रा तस्याः ईशः गुडाकेशः, जितनिद्रः इत्यर्थः घनकेश इति वा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -56,7 +56,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? गुडाका निद्रा तस्याः ईशः गुडाकेशः? जितनिद्रः इत्यर्थः घनकेश इति वा",
+          "sense": ", गुडाका निद्रा तस्याः ईशः गुडाकेशः, जितनिद्रः इत्यर्थः घनकेश इति वा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
           ]
         },
         {
-          "sense": "? सर्वेषां भूतानामाशयेष्वन्तःकरणेषु सर्वज्ञत्वादिगुणैर्नियन्तृत्वेनावस्थितः परमात्माहम्",
+          "sense": ", सर्वेषां भूतानामाशयेष्वन्तःकरणेषु सर्वज्ञत्वादिगुणैर्नियन्तृत्वेनावस्थितः परमात्माहम्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -483,6 +483,13 @@
         "loci": [
           "sthitaḥ: sthā -> √sthā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.374966Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

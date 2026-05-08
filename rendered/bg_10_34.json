@@ -178,7 +178,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "धृतिः क्षमा इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि? यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
+          "sense": "धृतिः क्षमा इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि, यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -204,7 +204,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "क्षमा इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि? यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
+          "sense": "क्षमा इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि, यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -237,7 +237,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि? यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
+          "sense": "इत्येताः उत्तमाः स्त्रीणाम् अहम् अस्मि, यासाम् आभासमात्रसंबन्धेनापि लोकः कृतार्थमात्मानं मन्यते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -515,6 +515,13 @@
         "loci": [
           "bhaviṣyatām: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.382445Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

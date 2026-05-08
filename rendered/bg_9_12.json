@@ -70,7 +70,7 @@
           ]
         },
         {
-          "sense": "तथा सर्वत्र विगतयाथात्म्यज्ञानाः? मां सर्वेश्वरम् इतरसमं मत्वा मयि",
+          "sense": "तथा सर्वत्र विगतयाथात्म्यज्ञानाः, मां सर्वेश्वरम् इतरसमं मत्वा मयि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -144,7 +144,7 @@
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "आश्रिताः? छिन्द्धि? भिन्द्धि? पिब? खाद? परस्वमपहर? इत्येवं वदनशीलाः क्रूरकर्माणो भवन्ति इत्यर्थः? असुर्या नाम ते लोकाः",
+          "sense": "आश्रिताः, छिन्द्धि, भिन्द्धि, पिब, खाद, परस्वमपहर, इत्येवं वदनशीलाः क्रूरकर्माणो भवन्ति इत्यर्थः, असुर्या नाम ते लोकाः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -510,6 +510,13 @@
         "loci": [
           "śritāḥ: śri -> √śri"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.643648Z",
+        "patches": 8,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

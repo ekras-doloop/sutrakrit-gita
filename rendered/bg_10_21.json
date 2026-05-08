@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "रविः आदित्यगणः सः अहम्? मरुताम् उत्कृष्टो मरीचिः",
+          "sense": "रविः आदित्यगणः सः अहम्, मरुताम् उत्कृष्टो मरीचिः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "sense": "? नक्षत्राणाम् अहं शशी",
+          "sense": ", नक्षत्राणाम् अहं शशी",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -414,6 +414,13 @@
         "loci": [
           "asmi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.375833Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -14,7 +14,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यज्ञकर्मणि या स्थितिः? तपसि",
+          "sense": "यज्ञकर्मणि या स्थितिः, तपसि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
       "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च या स्थितिः? दाने",
+          "sense": "च या स्थितिः, दाने",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "sense": "दाने च स्थितिः सदिति चोच्यते। स्थादिधातुगणे भुवो व्यापकत्वं? तदनुकृञश्चेति यज्ञपत्युपाध्यायाः प्रोचुः। अतएवोक्तं -- सर्",
+          "sense": "दाने च स्थितिः सदिति चोच्यते। स्थादिधातुगणे भुवो व्यापकत्वं, तदनुकृञश्चेति यज्ञपत्युपाध्यायाः प्रोचुः। अतएवोक्तं -- सर्",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
       "grammar": "locative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च या स्थितिः? सा सत् इति",
+          "sense": "च या स्थितिः, सा सत् इति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -153,7 +153,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? तपसि",
+          "sense": ", तपसि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -218,7 +218,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च एव तदर्थीयं यज्ञदानतपोऽर्थीयम् अथवा? यस्य अभिधानत्रयं प्रकृतं तदर्थीयं यज्ञदानतपोऽर्थीयम् ईश्वरार्थीयम् इत्येतत् सत्",
+          "sense": "च एव तदर्थीयं यज्ञदानतपोऽर्थीयम् अथवा, यस्य अभिधानत्रयं प्रकृतं तदर्थीयं यज्ञदानतपोऽर्थीयम् ईश्वरार्थीयम् इत्येतत् सत्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -556,6 +556,13 @@
           "ucyate: vac -> √vac",
           "abhidhīyate: abhidhā -> abhi-√dhā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.532876Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

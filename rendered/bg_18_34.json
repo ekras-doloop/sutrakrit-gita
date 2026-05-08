@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "धारयते? सा राजसी धर्मकामार्थशब्देन तत्साधनभूता मनःप्राणेन्द्रियक्रिया लक्ष्यन्तेफलाकाङ्क्षी इति अत्र",
+          "sense": "धारयते, सा राजसी धर्मकामार्थशब्देन तत्साधनभूता मनःप्राणेन्द्रियक्रिया लक्ष्यन्तेफलाकाङ्क्षी इति अत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "sense": "? सा राजसी धर्मकामार्थशब्देन तत्साधनभूता मनःप्राणेन्द्रियक्रिया लक्ष्यन्तेफलाकाङ्क्षी इति अत्र",
+          "sense": ", सा राजसी धर्मकामार्थशब्देन तत्साधनभूता मनःप्राणेन्द्रियक्रिया लक्ष्यन्तेफलाकाङ्क्षी इति अत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -209,7 +209,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "या? सा पार्थ? राजसी",
+          "sense": "या, सा पार्थ, राजसी",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -217,7 +217,7 @@
           ]
         },
         {
-          "sense": "सा पार्थ? राजसी",
+          "sense": "सा पार्थ, राजसी",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -242,7 +242,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? राजसी",
+          "sense": ", राजसी",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "sense": "? राजसी",
+          "sense": ", राजसी",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -602,6 +602,13 @@
         "loci": [
           "dhārayate: dhāray -> √dhāray"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.561554Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -14,7 +14,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "हुतं हवनं कृतम्? अश्रद्धया दत्तं ब्राह्मणेभ्यः? अश्रद्धया तपः तप्तम् अनुष्ठितम्? तथा अश्रद्धयैव कृतं",
+          "sense": "हुतं हवनं कृतम्, अश्रद्धया दत्तं ब्राह्मणेभ्यः, अश्रद्धया तपः तप्तम् अनुष्ठितम्, तथा अश्रद्धयैव कृतं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "sense": "हुतं हवनं? दत्तं दानं? तप्तं निर्वर्तितं तपः",
+          "sense": "हुतं हवनं, दत्तं दानं, तप्तं निर्वर्तितं तपः",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -143,7 +143,7 @@
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? मत्प्राप्तिसाधनमार्गबाह्यत्वात् पार्थ",
+          "sense": ", मत्प्राप्तिसाधनमार्गबाह्यत्वात् पार्थ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -151,7 +151,7 @@
           ]
         },
         {
-          "sense": "। कुतः न च तत् प्रेत्य नो इह? न मोक्षाय न सांसारिकाय च फलाय इति।",
+          "sense": "। कुतः न च तत् प्रेत्य नो इह, न मोक्षाय न सांसारिकाय च फलाय इति।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -168,7 +168,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। न च तत् बहुलायासमपि प्रेत्य फलाय नो अपि इहार्थम्? साधुभिः निन्दितत्वात् इति।।इति श्रीमत्परमहंसपरिव्राजकाचार्यस्य श्रीग",
+          "sense": "। न च तत् बहुलायासमपि प्रेत्य फलाय नो अपि इहार्थम्, साधुभिः निन्दितत्वात् इति।।इति श्रीमत्परमहंसपरिव्राजकाचार्यस्य श्रीग",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -176,7 +176,7 @@
           ]
         },
         {
-          "sense": "? चो हेतौ। यस्मात्तदश्रद्धाकृतं न प्रेत्य परलोके फलति विगुणत्वेनापूर्वाजनकत्वान्नो इह नापीह लोके यशः साधुभिर्निन्दितत्वा",
+          "sense": ", चो हेतौ। यस्मात्तदश्रद्धाकृतं न प्रेत्य परलोके फलति विगुणत्वेनापूर्वाजनकत्वान्नो इह नापीह लोके यशः साधुभिर्निन्दितत्वा",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -225,7 +225,7 @@
           ]
         },
         {
-          "sense": "नो इह? न मोक्षाय न सांसारिकाय",
+          "sense": "नो इह, न मोक्षाय न सांसारिकाय",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -542,6 +542,13 @@
           "kṛtam: kṛ -> √kṛ",
           "ucyate: vac -> √vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.533596Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

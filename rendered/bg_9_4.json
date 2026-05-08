@@ -94,7 +94,7 @@
       "grammar": "nominative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "मयि अन्तर्यामिणि स्थितानि? तत्र",
+          "sense": "मयि अन्तर्यामिणि स्थितानि, तत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -151,7 +151,7 @@
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? मूर्तवत् संश्लेषाभावेन आकाशस्यापि अन्तरतमो हि अहम्",
+          "sense": ", मूर्तवत् संश्लेषाभावेन आकाशस्यापि अन्तरतमो हि अहम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -411,6 +411,13 @@
           "tatam: tan -> √tan",
           "avasthitaḥ: avasthā -> ava-√sthā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.663955Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -55,7 +55,7 @@
           ]
         },
         {
-          "sense": "न घटादीनां जलादेः इव मम धारकत्वम्? कथम् मत्संकल्पेन",
+          "sense": "न घटादीनां जलादेः इव मम धारकत्वम्, कथम् मत्संकल्पेन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "मे योगं युक्तिं घटनं मे मम ऐश्वरम् ईश्वरस्य इमम् ऐश्वरम्? योगम् आत्मनो याथात्म्यमित्यर्थः",
+          "sense": "मे योगं युक्तिं घटनं मे मम ऐश्वरम् ईश्वरस्य इमम् ऐश्वरम्, योगम् आत्मनो याथात्म्यमित्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -180,7 +180,7 @@
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "ईश्वरस्य इमम् ऐश्वरम्? योगम् आत्मनो याथात्म्यमित्यर्थः",
+          "sense": "ईश्वरस्य इमम् ऐश्वरम्, योगम् आत्मनो याथात्म्यमित्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -616,7 +616,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.664746Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If even the entire universe does not truly 'reside' in Kṛṣṇa the way a pot resides in water, what does it mean for any created thing to be said to exist at all — and what practical import does this have for how we hold our own experiences?",

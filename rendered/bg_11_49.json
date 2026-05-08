@@ -30,7 +30,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "मा भूत् ते भयम्? मा",
+          "sense": "मा भूत् ते भयम्, मा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "sense": "? यः च विमूढभावो वर्तते? तद् उभयं मा भूत्? त्वया अभ्यस्तपूर्वम् एव सौम्यरूपं दर्शयामि? तद् एव इदं मम रूपं प्रपश्य।",
+          "sense": ", यः च विमूढभावो वर्तते, तद् उभयं मा भूत्, त्वया अभ्यस्तपूर्वम् एव सौम्यरूपं दर्शयामि, तद् एव इदं मम रूपं प्रपश्य।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -594,6 +594,13 @@
           "vyapeta: vyape -> √vyape",
           "prīta: prī -> √prī"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.427246Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

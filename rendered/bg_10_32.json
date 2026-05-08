@@ -87,7 +87,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। भूतानां जीवाधिष्ठितानामेव आदिः अन्तश्च इत्याद्युक्तम् उपक्रमे? इह तु सर्वस्यैव सर्गमात्रस्य इति विशेषः। अध्यात्मविद्या",
+          "sense": "। भूतानां जीवाधिष्ठितानामेव आदिः अन्तश्च इत्याद्युक्तम् उपक्रमे, इह तु सर्वस्यैव सर्गमात्रस्य इति विशेषः। अध्यात्मविद्या",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "? भूतानां जीवाविष्टानां चेतनत्वेन प्रसिद्धानामेवादिरन्तश्च मध्यं चेत्युक्तमुपक्रमे",
+          "sense": ", भूतानां जीवाविष्टानां चेतनत्वेन प्रसिद्धानामेवादिरन्तश्च मध्यं चेत्युक्तमुपक्रमे",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अर्थनिर्णयहेतुत्वात् प्रवदतां प्रधानम्? अतः सः अहम् अस्मि",
+          "sense": "अर्थनिर्णयहेतुत्वात् प्रवदतां प्रधानम्, अतः सः अहम् अस्मि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -177,7 +177,7 @@
           ]
         },
         {
-          "sense": "इति नान्योन्यविवादमात्रं विवक्षितम्? तत्र वादाख्यविशेषस्यास्मरणात्अध्यात्मविद्या विद्यानाम् इति विद्याप्रसङ्गात्तदर्थकथ",
+          "sense": "इति नान्योन्यविवादमात्रं विवक्षितम्, तत्र वादाख्यविशेषस्यास्मरणात्अध्यात्मविद्या विद्यानाम् इति विद्याप्रसङ्गात्तदर्थकथ",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -432,6 +432,13 @@
         "loci": [
           "pravadatām: pravad -> pra-√vad"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.380944Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "क्रियते?",
+          "sense": "क्रियते,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "कामेप्सुना फलं प्राप्तुमिच्छता? साहंकारेण वा मत्समः कोऽन्यः श्रोत्रियोऽस्तीत्येवं निरूढाहंकारयुक्तेन",
+          "sense": "कामेप्सुना फलं प्राप्तुमिच्छता, साहंकारेण वा मत्समः कोऽन्यः श्रोत्रियोऽस्तीत्येवं निरूढाहंकारयुक्तेन",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -128,7 +128,7 @@
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "बहुलायासं कर्त्रा महता आयासेन निर्वर्त्यते?",
+          "sense": "बहुलायासं कर्त्रा महता आयासेन निर्वर्त्यते,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "sense": "? तत् राजसम् -- बहुलायासम् इदं कर्म मया एव क्रियते इत्येवंरूपाभिमानयुक्तेन यत् कर्म क्रियते तद् राजसम् इत्यर्थः।",
+          "sense": ", तत् राजसम् -- बहुलायासम् इदं कर्म मया एव क्रियते इत्येवंरूपाभिमानयुक्तेन यत् कर्म क्रियते तद् राजसम् इत्यर्थः।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "sense": "? यच्च पुनर्बहुलायासमतिक्लेशयुक्तं तत्कर्म राजसमुदाहृतम्",
+          "sense": ", यच्च पुनर्बहुलायासमतिक्लेशयुक्तं तत्कर्म राजसमुदाहृतम्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -457,6 +457,13 @@
           "kriyate: kṛ -> √kṛ",
           "udāhṛtam: udāhṛ -> ud-√āhṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.552530Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

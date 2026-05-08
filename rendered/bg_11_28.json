@@ -46,7 +46,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अम्बुवेगाः त्वराविशेषाः समुद्रमेव अभिमुखाः प्रतिमुखाः द्रवन्ति प्रविशन्ति? तथा तद्वत? तव अमी भीष्मादयः नरलोकवीराः मनुष्",
+          "sense": "अम्बुवेगाः त्वराविशेषाः समुद्रमेव अभिमुखाः प्रतिमुखाः द्रवन्ति प्रविशन्ति, तथा तद्वत, तव अमी भीष्मादयः नरलोकवीराः मनुष्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "प्रविशन्ति? तथा तद्वत? तव अमी भीष्मादयः नरलोकवीराः मनुष्यलोके शूराः विशन्ति वक्त्राणि अभिविज्वलन्ति प्रकाशमानानि",
+          "sense": "प्रविशन्ति, तथा तद्वत, तव अमी भीष्मादयः नरलोकवीराः मनुष्यलोके शूराः विशन्ति वक्त्राणि अभिविज्वलन्ति प्रकाशमानानि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -462,6 +462,13 @@
           "viśanti: viś -> √viś",
           "abhivijvalanti: abhivijval -> abhi-√vijval"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.407070Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

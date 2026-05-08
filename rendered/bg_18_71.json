@@ -14,7 +14,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "श्रद्दधानः अनसूयश्च असूयावर्जितः सन् इमं ग्रन्थं श्रृणुयादपि यो नरः? अपिशब्दात् किमुत अर्थज्ञानवान्? सोऽपि पापात् मुक्त",
+          "sense": "श्रद्दधानः अनसूयश्च असूयावर्जितः सन् इमं ग्रन्थं श्रृणुयादपि यो नरः, अपिशब्दात् किमुत अर्थज्ञानवान्, सोऽपि पापात् मुक्त",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -485,6 +485,13 @@
           "muktaḥ: muc -> √muc",
           "prāpnuyāt: prāp -> √prāp"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.591022Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

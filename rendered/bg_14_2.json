@@ -22,7 +22,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "उपाश्रित्य मम साधर्म्यम् आगताः मत्साम्यं प्राप्ताः? सर्गे",
+          "sense": "उपाश्रित्य मम साधर्म्यम् आगताः मत्साम्यं प्राप्ताः, सर्गे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -39,7 +39,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "मम साधर्म्यम् आगताः मत्साम्यं प्राप्ताः? सर्गे",
+          "sense": "मम साधर्म्यम् आगताः मत्साम्यं प्राप्ताः, सर्गे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? क्षेत्रज्ञेश्वरयोः भेदानभ्युपगमात् गीताशास्त्रे",
+          "sense": ", क्षेत्रज्ञेश्वरयोः भेदानभ्युपगमात् गीताशास्त्रे",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "sense": "आगताः मत्साम्यं प्राप्ताः? सर्गे",
+          "sense": "आगताः मत्साम्यं प्राप्ताः, सर्गे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "sense": "मत्साम्यं प्राप्ताः? सर्गे",
+          "sense": "मत्साम्यं प्राप्ताः, सर्गे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -115,7 +115,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अपि न उपजायन्ते न सृजिकर्मतां भजन्ते? प्रलये न व्यथन्ति च? न",
+          "sense": "अपि न उपजायन्ते न सृजिकर्मतां भजन्ते, प्रलये न व्यथन्ति च, न",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -164,7 +164,7 @@
           ]
         },
         {
-          "sense": "न व्यथन्ति च? न",
+          "sense": "न व्यथन्ति च, न",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -205,7 +205,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "च व्यथां न आपद्यन्ते? न च्यवन्ति इत्यर्थः",
+          "sense": "च व्यथां न आपद्यन्ते, न च्यवन्ति इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "sense": "च? न च संहृतिकर्मतां भजन्ते। अथ प्राकृतानां गुणानां बन्धहेतुताप्रकारं वक्तुं सर्वस्य भूतजातस्य प्रकृतिपुरुषसंसर्गजत्वम्",
+          "sense": "च, न च संहृतिकर्मतां भजन्ते। अथ प्राकृतानां गुणानां बन्धहेतुताप्रकारं वक्तुं सर्वस्य भूतजातस्य प्रकृतिपुरुषसंसर्गजत्वम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -609,6 +609,13 @@
           "upajāyante: upajan -> upa-√jan",
           "vyathanti: vyath -> √vyath"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.475184Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

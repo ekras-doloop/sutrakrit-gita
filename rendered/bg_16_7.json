@@ -201,7 +201,7 @@
           ]
         },
         {
-          "sense": "। न अपि च आचारः? तद् बाह्याभ्यन्तरशौचं येन सन्ध्यावन्दनादिना आचारेण जायते? स अपि आचारः तेषु न विद्यते। तथा उक्तम् -- सन्",
+          "sense": "। न अपि च आचारः, तद् बाह्याभ्यन्तरशौचं येन सन्ध्यावन्दनादिना आचारेण जायते, स अपि आचारः तेषु न विद्यते। तथा उक्तम् -- सन्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -471,6 +471,13 @@
           "viduḥ: vid -> √vid",
           "vidyate: vid -> √vid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.517721Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

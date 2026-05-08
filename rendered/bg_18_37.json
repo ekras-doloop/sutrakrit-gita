@@ -38,7 +38,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इव दुःखम् इव भवति? परिणामे अमृतोपमं परिणामे विपाके अभ्यासबलेन विविक्तात्मस्वरूपाविर्भावे अमृतोपमं भवति?",
+          "sense": "इव दुःखम् इव भवति, परिणामे अमृतोपमं परिणामे विपाके अभ्यासबलेन विविक्तात्मस्वरूपाविर्भावे अमृतोपमं भवति,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "ज्ञानवैराग्यादिपरिपाकजं सुखम् अमृतोपमम्?",
+          "sense": "ज्ञानवैराग्यादिपरिपाकजं सुखम् अमृतोपमम्,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "अमृतोपमं परिणामे विपाके अभ्यासबलेन विविक्तात्मस्वरूपाविर्भावे अमृतोपमं भवति?",
+          "sense": "अमृतोपमं परिणामे विपाके अभ्यासबलेन विविक्तात्मस्वरूपाविर्भावे अमृतोपमं भवति,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -487,6 +487,13 @@
         "loci": [
           "proktam: pravac -> pra-√vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.563984Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

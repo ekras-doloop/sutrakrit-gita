@@ -14,7 +14,7 @@
       "grammar": "ablative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "लब्धात्मकात् संजायते समुत्पद्यते ज्ञानम्? रजसो लोभ",
+          "sense": "लब्धात्मकात् संजायते समुत्पद्यते ज्ञानम्, रजसो लोभ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -31,7 +31,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "समुत्पद्यते ज्ञानम्? रजसो लोभ",
+          "sense": "समुत्पद्यते ज्ञानम्, रजसो लोभ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -39,7 +39,7 @@
           ]
         },
         {
-          "sense": "। अतः सात्त्विकस्य कर्मणः प्रकाशबहुलं सुखं फलं भवति। रजसो लोभो जायते। तस्य च दुःखहेतुत्वात्? तत्पूर्वकस्य कर्मणो दुःखं फ",
+          "sense": "। अतः सात्त्विकस्य कर्मणः प्रकाशबहुलं सुखं फलं भवति। रजसो लोभो जायते। तस्य च दुःखहेतुत्वात्, तत्पूर्वकस्य कर्मणो दुःखं फ",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -56,7 +56,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? रजसो लोभ",
+          "sense": ", रजसो लोभ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -483,6 +483,13 @@
           "saṃjāyate: saṃjan -> saṃ-√jan",
           "bhavataḥ: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.472758Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

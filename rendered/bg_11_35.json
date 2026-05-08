@@ -38,7 +38,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पूर्वोक्तं कृताञ्जलिः सन् वेपमानः कम्पमानः किरीटी नमस्कृत्वा? भूयः पुनः",
+          "sense": "पूर्वोक्तं कृताञ्जलिः सन् वेपमानः कम्पमानः किरीटी नमस्कृत्वा, भूयः पुनः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "nominative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कम्पमानः किरीटी नमस्कृत्वा? भूयः पुनः",
+          "sense": "कम्पमानः किरीटी नमस्कृत्वा, भूयः पुनः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -128,7 +128,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "नमस्कृत्वा? भूयः पुनः",
+          "sense": "नमस्कृत्वा, भूयः पुनः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -161,7 +161,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "? भूयः पुनः",
+          "sense": ", भूयः पुनः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -259,7 +259,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "प्रह्वः भूत्वा? आह इति व्यवहितेन संबन्धः",
+          "sense": "प्रह्वः भूत्वा, आह इति व्यवहितेन संबन्धः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -548,6 +548,13 @@
         "to": "triṣṭubh",
         "source": "syllabification analysis by prosodic-caesura subagent",
         "reason": "originally labeled 'other'; verse scans as triṣṭubh (4 pādas × 11 syllables)"
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.414138Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

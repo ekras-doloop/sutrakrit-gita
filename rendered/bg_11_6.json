@@ -14,7 +14,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "आदित्यान् द्वादश? वसून् अष्टौ? रुद्रान् एकादश? अश्विनौ द्वौ? मरुतः सप्त सप्त गणाः ये तान्",
+          "sense": "आदित्यान् द्वादश, वसून् अष्टौ, रुद्रान् एकादश, अश्विनौ द्वौ, मरुतः सप्त सप्त गणाः ये तान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -22,7 +22,7 @@
           ]
         },
         {
-          "sense": "आदित्यान् द्वादश? वसून् अष्टौ? रुद्रान् एकादश? अश््विनौ द्वौ? मरुतः",
+          "sense": "आदित्यान् द्वादश, वसून् अष्टौ, रुद्रान् एकादश, अश््विनौ द्वौ, मरुतः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अष्टौ? रुद्रान् एकादश? अश्विनौ द्वौ? मरुतः सप्त सप्त गणाः ये तान्",
+          "sense": "अष्टौ, रुद्रान् एकादश, अश्विनौ द्वौ, मरुतः सप्त सप्त गणाः ये तान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "अष्टौ? रुद्रान् एकादश? अश््विनौ द्वौ? मरुतः",
+          "sense": "अष्टौ, रुद्रान् एकादश, अश््विनौ द्वौ, मरुतः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
       "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "एकादश? अश्विनौ द्वौ? मरुतः सप्त सप्त गणाः ये तान्",
+          "sense": "एकादश, अश्विनौ द्वौ, मरुतः सप्त सप्त गणाः ये तान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "sense": "एकादश? अश््विनौ द्वौ? मरुतः",
+          "sense": "एकादश, अश््विनौ द्वौ, मरुतः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
       "grammar": "accusative masculine dual noun",
       "senses_attested_in_panel": [
         {
-          "sense": "द्वौ? मरुतः सप्त सप्त गणाः ये तान्",
+          "sense": "द्वौ, मरुतः सप्त सप्त गणाः ये तान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -170,7 +170,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "आदित्यान् द्वादश? वसून् अष्टौ? रुद्रान् एकादश? अश्विनौ द्वौ? मरुतः सप्त सप्त गणाः ये तान्",
+          "sense": "आदित्यान् द्वादश, वसून् अष्टौ, रुद्रान् एकादश, अश्विनौ द्वौ, मरुतः सप्त सप्त गणाः ये तान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -178,7 +178,7 @@
           ]
         },
         {
-          "sense": "आदित्यान् द्वादश? वसून् अष्टौ? रुद्रान् एकादश? अश््विनौ द्वौ? मरुतः",
+          "sense": "आदित्यान् द्वादश, वसून् अष्टौ, रुद्रान् एकादश, अश््विनौ द्वौ, मरुतः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "sense": "? अत्र शतशोऽथसहस्रशः नानाविधानीत्यस्य विवरणं बहूनीति आदित्यानित्यादि च? अदृष्टपूर्वाणीति दिव्यानीत्यस्य? आश्चर्याणीति ना",
+          "sense": ", अत्र शतशोऽथसहस्रशः नानाविधानीत्यस्य विवरणं बहूनीति आदित्यानित्यादि च, अदृष्टपूर्वाणीति दिव्यानीत्यस्य, आश्चर्याणीति ना",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -467,7 +467,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.433041Z",
+        "patches": 30,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "When a teacher shows you 'everything at once' — divine counts, marvels, the entire cosmos — is the intention to overwhelm you into silence or to equip you with a new kind of seeing? What is the difference?",

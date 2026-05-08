@@ -118,7 +118,7 @@
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "एनम्? भूत्वा पुनः सौम्यवपुः प्रसन्नदेहः महात्मा",
+          "sense": "एनम्, भूत्वा पुनः सौम्यवपुः प्रसन्नदेहः महात्मा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -159,7 +159,7 @@
           ]
         },
         {
-          "sense": "आश्वासयामास च? महात्मा सत्यसंकल्पः",
+          "sense": "आश्वासयामास च, महात्मा सत्यसंकल्पः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -500,6 +500,13 @@
           "āsa: as -> √as",
           "bhītam: bhī -> √bhī"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.428738Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

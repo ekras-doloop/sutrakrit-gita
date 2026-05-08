@@ -30,7 +30,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "विभूतियुक्तं सत्त्वं वस्तु श्रीमत् ऊर्जितमेव वा श्रीर्लक्ष्मीः तया सहितम् उत्साहोपेतं वा? तत्तदेव अवगच्छ त्वं जानीहि मम",
+          "sense": "विभूतियुक्तं सत्त्वं वस्तु श्रीमत् ऊर्जितमेव वा श्रीर्लक्ष्मीः तया सहितम् उत्साहोपेतं वा, तत्तदेव अवगच्छ त्वं जानीहि मम",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -442,6 +442,13 @@
         "loci": [
           "ūrjitam: ūrjay -> √ūrjay"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.389144Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -95,7 +95,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? अर्दतेः गतिकर्मणः रूपम्? असुराणां देवप्रतिपक्षभूतानां जनानां नरकादिगमयितृत्वात् जनार्दनः अभ्युदयनिःश्रेयसपुरुषार्थप्रय",
+          "sense": ", अर्दतेः गतिकर्मणः रूपम्, असुराणां देवप्रतिपक्षभूतानां जनानां नरकादिगमयितृत्वात् जनार्दनः अभ्युदयनिःश्रेयसपुरुषार्थप्रय",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "sense": "इति शङ्करः? तदप्रामाणिकं व्याख्यानम्",
+          "sense": "इति शङ्करः, तदप्रामाणिकं व्याख्यानम्",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "sense": "? अतो ममापि याञ्चा त्वय्युचितैव",
+          "sense": ", अतो ममापि याञ्चा त्वय्युचितैव",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -437,6 +437,13 @@
           "śṛṇvataḥ: śru -> √śru",
           "asti: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.372132Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

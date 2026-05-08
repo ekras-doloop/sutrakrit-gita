@@ -62,7 +62,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "प्रयच्छति?",
+          "sense": "प्रयच्छति,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? तत् अहं पत्रादि भक्त्या उपहृतं भक्तिपूर्वकं प्रापितं भक्त्युपहृतम् अश्नामि गृह्णामि प्रयतात्मनः शुद्धबुद्धेः।।यतः एवम्",
+          "sense": ", तत् अहं पत्रादि भक्त्या उपहृतं भक्तिपूर्वकं प्रापितं भक्त्युपहृतम् अश्नामि गृह्णामि प्रयतात्मनः शुद्धबुद्धेः।।यतः एवम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -478,6 +478,13 @@
           "aśnāmi: aś -> √aś",
           "prayata: prayam -> pra-√yam"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.655752Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

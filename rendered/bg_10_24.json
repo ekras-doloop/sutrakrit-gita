@@ -145,7 +145,7 @@
           ]
         },
         {
-          "sense": "अहम् अस्मि? सरसां सागरः अहम् अस्मि",
+          "sense": "अहम् अस्मि, सरसां सागरः अहम् अस्मि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -178,7 +178,7 @@
           ]
         },
         {
-          "sense": "। सेनानीनां सेनापतीनां स्कन्दः अहम् अस्मि? सरसां सागरः अहम् अस्मि।",
+          "sense": "। सेनानीनां सेनापतीनां स्कन्दः अहम् अस्मि, सरसां सागरः अहम् अस्मि।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -541,6 +541,13 @@
           "viddhi: vid -> √vid",
           "asmi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.376672Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -22,7 +22,7 @@
       "grammar": "nominative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "कौन्तेय तमोद्वारैः तमसः नरकस्य दुःखमोहात्मकस्य द्वाराणि कामादयः तैः? एतैः त्रिभिः विमुक्तः नरः आचरति अनुतिष्ठति",
+          "sense": "कौन्तेय तमोद्वारैः तमसः नरकस्य दुःखमोहात्मकस्य द्वाराणि कामादयः तैः, एतैः त्रिभिः विमुक्तः नरः आचरति अनुतिष्ठति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -47,7 +47,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "तमोद्वारैः तमसः नरकस्य दुःखमोहात्मकस्य द्वाराणि कामादयः तैः? एतैः त्रिभिः विमुक्तः नरः आचरति अनुतिष्ठति",
+          "sense": "तमोद्वारैः तमसः नरकस्य दुःखमोहात्मकस्य द्वाराणि कामादयः तैः, एतैः त्रिभिः विमुक्तः नरः आचरति अनुतिष्ठति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "sense": "? पूर्वं हि कामादिप्रतिबद्धः श्रेयो नाचरति येन पुरुषार्थः सिध्येत् अश्रेयश्चाचरति येन निरयपातः स्यात्? अधुना तत्प्रतिबन्",
+          "sense": ", पूर्वं हि कामादिप्रतिबद्धः श्रेयो नाचरति येन पुरुषार्थः सिध्येत् अश्रेयश्चाचरति येन निरयपातः स्यात्, अधुना तत्प्रतिबन्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -490,6 +490,13 @@
           "ācarati: ācar -> √ācar",
           "yāti: yā -> √yā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.512238Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

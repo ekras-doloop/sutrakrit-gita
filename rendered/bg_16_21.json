@@ -30,7 +30,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "प्राप्तौ इदं द्वारं नाशनम् आत्मनः?",
+          "sense": "प्राप्तौ इदं द्वारं नाशनम् आत्मनः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "आत्मनः?",
+          "sense": "आत्मनः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -112,7 +112,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? यत् द्वारं प्रविशन्नेव नश्यति आत्मा कस्मैचित् पुरुषार्थाय योग्यो न भवति इत्येतत्? अतः उच्यते द्वारं नाशनमात्मनः इति। क",
+          "sense": ", यत् द्वारं प्रविशन्नेव नश्यति आत्मा कस्मैचित् पुरुषार्थाय योग्यो न भवति इत्येतत्, अतः उच्यते द्वारं नाशनमात्मनः इति। क",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -505,6 +505,13 @@
         "loci": [
           "tyajet: tyaj -> √tyaj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.511436Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

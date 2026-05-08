@@ -94,7 +94,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "त्वां दीप्तहुताशवक्त्रं दीप्तश्च असौ हुताशश्च वक्त्रं यस्य तव सः त्वं दीप्तहुताशवक्त्रः तं त्वां दीप्तहुताशवक्त्रम्? स्",
+          "sense": "त्वां दीप्तहुताशवक्त्रं दीप्तश्च असौ हुताशश्च वक्त्रं यस्य तव सः त्वं दीप्तहुताशवक्त्रः तं त्वां दीप्तहुताशवक्त्रम्, स्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "sense": "। एवंभूतं सर्वस्य स्रष्टारम्? सर्वस्य आधारभूतं सर्वस्य प्रशासितारम्? सर्वस्य संहर्तारम्? ज्ञानाद्यपरिमितगुणसागरम्? आदिमध",
+          "sense": "। एवंभूतं सर्वस्य स्रष्टारम्, सर्वस्य आधारभूतं सर्वस्य प्रशासितारम्, सर्वस्य संहर्तारम्, ज्ञानाद्यपरिमितगुणसागरम्, आदिमध",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -192,7 +192,7 @@
           ]
         },
         {
-          "sense": "इदं तपन्तम् -- तेजः पराभिभवनसामर्थ्यम्? स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
+          "sense": "इदं तपन्तम् -- तेजः पराभिभवनसामर्थ्यम्, स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -217,7 +217,7 @@
       "grammar": "accusative masculine singular present participle verb",
       "senses_attested_in_panel": [
         {
-          "sense": "-- तेजः पराभिभवनसामर्थ्यम्? स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
+          "sense": "-- तेजः पराभिभवनसामर्थ्यम्, स्वकीयेन तेजसा विश्वम् इदं तपन्तं त्वां पश्यामि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -487,6 +487,13 @@
           "dīpta: dīp -> √dīp",
           "tapantam: tap -> √tap"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.399863Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -30,7 +30,7 @@
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "। तच्च परं परवस्तुविषयत्वात्। किं तत् ज्ञानं सर्वेषां ज्ञानानाम् उत्तमम्? उत्तमफलत्वात्। ज्ञानानाम् इति न अमानित्वादीनाम",
+          "sense": "। तच्च परं परवस्तुविषयत्वात्। किं तत् ज्ञानं सर्वेषां ज्ञानानाम् उत्तमम्, उत्तमफलत्वात्। ज्ञानानाम् इति न अमानित्वादीनाम",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -80,7 +80,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इति व्यवहितेन संबन्धः? भूयः पुनः पूर्वेषु सर्वेष्वध्यायेषु असकृत् उक्तमपि प्रवक्ष्यामि",
+          "sense": "इति व्यवहितेन संबन्धः, भूयः पुनः पूर्वेषु सर्वेष्वध्यायेषु असकृत् उक्तमपि प्रवक्ष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -97,7 +97,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? उत्तमफलत्वात्",
+          "sense": ", उत्तमफलत्वात्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "sense": "? मोक्षहेतुत्वात्",
+          "sense": ", मोक्षहेतुत्वात्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -180,7 +180,7 @@
           ]
         },
         {
-          "sense": "परां गुणातीतां मुक्तिं गताः? इतस्त्रैगुण्यात्",
+          "sense": "परां गुणातीतां मुक्तिं गताः, इतस्त्रैगुण्यात्",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -271,7 +271,7 @@
           ]
         },
         {
-          "sense": "? इतस्त्रैगुण्यात्",
+          "sense": ", इतस्त्रैगुण्यात्",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -693,6 +693,13 @@
           "pravakṣyāmi: pravac -> pra-√vac",
           "gatāḥ: gam -> √gam"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.467025Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

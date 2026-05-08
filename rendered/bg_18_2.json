@@ -167,7 +167,7 @@
           ]
         },
         {
-          "sense": "इति। ननु फलत्यागेन पुनरपि निष्फलेषु कर्मस्वप्रवृत्तिरेव स्यात्तन्न? सर्वेषामपि कर्मणां संयोगपृथक्त्वेन विविदिषार्थतया व",
+          "sense": "इति। ननु फलत्यागेन पुनरपि निष्फलेषु कर्मस्वप्रवृत्तिरेव स्यात्तन्न, सर्वेषामपि कर्मणां संयोगपृथक्त्वेन विविदिषार्थतया व",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -467,6 +467,13 @@
           "viduḥ: vid -> √vid",
           "prāhuḥ: prāh -> √prāh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.548505Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

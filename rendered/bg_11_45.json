@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "हृषितः अस्मि प्रीतः अस्मि? भयेन प्रव्यथितं",
+          "sense": "हृषितः अस्मि प्रीतः अस्मि, भयेन प्रव्यथितं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "? पूर्वं दृष्टः पश्चाल्लोकान् ग्रसमानं ज्ञात्वा मनो मे प्रव्यथितं यतः? अतस्तदेव चतुर्भुजं वा दृष्टपूर्वं रूपं मे प्रदर्श",
+          "sense": ", पूर्वं दृष्टः पश्चाल्लोकान् ग्रसमानं ज्ञात्वा मनो मे प्रव्यथितं यतः, अतस्तदेव चतुर्भुजं वा दृष्टपूर्वं रूपं मे प्रदर्श",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "sense": "। हे देवेश? हे जगन्निवास? प्रसन्नो भव।",
+          "sense": "। हे देवेश, हे जगन्निवास, प्रसन्नो भव।",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "sense": "। हे देव हे देवेश? हे जगन्निवास? प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
+          "sense": "। हे देव हे देवेश, हे जगन्निवास, प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -251,7 +251,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "देवेश? जगन्निवास जगतो निवासो जगन्निवासः?",
+          "sense": "देवेश, जगन्निवास जगतो निवासो जगन्निवासः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -284,7 +284,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? जगन्निवास जगतो निवासो जगन्निवासः?",
+          "sense": ", जगन्निवास जगतो निवासो जगन्निवासः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "sense": "? हे जगन्निवास? प्रसन्नो भव।",
+          "sense": ", हे जगन्निवास, प्रसन्नो भव।",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -308,7 +308,7 @@
           ]
         },
         {
-          "sense": "? हे जगन्निवास? प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
+          "sense": ", हे जगन्निवास, प्रसीद प्राग्रूपदर्शनरूपं प्रसादं मे कुरु।",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -617,6 +617,13 @@
           "darśaya: darśay -> √darśay",
           "prasīda: prasad -> pra-√sad"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.424170Z",
+        "patches": 15,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

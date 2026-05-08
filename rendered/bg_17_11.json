@@ -70,7 +70,7 @@
       "grammar": "present indicative pass 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "निर्वर्त्यते? यष्टव्यमेवेति यज्ञस्वरूपनिर्वर्तनमेव कार्यम् इति मनः समाधाय? न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चि",
+          "sense": "निर्वर्त्यते, यष्टव्यमेवेति यज्ञस्वरूपनिर्वर्तनमेव कार्यम् इति मनः समाधाय, न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -137,7 +137,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "? न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चित्य? सः सात्त्विकः यज्ञः उच्यते",
+          "sense": ", न अनेन पुरुषार्थो मम कर्तव्यः इत्येवं निश्चित्य, सः सात्त्विकः यज्ञः उच्यते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -440,6 +440,13 @@
           "dṛṣṭaḥ: dṛś -> √dṛś",
           "ijyate: yaj -> √yaj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.521421Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

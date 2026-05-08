@@ -119,7 +119,7 @@
       "grammar": "dative masculine singular present participle pass verb",
       "senses_attested_in_panel": [
         {
-          "sense": "-- मद्वचनात् प्रीयसे त्वम् अतीव अमृतमिव पिबन्? ततः -- वक्ष्यामि हितकाम्यया हितेच्छया",
+          "sense": "-- मद्वचनात् प्रीयसे त्वम् अतीव अमृतमिव पिबन्, ततः -- वक्ष्यामि हितकाम्यया हितेच्छया",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -454,6 +454,13 @@
           "prīyamāṇāya: prī -> √prī",
           "vakṣyāmi: vac -> √vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.365448Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

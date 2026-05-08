@@ -38,7 +38,7 @@
           ]
         },
         {
-          "sense": "सकारणानि सोद्देश्यानि अध्यात्मचेतसा मयि संन्यस्य? मत्पराः मदेकप्राप्याः, अनन्येन",
+          "sense": "सकारणानि सोद्देश्यानि अध्यात्मचेतसा मयि संन्यस्य, मत्पराः मदेकप्राप्याः, अनन्येन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "sense": "? वैदिकानि",
+          "sense": ", वैदिकानि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -145,7 +145,7 @@
           ]
         },
         {
-          "sense": "? मत्पराः मदेकप्राप्याः, अनन्येन",
+          "sense": ", मत्पराः मदेकप्राप्याः, अनन्येन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -194,7 +194,7 @@
       "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "एव योगेन मां ध्यायन्तः उपासते? ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
+          "sense": "एव योगेन मां ध्यायन्तः उपासते, ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -235,7 +235,7 @@
           ]
         },
         {
-          "sense": "मां ध्यायन्तः उपासते? ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
+          "sense": "मां ध्यायन्तः उपासते, ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -300,7 +300,7 @@
           ]
         },
         {
-          "sense": "? ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
+          "sense": ", ध्यानार्चनप्रणामस्तुतिकीर्तनादीनि स्वयम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -655,6 +655,13 @@
           "dhyāyantaḥ: dhyā -> √dhyā",
           "upāsate: upās -> √upās"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.447699Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

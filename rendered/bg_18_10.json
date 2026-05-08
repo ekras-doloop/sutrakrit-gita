@@ -38,7 +38,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? शरीरारम्भद्वारेण संसारकारणम्? किमनेन इत्येवम्",
+          "sense": ", शरीरारम्भद्वारेण संसारकारणम्, किमनेन इत्येवम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "sense": "न द्वेष्टि? कुशले",
+          "sense": "न द्वेष्टि, कुशले",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "अशोभनं काम्यं निषिद्धं वा कर्म न प्रतिकूलतया मन्यते? कुशले शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति? कर्तृत्वाद्य",
+          "sense": "अशोभनं काम्यं निषिद्धं वा कर्म न प्रतिकूलतया मन्यते, कुशले शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति, कर्तृत्वाद्य",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
           ]
         },
         {
-          "sense": "चेष्टस्वर्गादिफलके कर्मणि नानुषज्जते? त्यक्तात्मसुखातिरिक्तफलत्वात्? त्यक्तकर्तृत्वाच्च",
+          "sense": "चेष्टस्वर्गादिफलके कर्मणि नानुषज्जते, त्यक्तात्मसुखातिरिक्तफलत्वात्, त्यक्तकर्तृत्वाच्च",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "sense": "शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति? कर्तृत्वाद्यभिमानरहितत्वेन कृतकृत्यत्वात्",
+          "sense": "शोभने नित्ये कर्मणि नानुषज्जते न प्रीतिं करोति, कर्तृत्वाद्यभिमानरहितत्वेन कृतकृत्यत्वात्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पूर्वोक्तेन सङ्गफलत्यागेन तद्वान् त्यागी?",
+          "sense": "पूर्वोक्तेन सङ्गफलत्यागेन तद्वान् त्यागी,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यस्य आत्मस्वरूपावस्थानमेव परं निःश्रेयससाधनम्? न अन्यत् किञ्चित् इत्येवं निश्चयेन च्छिन्नसंशयः",
+          "sense": "यस्य आत्मस्वरूपावस्थानमेव परं निःश्रेयससाधनम्, न अन्यत् किञ्चित् इत्येवं निश्चयेन च्छिन्नसंशयः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -519,6 +519,13 @@
           "samāviṣṭaḥ: samāviś -> sam-√āviś",
           "chinna: chid -> √chid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.540473Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

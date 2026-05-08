@@ -70,7 +70,7 @@
           ]
         },
         {
-          "sense": "। हे गुडाकेश? यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य।",
+          "sense": "। हे गुडाकेश, यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य।",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -160,7 +160,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। यच्च अन्यत् जयपराजयादि? यत् शङ्कसे? यद्वा जयेम यदि वा नो जयेयुः (गीता 2।6) इति यत् अवोचः? तदपि द्रष्टुं यदि इच्छसि ।।क",
+          "sense": "। यच्च अन्यत् जयपराजयादि, यत् शङ्कसे, यद्वा जयेम यदि वा नो जयेयुः (गीता 2।6) इति यत् अवोचः, तदपि द्रष्टुं यदि इच्छसि ।।क",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -168,7 +168,7 @@
           ]
         },
         {
-          "sense": "? यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य",
+          "sense": ", यच्चान्यज्जयपराजयादिकं द्रष्टुमिच्छसि तदपि संदेहोच्छेदाय पश्य",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -478,7 +478,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.433732Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If the entire cosmos — including outcomes not yet decided — is already visible in a single locus, what does that say about the nature of time and anticipation? Is waiting for the future a form of not-seeing?",

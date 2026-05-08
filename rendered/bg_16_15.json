@@ -30,7 +30,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? अभिजनवान् अस्मि स्वत",
+          "sense": ", अभिजनवान् अस्मि स्वत",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "यागेनापि अन्यान् अभिभविष्यामि? दास्यामि नटादिभ्यः? मोदिष्ये हर्षं",
+          "sense": "यागेनापि अन्यान् अभिभविष्यामि, दास्यामि नटादिभ्यः, मोदिष्ये हर्षं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "? दास्यामि? मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
+          "sense": ", दास्यामि, मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "sense": "यागेनाप्यन्यानभिभविष्यामि? दास्यामि धनं स्तावकेभ्यो नटादिभ्यश्च",
+          "sense": "यागेनाप्यन्यानभिभविष्यामि, दास्यामि धनं स्तावकेभ्यो नटादिभ्यश्च",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -129,7 +129,7 @@
       "grammar": "future indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "नटादिभ्यः? मोदिष्ये हर्षं",
+          "sense": "नटादिभ्यः, मोदिष्ये हर्षं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -137,7 +137,7 @@
           ]
         },
         {
-          "sense": "? मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
+          "sense": ", मोदिष्ये इति अज्ञानविमोहिताः ईश्वरानुग्रहनिरपेक्षेण स्वेन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -564,6 +564,13 @@
           "modiṣye: mud -> √mud",
           "vimohitāḥ: vimohay -> vi-√mohay"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.505964Z",
+        "patches": 8,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

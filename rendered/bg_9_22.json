@@ -54,7 +54,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "संन्यासिनः पर्युपासते? तेषां परमार्थदर्शिनां नित्याभियुक्तानां सतताभियोगिनां योगक्षेमं योगः अप्राप्तस्य प्रापणं क्षेमः",
+          "sense": "संन्यासिनः पर्युपासते, तेषां परमार्थदर्शिनां नित्याभियुक्तानां सतताभियोगिनां योगक्षेमं योगः अप्राप्तस्य प्रापणं क्षेमः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? तेषां परमार्थदर्शिनां नित्याभियुक्तानां सतताभियोगिनां योगक्षेमं योगः अप्राप्तस्य प्रापणं क्षेमः तद्रक्षणं तदुभयं वहामि",
+          "sense": ", तेषां परमार्थदर्शिनां नित्याभियुक्तानां सतताभियोगिनां योगक्षेमं योगः अप्राप्तस्य प्रापणं क्षेमः तद्रक्षणं तदुभयं वहामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -509,6 +509,13 @@
           "abhiyuktānām: abhiyuj -> abhi-√yuj",
           "vahāmi: vah -> √vah"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.652382Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

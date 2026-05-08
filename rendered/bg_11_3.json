@@ -96,7 +96,7 @@
           ]
         },
         {
-          "sense": "? एवमेतत्",
+          "sense": ", एवमेतत्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
           ]
         },
         {
-          "sense": "? यथा येन प्रकारेण सोपाधिकेन निरुपाधिकेन",
+          "sense": ", यथा येन प्रकारेण सोपाधिकेन निरुपाधिकेन",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -536,6 +536,13 @@
         "loci": [
           "āttha: ah -> √ah"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.408840Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

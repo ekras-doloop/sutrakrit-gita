@@ -22,7 +22,7 @@
           ]
         },
         {
-          "sense": "-- आत्मव्यतिरिक्ते कृत्स्ने वस्तुनि अनपेक्षः? शुचिः -- शास्त्रविहितद्रव्यवर्धितकायः? दक्षः -- शास्त्रीयक्रियोपादानसमर्थ",
+          "sense": "-- आत्मव्यतिरिक्ते कृत्स्ने वस्तुनि अनपेक्षः, शुचिः -- शास्त्रविहितद्रव्यवर्धितकायः, दक्षः -- शास्त्रीयक्रियोपादानसमर्थ",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -511,6 +511,13 @@
         "loci": [
           "gata: gam -> √gam"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.440737Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

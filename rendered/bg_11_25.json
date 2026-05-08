@@ -192,7 +192,7 @@
           ]
         },
         {
-          "sense": "। अतो न लभे च शर्म सुखं त्वद्रूपदर्शनेऽपि। अतो हे देवेश हे जगन्निवास? प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्",
+          "sense": "। अतो न लभे च शर्म सुखं त्वद्रूपदर्शनेऽपि। अतो हे देवेश हे जगन्निवास, प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -233,7 +233,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सुखम्। अतः प्रसीद प्रसन्नो भव हे देवेश? जगन्निवास ।।येभ्यो मम पराजयाशङ्का या आसीत् सा च अपगता।,यतः --,",
+          "sense": "सुखम्। अतः प्रसीद प्रसन्नो भव हे देवेश, जगन्निवास ।।येभ्यो मम पराजयाशङ्का या आसीत् सा च अपगता।,यतः --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -291,7 +291,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? जगन्निवास",
+          "sense": ", जगन्निवास",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -307,7 +307,7 @@
           ]
         },
         {
-          "sense": "? तव मुखानि दृष्ट्वा भयावेशेन दिशो न जानामि",
+          "sense": ", तव मुखानि दृष्ट्वा भयावेशेन दिशो न जानामि",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -315,7 +315,7 @@
           ]
         },
         {
-          "sense": "हे जगन्निवास? प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्शनजं सुखं प्राप्नुयामिति शेषः",
+          "sense": "हे जगन्निवास, प्रसीद प्रसन्नो भव मां प्रति यथा भयाभावेन त्वद्दर्शनजं सुखं प्राप्नुयामिति शेषः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -605,6 +605,13 @@
           "word_by_word may carry avataranika tokens; needs separate sandhi-aware reconciliation pass against cleaned mula",
           "audit_trail.corpus_provenance claims Belvalkar/Ambuda but parser fallback used commentary; provenance is mis-stated for affected verses"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.404236Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

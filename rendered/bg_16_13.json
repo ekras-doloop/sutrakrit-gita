@@ -55,7 +55,7 @@
           ]
         },
         {
-          "sense": "? न अदृष्टादिना? इमं",
+          "sense": ", न अदृष्टादिना, इमं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
           ]
         },
         {
-          "sense": "? न अदृष्टादिसहितः इदं धनं मत्सामर्थ्येन लब्धं मे अस्ति? इदम्",
+          "sense": ", न अदृष्टादिसहितः इदं धनं मत्सामर्थ्येन लब्धं मे अस्ति, इदम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
           ]
         },
         {
-          "sense": "? इदं पुरैव संचितं मम गृहेऽस्ति इदमपि बहुतरं भविष्यत्यागामिनि संवत्सरे पुनर्धनम्",
+          "sense": ", इदं पुरैव संचितं मम गृहेऽस्ति इदमपि बहुतरं भविष्यत्यागामिनि संवत्सरे पुनर्धनम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -121,7 +121,7 @@
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अहम् एव प्राप्स्ये? न अदृष्टादिसहितः इदं धनं मत्सामर्थ्येन लब्धं मे अस्ति? इदम् अपि पुनः मे मत्सामर्थ्येन एव भविष्यति।",
+          "sense": "अहम् एव प्राप्स्ये, न अदृष्टादिसहितः इदं धनं मत्सामर्थ्येन लब्धं मे अस्ति, इदम् अपि पुनः मे मत्सामर्थ्येन एव भविष्यति।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -436,6 +436,13 @@
           "asti: as -> √as",
           "bhaviṣyati: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.504277Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

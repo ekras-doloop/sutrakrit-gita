@@ -126,7 +126,7 @@
           ]
         },
         {
-          "sense": "ध्येयतत्त्वव्यतिरिक्तविषयदोषावमर्शेन तत्र विरागतां वर्धयन् अहंकारम्? अनात्मनी आत्माभिमानं बलं तद्विवृद्धिहेतुभूतं वासना",
+          "sense": "ध्येयतत्त्वव्यतिरिक्तविषयदोषावमर्शेन तत्र विरागतां वर्धयन् अहंकारम्, अनात्मनी आत्माभिमानं बलं तद्विवृद्धिहेतुभूतं वासना",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -435,6 +435,13 @@
           "yata: yam -> √yam",
           "samupāśritaḥ: samupāśri -> samup-√āśri"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.577296Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

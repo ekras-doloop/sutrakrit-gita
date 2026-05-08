@@ -30,7 +30,7 @@
       "grammar": "accusative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
-          "sense": "क्रूरान्संसारेषु जन्ममृत्युमार्गेषु? तत्रापि आसुरीष्वेवातिक्रूरासु व्याघ्रादियोनिषु अजस्रमनवरतं क्षिपामि",
+          "sense": "क्रूरान्संसारेषु जन्ममृत्युमार्गेषु, तत्रापि आसुरीष्वेवातिक्रूरासु व्याघ्रादियोनिषु अजस्रमनवरतं क्षिपामि",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "sense": "नराधमान् अशुभान् अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "sense": "नराधमान् अशुभान् अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु, तत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "sense": "जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "sense": "जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु, तत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -153,7 +153,7 @@
           ]
         },
         {
-          "sense": "अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु? तत्र",
+          "sense": "अहम् अजस्रं संसारेषु जन्मजरामरणादिरूपेण परिवर्तमानेषु संतानेषु, तत्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -442,6 +442,13 @@
           "dviṣataḥ: dviṣ -> √dviṣ",
           "kṣipāmi: kṣip -> √kṣip"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.509305Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

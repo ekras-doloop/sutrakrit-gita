@@ -38,7 +38,7 @@
           ]
         },
         {
-          "sense": "? तथा शाश्वतस्य",
+          "sense": ", तथा शाश्वतस्य",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "sense": "मूलस्थानं? तद्येन प्रतिष्ठितं वा सोऽहं ऐश्वर्यधामत्वात्तस्येत्यर्थः",
+          "sense": "मूलस्थानं, तद्येन प्रतिष्ठितं वा सोऽहं ऐश्वर्यधामत्वात्तस्येत्यर्थः",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "sense": "प्रतिमा? घनीभूतं ब्रह्मैवाहम्",
+          "sense": "प्रतिमा, घनीभूतं ब्रह्मैवाहम्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -169,7 +169,7 @@
           ]
         },
         {
-          "sense": "च धर्मस्य? शुद्धसत्त्वात्मकत्वात्",
+          "sense": "च धर्मस्य, शुद्धसत्त्वात्मकत्वात्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -218,7 +218,7 @@
           ]
         },
         {
-          "sense": "? शुद्धसत्त्वात्मकत्वात्",
+          "sense": ", शुद्धसत्त्वात्मकत्वात्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -243,7 +243,7 @@
       "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "आनन्दरूपस्य ऐकान्तिकस्य अव्यभिचारिणः अमृतादिस्वभावस्य परमानन्दरूपस्य परमात्मनः प्रत्यगात्मा प्रतिष्ठा? सम्यग्ज्ञानेन पर",
+          "sense": "आनन्दरूपस्य ऐकान्तिकस्य अव्यभिचारिणः अमृतादिस्वभावस्य परमानन्दरूपस्य परमात्मनः प्रत्यगात्मा प्रतिष्ठा, सम्यग्ज्ञानेन पर",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -259,7 +259,7 @@
           ]
         },
         {
-          "sense": "च प्रतिष्ठाऽहं? परमानन्दैकरूपत्वात्",
+          "sense": "च प्रतिष्ठाऽहं, परमानन्दैकरूपत्वात्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -567,7 +567,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.481373Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If the verse places Krsna as the foundation of Brahman rather than the other way round, what does this do to the standard Vedantic hierarchy where Brahman is the ultimate? Is this a category-error, a devotional hyperbole, or a genuine ontological claim?",

@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "शत्रुतापन? तेषां चतुर्णामपि वर्णानां कर्माणि प्रकर्षेण विभक्तानीतरेतरविभागेन व्यवस्थितानि",
+          "sense": "शत्रुतापन, तेषां चतुर्णामपि वर्णानां कर्माणि प्रकर्षेण विभक्तानीतरेतरविभागेन व्यवस्थितानि",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -187,7 +187,7 @@
       "grammar": "instrumental masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? स्वभावः ईश्वरस्य प्रकृतिः त्रिगुणात्मिका माया सा प्रभवः येषां गुणानां ते स्वभावप्रभवाः? तैः? शमादीनि कर्माणि प्रविभक्त",
+          "sense": ", स्वभावः ईश्वरस्य प्रकृतिः त्रिगुणात्मिका माया सा प्रभवः येषां गुणानां ते स्वभावप्रभवाः, तैः, शमादीनि कर्माणि प्रविभक्त",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -467,6 +467,13 @@
         "loci": [
           "pravibhaktāni: pravibhaj -> pra-√vibhaj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.567212Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

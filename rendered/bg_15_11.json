@@ -62,7 +62,7 @@
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। यतन्तोऽपि शास्त्रादिप्रमाणैः? अकृतात्मानः असंस्कृतात्मानः तपसा इन्द्रियजयेन च? दुश्चरितात् अनुपरताः? अशान्तदर्पाः? प्र",
+          "sense": "। यतन्तोऽपि शास्त्रादिप्रमाणैः, अकृतात्मानः असंस्कृतात्मानः तपसा इन्द्रियजयेन च, दुश्चरितात् अनुपरताः, अशान्तदर्पाः, प्र",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -392,6 +392,13 @@
           "avasthitam: avasthā -> ava-√sthā",
           "yatantaḥ: yat -> √yat"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.489565Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

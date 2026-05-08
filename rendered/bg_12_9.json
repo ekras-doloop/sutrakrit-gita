@@ -46,7 +46,7 @@
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "चेत्? ततः पश्चात् अभ्यासयोगेन? चित्तस्य एकस्मिन् आलम्बने सर्वतः समाहृत्य पुनः पुनः स्थापनम् अभ्यासः? तत्पूर्वको योगः सम",
+          "sense": "चेत्, ततः पश्चात् अभ्यासयोगेन, चित्तस्य एकस्मिन् आलम्बने सर्वतः समाहृत्य पुनः पुनः स्थापनम् अभ्यासः, तत्पूर्वको योगः सम",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "? ततः अभ्यासयोगेन माम् आप्तुम् इच्छ",
+          "sense": ", ततः अभ्यासयोगेन माम् आप्तुम् इच्छ",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अचलं न शक्नोषि चेत्? ततः पश्चात् अभ्यासयोगेन? चित्तस्य एकस्मिन् आलम्बने सर्वतः समाहृत्य पुनः पुनः स्थापनम् अभ्यासः? तत्",
+          "sense": "अचलं न शक्नोषि चेत्, ततः पश्चात् अभ्यासयोगेन, चित्तस्य एकस्मिन् आलम्बने सर्वतः समाहृत्य पुनः पुनः स्थापनम् अभ्यासः, तत्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -447,6 +447,13 @@
         "loci": [
           "śaknoṣi: śak -> √śak"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.450363Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

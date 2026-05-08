@@ -201,7 +201,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? कर्माधिकृतैः कर्माणि त्याज्यानि न त्याज्यानि वेति द्वयोर्मतयोर्न त्याज्यानीति मम निश्चितं मतमुत्तमं श्रेष्ठम्",
+          "sense": ", कर्माधिकृतैः कर्माणि त्याज्यानि न त्याज्यानि वेति द्वयोर्मतयोर्न त्याज्यानीति मम निश्चितं मतमुत्तमं श्रेष्ठम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -548,6 +548,13 @@
         "loci": [
           "niścitam: niści -> ni-√ści"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.581942Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

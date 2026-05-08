@@ -213,7 +213,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? तत् शृणु ।।",
+          "sense": ", तत् शृणु ।।",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -515,6 +515,13 @@
           "nirataḥ: niram -> nir-√am",
           "vindati: vid -> √vid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.571081Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

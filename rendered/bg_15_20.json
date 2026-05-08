@@ -30,7 +30,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। यद्यपि गीताख्यं समस्तम् शास्त्रम् उच्यते? तथापि अयमेव अध्यायः इह शास्त्रम् इति उच्यते स्तुत्यर्थं प्रकरणात्। सर्वो हि",
+          "sense": "। यद्यपि गीताख्यं समस्तम् शास्त्रम् उच्यते, तथापि अयमेव अध्यायः इह शास्त्रम् इति उच्यते स्तुत्यर्थं प्रकरणात्। सर्वो हि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -38,7 +38,7 @@
           ]
         },
         {
-          "sense": "इति।मया वक्तव्यतत्त्ववेदिना? त्वदधिकारवेदिना? तव सख्या चेत्यर्थः। प्रागुक्तशास्त्रानुवादताभ्रमव्युदासायाहतवोक्तमिति।सा",
+          "sense": "इति।मया वक्तव्यतत्त्ववेदिना, त्वदधिकारवेदिना, तव सख्या चेत्यर्थः। प्रागुक्तशास्त्रानुवादताभ्रमव्युदासायाहतवोक्तमिति।सा",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -242,7 +242,7 @@
           ]
         },
         {
-          "sense": "? त्वं कृतकृत्योसीति किं वक्तव्यमिति भावः",
+          "sense": ", त्वं कृतकृत्योसीति किं वक्तव्यमिति भावः",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -250,7 +250,7 @@
           ]
         },
         {
-          "sense": "? त्वं तु महाकुलप्रसूतः स्वयं",
+          "sense": ", त्वं तु महाकुलप्रसूतः स्वयं",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -538,6 +538,13 @@
           "syāt: as -> √as",
           "kṛta: kṛ -> √kṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.496596Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

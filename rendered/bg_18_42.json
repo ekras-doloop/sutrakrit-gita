@@ -78,7 +78,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। आस्तिक्यं वैदिकार्थस्य कृत्स्नस्य सत्यतानिश्चयः प्रकृष्टः? केनापि हेतुना चालयितुमशक्य इत्यर्थः।भगवान् पुरुषोत्तमो वासु",
+          "sense": "। आस्तिक्यं वैदिकार्थस्य कृत्स्नस्य सत्यतानिश्चयः प्रकृष्टः, केनापि हेतुना चालयितुमशक्य इत्यर्थः।भगवान् पुरुषोत्तमो वासु",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? आस्तिक्यम् आस्तिकभावः श्रद्दधानता आगमार्थेषु? ब्रह्मकर्म ब्राह्मणजातेः कर्म स्वभावजम् --",
+          "sense": ", आस्तिक्यम् आस्तिकभावः श्रद्दधानता आगमार्थेषु, ब्रह्मकर्म ब्राह्मणजातेः कर्म स्वभावजम् --",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
           ]
         },
         {
-          "sense": "? तैः तैः आराधितो धर्मार्थकाममोक्षाख्यं फलं प्रयच्छति? इति अस्य अर्थस्य सत्यतानिश्चयः आस्तिक्यम्",
+          "sense": ", तैः तैः आराधितो धर्मार्थकाममोक्षाख्यं फलं प्रयच्छति, इति अस्य अर्थस्य सत्यतानिश्चयः आस्तिक्यम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -527,7 +527,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.567972Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "Why does Ramanuja reverse shama and dama compared to every other commentator — and what does that reversal reveal about his understanding of where spiritual work begins?",

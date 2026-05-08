@@ -47,7 +47,7 @@
           ]
         },
         {
-          "sense": "। प्राधान्यशब्देन उत्कर्षो विवक्षितः?पुरोधसां च मुख्यं माम् (गीता 10।24) इति हि वक्ष्यते। जगति उत्कृष्टाः काश्चन विभूतीः",
+          "sense": "। प्राधान्यशब्देन उत्कर्षो विवक्षितः,पुरोधसां च मुख्यं माम् (गीता 10।24) इति हि वक्ष्यते। जगति उत्कृष्टाः काश्चन विभूतीः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -112,7 +112,7 @@
           ]
         },
         {
-          "sense": "हे कुरुश्रेष्ठ? विस्तरेण तु कथनमशक्यम्",
+          "sense": "हे कुरुश्रेष्ठ, विस्तरेण तु कथनमशक्यम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -146,7 +146,7 @@
           ]
         },
         {
-          "sense": "? न तु सामस्त्येन अनन्तत्वात्तदाह -- नास्त्यन्त इति",
+          "sense": ", न तु सामस्त्येन अनन्तत्वात्तदाह -- नास्त्यन्त इति",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "sense": "मे विभूतीनां? अतः प्रधानभूताः,काश्चिदेव विभूतीर्वक्ष्यामीत्यर्थः",
+          "sense": "मे विभूतीनां, अतः प्रधानभूताः,काश्चिदेव विभूतीर्वक्ष्यामीत्यर्थः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -485,6 +485,13 @@
           "kathayiṣyāmi: kathay -> √kathay",
           "asti: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.373029Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

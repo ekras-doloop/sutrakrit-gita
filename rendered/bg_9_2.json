@@ -30,7 +30,7 @@
           ]
         },
         {
-          "sense": "राजविद्येति कश्चित्? तदसत् ब्राह्मणादीनामनधिकारप्रसङ्गादिति भावेनाह -- राजे ति",
+          "sense": "राजविद्येति कश्चित्, तदसत् ब्राह्मणादीनामनधिकारप्रसङ्गादिति भावेनाह -- राजे ति",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। प्रत्यक्षेति अवगम्यत इत्यवगमो विषयो यस्य ज्ञानस्य सोऽहं प्रत्यक्षतामुपगतो भवामीत्यर्थः? भक्त्यावृतत्वात्। अथापि धर्म्य",
+          "sense": "। प्रत्यक्षेति अवगम्यत इत्यवगमो विषयो यस्य ज्ञानस्य सोऽहं प्रत्यक्षतामुपगतो भवामीत्यर्थः, भक्त्यावृतत्वात्। अथापि धर्म्य",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पवित्रं मत्प्राप्तिविरोध्यशेषकल्मषापहं प्रत्यक्षावगमम्? अवगम्यते इति अवगमो विषयः? प्रत्यक्षभूतः अवगमो विषयो यस्य ज्ञानस",
+          "sense": "पवित्रं मत्प्राप्तिविरोध्यशेषकल्मषापहं प्रत्यक्षावगमम्, अवगम्यते इति अवगमो विषयः, प्रत्यक्षभूतः अवगमो विषयो यस्य ज्ञानस",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -153,7 +153,7 @@
       "grammar": "infinitive",
       "senses_attested_in_panel": [
         {
-          "sense": "? यथा रत्नविवेकविज्ञानम्",
+          "sense": ", यथा रत्नविवेकविज्ञानम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -514,7 +514,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.650007Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If rāja-vidyā is self-certifying (pratyakṣāvagama) and requires no inference, what distinguishes it from mere subjective conviction — what is the Sūtrakṛt-recoverable criterion for valid self-luminous knowledge across these schools?",

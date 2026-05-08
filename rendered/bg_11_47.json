@@ -22,7 +22,7 @@
       "grammar": "instrumental masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? प्रसादो नाम त्वयि अनुग्रहबुद्धिः? तद्वता प्रसन्नेन मया तव",
+          "sense": ", प्रसादो नाम त्वयि अनुग्रहबुद्धिः, तद्वता प्रसन्नेन मया तव",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -200,7 +200,7 @@
           ]
         },
         {
-          "sense": "अन्तरहितम् प्रदर्शनार्थम् इदम्? आदिमध्यान्तरहितम्? आद्यं मद्व्यतिरिक्तस्य कृत्स्नस्य आदिभूतं त्वदन्येन केन",
+          "sense": "अन्तरहितम् प्रदर्शनार्थम् इदम्, आदिमध्यान्तरहितम्, आद्यं मद्व्यतिरिक्तस्य कृत्स्नस्य आदिभूतं त्वदन्येन केन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -531,6 +531,13 @@
           "darśitam: darśay -> √darśay",
           "dṛṣṭa: dṛś -> √dṛś"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.425657Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

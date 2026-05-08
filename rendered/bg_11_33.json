@@ -22,7 +22,7 @@
       "grammar": "nominative singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "उत्तिष्ठ भीष्मप्रभृतयः अतिरथाः अजेयाः देवैरपि? अर्जुनेन जिताः इति यशः लभस्व केवलं पुण्यैः हि",
+          "sense": "उत्तिष्ठ भीष्मप्रभृतयः अतिरथाः अजेयाः देवैरपि, अर्जुनेन जिताः इति यशः लभस्व केवलं पुण्यैः हि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -39,7 +39,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "भीष्मप्रभृतयः अतिरथाः अजेयाः देवैरपि? अर्जुनेन जिताः इति यशः लभस्व केवलं पुण्यैः हि",
+          "sense": "भीष्मप्रभृतयः अतिरथाः अजेयाः देवैरपि, अर्जुनेन जिताः इति यशः लभस्व केवलं पुण्यैः हि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "sense": "? तान् शत्रून् जित्वा यशो लभस्व? धर्म्यं राज्यं",
+          "sense": ", तान् शत्रून् जित्वा यशो लभस्व, धर्म्यं राज्यं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "sense": "? धर्म्यं राज्यं",
+          "sense": ", धर्म्यं राज्यं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -122,7 +122,7 @@
           ]
         },
         {
-          "sense": "यशो लभस्व? धर्म्यं राज्यं",
+          "sense": "यशो लभस्व, धर्म्यं राज्यं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -156,7 +156,7 @@
           ]
         },
         {
-          "sense": "जित्वा यशो लभस्व? धर्म्यं राज्यं",
+          "sense": "जित्वा यशो लभस्व, धर्म्यं राज्यं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "sense": "। मया एव एते कृतापराधाः पूर्वम् एव निहताः? हनने विनियुक्ताः? त्वं तु तेषां हनने निमित्तमात्रं भव। मया हन्यमानानां शस्त्र",
+          "sense": "। मया एव एते कृतापराधाः पूर्वम् एव निहताः, हनने विनियुक्ताः, त्वं तु तेषां हनने निमित्तमात्रं भव। मया हन्यमानानां शस्त्र",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -272,7 +272,7 @@
           ]
         },
         {
-          "sense": "? हनने विनियुक्ताः? त्वं तु तेषां हनने निमित्तमात्रं भव",
+          "sense": ", हनने विनियुक्ताः, त्वं तु तेषां हनने निमित्तमात्रं भव",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -297,7 +297,7 @@
       "grammar": "",
       "senses_attested_in_panel": [
         {
-          "sense": "एव निहताः? हनने विनियुक्ताः? त्वं तु तेषां हनने निमित्तमात्रं भव",
+          "sense": "एव निहताः, हनने विनियुक्ताः, त्वं तु तेषां हनने निमित्तमात्रं भव",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -346,7 +346,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? सव्येन वामेनापि हस्तेन शराणां क्षेप्ता सव्यसाची इति उच्यते अर्जुनः",
+          "sense": ", सव्येन वामेनापि हस्तेन शराणां क्षेप्ता सव्यसाची इति उच्यते अर्जुनः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -653,6 +653,13 @@
           "nihatāḥ: nihan -> ni-√han",
           "bhava: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.412151Z",
+        "patches": 14,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

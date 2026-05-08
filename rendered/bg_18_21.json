@@ -114,7 +114,7 @@
       "grammar": "accusative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पृथक्प्रकारान् भिन्नलक्षणान् इत्यर्थः? वेत्ति विजानाति",
+          "sense": "पृथक्प्रकारान् भिन्नलक्षणान् इत्यर्थः, वेत्ति विजानाति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -181,7 +181,7 @@
       "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "भूतेषु? ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः?",
+          "sense": "भूतेषु, ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -214,7 +214,7 @@
       "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः?",
+          "sense": ", ज्ञानस्य कर्तृत्वासंभवात् येन ज्ञानेन वेत्ति इत्यर्थः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -673,6 +673,13 @@
           "vetti: vid -> √vid",
           "viddhi: vid -> √vid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.550095Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

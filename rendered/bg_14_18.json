@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "तिष्ठन्ति? पुनरावृत्तिरूपतया दुःखप्रायम्",
+          "sense": "तिष्ठन्ति, पुनरावृत्तिरूपतया दुःखप्रायम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -144,7 +144,7 @@
           ]
         },
         {
-          "sense": "? पुनरावृत्तिरूपतया दुःखप्रायम्",
+          "sense": ", पुनरावृत्तिरूपतया दुःखप्रायम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -177,7 +177,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। जघन्यगुणवृत्तस्थाः जघन्यश्च असौ गुणश्च जघन्यगुणः तमः? तस्य वृत्तं निद्रालस्यादि? तस्मिन् स्थिताः जघन्यगुणवृत्तस्थाः मू",
+          "sense": "। जघन्यगुणवृत्तस्थाः जघन्यश्च असौ गुणश्च जघन्यगुणः तमः, तस्य वृत्तं निद्रालस्यादि, तस्मिन् स्थिताः जघन्यगुणवृत्तस्थाः मू",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -557,6 +557,13 @@
         "loci": [
           "tiṣṭhanti: sthā -> √sthā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.473551Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

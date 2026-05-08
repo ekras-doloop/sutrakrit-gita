@@ -38,7 +38,7 @@
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "नियन्त्रिताः सन्तः सर्वतः आकृष्यमाणाः? कामक्रोधपरायणाः कामक्रोधौ परम्,अयनम् आश्रयः येषां ते कामक्रोधपरायणाः? ईहन्ते चेष",
+          "sense": "नियन्त्रिताः सन्तः सर्वतः आकृष्यमाणाः, कामक्रोधपरायणाः कामक्रोधौ परम्,अयनम् आश्रयः येषां ते कामक्रोधपरायणाः, ईहन्ते चेष",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -87,7 +87,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "चेष्टन्ते कामभोगार्थं कामभोगप्रयोजनाय न धर्मार्थम्? अन्यायेन परस्वापहरणादिना इत्यर्थः किम् अर्थसंचयान् अर्थप्रचयान्",
+          "sense": "चेष्टन्ते कामभोगार्थं कामभोगप्रयोजनाय न धर्मार्थम्, अन्यायेन परस्वापहरणादिना इत्यर्थः किम् अर्थसंचयान् अर्थप्रचयान्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -415,6 +415,13 @@
           "baddhāḥ: bandh -> √bandh",
           "īhante: īh -> √īh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.503446Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "? क्षराक्षरपुरुषाभ्याम् अव्ययस्वभावतया व्यापनभरणैश्वर्यादियोगेन",
+          "sense": ", क्षराक्षरपुरुषाभ्याम् अव्ययस्वभावतया व्यापनभरणैश्वर्यादियोगेन",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -193,7 +193,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "।।अस्मिन् अध्याये भगवत्तत्त्वज्ञानं मोक्षफलम् उक्त्वा? अथ इदानीं तत् स्तौति --,",
+          "sense": "।।अस्मिन् अध्याये भगवत्तत्त्वज्ञानं मोक्षफलम् उक्त्वा, अथ इदानीं तत् स्तौति --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -201,7 +201,7 @@
           ]
         },
         {
-          "sense": "? अतो यदुक्तंमां",
+          "sense": ", अतो यदुक्तंमां",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -477,6 +477,13 @@
         "loci": [
           "bhajati: bhaj -> √bhaj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.494947Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -38,7 +38,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "परमात्मानम् आप्नोति? तथा तं प्रकारं ज्ञाननिष्ठाप्राप्तिक्रमं मे मम वचनात् निबोध त्वं निश्चयेन अवधारय इत्येतत्",
+          "sense": "परमात्मानम् आप्नोति, तथा तं प्रकारं ज्ञाननिष्ठाप्राप्तिक्रमं मे मम वचनात् निबोध त्वं निश्चयेन अवधारय इत्येतत्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -162,7 +162,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? यथा ब्रह्म प्राप्नोति तथा निबोधेति",
+          "sense": ", यथा ब्रह्म प्राप्नोति तथा निबोधेति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "sense": "? तदवधारणे किं स्यादित्यत आह -- निष्ठेति",
+          "sense": ", तदवधारणे किं स्यादित्यत आह -- निष्ठेति",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -737,6 +737,13 @@
           "āpnoti: āp -> √āp",
           "nibodha: nibudh -> ni-√budh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.575676Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

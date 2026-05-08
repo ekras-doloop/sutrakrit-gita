@@ -38,7 +38,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? त्वया एकाग्रेण चेतसा चित्तेन किं वा अप्रमादतः कच्चित् अज्ञानसंमोहः अज्ञाननिमित्तः संमोहः अविविक्तभावः अविवेकः स्वाभावि",
+          "sense": ", त्वया एकाग्रेण चेतसा चित्तेन किं वा अप्रमादतः कच्चित् अज्ञानसंमोहः अज्ञाननिमित्तः संमोहः अविविक्तभावः अविवेकः स्वाभावि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "sense": "त्वया अवहितेन चेतसा कच्चित् श्रुतम् तव अज्ञानसंमोहः कच्चित् प्रनष्टः येन अज्ञानेन मूढो न योत्स्यामि? इति उक्तवान्",
+          "sense": "त्वया अवहितेन चेतसा कच्चित् श्रुतम् तव अज्ञानसंमोहः कच्चित् प्रनष्टः येन अज्ञानेन मूढो न योत्स्यामि, इति उक्तवान्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -54,7 +54,7 @@
           ]
         },
         {
-          "sense": "? त्वया किं श्रुतमर्थतोऽवधारितं कच्चित्",
+          "sense": ", त्वया किं श्रुतमर्थतोऽवधारितं कच्चित्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "कच्चित् श्रुतम् तव अज्ञानसंमोहः कच्चित् प्रनष्टः येन अज्ञानेन मूढो न योत्स्यामि? इति उक्तवान्",
+          "sense": "कच्चित् श्रुतम् तव अज्ञानसंमोहः कच्चित् प्रनष्टः येन अज्ञानेन मूढो न योत्स्यामि, इति उक्तवान्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
           ]
         },
         {
-          "sense": "हे पार्थ? त्वया किं श्रुतमर्थतोऽवधारितं कच्चित्",
+          "sense": "हे पार्थ, त्वया किं श्रुतमर्थतोऽवधारितं कच्चित्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -160,7 +160,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? यदि स्यात्पुनरुपदेशं करिष्यामीत्यभिप्रायः",
+          "sense": ", यदि स्यात्पुनरुपदेशं करिष्यामीत्यभिप्रायः",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -538,6 +538,13 @@
           "śrutam: śru -> √śru",
           "pranaṣṭaḥ: praṇaś -> pra-√ṇaś"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.591810Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

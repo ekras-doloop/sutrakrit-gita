@@ -105,7 +105,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "तद् भर्तव्येभ्यो भूतेभ्यः अर्थान्तरं ज्ञेयम्? अर्थान्तरम् इति ज्ञातुं शक्यमित्यर्थः",
+          "sense": "तद् भर्तव्येभ्यो भूतेभ्यः अर्थान्तरं ज्ञेयम्, अर्थान्तरम् इति ज्ञातुं शक्यमित्यर्थः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -146,7 +146,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अन्नादीनां भौतिकानां ग्रसिष्णु? ग्रस्यमानेभ्यो भूतेभ्यो ग्रसितृत्वेन अर्थान्तरभूतम् इति ज्ञातुं शक्यम्",
+          "sense": "अन्नादीनां भौतिकानां ग्रसिष्णु, ग्रस्यमानेभ्यो भूतेभ्यो ग्रसितृत्वेन अर्थान्तरभूतम् इति ज्ञातुं शक्यम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -423,6 +423,13 @@
           "vibhaktam: vibhaj -> vi-√bhaj",
           "sthitam: sthā -> √sthā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.453721Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -70,7 +70,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "बुद्ध्वा शास्त्रविधानोक्तं विधिः विधानं शास्त्रेण विधानं शास्त्रविधानम् कुर्यात्? न कुर्यात् इत्येवंलक्षणम्? तेन उक्तं",
+          "sense": "बुद्ध्वा शास्त्रविधानोक्तं विधिः विधानं शास्त्रेण विधानं शास्त्रविधानम् कुर्यात्, न कुर्यात् इत्येवंलक्षणम्, तेन उक्तं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -135,7 +135,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यत् तत् कर्तुम् इह अर्हसि? इह इति कर्माधिकारभूमिप्रदर्शनार्थम् इति।।इति श्रीमत्परमहंसपरिव्राजकाचार्यस्य श्रीगोविन्दभगवत",
+          "sense": "यत् तत् कर्तुम् इह अर्हसि, इह इति कर्माधिकारभूमिप्रदर्शनार्थम् इति।।इति श्रीमत्परमहंसपरिव्राजकाचार्यस्य श्रीगोविन्दभगवत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -184,7 +184,7 @@
       "grammar": "infinitive",
       "senses_attested_in_panel": [
         {
-          "sense": "इह अर्हसि? इह इति कर्माधिकारभूमिप्रदर्शनार्थम् इति",
+          "sense": "इह अर्हसि, इह इति कर्माधिकारभूमिप्रदर्शनार्थम् इति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -472,6 +472,13 @@
           "uktam: vac -> √vac",
           "arhasi: arh -> √arh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.513960Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -121,7 +121,7 @@
           ]
         },
         {
-          "sense": "अशुचिव्रताः अशास्त्रविहितव्रतयुक्ताः? दम्भमानमदान्विताः प्रवर्तन्ते",
+          "sense": "अशुचिव्रताः अशास्त्रविहितव्रतयुक्ताः, दम्भमानमदान्विताः प्रवर्तन्ते",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -440,6 +440,13 @@
         "loci": [
           "pravartante: pravṛt -> pra-√vṛt"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.501990Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

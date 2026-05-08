@@ -72,7 +72,7 @@
           ]
         },
         {
-          "sense": "? सहजं स्वभावजं कर्म सदोषमपि विहितहिंसायुक्तमपि ज्योतिष्टोमयुद्धादि न त्यजेदन्तःकरणशुद्धेः प्राग्भवानन्यो वा",
+          "sense": ", सहजं स्वभावजं कर्म सदोषमपि विहितहिंसायुक्तमपि ज्योतिष्टोमयुद्धादि न त्यजेदन्तःकरणशुद्धेः प्राग्भवानन्यो वा",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -121,7 +121,7 @@
       "grammar": "present optative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "। सर्वारम्भाः आरभ्यन्त इति आरम्भाः? सर्वकर्माणि इत्येतत् प्रकरणात् ये केचित् आरम्भाः स्वधर्माः परधर्माश्च? ते सर्वे हि य",
+          "sense": "। सर्वारम्भाः आरभ्यन्त इति आरम्भाः, सर्वकर्माणि इत्येतत् प्रकरणात् ये केचित् आरम्भाः स्वधर्माः परधर्माश्च, ते सर्वे हि य",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -138,7 +138,7 @@
           ]
         },
         {
-          "sense": "। ज्ञानित्वेऽपि कर्मकरणं श्रेयः लोकसङ्ग्रहस्य सिद्धत्वात्। यद्वा दोषपदं दुःखवचनम्? तथा च सर्वस्य ज्ञानस्य कर्मणो वाऽऽरम्",
+          "sense": "। ज्ञानित्वेऽपि कर्मकरणं श्रेयः लोकसङ्ग्रहस्य सिद्धत्वात्। यद्वा दोषपदं दुःखवचनम्, तथा च सर्वस्य ज्ञानस्य कर्मणो वाऽऽरम्",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -195,7 +195,7 @@
       "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "धूमेन सहजेन अग्निरिव? आवृताः",
+          "sense": "धूमेन सहजेन अग्निरिव, आवृताः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -228,7 +228,7 @@
       "grammar": "instrumental masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सहजेन अग्निरिव? आवृताः",
+          "sense": "सहजेन अग्निरिव, आवृताः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -537,6 +537,13 @@
           "tyajet: tyaj -> √tyaj",
           "āvṛtāḥ: āvṛ -> √āvṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.573230Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

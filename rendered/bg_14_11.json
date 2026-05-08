@@ -22,7 +22,7 @@
       "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "यदा वस्तुयाथात्म्यप्रकाशे ज्ञानम् उपजायते? तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
+          "sense": "यदा वस्तुयाथात्म्यप्रकाशे ज्ञानम् उपजायते, तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "sense": "सर्वेष्वपि द्वारेषूपलब्धिसाधनेषु श्रोत्रादिकरणेषु यदा प्रकाशः बुद्धिपरिणामविशेषो विषयाकारः स्वविषयावरणविरोधी दीपवत्? तद",
+          "sense": "सर्वेष्वपि द्वारेषूपलब्धिसाधनेषु श्रोत्रादिकरणेषु यदा प्रकाशः बुद्धिपरिणामविशेषो विषयाकारः स्वविषयावरणविरोधी दीपवत्, तद",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -105,7 +105,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "। तदेव ज्ञानम्। यदा एवं प्रकाशो ज्ञानाख्यः उपजायते? तदा ज्ञानप्रकाशेन लिङ्गेन विद्यात् विवृद्धम् उद्भूतं सत्त्वम् इति उत",
+          "sense": "। तदेव ज्ञानम्। यदा एवं प्रकाशो ज्ञानाख्यः उपजायते, तदा ज्ञानप्रकाशेन लिङ्गेन विद्यात् विवृद्धम् उद्भूतं सत्त्वम् इति उत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "sense": "? तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
+          "sense": ", तदा अस्मिन् देहे सत्त्वं प्रवृद्धम् इति विद्यात्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -546,6 +546,13 @@
           "vidyāt: vid -> √vid",
           "vivṛddham: vivṛdh -> vi-√vṛdh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.468479Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

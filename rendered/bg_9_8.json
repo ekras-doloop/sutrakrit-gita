@@ -39,7 +39,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "वशीकृत्य विसृजामि पुनः पुनः प्रकृतितो जातं भूतग्रामं भूतसमुदायम् इमं वर्तमानं कृत्स्नं समग्रम् अवशम् अस्वतन्त्रम्? अविद",
+          "sense": "वशीकृत्य विसृजामि पुनः पुनः प्रकृतितो जातं भूतग्रामं भूतसमुदायम् इमं वर्तमानं कृत्स्नं समग्रम् अवशम् अस्वतन्त्रम्, अविद",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "पुनः पुनः प्रकृतितो जातं भूतग्रामं भूतसमुदायम् इमं वर्तमानं कृत्स्नं समग्रम् अवशम् अस्वतन्त्रम्? अविद्यादिदोषैः परवशीकृ",
+          "sense": "पुनः पुनः प्रकृतितो जातं भूतग्रामं भूतसमुदायम् इमं वर्तमानं कृत्स्नं समग्रम् अवशम् अस्वतन्त्रम्, अविद्यादिदोषैः परवशीकृ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
           ]
         },
         {
-          "sense": "।एवं तर्हि विषमसृष्ट्यादीनि कर्माणि नैर्घृण्याद्यापादनेन भगवन्तं बध्नन्ति इति? अत्र आह --",
+          "sense": "।एवं तर्हि विषमसृष्ट्यादीनि कर्माणि नैर्घृण्याद्यापादनेन भगवन्तं बध्नन्ति इति, अत्र आह --",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -430,6 +430,13 @@
         "loci": [
           "visṛjāmi: visṛj -> vi-√sṛj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.667139Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

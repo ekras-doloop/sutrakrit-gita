@@ -14,7 +14,7 @@
       "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अपरिमेयां च? न परिमातुं शक्यते यस्याः चिन्तायाः इयत्ता सा अपरिमेया? ताम् अपरिमेयाम्? प्रलयान्तां मरणान्ताम् उपाश्रिताः?",
+          "sense": "अपरिमेयां च, न परिमातुं शक्यते यस्याः चिन्तायाः इयत्ता सा अपरिमेया, ताम् अपरिमेयाम्, प्रलयान्तां मरणान्ताम् उपाश्रिताः,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? सदा चिन्तापराः इत्यर्थः",
+          "sense": ", सदा चिन्तापराः इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "sense": "। तथा कामोपभोगपरमाः कामोपभोग एव परमपुरुषार्थः? इति मन्वानाः। एतावद् इति निश्चिताः? इतः अधिकः पुरुषार्थो न विद्यते इति सं",
+          "sense": "। तथा कामोपभोगपरमाः कामोपभोग एव परमपुरुषार्थः, इति मन्वानाः। एतावद् इति निश्चिताः, इतः अधिकः पुरुषार्थो न विद्यते इति सं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "nominative masculine plural participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? इतः अधिकः पुरुषार्थो न विद्यते इति संजातनिश्चयाः",
+          "sense": ", इतः अधिकः पुरुषार्थो न विद्यते इति संजातनिश्चयाः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -388,6 +388,13 @@
           "upāśritāḥ: upāśri -> √upāśri",
           "niścitāḥ: niści -> ni-√ści"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.502837Z",
+        "patches": 8,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

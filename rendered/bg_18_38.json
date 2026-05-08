@@ -78,7 +78,7 @@
       "grammar": "locative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "विषमिव? बलवीर्यरूपप्रज्ञामेधाधनोत्साहहानिहेतुत्वात् अधर्मतज्जनितनरकादिहेतुत्वाच्च परिणामे तदुपभोगपरिणामान्ते विषमिव? तत",
+          "sense": "विषमिव, बलवीर्यरूपप्रज्ञामेधाधनोत्साहहानिहेतुत्वात् अधर्मतज्जनितनरकादिहेतुत्वाच्च परिणामे तदुपभोगपरिणामान्ते विषमिव, तत",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -127,7 +127,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इव पीतं भवति?",
+          "sense": "इव पीतं भवति,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -441,6 +441,13 @@
         "loci": [
           "smṛtam: smṛ -> √smṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.564746Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -22,7 +22,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "ततः अनन्तरं राजन् धृतराष्ट्र? महायोगेश्वरः महांश्च असौ योगेश्वरश्च हरिः नारायणः दर्शयामास दर्शितवान् पार्थाय पृथासुताय",
+          "sense": "ततः अनन्तरं राजन् धृतराष्ट्र, महायोगेश्वरः महांश्च असौ योगेश्वरश्च हरिः नारायणः दर्शयामास दर्शितवान् पार्थाय पृथासुताय",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "धृतराष्ट्र? महायोगेश्वरः महांश्च असौ योगेश्वरश्च हरिः नारायणः दर्शयामास दर्शितवान् पार्थाय पृथासुताय परमं रूपं विश्वरूप",
+          "sense": "धृतराष्ट्र, महायोगेश्वरः महांश्च असौ योगेश्वरश्च हरिः नारायणः दर्शयामास दर्शितवान् पार्थाय पृथासुताय परमं रूपं विश्वरूप",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
           ]
         },
         {
-          "sense": "धृतराष्ट्र? महांश्चासौ योगेश्वरश्च हरिः परममैश्वरं रूपं दर्शितवान्",
+          "sense": "धृतराष्ट्र, महांश्चासौ योगेश्वरश्च हरिः परममैश्वरं रूपं दर्शितवान्",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "धृतराष्ट्र? स्थिरो भव श्रवणाय",
+          "sense": "धृतराष्ट्र, स्थिरो भव श्रवणाय",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -542,6 +542,13 @@
           "darśayām: darśay -> √darśay",
           "āsa: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.435659Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

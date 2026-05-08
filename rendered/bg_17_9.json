@@ -70,7 +70,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च इति कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः अतिशैत्यातितैक्ष्ण्यादिना दुरुपयोगाः तीक्ष्णाः? शोषकराः रूक्षाः? तापकरा वि",
+          "sense": "च इति कट्वम्ललवणात्युष्णतीक्ष्णरूक्षविदाहिनः अतिशैत्यातितैक्ष्ण्यादिना दुरुपयोगाः तीक्ष्णाः, शोषकराः रूक्षाः, तापकरा वि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "इष्टाः? दुःखशोकामयप्रदाः दुःखं",
+          "sense": "इष्टाः, दुःखशोकामयप्रदाः दुःखं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -388,6 +388,13 @@
         "loci": [
           "iṣṭāḥ: iṣ -> √iṣ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.538901Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

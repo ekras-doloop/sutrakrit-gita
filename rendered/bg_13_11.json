@@ -86,7 +86,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। विविक्तदेशसेवित्वम्? विविक्तः स्वभावतः संस्कारेण वा अशुच्यादिभिः सर्पव्याघ्रादिभिश्च रहितः अरण्यनदीपुलिनदेवगृहादिभिर्व",
+          "sense": "। विविक्तदेशसेवित्वम्, विविक्तः स्वभावतः संस्कारेण वा अशुच्यादिभिः सर्पव्याघ्रादिभिश्च रहितः अरण्यनदीपुलिनदेवगृहादिभिर्व",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -94,7 +94,7 @@
           ]
         },
         {
-          "sense": "अध्यात्मज्ञानं तन्निष्ठत्वम्? तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानप्रयोजनं",
+          "sense": "अध्यात्मज्ञानं तन्निष्ठत्वम्, तत्त्वज्ञानार्थदर्शनं तत्त्वज्ञानप्रयोजनं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -525,6 +525,13 @@
         "loci": [
           "proktam: pravac -> pra-√vac"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.451936Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

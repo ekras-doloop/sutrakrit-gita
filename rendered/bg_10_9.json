@@ -54,7 +54,7 @@
       "grammar": "nominative masculine plural present participle verb",
       "senses_attested_in_panel": [
         {
-          "sense": "अवगमयन्तः परस्परम् अन्योन्यम्? कथयन्तश्च ज्ञानबलवीर्यादिधर्मैः विशिष्टं माम्? तुष्यन्ति",
+          "sense": "अवगमयन्तः परस्परम् अन्योन्यम्, कथयन्तश्च ज्ञानबलवीर्यादिधर्मैः विशिष्टं माम्, तुष्यन्ति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "? मदीयानि दिव्यानि रमणीयानि कर्माणि",
+          "sense": ", मदीयानि दिव्यानि रमणीयानि कर्माणि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -95,7 +95,7 @@
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अन्योन्यम्? कथयन्तश्च ज्ञानबलवीर्यादिधर्मैः विशिष्टं माम्? तुष्यन्ति",
+          "sense": "अन्योन्यम्, कथयन्तश्च ज्ञानबलवीर्यादिधर्मैः विशिष्टं माम्, तुष्यन्ति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "sense": "च। वक्तारः तद्वचनेन अनन्यप्रयोजनेन तुष्यन्ति? श्रोतारश्च तच्छ्रवणेन अनवधिकातिशयप्रियेण रमन्ते।",
+          "sense": "च। वक्तारः तद्वचनेन अनन्यप्रयोजनेन तुष्यन्ति, श्रोतारश्च तच्छ्रवणेन अनवधिकातिशयप्रियेण रमन्ते।",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -540,6 +540,13 @@
           "tuṣyanti: tuṣ -> √tuṣ",
           "ramanti: ram -> √ram"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.394130Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -46,7 +46,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "नाशाय विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः? तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्",
+          "sense": "नाशाय विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः, तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
       "grammar": "dative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः? तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्राणि स",
+          "sense": "विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः, तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्राणि स",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -160,7 +160,7 @@
       "grammar": "dative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः? तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्राणि स",
+          "sense": "विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः, तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्राणि स",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -209,7 +209,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "नाशाय विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः? तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्",
+          "sense": "नाशाय विनाशाय समृद्धवेगाः समृद्धः उद्भूतः वेगः गतिः येषां ते समृद्धवेगाः, तथैव नाशाय विशन्ति लोकाः प्राणिनः तवापि वक्त्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -528,6 +528,13 @@
           "viśanti: viś -> √viś",
           "samṛddha: samṛdh -> sam-√ṛdh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.407950Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

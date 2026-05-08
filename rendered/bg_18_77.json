@@ -30,7 +30,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "संस्मृत्य रूपम् अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्? हृष्यामि",
+          "sense": "संस्मृत्य रूपम् अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्, हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "sense": "मे विस्मयो भवति मया साक्षात्कृतत्वात्?",
+          "sense": "मे विस्मयो भवति मया साक्षात्कृतत्वात्,",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -64,7 +64,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "संस्मृत्य रूपम् अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्? हृष्यामि",
+          "sense": "संस्मृत्य रूपम् अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्, हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "sense": "मे विस्मयो भवति मया साक्षात्कृतत्वात्?",
+          "sense": "मे विस्मयो भवति मया साक्षात्कृतत्वात्,",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -98,7 +98,7 @@
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्? हृष्यामि",
+          "sense": "अत्यद्भुतं हरेः विश्वरूपं विस्मयो मे महान् राजन्, हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -131,7 +131,7 @@
       "grammar": "genitive masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "विश्वरूपं विस्मयो मे महान् राजन्? हृष्यामि",
+          "sense": "विश्वरूपं विस्मयो मे महान् राजन्, हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -180,7 +180,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "राजन्? हृष्यामि",
+          "sense": "राजन्, हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -205,7 +205,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? हृष्यामि",
+          "sense": ", हृष्यामि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -221,7 +221,7 @@
           ]
         },
         {
-          "sense": "? मम महान्विस्मयोऽतएव हृष्यामि चाहं स्पष्टमन्यत्",
+          "sense": ", मम महान्विस्मयोऽतएव हृष्यामि चाहं स्पष्टमन्यत्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -254,7 +254,7 @@
           ]
         },
         {
-          "sense": "। अनेन दैवस्यैवं हर्षः? नान्यस्येति सूचितम्।",
+          "sense": "। अनेन दैवस्यैवं हर्षः, नान्यस्येति सूचितम्।",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -533,6 +533,13 @@
         "loci": [
           "hṛṣyāmi: hṛṣ -> √hṛṣ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.595073Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

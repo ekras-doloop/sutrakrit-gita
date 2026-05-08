@@ -94,7 +94,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सर्वात्मन्? सर्वास्वपि दिक्षु तुभ्यं नमोऽस्तु",
+          "sense": "सर्वात्मन्, सर्वास्वपि दिक्षु तुभ्यं नमोऽस्तु",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -159,7 +159,7 @@
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "सम्यक् एकेन आत्मना व्याप्नोषि यतः? ततः तस्मात् असि भवसि सर्वः त्वम्? त्वया विनाभूतं न किञ्चित् अस्ति इति अभिप्रायः",
+          "sense": "सम्यक् एकेन आत्मना व्याप्नोषि यतः, ततः तस्मात् असि भवसि सर्वः त्वम्, त्वया विनाभूतं न किञ्चित् अस्ति इति अभिप्रायः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -167,7 +167,7 @@
           ]
         },
         {
-          "sense": "ततः सर्वः असि? यतः त्वं सर्वं चितचिद्वस्तुजातम् आत्मतया समाप्नोषि",
+          "sense": "ततः सर्वः असि, यतः त्वं सर्वं चितचिद्वस्तुजातम् आत्मतया समाप्नोषि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -208,7 +208,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "त्वम्? त्वया विनाभूतं न किञ्चित् अस्ति इति अभिप्रायः",
+          "sense": "त्वम्, त्वया विनाभूतं न किञ्चित् अस्ति इति अभिप्रायः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -216,7 +216,7 @@
           ]
         },
         {
-          "sense": "असि? यतः त्वं सर्वं चितचिद्वस्तुजातम् आत्मतया समाप्नोषि",
+          "sense": "असि, यतः त्वं सर्वं चितचिद्वस्तुजातम् आत्मतया समाप्नोषि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -465,6 +465,13 @@
           "samāpnoṣi: samāp -> sam-√āp",
           "asi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.419558Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

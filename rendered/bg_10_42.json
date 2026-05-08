@@ -111,7 +111,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "विशेषतः स्तम्भनं दृढं कृत्वा इदं कृत्स्नं जगत् एकांशेन एकावयवेन एकपादेन? सर्वभूतस्वरूपेण इत्येतत् तथा",
+          "sense": "विशेषतः स्तम्भनं दृढं कृत्वा इदं कृत्स्नं जगत् एकांशेन एकावयवेन एकपादेन, सर्वभूतस्वरूपेण इत्येतत् तथा",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -424,6 +424,13 @@
           "jñātena: jñā -> √jñā",
           "sthitaḥ: sthā -> √sthā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.389973Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

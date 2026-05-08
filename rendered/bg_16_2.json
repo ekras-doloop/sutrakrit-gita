@@ -30,7 +30,7 @@
           ]
         },
         {
-          "sense": "परपीडावर्जनम्? सत्यं यथार्थभाषणम्? अक्रोधस्ताडितस्यापि चित्ते क्षोभानुत्पत्तिः? त्याग औदार्यम्? शान्तिश्चित्तोपरतिः? पै",
+          "sense": "परपीडावर्जनम्, सत्यं यथार्थभाषणम्, अक्रोधस्ताडितस्यापि चित्ते क्षोभानुत्पत्तिः, त्याग औदार्यम्, शान्तिश्चित्तोपरतिः, पै",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "संन्यासः? पूर्वं दानस्य उक्तत्वात्",
+          "sense": "संन्यासः, पूर्वं दानस्य उक्तत्वात्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -512,7 +512,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.510107Z",
+        "patches": 6,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "The verse lists ten virtues in rapid succession without hierarchy — does their sequence encode a pedagogical or psycho-spiritual order, or are they simply enumerated?",

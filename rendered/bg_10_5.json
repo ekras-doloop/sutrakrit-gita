@@ -30,7 +30,7 @@
           ]
         },
         {
-          "sense": "परपीडानिवृत्तिः? समता रागद्वेषादिराहित्यं? मित्रामित्रतुल्यता च? तुष्टिर्दैवलब्धेन संतोषः? तपः शारीरादि वक्ष्यमाणम्? दा",
+          "sense": "परपीडानिवृत्तिः, समता रागद्वेषादिराहित्यं, मित्रामित्रतुल्यता च, तुष्टिर्दैवलब्धेन संतोषः, तपः शारीरादि वक्ष्यमाणम्, दा",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -619,6 +619,13 @@
         "loci": [
           "bhavanti: bhū -> √bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.390647Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

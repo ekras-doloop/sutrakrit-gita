@@ -55,7 +55,7 @@
       "grammar": "accusative neuter plural present participle pass verb",
       "senses_attested_in_panel": [
         {
-          "sense": "इति यः पश्यति तथा आत्मानम् अकर्तारं ज्ञानाकारं च यः पश्यति? तस्य प्रकृतिसंयोगः तदधिष्ठानं तज्जन्यसुखदुःखानुभवः च कर्मरू",
+          "sense": "इति यः पश्यति तथा आत्मानम् अकर्तारं ज्ञानाकारं च यः पश्यति, तस्य प्रकृतिसंयोगः तदधिष्ठानं तज्जन्यसुखदुःखानुभवः च कर्मरू",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -431,6 +431,13 @@
         "loci": [
           "kriyamāṇāni: kṛ -> √kṛ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.461083Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

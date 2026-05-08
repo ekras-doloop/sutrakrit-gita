@@ -54,7 +54,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? किञ्चित् अर्थवैकल्यम्? आत्मनः वैगुण्यं वा उद्दिश्य न शोचति न संतप्यते न काङ्क्षति? न हि अप्राप्तविषयाकाङ्क्षा ब्रह्मवि",
+          "sense": ", किञ्चित् अर्थवैकल्यम्, आत्मनः वैगुण्यं वा उद्दिश्य न शोचति न संतप्यते न काङ्क्षति, न हि अप्राप्तविषयाकाङ्क्षा ब्रह्मवि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "sense": "नष्टं? न,काङ्क्षत्यप्राप्तम्",
+          "sense": "नष्टं, न,काङ्क्षत्यप्राप्तम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -104,7 +104,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? न हि अप्राप्तविषयाकाङ्क्षा ब्रह्मविदः उपपद्यते अतः ब्रह्मभूतस्य अयं स्वभावः अनूद्यते -- न शोचति न काङ्क्षति इति",
+          "sense": ", न हि अप्राप्तविषयाकाङ्क्षा ब्रह्मविदः उपपद्यते अतः ब्रह्मभूतस्य अयं स्वभावः अनूद्यते -- न शोचति न काङ्क्षति इति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -146,7 +146,7 @@
       "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "भूतेषु? आत्मौपम्येन सर्वभूतेषु सुखं दुःखं वा सममेव पश्यति इत्यर्थः",
+          "sense": "भूतेषु, आत्मौपम्येन सर्वभूतेषु सुखं दुःखं वा सममेव पश्यति इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -180,7 +180,7 @@
       "grammar": "locative neuter plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? आत्मौपम्येन सर्वभूतेषु सुखं दुःखं वा सममेव पश्यति इत्यर्थः",
+          "sense": ", आत्मौपम्येन सर्वभूतेषु सुखं दुःखं वा सममेव पश्यति इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -229,7 +229,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? चतुर्विधा भजन्ते माम् (गीता 7",
+          "sense": ", चतुर्विधा भजन्ते माम् (गीता 7",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -245,7 +245,7 @@
           ]
         },
         {
-          "sense": "? आत्मारामाश्च मुनयो निर्ग्रन्था अप्युरुक्रमे",
+          "sense": ", आत्मारामाश्च मुनयो निर्ग्रन्था अप्युरुक्रमे",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -253,7 +253,7 @@
           ]
         },
         {
-          "sense": "परां श्रेष्ठामव्यवधानेन साक्षात्कारफलां? चतुर्विधा भजन्ते मामित्यत्रोक्तस्य भक्तिचतुष्टयस्यान्त्यां ज्ञानलक्षणमिति वा",
+          "sense": "परां श्रेष्ठामव्यवधानेन साक्षात्कारफलां, चतुर्विधा भजन्ते मामित्यत्रोक्तस्य भक्तिचतुष्टयस्यान्त्यां ज्ञानलक्षणमिति वा",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -270,7 +270,7 @@
       "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "उत्तमां ज्ञानलक्षणां चतुर्थीं लभते? चतुर्विधा भजन्ते माम् (गीता 7",
+          "sense": "उत्तमां ज्ञानलक्षणां चतुर्थीं लभते, चतुर्विधा भजन्ते माम् (गीता 7",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -633,6 +633,13 @@
           "kāṅkṣati: kāṅkṣ -> √kāṅkṣ",
           "labhate: labh -> √labh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.578763Z",
+        "patches": 11,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

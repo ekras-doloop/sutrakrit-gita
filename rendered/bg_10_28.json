@@ -22,7 +22,7 @@
           ]
         },
         {
-          "sense": "इत्यर्वाचीनायुधपरं? सुदर्शनाद्यपेक्षया दधीचेरस्थिसम्भवस्य वज्रस्यापि निकृष्टत्वात्",
+          "sense": "इत्यर्वाचीनायुधपरं, सुदर्शनाद्यपेक्षया दधीचेरस्थिसम्भवस्य वज्रस्यापि निकृष्टत्वात्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री? सामान्या वा कामधुक्",
+          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री, सामान्या वा कामधुक्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "? सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
+          "sense": ", सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -120,7 +120,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री? सामान्या वा कामधुक्",
+          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री, सामान्या वा कामधुक्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -128,7 +128,7 @@
           ]
         },
         {
-          "sense": "? सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
+          "sense": ", सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -145,7 +145,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च अहम् अस्मि? सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
+          "sense": "च अहम् अस्मि, सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -178,7 +178,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री? सामान्या वा कामधुक्",
+          "sense": "कामधुक् वसिष्ठस्य सर्वकामानां दोग्ध्री, सामान्या वा कामधुक्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -186,7 +186,7 @@
           ]
         },
         {
-          "sense": "? सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
+          "sense": ", सर्पाः एकशिरसः तेषां मध्ये वासुकिः अस्मि",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -462,6 +462,13 @@
           "asmi: as -> √as",
           "asmi: as -> √as"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.378300Z",
+        "patches": 8,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

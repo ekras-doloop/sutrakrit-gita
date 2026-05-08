@@ -47,7 +47,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? मूर्तयः देहसंस्थानलक्षणाः मूर्छिताङ्गावयवाः मूर्तयः संभवन्ति याः? तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम्",
+          "sense": ", मूर्तयः देहसंस्थानलक्षणाः मूर्छिताङ्गावयवाः मूर्तयः संभवन्ति याः, तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -55,7 +55,7 @@
           ]
         },
         {
-          "sense": "? तासां मूर्तीनां तत्तत्कारणभावापन्नं महत् ब्रह्मैव योनिर्मातृस्थानीयां",
+          "sense": ", तासां मूर्तीनां तत्तत्कारणभावापन्नं महत् ब्रह्मैव योनिर्मातृस्थानीयां",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -72,7 +72,7 @@
       "grammar": "nominative feminine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "देहसंस्थानलक्षणाः मूर्छिताङ्गावयवाः मूर्तयः संभवन्ति याः? तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम् अहम् ईश्व",
+          "sense": "देहसंस्थानलक्षणाः मूर्छिताङ्गावयवाः मूर्तयः संभवन्ति याः, तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम् अहम् ईश्व",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -105,7 +105,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "याः? तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम् अहम् ईश्वरः बीजप्रदः गर्भाधानस्य कर्ता पिता",
+          "sense": "याः, तासां मूर्तीनां ब्रह्म महत् सर्वावस्थं योनिः कारणम् अहम् ईश्वरः बीजप्रदः गर्भाधानस्य कर्ता पिता",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "sense": "हे कौन्तेय? तासां मूर्तीनां तत्तत्कारणभावापन्नं महत् ब्रह्मैव योनिर्मातृस्थानीयां",
+          "sense": "हे कौन्तेय, तासां मूर्तीनां तत्तत्कारणभावापन्नं महत् ब्रह्मैव योनिर्मातृस्थानीयां",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -220,7 +220,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "।।के गुणाः कथं बध्नन्तीति? उच्यते --,",
+          "sense": "।।के गुणाः कथं बध्नन्तीति, उच्यते --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -558,6 +558,13 @@
         "loci": [
           "saṃbhavanti: sambhū -> sam-√bhū"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.482936Z",
+        "patches": 7,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

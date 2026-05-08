@@ -46,7 +46,7 @@
       "grammar": "present imperative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? समाधानं कुरु इत्येतत्? मे मम भरतर्षभ",
+          "sense": ", समाधानं कुरु इत्येतत्, मे मम भरतर्षभ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -160,7 +160,7 @@
           ]
         },
         {
-          "sense": "? निखिलस्य सांसारिकस्य दुःखस्य अन्तं निगच्छति",
+          "sense": ", निखिलस्य सांसारिकस्य दुःखस्य अन्तं निगच्छति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -430,6 +430,13 @@
         "loci": [
           "ramate: ram -> √ram"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.563179Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

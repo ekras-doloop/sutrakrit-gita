@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "सह वर्त्तमानां यो वेत्ति? स गुणैर्वर्त्तमानो वा भूयः सर्वथा नाभिजायते न गुणप्रवाहसंसारं भजते किन्तु मुच्यत इत्यर्थः",
+          "sense": "सह वर्त्तमानां यो वेत्ति, स गुणैर्वर्त्तमानो वा भूयः सर्वथा नाभिजायते न गुणप्रवाहसंसारं भजते किन्तु मुच्यत इत्यर्थः",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -472,6 +472,13 @@
           "vartamānaḥ: vṛt -> √vṛt",
           "abhijāyate: abhijan -> abhi-√jan"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.457883Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

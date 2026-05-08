@@ -14,7 +14,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "जनयिता अहम् अस्य जगतः? माता जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं",
+          "sense": "जनयिता अहम् अस्य जगतः, माता जनयित्री, धाता कर्मफलस्य प्राणिभ्यो विधाता, पितामहः पितुः पिता, वेद्यं वेदितव्यम्, पवित्रं",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -47,7 +47,7 @@
       "grammar": "genitive neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "जगतः? माता जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक",
+          "sense": "जगतः, माता जनयित्री, धाता कर्मफलस्य प्राणिभ्यो विधाता, पितामहः पितुः पिता, वेद्यं वेदितव्यम्, पवित्रं पावनम् ओंकारः, ऋक",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -88,7 +88,7 @@
       "grammar": "nominative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "जनयित्री? धाता कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "sense": "जनयित्री, धाता कर्मफलस्य प्राणिभ्यो विधाता, पितामहः पितुः पिता, वेद्यं वेदितव्यम्, पवित्रं पावनम् ओंकारः, ऋक् साम यजुः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "sense": "चाहम्। धाताऽन्वाधाता। यजमानश्चाहं ब्रह्मैव?ब्रह्मणा हुतं [4।24] इति पूर्वसूत्रितत्वात्। पितामहश्चाहं स्मार्त्ते श्राद्ध",
+          "sense": "चाहम्। धाताऽन्वाधाता। यजमानश्चाहं ब्रह्मैव,ब्रह्मणा हुतं [4।24] इति पूर्वसूत्रितत्वात्। पितामहश्चाहं स्मार्त्ते श्राद्ध",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -121,7 +121,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "कर्मफलस्य प्राणिभ्यो विधाता? पितामहः पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "sense": "कर्मफलस्य प्राणिभ्यो विधाता, पितामहः पितुः पिता, वेद्यं वेदितव्यम्, पवित्रं पावनम् ओंकारः, ऋक् साम यजुः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "sense": "कर्मफलविधाता? वेद्यं ज्ञेयं वस्तु? पवित्रं शोधकं प्रायश्चित्तात्मकं वा? ओंकारः प्रणवः? ऋग्वेदादयो वेदाश्च अहमेव? स्पष्ट",
+          "sense": "कर्मफलविधाता, वेद्यं ज्ञेयं वस्तु, पवित्रं शोधकं प्रायश्चित्तात्मकं वा, ओंकारः प्रणवः, ऋग्वेदादयो वेदाश्च अहमेव, स्पष्ट",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -154,7 +154,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "पितुः पिता? वेद्यं वेदितव्यम्? पवित्रं पावनम् ओंकारः? ऋक् साम यजुः",
+          "sense": "पितुः पिता, वेद्यं वेदितव्यम्, पवित्रं पावनम् ओंकारः, ऋक् साम यजुः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -599,7 +599,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.647167Z",
+        "patches": 29,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If the same Brahman is simultaneously father, mother, sustainer, and grandsire, what collapses when you locate divine presence exclusively in one relational role (e.g., 'God the Father')?",

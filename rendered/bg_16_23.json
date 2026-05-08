@@ -38,7 +38,7 @@
       "grammar": "conv",
       "senses_attested_in_panel": [
         {
-          "sense": "त्यक्त्वा वर्तते कामकारतः कामप्रयुक्तः सन्? न सः सिद्धिं पुरुषार्थयोग्यताम् अवाप्नोति? न",
+          "sense": "त्यक्त्वा वर्तते कामकारतः कामप्रयुक्तः सन्, न सः सिद्धिं पुरुषार्थयोग्यताम् अवाप्नोति, न",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "sense": "यः कामकारतो वर्तते स्वच्छन्दानुगणमार्गेण वर्तते? न स सिद्धिम् अवाप्नोति? न काम्",
+          "sense": "यः कामकारतो वर्तते स्वच्छन्दानुगणमार्गेण वर्तते, न स सिद्धिम् अवाप्नोति, न काम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -63,7 +63,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "कामकारतः कामप्रयुक्तः सन्? न सः सिद्धिं पुरुषार्थयोग्यताम् अवाप्नोति? न",
+          "sense": "कामकारतः कामप्रयुक्तः सन्, न सः सिद्धिं पुरुषार्थयोग्यताम् अवाप्नोति, न",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -71,7 +71,7 @@
           ]
         },
         {
-          "sense": "स्वच्छन्दानुगणमार्गेण वर्तते? न स सिद्धिम् अवाप्नोति? न काम्",
+          "sense": "स्वच्छन्दानुगणमार्गेण वर्तते, न स सिद्धिम् अवाप्नोति, न काम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -136,7 +136,7 @@
       "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अवाप्नोति? न काम्",
+          "sense": "अवाप्नोति, न काम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -153,7 +153,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? न अपि अस्मिन् लोके सुखं न अपि परां प्रकृष्टां गतिं स्वर्गं मोक्षं वा।।",
+          "sense": ", न अपि अस्मिन् लोके सुखं न अपि परां प्रकृष्टां गतिं स्वर्गं मोक्षं वा।।",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -161,7 +161,7 @@
           ]
         },
         {
-          "sense": "? न काम्",
+          "sense": ", न काम्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -478,6 +478,13 @@
           "vartate: vṛt -> √vṛt",
           "avāpnoti: avāp -> √avāp"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.513085Z",
+        "patches": 11,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

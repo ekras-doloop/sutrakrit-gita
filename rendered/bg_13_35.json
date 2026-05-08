@@ -54,7 +54,7 @@
       "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "ये विदुः भूतप्रकृतिमोक्षं च? ते परं यान्ति निर्मुक्तबन्धनम्? आत्मानं प्राप्नुवन्ति",
+          "sense": "ये विदुः भूतप्रकृतिमोक्षं च, ते परं यान्ति निर्मुक्तबन्धनम्, आत्मानं प्राप्नुवन्ति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -62,7 +62,7 @@
           ]
         },
         {
-          "sense": "ये विदुः? तथा चेयमुक्ता भूतानां प्रकृतिस्तस्याः सकाशान्मोक्षं मोक्षोपायं ध्यानादिकं",
+          "sense": "ये विदुः, तथा चेयमुक्ता भूतानां प्रकृतिस्तस्याः सकाशान्मोक्षं मोक्षोपायं ध्यानादिकं",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -135,7 +135,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "गच्छन्ति ते परं परमात्मतत्त्वं ब्रह्म? न पुनः देहं आददते इत्यर्थः",
+          "sense": "गच्छन्ति ते परं परमात्मतत्त्वं ब्रह्म, न पुनः देहं आददते इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -143,7 +143,7 @@
           ]
         },
         {
-          "sense": "निर्मुक्तबन्धनम्? आत्मानं प्राप्नुवन्ति",
+          "sense": "निर्मुक्तबन्धनम्, आत्मानं प्राप्नुवन्ति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -513,6 +513,13 @@
           "viduḥ: vid -> √vid",
           "yānti: yā -> √yā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.464250Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

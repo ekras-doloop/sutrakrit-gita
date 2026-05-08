@@ -47,7 +47,7 @@
       "grammar": "present indicative 1st person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? यत् मां प्रति वदसि भाषसे हे केशव। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः? न दानवाः ।।यतः त्वं देवादीनाम् आदिः",
+          "sense": ", यत् मां प्रति वदसि भाषसे हे केशव। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः, न दानवाः ।।यतः त्वं देवादीनाम् आदिः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "भाषसे हे केशव। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः? न दानवाः ।।यतः त्वं देवादीनाम् आदिः? अतः --,",
+          "sense": "भाषसे हे केशव। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः, न दानवाः ।।यतः त्वं देवादीनाम् आदिः, अतः --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -154,7 +154,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः? न दानवाः ।।यतः त्वं देवादीनाम् आदिः? अतः --,",
+          "sense": "। न हि ते तव भगवन्, व्यक्तिं प्रभवं विदुः न देवाः, न दानवाः ।।यतः त्वं देवादीनाम् आदिः, अतः --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -203,7 +203,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": ", व्यक्तिं प्रभवं विदुः न देवाः? न दानवाः",
+          "sense": ", व्यक्तिं प्रभवं विदुः न देवाः, न दानवाः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "sense": "? तव व्यक्तिं देवा न विदुः",
+          "sense": ", तव व्यक्तिं देवा न विदुः",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -227,7 +227,7 @@
           ]
         },
         {
-          "sense": "समग्रैश्वर्यादिसंपन्न? ते तव व्यक्तिं प्रभावं ज्ञानातिशयशालिनोऽपि देवा न विदुर्नापि दानवा न महर्षय इत्यपि द्रष्टव्यम्",
+          "sense": "समग्रैश्वर्यादिसंपन्न, ते तव व्यक्तिं प्रभावं ज्ञानातिशयशालिनोऽपि देवा न विदुर्नापि दानवा न महर्षय इत्यपि द्रष्टव्यम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -276,7 +276,7 @@
       "grammar": "nominative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "।।यतः त्वं देवादीनाम् आदिः? अतः --,",
+          "sense": "।।यतः त्वं देवादीनाम् आदिः, अतः --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -532,6 +532,13 @@
           "vadasi: vad -> √vad",
           "viduḥ: vid -> √vid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.369562Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -103,7 +103,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। अग्निवत् अहम् -- दूरस्थानां यथा अग्निः शीतं न अपनयति? समीपम् उपसर्पतां अपनयति तथा अहं भक्तान् अनुगृह्णामि? न इतरान्। य",
+          "sense": "। अग्निवत् अहम् -- दूरस्थानां यथा अग्निः शीतं न अपनयति, समीपम् उपसर्पतां अपनयति तथा अहं भक्तान् अनुगृह्णामि, न इतरान्। य",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -137,7 +137,7 @@
       "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "तु माम् ईश्वरं भक्त्या मयि ते -- स्वभावत एव? न मम रागनिमित्तम् मयि वर्तन्ते",
+          "sense": "तु माम् ईश्वरं भक्त्या मयि ते -- स्वभावत एव, न मम रागनिमित्तम् मयि वर्तन्ते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -154,7 +154,7 @@
           ]
         },
         {
-          "sense": "ते तु मयि मदाधाराः? अहं चापि तेषु तदाधारोऽस्मि? इदं",
+          "sense": "ते तु मयि मदाधाराः, अहं चापि तेषु तदाधारोऽस्मि, इदं",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -203,7 +203,7 @@
       "grammar": "instrumental feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "मयि ते -- स्वभावत एव? न मम रागनिमित्तम् मयि वर्तन्ते",
+          "sense": "मयि ते -- स्वभावत एव, न मम रागनिमित्तम् मयि वर्तन्ते",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -219,7 +219,7 @@
           ]
         },
         {
-          "sense": "ये भजन्ति ते तु मयि मदाधाराः? अहं चापि तेषु तदाधारोऽस्मि? इदं",
+          "sense": "ये भजन्ति ते तु मयि मदाधाराः, अहं चापि तेषु तदाधारोऽस्मि, इदं",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -260,7 +260,7 @@
       "grammar": "locative masculine plural noun",
       "senses_attested_in_panel": [
         {
-          "sense": "च अपि अहं स्वभावत एव वर्ते? न इतरेषु। न एतावता तेषु द्वेषो मम्।।श्रृणु मद्भक्तेर्माहात्म्यम् --,",
+          "sense": "च अपि अहं स्वभावत एव वर्ते, न इतरेषु। न एतावता तेषु द्वेषो मम्।।श्रृणु मद्भक्तेर्माहात्म्यम् --,",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -277,7 +277,7 @@
           ]
         },
         {
-          "sense": "चाप्यहमिति? मम ते वशाः तेषामहं वश इति",
+          "sense": "चाप्यहमिति, मम ते वशाः तेषामहं वश इति",
           "school": "dvaita",
           "weight": 0.8,
           "witnesses": [
@@ -285,7 +285,7 @@
           ]
         },
         {
-          "sense": "तदाधारोऽस्मि? इदं",
+          "sense": "तदाधारोऽस्मि, इदं",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -580,6 +580,13 @@
           "asti: as -> √as",
           "bhajanti: bhaj -> √bhaj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.658033Z",
+        "patches": 11,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

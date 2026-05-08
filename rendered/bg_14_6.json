@@ -71,7 +71,7 @@
       "grammar": "nominative neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "आमयाख्यकार्यं न विद्यते? इति अनामयम् अरोगताहेतुः इत्यर्थः",
+          "sense": "आमयाख्यकार्यं न विद्यते, इति अनामयम् अरोगताहेतुः इत्यर्थः",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
       "grammar": "present indicative 3rd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "? पुरुषस्य सुखसङ्गं ज्ञानसङ्गं",
+          "sense": ", पुरुषस्य सुखसङ्गं ज्ञानसङ्गं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -121,7 +121,7 @@
           ]
         },
         {
-          "sense": "? पुरुषस्य सुखे ज्ञाने",
+          "sense": ", पुरुषस्य सुखे ज्ञाने",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -129,7 +129,7 @@
           ]
         },
         {
-          "sense": "। प्रकाशकत्वाच्च स्वकार्येण ज्ञानेन यः सङगस्तेन च बध्नाति। हे अनघ निष्पाप? अहं सुखी ज्ञानी चेति मनोधर्मास्तदभिमानिनि क्ष",
+          "sense": "। प्रकाशकत्वाच्च स्वकार्येण ज्ञानेन यः सङगस्तेन च बध्नाति। हे अनघ निष्पाप, अहं सुखी ज्ञानी चेति मनोधर्मास्तदभिमानिनि क्ष",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -494,6 +494,13 @@
         "loci": [
           "badhnāti: bandh -> √bandh"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.485085Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

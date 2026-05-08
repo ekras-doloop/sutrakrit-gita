@@ -175,7 +175,7 @@
           ]
         },
         {
-          "sense": "? रणे सपत्नान् जेतासि? जेष्यसि? न एतेषां वधे नृशंसतागन्धः?",
+          "sense": ", रणे सपत्नान् जेतासि, जेष्यसि, न एतेषां वधे नृशंसतागन्धः,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -208,7 +208,7 @@
           ]
         },
         {
-          "sense": "? जेष्यसि? न एतेषां वधे नृशंसतागन्धः?",
+          "sense": ", जेष्यसि, न एतेषां वधे नृशंसतागन्धः,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -258,7 +258,7 @@
           ]
         },
         {
-          "sense": "जेतासि? जेष्यसि? न एतेषां वधे नृशंसतागन्धः?",
+          "sense": "जेतासि, जेष्यसि, न एतेषां वधे नृशंसतागन्धः,",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -524,6 +524,13 @@
           "yudhyasva: yudh -> √yudh",
           "jetāsi: ji -> √ji"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.413110Z",
+        "patches": 10,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

@@ -153,7 +153,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "? ततः तस्मादपि यान्ति अधमां गतिं निकृष्टतमां गतिम्",
+          "sense": ", ततः तस्मादपि यान्ति अधमां गतिं निकृष्टतमां गतिम्",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -194,7 +194,7 @@
       "grammar": "accusative feminine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "। माम् अप्राप्यैव इति न मत्प्राप्तौ काचिदपि आशङ्का अस्ति? अतः मच्छिष्टसाधुमार्गम् अप्राप्य इत्यर्थः।।सर्वस्या आसुर्याः स",
+          "sense": "। माम् अप्राप्यैव इति न मत्प्राप्तौ काचिदपि आशङ्का अस्ति, अतः मच्छिष्टसाधुमार्गम् अप्राप्य इत्यर्थः।।सर्वस्या आसुर्याः स",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -472,6 +472,13 @@
           "mūḍhāḥ: muh -> √muh",
           "yānti: yā -> √yā"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.510767Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

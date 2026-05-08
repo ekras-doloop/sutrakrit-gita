@@ -14,7 +14,7 @@
       "grammar": "vocative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "धृतराष्ट्र? संस्मृत्य संस्मृत्य प्रतिक्षणं संवादम् इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृ",
+          "sense": "धृतराष्ट्र, संस्मृत्य संस्मृत्य प्रतिक्षणं संवादम् इमम् अद्भुतं केशवार्जुनयोः पुण्यम् इमं श्रवणेनापि पापहरं श्रुत्वा हृ",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -434,6 +434,13 @@
         "loci": [
           "hṛṣyāmi: hṛṣ -> √hṛṣ"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.594339Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

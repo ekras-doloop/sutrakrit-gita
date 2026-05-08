@@ -62,7 +62,7 @@
       "grammar": "present indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "चिन्तयसि निश्चयं करोषि? मिथ्या एषः व्यवसायः निश्चयः ते तव यस्मात् प्रकृतिः क्षत्रियस्वभावः त्वां नियोक्ष्यति",
+          "sense": "चिन्तयसि निश्चयं करोषि, मिथ्या एषः व्यवसायः निश्चयः ते तव यस्मात् प्रकृतिः क्षत्रियस्वभावः त्वां नियोक्ष्यति",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -455,6 +455,13 @@
           "manyase: man -> √man",
           "niyokṣyati: niyuj -> ni-√yuj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.581302Z",
+        "patches": 1,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

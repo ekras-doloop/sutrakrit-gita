@@ -48,7 +48,7 @@
           ]
         },
         {
-          "sense": "च? परं धाम",
+          "sense": "च, परं धाम",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -113,7 +113,7 @@
           ]
         },
         {
-          "sense": "। यतो वा इमानि भूतानि जायन्ते? येन जातानि जीवन्ति? यत्प्रयन्त्यभिसंविशन्ति? तद्विजिज्ञासस्व तद्ब्रह्मेति (तै0 उ 0 3।1)ब्",
+          "sense": "। यतो वा इमानि भूतानि जायन्ते, येन जातानि जीवन्ति, यत्प्रयन्त्यभिसंविशन्ति, तद्विजिज्ञासस्व तद्ब्रह्मेति (तै0 उ 0 3।1)ब्",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -579,7 +579,16 @@
     },
     "extraction_date": "2026-04-21",
     "score_methodology_documented_at": "Paper 1, Section II.B",
-    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)"
+    "word_by_word_parser": "ByT5-Sanskrit-multitask (Nehrdich/Hellwig/Keutzer EMNLP 2024)",
+    "post_generation_repairs": [
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.367584Z",
+        "patches": 4,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      }
+    ]
   },
   "so_what_questions": [
     "If the very same Bhagavān who is 'supreme Brahman' is also standing in the chariot as a friend and counsellor, what does that imply about where and how one should seek the absolute?",

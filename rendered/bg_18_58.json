@@ -95,7 +95,7 @@
           ]
         },
         {
-          "sense": "। अथ चेदिति उपपत्तिः। मतान्तरस्थितिमाशङ्क्य न श्रोष्यसि तर्हि नष्टो भविष्यसि? प्राकृत इव।",
+          "sense": "। अथ चेदिति उपपत्तिः। मतान्तरस्थितिमाशङ्क्य न श्रोष्यसि तर्हि नष्टो भविष्यसि, प्राकृत इव।",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -169,7 +169,7 @@
       "grammar": "future indicative 2nd person singular verb",
       "senses_attested_in_panel": [
         {
-          "sense": "न ग्रहीष्यसि? ततः त्वं विनङ्क्ष्यसि विनाशं गमिष्यसि",
+          "sense": "न ग्रहीष्यसि, ततः त्वं विनङ्क्ष्यसि विनाशं गमिष्यसि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "sense": "तर्हि नष्टो भविष्यसि? प्राकृत इव",
+          "sense": "तर्हि नष्टो भविष्यसि, प्राकृत इव",
           "school": "śuddhādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -497,6 +497,13 @@
           "śroṣyasi: śru -> √śru",
           "vinaṅkṣyasi: vinaś -> vi-√naś"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.580580Z",
+        "patches": 3,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

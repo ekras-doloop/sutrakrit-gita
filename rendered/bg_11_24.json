@@ -30,7 +30,7 @@
       "grammar": "accusative masculine singular participle noun",
       "senses_attested_in_panel": [
         {
-          "sense": "अनेकवर्णं व्यात्ताननं दीप्तविशालनेत्रं त्वां दृष्ट्वा प्रव्यथितान्तरात्मा अत्यन्तभीतमना धृतिं न विन्दामि? देहस्य धारणं",
+          "sense": "अनेकवर्णं व्यात्ताननं दीप्तविशालनेत्रं त्वां दृष्ट्वा प्रव्यथितान्तरात्मा अत्यन्तभीतमना धृतिं न विन्दामि, देहस्य धारणं",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -111,7 +111,7 @@
           ]
         },
         {
-          "sense": "प्रव्यथितान्तरात्मा अत्यन्तभीतमना धृतिं न विन्दामि? देहस्य धारणं न लभे",
+          "sense": "प्रव्यथितान्तरात्मा अत्यन्तभीतमना धृतिं न विन्दामि, देहस्य धारणं न लभे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -209,7 +209,7 @@
           ]
         },
         {
-          "sense": "? देहस्य धारणं न लभे",
+          "sense": ", देहस्य धारणं न लभे",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -217,7 +217,7 @@
           ]
         },
         {
-          "sense": "न लभे। हे विष्णो? त्वां कीदृशम्। नभःस्पृशमन्तरिक्षवव्यापिनं दीप्तं ज्वलितं अनेकवर्णं भयंकरनानासंस्थानयुक्तम् व्यात्तानन",
+          "sense": "न लभे। हे विष्णो, त्वां कीदृशम्। नभःस्पृशमन्तरिक्षवव्यापिनं दीप्तं ज्वलितं अनेकवर्णं भयंकरनानासंस्थानयुक्तम् व्यात्तानन",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -266,7 +266,7 @@
           ]
         },
         {
-          "sense": "? त्वां कीदृशम्",
+          "sense": ", त्वां कीदृशम्",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -537,6 +537,13 @@
           "pravyathita: pravyathay -> √pravyathay",
           "vindāmi: vid -> √vid"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.403402Z",
+        "patches": 5,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

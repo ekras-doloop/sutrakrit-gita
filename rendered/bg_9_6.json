@@ -46,7 +46,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "सर्वत्र गच्छतीति सर्वत्रगः महान् परिमाणतः? तथा आकाशवत् सर्वगते मयि असंश्लेषेणैव स्थितानि इत् येवम् उपधारय विजानीहि",
+          "sense": "सर्वत्र गच्छतीति सर्वत्रगः महान् परिमाणतः, तथा आकाशवत् सर्वगते मयि असंश्लेषेणैव स्थितानि इत् येवम् उपधारय विजानीहि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -103,7 +103,7 @@
       "grammar": "nominative masculine singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "परिमाणतः? तथा आकाशवत् सर्वगते मयि असंश्लेषेणैव स्थितानि इत् येवम् उपधारय विजानीहि",
+          "sense": "परिमाणतः, तथा आकाशवत् सर्वगते मयि असंश्लेषेणैव स्थितानि इत् येवम् उपधारय विजानीहि",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -557,6 +557,13 @@
           "sthitaḥ: sthā -> √sthā",
           "upadhāraya: upadhāray -> upa-√dhāray"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.665522Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },

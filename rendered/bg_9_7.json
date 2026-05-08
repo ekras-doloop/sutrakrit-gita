@@ -39,7 +39,7 @@
           ]
         },
         {
-          "sense": "मदीयां प्रकृतिं यान्ति त्रिगुणात्मिकायां मायायां लीयन्ते? पुनः कल्पादौ सृष्टिकाले तानि विसृजामि विशेषेण सृजामि",
+          "sense": "मदीयां प्रकृतिं यान्ति त्रिगुणात्मिकायां मायायां लीयन्ते, पुनः कल्पादौ सृष्टिकाले तानि विसृजामि विशेषेण सृजामि",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -115,7 +115,7 @@
           ]
         },
         {
-          "sense": "त्रिगुणात्मिकायां मायायां लीयन्ते? पुनः कल्पादौ सृष्टिकाले तानि विसृजामि विशेषेण सृजामि",
+          "sense": "त्रिगुणात्मिकायां मायायां लीयन्ते, पुनः कल्पादौ सृष्टिकाले तानि विसृजामि विशेषेण सृजामि",
           "school": "bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -512,6 +512,13 @@
           "yānti: yā -> √yā",
           "visṛjāmi: visṛj -> vi-√sṛj"
         ]
+      },
+      {
+        "kind": "qmark_artifact_repair",
+        "applied_at": "2026-05-08T02:00:43.666346Z",
+        "patches": 2,
+        "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
+        "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
       }
     ]
   },
