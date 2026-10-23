@@ -323,9 +323,9 @@
     },
     "dvaita": {
       "score": 0.5,
-      "english_rendering": "Tattva-jñānārtha-darśana is the study of scripture for the sake of aparokṣa-jñāna (direct knowledge).",
-      "divergence_note": "THIN: Madhva glosses only one compound, but distinctively: the 'seeing' is śāstra-darśana aimed at aparokṣa-jñāna, making scriptural study the means to direct knowledge, rather than Śaṅkara's contemplation of mokṣa as fruit.",
-      "commentator": "Madhvacharya",
+      "english_rendering": "Constancy in adhyātma-jñāna (knowledge concerning the self), and tattva-jñānārtha-darśana, which is the study of scripture, examining its tātparya (intended purport), undertaken for the sake of aparokṣa-jñāna (direct knowledge): this is called jñāna (knowledge), and whatever is otherwise is ajñāna (ignorance). The 'seeing' meant here is not itself the knowledge of reality but the examination of what scripture intends, and so it rightly stands among the means to knowledge.",
+      "divergence_note": "Read with Jayatīrtha's Prameyadīpikā on Madhva's bhāṣya (their 13.12): Madhva glosses one compound: tattva-jñānārtha-darśana is śāstra-darśana (study of scripture) for the sake of aparokṣa-jñāna (direct knowledge). Jayatīrtha adds two things. First, he states the problem the gloss solves: if this 'seeing' were itself knowledge of reality, it could not be listed among the means to knowledge; so the seeing is a means, aimed at direct knowledge as its result. Second, he specifies the study as tātparya-ālocana (examining the purport of scripture), and notes that the word śāstra is not in the verse but supplied by adhyāhāra (understood from context), a plain textual admission. Neither glosses adhyātma-jñāna-nityatva, which is rendered literally. The other schools read the same compound as keeping mokṣa (liberation) in view as the fruit (Advaita, Bhakti, Advaita-bhakti, the last identifying the knowledge of reality as 'I am Brahman') or as devotion to the reality that is the goal (Viśiṣṭādvaita); the Dvaita reading instead makes it disciplined study of scripture for its intended sense, a step toward direct knowledge, and says nothing here of liberation.",
+      "commentator": "Madhvacharya, with Jayatirtha's Prameyadipika",
       "witness_passages": [
         "madhva_13.12",
         "jayatirtha_13.12"
@@ -556,6 +556,12 @@
           "bhakti": "13.12",
           "advaita-bhakti": "13.12"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "reading rewritten with Jayatirtha's Prameyadipika"
       }
     ]
   },
@@ -570,7 +576,7 @@
   "everyday_applications": {
     "advaita": "A consultant who has read plenty about calm finds her habits unchanged. She starts treating patience and honesty as the real groundwork that lets insight take hold, and keeps the end goal - freedom from the cycle of reaction - in view so the daily practice has a reason.",
     "viśiṣṭādvaita": "A teacher distinguishes the person he is from the roles, moods and body that come and go. Whatever helps him see himself as that steady knower he keeps; whatever just feeds the role he treats as noise to set aside.",
-    "dvaita": "An engineer wanting real understanding of a hard domain commits to reading the primary sources slowly, aiming for first-hand grasp rather than secondhand summary - study pointed at direct knowledge.",
+    "dvaita": "Reading the primary documents of a field is a step toward understanding it, not the understanding itself, and the reading only counts if it asks what each document is actually driving at. A new engineer working through a system's design documents should keep asking 'what is this decision for', treating the reading as the route to seeing the system first-hand rather than mistaking a finished reading list for knowing how the system works.",
     "śuddhādvaita": "A manager sorts behaviours on her team simply into what flows from clear understanding and what flows from confusion, and stops treating the second kind as personal failings to moralize about.",
     "bhakti": "Before a big decision, a founder asks himself who exactly the 'I' is that is anxious, and keeps clarifying that question. He also keeps the hoped-for outcome - inner freedom - ranked above every other reward on offer.",
     "advaita-bhakti": "A meditator who has practised for years realizes that discrimination between what she is and what she has is the necessary groundwork. She keeps the goal concrete - not just less suffering, but a positive fullness - and that vision keeps her practising."

@@ -266,7 +266,7 @@
       "key_cross_references": [],
       "witness_passages": [],
       "score": 0.5,
-      "divergence_note": "ABSENT: the payload's Madhva prose for this verse is empty. No rendering is fabricated.",
+      "divergence_note": "ABSENT: the payload's Madhva prose for this verse is empty. No rendering is fabricated. Jayatīrtha's Prameyadīpikā is also silent on this verse.",
       "english_rendering": "No Dvaita commentary is supplied for this verse.",
       "commentator": "Madhvacharya"
     },
@@ -402,6 +402,12 @@
           "bhakti": "13.11",
           "advaita-bhakti": "13.11"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },

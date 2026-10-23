@@ -288,9 +288,9 @@
         "jayatirtha_13.5"
       ],
       "score": 0.5,
-      "english_rendering": "The brahma-sūtra here are the śārīraka (the sūtra on the embodied self, the Vedānta-sūtra of Bādarāyaṇa).",
-      "divergence_note": "THIN. Madhva (his 13.5) glosses only one word, but it is a pointed one: 'brahma-sūtra' means the śārīraka-sūtra, Bādarāyaṇa's text, against the Advaita reading of it as Upaniṣad sentences. Nothing is said about the ṛṣi, the chandas, or 'hetumat'.",
-      "commentator": "Madhvacharya"
+      "english_rendering": "This has been sung in many ways by the ṛṣi (seers), separately by the varied chandas (Vedic hymns), and also by the words of the brahma-sūtra, reasoned and settled. Here brahma-sūtra means the śārīraka (the sūtra text known by that name), the conventional sense of the word, and not any sentence whatever that points to Brahman, since sentences of that kind are already covered by the seers and the hymns, and naming them again would make the verse say nothing.",
+      "divergence_note": "Read with Jayatīrtha's Prameyadīpikā on Madhva's bhāṣya (their 13.5): Madhva glosses one word: brahma-sūtra means the śārīraka. Jayatīrtha supplies the argument behind that gloss. An opponent, marked in the edition as Śaṅkara, takes brahma-sūtra as 'sentences that indicate Brahman'; Jayatīrtha answers that the words of the ṛṣi (seers) and the chandas (Vedic hymns) are already sentences of that kind, so on that reading the earlier phrases 'by the seers' and the rest would be pointless, and Madhva therefore takes the word in its rūḍhi (conventional sense) as the name of a particular text. This is a textual and interpretive point, not a doctrinal expansion, and neither commentator says anything further on the seers, the hymns, hetumat (reasoned) or viniścita (settled). The contrast is direct: the Advaita rendering takes brahma-sūtra as the Brahman-indicating Upaniṣad sentences, the Bhakti and Advaita-bhakti renderings give that reading first and the sūtra text only as an alternative, while Dvaita, with Viśiṣṭādvaita and Śuddhādvaita, fixes it on the sūtra text and gives a reason for refusing the general sense.",
+      "commentator": "Madhvacharya, with Jayatirtha's Prameyadipika"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -441,6 +441,12 @@
           "bhakti": "13.5",
           "advaita-bhakti": "13.5"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "reading rewritten with Jayatirtha's Prameyadipika"
       }
     ]
   },
@@ -455,7 +461,7 @@
   "everyday_applications": {
     "advaita": "Śaṅkara reads 'the sūtra' as the source sentences themselves, not a later textbook built from them. A clinician deciding a treatment can do the same: go back to the trial, not just the review article. And he values only what produces conviction free of doubt, so keep reading until the doubt is actually gone.",
     "viśiṣṭādvaita": "Rāmānuja reads the sources as describing layers: the body, within it the mind and the knower, and within the knower a still deeper self. A good therapist works this way, attending to sleep and body, then to thinking, then to the person who is thinking. For Rāmānuja that innermost layer is not you but the one who holds you.",
-    "dvaita": "Madhva glosses one word, and uses it to say exactly which text is meant. A lawyer or a contract manager knows the value of that habit: when someone says 'the agreement says', ask which agreement and which clause. Nothing else in this verse is commented on.",
+    "dvaita": "When a word in a document could mean either a general category or one specific named thing, prefer the reading that does not make the rest of the sentence repeat itself. If a contract says compliance is required with 'the regulations, the agency guidance and the standards', reading 'the standards' as 'any document that states rules' would swallow the first two items, so it most likely names one specific standard, and that is the one to go and find.",
     "śuddhādvaita": "Vallabha says the meaning is scattered across many teachings and no single one can gather it up, so the master gathers its essence. A product lead after thirty customer interviews has the same job: not repeating every quote, but delivering the one essential finding. The authority comes from having been the source of all the scattered versions in the first place.",
     "bhakti": "Śrīdhara distinguishes describing something by its effects from describing it by its nature. You can describe a mentor by what came out of their work, or by who they are; both are valid, and the second is harder. His test for a reliable document is also useful at work: do its opening and its conclusion actually agree?",
     "advaita-bhakti": "Madhusūdana says this truth is taught in ethics, in practice and in philosophy alike. A company's values are real only if they show up in the code of conduct, in daily routines, and in strategy, not just in one place. He also notes that good teaching names both what understanding looks like and what ignorance looks like."

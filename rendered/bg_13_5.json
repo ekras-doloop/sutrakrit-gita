@@ -288,7 +288,7 @@
       ],
       "score": 0.5,
       "english_rendering": "The great elements, the I-maker, intellect and the unmanifest; the ten senses and the one, and the five fields of the senses.",
-      "divergence_note": "ABSENT. The supplied Madhva text reads 'Sri Madhvacharya did not comment on this sloka.' The rendering is the mūla only; no Dvaita interpretation is supplied or attempted.",
+      "divergence_note": "ABSENT. The supplied Madhva text reads 'Sri Madhvacharya did not comment on this sloka.' The rendering is the mūla only; no Dvaita interpretation is supplied or attempted. Jayatīrtha's Prameyadīpikā is also silent on this verse.",
       "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
@@ -482,6 +482,12 @@
           "bhakti": "13.6",
           "advaita-bhakti": "13.6"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },

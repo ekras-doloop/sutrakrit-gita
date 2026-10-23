@@ -288,10 +288,10 @@
         "jayatirtha_13.7"
       ],
       "score": 0.5,
-      "english_rendering": "Desire and the rest are the vikāra (modifications).",
-      "divergence_note": "THIN. Madhva (his 13.7) supplies a single sentence connecting 'desire and the rest' to 'sa-vikāram'. It does not say whether desire belongs to the self or the mind, nor how cetanā or dhṛti are taken. No further Dvaita reading can be drawn from the source.",
+      "english_rendering": "Desire, aversion, pleasure, pain, the saṃghāta (aggregate of body and senses), cetanā (awareness) and dhṛti (steadiness): these named here are the vikāra (modifications). What was listed before them, from the great elements onward, is the kṣetra (field) itself, so 'this field with its modifications, told in brief' covers both lists, the field and then what changes in it.",
+      "divergence_note": "Read with Jayatīrtha's Prameyadīpikā on Madhva's bhāṣya (their 13.7): Madhva gives one sentence: desire and the rest are the vikāra (modifications). Jayatīrtha only settles its scope: after the list beginning with the great elements the verse says 'this field with its modifications', which leaves unclear what is the field and what its modifications, and Madhva's sentence answers that desire and the rest are the modifications, the implication being that the earlier list is the field. That is a clarification of how the two lists divide, not a new doctrine. Neither commentator says whose property desire is, nor how cetanā (awareness) or dhṛti (steadiness) are to be taken, so the Dvaita text here takes no side in the dispute the other schools engage: Advaita, Bhakti and Advaita-bhakti make desire and the rest properties of the mind, Viśiṣṭādvaita and Śuddhādvaita make them properties of the self that arise through its tie to the field. The Dvaita reading supplied is only that these items fall under the field as its modifications.",
       "provenance": "siddhānta_reconstruction",
-      "commentator": "Madhvacharya"
+      "commentator": "Madhvacharya, with Jayatirtha's Prameyadipika"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -453,6 +453,12 @@
           "bhakti": "13.7",
           "advaita-bhakti": "13.7"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "reading rewritten with Jayatirtha's Prameyadipika"
       }
     ]
   },
@@ -467,7 +473,7 @@
   "everyday_applications": {
     "advaita": "A parent snaps when a child whines in the car, and Śaṅkara would explain the mechanism: an earlier experience taught the mind that this sound means trouble, so aversion fires again. Because the parent can notice the irritation, it is something known, part of the field and not the parent. That small gap is enough to choose a different response.",
     "viśiṣṭādvaita": "For Rāmānuja a burnt-out doctor's frustration is genuinely hers, a property of the self, but it is triggered by her circumstances. That cuts both ways: she cannot just declare it unreal, and changing the conditions really does change what she feels. The body and its setting are the ground both for her suffering and for her growth out of it.",
-    "dvaita": "Madhva says only that desire and the rest are modifications, without saying whose. So the plain lesson is the verse itself: your wants and dislikes change, which makes them part of what you work with, not fixed facts about you. Anything more Dvaita-specific would be invented.",
+    "dvaita": "When something at work is going wrong, write two separate lists before diagnosing: the standing structure (the people, the tools, the schedule, the budget) and the shifting states running through it (enthusiasm, irritation, fatigue, a good week). Keeping them apart stops a team from treating a passing mood as a structural flaw, or a structural flaw as somebody's bad mood.",
     "śuddhādvaita": "Vallabha says the human body was brought forth by divine will for the sake of devotion: perishable, full of wants and dislikes, and still precious. Someone whose body is ageing or ill can treat it as an instrument entrusted for a purpose, not as a betrayal. Its value lies in what it makes possible, not in lasting forever.",
     "bhakti": "Śrīdhara's rule is simple: if you can see it, it belongs to the mind, not to you. A manager who feels dread the night before performance reviews can call it the mind's weather, real but passing. Fear, doubt, even faith and shame, he says, are all on that same list.",
     "advaita-bhakti": "A founder's mood rises and falls with every metric on the dashboard. Madhusūdana says the mark of what is not you is that it changes; the one who has noticed every swing has not swung. He also treats real happiness as a glimpse of a deeper joy, so a good day is a window to look through, not a possession to guard."

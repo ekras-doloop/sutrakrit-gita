@@ -306,7 +306,7 @@
       ],
       "score": 0.5,
       "english_rendering": "No Dvaita rendering: the supplied source records that Madhvācārya did not comment on this verse ('Sri Madhvacharya did not comment on this sloka').",
-      "divergence_note": "ABSENT: Madhva's bhāṣya is empty for this verse (his 13.29). Jayatīrtha's 13.29 is listed as a witness passage but its text is not supplied; nothing is invented.",
+      "divergence_note": "ABSENT: Madhva's bhāṣya is empty for this verse (his 13.29). Jayatīrtha's 13.29 is listed as a witness passage but its text is not supplied; nothing is invented. Jayatīrtha's Prameyadīpikā is also silent on this verse.",
       "provenance": "siddhānta_reconstruction",
       "commentator": "Madhvacharya"
     },
@@ -452,6 +452,12 @@
           "bhakti": "13.29",
           "advaita-bhakti": "13.29"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },

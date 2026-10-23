@@ -276,10 +276,10 @@
         "jayatirtha_13.15"
       ],
       "score": 0.5,
-      "english_rendering": "[Very thin bhāṣya.] It makes all the senses and the guṇa (qualities) shine forth; hence it is 'sarvendriya-guṇābhāsa'. The meaning of 'devoid of senses' and the rest was stated earlier.",
-      "divergence_note": "THIN: Madhva's entire supplied comment is two sentences. Its one doctrinal move is to read ābhāsa causatively (ābhāsayati: it illumines), so the Lord is the illuminer of senses and guṇa, not one who merely appears through them. For the remaining terms he refers back to an earlier passage not supplied here; nothing more is rendered.",
+      "english_rendering": "It makes all the senses and their guṇa (here, their objects) shine forth, that is, it makes them known, or itself perceives them; it is devoid of all senses, unattached yet bearing all, nirguṇa (without the guṇa) and yet the bhoktṛ (enjoyer) of the guṇa. The verse does not teach Brahman by stripping away every attribute: making-known, bearing all, enjoying the guṇa, and the hands and feet everywhere of the verse before are attributes it is here said to have. What 'devoid of senses', 'nirguṇa' and the like mean was explained earlier, in the second chapter.",
+      "divergence_note": "Read with Jayatīrtha's Prameyadīpikā on Madhva's bhāṣya (their 13.15): Madhva gives two sentences: sarvendriya-guṇābhāsa is read causatively, 'that which makes all the senses and the guṇa (qualities) shine', and the sense of 'devoid of senses' and the rest has been given earlier. Jayatīrtha places this in an argument. An opponent objects that here Brahman is meant to be made known only by denying every viśeṣa (particular attribute), so ascribing śakti (power) to it, as Madhva did on the preceding verses, is contradictory; Jayatīrtha answers that this very verse shows Brahman as having attributes, and cites 'hands and feet everywhere' (13.13), sarva-bhṛt (bearing all) and guṇa-bhoktṛ (enjoyer of the guṇa) as further instances. He also glosses guṇa as the objects of the senses, gives two senses of ābhāsa (makes them known, or perceives them), adds a grammatical note on the derivation from the root bhās, and identifies 'earlier' as the second chapter. That earlier explanation is not in the supplied text, so how Dvaita reconciles 'devoid of senses' and 'nirguṇa' with the attributes is not rendered here. Against Advaita and Advaita-bhakti, for whom the attributes only seem to belong to Brahman through adjuncts or māyā (illusory power) and the negations state the truth, and Śuddhādvaita, which makes Brahman the seat of contradictory attributes, the Dvaita reading treats the positive attributes as real and refuses to let the negations cancel them; the causative gloss is shared with the Bhakti rendering, which offers it as an alternative.",
       "provenance": "siddhānta_reconstruction",
-      "commentator": "Madhvacharya"
+      "commentator": "Madhvacharya, with Jayatirtha's Prameyadipika"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -411,6 +411,12 @@
           "bhakti": "13.15",
           "advaita-bhakti": "13.15"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "reading rewritten with Jayatirtha's Prameyadipika"
       }
     ]
   },
@@ -425,7 +431,7 @@
   "everyday_applications": {
     "advaita": "In a long meeting your mind decides, plans and argues, and it looks as if you are doing all of it; Śaṅkara says the witness only seems busy. A doctor on a twelve-hour shift can notice fatigue and irritation passing in front of her without taking them as who she is. The work still gets done, and the one watching is not worn down by it.",
     "viśiṣṭādvaita": "Rāmānuja gives the self two real ways of knowing: through the senses and directly. An experienced nurse uses the monitors, but also simply knows when a patient is about to crash before the numbers move. Keep improving the instruments, and also trust the knower who does not depend on them.",
-    "dvaita": "Madhva's brief note makes the knower the one who lights up the senses, not a passenger inside them. Before trusting a report, a dashboard or your own eyes, ask what is making that information visible to you at all. His note is too short to support more than this.",
+    "dvaita": "When a description of someone says both that they do something and that they lack something similar, do not let the negative cancel the positive; work out what the negative is actually excluding. A reference who says a candidate 'never micromanages' and also 'keeps every project on track' is not saying the candidate does not manage, so the useful question is which kind of managing is being denied and which kind is being claimed.",
     "śuddhādvaita": "Vallabha's point is that contradictory traits can sit in one being without one canceling the other. A founder can be fully hands-off and fully present to the team, and that is not hypocrisy when both come from the same source. Stop forcing yourself to pick one side of the pair.",
     "bhakti": "Śrīdhara reads 'enjoyer of the qualities' as their protector. A parent can stay untouched by a teenager's swings of mood and still keep the household that holds those moods running. Detachment here means guarding the whole without being dragged by any part.",
     "advaita-bhakti": "Madhusūdana uses the rule that an illusion still needs something real underneath it to appear on. When a company's story about itself is mostly spin, some actual capacity is still carrying that story, and that is where to look and to invest. Strip the story back and find what holds it up."

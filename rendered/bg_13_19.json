@@ -303,9 +303,9 @@
         "jayatirtha_13.20"
       ],
       "score": 0.5,
-      "divergence_note": "THIN: Madhva's supplied comment (source 13.20) is three sentences and does not gloss anādi or say who the puruṣa is here; it only frames the verse as answering 13.4 and explains why vikāra are listed apart from guṇa (slight difference, laya to sarga), citing a Mādhucchandasa text. Rendering kept to what is there; no Dvaita reading of the jīva-Īśvara relation is supplied for this verse.",
-      "english_rendering": "To explain 'from what, what arises' (13.4), the Lord sums up prakṛti (matter), its vikāra (products) and puruṣa (the conscious being). The guṇa are sattva (clarity) and the rest; the vikāra are named separately because they are only a very slight particularization of the guṇa, arising as creation out of dissolution, as the Mādhucchandasa recension says.",
-      "commentator": "Madhvacharya"
+      "divergence_note": "Read with Jayatīrtha's Prameyadīpikā on Madhva's bhāṣya (their 13.20): Madhva frames the verse as preparing for 'from what, what' (13.4), says the guṇa (qualities) are sattva (clarity) and the rest, and explains that the vikāra (modifications) are listed separately because the guṇa differ from them only very slightly in passing from laya (dissolution) to sarga (creation), citing a Mādhucchandasa text that calls the three both effect and not effect. Jayatīrtha adds the doctrinally weighty points. He reads 'from what, what' as the nature of the preraka (impeller), and argues that describing the impeller needs prior knowledge of the prerya (what is impelled), which is the field with its kinds; hence it is summed up here, not earlier, which would have been prolix. He states that everything other than Īśvara (the Lord), conscious and non-conscious, is called kṣetra (field); that prakṛti (primal matter) here means the twenty-four principles listed from the great elements on; that vikāra covers all modifications, the three guṇa included, set apart only by a particular intention; and that puruṣa here means the jīva (individual self). He also says the sum is brief because the theme returns at 13.26, and rejects the reading of guṇa as pleasure, pain and delusion (marked in the edition as Śaṅkara), since those are already among the modifications and listing them again would be improper. Neither commentator glosses anādi (beginningless), which is rendered as the verse says. The others differ sharply: Advaita and Advaita-bhakti read the guṇa as pleasure, pain and delusion, the reading Jayatīrtha rejects; Viśiṣṭādvaita takes the guṇa as the virtues that lead to release; Śuddhādvaita and Bhakti make prakṛti the power and the puruṣa a portion of the Lord. Dvaita places the jīva inside the field and the Lord outside it as its impeller.",
+      "english_rendering": "Know prakṛti (primal matter) and puruṣa, here the jīva (individual self), as both beginningless, and know the vikāra (modifications) and the guṇa (qualities), sattva (clarity) and the rest, as born of prakṛti. Everything other than Īśvara (the Lord), conscious and non-conscious alike, is the kṣetra (field), and it is summed up here because the next topic is the One who impels it, and the impeller cannot be described until what He impels is known. The guṇa are named apart from the vikāra, though they too arise from prakṛti, because they are both effect and not effect, their arising out of dissolution into creation being very slight, as the Mādhucchandasa recension says.",
+      "commentator": "Madhvacharya, with Jayatirtha's Prameyadipika"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
@@ -515,6 +515,12 @@
           "bhakti": "13.20",
           "advaita-bhakti": "13.20"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "reading rewritten with Jayatirtha's Prameyadipika"
       }
     ]
   },
@@ -529,7 +535,7 @@
   "everyday_applications": {
     "advaita": "When you catch yourself saying 'I am a stressed person', notice that the stress, the body and even the clever mind analysing it are all listed here as products of one power, none of them the knower. A manager can stop trying to fix a team's moods by argument and start by refusing to treat any mood, including their own, as who they are.",
     "viśiṣṭādvaita": "The same material that produces your envy at a colleague's promotion can produce your humility; Rāmānuja says one nature makes both. So the practical work is not escaping your nature but redirecting it: the energy of a resentful afternoon can be turned, deliberately, into the patience and modesty that actually free you.",
-    "dvaita": "Madhva's note is a reminder to keep categories clean: the basic qualities of a situation and the specific products they turn into are almost the same, but not identical, and worth naming separately. A doctor separating a patient's general constitution from the particular symptom it has produced is doing exactly this.",
+    "dvaita": "Before you work out who is really steering an organization, map everything that is being steered, and put yourself and the other people on that map along with the machinery. A consultant who leaves themselves off the chart will misread who is moving whom, and it also pays to keep near-identical categories apart, such as a company's basic culture and the particular habits it has produced, rather than letting one stand in for the other.",
     "śuddhādvaita": "Vallabha would have a parent see both the child and the messy circumstances of the child's life as portions of the same source, taken up in play rather than as a punishment. That reframes a chaotic household not as a problem to be solved before joy is allowed, but as the field where the play is already happening.",
     "bhakti": "Śrīdhara's regress argument is useful when you get stuck asking 'but what caused that?' about a family conflict or an organisational mess: at some point the chain has no first link, and the only useful question is how you act now. He then leaves the long proofs to someone else, a good model for a teacher who knows when to point to the textbook.",
     "advaita-bhakti": "Madhusūdana's karmic argument says a newborn's fear and joy are not random; they carry history. A founder inheriting a company's culture can use this: the reactions people bring on day one have causes older than you, so diagnose before you blame, and do not expect a new policy to erase what came before it."

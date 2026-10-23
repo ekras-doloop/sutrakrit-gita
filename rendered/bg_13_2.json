@@ -303,7 +303,7 @@
       ],
       "score": 0.5,
       "english_rendering": "Know me also as the kṣetrajña (knower of the field) in all fields, O Bhārata; the knowledge of field and field-knower, that I hold to be knowledge.",
-      "divergence_note": "ABSENT. The Madhva text supplied (his 13.3) is only the pratīka 'kṣetrajñam iti' with no gloss. The rendering above is the mūla alone. How Dvaita would handle 'mām' here (whether the Lord as a distinct supreme knower in every field) cannot be drawn from this source, and none is supplied.",
+      "divergence_note": "ABSENT. The Madhva text supplied (his 13.3) is only the pratīka 'kṣetrajñam iti' with no gloss. The rendering above is the mūla alone. How Dvaita would handle 'mām' here (whether the Lord as a distinct supreme knower in every field) cannot be drawn from this source, and none is supplied. Jayatīrtha's Prameyadīpikā gives only the opening words (क्षेत्रज्ञमिति।).",
       "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
@@ -537,6 +537,12 @@
           "bhakti": "13.3",
           "advaita-bhakti": "13.3"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },

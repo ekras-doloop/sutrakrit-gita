@@ -313,7 +313,7 @@
       ],
       "score": 0.5,
       "english_rendering": "[No Madhva bhāṣya for this verse.] Mūla only: That is said to be the light even of lights, beyond darkness; knowledge, the knowable, reached by knowledge, it is set in the heart of all.",
-      "divergence_note": "ABSENT: the supplied Madhva text for this verse (his source_verse 13.18) reads only 'Sri Madhvacharya did not comment on this sloka.' No Dvaita bhāṣya exists to anchor a rendering; the English is the mūla only, not a Dvaita reading.",
+      "divergence_note": "ABSENT: the supplied Madhva text for this verse (his source_verse 13.18) reads only 'Sri Madhvacharya did not comment on this sloka.' No Dvaita bhāṣya exists to anchor a rendering; the English is the mūla only, not a Dvaita reading. Jayatīrtha's Prameyadīpikā is also silent on this verse.",
       "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
@@ -530,6 +530,12 @@
           "bhakti": "13.18",
           "advaita-bhakti": "13.18"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },

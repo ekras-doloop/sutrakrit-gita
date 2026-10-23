@@ -262,7 +262,7 @@
       ],
       "score": 0.5,
       "english_rendering": "For this verse Madhva offered no comment.",
-      "divergence_note": "ABSENT: the supplied text states explicitly that Śrī Madhvācārya did not comment on this verse. No Dvaita rendering is fabricated.",
+      "divergence_note": "ABSENT: the supplied text states explicitly that Śrī Madhvācārya did not comment on this verse. No Dvaita rendering is fabricated. Jayatīrtha's Prameyadīpikā is also silent on this verse.",
       "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
@@ -364,6 +364,12 @@
           "bhakti": "13.9",
           "advaita-bhakti": "13.9"
         }
+      },
+      {
+        "kind": "ch13_dvaita_jayatirtha",
+        "applied_at": "2026-10-23T02:48:54.530351+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_dvaita_jayatirtha.py",
+        "change": "note records that Jayatirtha is also silent"
       }
     ]
   },
