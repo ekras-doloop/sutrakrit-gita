@@ -1,143 +1,60 @@
 {
   "verse_id": "13.34",
   "mūla": {
-    "devanāgarī": "यथा प्रकाशयत्य् एकः कृत्स्नं लोकम् इमं रविः | क्षेत्रं क्षेत्री तथा कृत्स्नं प्रकाशयति भारत",
-    "iast": "yathā prakāśayaty ekaḥ kṛtsnaṃ lokam imaṃ raviḥ | kṣetraṃ kṣetrī tathā kṛtsnaṃ prakāśayati bhārata",
-    "chapter_position": "Chapter 13 (Kṣetra-Kṣetrajña-Vibhāga-Yoga (The Yoga of Distinction Between Field and Field-Knower)), verse 34",
+    "devanāgarī": "क्षेत्र-क्षेत्रज्ञयोर् एवम् अन्तरं ज्ञान-चक्षुषा | भूत-प्रकृति-मोक्षं च ये विदुर् यान्ति ते परम्",
+    "iast": "kṣetra-kṣetrajñayor evam antaraṃ jñāna-cakṣuṣā | bhūta-prakṛti-mokṣaṃ ca ye vidur yānti te param",
+    "chapter_position": "Chapter 13 (Kṣetra-Kṣetrajña-Vibhāga-Yoga (The Yoga of Distinction Between Field and Field-Knower)), verse 35",
     "speaker": "Krishna",
     "addressed_to": "Arjuna"
   },
   "word_by_word": [
     {
-      "surface_form": "yathā",
-      "lemma": "yathā",
+      "surface_form": "kṣetra",
+      "lemma": "kṣetra",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "क्षेत्र"
+    },
+    {
+      "surface_form": "kṣetrajñayoḥ",
+      "lemma": "kṣetrajña",
+      "grammar": "genitive masculine dual noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "क्षेत्रज्ञयोः"
+    },
+    {
+      "surface_form": "evam",
+      "lemma": "evam",
       "grammar": "",
       "senses_attested_in_panel": [],
       "theme_lists": [],
-      "surface_devanagari": "यथा"
+      "surface_devanagari": "एवम्"
     },
     {
-      "surface_form": "prakāśayati",
-      "lemma": "pra-√kāśay",
-      "grammar": "present indicative 3rd person singular verb",
-      "senses_attested_in_panel": [
-        {
-          "sense": "अवभासयति एकः कृत्स्नं लोकम् इमं रविः सविता आदित्यः, तथा तद्वत् महाभूतादि धृत्यन्तं क्षेत्रम् एकः सन् प्रकाशयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": ", तथा क्षेत्रम्",
-          "school": "viśiṣṭādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "ramanuja"
-          ]
-        },
-        {
-          "sense": "तथाऽयं क्षेत्रीति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "नच प्रकाश्यधर्मैर्लिप्यते न वा प्रकाश्यभेदाद्भिद्यते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
-      "theme_lists": [],
-      "surface_devanagari": "प्रकाशयति"
-    },
-    {
-      "surface_form": "ekaḥ",
-      "lemma": "eka",
-      "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [],
-      "surface_devanagari": "एकः"
-    },
-    {
-      "surface_form": "kṛtsnam",
-      "lemma": "kṛtsna",
-      "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [],
-      "surface_devanagari": "कृत्स्नम्"
-    },
-    {
-      "surface_form": "lokam",
-      "lemma": "loka",
-      "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "इमं रविः सविता आदित्यः, तथा तद्वत् महाभूतादि धृत्यन्तं क्षेत्रम् एकः सन् प्रकाशयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [],
-      "surface_devanagari": "लोकम्"
-    },
-    {
-      "surface_form": "imam",
-      "lemma": "idam",
-      "grammar": "accusative masculine singular noun",
-      "senses_attested_in_panel": [],
-      "theme_lists": [],
-      "surface_devanagari": "इमम्"
-    },
-    {
-      "surface_form": "raviḥ",
-      "lemma": "ravi",
-      "grammar": "nominative masculine singular noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": "सविता आदित्यः, तथा तद्वत् महाभूतादि धृत्यन्तं क्षेत्रम् एकः सन् प्रकाशयति",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        }
-      ],
-      "theme_lists": [],
-      "surface_devanagari": "रविः"
-    },
-    {
-      "surface_form": "kṣetram",
-      "lemma": "kṣetra",
+      "surface_form": "antaram",
+      "lemma": "antara",
       "grammar": "accusative neuter singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
-      "surface_devanagari": "क्षेत्रम्"
+      "surface_devanagari": "अन्तरम्"
     },
     {
-      "surface_form": "kṣetrī",
-      "lemma": "kṣetrin",
-      "grammar": "nominative masculine singular noun",
+      "surface_form": "jñāna",
+      "lemma": "jñāna",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "ज्ञान"
+    },
+    {
+      "surface_form": "cakṣuṣā",
+      "lemma": "cakṣus",
+      "grammar": "instrumental neuter singular noun",
       "senses_attested_in_panel": [
         {
-          "sense": "परमात्मा इत्यर्थः",
-          "school": "advaita",
-          "weight": 0.8,
-          "witnesses": [
-            "shankara"
-          ]
-        },
-        {
-          "sense": "मम इदं क्षेत्रम् ईदृशम् इति कृत्स्नं बहिः अन्तः",
+          "sense": "ये विदुः भूतप्रकृतिमोक्षं च, ते परं यान्ति निर्मुक्तबन्धनम्, आत्मानं प्राप्नुवन्ति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
@@ -145,7 +62,15 @@
           ]
         },
         {
-          "sense": "क्षेत्रज्ञ एक",
+          "sense": "ये विदुः, तथा चेयमुक्ता भूतानां प्रकृतिस्तस्याः सकाशान्मोक्षं मोक्षोपायं ध्यानादिकं",
+          "school": "bhakti",
+          "weight": 0.8,
+          "witnesses": [
+            "sridhara"
+          ]
+        },
+        {
+          "sense": "ये विदुः भूतप्रकृतिमोक्षं",
           "school": "advaita-bhakti",
           "weight": 0.8,
           "witnesses": [
@@ -154,31 +79,63 @@
         }
       ],
       "theme_lists": [],
-      "surface_devanagari": "क्षेत्री"
+      "surface_devanagari": "चक्षुषा"
     },
     {
-      "surface_form": "tathā",
-      "lemma": "tathā",
-      "grammar": "",
+      "surface_form": "bhūta",
+      "lemma": "bhūta",
+      "grammar": "compound (compound member)",
       "senses_attested_in_panel": [],
       "theme_lists": [],
-      "surface_devanagari": "तथा"
+      "surface_devanagari": "भूत"
     },
     {
-      "surface_form": "kṛtsnam",
-      "lemma": "kṛtsna",
+      "surface_form": "prakṛti",
+      "lemma": "prakṛti",
+      "grammar": "compound (compound member)",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "प्रकृति"
+    },
+    {
+      "surface_form": "mokṣam",
+      "lemma": "mokṣa",
       "grammar": "accusative masculine singular noun",
       "senses_attested_in_panel": [],
       "theme_lists": [],
-      "surface_devanagari": "कृत्स्नम्"
+      "surface_devanagari": "मोक्षम्"
     },
     {
-      "surface_form": "prakāśayati",
-      "lemma": "pra-√kāśay",
-      "grammar": "present indicative 3rd person singular verb",
+      "surface_form": "ca",
+      "lemma": "ca",
+      "grammar": "",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "च"
+    },
+    {
+      "surface_form": "ye",
+      "lemma": "yad",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "ये"
+    },
+    {
+      "surface_form": "viduḥ",
+      "lemma": "√vid",
+      "grammar": "past indicative 3rd person plural verb",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "विदुः"
+    },
+    {
+      "surface_form": "yānti",
+      "lemma": "√yā",
+      "grammar": "present indicative 3rd person plural verb",
       "senses_attested_in_panel": [
         {
-          "sense": "अवभासयति एकः कृत्स्नं लोकम् इमं रविः सविता आदित्यः, तथा तद्वत् महाभूतादि धृत्यन्तं क्षेत्रम् एकः सन् प्रकाशयति",
+          "sense": "गच्छन्ति ते परं परमात्मतत्त्वं ब्रह्म, न पुनः देहं आददते इत्यर्थः",
           "school": "advaita",
           "weight": 0.8,
           "witnesses": [
@@ -186,154 +143,137 @@
           ]
         },
         {
-          "sense": ", तथा क्षेत्रम्",
+          "sense": "निर्मुक्तबन्धनम्, आत्मानं प्राप्नुवन्ति",
           "school": "viśiṣṭādvaita",
           "weight": 0.8,
           "witnesses": [
             "ramanuja"
           ]
-        },
-        {
-          "sense": "तथाऽयं क्षेत्रीति",
-          "school": "śuddhādvaita",
-          "weight": 0.8,
-          "witnesses": [
-            "vallabha"
-          ]
-        },
-        {
-          "sense": "नच प्रकाश्यधर्मैर्लिप्यते न वा प्रकाश्यभेदाद्भिद्यते",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
         }
       ],
       "theme_lists": [],
-      "surface_devanagari": "प्रकाशयति"
+      "surface_devanagari": "यान्ति"
     },
     {
-      "surface_form": "bhārata",
-      "lemma": "bhārata",
-      "grammar": "vocative masculine singular noun",
-      "senses_attested_in_panel": [
-        {
-          "sense": ", अतएव न प्रकाश्यधर्मैर्लिप्यते न वा प्रकाश्यभेदाद्भिद्यत इतियर्थः",
-          "school": "advaita-bhakti",
-          "weight": 0.8,
-          "witnesses": [
-            "madhusudan"
-          ]
-        }
-      ],
+      "surface_form": "te",
+      "lemma": "tad",
+      "grammar": "nominative masculine plural noun",
+      "senses_attested_in_panel": [],
       "theme_lists": [],
-      "surface_devanagari": "भारत"
+      "surface_devanagari": "ते"
+    },
+    {
+      "surface_form": "param",
+      "lemma": "para",
+      "grammar": "accusative neuter singular noun",
+      "senses_attested_in_panel": [],
+      "theme_lists": [],
+      "surface_devanagari": "परम्"
     }
   ],
   "intertextual_panel": [
     {
-      "verse": "2.10",
-      "type": "lemma-family resonance",
-      "score": 0.8991,
-      "feature_breakdown": {
-        "cosine": 0.8391,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 9.2007,
-        "stem_prefix": 6.0
-      }
-    },
-    {
-      "verse": "3.25",
-      "type": "lemma-family resonance",
-      "score": 0.8953,
-      "feature_breakdown": {
-        "cosine": 0.8453,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 12.1072,
-        "stem_prefix": 5.0
-      }
-    },
-    {
-      "verse": "16.3",
-      "type": "lemma-family resonance",
-      "score": 0.8909,
-      "feature_breakdown": {
-        "cosine": 0.8309,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 9.2007,
-        "stem_prefix": 6.0
-      }
-    },
-    {
-      "verse": "2.18",
-      "type": "lemma-family resonance",
-      "score": 0.8843,
-      "feature_breakdown": {
-        "cosine": 0.8343,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 9.2007,
-        "stem_prefix": 5.0
-      }
-    },
-    {
-      "verse": "11.6",
-      "type": "lemma-family resonance",
-      "score": 0.8831,
-      "feature_breakdown": {
-        "cosine": 0.8331,
-        "theme_graph": 0.0,
-        "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 9.8046,
-        "stem_prefix": 5.0
-      }
-    },
-    {
       "verse": "13.2",
       "type": "cross-chapter thematic parallel",
-      "score": 0.8799,
+      "score": 0.9809,
       "feature_breakdown": {
-        "cosine": 0.8399,
-        "theme_graph": 1.0,
+        "cosine": 0.8566,
+        "theme_graph": 3.0,
         "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 9.7801,
-        "stem_prefix": 3.0
+        "substring": 0.1713,
+        "lemma_overlap": 18.6289,
+        "stem_prefix": 6.0
       }
     },
     {
-      "verse": "13.35",
-      "type": "next-verse continuation",
-      "score": 0.8787,
+      "verse": "13.26",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.9229,
       "feature_breakdown": {
-        "cosine": 0.8387,
-        "theme_graph": 1.0,
+        "cosine": 0.856,
+        "theme_graph": 2.0,
         "vocative": 0.0,
-        "substring": 0.0,
-        "lemma_overlap": 6.5626,
-        "stem_prefix": 3.0
+        "substring": 0.134,
+        "lemma_overlap": 12.475,
+        "stem_prefix": 2.0
       }
     },
     {
-      "verse": "15.20",
+      "verse": "7.4",
+      "type": "long-distance thematic echo",
+      "score": 0.9107,
+      "feature_breakdown": {
+        "cosine": 0.8507,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.8096,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "1.1",
+      "type": "long-distance thematic echo",
+      "score": 0.9072,
+      "feature_breakdown": {
+        "cosine": 0.8268,
+        "theme_graph": 3.0,
+        "vocative": 0.0,
+        "substring": 0.0521,
+        "lemma_overlap": 3.773,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "14.17",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.9069,
+      "feature_breakdown": {
+        "cosine": 0.8469,
+        "theme_graph": 1.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 6.4241,
+        "stem_prefix": 5.0
+      }
+    },
+    {
+      "verse": "3.33",
+      "type": "long-distance thematic echo",
+      "score": 0.9057,
+      "feature_breakdown": {
+        "cosine": 0.8457,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 7.3965,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "9.12",
+      "type": "cross-chapter thematic parallel",
+      "score": 0.9053,
+      "feature_breakdown": {
+        "cosine": 0.8453,
+        "theme_graph": 2.0,
+        "vocative": 0.0,
+        "substring": 0.0,
+        "lemma_overlap": 8.2158,
+        "stem_prefix": 4.0
+      }
+    },
+    {
+      "verse": "7.30",
       "type": "lemma-family resonance",
-      "score": 0.8765,
+      "score": 0.9049,
       "feature_breakdown": {
-        "cosine": 0.8265,
+        "cosine": 0.8349,
         "theme_graph": 0.0,
         "vocative": 0.0,
         "substring": 0.0,
-        "lemma_overlap": 9.2007,
-        "stem_prefix": 5.0
+        "lemma_overlap": 10.5617,
+        "stem_prefix": 7.0
       }
     }
   ],
@@ -342,71 +282,70 @@
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "shankara_13.34",
+        "shankara_13.35",
         "anandgiri_13.34"
       ],
       "score": 0.5,
-      "english_rendering": "As one sun illuminates this entire world, so the single kṣetrajña (field-knower) illuminates the whole kṣetra (field) from the great elements down to steadiness. The ātman (self) is like the sun in a dual sense: singular across all fields and untouched (alepa) by what it illuminates. This closing verse of the chapter summarizes the entire teaching: the one Paramātman (supreme self) is the sole witness, ever uncontaminated by the field's attributes.",
-      "divergence_note": "Shankara explicitly draws the double ravi-drishanta: 'ravivadasarva-kshetreshu eka eva atma, alepakashca' — one self in all fields, and untouched. He frames the verse as chapter-colophon summarizing the kṣetra-kṣetrajña-vibhāga.",
+      "english_rendering": "Those who, in the manner shown, know the antara (distinguishing difference) between kṣetra (field) and kṣetrajña (knower of the field) as explained, by the eye of knowledge, that is, the self-revealing knowledge born of the instruction and grace of śāstra (scripture) and ācārya (teacher), and who know the release from bhūta-prakṛti, the prakṛti of beings which is avidyā (ignorance), called the unmanifest, meaning its going into non-existence, go to the supreme, to the reality of the paramātman, brahman. They do not take up a body again.",
+      "divergence_note": "Śaṅkara (source 13.35) reads bhūta-prakṛti as avidyā itself and mokṣa as its abhāva-gamana (going to non-existence): release is the disappearance of a cause, not escape to a place. The 'eye' is knowledge generated by teaching. The supplied text ends with his chapter colophon, which is not rendered.",
       "commentator": "Shankaracharya"
     },
     "viśiṣṭādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "ramanuja_13.34",
-        "vedantadeshika_13.34"
+        "ramanuja_13.35",
+        "vedantadeshika_13.35"
       ],
       "score": 0.5,
-      "english_rendering": "As one āditya (sun) illuminates the entire world with its own luminosity, so the kṣetrajña illuminates the field completely — from foot to crown, inside and outside — by its own intrinsic jñāna (knowledge). The jīva (individual self) thereby stands absolutely distinct (atyanta-vilakṣaṇa) from the kṣetra just as the illuminating sun stands distinct from the illuminated world. This distinction is not dissolution into a featureless absolute but the ground for the self's relational identity as vettṛ (knower) before the known field.",
-      "divergence_note": "Ramanuja specifies 'bahirantahca apadatala-mastakam svakiyena jnanena prakashayati' — complete illumination head to toe, inside and out, by the self's own knowledge — and concludes with 'atyanta-vilakshana' for the distinctness of ātman from kṣetra.",
+      "english_rendering": "Those who, by the eye called knowledge whose object is discrimination, know in the way described the distinction between field and knower, and who know bhūta-prakṛti-mokṣa, where mokṣa is 'that by which one is released', namely the means of release taught earlier, amānitva (absence of pride) and the rest, attain the supreme, that is, the ātman (self) freed from bondage. Having understood the distinction of the two by that knowledge, and having grasped the means of release from prakṛti that has taken the form of beings, those who practise it become free from bondage and attain the self standing in its own form, whose mark is unlimited knowledge.",
+      "divergence_note": "Rāmānuja (source 13.35) parses mokṣa as an instrument noun ('mokṣyate anena', that by which release happens) and points it to the virtues of 13.7-11; the knowing must issue in practice ('ye ācaranti'). 'Param' is the liberated individual self in its own nature, not brahman as Absolute, consistent with his 13.30.",
       "commentator": "Ramanujacharya"
     },
     "dvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "madhva_13.34",
-        "jayatirtha_13.34"
+        "madhva_13.35",
+        "jayatirtha_13.35"
       ],
       "score": 0.5,
-      "english_rendering": "*Yathā prakāśayaty ekaḥ kṛtsnaṃ lokam imaṃ raviḥ* — as the single sun illumines this entire world — *kṣetrī tathā kṛtsnaṃ kṣetraṃ prakāśayati* — so the *kṣetrajña* illumines the entire *kṣetra* (field). In Dvaita *siddhānta*, the verse names two distinct orders of *kṣetrajña*: the *paratantra* (eternally dependent) *jīva*, whose cognizing light is borrowed and bounded, and the *svatantra* (independently real, self-sufficient) Paramātman, whose light is original and unbounded. The sun-image makes the *bheda* (real distinction) precise: the sun illumines from without, remaining untouched by what it lights. So too the *jīva* illumines its own *kṣetra* through Hari's *anugraha* (grace), never merging with nor equaling the supreme *Kṣetrajña*. *Pañca-bheda* — the five-fold real distinction — holds intact: the Lord's illumining sovereignty is not shared upward by the *jīva*, nor diluted downward into *kṣetra*. The *taratamya* (graded ontological hierarchy) is preserved across all three terms: Paramātman, *jīva*, and *prakṛti* (matter). Dissolution of these distinctions is precisely what the sun-analogy refuses.",
-      "divergence_note": "No Madhva or Jayatīrtha bhāṣya on this verse; siddhānta voiced directly from the mūla.",
-      "commentator": "Madhvacharya",
-      "provenance": "siddhānta_reconstruction"
+      "english_rendering": "Those who know, by the eye of knowledge, the difference between field and knower, and the means of release from the bhūta (elements) and from prakṛti (matter), namely amānitva (absence of pride) and the rest, go to the supreme.",
+      "divergence_note": "Madhva (source 13.35) gives one line only: bhūta-prakṛti-mokṣa = the means of release from beings and from prakṛti, i.e. amānitva etc. (his 13.8). He splits the compound as release from bhūta and from prakṛti, and shares Rāmānuja's instrumental reading of mokṣa. He does not gloss antara, jñāna-cakṣus or param; those parts are rendered from the mūla.",
+      "commentator": "Madhvacharya"
     },
     "śuddhādvaita": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "vallabha_13.34"
+        "vallabha_13.35"
       ],
       "score": 0.5,
-      "english_rendering": "Caitanya (consciousness) is the ātman's own dharma (essential nature), not a product of prakṛti (nature). As the sun, by virtue of its prakāśa-dharma (nature of luminosity), illuminates everything, so the kṣetrī illuminates the field by its own consciousness-nature. The verse further teaches that true kṣetrajñatva (field-knowership) only becomes fully realized through tattvajñāna (knowledge of reality) that apprehends Bhagavān's qualities as the essence — the self's knowing is ultimately the Lord's own luminosity shining within his own manifestation.",
-      "divergence_note": "Vallabha states 'caitanyam jñanarupa-atmanah dharma na prakrita iti' and concludes that kṣetrajñatva is fully constituted only when bhagavad-guṇa-saratva (Bhagavan's qualities as the essence) is apprehended.",
+      "english_rendering": "He sums up what was said: those who, by the sight of tattva-jñāna (knowledge of reality), know in the way described the antara, that is, the difference and discrimination between field and knower, and who know the upāya (means), amānitva (absence of pride) and the rest, from which comes release from bhūta-prakṛti, attain the supreme, the tattva-jñāna that brings one to the Puruṣottama (Supreme Person).",
+      "divergence_note": "Vallabha (source 13.35) makes 'param' not the final goal but the tattva-jñāna that leads to Puruṣottama: knowing the field-knower difference takes one to the knowledge that brings one to the Lord, not to the Lord directly. This matches his two-tier scheme at 13.30 (akṣara-unity by knowledge, Puruṣottama by his will).",
       "commentator": "Vallabhacharya"
     },
     "bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "sridhara_13.34"
+        "sridhara_13.35"
       ],
       "score": 0.5,
-      "english_rendering": "The preceding verse established the self's non-attachment via the ākāśa (space) analogy — hence no contamination. This verse adds the ravi (sun) analogy to show why the self, as illuminator, cannot be qualified by the properties of what it illuminates. The meaning is straightforward (spaṣṭārtha): the kṣetrajña illuminates the entire kṣetra yet remains as untouched by the field's dharmas as the sun is untouched by what it lights.",
-      "divergence_note": "Sridhara explicitly pairs this verse with the previous akasha-drishanta, notes the ravi-drishanta completes the argument for alepa (non-contamination), and declares 'spashtarthah' — clear in meaning.",
+      "english_rendering": "He sums up the meaning of the chapter: those who, by the eye whose mark is discriminating knowledge, know in the way described the difference between field and knower, and who also know release from the prakṛti of beings described here, that is, the means of release, meditation and the rest, go to the supreme abode.",
+      "divergence_note": "Śrīdhara (source 13.35) also reads mokṣa as the means, but names the means as dhyāna (meditation) and the like, where Rāmānuja, Madhva and Vallabha name amānitva. 'Param' is glossed 'param padam' (the supreme abode), a destination rather than a state or a knowledge.",
       "commentator": "Sridhara Svami"
     },
     "advaita-bhakti": {
       "reading_summary": "(reading summary extraction pending; ENABLE_READING_SUMMARIES=true to generate)",
       "key_cross_references": [],
       "witness_passages": [
-        "madhusudan_13.34"
+        "madhusudan_13.35"
       ],
       "score": 0.5,
-      "english_rendering": "Not only because the ātman is by nature asanga (unattached) does it remain unlipyate (uncontaminated), but also because it is the illuminator: the illuminator is never stained by the properties of what it illuminates, nor is it divided by the plurality of illuminated objects. The singular kṣetrajña illuminates the entire kṣetra yet is neither marked by its modifications nor fragmented into many selves by the many bodies. The Kaṭha-śruti anchor 'suryo yatha sarvalokasya cakṣuh na lipyate cakṣushair bahya-doṣaih' seals this: the self is the eye of all worlds, touching none of their afflictions.",
-      "divergence_note": "Madhusudana gives a double argument — asanga-svabhava AND prakashakatva — and cites Katha Upanishad 'suryo yatha sarvalokasya cakshuh' to close the chapter. He explicitly states the self is neither contaminated by field-properties nor divided by field-multiplicity.",
-      "commentator": "Madhusudana Sarasvati"
+      "english_rendering": "Now he concludes the chapter with its fruit: those who, by the eye of knowledge, the knowledge of the Self born of the teaching of śāstra (scripture) and ācārya (teacher), know the distinction between field and knower, inertness against consciousness, changing against changeless, and who know the release from bhūta-prakṛti, that is, the going into non-existence, through the knowledge of the supreme Self, of avidyā (ignorance) called māyā, go to the supreme, kaivalya (aloneness), the true nature of the reality that is the Self, and do not take a body again. Thus it is established that for one steadfast in the disciplines beginning with amānitva (absence of pride) and possessed of discriminating knowledge of field and knower, the highest human goal is reached through the cessation of every evil.",
+      "divergence_note": "Madhusūdana (source 13.35) follows Śaṅkara on mokṣa as the abolition of avidyā, naming it māyā, and calls the goal kaivalya; but unlike Śaṅkara he brings amānitva back in as the sādhana (discipline) of the one who knows, a bridge to the instrumental reading of the Vaiṣṇava schools. No devotional element in this comment.",
+      "commentator": "Madhusudan Sarasvati"
     }
   },
   "prosodic_information": {
@@ -414,7 +353,7 @@
     "meter_shift_from_previous": false,
     "meter_shift_to_next": false,
     "pragmatic_context": {
-      "vocative": "Bhārata",
+      "vocative": "",
       "preceding_question": "",
       "following_response": ""
     }
@@ -431,14 +370,128 @@
         "13.6",
         "13.18",
         "13.26",
-        "13.35"
+        "13.33"
       ]
     },
     {
-      "list": "प्रकाशयति",
+      "list": "क्षेत्रज्ञ",
       "role": "supporting",
       "other_verses_in_list": [
-        "5.16"
+        "2.16",
+        "13.1",
+        "13.2",
+        "13.26"
+      ]
+    },
+    {
+      "list": "ज्ञान",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.26",
+        "3.32",
+        "3.33",
+        "3.39",
+        "3.40",
+        "3.41",
+        "4.6",
+        "4.10",
+        "4.19",
+        "4.21",
+        "4.23",
+        "4.27",
+        "4.28",
+        "4.33",
+        "4.34",
+        "4.36",
+        "4.37",
+        "4.38",
+        "4.39",
+        "4.41",
+        "4.42",
+        "5.15",
+        "5.16",
+        "5.17",
+        "6.8",
+        "6.46",
+        "7.2",
+        "7.6",
+        "7.15",
+        "7.16",
+        "7.17",
+        "7.18",
+        "7.19",
+        "7.20",
+        "9.1",
+        "9.12",
+        "9.15",
+        "9.24",
+        "10.4",
+        "10.5",
+        "10.11",
+        "10.25",
+        "10.38",
+        "12.12",
+        "12.13",
+        "12.14",
+        "13.2",
+        "13.11",
+        "13.17",
+        "13.18",
+        "14.1",
+        "14.2",
+        "14.6",
+        "14.8",
+        "14.9",
+        "14.11",
+        "14.16",
+        "14.17",
+        "15.10",
+        "15.15",
+        "16.1",
+        "16.4",
+        "16.15",
+        "18.18",
+        "18.19",
+        "18.20",
+        "18.21",
+        "18.42",
+        "18.50",
+        "18.63",
+        "18.70",
+        "18.72"
+      ]
+    },
+    {
+      "list": "प्रकृति",
+      "role": "supporting",
+      "other_verses_in_list": [
+        "1.1",
+        "3.5",
+        "3.28",
+        "3.33",
+        "4.6",
+        "5.10",
+        "7.4",
+        "7.5",
+        "7.20",
+        "9.7",
+        "9.8",
+        "9.10",
+        "9.12",
+        "9.13",
+        "11.51",
+        "13.19",
+        "13.20",
+        "13.21",
+        "13.23",
+        "14.5",
+        "15.7",
+        "18.40",
+        "18.59"
       ]
     }
   ],
@@ -476,35 +529,48 @@
         "fix": "verb-lemma-misidentification (broader heuristic: prefix-√root canonical for all verb-tagged tokens)",
         "scope": "word_by_word[].lemma",
         "loci": [
-          "prakāśayati: prakāśay -> pra-√kāśay",
-          "prakāśayati: prakāśay -> pra-√kāśay"
+          "viduḥ: vid -> √vid",
+          "yānti: yā -> √yā"
         ]
       },
       {
         "kind": "qmark_artifact_repair",
-        "applied_at": "2026-05-08T02:00:43.463467Z",
-        "patches": 7,
+        "applied_at": "2026-05-08T02:00:43.464250Z",
+        "patches": 5,
         "root_cause": "ITRANS \\, escape coerced to ASCII ? in gitasupersite HTML pipeline",
         "verification": "Cross-school 5-verse alignment (12.13, 9.4, 11.32, 18.65, 14.5) vs sd_bgshankarabhashya.itx"
+      },
+      {
+        "kind": "ch13_commentary_realignment",
+        "applied_at": "2026-10-23T02:22:33.232449+00:00",
+        "applied_by": "sutrakrit-gita/scripts/merge_ch13_realigned.py",
+        "root_cause": "Chapter 13 commentaries count 35 verses (13.1 = Arjuna's question) but the edition counts 34; payloads paired mūla 13.N with each commentary's 13.N, i.e. the previous verse's bhāṣya for most schools.",
+        "source_verses": {
+          "advaita": "13.35",
+          "viśiṣṭādvaita": "13.35",
+          "dvaita": "13.35",
+          "śuddhādvaita": "13.35",
+          "bhakti": "13.35",
+          "advaita-bhakti": "13.35"
+        }
       }
     ]
   },
+  "primary_meaning": "Those who see with the eye of knowledge the difference between the field and its knower, and who understand how beings are released from material nature, reach the supreme.",
   "so_what_questions": [
-    "If the jñāna-cakṣu (eye of knowledge) sees the field-knower distinction clearly, what exactly changes in how one experiences pain — is it that pain ceases, or only that its reach stops at a certain boundary?",
-    "The sun illuminates a corpse and a temple without distinction and is stained by neither. Does the kṣetrajña analogy imply a kind of radical moral non-preference, or does jñāna generate its own discriminating action?",
-    "All six schools grant that the kṣetrajña illuminates without contamination — yet Dvaita insists the jīva's light is borrowed, while Advaita says it is self-subsistent. What practical difference does this make at the moment of grief or illness?",
-    "The verse closes the entire Chapter 13 as a colophon. What work does the closing analogy perform that argument alone could not — why does the chapter end in an image rather than a proposition?",
-    "Madhusudana insists the self is neither stained by field-properties nor divided by field-multiplicity. Which of these two — contamination or division — is the harder illusion to release in lived experience?",
-    "If kṣetrajñatva (being the field-knower) is the self's own nature and not an achievement, what is the role of sādhana (practice)? Does practice remove an obstruction, or is it itself part of the field being illuminated?",
-    "The ravi analogy is universal across all six schools yet each school draws a different conclusion from it. What does this reveal about how doctrinal commitment shapes what one notices in an analogy?"
+    "Can I tell the difference between what I am and what I am working with, my body, my role, my tools?",
+    "Is freedom something I get by understanding, or something I get by practising, or both?",
+    "If what traps me is a misunderstanding, what happens to the trap once I see it clearly?",
+    "Is humility a result of seeing clearly, or a condition for it?",
+    "Where does real insight come from: my own effort, a good teacher, or something given?",
+    "When I finally understand a problem, do I still need to change how I live, or is the understanding enough?"
   ],
   "everyday_applications": {
-    "advaita": "When you are overwhelmed by the accumulated weight of roles — parent, professional, patient — sit and notice the one that is aware of all these. That witnessing awareness is already the kṣetrajña. It does not need to be built; it needs to be recognised as what has always been present, undivided and unmarked by any of the roles it has witnessed.",
-    "viśiṣṭādvaita": "In a difficult relationship, practise distinguishing between 'I am hurt' and 'I, the knower, am perceiving hurt in this kṣetra.' The jīva's irreducible identity as knower — distinct from what it knows — is not cold distance but the foundation from which genuine love can be offered without merger or loss of self. Know yourself as distinct, then serve fully.",
-    "dvaita": "When you feel inadequate or spiritually dim, recall that the light by which you know anything at all is not yours to manufacture — it is Hari's sovereign luminosity passing through you. This is not humiliation; it is relief. Your task is not to generate the light but to remain transparent to it, undistorted by pride or despair.",
-    "śuddhādvaita": "Notice in moments of deep aesthetic pleasure — music, beauty, a sudden kindness — that the caitanya (consciousness) lighting up the experience does not belong to the object. The joy is the self's own nature meeting itself in the world. Vallabha's teaching here: savour fully, attribute the luminosity rightly, and the experience becomes prasāda (grace-gift) rather than craving.",
-    "bhakti": "Sridhara's 'spashtarthah' (it is clear) is itself a practice instruction: do not over-complicate the recognition. The sun does not philosophise about not being stained. When you catch yourself being pulled into someone else's panic or anger, the practice is simply to notice — 'illuminating, not absorbing' — and return to steady witnessing. The simplicity is the teaching.",
-    "advaita-bhakti": "Madhusudana's synthesis: hold both the Upanishadic image of the sun-as-eye and the Kṛṣṇa-devotee's intimacy with the Lord. The self that is unstained by the world's suffering is not indifferent — it is the eye through which Kṛṣṇa himself sees all beings. Bring this to care-giving or grief: you can be fully present to another's pain without being destroyed by it, because the eye of awareness is not the pain it holds."
-  },
-  "primary_meaning": "Just as one sun lights the whole world, the single knower of the field lights the entire field, Arjuna, yet is no more stained by it than the sun is stained by what it shines on."
+    "advaita": "A manager who has spent ten years believing she is her job title learns, through a good mentor and honest reflection, that the belief itself was the cage. Once she sees that clearly, there is nothing left to escape from, because the cage was never built out of anything but that mistake. She stops needing the next promotion to feel like someone.",
+    "viśiṣṭādvaita": "An engineer who finally sees the difference between himself and his overworked, ageing body does not stop there. He takes up the concrete habits that free him day by day: not needing credit, not faking, being patient with his team. Knowing the difference and practising those habits together give him back to himself.",
+    "dvaita": "A medical resident who wants to be free of the pull of exhaustion and ambition is pointed to something simple: drop the pride. Lack of arrogance, honesty and patience are not decorations on the path; they are the path. The freedom she wants comes from doing them.",
+    "śuddhādvaita": "A student who masters the distinction between herself and her circumstances should not think she has arrived. What she has gained is the kind of clear seeing that brings her toward the one who matters most. Clarity is the road, not the house.",
+    "bhakti": "A busy parent who knows in theory that he is more than his worries still needs a practice to make it real: ten minutes of quiet attention each morning before the house wakes up. Seeing the difference tells him where to go. The daily sitting is how he gets there.",
+    "advaita-bhakti": "A recovering addict who has done the steps, worked on his pride and learned to be honest, then has a moment of real insight: the craving and the shame belonged to a confusion about who he is, not to him. When that confusion goes, everything it brought with it goes too. The discipline made him ready; the clear seeing makes him free."
+  }
 }
