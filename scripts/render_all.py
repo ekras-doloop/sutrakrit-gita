@@ -212,7 +212,7 @@ def render_one(sub: Substrate, verse_id: str, top_k: int, version: str) -> dict:
             "substrate_version": version,
             "fitted_weights": FROZEN_WEIGHTS,
             "corpus_provenance": {
-                "mūla": "Belvalkar critical edition (BORI 1947), via Ambuda multi-witness",
+                "mūla": "GRETIL e-text of the Bhagavadgītā with Śaṅkara's commentary (data entry: Gaudiya Grantha Mandira) for chapters 1-17; sanskritdocuments.org sd_bgnew.itx for chapter 18; ingested via a local Ambuda TEI build; per-verse repairs logged in post_generation_repairs",
                 "panel_witnesses": [
                     "bg-mula", "bg-shankara", "bg-ramanuja", "bg-madhva",
                     "bg-vedantadeshika", "bg-vallabha", "bg-jayatirtha",

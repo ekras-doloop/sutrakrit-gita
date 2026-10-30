@@ -237,7 +237,7 @@
           "type": "object",
           "description": "Source corpora used in the rendering.",
           "properties": {
-            "mūla": {"type": "string", "description": "Source for the verse's mūla text (e.g., 'Belvalkar critical edition (BORI 1947)')"},
+            "mūla": {"type": "string", "description": "Source for the verse's mūla text (e.g., 'GRETIL e-text of the Bhagavadgītā, chapters 1-17')"},
             "panel_witnesses": {
               "type": "array",
               "description": "Identifier list of all commentator corpora consulted in producing this object.",
