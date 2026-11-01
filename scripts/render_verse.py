@@ -59,26 +59,8 @@ def _devanagari_surface_for_lemma(token_surface: str) -> str:
     except Exception:
         return ""
 
-DIALOGUE_MAP = {
-    "1": ("Arjuna", "Krishna"),
-    "2": ("Krishna", "Arjuna"),
-    "3": ("Krishna", "Arjuna"),
-    "4": ("Krishna", "Arjuna"),
-    "5": ("Krishna", "Arjuna"),
-    "6": ("Krishna", "Arjuna"),
-    "7": ("Krishna", "Arjuna"),
-    "8": ("Krishna", "Arjuna"),
-    "9": ("Krishna", "Arjuna"),
-    "10": ("Krishna", "Arjuna"),
-    "11": ("Krishna", "Arjuna"),
-    "12": ("Krishna", "Arjuna"),
-    "13": ("Krishna", "Arjuna"),
-    "14": ("Krishna", "Arjuna"),
-    "15": ("Krishna", "Arjuna"),
-    "16": ("Krishna", "Arjuna"),
-    "17": ("Krishna", "Arjuna"),
-    "18": ("Krishna", "Arjuna"),
-}
+# Who speaks each verse, from the uvāca headers in the mūla (data/speakers.json).
+SPEAKERS = json.loads((Path(__file__).resolve().parent.parent / "data" / "speakers.json").read_text())["speakers"]
 
 CHAPTER_NAMES = {
     "1": "Arjuna-Viṣāda-Yoga (The Yoga of Arjuna's Despondency)",
@@ -158,7 +140,7 @@ def render_verse(verse_id: str, top_k: int, substrate_version: str) -> dict:
         raise ValueError(f"Verse {verse_id} not found in BG mūla corpus")
 
     chapter, verse_num = verse_id.split(".")
-    speaker, addressed = DIALOGUE_MAP.get(chapter, ("Krishna", "Arjuna"))
+    speaker, addressed = SPEAKERS[verse_id]
     chapter_name = CHAPTER_NAMES.get(chapter, f"Chapter {chapter}")
 
     # --- mūla section -------------------------------------------------
